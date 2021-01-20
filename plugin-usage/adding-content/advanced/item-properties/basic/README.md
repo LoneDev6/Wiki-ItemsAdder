@@ -4,7 +4,7 @@ description: Collection of basic item properties
 
 # Basic
 
-### Enabled
+## Enabled
 
 ```yaml
 enabled: true
@@ -14,7 +14,7 @@ With this setting you can disable an item completely.
 **Obviously if a player has it in inventory it won't be removed, he still will own it.  
 Same thing for blocks, but when broken they won't drop anymore**
 
-### Display name
+## Display name
 
 ```yaml
 display_name: "Test"
@@ -22,7 +22,7 @@ display_name: "Test"
 
 This is the name user will see on the item
 
-### Permission
+## Permission
 
 ```yaml
 permission: myitem
@@ -30,7 +30,7 @@ permission: myitem
 
 {% page-ref page="item-permission.md" %}
 
-### Lore
+## Lore
 
 ```yaml
 lore:
@@ -41,7 +41,7 @@ lore:
 
 Lore lines of the item
 
-### Attribute modifiers
+## Attribute modifiers
 
 ```yaml
 attribute_modifiers:
@@ -67,7 +67,7 @@ attribute_modifiers:
 
 These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
 
-### Durability
+## Durability
 
 ```yaml
 durability:
@@ -85,7 +85,7 @@ There are pretty self explanatory.
 
 `max_custom_durability` is the max durability the item can reach
 
-### Item flags
+## Item flags
 
 ```yaml
 item_flags:
@@ -100,7 +100,7 @@ item_flags:
 Special item flags that can hide some vanilla info of the item.  
 You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-### blocked\_enchants
+## blocked\_enchants
 
 Special item property that disables enchants for this item, so your users won't be able to enchant it.
 
@@ -125,7 +125,7 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-### events\_cooldown
+## events\_cooldown
 
 Special attribute to limit spamming of events by players. It's in ticks, so 20 = 1 second.
 

@@ -18,9 +18,3 @@ To define your own namespace \(you can also define multiple ones!\) it's really 
 
 {% page-ref page="../creating-your-namespace.md" %}
 
-
-
-
-
-
-

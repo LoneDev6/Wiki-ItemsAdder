@@ -48,11 +48,11 @@ block_trade_machine:
       result:
         item: red_fishing_rod
         amount: 1
-        
+
 furniture_trade_machine:
 ....... it's the same as block_trade_machine
 
-   
+
 # When you rightclick with that item it will be placed on the ground with an
 # armorstand. The armorstand will have the item as helmet and will be invisible.
 furniture:
@@ -69,13 +69,13 @@ furniture:
 furniture_sit:
   sit_height: 0.9
   opposite_direction: true #default is true
-  
+
 
 # Allows you to use this item as a gun. You can decide which projectile must
 # be hold on left hand in order to shot.
 gun:
   projectile: itemsadder:clip
-  
+
 
 # Allows you to use the current item as hat (same vanilla helmet behaviour)
 hat: true
@@ -88,7 +88,7 @@ music_disc:
   song:
     name: "itemsadder:music_disc.cdk_sunday"
     description: "Cdk - Sunday"
-    
+
 
 # Allows you to use the current item as a ridable vehicle
 vehicle:
@@ -113,10 +113,4 @@ vehicle:
       COAL_BLOCK: 9
       "itemsadder:banana": 1
 ```
-
-
-
-
-
-
 

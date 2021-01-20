@@ -1,4 +1,4 @@
-# 📄文件编辑器
+# 📄Files editor
 
 {% hint style="warning" %}
 **Warning**: 本工具仍在测试中，所提供的功能不完全，也有可能出现BUG

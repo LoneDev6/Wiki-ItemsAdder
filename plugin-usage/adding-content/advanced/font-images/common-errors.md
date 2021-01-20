@@ -17,15 +17,14 @@ Minecraft cuts images if they have transparency \(0/255 alpha channel value\), s
 ## When I add a hud others shift of some pixels
 
 Be sure to have each image size set to a multiple of 2.  
-Example:  
-- 2x2  
-- 4x4  
-- 6x6  
-- 52x52  
-- ......  
+Example:
 
+* 2x2  
+* 4x4  
+* 6x6  
+* 52x52  
+* ......  
 
 If you still have problems try to increase/decrease the size by 2 until the wrong shift disappears.  
-This is an approximation problem I cannot fix.  
-
+This is an approximation problem I cannot fix.
 

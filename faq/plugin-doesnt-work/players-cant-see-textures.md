@@ -1,6 +1,6 @@
 # 👁Players can't see textures
 
-#### _My players can't see textures! But I've followed the whole tutorial_ <a id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+## _My players can't see textures! But I've followed the whole tutorial_ <a id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
 There are three ways to fix this issue:
 

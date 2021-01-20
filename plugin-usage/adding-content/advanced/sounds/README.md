@@ -23,11 +23,11 @@ To add your sound into the file you just have to do this:
 
 ```javascript
 {
-	"music_disc.cdk_sunday":{
-		"sounds":[
-			"itemsadder:music_disc/cdk_sunday"
-		]
-	}
+    "music_disc.cdk_sunday":{
+        "sounds":[
+            "itemsadder:music_disc/cdk_sunday"
+        ]
+    }
 }
 ```
 
@@ -43,18 +43,18 @@ Minecraft will play one of these sounds randomly \(only if you set more than one
 
 ```javascript
 "sounds":[
-			"itemsadder:music_disc/cdk_sunday"
-		]
+            "itemsadder:music_disc/cdk_sunday"
+        ]
 ```
 
 For example if you want to have random sounds for the same sound name you just have to create multiple .ogg files and put them like this:
 
 ```javascript
 "sounds":[
-			"itemsadder:music_disc/cdk_sunday_1",
-			"itemsadder:music_disc/cdk_sunday_2",
-			"itemsadder:music_disc/test_file"
-		]
+            "itemsadder:music_disc/cdk_sunday_1",
+            "itemsadder:music_disc/cdk_sunday_2",
+            "itemsadder:music_disc/test_file"
+        ]
 ```
 
 ## How can I add multiple sounds in the sounds.json file?

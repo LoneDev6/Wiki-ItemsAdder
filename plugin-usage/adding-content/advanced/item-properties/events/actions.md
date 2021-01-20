@@ -54,12 +54,12 @@ play_sound:
   name: itemsadder:ambient.creepy
   volume: 1
   pitch: 1
-  
-  
+
+
 stop_sound:
   name: "itemsadder:music_disc.cdk_sunday"
-  
-  
+
+
 execute_commands:
   first_example:
     command: 'tellraw {player} {"text":"wow you did something!","color":"gold"}'
@@ -70,31 +70,31 @@ execute_commands:
   third:
     command: 'give {player} diamond'
     as_console: true
-    
-    
+
+
 play_particle:
   name: "ENCHANTMENT_TABLE"
-  
-  
+
+
 play_effect:
   name: SMOKE
-  
+
 increment_durability:
   amount: 10
-  
-  
+
+
 decrement_durability:
   amount: 10
-  
-  
+
+
 decrement_usages:
   amount: 1
 
 
 increment_amount:
   amount: 1
-          
-          
+
+
 decrement_amount:
   amount: 1    
 
@@ -103,11 +103,11 @@ drop_exp:
   chance: 50
   min_amount: 1
   max_amount: 3
-    
+
 
 feed:
   amount: 6
-    
+
 # Replaced properties of the current item copying them from another.
 # For now you can only do that with custom_model_data. More will be added.
 replace_properties:
@@ -119,7 +119,7 @@ replace_properties:
 give_item:
   item: empty_cup
   amount: 1
-  
+
 # Replaces blocks around the block you interacted with or break
 replace_near_blocks:
   radius:
@@ -130,7 +130,7 @@ replace_near_blocks:
   to: OBSIDIAN
   decrement_durability: 8
   no_physics: false #default is false
-  
+
 # Glows blocks around the block you interacted with or break
 glow_near_blocks:
   decrement_durability:
@@ -140,7 +140,7 @@ glow_near_blocks:
     y: 50
     z: 50
   material: DIAMOND_ORE
-  
+
 # Breaks multiple blocks around the block you interacted with or break
 multiple_break:
   keep_ores: true
@@ -149,8 +149,8 @@ multiple_break:
     need_silk_touch: true
   size: 3
   depth: 3
-  
-  
+
+
 potion_effect:
   type: UNLUCK
   duration: 100
@@ -159,25 +159,25 @@ potion_effect:
 
 remove_potion_effect:
   type: GLOWING
-  
-  
+
+
 explosion:
   power: 2
   fire: true
   break_blocks: true
-  
+
 # Special action that allows you to increment player stat linked to an hud
 #in this case hud named: "itemsadder:mana_bar"
 increment_player_stat:
   name: "itemsadder:mana_bar"
   amount: 1
-  
+
 # Special action that allows you to decrement player stat linked to an hud
 #in this case hud named: "itemsadder:mana_bar"
 decrement_player_stat:
   name: "itemsadder:mana_bar"
   amount: 1
-  
+
 # Special action to make the event cancelled (the event that called this action)
 cancel: true
 
@@ -186,13 +186,11 @@ target_potion_effect:
   type: GLOWING
   duration: 70
   amplifier: 15
-  
+
 # Removes potion effect to target entity (attack, interact...)
 target_remove_potion_effect:
   type: GLOWING
-  
+
 play_totem_animation: animatedtitles:bruh
 ```
-
-### 
 

@@ -6,11 +6,10 @@ Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"
 
 ![](../../../../../.gitbook/assets/immagine%20%284%29.png)
 
-  
 With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft bug.
 
 {% hint style="warning" %}
-You must set **Force Unicode Font: OFF** 
+You must set **Force Unicode Font: OFF**
 {% endhint %}
 
 ![](../../../../../.gitbook/assets/immagine%20%283%29.png)
@@ -25,7 +24,7 @@ and **set this** in `config.yml`
 This allows you to set **Force Unicode Font: OFF** but still have the thin font enabled.
 
 {% hint style="warning" %}
-Remember, after this change you have to regenerate your pack.zip file.   
+Remember, after this change you have to regenerate your pack.zip file.  
 Check [Resourcepack tutorials](../../../../resourcepack-hosting/)
 {% endhint %}
 

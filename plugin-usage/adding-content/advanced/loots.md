@@ -1,7 +1,7 @@
 # Loots
 
 Loots can be used to specify when to drop a particular item.  
-You can decide to create different loot types: 
+You can decide to create different loot types:
 
 * blocks
 * mobs
@@ -41,11 +41,11 @@ This example has two loots in **blocks** category.
 First one is called **ruby\_ore** \(you can call them as you prefer\), this will drop a **itemsadder:ruby** item when you break a custom **block** of type **itemsadder:ruby\_ore** with a minimum **amount** of **1** and **maximum** amount of **2** with **100% chance**.
 
 The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal** or a **knowledge\_fragment** when the player breaks a **NETHER\_QUARTZ\_ORE**.  
-These **drops** are decided by **ItemsAdder** based on **chance** you set. 
+These **drops** are decided by **ItemsAdder** based on **chance** you set.
 
 {% hint style="info" %}
 Special property: **drop\_only\_first**  
-This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.   
+This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.  
 **WARNING**: this would make your items **harder** to be **dropped**.
 {% endhint %}
 

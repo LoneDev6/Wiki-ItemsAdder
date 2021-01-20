@@ -1,10 +1,10 @@
 # Music discs
 
-### Step 1
+## Step 1
 
 {% page-ref page="sounds/" %}
 
-### Step 2
+## Step 2
 
 Create a new item in your namespace, this will be your music disc:
 

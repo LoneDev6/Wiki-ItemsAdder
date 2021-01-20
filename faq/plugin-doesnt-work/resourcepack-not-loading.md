@@ -12,3 +12,4 @@
 {% hint style="danger" %}
 Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
 {% endhint %}
+

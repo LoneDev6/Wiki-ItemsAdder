@@ -12,16 +12,14 @@ You can find it here: `plugins/ItemsAdder/data/resource_pack/`
 
 ## How to upload your resourcepack to DropBox
 
-{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
-
-
+{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" caption="" %}
 
 One of the most famous is DropBox. It allows you to publish your files for free and it's really easy and fast.  
 You just have to:
 
 * Open [DropBox](https://dropbox.com/), register/login
 * Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* Be sure you used command ****`/iazip` \(it's important because `/iazip`reloads the configs, updates the **pack.zip** file\)
+* Be sure you used command **\*\*`/iazip` \(it's important because `/iazip`reloads the configs, updates the** pack.zip\*\* file\)
 * Drag and drop on **DropBox** the file **pack.zip**
 * Press **Share**
 

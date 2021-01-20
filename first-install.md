@@ -1,8 +1,8 @@
-# ⚙️首次使用
+# ⚙️First install
 
 ## 视频教程
 
-{% embed url="https://youtu.be/GKGnlF4zZVg" %}
+{% embed url="https://youtu.be/GKGnlF4zZVg" caption="" %}
 
 ## 步骤 1
 
@@ -28,8 +28,6 @@
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
 
-
-
 {% hint style="warning" %}
 当你想让插件更新资源包 `pack.zip`，请输入指令 `/iazip`
 {% endhint %}
@@ -41,6 +39,4 @@
 
 {% page-ref page="faq/removing-default-stuff.md" %}
 {% endhint %}
-
-
 

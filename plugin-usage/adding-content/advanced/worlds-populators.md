@@ -1,6 +1,6 @@
 # Worlds populators
 
-### Example: 2 populators
+## Example: 2 populators
 
 ```yaml
 worlds_populators:
@@ -37,13 +37,13 @@ worlds_populators:
 
 This code allows you to tell ItemsAdder to generate the block "myitems:custom\_block" in the world named "world" and replace only block of types STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL and only in biome PLAINS.
 
-### amount, iterations, chance
+## amount, iterations, chance
 
 {% hint style="warning" %}
 I suggest you to copy values from the blocks.yml file I created in the itemsadder folder.  
 Don't put too high values or the server will lag/crash.  
-Take my values as example.  
-  
+Take my values as example.
+
 The only thing that you can increase safely as you wish is the **chance**.
 {% endhint %}
 
@@ -51,7 +51,7 @@ The only thing that you can increase safely as you wish is the **chance**.
 **amount**: number of blocks in each ore vein \(or the **vein size**\)  
 **chance**: chance of that generation to happen in a chunk, you should set it to 100 to normal ores and lower it down for more rare ores.
 
-### Biomes
+## Biomes
 
 You can remove this option and the plugin will spawn ores in every biome.
 
@@ -74,7 +74,7 @@ You can remove this option and the plugin will spawn ores in every biome.
     iterations: 1
 ```
 
-### Replaceable blocks
+## Replaceable blocks
 
 You can remove this option and the plugin will spawn ores replacing every block instead of checking if it can be replaced.
 
@@ -89,6 +89,4 @@ You can remove this option and the plugin will spawn ores replacing every block 
     amount: 6
     iterations: 1
 ```
-
-
 

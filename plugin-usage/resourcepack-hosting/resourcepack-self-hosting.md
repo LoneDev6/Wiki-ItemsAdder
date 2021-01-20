@@ -4,25 +4,25 @@
 **Make sure you're not** using **UPPERCASE** or **special characters** in **items** names, **namespaces**, **texture files** \(**png**\) and **model files** \(**json**\)
 {% endhint %}
 
-With ItemsAdder 2.0 you can host the resourcepack directly on your server!   
+With ItemsAdder 2.0 you can host the resourcepack directly on your server!  
 No need to pay for a website host and **no need to upload the pack everytime you make a change!**
 
 {% hint style="warning" %}
+
 Your hosting service must let you get additional ports for your server.  
 If your hosting service doesn't provide you additional ports you have to use **DropBox**, check this tutorial:
 
 {% page-ref page="resourcepack-on-dropbox.md" %}
-{% endhint %}
 
 ## Info about self-hosting
 
 ### But I don't want/can't open another port on the server
 
 {% hint style="info" %}
+
 If you don't want to host the pack on your server you can just configure `config.yml` following the next tutorial.
 
 {% page-ref page="resourcepack-on-dropbox.md" %}
-{% endhint %}
 
 ### What is the difference between self-host and external-host?
 
@@ -70,6 +70,6 @@ If you are testing the plugin on your PC you can leave default config, because 1
 {% endhint %}
 
 {% hint style="danger" %}
-Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**...  ****or you won't see any change obviously.
+Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... _\*\*_or you won't see any change obviously.
 {% endhint %}
 

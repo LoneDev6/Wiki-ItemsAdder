@@ -3,8 +3,7 @@
 ## How can I remove all the items and default stuff?
 
 If you only want to make your own items, blocks and other things it's easy!  
-Follow this tutorial.  
-
+Follow this tutorial.
 
 ### 1. Config.yml
 
@@ -37,7 +36,7 @@ Open plugin `config.yml` file and set this to **false**.
 `plugins\ItemsAdder\data\items_packs\mcemojis`  
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
-####  Example items
+#### Example items
 
 `plugins\ItemsAdder\data\items_packs\example`  
 `plugins\ItemsAdder\data\resource_pack\assets\example`
@@ -47,6 +46,4 @@ Open plugin `config.yml` file and set this to **false**.
 
 If you delete minecraft, mcguis or mcicons folders some parts of the plugin will stop working.
 {% endhint %}
-
-
 

@@ -1,4 +1,4 @@
-# ❤️捐赠来支持我的更新
+# ❤️Donation - Support my work
 
 ## 自愿充电支持网址
 

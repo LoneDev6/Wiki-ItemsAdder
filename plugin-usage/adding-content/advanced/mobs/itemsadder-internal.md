@@ -46,7 +46,7 @@ items:
 This behaviour tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT` and only in caves \(`max_sky_light: 0`\).  
 The mob will also have head rotation locked \(only on Y axis\), this will avoid it from looking stupid while looking at player when is at an higher position.
 
-`hit_color` is the color the mob will have when damaged by player.   
+`hit_color` is the color the mob will have when damaged by player.  
 You can get a valid color from these websites:  
 [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)  
 [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)  

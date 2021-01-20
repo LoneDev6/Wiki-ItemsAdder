@@ -56,7 +56,7 @@ Cancel drop when block is broken.
 Useful if you have any mineral that will drop out of the block \(loots\), to avoid exploits.
 
 {% hint style="info" %}
-If you use silk touch enchanted tool to break the block you will still get the block but it won't drop any item from its loot 
+If you use silk touch enchanted tool to break the block you will still get the block but it won't drop any item from its loot
 {% endhint %}
 
 ## Tools blacklist and whitelist
@@ -74,7 +74,7 @@ Whitelist of tools that can break this block
 
 ### hardness
 
-Hardness of the block, it makes it more difficult to be mined.   
+Hardness of the block, it makes it more difficult to be mined.  
 Refer to my blocks to get some **examples** \(check **blocks.yml** file inside **itemsadder namespace**\).
 
 ### sounds
@@ -83,10 +83,8 @@ You can change block break and place sounds. You can specify a [custom sound](..
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
 
 {% hint style="info" %}
-If no **break** sound is specified it will play  [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK_STONE_BREAK)  ``\(`block.stone.break`\)
+If no **break** sound is specified it will play [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK_STONE_BREAK) ```\(``block.stone.break\`\)
 
 If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](../resource/)attribute of this block.
 {% endhint %}
-
-
 

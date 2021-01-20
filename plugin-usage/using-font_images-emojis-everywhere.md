@@ -2,7 +2,7 @@
 
 It's very easy, you will be able to use emojis everywhere! For example in [holograms](../compatibility-with-other-plugins/compatible/holographic-displays.md).
 
-### How to do it?
+## How to do it?
 
 **UPDATE ITEMSADDER TO VERSION 2.1.21 OR MORE RECENT**
 

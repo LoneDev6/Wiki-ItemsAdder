@@ -5,7 +5,7 @@
 ### items\_packs
 
 is a folder which contains a set of folders, each one of these folders contains separated and organized **.yml** files which contains items behaviour, setting, enchant, recipe, loot... everything that's dynamic and has to do with it's creation.  
-You can see that each folder name in **items\_packs** is the [namespace ](namespace.md)of the items it contains.
+You can see that each folder name in **items\_packs** is the [namespace ]()of the items it contains.
 
 {% hint style="warning" %}
 Namespace is also set inside the .yml file itself, don't forget to set it.

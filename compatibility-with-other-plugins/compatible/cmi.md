@@ -23,10 +23,10 @@ font_images:
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
 ```
 
-2. Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)  
-3. Install them and Restart  
-4. execute this command  `/papi ecloud download Vault`  
-5. execute this command `/papi reload`
+1. Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)  
+2. Install them and Restart  
+3. execute this command  `/papi ecloud download Vault`  
+4. execute this command `/papi reload`
 
 Done
 

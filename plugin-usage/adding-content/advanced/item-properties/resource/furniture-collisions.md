@@ -1,6 +1,6 @@
 # Furniture collisions
 
-### How can I make a furniture solid?
+## How can I make a furniture solid?
 
 You can make a furniture solid adding the "solid" attribute.
 
