@@ -3,7 +3,7 @@
 * [👋🏻Welcome](README.md)
 * [❤️Donation - Support my work](donation-support-my-work.md)
 * [⚙️First install](first-install.md)
-* [❓F.A.Q.](faq/README.md)
+* [❓Frequently asked questions](faq/README.md)
   * [⚠️Plugin doesn't work!](faq/plugin-doesnt-work.md)
   * [I see crisp textures far away!](faq/i-see-crisp-textures-far-away.md)
   * [📷Resourcepack not loading](faq/resourcepack-not-loading.md)
