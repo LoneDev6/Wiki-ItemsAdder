@@ -1,7 +1,5 @@
 # 💰Cheap Minecraft Hosting
 
-
-
 ![](.gitbook/assets/mmica0s.gif)
 
 {% hint style="info" %}
@@ -11,12 +9,13 @@ If you need a **good** and **cheap hosting** to open your **Minecraft server** o
 
 [http://bit.ly/humble-itemsadderwiki](http://bit.ly/humble-itemsadderwiki)
 
-* **Top Notch Hardware @ Budget Cost.**
-* **24/7 Support**
+* Top Notch Hardware @ Budget Cost.
+* 24/7 Support
 * **Instant Deployment**
-* **Custom Control Panel\(Pterodactyl\)**
-* **sFTP & MySQL Database Access**
-* **SSD & NVME Storage**
+* **Custom Control Panel**\(Pterodactyl\)
+* **sFTP** & **MySQL** Database Access
+* **SSD** & **NVME** Storage
+* Supports **port opening** for **ItemsAdder** [self host](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
 {% endhint %}
 
 ## Here you can test it yourself, on my server
