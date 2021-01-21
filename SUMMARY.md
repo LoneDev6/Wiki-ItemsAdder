@@ -2,6 +2,7 @@
 
 * [👋🏻Welcome](README.md)
 * [❤️Donation - Support my work](donation-support-my-work.md)
+* [💰Cheap Minecraft Hosting](cheap-minecraft-hosting.md)
 * [⚙️First install](first-install.md)
 * [❓Frequently asked questions](faq/README.md)
   * [⚠️Plugin doesn't work!](faq/plugin-doesnt-work.md)
