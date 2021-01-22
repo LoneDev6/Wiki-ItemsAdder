@@ -12,7 +12,7 @@ description: This website helps you configuring and creating custom items for my
 * [Discord](https://discord.gg/4dfnpUK)
 
 {% hint style="danger" %}
-## Please if you have Adblock installed disable it because it blocks some of the website features!
+## Please if you have ⛔️Adblock installed disable it because it blocks some of the website features!
 
 \(translation, dark mode and others\)
 
