@@ -50,6 +50,8 @@
     * `ia.admin.iatag`
   * /iareload
     * `ia.admin.iareload`
+  * /iazip
+    * `ia.admin.iazip`
   * /iablock \(get info about block you're looking at\)
     * `ia.admin.iablock`
   * /iadurability
