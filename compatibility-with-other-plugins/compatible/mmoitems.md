@@ -22,9 +22,9 @@ UPDATE **ITEMSADDER** TO **2.1.29+** AND **MMOITEM** to **6.5.1+**
 
 ### - create a new MMOItem
 
-![](../../.gitbook/assets/immagine%20%2834%29.png)
-
 ![](../../.gitbook/assets/immagine%20%2835%29.png)
+
+![](../../.gitbook/assets/immagine%20%2836%29.png)
 
 ### - add all the attributes you want, for example magic damage etc
 
@@ -32,7 +32,7 @@ UPDATE **ITEMSADDER** TO **2.1.29+** AND **MMOITEM** to **6.5.1+**
 
 ### - MMOItem preview inside /mmoitems browse
 
-![](../../.gitbook/assets/immagine%20%2837%29.png)
+![](../../.gitbook/assets/immagine%20%2838%29.png)
 
 ## Create the ItemsAdder item
 
@@ -74,5 +74,5 @@ Use the command `/iaget mmoitems_example:example_item` to get your finished item
 
 ![](../../.gitbook/assets/immagine%20%2833%29.png)
 
-![](../../.gitbook/assets/immagine%20%2836%29.png)
+![](../../.gitbook/assets/immagine%20%2837%29.png)
 

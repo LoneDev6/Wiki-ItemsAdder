@@ -97,6 +97,7 @@
       * [Armor textures](plugin-usage/adding-content/optifine-only-features/armor-textures.md)
   * [Editing /ia menu](plugin-usage/ia.md)
   * [WorldGuard flags](plugin-usage/worldguard-flags.md)
+  * [💾Export namespace](plugin-usage/export-namespace.md)
   * [😄Using font\_images/emojis everywhere](plugin-usage/using-font_images-emojis-everywhere.md)
 * [📒Support](support/README.md)
   * [🐞Report a bug](support/report-a-bug.md)
