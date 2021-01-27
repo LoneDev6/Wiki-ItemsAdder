@@ -131,6 +131,7 @@
     * [Recipe Control](compatibility-with-other-plugins/compatible/recipe-control.md)
     * [InteractionVisualizer](compatibility-with-other-plugins/compatible/interactionvisualizer.md)
     * [AdditionsPlus](compatibility-with-other-plugins/compatible/additionsplus.md)
+    * [MMOItems](compatibility-with-other-plugins/compatible/mmoitems.md)
     * [ItemFrameShops](compatibility-with-other-plugins/compatible/itemframeshops.md)
     * [Slimefun4](compatibility-with-other-plugins/compatible/slimefun4.md)
     * [RPGInventory](compatibility-with-other-plugins/compatible/rpginventory.md)
