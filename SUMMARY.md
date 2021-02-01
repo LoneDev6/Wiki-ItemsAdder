@@ -14,7 +14,7 @@
     * [🈁Force Unicode Font: ON](faq/huds-emojis-guis-font/force-unicode-font-on.md)
   * [Removing default stuff](faq/removing-default-stuff.md)
   * [🚙Vehicles bugs](faq/vehicles-bugs/README.md)
-    * [Towny vehicles bug](faq/vehicles-bugs/towny-vehicles-bug.md)
+    * [Can't write in chat and can't move](faq/vehicles-bugs/towny-vehicles-bug.md)
   * [💎Blocks/minerals issues](faq/blocks-minerals-issues/README.md)
     * [I can't find any mineral/ore](faq/blocks-minerals-issues/i-cant-find-any-mineral-ore.md)
     * [Blocks drop mushrooms](faq/blocks-minerals-issues/blocks-drop-mushrooms.md)
