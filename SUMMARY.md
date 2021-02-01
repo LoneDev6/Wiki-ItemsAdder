@@ -53,6 +53,7 @@
       * [⛏Example items](plugin-usage/adding-content/beginners/creating-a-custom-item/README.md)
         * [Simple texture sword](plugin-usage/adding-content/beginners/creating-a-custom-item/simple-texture-sword.md)
         * [Armor](plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md)
+        * [Magic wand](plugin-usage/adding-content/beginners/creating-a-custom-item/magic-wand.md)
     * [💪Advanced](plugin-usage/adding-content/advanced/README.md)
       * [Item properties](plugin-usage/adding-content/advanced/item-properties/README.md)
         * [Basic](plugin-usage/adding-content/advanced/item-properties/basic/README.md)
