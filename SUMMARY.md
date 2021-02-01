@@ -19,6 +19,8 @@
     * [I can't find any mineral/ore](faq/blocks-minerals-issues/i-cant-find-any-mineral-ore.md)
     * [Blocks drop mushrooms](faq/blocks-minerals-issues/blocks-drop-mushrooms.md)
     * [Leaves and transparent blocks problems](faq/blocks-minerals-issues/leaves-and-transparent-blocks-problems.md)
+    * [Double chest glitch](faq/blocks-minerals-issues/double-chest-glitch.md)
+    * [Custom blocks glitch texture \(redstone\)](faq/blocks-minerals-issues/custom-blocks-glitch-texture-redstone.md)
   * [💧Liquids bugs](faq/liquids-bugs.md)
   * [Can't edit minecraft default files](faq/cant-edit-minecraft-default-files.md)
   * [🐌Plugin loading very slow](faq/plugin-loading-very-slow.md)
