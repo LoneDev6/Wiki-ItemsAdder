@@ -22,6 +22,7 @@
   * [💧Liquids bugs](faq/liquids-bugs.md)
   * [Can't edit minecraft default files](faq/cant-edit-minecraft-default-files.md)
   * [🐌Plugin loading very slow](faq/plugin-loading-very-slow.md)
+  * [I can't remove furnitures and vehicles](faq/i-cant-remove-furnitures-and-vehicles.md)
   * [Can I create slabs, stairs, tridents, armors...](faq/can-i-create-slabs-stairs/README.md)
     * [Create transparent textured furnitures](faq/can-i-create-slabs-stairs/transparent-textures.md)
   * [⛔️Errors](faq/errors/README.md)
@@ -110,6 +111,7 @@
 ## Developers
 
 * [☕️Java API](developers/java-api/README.md)
+  * [Examples](developers/java-api/examples.md)
   * [Events](developers/java-api/events.md)
   * [HUDs, GUIs...](developers/java-api/huds-guis.md)
 * [📓Skript API](developers/skript-api/README.md)
