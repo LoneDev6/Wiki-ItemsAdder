@@ -7,13 +7,13 @@
 * `ia.user.iarecipe` \(use /iarecipe command\)
 * `ia.user.craft.*` \(craft all items\)
 * `ia.menu.*` \(see all categories in /ia menu\)
-* `ia.user.emoji.gui` \(use /e command to see emojis book\)
-* `ia.user.emoji.hints` \(suggest emojis when using /e and TAB complete\)
-* `ia.user.emoji.chat` \(replace emoji text :smile: etc in chat\)
-* `ia.user.emoji.command` \(replace emoji text :smile: etc in commands\)
-* `ia.user.emoji.sign` \(replace emoji text :smile: etc in signs\)
-* `ia.user.emoji.book` \(replace emoji text :smile: etc in books\)
-* `ia.user.emoji.use.*` \(access to all emojis\)
+* `ia.user.image.gui` \(use /e command to see emojis book\)
+* `ia.user.image.hints` \(suggest emojis when using /e and TAB complete\)
+* `ia.user.image.chat` \(replace emoji text :smile: etc in chat\)
+* `ia.user.image.command` \(replace emoji text :smile: etc in commands\)
+* `ia.user.image.sign` \(replace emoji text :smile: etc in signs\)
+* `ia.user.image.book` \(replace emoji text :smile: etc in books\)
+* `ia.user.image.use.*` \(access to all emojis\)
 
 ## Where can I get categories permissions?
 
