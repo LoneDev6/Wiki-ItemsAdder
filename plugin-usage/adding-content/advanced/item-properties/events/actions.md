@@ -6,32 +6,34 @@ Actions are what will happen when an event is triggered.
 
 ### List of actions:
 
-* play\_sound
-* stop\_sound
-* execute\_commands
-* play\_particle
-* play\_effect
-* increment\_durability
-* decrement\_durability
-* decrement\_usages
-* increment\_amount
-* decrement\_amount
-* drop\_exp
-* feed
-* replace\_properties
-* give\_item
-* replace\_near\_blocks
-* glow\_near\_blocks
-* multiple\_break
-* potion\_effect
-* remove\_potion\_effect
-* explosion
-* increment\_player\_stat
-* decrement\_player\_stat
-* cancel
-* target\_potion\_effect
-* target\_remove\_potion\_effect
-* play\_totem\_animation
+* `play_sound`
+* `stop_sound`
+* `execute_commands`
+* `play_particle`
+* `play_effect`
+* `increment_durability`
+* `decrement_durability`
+* `decrement_usages`
+* `increment_amount`
+* `decrement_amount`
+* `drop_exp`
+* `feed`
+* `replace_properties`
+* `give_item`
+* `replace_near_blocks`
+* `glow_near_blocks`
+* `multiple_break`
+* `potion_effect`
+* `remove_potion_effect`
+* `explosion`
+* `damage_near_entities`
+* `damage_entity_in_sight`
+* `increment_player_stat`
+* `decrement_player_stat`
+* `cancel`
+* `target_potion_effect`
+* `target_remove_potion_effect`
+* `play_totem_animation`
 
 {% hint style="info" %}
 You can set the same action multiple times. You just have to add `_anything` at the end.  
@@ -165,6 +167,20 @@ explosion:
   power: 2
   fire: true
   break_blocks: true
+  
+# Allows you to damage entities around you
+damange_near_entities:
+  entity_groups:
+   - HOSTILE
+   - PLAYERS
+   - PASSIVE
+  damage: 4
+  range: 7
+  
+# Allows you to damage the entity you're looking at
+damage_entity_in_sight:
+  damage: 4
+  distance: 7
   
 # Special action that allows you to increment player stat linked to an hud
 #in this case hud named: "itemsadder:mana_bar"
