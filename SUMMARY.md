@@ -24,6 +24,7 @@
   * [💧Liquids bugs](faq/liquids-bugs.md)
   * [Can't edit minecraft default files](faq/cant-edit-minecraft-default-files.md)
   * [🐌Plugin loading very slow](faq/plugin-loading-very-slow.md)
+  * [I can't unzip the pack.zip file](faq/i-cant-unzip-the-pack.zip-file.md)
   * [I can't remove furnitures and vehicles](faq/i-cant-remove-furnitures-and-vehicles.md)
   * [Can I create slabs, stairs, tridents, armors...](faq/can-i-create-slabs-stairs/README.md)
     * [Create transparent textured furnitures](faq/can-i-create-slabs-stairs/transparent-textures.md)
