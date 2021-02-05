@@ -10,6 +10,7 @@ Actions are what will happen when an event is triggered.
 * `stop_sound`
 * `execute_commands`
 * `play_particle`
+* `shoot_particle`
 * `play_effect`
 * `increment_durability`
 * `decrement_durability`
@@ -76,7 +77,11 @@ execute_commands:
     
 play_particle:
   name: "ENCHANTMENT_TABLE"
-  
+
+# Shoots particle (useful for wands and weapons)
+shoot_particle:
+  name: FLAME
+  distance: 7
   
 play_effect:
   name: SMOKE
