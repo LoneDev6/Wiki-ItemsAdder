@@ -59,7 +59,7 @@
             name: minecraft:entity.ender_dragon.shoot
             volume: 2
             pitch: 1
-          damange_near_entities:
+          damage_near_entities:
             entity_groups:
              - HOSTILE
              - PLAYERS
@@ -90,7 +90,7 @@
           power: 1
           fire: true
           break_blocks: false
-        damange_near_entities:
+        damage_near_entities:
           entity_groups:
             - HOSTILE
             - PLAYERS
