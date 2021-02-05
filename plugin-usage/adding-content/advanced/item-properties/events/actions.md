@@ -111,9 +111,11 @@ drop_exp:
   min_amount: 1
   max_amount: 3
     
-
+# Vanilla saturation values: 
+# https://minecraft.gamepedia.com/Hunger#Food_level_and_saturation_level_restoration
 feed:
   amount: 6
+  saturation: 2 # <--- this is optional, default is 0
     
 # Replaced properties of the current item copying them from another.
 # For now you can only do that with custom_model_data. More will be added.
