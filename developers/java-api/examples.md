@@ -86,3 +86,22 @@ else
 }
 ```
 
+## Liquids API
+
+Please also install [IALiquids ](https://www.spigotmc.org/resources/84386)addon to have some test liquids
+
+```java
+@EventHandler
+void interact(PlayerInteractEvent e)
+{
+    if(e.getAction() == Action.LEFT_CLICK_BLOCK)
+    {
+        ItemsAdder.setLiquid("ialiquids:red_water", e.getClickedBlock().getLocation());
+    }
+    else if(e.getAction() == Action.RIGHT_CLICK_BLOCK)
+    {
+        System.out.println(ItemsAdder.getLiquidName(e.getClickedBlock().getRelative(e.getBlockFace()).getLocation()));
+    }
+}
+```
+

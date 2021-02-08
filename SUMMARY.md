@@ -98,6 +98,7 @@
       * [Items tooltips](plugin-usage/adding-content/advanced/items-tooltips.md)
       * [Animated titles](plugin-usage/adding-content/advanced/animated-titles.md)
       * [Ranks textures \(tags\)](plugin-usage/adding-content/advanced/ranks-textures-tags.md)
+      * [Minecraft translation files](plugin-usage/adding-content/advanced/minecraft-translation-files.md)
     * [⚙️Optifine only features](plugin-usage/adding-content/optifine-only-features/README.md)
       * [Armor textures](plugin-usage/adding-content/optifine-only-features/armor-textures.md)
   * [Editing /ia menu](plugin-usage/ia.md)
