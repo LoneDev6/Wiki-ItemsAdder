@@ -11,7 +11,7 @@ If your hosting service doesn't provide you additional ports you have to use **D
 
 If you don't want to use **DropBox** you can use **mc-packs.net** website
 
-{% page-ref page="resourcepack-on-mc-packs.net.md" %}
+{% page-ref page="resourcepack-on-mc-packs-net.md" %}
 {% endhint %}
 
 
