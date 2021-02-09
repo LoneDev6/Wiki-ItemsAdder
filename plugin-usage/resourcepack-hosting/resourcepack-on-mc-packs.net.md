@@ -1,36 +1,18 @@
-# Resourcepack on DropBox
+# Resourcepack on mc-packs.net
 
 {% hint style="danger" %}
-**DO NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  
+**NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  
 YOU HAVE TO USE YOUR **pack.zip** FILE WHICH IS GENERATED USING **/iazip** COMMAND.  
 You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
 
-## Video tutorial
-
-{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
-
-{% hint style="info" %}
-One of the most famous files hosting websites is **DropBox**. It allows you to publish your files for free and it's really easy and fast.  
-You cannot use GoogleDrive and others because they don't provide a **direct download**. Dropbox does.
-{% endhint %}
-
 ## Text tutorial
 
-* Open [DropBox](https://dropbox.com/), register/login
+* Visit [mc-packs.net](https://mc-packs.net/)
 * Use the command`/iazip` \(**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file\)
 * Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* **Drag and drop** on **DropBox** the file **pack.zip**
-* Press **Share**
-
-![](../../.gitbook/assets/immagine%20%2825%29.png)
-
-* Press **Create**
-
-![](../../.gitbook/assets/immagine%20%2824%29.png)
-
-* Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0) 
+* **Upload** the `pack.zip` ****file
+* Copy the "Download URL"
 * Open `config.yml` of **ItemsAdder**
 * Set it like this \(**I used the example URL, please use your own**\)
 
@@ -45,7 +27,7 @@ resource-pack:
     pack-port: 8163
   external-host:
     enabled: true
-    url: 'https://www.dropbox.com/blablabla?raw=1'
+    url: 'https://download.mc-packs.net/pack/1efaewqerwerwerwer.zip'
 ```
 
 * **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` \(in this case to reload the resourcepack download link\)
@@ -55,16 +37,9 @@ resource-pack:
 PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
 {% endhint %}
 
-{% hint style="warning" %}
-**Change** the **file name each time** you **upload** a **new version** of the **resourcepack** to **force** the game to **redownload** the **new version**.  
-If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
-{% endhint %}
-
-
-
 ## But this is so slow! I have to reupload on DropBox too many times!
 
-Yea it is, that's why you should use the self host feature instead of DropBox. But some hosting \(cheap ones\) don't provide port opening, so you must use DropBox.
+Yea it is, that's why you should use the self host feature instead of **mc-packs**. But some hosting \(cheap ones\) don't provide port opening, so you must use **mc-packs**.
 
 {% page-ref page="resourcepack-self-hosting.md" %}
 
