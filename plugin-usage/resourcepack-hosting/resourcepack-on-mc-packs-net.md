@@ -34,10 +34,10 @@ resource-pack:
 * **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
 
 {% hint style="danger" %}
-PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **mc-packs** and use **/iareload** or you won't see any change obviously.
 {% endhint %}
 
-## But this is so slow! I have to reupload on DropBox too many times!
+## But this is so slow! I have to reupload on mc-packs too many times!
 
 Yea it is, that's why you should use the self host feature instead of **mc-packs**. But some hosting \(cheap ones\) don't provide port opening, so you must use **mc-packs**.
 
