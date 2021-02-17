@@ -110,7 +110,6 @@
   * [PlaceholderAPI](plugin-usage/placeholderapi.md)
   * [Custom PlayerStats](plugin-usage/custom-playerstats.md)
   * [Protect resourcepack from unzip](plugin-usage/protect-resourcepack-from-unzip.md)
-* [Untitled](untitled.md)
 * [📒Support](support/README.md)
   * [🐞Report a bug](support/report-a-bug.md)
   * [📕Ask for help](support/ask-for-help.md)
