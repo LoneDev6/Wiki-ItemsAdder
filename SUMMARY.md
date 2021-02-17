@@ -21,6 +21,7 @@
     * [Leaves and transparent blocks problems](faq/blocks-minerals-issues/leaves-and-transparent-blocks-problems.md)
     * [Double chest glitch](faq/blocks-minerals-issues/double-chest-glitch.md)
     * [Custom blocks glitch texture \(redstone\)](faq/blocks-minerals-issues/custom-blocks-glitch-texture-redstone.md)
+    * [Glitched blocks in some areas/custom worlds](faq/blocks-minerals-issues/glitched-blocks-in-some-areas-custom-worlds.md)
   * [💧Liquids bugs](faq/liquids-bugs.md)
   * [Can't edit minecraft default files](faq/cant-edit-minecraft-default-files.md)
   * [🐌Plugin loading very slow](faq/plugin-loading-very-slow.md)
