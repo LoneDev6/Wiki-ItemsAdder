@@ -53,3 +53,27 @@ taco:
 You must set first line to XXX, and every ingredient on the bottom right.
 {% endhint %}
 
+{% hint style="success" %}
+You can create **multiple patterns** per recipe, just make sure that the attribute **starts** with '**pattern**' text. For example pattern\_2.
+
+```yaml
+turquoise_sword:
+  permission: itemsadder.turquoise_sword
+  enabled: true
+  pattern:
+  - XRX
+  - XRX
+  - XSX
+  pattern_2:
+  - XXX
+  - XRX
+  - XSX
+  ingredients:
+    R: itemsadder:turquoise
+    S: STICK
+  result:
+    item: itemsadder:turquoise_sword
+    amount: 1
+```
+{% endhint %}
+

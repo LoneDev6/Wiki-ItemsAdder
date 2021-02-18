@@ -72,6 +72,16 @@ Blacklist of tools that cannot break this block
 
 Whitelist of tools that can break this block
 
+### events\_tools\_blacklist
+
+Blacklist of tools that cannot run events on this block[ \(`placed_block.interact`\)](../events/#list-of-events)
+
+### events\_tools\_whitelist
+
+Whitelist of tools that cannot run events on this block [\(`placed_block.interact`\)](../events/#list-of-events)
+
+## Other options
+
 ### hardness
 
 Hardness of the block, it makes it more difficult to be mined.   
