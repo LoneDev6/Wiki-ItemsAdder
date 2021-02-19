@@ -2,7 +2,7 @@
 
 In order to create a recipe for your items in your [namespace ](../../beginners/basic-concepts/namespace.md)you have to create a special section in one of your .yml files \(or on each one, you decide how you want to organize the plugin\).
 
-## Example 4x4 recipe
+## Example 3x3 recipe
 
 ![](../../../../.gitbook/assets/immagine%20%2846%29.png)
 
