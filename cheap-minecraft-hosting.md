@@ -5,7 +5,7 @@
 {% hint style="info" %}
 ![](.gitbook/assets/immagine%20%2826%29.png)
 
-If you need a **good** and **cheap hosting** to open your **Minecraft server** or **network** here it is, the hosting I use for all my projects.
+Если вам нужен **хороший**, а главное **дешевый хостинг** чтобы открыть свой **Minecraft-сервер** или целый **проект** - это то, что вам нужно, хостинг, который я использую для всех свои проектов.
 
 [http://bit.ly/humble-itemsadderwiki](http://bit.ly/humble-itemsadderwiki)
 
