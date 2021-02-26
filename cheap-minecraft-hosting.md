@@ -1,4 +1,4 @@
-# 💰Cheap Minecraft Hosting
+# 💰Дешевый хостинг
 
 ![](.gitbook/assets/mmica0s.gif)
 
