@@ -1,22 +1,23 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+Краткое описание: Данный сайт поможет вам разобраться в настройке моего плагина и создании вашего контента с его помощью.
 ---
 
-# 👋🏻Welcome
+# 👋🏻Добро пожаловать
 
+Полезные ссылки:
 * [Patreon](http://patreon.com/lonedev)
 * [YouTube](http://youtube.com/lonedev)
 * [SpigotMC](https://www.spigotmc.org/members/lonedev.88296/#resources)
-* [Website](https://www.matteodev.it/)
-* [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
-* [Discord](https://discord.gg/4dfnpUK)
+* [Веб-сайт](https://www.matteodev.it/)
+* [Страница разработчика в Steam](https://store.steampowered.com/developer/LoneDev/)
+* [мой сервер в Discord](https://discord.gg/4dfnpUK)
 
-{% hint style="danger" %}
-## Please if you have ⛔️Adblock installed disable it because it blocks some of the website features!
+{% hint style="Внимание!" %}
+## Если у вас установлен и включен ⛔️Adblock - выключите его или добавьте сайт в список исключений, так как это может блокировать функции сайта!
 
-\(translation, dark mode and others\)
+\(выбор языка, темную тему и так далее\)
 
-### This website has no ads, don't worry
+### Не переживайте, на этом сайте нет вспылающей глупой рекламы.
 {% endhint %}
 
 
