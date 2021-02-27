@@ -1,10 +1,10 @@
-# 📄Files editor
+# 📄Файловый редактор
 
 {% hint style="warning" %}
-**Warning**: this tool is in BETA, which means that it could have problems and could have missing features.
+**Важно!**: данный иструмент все еще находится в стадии разработки и тестирования (BETA), это значит, что он может иметь некоторые проблемы и недоработки.
 {% endhint %}
 
-## Try out my new files editor for ItemsAdder
+## Опробуйте мой новый инструмент для создания вашего контента для ItemsAdder
 
 {% embed url="https://ide.plugin.ga/itemsadder/?wiki" %}
 
