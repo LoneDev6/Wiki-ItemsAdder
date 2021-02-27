@@ -1,8 +1,8 @@
-# ❤️Donation - Support my work
+# ❤️Пожертвования - лучший способ поддержать меня и мои работы
 
-## Voluntary donation page
+## Страница для добровольных пожертвований
 
-## &gt;&gt; [Press here to express me your love](https://donate.plugin.ga/) &lt;&lt;
+## &gt;&gt; [Нажмите сюда, чтобы пожертвовать сумму](https://donate.plugin.ga/) &lt;&lt;
 
-Thanks a lot to everyone my friends, every small amount helps me continuing working on my projects❤️
+Спасибо вам за любую пожертвованную мне сумму, это правда очень помогает мне продолжать работу над новыми проектами❤️
 
