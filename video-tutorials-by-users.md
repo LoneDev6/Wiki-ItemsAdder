@@ -1,6 +1,6 @@
-# 📹Video tutorials by users
+# 📹Видеоуроки
 
-## Beginners
+## Начинающие
 
 {% embed url="https://www.youtube.com/watch?v=GKGnlF4zZVg" %}
 
@@ -8,7 +8,7 @@
 
 
 
-## Mid-advanced users
+## Любители
 
 {% embed url="https://www.youtube.com/watch?v=unhHU52Dt\_8" %}
 
