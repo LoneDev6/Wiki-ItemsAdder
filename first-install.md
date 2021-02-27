@@ -13,7 +13,7 @@
 Если у вас уже установлен старый ItemsAdder версии 1.0, пожалуйста переименуйте папку **plugins/ItemsAdder** в папку **ItemsAdder\_backup**
 {% endhint %}
 
-## Шаг 1 - установка плагина и API для его раработы
+## Шаг 1 - установка плагина и API для его работы
 
 * Установите [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * Установите [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
