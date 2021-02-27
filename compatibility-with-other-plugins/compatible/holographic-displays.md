@@ -1,19 +1,19 @@
 # Holographic Displays
 
-## How to get emojis in holographic displays
+## Как использовать эмоджи и другие юникод-картинки в holographic displays
 
-**UPDATE ITEMSADDER TO VERSION 2.1.21 OR MORE RECENT**
+**ОБНОВИТЕ ITEMSADDER ДО ВЕРСИИ 2.1.21 ИЛИ НОВЕЕ**
 
-Download [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
-Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
-Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)  
+Установите [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
+Установите [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
+Обязательно установите [HolographicExtension аддон](https://www.spigotmc.org/resources/holographicextension.18461/)  
 
 
-Now you can use font\_images \(emojis\) inside holograms texts and everywhere in other plugins easily! \(they must support PlaceholderAPI\).  
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.  
-For example: `%img_smile%`
+Вы великолепны, теперь вы можете использовать эмоджи\_картинки \(эмоджи\) использовать внутри голограмм и других плагинов! \(которые поддерживают PlaceholderAPI\).  
+Чтобы вставить эмоджи, используйте этот заполнитель: `%img_НАЗВАНИЕ КАРТИНКИ%` где вместо "название картинки" вы должны указать присвоенное символу\_картинке имя.  
+Образец: `%img_smile%`
 
-To create an hologram you can use these commands for example:
+Пример команды для создания голограммы:
 
 `/holo create test_itemsadder Hello! %img_smile%`
 
