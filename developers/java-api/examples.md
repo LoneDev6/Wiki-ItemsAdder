@@ -1,8 +1,8 @@
-# Examples
+# Примеры
 
-## Custom items
+## Предметы ItemsAdder
 
-### Getting a custom item of any type \(block, item, hat, food..\) by id or namespace:id
+### Получение предмета любого типа \(блок, предмет, шляпы, еда..\) при помощи ID или папки с ID (namespace:id)
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -18,7 +18,7 @@ else
 }
 ```
 
-### Checking if a custom item exists
+### Проверка существования предмета
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -26,13 +26,13 @@ else
 boolean exists = CustomStack.getInstance("your_item") != null;
 ```
 
-or you can also use the old method
+можно использовать этот метод
 
 ```java
 ItemsAdder.isCustomItem("your_item");
 ```
 
-### Getting the custom item data from an ingame ItemStack
+### Получение информации предмета из игры ItemStack
 
 ```java
 CustomItems customItems = CustomStack.byItemStack("your_item");
@@ -46,9 +46,9 @@ else
 }
 ```
 
-## Custom mobs
+## Сущности ItemsAdder
 
-### Spawn a custom mob by id or namespace:id
+### Призыв сущности при помощи ID или названия папки и ID (namespace:id)
 
 [CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
@@ -67,7 +67,7 @@ else
 }
 ```
 
-### Get custom mob by mob already spawned in the world
+### Получение информации о сущности от уже призванной сущности в мире
 
 [CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
@@ -86,9 +86,9 @@ else
 }
 ```
 
-## Liquids API
+## API жидкостей
 
-Please also install [IALiquids ](https://www.spigotmc.org/resources/84386)addon to have some test liquids
+Установите, пожалуйста, [IALiquids ](https://www.spigotmc.org/resources/84386)аддон для тестирования жидкостей
 
 ```java
 @EventHandler
