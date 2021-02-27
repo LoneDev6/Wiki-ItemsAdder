@@ -1,6 +1,6 @@
 # EpicBackpacks
 
-Загрузить можно [тут](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)
+Купить можно [тут](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)
 
 {% hint style="success" %}
 Чтобы создавать рюкзаки, которые будут использовать текстурирование ItemsAdder, откройте backpacks.yml \(в папке EpicBackpacks\) и добавьте это \(для каждого рюкзака, который вы хотите создать\):
