@@ -35,7 +35,7 @@
     * [Ошибка "Duplicate recipe ignored"](faq/errors/duplicate-recipe-ignored-error.md)
     * [Cannot retrieve entity from ID](faq/errors/cannot-retrieve-entity-from-id.md)
     * [An error occurred when enabling the resourcepack](faq/errors/an-error-occurred-when-enabling-the-resourcepack.md)
-  * [☠️Несколько примеров падения сервера других пользователей \(old\)](faq/some-users-crash.md)
+  * [☠️Падения клиента у игроков \(устарело\)](faq/some-users-crash.md)
 * [➕Аддоны/ресурсы](addons-resources.md)
 * [📄Редактор файлов](files-editor.md)
 * [📖Использование плагина](plugin-usage/README.md)
