@@ -1,4 +1,4 @@
-# Protocol error
+# Ошибка протокола (Protocol/ProtocolLib)
 
  Если вы получаете ошибки протоколов, пожалуйста, установите последнюю версию ProtocolLib [https://www.spigotmc.org/resources/protocollib.1997/](https://www.spigotmc.org/resources/protocollib.1997/)
 
