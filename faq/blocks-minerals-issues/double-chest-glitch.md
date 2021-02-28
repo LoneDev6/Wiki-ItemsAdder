@@ -1,9 +1,9 @@
-# Double chest glitch
+# Ошибка двойного сундука
 
-## Replacing a double chest which is adjacent to custom blocks causes a visual bug
+## Установка двойного сундука рядом с блоками плагина могут вызвать визуальный баг
 
 {% hint style="warning" %}
-This is a known issue and cannot be fixed easily without making the plugin lag the server.
+Проблема известна и, к сожалению, не может быть легко исправлена плагином без лагов для сервера.
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/615" %}
