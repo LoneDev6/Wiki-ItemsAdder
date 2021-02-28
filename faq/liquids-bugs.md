@@ -1,22 +1,22 @@
-# 💧Liquids bugs
+# 💧Баги жидкостей
 
 {% hint style="warning" %}
-Sometimes chunks can still maintain the liquid color after you removed them.  
-Logout and login to fix this, that's the only way. 
+Иногда чанки все еще содержат добавленные жидкости, даже после их удаления.  
+Перезайдите на сервер и проблема решиться, это единственный выход. 
 
-### **This is a Minecraft bug I cannot fix.**
+### **Баг игры, который я не могу решить.**
 {% endhint %}
 
 {% hint style="warning" %}
-If you place normal water \(or if it's naturally generated\) on the top or on the bottom of a custom liquid you will see it will have the custom liquid color. 
+Если вы установили обычный блок вод \(или он сгенерирован естественно\) над или рядом с новой жидкостью, вы увидите, что цвет ее текстуры тоже изменится. 
 
-### **This is a Minecraft bug I cannot fix.**
+### **Баг игры, который я не могу решить.**
 {% endhint %}
 
 {% hint style="warning" %}
-Custom liquids are not totally colored sometimes, some parts still have vanilla water color.
+Иногда цвет добавленной жидкости может отображаться как цвет обычной.
 
-### **This is a Minecraft bug I cannot fix.**
+### **Баг игры, который я не могу решить.**
 {% endhint %}
 
 ![](../.gitbook/assets/immagine%20%2814%29.png)
