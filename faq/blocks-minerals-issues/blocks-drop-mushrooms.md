@@ -1,21 +1,21 @@
-# Blocks drop mushrooms
+# Из блоков выпадают грибы
 
-If you have this problem please read here **before asking for support**:
+Если вы с этим столкнулись, ознакомьтесь с этой статьей, **прежде чем просить помощи**:
 
-### First reason
+### Первая причина
 
-If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2)installed [read this](https://github.com/LoneDev6/ItemsAdder/issues/123)
+Установлен ли плагин [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2) у вас? Если да - [ознакомьтесь](https://github.com/LoneDev6/ItemsAdder/issues/123)
 
-### Second reason
+### Вторая причина
 
-Did you delete the ItemsAdder plugin folder? Don't do it. It contains world data under: `plugins\ItemsAdder\storage\regions_data`
+Удаляли ли вы папку ItemsAdder из папки плагинов? Не делайте этого. Он содержит данные из мира в этой папке: `plugins\ItemsAdder\storage\regions_data`
 
-If you delete it you lose every custom ItemsAdder block data in the world.
+Если вы удалите папку ItemsAdder - расспрощаетесь со всеми блоками плагинами в вашем мире.
 
-### Third reason
+### Третья причина
 
-Corrupted chunk. This can happen if you:
+Поврежденные чанки. Это происходит если вы:
 
-* killed the server while it was saving an IA region file
-* full disk problem which blocked saving of files
+* положили сервер, когда плагин сохранял данные о регионе мира в файл
+* проблема накопителя (жесткого диска/ССД), где хранится сервер, из-за чего сохранение данных плагином о мире было заблокировано
 
