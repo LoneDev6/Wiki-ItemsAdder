@@ -1,26 +1,26 @@
-# 📷Resourcepack not loading
+# 📷Пакет ресурсов не загружается
 
-#### Resourcepack not loading, I get an error in chat <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+#### Пакет ресурсов не загрузился, я получил ошибки в чате <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
-* Check if you have another plugin that uses **custom resourcepacks**, if you have please **disable** its **resourcepack** feature or ItemsAdder won't be able to apply the pack correctly \(you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done. The pack folder of ItemsAdder is `resouce_pack`\)
-* Make sure you don't have any resourcepack set in the `server.properties` file
-* Minecraft limits servers resourcepacks size to 50MB, be sure to compress your textures and your music files before creating the zip file.
-* Be sure that your`custom_url`is a **direct** download link to the zip file. If you paste the link on your browser \(Firefox/Chrome\) you must instantly see the download start, if you see a download page with buttons it's wrong. Please upload it on Dropbox, generate the download/share link and change `dl=0` to `raw=1` at the end of link.
-* Be sure to follow all [tutorial ](../plugin-usage/resourcepack-hosting/)steps
-* Be sure the port is opened if you use self-host.
-* Be sure you're **NOT** using my `pack_21521367.zip` file as base for your pack.  You **MUST** use the new generated `pack.zip` file. Read [tutorial here](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
+* Проверьте, не установлен ли у вас другой плагин, который тоже использует механику **отправки пакетов ресурсов**, если это так - отключите эту функцию для него или ItemsAdder не сможет отправить игроку пакет ресурсов \(вы можете совместить два пакета ресурсов в один и загружать его через ItemsAdder, если у вас есть хоть малейшие представления о работе пакетов ресурсов, удостоверьтесь, что не заменяете файлы ItemsAdder и все должно быть отлично. Папка для будущей упаковки текстур в пакет ресурсов ItemsAdder находится тут - `Items_adder/data/resouce_pack`\)
+* Проверьте, не установлен ли какой-либо пакет ресурсов в файле `server.properties`
+* Лимит пакетов ресурсов серверов - 50 мегабайт, сожмите ваши файлы, особенно музыкальные, в минимальные размеры, прежде чем упаковывать все в zip-архив.
+* Убедитесь, что ваша URL-ссылка на скачивание работает корректно и **ведет** именно на скачивание zip-архива, а так же работает для стороннего скачивания, а не только в вашей локальной сети. Это можно проверить, вставив ссылку в ваш браузер \(Firefox/Chrome\), после чего моментально должно начаться скачивание. Если вы видите страницу, где нужно кликнуть на кнопку скачивания - эта ссылка неверна. Залейте архив текстур на Dropbox, после - сгенерируйте ссылку для скачивания вашего файла и поменяйте окончание `dl=0` на `raw=1` в конце ссылки.
+* Удостоверьтесь, что следовали всем инструкциям [туториала ](../plugin-usage/resourcepack-hosting/)
+* Удостоверьтесь, открыт ли порт для текстур, если вы хостите его со своего хоста (self-host).
+* Убедитесь, что вы **НЕ** используйте мой файл `pack_21521367.zip` как основу вашего.  Вы **ДОЛЖНЫ** генерировать новый файл `pack.zip`. Туториал [есть тут](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
 
 
 
-#### _My players can't see textures! But I've followed the whole tutorial_ <a id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+#### _Мои игроки не могут видеть текстуры! Хоть я и следовал всем инструкциям_ <a id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
-There are three ways to fix this issue:
+Способы решить проблему:
 
-* If your players can't see the new items just link them this simple screens to fix it! [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)​
-* If you still have problems **delete** the **server** from your **servers list**, add it again and then **enable resource packs**.
-* If you still have problems leave the server, go to **%appdata%/.minecraft/server-resource-packs** and **delete everything**. Then join the server again.
+* Если игрок не может видеть текстуру (он не имеет пакет ресурсов) - отправьте ему эту ссылку-инструкцию [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)​
+* Если проблема все еще присутствует - удалите сервер из списка серверов и добавьте его снова, включив пакеты-ресурсов для этого сервера в его настройках.
+* Если проблема до сих пор присутствует, откройте **%appdata%/.minecraft/server-resource-packs** и **удалите все файлы оттуда**. После - зайдите на сервер вновь.
 
 {% hint style="danger" %}
-Make sure you're not using **UPPERCASE** or **special characters** in items **names**, **namespaces**, **texture** files \(png\) and **model** files \(json\)
+Так же убедитесь в том, что вы **НЕ** использовали **ЗАГЛАВНЫЕ БУКВЫ** или **нестандартные символы** в **именах/названиях** предметов, в **названиях** папок, **названиях файлов текстур** \(png\) и **файлов моделей** \(json\)
 {% endhint %}
 
