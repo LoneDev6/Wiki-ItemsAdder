@@ -1,6 +1,6 @@
-# 👌🏻Permissions
+# 👌🏻Права (Permissions)
 
-* Users
+* Для пользователей
 
   * /ia
     * `ia.user.ia`
@@ -8,36 +8,36 @@
     * `ia.user.iarecipe`
   * /iatexture
     * `ia.user.iatexture`
-  * crafting
-    * `ia.user.craft.PERMISSION` \(or to give all crafting permissions just use ia.user.craft.\*\)
-    * for more info about item permissions please[ read this](adding-content/advanced/item-properties/basic/item-permission.md)
-  * see item in /ia menu
-    * `ia.user.ia.PERMISSION` \(or to give all /ia permissions just use ia.user.ia.\*\)
-    * for more info about item permissions please[ read this](adding-content/advanced/item-properties/basic/item-permission.md)
-    * `ia.user.iasearchgui` for the search GUI in /ia menu
-    * You can also set a permission per category, please check [/ia GUI ](ia.md)page
-  * emoji \(font images\)
-    * **/iaimage /emoji, /iaemoji, /e** book GUI \(shows a book with the list of emojis/font images\)
+  * крафтинг
+    * `ia.user.craft.PERMISSION` \(или выдайте все права на крафты сразу одной строкой - ia.user.craft.\*\)
+    * чтобы получить больше информации о правах для предмета - [ознакомьтесь](adding-content/advanced/item-properties/basic/item-permission.md)
+  * просмотр предметов в меню /ia
+    * `ia.user.ia.PERMISSION` \(или выдайте все права на /ia меню одной строкой - ia.user.ia.\*\)
+    * чтобы получить больше информации о правах для предмета - [ознакомьтесь](adding-content/advanced/item-properties/basic/item-permission.md)
+    * `ia.user.iasearchgui` для выдачи права на функцию поиска в виде GUI для меню /ia
+    * Также, плагин позволяет устанавливать права на категории предметов, можете ознакомиться - [/ia GUI ](ia.md)page
+  * Эмоджи, GUI и HUDы \(картинки юникода\)
+    * **/iaimage /emoji, /iaemoji, /e** GUI на основе книги \(отображает список всех эмоджи/картинок юникода в форме книги\)
       * `ia.user.image.gui`
-    * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(shows a tab list with emojis based on searched term\)
+    * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(отображает все эмоджи на основе искового запроса\)
       * `ia.user.image.hints`
-    * Use emojis in chat
+    * Использование эмоджи в чате
       * `ia.user.image.chat`
-    * Use emojis in commands
+    * Использование эмоджи в командах
       * `ia.user.image.command`
-    * Use emojis in signs
+    * Использование эмоджи на табличках
       * `ia.user.image.sign`
-    * Use emojis in books
+    * Использование эмоджи в книгах
       * `ia.user.image.book`
-    * Use emojis in anvil rename field
+    * Использование эмоджи в именах предметов в наковальне
       * `ia.user.image.anvil`
-    * Permission to use an emoji
+    * Право использовать определенный эмоджи
       * `ia.user.image.use.<font image name>`
-      * Example: `ia.user.image.use.heart`
+      * Пример: `ia.user.image.use.heart`
 
   ​
 
-* Admin
+* Для администраторов
   * /iaget
     * `ia.admin.iaget`
   * /iagive
@@ -50,29 +50,29 @@
     * `ia.admin.iatag`
   * /iareload
     * `ia.admin.iareload`
-  * /iablock \(get info about block you're looking at\)
+  * /iablock \(дает информацию о блоке, на который вы смотрите\)
     * `ia.admin.iablock`
   * /iadurability
     * ia.admin.iadurability
-  * Edit permission \(edit button in /ia\)
+  * Право редактирования \(кнопка редактирование в меню /ia\)
     * `ia.admin.edit`
-  * /iaplayerstat write \(writea player custom stat\)
+  * /iaplayerstat write \(установка значений статистик игрока плагина\)
     * `ia.admin.iaplayerstat.write`
-  * /iaplayersta read \(read a player custom stat\)
+  * /iaplayersta read \(считать значение статистики игрока плагина\)
     * `ia.admin.iaplayerstat.read`
-  * /iainfo \(get info about the plugin\)
+  * /iainfo \(информация о количестве всех предметов, блоков, эмоджи и о самом плагине\)
     * `ia.admin.iainfo`
-  * /iakill &lt;mob\|all&gt; \(kill custom mobs\)
+  * /iakill &lt;mob\|all&gt; \(убить сущность плагина\)
     * `ia.admin.iakill`
-  * /iasummon &lt;mob&gt; \[amount\]
+  * /iasummon &lt;mob&gt; \[количество\]
     * `ia.admin.iasummon`
   * /iaspawntree &lt;tree&gt;
     * `ia.admin.iaspawntree`
   * /iaplaytotemanimation &lt;totem&gt; &lt;player&gt;
     * `ia.admin.iatotemanimation`
-* Other:
-  * Bypass kick on refuse resourcepack
+* Прочее:
+  * Право избежать отключение от сервера, если владелец права отказался от пакета ресурсов
     * `ia.resourcepack.bypasskick`
-  * Bypass player placed blocks can't drop loot
+  * Право избежать отключенное выпадение предмета из блока для игрока
     * `ia.admin.bypassblockplaceloot`
 
