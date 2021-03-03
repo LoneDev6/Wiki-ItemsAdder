@@ -8,7 +8,7 @@
   * [⚠️Плагин отказывается работать!](faq/plugin-doesnt-work.md)
   * [Я вижу рябь текстур вдали!](faq/i-see-crisp-textures-far-away.md)
   * [📷Текстурпак отказывается загружаться](faq/resourcepack-not-loading.md)
-  * [💧HUD, эмоджи, GUI, символы](faq/huds-emojis-guis-font/README.md)
+  * [💧HUDы, эмоджи, GUI, шрифты](faq/huds-emojis-guis-font/README.md)
     * [💧Полоски жажды/маны](faq/huds-emojis-guis-font/fill-thirst-mana-bar.md)
     * [👁Я не вижу добавленные эмоджи/GUI/HUD](faq/huds-emojis-guis-font/i-cant-see-emoji-guis-huds.md)
     * [🈁Насильное использование символов юникода в настройках игры](faq/huds-emojis-guis-font/force-unicode-font-on.md)
