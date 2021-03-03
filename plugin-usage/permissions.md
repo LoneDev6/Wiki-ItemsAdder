@@ -15,7 +15,7 @@
     * `ia.user.ia.PERMISSION` \(или выдайте все права на /ia меню одной строкой - ia.user.ia.\*\)
     * чтобы получить больше информации о правах для предмета - [ознакомьтесь](adding-content/advanced/item-properties/basic/item-permission.md)
     * `ia.user.iasearchgui` для выдачи права на функцию поиска в виде GUI для меню /ia
-    * Также, плагин позволяет устанавливать права на категории предметов, можете ознакомиться - [/ia GUI ](ia.md)page
+    * Также, плагин позволяет устанавливать права на категории предметов, можете ознакомиться с данной страницей - [/ia GUI ](ia.md)
   * Эмоджи, GUI и HUDы \(картинки юникода\)
     * **/iaimage /emoji, /iaemoji, /e** GUI на основе книги \(отображает список всех эмоджи/картинок юникода в форме книги\)
       * `ia.user.image.gui`
@@ -70,6 +70,7 @@
     * `ia.admin.iaspawntree`
   * /iaplaytotemanimation &lt;totem&gt; &lt;player&gt;
     * `ia.admin.iatotemanimation`
+
 * Прочее:
   * Право избежать отключение от сервера, если владелец права отказался от пакета ресурсов
     * `ia.resourcepack.bypasskick`
