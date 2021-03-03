@@ -1,18 +1,18 @@
-# Editing /ia menu
+# Редактирование меню /ia
 
-## Menu settings and "All" category
+## Настройка меню и категории "All"
 
-ia\_gui.yml contains settings about the  `/ia` command GUI.  
-It also contains the "all" category which shows every ItemsAdder item.
+ia\_gui.yml содержит в себе настройки всего меню из команды `/ia`.  
+Кроме того, там содержатся категория "all", которая отоюражает все предметы и блоки ItemsAdder.
 
 {% hint style="info" %}
-Default categories are inside: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+Все остальные классические категории находятся тут: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 {% endhint %}
 
-## Creating a custom category
+## Создание своей категории предметов
 
-If you want to create your own category you have to add it to your own .yml file in your [namespace](adding-content/beginners/basic-concepts/namespace.md).  
-This is an example:
+Если вы хотите создать свою собственную категорию вы должны создать свой собственный файл .yml в вашей собственной [папке](adding-content/beginners/basic-concepts/namespace.md).  
+Пример файла конфигурации категории:
 
 ```yaml
 info:
@@ -34,10 +34,10 @@ categories:
       - "itemsadder:spinel_legs"
 ```
 
-Remember to give your users permission for each category if you want them to see the categories.  
-For example a permission is: **ia.menu.armors**
+Не забывайте выдавать игрокам права на каждую добавленную категори, если вы хотите, чтобы они их видели.  
+Пример прав для игрока: **ia.menu.armors**
 
 {% hint style="success" %}
-**Categories** with the **same name** and different namespace **will be merged**, this is **helful** if you have two "swords" categories. This allows you to open **/ia** menu and see all swords organized in the same category instead of having 2 swords categories.
+**Категории** с **одинаковыми именами**, но отличными друг от друга папками **будут соединены в одну**, это довольно **полезно**, если вы имеете 2 категори для мечей. Это дает возможность видеть одну организованную категорию для мечей вместо двух в меню **/ia**.
 {% endhint %}
 
