@@ -106,7 +106,7 @@
   * [Редактирование меню /ia](plugin-usage/ia.md)
   * [Флаги WorldGuard](plugin-usage/worldguard-flags.md)
   * [💾Экспорт папок](plugin-usage/export-namespace.md)
-  * [😄Использование картинок\ юникода/эмоджи где угодно](plugin-usage/using-font_images-emojis-everywhere.md)
+  * [😄Использование картинок юникода/эмоджи где угодно](plugin-usage/using-font_images-emojis-everywhere.md)
   * [PlaceholderAPI](plugin-usage/placeholderapi.md)
   * [Использование собственных статистик](plugin-usage/custom-playerstats.md)
   * [Защита ваших текстур](plugin-usage/protect-resourcepack-from-unzip.md)
