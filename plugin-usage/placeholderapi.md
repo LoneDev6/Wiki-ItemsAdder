@@ -1,23 +1,23 @@
 # PlaceholderAPI
 
-## FontImage \(emoji etc\)
+## Вывод картинок юникода \(эмоджи, прочее\)
 
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.  
-For example: `%img_smile%`
+Используйте данный заполнитель: `%img_ИМЯ%` где вместо "ИМЯ" вы должны указать название картинки\_юникода из файла конфигурации (не путайте с названием PNG-файла).  
+Пример использования: `%img_smile%`
 
-## ItemsAdder PlayerStats \(HUDs values\)
+## Статистики ItemsAdder \(значение HUDов\)
 
-These are stats used by ItemsAdder, they're not vanilla stats.
+Эти статистики используются плагином и они не являются ванильными.
 
-This is the code: `%iaplayerstat_NAME%` instead of NAME write the playerstat name.  
-For example: `%iaplayerstat_mana%` or also `%iaplayerstat_thirst%`
+Используйте данный заполнитель: `%iaplayerstat_ИМЯ%` где вместо "ИМЯ" вы должны указать название желаемой статистики.  
+Пример использования: `%iaplayerstat_mana%` - выведет статус шкалы маны, или, например: `%iaplayerstat_thirst%` - выведет статус шкалы жажды.
 
-You can use this command to test it out:  
+Для проверки правильной работы вы можете использовать эти команды:  
 `/papi parse me %iaplayerstat_thirst%`  
 `/papi parse me %iaplayerstat_mana%`
 
 {% hint style="info" %}
-#### Read more about playerstats
+#### Узнать больше о статистиках игрока
 
 {% page-ref page="custom-playerstats.md" %}
 {% endhint %}
