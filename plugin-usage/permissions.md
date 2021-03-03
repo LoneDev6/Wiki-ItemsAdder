@@ -35,7 +35,7 @@
       * `ia.user.image.use.<font image name>`
       * Пример: `ia.user.image.use.heart`
 
-  ​
+ 
 
 * Для администраторов
   * /iaget
