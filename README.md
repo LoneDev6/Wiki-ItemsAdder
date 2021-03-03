@@ -12,7 +12,7 @@
 * [Страница разработчика в Steam](https://store.steampowered.com/developer/LoneDev/)
 * [мой сервер в Discord](https://discord.gg/4dfnpUK)
 
-{% hint style="Внимание!" %}
+{% hint style="warning" %}
 ## Если у вас установлен и включен ⛔️Adblock - выключите его или добавьте сайт в список исключений, так как это может блокировать функции сайта!
 
 \(выбор языка, темную тему и так далее\)
