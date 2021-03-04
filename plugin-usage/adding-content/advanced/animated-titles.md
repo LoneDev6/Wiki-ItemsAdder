@@ -1,9 +1,9 @@
-# Animated titles
+# Анимации тотемов бесммертия
 
 
 
-You can create animated titles \(using totem animation\), this is useful for custom gamemodes and to notify players.  
-Check this example addon to create your own animated title: [https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/](https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/)
+Вы можете создать анимированные надписи или картинки \(используя анимация тотема бессмертия\), это полезно при создании своих режимов и объявлений для игроков.  
+Ознакомьтесь с файлами данного аадона, чтобы создать свою анимацию путем обратной инженерии: [https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/](https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/)
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 
