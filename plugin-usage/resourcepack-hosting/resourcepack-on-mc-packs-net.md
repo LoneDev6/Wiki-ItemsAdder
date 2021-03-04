@@ -1,20 +1,20 @@
-# Resourcepack on mc-packs.net
+# Хост текстур через mc-packs.net
 
 {% hint style="danger" %}
-**NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  
-YOU HAVE TO USE YOUR **pack.zip** FILE WHICH IS GENERATED USING **/iazip** COMMAND.  
-You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
+**НЕ ИСПОЛЬЗУЙТЕ** файл **pack\_21521367.zip** или **precompressed\_example\_pack.zip**, ЭТО КЛАССИЧЕСКАЯ ОСНОВА!!!! 
+ВЫ ДОЛЖНЫ ИСПОЛЬЗОВАТЬ ВАШ **pack.zip** ФАЙЛ, КОТОРЫЙ СГЕНЕРИРОВАН КОМАНДОЙ **/iazip**.  
+Он находится в папке по этому пути: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
 
-## Text tutorial
+## Инструкция
 
-* Visit [mc-packs.net](https://mc-packs.net/)
-* Use the command`/iazip` \(**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file\)
-* Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* **Upload** the `pack.zip` ****file
-* Copy the "Download URL"
-* Open `config.yml` of **ItemsAdder**
-* Set it like this \(**I used the example URL, please use your own**\)
+* Откройте [mc-packs.net](https://mc-packs.net/)
+* Используйте команду на сервере - `/iazip` \(**это крайне важно**, так как `/iazip`перезагружает все настройки и генерирует файл **pack.zip**\)
+* Откройте папку по этому пути: `plugins/ItemsAdder/data/resource_pack/`
+* **Загрузите файл** `pack.zip` на mc-packs
+* Скопируйте "ссылку на скачивания"
+* Откройте основной файл конфигурации `config.yml` плагина **ItemsAdder**
+* Вставьте вашу ссылку туда похожим образом \(**Я вставил туда свою URL-ссылку для примера, используйте в этой строке свою**\)
 
 ```yaml
 resource-pack:
@@ -30,32 +30,33 @@ resource-pack:
     url: 'https://download.mc-packs.net/pack/1efaewqerwerwerwer.zip'
 ```
 
-* **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` \(in this case to reload the resourcepack download link\)
-* **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
+* **ВАЖНО**: **Используйте команду** `/iareload` чтобы **перезагрузить** конфигурации **плагина** после внесенных вами **изменений** в файле конфигурации `config.yml` \(в данном случае - обновить ссылку на пакет ресурсов\)
+* **Используйте команду** `/iatexture` в игре, чтобы перезагрузить скачанный набор ресурсов (скачать его заново) или используйте `/iatexture all`, чтобы перегазрузить набор ресурсов всем игрокам на сервере
 
 {% hint style="danger" %}
-PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **mc-packs** and use **/iareload** or you won't see any change obviously.
+ПОЖАЛУЙСТА, используйте `/iazip` **каждый раз**, когда вы внесли изменения в файлы **текстур**, в 3D **модель**, в **звуках**... после чего **перезалейте** набор ресурсов на **mc-packs.net**, обновите ссылку на файл в основном файле конфигурации и используйте **/iareload**, иначе - вы не увидите новый/обновленный вами контент.
 {% endhint %}
 
-## But this is so slow! I have to reupload on mc-packs too many times!
+## Но ведь это слишком долго! Мне приодится кучу раз перезаливать набор ресурсов на mc-packs.net!
 
-Yea it is, that's why you should use the self host feature instead of **mc-packs**. But some hosting \(cheap ones\) don't provide port opening, so you must use **mc-packs**.
+Да, это так, поэтму я советую вам использовать вашу же машину (хост) в качестве хоста для текстур, заместо mc-packs.net. Но будьте внимательны, некоторые \(особенно дешевые\) хостинги не имеют лишние открывые порты, поэтому вам придется использовать mc-packs.net или менять хостинг.
 
 {% page-ref page="resourcepack-self-hosting.md" %}
 
 {% hint style="info" %}
-If you need a cheap hosting that has good hardware and allows port opening \(for self host and for other plugins that need ports\) you can check this out:
+Если вам нужен дешевый европейский хостинг, который имеет неплохое железо и позволит открыть порты \(для хоста текстур прямиком оттуда, а так же для других плагинов\) вы можете взглянуть на этот:
 
 [http://bit.ly/humble-dropbox](http://bit.ly/humble-dropbox)
 
  [![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)  
 
 
-* **Top Notch Hardware @ Budget Cost.**
-* **24/7 Support**
-* **Instant Deployment**
-* **Custom Control Panel\(Pterodactyl\)**
-* **sFTP & MySQL Database Access**
-* **SSD & NVME Storage**
+* Оборудование высшего качества по низкой стоимости.
+* 24/7 поддержка
+* **Моментальное "развертывание" вашего сервера**
+* **Собственная панель управления**\(Pterodactyl\)
+* **sFTP** & база данных **MySQL** 
+* **SSD** & **NVME** носители
+* Поддержка **открытия портов** для **ItemsAdder** для [хоста ваших текстур](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
 {% endhint %}
 
