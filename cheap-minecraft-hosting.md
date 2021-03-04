@@ -15,7 +15,7 @@
 * **Собственная панель управления**\(Pterodactyl\)
 * **sFTP** & база данных **MySQL** 
 * **SSD** & **NVME** носители
-* Поддержка **открытия портов** для **ItemsAdder** [self host](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
+* Поддержка **открытия портов** для **ItemsAdder** для [хоста ваших текстур](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
 {% endhint %}
 
 {% embed url="http://bit.ly/humble-itemsadderwiki" %}
