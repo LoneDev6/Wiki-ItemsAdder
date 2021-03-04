@@ -80,7 +80,7 @@
       * [Популяция деревьев](plugin-usage/adding-content/advanced/trees-populators/README.md)
         * [Листья и древесина](plugin-usage/adding-content/advanced/trees-populators/laveas-and-wood.md)
         * [Саженцы](plugin-usage/adding-content/advanced/trees-populators/saplings.md)
-      * [Картинки из символов Юникода (эмоджи)](plugin-usage/adding-content/advanced/font-images/README.md)
+      * [Картинки из символов Юникода](plugin-usage/adding-content/advanced/font-images/README.md)
         * [Частые ошибки](plugin-usage/adding-content/advanced/font-images/common-errors.md)
         * [Placeholder'ы](plugin-usage/adding-content/advanced/font-images/placeholders.md)
       * [Звуки](plugin-usage/adding-content/advanced/sounds/README.md)
