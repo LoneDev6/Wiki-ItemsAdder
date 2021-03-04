@@ -1,6 +1,6 @@
-# Mobs
+# Мобы
 
 {% hint style="danger" %}
-Mobs are still in beta, please don't ask for support nor for tutorials, surely I will rework how they are managed in files and stuff,
+Создание мобов находится в этапе бета-тестирования, пожалуйста, не запрашивайте помощи или туториалы по этому поводу, так как в будущем я переработаю эту систему.
 {% endhint %}
 
