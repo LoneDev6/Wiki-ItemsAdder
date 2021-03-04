@@ -1,13 +1,13 @@
-# Loots
+# Лут (выпадение предметов)
 
-Loots can be used to specify when to drop a particular item.  
-You can decide to create different loot types: 
+Данная функция может быть использована для указания плагину, когда нужно выдать тот или иной предмет.  
+Вы можете сделать выпадение предметов разного типа: 
 
-* blocks
-* mobs
-* fishing
+* из блоков
+* из мобов
+* в рыбалке
 
-For example this is the loots category of a .yml file I created.
+Это пример категории выпадления предметов в файле .yml, котораый я создал:
 
 ```yaml
 loots:
