@@ -43,7 +43,7 @@
     * [↪️Примеры прав](plugin-usage/permissions/example-permissions.md)
   * [⚠️Важная информация](plugin-usage/important-notes.md)
   * [🏁Советы для максимально быстрого использования](plugin-usage/tips-for-fastest-usage.md)
-  * [📷"Хостинг" для текстур](plugin-usage/resourcepack-hosting/README.md)
+  * [📷Хостинг для текстур](plugin-usage/resourcepack-hosting/README.md)
     * [Хост текстур с своей машины (self-host)](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
     * [Хост текстур через DropBox](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
     * [Хост текстур через mc-packs.net](plugin-usage/resourcepack-hosting/resourcepack-on-mc-packs-net.md)
