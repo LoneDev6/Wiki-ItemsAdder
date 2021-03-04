@@ -1,6 +1,6 @@
-# Worlds populators
+# Популяция в мире
 
-### Example: 2 populators
+### Два примера популяции блоков
 
 ```yaml
 worlds_populators:
@@ -35,25 +35,25 @@ worlds_populators:
     iterations: 1
 ```
 
-This code allows you to tell ItemsAdder to generate the block "myitems:custom\_block" in the world named "world" and replace only block of types STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL and only in biome PLAINS.
+Эти настройки укажут ItemsAdder генерировать блок "myitems:custom\_block" в мире с названием "world" и заменять блоки следующего списка: `STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL` только в биоме `PLAINS`.
 
-### amount, iterations, chance
+### количество, итерация, шанс
 
 {% hint style="warning" %}
-I suggest you to copy values from the blocks.yml file I created in the itemsadder folder.  
-Don't put too high values or the server will lag/crash.  
-Take my values as example.  
+Я советую вам копировать значения из файла blocks.yml, который я создал в папке itemsadder.  
+Не выставляйте огромные значения, иначе сервер начнет лагать или подохнет.  
+Берите за основу мои значения.  
   
-The only thing that you can increase safely as you wish is the **chance**.
+Единственная вещь, которую вы можете смело менять без рисков - **шанс**.
 {% endhint %}
 
-**iterations**: number of veins to be spawned to make a bigger ore vein  
-**amount**: number of blocks in each ore vein \(or the **vein size**\)  
-**chance**: chance of that generation to happen in a chunk, you should set it to 100 to normal ores and lower it down for more rare ores.
+**iterations**: количество жил, которые должны быть созданы (итерация)  
+**amount**: количество блоков в одной жиле \(или по другому **размер жилы**\)  
+**chance**: шанс генерации такой руды на каждый чанк, вы можете выставить это на значение 100, для обычных руд и выставить этот шанс ниже для крайне редкой руды.
 
-### Biomes
+### Биомы
 
-You can remove this option and the plugin will spawn ores in every biome.
+Вы можете не использовать эту строку, тогда плагин будет генерировать руду во всех биомах.
 
 ```yaml
   custom_block:
@@ -74,9 +74,9 @@ You can remove this option and the plugin will spawn ores in every biome.
     iterations: 1
 ```
 
-### Replaceable blocks
+### Заменяемые блоки
 
-You can remove this option and the plugin will spawn ores replacing every block instead of checking if it can be replaced.
+Вы можете не использовать эту строку, тогда плагин будет создавать свою руду, заменяя все блоки без их проверки.
 
 ```yaml
   custom_block:
