@@ -82,7 +82,7 @@
         * [Саженцы](plugin-usage/adding-content/advanced/trees-populators/saplings.md)
       * [Картинки из символов Юникода](plugin-usage/adding-content/advanced/font-images/README.md)
         * [Частые ошибки](plugin-usage/adding-content/advanced/font-images/common-errors.md)
-        * [Placeholder'ы](plugin-usage/adding-content/advanced/font-images/placeholders.md)
+        * [Заполнители - Placeholders](plugin-usage/adding-content/advanced/font-images/placeholders.md)
       * [Звуки](plugin-usage/adding-content/advanced/sounds/README.md)
         * [Конвертация файла в формат .ogg](plugin-usage/adding-content/advanced/sounds/convert-sound-to-.ogg.md)
       * [HUDы](plugin-usage/adding-content/advanced/huds.md)
