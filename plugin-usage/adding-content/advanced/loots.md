@@ -1,4 +1,4 @@
-# Лут (выпадение предметов)
+# Лут (выпадение предметов/дроп)
 
 Данная функция может быть использована для указания плагину, когда нужно выдать тот или иной предмет.  
 Вы можете сделать выпадение предметов разного типа: 
@@ -36,22 +36,22 @@ loots:
           chance: 15
 ```
 
-This example has two loots in **blocks** category.
+Данный пример содержит в себе 2 выпадающих предмета в категории **блоков**.
 
-First one is called **ruby\_ore** \(you can call them as you prefer\), this will drop a **itemsadder:ruby** item when you break a custom **block** of type **itemsadder:ruby\_ore** with a minimum **amount** of **1** and **maximum** amount of **2** with **100% chance**.
+Первый пример назван **ruby\_ore** \(вы можете называть их как хотите\), игрок получит предмет **itemsadder:ruby** из **блока** **itemsadder:ruby\_ore**, когда тот будет сломан, в минимальном **количестве** от **1** до **максимального значение** - **2** со **100% шансом**.
 
-The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal** or a **knowledge\_fragment** when the player breaks a **NETHER\_QUARTZ\_ORE**.  
-These **drops** are decided by **ItemsAdder** based on **chance** you set. 
+Второй пример заставляет выбрасывать предмет из ванильного **блока**. Как вы можете заметить, из блока **Кварцевой руды** выпадет предмет **crystal** или **knowledge\_fragment**, когда игрок его сломает .  
+Такое **выпаделние** создается плагином **ItemsAdder**, с указанным вами **шансом**. 
 
 {% hint style="info" %}
-Special property: **drop\_only\_first**  
-This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.   
-**WARNING**: this would make your items **harder** to be **dropped**.
+Особая функция: **drop\_only\_first**  
+Это позволит вам **заставить плагин** не **выкидывать все указанные предметы разом**, а выкидывать предметы только в **указанном им шансе**.   
+**Важно**: эта функция сделает выпадение предмета намного реже и, собственно, сложнее в добыче.
 {% endhint %}
 
-## Ignore fortune enchant
+## Игнорирование зачарования удачи
 
-You can make a loot ignore fortune enchant by adding the **ignore\_fortune** property.
+Вы можете заставить плагин игнорировать увелечение количества дропа при помощи строки **ignore\_fortune**.
 
 ```yaml
 loots:
@@ -64,15 +64,15 @@ loots:
           min_amount: 1
           max_amount: 2
           chance: 100
-          ignore_fortune: true # <----- here
+          ignore_fortune: true          #<----- тут
 ```
 
-### Other types of loots
+### Другие типы выпадения
 
-As I said before there are other types of loots: mobs and fishing.  
+Как и говорил, плагин поддерживает другие типы дропа лута: из мобов и рыбалки.  
 These are some examples:
 
-#### Fishing
+#### Рыбалка
 
 ```yaml
 loots:
@@ -100,7 +100,7 @@ loots:
           chance: 5
 ```
 
-#### Mobs
+#### Мобы
 
 ```yaml
 loots:
@@ -129,10 +129,10 @@ loots:
 ```
 
 {% hint style="info" %}
-## Custom mobs loots
+## Выпадение из мобов плагина
 {% endhint %}
 
-In order to let ItemsAdder drop an item based on when you kill a custom mob \(created with ItemsAdder\) you have to use the metadata attribute. Example:
+Чтобы заставить ItemsAdder выкидывать предметы из убитых мобов плагина \(созданных самим же ItemsAdder\) вам нужно указать атрибут метаданных. Пример:
 
 ```yaml
 loots:
@@ -152,12 +152,12 @@ loots:
           chance: 100
 ```
 
-As you can see I set **ItemsAdderMob** attribute and specified my custom mob **namespace:id** \(in this example I used the **creaturesplus:soul** mob\)
+Как вы можете заметить, я установил атрибут **ItemsAdderMob** и указал нужного моба в формате **имя папки:ID моба** \(в данном примере: **creaturesplus:soul**\)
 
 {% hint style="info" %}
-## Villager professions
+## Профессии жителей
 
-### \(and any other NBT attribute you want to match\)
+### \(и прочие NBT-атрибуты, которые вы хотите сопоставить\)
 {% endhint %}
 
 ```yaml
@@ -178,10 +178,10 @@ loots:
           chance: 100
 ```
 
-As you can see I set **profession** attribute and specified the **NBT attribute** path, which in this case is **VillagerData.profession**.  
-Then I set value to **minecraft:farmer**, this tells ItemsAdder to match only **villagers** with attribute **VillagerData.profession** set to **minecraft:farmer**.
+Как вы можете заметить, я установил атрибут **profession** и указал атрибут **NBT** - **VillagerData.profession**.  
+После чего я установил значение **minecraft:farmer**, это заставит ItemsAdder менять только тех **жителей**, которым присвоен атрибут **VillagerData.profession** с значением **minecraft:farmer**.
 
 {% hint style="warning" %}
-The type attribute of **nbt** and **metadata** are really **important**, don't **forget** them or matches could not occur.
+Атрибуты **nbt** и **метаданных (metadata)** очень **важны**, не **забывайте** о них, иначе сделать сопоставление не получится.
 {% endhint %}
 
