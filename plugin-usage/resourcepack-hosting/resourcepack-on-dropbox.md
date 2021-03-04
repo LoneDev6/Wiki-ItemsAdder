@@ -1,7 +1,7 @@
 # Хост текстур через DropBox
 
 {% hint style="danger" %}
-**НЕ ИСПОЛЬЗУЙТЕ** файл **pack\_21521367.zip** или **precompressed\_example\_pack.zip**, ЭТО КЛАССИЧЕСКАЯ ОСНОВА!!!!  
+**НЕ ИСПОЛЬЗУЙТЕ** файл **pack\_21521367.zip** или **precompressed\_example\_pack.zip**, ЭТО КЛАССИЧЕСКАЯ ОСНОВА!!!! 
 ВЫ ДОЛЖНЫ ИСПОЛЬЗОВАТЬ ВАШ **pack.zip** ФАЙЛ, КОТОРЫЙ СГЕНЕРИРОВАН КОМАНДОЙ **/iazip**.  
 Он находится в папке по этому пути: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
