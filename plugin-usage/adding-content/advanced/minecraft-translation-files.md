@@ -1,13 +1,13 @@
-# Minecraft translation files
+# Файлы языков игры
 
 {% hint style="info" %}
-With ItemsAdder you can easily overwrite Minecraft default translation files.  
+При помощи ItemsAdder вы можете заменять файлы переводов Minecraft.  
 \(version 2.1.35+\)
 {% endhint %}
 
-### Example of usage
+### Пример использования
 
-In this example I will change the Return to game text of ESC menu.
+В этом примере я изменю текст кнопки "Вернуться к игре" в меню, вызванное нажатием клавиши ESC.
 
 ![](../../../.gitbook/assets/image%20%2831%29.png)
 
@@ -17,19 +17,19 @@ info:
 minecraft_lang_overwrite:
   esc_menu_texts:
     entries:
-      "menu.returnToGame": "Return to &aSurvival &fGamemode"
+      "menu.returnToGame": "Вернуться к &aSurvival &fGamemode"
     languages:
       - ALL
 ```
 
-### languages
+### языки
 
-The languages property is used to list all the languages where you want to change the text.  
-You should set it to only the languages of your playerbase, but I decided to set it to ALL so you will be sure that everyone can see the custom text despite their decided clientside language.
+Данная настройка позволяет перезаписывать текст только в определенных языковых файлах.  
+Вы должны указать языки конкретно для вашей аудитории сервера, но я советую поставить значение ALL, чтобы этот текст видели посетители с любым выбранным языком в настройках игры.
 
 ### entries
 
-It's the list of translated texts. You can find the [complete list here](https://gist.github.com/LoneDev6/1df03fd853b2b244a7348216c8fa909d).
+Это список названий всех строк в игре, чтобы вы могли изменить абсолютно любое значение. Советую [ознакомиться с этим тут](https://gist.github.com/LoneDev6/1df03fd853b2b244a7348216c8fa909d).
 
 
 
