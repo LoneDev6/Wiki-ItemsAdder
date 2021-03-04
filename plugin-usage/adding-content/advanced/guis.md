@@ -1,25 +1,25 @@
-# GUIs
+# GUI
 
-In order to make GUIs you can copy and paste my pack named mcguis and edit it on your likings.  
-In order to create custom GUIs you can use the [JavaAPI ](../../../developers/java-api/huds-guis.md)or install a plugin like [ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
-If you are using a plugin like ChestCommands you have to name the GUI like this:  
+Чтобы добавить GUI, вы можете скопировать и вставить файлы из моих заводских текстур из папки mcguis и изменять их на ваше усмотрение.  
+Чтобы создавать свои GUI вы должны использовать [JavaAPI ](../../../developers/java-api/huds-guis.md)или установить плагин, вроде [ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
+Если вы используете плагин ChestCommands или что-то похожее, то вы должны вставить их подобным образом:  
 
 
 ```text
 :offset_-16::blank_menu:
 ```
 
-This tells ItemsAdder to replace the GUI name with a -16 offset special character that will shift the main\_menu texture of 16 pixels back.
+Это даст команду ItemsAdder наложить текстуру со смещением в -16 пикселей по горизонтальной оси назад (тоесть влево).
 
 ![](../../../.gitbook/assets/immagine%20%2811%29.png)
 
-###  Read more about placeholders
+###  Узнать больше о заполнителях (placeholders)
 
 {% page-ref page="font-images/placeholders.md" %}
 
-## Example addon
+## Аддон-пример
 
-Here you can get an addon example [https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/](https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/)
+Тут вы можете найти аддон, созданный в качестве примера: [https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/](https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/)
 
 
 
