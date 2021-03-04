@@ -74,7 +74,7 @@
         * [Верстак](plugin-usage/adding-content/advanced/recipes/crafting.md)
         * [Переплавка в печи](plugin-usage/adding-content/advanced/recipes/cooking.md)
         * [Починка на наковальне](plugin-usage/adding-content/advanced/recipes/anvil-repair.md)
-      * [Собственный перевод](plugin-usage/adding-content/advanced/translation.md)
+      * [Файлы языков игры](plugin-usage/adding-content/advanced/translation.md)
       * [Лут](plugin-usage/adding-content/advanced/loots.md)
       * [Популяция в мире](plugin-usage/adding-content/advanced/worlds-populators.md)
       * [Популяция деревьев](plugin-usage/adding-content/advanced/trees-populators/README.md)
