@@ -1,38 +1,37 @@
-# Resourcepack on DropBox
+# Хост текстур через DropBox
 
 {% hint style="danger" %}
-**DO NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  
-YOU HAVE TO USE YOUR **pack.zip** FILE WHICH IS GENERATED USING **/iazip** COMMAND.  
-You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
+**НЕ ИСПОЛЬЗУЙТЕ** файл **pack\_21521367.zip** или **precompressed\_example\_pack.zip**, ЭТО КЛАССИЧЕСКАЯ ОСНОВА!!!!  
+ВЫ ДОЛЖНЫ ИСПОЛЬЗОВАТЬ ВАШ **pack.zip** ФАЙЛ, КОТОРЫЙ СГЕНЕРИРОВАН КОМАНДОЙ **/iazip**.  
+Он находится в папке по этому пути: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
 
-## Video tutorial
+## Видео-гайд
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
 
 {% hint style="info" %}
-One of the most famous files hosting websites is **DropBox**. It allows you to publish your files for free and it's really easy and fast.  
-You cannot use GoogleDrive and others because they don't provide a **direct download**. Dropbox does.
+Самым лучшим внешним хостом для текстур является **DropBox**. Он позволяет бесплатно делиться своими файлами с другими пользователями достаточно просто и быстро.  Использовать гугл диск (GoogleDrive) и другие похожие платформы, так как они **не** дают **прямой ссылки на скачивание**. Dropbox дает.
 {% endhint %}
 
-## Text tutorial
+## Инструкция
 
-* Open [DropBox](https://dropbox.com/), register/login
-* Use the command`/iazip` \(**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file\)
-* Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* **Drag and drop** on **DropBox** the file **pack.zip**
-* Press **Share**
+* Откройте [DropBox](https://dropbox.com/), войдите/зарегистрируйтесь
+* Используйте эту команду `/iazip` \(**это крайне важно**, так как `/iazip`перезагружает все настройки и генерирует файл **pack.zip**\)
+* Откройте папку по пути: `plugins/ItemsAdder/data/resource_pack/`
+* **Загрузите** на **DropBox** ваш **pack.zip** файл
+* Нажмите кнопку **Поделиться**
 
 ![](../../.gitbook/assets/immagine%20%2825%29.png)
 
-* Press **Create**
+* Нажмите **Создать ссылку**
 
 ![](../../.gitbook/assets/immagine%20%2824%29.png)
 
-* Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0) 
-* Open `config.yml` of **ItemsAdder**
-* Set it like this \(**I used the example URL, please use your own**\)
+* Нажмите **скопировать ссылку**
+* Как пример, у вас должна получится похожая ссылка: [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0) 
+* Откройте основной файл конфигурации `config.yml` плагина **ItemsAdder**
+* Вставьте вашу ссылку туда похожим образом \(**Я вставил туда свою URL-ссылку для примера, используйте в этой строке свою**\)
 
 ```yaml
 resource-pack:
@@ -45,42 +44,43 @@ resource-pack:
     pack-port: 8163
   external-host:
     enabled: true
-    url: 'https://www.dropbox.com/blablabla?raw=1'
+    url: 'https://www.dropbox.com/blablabla?raw=1'    #<-----
 ```
 
-* **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` \(in this case to reload the resourcepack download link\)
-* **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
+* **ВАЖНО**: **Используйте команду** `/iareload` чтобы **перезагрузить** конфигурации **плагина** после внесенных вами **изменений** в файле конфигурации `config.yml` \(в данном случае - обновить ссылку на пакет ресурсов\)
+* **Используйте команду** `/iatexture` в игре, чтобы перезагрузить скачанный набор ресурсов (скачать его заново) или используйте `/iatexture all`, чтобы перегазрузить набор ресурсов всем игрокам на сервере
 
 {% hint style="danger" %}
-PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+ПОЖАЛУЙСТА, используйте `/iazip` **каждый раз**, когда вы внесли изменения в файлы **текстур**, в 3D **модель**, в **звуках**... после чего **перезалейте** набор ресурсов на ваш **Dropbox** и используйте **/iareload** (ссылка на файл не должна изменится), иначе - вы не увидите новый/обновленный вами контент.
 {% endhint %}
 
 {% hint style="warning" %}
-**Change** the **file name each time** you **upload** a **new version** of the **resourcepack** to **force** the game to **redownload** the **new version**.  
-If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
+**Меняйте** **имя файла каждый раз**, когда вы **загружаете** новую **версию** вашего **пакета ресурсов**, чтобы **принудить** игру **скачать** именно **новую версию**.  
+Если вы **загрузите** **zip**-файл под тем же именем и **той же URL-ссылкой**, то **пакет ресурсов** может не обновиться у некоторых игроков.
 {% endhint %}
 
 
 
-## But this is so slow! I have to reupload on DropBox too many times!
+## Но ведь это слишком долго! Мне приодится кучу раз перезаливать набор ресурсов на DropBox!
 
-Yea it is, that's why you should use the self host feature instead of DropBox. But some hosting \(cheap ones\) don't provide port opening, so you must use DropBox.
+Да, это так, поэтму я советую вам использовать вашу же машину (хост) в качестве хоста для текстур, заместо DropBox. Но будьте внимательны, некоторые \(особено дешевые\) хостинги не имеют лишние открывые порты, поэтому вам придется использовать DropBox или менять хостинг.
 
 {% page-ref page="resourcepack-self-hosting.md" %}
 
 {% hint style="info" %}
-If you need a cheap hosting that has good hardware and allows port opening \(for self host and for other plugins that need ports\) you can check this out:
+Если вам нужен дешевый европейский хостинг, который имеет неплохое железо и позволит открыть порты \(для хоста текстур прямиком оттуда, а так же для других плагинов\) вы можете взглянуть на этот:
 
 [http://bit.ly/humble-dropbox](http://bit.ly/humble-dropbox)
 
  [![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)  
 
 
-* **Top Notch Hardware @ Budget Cost.**
-* **24/7 Support**
-* **Instant Deployment**
-* **Custom Control Panel\(Pterodactyl\)**
-* **sFTP & MySQL Database Access**
-* **SSD & NVME Storage**
+* Оборудование высшего качества по низкой стоимости.
+* 24/7 поддержка
+* **Моментальное "развертывание" вашего сервера**
+* **Собственная панель управления**\(Pterodactyl\)
+* **sFTP** & база данных **MySQL** 
+* **SSD** & **NVME** носители
+* Поддержка **открытия портов** для **ItemsAdder** [self-host](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
 {% endhint %}
 
