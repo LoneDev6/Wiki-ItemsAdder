@@ -1,37 +1,37 @@
-# Resourcepack self hosting
+# Хост текстур со своей машины (self-host)
 
-With ItemsAdder 2.0 you can host the resourcepack directly on your server!   
-No need to pay for a website host and **no need to upload the pack everytime you make a change!**
+С версии ItemsAdder 2.0 (и выше) вы можете использовать собственную хост-машину в качестве хоста пакета ресурсов, прямиком из папки вашего сервера!   
+Не нужно платить за внешний хостинг для текстур и **не нужно постоянно перезаливать набор ресурсов на левые сервисы!**
 
 {% hint style="warning" %}
-Your hosting service must let you get additional ports for your server.  
-If your hosting service doesn't provide you additional ports you have to use **DropBox**, check this tutorial:
+Ваша машина или хостинг должны давать возможность открывать новые порты (или уже иметь дополнительные).  
+Если хостинг этого не поддерживает (или ваш провайдер отказывается открывать порты), вы вынуждены использовать **DropBox**, туториал можно найти тут:
 
 {% page-ref page="resourcepack-on-dropbox.md" %}
 
-If you don't want to use **DropBox** you can use **mc-packs.net** website
+Если вас не устраивает **DropBox** - вы можете использовать сервис **mc-packs.net**:
 
 {% page-ref page="resourcepack-on-mc-packs-net.md" %}
 {% endhint %}
 
 
 
-## Info about self-hosting
+## Информация о хосте текстур со своей машины (self-host)
 
-### What is the difference between self-host and external-host?
+### В чем отличие вашего хоста (self-host) и внешних сервисов (eternal host)?
 
-Difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
+Главное отличие в том, что скачивание пакета ресурсов со своей машины производится моментально, прямиком с папки сервера, без разрыва волос на заднице с постоянным перезаливом пакета ресурсов при малейшем изменении.
 
 {% hint style="info" %}
-`self-host` is really useful when you are configuring the resourcepack on your test server on your PC. Because you just have to use command `/iazip` and you'll see changes applied ingame almost instantly.
+`Свой хост текстур, или self-host`, очень полезен, когда вы только начали настраивать и тестировать возможности плагина на своем локальном ПК. Так как вам достаточно использовать одну команду - `/iazip`, и все изменения сразу же будут загружены к вам в клиент игры.
 {% endhint %}
 
 {% page-ref page="../tips-for-fastest-usage.md" %}
 
-## How can I configure the self host?
+## Как настроить свой хост текстур (self host)?
 
-* Check in your hosting service panel if you can get an additional port, if not please ask hosting service support to provide your one.
-* After you obtained a port you can open `config.yml` and set like this:
+* Проверьте, открыты ли у вас дополнительные порты на вашей машине или хостинге, если нет - попросите вашего провайдера или хост-менеджера выделить вам один.
+* После того, как вы заполучили порт - откройте основной файл конфигурации `config.yml` и выставьте следующие строки подобным образом:
 
 ```yaml
   self-host:
@@ -42,9 +42,9 @@ Difference is that with self-host you can download the pack directly from your s
     enabled: false
 ```
 
-* you have to replace `127.0.0.1` with ... your server IP
-* and replace `8163` with the additional port you obtained.
-* So for example if my ip is `123.456.789.0` and my additional port is `8080` I will set it like this:
+* замените `127.0.0.1` на ваш IP-адрес сервера
+* замените порт `8163` на любой открытый.
+* Как пример, если мой IP, допустим - `123.456.789.0`, и мой открытый порт, допустим - `8080`, тогда я должен установить следующие строки в конфигурации:
 
 ```yaml
   self-host:
@@ -56,14 +56,14 @@ Difference is that with self-host you can download the pack directly from your s
 ```
 
 {% hint style="warning" %}
-**Additional port** is not the same as your server port \(the one your users use to connect\).
+**Открытый порт** не должен совпадать с портом сервера \(он нужен для подключения к вам игроков\) и не должен ничем использоваться.
 {% endhint %}
 
 {% hint style="info" %}
-If you are testing the plugin on your PC you can leave default config, because 127.0.0.1 means "this pc", so plugin will look for the resourcepack zip directly in your PC.
+Если вы пользуетесь плагином на чисто тестовом сервере на вашем компьютере, то вы можете оставить классические настройки, так как 127.0.0.1 (или по другому localhost) это IP "данного компьютера", который доступен только внутри локальной сети, и таким образом плагин загружает (перезагружает) пакет ресурсов прямиком из вашего компьютера вашему же компьютеру (моментально).
 {% endhint %}
 
 {% hint style="danger" %}
-Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**...  ****or you won't see any change obviously.
+Не забывайте использовать команду `/iazip` **каждый раз**, когда вы внесли изменения в файлы **текстур**, в 3D **модель**, в **звуках**...  ****или вы не увидите никаких изменений.
 {% endhint %}
 
