@@ -17,12 +17,12 @@
 * vehicle - транспорт
 
 ```yaml
-# This behaviour allows you to open a trade GUI with the following items
-# For example black_fishing_rod and red_fishing_rod
+# Это поведение дает возможность открывать GUI торговли со своими текстурами и предметами на продажу
+# Как пример предметов на продажу, тут выставлены предметы black_fishing_rod и red_fishing_rod
 block_trade_machine:
   title: "Your title"
-  permission: "mypermission.trade.example" # <--- this is optional
-  gui_texture: ###THIS IS OPTIONAL, use it only to retexture the GUI
+  permission: "mypermission.trade.example"            # <--- это можно изменить
+  gui_texture:            ###это можно изменить, используйте только текстурированные GUI
     left: customization_table_left
     right: customization_table_right
   trades_list:
@@ -50,34 +50,34 @@ block_trade_machine:
         amount: 1
         
 furniture_trade_machine:
-....... it's the same as block_trade_machine
+....... Точно такое же поведение, как и block_trade_machine, только в виде мебели
 
    
-# When you rightclick with that item it will be placed on the ground with an
-# armorstand. The armorstand will have the item as helmet and will be invisible.
+# Когда вы кликаете правой кнопкой мыши с этим предметов в руках - он установится на земплю
+# в качестве стойки для брони. Стойка для брони имеет указанную модель блока на своей голове и является невидимой.
 furniture:
   small_hitbox: true
   gravity: true
   fixed_rotation: false
   light_level: 7  
   solid: false
-  opposite_direction: false #makes the model rotate 180 when placed
+  opposite_direction: false        #заставляет модель поставиться на 180 градусов в направлении от вас
 
 
-# If you add this behaviour and "furniture" behaviour you will be able to sit
-# on the furniture at the defined height.
+# Если вы добавите поведение "furniture" и это - вы сможете садится на вашу мебель
+# на указанную вами высоту.
 furniture_sit:
   sit_height: 0.9
-  opposite_direction: true #default is true
+  opposite_direction: true      #обычно true
   
 
-# Allows you to use this item as a gun. You can decide which projectile must
-# be hold on left hand in order to shot.
+# Дает возможность использовать предмет как дальнобойнее оружие. Какой предмет должен являться снарядом и лежать
+# в левой руке во время стрельбы - настраивается вами.
 gun:
   projectile: itemsadder:clip
   
 
-# Allows you to use the current item as hat (same vanilla helmet behaviour)
+# Дает возможность надеть предмет на голову (точно так же, как и в ваниле, если указан предмет, который )
 hat: true
 
 
