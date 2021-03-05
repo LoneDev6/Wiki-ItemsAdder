@@ -1,17 +1,17 @@
 ---
-description: Properties that allows customization of item graphics
+Описание: Настройки, которые позволят изменить графику (модели/текстуры) для предметов
 ---
 
-# Resource
+# Настройка источников графики
 
 {% hint style="danger" %}
-Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
+Важно - прежде чем начать, следует знать о том, что использование ЗАГЛАВНЫХ и "особых" символов (!?@; и так далее) в именах предметов, в названиях папок и в именах файлов текстур (PNG) или моделей (JSON) запрещено! 
 {% endhint %}
 
-## Automatic generation
+## Генерация модели 
 
-In order to tell ItemsAdder which texture/model use for an item you have to add the `resource` attribute.  
-This is an example:
+Эти параметры указывают плагину ItemsAdder какие текстуры/модели должны использоваться, эти параметры указываются под "категорией" `resource`.  
+Небольшой пример:
 
 ```yaml
   resource:
@@ -21,27 +21,28 @@ This is an example:
     - item/example_item.png
 ```
 
-`material` is the vanilla material this item will use as base.
+`material` - ванильный предмет, взятый за основу создания нового предмета.
 
-`generate` tells to IA if it needs to generate the item model automatically based on textures you listed
+`generate` - Указывает IA нужно ли генерировать модель автоматически (ванильные плоские предметы, взятые в руку или блоки) или использовать именно вашу модель с вашей текстурой.
 
-`textures` is the list of textures IA will use to generate the model automatically.
+`textures` - путь к текстуре или нескольким текстурам для автоматической генерации модели.
 
-### Where do I put textures?
+### Куда класть файл текстуры для автоматической генерации?
 
-Textures you listed in the `textures` attribute must be placed in the right folder.  
-So if you set `textures` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `example_item.png` ****file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
+Текстуры, которые указаны в параметре `textures` должны находится в правильной папке.  
+Пример использования - если вы хотите установить в параметре `textures` что-то подобное, как в примере выше с вашей уже **папкой**, допустим, `myitems` \(имя папки взято для примера\) и хотите положить туда текстуру с названием `example_item.png` ****то вы должны положить файл по данному пути: `plugins\ItemsAdder\data\resource_pack\assets\`myitems`\textures\item\`example_item.png
 
-If the path doesn't exists create all the folders needed.
+Если папок по вашему пути нет  - создайте их.
+Путь в конфигурации предмета нужно указывать после папки textures, как пример: Из полного пути `ItemsAdder\data\resource_pack\assets\myitems\textures\item\example_item.png` вам нужно указать только `item\example_item.png`
 
 {% hint style="info" %}
-You can avoid setting `.png` in the `textures` attribute, IA will recognize the file automatically
+Вы можете не указывать формат файла `.png` в параметре `textures`, IA найдет файл по его имени автоматически и сам распознает формат
 {% endhint %}
 
-## Use your own 3D custom model \(.json file\)
+## Использование своих 3D-моделей \(.json файлы\)
 
-If you have a custom modelled sword or item you can tell IA not to generate the model automatically.  
-This is an example:
+Если у вас есть своя модель меча или предмета - вы должны указать плагину IA не генерировать модель предмета автоматически.  
+Пример:
 
 ```yaml
   resource:
@@ -51,18 +52,18 @@ This is an example:
 
 ```
 
-### Where do I put my model?
+### Куда класть свою модель?
 
-Model you set in the `model_path`attribute must be placed in the right folder.  
-So if you set `model_path` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `floating_sword.json` ****file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
+Модель, которую вы указываете в параметре `model_path` должна находится в правильной папке.  
+Если вы хотите установить параметр `model_path` как в примере, но со своей **папкой**, допустим, `myitems` \(имя папки взято для примера\) и хотите положить туда модель `floating_sword.json` ****то вы должны положить файл по данному пути: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
 
-If the path doesn't exists create all the folders needed.
+Если папок по вашему пути нет  - создайте их.
 
 {% hint style="warning" %}
-### My textures are not working!
+### Текстура модели не работает!
 
-If your custom model textures are not showing you have to open your model file and fix the textures path.  
-For example if you had this:
+Если ваша модель отображается без нужных текстур, то вы должны открыть файл модели и исправить пути к файлам текстур.  
+Пример, если вы имеете, допустим, что-то подобное:
 
 ```yaml
   {
@@ -74,7 +75,7 @@ For example if you had this:
   },
 ```
 
-You have to change it to this \(`your_namespace` is your [namespace ](../../../beginners/basic-concepts/namespace.md)folder\):
+Вы должны заменить это, на это \(`your_namespace` это имя вашей [папки ](../../../beginners/basic-concepts/namespace.md)folder\):
 
 ```yaml
 {
@@ -87,13 +88,13 @@ You have to change it to this \(`your_namespace` is your [namespace ](../../../b
 ```
 {% endhint %}
 
-## Transparent textures \(glass and similar\)
+## Прозрачность в текстурах \(стекло или что-то в этом духе\)
 
 {% page-ref page="../../../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
 
-## Manually specify custom\_model\_data
+## Указать custom\_model\_data вручную
 
-If you want to force the usage of a defined custom\_model\_data \(CustomModelData\) you can:
+Если вы хотите указать custom\_model\_data \(CustomModelData\) вручную, то используйте:
 
 ```yaml
     resource:
@@ -103,9 +104,9 @@ If you want to force the usage of a defined custom\_model\_data \(CustomModelDat
       model_path: "item/multimeter"
 ```
 
-You also have to create the model file names "multimeter" \(in this example\) inside this folder: `assets\YOUR_NAMESPACE\models\item`
+Вы должны создать модель с именем "multimeter" \(в данном примере\) внутри этой папки: `assets\ВАША_ПАПКА\models\item`
 
-You can also tell IA to automatically generate the model based on the texture:
+Также, вы можете указать плагину IA автоматически создать новую модель из одной лишь текстуры на основе конкретной модели по ее ID:
 
 ```yaml
 info:
