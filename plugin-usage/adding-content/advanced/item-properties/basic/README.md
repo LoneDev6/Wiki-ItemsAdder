@@ -1,28 +1,28 @@
 ---
-description: Collection of basic item properties
+Описание: Сборник основных настроек предмета
 ---
 
-# Basic
+# Основы
 
-### Enabled
+### Включение функции предметов в основном файле конфигурации плагина
 
 ```yaml
 enabled: true
 ```
 
-With this setting you can disable an item completely.  
-**Obviously if a player has it in inventory it won't be removed, he still will own it.  
-Same thing for blocks, but when broken they won't drop anymore**
+Этой строкой вы можете отключить всю предметы полностью.  
+**Важно - если игрок имеет предмет в инвентаре - он не исчезнет, игрок все еще будет иметь его.  
+Точно так же и с блоками, но выбрасывать предметы при их поломке они перестанут.**
 
-### Display name
+### Отображение имени (Display name)
 
 ```yaml
 display_name: "Test"
 ```
 
-This is the name user will see on the item
+Строка имени предмета, которое увидит игрок
 
-### Permission
+### Права (Permission)
 
 ```yaml
 permission: myitem
@@ -30,18 +30,18 @@ permission: myitem
 
 {% page-ref page="item-permission.md" %}
 
-### Lore
+### Описание предмета (Lore)
 
 ```yaml
 lore:
-- '&7When you mine a block'
-- '&7it drops exp orbs'
-- '&750% of times.'
+- '&7Когда вы сломаете блок'
+- '&7из него выпадет опыт'
+- '&7в 50% случаев.'
 ```
 
-Lore lines of the item
+Строки лора (описания) предмета
 
-### Attribute modifiers
+### Атрибуты предмета (Attribute modifiers)
 
 ```yaml
 attribute_modifiers:
@@ -65,9 +65,10 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
+Это атрибуты ванили, вы можете узнать больше о них тут: 
+[https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
 
-### Durability
+### Прочность (Durability)
 
 ```yaml
 durability:
@@ -78,14 +79,14 @@ durability:
   usages: 5
 ```
 
-There are pretty self explanatory.  
-`usages` are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events \(check events tutorial\).
+Очень простое для вашего использования  
+`usages` - параметр, который позволит вам выставить количество использований создаваемого предмета. Не забывайте уменьшать это количество событиями \(гляньте статью о событиях\).
 
-`custom_durability` is the durability amount which the item has on crafting \(if not specified is the same as `max_custom_durability`\)
+`custom_durability` - параметр изначальной прочности предмета при создании, предмет может создаваться изначально поломанным \(если не указано - строка будет иметь значение строки `max_custom_durability`\)
 
-`max_custom_durability` is the max durability the item can reach
+`max_custom_durability` - параметр максимальной прочности предмета, которое можно достичь
 
-### Item flags
+### Флаги предметов
 
 ```yaml
 item_flags:
@@ -97,15 +98,15 @@ item_flags:
   - HIDE_UNBREAKABLE
 ```
 
-Special item flags that can hide some vanilla info of the item.  
-You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
+Данный параметр позволяет скрыть лишнюю ванильную информацию о предмете в его описании (лоре).  
+Вы можете найти больше информации об этом, а также список этих параметров тут: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-### blocked\_enchants
+### Блокировка зачарований предмета (blocked\_enchants)
 
-Special item property that disables enchants for this item, so your users won't be able to enchant it.
+Параметр, который отключит указанные зачарования для предмета.
 
 {% tabs %}
-{% tab title="Disable some enchants" %}
+{% tab title="Отключение некоторых зачарований" %}
 ```yaml
 blocked_enchants:
       - DAMAGE_UNDEAD
@@ -117,7 +118,7 @@ blocked_enchants:
 ```
 {% endtab %}
 
-{% tab title="Disable all enchants" %}
+{% tab title="Отключение всех зачарований" %}
 ```yaml
 blocked_enchants:
       - ALL
@@ -125,9 +126,9 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-### events\_cooldown
+### Перезарядка событий (events\_cooldown)
 
-Special attribute to limit spamming of events by players. It's in ticks, so 20 = 1 second.
+Параметр, который не даст игроку спамить определенное событие. Число указано в тиках, поэтому 20 = 1 секунде.
 
 ```yaml
   healing_crystals:
@@ -144,7 +145,7 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
       disappear_when_broken: true
     item_flags:
     - HIDE_ATTRIBUTES
-    events_cooldown: 1200 ########### <-- EXAMPLE 60 seconds
+    events_cooldown: 1200 ########### <-- ПРИМЕР 60 секунд перезарядки
     events:
       interact:
         right:
@@ -158,13 +159,13 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
             amplifier: 4
 ```
 
-### events\_needed\_player\_stats
+### События, которым нужна статистики плагина (events\_needed\_player\_stats)
 
-Special attribute to make events work only if the player stat \(ItemsAdder player stat, which are usually shown in HUDs\) satisfies the set rule.
+Параметр, который заставит работать событие только тогда, когда его статистика соотвествует указанному числу \(Статы плагина ItemsAdder, которые обычно используются в HUDах, например - шкала маны\).
 
-You can set it to `>`, `<` ad `=`
+Вы можете установить значение которые `>` - больше, чем указанное, `<` - меньше, чем указанное или `=` - ровно указанному
 
-#### Example:
+#### Пример:
 
 {% page-ref page="../../../beginners/creating-a-custom-item/magic-wand.md" %}
 
@@ -185,7 +186,7 @@ You can set it to `>`, `<` ad `=`
     blocked_enchants:
     - ALL
     events_needed_player_stats:
-      mana: ">0" ### <---- for example. You could also set it to <5 or =1 for example.
+      mana: ">0" ### <---- для примера. Вы можете выставить значения <5 или =1 для примера.
     events:
       interact:
         entity:
