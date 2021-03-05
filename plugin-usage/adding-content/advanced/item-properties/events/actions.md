@@ -1,10 +1,10 @@
-# Actions
+# Действия
 
-## What are actions?
+## Что это такое?
 
-Actions are what will happen when an event is triggered.
+Действия происходят тогда, когда считалось определенное событие.
 
-### List of actions:
+### Список всех действий:
 
 * `play_sound`
 * `stop_sound`
@@ -37,8 +37,8 @@ Actions are what will happen when an event is triggered.
 * `play_totem_animation`
 
 {% hint style="info" %}
-You can set the same action multiple times. You just have to add `_anything` at the end.  
-For example if you want to play two sounds you have to write this:
+Вы можете указать несколько действий и по нескольку раз. Чтобы заставить его проигрываться несколько раз вам нужно добавить `_любой текст на английской раскладке` в конце.  
+Пример, если вам нужно проиграть 2 звука игроку сразу:
 
 ```yaml
 play_sound_first:
@@ -65,7 +65,7 @@ stop_sound:
   
 execute_commands:
   first_example:
-    command: 'tellraw {player} {"text":"wow you did something!","color":"gold"}'
+    command: 'tellraw {player} {"text":"ого, ты что-то сделал!","color":"gold"}'
     as_console: true
   second:
     command: 'help'
@@ -78,7 +78,7 @@ execute_commands:
 play_particle:
   name: "ENCHANTMENT_TABLE"
 
-# Shoots particle (useful for wands and weapons)
+# Создает частицы при стрельбе (полезно для посохов или оружия)
 shoot_particle:
   name: FLAME
   distance: 7
@@ -111,14 +111,14 @@ drop_exp:
   min_amount: 1
   max_amount: 3
     
-# Vanilla saturation values: 
+# Для ванильной шкалы сытости (голода): 
 # https://minecraft.gamepedia.com/Hunger#Food_level_and_saturation_level_restoration
 feed:
   amount: 6
-  saturation: 2 # <--- this is optional, default is 0
+  saturation: 2 # <--- настраивается, изначально равно 0
     
-# Replaced properties of the current item copying them from another.
-# For now you can only do that with custom_model_data. More will be added.
+# Изменение данных нынешнего предмета на данные другого.
+# Сейчас вы можете делать это только через тэг custom_model_data. Позже добавлю еще.
 replace_properties:
   custom_model_data:
     copy_from_item: "itemsadder:closed_lightsaber"
@@ -129,7 +129,7 @@ give_item:
   item: empty_cup
   amount: 1
   
-# Replaces blocks around the block you interacted with or break
+# Заменяют блоки вокруг игрока, когда он контактирует с ними или ломает их
 replace_near_blocks:
   radius:
     x: 2
@@ -138,9 +138,9 @@ replace_near_blocks:
   from: LAVA
   to: OBSIDIAN
   decrement_durability: 8
-  no_physics: false #default is false
+  no_physics: false #изначально установлено false
   
-# Glows blocks around the block you interacted with or break
+# Подсветит блоки вокруг игрока, когда он контактирует с блоком или ломает его.
 glow_near_blocks:
   decrement_durability:
     amount: 1
@@ -150,7 +150,7 @@ glow_near_blocks:
     z: 50
   material: DIAMOND_ORE
   
-# Breaks multiple blocks around the block you interacted with or break
+# Дает возможность несколько блоков сразу, когда вы контактируете с одним из них или ломаете его.
 multiple_break:
   keep_ores: true
   drop_all_blocks:
@@ -175,7 +175,7 @@ explosion:
   fire: true
   break_blocks: true
   
-# Allows you to damage entities around you
+# Наносит урон существам вокруг
 damange_near_entities:
   entity_groups:
    - HOSTILE
@@ -184,33 +184,33 @@ damange_near_entities:
   damage: 4
   range: 7
   
-# Allows you to damage the entity you're looking at
+# Наносит урон существу, на которое вы смотрите
 damage_entity_in_sight:
   damage: 4
   distance: 7
   
-# Special action that allows you to increment player stat linked to an hud
-#in this case hud named: "itemsadder:mana_bar"
+# Позволяет влиять на статы игрока в положительную сторону, которые привязаны к хаду
+#в данном случае это шкала маны: "itemsadder:mana_bar"
 increment_player_stat:
   name: "itemsadder:mana_bar"
   amount: 1
   
-# Special action that allows you to decrement player stat linked to an hud
-#in this case hud named: "itemsadder:mana_bar"
+# Позволяет влиять на статы игрока в отрицательную сторону, которые привязаны к хаду
+#в данном случае это шкала маны: "itemsadder:mana_bar"
 decrement_player_stat:
   name: "itemsadder:mana_bar"
   amount: 1
   
-# Special action to make the event cancelled (the event that called this action)
+# Действие, которое отменяет событие (событие, которое проиграло это действие)
 cancel: true
 
-# Adds potion effect to target entity (attack, interact...)
+# Наложение эффекта на цель (при атаках, взаимодействии с целью...)
 target_potion_effect:
   type: GLOWING
   duration: 70
   amplifier: 15
   
-# Removes potion effect to target entity (attack, interact...)
+# Действие, удаляющее эффект с цели (при атаках, взаимодействии с целью...)
 target_remove_potion_effect:
   type: GLOWING
   
