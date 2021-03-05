@@ -16,6 +16,8 @@
 * music\_disc - музыкальные пластинки
 * vehicle - транспорт
 
+### Примеры использования
+
 ```yaml
 # Это поведение дает возможность открывать GUI торговли со своими текстурами и предметами на продажу
 # Как пример предметов на продажу, тут выставлены предметы black_fishing_rod и red_fishing_rod
@@ -68,7 +70,7 @@ furniture:
 # на указанную вами высоту.
 furniture_sit:
   sit_height: 0.9
-  opposite_direction: true      #обычно true
+  opposite_direction: true      #обычно установлено на значение true
   
 
 # Дает возможность использовать предмет как дальнобойнее оружие. Какой предмет должен являться снарядом и лежать
@@ -77,20 +79,21 @@ gun:
   projectile: itemsadder:clip
   
 
-# Дает возможность надеть предмет на голову (точно так же, как и в ваниле, если указан предмет, который )
+# Дает возможность надеть предмет на голову (точно так же, как и в ваниле. Если указан предмет, который не является шлемом - его можно нажать нажатием
+ПКМ, держа предмет в руке)
 hat: true
 
 
-# Allows you to use the current item as a vanilla music disc.
-# Remember that you will have to create a custom sound to be able
-# to play something.
+# Позволит использовать указанный предмет как пластинку
+# Не забывайте создать музыкальный файл для этой пластинки, иначе она ничего не будет
+# проигрывать.
 music_disc:
   song:
-    name: "itemsadder:music_disc.cdk_sunday"
-    description: "Cdk - Sunday"
+    name: "itemsadder:music_disc.cdk_sunday"   #<- название пластинки
+    description: "Cdk - Sunday"   
     
 
-# Allows you to use the current item as a ridable vehicle
+# Позволит использовать предмет как транспорт, в который можно сесть
 vehicle:
   fixed_rotation: false
   small_hitbox: true
