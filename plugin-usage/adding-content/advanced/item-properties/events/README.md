@@ -1,15 +1,15 @@
-# Events
+# События
 
-## What are events?
+## Что это такое?
 
-Events describe the time when something happen.  
-You can make things happen \([actions](actions.md)\) when an event is triggered \(play sound, execute command...\)
+События - функция считывания действий со стороны игрока, которые дают команду на исполнение действиям уже плагина. 
+Список действий можно найти \([в этой статье](actions.md)\), например - проиграть звук, использовать команду от имени игрока или консоли и так далее.
 
-### List of events
+### Список считываемых событий
 
-* block\_break
-* attack
-* kill
+* block\_break 
+* attack 
+* kill 
 * interact.entity
 * interact.left
 * interact.left\_shift
