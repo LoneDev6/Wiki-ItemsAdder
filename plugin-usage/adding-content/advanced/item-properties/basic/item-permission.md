@@ -1,16 +1,16 @@
-# Item Permission
+# Права предметов
 
-### Example
+### Пример
 
 ```yaml
 permission: myitem
 ```
 
-To allow your players to **craft** this item you have to give them permission: `ia.user.craft.myitem`  
-To allow your players to **see** this item in `/ia` GUI you have to give them permission: `ia.user.ia.myitem`
+Вы можете разрешить игрокам **создавать** определенные предметы, дав им подобное право: `ia.user.craft.myitem`  
+Чтобы разрешить игроком **видеть** предмет в меню `/ia`, вы должны дать им право, подобное этому: `ia.user.ia.myitem`
 
 {% hint style="info" %}
-Remember to give them permission `ia.user.ia` to let them use `/ia` command
+Для последнего - не забудьте дать игроку право `ia.user.ia`, чтобы они могли использовать команду `/ia`
 {% endhint %}
 
 
