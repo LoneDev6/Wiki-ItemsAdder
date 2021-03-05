@@ -1,20 +1,20 @@
-# Behaviours
+# "Поведение" предмета
 
-## What are behaviours?
+## Что это такое?
 
-Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.  
-These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.
+Поведение предметов это **встроенная** функция плагина со своими **действиями**, которые осуществляют предметы и эти действия не ванильны.  
+Список **поведений** это уже встроенный функционал в плагин, которые позволит вам добавить уже полностью прописанные функции.
 
-### List of behaviours included in the plugin
+### Список всех поведений плагина
 
-* block\_trade\_machine
-* furniture\_trade\_machine
-* furniture
-* furniture\_sit
-* gun
-* hat
-* music\_disc
-* vehicle
+* block\_trade\_machine - поведение торгового автомата для блока
+* furniture\_trade\_machine - поведение торгового автомата для мебели
+* furniture - мебель
+* furniture\_sit - мебель, на которую можно сесть
+* gun - оружие
+* hat - шляпы
+* music\_disc - музыкальные пластинки
+* vehicle - транспорт
 
 ```yaml
 # This behaviour allows you to open a trade GUI with the following items
