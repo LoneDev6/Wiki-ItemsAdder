@@ -1,8 +1,8 @@
-# Furniture collisions
+# Столкновение с мебелью
 
-### How can I make a furniture solid?
+### Как сделать мебель полноценным блоком?
 
-You can make a furniture solid adding the "solid" attribute.
+Вы можете сделать ее полноценным блоком при помощи параметра "solid".
 
 ```yaml
   table:
@@ -17,7 +17,7 @@ You can make a furniture solid adding the "solid" attribute.
     behaviours:
       furniture:
         small_hitbox: true
-        solid: true
+        solid: true #   <-----
 ```
 
 ![](../../../../../.gitbook/assets/image%20%2815%29.png)
