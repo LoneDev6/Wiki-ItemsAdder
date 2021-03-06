@@ -65,7 +65,7 @@
           * [Создание 3D-модели](plugin-usage/adding-content/advanced/item-properties/resource/creating-3d-models.md)
           * [Размерность мебели](plugin-usage/adding-content/advanced/item-properties/resource/furniture-size.md)
           * [Столкновение с мебелью](plugin-usage/adding-content/advanced/item-properties/resource/furniture-collisions.md)
-        * [Особые настройки](plugin-usage/adding-content/advanced/item-properties/specific-properties/README.md)
+        * [Особые параметры](plugin-usage/adding-content/advanced/item-properties/specific-properties/README.md)
           * [Блоки](plugin-usage/adding-content/advanced/item-properties/specific-properties/blocks.md)
         * [События](plugin-usage/adding-content/advanced/item-properties/events/README.md)
           * [Действия](plugin-usage/adding-content/advanced/item-properties/events/actions.md)
