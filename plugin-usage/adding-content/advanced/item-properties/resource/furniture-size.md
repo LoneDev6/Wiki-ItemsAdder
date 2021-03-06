@@ -1,23 +1,23 @@
-# Furniture size
+# Размерность мебели
 
-## How can I adjust the furniture position when placed?
+## Как настроить позицию устанавливаемой мебели?
 
-If you want to adjust it you just have to use [Blockbench](creating-3d-models.md) as usual and:
+Если вы хотите изменить позицию мебели - используйте [Blockbench](creating-3d-models.md) и следуйте следующей инструкции:
 
 ![](../../../../../.gitbook/assets/immagine%20%289%29.png)
 
-1. click on **display** on the right
-2. click on the **armorstand icon** on the left
-3. click on the **smile face** \(**head**\) on the left
-4. **move** your model on the armorstand **bottom** \(it's the **ground**\)
+1. нажмите на **Отображение (display)** справа сверху в интерфейсе программы
+2. нажмите на иконку **стойки для брони** слева
+3. нажмите на иконку **улыбающегося лица** \(**головы**\) слева
+4. **переместите** всю вашу модель к стойке для брони **вплотную** \(это является **центром**\)
 
-### Too small furniture
+### Мебель слишком малых размеров
 
-If your furniture is **too small** bug you want it **bigger** and with bigger **hitbox** just set this to **false**.  
-If you instead want a **small furniture** with small hitbox just set it to true
+Если ваша модель мебели **слишком мала** и вы хотите сделать ее **больше**, а также хотите увеличить ее **хитбокс** - установите параметр ниже на значение **false**.  
+Если **малый размер** мебели вас устраивает и вы хотите оставить ее с меньшим хитбоксом - установите параметр ниже на значение **true**
 
 {% tabs %}
-{% tab title="Big furniture" %}
+{% tab title="Большой размер" %}
 ```yaml
 behaviours:
   furniture:
@@ -25,7 +25,7 @@ behaviours:
 ```
 {% endtab %}
 
-{% tab title="Small furniture" %}
+{% tab title="Малый размер" %}
 ```
 behaviours:
   furniture:
@@ -34,16 +34,16 @@ behaviours:
 {% endtab %}
 {% endtabs %}
 
-#### and set this is [BlockBench](creating-3d-models.md)
+#### и установите эти значения в [BlockBench](creating-3d-models.md)
 
 {% tabs %}
-{% tab title="Big furniture" %}
+{% tab title="Большой размер" %}
 
 
 ![](../../../../../.gitbook/assets/immagine%20%288%29.png)
 {% endtab %}
 
-{% tab title="Small furniture" %}
+{% tab title="Малый размер" %}
 
 
 ![](../../../../../.gitbook/assets/immagine%20%2810%29.png)
