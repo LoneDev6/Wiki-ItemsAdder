@@ -1,24 +1,24 @@
-# Mobs
+# Мобы
 
 {% hint style="danger" %}
-Mobs are still in beta, please don't ask for support nor for tutorials, surely I will rework how they are managed in files and stuff,
+Данная функция находится на этапе бета-тестирования, пожалуйста, не запрашивайте помощи или дополнительных туториалов, так как в будущем я могу координально изменить структуру файлов и функции в целом.
 {% endhint %}
 
-## Methods to create custom mobs
+## Методы создания своих мобов
 
-ItemsAdder offers two ways of creating custom mobs:
+ItemsAdder имеет "два стула":
 
-### ItemsAdder interal
+### Первый - встроенные функции в ItemsAdder
 
-This is the easiest and fastest way to create your custom mobs and see them around the world.  
-You don't need to install MythicMobs.
+Этот способ проще и быстрее в исполнении, позволит создать мобов со своими моделями, их можно будет встретить в мире.  
+Для этого способа вам не нужно ставить дополнительные плагины, вроде MythicMobs.
 
 {% page-ref page="itemsadder-internal.md" %}
 
-### Using MythicMobs
+### Второй - использование плагина MythicMobs
 
-This is a bit harder and not for beginners. You need to install [MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/).  
-This will allow you to use all the extended features of MythicMobs and apply a custom model to your custom mob.
+Этот способ сложнее и явно не для начинающих. Вам нужно установить плагин [MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/).  
+Этот плагин позволит вам использовать свои собственные функции мобов, но с моделями ItemsAdder (Мобы, которых добавляет MythicMobs, без моего плагина, не будут содержать свои модели)
 
 {% page-ref page="using-mythicmobs.md" %}
 
