@@ -44,8 +44,12 @@ this property can have these value:
   * uses a real block \(mushroom\), no lag, no entities, 100% real blocks.
   * downsides: 
     * **max** of **191 blocks** in total
+* `REAL_TRANSPARENT`
+  * uses a real block \(chorus\), no lag, no entities, 100% real blocks, also with transparency support!
+  * downsides: 
+    * **max** of **63 blocks** in total
 * `TILE`
-  * uses tile blocks \(modified spawner with custom skin\). It's not an entity but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
+  * uses **tile** blocks \(modified **spawner** with custom skin\). It's **not an entity** but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
   * downsides:
     * not a 100% real block, it's a retextured spawner
     * texture/model vanishes on high distance, so it will reveal the spawner vanilla texture
