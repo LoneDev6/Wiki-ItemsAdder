@@ -1,4 +1,4 @@
-# ⚙️Optifine only features
+# ⚙️Функции, возможные только с Optifine
 
 {% hint style="warning" %}
 **Optifine** is **not officially supported** by **ItemsAdder**, but if you want to get more customization you can read these tutorials.

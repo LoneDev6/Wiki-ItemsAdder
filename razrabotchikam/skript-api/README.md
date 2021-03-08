@@ -1,4 +1,4 @@
-# 📓API для скриптов
+# 📓Skript API
 
 ## Примеры
 
@@ -31,9 +31,9 @@ command /iaskriptiscustomitem:
 {% tab title="Картинка из юникода \(эмоджи, GUI..\)" %}
 ```yaml
 command /emojitest:
-	trigger:
-		set {iconConfirm} to fontimage "twitteremojis:confirm"
-		message "Good: %{iconConfirm}%"
+    trigger:
+        set {iconConfirm} to fontimage "twitteremojis:confirm"
+        message "Good: %{iconConfirm}%"
 ```
 {% endtab %}
 {% endtabs %}

@@ -27,5 +27,3 @@ account-title: :offset_-16::blank_menu::offset_-176:&0{player}
 {% endtab %}
 {% endtabs %}
 
-
-

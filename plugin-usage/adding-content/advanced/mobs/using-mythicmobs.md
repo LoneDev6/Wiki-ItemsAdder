@@ -1,4 +1,4 @@
-# Using MythicMobs
+# Использование MythicMobs
 
 ## How to make MythicMobs handle my custom mob
 

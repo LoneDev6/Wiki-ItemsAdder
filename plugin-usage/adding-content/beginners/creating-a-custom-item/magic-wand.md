@@ -1,4 +1,4 @@
-# Magic wand
+# Магический посох
 
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
 

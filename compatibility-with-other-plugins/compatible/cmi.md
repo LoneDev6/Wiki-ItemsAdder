@@ -15,7 +15,7 @@ font_images:
     replace-only-packets: true
 ```
 
-## Префиксы (ранги)
+## Префиксы \(ранги\)
 
 1. Откройте файл конфигурации config.yml плагина **CMI** и установите следующие конфигурации \(Я установил `%vault_prefix%` заполнитель вместо стандартного заполнителя **CMI** `{prefix}`\)
 
@@ -23,10 +23,10 @@ font_images:
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
 ```
 
-2. Загрузите [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)  
-3. Установите его и перезагрузите сервер  
-4. Используйте команду  `/papi ecloud download Vault`  
-5. Используйте команду `/papi reload`
+1. Загрузите [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)  
+2. Установите его и перезагрузите сервер  
+3. Используйте команду  `/papi ecloud download Vault`  
+4. Используйте команду `/papi reload`
 
 Готово
 

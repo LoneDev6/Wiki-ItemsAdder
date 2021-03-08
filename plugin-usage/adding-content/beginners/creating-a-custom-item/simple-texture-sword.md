@@ -1,4 +1,4 @@
-# Simple texture sword
+# Простой пример меча с текстурой
 
 {% hint style="danger" %}
 ### Namespace

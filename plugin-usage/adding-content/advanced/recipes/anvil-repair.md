@@ -2,7 +2,7 @@
 description: This recipe allows you to let players repair an item in anvil using a material
 ---
 
-# Anvil repair
+# Починка на наковальне
 
 ## Example
 

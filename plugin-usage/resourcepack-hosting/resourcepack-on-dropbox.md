@@ -1,69 +1,13 @@
 # Хост текстур через DropBox
 
 {% hint style="danger" %}
-**НЕ ИСПОЛЬЗУЙТЕ** файл **pack\_21521367.zip** или **precompressed\_example\_pack.zip**, ЭТО КЛАССИЧЕСКАЯ ОСНОВА!!!! 
-ВЫ ДОЛЖНЫ ИСПОЛЬЗОВАТЬ ВАШ **pack.zip** ФАЙЛ, КОТОРЫЙ СГЕНЕРИРОВАН КОМАНДОЙ **/iazip**.  
+**НЕ ИСПОЛЬЗУЙТЕ** файл **pack\_21521367.zip** или **precompressed\_example\_pack.zip**, ЭТО КЛАССИЧЕСКАЯ ОСНОВА!!!! ВЫ ДОЛЖНЫ ИСПОЛЬЗОВАТЬ ВАШ **pack.zip** ФАЙЛ, КОТОРЫЙ СГЕНЕРИРОВАН КОМАНДОЙ **/iazip**.  
 Он находится в папке по этому пути: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
 
 ## Видео-гайд
 
-{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
-
-{% hint style="info" %}
-Самым лучшим внешним хостом для текстур является **DropBox**. Он позволяет бесплатно делиться своими файлами с другими пользователями достаточно просто и быстро.  Использовать гугл диск (GoogleDrive) и другие похожие платформы, так как они **не** дают **прямой ссылки на скачивание**. Dropbox дает.
-{% endhint %}
-
-## Инструкция
-
-* Откройте [DropBox](https://dropbox.com/), войдите/зарегистрируйтесь
-* Используйте эту команду `/iazip` \(**это крайне важно**, так как `/iazip`перезагружает все настройки и генерирует файл **pack.zip**\)
-* Откройте папку по пути: `plugins/ItemsAdder/data/resource_pack/`
-* **Загрузите** на **DropBox** ваш **pack.zip** файл
-* Нажмите кнопку **Поделиться**
-
-![](../../.gitbook/assets/immagine%20%2825%29.png)
-
-* Нажмите **Создать ссылку**
-
-![](../../.gitbook/assets/immagine%20%2824%29.png)
-
-* Нажмите **скопировать ссылку**
-* Как пример, у вас должна получится похожая ссылка: [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0) 
-* Откройте основной файл конфигурации `config.yml` плагина **ItemsAdder**
-* Вставьте вашу ссылку туда похожим образом \(**Я вставил туда свою URL-ссылку для примера, используйте в этой строке свою**\)
-
-```yaml
-resource-pack:
-  apply-on-join: true
-  kick-player-on-decline: false
-  delay-ticks: 1
-  self-host:
-    enabled: false
-    server-ip: '127.0.0.1'
-    pack-port: 8163
-  external-host:
-    enabled: true
-    url: 'https://www.dropbox.com/blablabla?raw=1'    #<-----
-```
-
-* **ВАЖНО**: **Используйте команду** `/iareload` чтобы **перезагрузить** конфигурации **плагина** после внесенных вами **изменений** в файле конфигурации `config.yml` \(в данном случае - обновить ссылку на пакет ресурсов\)
-* **Используйте команду** `/iatexture` в игре, чтобы перезагрузить скачанный набор ресурсов (скачать его заново) или используйте `/iatexture all`, чтобы перегазрузить набор ресурсов всем игрокам на сервере
-
-{% hint style="danger" %}
-ПОЖАЛУЙСТА, используйте `/iazip` **каждый раз**, когда вы внесли изменения в файлы **текстур**, в 3D **модель**, в **звуках**... после чего **перезалейте** набор ресурсов на ваш **Dropbox** и используйте **/iareload** (ссылка на файл не должна изменится), иначе - вы не увидите новый/обновленный вами контент.
-{% endhint %}
-
-{% hint style="warning" %}
-**Меняйте** **имя файла каждый раз**, когда вы **загружаете** новую **версию** вашего **пакета ресурсов**, чтобы **принудить** игру **скачать** именно **новую версию**.  
-Если вы **загрузите** **zip**-файл под тем же именем и **той же URL-ссылкой**, то **пакет ресурсов** может не обновиться у некоторых игроков.
-{% endhint %}
-
-
-
-## Но ведь это слишком долго! Мне приодится кучу раз перезаливать набор ресурсов на DropBox!
-
-Да, это так, поэтму я советую вам использовать вашу же машину (хост) в качестве хоста для текстур, заместо DropBox. Но будьте внимательны, некоторые \(особенно дешевые\) хостинги не имеют лишние открывые порты, поэтому вам придется использовать DropBox или менять хостинг.
+{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" caption="" %}
 
 {% page-ref page="resourcepack-self-hosting.md" %}
 
@@ -72,8 +16,7 @@ resource-pack:
 
 [http://bit.ly/humble-dropbox](http://bit.ly/humble-dropbox)
 
- [![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)  
-
+[![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)
 
 * Оборудование высшего качества по низкой стоимости.
 * 24/7 поддержка
@@ -81,6 +24,6 @@ resource-pack:
 * **Собственная панель управления**\(Pterodactyl\)
 * **sFTP** & база данных **MySQL** 
 * **SSD** & **NVME** носители
-* Поддержка **открытия портов** для **ItemsAdder** для [хоста ваших текстур](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
+* Поддержка **открытия портов** для **ItemsAdder** для [хоста ваших текстур](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/b6ca0e098a470a4971b25346a7a58c6ba6fb5a38/plugin-usage/resourcepack-hosting/plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
 {% endhint %}
 

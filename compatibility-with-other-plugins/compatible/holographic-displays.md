@@ -6,8 +6,7 @@
 
 Установите [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
 Установите [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
-Обязательно установите [HolographicExtension аддон](https://www.spigotmc.org/resources/holographicextension.18461/)  
-
+Обязательно установите [HolographicExtension аддон](https://www.spigotmc.org/resources/holographicextension.18461/)
 
 Вы великолепны, теперь вы можете использовать эмоджи\_картинки \(эмоджи\) использовать внутри голограмм и других плагинов! \(которые поддерживают PlaceholderAPI\).  
 Чтобы вставить эмоджи, используйте этот заполнитель: `%img_НАЗВАНИЕ КАРТИНКИ%` где вместо "название картинки" вы должны указать присвоенное символу\_картинке имя.  

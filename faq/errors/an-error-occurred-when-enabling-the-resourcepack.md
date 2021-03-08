@@ -4,5 +4,3 @@
 
 {% page-ref page="../resourcepack-not-loading.md" %}
 
-
-

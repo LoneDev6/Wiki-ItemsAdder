@@ -1,4 +1,4 @@
-# Convert sound to .ogg
+# Конвертация файла в формат .ogg
 
 Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert your file \(mp3, wav...\) to ogg.
 

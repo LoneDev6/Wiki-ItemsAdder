@@ -2,7 +2,7 @@
 
 ## Предметы ItemsAdder
 
-### Получение предмета любого типа \(блок, предмет, шляпы, еда..\) при помощи ID или папки с ID (namespace:id)
+### Получение предмета любого типа \(блок, предмет, шляпы, еда..\) при помощи ID или папки с ID \(namespace:id\)
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -48,7 +48,7 @@ else
 
 ## Сущности ItemsAdder
 
-### Призыв сущности при помощи ID или названия папки и ID (namespace:id)
+### Призыв сущности при помощи ID или названия папки и ID \(namespace:id\)
 
 [CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
@@ -57,7 +57,7 @@ CustomMob customMob = CustomMob.spawn("your_item", location)
 if(customMob != null)
 {
     //spawned the custom mob
-    
+
     //example, print the display name in console
     System.out.println(customMob.getName());
 }
@@ -76,7 +76,7 @@ CustomMob customMob = CustomMob.byAlreadySpawned(entity)
 if(customMob != null)
 {
     //it's a custom mob
-    
+
     //example, print the display name in console
     System.out.println(customMob.getName());
 }

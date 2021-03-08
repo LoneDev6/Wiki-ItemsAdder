@@ -2,7 +2,7 @@
 description: This recipe allows your users to craft an item
 ---
 
-# Crafting
+# Верстак
 
 ## Example
 

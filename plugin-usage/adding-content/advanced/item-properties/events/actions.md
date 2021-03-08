@@ -57,12 +57,12 @@ play_sound:
   name: itemsadder:ambient.creepy
   volume: 1
   pitch: 1
-  
-  
+
+
 stop_sound:
   name: "itemsadder:music_disc.cdk_sunday"
-  
-  
+
+
 execute_commands:
   first_example:
     command: 'tellraw {player} {"text":"ого, ты что-то сделал!","color":"gold"}'
@@ -73,8 +73,8 @@ execute_commands:
   third:
     command: 'give {player} diamond'
     as_console: true
-    
-    
+
+
 play_particle:
   name: "ENCHANTMENT_TABLE"
 
@@ -82,26 +82,26 @@ play_particle:
 shoot_particle:
   name: FLAME
   distance: 7
-  
+
 play_effect:
   name: SMOKE
-  
+
 increment_durability:
   amount: 10
-  
-  
+
+
 decrement_durability:
   amount: 10
-  
-  
+
+
 decrement_usages:
   amount: 1
 
 
 increment_amount:
   amount: 1
-          
-          
+
+
 decrement_amount:
   amount: 1    
 
@@ -110,13 +110,13 @@ drop_exp:
   chance: 50
   min_amount: 1
   max_amount: 3
-    
+
 # Для ванильной шкалы сытости (голода): 
 # https://minecraft.gamepedia.com/Hunger#Food_level_and_saturation_level_restoration
 feed:
   amount: 6
   saturation: 2 # <--- настраивается, изначально равно 0
-    
+
 # Изменение данных нынешнего предмета на данные другого.
 # Сейчас вы можете делать это только через тэг custom_model_data. Позже добавлю еще.
 replace_properties:
@@ -128,7 +128,7 @@ replace_properties:
 give_item:
   item: empty_cup
   amount: 1
-  
+
 # Заменяют блоки вокруг игрока, когда он контактирует с ними или ломает их
 replace_near_blocks:
   radius:
@@ -139,7 +139,7 @@ replace_near_blocks:
   to: OBSIDIAN
   decrement_durability: 8
   no_physics: false #изначально установлено false
-  
+
 # Подсветит блоки вокруг игрока, когда он контактирует с блоком или ломает его.
 glow_near_blocks:
   decrement_durability:
@@ -149,7 +149,7 @@ glow_near_blocks:
     y: 50
     z: 50
   material: DIAMOND_ORE
-  
+
 # Дает возможность несколько блоков сразу, когда вы контактируете с одним из них или ломаете его.
 multiple_break:
   keep_ores: true
@@ -158,8 +158,8 @@ multiple_break:
     need_silk_touch: true
   size: 3
   depth: 3
-  
-  
+
+
 potion_effect:
   type: UNLUCK
   duration: 100
@@ -168,13 +168,13 @@ potion_effect:
 
 remove_potion_effect:
   type: GLOWING
-  
-  
+
+
 explosion:
   power: 2
   fire: true
   break_blocks: true
-  
+
 # Наносит урон существам вокруг
 damange_near_entities:
   entity_groups:
@@ -183,24 +183,24 @@ damange_near_entities:
    - PASSIVE
   damage: 4
   range: 7
-  
+
 # Наносит урон существу, на которое вы смотрите
 damage_entity_in_sight:
   damage: 4
   distance: 7
-  
+
 # Позволяет влиять на статы игрока в положительную сторону, которые привязаны к хаду
 #в данном случае это шкала маны: "itemsadder:mana_bar"
 increment_player_stat:
   name: "itemsadder:mana_bar"
   amount: 1
-  
+
 # Позволяет влиять на статы игрока в отрицательную сторону, которые привязаны к хаду
 #в данном случае это шкала маны: "itemsadder:mana_bar"
 decrement_player_stat:
   name: "itemsadder:mana_bar"
   amount: 1
-  
+
 # Действие, которое отменяет событие (событие, которое проиграло это действие)
 cancel: true
 
@@ -209,13 +209,11 @@ target_potion_effect:
   type: GLOWING
   duration: 70
   amplifier: 15
-  
+
 # Действие, удаляющее эффект с цели (при атаках, взаимодействии с целью...)
 target_remove_potion_effect:
   type: GLOWING
-  
+
 play_totem_animation: animatedtitles:bruh
 ```
-
-### 
 

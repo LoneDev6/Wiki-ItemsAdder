@@ -4,7 +4,7 @@
 
 # Основы
 
-### Включение функции предметов в основном файле конфигурации плагина
+## Включение функции предметов в основном файле конфигурации плагина
 
 ```yaml
 enabled: true
@@ -14,7 +14,7 @@ enabled: true
 **Важно - если игрок имеет предмет в инвентаре - он не исчезнет, игрок все еще будет иметь его.  
 Точно так же и с блоками, но выбрасывать предметы при их поломке они перестанут.**
 
-### Отображение имени (Display name)
+## Отображение имени \(Display name\)
 
 ```yaml
 display_name: "Test"
@@ -22,15 +22,13 @@ display_name: "Test"
 
 Строка имени предмета, которое увидит игрок
 
-### Права (Permission)
+## Права \(Permission\)
 
 ```yaml
 permission: myitem
 ```
 
-{% page-ref page="item-permission.md" %}
-
-### Описание предмета (Lore)
+## Описание предмета \(Lore\)
 
 ```yaml
 lore:
@@ -39,9 +37,9 @@ lore:
 - '&7в 50% случаев.'
 ```
 
-Строки лора (описания) предмета
+Строки лора \(описания\) предмета
 
-### Атрибуты предмета (Attribute modifiers)
+## Атрибуты предмета \(Attribute modifiers\)
 
 ```yaml
 attribute_modifiers:
@@ -65,10 +63,9 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-Это атрибуты ванили, вы можете узнать больше о них тут: 
-[https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
+Это атрибуты ванили, вы можете узнать больше о них тут: [https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
 
-### Прочность (Durability)
+## Прочность \(Durability\)
 
 ```yaml
 durability:
@@ -86,7 +83,7 @@ durability:
 
 `max_custom_durability` - параметр максимальной прочности предмета, которое можно достичь
 
-### Флаги предметов
+## Флаги предметов
 
 ```yaml
 item_flags:
@@ -98,10 +95,10 @@ item_flags:
   - HIDE_UNBREAKABLE
 ```
 
-Данный параметр позволяет скрыть лишнюю ванильную информацию о предмете в его описании (лоре).  
+Данный параметр позволяет скрыть лишнюю ванильную информацию о предмете в его описании \(лоре\).  
 Вы можете найти больше информации об этом, а также список этих параметров тут: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-### Блокировка зачарований предмета (blocked\_enchants)
+## Блокировка зачарований предмета \(blocked\_enchants\)
 
 Параметр, который отключит указанные зачарования для предмета.
 
@@ -126,7 +123,7 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-### Перезарядка событий (events\_cooldown)
+## Перезарядка событий \(events\_cooldown\)
 
 Параметр, который не даст игроку спамить определенное событие. Число указано в тиках, поэтому 20 = 1 секунде.
 
@@ -159,13 +156,13 @@ blocked_enchants:
             amplifier: 4
 ```
 
-### События, которым нужна статистики плагина (events\_needed\_player\_stats)
+## События, которым нужна статистики плагина \(events\_needed\_player\_stats\)
 
 Параметр, который заставит работать событие только тогда, когда его статистика соотвествует указанному числу \(Статы плагина ItemsAdder, которые обычно используются в HUDах, например - шкала маны\).
 
 Вы можете установить значение которые `>` - больше, чем указанное, `<` - меньше, чем указанное или `=` - ровно указанному
 
-#### Пример:
+### Пример:
 
 {% page-ref page="../../../beginners/creating-a-custom-item/magic-wand.md" %}
 
@@ -198,6 +195,4 @@ blocked_enchants:
             name: mana
             amount: 1
 ```
-
-
 

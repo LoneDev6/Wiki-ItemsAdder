@@ -31,20 +31,20 @@
     * [Не могу создать мебель с прозрачной текстурой](faq/can-i-create-slabs-stairs/transparent-textures.md)
   * [⛔️Ошибки](faq/errors/README.md)
     * [NoSuchMethodError](faq/errors/nosuchmethoderror.md)
-    * [Ошибка протокола `Protocol/ProtocolLib`](faq/errors/protocol-error.md)
+    * [Ошибка протокола Protocol/ProtocolLib](faq/errors/protocol-error.md)
     * [Ошибка "Duplicate recipe ignored"](faq/errors/duplicate-recipe-ignored-error.md)
-    * [Невозможно призвать сущность из ID `Cannot retrieve entity from ID`](faq/errors/cannot-retrieve-entity-from-id.md)
+    * [Невозможно призвать сущность из ID Cannot retrieve entity from ID](faq/errors/cannot-retrieve-entity-from-id.md)
     * [An error occurred when enabling the resourcepack](faq/errors/an-error-occurred-when-enabling-the-resourcepack.md)
   * [☠️Падения клиента у игроков \(устарело\)](faq/some-users-crash.md)
 * [➕Аддоны/ресурсы](addons-resources.md)
 * [📄Редактор файлов](files-editor.md)
 * [📖Использование плагина](plugin-usage/README.md)
-  * [👌🏻Права (Permissions)](plugin-usage/permissions/README.md)
+  * [👌🏻Права \(Permissions\)](plugin-usage/permissions/README.md)
     * [↪️Примеры прав](plugin-usage/permissions/example-permissions.md)
   * [⚠️Важная информация](plugin-usage/important-notes.md)
   * [🏁Советы для максимально быстрого использования](plugin-usage/tips-for-fastest-usage.md)
   * [📷Хостинг для текстур](plugin-usage/resourcepack-hosting/README.md)
-    * [Хост текстур со своей машины (self-host)](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
+    * [Хост текстур со своей машины \(self-host\)](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
     * [Хост текстур через DropBox](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
     * [Хост текстур через mc-packs.net](plugin-usage/resourcepack-hosting/resourcepack-on-mc-packs-net.md)
   * [➕Добавление контента](plugin-usage/adding-content/README.md)
@@ -60,7 +60,7 @@
     * [💪Для опытных](plugin-usage/adding-content/advanced/README.md)
       * [Настройки предметов](plugin-usage/adding-content/advanced/item-properties/README.md)
         * [Основы](plugin-usage/adding-content/advanced/item-properties/basic/README.md)
-          * [Права (Permission) для предметов](plugin-usage/adding-content/advanced/item-properties/basic/item-permission.md)
+          * [Права \(Permission\) для предметов](plugin-usage/adding-content/advanced/item-properties/basic/item-permission.md)
         * [Настройка материала](plugin-usage/adding-content/advanced/item-properties/resource/README.md)
           * [Создание 3D-модели](plugin-usage/adding-content/advanced/item-properties/resource/creating-3d-models.md)
           * [Размерность мебели](plugin-usage/adding-content/advanced/item-properties/resource/furniture-size.md)
@@ -120,12 +120,12 @@
 
 ## Разработчикам
 
-* [☕️Java API](developers/java-api/README.md)
-  * [Примеры](developers/java-api/examples.md)
-  * [События](developers/java-api/events.md)
-  * [HUDы, GUI...](developers/java-api/huds-guis.md)
-* [📓Skript API](developers/skript-api/README.md)
-  * [Для экспертов](developers/skript-api/expert-users-1.md)
+* [☕️Java API](razrabotchikam/java-api/README.md)
+  * [Примеры](razrabotchikam/java-api/examples.md)
+  * [События](razrabotchikam/java-api/events.md)
+  * [HUDы, GUI...](razrabotchikam/java-api/huds-guis.md)
+* [📓Skript API](razrabotchikam/skript-api/README.md)
+  * [Для экспертов](razrabotchikam/skript-api/expert-users-1.md)
 
 ---
 
@@ -151,6 +151,5 @@
     * [CMI](compatibility-with-other-plugins/compatible/cmi.md)
     * [AdvancedOreGen](compatibility-with-other-plugins/compatible/advancedoregen.md)
     * [Holographic Displays](compatibility-with-other-plugins/compatible/holographic-displays.md)
-* [Туториалы для очень старых версий плагина (v1.0)](old-v1.0-tutorials.md)
-
+* [Туториалы для очень старых версий плагина \(v1.0\)](old-v1.0-tutorials.md)
 

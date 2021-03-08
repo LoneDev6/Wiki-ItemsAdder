@@ -8,7 +8,7 @@
 
 ## По этой ссылке вы можете загрузить пример, который использован в этом туториале:
 
-{% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
+{% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" caption="" %}
 
 ## Как присоединить MMOItem к предмету ItemsAdder
 
@@ -34,7 +34,7 @@
 
 ![](../../.gitbook/assets/immagine%20%2838%29.png)
 
-## Создайте предмет ItemsAdder 
+## Создайте предмет ItemsAdder
 
 ### - Создайте конфигурационный файл .yml как и обычно и задайте все нужные параметры ItemsAdder предмету
 

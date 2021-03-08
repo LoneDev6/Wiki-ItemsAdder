@@ -1,4 +1,4 @@
-# Armor
+# Броня
 
 ```yaml
 items:
