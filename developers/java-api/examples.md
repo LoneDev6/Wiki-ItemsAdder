@@ -35,7 +35,7 @@ ItemsAdder.isCustomItem("your_item");
 ### Getting the custom item data from an ingame ItemStack
 
 ```java
-CustomItems customItems = CustomStack.byItemStack("your_item");
+CustomItems customItems = CustomStack.byItemStack(myItemStack);
 if(customItem != null)
 {
     customItem.setUsages(5)//for example set usages

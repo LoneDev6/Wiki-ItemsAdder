@@ -4,7 +4,7 @@
 specific_properties:
   block:
     placed_model:
-      type: REAL
+      type: REAL_NOTE
       break_particles: BLOCK
     cancel_drop: true #default is false. if true the custom block won't be dropped when
                       #player mines it
@@ -60,8 +60,8 @@ this property can have these value:
     * only a **max** of **14** custom **fires** is possible, so be sure to create only the ones you need.
 
 {% hint style="warning" %}
-It's better to use **REAL\_NOTE** blocks for **decorative** blocks/ores and use **TILE** blocks for trade machines and **machinery**/**rare** decorative blocks.  
-You should **not use TILE** blocks for **ores** because it COULD cause a bit of **lag** on chunk generation.
+It's better to use **REAL** and **REAL\_NOTE** blocks for decorative blocks/ores and use **TILE** blocks for trade machines and machinery/rare decorative blocks.  
+You should not use **TILE** blocks for ores because it COULD cause a bit of lag on chunk generation.
 {% endhint %}
 
 ## cancel\_drop

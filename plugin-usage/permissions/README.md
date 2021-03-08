@@ -52,15 +52,17 @@
     * `ia.admin.iareload`
   * /iazip
     * `ia.admin.iazip`
-  * /iablock \(get info about block you're looking at\)
+  * /iablock _\(get info about block you're looking at\)_
     * `ia.admin.iablock`
+  * /ialiquid _\(get info about custom liquid you're looking at\)_
+    * `ia.admin.ialiquid`
   * /iadurability
     * ia.admin.iadurability
   * Edit permission \(edit button in /ia\)
     * `ia.admin.edit`
-  * /iaplayerstat write \(writea player custom stat\)
+  * /iaplayerstat write _\(write a player custom stat\)_
     * `ia.admin.iaplayerstat.write`
-  * /iaplayersta read \(read a player custom stat\)
+  * /iaplayerstat read _\(read a player custom stat\)_
     * `ia.admin.iaplayerstat.read`
   * /iainfo \(get info about the plugin\)
     * `ia.admin.iainfo`
@@ -68,10 +70,16 @@
     * `ia.admin.iakill`
   * /iasummon &lt;mob&gt; \[amount\]
     * `ia.admin.iasummon`
+  * /iaexport &lt;namespace&gt;
+    * `ia.admin.iaexport`
   * /iaspawntree &lt;tree&gt;
     * `ia.admin.iaspawntree`
   * /iaplaytotemanimation &lt;totem&gt; &lt;player&gt;
     * `ia.admin.iatotemanimation`
+  * /iaplaysound &lt;sound&gt; &lt;player&gt;
+    * `ia.admin.iaplaysound`
+  * /iacleancache
+    * `ia.admin.iacleancache`
 * Other:
   * Bypass kick on refuse resourcepack
     * `ia.resourcepack.bypasskick`
