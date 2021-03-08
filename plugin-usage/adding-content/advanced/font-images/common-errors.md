@@ -1,31 +1,30 @@
-# Common errors
+# Частые проблемы
 
-## I see only a white square
+## Все, что я вижу - белые квадраты □
 
-If you see a **white square** make sure the **height** of your image is not **greather** than the `y_position` value you set. To **bypass** that create an **image** with **higher height**.
-
+Если вы видите только **белые квадраты** убедитесь, что **высота** картинки не **выше**, чем значение строки `y_position`. Так же убедитесь, что значение строки `y_position` не превышает значение строки `scale_ratio`.
 {% hint style="warning" %}
-Keep in mind that the **max size** of a font image is **255x255**.  
-This is a Minecraft limitation.  
-To bypass this \(if you're creating a GUI or HUD\) you can split your image in multiple font images and merge them shifting them.
+Помните, что **максимальный размер** текстур игры - **255x255**.  
+Это лимит игры без использования модификаций.  
+Чтобы обойти этот лимит \(если вы делаете GUI или HUD\) вы можете разрезать используемое изображение на несколько частей и соединить эти части в одну картинку при помощи параметров сдвига.
 {% endhint %}
 
-## My partially transparent image looks "cut"
+## Мое прозрачное изображение "кадрировалось"
 
-Minecraft cuts images if they have transparency \(0/255 alpha channel value\), so you must set 1/255 transparency in order to avoid Minecraft to cut it
+Minecraft обрезает части текстур, если они полностью прозрачны \(значение 0 из 255 альфа канала\), поэтому вы должны использовать значение 1 из 255 альфа канала (минимальную прозрачность) на краях текстуры, чтобы избежать обрезки текстур игрой
 
-## When I add a hud others shift of some pixels
+## Когда я добавил HUD - все остальное поехало на несколько пикселей
 
-Be sure to have each image size set to a multiple of 2.  
-Example:  
+Убедитесь, что размер текстур кратен 2:  
 - 2x2  
 - 4x4  
 - 6x6  
-- 52x52  
+- 64x64
+- 128x128  
 - ......  
 
 
-If you still have problems try to increase/decrease the size by 2 until the wrong shift disappears.  
-This is an approximation problem I cannot fix.  
+Если проблема не решилась, попробуйте ужать/расширить размер текстуры на 2, пока текстуры не встанут так, как надо.  
+Это проблема аппроксимации, которую я не могу решить.  
 
 

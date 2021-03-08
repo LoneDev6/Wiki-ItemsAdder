@@ -1,48 +1,48 @@
-# Ranks textures \(tags\)
+# Текстурированные префиксы \(тэги\)
 
-You can create custom ranks for your server, this will make it look more professional.  
-Check this addon to know how to create them, it's very easy: [https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
+Вы можете сделать свои текстуры и использовать их в качестве рангов на вашем сервере, чтобы сделать ваш сервер более "профессиональным", привлекательным и уникальным.  
+Ознакомьтесь с этим аддоном, чтобы создать свои собственные префиксы, это очень просто: [https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
 
 ![](../../../.gitbook/assets/image%20%2827%29.png)
 
 {% hint style="danger" %}
-### Please update to [ItemsAdder 2.1.30](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-huds-gui-emojis-ores-blocks-wings-tails-hats.73355/) or next
+### Обновите [ItemsAdder до версии 2.1.30](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-huds-gui-emojis-ores-blocks-wings-tails-hats.73355/) или выше
 {% endhint %}
 
 {% hint style="warning" %}
-### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
+### Используйте [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) и [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) чтобы следовать последующей инструкции, метод добавления рангов в плагины будет отличаться, если вы решите использовать другие плагины.
 {% endhint %}
 
 {% hint style="info" %}
-### If you're using another prefix plugin you may need to use [this method](../../using-font_images-emojis-everywhere.md) to show ranks
+### Если вы используйте иной плагин для префиксов - [обратитесь к этой статье](../../using-font_images-emojis-everywhere.md), чтобы отображать ваши ранги
 {% endhint %}
 
 ## Luckperms
 
-### Creating a group, example \(admin\)
+### Создание группы, Пример \(admin\)
 
-Use this command `/lp creategroup admin`
+Используйте команду - `/lp creategroup admin`
 
-### Add the prefix
+### Добавление префикса
 
-Use this command `/lp group admin meta addprefix 100 :admin:`
+Используйте эту команду - `/lp group admin meta addprefix 100 :admin:`
 
-### Assign the group to a player
+### Выдача группы игроку
 
-Use this command \(change LoneDev to your player name\) `/lp user LoneDev group add admin`
+Используйте эту команду \(поменяйте мой ник LoneDev на нужный\) `/lp user LoneDev group add admin`
 
 ![](../../../.gitbook/assets/immagine%20%2843%29.png)
 
-## TAB plugin
+## TAB
 
 {% hint style="warning" %}
-Make sure you installed [PlaceholderAPI](../../using-font_images-emojis-everywhere.md)
+Убедитесь, что у вас установлен [PlaceholderAPI](../../using-font_images-emojis-everywhere.md)
 {% endhint %}
 
-### Open config.yml of TAB plugin
+### Откройте файл конфигурации config.yml плагина TAB
 
-**Add** this under the `groups` category or edit it if already exists.  
-\(You have to use `%img_admin%` instead of `:admin:` because **TAB** recognized only **PlaceholderAPI** placeholders and not **ItemsAdder** placeholders. This can be valid also for **other plugins**\)
+**Добавьте** эти строки под категорией `groups` или измените существующие.  
+\(Вы должны использовать запонитель `%img_admin%`, вместо `:admin:`, так как **TAB** распознает только заполнители **PlaceholderAPI**, игнорируя заполнители **ItemsAdder**. Так же может быть с **другими плагинами**\)
 
 ```yaml
   Admin:
@@ -50,7 +50,7 @@ Make sure you installed [PlaceholderAPI](../../using-font_images-emojis-everywhe
     tagprefix: '%img_admin%  '
 ```
 
-Then use the command `/tab reload`
+После этого используйте команду - `/tab reload`
 
 ![](../../../.gitbook/assets/immagine%20%2841%29.png)
 

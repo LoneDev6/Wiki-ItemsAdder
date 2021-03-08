@@ -1,6 +1,6 @@
-# Vehicles bugs
+# Ошибки транспорта
 
-If you experience bugged vehicles \(get tipped under world and strange bugs like that\) please open config.yml of WorldGuard and set this:
+Если у вас возникают непонятные ошибки с транспортом \(проваливаются под землю или что-то в этом духе\) - откройте config.yml плагина WorldGuard и установите там:
 
 ```text
 block-plugin-spawning: false

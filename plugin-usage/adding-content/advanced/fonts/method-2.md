@@ -1,20 +1,20 @@
-# Method 2 - easier \(.png\)
+# Способ 2 - более простой \(.png\)
 
 {% hint style="info" %}
-## This method allows you to add fonts using .png files
+## Этот метод позволит использовать файлы .png для замены шрифтов
 {% endhint %}
 
-## Example font
+## Пример
 
 ![](../../../../.gitbook/assets/immagine%20%2815%29.png)
 
 {% hint style="info" %}
-This font is made by Faithful team, please check their work: [https://faithful.team/](https://faithful.team/)
+Этот шрифт создать командой Faithful team, обязательно взгляните на их работы: [https://faithful.team/](https://faithful.team/)
 {% endhint %}
 
-To this you have to:
+Чтобы установить этот шрифт вы должны:
 
-* download the Faithful font [here](https://www.dropbox.com/s/06et55587zvcmr7/FaithfulFont.zip?dl=0)
-* extract contents into `plugins\ItemsAdder\data\resource_pack\`
-* and obviously if you're using [dropbox host](../../../resourcepack-hosting/resourcepack-on-dropbox.md) you have to reupload the pack.zip after server restart
+* скачать шрифт от Faithful [по этой ссылке](https://www.dropbox.com/s/06et55587zvcmr7/FaithfulFont.zip?dl=0)
+* распаковать контент из архива в эту папку `plugins\ItemsAdder\data\resource_pack\`
+* и как всегда, если вы используете [dropbox](../../../resourcepack-hosting/resourcepack-on-dropbox.md) вы должны обновить pack.zip, после - перезагрузить сервер.
 

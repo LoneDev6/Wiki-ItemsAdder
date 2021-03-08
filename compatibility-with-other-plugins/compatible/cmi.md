@@ -1,12 +1,12 @@
 # CMI
 
 {% hint style="info" %}
-## If you're using CMI chat feature you have to read this.
+## Если вы используйте изменения чата при помощи CMI, ознакомьтесь с информацией ниже.
 {% endhint %}
 
-## Emoji
+## Эмоджи
 
-Open config.yml of **ItemsAdder** and set this:
+Откройте основной файл конфигурации config.yml плагина **ItemsAdder** и установите там следующие конфигурации:
 
 ```yaml
 font_images:
@@ -15,18 +15,18 @@ font_images:
     replace-only-packets: true
 ```
 
-## Ranks
+## Префиксы (ранги)
 
-1. Open config.yml of **CMI** and set this \(I set `%vault_prefix%` placeholder instead of **CMI** `{prefix}`\)
+1. Откройте файл конфигурации config.yml плагина **CMI** и установите следующие конфигурации \(Я установил `%vault_prefix%` заполнитель вместо стандартного заполнителя **CMI** `{prefix}`\)
 
 ```yaml
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
 ```
 
-2. Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)  
-3. Install them and Restart  
-4. execute this command  `/papi ecloud download Vault`  
-5. execute this command `/papi reload`
+2. Загрузите [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)  
+3. Установите его и перезагрузите сервер  
+4. Используйте команду  `/papi ecloud download Vault`  
+5. Используйте команду `/papi reload`
 
-Done
+Готово
 

@@ -1,8 +1,8 @@
-# I can't find any mineral/ore
+# Не могу найти добавленные минералы/руды
 
-## Common causes of this can be:
+## Основные причины возникновения этой проблемы:
 
-* you are searching ores in a **pregenerated world**. Ores will spawn only on new generated chunks \(generated after ItemsAdder installation\). In future updates I will add an option to generate ores also on pregenerated chunks \(example: WorldBorder\).
-* you are searching ores around **spawn location**. Please try to **teleport far** from **spawn**
-* you are searching ores in a world with custom name. You have to add the world name in the file: `plugins\ItemsAdder\data\items_packs\itemsadder\blocks.yml` for **each ore**
+* вы пытаетесь найти эти блоки в **уже прогруженном мире**. Руды могут встречаться только в новых чанках, которые еще не были прогружены ранее \(создаются только после установки плагина ItemsAdder\). В будущих обновлениях я дам возможность генерироваться рудам в уже прогруженных чанках \(как пример: WorldBorder\).
+* вы слишком близко с **точкой спавна**. Попробуйте **телепортироваться подальше** от **спавна**
+* вы пытаетесь найти блоки в мире с нестандартным неуказанным именем. Добавьте название миров в этот файл: `plugins\ItemsAdder\data\items_packs\itemsadder\blocks.yml` для **каждой руды/минерала**
 

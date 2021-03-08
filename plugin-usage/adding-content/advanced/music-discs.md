@@ -1,12 +1,12 @@
-# Music discs
+# Музыкальные пластинки
 
-### Step 1
+### Шаг 1
 
 {% page-ref page="sounds/" %}
 
-### Step 2
+### Шаг 2
 
-Create a new item in your namespace, this will be your music disc:
+Создайте новый предмет в вашей папке, это будет вашей пластинкой:
 
 ```yaml
   music_disc_cdk_sunday:
@@ -26,6 +26,6 @@ Create a new item in your namespace, this will be your music disc:
           description: Cdk - Sunday
 ```
 
-As you can see I added a special behaviour called "music\_disc". This will tell Spigot server that this item is a custom music disc.  
-**name** is the sound to be played, you added it in the **step 1**
+Как вы можете заметить я указал специальное поведение предмету - "music\_disc". Это строчка заставит сервер понимать предмет как пластинку.  
+Строка **name** - название проигрываемого звука, который вы добавили в **Шаге 1**
 

@@ -1,48 +1,48 @@
-# ⚙️First install
+# ⚙️Первая установка плагина
 
-## Video
+## Видео-гайд
 
 {% embed url="https://youtu.be/GKGnlF4zZVg" %}
 
 {% hint style="info" %}
-**You should do** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is down ;\)   
-You can upload files to your real server after you finished here.
+**Первую конфигурцию и установку**, желательно, стоит проводить **на** вашем **локальном тестовом сервере** на вашем компьютере, чтобы **избежать ошибки** и не мучать игроков множеством перезагрузок.. игроки не любят, когда сервер часто выключается ;\)   
+Вы можете загрузить все файлы конфигураций на ваш действующий сервер позже, когда настройка будет завершена.
 {% endhint %}
 
 {% hint style="danger" %}
-If you already own ItemsAdder old 1.0 version please rename **plugins/ItemsAdder** folder to **ItemsAdder\_backup**
+Если у вас уже установлен старый ItemsAdder версии 1.0, пожалуйста переименуйте папку **plugins/ItemsAdder** в папку **ItemsAdder\_backup**
 {% endhint %}
 
-## Step 1 - installing the plugin and APIs
+## Шаг 1 - установка плагина и API для его работы
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
-* install [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
-* put **ItemsAdder.jar** file inside your plugins folder
-* start the server
-* let ItemsAdder finish loading **everything**
-* stop server
+* Установите [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* Установите [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
+* Установите [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
+* Положите файл **ItemsAdder.jar** в папку с вашими плагинами (plugins) в корневой папке сервера 
+* Включите сервер
+* Дайте время на загрузку **всех** нужных файлов плагину
+* Остановите сервер
 
-## Step 2 - resourcepack first installation
+## Шаг 2 - установка пакета ресурсов
 
-* join the server and execute the command `/iazip` when the plugin is fully loaded
-* open plugins\ItemsAdder\config.yml
-* follow this tutorial if you want to host the resourcepack directly on  your server
+* присоединитесь к включенному серверу и используйте команду`/iazip`, когда плагин полностью загрузится
+* Откройте файл по пути plugins\ItemsAdder\config.yml
+* следуйте этой инструкции, чтобы подгружать пакет ресурсов игрокам с вашего сервера напрямую
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
 
-* or follow this tutorial if you want to host the resourcepack on DropBox
+* или следуйте этой инструкции, чтобы подгружать пакет ресурсов игрокам из DropBox
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md" %}
 
 {% hint style="warning" %}
-**Remember** to use the command `/iazip` **each time** you want the plugin to update the file `pack.zip`
+**Не забывайте** переупаковывать пакет ресурсов при помощи `/iazip` **каждый раз**, когда вы внесли какие-либо изменения и хотите сгенерировать новый `pack.zip`
 {% endhint %}
 
-## Optional step - removing default items
+## Необязательный шаг - удаление заводских предметов и конфигураций
 
 {% hint style="info" %}
-If you don't care about my default stuff and you only want to make your own items, blocks and other things it's easy!
+Если вам не нужны заводские блоки, предметы, а так же другие вещи из заводского списка и вы хотите использовать только собственные предметы и настройки - воспользуйтесь этой статьей.
 
 {% page-ref page="faq/removing-default-stuff.md" %}
 {% endhint %}

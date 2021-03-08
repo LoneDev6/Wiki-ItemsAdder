@@ -1,11 +1,15 @@
 ---
-description: How to create 3D models for your mob
+описание: Как создавать 3D-модели для ваших мобов
 ---
 
-# Mob model
+# Модели мобов
 
 {% hint style="danger" %}
-UNFINISHED. I will release a tool to create animations easily.  
-Please don't insist via private message, I will provide a tutorial ASAP.
+СТАТЬЯ НЕ ЗАКОНЧЕНА. ВСкоре я сделаю инструмент, которых позволит сделать анимированные модели проще.  
+Не нужно долбить мне в личку, я добавлю руководство позже.
+{% endhint %}
+
+{% hint style="danger" %}
+На данный момент вы можете поискать рукодства по анимированию моделей в Blockbench в интернете самостоятельно, там достаточно информации об этом.
 {% endhint %}
 

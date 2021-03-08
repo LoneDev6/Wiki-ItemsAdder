@@ -1,15 +1,15 @@
-# ItemsAdder internal
+# Встроенные функции мобов ItemsAdder
 
-## Creating your fist mob
+## Создание вашего первого моба
 
-You have to create a .yml file in your [namespace ](../../beginners/basic-concepts/namespace.md)folder \(check [other tutorials ](../../beginners/creating-your-namespace.md)for more info\).
+Создайте файл .yml в вашей [папке ](../../beginners/basic-concepts/namespace.md)f \(гляньте [другое руководство ](../../beginners/creating-your-namespace.md), чтобы получить еще больше информации\).
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../files-editor.md) to edit ItemsAdder files. It makes you life easier as it has autocomplete \(press CRTL+SPACE\) which helps you on avoiding mistakes.
+Советую использовать мой [ официальный онлайн-редактор ItemsAdder](../../../../files-editor.md), для простоты изменения файлов ItemsAdder. Это сделает вашу настройку проще, благодаря функции автоматического завершения строк \(зажатие CRTL+ПРОБЕЛ\) и позволит вам избегать лишние ошибки.
 {% endhint %}
 
-This is an example for a custom mob names Soul.  
-As you can see I set it up like a normal item, but with a special [behaviour ](../item-properties/behaviours.md)named **mob**.
+Пример моба с именем "Душа" (Soul) и своей моделью.  
+Как можно заметить, я настраиваю его как обычный предмет, но со своим [поведением ](../item-properties/behaviours.md), названное **mob**.
 
 ```yaml
 info:
@@ -43,23 +43,23 @@ items:
               start: MIDNIGHT
 ```
 
-This behaviour tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT` and only in caves \(`max_sky_light: 0`\).  
-The mob will also have head rotation locked \(only on Y axis\), this will avoid it from looking stupid while looking at player when is at an higher position.
+Этот параметр поведения строк указывает ItemsAdder заменять ванильного, натурально-появившегося `Зомби`с 20% `шансом`, только в указанный отрезок времени - `полночь` и только в пещерах, где нет света солнца \(`max_sky_light: 0`\).  
+Голова моба заморожена, тобишь лишена возможности поворачиваться почти во все стороны \(исключение - по Y оси\), это не даст мобу выглядеть тупо, когда он смотрит на игрока, которых находится выше.
 
-`hit_color` is the color the mob will have when damaged by player.   
-You can get a valid color from these websites:  
+`hit_color` - цвет моба, когда он получает урон.   
+Вы можете посмотреть списки правильных, доступных цветов в этих источниках:  
 [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)  
 [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)  
-[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) \(use one of the color pickers and copy the value from the right\)
+[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) \(возьмите определенный цвет из палитры и скопируйте его значение\)
 
 {% hint style="info" %}
-Note: I **skipped** the `material` property of `resource` because **it's not needed** for **mobs**, ItemsAdder will automatically handle it.
+Примечание: Я **пропустил** параметр `material` в категории `resource`, так как **это не нужно** **мобам**, ItemsAdder определяет это автоматически.
 {% endhint %}
 
-### Animations
+### Анимации
 
-You probably noticed that there are two other attributes: `attack` and `walk` **animations**.  
-These are infact other items you have to create like this:
+Возможно вы уже знаете, что у моделей есть 2 дополнительных атрибута: **анимации** `атаки (attack)` и `ходьбы (walk)`.  
+Фактически, данные анимации будут являться другими предметами (и другой моделью) и должны быть прописаны подобным образом:
 
 ```yaml
   soul_walking:
@@ -82,7 +82,7 @@ These are infact other items you have to create like this:
       mob_animation: true
 ```
 
-## Final result
+## Результат
 
 ```yaml
 info:
@@ -135,9 +135,9 @@ items:
 
 ![](../../../../.gitbook/assets/image%20%2816%29.png)
 
-## Spawn the mob naturally
+## Натуральное появление моба
 
-To spawn the mob naturally you have to setup the `replace_mobs_spawn` property.
+Чтобы заставить моба появляться натуральным образом на основе появления других, вы должны прописать параметр `replace_mobs_spawn`.
 
 ```yaml
   soul:
@@ -167,7 +167,7 @@ To spawn the mob naturally you have to setup the `replace_mobs_spawn` property.
               start: MIDNIGHT
 ```
 
-You can create as much as replace rules as you want, for example if you want to replace both `ZOMBIE` and `SKELETON` you can create a second rule
+Вы можете задать больше таких указаний по замене мобов, если это нужно, например - вы можете подменять обоих мобов: `ЗОМБИ` и `СКЕЛЕТА`, для этого попросту нужно создать второе правило на новых строках
 
 ```yaml
         replace_mobs_spawn:
@@ -187,8 +187,8 @@ You can create as much as replace rules as you want, for example if you want to 
               start: NOON
 ```
 
-You can decide if to **replace** the mob **or** to **spawn** the custom **mob without replacing** the **original** one.  
-You have to use the `spawn_another` property.
+Помимо **замещения**, в процентным шансе, появляющихся мобов ванили, вы можете заставить своего моба **появляться** без **замещения** других, **оригинальных** мобов.  
+Для этого вы должны использовать параметр `spawn_another`.
 
 ```yaml
           rule3:

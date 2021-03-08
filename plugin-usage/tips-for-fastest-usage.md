@@ -1,18 +1,18 @@
-# 🏁Tips for fastest usage
+# 🏁Советы для максимально быстрого использования
 
-## It takes too much time editing the pack and uploading it online!
+## Перезаливка пакета ресурсов при использовании внешних ресурсов в качестве хоста - огромная трата вашего времени.
 
-Yes if you do that the wrong way ;\) Read this:
+Если вы этим занимаетесь - это в корне неверный путь ;\) Ознакомьтесь с этим:
 
 {% hint style="info" %}
-It's a good practice to create a **test server on your PC** with:
+Нет решения лучше, чем создать свой **чистый локальный сервер для тестов и создания контента прямо на вашем ПК**, где установлены только эти плагины:
 
 * [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-emojis-ores-blocks-wings-tails-hats-more.73355/)
 * [IALib](https://www.spigotmc.org/resources/ialib.75974/)
 * [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 * [LightAPI Fork](https://www.spigotmc.org/resources/lightapi-fork.48247/)
 
-ItemsAdder with this resourcepack config:
+Установите эти строки в конфигурации ItemsAdder:
 
 ```yaml
 resource-pack:
@@ -28,22 +28,22 @@ resource-pack:
     url: 'http://example.dropbox.com'
 ```
 
-Doing this you'll have a fast and easy to use configuration evironment. You can add items and edit the pack on the fly.
+Благодаря этому вы сможете съэкономить море времени в своей среде для настройки. Вы можете создавать или изменять что-либо "на лету".
 
-When you edit an item texture/model and you edit its configuration you will use command `/iareload` , `/iazip` and then on your client`/iatexture`, doing this you'll see changes applied at realtime.
+Когда вы поменяли какой-либо файл текстур или конфигурации внутри плагина - вам достаточно прописать команды `/iareload` и `/iazip`, после чего сервер сразу же отправит вам новый пакет ресурсов (если этого не случилось, попробуйте - `/iatexture`).
 
-So after you finished adding items and configuring them you'll be able to upload everything on your online server, upload your `pack.zip` following the next tutorial down here.
+После того как вы завершите всю настройку и добавите все нужные предметы - вы готовы к тому, чтобы залить все эти файлы на ваш основной сервер, а также к загрузке вашего пакета ресурсов `pack.zip` на сторонний хост (по желанию, вы можете оставить в качестве хостинга текстурпака свой сервер, но для этого нужен открытый порт).
 {% endhint %}
 
 {% page-ref page="resourcepack-hosting/resourcepack-on-dropbox.md" %}
 
 {% hint style="warning" %}
-It's a good practice to not edit ItemsAdder textures/models directly on your online server.  
-Players hate lag on plugins reload, server restarts, having to redownload the pack when they're already player.. keep that in mind.
+Самая лучшая практика - не редактировать и не добавлять что либо на вашем основном сервере, где находятся игроки.  
+Игроки не терпят лаги и постоянные перезагрузки плагина, перезагрузки сервера и постоянное скачивание нового пакета ресурсов, помните об этом..
 {% endhint %}
 
 {% hint style="danger" %}
-It's a good thing not to edit my custom items as surely in the future they can be edited and you'll go crazy maintaining both your customization and my updates.  
-So if you want to edit items just make your own
+Не забывайте, что редактировать мои файлы и текстуры, так как при обновлении вы можете потерять все, что вы сделали и сойти от этого с ума.  
+Поэтому - вместо редактирования моих файлов, лучше займитесь созданием собственных.
 {% endhint %}
 

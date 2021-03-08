@@ -1,48 +1,48 @@
 ---
-description: ItemsAdder is compatible with MMOItems and it's very easy to integrate.
+Информация: ItemsAdder совместим с MMOItems и крайне прост в использовании для него.
 ---
 
 # MMOItems
 
-Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
+Загрузить **MMOItems** можно [тут](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
 
-## Here you can download the example package shown in this tutorial
+## По этой ссылке вы можете загрузить пример, который использован в этом туториале:
 
 {% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
 
-## How to connect an MMOItem to a ItemsAdder custom item
+## Как присоединить MMOItem к предмету ItemsAdder
 
 {% hint style="warning" %}
-UPDATE **ITEMSADDER** TO **2.1.29+** AND **MMOITEM** to **6.5.1+**
+ОБНОВИТЕ **ITEMSADDER** ДО ВЕРСИИ **2.1.29+** И **MMOITEM** ДО ВЕРСИИ **6.5.1+**
 {% endhint %}
 
-### - use the command /mmoitems browse
+### - используйте команду /mmoitems browse
 
 ![](../../.gitbook/assets/immagine%20%2829%29.png)
 
-### - create a new MMOItem
+### - создайте новый предмет MMOItem
 
 ![](../../.gitbook/assets/immagine%20%2835%29.png)
 
 ![](../../.gitbook/assets/immagine%20%2836%29.png)
 
-### - add all the attributes you want, for example magic damage etc
+### - и все атрибуты плагина, если хотите. Магический урон, к примеру
 
 ![](../../.gitbook/assets/immagine%20%2828%29.png)
 
-### - MMOItem preview inside /mmoitems browse
+### - Превью предмета MMOItem в /mmoitems browse
 
 ![](../../.gitbook/assets/immagine%20%2838%29.png)
 
-## Create the ItemsAdder item
+## Создайте предмет ItemsAdder 
 
-### - create your .yml file as usual and add all the properties for the ItemsAdder item
+### - Создайте конфигурационный файл .yml как и обычно и задайте все нужные параметры ItemsAdder предмету
 
 ![](../../.gitbook/assets/immagine%20%2830%29.png)
 
 {% hint style="success" %}
-As you can see I set a new attribute called **`mmoitem`** and also **`type`** and **`id`**.  
-These are used to **connect** the **two items**.
+Как вы можете заметить, я использовал новый атрибут **`mmoitem`**, а так же **`type`** и **`id`**.  
+Они нужны для **связки** двух предметов в **один**.
 {% endhint %}
 
 ```yaml
@@ -64,13 +64,13 @@ items:
       max_custom_durability: 1324
 ```
 
-### - create your .png texture as usual
+### - Создайте текстуру .png для предмета ItemsAdder, как и обычно
 
 ![](../../.gitbook/assets/immagine%20%2832%29.png)
 
-### - get the item
+### - Получите свой предмет
 
-Use the command `/iaget mmoitems_example:example_item` to get your finished item
+Используйте команду `/iaget mmoitems_example:example_item` чтобы получить свой готовый предмет
 
 ![](../../.gitbook/assets/immagine%20%2833%29.png)
 

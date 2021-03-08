@@ -1,9 +1,9 @@
-# HUDs
+# HUDы
 
-In order to create custom HUDs you have 2 examples provided in ItemsAdder and they make use of every feature available.
+В качестве примеров своих HUDов вы можете видеть 2 полоски, которые добавлены плагином ItemsAdder, которые используют все функции этого рода.
 
-These two HUDs are the mana bar and the thirst bar.  
-You can find them in the **realcraft** and in the **magiccraft** namespaces.
+Эти два HUDа - полоска маны и полоска жажды.  
+Вы можете найти их в папках **realcraft** и **magiccraft**.
 
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 

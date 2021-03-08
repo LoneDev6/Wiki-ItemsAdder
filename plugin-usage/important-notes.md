@@ -1,18 +1,18 @@
-# ⚠️Important notes
+# ⚠️Важная информация
 
-## Mipmap problem \(textures size related\)
+## Проблема мипмаппинга \(автоматическое изменение размеров текстур и замыливание\)
 
 {% hint style="warning" %}
-Minecraft has a bug that disables mipmap if you set textures which their size is not a multiple of two.
+Minecraft имеет забагованную систему, которая автоматически замыливает ваши текстуры, подгоняя их под свои размеры, если они не кратны двум в степени (16x16/32x32/64x64/128x128/256x256).
 
-### Read more here on how to avoid this problem:
+### Ознакомьтесь с этой статьей, чтобы избежать лишних проблем:
 
 {% page-ref page="../faq/i-see-crisp-textures-far-away.md" %}
 {% endhint %}
 
-### File and items names
+### Имена папок и предметов
 
 {% hint style="danger" %}
-Make sure you're not using **UPPERCASE** or **special characters** in items **names**, **namespaces**, texture files \(**png**\) and **model** files \(**json**\)
+Не в коем случае не используйте **ЗАГЛАВНЫЕ БУКВЫ** или **особые символы (!,:;@ и так далее)** в **именах** предметов, названиях **папок**, названиях файлов текстур \(**png**\) или файлов **моделей** \(**json**\)
 {% endhint %}
 

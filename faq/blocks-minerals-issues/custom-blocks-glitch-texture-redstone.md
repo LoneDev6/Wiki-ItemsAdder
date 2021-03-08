@@ -1,9 +1,9 @@
-# Custom blocks glitch texture \(redstone\)
+# Поломка текстуры блока \(из-за редстоуна\)
 
-## Placing Redstone on top of custom blocks can make them update and revert to Mushroom Blocks
+## Установка красной пыли (редстоуна) на поверхность блока плагина может заставить его обновиться и превратиться в блок гриба
 
 {% hint style="warning" %}
-This is a known issue and cannot be fixed easily without making the plugin lag the server.
+Проблема известна и, к сожалению, не может быть легко исправлена плагином без лагов для сервера.
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" %}

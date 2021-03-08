@@ -1,14 +1,14 @@
-# Glitched blocks in some areas/custom worlds
+# Проблема замены блоков грибов в некоторых зонах мира/измененной генерации мира
 
 
 
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
 {% hint style="info" %}
-This is normal as ItemsAdder uses mushroom blocks to create custom blocks.  
-ItemsAdder just checks some biomes to fix the glitched blocks to avoid using too much CPU.  
+Это нормально, так как ItemsAdder использует блоки грибов для создания своих блоков с текстурами.  
+ItemsAdder может проверять только указанные биомы, чтобы исправлять поврежденные блоки и не потреблять много ресурсов процессора.  
   
-If you want to apply the fix to any biome you have to set config.yml like that:
+Если вы хотите исправлять это во всех биомах, установите в основном файле конфигурации плагина следующее:
 
 ```yaml
 seach-also-in-these-biomes:
@@ -89,8 +89,8 @@ seach-also-in-these-biomes:
   - BAMBOO_JUNGLE_HILLS
 ```
 
-This will basically enable the fix on each of the Minecraft overworld biomes.  
-Feel free to remove the ones you think that won't have any mushroom spawned, to avoid high CPU usage.
+Это включит проверку всех биомов игры на наличие глюкнутых блоков.  
+Вы можете удалить некоторые биомы, если вы уверены, что в них не появяться блоки грибов, чтобы избежать лишних нагрузок на процессор.
 {% endhint %}
 
 

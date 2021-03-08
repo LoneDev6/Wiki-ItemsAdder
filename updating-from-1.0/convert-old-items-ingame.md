@@ -1,21 +1,21 @@
-# Convert old items/blocks ingame
+# Конвертация старых предметов и блоков в игре
 
 {% hint style="danger" %}
-**It's recommended to start a fresh new world and don't use the old one as converters work but are experimental.**
+**Рекомендуется начать с создания нового, чистого мира, вместо того, чтобы использовать старый для работы над конвертацией.**
 {% endhint %}
 
 {% hint style="danger" %}
-These features MAY be laggy, leave them enabled only for some days and then disable them to avoid useless lag.
+Данная функция может вызвать сильные лаги и нагрузки, включите ее только на пару дней.
 {% endhint %}
 
-## How to auto convert old items in your worlds
+## Как автоматически конвертировать старые предметы в мирах
 
-When you update from ItemsAdder 1.0 to 2.0 you noticed that most of the items has changed, so they are not the same as old items before the update.  
-That's why I had to code a feature that auto replaces old items with new items. This process is run everytime a player opens an inventory in the world \(chests, containers.. but NOT their own inventory\).
+После обновления ItemsAdder 1.0 до 2.0 вы заметите, что многие предметы изменились, но они являются теми же, что и до обновления.  
+Поэтому я написал автоматическую функцию плагину, которая заменяет старые предметы на новые. Этот процесс происходит каждый раз, когда игрок открывает инвентарь в мире \(сундуки, другие контейнеры.. но НЕ свой инвентарь\).
 
-In order to enable this you have to set this property to true in `converter.yml` of **ItemsAdder 2.0**
+Чтобы включить эту функцию - откройте файл конфигурации `converter.yml` плагина **ItemsAdder 2.0**
 
-#### Be sure to set inventory-open: true
+#### Убедитесь, что функция inventory-open установлена на значение true
 
 ```text
 items-auto-update:
@@ -23,11 +23,11 @@ items-auto-update:
   inventory-open: true
 ```
 
-## How to auto convert old blocks placed in worlds
+## Как автоматически конвертировать блоки, которые установлены в мире
 
-You have to open `converter.yml` and map your own old blocks **model\_id** with the new **namespaced** block of IA 2.0. For example I've already added old ItemsAdder 1.0 blocks map to convert them to 2.0 namespaced blocks.
+Откройте файл конфигурации `converter.yml` и сопоставьте **модели\_id** старых блоков с новыми, **уложенными в папки** блоками IA 2.0. В качестве примера - я уже добавил туда старые блоки ItemsAdder старой версии и сопоставил их с уложенными блоками версии 2.0.
 
-#### Be sure to set enabled: true
+#### Убедитесь, что enabled установлено на true
 
 ```text
 blocks:

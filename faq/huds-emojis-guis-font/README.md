@@ -1,2 +1,2 @@
-# 💧HUDs, emojis, GUIs, Font
+# 💧HUDы, эмоджи, GUI, шрифты
 

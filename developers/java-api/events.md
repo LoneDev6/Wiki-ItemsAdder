@@ -7,20 +7,20 @@ package dev.lone.itemsadder.api.Events;
 public class ItemsAdderFirstLoadEvent extends Event
 ```
 
-This event is called when ItemsAdder has loaded all its stuff correctly.  
-Listen to this in order to wait all items/images.. are available for your addon/plugin.
+Это событие вызывается тогда, когда ItemsAdder полностью загружен корректно.  
+Интегрируйте этот "слушатель", чтобы дождаться прогрузки всех предметов/картинок, чтобы использовать их в ваших аддонах/плагинах.
 
 ### CustomBlockInteractEvent
 
-Event triggered when a player interacts with a custom block
+Событие проигрывается тогда, когда игрок интерактирует с блоками плагина ItemsAdder
 
 ### CustomBlockBreakEvent
 
-Event triggered when a player breaks a custom block
+Событие проигрывается тогда, когда игрок разрушает блок плагина ItemsAdder
 
 ### CustomEntityDeathEvent
 
-Event triggered when a custom entity dies.
+Событие проигрывается тогда, когда сущность ItemsAdder погибла
 
 
 

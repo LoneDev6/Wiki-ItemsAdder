@@ -1,17 +1,17 @@
 # ☕️Java API
 
-## How to get the API
+## Как получить API
 
-You just have to use **maven** or **gradle**, you can get the **API** here
+Вы должны использовать **maven** или **gradle**, **API** можно получить тут:
 
 {% embed url="https://github.com/LoneDev6/ItemsAdder-API\#-packages" %}
 
-## Description
+## Описание
 
-ItemsAdder includes an easy to use API for Java developers.  
-To access it just include **dev.lone.itemsadder.api.ItemsAdder** in your code.
+ItemsAdder встроен более легкий способ использовать API для Java-разработчиков.  
+Для доступа добавьте **dev.lone.itemsadder.api.ItemsAdder** в ваш код.
 
-## Old API:
+## Старое API:
 
 ```java
 //check if itemsadder finished loading its items and if they are available

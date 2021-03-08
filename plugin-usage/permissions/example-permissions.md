@@ -1,40 +1,40 @@
-# ↪️Example permissions
+# ↪️Права
 
-## Example setup:
+## Примеры прав:
 
-* `ia.user.ia` \(open /ia menu\)
-* `ia.user.ia.*` \(see all items in /ia menu\)
-* `ia.user.iarecipe` \(use /iarecipe command\)
-* `ia.user.craft.*` \(craft all items\)
-* `ia.menu.*` \(see all categories in /ia menu\)
-* `ia.user.image.gui` \(use /e command to see emojis book\)
-* `ia.user.image.hints` \(suggest emojis when using /e and TAB complete\)
-* `ia.user.image.chat` \(replace emoji text :smile: etc in chat\)
-* `ia.user.image.command` \(replace emoji text :smile: etc in commands\)
-* `ia.user.image.sign` \(replace emoji text :smile: etc in signs\)
-* `ia.user.image.book` \(replace emoji text :smile: etc in books\)
-* `ia.user.image.use.*` \(access to all emojis\)
+* `ia.user.ia` \(право на открытие меню /ia\)
+* `ia.user.ia.*` \(право на просмотр всех предметов в меню /ia\)
+* `ia.user.iarecipe` \(право на использование команды /iarecipe\)
+* `ia.user.craft.*` \(право на создание всех предметов\)
+* `ia.menu.*` \(право на просмотр всех категорий в меню /ia\)
+* `ia.user.image.gui` \(право на команду /e, просмотр всех эмоджи в формате книги\)
+* `ia.user.image.hints` \(право на показ подсказок дл команды /e и автозавершения при нажатии клавиши\)
+* `ia.user.image.chat` \(замена заполнителя :smile: на настоящее эмоджи в чате\)
+* `ia.user.image.command` \(замена заполнителя :smile: на настоящее эмоджи в командах\)
+* `ia.user.image.sign` \(замена заполнителя :smile: на настоящее эмоджи в табличках\)
+* `ia.user.image.book` \(замена заполнителя :smile: на настоящее эмоджи в книгах\)
+* `ia.user.image.use.*` \(доступ ко всем эмоджи\)
 
-## Where can I get categories permissions?
+## Где мне достать права на определенные категории?
 
 {% hint style="info" %}
-### ItemsAdder default categories
+### Классические категории ItemsAdder 
 
-Open this file to read all the permissions to see categories: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+Откройте файл по следующему пути, чтобы получить список всех прав на каждую категорию: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 
-For example if you want to make players see ALL the categories of default ItemsAdder you just have to give `ia.menu.*` permission.
+В качестве примера, если вы хотите дать игрокам право видеть ВСЕ категории плагина, вы можете выдать им право `ia.menu.*` одной строкой.
 {% endhint %}
 
 {% hint style="info" %}
-### Addons categories
+### Категории аддонов
 
-If you're installing an [addon ](https://addons.plugin.ga/itemsadder/)you may search for a `categories.yml` file inside `ItemsAdder\data\items_packs\ADDON`, usually they put the categories there, so you can find also their **permissions**.
+Если вы установили [аддон](https://addons.plugin.ga/itemsadder/), то вам следует найти файлы `categories.yml` внутри `ItemsAdder\data\items_packs\ПАПКА АДДОНА`, обычно, информация о категориях находится там, включая нужные **права**.
 {% endhint %}
 
 {% hint style="info" %}
-### Creating my categories
+### Создание своих категорий
 
-To create your categories just read the tutorial
+Чтобы создать свою категорию, ознакомьтесь с этой информацией
 
 {% page-ref page="../ia.md" %}
 {% endhint %}

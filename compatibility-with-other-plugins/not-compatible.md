@@ -1,12 +1,12 @@
-# Not compatible
+# Не совместим
 
-_**Is it compatible with plugin X?**_
+_**Твой плагин совместим с плагином X?**_
 
-I can't answer surely to this question because I can't know how every plugin in the world is coded, but here is a list of plugins that can cause problems:
+Я не могу ответить точно на каждый подобный вопрос, потому что я не знаю, что содержится в коде всех плагинов в мире, но вы можете сами ответить на свой вопрос, посмотрев на список частых проблем с совместимостью:
 
-* All plugins that uses **custom resourcepacks** \(you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done\)
-* [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/), this plugin messes up ItemsAdder custom recipes logic and creates duplication bugs. So please don't use it
-* Plugins that customize crafting table behaviour and recipes
-* [LootChest ](https://www.spigotmc.org/resources/lootchest.61564/)can cause some [problems](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
-* For now it's **not compatible** with **plugins** and world generators that **spawn mushroom** blocks with different faces to create custom textures. In the future I will add compatibility.
+* Не совместим с любимы плагином, который использует **установку пакета ресурсов** \(вы можете сделать их совместимыми, если имеете хоть малейшее представление о том, как совместить пакеты ресурсов в один. Убедитесь, что вы не заменяете файлы ItemsAdder и все должно быть великолепно\)
+* [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/) - этот плагин игнорирует рецепты крафта, которые добавляет ItemsAdder и часто приводит к ненужному дублированию крафтов и дюпам, не используйте его.
+* Не совместим с плагинами, которые могут сильно изменить систему крафтов или могут создавать их дублирование.
+* [LootChest ](https://www.spigotmc.org/resources/lootchest.61564/) может быть несовместим по этим [причинам](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
+* С недавних пор **не совместим** с **плагинами** и генераторами мира, которые **используют блоки грибов** для генерации собственных текстур. В будущем, я обязательно сделаю совместимость с ними.
 

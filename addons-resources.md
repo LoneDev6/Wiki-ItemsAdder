@@ -1,6 +1,6 @@
-# ➕Addons/resources
+# ➕Аддоны/Ресурсы
 
-## Get the addons here:
+## Контент сообщества можно найти на этом веб-сайте:
 
 {% embed url="https://addons.plugin.ga/itemsadder/" %}
 

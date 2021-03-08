@@ -1,28 +1,30 @@
-# Behaviours
+# "Поведение" предмета
 
-## What are behaviours?
+## Что это такое?
 
-Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.  
-These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.
+Поведение предметов это **встроенная** функция плагина со своими **действиями**, которые осуществляют предметы и эти действия не ванильны.  
+Список **поведений** это уже встроенный функционал в плагин, которые позволит вам добавить уже полностью прописанные функции.
 
-### List of behaviours included in the plugin
+### Список всех поведений плагина
 
-* block\_trade\_machine
-* furniture\_trade\_machine
-* furniture
-* furniture\_sit
-* gun
-* hat
-* music\_disc
-* vehicle
+* block\_trade\_machine - поведение торгового автомата для блока
+* furniture\_trade\_machine - поведение торгового автомата для мебели
+* furniture - мебель
+* furniture\_sit - мебель, на которую можно сесть
+* gun - оружие
+* hat - шляпы
+* music\_disc - музыкальные пластинки
+* vehicle - транспорт
+
+### Примеры использования
 
 ```yaml
-# This behaviour allows you to open a trade GUI with the following items
-# For example black_fishing_rod and red_fishing_rod
+# Это поведение дает возможность открывать GUI торговли со своими текстурами и предметами на продажу
+# Как пример предметов на продажу, тут выставлены предметы black_fishing_rod и red_fishing_rod
 block_trade_machine:
   title: "Your title"
-  permission: "mypermission.trade.example" # <--- this is optional
-  gui_texture: ###THIS IS OPTIONAL, use it only to retexture the GUI
+  permission: "mypermission.trade.example"            # <--- это можно изменить
+  gui_texture:            ###это можно изменить, используйте только текстурированные GUI
     left: customization_table_left
     right: customization_table_right
   trades_list:
@@ -50,47 +52,48 @@ block_trade_machine:
         amount: 1
         
 furniture_trade_machine:
-....... it's the same as block_trade_machine
+....... Точно такое же поведение, как и block_trade_machine, только в виде мебели
 
    
-# When you rightclick with that item it will be placed on the ground with an
-# armorstand. The armorstand will have the item as helmet and will be invisible.
+# Когда вы кликаете правой кнопкой мыши с этим предметов в руках - он установится на земплю
+# в качестве стойки для брони. Стойка для брони имеет указанную модель блока на своей голове и является невидимой.
 furniture:
   small_hitbox: true
   gravity: true
   fixed_rotation: false
   light_level: 7  
   solid: false
-  opposite_direction: false #makes the model rotate 180 when placed
+  opposite_direction: false        #заставляет модель поставиться на 180 градусов в направлении от вас
 
 
-# If you add this behaviour and "furniture" behaviour you will be able to sit
-# on the furniture at the defined height.
+# Если вы добавите поведение "furniture" и это - вы сможете садится на вашу мебель
+# на указанную вами высоту.
 furniture_sit:
   sit_height: 0.9
-  opposite_direction: true #default is true
+  opposite_direction: true      #обычно установлено на значение true
   
 
-# Allows you to use this item as a gun. You can decide which projectile must
-# be hold on left hand in order to shot.
+# Дает возможность использовать предмет как дальнобойнее оружие. Какой предмет должен являться снарядом и лежать
+# в левой руке во время стрельбы - настраивается вами.
 gun:
   projectile: itemsadder:clip
   
 
-# Allows you to use the current item as hat (same vanilla helmet behaviour)
+# Дает возможность надеть предмет на голову (точно так же, как и в ваниле. Если указан предмет, который не является шлемом - его можно нажать нажатием
+ПКМ, держа предмет в руке)
 hat: true
 
 
-# Allows you to use the current item as a vanilla music disc.
-# Remember that you will have to create a custom sound to be able
-# to play something.
+# Позволит использовать указанный предмет как пластинку
+# Не забывайте создать музыкальный файл для этой пластинки, иначе она ничего не будет
+# проигрывать.
 music_disc:
   song:
-    name: "itemsadder:music_disc.cdk_sunday"
-    description: "Cdk - Sunday"
+    name: "itemsadder:music_disc.cdk_sunday"   #<- название пластинки
+    description: "Cdk - Sunday"   
     
 
-# Allows you to use the current item as a ridable vehicle
+# Позволит использовать предмет как транспорт, в который можно сесть
 vehicle:
   fixed_rotation: false
   small_hitbox: true

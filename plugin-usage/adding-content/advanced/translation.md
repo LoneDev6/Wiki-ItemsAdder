@@ -1,37 +1,37 @@
-# Translation
+# Перевод плагина
 
-You can translate everything in ItemsAdder, it's really easy.
+Вы можете перевести все надписи в ItemsAdder, это очень просто.
 
-## Translate items
+## Перевод предметов
 
-### Translate ItemsAdder default items
+### Перевод заводских предметов ItemsAdder
 
-If you want to translate IA default items you can, you just have to copy my dictionary and create your own.  
+Если вы хотите перевести заводские предметы IA - скопируйте файл перевода под другое имя (так как плагин при обновлении может перезаписать этот файл).  
 
 
-* open folder plugins\ItemsAdder\data\items\_packs\dictionaries\itemsadder\_stuff
-* copy and paste the file en.yml
-* change `dictionary-lang` from `en` to your language identifier \(example `fr`\)
-* translate everything you want
-* open config.yml and set `dictionaries-lang` to your language identifier \(example `fr`\)
-* reload the plugin or restart the server
+* Откройте папку plugins\ItemsAdder\data\items\_packs\dictionaries\itemsadder\_stuff
+* скопируйте файл en.yml и вставьте
+* измените в строке `dictionary-lang` значение `en` на идентификатор вашего языка \(например `ru`\)
+* переведите нужные надписи на ваш язык
+* откройте основной файл конфигурации config.yml и установите в строке `dictionaries-lang` ваш идентификатор языка \(например `ru`\)
+* перезагрузите плагин или сервер
 
-### Create your own translation for your new items
+### Перевод ваших новых предметов (аддонов)
 
-To create your own translations for your own items \(you won't likely need this, but if you want to share your items online in the future it would be better to make them translatable\) you just have to create a new file wherever you want \(I'd put it inside the `dictionaries`folder for easier organization, but you can put anywhere inside `items_packs`\).
+Чтобы перевести ваши предметы на другие языки\(Вам это вовсе не нужно, если вы не собираетесь делиться этими файлами в качестве аддона или делиться этим с вашими заграничными друзьями, которые говорят на других языках\) вам достаточно создать новый файл перевода где угодно \(Я положил такой файл в папку `dictionaries` для более простой и быстрой организации, но вы можете положить этот файл в любую папку в папке `items_packs`\).
 
-This is how it looks like:
+Как это выглядит:
 
 ```yaml
 info:
   namespace: special_items_lang
-  dictionary-lang: "fr"
+  dictionary-lang: "ru"
 dictionary:
-  display-name-my_sword: épée de saleté
-  display-name-my_item: j'aime la baguette
+  display-name-my_sword: Мой меч
+  display-name-my_item: Я обожаю водку
 ```
 
-And this is how my items file looks like:
+Так выглядит мой конечный файл предмета:
 
 ```yaml
 info:
@@ -50,18 +50,18 @@ items:
 ```
 
 {% hint style="info" %}
-As you can see I set the `display_name`to "display-name-my\_sword", this will tell IA to replace the text with text from the dictionary, so sword would be named "épée de saleté".
+Как вы можете заметить строка `display_name` в настройке предмета указана параметром - "display-name-my\_sword", этот заполнитель указывает плагину куда и откуда брать этот текст. В данном случае заполнитель берет имя из файла в папке dictionary, поэтому конечное имя меча - "Мой меч", а конечно имя предмета - "Я обожаю водку".
 {% endhint %}
 
 {% hint style="warning" %}
-You can **skip** the **translation** part and do this directly, **but** this **won't** allow you to easily **translate** items in the **future** if you need to.
+Вы можете **пропустить** эту статью о **переводе** и забить на функцию перевода и заполнителей для этого в целом, указывая имя предмета напрямую в строке `display_name`, **но** это станет причиной того, что ваши труды будет невозможно легко и быстро **перевести** на другие языки **в будущем**, если вы решите этим поделиться.
 
 ```yaml
 info:
   namespace: special_items
 items:
   my_sword:
-    display_name: "épée de saleté"
+    display_name: "Мой меч"
     permission: my_sword
     resource:
       material: DIAMOND_SWORD
@@ -73,7 +73,7 @@ items:
 ```
 {% endhint %}
 
-## Translate commands and messages
+## Перевод команд и сообщений плагина
 
-You just have to open lang folder and copy and paste en.yml, then translate it and change the lang setting in config.yml to your file name.
+Откройте папку lang и скопируйте файл перевода en.yml, после чего переведите это на ваш язык и сохраните под желаемым названием. Затем откройте основной файл конфигурации config.yml и внесите изменения в нем строки используемого языка.
 

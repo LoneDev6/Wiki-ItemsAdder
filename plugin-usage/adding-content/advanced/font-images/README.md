@@ -1,14 +1,14 @@
 ---
-description: Allows you to create images which can be used in texts
+Описание: Позволит создать картинки, которые можно использовать в тексте
 ---
 
-# Font Images
+# Картинки юникода
 
-### Font images?
+### Картинки юникода?
 
-This feature allows you to create images that can be used to make:  GUIs, HUDs, Emojis, custom characters, custom player prefixes and anything else you imagine! \(you can put these images inside any text\).
+Эта функция позволяет вам создавать изображения на основе неиспользуемых символов юникода (белых квадратов - □), конкретно, чтобы создать: GUI, HUDы, эмоджи, свои собственне символы, графические префиксы и все, что вы можете придумать. \(вы можете добавить их рядом с любым текстом\).
 
 
 
-## TUTORIAL WILL BE FINISHED SOON!
+## Туториал будет закончен позже!
 

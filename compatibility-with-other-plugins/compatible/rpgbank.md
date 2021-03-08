@@ -1,8 +1,8 @@
 # RPGBank
 
-[Download here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
+[Купить можно тут](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
 
-You can change GUI icons and use ItemsAdder icons to achieve this:
+Вы можете изменить текстуру GUI и использовать иконки ItemsAdder:
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
@@ -20,7 +20,7 @@ You can change GUI icons and use ItemsAdder icons to achieve this:
 ```
 {% endtab %}
 
-{% tab title="language file" %}
+{% tab title="конфигурации для файла перевода" %}
 ```yaml
 account-title: :offset_-16::blank_menu::offset_-176:&0{player}
 ```

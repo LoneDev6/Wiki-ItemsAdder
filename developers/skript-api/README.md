@@ -1,9 +1,9 @@
-# 📓Skript API
+# 📓API для скриптов
 
-## Examples
+## Примеры
 
 {% tabs %}
-{% tab title="Command: give custom item" %}
+{% tab title="Команда: выдать предмет IA" %}
 ```yaml
 command /iaskriptgetitem <text> [<number=1>]:
   trigger:
@@ -17,7 +17,7 @@ command /iaskriptgetitem <text> [<number=1>]:
 ```
 {% endtab %}
 
-{% tab title="Command: is holding custom item" %}
+{% tab title="Команда: если игрок держит предмет IA" %}
 ```yaml
 command /iaskriptiscustomitem:
   trigger:
@@ -28,7 +28,7 @@ command /iaskriptiscustomitem:
 ```
 {% endtab %}
 
-{% tab title="FontImage \(emojis, GUIs..\)" %}
+{% tab title="Картинка из юникода \(эмоджи, GUI..\)" %}
 ```yaml
 command /emojitest:
 	trigger:
@@ -39,6 +39,6 @@ command /emojitest:
 {% endtabs %}
 
 {% hint style="warning" %}
-If you think there is any missing method you need don't worry. I will add more features to the Skript API, you just have to be patient.
+Если вы считаете, что я упустил какой либо метод - не переживайте. Я добавлю новые фичи для скриптов позже, будьте терпеливы.
 {% endhint %}
 

@@ -1,6 +1,6 @@
-# HUDs, GUIs...
+# HUDы, GUI...
 
-To see how to use HUDs and GUIs API \(Font Images\) you can check my examples:
+Чтобы посмотреть на то, как работает HUD и GUI API \(Картинки юникода\), можете глянуть мои примеры:
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-GUI" %}
 
@@ -8,7 +8,7 @@ To see how to use HUDs and GUIs API \(Font Images\) you can check my examples:
 
 
 
-### Access mana bar value example
+### Пример доступа к данным о мане
 
 ```java
 PlayerHUDsHolderWrapper huds = new PlayerHUDsHolderWrapper(player);
@@ -21,7 +21,7 @@ manaHud.setFloatValue(2.0f);
 
 {% page-ref page="../../plugin-usage/adding-content/advanced/font-images/common-errors.md" %}
 
-### Get Emoji or GUI character
+### Достать символ юникода для эмоджи или GUI
 
 ```java
 new FontImageWrapper("twitteremojis:confirm").getString()

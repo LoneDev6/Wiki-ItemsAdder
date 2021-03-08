@@ -1,6 +1,6 @@
-# Creating 3D models
+# Создание 3D-модели
 
-To create custom models I use [BlockBench ](https://blockbench.net/)which is a free, easy to use and amazing tool to make Minecraft model.
+Для создания моделей я использую [BlockBench ](https://blockbench.net/)- данная программа бесплатна, очень проста в использовании и является лучшим инструментом моделирования для Minecraft.
 
 {% embed url="https://www.youtube.com/watch?v=aaJ8XgMAOno" %}
 

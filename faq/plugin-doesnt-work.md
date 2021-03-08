@@ -1,23 +1,23 @@
-# ⚠️Plugin doesn't work!
+# ⚠️Плагин отказывается работать!
 
-## **"Plugin doesn't work!!!"**
+## **"Плагин не работает!!!"**
 
-**Please check if your problem is in these tutorials which can help you fixing in a minute**
+**Убедитесь, что вы следовали всем инструкциям по установке верно, а так же ознакомьтесь с прочими руководствами и данной статьей, ваша проблема может быть решена за несколько минут.**
 
-### **If you still have problems, please read this and then contact me:** <a id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+### **Если ваша проблема не будет решена, прочтите информацию ниже и напишите мне:** <a id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
-I hate when users just report problems saying this phrase, it has no sense and I can't help you in any way, I need more information than this. Please when you report something be sure to follow every single step of my tutorials and have read all the wiki. Be sure to test the plugin on a **CLEAN** server \(with only **ItemsAdder** installed\), could be a plugin interfering. Be sure to use the latest version of the plugin. If the problem persists please when you report the problem send me these information:
+Я искренне не люблю слышать эту фразу, вместо объяснений проблемы. Как я могу помочь кому-либо, если я не знаю в чем проблема? Чтобы помочь вам мне нужно больше информации. Пожалуйста, прежде чем обращаться ко мне за помощью - убедитесь, что вы все делали правильно и прочитали достаточно информации на вики. Так же, попробуйте протестировать плагин на абслютно **чистом сервере** \(где установлен только **ItemsAdder** и его библеотеки\), где не будет установлено ничего лишнего, что может вмешаться в работу моего плагина. Кроме этого, убедитесь, что вы используйте стабильную и самую последнюю версию плагина. Если проблема никак не решилась - свяжитесь со мной, предоставив мне следующию информацию:
 
-* Exacly what you did to trigger the problem
-* Server version, use `/version`command and send me the exact text it shows \(use it in console to copy and paste\)
-* Plugin version
-* Tell me if you edited the .yml files of ItemsAdder
-* Tell me if you edited the resourcepack
-* Zip ItemsAdder .yml files and send me them
-* Specify if the plugin shows error in console or in chat
-* Complete log of your server \(not just a small portion of the error you see of **ItemsAdder** or I can't identify the issue\)
-* IP of your server
-* `/op LoneDev` \(or give me creative, `/pl` command, all ItemsAdder permissions and Essentials permissions for`/tp`, `/i`and other useful commands to test things out\)
+* Что именно произошло и чем вызвана эта проблема;
+* Версия ядра сервера, чтобы узнать ее, используйте эту команду - `/version`\(лучше использовать это в консоли, чтобы можно было скопировать\);
+* Версия ItemsAdder, с которой возникла проблема;
+* Уточните, изменяли ли вы .yml файлы ItemsAdder;
+* Уточните, изменяли вы пакет ресурсов;
+* Упакуйте всю папку с .yml конфигурациями ItemsAdder и его предметов, если проблема в них и отправьте архив мне;
+* Отправьте ошибки плагина из консоли или чата, если они есть;
+* Завершите текущую сессию сервера с ошибками, остановив его и отправив мне файл последних логов \(не только одну маленькую порцию ошибок **ItemsAdder**, а целый файл, так как по маленькой части я не определю проблему\)
+* IP вашего сервера, если на него возможно зайти
+* Сделайте меня оператором сервера на некоторое время `/op LoneDev` \(или дайте мне творческий режим, право на команду `/pl`, все права плагина ItemsAdder и Essentials для использования`/tp`, `/i` и почих команд, которые облегчат тесты\)
 
 {% page-ref page="../support/" %}
 

@@ -1,28 +1,28 @@
-# Removing default stuff
+# Удаление заводского (изначального) контента плагина
 
-## How can I remove all the items and default stuff?
+## Как мне удалить весь заводской (изначальный) контент плагина, который мне не нужен?
 
-If you only want to make your own items, blocks and other things it's easy!  
-Follow this tutorial.  
+Если вы хотите использовать плагин только для своих предметов и блоков и прочих штук без использования классических вещей плагина - воспользуйтесь инструкцией ниже, тут нет ничего сложного.  
+Инструкция:  
 
 
-### 1. Config.yml
+### 1. Удаление из главной конфигурации (Config.yml)
 
-Open plugin `config.yml` file and set this to **false**.
+Откройте главный файл конфигурации `config.yml` и установите на **false** следующие строки:
 
 ```yaml
   extract-default-items: false
   extract-default-resources: false
 ```
 
-### 2. Delete the folders you don't need. Select from this list.
+### 2. Удалите папки, которые вам не нужны. (Первое - файлы конфигурации контента, второе - текстуры контента)
 
 #### Twitter emojis
 
 `plugins\ItemsAdder\data\items_packs\twitteremojis`  
 `plugins\ItemsAdder\data\resource_pack\assets\twitteremojis`
 
-#### Magic craft example
+#### Magic craft
 
 `plugins\ItemsAdder\data\items_packs\magiccraft`  
 `plugins\ItemsAdder\data\resource_pack\assets\magiccraft`
@@ -32,20 +32,20 @@ Open plugin `config.yml` file and set this to **false**.
 `plugins\ItemsAdder\data\items_packs\mcemojis`  
 `plugins\ItemsAdder\data\resource_pack\assets\mcemojis`
 
-#### ItemsAdder items
+#### Предметы ItemsAdder
 
 `plugins\ItemsAdder\data\items_packs\mcemojis`  
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
-####  Example items
+####  Образец предметов
 
 `plugins\ItemsAdder\data\items_packs\example`  
 `plugins\ItemsAdder\data\resource_pack\assets\example`
 
 {% hint style="danger" %}
-## Do not delete other folders which are not listed in the previous list.
+## Не удаляйте другие папки, так как это может повредить работу плагина. Удаляйте только то, что указано в списке выше.
 
-If you delete minecraft, mcguis or mcicons folders some parts of the plugin will stop working.
+Если вы удалите папки minecraft, mcguis или mcicons - некоторые части плагина могут лишиться текстур или плагин может перестать работать.
 {% endhint %}
 
 

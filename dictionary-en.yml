@@ -1,560 +1,560 @@
 info:
   namespace: itemsadder_stuff
-  dictionary-lang: "en"
+  dictionary-lang: "ru"
 dictionary:
-  display-name-example_item: Example Item
-  display-name-ruby_head: Ruby helmet
-  display-name-ruby_chest: Ruby chestplate
-  display-name-ruby_legs: Ruby leggings
-  display-name-ruby_boots: Ruby boots
-  display-name-spinel_head: Spinel helmet
-  display-name-spinel_chest: Spinel chestplate
-  display-name-spinel_legs: Spinel leggings
-  display-name-spinel_boots: Spinel boots
-  display-name-turquoise_head: Turquoise helmet
-  display-name-turquoise_chest: Turquoise chestplate
-  display-name-turquoise_legs: Turquoise leggings
-  display-name-turquoise_boots: Turquoise boots
-  display-name-aqua_head: Aqua Aura helmet
-  display-name-aqua_chest: Aqua Aura chestplate
-  display-name-aqua_legs: Aqua Aura leggings
-  display-name-aqua_boots: Aqua Aura boots
-  display-name-amethyst_head: Amethyst helmet
-  display-name-amethyst_chest: Amethyst chestplate
-  display-name-amethyst_legs: Amethyst leggings
-  display-name-amethyst_boots: Amethyst boots
-  display-name-emerald_head: Emerald helmet
-  display-name-emerald_chest: Emerald chestplate
-  display-name-emerald_legs: Emerald leggings
-  display-name-emerald_boots: Emerald boots
-  display-name-obsidian_head: Obsidian helmet
-  display-name-obsidian_chest: Obsidian chestplate
-  display-name-obsidian_legs: Obsidian leggings
-  display-name-obsidian_boots: Obsidian boots
-  display-name-mysterious_chest: Mysterious chestplate
-  display-name-mysterious_legs: Mysterious leggings
-  display-name-mysterious_boots: Mysterious boots
-  display-name-bronze_head: Bronze helmet
-  display-name-bronze_chest: Bronze chestplate
-  display-name-bronze_legs: Bronze leggings
-  display-name-bronze_boots: Bronze boots
-  display-name-ruby_block: Block of Ruby
-  display-name-crystal_block: Block of Crystal
-  display-name-spinel_block: Block of Spinel
-  display-name-turquoise_block: Block of Turquoise
-  display-name-aqua_aura_block: Block of Aqua Aura
-  display-name-amethyst_block: Block of Amethyst
-  display-name-amethyst_prism_block: Block of Amethyst Prism
-  display-name-crying_obsidian: '&9Crying Obsidian'
-  display-name-nice_stone: Nice Stone
-  display-name-nice_wood: Nice Wood
-  display-name-modern_stone: Modern Stone
-  display-name-modern_sandstone: Modern Sandstone
-  display-name-modern_quartz: Modern Quartz
-  display-name-ruby_ore: Ruby Ore
-  display-name-spinel_ore: Spinel Ore
-  display-name-turquoise_ore: Turquoise Ore
-  display-name-aqua_aura_ore: Aqua Aura Ore
-  display-name-amethyst_ore: Amethyst Ore
-  display-name-bronze_ore: Bronze Ore
-  display-name-mysterious_ore: Mysterious Ore
-  display-name-end_ore: End Ore
-  display-name-restoration_table: Restoration Table
-  display-name-customization_table: Customization Table
-  display-name-iron_dirt_ore: Iron Dirt Ore
-  display-name-gold_dirt_ore: Gold Dirt Ore
-  display-name-coal_dirt_ore: Coal Dirt Ore
-  display-name-blaze_powder_ore: Blaze Powder Ore
-  display-name-nether_alchemy_ore: Nether Alchemy Ore
-  display-name-mysterious_book: Mysterious Book
-  display-name-letter: Letter
-  display-name-mysterious_book_decrypted: Decrypted Mysterious Book
-  display-name-astral_bow: Astral bow
-  display-name-cross_bow: Crossbow
-  display-name-black_bow: Black Dyed Bow
-  display-name-red_bow: Red Dyed Bow
-  display-name-green_bow: Green Dyed Bow
-  display-name-blue_bow: Blue Dyed Bow
-  display-name-purple_bow: Purple Dyed Bow
-  display-name-cyan_bow: Cyan Dyed Bow
-  display-name-tomato_seeds: Tomato Seeds
-  display-name-garlic_seeds: Garlic Seeds
-  display-name-lettuce_seeds: Lettuce Seeds
-  display-name-chili_pepper_seeds: Chili Pepper Seeds
-  display-name-rice_seeds: Rice Seeds
-  display-name-tobacco_seeds: Tobacco Seeds
-  display-name-cola: Cola
-  display-name-hot_chocolate: Hot chocolate
-  display-name-coffee: Coffee
-  display-name-diamonds_finder_potion: Diamonds finder potion
-  display-name-emeralds_finder_potion: Emeralds finder potion
-  display-name-strange_potion: Strange potion
-  display-name-antidote: Antidote
-  display-name-bloody_mary: Bloody Mary
-  display-name-black_fishing_rod: Black Dyed Fishing Rod
-  display-name-red_fishing_rod: Red Dyed Fishing Rod
-  display-name-green_fishing_rod: Green Dyed Fishing Rod
-  display-name-blue_fishing_rod: Blue Dyed Fishing Rod
-  display-name-purple_fishing_rod: Purple Dyed Fishing Rod
-  display-name-cyan_fishing_rod: Cyan Dyed Fishing Rod
-  display-name-pizza: Pizza
-  display-name-taco: Taco
-  display-name-hamburger: Hamburger
-  display-name-chips: Chips
-  display-name-hotdog: Hotdog
-  display-name-tropical_fish_nigiri: Tropical Fish Nigiri
-  display-name-cod_nigiri: Cod Nigiri
-  display-name-salmon_nigiri: Salmon Nigiri
-  display-name-sausage: Sausage
-  display-name-cooked_sausage: Cooked Sausage
-  display-name-baguette: Baguette
-  display-name-broken_egg: Broken egg
-  display-name-fried_egg: Fried egg
-  display-name-peeled_potato: Peeled Potato
-  display-name-potato_sticks: Potato Sticks
-  display-name-fried_potato_sticks: Fried Potato Sticks
-  display-name-french_fries: French Fries
-  display-name-donut_base: Donut base
-  display-name-cooked_donut_base: Cooked Donut base
-  display-name-sweet: Sweet
-  display-name-sweet_stick: Sweet stick
-  display-name-pink_donut: Pink Donut
-  display-name-nether_donut: Nether Donut
-  display-name-cheese: Cheese
-  display-name-pufferfish_nigiri: Pufferfish Nigiri
-  display-name-sliced_bread: Sliced Bread
-  display-name-sliced_baguette: Sliced Baguette
-  display-name-sliced_cheese: Sliced Cheese
-  display-name-blue_parrotfish: Blue Parrotfish
-  display-name-cooked_blue_parrotfish: Cooked Blue Parrotfish
-  display-name-green_sunfish: Green Sunfish
-  display-name-cooked_green_sunfish: Cooked Green Sunfish
-  display-name-goldfish: Goldfish
-  display-name-cooked_goldfish: Cooked Goldfish
-  display-name-black_moor_goldfish: Black Moor Goldfish
-  display-name-cooked_black_moor_goldfish: Cooked Black Moor Goldfish
-  display-name-tuna: Tuna
-  display-name-cooked_tuna: Cooked Tuna
-  display-name-sliced_raw_beef: Sliced Raw Beef
-  display-name-sliced_roast_beef: Sliced Roast Beef
-  display-name-sliced_bread_with_sweet_berries_jam: Sliced Bread With Sweet Barries Jam
-  display-name-sliced_bread_with_pear_jam: Sliced Bread With Pear Jam
-  display-name-sliced_bread_with_apple_jam: Sliced Bread With Apple Jam
-  display-name-old_clock: Old clock
-  display-name-opened_chest: Opened chest
-  display-name-computer_desk: Desk with computer
-  display-name-table: Table
-  display-name-lamp: Lamp
-  display-name-simple_chair: Simple Chair
-  display-name-lava_lamp: Lava lamp
-  display-name-white_chair: White chair
-  display-name-glass_table: Glass table
-  display-name-computer_chair: Computer chair
-  display-name-monitor: Monitor
-  display-name-tv: TV
-  display-name-mini_fridge: Mini fridge
-  display-name-energy_extractor: Energy Extractor
-  display-name-energy_converter: Energy Converter
-  display-name-vending_machine: Vending Machine
-  display-name-coffee_machine: Coffee Machine
-  display-name-mysterious_stone: Mysterious Stone
-  display-name-alchemy_candles: Alchemy Candles
-  display-name-painting_burst: Painting
-  display-name-painting_courbet: Painting
-  display-name-painting_graham: Painting
-  display-name-painting_match: Painting
-  display-name-painting_pool: Painting
-  display-name-painting_skull_and_roses: Painting
-  display-name-painting_stage: Painting
-  display-name-painting_void: Painting
-  display-name-painting_wanderer: Painting
-  display-name-white_bar_chair: White Bar Chair
-  display-name-orange_bar_chair: Orange Bar Chair
-  display-name-magenta_bar_chair: Magenta Bar Chair
-  display-name-light_blue_bar_chair: Light Blue Bar Chair
-  display-name-yellow_bar_chair: Yellow Bar Chair
-  display-name-lime_bar_chair: Lime Bar Chair
-  display-name-pink_bar_chair: Pink Bar Chair
-  display-name-gray_bar_chair: Gray Bar Chair
-  display-name-light_gray_bar_chair: Light Gray Bar Chair
-  display-name-cyan_bar_chair: Cyan Bar Chair
-  display-name-purple_bar_chair: Purple Bar Chair
-  display-name-blue_bar_chair: Blue Bar Chair
-  display-name-brown_bar_chair: Brown Bar Chair
-  display-name-green_bar_chair: Green Bar Chair
-  display-name-red_bar_chair: Red Bar Chair
-  display-name-black_bar_chair: Black Bar Chair
-  display-name-white_wood_chair: White Wood Chair
-  display-name-orange_wood_chair: Orange Wood Chair
-  display-name-magenta_wood_chair: Magenta Wood Chair
-  display-name-light_blue_wood_chair: Light Blue Wood Chair
-  display-name-yellow_wood_chair: Yellow Wood Chair
-  display-name-lime_wood_chair: Lime Wood Chair
-  display-name-pink_wood_chair: Pink Wood Chair
-  display-name-gray_wood_chair: Gray Wood Chair
-  display-name-light_gray_wood_chair: Light Gray Wood Chair
-  display-name-cyan_wood_chair: Cyan Wood Chair
-  display-name-purple_wood_chair: Purple Wood Chair
-  display-name-blue_wood_chair: Blue Wood Chair
-  display-name-brown_wood_chair: Brown Wood Chair
-  display-name-green_wood_chair: Green Wood Chair
-  display-name-red_wood_chair: Red Wood Chair
-  display-name-black_wood_chair: Black Wood Chair
-  display-name-dark_throne: Dark Throne
-  display-name-school_chair: School Chair
-  display-name-school_chair_lazy: School Chair Lazy
-  display-name-white_chandeliers: White Chandeliers
-  display-name-black_chandeliers: Black Chandeliers
-  display-name-black_and_red_chandeliers: Black And Red Chandeliers
-  display-name-small_fountain: Small Fountain
-  display-name-lit_campfire: Lit Campfire
-  display-name-decorative_pumpkin: Decorative Pumpkin
-  display-name-christmas_tree: Christmas Tree
-  display-name-christmas_candle: Christmas Candle
-  display-name-decorative_candy_cane: Decorative Candy Cane
-  display-name-christmas_wreath: Christmas Wreath
-  display-name-revolver: Revolver
-  display-name-hand_gun: Handgun
+  display-name-example_item: Пример
+  display-name-ruby_head: Рубиновый шлем
+  display-name-ruby_chest: Рубиновый нагрудник
+  display-name-ruby_legs: Рубиновые поножи
+  display-name-ruby_boots: Рубиновые ботинки
+  display-name-spinel_head: Шпинелевый шлем
+  display-name-spinel_chest: Шпинелевый нагрудник
+  display-name-spinel_legs: Шпинелевые поножи
+  display-name-spinel_boots: Шпинелевые ботинки
+  display-name-turquoise_head: Бирюзовый шлем
+  display-name-turquoise_chest: Бирюзовый нагрудник
+  display-name-turquoise_legs: Бирюзовые поножи
+  display-name-turquoise_boots: Бирюзовые ботинки
+  display-name-aqua_head: Шлем из водянистого кристалла
+  display-name-aqua_chest: Нагрудник из водянистого кристалла
+  display-name-aqua_legs: Поножи из водянистого кристалла
+  display-name-aqua_boots: Ботинки из водянистого кристалла
+  display-name-amethyst_head: Аметистовый шлем
+  display-name-amethyst_chest: Аметистовый нагрудник
+  display-name-amethyst_legs: Аметистовые штаны
+  display-name-amethyst_boots: Аметистовые ботинки
+  display-name-emerald_head: Изумрудный шлем
+  display-name-emerald_chest: Изумрудный нагрудник
+  display-name-emerald_legs: Изумрудные поножи
+  display-name-emerald_boots: Изумрудные ботинки
+  display-name-obsidian_head: Обсидиановый шлем
+  display-name-obsidian_chest: Обсидиановый нагрудник
+  display-name-obsidian_legs: Обсидиановые поножи
+  display-name-obsidian_boots: Обсидиановые ботинки
+  display-name-mysterious_chest: Мистический нагрудник
+  display-name-mysterious_legs: Мистические поножи
+  display-name-mysterious_boots: Мистические ботинки
+  display-name-bronze_head: Брозовый шлем
+  display-name-bronze_chest: Бронзовый нагрудник
+  display-name-bronze_legs: Бронзовые поножи
+  display-name-bronze_boots: Бронозовые ботинки
+  display-name-ruby_block: Блок рубинов
+  display-name-crystal_block: Блок кристаллов
+  display-name-spinel_block: Блок шпинеля
+  display-name-turquoise_block: Блок бирюзы
+  display-name-aqua_aura_block: Блок водянистых кристаллов
+  display-name-amethyst_block: Блок аметистов
+  display-name-amethyst_prism_block: Блок из аметистовых призм
+  display-name-crying_obsidian: '&9Плачущий обсидиан'
+  display-name-nice_stone: Хороший камень
+  display-name-nice_wood: Хорошая древесина
+  display-name-modern_stone: Модерн-камень
+  display-name-modern_sandstone: Модерн-песчаник
+  display-name-modern_quartz: Модерн-Кварц
+  display-name-ruby_ore: Рубиновая руда
+  display-name-spinel_ore: Шпинелевая руда
+  display-name-turquoise_ore: Бирюзовая руда
+  display-name-aqua_aura_ore: Руда водянистого кристалла
+  display-name-amethyst_ore: Аметистовая руда
+  display-name-bronze_ore: Бронзовая руда
+  display-name-mysterious_ore: Мистическая руда
+  display-name-end_ore: Руда края
+  display-name-restoration_table: Верстак реставрации
+  display-name-customization_table: Верстак кастомизации
+  display-name-iron_dirt_ore: Железная земленая руда
+  display-name-gold_dirt_ore: Золотая земленая руда
+  display-name-coal_dirt_ore: Угольная земленая руда
+  display-name-blaze_powder_ore: Руда ифритов
+  display-name-nether_alchemy_ore: Руда алхимии нижнего мира
+  display-name-mysterious_book: Мистическая книга
+  display-name-letter: Записка
+  display-name-mysterious_book_decrypted: Расшифрованная мистическая книга
+  display-name-astral_bow: Астральный лук
+  display-name-cross_bow: Арбалет
+  display-name-black_bow: Черный лук
+  display-name-red_bow: Красный лук
+  display-name-green_bow: Зеленый лук
+  display-name-blue_bow: Синий лук
+  display-name-purple_bow: Фиолетовый лук
+  display-name-cyan_bow: Бирюзовый лук
+  display-name-tomato_seeds: Семена помидоров
+  display-name-garlic_seeds: Семена чеснока
+  display-name-lettuce_seeds: Семена салата
+  display-name-chili_pepper_seeds: Семена перца Чилли
+  display-name-rice_seeds: Семена риса
+  display-name-tobacco_seeds: Семена тобака
+  display-name-cola: Кола
+  display-name-hot_chocolate: Горячий шоколад
+  display-name-coffee: Кофе
+  display-name-diamonds_finder_potion: Зелье обнаружения алмазной руды
+  display-name-emeralds_finder_potion: Зелье обнаружения изумрудной руды
+  display-name-strange_potion: Странное зелье
+  display-name-antidote: Антидот
+  display-name-bloody_mary: Кровавая Мэри
+  display-name-black_fishing_rod: Черная удочка
+  display-name-red_fishing_rod: Красная удочка
+  display-name-green_fishing_rod: Зеленая удочка
+  display-name-blue_fishing_rod: Синяя удочка
+  display-name-purple_fishing_rod: Фиолетовая удочка
+  display-name-cyan_fishing_rod: Бирюзовая удочка
+  display-name-pizza: Пицца
+  display-name-taco: Тако
+  display-name-hamburger: Гамбургер
+  display-name-chips: Чипсы
+  display-name-hotdog: Хот-дог
+  display-name-tropical_fish_nigiri: Тропическая Нигири
+  display-name-cod_nigiri: Нигири трески
+  display-name-salmon_nigiri: Нигири лосося
+  display-name-sausage: Сосиска
+  display-name-cooked_sausage: Жаренная сосиска
+  display-name-baguette: Батон
+  display-name-broken_egg: Разбитое яйцо
+  display-name-fried_egg: Яичница
+  display-name-peeled_potato: Чищенная картошка
+  display-name-potato_sticks: Картофельные палочки
+  display-name-fried_potato_sticks: Картошка Фри
+  display-name-french_fries: Жареная картошка
+  display-name-donut_base: Пончик
+  display-name-cooked_donut_base: Жареный пончик
+  display-name-sweet: Сладость
+  display-name-sweet_stick: Сладкие палочки
+  display-name-pink_donut: Розовый пончик
+  display-name-nether_donut: Пончик нижнего мира
+  display-name-cheese: Сыр
+  display-name-pufferfish_nigiri: Нигири рыбы-Фугу
+  display-name-sliced_bread: Хлебная нарезка
+  display-name-sliced_baguette: Нарезанный батон
+  display-name-sliced_cheese: Кусочек сыра
+  display-name-blue_parrotfish: Синяя рыба-Попугай
+  display-name-cooked_blue_parrotfish: Жареная синяя рыба-Попугай
+  display-name-green_sunfish: Зеленая рыба-Солнце
+  display-name-cooked_green_sunfish: Жареная рыба-Солнце
+  display-name-goldfish: Золотая рыбка
+  display-name-cooked_goldfish: Жареная золотая рыбка
+  display-name-black_moor_goldfish: Болотная золотая рыбка
+  display-name-cooked_black_moor_goldfish: Жареная болотная золотая рыбка
+  display-name-tuna: Тунец
+  display-name-cooked_tuna: Жареный тунец
+  display-name-sliced_raw_beef: Кусочек сырой говядины
+  display-name-sliced_roast_beef: Кусочек жареной говядины
+  display-name-sliced_bread_with_sweet_berries_jam: Кусочек нарезного хлеба с ягодным джемом
+  display-name-sliced_bread_with_pear_jam: Кусочек нарезного хлеба с грушевым джемом
+  display-name-sliced_bread_with_apple_jam: Кусочек нарезного хлеба с яблочным джемом
+  display-name-old_clock: Старые часы
+  display-name-opened_chest: Открытый сундук
+  display-name-computer_desk: Компьютерный стол
+  display-name-table: Стол
+  display-name-lamp: Лампа
+  display-name-simple_chair: Стул
+  display-name-lava_lamp: Лавовая лампа
+  display-name-white_chair: Белый стул
+  display-name-glass_table: Стеклянный стол
+  display-name-computer_chair: Компьютерное кресло
+  display-name-monitor: Монитор
+  display-name-tv: Телевизор
+  display-name-mini_fridge: Мини-холодильник
+  display-name-energy_extractor: Экстрактор энергии
+  display-name-energy_converter: Конвертер энергии
+  display-name-vending_machine: Торговый автомат
+  display-name-coffee_machine: Кофеварка
+  display-name-mysterious_stone: Загадочный камень
+  display-name-alchemy_candles: Свеча алхимика
+  display-name-painting_burst: Картина
+  display-name-painting_courbet: Картина
+  display-name-painting_graham: Картина
+  display-name-painting_match: Картина
+  display-name-painting_pool: Картина
+  display-name-painting_skull_and_roses: Картина
+  display-name-painting_stage: Картина
+  display-name-painting_void: Картина
+  display-name-painting_wanderer: Картина
+  display-name-white_bar_chair: Белый барный стул
+  display-name-orange_bar_chair: Оранжевый барный стул
+  display-name-magenta_bar_chair: Пурпурный барный стул
+  display-name-light_blue_bar_chair: Голубой барный стул
+  display-name-yellow_bar_chair: Желтый барный стул
+  display-name-lime_bar_chair: Лаймовый барный стул
+  display-name-pink_bar_chair: Розовый барный стул
+  display-name-gray_bar_chair: Серый барный стул
+  display-name-light_gray_bar_chair: Светло-серый барный стул
+  display-name-cyan_bar_chair: Бирюзовый барный стул
+  display-name-purple_bar_chair: Фиолетовый барный стул
+  display-name-blue_bar_chair: Синий барный стул
+  display-name-brown_bar_chair: Коричневый барный стул
+  display-name-green_bar_chair: Зеленый барный стул
+  display-name-red_bar_chair: Красный барный стул
+  display-name-black_bar_chair: Черный барный стул
+  display-name-white_wood_chair: Белый деревянный стул
+  display-name-orange_wood_chair: Оранжевый деревянный стул
+  display-name-magenta_wood_chair: Пурпурный деревянный стул
+  display-name-light_blue_wood_chair: Голубой деревянный стул
+  display-name-yellow_wood_chair: Желтый деревянный стул
+  display-name-lime_wood_chair: Лаймовый деревянный стул
+  display-name-pink_wood_chair: Розовый деревянный стул
+  display-name-gray_wood_chair: Серый деревянный стул
+  display-name-light_gray_wood_chair: Светло-серый деревянный стул
+  display-name-cyan_wood_chair: Бирюзовый деревянный стул
+  display-name-purple_wood_chair: Фиолетовый деревянный стул
+  display-name-blue_wood_chair: Синий деревянный стул
+  display-name-brown_wood_chair: Коричневый деревянный стул
+  display-name-green_wood_chair: Зеленый деревянный стул
+  display-name-red_wood_chair: Красный деревянный стул
+  display-name-black_wood_chair: Черный деревянный стул
+  display-name-dark_throne: Темный трон
+  display-name-school_chair: Школьное кресло
+  display-name-school_chair_lazy: Школьное кресло
+  display-name-white_chandeliers: Белая люстра
+  display-name-black_chandeliers: Черная люстра
+  display-name-black_and_red_chandeliers: Черно-красная люстра
+  display-name-small_fountain: Фонтанчик
+  display-name-lit_campfire: Горящий костер
+  display-name-decorative_pumpkin: Декоративная тыква
+  display-name-christmas_tree: Рожденственское дерево
+  display-name-christmas_candle: Рождественская свеча
+  display-name-decorative_candy_cane: Декоративная конфета
+  display-name-christmas_wreath: Рождественский венок
+  display-name-revolver: Револьвер
+  display-name-hand_gun: Пистолет
   display-name-ak47: Ak-47
-  display-name-shotgun: Shotgun
-  display-name-firework_launcher: Firework Launcher
-  display-name-deadmau5_hat: '&9deadmau5_hat'
-  display-name-top_hat: Top Hat
-  display-name-welding_mask: Welding Mask
-  display-name-mining_helmet: Mining Helmet
-  display-name-dog_mask: Dog Mask
-  display-name-ruby_pickaxe_hat: Ruby Pickaxe Hat
-  display-name-straw_hat: Straw Hat
-  display-name-cool_sunglasses: Cool Sunglasses
-  display-name-cigar: Cigar
-  display-name-glasses: Glasses
-  display-name-biker_helmet: Biker Helmet
-  display-name-cat_ears: Cat Ears
-  display-name-mysterious_hood: Mysterios Hood
-  display-name-demoniac_red_wings: Demoniac Red Wings
-  display-name-demoniac_turquoise_wings: Demoniac Turquoise Wings
-  display-name-demoniac_purple_wings: Demoniac Purple Wings
-  display-name-demoniac_blue_wings: Demoniac Blue Wings
-  display-name-demoniac_black_wings: Demoniac Black Wings
-  display-name-all_black_cat_tail: All Black Cat Tail
-  display-name-black_cat_tail: Black Cat Tail
-  display-name-white_cat_tail: White Cat Tail
-  display-name-ender_dragon_wings: Ender Dragon Wings
-  display-name-red_backpack: Red Backpack
-  display-name-turquoise_backpack: Turquoise Backpack
-  display-name-purple_backpack: Purple Backpack
-  display-name-blue_backpack: Blue Backpack
-  display-name-black_backpack: Black Backpack
-  display-name-brown_backpack: Brown Backpack
-  display-name-jack_o_lantern_backpack: '&6Jack o''Lantern &fBackpack'
-  display-name-dark_jack_o_lantern_backpack: '&4Dark &6Jack o''Lantern &fBackpack'
-  display-name-spider_backpack: Spider &fBackpack
-  display-name-cave_spider_backpack: Cave Spider &fBackpack
-  display-name-bones_backpack: Bones &fBackpack
-  display-name-witch_hat: Witch Hat
-  display-name-bat_wings: Bat Wings
-  display-name-axe_hat: Axe Hat
-  display-name-santa_hat: '&cSanta Hat'
-  display-name-empty_cup: Empty cup
-  display-name-flour: Flour
-  display-name-dough: Dough
-  display-name-cup_of_water: Cup of water
-  display-name-cup_of_hot_water: Cup of hot water
-  display-name-projectile: Projectile
-  display-name-plastic: Plastic
-  display-name-plastic_plate: Plastic plate
-  display-name-clip: Clip
-  display-name-blank_disc: Blank Disc
-  display-name-music_disc_electric_keys: '&bMusic Disc'
-  display-name-music_disc_cdk_sunday: '&bMusic Disc'
-  display-name-music_disc_vidian_aether_theories: '&bMusic Disc'
-  display-name-ketchup_bottle: Ketchup Bottle
-  display-name-ketchup: Ketchup
-  display-name-chili_powder: Chili Powder
-  display-name-drink_glass: Drink Glass
-  display-name-bug_medal: '&6BugFinder medal'
-  display-name-cute_medal: '&6Cuteness medal'
-  display-name-donator_medal: '&6Donator medal'
-  display-name-energy_orb: '&5Energy Orb'
-  display-name-small_energy_capsule: '&dSmall Energy Capsule'
-  display-name-energy_capsule: '&6Energy Capsule'
-  display-name-iron_plate: Iron Plate
-  display-name-tobacco: Tobacco
-  display-name-nest: Nest
-  display-name-eggs_nest: Eggs Nest
-  display-name-mysterious_artifact: Mysterious Artifact
-  display-name-coin: Coin
-  display-name-banknote: Banknote
-  display-name-sack_of_money: Sack Of Money
-  display-name-plastic_bag: Plastic Bag
-  display-name-four_leaf_clover: Four-leaf Clover
-  display-name-light_blue_coupon: Generic Coupon
-  display-name-turquoise_coupon: Generic Coupon
-  display-name-purple_coupon: Generic Coupon
-  display-name-green_coupon: Generic Coupon
-  display-name-red_coupon: Generic Coupon
-  display-name-black_coupon: Generic Coupon
-  display-name-white_coupon: Generic Coupon
-  display-name-golden_coupon: Generic Coupon
-  display-name-blue_ring: Generic Ring
-  display-name-light_blue_ring: Generic Ring
-  display-name-turquoise_ring: Generic Ring
-  display-name-purple_ring: Generic Ring
-  display-name-green_ring: Generic Ring
-  display-name-red_ring: Generic Ring
-  display-name-black_ring: Generic Ring
-  display-name-white_ring: Generic Ring
-  display-name-golden_ring: Generic Ring
-  display-name-marriage_ring: Marriage Ring
-  display-name-jar: Jar
-  display-name-blue_key: Generic Key
-  display-name-light_blue_key: Generic Key
-  display-name-turquoise_key: Generic Key
-  display-name-purple_key: Generic Key
-  display-name-green_key: Generic Key
-  display-name-red_key: Generic Key
-  display-name-black_key: Generic Key
-  display-name-white_key: Generic Key
-  display-name-golden_key: Generic Key
-  display-name-carton_box: Carton Box
-  display-name-cut_spruce_log: Cut Spruce Log
-  display-name-shotgun_cartridge: Shotgun Cartridge
-  display-name-ruby: Ruby
-  display-name-crystal: Crystal
-  display-name-spinel: Spinel
-  display-name-turquoise: Turquoise
-  display-name-aqua_aura: Aqua Aura
-  display-name-amethyst: Amethyst
-  display-name-amethyst_prism: Amethyst prism
-  display-name-fossil: Fossil
-  display-name-bronze_ingot: Bronze Ingot
-  display-name-mysterious_material: Mysterious Material
-  display-name-end_shard: End Shard
-  display-name-end_crystals: End Crystals
-  display-name-end_ingot: End Ingot
-  display-name-knowledge_fragment: Knowledge Fragment
-  display-name-coal_nugget: Coal Nugget
-  display-name-ender_shield: Ender Shield
-  display-name-obsidian_shield: Obsidian Shield
-  display-name-bronze_shield: Bronze Shield
-  display-name-ruby_shield: Ruby Shield
-  display-name-spinel_shield: Spinel Shield
-  display-name-turquoise_shield: Turquoise Shield
-  display-name-amethyst_shield: Amethyst Shield
-  display-name-fossil_shield: Fossil Shield
-  display-name-blue_lightsaber: '&1&lBlue LightSaber'
-  display-name-green_lightsaber: '&2&lGreen LightSaber'
-  display-name-red_lightsaber: '&4&lRed LightSaber'
-  display-name-masters_sword: '&6&lMaster''s Sword'
-  display-name-floating_sword: '&9&lFloating Sword'
-  display-name-baseball_bat: Baseball bat
-  display-name-gandalf_stick: Gandalf Stick
-  display-name-emerald_sword: Emerald Sword
-  display-name-elucidator_sword: Elucidator
-  display-name-repulser_sword: Repulser
-  display-name-firesword_sword: Fire Sword
-  display-name-aqualight_sword: Aqualight
-  display-name-rusteroth_sword: Rusteroth
-  display-name-bloodnite_sword: Bloodnite
-  display-name-vyderlight_sword: Vyderlight
-  display-name-ruby_sword: Ruby Sword
-  display-name-crystal_sword: Crystal Sword
-  display-name-spinel_sword: Spinel Sword
-  display-name-turquoise_sword: Turquoise Sword
-  display-name-aqua_sword: Aqua Aura Sword
-  display-name-amethyst_sword: Amethyst Sword
-  display-name-guitar_sword: Guitar Sword
-  display-name-ruby_dagger: Ruby dagger
-  display-name-sweets_sword: Sweets Sword
-  display-name-knife: Knife
-  display-name-philosopher_stone: Philosopher's Stone
-  display-name-chisel: Chisel
-  display-name-mysterious_sword: Mysterious Sword
-  display-name-end_sword: End Sword
-  display-name-bronze_sword: Bronze Sword
-  display-name-sweet_berries_jam_jar: Sweet Barries Jam Jar
-  display-name-pear_jam_jar: Pear Jam Jar
-  display-name-apple_jam_jar: Apple Jam Jar
-  display-name-healing_crystals: Healing Crystals
-  display-name-grenade: Grenade
-  display-name-mysterious_amulet: Mysterious Amulet
-  display-name-ufo_toy: Ufo Toy
-  display-name-ruby_axe: Ruby Axe
-  display-name-crystal_axe: Crystal Axe
-  display-name-spinel_axe: Spinel Axe
-  display-name-turquoise_axe: Turquoise Axe
-  display-name-aqua_aura_axe: Aqua Aura Axe
-  display-name-amethyst_axe: Amethyst Axe
-  display-name-bronze_axe: Bronze Axe
-  display-name-astral_pickaxe: '&3Astral Pickaxe'
-  display-name-diamond_hammer: '&3&lDiamond hammer'
-  display-name-demoniac_pickaxe: '&4&lDemoniac Pickaxe'
-  display-name-ruby_pickaxe: Ruby Pickaxe
-  display-name-crystal_pickaxe: Crystal Pickaxe
-  display-name-spinel_pickaxe: Spinel Pickaxe
-  display-name-turquoise_pickaxe: Turquoise Pickaxe
-  display-name-aqua_pickaxe: Aqua Aura Pickaxe
-  display-name-amethyst_pickaxe: Amethyst Pickaxe
-  display-name-bronze_pickaxe: Bronze Pickaxe
-  display-name-ruby_hoe: Ruby hoe
-  display-name-crystal_hoe: Crystal hoe
-  display-name-spinel_hoe: Spinel hoe
-  display-name-turquoise_hoe: Turquoise hoe
-  display-name-aqua_hoe: Aqua Aura hoe
-  display-name-amethyst_hoe: Amethyst hoe
-  display-name-bronze_hoe: Bronze hoe
-  display-name-ruby_shovel: Ruby Shovel
-  display-name-crystal_shovel: Crystal Shovel
-  display-name-spinel_shovel: Spinel Shovel
-  display-name-turquoise_shovel: Turquoise Shovel
-  display-name-aqua_aura_shovel: Aqua Aura Shovel
-  display-name-amethyst_shovel: Amethyst Shovel
-  display-name-bronze_shovel: Bronze Shovel
-  display-name-black_shears: Black Dyed Shears
-  display-name-red_shears: Red Dyed Shears
-  display-name-green_shears: Green Dyed Shears
-  display-name-blue_shears: Blue Dyed Shears
-  display-name-purple_shears: Purple Dyed Shears
-  display-name-cyan_shears: Cyan Dyed Shears
-  display-name-demoniac_hammer: '&4&lDemoniac Hammer'
-  display-name-arcane_ring: Arcane Ring
-  display-name-tomato: Tomato
-  display-name-banana: Banana
-  display-name-garlic: Garlic
-  display-name-lettuce: Lettuce
-  display-name-chili_pepper: Chili pepper
-  display-name-pear: Pear
-  display-name-rice: Rice
-  display-name-shopping_cart: Shopping Cart
-  display-name-white_go_cart: White Go-cart
-  display-name-orange_go_cart: Orange Go-cart
-  display-name-magenta_go_cart: Magenta Go-cart
-  display-name-light_blue_go_cart: Light Blue Go-cart
-  display-name-yellow_go_cart: Yellow Go-cart
-  display-name-lime_go_cart: Lime Go-cart
-  display-name-pink_go_cart: Pink Go-cart
-  display-name-gray_go_cart: Gray Go-cart
-  display-name-light_gray_go_cart: Light Gray Go-cart
-  display-name-cyan_go_cart: Cyan Go-cart
-  display-name-purple_go_cart: Purple Go-cart
-  display-name-blue_go_cart: Blue Go-cart
-  display-name-brown_go_cart: Brown Go-cart
-  display-name-green_go_cart: Green Go-cart
-  display-name-red_go_cart: Red Go-cart
-  display-name-black_go_cart: Black Go-cart
-  display-name-oak_wood_plane: Oak Wood Plane
-  display-name-spruce_wood_plane: Spruce Wood Plane
-  display-name-birch_wood_plane: Birch Wood Plane
-  display-name-jungle_wood_plane: Jungle Wood Plane
-  display-name-acacia_wood_plane: Acacia Wood Plane
-  display-name-dark_oak_wood_plane: Dark Oak Wood Plane
-  display-name-ufo: Ufo
-  display-name-broomstick: Broomstick
-  display-name-icon_left_gray: < Back
-  display-name-icon_left_blue: < Back
-  display-name-icon_right_gray: Next >
-  display-name-icon_right_blue: Next >
-  display-name-icon_up_gray: Up
-  display-name-icon_up_blue: Up
-  display-name-icon_down_gray: Down
-  display-name-icon_down_blue: Down
-  display-name-icon_next_white: Next >
-  display-name-icon_next_orange: Next >
-  display-name-icon_back_white: < Back
-  display-name-icon_back_orange: < Back
-  display-name-icon_cancel: Cancel
-  display-name-icon_confirm: Confirm
-  display-name-icon_lock: Lock
-  display-name-icon_unlock: Unlock
-  display-name-icon_web: Web
-  display-name-icon_ender_chest: EnderChest
-  display-name-icon_refresh: Refresh
-  display-name-icon_time_day: Time Day
-  display-name-icon_time_midnight: Time Midnight
-  display-name-icon_time_night: Time Night
-  display-name-icon_time_noon: Time Noon
-  display-name-icon_time_sunrise: Time Sunrise
-  display-name-icon_time_sunset: Time Sunset
-  display-name-icon_toggle_off: Toggle Off
-  display-name-icon_toggle_on: Toggle On
-  display-name-icon_arrow_chest: Arrow Chest
-  display-name-icon_plus: Plus
-  display-name-icon_color_picker: Color Picker
-  display-name-icon_comment: Comment
-  display-name-icon_search: Search
-  display-name-boiled_water_bucket: Boiled Water Bucket
-  display-name-waterskin: Waterskin
-  lore-1-philosopher_stone: '&6[ &eSpecial effects &6]'
-  lore-2-philosopher_stone: '&7Rightclick + SHIFT: '
-  lore-3-philosopher_stone: '   - &4Lava &7to &8Obsidian'
-  lore-4-philosopher_stone: '   - &cPoppy &7to &eDandelion'
+  display-name-shotgun: Дробовик
+  display-name-firework_launcher: Фейверковая базука
+  display-name-deadmau5_hat: '&9Голова deadmau5'
+  display-name-top_hat: Цилиндр
+  display-name-welding_mask: Сварочная маска
+  display-name-mining_helmet: Шахтерская каска
+  display-name-dog_mask: Маска Джейка
+  display-name-ruby_pickaxe_hat: Рубиновая кирка
+  display-name-straw_hat: Соломенная шляпа
+  display-name-cool_sunglasses: Клевый солнцезащитные очки
+  display-name-cigar: Сигара
+  display-name-glasses: Очки
+  display-name-biker_helmet: Байкерский шлем
+  display-name-cat_ears: Кошачьи уши
+  display-name-mysterious_hood: Мистический капюшон
+  display-name-demoniac_red_wings: Демонические красные крылья
+  display-name-demoniac_turquoise_wings: Демонические бирюзовые крылья
+  display-name-demoniac_purple_wings: Демонические фиолетовые крылья
+  display-name-demoniac_blue_wings: Демонические синие крылья
+  display-name-demoniac_black_wings: Демонические черные крылья
+  display-name-all_black_cat_tail: Черный кошачий хвост
+  display-name-black_cat_tail: Черный кошачий хвост
+  display-name-white_cat_tail: Белый кошачий хвост
+  display-name-ender_dragon_wings: Крылья дракона края
+  display-name-red_backpack: Красный рюкзак
+  display-name-turquoise_backpack: Бирюзовый рюкзак
+  display-name-purple_backpack: Фиолетовый рюкзак
+  display-name-blue_backpack: Синий рюкзак
+  display-name-black_backpack: Черный рюкзак
+  display-name-brown_backpack: Коричневый рюкзак
+  display-name-jack_o_lantern_backpack: '&fРюкзак &6Джека'
+  display-name-dark_jack_o_lantern_backpack: '&4Темный &fрюкзак &6Джека'
+  display-name-spider_backpack: Паучий &fрюкзак
+  display-name-cave_spider_backpack: Рюкзак пещерного паука
+  display-name-bones_backpack: Костяной &fрюкзак
+  display-name-witch_hat: Шляпа ведьмы
+  display-name-bat_wings: Крылья летучей мыши
+  display-name-axe_hat: Топор в голове
+  display-name-santa_hat: '&cШляпа Деда-Мороза'
+  display-name-empty_cup: Пустая кружка
+  display-name-flour: Мука
+  display-name-dough: Тесто
+  display-name-cup_of_water: Кружка воды
+  display-name-cup_of_hot_water: Кружка кипятка
+  display-name-projectile: Снаряд
+  display-name-plastic: Пластик
+  display-name-plastic_plate: Плита из пластика
+  display-name-clip: Зажим
+  display-name-blank_disc: Пластинка без записи
+  display-name-music_disc_electric_keys: '&bПластинка'
+  display-name-music_disc_cdk_sunday: '&bПластинка'
+  display-name-music_disc_vidian_aether_theories: '&bПластинка'
+  display-name-ketchup_bottle: Бутылка кетчупа
+  display-name-ketchup: Кетчуп
+  display-name-chili_powder: Красный перец
+  display-name-drink_glass: Стакан для напитков
+  display-name-bug_medal: '&6Медаль ислледователя багов'
+  display-name-cute_medal: '&6Медаль за привлекательность'
+  display-name-donator_medal: '&6Медаль за пожертвование'
+  display-name-energy_orb: '&5Сгусток энергии'
+  display-name-small_energy_capsule: '&dМалая капсула энергии'
+  display-name-energy_capsule: '&6Капсула энергии'
+  display-name-iron_plate: Железная плита
+  display-name-tobacco: Табак
+  display-name-nest: Гнездо
+  display-name-eggs_nest: Гнездо с яйцами
+  display-name-mysterious_artifact: Мистический артефакт
+  display-name-coin: Монета
+  display-name-banknote: Купюра
+  display-name-sack_of_money: Мешок с деньгами
+  display-name-plastic_bag: Полиэтиленовый пакет
+  display-name-four_leaf_clover: Четырехлистный клевер
+  display-name-light_blue_coupon: Купон
+  display-name-turquoise_coupon: Купон
+  display-name-purple_coupon: Купон
+  display-name-green_coupon: Купон
+  display-name-red_coupon: Купон
+  display-name-black_coupon: Купон
+  display-name-white_coupon: Купон
+  display-name-golden_coupon: Купон
+  display-name-blue_ring: Кольцо
+  display-name-light_blue_ring: Кольцо
+  display-name-turquoise_ring: Кольцо
+  display-name-purple_ring: Кольцо
+  display-name-green_ring: Кольцо
+  display-name-red_ring: Кольцо
+  display-name-black_ring: Кольцо
+  display-name-white_ring: Кольцо
+  display-name-golden_ring: Кольцо
+  display-name-marriage_ring: Кольцо
+  display-name-jar: Банка
+  display-name-blue_key: Ключ
+  display-name-light_blue_key: Ключ
+  display-name-turquoise_key: Ключ
+  display-name-purple_key: Ключ
+  display-name-green_key: Ключ
+  display-name-red_key: Ключ
+  display-name-black_key: Ключ
+  display-name-white_key: Ключ
+  display-name-golden_key: Ключ
+  display-name-carton_box: Картонная коробка
+  display-name-cut_spruce_log: Рубленная ель
+  display-name-shotgun_cartridge: Обойма для дробовика
+  display-name-ruby: Рубин
+  display-name-crystal: Кристалл
+  display-name-spinel: Шпинель
+  display-name-turquoise: Бирюза
+  display-name-aqua_aura: Водяной кристалл
+  display-name-amethyst: Аметист
+  display-name-amethyst_prism: Призма аметиста
+  display-name-fossil: Ископаемое
+  display-name-bronze_ingot: Бронзовый слиток
+  display-name-mysterious_material: Мистический материал
+  display-name-end_shard: Осколок края
+  display-name-end_crystals: Кристалл края
+  display-name-end_ingot: Слиток края
+  display-name-knowledge_fragment: Фрагмент знаний
+  display-name-coal_nugget: Кусочек угля
+  display-name-ender_shield: Щит края
+  display-name-obsidian_shield: Обсидиановый щит
+  display-name-bronze_shield: Бронзовый щит
+  display-name-ruby_shield: Рубиновый щит
+  display-name-spinel_shield: Щит из шпинеля
+  display-name-turquoise_shield: Щит из бирюзы
+  display-name-amethyst_shield: Аметистовый щит
+  display-name-fossil_shield: Щит из останков
+  display-name-blue_lightsaber: '&1&lСиний световой меч'
+  display-name-green_lightsaber: '&2&lЗеленый световой меч'
+  display-name-red_lightsaber: '&4&lКрасный световой меч'
+  display-name-masters_sword: '&6&lМеч мастера'
+  display-name-floating_sword: '&9&lЛетающий меч'
+  display-name-baseball_bat: Бита
+  display-name-gandalf_stick: Палка Гендальфа
+  display-name-emerald_sword: Изумрудный меч
+  display-name-elucidator_sword: Элюцидатор
+  display-name-repulser_sword: Репульсер
+  display-name-firesword_sword: Огненный меч
+  display-name-aqualight_sword: Подводный свет
+  display-name-rusteroth_sword: Растерот
+  display-name-bloodnite_sword: Меч кровавой ночи
+  display-name-vyderlight_sword: Вадерлайт
+  display-name-ruby_sword: Рубиновый меч
+  display-name-crystal_sword: Кристальный меч
+  display-name-spinel_sword: Меч из шпинеля
+  display-name-turquoise_sword: Меч из бирюзы
+  display-name-aqua_sword: Меч из водяных кристаллов
+  display-name-amethyst_sword: Меч из аметистов
+  display-name-guitar_sword: Гитара
+  display-name-ruby_dagger: Рубиновый кинжал
+  display-name-sweets_sword: Сладкий меч
+  display-name-knife: Нож
+  display-name-philosopher_stone: Филосовский камень
+  display-name-chisel: Стамеска
+  display-name-mysterious_sword: Мистический меч
+  display-name-end_sword: Меч края
+  display-name-bronze_sword: Бронзовый меч
+  display-name-sweet_berries_jam_jar: Банка с ягодным джемом
+  display-name-pear_jam_jar: Банка грушевого джема
+  display-name-apple_jam_jar: Банка яблочного джема
+  display-name-healing_crystals: Исцеляющий кристалл
+  display-name-grenade: Граната
+  display-name-mysterious_amulet: Мистический амулет
+  display-name-ufo_toy: Игрушечное НЛО
+  display-name-ruby_axe: Рубиновый топор
+  display-name-crystal_axe: Кристальный топор
+  display-name-spinel_axe: Топор из шпинеля
+  display-name-turquoise_axe: Топор из бирюзы
+  display-name-aqua_aura_axe: Топор из водяных кристаллов
+  display-name-amethyst_axe: Топор из аметистов
+  display-name-bronze_axe: Брозовый топор
+  display-name-astral_pickaxe: '&3Астральная кирка'
+  display-name-diamond_hammer: '&3&lДемонический молот'
+  display-name-demoniac_pickaxe: '&4&lДемоническая кирка'
+  display-name-ruby_pickaxe: Рубиновая кирка
+  display-name-crystal_pickaxe: Кристальная кирка
+  display-name-spinel_pickaxe: Кирка из шпинеля
+  display-name-turquoise_pickaxe: Кирка из бирюзы
+  display-name-aqua_pickaxe: Кирка из водяных кристаллов
+  display-name-amethyst_pickaxe: Кирка из аметистов
+  display-name-bronze_pickaxe: Бронзовая кирка
+  display-name-ruby_hoe: Рубиновая мотыга
+  display-name-crystal_hoe: Кристальная мотыга
+  display-name-spinel_hoe: Мотыга из шпинеля
+  display-name-turquoise_hoe: Мотыга из бирюзы
+  display-name-aqua_hoe: Мотыга из водяных кристаллов
+  display-name-amethyst_hoe: Мотыга из аметистов
+  display-name-bronze_hoe: Бронзовая мотыга
+  display-name-ruby_shovel: Рубиновая лопата
+  display-name-crystal_shovel: Кристальная лопата
+  display-name-spinel_shovel: Лопата из шпинеля
+  display-name-turquoise_shovel: Лопата из бирюзы
+  display-name-aqua_aura_shovel: Лопата из водяных кристаллов
+  display-name-amethyst_shovel: Лопата из аметистов
+  display-name-bronze_shovel: Бронзовая лопата
+  display-name-black_shears: Черные ножницы
+  display-name-red_shears: Красные ножницы
+  display-name-green_shears: Зеленые ножницы
+  display-name-blue_shears: Синие ножницы
+  display-name-purple_shears: Фиолетовые ножницы
+  display-name-cyan_shears: Бирюзовые ножницы
+  display-name-demoniac_hammer: '&4&lДемонический молот'
+  display-name-arcane_ring: Чародейское кольцо
+  display-name-tomato: Помидор
+  display-name-banana: Банан
+  display-name-garlic: Чеснок
+  display-name-lettuce: Салат
+  display-name-chili_pepper: Красный перец
+  display-name-pear: Груша
+  display-name-rice: Рис
+  display-name-shopping_cart: Тележка для покупок
+  display-name-white_go_cart: Белый Go-карт
+  display-name-orange_go_cart: Оранжевый Go-карт
+  display-name-magenta_go_cart: Пурпурный Go-карт
+  display-name-light_blue_go_cart: Голубой Go-карт
+  display-name-yellow_go_cart: Желтый Go-карт
+  display-name-lime_go_cart: Лаймовый Go-карт
+  display-name-pink_go_cart: Розовый Go-карт
+  display-name-gray_go_cart: Серый Go-карт
+  display-name-light_gray_go_cart: Светло-серый Go-карт
+  display-name-cyan_go_cart: Бирюзовый Go-карт
+  display-name-purple_go_cart: Фиолетовый Go-карт
+  display-name-blue_go_cart: Синий Go-карт
+  display-name-brown_go_cart: Коричневый Go-карт
+  display-name-green_go_cart: Зеленый Go-карт
+  display-name-red_go_cart: Красный Go-карт
+  display-name-black_go_cart: Черный Go-карт
+  display-name-oak_wood_plane: Самолет из дуба
+  display-name-spruce_wood_plane: Самолет из ели
+  display-name-birch_wood_plane: Самолет из березы
+  display-name-jungle_wood_plane: Самолет из тропического дерева
+  display-name-acacia_wood_plane: Самолет из акации
+  display-name-dark_oak_wood_plane: Самолет из темного дуба
+  display-name-ufo: НЛО
+  display-name-broomstick: Метла
+  display-name-icon_left_gray: < Назад
+  display-name-icon_left_blue: < Назад
+  display-name-icon_right_gray: Далее >
+  display-name-icon_right_blue: Далее >
+  display-name-icon_up_gray: Вверх
+  display-name-icon_up_blue: Вверх
+  display-name-icon_down_gray: Вниз
+  display-name-icon_down_blue: Вниз
+  display-name-icon_next_white: Далее >
+  display-name-icon_next_orange: Далее >
+  display-name-icon_back_white: < Назад
+  display-name-icon_back_orange: < Назад
+  display-name-icon_cancel: Отменить
+  display-name-icon_confirm: Подтвердить
+  display-name-icon_lock: Закрытый замок
+  display-name-icon_unlock: Открытый замок
+  display-name-icon_web: Сеть
+  display-name-icon_ender_chest: Сундук края
+  display-name-icon_refresh: Обновить
+  display-name-icon_time_day: День
+  display-name-icon_time_midnight: Полночь
+  display-name-icon_time_night: Ночь
+  display-name-icon_time_noon: Полдень
+  display-name-icon_time_sunrise: Рассвет
+  display-name-icon_time_sunset: Закат
+  display-name-icon_toggle_off: Выключить
+  display-name-icon_toggle_on: Включить
+  display-name-icon_arrow_chest: Сундук со стрелкой
+  display-name-icon_plus: Плюс
+  display-name-icon_color_picker: Палитра
+  display-name-icon_comment: Комментарий
+  display-name-icon_search: Поиск
+  display-name-boiled_water_bucket: Ведро кипяченой воды
+  display-name-waterskin: Бурдюк
+  lore-1-philosopher_stone: '&6[ &eОсобые возможности &6]'
+  lore-2-philosopher_stone: '&7ПКМ + SHIFT: '
+  lore-3-philosopher_stone: '   - &4Лаву &7в &8OОбсидиан'
+  lore-4-philosopher_stone: '   - &cМак &7в &eОдуванчик'
   lore-5-philosopher_stone: ' '
-  lore-6-philosopher_stone: '&7Rightclick: '
-  lore-7-philosopher_stone: '   - &eSand &7to &8Cobblestone'
-  lore-8-philosopher_stone: '   - &9Water &7to &bIce'
-  lore-9-philosopher_stone: '   - &eDandelion &7to &cPoppy'
-  lore-10-philosopher_stone: '   - &2Melon &7to &6Pumpkin'
-  lore-11-philosopher_stone: '   - &fGlass &7to &eSand'
+  lore-6-philosopher_stone: '&7Правая кнопка мыши: '
+  lore-7-philosopher_stone: '   - &eПесок &7в &8Булыжник'
+  lore-8-philosopher_stone: '   - &9Воду &7в &bЛед'
+  lore-9-philosopher_stone: '   - &eОдуванчик &7в &cМак'
+  lore-10-philosopher_stone: '   - &2Арбуз &7в &6Тыкву'
+  lore-11-philosopher_stone: '   - &fСтекло &7в &eПесок'
   lore-12-philosopher_stone: ' '
-  lore-13-philosopher_stone: '&7To recharge put it in &fCrafting table'
-  lore-14-philosopher_stone: '&7center slot and put an &5Energy Orb'
-  lore-15-philosopher_stone: '&7(or other energy containers) on the right'
-  lore-1-mysterious_boots: '&6[ &eSpecial effects &6]'
-  lore-2-mysterious_boots: '&9Speed II (**:**)'
-  lore-1-diamonds_finder_potion: '&7Makes diamond ores glow behind other blocks'
-  lore-1-emeralds_finder_potion: '&7Makes emerald ores glow behind other blocks'
-  lore-1-strange_potion: '&7A mysterious potion'
-  lore-1-antidote: '&7Removes a potion effect'
-  lore-decorative-item: '&7Decorative item'
-  lore-chair: '&7Rightclick to sit'
-  lore-1-energy_extractor: '&7Use it to convert items'
-  lore-2-energy_extractor: '&7into energy'
-  lore-1-energy_converter: '&7Use it to convert energy'
-  lore-2-energy_converter: '&7into items'
-  lore-1-vending_machine: '&7Use it to get cool items'
-  lore-1-coffee_machine: '&7Makes a really good coffee'
-  lore-1-firework_launcher: '&7Hold Firework Rocket in left hand'
-  lore-2-firework_launcher: '&7and hold down right click to charge'
-  lore-3-firework_launcher: '&7the Firework Launcher'
-  lore-1-mysterious_hood: '&6[ &eSpecial effects &6]'
-  lore-2-mysterious_hood: '&9Night Vision (**:**)'
-  lore-3-mysterious_hood: '&9Unluck (**:**)'
-  lore-1-projectile: '&7Hold it in the left'
-  lore-2-projectile: '&7hand while shooting'
-  lore-3-projectile: '&7with a gun'
-  lore-1-clip: '&7Hold it in the left'
-  lore-2-clip: '&7hand while shooting'
-  lore-3-clip: '&7with an ak-47'
-  lore-1-blank_disc: '&7Can be used to craft'
-  lore-2-blank_disc: '&7music discs'
-  lore-1-ketchup_bottle: '&7Put in the crafting table'
-  lore-2-ketchup_bottle: '&7middle slot to get'
-  lore-3-ketchup_bottle: '&7some Ketchup'
-  lore-1-ketchup: '&7Obtained from'
-  lore-2-ketchup: '&7ketchup bottle'
-  lore-1-chili_powder: '&7Obtained from'
-  lore-2-chili_powder: '&7chili pepper'
-  lore-1-bug_medal: '&7Medal won by'
-  lore-2-bug_medal: '&7a very good'
-  lore-3-bug_medal: '&7bug finder.'
-  lore-1-cute_medal: '&7Medal won by'
-  lore-2-cute_medal: '&7the cutest person.'
-  lore-1-donator_medal: '&7Medal won by'
-  lore-2-donator_medal: '&7the most generous.'
-  lore-1-energy_orb: '&7Obtained from Energy Extractor'
-  lore-1-small_energy_capsule: '&7Contains &5Energy Orbs &fx8'
-  lore-1-energy_capsule: '&7Contains &dSmall Energy Capsule &fx8'
-  lore-2-energy_capsule: '&7(&5Energy Orbs &fx64&7)'
-  lore-1-shotgun_cartridge: '&7Hold it in the left'
-  lore-2-shotgun_cartridge: '&7hand while shooting'
-  lore-3-shotgun_cartridge: '&7with a Shotgun'
-  lore-1-ufo_toy: '&7Rightclick to make it fly'
-  lore-1-demoniac_pickaxe: '&7When you mine a block'
-  lore-2-demoniac_pickaxe: '&7it drops exp orbs'
-  lore-3-demoniac_pickaxe: '&750% of times.'
-  lore-1-demoniac_hammer: '&7When you mine a block'
-  lore-2-demoniac_hammer: '&7it drops exp orbs'
+  lore-13-philosopher_stone: '&7Чтобы зарядить положите филосовский камень в &fверстак'
+  lore-14-philosopher_stone: '&7в центральный слот, а &5Сгусток энергии'
+  lore-15-philosopher_stone: '&7(или другой сосуд с энергией) справа'
+  lore-1-mysterious_boots: '&6[ &eОсобые возможности &6]'
+  lore-2-mysterious_boots: '&9Скорость II (**:**)'
+  lore-1-diamonds_finder_potion: '&7На короткий срок подсвечивает алмазную руду'
+  lore-1-emeralds_finder_potion: '&7На короткий срок подсвечивает изумрудную руду'
+  lore-1-strange_potion: '&7Странное зелье'
+  lore-1-antidote: '&7Очищает все эффекты зелий'
+  lore-decorative-item: '&7Предмет-декорация'
+  lore-chair: '&7ПКМ чтобы сесть'
+  lore-1-energy_extractor: '&7Используйте для преобразований'
+  lore-2-energy_extractor: '&7в энергию'
+  lore-1-energy_converter: '&7Используйте для конвертации'
+  lore-2-energy_converter: '&7в предметы'
+  lore-1-vending_machine: '&7Используйте, чтобы покупать предметы'
+  lore-1-coffee_machine: '&7Варит весьма сносный кофе'
+  lore-1-firework_launcher: '&7Держите фейверк в левой руке'
+  lore-2-firework_launcher: '&7и удерживайте правую кнопку мыши,'
+  lore-3-firework_launcher: '&7чтобы зарядить базуку.'
+  lore-1-mysterious_hood: '&6[ &eОсобые возможности &6]'
+  lore-2-mysterious_hood: '&9Ночное зрение (**:**)'
+  lore-3-mysterious_hood: '&9Неудача (**:**)'
+  lore-1-projectile: '&7Держите в левой руке'
+  lore-2-projectile: '&7во время стрельбы'
+  lore-3-projectile: '&7из оружия.'
+  lore-1-clip: '&7Держите в левой руке'
+  lore-2-clip: '&7во время стрельбы'
+  lore-3-clip: '&7из ak-47'
+  lore-1-blank_disc: '&7Может быть использован для создания'
+  lore-2-blank_disc: '&7музыкальных пластинок'
+  lore-1-ketchup_bottle: '&7Положите в центральный'
+  lore-2-ketchup_bottle: '&7слот верстака, чтобы'
+  lore-3-ketchup_bottle: '&7выдавить немного кетчупа.'
+  lore-1-ketchup: '&7Выдавлен из'
+  lore-2-ketchup: '&7бутылки кетчупа'
+  lore-1-chili_powder: '&7Получен из'
+  lore-2-chili_powder: '&7красного перца'
+  lore-1-bug_medal: '&7Медаль выдана'
+  lore-2-bug_medal: '&7очень хорошему'
+  lore-3-bug_medal: '&7искателю багов.'
+  lore-1-cute_medal: '&7Медаль выдана'
+  lore-2-cute_medal: '&7самой милой личности.'
+  lore-1-donator_medal: '&7Медаль выдана'
+  lore-2-donator_medal: '&7самой щедрой личности.'
+  lore-1-energy_orb: '&7Получено из экстрактора энергии'
+  lore-1-small_energy_capsule: '&7Содержит &5сгустки энергии &fx8'
+  lore-1-energy_capsule: '&7Содержит &dмалые капсулы энергии &fx8'
+  lore-2-energy_capsule: '&7(&5Сгустков энергии &fx64&7)'
+  lore-1-shotgun_cartridge: '&7Держите в левой руке'
+  lore-2-shotgun_cartridge: '&7во время стрельбы'
+  lore-3-shotgun_cartridge: '&7из дробовика.'
+  lore-1-ufo_toy: '&7Нажмите правую кнопку мыши, чтобы отправить в воздух'
+  lore-1-demoniac_pickaxe: '&7Когда вы ломаете блоки,'
+  lore-2-demoniac_pickaxe: '&7из них выпадает опыт'
+  lore-3-demoniac_pickaxe: '&7в 50% случаев.'
+  lore-1-demoniac_hammer: '&7Когдвы вы ломаете блоки,'
+  lore-2-demoniac_hammer: '&7из них выпадает опыт'
   lore-3-demoniac_hammer: ''
-  lore-4-demoniac_hammer: '&bMines 3x3x3'
-  lore-1-arcane_ring: '&6[ &eSpecial effects &6]'
-  lore-2-arcane_ring: '&7Return to life'
+  lore-4-demoniac_hammer: '&bРазрушает область 3x3x3'
+  lore-1-arcane_ring: '&6[ &eОсобые способности &6]'
+  lore-2-arcane_ring: '&7Возвращает к жизни'

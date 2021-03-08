@@ -1,11 +1,11 @@
-# 💾Export namespace
+# 💾Экспорт папок
 
 {% hint style="success" %}
-### With ItemsAdder it's easy to share your creations without having to copy and paste files!
+### ItemsAdder имеет встроенную функцию для быстрого экспорта вашего контента, чтобы вам было проще им поделиться. 
 
-Use the command `/iaexport <NAMESPACE>` to export all your namespace configurations and textures/models into a zip file you can share with your friends or on [addons.plugin.ga/itemsadder](https://addons.plugin.ga/itemsadder)
+Используйте команду `/iaexport <ИМЯ ПАПКИ>` для экспорта папок конфигураций и текстур/моделей в zip-архив, которым вы можете поделиться с друзьями/партнерами или выложить этот контент как публичный аадон на сайте [addons.plugin.ga/itemsadder](https://addons.plugin.ga/itemsadder)
 
-The zip file will be available in this folder`plugins\ItemsAdder\data\compressed_out`
+Сгенерированный архив можно найти в этой папке: `plugins\ItemsAdder\data\compressed_out`
 
 \`\`
 {% endhint %}

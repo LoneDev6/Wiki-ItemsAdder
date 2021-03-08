@@ -1,4 +1,4 @@
-# Blocks
+# Блоки
 
 ```yaml
 specific_properties:
@@ -6,21 +6,21 @@ specific_properties:
     placed_model:
       type: REAL
       break_particles: BLOCK
-    cancel_drop: true #default is false. if true the custom block won't be dropped when
-                      #player mines it
-    light_level: 12 #make block emit light
-    #tools you can't use to break block(accepts partial name of material/customitem)
+    cancel_drop: true #изначально false. Если true, то блок плагина НЕ будет выбрасывать никаких предметов 
+                      #после его поломки
+    light_level: 12 #заставить блок излучать свет указанного уровня
+    #инструменты/предметы, которыми нельзя ломать блок (поддерживает частичные имена предметов/предметов плагина)
     break_tools_blacklist:
     - WOODEN_PICKAXE
     - STONE_PICKAXE
     - IRON_PICKAXE
-    #tools you can use to break block(accepts partial name of material/customitem)
+    #инструменты/предметы, которыми можно ломать блок (поддерживает частичные имена предметов/предметов плагина)
     break_tools_whitelist:
     - DIAMOND_PICKAXE
     - PICKAXE
     - pickaxe
-    hardness: 2 #hardness of the block
-    sound: #customizable sounds of the block
+    hardness: 2 #сложность поломки
+    sound: #изменения звуков блока
       break:
         name: BLOCK_WOOD_BREAK
         volume: 1
@@ -33,69 +33,75 @@ specific_properties:
 
 ## placed\_model
 
-this property can have these value:
+Этот параметр может иметь значения:
 
 * `REAL`
-  * uses a real block \(mushroom\), no lag, no entities, 100% real blocks.
-  * downside: max of **191** blocks in total
+  * использует настоящие блоки \(блоки грибов\), без лагов, без лишних сущностей, 100% настоящий блок.
+  * минусы: максимальное число таких блоков ограничено - **191 шт**. Также, наблюдается микролаг текстуры при установке блока (на миллисекунду блок отображается грибом, затем, с нужной моделью/текстурой). Также - может повлиять на натуральные блоки грибов в некоторых биомах после установки (плагин фиксит их автоматически, но ему нужно небольшое время и настройка).
+* `REAL_NOTE` *(с версии 2.1.43)*  
+  * использует настоящие блоки \(нотные блоки\), без лагов, без лишних сущностей, 100% настоящий блок.
+  * минусы: максимальное число таких блоков ограничено - **750 шт**. Также, наблюдается микролаг текстуры при установке блока (на миллисекунду блок отображается нотным блоком, затем, с нужной моделью/текстурой). 
+* `REAL_TRANSPARENT`
+  * использует настоящие блоки \(корни хоруса края\), без лагов, без лишних сущностей, 100% настоящий блок, может быть использован для прозрачных текстур без багов. 
+  * минусы: максимальное число таких блоков ограничено - **63 шт**. Также, иногда наблюдается микролаг текстуры при установке блока. 
 * `TILE`
-  * uses tile blocks \(modified spawner with custom skin\). It's not an entity but it have some downsides. Good thing is that you can create infinite blocks, there is no amount limit like **REAL** blocks.
-  * downsides:
-    * not a 100% real block, it's a retextured spawner
-    * texture/model vanishes on high distance, so it will reveal the spawner vanilla texture
-    * it could cause clientside lag if A LOT of blocks are in the player field of view, but only on lowend PCs.
+  * использует тайловые блоки \(измененный блок спавнера\). Это не сущность, но у этого есть свои плюсы и минусы. Очень хорошо, если вы хотите добавлять неограниченное число блоков, так как эта категория блоков не имеет лимита, как категория **REAL**.
+  * минусы:
+    * не на 100% настоящий блок, это спавнер с моделью внутри
+    * текстуры/модели становятся невидимыми на дальних дистанциях от игрока из-за оптимизации ванильных текстур спавнеров
+    * может вызвать лаги на стороне игрока, клиент может начать виснуть при огромном количестве таких блоков рядом с игроком, но только на очень слабых ПК.
 
 {% hint style="warning" %}
-It's better to use REAL blocks for decorative blocks/ores and use TILE blocks for trade machines and machinery/rare decorative blocks.  
-You should not use TILE blocks for ores because it COULD cause a bit of lag on chunk generation.
+Блоки типов REAL лучше использовать для декоративных блоков/руд,а блоки типа TILE для торговых автоматов или других редковстречаемых декоративных блоков.  
+Использовать блоки типа TILE для руд не рекомендуется, потому что это может вызвать лаги в генерации чанков.
 {% endhint %}
 
 ## cancel\_drop
 
-Cancel drop when block is broken.  
-Useful if you have any mineral that will drop out of the block \(loots\), to avoid exploits.
+Отменяет выпадение предмета из сломанного блока.  
+Полезно, если вы решили использовать параметр лута предмета \(loots\), чтобы избежать дюпов и дублирований.
 
 {% hint style="info" %}
-If you use silk touch enchanted tool to break the block you will still get the block but it won't drop any item from its loot 
+Если вы используете зачарование "шелковое касание" на инструменте, то из блока выпадет он сам, другие материалы падать не будут 
 {% endhint %}
 
-## Tools blacklist and whitelist
+## Blacklist и whitelist для инструментов
 
-You can set "\_PICKAXE" so every pickaxe will match the list rule, also "\_AXE" as the plugin checks if the material name contains the word you set in the rule.  
-It also works for custom items ids, so for example if you set "ruby\_" every ruby tool will work \(ruby\_pickaxe, ruby\_axe...\)
+Вы можете использовать "\_PICKAXE" для включения всех кирок, которые соответствуют этому имени, то же самое для топоров - "\_AXE", плагин проверит соответствие имени с этой строкой самостоятельно.  
+Это работает и с ID любых предметов плагина, как пример - "ruby\_", все рубиновые инструменты будут соотвествовать условию \(ruby\_pickaxe, ruby\_axe...\)
 
 ### break\_tools\_blacklist
 
-Blacklist of tools that cannot break this block
+Черный список предметов, которыми нельзя будет сломать блок
 
 ### break\_tools\_whitelist
 
-Whitelist of tools that can break this block
+Белый список предметов, которыми будет можно сломать блок
 
 ### events\_tools\_blacklist
 
-Blacklist of tools that cannot run events on this block[ \(`placed_block.interact`\)](../events/#list-of-events)
+Черный список предметов, которые не могут вызвать события, указанные в параметрах блока[ \(`placed_block.interact`\)](../events/#list-of-events)
 
 ### events\_tools\_whitelist
 
-Whitelist of tools that cannot run events on this block [\(`placed_block.interact`\)](../events/#list-of-events)
+Белый список предметов, которые могут вызвать события, указанные в параметрах блока [\(`placed_block.interact`\)](../events/#list-of-events)
 
-## Other options
+## Другие параметры
 
-### hardness
+### сложность (hardness)
 
-Hardness of the block, it makes it more difficult to be mined.   
-Refer to my blocks to get some **examples** \(check **blocks.yml** file inside **itemsadder namespace**\).
+Сложность разрушаемости блока (блок ломается медленнее/быстрее в зависимости от указанного числа).   
+Вы можете посмотреть на **примеры** использования этого параметра в списке моих заводских блоков \(откройте файл **blocks.yml** в папке **itemsadder**\).
 
-### sounds
+### звуки (sounds)
 
-You can change block break and place sounds. You can specify a [custom sound](../../sounds/) name instead of a Minecraft sound.  
-You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
+Вы можете изменить звук поломки и установки блока. Вы можете указывать [звуки, которые добавлены плагином](../../sounds/), вместо ванильных.  
+Ванильные звуки можно указать как и в формате - [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html), так и в обычном ванильмой - [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
 
 {% hint style="info" %}
-If no **break** sound is specified it will play  [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK_STONE_BREAK)  ``\(`block.stone.break`\)
+Если звук поломки **break** не указан, то будет проигран звук [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK_STONE_BREAK)  \(`block.stone.break`\)
 
-If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](../resource/)attribute of this block.
+Если звук установки **place** не указан, то будет проигран звук материала, который указан в [качестве основы ](../resource/) для блока.
 {% endhint %}
 
 

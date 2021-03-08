@@ -1,6 +1,6 @@
-# Force Unicode Font: ON
+# Насильное использование символов юникода (Force Unicode Font: ON)
 
-## Read here:
+## Ознакомьтесь с этой статьей:
 
 {% page-ref page="../plugin-usage/adding-content/custom-fonts/thin-font-force-unicode.md" %}
 

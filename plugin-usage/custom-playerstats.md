@@ -1,10 +1,10 @@
-# Custom PlayerStats
+# Использование собственных статистик
 
-## What are PlayerStats?
+## Что это такое?
 
-They custom attributes added by ItemsAdder, you can add and read them using a special command: `/iaplayerstat`
+Плагин может хранить в себе данные некоторых добавленных статистик, вы можете добавить их и считывать при помощи команды: `/iaplayerstat`
 
-You can then use PlaceholderAPI to show them anywhere or bind them to a HUD \(like I did for thirst and mana, check my configs for examples\).
+Также, вы можете использовать PlaceholderAPI для отображения этих статистик, например в HUDе \(мана и жажда сделаны именно на основе этой механики, вы можете ознакомиться с ними в моих заводский конфигурациях плагина\).
 
-Example: `/iaplayerstat read LoneDev thirst float`
+Пример считывания статистики жажды игрока: `/iaplayerstat read LoneDev thirst float`
 

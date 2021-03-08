@@ -1,13 +1,13 @@
-# I can't unzip the pack.zip file
+# Не могу разорхивировать файл pack.zip
 
 {% hint style="info" %}
-Try to disable this option in config.yml
+Попробуйте выставить значение FALSE для следующей строки в основном файле конфигурации config.yml
 
 ```yaml
 zip:
   protect-file-from-unzip__DISABLE_IF_ANY_PROBLEM: false
 ```
 
-This is the option to protect the zip file from unzip. Be careful when disabling it, everyone can unzip your file if you don't protect it.
+Данная строка создает защиту для вашего пакета ресурсов, чтобы никто не смог украсть ваши модели и текстуры. Будьте осторожны, отключив эту функцию - каждый сможет разорхивировать ваш файл с текстурами/моделями и украсть ваши работы.
 {% endhint %}
 

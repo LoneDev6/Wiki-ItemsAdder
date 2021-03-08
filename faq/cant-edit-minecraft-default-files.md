@@ -1,6 +1,6 @@
-# Can't edit minecraft default files
+# Не могу редактировать заводские (изначальные) файлы игры 
 
-In order to be able to edit default minecraft json files you have to set this setting to false in config.yml
+Чтобы иметь возможность редактировать заводские файлы игры, вы должны выставить значение FALSE для строки ниже, найти ее можно в основном файле конфигурации плагина config.yml
 
 ```yaml
 overwrite-vanilla-models__DISABLE_AT_YOUR_OWN_RISK: true

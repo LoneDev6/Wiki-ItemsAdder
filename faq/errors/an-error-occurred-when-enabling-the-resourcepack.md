@@ -1,6 +1,6 @@
 # An error occurred when enabling the resourcepack
 
-## Read here
+## Ознакомьтесь с этим:
 
 {% page-ref page="../resourcepack-not-loading.md" %}
 

@@ -1,10 +1,10 @@
-# Placeholders
+# Заполнители (Placeholders)
 
-You can use these special placeholders in chat, signs, books and in GUIs names.
+Плагин имеет специальные заполнители, которые можно использовать в чате, табличках, книгах и в GUI.
 
-### Offset
+### Offset (смещение)
 
-This is a special placeholder that allows you to move a font image back and forward specifying pixels number.
+Этот заполнитель перемещает вашу юникод-картинку по горизонтальной оси на указанное число пикселей. Значение может быть как положительным, так и отрицательным
 
 ```text
 :offset_-1:
@@ -13,11 +13,11 @@ This is a special placeholder that allows you to move a font image back and forw
 :offset_25:
 ```
 
-As you can see you have to write `:offset_`**`AMOUNT`**`:` \(without spaces\).
+Как вы можете заметить, вы можете указать любое значение в данном заполнителе `:offset_`**`ЧИСЛО`**`:` \(указывайте без пробелов\).
 
-### Actual image
+### Сама картинка
 
-To actually show make your font image show up you just have to write down its name surrounded by `:` character
+Чтобы отобразить саму картинку - напишите ее имя из конфигурации и поставьте символ "`:`" по бокам (Как это работает в дискорде) - после этого текст превратиться в картинку по указанному имени. 
 
 ```text
 :my_gui:

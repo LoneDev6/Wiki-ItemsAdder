@@ -1,37 +1,37 @@
-# WorldGuard flags
+# Флаги WorldGuard
 
-## Flags list
+## Список флагов
 
 ### ia-furniture-sit
 
-This flags allows your players to sit on furnitures or not \(furnitures with `furniture_sit` [behaviour](adding-content/advanced/item-properties/behaviours.md)\)
+Разрешает/запрещает игроку садится на мебель \(мебель с `furniture_sit` [поведением](adding-content/advanced/item-properties/behaviours.md)\)
 
 ### ia-campfire-item-add
 
-Allow user to move item to campfire
+Разрешает/запрещает игрокам класть предметы на костер
 
 ### ia-campfire-item-remove
 
-Allow user to remove item from campfire
+Разрешает/запрещает игрокам забирать предметы из костра
 
 ### ia-vehicle-sit
 
-Allow user to sit on any vehicle in the region
+Разрешает/запрещает игрокам садится в любой транспорт в регионе
 
 ### ia-vehicle-personal-sit
 
-allow user to sit only on own vehicles in the region
+Разрешает/запрещает игрокам садится только в собственный транспорт в регионе
 
 {% hint style="info" %}
-Set **ia-vehicle-sit** to Deny and **ia-vehicle-personal-sit** to Allow to let your players only sit on personal vehicles
+Установите **ia-vehicle-sit** на значение Deny и **ia-vehicle-personal-sit** на значение Allow, чтобы дать возможность игрокам садится только в собственный транспорт.
 {% endhint %}
 
-## Common issues
+## Частые проблемы
 
 {% hint style="warning" %}
-If your users **cannot sit** on **furnitures** even if you set the correct flag:
+Если пользователь **не может сесть** на **мебель**, даже если все флаги установлены правильно:
 
-* check if you are using the `__global__ region` as your main region \(the one on which you applied the furniture flag\). If yes, please create a new region. global region is known to give some issues with some plugins flags.
-* check if you set the `build` or `passthrough` flag.  Remember that these flags must not be changed, you should keep the default value \(unselected, gray text\)
+* проверьте регион `__global__`, возможно вы использовали его как основной \(и именно в него вы могли устновить лишние флаги\). Если это так, создайте новый регион. Регион global часто выдает лишние проблемы и ошибки в работе плагинов.
+* проверьте регион на флаги `build` или `passthrough`. Помните, эти флаги не должны меняться, вы должны использовать классические значения \(не выделенный, серый текст\)
 {% endhint %}
 

@@ -1,30 +1,30 @@
-# Emojis
+# Эмоджи
 
-### Introduction
+### Вступление
 
-For example I want to create an emoji pack named "myemojis", so my [namespace ](../beginners/basic-concepts/namespace.md)would be `myemojis`
+Для примера я хочу создать набор эмоджи в папке "myemojis", поэтому моя [папка ](../beginners/basic-concepts/namespace.md)названа `myemojis`
 
-### Creating the textures folder
+### Создание папки для текстур
 
-1. Open folder plugins\ItemsAdder\data\resource\_pack\assets\
-2. Create a folder named `myemojis`
-3. Create a folder named `textures`, then inside create a folder named `font` and then a folder named `emoji`
-4. Now you should have this path: **plugins\ItemsAdder\data\resource\_pack\assets\myemojis\textures\font\emoji**
-5. Inside this folder you have to put your emojis, you should make them 72x72 to make sure they're not too big and they're not pixelated. But you can decide the size you want \(only important thing is that height and width is not over 256.
-6. In this example I put an image named **smile.png**
+1. Откройте папку по пути plugins\ItemsAdder\data\resource\_pack\assets\
+2. Создайте там папку `myemojis`
+3. Внутри создайте папку `textures`, и внутри этой папки создайте папку `font` и после создайте еще одну папку `emoji`
+4. У вас должен получится примерно такой путь: **plugins\ItemsAdder\data\resource\_pack\assets\myemojis\textures\font\emoji**
+5. Внутрь конечной папки вы можете добавить текстуры своих эмоджи, желательно делать их размером 72x72, чтобы они не стали пиксельными и их не "развозило". Но это не предельный размер, вы можете создать эмоджи более больших размеров \(oно не более 256x256).
+6. В этом примере я добавлю эмоджи под названием **smile.png**
 
-### Creating ItemsAdder config for your emojis
+### Создание конфигурации для эмоджи в ItemsAdder
 
-1. Now you have to create the folders for your emoji configs. In this example you have to create a folder named **myemojis** inside **plugins\ItemsAdder\data\items\_packs\**
-2. inside **plugins\ItemsAdder\data\items\_packs\myemojis** create a file named **emoji\_images.yml** \(you can call it whatever you want\)
-3. Now you have to open the .yml file and 
+1. Теперь вам нужно создать папку для конфигураций эмоджи. В данном примере я использую папку **myemojis**, которую расположу внутри папки **plugins\ItemsAdder\data\items\_packs\**
+2. внутри **plugins\ItemsAdder\data\items\_packs\myemojis** я создаю файл **emoji\_images.yml** \(вы можете назвать как хотите, но без использования ЗАГЛАВНЫХ и специальных символов\)
+3. После создания файла .yml открываем его и вставляем строки для указания имени папки: 
 
 ```yaml
 info:
   namespace: "myemojis"
 ```
 
-Then add your emoji \(in this example I made a **smile** emoji\) to the list of font\_images, so your file would look like this:
+После этих строк можно добавлять наши эмоджи \(в примере будет использован эмоджи **smile**\), чтобы добавить эмоджи или целых список добавьте следующие строки после тех, что были указаны выше так, чтобы ваш файл был похож на это:
 
 ```yaml
 info:
@@ -38,11 +38,11 @@ font_images:
     y_position: 8
 ```
 
-**scale\_ratio** is the final height in pixels of the emoji because 72x72 pixels is too big, You'd have to scale it but you can set 9 so Minecraft will handle it automatically.  
-**y\_position** is the y position in pixels, 8 should be good if you keep emoji 72x72 and scale\_ratio to 9. If you have different size you'll have to tweak the y\_position based on your tests.
+**scale\_ratio** это финальный размер отображения в игре, изменяем его до 9, так как размерность 72x72 пикселя слишком большая для чата, Minecraft поменяет размер автоматически.  
+**y\_position** это строка определяет положение эмоджи по оси высоты, значение 8 должно отлично подходить для разрешения 72x72 и scale\_ratio значения 9. Если размер отличается - вам нужно будет вылавливать эту строчку методом проб и ошибок.
 
 {% hint style="danger" %}
-`scale_ratio` must ALWAYS be bigger than `y_position` or Minecraft won't like it. I cannot fix that issue, it's a **Minecraft** limitation.
+`scale_ratio` должно ВСЕГДА быть больше, чем `y_position` или игра их отобразит в качестве белого квадрата без текстур. Я не могу это исправить, это лимит игры.
 {% endhint %}
 
 
