@@ -6,8 +6,10 @@
     * `ia.user.ia`
   * /iarecipe
     * `ia.user.iarecipe`
-  * /iatexture
+  * /iatexture \(to force apply the pack to yourself\)
     * `ia.user.iatexture`
+  * /iatexture all \(to force apply the pack to everyone\)
+    * `ia.user.iatexture.all`
   * crafting
     * `ia.user.craft.PERMISSION` \(or to give all crafting permissions just use ia.user.craft.\*\)
     * for more info about item permissions please[ read this](../adding-content/advanced/item-properties/basic/item-permission.md)
