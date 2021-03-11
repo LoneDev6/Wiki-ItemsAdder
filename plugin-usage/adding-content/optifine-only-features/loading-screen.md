@@ -52,7 +52,7 @@ screen.loading.progress=1f17ce
 # Where src, dst, srcA and dstA are one of: 
 #   ZERO, ONE, SRC_COLOR, ONE_MINUS_SRC_COLOR, DST_COLOR, ONE_MINUS_DST_COLOR, 
 #   SRC_ALPHA, ONE_MINUS_SRC_ALPHA, DST_ALPHA, ONE_MINUS_DST_ALPHA, SRC_ALPHA_SATURATE
-screen.loading.blend=off
+screen.loading.blend=DST_COLOR
 ```
 
 You can edit the colors using a [HEX color picker](https://www.w3schools.com/colors/colors_picker.asp)
