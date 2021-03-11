@@ -23,6 +23,11 @@ You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://gi
 
 ![](../../../.gitbook/assets/immagine%20%2813%29.png)
 
+{% hint style="warning" %}
+**Warning**: a known issue is that the logo is bugged when you use `/iazip` or `/iatexture` to apply the texture ingame.  
+The logo will be shown with no issue only on server join for some reason, probably an Optifine bug.
+{% endhint %}
+
 A little bit difficult:   
 basically you have to split your image in half like I did, so you have to know how to use image editing programs \(Photoshop, GIMP or Paint.net\).  
 You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojangstudios_template.xcf).
