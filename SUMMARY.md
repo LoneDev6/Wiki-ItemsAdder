@@ -60,6 +60,8 @@
         * [Simple texture sword](plugin-usage/adding-content/beginners/creating-a-custom-item/simple-texture-sword.md)
         * [Armor](plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md)
         * [Magic wand](plugin-usage/adding-content/beginners/creating-a-custom-item/magic-wand.md)
+        * [Blocks](plugin-usage/adding-content/beginners/creating-a-custom-item/blocks.md)
+        * [Drop exp from blocks](plugin-usage/adding-content/beginners/creating-a-custom-item/drop-exp-from-blocks.md)
     * [💪Advanced](plugin-usage/adding-content/advanced/README.md)
       * [Item properties](plugin-usage/adding-content/advanced/item-properties/README.md)
         * [Basic](plugin-usage/adding-content/advanced/item-properties/basic/README.md)
@@ -156,5 +158,6 @@
     * [AdvancedOreGen](compatibility-with-other-plugins/compatible/advancedoregen.md)
     * [Holographic Displays](compatibility-with-other-plugins/compatible/holographic-displays.md)
     * [RealisticWorldGenerator](compatibility-with-other-plugins/compatible/realisticworldgenerator.md)
+    * [HyperStones](compatibility-with-other-plugins/compatible/hyperstones.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
