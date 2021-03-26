@@ -2,7 +2,9 @@
 
 In order to create a recipe for your items in your [namespace ](../../beginners/basic-concepts/namespace.md)you have to create a special section in one of your .yml files \(or on each one, you decide how you want to organize the plugin\).
 
-## Example
+## Example 3x3 recipe
+
+![](../../../../.gitbook/assets/immagine%20%2846%29.png)
 
 ```yaml
 info:
@@ -25,4 +27,53 @@ recipes:
 
 As you can see I created the recipes section in the .yml file, this section can contain each type of recipe.  
 In this example I created a `crafting_table` recipe called `deadmau5_hat`
+
+## Example 2x2 recipe
+
+![](../../../../.gitbook/assets/immagine%20%2844%29.png)
+
+![](../../../../.gitbook/assets/immagine%20%2845%29.png)
+
+```yaml
+taco:
+  permission: itemsadder.taco
+  enabled: true
+  pattern:
+  - XXX
+  - XSC
+  - XPB
+  ingredients:
+    B: itemsadder:baguette
+    C: itemsadder:sliced_roast_beef
+    P: itemsadder:potato_sticks
+    S: itemsadder:lettuce
+```
+
+{% hint style="warning" %}
+You must set first line to XXX, and every ingredient on the bottom right.
+{% endhint %}
+
+{% hint style="success" %}
+You can create **multiple patterns** per recipe, just make sure that the attribute **starts** with '**pattern**' text. For example pattern\_2.
+
+```yaml
+turquoise_sword:
+  permission: itemsadder.turquoise_sword
+  enabled: true
+  pattern:
+  - XRX
+  - XRX
+  - XSX
+  pattern_2:
+  - XXX
+  - XRX
+  - XSX
+  ingredients:
+    R: itemsadder:turquoise
+    S: STICK
+  result:
+    item: itemsadder:turquoise_sword
+    amount: 1
+```
+{% endhint %}
 

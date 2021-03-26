@@ -1,10 +1,6 @@
 # Resourcepack self hosting
 
-{% hint style="danger" %}
-**Make sure you're not** using **UPPERCASE** or **special characters** in **items** names, **namespaces**, **texture files** \(**png**\) and **model files** \(**json**\)
-{% endhint %}
-
-With ItemsAdder 2.0 you can host the resourcepack directly on your server!  
+With ItemsAdder 2.0 you can host the resourcepack directly on your server!   
 No need to pay for a website host and **no need to upload the pack everytime you make a change!**
 
 {% hint style="warning" %}
@@ -14,15 +10,14 @@ If your hosting service doesn't provide you additional ports you have to use **D
 
 {% page-ref page="resourcepack-on-dropbox.md" %}
 
+If you don't want to use **DropBox** you can use **mc-packs.net** website
+
+{% page-ref page="resourcepack-on-mc-packs-net.md" %}
+{% endhint %}
+
+
+
 ## Info about self-hosting
-
-### But I don't want/can't open another port on the server
-
-{% hint style="info" %}
-
-If you don't want to host the pack on your server you can just configure `config.yml` following the next tutorial.
-
-{% page-ref page="resourcepack-on-dropbox.md" %}
 
 ### What is the difference between self-host and external-host?
 

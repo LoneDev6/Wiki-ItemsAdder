@@ -4,7 +4,7 @@
 specific_properties:
   block:
     placed_model:
-      type: REAL
+      type: REAL_NOTE
       break_particles: BLOCK
     cancel_drop: true #default is false. if true the custom block won't be dropped when
                       #player mines it
@@ -35,19 +35,33 @@ specific_properties:
 
 this property can have these value:
 
+* `REAL_NOTE`
+  * uses a real block \(note\_block\), no lag, no entities, 100% real blocks.
+  * downsides: 
+    * **no** support for **transparency**. 
+    * **max** of **750 blocks** in total.
 * `REAL`
   * uses a real block \(mushroom\), no lag, no entities, 100% real blocks.
-  * downside: max of **191** blocks in total
+  * downsides: 
+    * **max** of **191 blocks** in total
+* `REAL_TRANSPARENT`
+  * uses a real block \(chorus\), no lag, no entities, 100% real blocks, also with transparency support!
+  * downsides: 
+    * **max** of **63 blocks** in total
 * `TILE`
-  * uses tile blocks \(modified spawner with custom skin\). It's not an entity but it have some downsides. Good thing is that you can create infinite blocks, there is no amount limit like **REAL** blocks.
+  * uses **tile** blocks \(modified **spawner** with custom skin\). It's **not an entity** but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
   * downsides:
     * not a 100% real block, it's a retextured spawner
     * texture/model vanishes on high distance, so it will reveal the spawner vanilla texture
     * it could cause clientside lag if A LOT of blocks are in the player field of view, but only on lowend PCs.
+* `FIRE`
+  * this is a **special** type of **block**, it's the **fire** block.
+  * downsides: 
+    * only a **max** of **14** custom **fires** is possible, so be sure to create only the ones you need.
 
 {% hint style="warning" %}
-It's better to use REAL blocks for decorative blocks/ores and use TILE blocks for trade machines and machinery/rare decorative blocks.  
-You should not use TILE blocks for ores because it COULD cause a bit of lag on chunk generation.
+It's better to use **REAL** and **REAL\_NOTE** blocks for decorative blocks/ores and use **TILE** blocks for trade machines and machinery/rare decorative blocks.  
+You should not use **TILE** blocks for ores because it COULD cause a bit of lag on chunk generation.
 {% endhint %}
 
 ## cancel\_drop
@@ -71,6 +85,16 @@ Blacklist of tools that cannot break this block
 ### break\_tools\_whitelist
 
 Whitelist of tools that can break this block
+
+### events\_tools\_blacklist
+
+Blacklist of tools that cannot run events on this block[ \(`placed_block.interact`\)](../events/#list-of-events)
+
+### events\_tools\_whitelist
+
+Whitelist of tools that cannot run events on this block [\(`placed_block.interact`\)](../events/#list-of-events)
+
+## Other options
 
 ### hardness
 

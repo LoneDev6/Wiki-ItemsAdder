@@ -2,7 +2,7 @@
 
 ## 自愿充电支持网址
 
-## &gt;&gt; [点击这里支持作者](https://paypal.me/lonedevgift) &lt;&lt;
+## &gt;&gt; [点击这里支持作者](https://donate.plugin.ga/) &lt;&lt;
 
 {% hint style="success" %}
 点击这个按钮表明你自愿接受向作者提供资金上的支持，所以不会向您提供发票等凭证。

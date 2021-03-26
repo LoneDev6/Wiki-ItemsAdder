@@ -2,7 +2,9 @@
 
 ## How to get the API
 
-You just have to use **maven** or **gradle**, you can get the **API** here: [https://github.com/LoneDev6/ItemsAdder-API\#-packages](https://github.com/LoneDev6/ItemsAdder-API#-packages)
+You just have to use **maven** or **gradle**, you can get the **API** here
+
+{% embed url="https://github.com/LoneDev6/ItemsAdder-API\#-packages" %}
 
 ## Description
 

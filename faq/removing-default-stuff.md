@@ -33,7 +33,7 @@ Open plugin `config.yml` file and set this to **false**.
 
 #### ItemsAdder items
 
-`plugins\ItemsAdder\data\items_packs\mcemojis`  
+`plugins\ItemsAdder\data\items_packs\itemsadder`  
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
 #### Example items

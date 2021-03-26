@@ -158,3 +158,45 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
             amplifier: 4
 ```
 
+### events\_needed\_player\_stats
+
+Special attribute to make events work only if the player stat \(ItemsAdder player stat, which are usually shown in HUDs\) satisfies the set rule.
+
+You can set it to `>`, `<` ad `=`
+
+#### Example:
+
+{% page-ref page="../../../beginners/creating-a-custom-item/magic-wand.md" %}
+
+```yaml
+  magic_wand:
+    display_name: "Magic wand"
+    permission: magic_wand
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/example_item.png
+    durability:
+      max_custom_durability: 512
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 0.1
+    blocked_enchants:
+    - ALL
+    events_needed_player_stats:
+      mana: ">0" ### <---- for example. You could also set it to <5 or =1 for example.
+    events:
+      interact:
+        entity:
+          target_potion_effect:
+            type: GLOWING
+            duration: 70
+            amplifier: 15
+          decrement_player_stat:
+            name: mana
+            amount: 1
+```
+
+
+
