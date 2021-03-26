@@ -166,7 +166,7 @@ You can set it to `>`, `<` ad `=`
 
 #### Example:
 
-{% page-ref page="../../../beginners/creating-a-custom-item/magic-wand.md" %}
+{% page-ref page="../../../beginners/creating-a-custom-item/magic-wand/" %}
 
 ```yaml
   magic_wand:

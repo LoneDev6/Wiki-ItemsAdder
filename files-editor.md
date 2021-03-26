@@ -6,7 +6,7 @@
 
 ## Try out my new files editor for ItemsAdder
 
-{% embed url="https://ide.plugin.ga/itemsadder/?wiki" %}
+{% embed url="http://bit.ly/itemsadder-ide-wiki" %}
 
 ![](.gitbook/assets/image%20%2814%29.png)
 

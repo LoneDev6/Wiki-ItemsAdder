@@ -16,7 +16,7 @@ If you already own ItemsAdder old 1.0 version please rename **plugins/ItemsAdder
 ## Step 1 - installing the plugin and APIs
 
 * install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
+* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)\*\*\*\*
 * install [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
 * put **ItemsAdder.jar** file inside your plugins folder
 * start the server
