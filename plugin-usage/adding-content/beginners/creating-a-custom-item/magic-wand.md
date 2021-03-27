@@ -1,6 +1,6 @@
 # Magic wand
 
-{% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
+{% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" caption="" %}
 
 ## Example of fire magic wand
 

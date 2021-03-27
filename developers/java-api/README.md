@@ -4,7 +4,7 @@
 
 You just have to use **maven** or **gradle**, you can get the **API** here
 
-{% embed url="https://github.com/LoneDev6/ItemsAdder-API\#-packages" %}
+{% embed url="https://github.com/LoneDev6/ItemsAdder-API\#-packages" caption="" %}
 
 ## Description
 

@@ -20,7 +20,5 @@ This tells ItemsAdder to replace the GUI name with a -16 offset special characte
 
 Here you can get an addon example [https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/](https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/)
 
-
-
 ![https://i.imgur.com/wuFEAoZ.gif](https://i.imgur.com/wuFEAoZ.gif)
 

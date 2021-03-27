@@ -7,5 +7,3 @@ You can find them in the **realcraft** and in the **magiccraft** namespaces.
 
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 
-
-

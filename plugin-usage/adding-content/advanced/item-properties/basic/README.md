@@ -198,5 +198,3 @@ You can set it to `>`, `<` ad `=`
             amount: 1
 ```
 
-
-

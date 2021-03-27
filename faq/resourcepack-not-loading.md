@@ -1,6 +1,6 @@
 # 📷Resourcepack not loading
 
-#### Resourcepack not loading, I get an error in chat <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+## Resourcepack not loading, I get an error in chat <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
 * Check if you have another plugin that uses **custom resourcepacks**, if you have please **disable** its **resourcepack** feature or ItemsAdder won't be able to apply the pack correctly \(you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done. The pack folder of ItemsAdder is `resouce_pack`\)
 * Make sure you don't have any resourcepack set in the `server.properties` file
@@ -10,9 +10,7 @@
 * Be sure the port is opened if you use self-host.
 * Be sure you're **NOT** using my `pack_21521367.zip` file as base for your pack.  You **MUST** use the new generated `pack.zip` file. Read [tutorial here](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
 
-
-
-#### _My players can't see textures! But I've followed the whole tutorial_ <a id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+## _My players can't see textures! But I've followed the whole tutorial_ <a id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
 There are three ways to fix this issue:
 

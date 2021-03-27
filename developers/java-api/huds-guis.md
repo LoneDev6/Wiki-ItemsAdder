@@ -2,11 +2,9 @@
 
 To see how to use HUDs and GUIs API \(Font Images\) you can check my examples:
 
-{% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-GUI" %}
+{% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-GUI" caption="" %}
 
-{% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-ServerMonitor" %}
-
-
+{% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-ServerMonitor" caption="" %}
 
 ### Access mana bar value example
 

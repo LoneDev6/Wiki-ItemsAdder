@@ -17,7 +17,7 @@ In this tutorial **my namespace** is named `mystuff`
 
 ### Step 2
 
-Create **custom textures** for the **inventory items**. I put them in ****the **folder** `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`
+Create **custom textures** for the **inventory items**. I put them in **\*\*the** folder\*\* `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`
 
 ![](../../../.gitbook/assets/image%20%2821%29.png)
 
@@ -27,7 +27,7 @@ Create **custom textures** for **worn armor** \(when user wears it\). You can ge
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`  
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
 
-**Edit** the **textures** as you wish \(use Paint.NET, Photoshop, GIMP or similar programs\) and **save** them as `layer_1.png` and `layer_2.png` 
+**Edit** the **textures** as you wish \(use Paint.NET, Photoshop, GIMP or similar programs\) and **save** them as `layer_1.png` and `layer_2.png`
 
 ### Step 4
 
@@ -66,8 +66,6 @@ For each of the `.properties` files you have to **change** the **1th** line sett
 Now you should have this view:
 
 ![](../../../.gitbook/assets/image%20%2826%29.png)
-
-
 
 ### Step 7
 
@@ -158,7 +156,6 @@ items:
 {% hint style="warning" %}
 If you will **create another namespace** which contains **other armors** it's **highly adviced** to **maintain** the **same structure** as I did in the tutorial to **avoid mistakes**.
 
-  
 For example if you create a new namespace names `space_armors` you will have this **optifine** folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`
 {% endhint %}
 

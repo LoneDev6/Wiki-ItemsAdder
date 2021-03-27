@@ -8,7 +8,7 @@ Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium
 
 ## Here you can download the example package shown in this tutorial
 
-{% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
+{% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" caption="" %}
 
 ## How to connect an MMOItem to a ItemsAdder custom item
 

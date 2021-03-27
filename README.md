@@ -19,5 +19,3 @@
 ### This website has no ads, don't worry
 {% endhint %}
 
-
-

@@ -45,5 +45,3 @@ font_images:
 `scale_ratio` must ALWAYS be bigger than `y_position` or Minecraft won't like it. I cannot fix that issue, it's a **Minecraft** limitation.
 {% endhint %}
 
-
-

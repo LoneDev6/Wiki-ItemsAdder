@@ -39,7 +39,3 @@ To create your categories just read the tutorial
 {% page-ref page="../ia.md" %}
 {% endhint %}
 
-
-
-
-

@@ -11,7 +11,7 @@ You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 * Visit [mc-packs.net](https://mc-packs.net/)
 * Use the command`/iazip` \(**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file\)
 * Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* **Upload** the `pack.zip` ****file
+* **Upload** the `pack.zip` _\*\*_file
 * Copy the "Download URL"
 * Open `config.yml` of **ItemsAdder**
 * Set it like this \(**I used the example URL, please use your own**\)
@@ -48,8 +48,7 @@ If you need a cheap hosting that has good hardware and allows port opening \(for
 
 [http://bit.ly/humble-dropbox](http://bit.ly/humble-dropbox)
 
- [![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)  
-
+[![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)
 
 * **Top Notch Hardware @ Budget Cost.**
 * **24/7 Support**

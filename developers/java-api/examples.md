@@ -55,7 +55,7 @@ CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
 if(customBlock != null)
 {
     //custom block
-    
+
 }
 else
 {
@@ -89,7 +89,7 @@ CustomMob customMob = CustomMob.spawn("your_item", location)
 if(customMob != null)
 {
     //spawned the custom mob
-    
+
     //example, print the display name in console
     System.out.println(customMob.getName());
 }
@@ -108,7 +108,7 @@ CustomMob customMob = CustomMob.byAlreadySpawned(entity)
 if(customMob != null)
 {
     //it's a custom mob
-    
+
     //example, print the display name in console
     System.out.println(customMob.getName());
 }

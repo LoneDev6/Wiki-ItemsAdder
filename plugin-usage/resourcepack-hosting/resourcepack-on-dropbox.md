@@ -8,7 +8,7 @@ You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 
 ## Video tutorial
 
-{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
+{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" caption="" %}
 
 {% hint style="info" %}
 One of the most famous files hosting websites is **DropBox**. It allows you to publish your files for free and it's really easy and fast.  
@@ -60,8 +60,6 @@ PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **so
 If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
 {% endhint %}
 
-
-
 ## But this is so slow! I have to reupload on DropBox too many times!
 
 Yea it is, that's why you should use the self host feature instead of DropBox. But some hosting \(cheap ones\) don't provide port opening, so you must use DropBox.
@@ -73,8 +71,7 @@ If you need a cheap hosting that has good hardware and allows port opening \(for
 
 [http://bit.ly/humble-dropbox](http://bit.ly/humble-dropbox)
 
- [![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)  
-
+[![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)
 
 * **Top Notch Hardware @ Budget Cost.**
 * **24/7 Support**

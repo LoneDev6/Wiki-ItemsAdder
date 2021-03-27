@@ -17,10 +17,8 @@ You can use this command to test it out:
 `/papi parse me %iaplayerstat_mana%`
 
 {% hint style="info" %}
-#### Read more about playerstats
+### Read more about playerstats
 
 {% page-ref page="custom-playerstats.md" %}
 {% endhint %}
-
-
 

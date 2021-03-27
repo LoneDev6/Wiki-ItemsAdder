@@ -8,12 +8,9 @@ It's very easy, you will be able to use emojis everywhere! For example in [holog
 
 * Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 
-Now you can use font\_images \(emojis\) everywhere in other plugins easily! \(they must support PlaceholderAPI\), check the next link:  
-
+Now you can use font\_images \(emojis\) everywhere in other plugins easily! \(they must support PlaceholderAPI\), check the next link:
 
 {% page-ref page="placeholderapi.md" %}
-
-
 
 \`\`
 

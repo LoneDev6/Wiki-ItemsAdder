@@ -18,11 +18,9 @@ If you need a **good** and **cheap hosting** to open your **Minecraft server** o
 * Supports **port opening** for **ItemsAdder** [self host](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
 {% endhint %}
 
-{% embed url="http://bit.ly/humble-itemsadderwiki" %}
+{% embed url="http://bit.ly/humble-itemsadderwiki" caption="" %}
 
 ## Here you can test it yourself, on my server
 
 ![](.gitbook/assets/immagine%20%2823%29.png)
-
-
 

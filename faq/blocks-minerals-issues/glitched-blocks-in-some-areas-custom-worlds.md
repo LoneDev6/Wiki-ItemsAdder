@@ -1,13 +1,11 @@
 # Glitched blocks in some areas/custom worlds
 
-
-
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
 {% hint style="info" %}
 This is normal as ItemsAdder uses mushroom blocks to create custom blocks.  
-ItemsAdder just checks some biomes to fix the glitched blocks to avoid using too much CPU.  
-  
+ItemsAdder just checks some biomes to fix the glitched blocks to avoid using too much CPU.
+
 If you want to apply the fix to any biome you have to set config.yml like that:
 
 ```yaml
@@ -92,6 +90,4 @@ seach-also-in-these-biomes:
 This will basically enable the fix on each of the Minecraft overworld biomes.  
 Feel free to remove the ones you think that won't have any mushroom spawned, to avoid high CPU usage.
 {% endhint %}
-
-
 

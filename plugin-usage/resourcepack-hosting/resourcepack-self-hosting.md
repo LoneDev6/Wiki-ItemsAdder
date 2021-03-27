@@ -1,10 +1,9 @@
 # Resourcepack self hosting
 
-With ItemsAdder 2.0 you can host the resourcepack directly on your server!   
+With ItemsAdder 2.0 you can host the resourcepack directly on your server!  
 No need to pay for a website host and **no need to upload the pack everytime you make a change!**
 
 {% hint style="warning" %}
-
 Your hosting service must let you get additional ports for your server.  
 If your hosting service doesn't provide you additional ports you have to use **DropBox**, check this tutorial:
 
@@ -14,8 +13,6 @@ If you don't want to use **DropBox** you can use **mc-packs.net** website
 
 {% page-ref page="resourcepack-on-mc-packs-net.md" %}
 {% endhint %}
-
-
 
 ## Info about self-hosting
 
@@ -65,6 +62,6 @@ If you are testing the plugin on your PC you can leave default config, because 1
 {% endhint %}
 
 {% hint style="danger" %}
-Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... _\*\*_or you won't see any change obviously.
+Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... \_\*\*\_or you won't see any change obviously.
 {% endhint %}
 
