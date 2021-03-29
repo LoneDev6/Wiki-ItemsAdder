@@ -137,6 +137,7 @@
 ---
 
 * [✅Compatibility with other plugins](compatibility-with-other-plugins/README.md)
+  * [Adding compatibility](compatibility-with-other-plugins/adding-compatibility.md)
   * [Not compatible](compatibility-with-other-plugins/not-compatible.md)
   * [Compatible](compatibility-with-other-plugins/compatible/README.md)
     * [RPGMoney](compatibility-with-other-plugins/compatible/rpgmoney.md)
