@@ -23,7 +23,7 @@
 ## 步骤 2 —— 资源包初始化
 
 * 插件加载完成后进入服务器然后输入命令 `/iazip`
-* 打开Itemadder的配置文件**[plugins\ItemsAdder\config.yml]**
+* 打开Itemadder的配置文件 **[plugins\ItemsAdder\config.yml]**
 * 按照下面的按钮来进行下一步的配置
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
