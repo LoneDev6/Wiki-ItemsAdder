@@ -4,7 +4,7 @@
 
 {% embed url="https://youtu.be/GKGnlF4zZVg" caption="" %}
 
-## 步骤 1
+## 步骤 1 —— 安装插件和API
 
 为了防止服务器会出一些奇奇怪怪的BUG.这里推荐你整一个测试的服务端然后进行测试,然后再把插件放到服务器去食用
 
@@ -20,13 +20,17 @@
 * 让ItemsAdder完成**初始化**.中国的腐竹需要用科学上网来下载材质包[当然得在放服务端机子里用科学上网,不是玩家用科学上网哦]
 * 关闭服务器
 
-## 步骤 2
+## 步骤 2 —— 资源包初始化
 
 * 插件加载完成后进入服务器然后输入命令 `/iazip`
 * 打开Itemadder的配置文件**[plugins\ItemsAdder\config.yml]**
 * 按照下面的按钮来进行下一步的配置
 
 {% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
+
+* 如果您想在DropBox托管资源包,那么可以按照这里的教程进行操作
+
+{% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md" %}
 
 {% hint style="warning" %}
  如果你想更新`pack.zip`的材质,那么请输入指令 `/iazip`
