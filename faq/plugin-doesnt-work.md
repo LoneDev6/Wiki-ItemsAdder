@@ -4,6 +4,10 @@
 
 **Please check if your problem is in these tutorials which can help you fixing in a minute**
 
+## Did you recently update your server/plugin or install a new plugin?
+
+Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
+
 ### **If you still have problems, please read this and then contact me:** <a id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
 I hate when users just report problems saying this phrase, it has no sense and I can't help you in any way, I need more information than this. Please when you report something be sure to follow every single step of my tutorials and have read all the wiki. Be sure to test the plugin on a **CLEAN** server \(with only **ItemsAdder** installed\), could be a plugin interfering. Be sure to use the latest version of the plugin. If the problem persists please when you report the problem send me these information:
