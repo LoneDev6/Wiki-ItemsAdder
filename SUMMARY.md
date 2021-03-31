@@ -14,6 +14,7 @@
     * [🈁Force Unicode Font: ON](faq/huds-emojis-guis-font/force-unicode-font-on.md)
   * [Removing default stuff](faq/removing-default-stuff.md)
   * [🚙Vehicles bugs](faq/vehicles-bugs/README.md)
+    * [Dismount related problems](faq/vehicles-bugs/dismount-related-problems.md)
     * [Can't write in chat and can't move](faq/vehicles-bugs/towny-vehicles-bug.md)
   * [💎Blocks/minerals issues](faq/blocks-minerals-issues/README.md)
     * [I removed blocks but keep saying that I used all the IDs](faq/blocks-minerals-issues/i-removed-blocks-but-keep-saying-that-i-used-all-the-ids.md)

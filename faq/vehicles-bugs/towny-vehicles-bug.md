@@ -1,5 +1,13 @@
 # Can't write in chat and can't move
 
+## Worldguard
+
+If you experience bugged vehicles \(get tipped under world and strange bugs like that\) please open config.yml of WorldGuard and set this:
+
+```text
+block-plugin-spawning: false
+```
+
 ## Towny
 
 {% hint style="warning" %}

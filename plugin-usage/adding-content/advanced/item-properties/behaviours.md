@@ -112,6 +112,12 @@ vehicle:
       CHARCOAL: 1
       COAL_BLOCK: 9
       "itemsadder:banana": 1
+  smoke:
+    amount: 2
+    offset:
+      x: 0
+      y: 0
+      z: -0.8
 ```
 
 
