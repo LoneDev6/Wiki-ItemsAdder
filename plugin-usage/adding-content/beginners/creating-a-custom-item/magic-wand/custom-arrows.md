@@ -1,9 +1,21 @@
 # Custom Arrows
 
-## Some examples \(ItemsAdder 2.2.7+\)
+## Some examples \(ItemsAdder 2.2.8+\)
 
 ```yaml
 items:
+  iron_arrow:
+    display_name: "Iron Arrow"
+    permission: arrows.iron_arrow
+    resource:
+      material: ARROW
+      generate: true
+      textures:
+      - "minecraft:item/spectral_arrow.png"
+    events:
+      item_hit_entity:
+          damage_entity:
+            damage: 3
   area_damage_arrow:
     display_name: "Area Damage Arrow"
     permission: arrows.area_damage_arrow

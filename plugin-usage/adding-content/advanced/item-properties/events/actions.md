@@ -29,6 +29,7 @@ Actions are what will happen when an event is triggered.
 * `explosion`
 * `damage_near_entities`
 * `damage_entity_in_sight`
+* `damage_entity`
 * `increment_player_stat`
 * `decrement_player_stat`
 * `cancel`
@@ -188,6 +189,11 @@ damange_near_entities:
 damage_entity_in_sight:
   damage: 4
   distance: 7
+  
+# Allows you to damage the entity of this event. For example on interact or attack
+# or on event item_hit_entity
+damage_entity:
+  damage: 4
   
 # Special action that allows you to increment player stat linked to an hud
 #in this case hud named: "itemsadder:mana_bar"
