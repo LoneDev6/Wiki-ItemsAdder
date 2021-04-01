@@ -64,6 +64,7 @@
           * [Custom Arrows](plugin-usage/adding-content/beginners/creating-a-custom-item/magic-wand/custom-arrows.md)
         * [Blocks](plugin-usage/adding-content/beginners/creating-a-custom-item/blocks/README.md)
           * [Drop exp from blocks](plugin-usage/adding-content/beginners/creating-a-custom-item/blocks/drop-exp-from-blocks.md)
+        * [Fuel](plugin-usage/adding-content/beginners/creating-a-custom-item/fuel.md)
     * [💪Advanced](plugin-usage/adding-content/advanced/README.md)
       * [Item properties](plugin-usage/adding-content/advanced/item-properties/README.md)
         * [Basic](plugin-usage/adding-content/advanced/item-properties/basic/README.md)

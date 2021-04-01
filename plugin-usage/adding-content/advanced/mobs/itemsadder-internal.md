@@ -41,6 +41,10 @@ items:
             max_sky_light: 0
             time:
               start: MIDNIGHT
+            biomes:
+             - DESERT
+             - DESERT_HILLS
+             - DESERT_LAKES
 ```
 
 This behaviour tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT` and only in caves \(`max_sky_light: 0`\).  
