@@ -1,13 +1,18 @@
-# I can't unzip the pack.zip file
+# 看不清楚远处的材质
 
-{% hint style="info" %}
-Try to disable this option in config.yml
-
-```yaml
-zip:
-  protect-file-from-unzip__DISABLE_IF_ANY_PROBLEM: false
-```
-
-This is the option to protect the zip file from unzip. Be careful when disabling it, everyone can unzip your file if you don't protect it.
+{% hint style="warning" %}
+如果你在远处看到点状而并非平滑的材质,这是资源包制作常见的问题.Minecraft有一个Bug,如果你设置的材质的大小不是2的倍数,就会关闭Mipmap功能
 {% endhint %}
+
+![左边:无mipmap 右边:有mipmap](../.gitbook/assets/image%20%2819%29.png)
+
+## **如何修复?**
+
+有手就行!只需要这样设置:
+
+* 打开你的Minecraft客户端日志文件, **不是服务端** 日志 \(通常它在 `%appdata%\.minecraft\logs\latest.log` 如果没有,请在文件夹内搜索 `%appdata%\.minecraft\logs\`\)
+* 搜索此行 `limits mip level`
+* 识别问题材质,例如 `Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1`
+* 修复材质.想要修复它,你必须把它的大小调整为:16x16,32x32,64x64,128x128,256x256,当然你要选择其中之一
+
 
