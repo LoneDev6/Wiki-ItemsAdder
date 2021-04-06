@@ -37,6 +37,55 @@ Actions are what will happen when an event is triggered.
 * `target_remove_potion_effect`
 * `play_totem_animation`
 
+### Delay
+
+{% hint style="info" %}
+Every action has a special attribute delay.  
+It's the delay in ticks before starting the action.  
+For example:
+
+```yaml
+items:
+  chain_events:
+    display_name: "%#FE5A00%chain_events"
+    permission: test.chain_events
+    resource:
+      material: COAL
+      generate: true
+      textures:
+      - "minecraft:item/diamond.png"
+    events:
+      interact:
+        right:
+          execute_commands:
+            cmd1:
+              command: 'tellraw {player} {"text":"Action 1","color":"gold"}'
+              as_console: true
+              delay: 0
+            cmd2:
+              command: 'tellraw {player} {"text":"Action 2","color":"gold"}'
+              as_console: true
+              delay: 20
+            cmd3:
+              command: 'tellraw {player} {"text":"Action 3","color":"gold"}'
+              as_console: true
+              delay: 40
+          play_sound_1:
+            name: minecraft:block.note_block.banjo
+            delay: 0
+          play_sound_2:
+            name: minecraft:block.note_block.banjo
+            pitch: 1.2
+            delay: 20
+          play_sound_3:
+            name: minecraft:block.note_block.banjo
+            pitch: 1.5
+            delay: 40
+```
+{% endhint %}
+
+### Multiple actions of the same type
+
 {% hint style="info" %}
 You can set the same action multiple times. You just have to add `_anything` at the end.  
 For example if you want to play two sounds you have to write this:
@@ -50,8 +99,14 @@ play_sound_second:
   name: minecraft:ambient.cave
   volume: 1
   pitch: 1
+play_sound_3:
+  name: minecraft:ambient.cave
+  volume: 1
+  pitch: 1
 ```
 {% endhint %}
+
+### List of actions properties
 
 ```yaml
 play_sound:

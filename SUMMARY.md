@@ -148,6 +148,7 @@
     * [Wailat](compatibility-with-other-plugins/compatible/wailat.md)
     * [RPGMoney](compatibility-with-other-plugins/compatible/rpgmoney-1.md)
     * [GriefPreventionStickFix](compatibility-with-other-plugins/compatible/griefpreventionstickfix.md)
+    * [CustomCrafting](compatibility-with-other-plugins/compatible/customcrafting.md)
     * [BossShop](compatibility-with-other-plugins/compatible/bossshop.md)
     * [RPG Chest Premium](compatibility-with-other-plugins/compatible/rpg-chest-premium.md)
     * [ClueScrolls](compatibility-with-other-plugins/compatible/cluescrolls.md)
