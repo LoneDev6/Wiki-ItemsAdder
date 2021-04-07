@@ -164,5 +164,6 @@
     * [Holographic Displays](compatibility-with-other-plugins/compatible/holographic-displays.md)
     * [RealisticWorldGenerator](compatibility-with-other-plugins/compatible/realisticworldgenerator.md)
     * [HyperStones](compatibility-with-other-plugins/compatible/hyperstones.md)
+    * [Mythicmobs](compatibility-with-other-plugins/compatible/mythicmobs.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
