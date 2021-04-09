@@ -167,5 +167,6 @@
     * [Mythicmobs](compatibility-with-other-plugins/compatible/mythicmobs.md)
     * [EcoEnchants](compatibility-with-other-plugins/compatible/ecoenchants.md)
     * [GoldenEnchants](compatibility-with-other-plugins/compatible/goldenenchants.md)
+    * [BetonQuest](compatibility-with-other-plugins/compatible/betonquest.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
