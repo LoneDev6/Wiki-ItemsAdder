@@ -2,7 +2,7 @@
 
 ## Worldguard
 
-如果遇到你的车辆被窃盗的话 \(get tipped under world and strange bugs like that\) 请打开WorldGuard的config.yml,设置这个:
+如果遇到你的车辆被窃盗的话 \(奇怪的Bug\) 请打开WorldGuard的config.yml,设置这个:
 
 ```text
 block-plugin-spawning: false
