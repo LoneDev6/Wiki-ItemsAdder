@@ -1,20 +1,18 @@
-# I see crisp textures far away!
+# 看不清远处的材质!
 
 {% hint style="warning" %}
-If you see dotted and not smooth textures in far away it's a common mistake of resourcepacks maker.  
-Minecraft has a bug that disables mipmap if you set textures which their size is not a multiple of two
+如果你在远处看到点状而不是平滑的材质,这个是资源包制作的常见问题.  
+Minecraft有一个特性,如果你设置的材质的大小不是2的倍数的话,就会关闭Mipmap功能
 {% endhint %}
 
-![LEFT: without mipmap. RIGHT: with mipmap](../.gitbook/assets/image%20%2819%29.png)
+![左边:无mipmap 右边:有mipmap](../.gitbook/assets/image%20%2819%29.png)
 
-## **How to fix?**
+## **如何去修复?**
 
-It's easy! Just follow this:
+有手就行!来按下面设置:
 
-* open your Minecraft GAME log file, **not server** logs \(usually it's in `%appdata%\.minecraft\logs\latest.log` if not please search inside this folder `%appdata%\.minecraft\logs\`\)
-* search for this text `limits mip level`
-* identify the problematic texture, for example `Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1`
-* Fix the texture. To fix it you have to resize it to a size of: 16x16, 32x32, 64x64, 128x128, 256x256, you decide one of these.
-
-Done!
+* 打开你的Minecraft客户端日志页面, **不是服务器** 日志 \(通常它在 `%appdata%\.minecraft\logs\latest.log` 如果没有,请在文件内搜索 `%appdata%\.minecraft\logs\`\)
+* 搜索此行 `limits mip level`
+* 识别问题材质,例如 `Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1`
+* 修复材质.想要修复它,你要把它的大小调整为:16x16, 32x32, 64x64, 128x128, 256x256, 当然你要选择其中之一
 
