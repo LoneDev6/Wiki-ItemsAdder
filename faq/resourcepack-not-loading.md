@@ -1,4 +1,4 @@
-# 📷资源包无法加载
+# 📷Resourcepack not loading
 
 ## 资源包无法加载,我还在聊天栏里发现了报错信息 <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 

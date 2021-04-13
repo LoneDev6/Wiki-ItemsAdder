@@ -1,11 +1,11 @@
-# 看不清远处的材质!
+# I see crisp textures far away!
 
 {% hint style="warning" %}
 如果你在远处看到点状而不是平滑的材质,这个是资源包制作的常见问题.  
 Minecraft有一个特性,如果你设置的材质的大小不是2的倍数的话,就会关闭Mipmap功能
 {% endhint %}
 
-![左边:无mipmap 右边:有mipmap](../.gitbook/assets/image%20%2819%29.png)
+![&#x5DE6;&#x8FB9;:&#x65E0;mipmap &#x53F3;&#x8FB9;:&#x6709;mipmap](../.gitbook/assets/image%20%2819%29.png)
 
 ## **如何去修复?**
 

@@ -1,4 +1,4 @@
-# 不能聊天和不能移动
+# Can't write in chat and can't move
 
 ## Worldguard
 
@@ -30,3 +30,4 @@ town_mob_removal_entities: Monster,Flying,Shulker,SkeletonHorse,ZombieHorse
 ## 其他怪物限制/分组怪物/合并怪物插件
 
 请删除实体类型**SLIME**的任何分组怪物/合并怪物/怪物限制功能.
+

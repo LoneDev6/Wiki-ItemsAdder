@@ -1,4 +1,4 @@
-# 删除默认的物品
+# Removing default stuff
 
 ## 如何删除所有的物品和默认的物品
 
