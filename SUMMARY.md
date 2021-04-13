@@ -168,5 +168,6 @@
     * [EcoEnchants](compatibility-with-other-plugins/compatible/ecoenchants.md)
     * [GoldenEnchants](compatibility-with-other-plugins/compatible/goldenenchants.md)
     * [BetonQuest](compatibility-with-other-plugins/compatible/betonquest.md)
+    * [ChatControl-Red](compatibility-with-other-plugins/compatible/chatcontrol-red.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
