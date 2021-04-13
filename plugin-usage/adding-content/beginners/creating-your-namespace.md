@@ -4,7 +4,7 @@
 If you don't know what I mean by **namespace** please read [namespace tutorial](basic-concepts/namespace.md)
 {% endhint %}
 
-## Creating a items\_packs subfolder
+## Creating an items\_packs subfolder
 
 In order to keep everything organized you have to create **your** own **namespace**.   
 First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
