@@ -24,8 +24,6 @@ For example I want to make it float up and down.
 
 ![](../../../../../.gitbook/assets/immagine%20%2887%29.png)
 
-![](../../../../../.gitbook/assets/immagine%20%2868%29.png)
-
 ![](../../../../../.gitbook/assets/immagine%20%2882%29.png)
 
 Ok I saved it as **1.json** inside the **idle** folder. This is the first frame of the **animation**.
