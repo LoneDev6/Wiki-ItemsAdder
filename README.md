@@ -1,5 +1,5 @@
 ---
-description: 这个百科可以帮助你了解Itemsadder插件的配置文件和教你如何创建自定义物品
+description: 这个百科可以帮助你了解Itemsadder插件的配置文件和如何创建自定义物品
 ---
 # 👋🏻欢迎使用
 
