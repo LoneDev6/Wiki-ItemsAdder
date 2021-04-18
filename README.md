@@ -1,5 +1,4 @@
 # 👋🏻欢迎使用
-## 👋🏻欢迎
 
 * [Patreon](http://patreon.com/lonedev)
 * [YouTube](http://youtube.com/lonedev)
