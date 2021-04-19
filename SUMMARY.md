@@ -31,6 +31,7 @@
   * [🐌Plugin loading very slow](faq/plugin-loading-very-slow.md)
   * [I can't unzip the pack.zip file](faq/i-cant-unzip-the-pack.zip-file.md)
   * [I can't remove furnitures and vehicles](faq/i-cant-remove-furnitures-and-vehicles.md)
+  * [Download Spigot](faq/download-spigot.md)
   * [Can I create slabs, stairs, tridents, armors...](faq/can-i-create-slabs-stairs/README.md)
     * [Create transparent textured furnitures](faq/can-i-create-slabs-stairs/transparent-textures.md)
   * [⛔️Errors](faq/errors/README.md)
