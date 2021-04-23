@@ -6,6 +6,10 @@ YOU HAVE TO USE YOUR **pack.zip** FILE WHICH IS GENERATED USING **/iazip** COMMA
 You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
 
+{% hint style="danger" %}
+## Some users reported this website doesn't work. It's adviced to use [Dropbox](resourcepack-on-dropbox.md).
+{% endhint %}
+
 ## Text tutorial
 
 * Visit [mc-packs.net](https://mc-packs.net/)
