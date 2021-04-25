@@ -2,7 +2,7 @@
 
 * [👋🏻欢迎使用](README.md)
 * [❤️赞助 - 支持开发者的工作](donation-support-my-work.md)
-* [💰Cheap Minecraft Hosting](cheap-minecraft-hosting.md)
+* [💰便宜的Minecraft服务器主机](cheap-minecraft-hosting.md)
 * [⚙️首次安装](first-install.md)
 * [❓常见问题](faq/README.md)
   * [⚠️插件不能加载!](faq/plugin-doesnt-work.md)
