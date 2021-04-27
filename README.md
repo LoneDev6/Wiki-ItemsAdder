@@ -1,8 +1,8 @@
-# 👋🏻Welcome
+---
+description: 这个百科可以帮助你了解Itemsadder插件的配置文件和如何创建自定义物品
+---
 
-### 描述：这个百科可以帮助你了解Itemadder的配置和创建自定义的物品
-
-## 👋🏻欢迎
+# 👋🏻欢迎使用
 
 * [Patreon](http://patreon.com/lonedev)
 * [YouTube](http://youtube.com/lonedev)
@@ -12,7 +12,7 @@
 * [Discord](https://discord.gg/4dfnpUK)
 
 {% hint style="danger" %}
-## 如果您安装了⛔️Adblock.你可以选择禁用他,因为它会阻止网站的一些功能!
+## 如果您安装了⛔️Adblock.你可以选择关闭它,因为它会阻止该百科的一些功能!
 
 \(比如翻译, 夜晚模式等等功能\)
 
