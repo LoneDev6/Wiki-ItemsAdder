@@ -1,9 +1,9 @@
 # I removed blocks but keep saying that I used all the IDs
 
-If you're really sure you can use this command to cleanup the plugin cache:`/iacleancache`  
-It will remove all the cached IDs so that you can reuse the old IDs of removed blocks.
+如果你真的确定会出现这种问题,你可以使用这个命令来清理插件的缓存:`/iacleancache`  
+它将会删除所有缓存的ID,这样你就可以重新使用被删除区块的旧ID.
 
 {% hint style="info" %}
-Cache exists because if you remove a block by mistake and then you want to add it back it will have the same old ID instead of a new one each time.
+缓存的存在是因为如果你没有正确的删除了一个方块,然后你想把它重新弄回来,因为它每次都会有相同的旧ID,所以就不是新的ID
 {% endhint %}
 
