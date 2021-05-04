@@ -1,9 +1,9 @@
-# Double chest glitch
+# 大箱子特性
 
-## Replacing a double chest which is adjacent to custom blocks causes a visual bug
+## 替换与自定义方块相邻的箱子会导致一个视觉错误
 
 {% hint style="warning" %}
-This is a known issue and cannot be fixed easily without making the plugin lag the server.
+这是一个已知的特性,在不使插件滞后服务器的情况下,这个特性不容易进行修复.
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/615" caption="" %}
