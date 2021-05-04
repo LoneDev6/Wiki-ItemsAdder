@@ -1,9 +1,9 @@
 # Redstone \(REAL blocks\)
 
-## Placing Redstone on top of custom blocks can make them update and revert to Mushroom Blocks
+## 将红石放置在自定义方块的上面,他会变成蘑菇块
 
 {% hint style="warning" %}
-This is a known issue and cannot be fixed easily without making the plugin lag the server.
+这是一个已知的特性,在不使插件滞后服务器的情况下,这个特性很难进行修复
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" caption="" %}
