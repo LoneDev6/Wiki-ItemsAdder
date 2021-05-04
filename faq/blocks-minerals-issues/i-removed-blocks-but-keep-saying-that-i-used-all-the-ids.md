@@ -1,6 +1,6 @@
 # I removed blocks but keep saying that I used all the IDs
 
-如果你真的确定会出现这种问题,你可以使用这个命令来清理插件的缓存:`/iacleancache`  
+如果你真的确定会出现这种问题,你可以用命令来清理插件的缓存:`/iacleancache`  
 它将会删除所有缓存的ID,这样你就可以重新使用被删除区块的旧ID.
 
 {% hint style="info" %}
