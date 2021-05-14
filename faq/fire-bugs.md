@@ -1,9 +1,9 @@
 # Fire bugs
 
 {% hint style="warning" %}
-### Custom fire is not working!
+### 自定义的火它无法显示!
 
-If you're using **Yatopia** please set this to **true**:
+如果你使用**Yatopia**插件,请把这里设置为**true**:
 
 ```text
 fire-block-physics-event: true
