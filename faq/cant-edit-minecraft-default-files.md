@@ -1,6 +1,6 @@
 # Can't edit minecraft default files
 
-In order to be able to edit default minecraft json files you have to set this setting to false in config.yml
+为了能编辑minecraft默认的json文件,你需要在config.yml中把这个设置设为false
 
 ```yaml
 overwrite-vanilla-models__DISABLE_AT_YOUR_OWN_RISK: true
