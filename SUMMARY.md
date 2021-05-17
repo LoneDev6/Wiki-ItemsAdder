@@ -44,7 +44,7 @@
 * [➕Addons/resources](addons-resources.md)
 * [📄Files editor](files-editor.md)
 * [📖Plugin usage](plugin-usage/README.md)
-  * [��🏻Permissions](plugin-usage/permissions/README.md)
+  * [👌Permissions](plugin-usage/permissions/README.md)
     * [↪️Example permissions](plugin-usage/permissions/example-permissions.md)
   * [⚠️Important notes](plugin-usage/important-notes.md)
   * [🏁Tips for fastest usage](plugin-usage/tips-for-fastest-usage.md)
