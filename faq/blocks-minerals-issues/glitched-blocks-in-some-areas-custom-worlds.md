@@ -1,12 +1,11 @@
-# Glitched blocks in some areas/custom worlds
+# 在某些区域/自定义世界中出现的方块错误
 
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
 {% hint style="info" %}
-This is normal as ItemsAdder uses mushroom blocks to create custom blocks.  
-ItemsAdder just checks some biomes to fix the glitched blocks to avoid using too much CPU.
+这很正常,因为ItemsAdder使用蘑菇方块来创建自定义方块.ItemsAdder只是检查一些生物群落来修复故障方块,以避免CPU性能占用太大
 
-If you want to apply the fix to any biome you have to set config.yml like that:
+如果你想把这个修改正确并应用到任何生物群落,你必须这样设置:
 
 ```yaml
 seach-also-in-these-biomes:
@@ -87,7 +86,7 @@ seach-also-in-these-biomes:
   - BAMBOO_JUNGLE_HILLS
 ```
 
-This will basically enable the fix on each of the Minecraft overworld biomes.  
-Feel free to remove the ones you think that won't have any mushroom spawned, to avoid high CPU usage.
+这样基本上就可以对每个世界的生物群落进行修复了.
+请删除你认为不会有任何蘑菇产生的那些生物群落,以避免CPU占用率太大
 {% endhint %}
 

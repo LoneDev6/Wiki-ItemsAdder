@@ -1,21 +1,21 @@
-# Blocks drop mushrooms
+# 挖取方块掉落蘑菇
 
-If you have this problem please read here **before asking for support**:
+如果你有这个特性的话,请先阅读这里 **再去Github发送支持请求**:
 
-## First reason
+## 第一个原因
 
-If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2)installed [read this](https://github.com/LoneDev6/ItemsAdder/issues/123)
+如果你有安装[EmeraldEnchants2](https://github.com/TheBusyBiscuit/EmeraldEnchants2)[请阅读这里](https://github.com/LoneDev6/ItemsAdder/issues/123)
 
-## Second reason
+## 第二个原因
 
-Did you delete the ItemsAdder plugin folder? Don't do it. It contains world data under: `plugins\ItemsAdder\storage\regions_data`
+请问你删除了Itemsadder的插件配置文件了吗? 插件里面包含了世界数据,位置在: `plugins\ItemsAdder\storage\regions_data`
 
-If you delete it you lose every custom ItemsAdder block data in the world.
+如果你已经删除了它的话.你会失去这个世界所有的来自Itemsadder自定义的方块的数据.
 
-## Third reason
+## 第三个原因
 
-Corrupted chunk. This can happen if you:
+区块破损.这种情况有可能会发生,如果你:
 
-* killed the server while it was saving an IA region file
-* full disk problem which blocked saving of files
+* 在服务器保存IA区域文件的时候强制关闭了它
+* 硬盘内存不足的问题,才导致了配置文件的保存不了
 

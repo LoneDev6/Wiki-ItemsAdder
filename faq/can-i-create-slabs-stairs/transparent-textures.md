@@ -1,8 +1,8 @@
 # Create transparent textured furnitures
 
 {% hint style="warning" %}
-If you want to make some transparent/semi transparent textures you have to make sure you based your item on a vanilla item that accepts transparency.  
-For example:
+如果你想制作一些透明/半透明的材质,你必须确保你的物品是基于一个透明的原版物品.  
+举个栗子:
 {% endhint %}
 
 ```yaml
