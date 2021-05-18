@@ -1,6 +1,10 @@
 # 📹Видео-туториалы от пользователей
 
-## Начинающие
+## Начинающие \(русский\)
+
+{% embed url="https://www.youtube.com/playlist?list=PL7hN0Bjz5znOonvSJmmoDES8PbFMgZ1dM" %}
+
+## Начинающие \(english\)
 
 {% embed url="https://www.youtube.com/watch?v=GKGnlF4zZVg" caption="" %}
 
