@@ -9,7 +9,7 @@ You can translate everything in ItemsAdder, it's really easy.
 If you want to translate IA default items you can, you just have to copy my dictionary and create your own.  
 
 
-* open folder plugins\ItemsAdder\data\items\_packs\dictionaries\itemsadder\_stuff
+* open folder plugins\ItemsAdder\data\items\_packs\dictionaries\ia\_default\_items
 * copy and paste the file en.yml
 * change `dictionary-lang` from `en` to your language identifier \(example `fr`\)
 * translate everything you want
