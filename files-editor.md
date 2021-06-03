@@ -6,7 +6,7 @@
 
 ## Опробуйте мой новый инструмент для создания вашего контента для ItemsAdder
 
-{% embed url="https://ide.plugin.ga/itemsadder/?wiki" caption="" %}
+{% embed url="https://ide.devs.beer/itemsadder/" %}
 
 ![](.gitbook/assets/image%20%2814%29.png)
 
