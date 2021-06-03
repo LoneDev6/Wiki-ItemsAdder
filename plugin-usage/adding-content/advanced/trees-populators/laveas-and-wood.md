@@ -1,4 +1,4 @@
-# Leaves and wood
+# 叶子和木头
 
 {% hint style="info" %}
 ## Tutorial will be added soon

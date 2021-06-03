@@ -49,7 +49,7 @@
   * [🏁最快的使用方法](plugin-usage/tips-for-fastest-usage.md)
   * [📷资源包托管](plugin-usage/resourcepack-hosting/README.md)
     * [自搭材质包托管](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
-    * [DropBox托管材质包(需VPN)](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
+    * [DropBox托管材质包\(需VPN\)](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
     * [mc-packs.net托管材质包](plugin-usage/resourcepack-hosting/resourcepack-on-mc-packs-net.md)
   * [➕添加物品](plugin-usage/adding-content/README.md)
     * [🍭小白级别](plugin-usage/adding-content/beginners/README.md)
@@ -123,16 +123,16 @@
 * [📹视频教程](video-tutorials-by-users.md)
 * [➡️迁移V1版本的数据](updating-from-1.0/README.md)
   * [将旧数据转换为v2版本](updating-from-1.0/convert-old-files-to-v2.md)
-  * [在游戏中转换旧的物品/方块](udating-from-1.0/convert-old-items-ingame.md)
+  * [在游戏中转换旧的物品/方块](updating-from-1.0/zai-you-xi-zhong-zhuan-huan-jiu-de-wu-pin-fang-kuai.md)
 
 ## 开发
 
-* [☕️Java API](developers/java-api/README.md)
-  * [栗子](developers/java-api/examples.md)
-  * [事件](developers/java-api/events.md)
-  * [HUDs, GUIs...](developers/java-api/huds-guis.md)
-* [📓Skript API](developers/skript-api/README.md)
-  * [大佬用户](developers/skript-api/expert-users-1.md)
+* [☕️Java API](kai-fa/java-api/README.md)
+  * [栗子](kai-fa/java-api/examples.md)
+  * [事件](kai-fa/java-api/events.md)
+  * [HUDs, GUIs...](kai-fa/java-api/huds-guis.md)
+* [📓Skript API](kai-fa/skript-api/README.md)
+  * [大佬用户](kai-fa/skript-api/expert-users-1.md)
 
 ---
 

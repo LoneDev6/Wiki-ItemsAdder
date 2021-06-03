@@ -1,7 +1,7 @@
-# Fire bugs
+# 火焰特性
 
 {% hint style="warning" %}
-### 自定义的火它无法显示!
+## 自定义的火它无法显示!
 
 如果你使用**Yatopia**插件,请把这里设置为**true**:
 
@@ -9,6 +9,4 @@
 fire-block-physics-event: true
 ```
 {% endhint %}
-
-
 

@@ -1,4 +1,4 @@
-# Noteblocks \(REAL\_NOTE\)
+# 音符盒 \(真实音符\)
 
 {% hint style="info" %}
 已经放置的音符盒 \(在安装Itemsadder之前\) 可以用自定义的方块材质显示.  

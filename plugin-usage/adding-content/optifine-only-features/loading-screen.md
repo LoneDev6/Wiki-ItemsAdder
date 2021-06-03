@@ -1,4 +1,4 @@
-# Loading screen
+# 材质加载页面
 
 ## Vanilla loading screen
 

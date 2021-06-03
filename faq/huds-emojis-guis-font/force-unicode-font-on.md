@@ -1,4 +1,4 @@
-# 🈁Force Unicode Font: ON
+# 🈁强制使用Font: ON
 
 ## 请阅读这里:
 

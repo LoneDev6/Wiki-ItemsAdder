@@ -1,4 +1,4 @@
-# Placeholders
+# Placeholders变量
 
 You can use these special placeholders in chat, signs, books and in GUIs names.
 

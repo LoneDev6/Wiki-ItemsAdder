@@ -1,4 +1,4 @@
-# Method 1 \(.ttf\)
+# 方法一\(.ttf格式\)
 
 {% hint style="info" %}
 ## This method allows you to add fonts using .ttf font files

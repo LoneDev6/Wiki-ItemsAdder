@@ -1,4 +1,4 @@
-# Create transparent textured furnitures
+# 创建透明材质的家具
 
 {% hint style="warning" %}
 如果你想制作一些透明/半透明的材质,你必须确保你的物品是基于一个透明的原版物品.  

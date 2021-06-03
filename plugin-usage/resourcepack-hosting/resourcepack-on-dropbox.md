@@ -1,4 +1,4 @@
-# Resourcepack on DropBox
+# DropBox托管材质包\(需VPN\)
 
 {% hint style="danger" %}
 **DO NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  

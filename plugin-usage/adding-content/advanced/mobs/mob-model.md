@@ -2,7 +2,7 @@
 description: How to create 3D models for your mob
 ---
 
-# Mob model
+# 怪物模型
 
 {% hint style="danger" %}
 UNFINISHED. I will release a tool to create animations easily.  

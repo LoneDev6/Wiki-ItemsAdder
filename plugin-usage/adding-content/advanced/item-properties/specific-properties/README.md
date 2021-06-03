@@ -1,2 +1,2 @@
-# Specific properties
+# 具体属性
 

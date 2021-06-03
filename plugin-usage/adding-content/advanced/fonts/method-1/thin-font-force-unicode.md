@@ -1,4 +1,4 @@
-# Thin font \(force unicode\)
+# 瘦体字\(force unicode\)
 
 ## Thin font
 

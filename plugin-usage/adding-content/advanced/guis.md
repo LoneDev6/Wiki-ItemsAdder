@@ -1,7 +1,7 @@
 # GUIs
 
 In order to make GUIs you can copy and paste my pack named mcguis and edit it on your likings.  
-In order to create custom GUIs you can use the [JavaAPI ](../../../developers/java-api/huds-guis.md)or install a plugin like [ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
+In order to create custom GUIs you can use the [JavaAPI ](../../../kai-fa/java-api/huds-guis.md)or install a plugin like [ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
 If you are using a plugin like ChestCommands you have to name the GUI like this:
 
 ```text

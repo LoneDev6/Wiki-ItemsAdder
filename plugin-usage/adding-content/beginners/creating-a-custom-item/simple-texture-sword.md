@@ -1,4 +1,4 @@
-# Simple texture sword
+# 普通材质的剑
 
 {% hint style="danger" %}
 ### Namespace

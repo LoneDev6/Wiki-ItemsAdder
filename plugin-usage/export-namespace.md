@@ -1,4 +1,4 @@
-# 💾Export namespace
+# 💾导出物品空间
 
 {% hint style="success" %}
 ## With ItemsAdder it's easy to share your creations without having to copy and paste files!

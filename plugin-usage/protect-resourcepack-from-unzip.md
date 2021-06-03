@@ -1,4 +1,4 @@
-# Protect resourcepack from unzip
+# 保护材质包不被解压
 
 {% hint style="info" %}
 With ItemsAdder you can protect your resourcepack from unzip and thieves.  

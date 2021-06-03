@@ -1,4 +1,4 @@
-# Magic wand
+# 魔法棒
 
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" caption="" %}
 

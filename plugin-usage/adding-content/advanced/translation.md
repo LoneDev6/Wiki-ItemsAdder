@@ -1,4 +1,4 @@
-# Translation
+# 语言文件
 
 You can translate everything in ItemsAdder, it's really easy.
 

@@ -1,4 +1,4 @@
-# 🐌Plugin loading very slow
+# 🐌插件加载非常慢
 
 ## 几周/几个月后,ItemAdder将加载得非常慢
 

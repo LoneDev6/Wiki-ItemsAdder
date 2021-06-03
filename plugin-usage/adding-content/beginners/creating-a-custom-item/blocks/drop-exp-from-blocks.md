@@ -1,4 +1,4 @@
-# Drop exp from blocks
+# 挖取掉落经验
 
 {% hint style="info" %}
 ### There are 2 ways to drop exp from your custom blocks.

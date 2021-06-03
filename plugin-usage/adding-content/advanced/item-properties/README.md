@@ -1,2 +1,2 @@
-# Item properties
+# 物品属性
 

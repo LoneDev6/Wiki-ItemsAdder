@@ -2,7 +2,7 @@
 description: This recipes allows your users to cook/smelt materials
 ---
 
-# Cooking
+# 烹饪配方
 
 ## Example
 

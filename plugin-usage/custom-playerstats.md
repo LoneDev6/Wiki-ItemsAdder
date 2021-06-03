@@ -1,4 +1,4 @@
-# Custom PlayerStats
+# 自定义PlayerStats
 
 ## What are PlayerStats?
 

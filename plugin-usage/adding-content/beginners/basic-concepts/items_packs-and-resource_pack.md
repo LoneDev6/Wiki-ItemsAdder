@@ -1,4 +1,4 @@
-# items\_packs and resource\_pack
+# items\_packs和resource\_pack
 
 ## What are these folders?
 

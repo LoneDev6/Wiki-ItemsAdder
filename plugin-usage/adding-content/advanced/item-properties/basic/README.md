@@ -2,7 +2,7 @@
 description: Collection of basic item properties
 ---
 
-# Basic
+# 基本内容
 
 ## Enabled
 

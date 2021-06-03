@@ -1,4 +1,4 @@
-# 🏁Tips for fastest usage
+# 🏁最快的使用方法
 
 ## It takes too much time editing the pack and uploading it online!
 

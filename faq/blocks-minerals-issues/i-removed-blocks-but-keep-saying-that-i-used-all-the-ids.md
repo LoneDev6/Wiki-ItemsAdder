@@ -1,4 +1,4 @@
-# I removed blocks but keep saying that I used all the IDs
+# 我删除了该物品,但一直显示已占用ID
 
 如果你真的确定会出现这种问题,你可以用命令来清理插件的缓存:`/iacleancache`  
 它将会删除所有缓存的ID,这样你就可以重新使用被删除区块的旧ID.

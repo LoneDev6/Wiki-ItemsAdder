@@ -1,4 +1,4 @@
-# Resourcepack on mc-packs.net
+# mc-packs.net托管材质包
 
 {% hint style="danger" %}
 **NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  

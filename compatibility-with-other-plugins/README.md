@@ -1,2 +1,2 @@
-# ✅Compatibility with other plugins
+# ✅已经兼容的插件列表
 

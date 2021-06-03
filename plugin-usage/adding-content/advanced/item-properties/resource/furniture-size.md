@@ -1,4 +1,4 @@
-# Furniture size
+# 家具的尺寸
 
 ## How can I adjust the furniture position when placed?
 

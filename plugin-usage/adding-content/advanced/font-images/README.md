@@ -2,7 +2,7 @@
 description: Allows you to create images which can be used in texts
 ---
 
-# Font Images
+# Font图像
 
 ### Font images?
 

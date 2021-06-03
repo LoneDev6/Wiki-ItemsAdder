@@ -1,4 +1,4 @@
-# An error occurred when enabling the resourcepack
+# 启用资源包时发生错误
 
 ## 查看这里
 

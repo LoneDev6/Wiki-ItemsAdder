@@ -1,4 +1,4 @@
-# Creating your namespace
+# 创造一个属于你的物品空间
 
 {% hint style="warning" %}
 If you don't know what I mean by **namespace** please read [namespace tutorial](basic-concepts/namespace.md)

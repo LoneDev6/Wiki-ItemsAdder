@@ -1,4 +1,4 @@
-# Method 2 - easier \(.png\)
+# 方法二\(.png格式\)
 
 {% hint style="info" %}
 ## This method allows you to add fonts using .png files

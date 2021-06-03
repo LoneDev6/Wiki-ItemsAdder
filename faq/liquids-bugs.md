@@ -1,4 +1,4 @@
-# 💧Liquids bugs
+# 💧液体特性
 
 {% hint style="warning" %}
 Sometimes chunks can still maintain the liquid color after you removed them.  

@@ -1,4 +1,4 @@
-# I see crisp textures far away!
+# 看不清楚远处的材质
 
 {% hint style="warning" %}
 如果你在远处看到点状而不是平滑的材质,这个是资源包制作的常见问题.  

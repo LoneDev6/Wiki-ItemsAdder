@@ -1,4 +1,4 @@
-# ⚠️Important notes
+# ⚠️重要说明
 
 ## Mipmap 问题 \(和材质大小相关\)
 

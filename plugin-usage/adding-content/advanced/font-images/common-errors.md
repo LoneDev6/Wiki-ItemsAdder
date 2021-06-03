@@ -1,4 +1,4 @@
-# Common errors
+# 常见错误
 
 ## I see only a white square
 

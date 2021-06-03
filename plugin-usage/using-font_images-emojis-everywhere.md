@@ -1,4 +1,4 @@
-# 😄Using font\_images/emojis everywhere
+# 😄每个玩家都可以使用font\images/表情
 
 It's very easy, you will be able to use emojis everywhere! For example in [holograms](../compatibility-with-other-plugins/compatible/holographic-displays.md).
 

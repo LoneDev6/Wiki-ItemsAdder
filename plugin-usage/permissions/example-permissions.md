@@ -1,4 +1,4 @@
-# ↪️Example permissions
+# ↪️基础权限
 
 ## Example setup:
 

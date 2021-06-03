@@ -1,4 +1,4 @@
-# Behaviours
+# 类型设置
 
 ## What are behaviours?
 

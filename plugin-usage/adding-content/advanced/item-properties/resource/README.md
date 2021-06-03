@@ -2,7 +2,7 @@
 description: Properties that allows customization of item graphics
 ---
 
-# Resource
+# 材质内容
 
 {% hint style="danger" %}
 Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)

@@ -1,4 +1,4 @@
-# PlaceholderAPI
+# PlaceholderAPI变量
 
 ## FontImage \(emoji etc\)
 

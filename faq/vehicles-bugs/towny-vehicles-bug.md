@@ -1,4 +1,4 @@
-# Can't write in chat and can't move
+# 不能聊天和不能移动
 
 ## Worldguard
 

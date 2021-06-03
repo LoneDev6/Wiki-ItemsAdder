@@ -1,4 +1,4 @@
-# Furniture collisions
+# 家具的硬度
 
 ## How can I make a furniture solid?
 

@@ -1,4 +1,4 @@
-# Loots
+# 怪物/生物掉落
 
 Loots can be used to specify when to drop a particular item.  
 You can decide to create different loot types:

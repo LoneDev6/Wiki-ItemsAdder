@@ -1,4 +1,4 @@
-# Using MythicMobs
+# 配合MythicMobs食用
 
 ## How to make MythicMobs handle my custom mob
 

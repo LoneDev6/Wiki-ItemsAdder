@@ -2,7 +2,7 @@
 description: This recipe allows your users to craft an item
 ---
 
-# Crafting
+# 合成配方
 
 ## Example
 
