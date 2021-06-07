@@ -40,8 +40,8 @@ Actions are what will happen when an event is triggered.
 ### Delay
 
 {% hint style="info" %}
-Every action has a special attribute delay.  
-It's the delay in ticks before starting the action.  
+Every action has a special attribute **delay**.  
+It's the **delay** in ticks before starting the action.  
 For example:
 
 ```yaml
@@ -106,7 +106,74 @@ play_sound_3:
 ```
 {% endhint %}
 
-### List of actions properties
+### Actions permission
+
+{% hint style="info" %}
+Every action has a special attribute **permission**.  
+It's the **permission** the player must have before starting the **action**.  
+For example the player must have `myitems.usage.secret_items_dispenser` permission to play the sound.  
+In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give\_item.
+
+```yaml
+  test_block:
+    display_name: display-name-test_block
+    permission: test_block
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/test_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: SMITHING_TABLE
+    events:
+      placed_block:
+        interact:
+          give_item:
+            permission: "myitems.usage.secret_items_dispenser"
+            item: DIAMOND
+          play_sound:
+            name: itemsadder:ambient.creepy
+            volume: 1
+            pitch: 1
+```
+
+### Setting the same permission to every action
+
+If you want to set the same permission to every action without copy and paste you can!  
+Use this special attribute `all_actions_permission`.  
+For example:
+
+```yaml
+  test_block:
+    display_name: display-name-test_block
+    permission: test_block
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/test_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: SMITHING_TABLE
+    all_actions_permission: "myitems.usage.secret_items_dispenser"
+    events:
+      placed_block:
+        interact:
+          give_item:
+            item: DIAMOND
+      play_sound:
+        name: itemsadder:ambient.creepy
+        volume: 1
+        pitch: 1
+```
+{% endhint %}
+
+## List of actions properties
 
 ```yaml
 play_sound:
