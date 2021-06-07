@@ -2,7 +2,7 @@
 
 
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 {% hint style="info" %}
 This is normal as ItemsAdder uses mushroom blocks to create custom blocks.  
