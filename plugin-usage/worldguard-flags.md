@@ -14,13 +14,37 @@ Allow user to move item to campfire
 
 Allow user to remove item from campfire
 
+### ia-vehicle-place
+
+Allow user to place vehicles in the region
+
+### ia-vehicle-remove
+
+Allow user to remove ANY vehicle in the region
+
+### ia-vehicle-personal-remove
+
+allow user to remove only their own vehicles in the region
+
 ### ia-vehicle-sit
 
 Allow user to sit on any vehicle in the region
 
 ### ia-vehicle-personal-sit
 
-allow user to sit only on own vehicles in the region
+allow user to sit only on their own vehicles in the region
+
+### ia-trade-machine-use
+
+allow user to use trade machines
+
+### ia-placed-block-interact
+
+allow user to trigger placed\_block.interact events
+
+### ia-placed-armorstand-interact
+
+allow user to trigger placed\_armorstand.interact events
 
 {% hint style="info" %}
 Set **ia-vehicle-sit** to Deny and **ia-vehicle-personal-sit** to Allow to let your players only sit on personal vehicles

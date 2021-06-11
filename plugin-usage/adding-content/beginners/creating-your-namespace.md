@@ -4,9 +4,10 @@
 If you don't know what I mean by **namespace** please read [namespace tutorial](basic-concepts/namespace.md)
 {% endhint %}
 
-## Creating the items\_packs subfolder
+## Creating an items\_packs subfolder
 
-In order to keep everything organized you have to create your own namespace. First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
+In order to keep everything organized you have to create **your** own **namespace**.   
+First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
 
 So this example **namespace** will be `myitems` so create a folder names like the namespace.
 
@@ -36,6 +37,6 @@ For example I divided my items in swords, blocks, food, drinks...
 {% endhint %}
 
 {% hint style="warning" %}
-**All this "nesting" could seem boring** **but** **trust me**, it reduces errors as much as possible and allows you to find everything easly.
+**All this "nesting" could seem boring** **but** **trust me**, it reduces errors as much as possible and allows you to find everything easily.
 {% endhint %}
 

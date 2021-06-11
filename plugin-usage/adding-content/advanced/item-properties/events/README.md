@@ -37,6 +37,7 @@ You can make things happen \([actions](actions.md)\) when an event is triggered 
 * unheld
 * item\_throw
 * item\_hit\_ground
+* item\_hit\_entity
 * placed\_block.interact
 * placed\_block.break
 * placed\_armorstand.interact

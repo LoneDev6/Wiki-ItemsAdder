@@ -23,6 +23,12 @@ categories:
     icon: "itemsadder:ruby_head"
     name: 'Armors'
     permission: "ia.menu.armors"
+    #THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    font_image:
+      name: "mcguis:blank_menu"
+      x_position_pixels: -16
+    #THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    title_position_pixels: 0
     items:
       - "itemsadder:ruby_sword"
       - "itemsadder:ruby_head"
@@ -35,6 +41,11 @@ categories:
 ```
 
 如果你想让玩家在菜单中看到这一类别，记得给他们权限。 例如： **ia.menu.armors**
+
+{% hint style="info" %}
+**font\_image and title\_position\_pixels are optional.**  
+Plugin will take the one in `ia_gui.yml` if not set.
+{% endhint %}
 
 {% hint style="success" %}
 **相同名字类别**即便命名空间不同，**也会被合并**，当你给两个文件都设置类别名为“剑”，那么在 **/ia** 打开的菜单中，你会在剑这一类别里看到两个文件中的物品。

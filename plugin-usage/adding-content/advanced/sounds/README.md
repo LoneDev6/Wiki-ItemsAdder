@@ -4,17 +4,17 @@
 
 {% page-ref page="convert-sound-to-.ogg.md" %}
 
-* open plugins\ItemsAdder\data\resource\_pack\assets folder
+* open **plugins\ItemsAdder\data\resource\_pack\assets** folder
 * open your [namespace](../../beginners/creating-your-namespace.md) folder
-* create a new folder called sounds
-* put your .ogg file in there \(you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...\)
+* create a new folder called **sounds**
+* put your **.ogg** file in there \(you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...\)
 
-for example I have a file named cdk\_sunday.ogg and I put it into a new music\_disc folder.  
+for example I have a file named **cdk\_sunday.ogg** and I put it into a new **music\_disc** folder.  
 So now I have `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`
 
 ### Step 2
 
-* open plugins\ItemsAdder\data\resource\_pack\assets folder
+* open **plugins\ItemsAdder\data\resource\_pack\assets** folder
 * open your [namespace](../../beginners/creating-your-namespace.md) folder
 * create a new file named `sounds.json` \(or open it if you already created\)
 * this file is a json file, you MUST write it corretly or it won't work. If you need info about Json files please search online.
@@ -23,11 +23,11 @@ To add your sound into the file you just have to do this:
 
 ```javascript
 {
-    "music_disc.cdk_sunday":{
-        "sounds":[
-            "itemsadder:music_disc/cdk_sunday"
-        ]
-    }
+	"music_disc.cdk_sunday":{
+		"sounds":[
+			"myitems:music_disc/cdk_sunday"
+		]
+	}
 }
 ```
 
@@ -39,22 +39,23 @@ This is the sound name, you will use it in every part of the plugin and also in 
 ```
 
 This is the list of sound files Minecraft will play when you call the sound name.  
-Minecraft will play one of these sounds randomly \(only if you set more than one sound\).
+Minecraft will play one of these sounds randomly \(only if you set more than one sound\).  
+⚠️Keep in mind that you have to change `myitems` to your own namespace name.
 
 ```javascript
 "sounds":[
-            "itemsadder:music_disc/cdk_sunday"
-        ]
+			"myitems:music_disc/cdk_sunday"
+		]
 ```
 
 For example if you want to have random sounds for the same sound name you just have to create multiple .ogg files and put them like this:
 
 ```javascript
 "sounds":[
-            "itemsadder:music_disc/cdk_sunday_1",
-            "itemsadder:music_disc/cdk_sunday_2",
-            "itemsadder:music_disc/test_file"
-        ]
+			"myitems:music_disc/cdk_sunday_1",
+			"myitems:music_disc/cdk_sunday_2",
+			"myitems:music_disc/test_file"
+		]
 ```
 
 ## How can I add multiple sounds in the sounds.json file?

@@ -20,6 +20,8 @@ specific_properties:
     - PICKAXE
     - pickaxe
     hardness: 2 #hardness of the block
+    blast_resistance: 1 #explosion resistance (by default is hardness*3)
+    no_explosion: false #totally immune from explosions, ignoring blast_resistance
     sound: #customizable sounds of the block
       break:
         name: BLOCK_WOOD_BREAK
@@ -100,6 +102,14 @@ Whitelist of tools that cannot run events on this block [\(`placed_block.interac
 
 Hardness of the block, it makes it more difficult to be mined.  
 Refer to my blocks to get some **examples** \(check **blocks.yml** file inside **itemsadder namespace**\).
+
+### blast\_resistance
+
+Explosion resistance \(by default is `hardness * 3`\)
+
+### no\_explosion
+
+Totally immune from explosions, ignoring `blast_resistance`
 
 ### sounds
 

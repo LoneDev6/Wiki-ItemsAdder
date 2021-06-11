@@ -1,6 +1,6 @@
 # 在某些区域/自定义世界中出现的错误方块
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 {% hint style="info" %}
 这很正常,因为ItemsAdder使用蘑菇方块来创建自定义方块.ItemsAdder只是检查一些生物群落来修复故障方块,以避免CPU性能占用太大
