@@ -5,7 +5,7 @@
     * `ia.user.ia`
   * /iarecipe
     * `ia.user.iarecipe`
-  * /iatexture
+  * /iatexture \(to force apply the pack to yourself\)
     * `ia.user.iatexture`
   * крафтинг
     * `ia.user.craft.PERMISSION` \(или выдайте все права на крафты сразу одной строкой - ia.user.craft.\*\)
@@ -48,6 +48,8 @@
     * `ia.admin.iareload`
   * /iablock \(дает информацию о блоке, на который вы смотрите\)
     * `ia.admin.iablock`
+  * /ialiquid _\(get info about custom liquid you're looking at\)_
+    * `ia.admin.ialiquid`
   * /iadurability
     * ia.admin.iadurability
   * Право редактирования \(кнопка редактирование в меню /ia\)
@@ -62,10 +64,18 @@
     * `ia.admin.iakill`
   * /iasummon &lt;mob&gt; \[количество\]
     * `ia.admin.iasummon`
+  * /iaexport &lt;namespace&gt;
+    * `ia.admin.iaexport`
   * /iaspawntree &lt;tree&gt;
     * `ia.admin.iaspawntree`
   * /iaplaytotemanimation &lt;totem&gt; &lt;player&gt;
     * `ia.admin.iatotemanimation`
+  * /iaplaysound &lt;sound&gt; &lt;player&gt;
+    * `ia.admin.iaplaysound`
+  * /iacleancache
+    * `ia.admin.iacleancache`
+  * /iahitbox \(shows the hitbox of placed furnitures\)
+    * `ia.admin.iahitbox`
 * Прочее:
   * Право избежать отключение от сервера, если владелец права отказался от пакета ресурсов
     * `ia.resourcepack.bypasskick`

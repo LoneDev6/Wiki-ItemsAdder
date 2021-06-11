@@ -7,10 +7,10 @@
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
 ```java
-CustomItem customItem = CustomStack.getInstance("your_item")
-if(customItem != null)
+CustomStack stack = CustomStack.getInstance("your_item")
+if(stack != null)
 {
-    ItemStack itemStack = customItem.getItemStack();
+    ItemStack itemStack = stack.getItemStack();
 }
 else
 {
@@ -35,10 +35,10 @@ ItemsAdder.isCustomItem("your_item");
 ### Получение информации предмета из игры ItemStack
 
 ```java
-CustomItems customItems = CustomStack.byItemStack("your_item");
-if(customItem != null)
+CustomStack stack = CustomStack.byItemStack(myItemStack);
+if(stack != null)
 {
-    customItem.setUsages(5)//for example set usages
+    stack.setUsages(5)//for example set usages
 }
 else
 {
@@ -46,7 +46,39 @@ else
 }
 ```
 
-## Сущности ItemsAdder
+## Custom Blocks
+
+#### Check if world block is a custom blocks
+
+```java
+CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
+if(customBlock != null)
+{
+    //custom block
+    
+}
+else
+{
+    //not a custom block
+}
+```
+
+#### Place custom block
+
+```java
+CustomBlock customBlock = CustomBlock.getInstance("ruby_ore");
+if(customBlock != null) //not needed if you're sure the blocks exists.
+{
+    //custom block
+    customBlock.place(location);
+}
+else
+{
+    //not a custom block
+}
+```
+
+## Custom mobs
 
 ### Призыв сущности при помощи ID или названия папки и ID \(namespace:id\)
 

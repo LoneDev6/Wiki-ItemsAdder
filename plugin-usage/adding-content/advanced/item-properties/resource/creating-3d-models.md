@@ -1,6 +1,11 @@
 # Создание 3D-модели
 
-Для создания моделей я использую [BlockBench ](https://blockbench.net/)- данная программа бесплатна, очень проста в использовании и является лучшим инструментом моделирования для Minecraft.
+## Creating 3D model from a texture
+
+{% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" %}
+
+
+
 
 {% embed url="https://www.youtube.com/watch?v=aaJ8XgMAOno" caption="" %}
 

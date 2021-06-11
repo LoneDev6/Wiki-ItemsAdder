@@ -185,3 +185,29 @@ loots:
 Атрибуты **nbt** и **метаданных \(metadata\)** очень **важны**, не **забывайте** о них, иначе сделать сопоставление не получится.
 {% endhint %}
 
+{% hint style="info" %}
+## Drop based on spawner entity
+
+### \(and any other NBT attribute you want to match\)
+{% endhint %}
+
+```yaml
+loots:
+  blocks:
+    change_me:
+      enabled: true
+      type: SPAWNER
+      nbt:
+        spawner_type:
+          path: SpawnData.id
+          value: minecraft:zombie
+          type: string
+      items:
+        change_me:
+          item: ACACIA_BOAT
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: false
+```
+

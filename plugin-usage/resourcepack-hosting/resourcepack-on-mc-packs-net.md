@@ -5,7 +5,11 @@
 Он находится в папке по этому пути: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
 
-## Инструкция
+{% hint style="danger" %}
+## Some users reported this website doesn't work. It's adviced to use [Dropbox](resourcepack-on-dropbox.md).
+{% endhint %}
+
+## Text tutorial
 
 * Откройте [mc-packs.net](https://mc-packs.net/)
 * Используйте команду на сервере - `/iazip` \(**это крайне важно**, так как `/iazip`перезагружает все настройки и генерирует файл **pack.zip**\)

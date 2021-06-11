@@ -33,7 +33,7 @@
 
 #### Предметы ItemsAdder
 
-`plugins\ItemsAdder\data\items_packs\mcemojis`  
+`plugins\ItemsAdder\data\items_packs\itemsadder`  
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
 #### Образец предметов

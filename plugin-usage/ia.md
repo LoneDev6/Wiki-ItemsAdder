@@ -23,6 +23,12 @@ categories:
     icon: "itemsadder:ruby_head"
     name: 'Armors'
     permission: "ia.menu.armors"
+    #THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    font_image:
+      name: "mcguis:blank_menu"
+      x_position_pixels: -16
+    #THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    title_position_pixels: 0
     items:
       - "itemsadder:ruby_sword"
       - "itemsadder:ruby_head"
@@ -36,6 +42,11 @@ categories:
 
 Не забывайте выдавать игрокам права на каждую добавленную категори, если вы хотите, чтобы они их видели.  
 Пример прав для игрока: **ia.menu.armors**
+
+{% hint style="info" %}
+**font\_image and title\_position\_pixels are optional.**  
+Plugin will take the one in `ia_gui.yml` if not set.
+{% endhint %}
 
 {% hint style="success" %}
 **Категории** с **одинаковыми именами**, но отличными друг от друга папками **будут соединены в одну**, это довольно **полезно**, если вы имеете 2 категори для мечей. Это дает возможность видеть одну организованную категорию для мечей вместо двух в меню **/ia**.

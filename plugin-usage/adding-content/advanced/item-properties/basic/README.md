@@ -39,6 +39,19 @@ lore:
 
 Строки лора \(описания\) предмета
 
+### Enchants
+
+```yaml
+enchants:
+  - ARROW_FIRE:1
+  - anger_artifact:1
+  - my_custom_plugin:custom_enchant:6
+```
+
+Enchants of the item.  
+You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins \(for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...\).  
+Supports also **namespaces** \(if you are creating custom enchants using Namespaced keys\)
+
 ## Атрибуты предмета \(Attribute modifiers\)
 
 ```yaml
@@ -195,4 +208,12 @@ blocked_enchants:
             name: mana
             amount: 1
 ```
+
+### template
+
+{% page-ref page="templates-and-variants.md" %}
+
+### variant\_of
+
+{% page-ref page="templates-and-variants.md" %}
 

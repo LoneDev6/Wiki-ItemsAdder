@@ -119,5 +119,12 @@ items:
       - slimefun/carbonado.png
 ```
 
-\`\`
+{% hint style="warning" %}
+### IMPORTANT
+
+If you previously created this item and already used `/iazip` command and now you change the **model\_id**:  
+it's **very important** to run the command `/iacleancache items` to **remove unused IDs** and **update** the **changed ID**.
+{% endhint %}
+
+
 

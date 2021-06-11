@@ -14,13 +14,37 @@
 
 Разрешает/запрещает игрокам забирать предметы из костра
 
+### ia-vehicle-place
+
+Allow user to place vehicles in the region
+
+### ia-vehicle-remove
+
+Allow user to remove ANY vehicle in the region
+
+### ia-vehicle-personal-remove
+
+allow user to remove only their own vehicles in the region
+
 ### ia-vehicle-sit
 
 Разрешает/запрещает игрокам садится в любой транспорт в регионе
 
 ### ia-vehicle-personal-sit
 
-Разрешает/запрещает игрокам садится только в собственный транспорт в регионе
+allow user to sit only on their own vehicles in the region
+
+### ia-trade-machine-use
+
+allow user to use trade machines
+
+### ia-placed-block-interact
+
+allow user to trigger placed\_block.interact events
+
+### ia-placed-armorstand-interact
+
+allow user to trigger placed\_armorstand.interact events
 
 {% hint style="info" %}
 Установите **ia-vehicle-sit** на значение Deny и **ia-vehicle-personal-sit** на значение Allow, чтобы дать возможность игрокам садится только в собственный транспорт.
