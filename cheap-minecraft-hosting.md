@@ -22,7 +22,7 @@ If you need a **good** and **cheap hosting** to open your **Minecraft server** o
 
 ## Here you can test it yourself, on my server
 
-![](.gitbook/assets/immagine%20%2823%29.png)
+![](http://www.matteodev.it/spigot/test_server_banner.php)
 
 
 
