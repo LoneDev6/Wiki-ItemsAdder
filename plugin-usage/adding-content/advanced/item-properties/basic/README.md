@@ -211,5 +211,11 @@ You can set it to `>`, `<` ad `=`
             amount: 1
 ```
 
+### template
 
+{% page-ref page="templates-and-variants.md" %}
+
+### variant\_of
+
+{% page-ref page="templates-and-variants.md" %}
 

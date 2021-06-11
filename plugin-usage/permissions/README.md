@@ -82,6 +82,8 @@
     * `ia.admin.iaplaysound`
   * /iacleancache
     * `ia.admin.iacleancache`
+  * /iahitbox \(shows the hitbox of placed furnitures\)
+    * `ia.admin.iahitbox`
 * Other:
   * Bypass kick on refuse resourcepack
     * `ia.resourcepack.bypasskick`

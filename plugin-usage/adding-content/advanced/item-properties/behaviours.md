@@ -1,20 +1,34 @@
 # Behaviours
 
-## What are behaviours?
+What are behaviours?
 
 Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.  
 These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.
 
 ### List of behaviours included in the plugin
 
-* block\_trade\_machine
-* furniture\_trade\_machine
-* furniture
-* furniture\_sit
-* gun
-* hat
-* music\_disc
-* vehicle
+* `block_trade_machine`
+* `furniture_trade_machine`
+* `fuel`
+* `furniture`
+* `furniture_sit`
+* `gun`
+* `hat`
+* `keep_on_death`
+* `liquid_analyzer`
+* `liquid_bucket`
+* `mob_animation`
+* `mob`
+* `music_disc`
+* `sapling`
+* `spawn_egg`
+* `vehicle`
+
+{% hint style="info" %}
+You can get suggestions how how to use the behaviours using the official editor:
+
+{% page-ref page="../../../../files-editor.md" %}
+{% endhint %}
 
 ```yaml
 # This behaviour allows you to open a trade GUI with the following items
@@ -50,25 +64,38 @@ block_trade_machine:
         amount: 1
         
 furniture_trade_machine:
-....... it's the same as block_trade_machine
+# ....... it's the same as block_trade_machine
 
    
 # When you rightclick with that item it will be placed on the ground with an
 # armorstand. The armorstand will have the item as helmet and will be invisible.
 furniture:
-  small_hitbox: true
+  entity: armor_stand # you can also use item_frame (works better on 1.16+)
+  small: true
   gravity: true
   fixed_rotation: false
   light_level: 7  
   solid: false
   opposite_direction: false #makes the model rotate 180 when placed
-
+  hitbox:
+    length: 2
+    width: 2.3
+    height: 1
+    length_offset: 0.5
+    width_offset: 0.5
+    height_offset: 0.5
+  placeable_on:
+    walls: false
+    ceiling: false
+    floor: true
 
 # If you add this behaviour and "furniture" behaviour you will be able to sit
 # on the furniture at the defined height.
 furniture_sit:
   sit_height: 0.9
   opposite_direction: true #default is true
+  # Sit on every BARRIER block of the furniture (for multi-seats chairs)
+  sit_all_solid_blocks: false
   
 
 # Allows you to use this item as a gun. You can decide which projectile must
@@ -80,6 +107,8 @@ gun:
 # Allows you to use the current item as hat (same vanilla helmet behaviour)
 hat: true
 
+# Allows you to make the item stay in player inventory on death
+keep_on_death: true
 
 # Allows you to use the current item as a vanilla music disc.
 # Remember that you will have to create a custom sound to be able
@@ -93,13 +122,13 @@ music_disc:
 # Allows you to use the current item as a ridable vehicle
 vehicle:
   fixed_rotation: false
-  small_hitbox: true
+  small: true
   sit_height: 0
   step_height: 0.1
-  size:
-    x: 2
-    y: 1.7
-    z: 1
+  hitbox:
+    length: 2
+    width: 1.7
+    height: 1
   speed:
     drive: 1
     jump: 0.3
