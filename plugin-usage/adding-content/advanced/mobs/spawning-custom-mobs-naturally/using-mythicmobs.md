@@ -22,7 +22,7 @@ StaticallyChargedSheep:
 ```
 
   
-Open your ItemsAdder .yml file where you created the mob and to edit the **replace rule** like this:
+Open your **ItemsAdder** `.yml` file where you created the mob and to edit the **replace rule** like this:
 
 ```yaml
         replace_mobs_spawn:
@@ -39,25 +39,13 @@ It's important to set **replace\_mythicmob** `name` property to your **mythicmob
 
 ### Random chance
 
-If you want to replace the mythic mob only sometimes \(this allows you to create more skin variations for the name mythicmob\) you just have to set `always: false` and set your spawn rules.  
-Example:
-
-```yaml
-    replace_mobs_spawn:
-      mob1:
-        replace_mythicmob:
-          name: StaticallyChargedSheep
-          always: false
-        type: SHEEP
-        reason: CUSTOM
-        chance: 20
-        max_sky_light: 0
-        time:
-          start: MIDNIGHT
-```
+If you want to create custom spawn logic for your custom mob you must not use **ItemsAdder** rules, use **Mythicmobs** configuration: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
 
 {% hint style="warning" %}
-Remember to set `reason: CUSTOM` or it won't work as MythicMobs sets the spawn reson to `CUSTOM` and not `NATURAL`.
+### Warning:
+
+**ItemsAdder** eggs and /iasummon command **won't work** for Mythicmobs custom mobs, you have to spawn them using **Mythicmobs command** if you want to spawn them manually.  
+`/mythicmobs mobs spawn StaticallyChargedSheep`
 {% endhint %}
 
 
