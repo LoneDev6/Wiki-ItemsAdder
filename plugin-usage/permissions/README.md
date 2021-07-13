@@ -50,6 +50,8 @@
     * `ia.admin.iaremove`
   * /iatag
     * `ia.admin.iatag`
+  * /iacustommodeldata
+    * `ia.admin.custommodeldata`
   * /iareload
     * `ia.admin.iareload`
   * /iazip
