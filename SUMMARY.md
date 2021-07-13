@@ -178,5 +178,7 @@
     * [BetonQuest](compatibility-with-other-plugins/compatible/betonquest.md)
     * [ChatControl-Red](compatibility-with-other-plugins/compatible/chatcontrol-red.md)
     * [DeluxeMenu](compatibility-with-other-plugins/compatible/deluxemenu.md)
+    * [TrMenu](compatibility-with-other-plugins/compatible/trmenu.md)
+    * [BanItem](compatibility-with-other-plugins/compatible/banitem.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
