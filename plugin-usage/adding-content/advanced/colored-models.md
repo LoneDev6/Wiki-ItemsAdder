@@ -55,7 +55,3 @@ Copy the **decimal** color \(hex\).
 
 ![](../../../.gitbook/assets/immagine%20%2892%29.png)
 
-
-
-
-

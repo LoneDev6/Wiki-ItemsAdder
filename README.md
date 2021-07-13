@@ -11,4 +11,3 @@ description: 这个百科可以帮助你了解Itemsadder插件的配置文件和
 * [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-

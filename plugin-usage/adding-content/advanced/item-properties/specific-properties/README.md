@@ -7,5 +7,3 @@ The wiki lacks all the other `specific_properties` information.
 {% page-ref page="../../../../../files-editor.md" %}
 {% endhint %}
 
-
-

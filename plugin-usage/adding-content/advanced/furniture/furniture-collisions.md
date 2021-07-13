@@ -1,6 +1,6 @@
-# Furniture collisions
+# 家具的硬度
 
-### How can I make a furniture solid?
+## How can I make a furniture solid?
 
 You can make a furniture solid adding the "solid" attribute and specifying a hitbox \(if you want &gt; 1x1x1\)
 
@@ -29,10 +29,10 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
 
 ![](../../../../.gitbook/assets/image%20%2815%29.png)
 
-### Show the hitbox <a id="show-the-hitbox"></a>
+## Show the hitbox <a id="show-the-hitbox"></a>
 
 {% hint style="info" %}
-### Show the hitbox
+## Show the hitbox
 
 You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}

@@ -19,5 +19,5 @@ Sometimes chunks can still maintain the liquid color after you removed them.
 ## **这是Minecraft的特性,我无法进行修复!**
 {% endhint %}
 
-![](../.gitbook/assets/immagine%20%2814%29%20%281%29%20%282%29%20%283%29%20%283%29%20%282%29.png)
+![](../.gitbook/assets/immagine%20%2814%29%20%281%29%20%282%29%20%283%29%20%283%29%20%284%29%20%284%29.png)
 

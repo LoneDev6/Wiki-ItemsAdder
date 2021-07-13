@@ -15,7 +15,7 @@ You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 * Visit [mc-packs.net](https://mc-packs.net/)
 * Use the command`/iazip` \(**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file\)
 * Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* **Upload** the `pack.zip` _\*\*_file
+* **Upload** the `pack.zip` \_\*\*\_file
 * Copy the "Download URL"
 * Open `config.yml` of **ItemsAdder**
 * Set it like this \(**I used the example URL, please use your own**\)

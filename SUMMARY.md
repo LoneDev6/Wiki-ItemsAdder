@@ -26,7 +26,7 @@
       * [Avoid glitched blocks](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
       * [红石 \(真实方块\)](faq/blocks-minerals-issues/custom-blocks-glitch-texture/redstone-real-blocks.md)
       * [音符盒 \(真实音符\)](faq/blocks-minerals-issues/custom-blocks-glitch-texture/noteblocks-real_note.md)
-    * [在某些区域/自定义世界中出现的错误方块](faq/blocks-minerals-issues/glitched-blocks-in-some-areas-custom-worlds.md)
+    * [在某些区域/自定义世界中出现的错误方块](faq/blocks-minerals-issues/zai-mou-xie-qu-yu-zi-ding-yi-shi-jie-zhong-chu-xian-de-cuo-wu-fang-kuai.md)
   * [💧液体特性](faq/liquids-bugs.md)
   * [火焰特性](faq/fire-bugs.md)
   * [无法修改minecraft默认文件](faq/cant-edit-minecraft-default-files.md)

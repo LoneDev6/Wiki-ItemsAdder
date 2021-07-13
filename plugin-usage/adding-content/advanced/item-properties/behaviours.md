@@ -5,7 +5,7 @@ What are behaviours?
 Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.  
 These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.
 
-### List of behaviours included in the plugin
+## List of behaviours included in the plugin
 
 * `block_trade_machine`
 * `furniture_trade_machine`
@@ -96,7 +96,7 @@ furniture_sit:
   opposite_direction: true #default is true
   # Sit on every BARRIER block of the furniture (for multi-seats chairs)
   sit_all_solid_blocks: false
-  
+
 
 # Allows you to use this item as a gun. You can decide which projectile must
 # be hold on left hand in order to shot.

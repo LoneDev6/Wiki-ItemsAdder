@@ -30,7 +30,7 @@ This is an example:
 ### Where do I put textures?
 
 Textures you listed in the `textures` attribute must be placed in the right folder.  
-So if you set `textures` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `example_item.png` _\*\*_file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
+So if you set `textures` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `example_item.png` \_\*\*\_file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
 
 If the path doesn't exists create all the folders needed.
 
@@ -53,7 +53,7 @@ This is an example:
 ### Where do I put my model?
 
 Model you set in the `model_path`attribute must be placed in the right folder.  
-So if you set `model_path` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `floating_sword.json` _\*\*_file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
+So if you set `model_path` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `floating_sword.json` \_\*\*\_file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
 
 If the path doesn't exists create all the folders needed.
 
@@ -125,6 +125,4 @@ items:
 If you previously created this item and already used `/iazip` command and now you change the **model\_id**:  
 it's **very important** to run the command `/iacleancache items` to **remove unused IDs** and **update** the **changed ID**.
 {% endhint %}
-
-
 

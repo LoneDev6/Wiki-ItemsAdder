@@ -8,7 +8,7 @@ BlockBench [tutorials ](https://www.youtube.com/results?search_query=blockbench+
 {% hint style="danger" %}
 You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
 
-![](../../../../../.gitbook/assets/immagine%20%2889%29%20%284%29.png)
+![](../../../../../.gitbook/assets/immagine%20%2889%29%20%281%29.png)
 {% endhint %}
 
 ### Creating a very simple idle animation
@@ -111,11 +111,9 @@ You can delete the 1-2-3-4.json files, you don't need them anymore \(but you can
 
 ## More advanced animations:
 
-{% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" %}
+{% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" caption="" %}
 
 ## Full addon download
 
-{% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" %}
-
-
+{% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" caption="" %}
 

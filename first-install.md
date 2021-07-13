@@ -19,7 +19,6 @@
 * 打开你的服务器
 * 让ItemsAdder完成**初始化**.中国的腐竹需要用科学上网来下载材质包\[当然得在放服务端机子里用科学上网,不是玩家用科学上网哦\]
 * 关闭服务器
-
 * 插件加载完成后进入服务器然后输入命令 `/iazip`
 * 打开Itemadder的配置文件 **\[plugins\ItemsAdder\config.yml\]**
 * 按照下面的按钮来进行下一步的配置
@@ -47,6 +46,4 @@
 ### Avoid glitched blocks \(if you have Purpur installed\)
 
 {% page-ref page="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
-
-
 

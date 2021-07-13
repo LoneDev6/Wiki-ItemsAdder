@@ -7,5 +7,3 @@ Semi-compatible with [CustomCrafting ](https://www.spigotmc.org/resources/custom
 * I know anvil, grindstone and similar recipes may have compatibility bugs please don't report me the bugs, thanks. I can't fix them.
 {% endhint %}
 
-
-

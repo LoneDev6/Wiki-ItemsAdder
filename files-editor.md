@@ -6,7 +6,7 @@
 
 ## Try out my new files editor for ItemsAdder
 
-{% embed url="https://ide.devs.beer/itemsadder/" %}
+{% embed url="https://ide.devs.beer/itemsadder/" caption="" %}
 
 ![](.gitbook/assets/image%20%2814%29.png)
 

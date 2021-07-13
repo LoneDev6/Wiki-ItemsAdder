@@ -213,9 +213,5 @@ You can set it to `>`, `<` ad `=`
 
 ### template
 
-{% page-ref page="templates-and-variants.md" %}
-
 ### variant\_of
-
-{% page-ref page="templates-and-variants.md" %}
 
