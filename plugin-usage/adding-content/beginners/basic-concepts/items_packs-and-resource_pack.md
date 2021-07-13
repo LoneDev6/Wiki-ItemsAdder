@@ -19,7 +19,7 @@ info:
 ### resource\_pack
 
 is a folder which contains an **automatically generated resourcepack**.  
-You can see this folder and **items\_packs** as a very similar thing, but **resource\_pack** folder contains the "**graphical**" part of all **items** \(and also sounds, GUIs...\).   
+You can see this folder and **items\_packs** as a very similar thing, but **resource\_pack** folder contains the "**graphical**" part of all **items** \(and also sounds, GUIs...\).  
 \(**items\_packs** contains the behaviours and settings of the items\)  
 This folder is automatically compressed as a file named **pack.zip**, the one that will be sent to players.
 
@@ -29,7 +29,4 @@ This folder is automatically compressed as a file named **pack.zip**, the one th
 Remember to always maintain order in **resource\_pack** folder, don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.  
 **Remember that please.**
 {% endhint %}
-
-  
-
 

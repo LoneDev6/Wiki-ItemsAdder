@@ -38,7 +38,6 @@ items:
     permission: mysword
     durability:
       max_custom_durability: 1324
-  
 ```
 
 ## Item texture
@@ -76,13 +75,14 @@ items:
 ## Final part
 
 Now you just need to tell the plugin to load your just added item.  
-To do that you have to:  
-- join the server  
-- make sure you accepted the resourcepacks  
-- use the command `/iazip`  
-- if you're using external-host \(DropBox\) [click here](https://itemsadder.plugin.ga/plugin-usage/adding-content/creating-a-custom-item/simple-texture-sword#if-youre-using-external-host-dropbox-read-here)  
-- get the item using `/iaget mysword`  
-- DONE!
+To do that you have to:
+
+* join the server  
+* make sure you accepted the resourcepacks  
+* use the command `/iazip`  
+* if you're using external-host \(DropBox\) [click here](https://itemsadder.plugin.ga/plugin-usage/adding-content/creating-a-custom-item/simple-texture-sword#if-youre-using-external-host-dropbox-read-here)  
+* get the item using `/iaget mysword`  
+* DONE!
 
 ### Now get your item
 
@@ -97,8 +97,8 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
 
 ![](../../../../.gitbook/assets/immagine%20%2817%29.png)
 
-2. Upload it to your hosting \(Dropbox\)  
-3. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
+1. Upload it to your hosting \(Dropbox\)  
+2. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
 
 ```yaml
   self-host:
@@ -113,6 +113,4 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
 If you have more questions read the full **external-host** tutorial here:
 
 {% page-ref page="../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
-
-
 

@@ -55,7 +55,7 @@ CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
 if(customBlock != null)
 {
     //custom block
-    
+
 }
 else
 {

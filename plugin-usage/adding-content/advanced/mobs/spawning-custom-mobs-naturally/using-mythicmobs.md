@@ -1,4 +1,4 @@
-# Using MythicMobs
+# Использование MythicMobs
 
 ## How to make MythicMobs handle my custom mob
 
@@ -21,7 +21,6 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-  
 Open your ItemsAdder .yml file where you created the mob and to edit the **replace rule** like this:
 
 ```yaml
@@ -59,6 +58,4 @@ Example:
 {% hint style="warning" %}
 Remember to set `reason: CUSTOM` or it won't work as MythicMobs sets the spawn reson to `CUSTOM` and not `NATURAL`.
 {% endhint %}
-
-
 

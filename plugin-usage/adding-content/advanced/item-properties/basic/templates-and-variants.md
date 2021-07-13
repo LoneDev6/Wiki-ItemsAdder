@@ -77,5 +77,3 @@ I want to create multiple furnitures which are equal but only model changes.
       model_path: item/birch_wood_park_bench
 ```
 
-
-

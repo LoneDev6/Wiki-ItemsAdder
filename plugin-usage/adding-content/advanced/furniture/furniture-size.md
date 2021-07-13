@@ -42,14 +42,10 @@ behaviours:
 
 {% tabs %}
 {% tab title="Big furniture" %}
-
-
 ![](../../../../.gitbook/assets/immagine%20%288%29.png)
 {% endtab %}
 
 {% tab title="Small furniture" %}
-
-
 ![](../../../../.gitbook/assets/immagine%20%2810%29.png)
 {% endtab %}
 {% endtabs %}

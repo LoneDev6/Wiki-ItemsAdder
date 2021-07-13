@@ -95,7 +95,7 @@ furniture_sit:
   opposite_direction: true      #обычно установлено на значение true
   # Sit on every BARRIER block of the furniture (for multi-seats chairs)
   sit_all_solid_blocks: false
-  
+
 
 
 # Дает возможность использовать предмет как дальнобойнее оружие. Какой предмет должен являться снарядом и лежать

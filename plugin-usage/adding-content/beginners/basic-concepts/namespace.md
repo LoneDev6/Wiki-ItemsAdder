@@ -3,7 +3,7 @@
 ## Namespace
 
 As you surely noticed ItemsAdder uses **namespaces** to identify most of the things it manages.  
-A **namespace** is a **group** of elements, in this case a group of items/blocks/mobs...   
+A **namespace** is a **group** of elements, in this case a group of items/blocks/mobs...  
 With namespaces you can easily understand where a particular item, sound, blocks.. comes from.
 
 ### Example
@@ -18,10 +18,4 @@ Now that you see how it works you want to ask me this question: _How can I creat
 To create your own **namespace** \(you can also define multiple ones!\) it's really easy, read the following tutorial:
 
 {% page-ref page="../creating-your-namespace.md" %}
-
-
-
-
-
-
 

@@ -1,4 +1,4 @@
-# 3D model
+# Модель моба
 
 ## Creating the animated model \(idle animation\)
 
@@ -111,11 +111,9 @@ You can delete the 1-2-3-4.json files, you don't need them anymore \(but you can
 
 ## More advanced animations:
 
-{% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" %}
+{% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" caption="" %}
 
 ## Full addon download
 
-{% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" %}
-
-
+{% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" caption="" %}
 

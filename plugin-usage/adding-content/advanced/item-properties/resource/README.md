@@ -126,5 +126,3 @@ If you previously created this item and already used `/iazip` command and now yo
 it's **very important** to run the command `/iacleancache items` to **remove unused IDs** and **update** the **changed ID**.
 {% endhint %}
 
-
-

@@ -311,12 +311,12 @@ damange_near_entities:
 damage_entity_in_sight:
   damage: 4
   distance: 7
-  
+
 # Allows you to damage the entity of this event. For example on interact or attack
 # or on event item_hit_entity
 damage_entity:
   damage: 4
-  
+
 # Позволяет влиять на статы игрока в положительную сторону, которые привязаны к хаду
 #в данном случае это шкала маны: "itemsadder:mana_bar"
 increment_player_stat:

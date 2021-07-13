@@ -18,5 +18,3 @@ This will allow you to use all the extended features of MythicMobs and apply a c
 
 {% page-ref page="using-mythicmobs.md" %}
 
-
-

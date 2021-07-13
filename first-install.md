@@ -5,7 +5,7 @@
 {% embed url="https://youtu.be/GKGnlF4zZVg" caption="" %}
 
 {% hint style="info" %}
-**You should do** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is down ;\)   
+**You should do** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is down ;\)  
 You can upload files to your real server after you finished here.
 {% endhint %}
 
@@ -47,12 +47,10 @@ If you already own ItemsAdder old 1.0 version please rename **plugins/ItemsAdder
 Если вам не нужны заводские блоки, предметы, а так же другие вещи из заводского списка и вы хотите использовать только собственные предметы и настройки - воспользуйтесь этой статьей.
 
 {% page-ref page="faq/removing-default-stuff.md" %}
-{% endhint %}
 
 ### Avoid glitched blocks \(if you have Purpur installed\)
 
 {% page-ref page="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
-
 
 {% endpage-ref %}
 {% endhint %}

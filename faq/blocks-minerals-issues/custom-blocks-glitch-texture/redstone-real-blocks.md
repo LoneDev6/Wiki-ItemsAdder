@@ -6,7 +6,7 @@
 This is a known issue and cannot be fixed easily without making the plugin lag the server.
 {% endhint %}
 
-{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" %}
+{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" caption="" %}
 
 ![](../../../.gitbook/assets/immagine%20%2839%29.png)
 
