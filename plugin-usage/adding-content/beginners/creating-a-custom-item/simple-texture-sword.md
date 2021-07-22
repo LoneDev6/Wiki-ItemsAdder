@@ -80,7 +80,7 @@ To do that you have to:
 - join the server  
 - make sure you accepted the resourcepacks  
 - use the command `/iazip`  
-- if you're using external-host \(DropBox\) [click here](https://itemsadder.plugin.ga/plugin-usage/adding-content/creating-a-custom-item/simple-texture-sword#if-youre-using-external-host-dropbox-read-here)  
+- if you're using external-host \(DropBox\) scroll down and follow the instructions.  
 - get the item using `/iaget mysword`  
 - DONE!
 
