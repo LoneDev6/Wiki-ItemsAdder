@@ -7,7 +7,7 @@ You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
 
 {% hint style="danger" %}
-## Some users reported this website doesn't work. It's adviced to use [Dropbox](resourcepack-on-dropbox.md).
+## Some users reported this website doesn't work. It's advised to use [Dropbox](resourcepack-on-dropbox.md).
 {% endhint %}
 
 ## Text tutorial

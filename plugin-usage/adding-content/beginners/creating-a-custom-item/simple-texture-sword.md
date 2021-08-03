@@ -10,7 +10,7 @@ If you didn't create your namespace please follow the [namespace tutorial](../cr
 ### Resourcepack hosting
 
 Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
-I **advice** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
+I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 
 {% page-ref page="../../../resourcepack-hosting/" %}
 {% endhint %}
