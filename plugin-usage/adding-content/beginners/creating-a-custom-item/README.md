@@ -1,2 +1,2 @@
-# ⛏Example items
+# ⛏默认物品
 

@@ -1,6 +1,6 @@
 # Mobs
 
 {% hint style="danger" %}
-Mobs are still in beta, please don't ask for support nor for tutorials, surely I will rework how they are managed in files and stuff,
+小怪物还在测试阶段,请不要给我发送建议,也不要要求我出教程,我会重新设计它们在文件和其他方面的方式.
 {% endhint %}
 

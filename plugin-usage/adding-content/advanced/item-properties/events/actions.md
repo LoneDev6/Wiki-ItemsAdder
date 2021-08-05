@@ -1,10 +1,10 @@
-# Actions
+# 动作
 
-## What are actions?
+## 什么是动作
 
-Actions are what will happen when an event is triggered.
+动作是指当一个事件被触发时将会发生的事情.
 
-### List of actions:
+### 动作列表:
 
 * `play_sound`
 * `stop_sound`
@@ -29,6 +29,7 @@ Actions are what will happen when an event is triggered.
 * `explosion`
 * `damage_near_entities`
 * `damage_entity_in_sight`
+* `damage_entity`
 * `increment_player_stat`
 * `decrement_player_stat`
 * `cancel`
@@ -36,9 +37,58 @@ Actions are what will happen when an event is triggered.
 * `target_remove_potion_effect`
 * `play_totem_animation`
 
+### 延迟
+
 {% hint style="info" %}
-You can set the same action multiple times. You just have to add `_anything` at the end.  
-For example if you want to play two sounds you have to write this:
+每个动作都有一个特殊的属性**delay**.  
+这是在开始行动之前的**delay**,单位是ticks.
+比如:
+
+```yaml
+items:
+  chain_events:
+    display_name: "%#FE5A00%chain_events"
+    permission: test.chain_events
+    resource:
+      material: COAL
+      generate: true
+      textures:
+      - "minecraft:item/diamond.png"
+    events:
+      interact:
+        right:
+          execute_commands:
+            cmd1:
+              command: 'tellraw {player} {"text":"Action 1","color":"gold"}'
+              as_console: true
+              delay: 0
+            cmd2:
+              command: 'tellraw {player} {"text":"Action 2","color":"gold"}'
+              as_console: true
+              delay: 20
+            cmd3:
+              command: 'tellraw {player} {"text":"Action 3","color":"gold"}'
+              as_console: true
+              delay: 40
+          play_sound_1:
+            name: minecraft:block.note_block.banjo
+            delay: 0
+          play_sound_2:
+            name: minecraft:block.note_block.banjo
+            pitch: 1.2
+            delay: 20
+          play_sound_3:
+            name: minecraft:block.note_block.banjo
+            pitch: 1.5
+            delay: 40
+```
+{% endhint %}
+
+### 同一个类型的多个动作.
+
+{% hint style="info" %}
+你可以多次设置同一个类型的动作.你只需要在最后加上`_anything` 
+例如,如果你想播放两个声音,你必须这样配置.
 
 ```yaml
 play_sound_first:
@@ -49,8 +99,81 @@ play_sound_second:
   name: minecraft:ambient.cave
   volume: 1
   pitch: 1
+play_sound_3:
+  name: minecraft:ambient.cave
+  volume: 1
+  pitch: 1
 ```
 {% endhint %}
+
+### 行动权限
+
+{% hint style="info" %}
+每个行动都有一个特殊的属性**permission[权限]**.  
+这是玩家在开始行动前必须得有的**permission[权限]**
+比如,播放音效必须有`myitems.usage.secret_items_dispenser`的权限才能播放音效.
+在这个栗子里,你会注意到一个"问题"即使玩家没有给予事件的权限,也会播放声音.这是因为权限的检查只检查give\_item.
+
+```yaml
+  test_block:
+    display_name: display-name-test_block
+    permission: test_block
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/test_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: SMITHING_TABLE
+    events:
+      placed_block:
+        interact:
+          give_item:
+            permission: "myitems.usage.secret_items_dispenser"
+            item: DIAMOND
+          play_sound:
+            name: itemsadder:ambient.creepy
+            volume: 1
+            pitch: 1
+```
+
+### 为每个动作设置相同的权限
+
+如果你想给每个动作都都设置相同的权限,而不需要复制和粘贴,你可以这样做!  
+使用这一特殊属性`all_actions_permission`. 
+栗子:
+
+```yaml
+  test_block:
+    display_name: display-name-test_block
+    permission: test_block
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/test_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: SMITHING_TABLE
+    all_actions_permission: "myitems.usage.secret_items_dispenser"
+    events:
+      placed_block:
+        interact:
+          give_item:
+            item: DIAMOND
+      play_sound:
+        name: itemsadder:ambient.creepy
+        volume: 1
+        pitch: 1
+```
+{% endhint %}
+
+## 行动属性列表
 
 ```yaml
 play_sound:
@@ -188,7 +311,12 @@ damange_near_entities:
 damage_entity_in_sight:
   damage: 4
   distance: 7
-
+  
+# Allows you to damage the entity of this event. For example on interact or attack
+# or on event item_hit_entity
+damage_entity:
+  damage: 4
+  
 # Special action that allows you to increment player stat linked to an hud
 #in this case hud named: "itemsadder:mana_bar"
 increment_player_stat:

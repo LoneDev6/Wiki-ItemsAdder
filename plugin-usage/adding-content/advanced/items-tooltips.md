@@ -1,14 +1,14 @@
-# Items tooltips
+# 物品提示栏
 
-You can add custom textured tooltips for your items, please refer to this example addon:  
+你可以为你的物品添加自定义材质的工具提示,请参考这个栗子的扩展:  
 [https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/)
 
 ![https://i.imgur.com/eA7iz50.gif](https://i.imgur.com/eA7iz50.gif)
 
-## Limitations
+## 限制条件
 
 {% hint style="warning" %}
-* you cannot show custom enchants as they will go out of the window
-* you have to write everything in the tooltip image, text would go out of the window
+* 你不能显示自定义的附魔,因为它们会从窗口中消失.
+* 你必须把所有的东西都写在工具提示图像中,文本才会从窗口中消失.[?]
 {% endhint %}
 

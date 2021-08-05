@@ -1,6 +1,6 @@
-# 🐞Report a bug
+# 🐞 反馈BUG
 
-## To report a bug please click here:
+## 在此反馈BUG
 
 {% embed url="https://github.com/LoneDev6/ItemsAdder/issues" caption="" %}
 

@@ -1,11 +1,11 @@
 ---
-description: How to create 3D models for your mob
+description: 如何为你的怪物创建3D模型.
 ---
 
-# Mob model
+# 怪物模型
 
 {% hint style="danger" %}
-UNFINISHED. I will release a tool to create animations easily.  
-Please don't insist via private message, I will provide a tutorial ASAP.
+还未完成. 我将会发布一个工具来轻松创建活动动画.  
+请不要通过私信来让我催更[其实开发者也是鸽子啦!],我会尽快提供一个教程.
 {% endhint %}
 

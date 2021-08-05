@@ -1,26 +1,26 @@
-# Simple texture sword
+# 普通材质的剑
 
 {% hint style="danger" %}
-### Namespace
+### 命名空间
 
-If you didn't create your namespace please follow the [namespace tutorial](../creating-your-namespace.md).
+如果你没有创建你自己的命名空间,那么请按照[命名空间](../creating-your-namespace.md/)创建.
 {% endhint %}
 
 {% hint style="danger" %}
 
-### Resourcepack hosting
+### 资源包托管
 
-Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
-I **advice** you to use **self-host** which is **easier** and **faster**, but you can also use Dropbox and similar
+还记得**之前的**资源包托管的教程吗? 
+我**建议**你使用**自搭材质托管**,因为实在是**太容易,太快**了,但你也可以使用**Dropbox**或者类似的办法
 
 {% page-ref page="../../../resourcepack-hosting/" %}
 
-## My first sword
+## 我的第一把自定义剑
 
-### Creating the swords file
+### 创建剑的配置
 
 {% hint style="warning" %}
-This is an example sword \(remember to change `myitems` [namespace ](../basic-concepts/namespace.md)to the one you want\).
+这是一把自定义剑的栗子 \(记得要换 `myitems` [命名空间](../basic-concepts/namespace.md)to the one you want\).
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom swords**:

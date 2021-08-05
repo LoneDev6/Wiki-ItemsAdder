@@ -1,10 +1,12 @@
-# 📄Files editor
+# 📄 文件编辑器
 
-{% hint style="warning" %}
-**Warning**: 这个编辑器现处于测试阶段,它可能会出BUG,会有缺失的功能
+{% hint style="警告" %}
+**Warning**: 该编辑器处于测试阶段,可能会出现不知名BUG,以及缺失部分功能
 {% endhint %}
 
-## &gt;&gt; [点击打开 ](http://bit.ly/itemsadder-ide-wiki)&lt;&lt;
+## 试用效果
+
+{% embed url="https://ide.devs.beer/itemsadder/" %}
 
 ![](.gitbook/assets/image%20%2814%29.png)
 

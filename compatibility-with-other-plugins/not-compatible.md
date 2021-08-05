@@ -1,4 +1,4 @@
-# Not compatible
+# 不兼容
 
 _**Is it compatible with plugin X?**_
 

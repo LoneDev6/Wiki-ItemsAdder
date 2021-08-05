@@ -1,8 +1,8 @@
 ---
-description: This recipes allows your users to cook/smelt materials
+description: 这个烹饪配方允许你的玩家烹饪/治炼矿物
 ---
 
-# Cooking
+# 烹饪配方
 
 ## Example
 
@@ -22,9 +22,9 @@ description: This recipes allows your users to cook/smelt materials
         amount: 1
 ```
 
-In this example I created a`cooking` recipe called `cooked_sausage`
+在这个栗子里,我写了个`cooking[烹饪配方]`的烹饪配方,叫做`cooked_sausage`
 
-`machines` is the list of vanilla machines that can smelt/cook the item  
-`exp` is the exp earned by the player when cooking is completed  
-`cook_time` is the time needed to complete the cooking process \(**in ticks**\)
+`machines` 是可以冶炼/烹饪该物品的原版机器的列表 
+`exp` 是玩家在烹饪/治炼完成后获得的经验 
+`cook_time` 是完成烹饪的过程所需的时间 \(**以ticks[1秒=20Tick]为单位**\)
 

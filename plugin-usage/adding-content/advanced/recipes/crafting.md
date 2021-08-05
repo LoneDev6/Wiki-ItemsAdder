@@ -1,10 +1,10 @@
 ---
-description: This recipe allows your users to craft an item
+description: 这个合成配方允许你玩家用物品来制作一个物品
 ---
 
-# Crafting
+# 合成配方
 
-## Example
+## 栗子
 
 ```yaml
   crafting_table:
@@ -34,9 +34,9 @@ description: This recipe allows your users to craft an item
         amount: 1
 ```
 
-In this example I created two `crafting_table` recipes called `deadmau5_hat` and `top_hat`
+在这个栗子里,我创建了两个`crafting_table[合成配方]`合成配方,叫做`deadmau5_hat`和`top_hat`
 
-## Special features
+## 特别的配方[嘿嘿嘿]
 
 ```yaml
     peeled_potato:
@@ -63,9 +63,9 @@ In this example I created two `crafting_table` recipes called `deadmau5_hat` and
           pitch: 1
 ```
 
-For example this is the `peeled_potato` recipe. This is a special recipe which uses a knife as ingredient of the crafting \(and a potato\) and decrements its durability when player crafts one peeled potato without making it disappear.
+比如,这是一个`peeled_potato[削皮土豆]`的合成配方.这是一个超级特别的合成配方.使用一把刀\(和土豆\)作为合成材料.玩家合成出一个削皮土豆而刀不会消失反而会减低刀的耐久度.
 
 ![](../../../../.gitbook/assets/image%20%281%29.png)
 
-As you can see you can also play a sound using `play_sound`
+如你所见,你也可以使用`play_sound`来播放一个音效.
 

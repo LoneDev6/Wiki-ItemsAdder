@@ -1,17 +1,17 @@
 ---
-description: Properties that allows customization of item graphics
+description: 自定义物品材质的属性
 ---
 
-# Resource
+# 材质内容
 
 {% hint style="danger" %}
-Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files \(png\) and model files \(json\)
+请确保你在物品名称,命名空间,材质\(png\)和模型文件\(json\)中没有使用大写字母或者特殊字符!可能会导致报错!
 {% endhint %}
 
-## Automatic generation
+## 自动生成
 
-In order to tell ItemsAdder which texture/model use for an item you have to add the `resource` attribute.  
-This is an example:
+为了让ItemsAdder知道一个物品使用的是哪个材质/模型,你必须添加`resource`属性.
+这是一个栗子:
 
 ```yaml
   resource:
@@ -21,27 +21,27 @@ This is an example:
     - item/example_item.png
 ```
 
-`material` is the vanilla material this item will use as base.
+`material` 是这个物品将使用该原版物品为基础.
 
-`generate` tells to IA if it needs to generate the item model automatically based on textures you listed
+`generate` 告诉Itemsadder是否需要根据你设置的材质来自动生成物品模型.
 
-`textures` is the list of textures IA will use to generate the model automatically.
+`textures` 是Itemsadder用于自动生成模型的材质列表.
 
-### Where do I put textures?
+### 我应该把材质放在哪?
 
-Textures you listed in the `textures` attribute must be placed in the right folder.  
-So if you set `textures` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `example_item.png` _\*\*_file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
+`textures`在设置属性时必须放置在放在正确的文件路径里.
+因此,如果你想像栗子里那样设置来设置`textures`并且你的**namespace**\(例如\)`myitems`你将必须把`example_item.png`放入_\*\*_内的文件: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
 
-If the path doesn't exists create all the folders needed.
+如果路径不存在,则会创建所有需要的文件.
 
 {% hint style="info" %}
-You can avoid setting `.png` in the `textures` attribute, IA will recognize the file automatically
+你可以不在`textures`设置的内容后面写上`.png`,因为Itemsadder会自动识别文件.
 {% endhint %}
 
-## Use your own 3D custom model \(.json file\)
+## 使用你自己的3D模型 \(.json\)
 
-If you have a custom modelled sword or item you can tell IA not to generate the model automatically.  
-This is an example:
+如果你是要设置一个自定义模型的剑或物品,你可以让Itemsadder不要自动生成模型.
+这是个栗子:
 
 ```yaml
   resource:
@@ -50,18 +50,18 @@ This is an example:
     model_path: item/floating_sword
 ```
 
-### Where do I put my model?
+### 我应该把我的模型放在哪?
 
-Model you set in the `model_path`attribute must be placed in the right folder.  
-So if you set `model_path` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `floating_sword.json` _\*\*_file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
+你在`model_path`属性中设置的模型必须放在正确的文件里.
+因此,如果你像栗子里的那样设置了`model_path`并且你的**namespace**\(例如\)`myitems`你将不得不把`floating_sword.json` _\*\*_放在这个文件中:`plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
 
-If the path doesn't exists create all the folders needed.
+如果路径文件不存在的话,IA会创建所有需要的文件.
 
 {% hint style="warning" %}
-### My textures are not working!
+### 我的材质无法显示了!
 
-If your custom model textures are not showing you have to open your model file and fix the textures path.  
-For example if you had this:
+如果你的自定义模型材质无法显示,你必须打开你的模型文件并修复材质路径.
+假如,如果你有这个的话:
 
 ```yaml
   {
@@ -73,7 +73,7 @@ For example if you had this:
   },
 ```
 
-You have to change it to this \(`your_namespace` is your [namespace ](../../../beginners/basic-concepts/namespace.md)folder\):
+你必须把它改成这样\(`your_namespace`是你的[namespace[命名空间]](../../../beginners/basic-concepts/namespace.md)文件\
 
 ```yaml
 {
@@ -86,13 +86,13 @@ You have to change it to this \(`your_namespace` is your [namespace ](../../../b
 ```
 {% endhint %}
 
-## Transparent textures \(glass and similar\)
+## 透明的材质\(玻璃或类似\)
 
 {% page-ref page="../../../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
 
-## Manually specify custom\_model\_data
+## 手动指定custom\_model\_data
 
-If you want to force the usage of a defined custom\_model\_data \(CustomModelData\) you can:
+如果你想强制使用已定义的custom\_model\_data\(CustomModelData\)你可以像这样设置:
 
 ```yaml
     resource:
@@ -102,9 +102,9 @@ If you want to force the usage of a defined custom\_model\_data \(CustomModelDat
       model_path: "item/multimeter"
 ```
 
-You also have to create the model file names "multimeter" \(in this example\) inside this folder: `assets\YOUR_NAMESPACE\models\item`
+你还必须在这个文件里创建名为"multimeter"的文件\(在这个例子里\)在这个文件夹中: `assets\YOUR_NAMESPACE\models\item`
 
-You can also tell IA to automatically generate the model based on the texture:
+你也可以让IA根据材质来自动生成模型:
 
 ```yaml
 info:
@@ -119,5 +119,12 @@ items:
       - slimefun/carbonado.png
 ```
 
-\`\`
+{% hint style="warning" %}
+### 重要
+
+如果你在之前创建了这个物品,并且已经使用了`/iazip`指令,而现在你改变了**model\_id**:  
+运行`/iacleancache items`指令以**删除未使用的ID**和**更新**变化的ID**是超级重要的流程!
+{% endhint %}
+
+
 

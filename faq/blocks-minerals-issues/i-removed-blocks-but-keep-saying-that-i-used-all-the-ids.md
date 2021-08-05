@@ -1,9 +1,0 @@
-# I removed blocks but keep saying that I used all the IDs
-
-如果你真的确定会出现这种问题,你可以用命令来清理插件的缓存:`/iacleancache`  
-它将会删除所有缓存的ID,这样你就可以重新使用被删除区块的旧ID.
-
-{% hint style="info" %}
-缓存的存在是因为如果你没有正确的删除了一个方块,然后你想把它重新弄回来,因为它每次都会有相同的旧ID,所以就不是新的ID
-{% endhint %}
-

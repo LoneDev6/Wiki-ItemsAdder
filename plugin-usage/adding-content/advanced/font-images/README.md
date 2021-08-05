@@ -1,14 +1,14 @@
 ---
-description: Allows you to create images which can be used in texts
+描述: 创建可用于文本的图像
 ---
 
-# Font Images
+# Font 图像
 
-### Font images?
+### 什么是 Font 图像?
 
-This feature allows you to create images that can be used to make:  GUIs, HUDs, Emojis, custom characters, custom player prefixes and anything else you imagine! \(you can put these images inside any text\).
+该特性可以让你创建图像用于制作:  GUIs, HUDs, Emojis, 自定义字符, 自定义玩家称号等自定义内容! \(你可以将图像用于任何地方里\).
 
 
 
-## TUTORIAL WILL BE FINISHED SOON!
+## 教程即将完成！(老鸽子了)
 

@@ -1,4 +1,5 @@
-# 💰Cheap Minecraft Hosting
+# 💰便宜的Minecraft服务器主机
+** 此为广告 故不做汉化处理 **
 
 ![](.gitbook/assets/mmica0s.gif)
 

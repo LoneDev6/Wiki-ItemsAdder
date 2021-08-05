@@ -1,6 +1,6 @@
-# Leaves and wood
+# 叶子和木头
 
 {% hint style="info" %}
-## Tutorial will be added soon
+## 教程将更新![其实是我想咕咕咕啦!]
 {% endhint %}
 

@@ -1,12 +1,12 @@
 # CMI
 
 {% hint style="info" %}
-## If you're using CMI chat feature you have to read this.
+## 如果您使用 CMI 聊天功能，则必须阅读此内容。
 {% endhint %}
 
 ## Emoji
 
-Open config.yml of **ItemsAdder** and set this:
+打开 **ItemsAdder** 的 config.yml 并设置：
 
 ```yaml
 font_images:
@@ -17,16 +17,17 @@ font_images:
 
 ## Ranks
 
-1. Open config.yml of **CMI** and set this \(I set `%vault_prefix%` placeholder instead of **CMI** `{prefix}`\)
+1. 打开 **CMI** 的 config.yml 并设置如下内容 \(设置为 `%vault_prefix%` 而不是`{prefix}`\)
 
 ```yaml
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
 ```
 
-1. Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)  
-2. Install them and Restart  
-3. execute this command  `/papi ecloud download Vault`  
-4. execute this command `/papi reload`
+1. 下载 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)  
+2. 安装并重启服务器  
+3. 执行命令  `/papi ecloud download Vault`  
+4. 执行命令 `/papi reload`
 
-Done
+完成
+
 

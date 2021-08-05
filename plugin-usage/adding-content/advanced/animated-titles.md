@@ -1,7 +1,7 @@
-# Animated titles
+# 动画titles
 
-You can create animated titles \(using totem animation\), this is useful for custom gamemodes and to notify players.  
-Check this example addon to create your own animated title: [https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/](https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/)
+你可以创建厉害的动画标题\(使用图腾动画\). 
+查看这个示例插件,来创建你自己的动画标题:[https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/](https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/)
 
 ![](../../../.gitbook/assets/image%20%2829%29.png)
 

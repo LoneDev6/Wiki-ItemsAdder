@@ -1,2 +1,0 @@
-# Custom blocks glitch texture
-

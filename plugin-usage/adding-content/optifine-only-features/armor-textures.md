@@ -1,4 +1,4 @@
-# Armor textures
+# 盔甲材质
 
 If you want to add a custom texture and not just a custom color to armors you can use **Optifine**.
 

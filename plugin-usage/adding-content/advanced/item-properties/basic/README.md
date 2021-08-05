@@ -1,28 +1,28 @@
 ---
-description: Collection of basic item properties
+description: 基本物品属性集合
 ---
 
-# Basic
+# 基本内容
 
-## Enabled
+## Enabled[启用]
 
 ```yaml
 enabled: true
 ```
 
-With this setting you can disable an item completely.  
-**Obviously if a player has it in inventory it won't be removed, he still will own it.  
-Same thing for blocks, but when broken they won't drop anymore**
+通过这个设置,你可以完全禁用一个物品. 
+**很明显,如果玩家在背包里有该物品的话,它不会因为禁用而消除. 
+方块也是这样,当物品被破坏时就不会掉落出掉落物出来**
 
-## Display name
+## Display name[名称]
 
 ```yaml
 display_name: "Test"
 ```
 
-This is the name user will see on the item
+这是玩家在使用物品时看到的名称
 
-## Permission
+## Permission[权限]
 
 ```yaml
 permission: myitem
@@ -30,7 +30,7 @@ permission: myitem
 
 {% page-ref page="item-permission.md" %}
 
-## Lore
+## Lore[描述]
 
 ```yaml
 lore:
@@ -39,9 +39,22 @@ lore:
 - '&750% of times.'
 ```
 
-Lore lines of the item
+对物品的描述
 
-## Attribute modifiers
+### Enchants[附魔]
+
+```yaml
+enchants:
+  - ARROW_FIRE:1
+  - anger_artifact:1
+  - my_custom_plugin:custom_enchant:6
+```
+
+该物品的附魔
+你可以设置[原版附魔](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html)或者其他扩展附魔插件\(比如:[EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)等等...\).  
+也支持**namespaces[命名空间]** \(如果你使用Namespacedkey来创建自定义附魔\)
+
+### Attribute modifiers[物品的功能属性]
 
 ```yaml
 attribute_modifiers:
@@ -65,9 +78,9 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
+这些是原版属性的修改,你可以在这里查阅到更多信息[https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
 
-## Durability
+## Durability[耐久]
 
 ```yaml
 durability:
@@ -78,14 +91,14 @@ durability:
   usages: 5
 ```
 
-There are pretty self explanatory.  
-`usages` are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events \(check events tutorial\).
+Itemsadder有更好的自我解释功能
+`usages`是一个特殊的属性,它为当前物品设置一个使用次数\(检查事件教程\).
 
-`custom_durability` is the durability amount which the item has on crafting \(if not specified is the same as `max_custom_durability`\)
+`custom_durability`是物品的自定义耐久度\(如果无法使用,则使用`max_custom_durability`\)
 
-`max_custom_durability` is the max durability the item can reach
+`max_custom_durability`是该物品可以达到的最大耐久度.
 
-## Item flags
+## Item Flag 标志
 
 ```yaml
 item_flags:
@@ -97,12 +110,12 @@ item_flags:
   - HIDE_UNBREAKABLE
 ```
 
-Special item flags that can hide some vanilla info of the item.  
-You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
+特殊的物品标志,可以隐藏物品的一些原版的信息 
+在这可以找到一个详细的信息列表:[https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-## blocked\_enchants
+## blocked\_enchants [无法附魔属性]
 
-Special item property that disables enchants for this item, so your users won't be able to enchant it.
+这也是一个特殊的物品属性,使这个物品附魔失效,所以你的玩家将不能对该物品进行附魔.
 
 {% tabs %}
 {% tab title="Disable some enchants" %}
@@ -125,9 +138,9 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-## events\_cooldown
+## events\_cooldown [限制属性]
 
-Special attribute to limit spamming of events by players. It's in ticks, so 20 = 1 second.
+这是一个特殊属性,限制玩家对事件的高频率使用.它的单位是ticks,所以20ticks=1秒.
 
 ```yaml
   healing_crystals:
@@ -158,13 +171,13 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
             amplifier: 4
 ```
 
-### events\_needed\_player\_stats
+### events\_needed\_player\_stats [玩家状态判断]
 
-Special attribute to make events work only if the player stat \(ItemsAdder player stat, which are usually shown in HUDs\) satisfies the set rule.
+这个特殊属性使事件只能在玩家的状态\(添加玩家状态,通常是通过HUD进行显示\)来满足设定规则.
 
-You can set it to `>`, `<` ad `=`
+你可以把它设置为 `>`, `<` 和 `=`
 
-#### Example:
+#### 栗子:
 
 {% page-ref page="../../../beginners/creating-a-custom-item/magic-wand.md" %}
 
@@ -185,7 +198,7 @@ You can set it to `>`, `<` ad `=`
     blocked_enchants:
     - ALL
     events_needed_player_stats:
-      mana: ">0" ### <---- for example. You could also set it to <5 or =1 for example.
+      mana: ">0" ### <---- 比如说.你也可以把它设置为<5或=1,例如.
     events:
       interact:
         entity:
@@ -197,4 +210,12 @@ You can set it to `>`, `<` ad `=`
             name: mana
             amount: 1
 ```
+
+### 模板
+
+{% page-ref page="templates-and-variants.md" %}
+
+### variant\_of
+
+{% page-ref page="templates-and-variants.md" %}
 

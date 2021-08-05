@@ -1,4 +1,4 @@
 # GriefPreventionStickFix
 
-Download [here](https://www.spigotmc.org/resources/griefpreventionstickfix.76015/)
+[下载](https://www.spigotmc.org/resources/griefpreventionstickfix.76015/)
 

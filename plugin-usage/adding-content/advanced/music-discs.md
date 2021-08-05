@@ -1,12 +1,12 @@
-# Music discs
+# 音乐唱片
 
-## Step 1
+## 第一步
 
 {% page-ref page="sounds/" %}
 
-## Step 2
+## 第二步
 
-Create a new item in your namespace, this will be your music disc:
+在你的命名空间中创建一个新的物品,然后创建一个属于你的唱片
 
 ```yaml
   music_disc_cdk_sunday:
@@ -26,6 +26,5 @@ Create a new item in your namespace, this will be your music disc:
           description: Cdk - Sunday
 ```
 
-As you can see I added a special behaviour called "music\_disc". This will tell Spigot server that this item is a custom music disc.  
-**name** is the sound to be played, you added it in the **step 1**
-
+正如你所看到的,我添加了"music/_disc"的特殊行为.这在告诉Spigot,这个物品是一个自定义音乐唱片
+**name**是将要播放的声音,你在**第一步**中添加了它.

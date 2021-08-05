@@ -1,4 +1,4 @@
-# Blocks
+# 方块
 
 ```yaml
 specific_properties:
@@ -6,8 +6,7 @@ specific_properties:
     placed_model:
       type: REAL_NOTE
       break_particles: BLOCK
-    cancel_drop: true #default is false. if true the custom block won't be dropped when
-                      #player mines it
+    cancel_drop: true # 默认为false 如果为 true，则不会掉落自定义方块
     light_level: 12 #make block emit light
     #tools you can't use to break block(accepts partial name of material/customitem)
     break_tools_blacklist:
@@ -20,6 +19,8 @@ specific_properties:
     - PICKAXE
     - pickaxe
     hardness: 2 #hardness of the block
+    blast_resistance: 1 #explosion resistance (by default is hardness*3)
+    no_explosion: false #totally immune from explosions, ignoring blast_resistance
     sound: #customizable sounds of the block
       break:
         name: BLOCK_WOOD_BREAK
@@ -100,6 +101,14 @@ Whitelist of tools that cannot run events on this block [\(`placed_block.interac
 
 Hardness of the block, it makes it more difficult to be mined.  
 Refer to my blocks to get some **examples** \(check **blocks.yml** file inside **itemsadder namespace**\).
+
+### blast\_resistance
+
+Explosion resistance \(by default is `hardness * 3`\)
+
+### no\_explosion
+
+Totally immune from explosions, ignoring `blast_resistance`
 
 ### sounds
 
