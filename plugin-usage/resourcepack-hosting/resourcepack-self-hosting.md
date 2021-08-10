@@ -8,13 +8,7 @@ Your hosting service must let you get additional ports for your server.
 If your hosting service doesn't provide you additional ports you have to use **DropBox**, check this tutorial:
 
 {% page-ref page="resourcepack-on-dropbox.md" %}
-
-If you don't want to use **DropBox** you can use **mc-packs.net** website
-
-{% page-ref page="resourcepack-on-mc-packs-net.md" %}
 {% endhint %}
-
-
 
 ## Info about self-hosting
 

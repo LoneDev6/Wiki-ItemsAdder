@@ -10,9 +10,8 @@ You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
 
-{% hint style="info" %}
-One of the most famous files hosting websites is **DropBox**. It allows you to publish your files for free and it's really easy and fast.  
-You cannot use GoogleDrive and others because they don't provide a **direct download**. Dropbox does.
+{% hint style="warning" %}
+You **cannot** use **GoogleDrive** and others because they don't provide a **direct download**. **Dropbox does**.
 {% endhint %}
 
 ## Text tutorial
@@ -59,8 +58,6 @@ PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **so
 **Change** the **file name each time** you **upload** a **new version** of the **resourcepack** to **force** the game to **redownload** the **new version**.  
 If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
 {% endhint %}
-
-
 
 ## But this is so slow! I have to reupload on DropBox too many times!
 

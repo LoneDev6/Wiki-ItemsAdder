@@ -2,7 +2,6 @@
 
 * [👋🏻Welcome](README.md)
 * [❤️Donation - Support my work](donation-support-my-work.md)
-* [💰Cheap Minecraft Hosting](cheap-minecraft-hosting.md)
 * [⚙️First install](first-install.md)
 * [❓Frequently asked questions](faq/README.md)
   * [⚠️Plugin doesn't work!](faq/plugin-doesnt-work.md)
@@ -53,7 +52,6 @@
   * [📷Resourcepack hosting](plugin-usage/resourcepack-hosting/README.md)
     * [Resourcepack self hosting](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
     * [Resourcepack on DropBox](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
-    * [Resourcepack on mc-packs.net](plugin-usage/resourcepack-hosting/resourcepack-on-mc-packs-net.md)
   * [➕Adding content](plugin-usage/adding-content/README.md)
     * [🍭Beginners](plugin-usage/adding-content/beginners/README.md)
       * [Basic concepts](plugin-usage/adding-content/beginners/basic-concepts/README.md)
@@ -137,6 +135,7 @@
 * [➡️Updating from 1.0](updating-from-1.0/README.md)
   * [Convert old files to v2](updating-from-1.0/convert-old-files-to-v2.md)
   * [Convert old items/blocks ingame](updating-from-1.0/convert-old-items-ingame.md)
+* [💰Cheap Minecraft Hosting](cheap-minecraft-hosting.md)
 
 ## Developers
 
