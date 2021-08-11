@@ -19,15 +19,13 @@ You **should** complete ALL installation steps. Not only first.
 * install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)\*\*\*\*
 * install [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
-* install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you planning make custom mobs in future.
+* (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
 * put **ItemsAdder.jar** file inside your plugins folder
 * start the server
 * let ItemsAdder finish loading **everything**
-* stop server
 
 First step is done.
-Right now you should complete step 2 to avoid texture shuffle problem.
-
+Now you must complete step 2 to configure the texturepack (don't worry it's not very hard).
 
 ## Step 2 - resourcepack first installation
 
