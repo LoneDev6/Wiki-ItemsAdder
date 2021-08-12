@@ -39,26 +39,74 @@ StaticallyChargedSheep:
 
 ### 随机生成
 
-如果你有时想把原版怪物替换为MythicMobs怪物\(这允许你创造更多的MythicMobs怪物外观变化\)你只需要设置"always: false",并设置你的生成规则  
-比如:
-
-```yaml
-    replace_mobs_spawn:
-      mob1:
-        replace_mythicmob:
-          name: StaticallyChargedSheep
-          always: false
-        type: SHEEP
-        reason: CUSTOM
-        chance: 20
-        max_sky_light: 0
-        time:
-          start: MIDNIGHT
-```
+If you want to create custom spawn logic for your custom mob you must not use **ItemsAdder** rules, use **Mythicmobs** configuration: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
 
 {% hint style="warning" %}
-记住要设置为`reason: CUSTOM`,否则将插件无法加载,因为MythicMobs将生成设置为`CUSTOM`而不是`NATURAL`.
+### Warning:
+
+**ItemsAdder** eggs and /iasummon command **won't work** for Mythicmobs custom mobs, you have to spawn them using **Mythicmobs command** if you want to spawn them manually.  
+`/mythicmobs mobs spawn StaticallyChargedSheep`
 {% endhint %}
 
+## Complete example
 
+### ItemsAdder configuration mobs.yml
+
+```yaml
+  glow_squid:
+    display_name: "Glow Squid"
+    permission: iamobs
+    click_in_ia_gui: false
+    lore:
+      - lore-1-glow_squid
+      - lore-life-glow_squid
+      - lore-2-glow_squid
+      - lore-3-glow_squid
+      - lore-4-glow_squid
+      - lore-5-glow_squid
+    resource:
+      generate: false
+      model_path: "mob/glow_squid/glow_squid"
+    behaviours:
+      mob:
+        ai: SQUID
+        hit_color: ff7e7e
+        max_health: 20
+        animation:
+          walk: glow_squid_walking
+        replace_mobs_spawn:
+          mob1:
+            replace_mythicmob:
+              name: StaticallyChargedSheep
+              always: true
+            type: SHEEP
+```
+
+### Mythicmobs configuration Mobs\example.yml
+
+```yaml
+StaticallyChargedSheep:
+  Type: SHEEP
+  Display: '&aStatically Charged Sheep'
+  Health: 100
+  Damage: 2
+  Options:
+    MovementSpeed: 0.3
+  DamageModifiers:
+  - LIGHTNING 0
+  - FIRE 0.5
+  Skills:
+  - lightning @LivingInRadius{r=10} ~onTimer:100
+```
+
+### Mythicmobs configuration RandomSpawns\example.yml
+
+```yaml
+RandomStaticallyChargedSheep:
+  MobType: StaticallyChargedSheep
+  Worlds: world
+  Chance: 0.25
+  Priority: 1
+  Action: REPLACE
+```
 

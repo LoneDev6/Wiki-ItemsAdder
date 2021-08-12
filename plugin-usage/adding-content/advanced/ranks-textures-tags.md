@@ -1,21 +1,54 @@
 # 等级材质\(称号\)
 
-你可以为你的服务器创建自定义等级,让它看起来更厉害
-查看这个插件,然后了解如何创建它们: [https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
+{% hint style="success" %}
+### You can create custom ranks for your server, this will make it look more professional.
+{% endhint %}
 
 ![](../../../.gitbook/assets/image%20%2827%29.png)
 
-{% hint style="danger" %}
-### 请把更新为 [ItemsAdder 2.1.30以上](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-huds-gui-emojis-ores-blocks-wings-tails-hats.73355/)
+{% hint style="warning" %}
+### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
+
+### If you're using another prefix plugin you may need to use [this method](../../using-font_images-emojis-everywhere.md) to show ranks
 {% endhint %}
+
+## How to create my ranks?
+
+### Download the example ranks
+
+* Update to **ItemsAdder 2.1.30** or next
+* Download the [example ranks here ](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
+
+### Create a new rank configuration
+
+Open`plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` file and **copy** and **paste** one of them.  
+Then rename it to your rank, also decide a new **.png** file name, for example `custom`
+
+```yaml
+  custom:
+    permission: "ranks.custom"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/custom.png"
+    scale_ratio: 9
+    y_position: 8
+```
 
 {% hint style="warning" %}
-### 必须使用 [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) 和 [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) 最好和本教程用的一样,如果你使用其他权限和其他的TABS插件,方法可能会有所不同.
+Don't change `scale_ratio` and `y_position`. It would make the ranks look pixelated
 {% endhint %}
 
-{% hint style="info" %}
-### 如果你使用的是另一个前缀插件,你可能需要使用[这种方法](../../using-font_images-emojis-everywhere.md) 来显示
+### Creating the png image
+
+**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`   
+You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.  
+For example copy `admin.png`, name it `custom.png` and edit it.
+
+{% hint style="warning" %}
+Don't change the rank image height, change only the width or the image will look pixelated.
 {% endhint %}
+
+## Using the rank ingame:
 
 ## Luckperms
 

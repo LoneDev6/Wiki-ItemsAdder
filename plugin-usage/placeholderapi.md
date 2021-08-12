@@ -5,7 +5,15 @@
 PlaceholderAPI变量: `%img_NAME%` 不要按照前面写NAME,写字体/图像的名称!.  
 比如: `%img_smile%`
 
-## ItemsAdder PlayerStats \(HUDs的值\)
+## Offsets
+
+You can shift text/font\_images back and forward.  
+For example 
+
+* you can shift it back of 16 pixels by writing `%img_offset_-16%` .
+* you can shift it forward of 16 pixels by writing `%img_offset_16%` .
+
+## ItemsAdder PlayerStats \(HUDs values\)
 
 PlayerStats使用的是ItemsAdder的统计,不是原版的统计.
 

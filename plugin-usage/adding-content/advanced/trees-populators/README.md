@@ -7,8 +7,8 @@
 {% hint style="danger" %}
 ### 末地特性
 
-建议**不要在**末地**生成**自定义树,因为有一些**特性**
-非常感谢
+It's advised **not** to **spawn** the trees in the **END** dimension because it has _some_ **problems**.  
+Thanks
 
 ### 原版树的特性
 

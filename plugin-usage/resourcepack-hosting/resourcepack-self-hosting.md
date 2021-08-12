@@ -8,17 +8,13 @@
 如果你的服务商没有给你提供额外的端口,那你必须使用**DropBox**,详细请查看这个教程.
 
 {% page-ref page="resourcepack-on-dropbox.md" %}
-
-如果你不想使用**DropBox**的话,你可以选择使用**mc-pack.net**网站
-
-{% page-ref page="resourcepack-on-mc-packs-net.md" %}
 {% endhint %}
 
-## 关于自搭材质包托管的信息
+## Info about self-hosting
 
-### 自搭材质包托管和外部托管的区别是什么?
+### What is the difference between self-host and external-host?
 
-不同的是,使用自我托管的话玩家可以直接从你的服务器上下载材质包,并不用在每次改动时上传到一个网站.
+Difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
 
 {% hint style="info" %}
 当你在自家电脑测试服务器资源包时.`self-host`真的非常好用.使用`/iazip`指令,并重新进入游戏.你将会在服务器里看到明显的变化.

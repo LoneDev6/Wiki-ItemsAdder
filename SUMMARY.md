@@ -154,7 +154,6 @@
     * [RPGBank](compatibility-with-other-plugins/compatible/rpgbank.md)
     * [EpicBackpacks](compatibility-with-other-plugins/compatible/epicbackpacks.md)
     * [Wailat](compatibility-with-other-plugins/compatible/wailat.md)
-    * [RPGMoney](compatibility-with-other-plugins/compatible/rpgmoney-1.md)
     * [GriefPreventionStickFix](compatibility-with-other-plugins/compatible/griefpreventionstickfix.md)
     * [CustomCrafting](compatibility-with-other-plugins/compatible/customcrafting.md)
     * [BossShop](compatibility-with-other-plugins/compatible/bossshop.md)

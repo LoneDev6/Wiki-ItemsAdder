@@ -154,7 +154,7 @@ items:
 ## Notes:
 
 {% hint style="warning" %}
-If you will **create another namespace** which contains **other armors** it's **highly adviced** to **maintain** the **same structure** as I did in the tutorial to **avoid mistakes**.
+If you will **create another namespace** which contains **other armors** it's **highly advised** to **maintain** the **same structure** as I did in the tutorial to **avoid mistakes**.
 
 For example if you create a new namespace names `space_armors` you will have this **optifine** folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`
 {% endhint %}

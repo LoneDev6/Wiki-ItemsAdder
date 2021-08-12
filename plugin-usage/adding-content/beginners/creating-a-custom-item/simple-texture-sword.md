@@ -8,10 +8,8 @@
 
 {% hint style="danger" %}
 
-### 资源包托管
-
-还记得**之前的**资源包托管的教程吗? 
-我**建议**你使用**自搭材质托管**,因为实在是**太容易,太快**了,但你也可以使用**Dropbox**或者类似的办法
+Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
+I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 
 {% page-ref page="../../../resourcepack-hosting/" %}
 
@@ -75,14 +73,13 @@ items:
 ## Final part
 
 Now you just need to tell the plugin to load your just added item.  
-To do that you have to:
-
-* join the server  
-* make sure you accepted the resourcepacks  
-* use the command `/iazip`  
-* if you're using external-host \(DropBox\) [click here](https://itemsadder.plugin.ga/plugin-usage/adding-content/creating-a-custom-item/simple-texture-sword#if-youre-using-external-host-dropbox-read-here)  
-* get the item using `/iaget mysword`  
-* DONE!
+To do that you have to:  
+- join the server  
+- make sure you accepted the resourcepacks  
+- use the command `/iazip`  
+- if you're using external-host \(DropBox\) scroll down and follow the instructions.  
+- get the item using `/iaget mysword`  
+- DONE!
 
 ### Now get your item
 

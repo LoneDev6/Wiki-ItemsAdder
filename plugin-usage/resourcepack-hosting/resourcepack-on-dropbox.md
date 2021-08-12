@@ -10,9 +10,8 @@
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
 
-{% hint style="info" %}
-国外最著名的文件托管网站之一**DropBox**.它可以免费分享你的文件,而且很容易又快速.[比某度云快多了]  
-你不能使用GoogleDrive和其他文件托管网站,因为它们都不提供**直接下载**的链接.但是!DropBox 可以.
+{% hint style="warning" %}
+You **cannot** use **GoogleDrive** and others because they don't provide a **direct download**. **Dropbox does**.
 {% endhint %}
 
 ## 文本教程
