@@ -2,19 +2,21 @@
 
 ## Methods
 
-ItemsAdder offers two ways of creating custom mobs:
+ItemsAdder提供两种创建自定义怪物的方法:
 
-### ItemsAdder interal
+### ItemsAdder增加
 
-This is the easiest and fastest way to create your custom mobs and see them around the world.  
-You don't need to install MythicMobs.
+这是最简单且最快速的方法来创建你的自定义怪物并应用到世界里.
+然而你并不需要安装MythicMobs插件.
 
 {% page-ref page="itemsadder-internal.md" %}
 
-### Using MythicMobs
+### 配合MythicMobs食用
 
-This is a bit harder and not for beginners. You need to install [MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/).  
-This will allow you to use all the extended features of MythicMobs and apply a custom model to your custom mob.
+这会有点难,不太适合初学者.你只需要安装[MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/).  
+这能使你能够使用MythicMobs的所有扩展功能,并将自定义模型应用于你的自定义怪物.
 
 {% page-ref page="using-mythicmobs.md" %}
+
+
 

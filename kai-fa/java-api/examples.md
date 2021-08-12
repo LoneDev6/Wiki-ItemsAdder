@@ -1,8 +1,8 @@
 # 栗子
 
-## Custom items
+## 自定义物品
 
-### Getting a custom item of any type \(block, item, hat, food..\) by id or namespace:id
+### 通过 id 或 namespace:id 获取任何类型的自定义物品 \(block, item, hat, food..\)
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -14,11 +14,11 @@ if(stack != null)
 }
 else
 {
-    //no custom item found with that id
+    //未找到具有该 ID 的自定义物品
 }
 ```
 
-### Checking if a custom item exists
+### 检查自定义物品是否存在
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -26,13 +26,13 @@ else
 boolean exists = CustomStack.getInstance("your_item") != null;
 ```
 
-or you can also use the **old method**
+或者你也可以使用**旧方法**
 
 ```java
 ItemsAdder.isCustomItem("your_item");
 ```
 
-### Getting the custom item data from an ingame ItemStack
+### 从游戏中的 ItemStack 获取自定义物品数据
 
 ```java
 CustomStack stack = CustomStack.byItemStack(myItemStack);
@@ -42,85 +42,85 @@ if(stack != null)
 }
 else
 {
-    //not a custom item
+    //不为自定义物品
 }
 ```
 
-## Custom Blocks
+## 自定义方块
 
-#### Check if world block is a custom blocks
+#### 检查是否为自定义方块
 
 ```java
 CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
 if(customBlock != null)
 {
-    //custom block
+    //自定义方块
 
 }
 else
 {
-    //not a custom block
+    //不为自定义方块
 }
 ```
 
-#### Place custom block
+#### 放置自定义方块
 
 ```java
 CustomBlock customBlock = CustomBlock.getInstance("ruby_ore");
 if(customBlock != null) //not needed if you're sure the blocks exists.
 {
-    //custom block
+    //自定义方块
     customBlock.place(location);
 }
 else
 {
-    //not a custom block
+    //不为自定义方块
 }
 ```
 
-## Custom mobs
+## 自定义生物
 
-### Spawn a custom mob by id or namespace:id
+### 通过 id 或 namespace:id 生成自定义生物
 
-[CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
+[CustomMob](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
 ```java
 CustomMob customMob = CustomMob.spawn("your_item", location)
 if(customMob != null)
 {
-    //spawned the custom mob
+    //生成自定义生物
 
-    //example, print the display name in console
+    //例如，在控制台显示实体名字
     System.out.println(customMob.getName());
 }
 else
 {
-    //no custom mob found with that id
+    //未找到具有该 ID 的自定义生物
 }
 ```
 
-### Get custom mob by mob already spawned in the world
+### 在世界里已生成的怪物中获取自定义怪物
 
-[CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
+[CustomMob](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
 ```java
 CustomMob customMob = CustomMob.byAlreadySpawned(entity)
 if(customMob != null)
 {
-    //it's a custom mob
+    //这是一个自定义怪物
 
-    //example, print the display name in console
+    //例如，在控制台显示实体名字
     System.out.println(customMob.getName());
 }
 else
 {
-    //this mob is not a custom mob
+    //不为自定义生物
 }
 ```
 
 ## Liquids API
 
-Please also install [IALiquids ](https://www.spigotmc.org/resources/84386)addon to have some test liquids
+还请安装插件 [IALiquids](https://www.spigotmc.org/resources/84386) 以获得一些测试水流
 
 ```java
 @EventHandler

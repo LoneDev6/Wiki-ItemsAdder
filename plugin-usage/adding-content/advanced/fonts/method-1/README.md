@@ -1,17 +1,17 @@
 # 方法一\(.ttf格式\)
 
 {% hint style="info" %}
-## This method allows you to add fonts using .ttf font files
+## 这种方法允许你使用.ttf来添加字体
 {% endhint %}
 
-## Example custom font
+## 自定义字体栗子
 
 ![](../../../../../.gitbook/assets/immagine%20%285%29.png)
 
-To this you have to:
+因此,你应该:
 
-* download the japanese font [here](http://matteodev.it/spigot/itemsadder/res/v2/font.zip)
-* extract contents into `plugins\ItemsAdder\data\resource_pack\assets\minecraft\font`
-* open config.yml and set `custom-font enabled: true`
-* and obviously if you're using [dropbox host](../../../../resourcepack-hosting/resourcepack-on-dropbox.md) you have to reupload the pack.zip after server restart
+* 下载日本字体[在这!](http://matteodev.it/spigot/itemsadder/res/v2/font.zip)
+* 把日本字体放到`plugins\ItemsAdder\data\resource_pack\assets\minecraft\font`
+* 打开 config.yml然后设置`custom-font enabled: true`
+* 如果你使用的是[dropbox托管](../../../resourcepack-hosting/resourcepack-on-dropbox.md)你必须在服务器重启后重新上传pack.zip
 

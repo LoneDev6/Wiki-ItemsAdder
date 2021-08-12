@@ -6,8 +6,7 @@ specific_properties:
     placed_model:
       type: REAL_NOTE
       break_particles: BLOCK
-    cancel_drop: true #default is false. if true the custom block won't be dropped when
-                      #player mines it
+    cancel_drop: true # 默认为false 如果为 true，则不会掉落自定义方块
     light_level: 12 #make block emit light
     #tools you can't use to break block(accepts partial name of material/customitem)
     break_tools_blacklist:

@@ -1,23 +1,23 @@
 # 常见错误
 
-## I see only a white square
+## 显示一个白块
 
-If you see a **white square** make sure the **height** of your image is not **greather** than the `y_position` value you set. To **bypass** that create an **image** with **higher height**.
+如果你看到有一个**白色方块**请确保你的图像的**height[高度]**没有大于你设置的`y_position`值.如需**绕过**的话,你只需创建一个**更高的高度**的图像.
 
 {% hint style="warning" %}
-Keep in mind that the **max size** of a font image is **255x255**.  
-This is a Minecraft limitation.  
-To bypass this \(if you're creating a GUI or HUD\) you can split your image in multiple font images and merge them shifting them.
+请记住,字体图像的**最大尺寸**是**255x255**.  
+这是Minecraft的限制.
+为了绕过这个问题\(如果你在创建一个GUI或HUD\)你可以将你的图像分割成多个图像并将它们合并.
 {% endhint %}
 
-## My partially transparent image looks "cut"
+## 部分透明图像看起来像被"切割"了
 
-Minecraft cuts images if they have transparency \(0/255 alpha channel value\), so you must set 1/255 transparency in order to avoid Minecraft to cut it
+Minecraft如果有透明度\(0/255 alpha channel value\),则会剪切图像,因此必须设置为1/255,来避免Minecraft进行剪切.
 
-## When I add a hud others shift of some pixels
+## 当我添加一个hud时,其他的一些像素就会转移.
 
-Be sure to have each image size set to a multiple of 2.  
-Example:
+请将每张图片的大小设置为2的倍数.  
+比如:
 
 * 2x2  
 * 4x4  
@@ -25,6 +25,6 @@ Example:
 * 52x52  
 * ......  
 
-If you still have problems try to increase/decrease the size by 2 until the wrong shift disappears.  
-This is an approximation problem I cannot fix.
+如果仍然有问题,请尝试增加/减少2,直到错误的像素消失.
+这是一个插件无法解决的问题,我无法修复.
 

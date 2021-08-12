@@ -1,6 +1,6 @@
-# Custom Arrows
+# 自定义箭
 
-## Some examples \(ItemsAdder 2.2.8+\)
+## 一些栗子 \(ItemsAdder 2.2.8版本+\)
 
 ```yaml
 items:

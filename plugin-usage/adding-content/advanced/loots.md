@@ -1,13 +1,13 @@
 # 怪物/生物掉落
 
-Loots can be used to specify when to drop a particular item.  
-You can decide to create different loot types:
+掉落物可以用来指定什么行为掉落某个特定物品. 
+你可以决定创建不同的掉落物类型:
 
-* blocks
-* mobs
-* fishing
+* blocks[方块掉落]
+* mobs[怪物掉落]
+* fishing[垂钓掉落]
 
-For example this is the loots category of a .yml file I created.
+比如,这是我创建的一个.yml文件的掉落物类别.
 
 ```yaml
 loots:
@@ -36,22 +36,22 @@ loots:
           chance: 15
 ```
 
-This example has two loots in **blocks** category.
+这个栗子里,在**方块**里有两个掉落物.
 
-First one is called **ruby\_ore** \(you can call them as you prefer\), this will drop a **itemsadder:ruby** item when you break a custom **block** of type **itemsadder:ruby\_ore** with a minimum **amount** of **1** and **maximum** amount of **2** with **100% chance**.
+第一个被名为**ruby\_ore**\(你可以随心所欲地命名\),在你破坏一个自定义的 **itemsadder:ruby** 的方块时.它将会掉落一个**itemsadder:ruby_ore**物品.掉落的最小数量为**1**,掉落的最大数量为**2**,概率为**100%**
 
-The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal** or a **knowledge\_fragment** when the player breaks a **NETHER\_QUARTZ\_ORE**.  
-These **drops** are decided by **ItemsAdder** based on **chance** you set.
+第二个是来自**原版**方块的掉落.正如你所见的,当玩家打破一个**NETHER/QUARTZ/ORE**时,它会掉落一个**crystal**或一个**knowledge/fragment**
+这些**掉落**是由**ItemsAdder**根据你所设定的**概率**所决定.
 
 {% hint style="info" %}
-Special property: **drop\_only\_first**  
+特殊属性: **drop\_only\_first**  
 This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.  
-**WARNING**: this would make your items **harder** to be **dropped**.
+**警告**: 这将会使你的物品**更难**被丢弃
 {% endhint %}
 
-## Ignore fortune enchant
+## 无视时运附魔
 
-You can make a loot ignore fortune enchant by adding the **ignore\_fortune** property.
+你可以通过添加**ignore\_fortune**属性来使掉落物忽略时运附魔
 
 ```yaml
 loots:
@@ -67,12 +67,12 @@ loots:
           ignore_fortune: true # <----- here
 ```
 
-### Other types of loots
+### 其他类型的掉落
 
-As I said before there are other types of loots: mobs and fishing.  
-These are some examples:
+正如我刚刚所说,还有其他类型的掉落方式:Mob[怪物掉落]和fishing[垂钓掉落].  
+这是一些栗子:
 
-#### Fishing
+#### 垂钓掉落
 
 ```yaml
 loots:
@@ -100,7 +100,7 @@ loots:
           chance: 5
 ```
 
-#### Mobs
+#### 怪物掉落
 
 ```yaml
 loots:
@@ -129,10 +129,10 @@ loots:
 ```
 
 {% hint style="info" %}
-## Custom mobs loots
+## 自定义怪物的掉落物
 {% endhint %}
 
-In order to let ItemsAdder drop an item based on when you kill a custom mob \(created with ItemsAdder\) you have to use the metadata attribute. Example:
+为了让ItemsAdder判断你杀死的是不是自定义怪物\(ItemsAdder\)来掉落一个物品,你必须使用metadata属性.例如:
 
 ```yaml
 loots:
@@ -152,12 +152,12 @@ loots:
           chance: 100
 ```
 
-As you can see I set **ItemsAdderMob** attribute and specified my custom mob **namespace:id** \(in this example I used the **creaturesplus:soul** mob\)
+如你所见,我设置了**ItemsAdderMob**属性并指定了自定义怪物 **namespace:id** \(在这个栗子里,我使用了**creaturesplus:soul**怪物\)
 
 {% hint style="info" %}
-## Villager professions
+## 村民职业
 
-### \(and any other NBT attribute you want to match\)
+### \(和任何其他你想匹配的NBT属性\)
 {% endhint %}
 
 ```yaml
@@ -178,17 +178,17 @@ loots:
           chance: 100
 ```
 
-As you can see I set **profession** attribute and specified the **NBT attribute** path, which in this case is **VillagerData.profession**.  
-Then I set value to **minecraft:farmer**, this tells ItemsAdder to match only **villagers** with attribute **VillagerData.profession** set to **minecraft:farmer**.
+如你所见,我设置了**profession[职业]**属性,并指定了**NBT属性**,在这种情况下是**VillagerData.profession**
+然后我将配置的值设置为**minecraft:farmer**,这在告诉ItemsAdder只选择属性为**VillagerData.profession**的**villagers[村民]**,并设置为**minecraft:farmer**
 
 {% hint style="warning" %}
-The type attribute of **nbt** and **metadata** are really **important**, don't **forget** them or matches could not occur.
+**nbt**和**metadata**属性是超级**重要的**!请**不要**忘记设置它们,否则就不能进行选择.
 {% endhint %}
 
 {% hint style="info" %}
-## Drop based on spawner entity
+## 基于刷怪笼刷取
 
-### \(and any other NBT attribute you want to match\)
+### \(和任何其他你想选择的NBT属性\)
 {% endhint %}
 
 ```yaml

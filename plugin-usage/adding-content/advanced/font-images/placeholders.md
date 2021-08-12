@@ -1,10 +1,10 @@
-# Placeholders变量
+# Placeholders 变量
 
-You can use these special placeholders in chat, signs, books and in GUIs names.
+允许在聊天、木牌、书和 GUI 名称中使用这些特殊变量
 
-## Offset
+## Offset 偏移量
 
-This is a special placeholder that allows you to move a font image back and forward specifying pixels number.
+这是一个特殊的变量，允许您前后移动Fonts图像的位置（px）
 
 ```text
 :offset_-1:
@@ -13,12 +13,12 @@ This is a special placeholder that allows you to move a font image back and forw
 :offset_25:
 ```
 
-As you can see you have to write `:offset_`**`AMOUNT`**`:` \(without spaces\).
+格式为： `:offset_`**`数值`**`:` (\没有空格\).
 
-## Actual image
+## 实际图像
 
-To actually show make your font image show up you just have to write down its name surrounded by `:` character
-
+要使Fonts图像显示出来，只需写下图像名称并用`:` 字符包围
+栗子如下：
 ```text
 :my_gui:
 :blank_menu:

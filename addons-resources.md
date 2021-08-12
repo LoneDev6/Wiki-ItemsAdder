@@ -1,6 +1,6 @@
-# ➕扩展/材质
+# ➕ 附属资源
 
-## 点击下面按钮获得扩展:
+## 点击下面按钮获得附属:
 
 {% embed url="https://addons.devs.beer/itemsadder/" %}
 

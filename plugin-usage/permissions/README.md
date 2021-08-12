@@ -1,45 +1,45 @@
 # 👌🏻权限
 
-* Users
+* 玩家
 
   * /ia
     * `ia.user.ia`
   * /iarecipe
     * `ia.user.iarecipe`
-  * /iatexture \(to force apply the pack to yourself\)
+  * /iatexture \(强行给自己装上材质包\)
     * `ia.user.iatexture`
-  * /iatexture all \(to force apply the pack to everyone\)
+  * /iatexture all \(强行对每个玩家装上材质包\)
     * `ia.user.iatexture.all`
-  * crafting
-    * `ia.user.craft.PERMISSION` \(or to give all crafting permissions just use ia.user.craft.\*\)
-    * for more info about item permissions please[ read this](../adding-content/advanced/item-properties/basic/item-permission.md)
-  * see item in /ia menu
-    * `ia.user.ia.PERMISSION` \(or to give all /ia permissions just use ia.user.ia.\*\)
-    * for more info about item permissions please[ read this](../adding-content/advanced/item-properties/basic/item-permission.md)
-    * `ia.user.iasearchgui` for the search GUI in /ia menu
-    * You can also set a permission per category, please check [/ia GUI ](../ia.md)page
-  * emoji \(font images\)
-    * **/iaimage /emoji, /iaemoji, /e** book GUI \(shows a book with the list of emojis/font images\)
+  * 合成
+    * `ia.user.craft.PERMISSION` \(或者如果你要给所有的合成权限,只需使用 ia.user.craft.\*\)
+    * 关于物品权限的更多信息,请[阅读这里](../adding-content/advanced/item-properties/basic/item-permission.md)
+  * 查看物品在/ia
+    * `ia.user.ia.PERMISSION` \(或者要给所有类型权限,只需使用 ia.user.ia.\*\)
+    * 关于物品权限的更多信息,请[阅读这里](../adding-content/advanced/item-properties/basic/item-permission.md)
+    * `ia.user.iasearchgui` 用于/ia菜单中的搜索GUI
+    * 你也可以为每个类型设置一个权限,请查看[/ia GUI ](../ia.md)页面
+  * 表情 \(图像/字体\)
+    * **/iaimage /emoji, /iaemoji, /e** 书GUI \(显示一本带有表情/图像的书\)
       * `ia.user.image.gui`
-    * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(shows a tab list with emojis based on searched term\)
+    * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(根据搜索词来显示带有表情的标签\)
       * `ia.user.image.hints`
-    * Use emojis in chat
+    * 在聊天中使用表情
       * `ia.user.image.chat`
-    * Use emojis in commands
+    * 在输入命令时使用表情
       * `ia.user.image.command`
-    * Use emojis in signs
+    * 在告示牌使用表情
       * `ia.user.image.sign`
-    * Use emojis in books
+    * 在书中显示表情
       * `ia.user.image.book`
-    * Use emojis in anvil rename field
+    * 在铁砧重命名时使用表情
       * `ia.user.image.anvil`
-    * Permission to use an emoji
-      * `ia.user.image.use.<font image name>`
-      * Example: `ia.user.image.use.heart`
+    * 允许使用表情符号
+      * `ia.user.image.use.<图像名称>`
+      * 比如: `ia.user.image.use.heart`
 
   ​
 
-* Admin
+* 管理员
   * /iaget
     * `ia.admin.iaget`
   * /iagive
@@ -54,23 +54,23 @@
     * `ia.admin.iareload`
   * /iazip
     * `ia.admin.iazip`
-  * /iablock _\(get info about block you're looking at\)_
+  * /iablock _\(获得关于你在看的方块的信息\)_
     * `ia.admin.iablock`
-  * /ialiquid _\(get info about custom liquid you're looking at\)_
+  * /ialiquid _\(获得关于你在看的自定义水的信息\)_
     * `ia.admin.ialiquid`
   * /iadurability
     * ia.admin.iadurability
-  * Edit permission \(edit button in /ia\)
+  * 编辑权限 \(编辑按钮在/ia中\)
     * `ia.admin.edit`
-  * /iaplayerstat write _\(write a player custom stat\)_
+  * /iaplayerstat write _\(显示一个玩家的自定义统计\)_
     * `ia.admin.iaplayerstat.write`
-  * /iaplayerstat read _\(read a player custom stat\)_
+  * /iaplayerstat read _\(读取一个玩家的自定义数据\)_
     * `ia.admin.iaplayerstat.read`
-  * /iainfo \(get info about the plugin\)
+  * /iainfo \(获取关于该插件的信息\)
     * `ia.admin.iainfo`
-  * /iakill &lt;mob\|all&gt; \(kill custom mobs\)
+  * /iakill &lt;mob\|all&gt; \(杀死自定义怪物\)
     * `ia.admin.iakill`
-  * /iasummon &lt;mob&gt; \[amount\]
+  * /iasummon &lt;mob&gt; \[数量\]
     * `ia.admin.iasummon`
   * /iaexport &lt;namespace&gt;
     * `ia.admin.iaexport`
@@ -82,11 +82,11 @@
     * `ia.admin.iaplaysound`
   * /iacleancache
     * `ia.admin.iacleancache`
-  * /iahitbox \(shows the hitbox of placed furnitures\)
+  * /iahitbox \(显示放置的家具的破坏框\)
     * `ia.admin.iahitbox`
-* Other:
-  * Bypass kick on refuse resourcepack
+* 其他:
+  * 绕过接收资源包
     * `ia.resourcepack.bypasskick`
-  * Bypass player placed blocks can't drop loot
+  * 绕过玩家放置的方块不能掉落物品
     * `ia.admin.bypassblockplaceloot`
 

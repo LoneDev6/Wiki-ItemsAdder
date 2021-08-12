@@ -23,9 +23,9 @@ Minecraft不可以以任何方式向盔甲添加自定义材质/自定义3D模�
 
 {% page-ref page="../../plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md" %}
 
-### Elytra
+### 鞘翅
 
 {% hint style="warning" %}
-Minecraft不可以以任何方式向elytras添加自定义材质/自定义3D模型
+Minecraft不可以以任何方式向鞘翅添加自定义材质/自定义3D模型
 {% endhint %}
 

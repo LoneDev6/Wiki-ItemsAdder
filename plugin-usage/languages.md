@@ -1,6 +1,6 @@
 # Languages
 
-## Currently available languages
+### 目前可用的语言
 
 ```text
 GUI: 
@@ -19,7 +19,7 @@ Portuguese pt
 Russian ru
 Turkish tr
 
-Items: 
+物品: 
 Chinese zh_cn
 Spanish es
 French fr
@@ -28,9 +28,9 @@ Portuguese pt
 Turkish tr
 ```
 
-## How to change language?
+### 如何改变语言?
 
-Open config.yml and change the language setting.
+打开config.yml,修改语言设置.
 
 ```yaml
 config_files:

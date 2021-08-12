@@ -6,7 +6,7 @@ If you don't know what I mean by **namespace** please read [namespace tutorial](
 
 ## Creating an items\_packs subfolder
 
-In order to keep everything organized you have to create **your** own **namespace**.  
+In order to keep everything organized you have to create **your** own **namespace**.   
 First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
 
 So this example **namespace** will be `myitems` so create a folder names like the namespace.

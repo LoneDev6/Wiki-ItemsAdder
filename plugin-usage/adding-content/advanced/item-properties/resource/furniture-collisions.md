@@ -1,8 +1,8 @@
 # 家具的硬度
 
-## How can I make a furniture solid?
+## 我要如何做才能使家具变得坚固?
 
-You can make a furniture solid adding the "solid" attribute.
+你可以通过添加"solid"属性来使家具成为一个实体.
 
 ```yaml
   table:

@@ -1,7 +1,7 @@
 # ⚙️Optifine功能
 
 {% hint style="warning" %}
-**Optifine** is **not officially supported** by **ItemsAdder**, but if you want to get more customization you can read these tutorials.
+**ItemsAdder**不被**Optifine**官方支持,但如果你想获得更多的自定义教程.你可以阅读这些教程.
 
 ## Please don't ask support about Optifine features. Thanks!
 {% endhint %}

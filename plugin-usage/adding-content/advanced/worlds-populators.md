@@ -1,6 +1,6 @@
 # 方块生成机制
 
-## Example: 2 populators
+## 比如:2 populators
 
 ```yaml
 worlds_populators:
@@ -35,25 +35,25 @@ worlds_populators:
     iterations: 1
 ```
 
-This code allows you to tell ItemsAdder to generate the block "myitems:custom\_block" in the world named "world" and replace only block of types STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL and only in biome PLAINS.
+这段配置允许ItemsAdder在"world"的世界中生成方块"myitems:custom/block",并且只能替换STONE,DIRT,ANDESITE,GRANITE,COBBLESTONE,GRAVEL的方块,并且只能在群落PLAINS生成.
 
-## amount, iterations, chance
+## 数量[amount],重复[iterations],机率[chance]
 
 {% hint style="warning" %}
-I suggest you to copy values from the blocks.yml file I created in the itemsadder folder.  
-Don't put too high values or the server will lag/crash.  
-Take my values as example.
+我建议各位用户从我的itemsadder配置文件中的blocks.yml文件复制我建议的数值.   
+最好不要设置太高的数值,否则服务器会卡顿/奔溃. 
+最好以我的数值为栗子
 
-The only thing that you can increase safely as you wish is the **chance**.
+你能瞎设置的是**概率[chance]**
 {% endhint %}
 
-**iterations**: number of veins to be spawned to make a bigger ore vein  
-**amount**: number of blocks in each ore vein \(or the **vein size**\)  
-**chance**: chance of that generation to happen in a chunk, you should set it to 100 to normal ores and lower it down for more rare ores.
+**iterations**: 生成矿脉的数量  
+**amount**: 每个矿脉中的矿物数量 \(或**矿脉的大小**\)  
+**chance**: 你可以把它设置为普通矿石的概率比如:100%,而对于稀有矿物你可以选择降低它.
 
 ## Biomes
 
-You can remove this option and the plugin will spawn ores in every biome.
+你可以选择删除这个选项,该插件将在每个群落中产生矿物.
 
 ```yaml
   custom_block:
@@ -76,7 +76,7 @@ You can remove this option and the plugin will spawn ores in every biome.
 
 ## Replaceable blocks
 
-You can remove this option and the plugin will spawn ores replacing every block instead of checking if it can be replaced.
+你可以不理会这个选项,插件将产生矿石替换每个方块,而不是检查它是否可以被替换来进行替换.
 
 ```yaml
   custom_block:

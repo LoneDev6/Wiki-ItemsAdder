@@ -1,20 +1,20 @@
 # 方法二\(.png格式\)
 
 {% hint style="info" %}
-## This method allows you to add fonts using .png files
+## 这种方法允许你使用.png来添加字体
 {% endhint %}
 
-## Example font
+## 字体示例
 
 ![](../../../../.gitbook/assets/immagine%20%2815%29.png)
 
 {% hint style="info" %}
-This font is made by Faithful team, please check their work: [https://faithful.team/](https://faithful.team/)
+这个字体是由Faithful团队制作的,查看他们的作品:[https://faithful.team/](https://faithful.team/)
 {% endhint %}
 
-To this you have to:
+因此,你需要:
 
-* download the Faithful font [here](https://www.dropbox.com/s/06et55587zvcmr7/FaithfulFont.zip?dl=0)
-* extract contents into `plugins\ItemsAdder\data\resource_pack\`
-* and obviously if you're using [dropbox host](../../../resourcepack-hosting/resourcepack-on-dropbox.md) you have to reupload the pack.zip after server restart
+* 下载Faithful字体[在这!](https://www.dropbox.com/s/06et55587zvcmr7/FaithfulFont.zip?dl=0)
+* 将Faithful字体放到`plugins\ItemsAdder\data\resource_pack\`
+* 如果你使用的是[dropbox托管](../../../resourcepack-hosting/resourcepack-on-dropbox.md)你必须在服务器重启后重新上传pack.zip
 

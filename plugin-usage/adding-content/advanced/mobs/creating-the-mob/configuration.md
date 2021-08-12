@@ -1,18 +1,18 @@
 # Configuration
 
-## Creating your fist mob
+## 创建你的第一只怪物
 
-### yml configuration
+### yml配置
 
-You have to create a .yml file in your [namespace ](../../../beginners/basic-concepts/namespace.md)folder \(check [other tutorials ](../../../beginners/creating-your-namespace.md)for more info\).
+你必须在创建一个内容有[namespace[命名空间]](../../beginners/basic-concepts/namespace.md)的文件\(查看[其他的教程](../../beginners/creating-your-namespace.md)来获得更多信息\).
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../../files-editor.md) to edit ItemsAdder files.  
-It makes you life easier as it has autocomplete \(press CRTL+SPACE\) which helps you on avoiding mistakes.
+推荐使用[官方在线工具](../../../../../files-editor.md)来添加你的怪物/物品.  
+它会使添加物品/怪物更容易,因为有自动补全功能.\(按CRTL+SPACE键\)可以减少写配置时错误.
 {% endhint %}
 
-This is an example for a custom mob named **Soul**.  
-As you can see I set it up like a normal item, but with a special [behaviour ](../../item-properties/behaviours.md)named **mob**.
+这是一个自定义怪物名字Soul[灵魂]的栗子   
+如你们所见.我把它设置成一个普通的物品,但是有一个特别的[功能](../item-properties/behaviours.md)叫为**mob**.
 
 ```yaml
 info:
@@ -38,23 +38,23 @@ items:
           walk: soul_walking
 ```
 
-The mob will have **head rotation locked** \(only on Y axis\), this will avoid it from looking stupid while looking at player when is at an higher position.
+怪物的头部旋转也将被锁定(仅在Y轴上),这将会避免怪物在较高的位置看着玩家会显得比较奇怪.
 
-`hit_color` is the color the mob will have when damaged by player.  
-You can get a valid color from these websites:  
+`hit_color`是怪物被玩家攻击时的颜色.  
+你可以从这些网站里获得有用的颜色:  
 [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)  
 [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)  
-[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) \(use one of the color pickers and copy the value from the right\)
+[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) \(使用其中一个颜色选择网站,并从右边复制数值.\)
 
 {% hint style="info" %}
-Note: I **skipped** the `material` property of `resource` because **it's not needed** for **mobs**, ItemsAdder will automatically handle it.
+提醒: **怪物**不用写`物品`的使用`属性`,ItemsAdder将会自动处理.
 {% endhint %}
 
-### Animations
+### 动作
 
-You probably noticed that there are two other attributes: `attack` and `walk` **animations**.  
-The **mob\_animation** behaviour tells ItemsAdder that the item is a mob animation.  
-These are infact other items you have to create like this:
+你可能会注意到这两个属性:`attack[攻击]`和`walk[行走]`**动作**.  
+**mob\_animation**在告诉ItemsAdder,该项目是一个怪物的动作  
+实际上,这些都是你必须创建的其他项目,就像这样:
 
 ```yaml
   soul_walking:

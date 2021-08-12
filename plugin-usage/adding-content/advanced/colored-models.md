@@ -1,38 +1,38 @@
 # Colored models
 
 {% hint style="warning" %}
-Only available in **ItemsAdder 2.3.11+**
+仅在**ItemsAdder 2.3.11+**中可用
 {% endhint %}
 
 {% hint style="info" %}
-If you want to make a colored element \(for example a custom colored furniture\) or a colored vehicle you don't have to make a separate model for each item with different color.
+如果你想做一个彩色的物品\(比如一个自定义的彩色家具\)或彩色的车辆,你就不必为每个物品做一个不同颜色的单独模型.
 {% endhint %}
 
-## How can I do this?
+## 我要怎么做?
 
-### 1. open your model with blockbench
+### 1.用Blockbench打开你的模型
 
 ![](../../../.gitbook/assets/immagine%20%2890%29.png)
 
-### 2. select the face you want to be colored
+### 2.选择你想要上色的部分
 
 ![](../../../.gitbook/assets/immagine%20%2870%29.png)
 
-### 3. use a white/gray texture, for better coloring
+### 3.使用白色/灰色材质,以便更好地进行着色
 
-### 4. enable the hidden "Tint" feature
+### 4.启用隐藏的"Tint"功能
 
 ![](../../../.gitbook/assets/immagine%20%2864%29.png)
 
 ![](../../../.gitbook/assets/immagine%20%2856%29.png)
 
-### 5. enable the coloring for each face you want to be colored
+### 5.为你想要着色的每个部分启用着色功能
 
 ![](../../../.gitbook/assets/immagine%20%2881%29.png)
 
-### 6. set the specific color attribute in your .yml file.
+### 6.在你的.yml文件中设置特定的颜色
 
-In this example I used `leather_horse_armor`but you can also use `potion`.
+在这个栗子中,我使用了`leather_horse_armor`,但你也可以使用`potion`.
 
 ```yaml
   orange_modern_lamp:
@@ -47,11 +47,15 @@ In this example I used `leather_horse_armor`but you can also use `potion`.
 ```
 
 {% hint style="info" %}
-If you want to use a specific color you can use[ this color picker](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
-Copy the **decimal** color \(hex\).
+如果你想使用一个特别的颜色,你可以选择使用这个[color picker(颜色选择器)](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
+来复制**十进制**的颜色 \(hex\).
 {% endhint %}
 
-### 7. now you can create as many as furnitures you want, just change the color and it will be automatically colored by the game
+### 7.现在你可以创建你任何你想要的家具,只要你改变设置的颜色,它就会自动的被Itemsadder进行着色.
 
 ![](../../../.gitbook/assets/immagine%20%2892%29.png)
+
+
+
+
 

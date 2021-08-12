@@ -1,21 +1,21 @@
-# Convert old items/blocks ingame
+# 在游戏中转换旧物品/方块
 
 {% hint style="danger" %}
-**It's recommended to start a fresh new world and don't use the old one as converters work but are experimental.**
+**建议重新创建一个世界，并且不要使用旧的世界来进行转换.转换器仍是测试阶段**
 {% endhint %}
 
 {% hint style="danger" %}
-These features MAY be laggy, leave them enabled only for some days and then disable them to avoid useless lag.
+这些功能吃服务器性能，启用几天然后再关闭它，避免占用服务器性能使服务器有延迟
 {% endhint %}
 
-## How to auto convert old items in your worlds
+## 如何自动转换您世界中的旧物品
 
-When you update from ItemsAdder 1.0 to 2.0 you noticed that most of the items has changed, so they are not the same as old items before the update.  
-That's why I had to code a feature that auto replaces old items with new items. This process is run everytime a player opens an inventory in the world \(chests, containers.. but NOT their own inventory\).
+从 ItemsAdder 1.0 更新到 2.0 时，项目都发生了改变，与旧版项目有一定的区别
+（这就是作者编写自动转换的理由）当玩家在世界中打开容器时都会运行此过程 \(这里指的是箱子, 等储存界面.. 并不是玩家的背包\).
 
-In order to enable this you have to set this property to true in `converter.yml` of **ItemsAdder 2.0**
+为了启用此功能，请将 **ItemsAdder 2.0** 中的 `converter.yml` 中属性设置为 true
 
-#### Be sure to set inventory-open: true
+#### 确保设置为 inventory-open: true
 
 ```text
 items-auto-update:
@@ -23,17 +23,18 @@ items-auto-update:
   inventory-open: true
 ```
 
-## How to auto convert old blocks placed in worlds
+## 如何自动转换放置在世界中的旧方块
 
-You have to open `converter.yml` and map your own old blocks **model\_id** with the new **namespaced** block of IA 2.0. For example I've already added old ItemsAdder 1.0 blocks map to convert them to 2.0 namespaced blocks.
+打开 `converter.yml` 文件 并且标注旧的 **model\_id** 以及在Itemadder2.0中新 **分组** 的方块. 具体看下方例子就明白啦！(=ﾟωﾟ)ﾉ
 
-#### Be sure to set enabled: true
+#### 确保设置为 enabled: true
 
 ```text
 blocks:
   enabled: true
   debug: false
   conversion-map:
+    "物品id" : "分组:新方块"
     "1": "itemsadder:ruby_block"
     "2": "itemsadder:crystal_block"
     "3": "itemsadder:spinel_block"

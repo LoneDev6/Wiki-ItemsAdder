@@ -1,10 +1,10 @@
 # 将音频转换为.ogg格式
 
-Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert your file \(mp3, wav...\) to ogg.
+使用[这个网站](https://audio.online-convert.com/convert-to-ogg)来把你的音源\(mp3, wav...\)转换为ogg.
 
-## IMPORTANT:
+## 重要:
 
-Remember to set "Change audio channels" to MONO or you will experience [audio problems](https://bugs.mojang.com/browse/MC-146721)
+记得将"Change audio channels"设置为Mono,否则你会遇到[这个音频问题](https://bugs.mojang.com/browse/MC-146721)
 
 ![](../../../../.gitbook/assets/immagine%20%2812%29.png)
 

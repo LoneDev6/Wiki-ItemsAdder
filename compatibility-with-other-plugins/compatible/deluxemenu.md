@@ -1,14 +1,16 @@
 # DeluxeMenu
 
-To show an ItemsAdder item with custom texture on **DeluxeMenu** you have to add this special attribute to the icon of your menu:
+要在 **DeluxeMenu** 上显示具有自定义材质的 ItemsAdder 物品，需要将此特殊属性添加到菜单的图标中：
 
 ```yaml
 nbt_int: CustomModelData: 1
 ```
 
-Instead of 1 you have to set the **CustomModelData** of your custom item.
+是填写自定义项目的 **CustomModelData** 而不是固定为 1（这里只是一个例子）
 
-## How to get the CustomModelData value?
+### 如何获取 CustomModelData 值？
 
-You have to use the command `/iatag` while holding an ItemsAdder item, then search for `CustomModelData` value.
+手持ia物品的同时使用命令 `/iatag`，然后搜索 `CustomModelData` 值。
+
+
 

@@ -1,14 +1,14 @@
 ---
-description: How to create configuration and 3D models for your mob
+description: 如何为你的怪物创建配置和3D模型
 ---
 
-# Creating the mob
+# 添加怪物
 
 {% page-ref page="configuration.md" %}
 
 {% page-ref page="3d-model.md" %}
 
-## Final result
+## 最终的结果
 
 ```yaml
 info:

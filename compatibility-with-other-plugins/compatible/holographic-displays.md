@@ -1,18 +1,18 @@
 # Holographic Displays
 
-## How to get emojis in holographic displays
+## 如何在全息图中使用表情
 
-**UPDATE ITEMSADDER TO VERSION 2.1.21 OR MORE RECENT**
+**将 ITEMSADDER 更新至 2.1.21 或更高版本**
 
-Download [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
-Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
-Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
+下载 [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
+下载 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
+下载 the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
 
-Now you can use font\_images \(emojis\) inside holograms texts and everywhere in other plugins easily! \(they must support PlaceholderAPI\).  
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.  
-For example: `%img_smile%`
+现在你可以使用 font\_images \(emojis\) 在任何地方！ \(使用处必须支持 PlaceholderAPI\).  
+正确表达式为: `%img_NAME%` 而不是填写 font\_image 的名称.  
+栗子: `%img_smile%`
 
-To create an hologram you can use these commands for example:
+要创建全息图，您可以使用以下命令，例如：
 
 `/holo create test_itemsadder Hello! %img_smile%`
 

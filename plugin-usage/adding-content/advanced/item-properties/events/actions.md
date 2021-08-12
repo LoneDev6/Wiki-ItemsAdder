@@ -1,10 +1,10 @@
 # 动作
 
-## What are actions?
+## 什么是动作
 
-Actions are what will happen when an event is triggered.
+动作是指当一个事件被触发时将会发生的事情.
 
-### List of actions:
+### 动作列表:
 
 * `play_sound`
 * `stop_sound`
@@ -37,12 +37,12 @@ Actions are what will happen when an event is triggered.
 * `target_remove_potion_effect`
 * `play_totem_animation`
 
-### Delay
+### 延迟
 
 {% hint style="info" %}
-Every action has a special attribute **delay**.  
-It's the **delay** in ticks before starting the action.  
-For example:
+每个动作都有一个特殊的属性**delay**.  
+这是在开始行动之前的**delay**,单位是ticks.
+比如:
 
 ```yaml
 items:
@@ -84,11 +84,11 @@ items:
 ```
 {% endhint %}
 
-### Multiple actions of the same type
+### 同一个类型的多个动作.
 
 {% hint style="info" %}
-You can set the same action multiple times. You just have to add `_anything` at the end.  
-For example if you want to play two sounds you have to write this:
+你可以多次设置同一个类型的动作.你只需要在最后加上`_anything` 
+例如,如果你想播放两个声音,你必须这样配置.
 
 ```yaml
 play_sound_first:
@@ -106,13 +106,13 @@ play_sound_3:
 ```
 {% endhint %}
 
-### Actions permission
+### 行动权限
 
 {% hint style="info" %}
-Every action has a special attribute **permission**.  
-It's the **permission** the player must have before starting the **action**.  
-For example the player must have `myitems.usage.secret_items_dispenser` permission to play the sound.  
-In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give\_item.
+每个行动都有一个特殊的属性**permission[权限]**.  
+这是玩家在开始行动前必须得有的**permission[权限]**
+比如,播放音效必须有`myitems.usage.secret_items_dispenser`的权限才能播放音效.
+在这个栗子里,你会注意到一个"问题"即使玩家没有给予事件的权限,也会播放声音.这是因为权限的检查只检查give\_item.
 
 ```yaml
   test_block:
@@ -140,11 +140,11 @@ In this example you will notice an "issue". The sound is played even if the user
             pitch: 1
 ```
 
-### Setting the same permission to every action
+### 为每个动作设置相同的权限
 
-If you want to set the same permission to every action without copy and paste you can!  
-Use this special attribute `all_actions_permission`.  
-For example:
+如果你想给每个动作都都设置相同的权限,而不需要复制和粘贴,你可以这样做!  
+使用这一特殊属性`all_actions_permission`. 
+栗子:
 
 ```yaml
   test_block:
@@ -173,7 +173,7 @@ For example:
 ```
 {% endhint %}
 
-## List of actions properties
+## 行动属性列表
 
 ```yaml
 play_sound:
@@ -311,12 +311,12 @@ damange_near_entities:
 damage_entity_in_sight:
   damage: 4
   distance: 7
-
+  
 # Allows you to damage the entity of this event. For example on interact or attack
 # or on event item_hit_entity
 damage_entity:
   damage: 4
-
+  
 # Special action that allows you to increment player stat linked to an hud
 #in this case hud named: "itemsadder:mana_bar"
 increment_player_stat:

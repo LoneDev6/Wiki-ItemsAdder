@@ -1,10 +1,10 @@
 # 自定义PlayerStats
 
-## What are PlayerStats?
+## 什么是PlayerStats?
 
-They custom attributes added by ItemsAdder, you can add and read them using a special command: `/iaplayerstat`
+是由ItemsAdder添加的自定义属性,你可以使用一个指令添加或者使用它: `/iaplayerstat`
 
-You can then use PlaceholderAPI to show them anywhere or bind them to a HUD \(like I did for thirst and mana, check my configs for examples\).
+你可以使用PlaceholderAPI显示在任何地方,或者将它们使用到HUD上 \(就像我的口渴和魔法栏那样,详细请查看配置中的栗子\).
 
-Example: `/iaplayerstat read LoneDev thirst float`
+栗子: `/iaplayerstat read LoneDev thirst float`
 

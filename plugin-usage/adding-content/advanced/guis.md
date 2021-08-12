@@ -1,24 +1,24 @@
 # GUIs
 
-In order to make GUIs you can copy and paste my pack named mcguis and edit it on your likings.  
-In order to create custom GUIs you can use the [JavaAPI ](../../../kai-fa/java-api/huds-guis.md)or install a plugin like [ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
-If you are using a plugin like ChestCommands you have to name the GUI like this:
+制作自定义UI界面,你可以复制和粘贴我的mcguis的包,并根据你的喜好修改它.  
+创建自定义gui，你可以使用[JavaAPI ](../../../kai-fa/java-api/huds-guis.md)或安装一个插件,如[ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
+使用像ChestCommands这样的插件,你需要像这样命名UI:
 
 ```text
 :offset_-16::blank_menu:
 ```
 
-This tells ItemsAdder to replace the GUI name with a -16 offset special character that will shift the main\_menu texture of 16 pixels back.
+ItemsAdder使用一个-16偏移的特殊字符替换GUI,这会使main\_menu的材质向后移动16像素.
 
 ![](../../../.gitbook/assets/immagine%20%2811%29.png)
 
-## Read more about placeholders
+## 了解更多关于变量的信息
 
 {% page-ref page="font-images/placeholders.md" %}
 
-## Example addon
+## 扩展栗子
 
-Here you can get an addon example [https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/](https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/)
+在这你可以得到一个扩展的栗子[https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/](https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/)
 
 ![https://i.imgur.com/wuFEAoZ.gif](https://i.imgur.com/wuFEAoZ.gif)
 

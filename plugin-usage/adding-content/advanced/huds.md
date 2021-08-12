@@ -1,19 +1,18 @@
 # HUDs
 
-In order to create custom HUDs you have 2 examples provided in ItemsAdder and they make use of every feature available.
+为了创建自定义的HUD,我在ItemsAdder中提供了2个栗子,它们使用了所有可用的功能.
 
-These two HUDs are the mana bar and the thirst bar.  
-You can find them in the **realcraft** and in the **magiccraft** namespaces.
-
+这两个HUD是法力值和口渴值
+你可以在**realcraft**和**magiccraft**分组中找到它们.
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 
-## Disable/enable huds in worlds
+## 禁用/启用 huds 在一些世界
 
-You can easily disable/enable huds in some worlds, here some examples:
+禁用/启用huds是非常方便的,栗子如下:
 
-## Enable in all worlds
+## 在所有的世界中启用
 
-To enable them in all worlds you just have to avoid entering any world in the list, don't write the property at all.
+要在所有的世界中启用它们,你只需要避免在列表里输入任何世界名词.
 
 ```yaml
 huds:
@@ -21,7 +20,7 @@ huds:
     enabled: true
 ```
 
-### Enable thirst in all worlds but not in world\_the\_end
+### 在所有世界中启用口渴值,但在world_the_end世界中关闭.
 
 ```yaml
 huds:
@@ -31,9 +30,9 @@ huds:
     - "!world_the_end"
 ```
 
-Notice the `!` in front of the world name. \(It's very important to use the `" "` characters or plugin won't work \(yml bug\).
+注意世界名称前面的`!`.使用`" "`是非常重要的,否则插件将无法工作(yml格式的bug\)
 
-### Enable thirst in all worlds of name which starts with `world_` or `adventure`
+### 在所有名称以`world_`或`adventure`开头的世界中启用口渴值.
 
 ```yaml
 huds:
@@ -44,5 +43,5 @@ huds:
     - "adventure*
 ```
 
-Notice the `*` at the end, this means "any". \(keep in mind that this works only at the end of the name\)
+注意结尾处的`*`,这是"任何"的意思.\(请记住,这只在名字的末尾起作用\)
 

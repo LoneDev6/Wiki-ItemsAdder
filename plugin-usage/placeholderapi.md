@@ -1,23 +1,23 @@
 # PlaceholderAPI变量
 
-## FontImage \(emoji etc\)
+## 字体图像 \(表情符号等\)
 
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.  
-For example: `%img_smile%`
+PlaceholderAPI变量: `%img_NAME%` 不要按照前面写NAME,写字体/图像的名称!.  
+比如: `%img_smile%`
 
-## ItemsAdder PlayerStats \(HUDs values\)
+## ItemsAdder PlayerStats \(HUDs的值\)
 
-These are stats used by ItemsAdder, they're not vanilla stats.
+PlayerStats使用的是ItemsAdder的统计,不是原版的统计.
 
-This is the code: `%iaplayerstat_NAME%` instead of NAME write the playerstat name.  
-For example: `%iaplayerstat_mana%` or also `%iaplayerstat_thirst%`
+PlaceholderAPI变量: `%iaplayerstat_NAME%` 写的是playerstat的名称,而不是NAME!
+比如: `%iaplayerstat_mana%` 或者 `%iaplayerstat_thirst%`
 
-You can use this command to test it out:  
+你可以用这些指令来测试:  
 `/papi parse me %iaplayerstat_thirst%`  
 `/papi parse me %iaplayerstat_mana%`
 
 {% hint style="info" %}
-### Read more about playerstats
+### 查阅更多关于PlayerStats的信息
 
 {% page-ref page="custom-playerstats.md" %}
 {% endhint %}

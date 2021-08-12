@@ -1,5 +1,5 @@
 ---
-description: This recipe allows you to let players repair an item in anvil using a material
+description: 这个修复配方允许你让玩家用一种物品在铁砧上修理一件物品.
 ---
 
 # 铁砧维修
@@ -14,5 +14,5 @@ anvil_repair:
         item: itemsadder:emerald_sword
 ```
 
-In this example I created an`anvil_repair` recipe called `emerald_sword`
+在这个栗子里,我写了一个`anvil_repair[铁砧修复]`的修复配方,他叫做`emerald_sword`
 

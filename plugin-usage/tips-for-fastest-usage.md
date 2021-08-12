@@ -1,18 +1,18 @@
 # 🏁最快的使用方法
 
-## It takes too much time editing the pack and uploading it online!
+## 修改材质包并将其上传到托管上需要花费太多的时间!
 
-Yes if you do that the wrong way ;\) Read this:
+当然,如果你用错误的方式去操作 ;\) 阅读此文:
 
 {% hint style="info" %}
-It's a good practice to create a **test server on your PC** with:
+在自家电脑上创建一个**测试服务器**是非常好的:
 
 * [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-emojis-ores-blocks-wings-tails-hats-more.73355/)
 * [IALib](https://www.spigotmc.org/resources/ialib.75974/)
 * [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 * [LightAPI Fork](https://www.spigotmc.org/resources/lightapi-fork.48247/)
 
-ItemsAdder with this resourcepack config:
+使用该材质包配置的ItemsAdder:
 
 ```yaml
 resource-pack:
@@ -28,22 +28,22 @@ resource-pack:
     url: 'http://example.dropbox.com'
 ```
 
-Doing this you'll have a fast and easy to use configuration evironment. You can add items and edit the pack on the fly.
+如果这样弄的话,你将拥有一个快速和简单使用的配置环境.你可以添加项目,并在飞行中修改材质包.
 
-When you edit an item texture/model and you edit its configuration you will use command `/iareload` , `/iazip` and then on your client`/iatexture`, doing this you'll see changes applied at realtime.
+当你修改一个物品材质/模型并编修改其配置时,你将使用指令 `/iareload` , `/iazip` 然后在你的客户端使用`/iatexture`,这样弄的话你将会看到变化
 
-So after you finished adding items and configuring them you'll be able to upload everything on your online server, upload your `pack.zip` following the next tutorial down here.
+所以,在你完成了添加物品和配置后,你就可以把材质包上传到你的托管服务器上,按照下面的教程上传你的 `pack.zip`
 {% endhint %}
 
 {% page-ref page="resourcepack-hosting/resourcepack-on-dropbox.md" %}
 
 {% hint style="warning" %}
-It's a good practice to not edit ItemsAdder textures/models directly on your online server.  
-Players hate lag on plugins reload, server restarts, having to redownload the pack when they're already player.. keep that in mind.
+最好不要直接在您的托管服务器上修改物品或更大的材质/模型.
+玩家可能会讨厌插件重新加载时的卡顿,服务器重新启动,玩家还得重新下载材质包......请记住这一点.
 {% endhint %}
 
 {% hint style="danger" %}
-It's a good thing not to edit my custom items as surely in the future they can be edited and you'll go crazy maintaining both your customization and my updates.  
-So if you want to edit items just make your own
+不修改我的自定义物品是非常好的选择,因为你将来肯定会被修改到,你只需要维护你的扩展和我的插件更新.  
+所以,如果你想修改物品,最好只修改你自己的物品
 {% endhint %}
 

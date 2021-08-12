@@ -2,20 +2,19 @@
 
 ## What are templates?
 
-Templates are special items that won't appear ingame, they are used as properties holders for other items.  
-They allow you to write common properties in one item and add them automatically to other items without constant copy and paste.
+模板是不会出现在游戏中的特殊物品,它们被用作物品的属性主体.[比如你想给这个木板添加更多颜色.那么只需用模板就可以保持属性的相同.]
+它们允许你在一个物品里有相同的属性,通过分支来弄出不同的材质的效果.并且自动的添加到其他物品里,无需不断地复制和粘贴.
 
-To create a template you have to set `template: true` in your item.
+要创建一个模板,你必须在你的物品里设置`template: true`
 
 ## What are variants?
 
-Variants are items that will appear ingame and will inherit properties of template items.
-
-To create a variant you have to set `variant_of: template name` in your item.
+分支是将在游戏中出现的物品，并且继承模板物品的属性.
+要创建一个分支,你必须在你的物品里设置`variant_of: template name`
 
 ## Example
 
-I want to create multiple furnitures which are equal but only model changes.
+我想创建多个材质的家具,它们的属性是相同的,但只有材质/模型不同.
 
 ```yaml
   template_wood_park_bench:
