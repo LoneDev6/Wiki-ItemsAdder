@@ -36,7 +36,7 @@ description: 这个合成配方允许你玩家用物品来制作一个物品
 
 在这个栗子里,我创建了两个`crafting_table[合成配方]`合成配方,叫做`deadmau5_hat`和`top_hat`
 
-## 特别的配方[嘿嘿嘿]
+## 特别的配方\[嘿嘿嘿\]
 
 ```yaml
     peeled_potato:

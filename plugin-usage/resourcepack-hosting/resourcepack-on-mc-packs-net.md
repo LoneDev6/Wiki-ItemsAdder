@@ -1,9 +1,7 @@
 # mc-packs.net托管材质包
 
 {% hint style="danger" %}
-**请不要使用**文件名为**pack\_21521367.zip**或者**precompressed\_example\_pack.zip**作为Base!!!!
-你必须使用**/iazip**指令生成的**pack.zip**文件.
-你可以在这个文件夹里找到它: `plugins/ItemsAdder/data/resource_pack/pack.zip`
+**请不要使用**文件名为**pack\_21521367.zip**或者**precompressed\_example\_pack.zip**作为Base!!!! 你必须使用**/iazip**指令生成的**pack.zip**文件. 你可以在这个文件夹里找到它: `plugins/ItemsAdder/data/resource_pack/pack.zip`
 {% endhint %}
 
 {% hint style="danger" %}

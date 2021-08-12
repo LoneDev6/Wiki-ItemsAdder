@@ -6,8 +6,7 @@ ItemsAdder提供两种创建自定义怪物的方法:
 
 ### ItemsAdder增加
 
-这是最简单且最快速的方法来创建你的自定义怪物并应用到世界里.
-然而你并不需要安装MythicMobs插件.
+这是最简单且最快速的方法来创建你的自定义怪物并应用到世界里. 然而你并不需要安装MythicMobs插件.
 
 {% page-ref page="itemsadder-internal.md" %}
 
@@ -17,6 +16,4 @@ ItemsAdder提供两种创建自定义怪物的方法:
 这能使你能够使用MythicMobs的所有扩展功能,并将自定义模型应用于你的自定义怪物.
 
 {% page-ref page="using-mythicmobs.md" %}
-
-
 

@@ -1,14 +1,13 @@
-# ItemsAdder internal
+# 运用ItemsAdder添加怪物
 
 ## 使用ItemsAdder自然生成怪物
 
 如果你想让怪物自然生成的话,你一定要添加`replace_mobs_spawn`属性.
 
-这是一个自定义怪物名字Soul[灵魂]的栗子   
-如你们所见.我把它设置成一个普通的物品项目,但是这里却有一个特别的[功能](../item-properties/behaviours.md)叫为**mob[怪物]**.
+这是一个自定义怪物名字Soul\[灵魂\]的栗子  
+如你们所见.我把它设置成一个普通的物品项目,但是这里却有一个特别的[功能](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/4edf485be30302572fd2cbcbb3873eb94e0dcbc7/plugin-usage/adding-content/advanced/mobs/item-properties/behaviours.md)叫为**mob\[怪物\]**.
 
-  
-这个功能在告诉ItemsAdder以20%`chance[几率]`替换任何自然生成的`ZOMBIE[僵尸]`,在`MIDNIGHT[夜晚]`并且只能在洞穴中进行替换\(`max_sky_light: 0`\).  
+这个功能在告诉ItemsAdder以20%`chance[几率]`替换任何自然生成的`ZOMBIE[僵尸]`,在`MIDNIGHT[夜晚]`并且只能在洞穴中进行替换\(`max_sky_light: 0`\).
 
 ```yaml
   soul:
@@ -62,8 +61,7 @@
               start: NOON
 ```
 
-你可以决定**替换原版怪物**还是在**不替换原版怪物**的情况下生成**自定义怪物**
-你可以使用`spawn_another`属性.
+你可以决定**替换原版怪物**还是在**不替换原版怪物**的情况下生成**自定义怪物** 你可以使用`spawn_another`属性.
 
 ```yaml
           rule3:

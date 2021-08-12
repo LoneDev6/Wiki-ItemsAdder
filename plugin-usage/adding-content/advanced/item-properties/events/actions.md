@@ -41,8 +41,7 @@
 
 {% hint style="info" %}
 每个动作都有一个特殊的属性**delay**.  
-这是在开始行动之前的**delay**,单位是ticks.
-比如:
+这是在开始行动之前的**delay**,单位是ticks. 比如:
 
 ```yaml
 items:
@@ -87,8 +86,7 @@ items:
 ### 同一个类型的多个动作.
 
 {% hint style="info" %}
-你可以多次设置同一个类型的动作.你只需要在最后加上`_anything` 
-例如,如果你想播放两个声音,你必须这样配置.
+你可以多次设置同一个类型的动作.你只需要在最后加上`_anything` 例如,如果你想播放两个声音,你必须这样配置.
 
 ```yaml
 play_sound_first:
@@ -109,10 +107,8 @@ play_sound_3:
 ### 行动权限
 
 {% hint style="info" %}
-每个行动都有一个特殊的属性**permission[权限]**.  
-这是玩家在开始行动前必须得有的**permission[权限]**
-比如,播放音效必须有`myitems.usage.secret_items_dispenser`的权限才能播放音效.
-在这个栗子里,你会注意到一个"问题"即使玩家没有给予事件的权限,也会播放声音.这是因为权限的检查只检查give\_item.
+每个行动都有一个特殊的属性**permission\[权限\]**.  
+这是玩家在开始行动前必须得有的**permission\[权限\]** 比如,播放音效必须有`myitems.usage.secret_items_dispenser`的权限才能播放音效. 在这个栗子里,你会注意到一个"问题"即使玩家没有给予事件的权限,也会播放声音.这是因为权限的检查只检查give\_item.
 
 ```yaml
   test_block:
@@ -143,8 +139,7 @@ play_sound_3:
 ### 为每个动作设置相同的权限
 
 如果你想给每个动作都都设置相同的权限,而不需要复制和粘贴,你可以这样做!  
-使用这一特殊属性`all_actions_permission`. 
-栗子:
+使用这一特殊属性`all_actions_permission`. 栗子:
 
 ```yaml
   test_block:
@@ -311,12 +306,12 @@ damange_near_entities:
 damage_entity_in_sight:
   damage: 4
   distance: 7
-  
+
 # Allows you to damage the entity of this event. For example on interact or attack
 # or on event item_hit_entity
 damage_entity:
   damage: 4
-  
+
 # Special action that allows you to increment player stat linked to an hud
 #in this case hud named: "itemsadder:mana_bar"
 increment_player_stat:

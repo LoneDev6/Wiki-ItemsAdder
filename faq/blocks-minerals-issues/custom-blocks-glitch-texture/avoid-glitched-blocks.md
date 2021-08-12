@@ -1,4 +1,4 @@
-# Avoid glitched blocks
+# 避免出现故障方块
 
 {% hint style="warning" %}
 ## This only works on [Purpur](https://purpur.pl3x.net/). Spigot and Paper don't have this feature.

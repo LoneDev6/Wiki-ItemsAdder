@@ -1,4 +1,4 @@
-# 3D model
+# 3D模型
 
 ## 创建动作模型\(闲置的动画动作\)
 
@@ -17,8 +17,7 @@ BlockBench的[教程](https://search.bilibili.com/all?keyword=BlockBench&from_so
 
 ![](../../../../../.gitbook/assets/immagine%20%2857%29.png)
 
-现在,我们要把它做成动画动作! 
-比如,我想让它上下浮动.
+现在,我们要把它做成动画动作! 比如,我想让它上下浮动.
 
 **1.保存**你的**模型**在一个临时的文件中\(在你的电脑上的任何位置\)
 
@@ -46,13 +45,13 @@ BlockBench的[教程](https://search.bilibili.com/all?keyword=BlockBench&from_so
 
 ![](../../../../../.gitbook/assets/immagine%20%2880%29.png)
 
-**7.**点击"**Choose files[选择文件]...**"然后选择你的json文件和png材质.
+**7.**点击"**Choose files\[选择文件\]...**"然后选择你的json文件和png材质.
 
 ![](../../../../../.gitbook/assets/immagine%20%2814%29.png)
 
 ![](../../../../../.gitbook/assets/immagine%20%2873%29.png)
 
-**8.**点击**LOAD[加载]**
+**8.**点击**LOAD\[加载\]**
 
 ![](../../../../../.gitbook/assets/immagine%20%2883%29.png)
 
@@ -70,11 +69,11 @@ BlockBench的[教程](https://search.bilibili.com/all?keyword=BlockBench&from_so
 
 ![](../../../../../.gitbook/assets/immagine%20%2885%29.png)
 
-**12.**按**play[播放]**按钮\(在**左下角**\)来**预览**你的动画动作
+**12.**按**play\[播放\]**按钮\(在**左下角**\)来**预览**你的动画动作
 
 ![](https://i.imgur.com/zslbD0G.gif)
 
-**13.**按"**Export[导出]**"按钮\(**屏幕**的**右上方**\)像截图中那样进行配置,然后再按"**Export[导出]**"按钮.
+**13.**按"**Export\[导出\]**"按钮\(**屏幕**的**右上方**\)像截图中那样进行配置,然后再按"**Export\[导出\]**"按钮.
 
 ![](../../../../../.gitbook/assets/immagine%20%2866%29.png)
 
@@ -95,7 +94,7 @@ items:
       model_path: "mob/soul/idle"
 ```
 
-**17.**使用指令`/iazip` \(如果你使用的是external_host[外托管],请查看该[教程](../../../../resourcepack-hosting/)\)
+**17.**使用指令`/iazip` \(如果你使用的是external\_host\[外托管\],请查看该[教程](../../../../resourcepack-hosting/)\)
 
 **18.**生成怪物,使用指令`/iasummon soul`
 
@@ -111,11 +110,9 @@ items:
 
 ## More advanced animations:
 
-{% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" %}
+{% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" caption="" %}
 
 ## Full addon download
 
-{% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" %}
-
-
+{% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" caption="" %}
 

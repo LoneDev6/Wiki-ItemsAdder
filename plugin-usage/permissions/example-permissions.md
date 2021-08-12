@@ -20,8 +20,7 @@
 {% hint style="info" %}
 ### 默认类别
 
-打开这个文件夹,查询所有权限/查看所有类别:
-`plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+打开这个文件夹,查询所有权限/查看所有类别: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 
 比如,你想让玩家看到默认ItemsAdder里所有的类型,你只需要给予 `ia.menu.*` 权限.
 {% endhint %}

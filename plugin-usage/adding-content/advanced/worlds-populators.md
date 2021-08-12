@@ -37,14 +37,13 @@ worlds_populators:
 
 这段配置允许ItemsAdder在"world"的世界中生成方块"myitems:custom/block",并且只能替换STONE,DIRT,ANDESITE,GRANITE,COBBLESTONE,GRAVEL的方块,并且只能在群落PLAINS生成.
 
-## 数量[amount],重复[iterations],机率[chance]
+## 数量\[amount\],重复\[iterations\],机率\[chance\]
 
 {% hint style="warning" %}
-我建议各位用户从我的itemsadder配置文件中的blocks.yml文件复制我建议的数值.   
-最好不要设置太高的数值,否则服务器会卡顿/奔溃. 
-最好以我的数值为栗子
+我建议各位用户从我的itemsadder配置文件中的blocks.yml文件复制我建议的数值.  
+最好不要设置太高的数值,否则服务器会卡顿/奔溃. 最好以我的数值为栗子
 
-你能瞎设置的是**概率[chance]**
+你能瞎设置的是**概率\[chance\]**
 {% endhint %}
 
 **iterations**: 生成矿脉的数量  

@@ -1,6 +1,6 @@
 # 物品权限
 
-### Example
+## Example
 
 ```yaml
 permission: myitem
@@ -12,6 +12,4 @@ permission: myitem
 {% hint style="info" %}
 别忘记给玩家权限`ia.user.ia`让他们使用`/ia`命令
 {% endhint %}
-
-
 

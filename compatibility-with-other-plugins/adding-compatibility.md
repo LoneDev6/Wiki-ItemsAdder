@@ -1,13 +1,9 @@
-# Adding compatibility
+# 添加兼容性
 
 Adding compatibility to ItemsAdder items is very easy!  
 **API** is **free** and available via maven package:
 
-{% page-ref page="../developers/java-api/" %}
-
 ## How to get an item
-
-{% page-ref page="../developers/java-api/examples.md" %}
 
 {% hint style="warning" %}
 ## Important

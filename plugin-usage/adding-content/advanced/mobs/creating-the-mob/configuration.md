@@ -1,18 +1,18 @@
-# Configuration
+# 配置
 
 ## 创建你的第一只怪物
 
 ### yml配置
 
-你必须在创建一个内容有[namespace[命名空间]](../../beginners/basic-concepts/namespace.md)的文件\(查看[其他的教程](../../beginners/creating-your-namespace.md)来获得更多信息\).
+你必须在创建一个内容有[namespace\[命名空间\]](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/4edf485be30302572fd2cbcbb3873eb94e0dcbc7/plugin-usage/adding-content/advanced/beginners/basic-concepts/namespace.md)的文件\(查看[其他的教程](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/4edf485be30302572fd2cbcbb3873eb94e0dcbc7/plugin-usage/adding-content/advanced/beginners/creating-your-namespace.md)来获得更多信息\).
 
 {% hint style="info" %}
 推荐使用[官方在线工具](../../../../../files-editor.md)来添加你的怪物/物品.  
 它会使添加物品/怪物更容易,因为有自动补全功能.\(按CRTL+SPACE键\)可以减少写配置时错误.
 {% endhint %}
 
-这是一个自定义怪物名字Soul[灵魂]的栗子   
-如你们所见.我把它设置成一个普通的物品,但是有一个特别的[功能](../item-properties/behaviours.md)叫为**mob**.
+这是一个自定义怪物名字Soul\[灵魂\]的栗子  
+如你们所见.我把它设置成一个普通的物品,但是有一个特别的[功能](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/4edf485be30302572fd2cbcbb3873eb94e0dcbc7/plugin-usage/adding-content/advanced/mobs/item-properties/behaviours.md)叫为**mob**.
 
 ```yaml
 info:
@@ -38,7 +38,7 @@ items:
           walk: soul_walking
 ```
 
-怪物的头部旋转也将被锁定(仅在Y轴上),这将会避免怪物在较高的位置看着玩家会显得比较奇怪.
+怪物的头部旋转也将被锁定\(仅在Y轴上\),这将会避免怪物在较高的位置看着玩家会显得比较奇怪.
 
 `hit_color`是怪物被玩家攻击时的颜色.  
 你可以从这些网站里获得有用的颜色:  

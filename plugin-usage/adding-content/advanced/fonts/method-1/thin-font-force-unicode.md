@@ -1,8 +1,8 @@
-# Font \(force unicode\)
+# 瘦体字\(force unicode\)
 
 ## 细形字体样式
 
-在Minecraft里,你只要设置**Force Unicode Font: ON**就能看到_"thin font[瘦体字]"_.
+在Minecraft里,你只要设置**Force Unicode Font: ON**就能看到_"thin font\[瘦体字\]"_.
 
 ![](../../../../../.gitbook/assets/immagine%20%284%29.png)
 
@@ -24,8 +24,7 @@
 这允许你设置**强制Unicode字体: OFF**,但仍能用细字体.
 
 {% hint style="warning" %}
-记住,修改之后,你必须重新生成你的pack.zip 
-检查[资源包教程](../../../../resourcepack-hosting/)
+记住,修改之后,你必须重新生成你的pack.zip 检查[资源包教程](../../../../resourcepack-hosting/)
 {% endhint %}
 
 ### 结果
@@ -33,6 +32,6 @@
 ![](../../../../../.gitbook/assets/immagine%20%286%29.png)
 
 {% hint style="success" %}
-现在你可以看到"thin font[瘦体字]"和GUIs, emojis, HUDs不会有问题\(bugged white squares\)
+现在你可以看到"thin font\[瘦体字\]"和GUIs, emojis, HUDs不会有问题\(bugged white squares\)
 {% endhint %}
 

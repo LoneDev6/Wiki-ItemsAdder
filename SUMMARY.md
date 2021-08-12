@@ -1,4 +1,4 @@
-# 目录
+# Table of contents
 
 * [👋🏻 欢迎使用](README.md)
 * [❤️ 赞助 - 支持开发者的工作](donation-support-my-work.md)
@@ -26,7 +26,7 @@
       * [避免出现故障方块](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
       * [红石 \(真实方块\)](faq/blocks-minerals-issues/custom-blocks-glitch-texture/redstone-real-blocks.md)
       * [音符盒 \(真实音符\)](faq/blocks-minerals-issues/custom-blocks-glitch-texture/noteblocks-real_note.md)
-    * [在某些区域/自定义世界中出现的错误方块](faq/blocks-minerals-issues/glitched-blocks-in-some-areas-custom-worlds.md)
+    * [在某些区域/自定义世界中出现的错误方块](faq/blocks-minerals-issues/zai-mou-xie-qu-yu-zi-ding-yi-shi-jie-zhong-chu-xian-de-cuo-wu-fang-kuai.md)
   * [💧 液体特性](faq/liquids-bugs.md)
   * [火焰特性](faq/fire-bugs.md)
   * [无法修改minecraft默认文件](faq/cant-edit-minecraft-default-files.md)
@@ -138,11 +138,11 @@
 ## 开发
 
 * [☕️ Java API](kai-fa/java-api/README.md)
-  * [栗子](kai-fa/java-api/examples.md)
-  * [事件](kai-fa/java-api/events.md)
-  * [HUDs, GUIs...](kai-fa/java-api/huds-guis.md)
+  * [栗子](kai-fa/java-api/li-zi.md)
+  * [事件](kai-fa/java-api/shi-jian.md)
+  * [HUDs, GUIs...](kai-fa/java-api/huds-guis....md)
 * [📓 Skript API](kai-fa/skript-api/README.md)
-  * [大佬用户](kai-fa/skript-api/expert-users-1.md)
+  * [大佬用户](kai-fa/skript-api/da-lao-yong-hu.md)
 
 ---
 
@@ -178,3 +178,4 @@
     * [ChatControl-Red](compatibility-with-other-plugins/compatible/chatcontrol-red.md)
     * [DeluxeMenu](compatibility-with-other-plugins/compatible/deluxemenu.md)
 * [旧版本V1教程](old-v1.0-tutorials.md)
+

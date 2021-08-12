@@ -1,4 +1,4 @@
-# Fuel
+# 燃料
 
 ```yaml
   magic_fuel:

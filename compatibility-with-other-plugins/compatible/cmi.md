@@ -30,4 +30,3 @@ GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
 
 完成
 
-

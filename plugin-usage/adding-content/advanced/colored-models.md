@@ -1,4 +1,4 @@
-# Colored models
+# 彩色的模型
 
 {% hint style="warning" %}
 仅在**ItemsAdder 2.3.11+**中可用
@@ -47,15 +47,11 @@
 ```
 
 {% hint style="info" %}
-如果你想使用一个特别的颜色,你可以选择使用这个[color picker(颜色选择器)](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
+如果你想使用一个特别的颜色,你可以选择使用这个[color picker\(颜色选择器\)](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
 来复制**十进制**的颜色 \(hex\).
 {% endhint %}
 
 ### 7.现在你可以创建你任何你想要的家具,只要你改变设置的颜色,它就会自动的被Itemsadder进行着色.
 
 ![](../../../.gitbook/assets/immagine%20%2892%29.png)
-
-
-
-
 

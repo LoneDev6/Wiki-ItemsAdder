@@ -1,4 +1,4 @@
-# WorldGuard标志
+# WorldGuard flags
 
 ## 标志列表
 
@@ -52,7 +52,7 @@ allow user to remove only their own vehicles in the region
 
 ### ia-placed-block-interact
 
-允许玩家触发placed_block.interactive事件
+允许玩家触发placed\_block.interactive事件
 
 ### ia-placed-armorstand-interact
 

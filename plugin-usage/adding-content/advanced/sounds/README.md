@@ -9,8 +9,7 @@
 * 创建一个新的文件名为**sounds**
 * 放置你的**.ogg**文件\(你也可以创建另一个文件来放你的音效,例如 "音效","音乐"文件...\)
 
-举个栗子,我有一个名为**cdk\_sunday.ogg**的文件,我把它放到一个新的**music\_disc**文件里
-所以现在我有`plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`这样的文件路径.
+举个栗子,我有一个名为**cdk\_sunday.ogg**的文件,我把它放到一个新的**music\_disc**文件里 所以现在我有`plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`这样的文件路径.
 
 ### 第二步
 
@@ -23,11 +22,11 @@
 
 ```javascript
 {
-	"music_disc.cdk_sunday":{
-		"sounds":[
-			"myitems:music_disc/cdk_sunday"
-		]
-	}
+    "music_disc.cdk_sunday":{
+        "sounds":[
+            "myitems:music_disc/cdk_sunday"
+        ]
+    }
 }
 ```
 
@@ -38,24 +37,23 @@
 "music_disc.cdk_sunday":{
 ```
 
-这是Minecraft的音效文件列表,当你指定音效名称时,会播放这些文件
-Minecraft将会随机播放这些音效之一\(只有当你设置了一个以上的声音时\).  
+这是Minecraft的音效文件列表,当你指定音效名称时,会播放这些文件 Minecraft将会随机播放这些音效之一\(只有当你设置了一个以上的声音时\).  
 ⚠️请记住,你一定要把`myitems`改为你自己的命名空间.不然会出问题.
 
 ```javascript
 "sounds":[
-			"myitems:music_disc/cdk_sunday"
-		]
+            "myitems:music_disc/cdk_sunday"
+        ]
 ```
 
 比如,如果你想让同一个音效名称播放随机的音效,你只需要创建多个.ogg文件,然后像这样设置就行.
 
 ```javascript
 "sounds":[
-			"myitems:music_disc/cdk_sunday_1",
-			"myitems:music_disc/cdk_sunday_2",
-			"myitems:music_disc/test_file"
-		]
+            "myitems:music_disc/cdk_sunday_1",
+            "myitems:music_disc/cdk_sunday_2",
+            "myitems:music_disc/test_file"
+        ]
 ```
 
 ## 如何在sounds.json文件中添加多个音效
@@ -79,8 +77,6 @@ Minecraft将会随机播放这些音效之一\(只有当你设置了一个以上
 ```
 
 {% hint style="warning" %}
-如果你想确保不会手残犯错,你可以使用这个网站来检查你的Json文件是否有错误:
-国外:[https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
-国内:[http://www.json.cn/](http://www.json.cn/)
+如果你想确保不会手残犯错,你可以使用这个网站来检查你的Json文件是否有错误: 国外:[https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/) 国内:[http://www.json.cn/](http://www.json.cn/)
 {% endhint %}
 

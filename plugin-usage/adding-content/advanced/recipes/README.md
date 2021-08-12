@@ -1,6 +1,6 @@
 # 配方
 
-如果你想给你的物品创建一个合成配方,你必须在你的[命名空间](../../beginners/basic-concepts/namespace.md)下面写一个特殊的部分(或者在每一个配置里,主要你决定你想如何整理配置)
+如果你想给你的物品创建一个合成配方,你必须在你的[命名空间](../../beginners/basic-concepts/namespace.md)下面写一个特殊的部分\(或者在每一个配置里,主要你决定你想如何整理配置\)
 
 ## 栗子: 3x3合成配方
 
@@ -25,8 +25,7 @@ recipes:
         amount: 1
 ```
 
-如你所见,我在.yml文件里写合成配方的部分,这部分可以包含每种类型的合成配方.
-在这个栗子里,我创建了一个名为 "deadmau5_hat"的`crafting_table[合成台]`合成配方
+如你所见,我在.yml文件里写合成配方的部分,这部分可以包含每种类型的合成配方. 在这个栗子里,我创建了一个名为 "deadmau5\_hat"的`crafting_table[合成台]`合成配方
 
 ## 栗子: 2x2合成配方
 
@@ -54,7 +53,7 @@ taco:
 {% endhint %}
 
 {% hint style="success" %}
-你可以在每个合成配方里创建**multiple patterns[多个合成方式]**,只确保开头为'**pattern[如有多行则在后面加上_2或者更多数字]**'.举个栗子`pattern\_2`.
+你可以在每个合成配方里创建**multiple patterns\[多个合成方式\]**,只确保开头为'**pattern\[如有多行则在后面加上\_2或者更多数字\]**'.举个栗子`pattern\_2`.
 
 ```yaml
 turquoise_sword:

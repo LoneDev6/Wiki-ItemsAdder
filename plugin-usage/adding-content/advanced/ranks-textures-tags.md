@@ -40,7 +40,7 @@ Don't change `scale_ratio` and `y_position`. It would make the ranks look pixela
 
 ### Creating the png image
 
-**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`   
+**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`  
 You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.  
 For example copy `admin.png`, name it `custom.png` and edit it.
 
@@ -74,8 +74,7 @@ Don't change the rank image height, change only the width or the image will look
 
 ### 打开TAB插件的config.yml
 
-在`groups`下添加设置,如果已经存在,则修改它. 
-\(你只能使用`%img_admin%`而不是`:admin:`因为 **TAB** 只能和 **PlaceholderAPI** 变量挂钩而不是**ItemsAdder**的变量.这也适用于**任何插件**\)
+在`groups`下添加设置,如果已经存在,则修改它. \(你只能使用`%img_admin%`而不是`:admin:`因为 **TAB** 只能和 **PlaceholderAPI** 变量挂钩而不是**ItemsAdder**的变量.这也适用于**任何插件**\)
 
 ```yaml
   Admin:

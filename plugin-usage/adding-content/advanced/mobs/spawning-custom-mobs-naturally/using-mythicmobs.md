@@ -1,4 +1,4 @@
-# Using MythicMobs
+# 配合MythicMobs食用
 
 ## 然后让MythicMobs挂钩我的自定义怪物
 
@@ -21,8 +21,7 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-  
-打开你用ItemsAdder创建怪物的.yml文件,并添加**replace rule[挂钩规则]**,像这样:
+打开你用ItemsAdder创建怪物的.yml文件,并添加**replace rule\[挂钩规则\]**,像这样:
 
 ```yaml
         replace_mobs_spawn:

@@ -43,9 +43,7 @@
 ![](../../.gitbook/assets/immagine%20%2830%29.png)
 
 {% hint style="success" %}
-如下所示，我设置了名为 **`mmoitem`** 的新属性以及 **`type`** 和 **`id`** 子项
-这个属性以及子项用于**适配****mmoitem的物品**
-只需要对应于mmoitem创建的物品 即可
+如下所示，我设置了名为 **`mmoitem`** 的新属性以及 **`type`** 和 **`id`** 子项 这个属性以及子项用于**适配\*\***mmoitem的物品\*\* 只需要对应于mmoitem创建的物品 即可
 {% endhint %}
 
 ```yaml
@@ -68,6 +66,7 @@ items:
 ```
 
 ### - 应用贴图
+
 ![](../../.gitbook/assets/immagine%20%2832%29.png)
 
 ### - 获得物品

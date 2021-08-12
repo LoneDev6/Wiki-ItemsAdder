@@ -2,11 +2,11 @@
 
 为了创建自定义模型,我使用[BlockBench ](https://blockbench.net/)这是一个免费的,易于使用的工具.
 
-{% embed url="https://www.youtube.com/watch?v=aaJ8XgMAOno" %}
+{% embed url="https://www.youtube.com/watch?v=aaJ8XgMAOno" caption="" %}
 
 ## 从材质创建3D模型
 
-{% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" %}
+{% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" caption="" %}
 
 {% hint style="warning" %}
 ## Important

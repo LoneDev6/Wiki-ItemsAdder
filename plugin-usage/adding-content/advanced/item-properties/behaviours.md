@@ -2,27 +2,26 @@
 
 什么是类型?
 
-类型是给这个物品做的一套的动作,而这些动作并不是来自原版的.
-这些**类型**已经包含在插件里,这将允许你在你的物品里添加一些已有的功能.
+类型是给这个物品做的一套的动作,而这些动作并不是来自原版的. 这些**类型**已经包含在插件里,这将允许你在你的物品里添加一些已有的功能.
 
-### 插件中包含的类型列表
+## 插件中包含的类型列表
 
-* `block_trade_machine`[可互交方块]
-* `furniture_trade_machine`[可互交家具]
-* `fuel`[法力]
-* `furniture`[家具]
-* `furniture_sit`[可坐家具]
-* `gun`[枪]
-* `hat`[帽子]
-* `keep_on_death`[类似绑定]
-* `liquid_analyzer`[水]
-* `liquid_bucket`[水桶]
-* `mob_animation`[怪物动作]
-* `mob`[怪物]
-* `music_disc`[唱片]
-* `sapling`[树苗]
-* `spawn_egg`[生成蛋]
-* `vehicle`[车辆]
+* `block_trade_machine`\[可互交方块\]
+* `furniture_trade_machine`\[可互交家具\]
+* `fuel`\[法力\]
+* `furniture`\[家具\]
+* `furniture_sit`\[可坐家具\]
+* `gun`\[枪\]
+* `hat`\[帽子\]
+* `keep_on_death`\[类似绑定\]
+* `liquid_analyzer`\[水\]
+* `liquid_bucket`\[水桶\]
+* `mob_animation`\[怪物动作\]
+* `mob`\[怪物\]
+* `music_disc`\[唱片\]
+* `sapling`\[树苗\]
+* `spawn_egg`\[生成蛋\]
+* `vehicle`\[车辆\]
 
 {% hint style="info" %}
 你可以使用官方在线工具来获得如何使用类型的建议.
@@ -96,7 +95,7 @@ furniture_sit:
   opposite_direction: true #default is true
   # 坐在家具的每个屏障方块上(对于多个座位的家具)
   sit_all_solid_blocks: false
-  
+
 
 # 允许你把这个物品当作枪来使用.
 # 你可以决定必须用副手握住哪种弹药才能射击.

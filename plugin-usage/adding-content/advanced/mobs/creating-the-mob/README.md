@@ -2,7 +2,7 @@
 description: 如何为你的怪物创建配置和3D模型
 ---
 
-# 添加怪物
+# 创造自定义怪物
 
 {% page-ref page="configuration.md" %}
 
