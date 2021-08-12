@@ -1,4 +1,4 @@
-# Protocol错误
+# Protocol 错误
 
 如果后台刷出这个东西出来,请安装最新的ProtocolLib [https://www.spigotmc.org/resources/protocollib.1997/](https://www.spigotmc.org/resources/protocollib.1997/)
 
