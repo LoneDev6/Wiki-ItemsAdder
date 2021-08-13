@@ -51,7 +51,7 @@ This allows you to **stop** the **plugin** from **dropping each** of the **items
 
 ## 无视时运附魔
 
-你可以通过添加**ignore\_fortune**属性来使掉落物忽略时运附魔
+你可以通过添加**ignore\_fortune**属性来忽略时运附魔
 
 ```yaml
 loots:
@@ -182,11 +182,11 @@ loots:
 然后我将配置的值设置为**minecraft:farmer**,这在告诉ItemsAdder只选择属性为**VillagerData.profession**的**villagers[村民]**,并设置为**minecraft:farmer**
 
 {% hint style="warning" %}
-**nbt**和**metadata**属性是超级**重要的**!请**不要**忘记设置它们,否则就不能进行选择.
+**nbt**和**metadata**属性是超级**重要的**!请**不要**忘记设置它们,否则就不能进行指定.
 {% endhint %}
 
 {% hint style="info" %}
-## 基于刷怪笼刷取
+## 基于刷怪笼的刷取
 
 ### \(和任何其他你想选择的NBT属性\)
 {% endhint %}

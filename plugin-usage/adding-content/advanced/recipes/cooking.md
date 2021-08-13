@@ -4,7 +4,7 @@ description: 这个烹饪配方允许你的玩家烹饪/治炼矿物
 
 # 烹饪配方
 
-## Example
+## 栗子
 
 ```yaml
   cooking:

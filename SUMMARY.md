@@ -57,7 +57,7 @@
   * [➕ 添加物品](plugin-usage/adding-content/README.md)
     * [🍭 小白级别](plugin-usage/adding-content/beginners/README.md)
       * [基本概念](plugin-usage/adding-content/beginners/basic-concepts/README.md)
-        * [物品空间](plugin-usage/adding-content/beginners/basic-concepts/namespace.md)
+        * [分组](plugin-usage/adding-content/beginners/basic-concepts/namespace.md)
         * [items\_packs和resource\_pack](plugin-usage/adding-content/beginners/basic-concepts/items_packs-and-resource_pack.md)
       * [创造一个属于你的物品空间](plugin-usage/adding-content/beginners/creating-your-namespace.md)
       * [⛏ 默认物品](plugin-usage/adding-content/beginners/creating-a-custom-item/README.md)

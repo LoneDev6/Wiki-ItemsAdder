@@ -1,6 +1,6 @@
 # 等级材质\(称号\)
 
-你可以为你的服务器创建自定义等级,让它看起来更厉害
+你可以为你的服务器创建自定义等级,让它看起来更牛逼
 查看这个插件,然后了解如何创建它们: [https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
 
 ![](../../../.gitbook/assets/image%20%2827%29.png)

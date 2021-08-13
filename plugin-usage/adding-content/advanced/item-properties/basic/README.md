@@ -91,7 +91,8 @@ durability:
   usages: 5
 ```
 
-Itemsadder有更好的自我解释功能
+Itemsadder有超级好的自我解释功能.
+
 `usages`是一个特殊的属性,它为当前物品设置一个使用次数\(检查事件教程\).
 
 `custom_durability`是物品的自定义耐久度\(如果无法使用,则使用`max_custom_durability`\)
@@ -140,7 +141,7 @@ blocked_enchants:
 
 ## events\_cooldown [限制属性]
 
-这是一个特殊属性,限制玩家对事件的高频率使用.它的单位是ticks,所以20ticks=1秒.
+这是一个特殊属性,可以限制玩家对事件的高频率使用.它的单位是ticks,记住:20ticks=1秒.
 
 ```yaml
   healing_crystals:

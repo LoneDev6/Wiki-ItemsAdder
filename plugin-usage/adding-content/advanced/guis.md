@@ -1,8 +1,8 @@
 # GUIs
 
-制作自定义UI界面,你可以复制和粘贴我的mcguis的包,并根据你的喜好修改它.  
-创建自定义gui，你可以使用[JavaAPI ](../../../kai-fa/java-api/huds-guis.md)或安装一个插件,如[ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
-使用像ChestCommands这样的插件,你需要像这样命名UI:
+制作自定义GUI,你可复制作者的示例包,并根据你的需求来修改它.  
+你可以使用[JavaAPI](../../../kai-fa/java-api/huds-guis.md)或安装一个插件,如[ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
+使用像ChestCommands这样的菜单插件,只需要将菜单名填写为:
 
 ```text
 :offset_-16::blank_menu:

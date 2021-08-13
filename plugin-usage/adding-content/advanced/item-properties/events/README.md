@@ -2,7 +2,6 @@
 
 ## 什么是事件
 
-Events describe the time when something happen.  
 你可以在事件被触发时\([行为](actions.md)\)让事件发生\(play sound, execute command...\)
 
 ### 事件列表
