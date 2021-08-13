@@ -73,9 +73,9 @@ worlds_populators:
     iterations: 1
 ```
 
-## Replaceable blocks
+## 可替换的方块
 
-你可以不理会这个选项,插件将产生矿石替换每个方块,而不是检查它是否可以被替换来进行替换.
+你可以不用理会这个选项,插件将产生矿石替换每个方块,而不是检查它是否可以被替换来进行替换.
 
 ```yaml
   custom_block:

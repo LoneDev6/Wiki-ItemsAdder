@@ -7,23 +7,25 @@ package dev.lone.itemsadder.api.Events;
 public class ItemsAdderLoadDataEvent extends Event
 ```
 
-This event is called when ItemsAdder has loaded all its stuff correctly \(also on `/iareload`\)  
-Listen to this in order to wait all items/images.. are available for your addon/plugin.
+当 ItemsAdder 已完全加载其所有内容 \（包括插件重载 `/iareload`\ ）时调用此事件
+监听该事件以等待所有物品/图像加载..
 
 ## CustomBlockInteractEvent
 
-Event triggered when a player interacts with a custom block
+玩家与自定义方块交互时触发的事件
 
 ## CustomBlockBreakEvent
 
-Event triggered when a player breaks a custom block
+玩家打破自定义方块时触发的事件
 
 ## CustomEntityDeathEvent
 
-Event triggered when a custom entity dies.
+自定义实体死亡时触发的事件
 
 ### ResourcePackSendEvent
 
-Event triggered when the server sends a resourcepack to the client.  
-This event includes **url**, **hash** and also contains info if **it's** an **ItemsAdder resourcepack** or **another plugin** resourcepack.
+服务器向客户端发送资源包时触发的事件。
+此事件包括**url**、**hash**，以及** **ItemsAdder 资源包** 或 **其他插件** 的资源包信息
+
+
 

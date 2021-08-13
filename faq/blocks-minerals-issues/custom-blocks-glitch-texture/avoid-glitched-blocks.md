@@ -1,16 +1,16 @@
-# 避免出现故障方块
+# 防止错误方块
 
 {% hint style="warning" %}
-## This only works on [Purpur](https://purpur.pl3x.net/). Spigot and Paper don't have this feature.
+## 这只适用于 [Purpur](https://purpur.pl3x.net/)。 Spigot 和 Paper 核心没有这个功能。
 {% endhint %}
 
-Enable these options in **purpur.yml** configuration:
+在 **purpur.yml** 中启用这些选项：
 
-* [https://purpur.pl3x.net/docs/Configuration/\#disable-mushroom-updates](https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates)
 * [https://purpur.pl3x.net/docs/Configuration/\#disable-note-block-updates](https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates)
-* [https://purpur.pl3x.net/docs/Configuration/\#disable-chorus-plant-updates](https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates)
+* [https://purpur.pl3x.net/docs/Configuration/\#disable-note-block-updates](https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates)
+* settings.blocks.**disable-chorus-plant-updates**
 
-**Example:**
+**栗子:**
 
 ```yaml
   blocks:

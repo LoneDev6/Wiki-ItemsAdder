@@ -6,7 +6,7 @@
 
 ## 1. 在自定义方块配置中直接添加drop\_exp \[经验掉落\]
 
-当然在这有一个缺点,只允许Itemsadder物品使用drop\_exp,而原版的方块并不能.
+当然在这有一个缺点,只允许Itemsadder物品使用drop_exp,而原版的方块并不能进行设置.
 
 ```yaml
   ruby_block:
@@ -34,9 +34,9 @@
             max_amount: 3
 ```
 
-## 2. Add the exp drop to loots
+## 2. 在掉落物添加经验
 
-This is the best way because you can also apply this to vanilla blocks types and you can add as many as exp settings you want. This allows you to add more randomness and dynamicity to your drops.
+这是最好的方法,你可以应用在原版方块里,你可以添加你想要exp数量.这可以使你能给你的物品添加更多的随机性.
 
 ```yaml
 loots:

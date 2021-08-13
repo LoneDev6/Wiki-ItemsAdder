@@ -9,7 +9,7 @@
 ![](../../../../.gitbook/assets/immagine%20%2815%29.png)
 
 {% hint style="info" %}
-这个字体是由Faithful团队制作的,查看他们的作品:[https://faithful.team/](https://faithful.team/)
+这个字体是由Faithful团队制作的,点击后面的链接来查看他们的作品:[https://faithful.team/](https://faithful.team/)
 {% endhint %}
 
 因此,你需要:

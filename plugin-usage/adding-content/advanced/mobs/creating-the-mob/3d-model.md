@@ -108,11 +108,11 @@ items:
 接下来你可以删除1-2-3-4.json文件,因为你不再需要用到它们.\(你可以备份起来以便将来使用\),你只需要idle.json文件和png+mcmeta文件,因为这就是动画动作文件.
 {% endhint %}
 
-## More advanced animations:
+## 更高级的动画:
 
 {% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" caption="" %}
 
-## Full addon download
+## 完整扩展下载
 
 {% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" caption="" %}
 

@@ -47,8 +47,8 @@
 ```
 
 {% hint style="info" %}
-如果你想使用一个特别的颜色,你可以选择使用这个[color picker\(颜色选择器\)](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
-来复制**十进制**的颜色 \(hex\).
+如果你想使用一个特别的颜色,你可以选择使用这个[color picker(颜色选择器)](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
+来获得**十进制**的颜色 \(hex\).
 {% endhint %}
 
 ### 7.现在你可以创建你任何你想要的家具,只要你改变设置的颜色,它就会自动的被Itemsadder进行着色.

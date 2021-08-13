@@ -57,7 +57,7 @@
   * [➕ 添加物品](plugin-usage/adding-content/README.md)
     * [🍭 小白级别](plugin-usage/adding-content/beginners/README.md)
       * [基本概念](plugin-usage/adding-content/beginners/basic-concepts/README.md)
-        * [物品空间](plugin-usage/adding-content/beginners/basic-concepts/namespace.md)
+        * [分组](plugin-usage/adding-content/beginners/basic-concepts/namespace.md)
         * [items\_packs和resource\_pack](plugin-usage/adding-content/beginners/basic-concepts/items_packs-and-resource_pack.md)
       * [创造一个属于你的物品空间](plugin-usage/adding-content/beginners/creating-your-namespace.md)
       * [⛏ 默认物品](plugin-usage/adding-content/beginners/creating-a-custom-item/README.md)
@@ -137,12 +137,12 @@
 
 ## 开发
 
-* [☕️ Java API](kai-fa/java-api/README.md)
-  * [栗子](kai-fa/java-api/li-zi.md)
-  * [事件](kai-fa/java-api/shi-jian.md)
-  * [HUDs, GUIs...](kai-fa/java-api/huds-guis....md)
-* [📓 Skript API](kai-fa/skript-api/README.md)
-  * [大佬用户](kai-fa/skript-api/da-lao-yong-hu.md)
+* [☕️ Java API](developers/java-api/README.md)
+  * [栗子](developers/java-api/examples.md)
+  * [事件](developers/java-api/events.md)
+  * [HUDs, GUIs...](developers/java-api/huds-guis.md)
+* [📓 Skript API](developers/skript-api/README.md)
+  * [大佬用户](developers/skript-api/expert-users-1.md)
 
 ---
 
@@ -178,4 +178,3 @@
     * [ChatControl-Red](compatibility-with-other-plugins/compatible/chatcontrol-red.md)
     * [DeluxeMenu](compatibility-with-other-plugins/compatible/deluxemenu.md)
 * [旧版本V1教程](old-v1.0-tutorials.md)
-

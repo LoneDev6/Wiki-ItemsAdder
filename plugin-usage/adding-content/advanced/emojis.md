@@ -1,8 +1,7 @@
 # 表情
 
 ## 简介
-
-举个栗子,我想创建一个名为"myemojis"的表情包,所以我的[命名空间](../beginners/basic-concepts/namespace.md)将会是`myemojis`
+举个栗子,我想创建一个名为"myemojis"的表情包,所以我的[分组](../beginners/basic-concepts/namespace.md)将会是`myemojis`
 
 ## 创建材质文件
 
@@ -24,7 +23,7 @@ info:
   namespace: "myemojis"
 ```
 
-接下来把你的表情\(在这个栗子里,我做了一个**smile**的表情\)添加到font/images的列表里,所以你的配置会看是这样的:
+接下来为你的表情\(在这个栗子里,我做了一个**smile**的表情\)添加到font/images的配置列表里,接下来你的配置看起来会是这个样子的:
 
 ```yaml
 info:
@@ -38,8 +37,8 @@ font_images:
     y_position: 8
 ```
 
-**scale/\_ratio**是表情的最终高度\[像素\],因为72x72像素太大,所以必须缩小它,但你可以设置9\[9的倍数\],这样Minecraft会自动的处理它. **y\_position/**是以像素为单位的y位置,如果你保持表情72x72的scale/ratio为9,那么设置8应该是最好的.如果你有不同的尺寸,你将不得不根据你的测试来调整你的y\_position
-
+**scale/_ratio**是表情的最终高度[像素],因为72x72像素太大,所以你必须缩小它,但你可以设置9[9的倍数],这样的话Minecraft会自动的去处理它.
+**y_position/**必须以像素作为单位的y位置,如果你保持表情72x72的scale/ratio为9,那么设置8应该是最好的.如果你有不同的大小,你将必须得根据你的亿点点测试来调整你的y_position
 {% hint style="danger" %}
 `scale_ratio`必须大于`y_position`,否则Minecraft不会承认它.我不能修复这个特性,因为这是一个**Minecraft**的特性.
 {% endhint %}

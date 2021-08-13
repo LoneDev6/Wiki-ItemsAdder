@@ -56,7 +56,8 @@ description: 自定义物品材质的属性
 {% hint style="warning" %}
 ### 我的材质无法显示了!
 
-如果你的自定义模型材质无法显示,你必须打开你的模型文件并修复材质路径. 假如,如果你有这个的话:
+如果你的自定义模型材质无法显示,你必须打开你的模型文件并修复材质路径.
+假如,如果你有这个栗子的话:
 
 ```yaml
   {
@@ -95,7 +96,7 @@ description: 自定义物品材质的属性
       model_path: "item/multimeter"
 ```
 
-你还必须在这个文件里创建名为"multimeter"的文件\(在这个例子里\)在这个文件夹中: `assets\YOUR_NAMESPACE\models\item`
+你还必须在这个文件里创建名为"multimeter"的文件\(在这个栗子里\)在这个文件夹中: `assets\YOUR_NAMESPACE\models\item`
 
 你也可以让IA根据材质来自动生成模型:
 

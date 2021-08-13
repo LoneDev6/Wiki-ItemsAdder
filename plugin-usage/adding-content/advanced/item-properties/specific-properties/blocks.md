@@ -6,22 +6,22 @@ specific_properties:
     placed_model:
       type: REAL_NOTE
       break_particles: BLOCK
-    cancel_drop: true # 默认为false 如果为 true，则不会掉落自定义方块
-    light_level: 12 #make block emit light
-    #tools you can't use to break block(accepts partial name of material/customitem)
+    cancel_drop: true #默认为false.如果为true,则不会掉落物品
+    light_level: 12 #使方块发出光来
+    #不能使用该工具来破坏该方块(支持原版的物品和自定义物品)
     break_tools_blacklist:
     - WOODEN_PICKAXE
     - STONE_PICKAXE
     - IRON_PICKAXE
-    #tools you can use to break block(accepts partial name of material/customitem)
+    #可以使用该工具来破坏该方块(支持原版的物品和自定义物品)
     break_tools_whitelist:
     - DIAMOND_PICKAXE
     - PICKAXE
     - pickaxe
-    hardness: 2 #hardness of the block
-    blast_resistance: 1 #explosion resistance (by default is hardness*3)
-    no_explosion: false #totally immune from explosions, ignoring blast_resistance
-    sound: #customizable sounds of the block
+    hardness: 2 #方块的坚硬程度
+    blast_resistance: 1 #抗爆炸性(默认是hardness*3)
+    no_explosion: false #完全不受爆炸影响
+    sound: #可定制声音的方块
       break:
         name: BLOCK_WOOD_BREAK
         volume: 1
@@ -34,90 +34,90 @@ specific_properties:
 
 ## placed\_model
 
-this property can have these value:
+这个属性有这些值:
 
 * `REAL_NOTE`
-  * uses a real block \(note\_block\), no lag, no entities, 100% real blocks.
-  * downsides: 
-    * **no** support for **transparency**. 
-    * **max** of **750 blocks** in total.
+  * 使用真正的方块\(note\_block\),没有卡顿,没有实体,100%的真实方块.
+  * 缺点: 
+    * **不**支持**透明**. 
+    * **最多**只能制作**750个方块**
 * `REAL`
-  * uses a real block \(mushroom\), no lag, no entities, 100% real blocks.
-  * downsides: 
-    * **max** of **191 blocks** in total
+  * 使用真正的方块\(mushroom\),没有卡顿,没有实体,100%的真实方块.
+  * 缺点: 
+    * **最多**只能制作**191个方块**
 * `REAL_TRANSPARENT`
-  * uses a real block \(chorus\), no lag, no entities, 100% real blocks, also with transparency support!
-  * downsides: 
-    * **max** of **63 blocks** in total
+  * 使用真正的方块\(chorus\),没有卡顿,没有实体,100%的真实方块,也支持透明度！
+  * 缺点: 
+    * **最多**只能制作**63个方块**
 * `TILE`
-  * uses **tile** blocks \(modified **spawner** with custom skin\). It's **not an entity** but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
-  * downsides:
-    * not a 100% real block, it's a retextured spawner
-    * texture/model vanishes on high distance, so it will reveal the spawner vanilla texture
-    * it could cause clientside lag if A LOT of blocks are in the player field of view, but only on lowend PCs.
+  * 使用**tile**方块\(修改后的**刷怪笼**带有材质\).它不是一个实体,但它有亿点缺点.好处是你可以创建**无限多**的方块,不像真实方块那样有**数量限制**.
+  * 缺点:
+    * 它不是100%的真实方块,它只是一个套上了材质的刷怪笼
+    * 材质/模型在较远距离看的话会消失,所以它将会显示出刷怪笼的虚拟材质.
+    * 如果大量的方块出现在玩家的视野里的话,可能会导致客户端出现延迟,低配电脑遭殃.
 * `FIRE`
-  * this is a **special** type of **block**, it's the **fire** block.
-  * downsides: 
-    * only a **max** of **14** custom **fires** is possible, so be sure to create only the ones you need.
+  * 这是一个**特殊方块**,它是**火**方块.
+  * 缺点: 
+    * 最多只能制作14种自定义火,所以要确保只创建你需要的火种.
 
 {% hint style="warning" %}
-It's better to use **REAL** and **REAL\_NOTE** blocks for decorative blocks/ores and use **TILE** blocks for trade machines and machinery/rare decorative blocks.  
-You should not use **TILE** blocks for ores because it COULD cause a bit of lag on chunk generation.
+最好使用**REAL**和**REAL\_NOTE**方块来制作装饰方块/矿石.使用**TILE**方块来制作贸易机器或机械/罕见的装饰方块.  
+你最好不要拿**TILE**方块作为基础方块.因为它有可能导致大范围方块生成时有些卡顿.
 {% endhint %}
 
 ## cancel\_drop
 
-Cancel drop when block is broken.  
-Useful if you have any mineral that will drop out of the block \(loots\), to avoid exploits.
+当方块被破坏时,取消掉落. 
+如果你不想让你的方块掉落\(掉落物\),你可以使用这个功能.
 
 {% hint style="info" %}
-If you use silk touch enchanted tool to break the block you will still get the block but it won't drop any item from its loot
+如果你使用时运附魔工具来破坏木块,你仍然会得到木块,但掉落物里不会掉落其他物品.
 {% endhint %}
 
 ## Tools blacklist and whitelist
 
-You can set "\_PICKAXE" so every pickaxe will match the list rule, also "\_AXE" as the plugin checks if the material name contains the word you set in the rule.  
-It also works for custom items ids, so for example if you set "ruby\_" every ruby tool will work \(ruby\_pickaxe, ruby\_axe...\)
+你可以设置"\_PICKAXE",这样每个稿子都会受到挖掘限制,也可以设置"\_AXE".因为插件会检查物品是否包含在你有没有设置的列表里 
+它也适用于自定义物品的ID,假如,你设置了"ruby\_".那每一个ruby的工具都会列在列表\(ruby\_pickaxe, ruby\_axe...\)
 
 ### break\_tools\_blacklist
 
-Blacklist of tools that cannot break this block
+不能破坏该方块的工具黑名单
 
 ### break\_tools\_whitelist
 
-Whitelist of tools that can break this block
+能破坏该方块的工具白名单
 
 ### events\_tools\_blacklist
 
-Blacklist of tools that cannot run events on this block[ \(`placed_block.interact`\)](../events/#list-of-events)
+不能在此方块运行事件的工具黑名单[\(`placed_block.interact`\)](../events/#list-of-events)
 
 ### events\_tools\_whitelist
 
-Whitelist of tools that cannot run events on this block [\(`placed_block.interact`\)](../events/#list-of-events)
+能在此方块运行事件的工具白名单[\(`placed_block.interact`\)](../events/#list-of-events)
 
-## Other options
+## 其他
 
 ### hardness
 
-Hardness of the block, it makes it more difficult to be mined.  
-Refer to my blocks to get some **examples** \(check **blocks.yml** file inside **itemsadder namespace**\).
+方块的坚硬程度,使它更难被破坏.  
+请参考我的方块配置来获得一些**栗子**\(查看**itemsadder namespace[itemsadder分组]**的**blocks.yml**文件\).
 
 ### blast\_resistance
 
-Explosion resistance \(by default is `hardness * 3`\)
+抗爆炸性 \(默认是`hardness * 3`\)
 
 ### no\_explosion
 
-Totally immune from explosions, ignoring `blast_resistance`
+完全不受爆炸影响,无视`blast_resistance`
 
 ### sounds
 
-You can change block break and place sounds. You can specify a [custom sound](../../sounds/) name instead of a Minecraft sound.  
-You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
+你可以改变破坏方块和放置方块的音效.你可以指定一个[custom sound[自定义声音]](../../sounds/),而不是使用Minecraft的音效.  
+你可以指定[Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)或原版[Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php)的名称.
 
 {% hint style="info" %}
-If no **break** sound is specified it will play [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK_STONE_BREAK) ```\(``block.stone.break\`\)
+如果没有指定**破坏**的音效,它将播放[`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK_STONE_BREAK) ```\(``block.stone.break\`\)
 
-If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](../resource/)attribute of this block.
+如果没有指定**放置**的音效,它将会播放你在材质包里设置的原版材质的[默认声音](../resource/)属性的方块.
 {% endhint %}
 

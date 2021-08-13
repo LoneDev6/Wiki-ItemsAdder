@@ -1,8 +1,8 @@
 # 具体属性
 
 {% hint style="info" %}
-You can get all the `specific_properties` suggestions using the official editor.  
-The wiki lacks all the other `specific_properties` information.
+你可以使用官方编辑器来获得所有的`specific_properties[具体属性]`
+WiKi缺乏所有其他`specific_properties`信息.
 
 {% page-ref page="../../../../../files-editor.md" %}
 {% endhint %}

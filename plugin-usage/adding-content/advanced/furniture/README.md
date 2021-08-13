@@ -1,16 +1,16 @@
 # 家具
 
 {% hint style="warning" %}
-## Limitations of itemframes furnitures
+### 物品框架家具的限制
 
-* solid itemframe furnitures are possible only on Server version &gt;= 1.16 \(client doesn't matter\).
-* invisible itemframe furnitures are possible only on Server and Client version &gt;= 1.16.  If a user connects with viaversion using an old mc version they will see the itemframe.
+* 只有在服务器版本&gt;= 1.16\(客户端没有问题\)的情况下,才有可能使用坚固物品框架的家具.
+* 只有在服务器和客户端版本&gt;=1.16的情况下,才有可能出现隐形的物品框架家具.如果玩家使用的是旧版本的MC连接到verversion[跨版本插件],他们就会看到物品的框架.
 {% endhint %}
 
 {% hint style="warning" %}
-## Limitations of all furnitures
+### 所有家具的限制
 
-* non solid furnitures can't receive interact events, they can only be removed using mouse left click but cannot be interacted with \(only solid furnitures can get interact events\)
-* max size of the hitbox is 3x3x3 for performance reasons
+* 非坚固家具不能使用交互事件,它们只能用鼠标左键移除,但不能进行交互.\(只有坚固的家具才能进行交互\)
+* 由于性能的原因,破坏方块的最大尺寸只能为3x3x3
 {% endhint %}
 
