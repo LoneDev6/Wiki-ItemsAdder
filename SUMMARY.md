@@ -137,12 +137,12 @@
 
 ## 开发
 
-* [☕️ Java API](kai-fa/java-api/README.md)
-  * [栗子](kai-fa/java-api/examples.md)
-  * [事件](kai-fa/java-api/events.md)
-  * [HUDs, GUIs...](kai-fa/java-api/huds-guis.md)
-* [📓 Skript API](kai-fa/skript-api/README.md)
-  * [大佬用户](kai-fa/skript-api/expert-users-1.md)
+* [☕️ Java API](developers/java-api/README.md)
+  * [栗子](developers/java-api/examples.md)
+  * [事件](developers/java-api/events.md)
+  * [HUDs, GUIs...](developers/java-api/huds-guis.md)
+* [📓 Skript API](developers/skript-api/README.md)
+  * [大佬用户](developers/skript-api/expert-users-1.md)
 
 ---
 
