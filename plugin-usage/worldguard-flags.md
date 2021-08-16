@@ -28,15 +28,15 @@
 
 ### ia-vehicle-place
 
-Allow user to place vehicles in the region
+只允许用户在区域内放置自己的车辆
 
 ### ia-vehicle-remove
 
-Allow user to remove ANY vehicle in the region
+允许用户删除区域内的任何车辆
 
 ### ia-vehicle-personal-remove
 
-allow user to remove only their own vehicles in the region
+允许用户在区域移除自己的车
 
 ### ia-vehicle-sit
 
@@ -65,7 +65,7 @@ allow user to remove only their own vehicles in the region
 ## 常见的问题
 
 {% hint style="warning" %}
-如果你的用户**不能坐**在**家具**上,然后你设置了正确的标志.
+如果你的玩家**不能坐**在**家具**上,而且你已经设置了正确的标志.
 
 * 检查你是否在使用 `__global__ region` 作为你的主区域\(在你使用家具标志的区域\).如果是的话,请您重新创建一个新的区域.据大家所知,全局区域会给一些插件的标志带来一些问题.
 * 检查你是否设置了 `build` 或 `passthrough` 标志.请你记住,这些标志不能去瞎改,应该设置为默认值 \(未选择的,灰色的文本\)
