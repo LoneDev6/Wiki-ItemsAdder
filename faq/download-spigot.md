@@ -1,12 +1,11 @@
 # Download Spigot
 
-## How to download Paper \(alternative to Spigot\)
+## 如何下载Paper服务器核心 \(Spigot的代替\)
 
 {% embed url="https://papermc.io/downloads" %}
 
-## How to download Spigot
-
-Watch this tutorial:
+## 如何下载spigot服务器核心
+查看下面的视频:
 
 {% embed url="https://www.youtube.com/watch?v=VzZcgnWJSEg" %}
 

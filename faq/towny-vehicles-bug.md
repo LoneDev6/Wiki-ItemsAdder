@@ -1,7 +1,7 @@
 # Towny vehicles bug
 
 {% hint style="warning" %}
-If you have problems with vehicles and you're using Towny plugin open Towny config.yml and remove Slime from here:
+如果你的车辆有问题,并且你安装了Towny插件,请打开config.yml,然后在这里删除Slime:
 {% endhint %}
 
 ```yaml

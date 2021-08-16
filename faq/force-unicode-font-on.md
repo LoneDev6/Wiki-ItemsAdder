@@ -1,6 +1,6 @@
 # Force Unicode Font: ON
 
-## Read here:
+## 阅读这里:
 
 {% page-ref page="../plugin-usage/adding-content/custom-fonts/thin-font-force-unicode.md" %}
 
