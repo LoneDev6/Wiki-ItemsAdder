@@ -38,6 +38,7 @@ First step is done. Now you must complete step 2 to configure the resourcepack \
 ### Removing default items
 
 {% hint style="info" %}
+
 Если вам не нужны заводские блоки, предметы, а так же другие вещи из заводского списка и вы хотите использовать только собственные предметы и настройки - воспользуйтесь этой статьей.
 
 {% page-ref page="faq/removing-default-stuff.md" %}

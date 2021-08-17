@@ -1,19 +1,19 @@
 # TrMenu
 
-### Plugin download
+## Plugin download
 
-{% embed url="https://www.spigotmc.org/resources/trmenu-premium-modern-advanced-menu-plugin-1-8-1-16.83120/" %}
+{% embed url="https://www.spigotmc.org/resources/trmenu-premium-modern-advanced-menu-plugin-1-8-1-16.83120/" caption="" %}
 
-### How to use ItemsAdder items in the GUIs
+## How to use ItemsAdder items in the GUIs
 
-{% embed url="https://trmenu.trixey.cc/menu/icon/display/cai-zhi\#itemsadder" %}
+{% embed url="https://trmenu.trixey.cc/menu/icon/display/cai-zhi\#itemsadder" caption="" %}
 
 ```yaml
 material: 'source:ITEMADDER:itemId'
 material: 'source:IA:anotherItemId'
 ```
 
-### How to retexture the GUI background
+## How to retexture the GUI background
 
 ```yaml
 Title: '%img_offset_-16%%img_blank_menu%'
@@ -25,7 +25,7 @@ PlaceholderAPI is required!
 
 Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%`by **16** pixels.
 
-Read more here: 
+Read more here:
 
 {% page-ref page="../../plugin-usage/placeholderapi.md" %}
 

@@ -1,6 +1,6 @@
 # Languages
 
-### Currently available languages
+## Currently available languages
 
 ```text
 GUI: 
@@ -28,7 +28,7 @@ Portuguese pt
 Turkish tr
 ```
 
-### How to change language?
+## How to change language?
 
 Open config.yml and change the language setting.
 

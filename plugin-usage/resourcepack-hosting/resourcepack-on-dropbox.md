@@ -1,8 +1,8 @@
-# DropBox
+# Хост текстур через DropBox
 
 ## Видео-гайд
 
-{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
+{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" caption="" %}
 
 {% hint style="warning" %}
 You **cannot** use **GoogleDrive** and others because they don't provide a **direct download**. **Dropbox does**.

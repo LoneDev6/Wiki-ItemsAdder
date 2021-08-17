@@ -2,7 +2,7 @@
 
 ## Creating 3D model from a texture
 
-{% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" %}
+{% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" caption="" %}
 
 {% hint style="warning" %}
 ## Important

@@ -1,4 +1,4 @@
-# Self hosting
+# Хост текстур со своей машины \(self-host\)
 
 ## Info about self-hosting
 

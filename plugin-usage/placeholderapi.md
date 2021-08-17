@@ -8,7 +8,7 @@
 ## Offsets
 
 You can shift text/font\_images back and forward.  
-For example 
+For example
 
 * you can shift it back of 16 pixels by writing `%img_offset_-16%` .
 * you can shift it forward of 16 pixels by writing `%img_offset_16%` .

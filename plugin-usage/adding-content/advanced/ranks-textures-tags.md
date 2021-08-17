@@ -40,7 +40,7 @@ Don't change `scale_ratio` and `y_position`. It would make the ranks look pixela
 
 ### Creating the png image
 
-**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`   
+**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`  
 You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.  
 For example copy `admin.png`, name it `custom.png` and edit it.
 

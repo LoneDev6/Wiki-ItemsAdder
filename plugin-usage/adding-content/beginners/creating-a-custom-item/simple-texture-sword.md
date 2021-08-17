@@ -75,13 +75,14 @@ items:
 ## Final part
 
 Now you just need to tell the plugin to load your just added item.  
-To do that you have to:  
-- join the server  
-- make sure you accepted the resourcepacks  
-- use the command `/iazip`  
-- if you're using external-host \(DropBox\) scroll down and follow the instructions.  
-- get the item using `/iaget mysword`  
-- DONE!
+To do that you have to:
+
+* join the server  
+* make sure you accepted the resourcepacks  
+* use the command `/iazip`  
+* if you're using external-host \(DropBox\) scroll down and follow the instructions.  
+* get the item using `/iaget mysword`  
+* DONE!
 
 ### Now get your item
 

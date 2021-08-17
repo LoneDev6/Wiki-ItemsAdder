@@ -21,7 +21,6 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-  
 Open your **ItemsAdder** `.yml` file where you created the mob and to edit the **replace rule** like this:
 
 ```yaml
