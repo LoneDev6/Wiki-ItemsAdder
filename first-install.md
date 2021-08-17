@@ -2,38 +2,31 @@
 
 ## Видео-гайд
 
-{% embed url="https://youtu.be/GKGnlF4zZVg" caption="" %}
-
 {% hint style="info" %}
 **You should do** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is down ;\)  
 You can upload files to your real server after you finished here.
 {% endhint %}
 
-{% hint style="danger" %}
-If you already own ItemsAdder old 1.0 version please rename **plugins/ItemsAdder** folder to **ItemsAdder\_backup**
-{% endhint %}
-
 ## Step 1 - installing the plugin and APIs
 
 * install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)\*\*\*\*
+* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
 * install [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
+* \(optional\) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
 * put **ItemsAdder.jar** file inside your plugins folder
 * start the server
 * let ItemsAdder finish loading **everything**
-* stop server
+
+First step is done. Now you must complete step 2 to configure the texturepack \(don't worry it's not very hard\).
 
 ## Step 2 - resourcepack first installation
 
-* join the server and execute the command `/iazip` when the plugin is fully loaded
-* open plugins\ItemsAdder\config.yml
-* follow this tutorial if you want to host the resourcepack directly on  your server
+* join the server 
+* execute the command `/iazip` when the plugin is fully loaded
+* open `plugins\ItemsAdder\config.yml`
+* decide the resourcepack hosting method: 
 
-{% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
-
-* or follow this tutorial if you want to host the resourcepack on DropBox
-
-{% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md" %}
+{% page-ref page="plugin-usage/resourcepack-hosting/" %}
 
 {% hint style="warning" %}
 **Не забывайте** переупаковывать пакет ресурсов при помощи `/iazip` **каждый раз**, когда вы внесли какие-либо изменения и хотите сгенерировать новый `pack.zip`
