@@ -1,10 +1,4 @@
-# Resourcepack on DropBox
-
-{% hint style="danger" %}
-**DO NOT USE** file **pack\_21521367.zip** or **precompressed\_example\_pack.zip** AS BASE!!!!  
-YOU HAVE TO USE YOUR **pack.zip** FILE WHICH IS GENERATED USING **/iazip** COMMAND.  
-You can find it in this folder: `plugins/ItemsAdder/data/resource_pack/pack.zip`
-{% endhint %}
+# DropBox
 
 ## Video tutorial
 
@@ -64,20 +58,4 @@ If you **reupload** the **zip** file with the same and keep the **same URL** it 
 Yea it is, that's why you should use the self host feature instead of DropBox. But some hosting \(cheap ones\) don't provide port opening, so you must use DropBox.
 
 {% page-ref page="resourcepack-self-hosting.md" %}
-
-{% hint style="info" %}
-If you need a cheap hosting that has good hardware and allows port opening \(for self host and for other plugins that need ports\) you can check this out:
-
-[http://bit.ly/humble-dropbox](http://bit.ly/humble-dropbox)
-
- [![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)  
-
-
-* **Top Notch Hardware @ Budget Cost.**
-* **24/7 Support**
-* **Instant Deployment**
-* **Custom Control Panel\(Pterodactyl\)**
-* **sFTP & MySQL Database Access**
-* **SSD & NVME Storage**
-{% endhint %}
 

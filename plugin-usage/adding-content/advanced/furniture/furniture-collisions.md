@@ -37,7 +37,7 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
 You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}
 
-![](../../../../.gitbook/assets/immagine%20%2863%29%20%282%29.png)
+![](../../../../.gitbook/assets/immagine%20%2863%29%20%282%29%20%283%29.png)
 
 ![](../../../../.gitbook/assets/immagine%20%2865%29.png)
 
