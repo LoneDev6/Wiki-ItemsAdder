@@ -3,6 +3,6 @@
 Чтобы иметь возможность редактировать заводские файлы игры, вы должны выставить значение FALSE для строки ниже, найти ее можно в основном файле конфигурации плагина config.yml
 
 ```yaml
-overwrite-vanilla-models__DISABLE_AT_YOUR_OWN_RISK: true
+overwrite-vanilla-models__DISABLE_AT_YOUR_OWN_RISK: false
 ```
 
