@@ -17,7 +17,7 @@ If you want to adjust it you just have to use [Blockbench](../item-properties/re
 
 ### Too small furniture
 
-If your furniture is **too small** bug you want it **bigger** and with bigger **hitbox** just set this to **false**.  
+If your furniture is **too small** but you want it **bigger** and with bigger **hitbox** just set this to **false**.  
 If you instead want a **small furniture** with small hitbox just set it to true
 
 {% tabs %}

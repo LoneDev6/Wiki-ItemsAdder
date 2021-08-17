@@ -1,10 +1,12 @@
 # ⚙️Первая установка плагина
 
-## Видео-гайд
-
 {% hint style="info" %}
 **You should do** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is down ;\)  
 You can upload files to your real server after you finished here.
+{% endhint %}
+
+{% hint style="danger" %}
+You **should** complete ALL installation steps. Not only first.
 {% endhint %}
 
 ## Step 1 - installing the plugin and APIs
@@ -17,12 +19,11 @@ You can upload files to your real server after you finished here.
 * start the server
 * let ItemsAdder finish loading **everything**
 
-First step is done. Now you must complete step 2 to configure the texturepack \(don't worry it's not very hard\).
+First step is done. Now you must complete step 2 to configure the resourcepack \(don't worry it's not very hard\).
 
 ## Step 2 - resourcepack first installation
 
 * join the server 
-* execute the command `/iazip` when the plugin is fully loaded
 * open `plugins\ItemsAdder\config.yml`
 * decide the resourcepack hosting method: 
 
@@ -44,7 +45,4 @@ First step is done. Now you must complete step 2 to configure the texturepack \(
 ### Avoid glitched blocks \(if you have Purpur installed\)
 
 {% page-ref page="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
-
-{% endpage-ref %}
-{% endhint %}
 

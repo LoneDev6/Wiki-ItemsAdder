@@ -1,29 +1,61 @@
-# Хост текстур через DropBox
-
-{% hint style="danger" %}
-**НЕ ИСПОЛЬЗУЙТЕ** файл **pack\_21521367.zip** или **precompressed\_example\_pack.zip**, ЭТО КЛАССИЧЕСКАЯ ОСНОВА!!!! ВЫ ДОЛЖНЫ ИСПОЛЬЗОВАТЬ ВАШ **pack.zip** ФАЙЛ, КОТОРЫЙ СГЕНЕРИРОВАН КОМАНДОЙ **/iazip**.  
-Он находится в папке по этому пути: `plugins/ItemsAdder/data/resource_pack/pack.zip`
-{% endhint %}
+# DropBox
 
 ## Видео-гайд
 
-{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" caption="" %}
+{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
+
+{% hint style="warning" %}
+You **cannot** use **GoogleDrive** and others because they don't provide a **direct download**. **Dropbox does**.
+{% endhint %}
+
+## Text tutorial
+
+* Open [DropBox](https://dropbox.com/), register/login
+* Use the command`/iazip` \(**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file\)
+* Open folder: `plugins/ItemsAdder/data/resource_pack/`
+* **Drag and drop** on **DropBox** the file **pack.zip**
+* Press **Share**
+
+![](../../.gitbook/assets/immagine%20%2825%29.png)
+
+* Press **Create**
+
+![](../../.gitbook/assets/immagine%20%2824%29.png)
+
+* Press **Copy link**
+* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0) 
+* Open `config.yml` of **ItemsAdder**
+* Set it like this \(**I used the example URL, please use your own**\)
+
+```yaml
+resource-pack:
+  apply-on-join: true
+  kick-player-on-decline: false
+  delay-ticks: 1
+  self-host:
+    enabled: false
+    server-ip: '127.0.0.1'
+    pack-port: 8163
+  external-host:
+    enabled: true
+    url: 'https://www.dropbox.com/blablabla?raw=1'
+```
+
+* **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` \(in this case to reload the resourcepack download link\)
+* **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
+
+{% hint style="danger" %}
+PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+{% endhint %}
+
+{% hint style="warning" %}
+**Change** the **file name each time** you **upload** a **new version** of the **resourcepack** to **force** the game to **redownload** the **new version**.  
+If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
+{% endhint %}
+
+## But this is so slow! I have to reupload on DropBox too many times!
+
+Yea it is, that's why you should use the self host feature instead of DropBox. But some hosting \(cheap ones\) don't provide port opening, so you must use DropBox.
 
 {% page-ref page="resourcepack-self-hosting.md" %}
-
-{% hint style="info" %}
-Если вам нужен дешевый европейский хостинг, который имеет неплохое железо и позволит открыть порты \(для хоста текстур прямиком оттуда, а так же для других плагинов\) вы можете взглянуть на этот:
-
-[http://bit.ly/humble-dropbox](http://bit.ly/humble-dropbox)
-
-[![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)
-
-* Оборудование высшего качества по низкой стоимости.
-* 24/7 поддержка
-* **Моментальное "развертывание" вашего сервера**
-* **Собственная панель управления**\(Pterodactyl\)
-* **sFTP** & база данных **MySQL** 
-* **SSD** & **NVME** носители
-* Поддержка **открытия портов** для **ItemsAdder** для [хоста ваших текстур](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/b6ca0e098a470a4971b25346a7a58c6ba6fb5a38/plugin-usage/resourcepack-hosting/plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
-{% endhint %}
 

@@ -1,22 +1,20 @@
-# Хост текстур со своей машины \(self-host\)
+# Self hosting
+
+## Info about self-hosting
 
 С версии ItemsAdder 2.0 \(и выше\) вы можете использовать собственную хост-машину в качестве хоста пакета ресурсов, прямиком из папки вашего сервера!  
 Не нужно платить за внешний хостинг для текстур и **не нужно постоянно перезаливать набор ресурсов на левые сервисы!**
 
 {% hint style="warning" %}
-Ваша машина или хостинг должны давать возможность открывать новые порты \(или уже иметь дополнительные\).  
-Если хостинг этого не поддерживает \(или ваш провайдер отказывается открывать порты\), вы вынуждены использовать **DropBox**, туториал можно найти тут:
-
-Если вас не устраивает **DropBox** - вы можете использовать сервис **mc-packs.net**:
-
-{% page-ref page="resourcepack-on-mc-packs-net.md" %}
-
-{% endpage-ref %}
+**Your hosting service must let you get additional ports for your server.**  
+If your hosting service doesn't provide you additional ports you have to use one of the alternative methods:
 {% endhint %}
 
-## Информация о хосте текстур со своей машины \(self-host\)
+{% page-ref page="automatic-upload-hosting.md" %}
 
-### В чем отличие вашего хоста \(self-host\) и внешних сервисов \(eternal host\)?
+{% page-ref page="resourcepack-on-dropbox.md" %}
+
+### What is the difference between self-host and the other methods?
 
 Главное отличие в том, что скачивание пакета ресурсов со своей машины производится моментально, прямиком с папки сервера, без разрыва волос на заднице с постоянным перезаливом пакета ресурсов при малейшем изменении.
 
@@ -36,21 +34,17 @@
     enabled: true
     server-ip: '127.0.0.1'
     pack-port: 8163
-  external-host:
-    enabled: false
 ```
 
-* замените `127.0.0.1` на ваш IP-адрес сервера
-* замените порт `8163` на любой открытый.
-* Как пример, если мой IP, допустим - `123.456.789.0`, и мой открытый порт, допустим - `8080`, тогда я должен установить следующие строки в конфигурации:
+* you have to replace `127.0.0.1` with ... your server IP
+* and replace `8163` with the additional port you obtained.
+* So for example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
 
 ```yaml
   self-host:
     enabled: true
     server-ip: '123.456.789.0'
-    pack-port: 8080
-  external-host:
-    enabled: false
+    pack-port: 8163
 ```
 
 {% hint style="warning" %}
@@ -64,4 +58,8 @@
 {% hint style="danger" %}
 Не забывайте использовать команду `/iazip` **каждый раз**, когда вы внесли изменения в файлы **текстур**, в 3D **модель**, в **звуках**... _\*\*_или вы не увидите никаких изменений.
 {% endhint %}
+
+### Last step
+
+After you configured the `config.yml` file you just have to run `/iazip` command.
 

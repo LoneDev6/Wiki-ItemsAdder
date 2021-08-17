@@ -22,5 +22,5 @@
 
 ## Вы можете протестировать хостинг на моем сервере \(требуется премиум-аккаунт Mojang\)
 
-![](.gitbook/assets/immagine%20%2823%29.png)
+![](http://www.matteodev.it/spigot/test_server_banner.php)
 

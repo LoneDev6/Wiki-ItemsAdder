@@ -10,7 +10,7 @@ If you didn't create your namespace please follow the [namespace tutorial](../cr
 ### Resourcepack hosting
 
 Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
-I **advice** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
+I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 
 {% page-ref page="../../../resourcepack-hosting/" %}
 {% endhint %}
@@ -75,14 +75,13 @@ items:
 ## Final part
 
 Now you just need to tell the plugin to load your just added item.  
-To do that you have to:
-
-* join the server  
-* make sure you accepted the resourcepacks  
-* use the command `/iazip`  
-* if you're using external-host \(DropBox\) [click here](https://itemsadder.plugin.ga/plugin-usage/adding-content/creating-a-custom-item/simple-texture-sword#if-youre-using-external-host-dropbox-read-here)  
-* get the item using `/iaget mysword`  
-* DONE!
+To do that you have to:  
+- join the server  
+- make sure you accepted the resourcepacks  
+- use the command `/iazip`  
+- if you're using external-host \(DropBox\) scroll down and follow the instructions.  
+- get the item using `/iaget mysword`  
+- DONE!
 
 ### Now get your item
 

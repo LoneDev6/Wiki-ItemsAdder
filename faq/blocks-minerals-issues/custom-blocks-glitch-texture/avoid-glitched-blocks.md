@@ -6,9 +6,9 @@
 
 Enable these options in **purpur.yml** configuration:
 
+* [https://purpur.pl3x.net/docs/Configuration/\#disable-mushroom-updates](https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates)
 * [https://purpur.pl3x.net/docs/Configuration/\#disable-note-block-updates](https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates)
-* [https://purpur.pl3x.net/docs/Configuration/\#disable-note-block-updates](https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates)
-* settings.blocks.**disable-chorus-plant-updates**
+* [https://purpur.pl3x.net/docs/Configuration/\#disable-chorus-plant-updates](https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates)
 
 **Example:**
 
