@@ -63,7 +63,3 @@ Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model
 
 After you configured the `config.yml` file you just have to run `/iazip` command.
 
-{% hint style="warning" %}
-A restart \(for this first time\) may be needed if the pack doesn't load.
-{% endhint %}
-
