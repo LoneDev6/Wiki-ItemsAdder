@@ -1,7 +1,5 @@
 # Block
 
-
-
 {% hint style="danger" %}
 ### Namespace
 
@@ -9,11 +7,11 @@ If you didn't create your namespace please follow the [namespace tutorial](../..
 {% endhint %}
 
 {% hint style="danger" %}
+
 Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 
 {% page-ref page="../../../../resourcepack-hosting/" %}
-{% endhint %}
 
 ## My first custom block
 
@@ -132,13 +130,14 @@ Click on the bottom link f you want to specify **tools** which can break the blo
 ## Final part
 
 Now you just need to tell the plugin to load your just added block.  
-To do that you have to:  
-- join the server  
-- make sure you accepted the resourcepacks  
-- use the command `/iazip`  
-- if you're using external-host \(DropBox\) scroll down and follow the instructions.  
-- get the item using `/iaget red_block`  
-- DONE!
+To do that you have to:
+
+* join the server  
+* make sure you accepted the resourcepacks  
+* use the command `/iazip`  
+* if you're using external-host \(DropBox\) scroll down and follow the instructions.  
+* get the item using `/iaget red_block`  
+* DONE!
 
 ### Now get your item
 
@@ -155,8 +154,8 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
 
 ![](../../../../../.gitbook/assets/immagine%20%2896%29%20%282%29%20%283%29.png)
 
-2. Upload it to your hosting \(Dropbox\)  
-3. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
+1. Upload it to your hosting \(Dropbox\)  
+2. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
 
 ```yaml
   self-host:

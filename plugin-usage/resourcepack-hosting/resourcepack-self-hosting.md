@@ -1,4 +1,4 @@
-# Self hosting
+# 自搭材质包托管
 
 ## Info about self-hosting
 

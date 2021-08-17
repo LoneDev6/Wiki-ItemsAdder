@@ -41,7 +41,7 @@ Run `/iazip` to **compress** the **resourcepack**, the **plugin** will **upload 
 
 ## Will my resourcepack be available online to random people?
 
-2021-08-16:   
+2021-08-16:  
 Your resourcepack won't be indexed on Google and won't be published in a list of resourcepacks.  
 Only people who know the link can download the pack.
 
