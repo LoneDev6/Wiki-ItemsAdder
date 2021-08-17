@@ -1,17 +1,19 @@
-# 自搭材质包托管
+# Self hosting
+
+## Info about self-hosting
 
 有了ItemsAdder 2.0版本,你现在可以直接在你的服务器上托管材质包! 不需要支付**额外的托管费**,也**不需要每次更改后上传资源包**
 
 {% hint style="warning" %}
-你的服务商必须给你提供额外的端口  
-如果你的服务商没有给你提供额外的端口,那你必须使用**DropBox**,详细请查看这个教程.
-
-{% page-ref page="resourcepack-on-dropbox.md" %}
+**Your hosting service must let you get additional ports for your server.**  
+If your hosting service doesn't provide you additional ports you have to use one of the alternative methods:
 {% endhint %}
 
-## Info about self-hosting
+{% page-ref page="automatic-upload-hosting.md" %}
 
-### What is the difference between self-host and external-host?
+{% page-ref page="resourcepack-on-dropbox.md" %}
+
+### What is the difference between self-host and the other methods?
 
 Difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
 
@@ -31,21 +33,17 @@ Difference is that with self-host you can download the pack directly from your s
     enabled: true
     server-ip: '127.0.0.1'
     pack-port: 8163
-  external-host:
-    enabled: false
 ```
 
-* 你可以替换为自己的ip或者127.0.0.1
-* 并将`8163`替换为你的额外端口
-* 比如,你的ip是 `123.456.789.0` 额外端口是 `8080` 我将会这样去设置它:
+* you have to replace `127.0.0.1` with ... your server IP
+* and replace `8163` with the additional port you obtained.
+* So for example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
 
 ```yaml
   self-host:
     enabled: true
     server-ip: '123.456.789.0'
-    pack-port: 8080
-  external-host:
-    enabled: false
+    pack-port: 8163
 ```
 
 {% hint style="warning" %}
@@ -59,4 +57,8 @@ Difference is that with self-host you can download the pack directly from your s
 {% hint style="danger" %}
 **每次**修改**材质**,3D**模型**,**音效**... 时.请使用`/iazip`指令**重新生成**材质包,不然你将不会看到有任何变化.
 {% endhint %}
+
+### Last step
+
+After you configured the `config.yml` file you just have to run `/iazip` command.
 

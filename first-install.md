@@ -14,10 +14,6 @@ You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-如果你使用的是旧版本的ItemsAdder\[v1.0\]那么请先将目录**plugins/ItemsAdder**移动到**ItemsAdder\_backup**
-{% endhint %}
-
-{% hint style="danger" %}
 You **should** complete ALL installation steps. Not only first.
 {% endhint %}
 
@@ -31,17 +27,15 @@ You **should** complete ALL installation steps. Not only first.
 * 打开你的服务器
 * 让ItemsAdder完成**初始化**.中国的腐竹需要用科学上网来下载材质包\[当然得在放服务端机子里用科学上网,不是玩家用科学上网哦\]
 
+First step is done. Now you must complete step 2 to configure the resourcepack \(don't worry it's not very hard\).
+
 ## Step 2 - resourcepack first installation
 
 * 插件加载完成后进入服务器然后输入命令 `/iazip`
 * 打开Itemadder的配置文件 **\[plugins\ItemsAdder\config.yml\]**
-* 按照下面的按钮来进行下一步的配置
+* decide the resourcepack hosting method: 
 
-{% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
-
-* 如果您想在DropBox托管资源包,那么可以按照这里的教程进行操作
-
-{% page-ref page="plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md" %}
+{% page-ref page="plugin-usage/resourcepack-hosting/" %}
 
 {% hint style="warning" %}
 如果你想更新`pack.zip`的材质,那么请输入指令 `/iazip`

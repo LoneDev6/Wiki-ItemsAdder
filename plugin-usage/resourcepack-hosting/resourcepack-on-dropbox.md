@@ -1,9 +1,4 @@
-# DropBox托管材质包\(需VPN\)
-
-{% hint style="danger" %}
-**请不要使用**文件名为**pack\_21521367.zip**或者**precompressed\_example\_pack.zip**作为Base!!!!  
-你需要使用**/iazip**指令生成的**pack.zip**文件. 你可以在这个文件夹里找到它: `plugins/ItemsAdder/data/resource_pack/pack.zip`
-{% endhint %}
+# DropBox
 
 ## 视频教程
 
@@ -62,19 +57,4 @@ resource-pack:
 对的,这就是为什么你要使用自搭材质托管而不是DropBox.但是有些\(便宜的服务商\)并不会提供端口,所以你只能使用DropBox来托管你的材质包.
 
 {% page-ref page="resourcepack-self-hosting.md" %}
-
-{% hint style="info" %}
-如果你需要一个便宜的VPS主机,并且有良好的配置,有端口.你可以看看这个:
-
-[http://bit.ly/humble-dropbox](http://bit.ly/humble-dropbox)
-
-[![\[&#x200B;IMG\]](https://proxy.spigotmc.org/79afd6d87a5bfbed0addd07d59139b29552f0627?url=https%3A%2F%2Fi.imgur.com%2FMMICa0s.jpg)](https://bit.ly/2MOtOR5)
-
-* **顶尖的配置 @ 预算成本**
-* **24/7 客服在线**
-* **立即部署**
-* **自定义控制面板\(翼龙面板\)**
-* **sFTP 和 MySQL 访问**
-* **SSD 和 NVME 存储**
-{% endhint %}
 
