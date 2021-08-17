@@ -19,7 +19,7 @@ manaHud.setFloatValue(2.0f);
 
 {% page-ref page="../../plugin-usage/adding-content/advanced/font-images/common-errors.md" %}
 
-### 获取 表情符号 或 GUI 
+### 获取 表情符号 或 GUI
 
 ```java
 new FontImageWrapper("twitteremojis:confirm").getString()

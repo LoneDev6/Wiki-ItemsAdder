@@ -19,7 +19,7 @@
 * 修改我的文件:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`
 * 将文件保存在同一位置.
 
-### MineCraft 1.16版本后[包括1.16]
+### MineCraft 1.16版本后\[包括1.16\]
 
 ![](../../../.gitbook/assets/immagine%20%2813%29.png)
 
@@ -29,8 +29,7 @@
 {% endhint %}
 
 有亿点困难:  
-基本上你必须像我一样把你的LOGO图像分成两半,所以你必须知道如何使用图像编辑软件\(Photoshop,GIMP或Paint.net\). 
-你可以得到一个[GIMP](https://www.gimp.org/downloads/)模板[在这!](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojangstudios_template.xcf).
+基本上你必须像我一样把你的LOGO图像分成两半,所以你必须知道如何使用图像编辑软件\(Photoshop,GIMP或Paint.net\). 你可以得到一个[GIMP](https://www.gimp.org/downloads/)模板[在这!](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojangstudios_template.xcf).
 
 * 修改我的文件:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
 * 将文件保存在同一位置.
@@ -63,6 +62,6 @@ screen.loading.blend=DST_COLOR
 你可以使用[HEX color picker](https://www.w3schools.com/colors/colors_picker.asp)修改颜色
 
 {% hint style="warning" %}
-不要在颜色代码的前面加上 "#"!
+不要在颜色代码的前面加上 "\#"!
 {% endhint %}
 

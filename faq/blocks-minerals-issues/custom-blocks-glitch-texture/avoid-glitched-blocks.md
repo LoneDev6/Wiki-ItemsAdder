@@ -1,4 +1,4 @@
-# 防止错误方块
+# 避免出现故障方块
 
 {% hint style="warning" %}
 ## 这只适用于 [Purpur](https://purpur.pl3x.net/)。 Spigot 和 Paper 核心没有这个功能。

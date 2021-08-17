@@ -60,30 +60,28 @@ import:
   dev.lone.itemsadder.api.FontImages.TexturedInventoryWrapper
   dev.lone.itemsadder.api.FontImages.FontImageWrapper
   org.bukkit.entity.Player
-  
-  
-		
+
+
+
 command /iaguitest:
-	trigger:
-	
-		set {customTexture} to new FontImageWrapper("mcguis:blank_menu")
-		set {gui} to new TexturedInventoryWrapper(null, 54, "&0Test" and {customTexture})
-		set {icon} to ItemsAdder.getCustomItem("mcicons:icon_confirm")
-		add player to {players::*}
-		set slot 12 of {gui}.getInternal() to {icon}
-		{gui}.showInventory(player)
- 
+    trigger:
+
+        set {customTexture} to new FontImageWrapper("mcguis:blank_menu")
+        set {gui} to new TexturedInventoryWrapper(null, 54, "&0Test" and {customTexture})
+        set {icon} to ItemsAdder.getCustomItem("mcicons:icon_confirm")
+        add player to {players::*}
+        set slot 12 of {gui}.getInternal() to {icon}
+        {gui}.showInventory(player)
+
 on inventory click:
-	if {players::*} contain player:
-		if index of event-slot = 12:
-			cancel event
-			send "Confirmed!"
+    if {players::*} contain player:
+        if index of event-slot = 12:
+            cancel event
+            send "Confirmed!"
 
 on inventory close:
-	remove player from {players::*}
+    remove player from {players::*}
 ```
 {% endtab %}
 {% endtabs %}
-
-
 

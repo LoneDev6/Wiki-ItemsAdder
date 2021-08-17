@@ -1,4 +1,4 @@
-# ☕️Java API
+# ☕️ Java API
 
 ## 如何获取 API
 
@@ -8,8 +8,7 @@
 
 ## 描述
 
-ItemsAdder 拥有一个易于使用的 API，供 Java 开发人员使用。
-使用它时，在代码中包含 **dev.lone.itemsadder.api.ItemsAdder** 即可
+ItemsAdder 拥有一个易于使用的 API，供 Java 开发人员使用。 使用它时，在代码中包含 **dev.lone.itemsadder.api.ItemsAdder** 即可
 
 ## 旧 API:
 

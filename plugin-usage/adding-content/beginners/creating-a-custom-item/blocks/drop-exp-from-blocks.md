@@ -6,7 +6,7 @@
 
 ## 1. 在自定义方块配置中直接添加drop\_exp \[经验掉落\]
 
-当然在这有一个缺点,只允许Itemsadder物品使用drop_exp,而原版的方块并不能进行设置.
+当然在这有一个缺点,只允许Itemsadder物品使用drop\_exp,而原版的方块并不能进行设置.
 
 ```yaml
   ruby_block:

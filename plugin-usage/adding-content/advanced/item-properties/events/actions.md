@@ -306,12 +306,12 @@ damange_near_entities:
 damage_entity_in_sight:
   damage: 4
   distance: 7
-  
+
 # 允许你攻击这个事件的实体
 # 例如,在互动或攻击时,或在事件item_hit_entity时
 damage_entity:
   damage: 4
-  
+
 # 允许你增加与hud相关的玩家状态的特殊行动
 # 栗子里的hud名为: "itemsadder:mana_bar"
 increment_player_stat:

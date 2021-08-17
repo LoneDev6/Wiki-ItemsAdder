@@ -47,7 +47,7 @@
 ```
 
 {% hint style="info" %}
-如果你想使用一个特别的颜色,你可以选择使用这个[color picker(颜色选择器)](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
+如果你想使用一个特别的颜色,你可以选择使用这个[color picker\(颜色选择器\)](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
 来获得**十进制**的颜色 \(hex\).
 {% endhint %}
 

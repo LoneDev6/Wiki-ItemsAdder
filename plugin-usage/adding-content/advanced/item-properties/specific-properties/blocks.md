@@ -67,8 +67,7 @@ specific_properties:
 
 ## cancel\_drop
 
-当方块被破坏时,取消掉落. 
-如果你不想让你的方块掉落\(掉落物\),你可以使用这个功能.
+当方块被破坏时,取消掉落. 如果你不想让你的方块掉落\(掉落物\),你可以使用这个功能.
 
 {% hint style="info" %}
 如果你使用时运附魔工具来破坏木块,你仍然会得到木块,但掉落物里不会掉落其他物品.
@@ -76,8 +75,7 @@ specific_properties:
 
 ## Tools blacklist and whitelist
 
-你可以设置"\_PICKAXE",这样每个稿子都会受到挖掘限制,也可以设置"\_AXE".因为插件会检查物品是否包含在你有没有设置的列表里 
-它也适用于自定义物品的ID,假如,你设置了"ruby\_".那每一个ruby的工具都会列在列表\(ruby\_pickaxe, ruby\_axe...\)
+你可以设置"\_PICKAXE",这样每个稿子都会受到挖掘限制,也可以设置"\_AXE".因为插件会检查物品是否包含在你有没有设置的列表里 它也适用于自定义物品的ID,假如,你设置了"ruby\_".那每一个ruby的工具都会列在列表\(ruby\_pickaxe, ruby\_axe...\)
 
 ### break\_tools\_blacklist
 
@@ -100,7 +98,7 @@ specific_properties:
 ### hardness
 
 方块的坚硬程度,使它更难被破坏.  
-请参考我的方块配置来获得一些**栗子**\(查看**itemsadder namespace[itemsadder分组]**的**blocks.yml**文件\).
+请参考我的方块配置来获得一些**栗子**\(查看**itemsadder namespace\[itemsadder分组\]**的**blocks.yml**文件\).
 
 ### blast\_resistance
 
@@ -112,7 +110,7 @@ specific_properties:
 
 ### sounds
 
-你可以改变破坏方块和放置方块的音效.你可以指定一个[custom sound[自定义声音]](../../sounds/),而不是使用Minecraft的音效.  
+你可以改变破坏方块和放置方块的音效.你可以指定一个[custom sound\[自定义声音\]](../../sounds/),而不是使用Minecraft的音效.  
 你可以指定[Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)或原版[Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php)的名称.
 
 {% hint style="info" %}

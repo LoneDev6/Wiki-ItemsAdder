@@ -1,7 +1,7 @@
 # GUIs
 
 制作自定义GUI,你可复制作者的示例包,并根据你的需求来修改它.  
-你可以使用[JavaAPI](../../../kai-fa/java-api/huds-guis.md)或安装一个插件,如[ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
+你可以使用[JavaAPI](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/7c1831190462fc2269541ef357ac653d3da8c179/kai-fa/java-api/huds-guis.md)或安装一个插件,如[ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
 使用像ChestCommands这样的菜单插件,只需要将菜单名填写为:
 
 ```text

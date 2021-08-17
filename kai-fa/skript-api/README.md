@@ -1,4 +1,4 @@
-# 📓Skript API
+# 📓 Skript API
 
 ## Examples
 
