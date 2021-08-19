@@ -64,3 +64,7 @@ items:
         armorToughness: 1
 ```
 
+{% page-ref page="../../../../faq/can-i-create-slabs-stairs/" %}
+
+
+

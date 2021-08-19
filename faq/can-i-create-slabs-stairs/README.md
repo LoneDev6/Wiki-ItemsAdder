@@ -19,6 +19,8 @@
 {% hint style="warning" %}
 Minecraft не дает возможности дать надетой броне собственную 3D текстуру или модель без использования Optifine.  
 Все, что вы можете - покрасить броню или заменить классические текстуры.
+
+In the future updates I may implement something to allow this, depends on how the feature will be stable.
 {% endhint %}
 
 ## Элитры

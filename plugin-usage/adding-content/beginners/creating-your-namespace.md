@@ -9,11 +9,11 @@ If you don't know what I mean by **namespace** please read [namespace tutorial](
 In order to keep everything organized you have to create **your** own **namespace**.  
 First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
 
-So this example **namespace** will be `myitems` so create a folder names like the namespace.
+In this example **namespace** will be `myitems` so create a folder names like the namespace.
 
 ![](../../../.gitbook/assets/image%20%289%29.png)
 
-Open the myitems folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
+Open the `myitems` folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
 
 ![](../../../.gitbook/assets/image%20%2811%29.png)
 

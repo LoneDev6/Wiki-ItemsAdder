@@ -7,6 +7,11 @@ They allow you to write common properties in one item and add them automatically
 
 To create a template you have to set `template: true` in your item.
 
+{% hint style="warning" %}
+This is an experimental feature, let me know if something is not working correctly.  
+You can see an usage example in [this addon](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
+{% endhint %}
+
 ## What are variants?
 
 Variants are items that will appear ingame and will inherit properties of template items.
@@ -15,7 +20,7 @@ To create a variant you have to set `variant_of: template name` in your item.
 
 ## Example
 
-I want to create multiple furnitures which are equal but only model changes.
+I want to create multiple furnitures which are equal but with different model.
 
 ```yaml
   template_wood_park_bench:
@@ -45,6 +50,8 @@ I want to create multiple furnitures which are equal but only model changes.
       furniture_sit:
         sit_height: 0.5
         sit_all_solid_blocks: true
+        
+        
   oak_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Oak wood Park Bench"
@@ -55,6 +62,8 @@ I want to create multiple furnitures which are equal but only model changes.
       material: PAPER
       generate: false
       model_path: item/oak_wood_park_bench
+      
+      
   spruce_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Spruce wood Park Bench"
@@ -65,6 +74,8 @@ I want to create multiple furnitures which are equal but only model changes.
       material: PAPER
       generate: false
       model_path: item/spruce_wood_park_bench
+      
+      
   birch_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Birch wood Park Bench"

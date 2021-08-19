@@ -38,7 +38,7 @@ resource-pack:
     pack-port: 8163
   external-host:
     enabled: true
-    url: 'https://www.dropbox.com/blablabla?raw=1'
+    url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
 * **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` \(in this case to reload the resourcepack download link\)
