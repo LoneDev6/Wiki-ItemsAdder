@@ -1,4 +1,4 @@
-# Blocks drop mushrooms
+# Blocks drop Mushrooms, Chorus, Noteblocks
 
 If you have this problem please read here **before asking for support**:
 
@@ -8,7 +8,9 @@ If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchant
 
 ### Second reason
 
-Did you delete the ItemsAdder plugin folder? Don't do it. It contains world data under: `plugins\ItemsAdder\storage\regions_data`
+Did you delete the custom blocks folders in your world? Don't do it.
+
+![](../../.gitbook/assets/immagine%20%2896%29.png)
 
 If you delete it you lose every custom ItemsAdder block data in the world.
 
@@ -18,4 +20,6 @@ Corrupted chunk. This can happen if you:
 
 * killed the server while it was saving an IA region file
 * full disk problem which blocked saving of files
+* reloaded the plugin using **Plugman** or similar
+* reloaded the server using `/reload` command
 
