@@ -29,10 +29,6 @@ First step is done. Now you must complete step 2 to configure the resourcepack \
 
 {% page-ref page="plugin-usage/resourcepack-hosting/" %}
 
-{% hint style="warning" %}
-**Remember** to use the command `/iazip` **each time** you want the plugin to update the file `pack.zip`
-{% endhint %}
-
 ## Optional steps
 
 ### Removing default items
