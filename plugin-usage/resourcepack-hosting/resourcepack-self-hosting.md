@@ -7,11 +7,9 @@
 {% hint style="warning" %}
 **Your hosting service must let you get additional ports for your server.**  
 If your hosting service doesn't provide you additional ports you have to use one of the alternative methods:
-{% endhint %}
-
 {% page-ref page="automatic-upload-hosting.md" %}
-
 {% page-ref page="resourcepack-on-dropbox.md" %}
+{% endhint %}
 
 ### What is the difference between self-host and the other methods?
 

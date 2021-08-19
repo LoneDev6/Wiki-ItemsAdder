@@ -37,10 +37,6 @@ First step is done. Now you must complete step 2 to configure the resourcepack \
 
 {% page-ref page="plugin-usage/resourcepack-hosting/" %}
 
-{% hint style="warning" %}
-如果你想更新`pack.zip`的材质,那么请输入指令 `/iazip`
-{% endhint %}
-
 ## Optional steps
 
 ### 移除预置物品
