@@ -8,7 +8,6 @@ You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-imag
 
 ### Example
 
-  
 `%img_smile%` will show like that:
 
 ![](../../.gitbook/assets/immagine%20%2817%29.png)
