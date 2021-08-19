@@ -1,4 +1,4 @@
-# Blocks drop Mushrooms, Chorus, Noteblocks
+# 挖取方块掉落蘑菇
 
 如果你有这个特性的话,请先阅读这里 **再去Github发送支持请求**:
 
