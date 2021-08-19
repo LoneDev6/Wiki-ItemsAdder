@@ -2,13 +2,15 @@
 
 ## Info about self-hosting
 
-With ItemsAdder 2.0 you can host the resourcepack directly on your server!   
+With ItemsAdder 2.0 you can host the resourcepack directly on your server!  
 No need to pay for a website host and **no need to upload the pack everytime you make a change!**
 
 {% hint style="warning" %}
 **Your hosting service must let you get additional ports for your server.**  
 If your hosting service doesn't provide you additional ports you have to use one of the alternative methods:
+
 {% page-ref page="automatic-upload-hosting.md" %}
+
 {% page-ref page="resourcepack-on-dropbox.md" %}
 {% endhint %}
 
@@ -24,8 +26,15 @@ Difference is that with self-host you can download the pack directly from your s
 
 ## How can I configure the self host?
 
-* Check in your hosting service panel if you can get an additional port, if not please ask hosting service support to provide your one.
-* After you obtained a port you can open `config.yml` and set like this:
+* Check in your **hosting service panel** if you can get an additional port, if not please ask hosting service support to provide your one.
+
+For example on **Pterodactly**:
+
+![](../../.gitbook/assets/immagine%20%28111%29.png)
+
+![](../../.gitbook/assets/immagine%20%28105%29.png)
+
+* after you obtained a **new port** you can open `config.yml` and set like this:
 
 ```yaml
   self-host:
@@ -34,9 +43,10 @@ Difference is that with self-host you can download the pack directly from your s
     pack-port: 8163
 ```
 
-* you have to replace `127.0.0.1` with ... your server IP
-* and replace `8163` with the additional port you obtained.
-* So for example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
+* you have to replace `127.0.0.1` with **your server IP**
+* and replace `8163` with the new port you obtained.
+
+For example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
 
 ```yaml
   self-host:
@@ -46,18 +56,19 @@ Difference is that with self-host you can download the pack directly from your s
 ```
 
 {% hint style="warning" %}
-**Additional port** is not the same as your server port \(the one your users use to connect\).
+**pack-port** is not the same as your server port \(the one your users use to connect\).
 {% endhint %}
 
 {% hint style="info" %}
-If you are testing the plugin on your PC you can leave default config, because 127.0.0.1 means "this pc", so plugin will look for the resourcepack zip directly in your PC.
+`127.0.0.1` means "**this pc**".  
+**So if you are testing the plugin on your PC** you can **leave default config** so plugin will look for the resourcepack zip directly in your PC.
 {% endhint %}
 
 {% hint style="danger" %}
-Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**...  ****or you won't see any change obviously.
+Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... or you won't see any change obviously.
 {% endhint %}
 
 ### Last step
 
-After you configured the `config.yml` file you just have to run `/iazip` command.
+After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
 

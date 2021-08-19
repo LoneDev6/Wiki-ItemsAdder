@@ -45,5 +45,15 @@ font_images:
 `scale_ratio` must ALWAYS be bigger than `y_position` or Minecraft won't like it. I cannot fix that issue, it's a **Minecraft** limitation.
 {% endhint %}
 
+## In-game view
 
+![](../../../.gitbook/assets/immagine%20%28116%29.png)
+
+### Using the /e useful suggestions
+
+![](../../../.gitbook/assets/immagine%20%28108%29.png)
+
+![](../../../.gitbook/assets/immagine%20%28107%29.png)
+
+![](../../../.gitbook/assets/immagine%20%28103%29.png)
 

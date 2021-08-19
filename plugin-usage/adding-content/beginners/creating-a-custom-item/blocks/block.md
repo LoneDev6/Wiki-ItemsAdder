@@ -1,20 +1,5 @@
 # Block
 
-
-
-{% hint style="danger" %}
-### Namespace
-
-If you didn't create your namespace please follow the [namespace tutorial](../../creating-your-namespace.md).
-{% endhint %}
-
-{% hint style="danger" %}
-Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
-I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
-
-{% page-ref page="../../../../resourcepack-hosting/" %}
-{% endhint %}
-
 ## My first custom block
 
 ### Creating the blocks file
@@ -26,6 +11,8 @@ This is an example block \(remember to change `myitems` [namespace ](../../basic
 For example I created a **file** which will contain all my **custom blocks**:
 
 In this file \(`blocks.yml`\) I start creating a simple block called `red_block`
+
+![](../../../../../.gitbook/assets/immagine%20%2891%29.png)
 
 ```yaml
 info:
@@ -49,15 +36,27 @@ If you use a block \(like STONE or DIRT\) it will result a bit glitchy when plac
 
 Now the fun part, let's set the textures!  
 To do that you have to put the `.png` textures file inside the correct folder.  
-In this case your **namespace** is `myitems` so you have to put it here:
+In this case your **namespace** is `myitems` so you have to put them here:
 
-![](../../../../../.gitbook/assets/immagine%20%2891%29.png)
+![](../../../../../.gitbook/assets/immagine%20%28101%29.png)
 
 ### Applying the textures files to your item
 
 Now open `blocks.yml` file again and add the `resource` part as I did.  
 As you can see I set `generate: true` and I set the textures for the item.  
 This tells the plugin to generate the 3D model automatically using your texture.
+
+```yaml
+info:
+  namespace: myitems
+items:
+  red_block:
+    display_name: Red Block
+    permission: red_block
+    resource:
+      generate: true
+      material: PAPER
+```
 
 ### Using different texture for each face
 
@@ -100,7 +99,7 @@ items:
         - block/red_block.png
 ```
 
-## Adding the block functionality
+## Adding the block placing functionality
 
 You have to add the `specific_properties` attribute, like in this example:
 
@@ -124,36 +123,25 @@ items:
 ```
 
 {% hint style="info" %}
-Click on the bottom link f you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
+Click on the bottom link if you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
 
 {% page-ref page="../../../advanced/item-properties/specific-properties/blocks.md" %}
 {% endhint %}
 
 ## Final part
 
-Now you just need to tell the plugin to load your just added block.  
-To do that you have to:  
-- join the server  
-- make sure you accepted the resourcepacks  
-- use the command `/iazip`  
-- if you're using external-host \(DropBox\) scroll down and follow the instructions.  
-- get the item using `/iaget red_block`  
-- DONE!
+Now you just need to tell the plugin to load your just added block.
 
-### Now get your item
+### If you're using [self-host](../../../../resourcepack-hosting/resourcepack-self-hosting.md) or [auto-external-host](../../../../resourcepack-hosting/automatic-upload-hosting.md):
 
-![](../../../../../.gitbook/assets/immagine%20%2872%29.png)
+* run `/iazip`.
 
-![](../../../../../.gitbook/assets/immagine%20%2895%29.png)
-
-![](../../../../../.gitbook/assets/immagine%20%2894%29.png)
-
-## If you're using external-host \(Dropbox\) read here:
+### If you're using [external-host](../../../../resourcepack-hosting/resourcepack-on-dropbox.md) \(Dropbox\) read here:
 
 Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!  
 1. Get it from this folder:
 
-![](../../../../../.gitbook/assets/immagine%20%2896%29%20%282%29%20%283%29%20%282%29%20%286%29.png)
+![](../../../../../.gitbook/assets/immagine%20%2896%29%20%282%29%20%283%29%20%282%29%20%288%29.png)
 
 2. Upload it to your hosting \(Dropbox\)  
 3. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
@@ -171,4 +159,14 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
 If you have more questions read the full **external-host** tutorial here:
 
 {% page-ref page="../../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
+
+## Getting the block ingame
+
+Run `/iaget red_block` to get the item.
+
+![](../../../../../.gitbook/assets/immagine%20%2895%29.png)
+
+![](../../../../../.gitbook/assets/immagine%20%2872%29.png)
+
+![](../../../../../.gitbook/assets/immagine%20%2894%29.png)
 

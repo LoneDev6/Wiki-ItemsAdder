@@ -1,6 +1,6 @@
 # Placeholders
 
-You can use these special placeholders in chat, signs, books and in GUIs names.
+You can use these special placeholders in **chat**, **signs**, **books** and in **GUIs** names.
 
 ### Offset
 
@@ -24,4 +24,6 @@ To actually show make your font image show up you just have to write down its na
 :blank_menu:
 :my_emoji:
 ```
+
+
 

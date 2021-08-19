@@ -20,6 +20,8 @@ You can't create custom model for thrown tridents as it's a Minecraft bug I can'
 {% hint style="warning" %}
 Minecraft doesn't allow you in any way to add custom textures / custom 3D models to armors.  
 You can make them colored but you cannot change the texture.
+
+In the future updates I may implement something to allow this, depends on how the feature will be stable.
 {% endhint %}
 
 {% page-ref page="../../plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md" %}

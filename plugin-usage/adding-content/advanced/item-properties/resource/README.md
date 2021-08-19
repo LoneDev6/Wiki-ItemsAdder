@@ -103,7 +103,7 @@ If you want to force the usage of a defined custom\_model\_data \(CustomModelDat
       model_path: "item/multimeter"
 ```
 
-You also have to create the model file names "multimeter" \(in this example\) inside this folder: `assets\YOUR_NAMESPACE\models\item`
+You also have to create the model file named "multimeter" \(in this example\) inside this folder: `assets\YOUR_NAMESPACE\models\item`
 
 You can also tell IA to automatically generate the model based on the texture:
 

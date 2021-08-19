@@ -10,9 +10,12 @@ description: Collection of basic item properties
 enabled: true
 ```
 
-With this setting you can disable an item completely.  
-**Obviously if a player has it in inventory it won't be removed, he still will own it.  
-Same thing for blocks, but when broken they won't drop anymore**
+With this setting you can disable an item completely.
+
+{% hint style="warning" %}
+**If a player has the item in inventory it won't be removed.  
+Same thing for blocks, but when broken they won't drop anymore.**
+{% endhint %}
 
 ### Display name
 
