@@ -18,7 +18,7 @@ This feature allows you to create images that can be used to make:  **GUIs**, **
 
 ![](../../../../.gitbook/assets/immagine%20%28102%29.png)
 
-![](../../../../.gitbook/assets/immagine%20%28106%29.png)
+![](../../../../.gitbook/assets/image%20%2827%29.png)
 
 ![](../../../../.gitbook/assets/immagine%20%28104%29.png)
 
