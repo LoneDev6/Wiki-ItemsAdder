@@ -30,7 +30,5 @@
 ### I'm not the owner of this resource
 {% endhint %}
 
-{% embed url="https://www.mc-market.org/resources/21017/" %}
-
-
+{% embed url="https://www.mc-market.org/resources/21017/" caption="" %}
 

@@ -8,8 +8,7 @@ permission: myitem
 
 ## How to allow crafting?
 
-Вы можете разрешить игрокам **создавать** определенные предметы, дав им подобное право: `ia.user.craft.myitem`  
-
+Вы можете разрешить игрокам **создавать** определенные предметы, дав им подобное право: `ia.user.craft.myitem`
 
 ## How to make the item visible in the /ia gui on to some users?
 

@@ -66,5 +66,3 @@ items:
 
 {% page-ref page="../../../../faq/can-i-create-slabs-stairs/" %}
 
-
-

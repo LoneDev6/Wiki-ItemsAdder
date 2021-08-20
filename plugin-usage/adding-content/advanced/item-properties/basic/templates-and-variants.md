@@ -50,8 +50,8 @@ I want to create multiple furnitures which are equal but with different model.
       furniture_sit:
         sit_height: 0.5
         sit_all_solid_blocks: true
-        
-        
+
+
   oak_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Oak wood Park Bench"
@@ -62,8 +62,8 @@ I want to create multiple furnitures which are equal but with different model.
       material: PAPER
       generate: false
       model_path: item/oak_wood_park_bench
-      
-      
+
+
   spruce_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Spruce wood Park Bench"
@@ -74,8 +74,8 @@ I want to create multiple furnitures which are equal but with different model.
       material: PAPER
       generate: false
       model_path: item/spruce_wood_park_bench
-      
-      
+
+
   birch_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Birch wood Park Bench"
