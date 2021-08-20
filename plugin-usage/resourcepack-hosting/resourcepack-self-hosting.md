@@ -1,9 +1,13 @@
 # Self hosting
 
+## Video tutorial
+
+{% embed url="https://www.youtube.com/watch?v=XoTwF4\_HztU" %}
+
 ## Info about self-hosting
 
-With ItemsAdder 2.0 you can host the resourcepack directly on your server!  
-No need to pay for a website host and **no need to upload the pack everytime you make a change!**
+With ItemsAdder you can host the resourcepack directly on your server!  
+No need to pay for a website host and **no need to upload the pack every time you make a change!**
 
 {% hint style="warning" %}
 **Your hosting service must let you get additional ports for your server.**  
@@ -28,7 +32,7 @@ Difference is that with self-host you can download the pack directly from your s
 
 * Check in your **hosting service panel** if you can get an additional port, if not please ask hosting service support to provide your one.
 
-For example on **Pterodactly**:
+For example on **Pterodactyl**:
 
 ![](../../.gitbook/assets/immagine%20%28111%29.png)
 

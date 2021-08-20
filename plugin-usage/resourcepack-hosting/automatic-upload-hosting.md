@@ -1,10 +1,14 @@
 # Automatic external hosting
 
+## Video tutorial
+
+{% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" %}
+
 ## What is automatic hosting?
 
 ItemsAdder 2.4.9 allows you to automatically upload your resourcepack on a **free online service** with servers all over the world.
 
-Thanks a lot to [Ploudos ](https://ploudos.com/it/)which privides me their platform to host your resourcepacks for free!
+Thanks a lot to [PloudOS ](https://ploudos.com/it/)which privides me their platform to host your resourcepacks for free!
 
 ## What are the advantages?
 
