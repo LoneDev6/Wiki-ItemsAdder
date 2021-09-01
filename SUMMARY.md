@@ -186,5 +186,6 @@
     * [ModelEngine](compatibility-with-other-plugins/compatible/modelengine.md)
     * [Scoreboard](compatibility-with-other-plugins/compatible/scoreboard.md)
     * [BentoBox](compatibility-with-other-plugins/compatible/bentobox.md)
+    * [Authme](compatibility-with-other-plugins/compatible/authme.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
