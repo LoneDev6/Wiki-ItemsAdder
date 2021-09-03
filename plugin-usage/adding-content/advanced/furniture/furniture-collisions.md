@@ -19,6 +19,7 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
         small: true
         solid: true
         hitbox:
+          entity: armor_stand
           length: 1
           width: 1
           height: 1
@@ -42,4 +43,12 @@ You can use the command `/iahitbox` to see the hitbox when you pleace a furnitur
 ![](../../../../.gitbook/assets/immagine%20%2865%29.png)
 
 ![](../../../../.gitbook/assets/immagine%20%2858%29.png)
+
+{% hint style="warning" %}
+## Hitboxes limitations
+
+* **furnitures** that use `entity: item_frame` **support only hitbox** with `width` and `length` of the **same value**. \(example: `width: 2`, `length: 2`, `height: 1`\).  If you want to have different `width` and `length` use `entity: armor_stand`.
+{% endhint %}
+
+
 
