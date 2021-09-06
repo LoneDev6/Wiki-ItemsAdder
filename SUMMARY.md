@@ -26,6 +26,7 @@
       * [Redstone \(REAL blocks\)](faq/blocks-minerals-issues/custom-blocks-glitch-texture/redstone-real-blocks.md)
       * [Noteblocks \(REAL\_NOTE\)](faq/blocks-minerals-issues/custom-blocks-glitch-texture/noteblocks-real_note.md)
       * [Glitched blocks in some areas/custom worlds](faq/blocks-minerals-issues/custom-blocks-glitch-texture/glitched-blocks-in-some-areas-custom-worlds.md)
+    * [Block particles not playing](faq/blocks-minerals-issues/block-particles-not-playing.md)
   * [💧Liquids bugs](faq/liquids-bugs.md)
   * [Can't edit minecraft default files](faq/cant-edit-minecraft-default-files.md)
   * [🐌Plugin loading very slow](faq/plugin-loading-very-slow.md)
