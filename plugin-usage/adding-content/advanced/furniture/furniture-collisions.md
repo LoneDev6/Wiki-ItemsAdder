@@ -18,8 +18,8 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
       furniture:
         small: true
         solid: true
+        entity: armor_stand
         hitbox:
-          entity: armor_stand
           length: 1
           width: 1
           height: 1
