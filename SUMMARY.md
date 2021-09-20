@@ -162,6 +162,7 @@
     * [GriefPreventionStickFix](compatibility-with-other-plugins/compatible/griefpreventionstickfix.md)
     * [CustomCrafting](compatibility-with-other-plugins/compatible/customcrafting.md)
     * [BossShop](compatibility-with-other-plugins/compatible/bossshop.md)
+    * [Spartan Anti Cheat](compatibility-with-other-plugins/compatible/spartan-anti-cheat.md)
     * [RPG Chest Premium](compatibility-with-other-plugins/compatible/rpg-chest-premium.md)
     * [ClueScrolls](compatibility-with-other-plugins/compatible/cluescrolls.md)
     * [Recipe Control](compatibility-with-other-plugins/compatible/recipe-control.md)
