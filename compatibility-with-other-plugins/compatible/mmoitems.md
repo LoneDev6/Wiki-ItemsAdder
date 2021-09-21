@@ -70,7 +70,7 @@ items:
 
 ### - get the item
 
-Use the command `/iaget mmoitems_example:example_item` to get your finished item
+Use the command `/iaget mmoitems_example:test` to get your finished item
 
 ![](../../.gitbook/assets/immagine%20%2833%29.png)
 
