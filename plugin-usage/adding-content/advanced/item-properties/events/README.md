@@ -41,6 +41,7 @@ You can make things happen \([actions](actions.md)\) when an event is triggered 
 * placed\_block.interact
 * placed\_block.break
 * placed\_armorstand.interact
+* placed\_itemframe.interact
 * bucket\_empty
 * bucket\_fill
 
