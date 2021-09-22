@@ -189,5 +189,12 @@
     * [Scoreboard](compatibility-with-other-plugins/compatible/scoreboard.md)
     * [BentoBox](compatibility-with-other-plugins/compatible/bentobox.md)
     * [Authme](compatibility-with-other-plugins/compatible/authme.md)
+    * [EcoBosses](compatibility-with-other-plugins/compatible/ecobosses.md)
+    * [EcoArmor](compatibility-with-other-plugins/compatible/ecoarmor.md)
+    * [EcoWeapons](compatibility-with-other-plugins/compatible/ecoweapons.md)
+    * [EcoItems](compatibility-with-other-plugins/compatible/ecoitems.md)
+    * [Reforges](compatibility-with-other-plugins/compatible/reforges.md)
+    * [Talismans](compatibility-with-other-plugins/compatible/talismans.md)
+    * [StatTrackers](compatibility-with-other-plugins/compatible/stattrackers.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
 
