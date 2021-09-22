@@ -4,7 +4,7 @@ description: Collection of basic item properties
 
 # Basic
 
-### Enabled
+## Enabled
 
 ```yaml
 enabled: true
@@ -17,7 +17,7 @@ With this setting you can disable an item completely.
 Same thing for blocks, but when broken they won't drop anymore.**
 {% endhint %}
 
-### Display name
+## Display name
 
 ```yaml
 display_name: "Test"
@@ -25,7 +25,7 @@ display_name: "Test"
 
 This is the name user will see on the item
 
-### Permission
+## Permission
 
 ```yaml
 permission: myitem
@@ -33,7 +33,7 @@ permission: myitem
 
 {% page-ref page="item-permission.md" %}
 
-### Lore
+## Lore
 
 ```yaml
 lore:
@@ -44,7 +44,7 @@ lore:
 
 Lore lines of the item
 
-### Enchants
+## Enchants
 
 ```yaml
 enchants:
@@ -57,7 +57,7 @@ Enchants of the item.
 You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins \(for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...\).  
 Supports also **namespaces** \(if you are creating custom enchants using Namespaced keys\)
 
-### Attribute modifiers
+## Attribute modifiers
 
 ```yaml
 attribute_modifiers:
@@ -83,7 +83,7 @@ attribute_modifiers:
 
 These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
 
-### Durability
+## Durability
 
 ```yaml
 durability:
@@ -101,7 +101,7 @@ There are pretty self explanatory.
 
 `max_custom_durability` is the max durability the item can reach
 
-### Item flags
+## Item flags
 
 ```yaml
 item_flags:
@@ -116,7 +116,7 @@ item_flags:
 Special item flags that can hide some vanilla info of the item.  
 You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-### blocked\_enchants
+## blocked\_enchants
 
 Special item property that disables enchants for this item, so your users won't be able to enchant it.
 
@@ -141,7 +141,7 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-### events\_cooldown
+## events\_cooldown
 
 Special attribute to limit spamming of events by players. It's in ticks, so 20 = 1 second.
 
@@ -174,7 +174,7 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
             amplifier: 4
 ```
 
-### events\_needed\_player\_stats
+## events\_needed\_player\_stats
 
 Special attribute to make events work only if the player stat \(ItemsAdder player stat, which are usually shown in HUDs\) satisfies the set rule.
 
@@ -214,11 +214,54 @@ You can set it to `>`, `<` ad `=`
             amount: 1
 ```
 
-### template
+## glow
+
+You can make an item glowing when dropped on the ground.  
+Very useful for **rare items**.  
+Example:
+
+![](../../../../../.gitbook/assets/immagine%20%28117%29.png)
+
+```yaml
+items:
+  glowing_item:
+    display_name: Glowing Item
+    resource:
+      material: DIAMOND
+      generate: true
+      textures:
+      - item/glowing_item.png
+    drop:
+      glow:
+        enabled: true
+        color: DARK_RED
+```
+
+## show\_name
+
+You can make a drop show its name.  
+Very useful for **rare items**.  
+Example:
+
+![](../../../../../.gitbook/assets/immagine%20%28112%29.png)
+
+```yaml
+  glowing_item:
+    display_name: Glowing Item
+    resource:
+      material: DIAMOND
+      generate: true
+      textures:
+      - item/glowing_item.png
+    drop:
+      show_name: true
+```
+
+## template
 
 {% page-ref page="templates-and-variants.md" %}
 
-### variant\_of
+## variant\_of
 
 {% page-ref page="templates-and-variants.md" %}
 
