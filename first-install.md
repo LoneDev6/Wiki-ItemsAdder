@@ -13,7 +13,7 @@ You **should** complete ALL installation steps. Not only first.
 
 * install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* install [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
+* install [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/) **\(**⚠️**do not install it if you're on 1.17.1 Paper/Tuinity/Purpur**⚠️ [It doesn't work for now](https://www.spigotmc.org/threads/lightapi-fork.278321/page-10#post-4237787).**\)**
 * \(optional\) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
 * put **ItemsAdder.jar** file inside your plugins folder
 * start the server
