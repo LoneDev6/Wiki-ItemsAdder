@@ -6,11 +6,18 @@
 
 要创建一个模板,你必须在你的物品里设置`template: true`
 
-## 什么是分支
+{% hint style="warning" %}
+This is an experimental feature, let me know if something is not working correctly.  
+You can see an usage example in [this addon](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
+{% endhint %}
+
+## What are variants?
 
 分支是将在游戏中出现的物品，并且继承模板物品的属性. 要创建一个分支,你必须在你的物品里设置`variant_of: template name`
 
 ## 栗子
+
+## Example
 
 我想创建多个材质的家具,它们的属性是相同的,但只有材质/模型不同.
 
@@ -42,6 +49,8 @@
       furniture_sit:
         sit_height: 0.5
         sit_all_solid_blocks: true
+        
+        
   oak_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Oak wood Park Bench"
@@ -52,6 +61,8 @@
       material: PAPER
       generate: false
       model_path: item/oak_wood_park_bench
+      
+      
   spruce_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Spruce wood Park Bench"
@@ -62,6 +73,8 @@
       material: PAPER
       generate: false
       model_path: item/spruce_wood_park_bench
+      
+      
   birch_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
     display_name: "Birch wood Park Bench"

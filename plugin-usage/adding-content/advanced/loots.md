@@ -76,6 +76,8 @@ loots:
 loots:
   fishing:
     loot_blue_parrotfish:
+      biomes:
+        - WARM_OCEAN
       items:
         item_1:
           item: itemsadder:blue_parrotfish

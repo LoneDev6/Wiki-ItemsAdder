@@ -71,7 +71,7 @@ items:
 
 ### - 获得物品
 
-使用命令 `/iaget mmoitems_example:example_item` 获取物品
+使用命令 `/iaget mmoitems_example:test` 获取物品
 
 ![](../../.gitbook/assets/immagine%20%2833%29.png)
 

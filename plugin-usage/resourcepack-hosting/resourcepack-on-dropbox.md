@@ -38,7 +38,7 @@ resource-pack:
     pack-port: 8163
   external-host:
     enabled: true
-    url: 'https://www.dropbox.com/blablabla?raw=1'
+    url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
 * **这一点非常重要**:你修改了 `config.yml` 后,**一定**要使用`/iareload`指令**重新加载**插件\(在这种情况下,请重新加载材质包的下载链接\)

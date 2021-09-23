@@ -8,7 +8,7 @@ BlockBench的[教程](https://search.bilibili.com/all?keyword=BlockBench&from_so
 {% hint style="danger" %}
 你必须确保将你的模型为Java Block/Item Model!不要使用Bedrock Model或Entity model!
 
-![](../../../../../.gitbook/assets/immagine%20%2889%29%20%286%29.png)
+![](../../../../../.gitbook/assets/immagine%20%2889%29%20%2813%29.png)
 {% endhint %}
 
 ### 创建一个非常简单的闲置动画动作

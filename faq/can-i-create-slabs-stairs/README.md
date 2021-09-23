@@ -19,6 +19,8 @@
 
 {% hint style="warning" %}
 Minecraft不可以以任何方式向盔甲添加自定义材质/自定义3D模型. 你可以让盔甲着色,但是你不能修改材质
+
+In the future updates I may implement something to allow this, depends on how the feature will be stable.
 {% endhint %}
 
 {% page-ref page="../../plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md" %}

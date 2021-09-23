@@ -21,7 +21,7 @@ You **should** complete ALL installation steps. Not only first.
 
 * 下载并安装 [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * 下载并安装 [**IALib**](https://www.spigotmc.org/resources/ialib.75974/)
-* 下载并安装 [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/)
+* 下载并安装 [**LightAPI**](https://www.spigotmc.org/resources/lightapi-fork.48247/) **\(**⚠️**do not install it if you're on 1.17.1 Paper/Tuinity/Purpur**⚠️ [It doesn't work for now](https://www.spigotmc.org/threads/lightapi-fork.278321/page-10#post-4237787).**\)**
 * \(optional\) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
 * 把**ItemsAdder.jar**放到服务端的插件目录
 * 打开你的服务器
@@ -31,9 +31,7 @@ First step is done. Now you must complete step 2 to configure the resourcepack \
 
 ## Step 2 - resourcepack first installation
 
-* 插件加载完成后进入服务器然后输入命令 `/iazip`
-* 打开Itemadder的配置文件 **\[plugins\ItemsAdder\config.yml\]**
-* decide the resourcepack hosting method: 
+#### Decide the resourcepack hosting method: 
 
 {% page-ref page="plugin-usage/resourcepack-hosting/" %}
 

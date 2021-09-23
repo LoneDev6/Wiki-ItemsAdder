@@ -1,6 +1,6 @@
 # 等级材质\(称号\)
 
-你可以为你的服务器创建自定义等级,让它看起来更牛逼 查看这个插件,然后了解如何创建它们: [https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
+## Make your server look professional with custom ranks
 
 ![](../../../.gitbook/assets/image%20%2827%29%20%281%29.png)
 
@@ -38,39 +38,52 @@ Don't change `scale_ratio` and `y_position`. It would make the ranks look pixela
 
 ### Creating the png image
 
-**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`  
+**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`   
+  
 You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.  
 For example copy `admin.png`, name it `custom.png` and edit it.
 
-{% hint style="warning" %}
-Don't change the rank image height, change only the width or the image will look pixelated.
+{% hint style="danger" %}
+### Don't change the rank image height! Change only the width or the image will look pixelated!
 {% endhint %}
 
-## Using the rank ingame:
+### Example:
 
-## Luckperms
+For example in order to make a similar rank to my **BetterRanks** addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
 
-### 创建一个权限组,例如\(管理员\)
+![](../../../.gitbook/assets/image%20%2839%29.png)
+
+![](../../../.gitbook/assets/image%20%2836%29.png)
+
+![](../../../.gitbook/assets/image%20%2838%29.png)
+
+![](../../../.gitbook/assets/image%20%2837%29.png)
+
+## Using the rank ingame
+
+### Luckperms
+
+#### 创建一个权限组,例如\(管理员\)
 
 使用该指令 `/lp creategroup admin`
 
-### 添加前缀
+#### 添加前缀
 
 使用该指令 `/lp group admin meta addprefix 100 :admin:`
 
-### 将该权限组分配给一个玩家
+#### 将该权限组分配给一个玩家
 
 使用该指令 \(将LoneDev改为你的玩家名称\) `/lp user LoneDev group add admin`
 
 ![](../../../.gitbook/assets/immagine%20%2843%29.png)
 
-## TAB plugin
+### TAB plugin
 
 {% hint style="warning" %}
 确保你安装了 [PlaceholderAPI](../../using-font_images-emojis-everywhere.md)
 {% endhint %}
 
-### 打开TAB插件的config.yml
+#### 打开TAB插件的config.yml
 
 在`groups`下添加设置,如果已经存在,则修改它. \(你只能使用`%img_admin%`而不是`:admin:`因为 **TAB** 只能和 **PlaceholderAPI** 变量挂钩而不是**ItemsAdder**的变量.这也适用于**任何插件**\)
 

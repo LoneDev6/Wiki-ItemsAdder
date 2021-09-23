@@ -10,7 +10,11 @@ description: 基本物品属性集合
 enabled: true
 ```
 
-通过这个设置,你可以完全禁用一个物品. **很明显,如果玩家在背包里有该物品的话,它不会因为禁用而消除. 方块也是这样,当物品被破坏时就不会掉落出掉落物出来**
+通过这个设置,你可以完全禁用一个物品. 
+
+{% hint style="warning" %}
+**很明显,如果玩家在背包里有该物品的话,它不会因为禁用而消除. 方块也是这样,当物品被破坏时就不会掉落出掉落物出来**
+{% endhint %}
 
 ## Display name\[名称\]
 
@@ -39,7 +43,7 @@ lore:
 
 对物品的描述
 
-### Enchants\[附魔\]
+## Enchants\[附魔\]
 
 ```yaml
 enchants:
@@ -51,7 +55,7 @@ enchants:
 该物品的附魔 你可以设置[原版附魔](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html)或者其他扩展附魔插件\(比如:[EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)等等...\).  
 也支持**namespaces\[命名空间\]** \(如果你使用Namespacedkey来创建自定义附魔\)
 
-### Attribute modifiers\[物品的功能属性\]
+## Attribute modifiers\[物品的功能属性\]
 
 ```yaml
 attribute_modifiers:
@@ -168,7 +172,7 @@ blocked_enchants:
             amplifier: 4
 ```
 
-### events\_needed\_player\_stats \[玩家状态判断\]
+## events\_needed\_player\_stats \[玩家状态判断\]
 
 这个特殊属性使事件只能在玩家的状态\(添加玩家状态,通常是通过HUD进行显示\)来满足设定规则.
 
@@ -208,7 +212,52 @@ blocked_enchants:
             amount: 1
 ```
 
-### 模板
+## glow
 
-### variant\_of
+You can make an item glowing when dropped on the ground.  
+Very useful for **rare items**.  
+Example:
+
+![](../../../../../.gitbook/assets/immagine%20%28117%29.png)
+
+```yaml
+items:
+  glowing_item:
+    display_name: Glowing Item
+    resource:
+      material: DIAMOND
+      generate: true
+      textures:
+      - item/glowing_item.png
+    drop:
+      glow:
+        enabled: true
+        color: DARK_RED
+```
+
+## show\_name
+
+You can make a drop show its name.  
+Very useful for **rare items**.  
+Example:
+
+![](../../../../../.gitbook/assets/immagine%20%28112%29.png)
+
+```yaml
+  glowing_item:
+    display_name: Glowing Item
+    resource:
+      material: DIAMOND
+      generate: true
+      textures:
+      - item/glowing_item.png
+    drop:
+      show_name: true
+```
+
+## template
+
+{% page-ref page="templates-and-variants.md" %}
+
+## variant\_of
 

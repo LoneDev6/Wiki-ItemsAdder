@@ -1,5 +1,9 @@
 # 自搭材质包托管
 
+## Video tutorial
+
+{% embed url="https://www.youtube.com/watch?v=XoTwF4\_HztU" %}
+
 ## Info about self-hosting
 
 有了ItemsAdder 2.0版本,你现在可以直接在你的服务器上托管材质包! 不需要支付**额外的托管费**,也**不需要每次更改后上传资源包**
@@ -25,7 +29,14 @@ Difference is that with self-host you can download the pack directly from your s
 
 ## How can I configure the self host?
 
-* 在你的翼龙面板查询有没有额外的端口,如果没有,你可以要求服务商给你提供一个
+* 在你的翼龙面板查询有没有额外的端口,如果没有,你可以要求服务商给你提供一个.
+
+For example on **Pterodactyl**:
+
+![](../../.gitbook/assets/immagine%20%28111%29.png)
+
+![](../../.gitbook/assets/immagine%20%28105%29.png)
+
 * 有了端口后,打开 `config.yml` 像这样设置:
 
 ```yaml
@@ -35,9 +46,10 @@ Difference is that with self-host you can download the pack directly from your s
     pack-port: 8163
 ```
 
-* you have to replace `127.0.0.1` with ... your server IP
-* and replace `8163` with the additional port you obtained.
-* So for example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
+* you have to replace `127.0.0.1` with **your server IP**
+* and replace `8163` with the new port you obtained.
+
+For example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
 
 ```yaml
   self-host:
@@ -60,5 +72,5 @@ Difference is that with self-host you can download the pack directly from your s
 
 ### Last step
 
-After you configured the `config.yml` file you just have to run `/iazip` command.
+After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
 

@@ -1,5 +1,7 @@
 # 盔甲
 
+## Custom armor example
+
 ```yaml
 items:
   ruby_head:
@@ -63,4 +65,45 @@ items:
         armor: 3
         armorToughness: 1
 ```
+
+{% page-ref page="../../../../faq/can-i-create-slabs-stairs/" %}
+
+## Custom texture \(only in inventory\)
+
+To add a custom texture for an armor item you have to specify a texture or a model \(like for every other custom item\).
+
+{% hint style="warning" %}
+#### Update to ItemsAdder 2.4.17+
+{% endhint %}
+
+### Custom item texture
+
+```yaml
+items:
+  custom_helmet:
+    display_name: "Custom Helmet"
+    permission: armors.custom_helmet
+    resource:
+      generate: true
+      textures:
+       - "item/custom_helmet"
+```
+
+### Custom item model
+
+```yaml
+items:
+  custom_helmet:
+    display_name: "Custom Helmet"
+    permission: armors.custom_helmet
+    resource:
+      generate: false
+      model_path: "item/custom_helmet"
+```
+
+### Custom on-body armor texture
+
+{% page-ref page="../../optifine-only-features/armor-textures.md" %}
+
+
 

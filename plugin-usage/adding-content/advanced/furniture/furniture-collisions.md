@@ -18,6 +18,7 @@
       furniture:
         small: true
         solid: true
+        entity: armor_stand
         hitbox:
           length: 1
           width: 1
@@ -42,4 +43,12 @@
 ![](../../../../.gitbook/assets/immagine%20%2865%29.png)
 
 ![](../../../../.gitbook/assets/immagine%20%2858%29.png)
+
+{% hint style="warning" %}
+## Hitboxes limitations
+
+* **furnitures** that use `entity: item_frame` **support only hitbox** with `width` and `length` of the **same value**. \(example: `width: 2`, `length: 2`, `height: 1`\).  If you want to have different `width` and `length` use `entity: armor_stand`.
+{% endhint %}
+
+
 
