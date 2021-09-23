@@ -131,6 +131,7 @@
   * [PlaceholderAPI](plugin-usage/placeholderapi.md)
   * [Custom PlayerStats](plugin-usage/custom-playerstats.md)
   * [Protect resourcepack from unzip](plugin-usage/protect-resourcepack-from-unzip.md)
+  * [Hex colored texts \(1.16+\)](plugin-usage/hex-colored-texts-1.16+.md)
 * [📒Support](support/README.md)
   * [🐞Report a bug](support/report-a-bug.md)
   * [📕Ask for help](support/ask-for-help.md)
