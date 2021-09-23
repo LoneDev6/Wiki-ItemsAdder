@@ -14,7 +14,7 @@ You just have to use the fuel [behaviour](../../advanced/item-properties/behavio
           - BLAST_FURNACE
 ```
 
-For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** \(**1 second**\). 
+For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** \(**1 second**\).
 
 ### Complete example item
 

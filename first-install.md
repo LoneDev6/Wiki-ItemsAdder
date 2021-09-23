@@ -31,7 +31,7 @@ First step is done. Now you must complete step 2 to configure the resourcepack \
 
 ## Step 2 - resourcepack first installation
 
-#### Decide the resourcepack hosting method: 
+#### Decide the resourcepack hosting method:
 
 {% page-ref page="plugin-usage/resourcepack-hosting/" %}
 

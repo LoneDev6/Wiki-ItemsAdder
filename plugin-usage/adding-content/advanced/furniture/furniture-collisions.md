@@ -50,5 +50,3 @@
 * **furnitures** that use `entity: item_frame` **support only hitbox** with `width` and `length` of the **same value**. \(example: `width: 2`, `length: 2`, `height: 1`\).  If you want to have different `width` and `length` use `entity: armor_stand`.
 {% endhint %}
 
-
-

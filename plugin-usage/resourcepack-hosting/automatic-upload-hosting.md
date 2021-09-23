@@ -2,7 +2,7 @@
 
 ## Video tutorial
 
-{% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" %}
+{% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" caption="" %}
 
 ## What is automatic hosting?
 
@@ -40,7 +40,7 @@ auto-external-host:
 ### Last step
 
 Run `/iazip` to **compress** the **resourcepack**.  
-****The **plugin** will **upload it** online **automatically** \(you will have to **accept the privacy policy** only the first time\).
+**\*\*The** plugin **will** upload it **online** automatically **\(you will have to** accept the privacy policy\*\* only the first time\).
 
 **You're done!** Nothing else to do, enjoy your **free automated resourcepack hosting**.
 

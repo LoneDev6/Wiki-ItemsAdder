@@ -105,5 +105,3 @@ items:
 
 {% page-ref page="../../optifine-only-features/armor-textures.md" %}
 
-
-

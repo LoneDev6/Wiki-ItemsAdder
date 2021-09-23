@@ -10,7 +10,7 @@ description: 基本物品属性集合
 enabled: true
 ```
 
-通过这个设置,你可以完全禁用一个物品. 
+通过这个设置,你可以完全禁用一个物品.
 
 {% hint style="warning" %}
 **很明显,如果玩家在背包里有该物品的话,它不会因为禁用而消除. 方块也是这样,当物品被破坏时就不会掉落出掉落物出来**
@@ -178,7 +178,7 @@ blocked_enchants:
 
 你可以把它设置为 `>`, `<` 和 `=`
 
-#### 栗子:
+### 栗子:
 
 {% page-ref page="../../../beginners/creating-a-custom-item/magic-wand.md" %}
 

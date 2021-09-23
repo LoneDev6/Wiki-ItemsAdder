@@ -30,7 +30,5 @@ ItemsAdder使用一个-16偏移的特殊字符替换GUI,这会使main\_menu的�
 ### I'm not the owner of this resource
 {% endhint %}
 
-{% embed url="https://www.mc-market.org/resources/21017/" %}
-
-
+{% embed url="https://www.mc-market.org/resources/21017/" caption="" %}
 

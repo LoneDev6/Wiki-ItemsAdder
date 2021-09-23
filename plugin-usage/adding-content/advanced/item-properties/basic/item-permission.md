@@ -8,7 +8,7 @@ permission: myitem
 
 ## How to allow crafting?
 
-为了让你的玩家能**制作**这件物品,你必须得给他们合成的权限:`ia.user.craft.myitem`  
+为了让你的玩家能**制作**这件物品,你必须得给他们合成的权限:`ia.user.craft.myitem`
 
 ## How to make the item visible in the /ia gui on to some users?
 
