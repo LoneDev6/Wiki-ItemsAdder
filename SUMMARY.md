@@ -197,4 +197,5 @@
     * [Talismans](compatibility-with-other-plugins/compatible/talismans.md)
     * [StatTrackers](compatibility-with-other-plugins/compatible/stattrackers.md)
 * [Old v1.0 tutorials](old-v1.0-tutorials.md)
+* [Optimize Minecraft 1.17](optimize-minecraft-1.17.md)
 
