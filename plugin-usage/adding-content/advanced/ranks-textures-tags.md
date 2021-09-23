@@ -2,7 +2,7 @@
 
 ## Make your server look professional with custom ranks
 
-![](../../../.gitbook/assets/image%20%2827%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%2827%29%20%283%29.png)
 
 {% hint style="warning" %}
 ### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
@@ -38,8 +38,8 @@ Don't change `scale_ratio` and `y_position`. It would make the ranks look pixela
 
 ### Creating the png image
 
-**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`   
-  
+**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`
+
 You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.  
 For example copy `admin.png`, name it `custom.png` and edit it.
 

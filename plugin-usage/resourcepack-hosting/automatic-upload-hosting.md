@@ -2,7 +2,7 @@
 
 ## Video tutorial
 
-{% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" %}
+{% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" caption="" %}
 
 ## What is automatic hosting?
 

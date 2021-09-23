@@ -2,7 +2,7 @@
 
 ## Video tutorial
 
-{% embed url="https://www.youtube.com/watch?v=XoTwF4\_HztU" %}
+{% embed url="https://www.youtube.com/watch?v=XoTwF4\_HztU" caption="" %}
 
 ## Info about self-hosting
 
