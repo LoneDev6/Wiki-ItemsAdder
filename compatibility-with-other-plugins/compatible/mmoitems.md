@@ -70,7 +70,7 @@ items:
 
 ### - Получите свой предмет
 
-Используйте команду `/iaget mmoitems_example:example_item` чтобы получить свой готовый предмет
+Используйте команду `/iaget mmoitems_example:test` чтобы получить свой готовый предмет
 
 ![](../../.gitbook/assets/immagine%20%2833%29.png)
 

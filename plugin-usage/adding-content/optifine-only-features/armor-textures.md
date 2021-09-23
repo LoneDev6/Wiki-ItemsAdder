@@ -23,7 +23,7 @@ Create **custom textures** for the **inventory items**. I put them in **\*\*the*
 
 ### Step 3
 
-Create **custom textures** for **worn armor** \(when user wears it\). You can get a **template** from here:  
+Create **custom textures** for **on-body armor**. You can get a **template** from here:  
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`  
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
 
@@ -34,12 +34,12 @@ Create **custom textures** for **worn armor** \(when user wears it\). You can ge
 Create the `optifine` folder, this is where we want to put out **custom textures** for the **worn armor**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`
 
 {% hint style="warning" %}
-You **must create** it under the folder `minecraft`, sadly you **cannot** create the `optifine` folder inside your **namespace** folder \(in this case `mystuff`\), it's an **optifine limitation**.
+You **must create** it under the folder `minecraft`, sadly you **cannot** create the `optifine` folder inside your **namespace** folder \(in this case `mystuff`\), it's an **Optifine limitation**.
 {% endhint %}
 
 ### Step 5
 
-Now save the **previously created** worn textures \(`layer_1.png` and `layer_2.png` \) inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+Now save the **previously created on-body** textures \(`layer_1.png` and `layer_2.png` \) inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
 
 So you have this:
 

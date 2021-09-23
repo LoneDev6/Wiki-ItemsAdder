@@ -1,8 +1,6 @@
 # Текстурированные префиксы \(тэги\)
 
-{% hint style="success" %}
-### You can create custom ranks for your server, this will make it look more professional.
-{% endhint %}
+## Make your server look professional with custom ranks
 
 ![](../../../.gitbook/assets/image%20%2827%29%20%281%29.png)
 
@@ -40,39 +38,52 @@ Don't change `scale_ratio` and `y_position`. It would make the ranks look pixela
 
 ### Creating the png image
 
-**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`  
+**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`   
+  
 You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.  
 For example copy `admin.png`, name it `custom.png` and edit it.
 
-{% hint style="warning" %}
-Don't change the rank image height, change only the width or the image will look pixelated.
+{% hint style="danger" %}
+### Don't change the rank image height! Change only the width or the image will look pixelated!
 {% endhint %}
 
-## Using the rank ingame:
+### Example:
 
-## Luckperms
+For example in order to make a similar rank to my **BetterRanks** addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
 
-### Создание группы, Пример \(admin\)
+![](../../../.gitbook/assets/image%20%2839%29.png)
+
+![](../../../.gitbook/assets/image%20%2836%29.png)
+
+![](../../../.gitbook/assets/image%20%2838%29.png)
+
+![](../../../.gitbook/assets/image%20%2837%29.png)
+
+## Using the rank ingame
+
+### Luckperms
+
+#### Создание группы, Пример \(admin\)
 
 Используйте команду - `/lp creategroup admin`
 
-### Добавление префикса
+#### Добавление префикса
 
 Используйте эту команду - `/lp group admin meta addprefix 100 :admin:`
 
-### Выдача группы игроку
+#### Выдача группы игроку
 
 Используйте эту команду \(поменяйте мой ник LoneDev на нужный\) `/lp user LoneDev group add admin`
 
 ![](../../../.gitbook/assets/immagine%20%2843%29.png)
 
-## TAB
+### TAB
 
 {% hint style="warning" %}
 Убедитесь, что у вас установлен [PlaceholderAPI](../../using-font_images-emojis-everywhere.md)
 {% endhint %}
 
-### Откройте файл конфигурации config.yml плагина TAB
+#### Откройте файл конфигурации config.yml плагина TAB
 
 **Добавьте** эти строки под категорией `groups` или измените существующие.  
 \(Вы должны использовать запонитель `%img_admin%`, вместо `:admin:`, так как **TAB** распознает только заполнители **PlaceholderAPI**, игнорируя заполнители **ItemsAdder**. Так же может быть с **другими плагинами**\)

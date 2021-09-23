@@ -1,5 +1,9 @@
 # Хост текстур со своей машины \(self-host\)
 
+## Video tutorial
+
+{% embed url="https://www.youtube.com/watch?v=XoTwF4\_HztU" %}
+
 ## Info about self-hosting
 
 С версии ItemsAdder 2.0 \(и выше\) вы можете использовать собственную хост-машину в качестве хоста пакета ресурсов, прямиком из папки вашего сервера!  
@@ -28,7 +32,7 @@ If your hosting service doesn't provide you additional ports you have to use one
 
 * Проверьте, открыты ли у вас дополнительные порты на вашей машине или хостинге, если нет - попросите вашего провайдера или хост-менеджера выделить вам один.
 
-Например **Pterodactly**:
+Например **Pterodactyl**:
 
 ![](../../.gitbook/assets/immagine%20%28111%29.png)
 

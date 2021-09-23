@@ -42,7 +42,7 @@ lore:
 
 Строки лора \(описания\) предмета
 
-### Enchants
+## Enchants
 
 ```yaml
 enchants:
@@ -212,11 +212,54 @@ blocked_enchants:
             amount: 1
 ```
 
-### template
+## glow
+
+You can make an item glowing when dropped on the ground.  
+Very useful for **rare items**.  
+Example:
+
+![](../../../../../.gitbook/assets/immagine%20%28117%29.png)
+
+```yaml
+items:
+  glowing_item:
+    display_name: Glowing Item
+    resource:
+      material: DIAMOND
+      generate: true
+      textures:
+      - item/glowing_item.png
+    drop:
+      glow:
+        enabled: true
+        color: DARK_RED
+```
+
+## show\_name
+
+You can make a drop show its name.  
+Very useful for **rare items**.  
+Example:
+
+![](../../../../../.gitbook/assets/immagine%20%28112%29.png)
+
+```yaml
+  glowing_item:
+    display_name: Glowing Item
+    resource:
+      material: DIAMOND
+      generate: true
+      textures:
+      - item/glowing_item.png
+    drop:
+      show_name: true
+```
+
+## template
 
 {% page-ref page="templates-and-variants.md" %}
 
-### variant\_of
+## variant\_of
 
 {% page-ref page="templates-and-variants.md" %}
 
