@@ -1,6 +1,6 @@
 # RPGMoney
 
-Download [here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
+## [Download Here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
 
 * in RPGMoney folder open config.yml and set **apply\_on\_join: false**
 * set item\_icon like this:
