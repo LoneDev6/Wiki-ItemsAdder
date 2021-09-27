@@ -4,17 +4,6 @@
 ## If you're using CMI chat feature you have to read this.
 {% endhint %}
 
-## Emoji
-
-Open config.yml of **ItemsAdder** and set this:
-
-```yaml
-font_images:
-  chat:
-    enabled: true
-    replace-only-packets: true
-```
-
 ## Ranks
 
 1. Open config.yml of **CMI** and set this \(I set `%vault_prefix%` placeholder instead of **CMI** `{prefix}`\)
