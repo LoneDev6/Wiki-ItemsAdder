@@ -6,7 +6,7 @@
 
 ## How to add compatibility?
 
-It's very easy.
+It's very easy!
 
 * add all your mobs models and configurations inside the **ModelEngine** plugin folder
 * run `/meg reload` to generate the **ModelEngine** resourcepack

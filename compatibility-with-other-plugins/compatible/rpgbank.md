@@ -1,13 +1,13 @@
 # RPGBank
 
-[下载](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
+## [下载](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
 
 您可以更改 GUI 图标并使用 ItemsAdder 图标来达到此效果：
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
 {% tabs %}
-{% tab title="config.yml" %}
+{% tab title="config.yml" %}  
 ```yaml
   icons:
     money-indicator: coin

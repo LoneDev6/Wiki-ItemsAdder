@@ -4,17 +4,6 @@
 ## 如果您使用 CMI 聊天功能，则必须阅读此内容。
 {% endhint %}
 
-## Emoji
-
-打开 **ItemsAdder** 的 config.yml 并设置：
-
-```yaml
-font_images:
-  chat:
-    enabled: true
-    replace-only-packets: true
-```
-
 ## Ranks
 
 1. 打开 **CMI** 的 config.yml 并设置如下内容 \(设置为 `%vault_prefix%` 而不是`{prefix}`\)

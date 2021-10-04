@@ -1,6 +1,6 @@
 # RPGMoney
 
-[下载](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
+## [下载](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
 
 * 打开 RPGMoney 的 config.yml 并设置属性 **apply\_on\_join: false**
 * 接着像这样设置 item\_icon：

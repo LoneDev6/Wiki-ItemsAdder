@@ -1,4 +1,4 @@
 # Recipe Control
 
-[下载](https://www.spigotmc.org/resources/now-multilingual-%E2%9C%AE-recipe-control-%E2%9C%AE-1-8-8-1-14-x-%E2%9C%AE-supports-new-1-14-recipes.67216/)
+## [下载](https://www.spigotmc.org/resources/recipe-control-%E2%9C%AE-1-15-1-16-%E2%9C%AE-edit-and-create-recipes.67216/)
 
