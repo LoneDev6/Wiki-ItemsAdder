@@ -1,4 +1,4 @@
-# Optimize Minecraft 1.17
+# Оптимизировать Minecraft 1.17
 
 ## Minecraft 1.17 is slow
 
