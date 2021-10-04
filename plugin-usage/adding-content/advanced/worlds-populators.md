@@ -1,6 +1,6 @@
 # Worlds populators
 
-### Example: 2 populators
+### Example: two populators
 
 ```yaml
 worlds_populators:

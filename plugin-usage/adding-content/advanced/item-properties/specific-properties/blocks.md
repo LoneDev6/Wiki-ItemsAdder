@@ -33,7 +33,9 @@ specific_properties:
         pitch: 0.9
 ```
 
-## placed\_model
+## placed\_model 
+
+### type
 
 this property can have these value:
 
@@ -43,13 +45,17 @@ this property can have these value:
     * **no** support for **transparency**. 
     * **max** of **750 blocks** in total.
 * `REAL`
-  * uses a real block \(mushroom\), no lag, no entities, 100% real blocks.
+  * uses a real block \(mushroom\), no lag, no entities, 100% real blocks. \(although it's advised to use `REAL_NOTE` which is more stable\).
   * downsides: 
     * **max** of **191 blocks** in total
 * `REAL_TRANSPARENT`
   * uses a real block \(chorus\), no lag, no entities, 100% real blocks, also with transparency support!
   * downsides: 
     * **max** of **63 blocks** in total
+* `REAL_WIRE`
+  * uses a real block \(tripwire\), no lag, no entities, 100% real blocks.
+  * downsides: 
+    * **max** of **127 blocks** in total.
 * `TILE`
   * uses **tile** blocks \(modified **spawner** with custom skin\). It's **not an entity** but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
   * downsides:
@@ -65,6 +71,18 @@ this property can have these value:
 It's better to use **REAL** and **REAL\_NOTE** blocks for decorative blocks/ores and use **TILE** blocks for trade machines and machinery/rare decorative blocks.  
 You should not use **TILE** blocks for ores because it COULD cause a bit of lag on chunk generation.
 {% endhint %}
+
+### placeable\_on\_water
+
+This allows to make some blocks placeable directly on **water** surface.
+
+### **placeable\_on\_lava**
+
+This allows to make some blocks placeable directly on **lava** surface.
+
+### shift\_up
+
+This allows to make some blocks placed 1 block up. This is useful for `REAL_WIRE` blocks to create tall plants.
 
 ## cancel\_drop
 
@@ -121,6 +139,4 @@ If no **break** sound is specified it will play  [`BLOCK_STONE_BREAK`](https://h
 
 If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](../resource/)attribute of this block.
 {% endhint %}
-
-
 

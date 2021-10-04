@@ -49,6 +49,25 @@ This allows you to **stop** the **plugin** from **dropping each** of the **items
 **WARNING**: this would make your items **harder** to be **dropped**.
 {% endhint %}
 
+## Drop only in specific biomes
+
+```yaml
+loots:
+  blocks:
+    ruby_ore:
+      type: itemsadder:ruby_ore
+      biomes:
+        - PLAINS
+        - SUNFLOWER_PLAINS
+        - MOUNTAINS
+      items:
+        ruby:
+          item: itemsadder:ruby
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+```
+
 ## Ignore fortune enchant
 
 You can make a loot ignore fortune enchant by adding the **ignore\_fortune** property.
@@ -67,12 +86,12 @@ loots:
           ignore_fortune: true # <----- here
 ```
 
-### Other types of loots
+## Other types of loots
 
 As I said before there are other types of loots: mobs and fishing.  
 These are some examples:
 
-#### Fishing
+### Fishing
 
 ```yaml
 loots:
@@ -102,7 +121,7 @@ loots:
           chance: 5
 ```
 
-#### Mobs
+### Mobs
 
 ```yaml
 loots:
@@ -131,7 +150,7 @@ loots:
 ```
 
 {% hint style="info" %}
-## Custom mobs loots
+### Custom mobs loots
 {% endhint %}
 
 In order to let ItemsAdder drop an item based on when you kill a custom mob \(created with ItemsAdder\) you have to use the metadata attribute. Example:
@@ -157,9 +176,7 @@ loots:
 As you can see I set **ItemsAdderMob** attribute and specified my custom mob **namespace:id** \(in this example I used the **creaturesplus:soul** mob\)
 
 {% hint style="info" %}
-## Villager professions
-
-### \(and any other NBT attribute you want to match\)
+### Villager professions \(and any other NBT attribute you want to match\)
 {% endhint %}
 
 ```yaml
@@ -188,9 +205,7 @@ The type attribute of **nbt** and **metadata** are really **important**, don't *
 {% endhint %}
 
 {% hint style="info" %}
-## Drop based on spawner entity
-
-### \(and any other NBT attribute you want to match\)
+### Drop based on spawner entity \(and any other NBT attribute you want to match\)
 {% endhint %}
 
 ```yaml

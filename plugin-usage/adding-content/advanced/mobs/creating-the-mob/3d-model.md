@@ -8,7 +8,7 @@ BlockBench [tutorials ](https://www.youtube.com/results?search_query=blockbench+
 {% hint style="danger" %}
 You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
 
-![](../../../../../.gitbook/assets/immagine%20%2889%29%20%2815%29.png)
+![](../../../../../.gitbook/assets/immagine%20%2889%29%20%2817%29.png)
 {% endhint %}
 
 ### Creating a very simple idle animation
