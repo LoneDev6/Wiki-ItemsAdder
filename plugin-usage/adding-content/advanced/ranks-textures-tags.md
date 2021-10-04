@@ -2,7 +2,7 @@
 
 ## Make your server look professional with custom ranks
 
-![](../../../.gitbook/assets/image%20%2827%29%20%283%29.png)
+![](../../../.gitbook/assets/image%20%2827%29%20%282%29.png)
 
 {% hint style="warning" %}
 ### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.

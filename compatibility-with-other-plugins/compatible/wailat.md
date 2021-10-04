@@ -1,4 +1,4 @@
 # Wailat
 
-Загрузить можно [тут](https://www.spigotmc.org/resources/wailat-inspired-by-forge-waila-mod.67040/)
+## [Загрузить сейчас](https://www.spigotmc.org/resources/wailat-inspired-by-forge-waila-mod-itemsadder-compatibility.67040/)
 

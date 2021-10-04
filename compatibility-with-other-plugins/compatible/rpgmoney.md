@@ -1,6 +1,6 @@
 # RPGMoney
 
-Купить можно [тут](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
+## [Загрузить сейчас](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
 
 * в папке RPGMoney откройте файл config.yml и установите строку **apply\_on\_join: false**
 * установите предметы\_иконки подобным образом:

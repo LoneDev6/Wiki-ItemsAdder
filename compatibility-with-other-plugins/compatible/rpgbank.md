@@ -1,6 +1,6 @@
 # RPGBank
 
-[Купить можно тут](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
+## [Загрузить сейчас](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
 
 Вы можете изменить текстуру GUI и использовать иконки ItemsAdder:
 

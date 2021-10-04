@@ -2,8 +2,6 @@
 
 ## Как использовать эмоджи и другие юникод-картинки в holographic displays
 
-**ОБНОВИТЕ ITEMSADDER ДО ВЕРСИИ 2.1.21 ИЛИ НОВЕЕ**
-
 Установите [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)  
 Установите [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)  
 Обязательно установите [HolographicExtension аддон](https://www.spigotmc.org/resources/holographicextension.18461/)
@@ -17,4 +15,17 @@
 `/holo create test_itemsadder Hello! %img_smile%`
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
+
+## How to add a floating custom item?
+
+* run `/iacustommodeldata <item>` \(for example `/iacustommodeldata ruby`\)
+* copy the `CustomModelData`, for example `10000`
+* create a new hologram, for example: `/hd create holo_icon Hello!`
+* add the floating item to the hologram by specifying the **vanilla type** and the **CustomModelData**. Example:  `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
+
+![](../../.gitbook/assets/immagine%20%28123%29.png)
+
+
+
+\`\`
 

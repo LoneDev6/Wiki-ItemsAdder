@@ -47,7 +47,7 @@ font_images:
 
 ## In-game view
 
-![](../../../.gitbook/assets/immagine%20%28116%29%20%282%29.png)
+![](../../../.gitbook/assets/immagine%20%28116%29%20%283%29.png)
 
 ### Using the /e useful suggestions
 
