@@ -163,6 +163,7 @@
     * [EpicBackpacks](compatibility-with-other-plugins/compatible/epicbackpacks.md)
     * [Wailat](compatibility-with-other-plugins/compatible/wailat.md)
     * [GriefPreventionStickFix](compatibility-with-other-plugins/compatible/griefpreventionstickfix.md)
+    * [SkinsRestorer](compatibility-with-other-plugins/compatible/skinsrestorer.md)
     * [CustomCrafting](compatibility-with-other-plugins/compatible/customcrafting.md)
     * [BossShop](compatibility-with-other-plugins/compatible/bossshop.md)
     * [Spartan Anti Cheat](compatibility-with-other-plugins/compatible/spartan-anti-cheat.md)
