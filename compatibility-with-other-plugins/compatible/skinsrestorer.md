@@ -32,3 +32,10 @@ success:
 
 Open `config.yml` of **SkinsRestorer** and set `DisableOnJoinSkins: false`
 
+### Step 4
+
+Install [PlaceholderAPI ](https://www.spigotmc.org/resources/placeholderapi.6245/)\(if you don't have it\).  
+Execute the command `/papi ecloud download Player` then `/papi reload`.
+
+### Done
+
