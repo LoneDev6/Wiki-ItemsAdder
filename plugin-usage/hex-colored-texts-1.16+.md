@@ -1,4 +1,4 @@
-# Hex colored texts \(1.16+\)
+# Hex 彩色文本 \(1.16+\)
 
 ## How to use 1.16 hex colored texts
 

@@ -25,7 +25,5 @@
 
 ![](../../.gitbook/assets/immagine%20%28123%29.png)
 
-
-
 \`\`
 

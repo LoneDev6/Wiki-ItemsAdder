@@ -1,4 +1,4 @@
-# Spawning custom mobs naturally
+# 自然生成自定义生物
 
 ## Methods
 

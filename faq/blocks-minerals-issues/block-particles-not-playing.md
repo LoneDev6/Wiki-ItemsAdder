@@ -1,4 +1,4 @@
-# Block particles not playing
+# 方块粒子没有播放
 
 * close your game
 * open the game folder \(should be in `%appdata%\.minecraft\` \)

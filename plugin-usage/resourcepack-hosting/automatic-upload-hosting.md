@@ -1,4 +1,4 @@
-# Automatic external hosting
+# 自动资源包托管
 
 ## Video tutorial
 

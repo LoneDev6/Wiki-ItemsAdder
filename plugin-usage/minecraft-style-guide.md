@@ -1,4 +1,4 @@
-# Minecraft Style Guide
+# 我的世界风格指南
 
 ## Minecraft Style Guide <a id="minecraft-style-guide"></a>
 

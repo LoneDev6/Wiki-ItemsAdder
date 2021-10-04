@@ -7,7 +7,7 @@
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
 {% tabs %}
-{% tab title="config.yml" %}  
+{% tab title="config.yml" %}
 ```yaml
   icons:
     money-indicator: coin

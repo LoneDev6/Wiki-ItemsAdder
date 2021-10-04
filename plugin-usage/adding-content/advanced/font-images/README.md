@@ -25,7 +25,7 @@ Minecraft removes all \(alpha 0\) transparent pixels on the edges of the image.
 
 ![](../../../../.gitbook/assets/immagine%20%28102%29.png)
 
-![](../../../../.gitbook/assets/image%20%2827%29.png)
+![](../../../../.gitbook/assets/image%20%2827%29%20%284%29.png)
 
 ![](../../../../.gitbook/assets/immagine%20%28104%29.png)
 
