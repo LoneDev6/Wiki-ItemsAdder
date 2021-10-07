@@ -23,19 +23,32 @@
       * `ia.user.image.gui`
     * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(shows a tab list with emojis based on searched term\)
       * `ia.user.image.hints`
-    * Use emojis in chat
+    * Use **emojis** in **chat**
       * `ia.user.image.chat`
-    * Use emojis in commands
+    * Use **emojis** in **commands**
       * `ia.user.image.command`
-    * Use emojis in signs
+    * Use **emojis** in **signs**
       * `ia.user.image.sign`
-    * Use emojis in books
+    * Use **emojis** in **books**
       * `ia.user.image.book`
-    * Use emojis in anvil rename field
+    * Use **emojis** in **anvil** rename field
       * `ia.user.image.anvil`
-    * Permission to use an emoji
+    * Use an **emoji**
       * `ia.user.image.use.<font image name>`
       * Example: `ia.user.image.use.heart`
+    * Use **text-effects** in **chat**
+      * `ia.user.text_effect.chat`
+    * Use **text-effects** in **signs**
+      * `ia.user.text_effect.sign`
+    * Use **text-effects** in **books**
+      * `ia.user.text_effect.book`
+    * Use **text-effects** in **anvil** rename field
+      * `ia.user.text_effect.anvil`
+    * Use a **text-effect**
+      * `ia.user.text_effect.use.<effect>`
+      * Examples \([full list here](../text-effects-1.17+.md)\):
+        * `ia.user.text_effect.use.r`
+        * `ia.user.text_effect.use.rw`
 
   ​
 
