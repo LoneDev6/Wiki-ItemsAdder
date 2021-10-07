@@ -9,7 +9,7 @@ ItemsAdder **2.4.19** offers some cool decorative text effects you can use in yo
 {% endhint %}
 
 {% hint style="warning" %}
-You have to run `/iazip` in order to enable this feature.  
+You have to run `/iazip` in order to enable/disable this feature.  
 Make sure also to enable it in the `config.yml`.
 
 ```yaml
