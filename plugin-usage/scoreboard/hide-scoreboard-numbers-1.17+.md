@@ -18,7 +18,8 @@ Some servers use the scoreboard to show custom data and they don't use the red n
 ### Warning:
 
 Using **RED** \(**&c**\) color on the scoreboard may **cause glitches**, **avoid using** the **RED** color on the right of the scoreboard.  
-This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.
+This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.  
+You can also **add some spaces at the end** of your red text to avoid this.
 {% endhint %}
 
 ![](../../.gitbook/assets/immagine%20%28139%29.png)
@@ -35,6 +36,9 @@ effects:
 ```
 
 {% hint style="warning" %}
-Warning: this option is definitive and cannot be turned on/off in-game. You will have to disable it in the config.yml and run /iazip again if you want to show the numbers.
+### Warning
+
+this option is definitive and cannot be turned on/off in-game.  
+You will have to disable it in the `config.yml` and run `/iazip` again if you want to show the numbers.
 {% endhint %}
 
