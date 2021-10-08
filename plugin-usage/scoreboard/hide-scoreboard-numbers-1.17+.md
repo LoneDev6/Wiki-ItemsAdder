@@ -4,9 +4,9 @@
 
 Some servers use the scoreboard to show custom data and they don't use the red numbers, they just look awful in most of the servers.
 
-![Without ItemsAdder](../.gitbook/assets/immagine%20%28137%29.png)
+![Without ItemsAdder](../../.gitbook/assets/immagine%20%28137%29.png)
 
-![With ItemsAdder](../.gitbook/assets/immagine%20%28133%29.png)
+![With ItemsAdder](../../.gitbook/assets/immagine%20%28133%29.png)
 
 {% hint style="danger" %}
 ### This feature works only on **Minecraft 1.17** client, server version doesn't matter.

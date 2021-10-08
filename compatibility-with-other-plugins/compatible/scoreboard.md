@@ -2,21 +2,29 @@
 
 ## [Download here](https://www.spigotmc.org/resources/scoreboard.14754/)
 
-## Compatibility
+## Font images
 
 You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)\(emojis and symbols\) in the **scoreboard**.
 
 ### Example
 
-  
 `%img_smile%` will show like that:
 
 ![](../../.gitbook/assets/immagine%20%2817%29.png)
 
-## Hiding the scoreboard background
+## Hide the scoreboard background
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.
+\(works with every scoreboard plugin\)
 
+### Before
+
+![](../../.gitbook/assets/immagine%20%2897%29.png)
+
+### After
+
+![](../../.gitbook/assets/immagine%20%2898%29.png)
+
+With ItemsAdder you can hide the scoreboard background, just use this trick.  
 You just have to add `%img_offset_-500%` in front of **each line** of your scoreboard configuration.
 
 ```yaml
@@ -111,11 +119,7 @@ board:
         - '%img_offset_-500%&4------------------------'
 ```
 
-### Before
+## Hide the red numbers
 
-![](../../.gitbook/assets/immagine%20%2897%29.png)
-
-### After
-
-![](../../.gitbook/assets/immagine%20%2898%29.png)
+{% page-ref page="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
 

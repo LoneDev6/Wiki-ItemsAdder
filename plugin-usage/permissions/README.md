@@ -1,5 +1,7 @@
 # 👌Permissions
 
+## Permissions
+
 * Users
 
   * /ia
@@ -104,4 +106,8 @@
     * `ia.resourcepack.bypasskick`
   * Bypass player placed blocks can't drop loot
     * `ia.admin.bypassblockplaceloot`
+
+## Worlguard flags
+
+{% page-ref page="../../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
 

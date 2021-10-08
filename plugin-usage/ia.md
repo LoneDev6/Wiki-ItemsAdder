@@ -1,4 +1,4 @@
-# Editing /ia menu
+# /ia menu
 
 ## Menu settings and "All" category
 

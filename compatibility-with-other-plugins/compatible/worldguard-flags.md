@@ -1,10 +1,14 @@
-# WorldGuard flags
+---
+description: Worldguard flags list
+---
+
+# WorldGuard
 
 ## Flags list
 
 ### ia-furniture-sit
 
-This flags allows your players to sit on furnitures or not \(furnitures with `furniture_sit` [behaviour](adding-content/advanced/item-properties/behaviours.md)\)
+This flags allows your players to sit on furnitures or not \(furnitures with `furniture_sit` [behaviour](../../plugin-usage/adding-content/advanced/item-properties/behaviours.md)\)
 
 ### ia-campfire-item-add
 
