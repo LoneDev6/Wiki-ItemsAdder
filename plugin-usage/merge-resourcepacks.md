@@ -1,8 +1,12 @@
+---
+description: Merge other resourcepacks (also custom plugins resourcepacks)
+---
+
 # Merge resourcepacks
 
 ## Why merging?
 
-**Minecraft** supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
+**Minecraft **supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
 
 ## How to merge?
 
@@ -24,14 +28,14 @@ overwrite-vanilla-models: false
 
 ### Step 4
 
-Use the `/iazip` command to compress the ItemsAdder resourcepack.  
-\(Make sure to follow the correct [hosting tutorial](resourcepack-hosting/) based on the hosting method you decided\)
+Use the `/iazip` command to compress the ItemsAdder resourcepack.\
+(Make sure to follow the correct [hosting tutorial](resourcepack-hosting/) based on the hosting method you decided)
 
 ### Done.
 
 ## Examples
 
-{% page-ref page="../compatibility-with-other-plugins/compatible/modelengine.md" %}
-
-
+{% content-ref url="../compatibility-with-other-plugins/compatible/modelengine.md" %}
+[modelengine.md](../compatibility-with-other-plugins/compatible/modelengine.md)
+{% endcontent-ref %}
 
