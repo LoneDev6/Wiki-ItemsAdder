@@ -2,7 +2,7 @@
 
 ## How to make MythicMobs handle my custom mob
 
-If you want to make **MythicMobs** handle your custom mob to have more advanced features and control it's really easy!
+If you want to make **MythicMobs **handle your custom mob to have more advanced features and control it's really easy!
 
 For example I have this MythicMobs configuration:
 
@@ -21,8 +21,8 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-  
-Open your **ItemsAdder** `.yml` file where you created the mob and to edit the **replace rule** like this:
+\
+Open your **ItemsAdder **`.yml` file where you created the mob and to edit the **replace rule** like this:
 
 ```yaml
         replace_mobs_spawn:
@@ -34,17 +34,17 @@ Open your **ItemsAdder** `.yml` file where you created the mob and to edit the *
 ```
 
 {% hint style="warning" %}
-It's important to set **replace\_mythicmob** `name` property to your **mythicmob name**.
+It's important to set **replace_mythicmob **`name `property to your **mythicmob name**.
 {% endhint %}
 
 ### Random chance
 
-If you want to create custom spawn logic for your custom mob you must not use **ItemsAdder** rules, use **Mythicmobs** configuration: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
+If you want to create custom spawn logic for your custom mob you must not use **ItemsAdder **rules, use **Mythicmobs **configuration: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
 
 {% hint style="warning" %}
 ### Warning:
 
-**ItemsAdder** eggs and /iasummon command **won't work** for Mythicmobs custom mobs, you have to spawn them using **Mythicmobs command** if you want to spawn them manually.  
+**ItemsAdder **eggs and /iasummon command** won't work** for Mythicmobs custom mobs, you have to spawn them using **Mythicmobs command **if you want to spawn them manually.\
 `/mythicmobs mobs spawn StaticallyChargedSheep`
 {% endhint %}
 
@@ -109,4 +109,3 @@ RandomStaticallyChargedSheep:
   Priority: 1
   Action: REPLACE
 ```
-

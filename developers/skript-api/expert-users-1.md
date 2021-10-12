@@ -6,13 +6,13 @@
 * Install [skript-mirror](https://skripttools.net/addons?q=mirror)
 
 {% hint style="info" %}
-To get more info about **skript-mirror** please read its [wiki](https://skript-mirror.gitbook.io/docs/)
+To get more info about** skript-mirror** please read its [wiki](https://skript-mirror.gitbook.io/docs/)
 {% endhint %}
 
 {% hint style="danger" %}
-### Please **do not ask** for **support** for **skript** related issues or questions.
+### Please **do not ask** for **support **for **skript **related issues or questions.
 
-I'm not a skript expert and I'm not the developer of **skript** nor **skript-mirror**.  
+I'm not a skript expert and I'm not the developer of **skript **nor **skript-mirror**.\
 **Every question about skript will be ignored**, I hope you understand.
 {% endhint %}
 
@@ -84,6 +84,4 @@ on inventory close:
 ```
 {% endtab %}
 {% endtabs %}
-
-
 

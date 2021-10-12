@@ -1,8 +1,8 @@
-# 🏁Tips for fastest usage
+# 🏁 Tips for fastest usage
 
 ## It takes too much time editing the pack and uploading it online!
 
-Yes if you do that the wrong way ;\) Read this:
+Yes if you do that the wrong way ;) Read this:
 
 {% hint style="info" %}
 It's a good practice to create a **test server on your PC** with:
@@ -30,21 +30,22 @@ resource-pack:
 
 Doing this you'll have a fast and easy to use configuration evironment. You can add items and edit the pack on the fly.
 
-When you edit an item texture/model and you edit its configuration you will use command  `/iazip` .  
+When you edit an item texture/model and you edit its configuration you will use command  `/iazip` .\
 By doing this you'll see changes applied at realtime.
 
 So after you finished adding items and configuring them you'll be able to upload everything on your online server to mirror the changes.
 {% endhint %}
 
-{% page-ref page="resourcepack-hosting/resourcepack-on-dropbox.md" %}
+{% content-ref url="resourcepack-hosting/resourcepack-on-dropbox.md" %}
+[resourcepack-on-dropbox.md](resourcepack-hosting/resourcepack-on-dropbox.md)
+{% endcontent-ref %}
 
 {% hint style="warning" %}
-It's a good practice to not edit ItemsAdder textures/models directly on your online server.  
+It's a good practice to not edit ItemsAdder textures/models directly on your online server.\
 Players hate lag on plugins reload, server restarts, having to redownload the pack when they're already player.. keep that in mind.
 {% endhint %}
 
 {% hint style="danger" %}
-It's a good thing not to edit my custom items as surely in the future they can be edited and you'll go crazy maintaining both your customization and my updates.  
+It's a good thing not to edit my custom items as surely in the future they can be edited and you'll go crazy maintaining both your customization and my updates.\
 So if you want to edit items just make your own
 {% endhint %}
-

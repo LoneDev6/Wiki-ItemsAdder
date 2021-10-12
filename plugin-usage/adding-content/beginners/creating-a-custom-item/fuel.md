@@ -2,7 +2,7 @@
 
 ## How to make an item usable as fuel?
 
-It's very easy!  
+It's very easy!\
 You just have to use the fuel [behaviour](../../advanced/item-properties/behaviours.md).
 
 ## Example
@@ -14,7 +14,7 @@ You just have to use the fuel [behaviour](../../advanced/item-properties/behavio
           - BLAST_FURNACE
 ```
 
-For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** \(**1 second**\). 
+For example this configuration will make this item usable in **BLAST_FURNACE **and will burn in **20 ticks **(**1 second**). 
 
 ### Complete example item
 
@@ -33,4 +33,3 @@ For example this configuration will make this item usable in **BLAST\_FURNACE** 
         machines:
           - BLAST_FURNACE
 ```
-

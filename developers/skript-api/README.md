@@ -1,4 +1,4 @@
-# 📓Skript API
+# 📓 Skript API
 
 ## Examples
 
@@ -28,7 +28,7 @@ command /iaskriptiscustomitem:
 ```
 {% endtab %}
 
-{% tab title="FontImage \(emojis, GUIs..\)" %}
+{% tab title="FontImage (emojis, GUIs..)" %}
 ```yaml
 command /emojitest:
 	trigger:
@@ -41,4 +41,3 @@ command /emojitest:
 {% hint style="warning" %}
 If you think there is any missing method you need don't worry. I will add more features to the Skript API, you just have to be patient.
 {% endhint %}
-

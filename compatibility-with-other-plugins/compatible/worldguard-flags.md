@@ -8,7 +8,7 @@ description: Worldguard flags list
 
 ### ia-furniture-sit
 
-This flags allows your players to sit on furnitures or not \(furnitures with `furniture_sit` [behaviour](../../plugin-usage/adding-content/advanced/item-properties/behaviours.md)\)
+This flags allows your players to sit on furnitures or not (furnitures with `furniture_sit `[behaviour](../../plugin-usage/adding-content/advanced/item-properties/behaviours.md))
 
 ### ia-campfire-item-add
 
@@ -44,11 +44,11 @@ allow user to use trade machines
 
 ### ia-placed-block-interact
 
-allow user to trigger placed\_block.interact events
+allow user to trigger placed_block.interact events
 
 ### ia-placed-armorstand-interact
 
-allow user to trigger placed\_armorstand.interact events
+allow user to trigger placed_armorstand.interact events
 
 {% hint style="info" %}
 Set **ia-vehicle-sit** to Deny and **ia-vehicle-personal-sit** to Allow to let your players only sit on personal vehicles
@@ -57,9 +57,9 @@ Set **ia-vehicle-sit** to Deny and **ia-vehicle-personal-sit** to Allow to let y
 ## Common issues
 
 {% hint style="warning" %}
-If your users **cannot sit** on **furnitures** even if you set the correct flag:
+If your users **cannot sit **on **furnitures **even if you set the correct flag:
 
-* check if you are using the `__global__ region` as your main region \(the one on which you applied the furniture flag\). If yes, please create a new region. global region is known to give some issues with some plugins flags.
-* check if you set the `build` or `passthrough` flag.  Remember that these flags must not be changed, you should keep the default value \(unselected, gray text\)
+* check if you are using the `__global__ region `as your main region (the one on which you applied the furniture flag). If yes, please create a new region. global region is known to give some issues with some plugins flags.
+* check if you set the `build `or `passthrough `flag. \
+  Remember that these flags must not be changed, you should keep the default value (unselected, gray text)
 {% endhint %}
-

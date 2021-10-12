@@ -1,2 +1,2 @@
-# 📷Resourcepack hosting
+# 📷 Resourcepack hosting
 

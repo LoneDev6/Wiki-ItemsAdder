@@ -14,5 +14,4 @@ anvil_repair:
         item: itemsadder:emerald_sword
 ```
 
-In this example I created an`anvil_repair` recipe called `emerald_sword`
-
+In this example I created an`anvil_repair `recipe called `emerald_sword`

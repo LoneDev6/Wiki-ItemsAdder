@@ -40,8 +40,8 @@ Actions are what will happen when an event is triggered.
 ### Delay
 
 {% hint style="info" %}
-Every action has a special attribute **delay**.  
-It's the **delay** in ticks before starting the action.  
+Every action has a special attribute **delay**.\
+It's the **delay **in ticks before starting the action.\
 For example:
 
 ```yaml
@@ -87,7 +87,7 @@ items:
 ### Multiple actions of the same type
 
 {% hint style="info" %}
-You can set the same action multiple times. You just have to add `_anything` at the end.  
+You can set the same action multiple times. You just have to add `_anything `at the end.\
 For example if you want to play two sounds you have to write this:
 
 ```yaml
@@ -109,10 +109,10 @@ play_sound_3:
 ### Actions permission
 
 {% hint style="info" %}
-Every action has a special attribute **permission**.  
-It's the **permission** the player must have before starting the **action**.  
-For example the player must have `myitems.usage.secret_items_dispenser` permission to play the sound.  
-In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give\_item.
+Every action has a special attribute **permission**.\
+It's the **permission **the player must have before starting the **action**.\
+For example the player must have `myitems.usage.secret_items_dispenser `permission to play the sound.\
+In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give_item.
 
 ```yaml
   test_block:
@@ -142,8 +142,8 @@ In this example you will notice an "issue". The sound is played even if the user
 
 ### Setting the same permission to every action
 
-If you want to set the same permission to every action without copy and paste you can!  
-Use this special attribute `all_actions_permission`.  
+If you want to set the same permission to every action without copy and paste you can!\
+Use this special attribute `all_actions_permission`.\
 For example:
 
 ```yaml
@@ -345,5 +345,4 @@ target_remove_potion_effect:
 play_totem_animation: animatedtitles:bruh
 ```
 
-### 
-
+###

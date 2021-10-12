@@ -4,28 +4,28 @@
 
 ## Font images
 
-You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)\(emojis and symbols\) in the **scoreboard**.
+You can use [font_images ](../../plugin-usage/adding-content/advanced/font-images/)(emojis and symbols) in the **scoreboard**.
 
 ### Example
 
 `%img_smile%` will show like that:
 
-![](../../.gitbook/assets/immagine%20%2817%29.png)
+![](<../../.gitbook/assets/immagine (17).png>)
 
 ## Hide the scoreboard background
 
-\(works with every scoreboard plugin\)
+(works with every scoreboard plugin)
 
 ### Before
 
-![](../../.gitbook/assets/immagine%20%2897%29.png)
+![](<../../.gitbook/assets/immagine (97).png>)
 
 ### After
 
-![](../../.gitbook/assets/immagine%20%2898%29.png)
+![](<../../.gitbook/assets/immagine (98).png>)
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.  
-You just have to add `%img_offset_-500%` in front of **each line** of your scoreboard configuration.
+With ItemsAdder you can hide the scoreboard background, just use this trick.\
+You just have to add `%img_offset_-500%` in front of **each line **of your scoreboard configuration.
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
@@ -121,5 +121,6 @@ board:
 
 ## Hide the red numbers
 
-{% page-ref page="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
-
+{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
+[hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
+{% endcontent-ref %}

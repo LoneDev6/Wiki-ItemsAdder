@@ -13,8 +13,8 @@ enabled: true
 With this setting you can disable an item completely.
 
 {% hint style="warning" %}
-**If a player has the item in inventory it won't be removed.  
-Same thing for blocks, but when broken they won't drop anymore.**
+**If a player has the item in inventory it won't be removed.**\
+**Same thing for blocks, but when broken they won't drop anymore.**
 {% endhint %}
 
 ## Display name
@@ -31,7 +31,9 @@ This is the name user will see on the item
 permission: myitem
 ```
 
-{% page-ref page="item-permission.md" %}
+{% content-ref url="item-permission.md" %}
+[item-permission.md](item-permission.md)
+{% endcontent-ref %}
 
 ## Lore
 
@@ -53,9 +55,9 @@ enchants:
   - my_custom_plugin:custom_enchant:6
 ```
 
-Enchants of the item.  
-You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins \(for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...\).  
-Supports also **namespaces** \(if you are creating custom enchants using Namespaced keys\)
+Enchants of the item.\
+You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins (for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
+Supports also **namespaces **(if you are creating custom enchants using Namespaced keys)
 
 ## Attribute modifiers
 
@@ -81,7 +83,7 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
+These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
 
 ## Durability
 
@@ -94,12 +96,12 @@ durability:
   usages: 5
 ```
 
-There are pretty self explanatory.  
-`usages` are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events \(check events tutorial\).
+There are pretty self explanatory.\
+`usages `are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events (check events tutorial).
 
-`custom_durability` is the durability amount which the item has on crafting \(if not specified is the same as `max_custom_durability`\)
+`custom_durability `is the durability amount which the item has on crafting (if not specified is the same as `max_custom_durability`)
 
-`max_custom_durability` is the max durability the item can reach
+`max_custom_durability `is the max durability the item can reach
 
 ## Item flags
 
@@ -113,10 +115,10 @@ item_flags:
   - HIDE_UNBREAKABLE
 ```
 
-Special item flags that can hide some vanilla info of the item.  
+Special item flags that can hide some vanilla info of the item.\
 You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-## blocked\_enchants
+## blocked_enchants
 
 Special item property that disables enchants for this item, so your users won't be able to enchant it.
 
@@ -141,7 +143,7 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-## events\_cooldown
+## events_cooldown
 
 Special attribute to limit spamming of events by players. It's in ticks, so 20 = 1 second.
 
@@ -174,15 +176,17 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
             amplifier: 4
 ```
 
-## events\_needed\_player\_stats
+## events_needed_player_stats
 
-Special attribute to make events work only if the player stat \(ItemsAdder player stat, which are usually shown in HUDs\) satisfies the set rule.
+Special attribute to make events work only if the player stat (ItemsAdder player stat, which are usually shown in HUDs) satisfies the set rule.
 
 You can set it to `>`, `<` ad `=`
 
 #### Example:
 
-{% page-ref page="../../../beginners/creating-a-custom-item/magic-wand.md" %}
+{% content-ref url="../../../beginners/creating-a-custom-item/magic-wand.md" %}
+[magic-wand.md](../../../beginners/creating-a-custom-item/magic-wand.md)
+{% endcontent-ref %}
 
 ```yaml
   magic_wand:
@@ -216,11 +220,11 @@ You can set it to `>`, `<` ad `=`
 
 ## glow
 
-You can make an item glowing when dropped on the ground.  
-Very useful for **rare items**.  
+You can make an item glowing when dropped on the ground.\
+Very useful for **rare items**.\
 Example:
 
-![](../../../../../.gitbook/assets/immagine%20%28117%29.png)
+![](<../../../../../.gitbook/assets/immagine (117).png>)
 
 ```yaml
 items:
@@ -237,13 +241,13 @@ items:
         color: DARK_RED
 ```
 
-## show\_name
+## show_name
 
-You can make a drop show its name.  
-Very useful for **rare items**.  
+You can make a drop show its name.\
+Very useful for **rare items**.\
 Example:
 
-![](../../../../../.gitbook/assets/immagine%20%28118%29%20%282%29%20%281%29.png)
+![](<../../../../../.gitbook/assets/immagine (118) (2) (1).png>)
 
 ```yaml
   glowing_item:
@@ -259,9 +263,12 @@ Example:
 
 ## template
 
-{% page-ref page="templates-and-variants.md" %}
+{% content-ref url="templates-and-variants.md" %}
+[templates-and-variants.md](templates-and-variants.md)
+{% endcontent-ref %}
 
-## variant\_of
+## variant_of
 
-{% page-ref page="templates-and-variants.md" %}
-
+{% content-ref url="templates-and-variants.md" %}
+[templates-and-variants.md](templates-and-variants.md)
+{% endcontent-ref %}

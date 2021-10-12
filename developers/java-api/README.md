@@ -1,14 +1,14 @@
-# ☕️Java API
+# ☕ Java API
 
 ## How to get the API
 
-You just have to use **maven** or **gradle**, you can get the **API** here
+You just have to use **maven **or **gradle**, you can get the **API **here
 
-{% embed url="https://github.com/LoneDev6/ItemsAdder-API\#-packages" %}
+{% embed url="https://github.com/LoneDev6/ItemsAdder-API#-packages" %}
 
 ## Description
 
-ItemsAdder includes an easy to use API for Java developers.  
+ItemsAdder includes an easy to use API for Java developers.\
 To access it just include **dev.lone.itemsadder.api.ItemsAdder** in your code.
 
 ## Old API:
@@ -74,4 +74,3 @@ public static int getCustomItemDurability(ItemStack itemStack)
 //get max custom durability 
 public static int getCustomItemMaxDurability(ItemStack itemStack)
 ```
-

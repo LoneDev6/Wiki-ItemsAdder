@@ -4,14 +4,14 @@
 
 ### yml configuration
 
-You have to create a .yml file in your [namespace ](../../../beginners/basic-concepts/namespace.md)folder \(check [other tutorials ](../../../beginners/creating-your-namespace.md)for more info\).
+You have to create a .yml file in your [namespace ](../../../beginners/basic-concepts/namespace.md)folder (check [other tutorials ](../../../beginners/creating-your-namespace.md)for more info).
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../../files-editor.md) to edit ItemsAdder files.   
-It makes you life easier as it has autocomplete \(press CRTL+SPACE\) which helps you on avoiding mistakes.
+Consider using the[ official online tool](../../../../../files-editor.md) to edit ItemsAdder files. \
+It makes you life easier as it has autocomplete (press CRTL+SPACE) which helps you on avoiding mistakes.
 {% endhint %}
 
-This is an example for a custom mob named **Soul**.  
+This is an example for a custom mob named **Soul**.\
 As you can see I set it up like a normal item, but with a special [behaviour ](../../item-properties/behaviours.md)named **mob**.
 
 ```yaml
@@ -38,22 +38,22 @@ items:
           walk: soul_walking
 ```
 
-The mob will have **head rotation locked** \(only on Y axis\), this will avoid it from looking stupid while looking at player when is at an higher position.
+The mob will have **head rotation locked **(only on Y axis), this will avoid it from looking stupid while looking at player when is at an higher position.
 
-`hit_color` is the color the mob will have when damaged by player.   
-You can get a valid color from these websites:  
-[https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)  
-[https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)  
-[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) \(use one of the color pickers and copy the value from the right\)
+`hit_color `is the color the mob will have when damaged by player. \
+You can get a valid color from these websites:\
+[https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)\
+[https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)\
+[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) (use one of the color pickers and copy the value from the right)
 
 {% hint style="info" %}
-Note: I **skipped** the `material` property of `resource` because **it's not needed** for **mobs**, ItemsAdder will automatically handle it.
+Note: I **skipped **the `material `property of `resource `because **it's not needed** for **mobs**, ItemsAdder will automatically handle it.
 {% endhint %}
 
 ### Animations
 
-You probably noticed that there are two other attributes: `attack` and `walk` **animations**.  
-The **mob\_animation** behaviour tells ItemsAdder that the item is a mob animation.  
+You probably noticed that there are two other attributes: `attack `and `walk `**animations**.\
+The **mob_animation **behaviour tells ItemsAdder that the item is a mob animation.\
 These are infact other items you have to create like this:
 
 ```yaml
@@ -76,4 +76,3 @@ These are infact other items you have to create like this:
     behaviours:
       mob_animation: true
 ```
-

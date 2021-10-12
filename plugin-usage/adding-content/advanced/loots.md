@@ -1,6 +1,6 @@
-# Loots
+# 🎁 Loots
 
-Loots can be used to specify when to drop a particular item.  
+Loots can be used to specify when to drop a particular item.\
 You can decide to create different loot types: 
 
 * blocks
@@ -36,17 +36,17 @@ loots:
           chance: 15
 ```
 
-This example has two loots in **blocks** category.
+This example has two loots in **blocks **category.
 
-First one is called **ruby\_ore** \(you can call them as you prefer\), this will drop a **itemsadder:ruby** item when you break a custom **block** of type **itemsadder:ruby\_ore** with a minimum **amount** of **1** and **maximum** amount of **2** with **100% chance**.
+First one is called **ruby_ore **(you can call them as you prefer), this will drop a** itemsadder:ruby** item when you break a custom **block **of type **itemsadder:ruby_ore** with a minimum **amount **of **1** and **maximum **amount of **2** with **100% chance**.
 
-The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal** or a **knowledge\_fragment** when the player breaks a **NETHER\_QUARTZ\_ORE**.  
-These **drops** are decided by **ItemsAdder** based on **chance** you set. 
+The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal **or a **knowledge_fragment **when the player breaks a **NETHER_QUARTZ_ORE**.\
+These **drops **are decided by **ItemsAdder **based on **chance **you set. 
 
 {% hint style="info" %}
-Special property: **drop\_only\_first**  
-This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.   
-**WARNING**: this would make your items **harder** to be **dropped**.
+Special property: **drop_only_first**\
+This allows you to **stop **the **plugin **from **dropping each **of the **items **that succeed into extracting a **correct **chance to be **dropped**. \
+**WARNING**: this would make your items **harder **to be **dropped**.
 {% endhint %}
 
 ## Drop only in specific biomes
@@ -70,7 +70,7 @@ loots:
 
 ## Ignore fortune enchant
 
-You can make a loot ignore fortune enchant by adding the **ignore\_fortune** property.
+You can make a loot ignore fortune enchant by adding the **ignore_fortune **property.
 
 ```yaml
 loots:
@@ -88,7 +88,7 @@ loots:
 
 ## Other types of loots
 
-As I said before there are other types of loots: mobs and fishing.  
+As I said before there are other types of loots: mobs and fishing.\
 These are some examples:
 
 ### Fishing
@@ -153,7 +153,7 @@ loots:
 ### Custom mobs loots
 {% endhint %}
 
-In order to let ItemsAdder drop an item based on when you kill a custom mob \(created with ItemsAdder\) you have to use the metadata attribute. Example:
+In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the metadata attribute. Example:
 
 ```yaml
 loots:
@@ -173,10 +173,10 @@ loots:
           chance: 100
 ```
 
-As you can see I set **ItemsAdderMob** attribute and specified my custom mob **namespace:id** \(in this example I used the **creaturesplus:soul** mob\)
+As you can see I set **ItemsAdderMob **attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
 
 {% hint style="info" %}
-### Villager professions \(and any other NBT attribute you want to match\)
+### Villager professions (and any other NBT attribute you want to match)
 {% endhint %}
 
 ```yaml
@@ -197,15 +197,15 @@ loots:
           chance: 100
 ```
 
-As you can see I set **profession** attribute and specified the **NBT attribute** path, which in this case is **VillagerData.profession**.  
-Then I set value to **minecraft:farmer**, this tells ItemsAdder to match only **villagers** with attribute **VillagerData.profession** set to **minecraft:farmer**.
+As you can see I set **profession **attribute and specified the **NBT attribute **path, which in this case is **VillagerData.profession**.\
+Then I set value to **minecraft:farmer**, this tells ItemsAdder to match only **villagers **with attribute **VillagerData.profession **set to **minecraft:farmer**.
 
 {% hint style="warning" %}
-The type attribute of **nbt** and **metadata** are really **important**, don't **forget** them or matches could not occur.
+The type attribute of **nbt **and **metadata **are really **important**, don't **forget **them or matches could not occur.
 {% endhint %}
 
 {% hint style="info" %}
-### Drop based on spawner entity \(and any other NBT attribute you want to match\)
+### Drop based on spawner entity (and any other NBT attribute you want to match)
 {% endhint %}
 
 ```yaml
@@ -227,4 +227,3 @@ loots:
           chance: 100
           ignore_fortune: false
 ```
-

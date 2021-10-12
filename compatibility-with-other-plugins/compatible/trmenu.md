@@ -6,7 +6,7 @@
 
 ### How to use ItemsAdder items in the GUIs
 
-{% embed url="https://trmenu.trixey.cc/menu/icon/display/cai-zhi\#itemsadder" %}
+{% embed url="https://trmenu.trixey.cc/menu/icon/display/cai-zhi#itemsadder" %}
 
 ```yaml
 material: 'source:ITEMADDER:itemId'
@@ -23,9 +23,10 @@ Title: '%img_offset_-16%%img_blank_menu%'
 PlaceholderAPI is required!
 {% endhint %}
 
-Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%`by **16** pixels.
+Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%`by **16 **pixels.
 
 Read more here: 
 
-{% page-ref page="../../plugin-usage/placeholderapi.md" %}
-
+{% content-ref url="../../plugin-usage/placeholderapi.md" %}
+[placeholderapi.md](../../plugin-usage/placeholderapi.md)
+{% endcontent-ref %}

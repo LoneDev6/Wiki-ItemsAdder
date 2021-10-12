@@ -1,3 +1,7 @@
+---
+description: How to install the plugin
+---
+
 # ⚙ First install
 
 {% hint style="info" %}
