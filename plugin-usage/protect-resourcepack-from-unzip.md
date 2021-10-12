@@ -9,10 +9,22 @@ This is the option:\
 
 
 ```yaml
-zip:
-  protect-file-from-unzip__DISABLE_IF_ANY_PROBLEM: true
+  zip:
+    protect-file-from-unzip:
+      enabled: true
+      extreme: true
 ```
 {% endhint %}
+
+### enabled
+
+The `enabled` property allows you to protect the resourcepack with a basic method.
+
+### extreme
+
+The `extreme` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
+
+## Showcase
 
 This is a funny meme showcase of what the user will see when they try to steal your data. But this is actually what the user will see, a group of corrupted files and folders.
 
