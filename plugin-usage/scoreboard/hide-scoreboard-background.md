@@ -1,4 +1,9 @@
+---
+description: Disable the scoreboard background
+---
+
 # Hide Scoreboard background
 
-{% page-ref page="../../compatibility-with-other-plugins/compatible/scoreboard.md" %}
-
+{% content-ref url="../../compatibility-with-other-plugins/compatible/scoreboard.md" %}
+[scoreboard.md](../../compatibility-with-other-plugins/compatible/scoreboard.md)
+{% endcontent-ref %}

@@ -13,6 +13,7 @@
     * [👁I can't see emoji, GUIs, HUDs](faq/huds-emojis-guis-font/i-cant-see-emoji-guis-huds.md)
     * [🈁Force Unicode Font: ON](faq/huds-emojis-guis-font/force-unicode-font-on.md)
   * [Removing default stuff](faq/removing-default-stuff.md)
+  * [🥾 Kick flight on join](faq/kick-flight-on-join.md)
   * [🚙Vehicles bugs](faq/vehicles-bugs/README.md)
     * [Dismount related problems](faq/vehicles-bugs/dismount-related-problems.md)
     * [Can't write in chat and can't move](faq/vehicles-bugs/towny-vehicles-bug.md)
