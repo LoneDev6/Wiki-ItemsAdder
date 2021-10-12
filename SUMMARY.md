@@ -166,6 +166,7 @@
     * [InteractionVisualizer](compatibility-with-other-plugins/compatible/interactionvisualizer.md)
     * [AdditionsPlus](compatibility-with-other-plugins/compatible/additionsplus.md)
     * [MMOItems](compatibility-with-other-plugins/compatible/mmoitems.md)
+    * [ExecutableItems](compatibility-with-other-plugins/compatible/executableitems.md)
     * [ItemFrameShops](compatibility-with-other-plugins/compatible/itemframeshops.md)
     * [Authme](compatibility-with-other-plugins/compatible/authme.md)
     * [Slimefun4](compatibility-with-other-plugins/compatible/slimefun4.md)

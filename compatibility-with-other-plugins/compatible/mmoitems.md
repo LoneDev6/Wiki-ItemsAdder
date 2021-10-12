@@ -10,7 +10,7 @@ Download **MMOItems **[here](https://www.spigotmc.org/resources/mmoitems-premium
 
 {% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
 
-## How to connect an MMOItem to a ItemsAdder custom item
+## How to connect an MMOItem to an ItemsAdder custom item
 
 {% hint style="warning" %}
 UPDATE **ITEMSADDER **TO **2.1.29+ **AND **MMOITEM **to **6.5.1+**

@@ -1,6 +1,8 @@
 # Graves
 
-## [Download here](https://www.spigotmc.org/resources/graves.74208/)How to add compatibility?
+## [Download here](https://www.spigotmc.org/resources/graves.74208/)
+
+## How to add compatibility?
 
 Enable the compatibility
 
