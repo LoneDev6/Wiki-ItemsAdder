@@ -5,7 +5,7 @@
 ## How to connect an ExecutableItem to an ItemsAdder custom item
 
 {% hint style="warning" %}
-UPDATE **ITEMSADDER **TO **2.2.20+ **AND **MMOITEM **to **3.5.5.4+**
+UPDATE **ITEMSADDER **TO **2.2.20+**
 {% endhint %}
 
 ## Create the ItemsAdder item
