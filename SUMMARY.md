@@ -200,6 +200,7 @@
     * [Talismans](compatibility-with-other-plugins/compatible/talismans.md)
     * [StatTrackers](compatibility-with-other-plugins/compatible/stattrackers.md)
     * [Graves](compatibility-with-other-plugins/compatible/graves.md)
+* [FancyWaystones](fancywaystones.md)
 * [✨ Optimize Minecraft 1.17](optimize-minecraft-1.17.md)
 
 ## 💻 Developers
