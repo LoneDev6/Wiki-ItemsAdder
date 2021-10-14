@@ -1,4 +1,8 @@
-# /ia menu
+---
+description: /ia command menu
+---
+
+# 📃 Recipes menu
 
 ## Menu settings and "All" category
 

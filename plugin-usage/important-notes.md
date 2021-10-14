@@ -3,7 +3,7 @@
 ## Mipmap problem (textures size related)
 
 {% hint style="warning" %}
-Minecraft has a bug that disables mipmap if you set textures which their size is not a multiple of two.
+Minecraft has a bug that disables mipmap if you set textures which their size is not a power of two.
 
 ### Read more here on how to avoid this problem:
 {% endhint %}

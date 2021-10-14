@@ -2,7 +2,7 @@
 description: Merge other resourcepacks (also custom plugins resourcepacks)
 ---
 
-# Merge resourcepacks
+# 🗃 Merge resourcepacks
 
 ## Why merging?
 
@@ -29,13 +29,20 @@ overwrite-vanilla-models: false
 ### Step 4
 
 Use the `/iazip` command to compress the ItemsAdder resourcepack.\
-(Make sure to follow the correct [hosting tutorial](resourcepack-hosting/) based on the hosting method you decided)
+(Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided)
 
 ### Done.
 
 ## Examples
 
-{% content-ref url="../compatibility-with-other-plugins/compatible/modelengine.md" %}
-[modelengine.md](../compatibility-with-other-plugins/compatible/modelengine.md)
+{% content-ref url="../../compatibility-with-other-plugins/compatible/modelengine.md" %}
+[modelengine.md](../../compatibility-with-other-plugins/compatible/modelengine.md)
 {% endcontent-ref %}
 
+{% content-ref url="../../compatibility-with-other-plugins/compatible/nova.md" %}
+[nova.md](../../compatibility-with-other-plugins/compatible/nova.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../compatibility-with-other-plugins/compatible/space.md" %}
+[space.md](../../compatibility-with-other-plugins/compatible/space.md)
+{% endcontent-ref %}

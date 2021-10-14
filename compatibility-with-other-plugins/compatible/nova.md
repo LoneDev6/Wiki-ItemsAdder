@@ -6,15 +6,16 @@
 
 It's very easy!
 
+* Stop the server
 * Open `plugins\Nova\config\config.json`
 * Download the resourcepack from the `url` field
 * Set `"enabled": false` in the `config.json` of Nova
 * Extract assets folder inside `plugins\ItemsAdder\data\resource_pack`
-* Run `/iazip` \(and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed\)
+* Start the server
+* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
 
 Done!
 
-![](../../.gitbook/assets/immagine%20%28122%29.png)
+![](<../../.gitbook/assets/immagine (122).png>)
 
-![](../../.gitbook/assets/immagine%20%28125%29.png)
-
+![](<../../.gitbook/assets/immagine (125).png>)
