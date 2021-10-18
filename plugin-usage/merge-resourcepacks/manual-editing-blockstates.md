@@ -22,6 +22,12 @@ In order to edit the some blockstates files you have to disable the ItemsAdder c
 
 ### mushroom blockstates
 
+Delete the files: 
+
+* `assets\minecraft\blockstates\brown_mushroom_block.json` 
+* `assets\minecraft\blockstates\mushroom_stem.json`
+* `assets\minecraft\blockstates\red_mushroom_block.json`
+
 Enable this option:
 
 {% code title="config.yml" %}
@@ -31,6 +37,8 @@ Enable this option:
 {% endcode %}
 
 ### fire.json
+
+Delete the file `assets\minecraft\blockstates\fire.json`
 
 Enable this option:
 
@@ -42,6 +50,8 @@ Enable this option:
 
 ### chorus_plant.json
 
+Delete the file `assets\minecraft\blockstates\chorus_plant.json`
+
 Enable this option:
 
 {% code title="config.yml" %}
@@ -51,6 +61,8 @@ Enable this option:
 {% endcode %}
 
 ### tripwire.json
+
+Delete the file `assets\minecraft\blockstates\tripwire.json`
 
 Enable this option:
 
