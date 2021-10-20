@@ -19,3 +19,13 @@ Disable the `hide-hud` feature in the `config.yml` file of **ItemsAdder**.
     black-screen: true
     hide-hud: false
 ```
+
+## Still having the issue
+
+Enable this option in `server.properties` file:
+
+{% code title="server.properties" %}
+```
+allow-flight=true
+```
+{% endcode %}
