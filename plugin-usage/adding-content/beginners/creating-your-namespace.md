@@ -1,42 +1,42 @@
 # Создание своей папки
 
 {% hint style="warning" %}
-If you don't know what I mean by **namespace** please read [namespace tutorial](basic-concepts/namespace.md)
+Если вы не знаете, что я имею в виду под **namespace**, пожалуйста, прочитайте [учебник по namespace] (basic-concepts/namespace.md).
 {% endhint %}
 
-## Creating an items\_packs subfolder
+## Создание подпапок items\_packs
 
-In order to keep everything organized you have to create **your** own **namespace**.  
-First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
+Для того, чтобы все было упорядочено, вам необходимо создать **ваш** собственный **namespace**.  
+Первым шагом будет создание подпапки внутри: `plugins\ItemsAdder\data\items_packs`.
 
-In this example **namespace** will be `myitems` so create a folder names like the namespace.
+В данном примере **namespace** будет `myitems`, поэтому создайте папку с именем, подобным namespace.
 
 ![](../../../.gitbook/assets/image%20%289%29.png)
 
-Open the `myitems` folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
+Откройте папку `myitems` и создайте новый файл, вы можете назвать его как угодно, я назвал его `myswords.yml`.
 
 ![](../../../.gitbook/assets/image%20%2811%29.png)
 
-Open the new **.yml** file and paste this:
+Откройте новый файл **.yml** и вставьте следующее:
 
 ```yaml
 info:
   namespace: myitems
 ```
 
-As you see I set **namespace** to `myitems`, which is the **namespace** I chose before and it's the same name of the **folder**. Remember to change it based on your **namespace**.
+Как вы видите, я установил **namespace** в `myitems`, это **namespace**, которое я выбрал ранее, и это же имя **папки**. Не забудьте изменить его в зависимости от вашего **namespace**.
 
 {% hint style="info" %}
-You can create as many **namespaces** you want! This allows you to easly organize your packs of items.
+Вы можете создать столько **namespaces**, сколько захотите! Это позволит вам легко организовать ваши пакеты предметов.
 {% endhint %}
 
 {% hint style="info" %}
-You can create as many as **.yml** files you want in the same namespace!  
-This allows you to organize items/things types better.  
-For example I divided my items in swords, blocks, food, drinks...
+Вы можете создавать сколько угодно файлов **.yml** в одном и том же namespace!  
+Это позволит вам лучше организовать типы предметов/вещей.  
+Например, я разделил свои предметы на мечи, блоки, еду, напитки...
 {% endhint %}
 
 {% hint style="warning" %}
-**All this "nesting" could seem boring** **but** **trust me**, it reduces errors as much as possible and allows you to find everything easily.
+**Вся эта "вложенность" может показаться скучной но поверьте мне**, она максимально сокращает количество ошибок и позволяет легко найти все необходимое.
 {% endhint %}
 
