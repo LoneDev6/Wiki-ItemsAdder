@@ -1,12 +1,12 @@
-# Drop exp from blocks
+# Сбрасываемое exp из блоков
 
 {% hint style="info" %}
-### There are 2 ways to drop exp from your custom blocks.
+### Есть 2 способа выдать exp из ваших блоков.
 {% endhint %}
 
-## 1. Add the exp drop directly in the custom block creation
+## 1. Добавьте падение exp непосредственно при создании блока
 
-This has a downside, you can only set the exp drop to custom blocks, not to vanilla blocks.
+У этого есть недостаток, вы можете установить падение exp только для пользовательских блоков, а не для ванильных блоков.
 
 ```yaml
   ruby_block:
@@ -34,9 +34,9 @@ This has a downside, you can only set the exp drop to custom blocks, not to vani
             max_amount: 3
 ```
 
-## 2. Add the exp drop to loots
+## 2. Добавьте выпадения exp к лотам
 
-This is the best way because you can also apply this to vanilla blocks types and you can add as many as exp settings you want. This allows you to add more randomness and dynamicity to your drops.
+Это лучший способ, потому что вы также можете применить его к ванильным блокам и добавить столько настроек exp, сколько захотите. Это позволяет вам добавить больше случайности и динамичности в ваши дропы.
 
 ```yaml
 loots:
