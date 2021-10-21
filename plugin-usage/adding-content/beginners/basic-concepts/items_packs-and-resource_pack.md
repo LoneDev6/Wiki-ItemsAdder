@@ -1,14 +1,14 @@
-# items\_packs и resource\_pack
+# items_packs and resource_pack
 
-## What are these folders?
+## Что это за папки?
 
-### items\_packs
+### items_packs
 
-is a folder which contains a set of folders, each one of these folders contains separated and organized **.yml** files which contains items behaviour, setting, enchant, recipe, loot... everything that is related to items creation, recipes and behaviours.  
-You can see that each folder name in **items\_packs** is the [namespace ](namespace.md)of the items it contains.
+Это папка, которая содержит набор папок, каждая из этих папок содержит отдельные и организованные файлы **.yml**, которые содержат поведение предметов, настройки, зачарования, рецепты, лут... все, что динамично и связано с его созданием.
+Вы можете видеть, что каждое имя папки в **items\_packs** является [namespace ](namespace.md) из содержащихся в нем предметов.
 
 {% hint style="warning" %}
-**Namespace** is also set inside the **.yml** file itself, don't forget to set it in the top part:
+**Namespace** также устанавливается внутри самого файла **.yml**, не забудьте установить его в верхней части:
 
 ```yaml
 info:
@@ -16,17 +16,16 @@ info:
 ```
 {% endhint %}
 
-### resource\_pack
+### resource_pack
 
-is a folder which contains an **automatically generated resourcepack**.  
-You can see this folder and **items\_packs** as a very similar thing, but **resource\_pack** folder contains the "**graphical**" part of all **items** \(and also sounds, GUIs...\).  
-\(**items\_packs** contains the behaviours and settings of the items\)  
-This folder is automatically compressed as a file named **pack.zip**, the one that will be sent to players.
+представляет собой папку, содержащую **автоматически сгенерированный пакет ресурсов**.\
+Вы можете видеть эту папку и **items_packs** как очень похожие вещи, но папка **resource_pack** содержит "**графическую**" часть всех **элементов ** (а также звуки, графические интерфейсы...). \
+(**items_packs**содержит поведение и настройки элементов)\
+Эта папка автоматически сжимается в файл с именем **pack.zip **, тот, который будет отправлен игрокам.
 
 {% hint style="danger" %}
-### Important
+### Важно
 
-Remember to always maintain order in **resource\_pack** folder, don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.  
-**Remember that please.**
+Не забывайте всегда поддерживать порядок в папке **resource_pack**, не вставляйте вещи случайным образом, не создавайте слишком много вложенных папок, не оставляйте неиспользуемые текстуры/модели, иначе будет трудно обнаружить ошибки и баг.\
+**Запомните это, пожалуйста.**
 {% endhint %}
-
