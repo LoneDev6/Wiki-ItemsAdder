@@ -2,20 +2,20 @@
 
 ## Namespace
 
-As you surely noticed ItemsAdder uses **namespaces** to identify most of the things it manages.  
-A **namespace** is a **group** of elements, in this case a group of **items**/**blocks**/**mobs**...  
-With namespaces you can easily understand where a particular **item**, **sound**, **block**.. comes from.
+Как вы наверняка заметили, ItemsAdder использует **namespaces** для идентификации большинства вещей, которыми он управляет.
+**namespace** - это **группа** элементов, в данном случае группа **предметов**/**блоков**/**мобов**...
+С помощью namespaces  вы можете легко понять, откуда берется или происходит конкретный **предмет**, **звук**, **блок**...
 
-### Example
+### Пример
 
-All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
+Все предметы **realcraft** находятся в namespace **realcraft**, поэтому при использовании команды `/iaget` вы можете увидеть, что идентификаторы всех предметов начинаются с `realcraft:`
 
 ![](../../../../.gitbook/assets/image%20%2810%29.png)
 
-## How can I define my own namespace?
+## Как я могу определить свой собственный namespace?
 
-Now that you see how it works you want to ask me this question: _How can I create my own namespace?_  
-To create your own **namespace** \(you can also define multiple ones!\) it's really easy, read the following tutorial:
+Теперь, когда вы видите, как это работает, вы хотите задать мне этот вопрос: _ Как я могу создать свой собственный namespace?_
+Чтобы создать свое собственноый **namespace**\ (вы также можете определить несколько из них!\) это действительно просто, прочитайте следующий урок:
 
 {% page-ref page="../creating-your-namespace.md" %}
 
