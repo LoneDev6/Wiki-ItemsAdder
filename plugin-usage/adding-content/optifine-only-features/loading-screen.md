@@ -1,45 +1,45 @@
-# Loading screen
+# Экран загрузки
 
-## Vanilla loading screen
+## Ванильный экран загрузки
 
 ![](../../../.gitbook/assets/immagine%20%2851%29.png)
 
-## Custom loading screen
+## Пользовательский экран загрузки
 
 ![](../../../.gitbook/assets/immagine%20%2848%29.png)
 
-## How to do that?
+## Как это сделать?
 
-### Before Minecraft 1.16
+### До выхода Minecraft 1.16
 
 ![](../../../.gitbook/assets/immagine%20%2847%29.png)
 
-You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojang_template.xcf).
+Вы можете получить [GIMP](https://www.gimp.org/downloads/) шаблон [здесь](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojang_template.xcf).
 
-* Edit my file:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`
-* Save the file in the same location
+* Отредактируйте мой файл:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`.
+* Сохраните файл в том же месте
 
-### After Minecraft 1.16
+### После выхода Minecraft 1.16
 
 ![](../../../.gitbook/assets/immagine%20%2813%29.png)
 
 {% hint style="warning" %}
-**Warning**: a known issue is that the logo is bugged when you use `/iazip` or `/iatexture` to apply the texture ingame.  
-The logo will be shown with no issue only on server join for some reason, probably an Optifine bug.
+**Предупреждение**: известная проблема заключается в том, что при использовании `/iazip` или `/iatexture` для наложения текстуры в игре логотип отображается с ошибкой.  
+По какой-то причине логотип будет отображаться без проблем только при присоединении к серверу, возможно, это ошибка Optifine.
 {% endhint %}
 
-A little bit difficult:   
-basically you have to split your image in half like I did, so you have to know how to use image editing programs \(Photoshop, GIMP or Paint.net\).  
-You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojangstudios_template.xcf).
+Немного сложно:   
+В основном вам придется разделить изображение пополам, как это сделал я, поэтому вы должны уметь пользоваться программами для редактирования изображений\(Photoshop, GIMP или Paint.net\).  
+Вы можете получить [GIMP](https://www.gimp.org/downloads/) шаблон [здесь].(https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojangstudios_template.xcf).
 
-* Edit my file: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
-* Save the file in the same location
+* Отредактируйте мой файл: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
+* Сохраните файл в том же месте
 
-### How to change the background color \(1.16 only\)
+### Как изменить цвет фона \(1.16 только\\)
 
-Create a new file \(or edit the already provided one\): `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\color.properties`
+Создайте новый файл \(или отредактируйте уже созданный\): `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\color.properties`.
 
-Put this content:
+Поместите этот контент:
 
 ```yaml
 ###############################################################################
@@ -60,10 +60,10 @@ screen.loading.progress=1f17ce
 screen.loading.blend=DST_COLOR
 ```
 
-You can edit the colors using a [HEX color picker](https://www.w3schools.com/colors/colors_picker.asp)
+Вы можете редактировать цвета с помощью [HEX color picker] (https://www.w3schools.com/colors/colors_picker.asp).
 
 {% hint style="warning" %}
-Do not include the `#` at the start of the color code.
+Не включайте `#` в начало кода цвета.
 {% endhint %}
 
 
