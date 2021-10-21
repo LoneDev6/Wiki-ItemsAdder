@@ -1,10 +1,10 @@
-# Bundle
+# Мешок
 
 {% hint style="warning" %}
 Minecraft 1.17+
 {% endhint %}
 
-## Configuration
+## Конфигурация
 
 ```yaml
 items:
@@ -18,13 +18,13 @@ items:
       - item/bundle_test.png
 ```
 
-## Image files
+## Файлы изображений
 
 ![](../../../../.gitbook/assets/image%20%2835%29.png)
 
-You have to create another file with `_filled` suffix.
+Вы должны создать другой файл с суффиксом `_filled`.
 
-## Result
+## Результат
 
 ![](../../../../.gitbook/assets/image%20%2834%29.png)
 
