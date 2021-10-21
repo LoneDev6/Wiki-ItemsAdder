@@ -1,55 +1,56 @@
 # Текстуры для надетой брони
 
-If you want to add a custom texture and not just a custom color to armors you can use **Optifine**.
+Если вы хотите добавить к броне не только цвет, но и текстуру, вы можете использовать **Optifine**.
 
-### Download the [example addon here](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
+### Загрузите [пример аддона здесь](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
 
-## Example custom textured armor
+## Пример пользовательской текстуры брони
 
 ![](../../../.gitbook/assets/image%20%2823%29.png)
 
 ![](../../../.gitbook/assets/image%20%2825%29.png)
 
-### Step 1
+### Шаг 1
 
-Create your **custom namespace** \(if you didn't already\), follow[ this tutorial](../beginners/creating-your-namespace.md).  
-In this tutorial **my namespace** is named `mystuff`
+Создайте свое **настраиваемый namespace** \(если вы этого еще не сделали\), следуйте [этому руководству](../beginners/creating-your-namespace.md).  
+В этом руководстве **мой namespace** называется `mystuff`.
 
-### Step 2
+### Шаг 2
 
-Create **custom textures** for the **inventory items**. I put them in **\*\*the** folder\*\* `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`
+Создайте **собственные текстуры** для **инвентарных предметов**. Я поместил их в папку 
+`plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`.
 
 ![](../../../.gitbook/assets/image%20%2821%29.png)
 
-### Step 3
+### Шаг 3
 
-Create **custom textures** for **on-body armor**. You can get a **template** from here:  
+Создайте **собственные текстуры** для **брони на теле**.  Вы можете взять **шаблон** отсюда:  
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`  
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
 
-**Edit** the **textures** as you wish \(use Paint.NET, Photoshop, GIMP or similar programs\) and **save** them as `layer_1.png` and `layer_2.png`
+**Редактируйте текстуры** по своему усмотрению\\ (используйте Paint.NET, Photoshop, GIMP или подобные программы\) и **сохраните** их как `layer_1.png` и `layer_2.png`.
 
-### Step 4
+### Шаг 4
 
-Create the `optifine` folder, this is where we want to put out **custom textures** for the **worn armor**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`
+Создайте папку `optifine`, сюда мы хотим поместить **настроенные текстуры** для **ношеной брони**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`.
 
 {% hint style="warning" %}
-You **must create** it under the folder `minecraft`, sadly you **cannot** create the `optifine` folder inside your **namespace** folder \(in this case `mystuff`\), it's an **Optifine limitation**.
+Вы **должны создать** ее в папке `minecraft`, к сожалению, вы **не можете** создать папку `optifine` в папке вашего **namespace** \ (в данном случае `mystuff`\), это ограничение **Optifine**.
 {% endhint %}
 
-### Step 5
+### Шаг 5
 
-Now save the **previously created on-body** textures \(`layer_1.png` and `layer_2.png` \) inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+Теперь сохраните **предыдущие созданные текстуры тела** \(`layer_1.png` и `layer_2.png` \) в этой папке: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`.
 
-So you have this:
+Итак, у вас есть это:
 
 ![](../../../.gitbook/assets/image%20%2824%29.png)
 
-### Step 6
+### Шаг 6
 
-**Create** these files: **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties** inside `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+**Создайте** эти файлы: **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties** внутри `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`.
 
-Each of the files must contain this:
+Каждый из файлов должен содержать следующее:
 
 ```elixir
 nbt.itemsadder.namespace=mystuff
@@ -61,19 +62,19 @@ texture.diamond_layer_1=layer_1
 texture.diamond_layer_2=layer_2
 ```
 
-For each of the `.properties` files you have to **change** the **1th** line setting **your namespace** instead of "mystuff", the **2nd line** to your **item id** and the **5th line** to the **item type** \(`diamond_leggings` , `diamond_boots` ....\)
+Для каждого из файлов `.properties` вы должны **изменить 1-ю** строку, установив **ваш namespace** вместо "mystuff", **2-ю строку** на ваш **идентификатор элемента** и **5-ю строку** на **тип элемента** \(`diamond_leggings` , `diamond_boots` ....\)
 
-Now you should have this view:
+Теперь у вас должен быть такой вид:
 
 ![](../../../.gitbook/assets/image%20%2826%29.png)
 
-### Step 7
+### Шаг 7
 
-**Create** a **file** to contain this custom armor, to better organize it. Name it **example\_1.yml** and **place it** inside your namespace, in this example: `plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`
+**Создайте файл**, который будет содержать эту пользовательскую броню, чтобы лучше ее организовать. Назовите его **example\_1.yml** и **разместите его** в вашем пространстве имен, в данном примере: `plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`.
 
-### Step 8
+### Шаг 8
 
-**Add content** to the **yml file**. As you can see I decided to base my items on the Minecraft DIAMOND armor and I didn't specify any color because I don't need to color it, Optifine will apply a texture to it.
+**Добавьте содержимое** в **yml-файл**. Как вы видите, я решил взять за основу броню Minecraft DIAMOND и не указал цвет, потому что мне не нужно ее окрашивать, Optifine наложит на нее текстуру.
 
 ```yaml
 info:
@@ -149,13 +150,13 @@ items:
         armorToughness: 1
 ```
 
-### Done!
+### Готово!
 
-## Notes:
+## Примечания:
 
 {% hint style="warning" %}
-If you will **create another namespace** which contains **other armors** it's **highly advised** to **maintain** the **same structure** as I did in the tutorial to **avoid mistakes**.
+Если вы **создадите другой namespace**, содержащее **другие доспехи**, настоятельно рекомендуется **сохранить** **такую же структуру**, как я сделал в учебнике, чтобы **избежать ошибок**.
 
-For example if you create a new namespace names `space_armors` you will have this **optifine** folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`
+Например, если вы создадите новой namespace `space_armors`, у вас будет такая папка **optifine**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`.
 {% endhint %}
 
