@@ -8,7 +8,7 @@
 
 Permission: `ia.admin.config.item.delete`
 
-Deletes an item COMPLETELY from all the config files. Please be careful.
+Deletes an item COMPLETELY from its config file. Please be careful.
 
 ### Disable an item in configs
 
@@ -16,7 +16,7 @@ Deletes an item COMPLETELY from all the config files. Please be careful.
 
 Permission: `ia.admin.config.item.disable`
 
-Disables an item from all the config files. Please be careful.
+Disables an item from its config file. Please be careful.
 
 ### Delete recipes which use/create an item
 
