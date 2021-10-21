@@ -2,7 +2,7 @@
 
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
 
-## Example of fire magic wand
+## Пример огненной волшебной палочки
 
 ```yaml
   advanced_magic_wand:
@@ -103,7 +103,7 @@
           amount: 1
 ```
 
-## Example of mana recover crystals
+## Пример кристаллов для восстановления маны
 
 ```yaml
   mana_recover_crystals:
