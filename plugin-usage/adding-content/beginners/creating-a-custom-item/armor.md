@@ -1,6 +1,6 @@
 # Броня
 
-## Custom armor example
+## Пример пользовательской брони
 
 ```yaml
 items:
@@ -68,15 +68,15 @@ items:
 
 {% page-ref page="../../../../faq/can-i-create-slabs-stairs/" %}
 
-## Custom texture \(only in inventory\)
+## Пользовательская текстура \(только в инвентаре\)
 
-To add a custom texture for an armor item you have to specify a texture or a model \(like for every other custom item\).
+Чтобы добавить пользовательскую текстуру для элемента брони, вам необходимо указать текстуру или модель \ (как и для любого другого пользовательского элемента\).
 
 {% hint style="warning" %}
-#### Update to ItemsAdder 2.4.17+
+#### Обновление до ItemsAdder 2.4.17+
 {% endhint %}
 
-### Custom item texture
+### Текстура пользовательского предмета
 
 ```yaml
 items:
@@ -89,7 +89,7 @@ items:
        - "item/custom_helmet"
 ```
 
-### Custom item model
+### Пользовательская модель предмета
 
 ```yaml
 items:
@@ -101,7 +101,7 @@ items:
       model_path: "item/custom_helmet"
 ```
 
-### Custom on-body armor texture
+### Пользовательская текстура брони на теле
 
 {% page-ref page="../../optifine-only-features/armor-textures.md" %}
 
