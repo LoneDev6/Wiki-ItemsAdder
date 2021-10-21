@@ -1,16 +1,16 @@
-# Block
+# Блок
 
-## My first custom block
+## Мой первый пользовательский блок
 
-### Creating the blocks file
+### Создание файла блоков
 
 {% hint style="warning" %}
-This is an example block \(remember to change `myitems` [namespace ](../../basic-concepts/namespace.md)to the one you want\).
+Это пример блока \(не забудьте изменить `myitems` [namespace ](../../basic-concepts/namespace.md)на тот, который вы хотите\).
 {% endhint %}
 
-For example I created a **file** which will contain all my **custom blocks**:
+Например, я создал **файл**, который будет содержать все мои **пользовательские блоки**:
 
-In this file \(`blocks.yml`\) I start creating a simple block called `red_block`
+В этом файле \(`blocks.yml`\) Я начинаю создавать простой блок под названием `red_block`
 
 ![](../../../../../.gitbook/assets/immagine%20%2891%29.png)
 
@@ -26,25 +26,25 @@ items:
 ```
 
 {% hint style="warning" %}
-It's very important to use a **non placeable** vanilla **material**. For example **PAPER**.  
-If you use a block \(like STONE or DIRT\) it will result a bit glitchy when placed.
+Очень важно использовать **не подлежащий размещению** ванильный **материал**. Например **БУМАГА**.
+Если вы используете блок \(например, КАМЕНЬ или ГРЯЗЬ\), это приведет к небольшим сбоям при размещении.
 {% endhint %}
 
-## Block textures
+## Текстуры блоков
 
-### Creating the textures files
+### Создание файлов текстур
 
-Now the fun part, let's set the textures!  
-To do that you have to put the `.png` textures file inside the correct folder.  
-In this case your **namespace** is `myitems` so you have to put them here:
+Теперь самое интересное, давайте установим текстуры!
+Для этого вам нужно поместить файл текстур `.png` в нужную папку.
+В этом случае ваше **namespace** - `myitems`, поэтому вы должны разместить их здесь:
 
 ![](../../../../../.gitbook/assets/immagine%20%28101%29.png)
 
 ### Applying the textures files to your item
 
-Now open `blocks.yml` file again and add the `resource` part as I did.  
-As you can see I set `generate: true` and I set the textures for the item.  
-This tells the plugin to generate the 3D model automatically using your texture.
+Теперь откройте `blocks.yml` снова и добавьте часть `resource`, как сделал это я.
+Как вы можете видеть, я установил `generate: true` и установил текстуры для предметов.
+Это говорит плагину автоматически генерировать 3D-модель, используя вашу текстуру.
 
 ```yaml
 info:
@@ -58,10 +58,10 @@ items:
       material: PAPER
 ```
 
-### Using different texture for each face
+### Использование разной текстуры для каждого лица
 
 {% hint style="warning" %}
-**Important**: keep the correct cardinal directions order as shown in the example.
+**Важно**: соблюдайте правильный порядок сторон света, как показано в примере.
 {% endhint %}
 
 ```yaml
@@ -83,7 +83,7 @@ items:
         - block/red_block_west.png
 ```
 
-### Using the same texture for each face
+### Использование одной и той же текстуры для каждого лица
 
 ```yaml
 info:
@@ -99,9 +99,9 @@ items:
         - block/red_block.png
 ```
 
-## Adding the block placing functionality
+## Добавление функции размещения блоков
 
-You have to add the `specific_properties` attribute, like in this example:
+Вы должны добавить атрибут `specific_properties`, как в этом примере:
 
 ```yaml
 info:
@@ -123,28 +123,28 @@ items:
 ```
 
 {% hint style="info" %}
-Click on the bottom link if you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
+Нажмите на нижнюю ссылку, если вы хотите указать **инструменты**, которые могут разбить блок, добавить **твердость** и **другие атрибуты**.
 
 {% page-ref page="../../../advanced/item-properties/specific-properties/blocks.md" %}
 {% endhint %}
 
-## Final part
+## Заключительная часть
 
-Now you just need to tell the plugin to load your just added block.
+Теперь вам просто нужно сказать плагину, чтобы он загрузил ваш только что добавленный блок.
 
-### If you're using [self-host](../../../../resourcepack-hosting/resourcepack-self-hosting.md) or [auto-external-host](../../../../resourcepack-hosting/automatic-upload-hosting.md):
+### Если вы используете [self-host](../../../../resourcepack-hosting/resourcepack-self-hosting.md) или [auto-external-host](../../../../resourcepack-hosting/automatic-upload-hosting.md):
 
-* run `/iazip`.
+* Введите `/iazip`.
 
-### If you're using [external-host](../../../../resourcepack-hosting/resourcepack-on-dropbox.md) \(Dropbox\) read here:
+### Если вы используете [external-host](../../../../resourcepack-hosting/resourcepack-on-dropbox.md) \(Dropbox\) читайте здесь:
 
-Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!  
-1. Get it from this folder:
+Не забудьте загрузить новый сгенерированный .zip файл на свой хостинг \(Dropbox\)!
+1. Достаньте его из этой папки:
 
 ![](../../../../../.gitbook/assets/immagine%20%2896%29%20%282%29%20%283%29%20%282%29%20%287%29.png)
 
-1. Upload it to your hosting \(Dropbox\)  
-2. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
+1. Загрузите его на свой хостинг \(Dropbox\)
+2. Откройте `config.yml` от ItemsAdder и обновите URL-адрес `внешнего хоста` своей новой ссылкой.
 
 ```yaml
   self-host:
@@ -156,13 +156,13 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-If you have more questions read the full **external-host** tutorial here:
+Если у вас есть еще вопросы, прочитайте полный урок по **external-host** здесь:
 
 {% page-ref page="../../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 
-## Getting the block ingame
+## Получение блока в игре
 
-Run `/iaget red_block` to get the item.
+Введите `/iaget red_block`, чтобы получить предмет.
 
 ![](../../../../../.gitbook/assets/immagine%20%2895%29.png)
 
