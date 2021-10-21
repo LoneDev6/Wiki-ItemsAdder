@@ -3,31 +3,31 @@
 {% hint style="danger" %}
 ### Namespace
 
-If you didn't create your namespace please follow the [namespace tutorial](../creating-your-namespace.md).
+Если вы не создали свое пространство имен, то следуйте руководству [namespace](../creating-your-namespace.md).
 {% endhint %}
 
 {% hint style="danger" %}
-### Resourcepack hosting
+### Хостинг ресурспака
 
-Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
-I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
+Не забудьте **выбрать** метод **ресурсного хостинга** **до того, как **начнете** настраивать.  
+Я **советую** вам использовать **self-host**, что **проще** и **быстрее**, но вы также можете использовать **Dropbox** и аналогичные методы
 
 {% page-ref page="../../../resourcepack-hosting/" %}
 {% endhint %}
 
-## My first sword
+## Мой первый меч
 
-### Creating the swords file
+### Создание файла мечей
 
 {% hint style="warning" %}
-This is an example sword \(remember to change `myitems` [namespace ](../basic-concepts/namespace.md)to the one you want\).
+TВот пример меча \(не забудьте изменить `myitems` [namespace ](../basic-concepts/namespace.md) на тот, который вам нужен\).
 {% endhint %}
 
-For example I created a **file** which will contain all my **custom swords**:
+Например, я создал **файл**, который будет содержать все мои **кастомные мечи**:
 
 ![](../../../../.gitbook/assets/immagine%20%2822%29.png)
 
-In this file \(`myswords.yml`\) I start creating a simple sword called `mysword`
+В этом файле \(`myswords.yml`\) я начинаю создавать простой меч под названием `mysword`.
 
 ```yaml
 info:
@@ -40,21 +40,21 @@ items:
       max_custom_durability: 1324
 ```
 
-## Item texture
+## Текстура предмета
 
-### Creating the texture file
+### Создание файла текстуры
 
-Now the fun part, let's set the sword texture.  
-To do that you have to put your sword `.png` texture file inside the correct folder.  
-In this case your **namespace** is `myitems` so you have to put it here:
+Теперь самое интересное, давайте установим текстуру меча.  
+Для этого вам нужно поместить файл текстуры меча `.png` в нужную папку.  
+В данном случае ваш **namespace** - `myitems`, поэтому вы должны поместить его сюда:
 
 ![](../../../../.gitbook/assets/immagine%20%2819%29.png)
 
-### Applying the texture file to your item
+### Применение файла текстуры к предмету
 
-Now open `myswords.yml` file again and add the `resource` part as I did.  
-As you can see I set `generate: true` and I set the textures for the item.  
-This tells the plugin to generate the 3D model automatically using your texture.
+Теперь снова откройте файл `myswords.yml` и добавьте часть `resource`, как это сделал я.  
+Как вы можете видеть, я установил `generate: true` и задал текстуры для предмета.  
+Это говорит плагину автоматически генерировать 3D модель, используя ваши текстуры.
 
 ```yaml
 info:
@@ -72,33 +72,33 @@ items:
       - item/example_item.png
 ```
 
-## Final part
+## Заключительная часть
 
-Now you just need to tell the plugin to load your just added item.  
-To do that you have to:
+Теперь вам просто нужно указать плагину загрузить только что добавленный элемент.  
+Для этого вам нужно:
 
-* join the server  
-* make sure you accepted the resourcepacks  
-* use the command `/iazip`  
-* if you're using external-host \(DropBox\) scroll down and follow the instructions.  
-* get the item using `/iaget mysword`  
-* DONE!
+* присоединитесь к серверу  
+* убедитесь, что вы приняли ресурспаки  
+* используйте команду `/iazip`  
+* если вы используете внешний хост \(DropBox\), прокрутите вниз и следуйте инструкциям.  
+* получите предмет с помощью команды `/iaget mysword'  
+* ГОТОВО!
 
-### Now get your item
+### Теперь возьмите свой предмет
 
 ![](../../../../.gitbook/assets/immagine%20%2818%29.png)
 
 ![](../../../../.gitbook/assets/immagine%20%2816%29.png)
 
-## If you're using external-host \(Dropbox\) read here:
+## Если вы используете внешний хост \(Dropbox\), читайте здесь:
 
-Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!  
-1. Get it from this folder:
+Не забудьте загрузить новый сгенерированный .zip файл на ваш хостинг \(Dropbox\)!  
+1. Возьмите его из этой папки:
 
 ![](../../../../.gitbook/assets/immagine%20%2896%29%20%282%29%20%283%29%20%282%29.png)
 
-1. Upload it to your hosting \(Dropbox\)  
-2. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
+1. Загрузите его на свой хостинг \(Dropbox\).  
+2. Откройте `config.yml` ItemsAdder и обновите `external-host` url на вашу новую ссылку.
 
 ```yaml
   self-host:
@@ -110,7 +110,7 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-If you have more questions read the full **external-host** tutorial here:
+Если у вас остались вопросы, прочитайте полное руководство по **внешнему хосту** здесь:
 
 {% page-ref page="../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 
