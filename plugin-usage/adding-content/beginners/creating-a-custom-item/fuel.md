@@ -1,11 +1,11 @@
-# Fuel
+# Топливо
 
-## How to make an item usable as fuel?
+## Как сделать предмет пригодным для использования в качестве топлива?
 
-It's very easy!  
-You just have to use the fuel [behaviour](../../advanced/item-properties/behaviours.md).
+Это очень просто!  
+Вы просто должны использовать топливо [behaviour](../../advanced/item-properties/behaviours.md).
 
-## Example
+## Пример
 
 ```yaml
       fuel: 
@@ -14,9 +14,9 @@ You just have to use the fuel [behaviour](../../advanced/item-properties/behavio
           - BLAST_FURNACE
 ```
 
-For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** \(**1 second**\).
+Например, эта конфигурация сделает этот предмет пригодным для использования в **ДОМЕННОЙ ПЕЧИ** и он сгорит за **20 тиков** \(**1 секунду**\).
 
-### Complete example item
+### Полный пример элемента
 
 ```yaml
   magic_fuel:
