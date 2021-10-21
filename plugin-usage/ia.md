@@ -44,8 +44,8 @@ categories:
 Пример прав для игрока: **ia.menu.armors**
 
 {% hint style="info" %}
-**font\_image and title\_position\_pixels are optional.**  
-Plugin will take the one in `ia_gui.yml` if not set.
+**font\_image и title\_position\_pixels являются необязательными.**.  
+Если они не заданы, плагин возьмет те, что указаны в `ia_gui.yml`.
 {% endhint %}
 
 {% hint style="success" %}

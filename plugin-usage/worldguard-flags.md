@@ -16,15 +16,15 @@
 
 ### ia-vehicle-place
 
-Allow user to place vehicles in the region
+Позволить пользователю размещать транспортные средства в регионе
 
 ### ia-vehicle-remove
 
-Allow user to remove ANY vehicle in the region
+Позволяет пользователю удалить ЛЮБОЙ автомобиль в регионе
 
 ### ia-vehicle-personal-remove
 
-allow user to remove only their own vehicles in the region
+разрешить пользователю удалять только свои собственные автомобили в регионе
 
 ### ia-vehicle-sit
 
@@ -32,19 +32,19 @@ allow user to remove only their own vehicles in the region
 
 ### ia-vehicle-personal-sit
 
-allow user to sit only on their own vehicles in the region
+разрешить пользователю сидеть только на своих собственных машинах в регионе
 
 ### ia-trade-machine-use
 
-allow user to use trade machines
+разрешить пользователю использовать торговые автоматы
 
 ### ia-placed-block-interact
 
-allow user to trigger placed\_block.interact events
+позволить пользователю запускать события placed\_block.interact
 
 ### ia-placed-armorstand-interact
 
-allow user to trigger placed\_armorstand.interact events
+позволить пользователю запускать события placed\_armorstand.interact
 
 {% hint style="info" %}
 Установите **ia-vehicle-sit** на значение Deny и **ia-vehicle-personal-sit** на значение Allow, чтобы дать возможность игрокам садится только в собственный транспорт.

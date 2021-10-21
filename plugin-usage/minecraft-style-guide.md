@@ -1,158 +1,158 @@
-# Minecraft Style Guide
+# Руководство по стилю Minecraft
 
-## Minecraft Style Guide <a id="minecraft-style-guide"></a>
+## Руководство по стилю Minecraft <a id="minecraft-style-guide"></a>
 
-This set of guidelines covers the properties of the Minecraft art style. It is intended to help you create models and textures that fit right into the vanilla game and to unify the terminology for the community to give more efficient and constructive feedback. Please keep in mind that not all of the mentioned principles apply universally to non-vanilla art styles or to art unrelated to Minecraft. If you plan to create Minecraft art and aren't fully familiar with the technical aspects of it, reading [Blockbench Overview & Tips](https://www.blockbench.net/wiki/guides/blockbench-overview-tips) is highly recommended. It contains materials on how to properly use Blockbench and take full advantage of its features.
+Это руководство охватывает свойства художественного стиля Minecraft. Он призван помочь вам создавать модели и текстуры, которые впишутся в ванильную игру, а также унифицировать терминологию, чтобы сообщество могло давать более эффективные и конструктивные отзывы. Пожалуйста, имейте в виду, что не все упомянутые принципы применимы к не-ванильным художественным стилям или к искусству, не связанному с Minecraft. Если вы планируете создавать искусство Minecraft и не до конца знакомы с техническими аспектами, настоятельно рекомендуем прочитать [Blockbench Overview & Tips](https://www.blockbench.net/wiki/guides/blockbench-overview-tips). В нем содержатся материалы о том, как правильно использовать Blockbench и в полной мере воспользоваться его возможностями.
 
-### Modeling <a id="modeling"></a>
+### Моделирование <a id="моделирование"></a>
 
-#### Element Count <a id="element-count"></a>
+#### Количество элементов <a id="element-count"></a>.
 
-Minecraft's art style is founded in simplicity. The overall shape of an object should be defined by the model and most of the detail by the texture. It should always be a goal to keep the element count as low as possible while still accurately depicting the object. However, simplifying shapes shouldn't go too far, to the point where they are no longer recognizable.
+Художественный стиль Minecraft основан на простоте. Общая форма объекта должна определяться моделью, а большинство деталей - текстурой. Цель всегда должна заключаться в том, чтобы количество элементов было как можно меньше, но при этом точно отображать объект. Однако упрощение форм не должно заходить слишком далеко, до такой степени, чтобы они перестали быть узнаваемыми.
 
-#### Shape Depiction <a id="shape-depiction"></a>
+#### Изображение формы <a id="shape-depiction"></a>.
 
-Therefore, depicting slants and curves as stairs needs to be avoided. Rotating an element to create a slant instead is preferable. Rotated elements can be found in many Minecraft models, but their use needs to be justified. For example, rotating elements next to each other in order to form a curve does not conform with the Minecraft aesthetic.
+Поэтому следует избегать изображения наклонных и кривых элементов в виде лестниц. Лучше повернуть элемент, чтобы создать наклон. Повернутые элементы можно найти во многих моделях Minecraft, но их использование должно быть оправдано. Например, вращение элементов рядом друг с другом для создания кривой не соответствует эстетике Minecraft.
 
 ![Rotations](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/rotations.png)
 
-A spherical or cylindrical object would be translated into a single element. Examples of this principle can be found throughout the game \(barrel, cake, log, grindstone, pumpkin, melon, cocoa pod...\).
+Сферический или цилиндрический объект будет переведен в один элемент. Примеры этого принципа можно найти во всей игре \(бочка, торт, бревно, жернова, тыква, дыня, стручок какао...\).
 
 ![Round Shapes](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/round_shapes.png)
 
-Minecraft models utilize planes \(elements with only 2 faces\) and transparency, often together. Small parts of an object can be depicted by a single large element with certain pixels strategically being fully transparent. In the Minecraft art style, this solution is preferable to using many small elements to depict the same object/parts of an object.
+В моделях Minecraft используются плоскости \(элементы, имеющие только 2 грани\) и прозрачность, часто вместе. Небольшие части объекта могут быть изображены одним большим элементом, при этом некоторые пиксели стратегически полностью прозрачны. В художественном стиле Minecraft такое решение предпочтительнее, чем использование множества мелких элементов для изображения одного и того же объекта/частей объекта.
 
 ![Planes](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/planes.png)
 
-#### UV Mapping <a id="uv-mapping"></a>
+#### UV Mapping <a id="uv-mapping"></a>.
 
-The UV map defines how a texture is applied to the model. In Minecraft, a pixel on the texture corresponds to a pixel on the model \(1 unit of scale in Blockbench\). It is very important that the ratio of pixels is preserved on the model as well, i.e. that the texture does not get squashed or stretched.
+UV-карта определяет, как текстура накладывается на модель. В Minecraft пиксель на текстуре соответствует пикселю на модели\(1 единица масштаба в Blockbench\). Очень важно, чтобы соотношение пикселей сохранялось и на модели, т.е. чтобы текстура не сжималась и не растягивалась.
 
 ![UV Ratio](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/uv_ratio.png)
 
-In per-face UV mapping, Blockbench offers the Auto UV feature, which correctly scales the mapping of a face.
+При отображении UV Mapping в Blockbench предлагает функцию Auto UV, которая правильно масштабирует отображение лица.
 
 ![Auto UV](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/auto_uv.png)
 
-In box UV mapping, the map of the elements is unwrapped automatically and works for all faces by default. In the image below, you can see an example of an unwrapped UV map \(blue = north, yellow = south, pink = west, green = east, white = top, grey = bottom\). North is normally in the front \(e.g. that is where the face of a character or the door of a closet would be\).
+При коробочном UV-маппинге карта элементов разворачивается автоматически и по умолчанию работает для всех граней. На рисунке ниже вы можете увидеть пример развернутой UV карты \(синий = север, желтый = юг, розовый = запад, зеленый = восток, белый = верх, серый = низ\). Север обычно находится спереди\\(например, именно там будет лицо персонажа или дверь шкафа\).
 
 ![Box UV](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/box_uv.png)
 
-#### Mixels <a id="mixels"></a>
+#### Смешивания <a id="mixels"></a>
 
-Much like pixels are picture elements \(pix + el\), mixels are elements of mixed resolutions, be it 2D or 3D. Most low-spec art \(digitally restrictive art\) avoids mixels altogether. Minecraft art, generally speaking, does not allow mixels \(with the notable exception of slightly inflated elements on some models\). Mixels on models are manifested as elements smaller than 1px \(or 1 unit of scale in Blockbench\) or overly inflated elements.
+Подобно тому, как пиксели являются элементами изображения \(pix + el\), миксели - это элементы смешанного разрешения, будь то 2D или 3D. Большинство низкопробного искусства \(цифровое ограниченное искусство\) полностью избегает микселей. Искусство Minecraft, вообще говоря, не допускает микселей\(за исключением слегка раздутых элементов на некоторых моделях\). Миксели на моделях проявляются в виде элементов размером менее 1px \(или 1 единицы масштаба в Blockbench\) или чрезмерно раздутых элементов.
 
 ![Model Mixels](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/model_mixels.png)
 
-#### Size & Proportions <a id="size--proportions"></a>
+#### Размер и пропорции <a id="size--proportions"></a>.
 
-The dimensions of a Minecraft block are 16x16x16 pixels, which represents 1m³, meaning that a single pixel is 6.25cm long. This ratio should be taken into account, but it does not always apply. Small objects being recognizable takes priority over being to scale \(e.g. a bee would have to be smaller than 1px if it were perfectly proportionate\).
+Размеры блока Minecraft составляют 16x16x16 пикселей, что соответствует 1 м³, то есть длина одного пикселя равна 6,25 см. Это соотношение следует принимать во внимание, но оно не всегда применимо. Узнаваемость маленьких объектов имеет приоритет над масштабом\(например, пчела должна быть меньше 1px, если бы она была идеально пропорциональна\).
 
-Furthermore, functionality within the game's own proportions may not translate directly from real life. The most important example of this is the player model. It is significantly bulkier than a regular human, so objects that the player interacts with should be created with this in mind.
+Более того, функциональность пропорций в игре может не соответствовать реальной жизни. Самым важным примером этого является модель игрока. Он значительно крупнее обычного человека, поэтому объекты, с которыми взаимодействует игрок, должны быть созданы с учетом этого.
 
 ![Human Proportions](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/human_proportions.png)
 
-Like with any art form, changing the proportions of certain parts of the model influences the way the user interprets what is being depicted and its function. For example, a large head on a small body can make the character cute, while an exaggerated torso and arms indicate strength.
+Как и в любом виде искусства, изменение пропорций определенных частей модели влияет на то, как пользователь интерпретирует изображаемое и его функцию. Например, большая голова на маленьком теле может сделать персонажа милым, в то время как преувеличенные торс и руки указывают на силу.
 
 ![Character Proportions](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/golem_proportions.png)
 
-### Texturing <a id="texturing"></a>
+### Текстурирование <a id="texturing"></a>
 
-#### HSV <a id="hsv"></a>
+#### HSV <a id="hsv"></a>.
 
-Hue is the color family determined by wavelength \(e.g. brown falls into red or orange, aquamarine falls into blue etc.\). It can be thought of as a point in the spectrum of the rainbow. Its range is 0°-360° \(rainbow wrapped in a circle\).
+Оттенок - это семейство цветов, определяемое длиной волны (например, коричневый цвет относится к красному или оранжевому, аквамарин - к синему и т.д.\). Его можно представить как точку в спектре радуги. Его диапазон составляет 0°-360° \(радуга закручивается в круг\).
 
-Saturation is the color intensity, i.e. the presence of a given hue. The higher the saturation, the stronger the hue. Its range is 0-100 \(on the horizontal axis\).
+Насыщенность - это интенсивность цвета, т.е. наличие того или иного оттенка. Чем выше насыщенность, тем сильнее оттенок. Ее диапазон 0-100 \(на горизонтальной оси\).
 
-Value is the brightness of the color. A higher value means a brighter color. Its range is 0-100 \(on the vertical axis\).
+Значение - это яркость цвета. Чем выше значение, тем ярче цвет. Его диапазон 0-100 \(по вертикальной оси\).
 
 ![HSV](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/hsv.png)
 
-#### Color Ramps & Palettes <a id="color-ramps--palettes"></a>
+#### Цветовые рампы и палитры <a id="color-ramps--palettes"></a>.
 
-A color ramp is a lineup of all shades of a single color according to brightness. A color palette is the set of all color ramps used in a texture file. It is best to start the creation of a ramp with the midtone. From there, it is advisable to only create one shadow and one highlight and apply basic shading. Afterwards, more shades can be added.
+Цветовая рампа - это линейка всех оттенков одного цвета в зависимости от яркости. Цветовая палитра - это набор всех цветовых рамп, используемых в файле текстуры. Лучше всего начинать создание рампы со среднего тона. Далее рекомендуется создать только одну тень и один блик и применить базовое затенение. После этого можно добавить больше оттенков.
 
-Changing the hue, saturation and value between shades is called shifting \(hue shifting, saturation shifting, value shifting\). It is important to keep the step between shades balanced.
+Изменение оттенка, насыщенности и значения между оттенками называется сдвигом\(сдвиг оттенка, сдвиг насыщенности, сдвиг значения\). Важно, чтобы шаг между оттенками был сбалансированным.
 
-A straight ramp is a color ramp all of whose shades are only different in their value \(brightness\). Straight ramps are very easy to create and often aren’t used due to their dull look, but they can be suitable for some materials and colors. In the image below, the straight ramp is on the left and the hue-shifted ramp is on the right.
+Прямая рампа - это цветовая рампа, все оттенки которой отличаются только значением \(яркостью\). Прямые рампы очень просты в создании и часто не используются из-за их скучного вида, но они могут быть подходящими для некоторых материалов и цветов. На изображении ниже прямая рампа находится слева, а рампа со сдвигом оттенка - справа.
 
 ![Hue Shifting](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/hue_shifting.png)
 
-#### Shading <a id="shading"></a>
+#### Штриховка <a id="shading"></a>.
 
-In pixel art and, therefore, in Minecraft art, placing pixels needs to be deliberate. In order to achieve this, the use of purposefully restricted palettes and a set of tools without smoothness \(pencil, shape tool, fill bucket and eraser\) are necessary. The material properties need to be clearly defined.
+В пиксельном искусстве и, следовательно, в искусстве Minecraft, размещение пикселей должно быть преднамеренным. Для этого необходимо использовать специально ограниченные палитры и набор инструментов без сглаживания\(карандаш, инструмент формы, заливка и ластик\). Свойства материала должны быть четко определены.
 
-Anti-aliasing or AA is a method of manually smoothing out the transition between shapes by placing differently colored pixels on the border. The egg on the left contains AA, the one on the right doesn't.
+Сглаживание или AA - это метод ручного сглаживания перехода между формами путем размещения разноцветных пикселей на границе. Яйцо слева содержит АА, а яйцо справа - нет.
 
 ![Anti-Aliasing](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/anti_aliasing.png)
 
-Dithering is a method of transitioning between two pixel clusters by intersecting their pixels in a certain pattern. Checkered dithering is the most common type.
+Дизеринг - это метод перехода между двумя кластерами пикселей путем пересечения их пикселей по определенной схеме. Наиболее распространенным типом является клетчатый дизеринг.
 
 ![Dithering](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/dithering.png)
 
-Using a brush can produce a noisy texture. Noise adds no information to the texture and, in the worst case, makes it unrecognizable without context.
+Использование кисти может привести к созданию шумной текстуры. Шум не добавляет никакой информации к текстуре и, в худшем случае, делает ее неузнаваемой без контекста.
 
 ![Noisy Texture](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/noisy_texture.png)
 
-There are many possible ways for shading to go in the wrong direction, often by accident. Banding, in the broadest sense, is an artifact of pixels that line up in a sequence from brightest to darkest, whether in straight lines \(a.k.a. fat lines or fat pixels\), diagonal lines \(a.k.a. staircase banding\) or in corners \(a.k.a. hugging\). The reason it needs to be avoided is that it reveals the pixel grid, distracts the eye of the viewer and the shape is misrepresented. Banding usually appears when the artist tries to create anti-aliasing or has a hard time distributing the shades over a surface.
+Существует множество возможных путей, по которым затенение может пойти в неправильном направлении, часто случайно. Полосатость в широком смысле - это артефакт пикселей, которые выстраиваются в последовательности от самого светлого к самому темному, будь то прямые линии \(они же жирные линии или жирные пиксели\), диагональные линии \(они же лестничные полосы\) или углы \(они же объятия\). Причина, по которой этого следует избегать, заключается в том, что это обнажает пиксельную сетку, отвлекает взгляд зрителя и искажает форму. Полосатость обычно появляется, когда художник пытается создать сглаживание или с трудом распределяет тени по поверхности.
 
 ![Banding](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/banding.png)
 
-Pillow shading is an artifact similar to banding, where the artist applies shades concentrically from darkest to brightest in an attempt to somehow cover the surface.
+Подушечная штриховка - это артефакт, похожий на полосатость, когда художник наносит оттенки концентрически от самого темного к самому светлому в попытке как-то охватить поверхность.
 
 ![Pillow Shading](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/pillow_shading.png)
 
-Pancake shading is an artifact of placing the highlights on one side and shadows on the opposite side of a surface. It disregards the shape of the surface.
+Блинное затенение - это артефакт размещения бликов на одной стороне, а теней - на противоположной стороне поверхности. При этом форма поверхности не учитывается.
 
 ![Pancake Shading](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/pancake_shading.png)
 
-Unnecessary dithering comes in different forms, the most basic of which is the overuse of dithering where the transition starts, covering too much surface area. Other cases are when there is no need for dithering at all or when it’s used inconsistently \(randomly, only in some places\) within the texture.
+Ненужное дизеринг проявляется в разных формах, самая основная из которых - чрезмерное использование дизеринга там, где начинается переход, покрывающий слишком большую площадь поверхности. Другие случаи - когда в дизеринге вообще нет необходимости или когда он используется непоследовательно\(случайно, только в некоторых местах\) в текстуре.
 
 ![Unnecessary Dithering](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/unnecessary_dithering.png)
 
-Mixels on the texture can only occur if the artist purposefully scales up their texture and proceeds to draw on it. This is usually done in order to add more detail. If there is no space for additional detail in the 16x16 resolution, either the entire texture needs to be reevaluated or the detail is not necessary. Elements of conflicting resolutions make a texture seem off-balance and less appealing. It usually looks as though it was scaled up or down wrong.
+Смешения на текстуре могут произойти только в том случае, если художник целенаправленно увеличивает масштаб своей текстуры и начинает рисовать на ней. Обычно это делается для того, чтобы добавить больше деталей. Если в разрешении 16x16 нет места для дополнительных деталей, то либо вся текстура нуждается в переоценке, либо детализация не нужна. Элементы конфликтующих разрешений делают текстуру несбалансированной и менее привлекательной. Обычно это выглядит так, как будто текстура была неправильно увеличена или уменьшена.
 
 ![Texture Mixels](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/texture_mixels.png)
 
-#### Lines & Shapes <a id="lines--shapes"></a>
+#### Линии и фигуры <a id="lines--shapes"></a>
 
-Jaggies are shapes \(unintentional corners\) in pixel art that appear due to lines/edges being unpolished or lacking anti-aliasing. Straight lines need to have a consistent step so that they wouldn't look unpolished. This has to do with the geometric properties of diagonals. Curves can also contain jaggies, usually visible as corners or diagonal lines \(meant to represent round shapes\).
+Jaggies - это формы \(непреднамеренные углы\) в пиксель-арте, которые появляются из-за того, что линии/края не отполированы или не хватает сглаживания. Прямые линии должны иметь постоянный шаг, чтобы они не выглядели неполированными. Это связано с геометрическими свойствами диагоналей. Кривые также могут содержать зазубрины, обычно видимые как углы или диагональные линии\(предназначенные для представления круглых форм\).
 
 ![Jaggies](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/jaggies.png)
 
-#### Item Textures <a id="item-textures"></a>
+#### Текстуры предметов <a id="item-textures"></a>.
 
-All drawn items fit within a 16x16 grid.
+Все нарисованные предметы помещаются в сетку 16x16.
 
-1. Start by drawing the shape of the item using a midtone. Give it a significantly darker outline.
-2. Add a highlight and a shadow. Item textures are shaded with the light source imagined as coming from the top left corner. Shade the outline accordingly.
-3. Add the rest of the palette \(more highlights and shadows\).
-4. Add in surface properties. In this example, the item is translucent and smooth. In other cases, the properties could be roughness, cracks, folds, dirtiness...
+1. Начните с рисования формы предмета средним тоном. Сделайте контур значительно темнее.
+2. Добавьте блик и тень. Текстуры предметов затеняются с помощью источника света, который изображается как исходящий из левого верхнего угла. Заштрихуйте контур соответствующим образом.
+3. Добавьте остальную палитру\(больше бликов и теней\).
+4. Добавьте свойства поверхности. В данном примере предмет полупрозрачный и гладкий. В других случаях свойствами могут быть шероховатость, трещины, складки, грязь...
 
 ![Item Creation](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/item_creation.png)
 
-#### Block Textures <a id="block-textures"></a>
+#### Блочные текстуры <a id="block-textures"></a>.
 
-Block textures need to look good on their own, as well as when placed next to each other. Placing several blocks of the same kind next to each other is called tiling. If a portion of the texture visibly repeats, revealing the tiling pattern, it is called a tiling artifact and is to be corrected.
+Блочные текстуры должны хорошо выглядеть как сами по себе, так и при размещении рядом друг с другом. Размещение нескольких блоков одного вида рядом друг с другом называется тайлингом. Если часть текстуры заметно повторяется, выявляя рисунок тайлинга, это называется артефактом тайлинга и подлежит исправлению.
 
-Blockbench can be used to make the block texture directly \(in Paint mode\) or just as a live 3D preview of a texture created in an external image editor. The best way to preview tiling is by creating a wall of 3x3 blocks.
+Blockbench можно использовать для создания блочной текстуры непосредственно \(в режиме Paint\) или просто как живой 3D-просмотр текстуры, созданной во внешнем редакторе изображений. Лучший способ предварительного просмотра облицовки - это создание стены из блоков 3x3.
 
-It is important to check tiling before doing too much shading. An early version of the texture with two or three shades is enough. After checking for tiling, you can proceed with shading, but still regularly check for tiling as you shade.
+Очень важно проверить тайлинг перед тем, как делать слишком много затенений. Достаточно ранней версии текстуры с двумя или тремя оттенками. После проверки тайлинга можно приступать к затенению, но при этом регулярно проверять тайлинг в процессе затенения.
 
 ![Block Tiling](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/block_tiling.png)
 
-#### Entity Textures <a id="entity-textures"></a>
+#### Текстуры сущностей <a id="entity-textures"></a>.
 
-Entity textures use box UV mapping and follow a special set of texturing guidelines. The top and front of the entity need to be brighter than the bottom and back. This applies to shading the faces individually, as well as how the faces are shaded relative to each other \(e.g. the top face will be noticeably brighter than the bottom face\).
+Текстуры сущностей используют коробочное UV отображение и следуют специальному набору рекомендаций по текстурированию. Верхняя и передняя части сущности должны быть ярче, чем нижняя и задняя. Это относится как к затенению лиц по отдельности, так и к тому, как лица затенены относительно друг друга\\(например, верхнее лицо будет заметно ярче нижнего\).
 
-1. Generate a texture template to make the texturing process easier. Blockbench automatically maps the elements too.
-2. Sketch the color distribution, add a shadow and a highlight.
-3. Add more shades to the palette.
-4. Define the material by editing the relative position of clusters of certain shades. Get rid of banding and any other shading artifacts from the previous steps.
+1. Создайте шаблон текстуры, чтобы облегчить процесс текстурирования. Blockbench автоматически отображает элементы.
+2. Набросайте распределение цветов, добавьте тень и блик.
+3. Добавьте больше оттенков в палитру.
+4. Определите материал, редактируя взаимное расположение кластеров определенных оттенков. Избавьтесь от полос и любых других артефактов затенения, полученных на предыдущих этапах.
 
 ![Entity Creation](https://www.blockbench.net/images/wiki/guides/minecraft_style_guide/entity_creation.png)
 
-## **Authors**
+## **Автор**
 
 \*\*\*\*[![](https://avatars.githubusercontent.com/u/85763346?v=4) MasterianoX](https://github.com/MasterianoX)
 

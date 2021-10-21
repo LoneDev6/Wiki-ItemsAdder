@@ -5,27 +5,27 @@
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" caption="" %}
 
 {% hint style="warning" %}
-You **cannot** use **GoogleDrive** and others because they don't provide a **direct download**. **Dropbox does**.
+Вы **не можете** использовать **GoogleDrive** и другие, потому что они не обеспечивают **прямую загрузку**. А **Dropbox обеспечивает**.
 {% endhint %}
 
-## Text tutorial
+## Учебник по работе с текстом
 
-* Open [DropBox](https://dropbox.com/), register/login
-* Use the command`/iazip` \(**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file\)
-* Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* **Drag and drop** on **DropBox** the file **pack.zip**
-* Press **Share**
+* Откройте [DropBox](https://dropbox.com/), зарегистрируйтесь/залогиньтесь.
+* Используйте команду `/iazip`\ (**это важно**, потому что `/iazip` перезагружает конфиги и обновляет файл **pack.zip**\)
+* Откройте папку: `plugins/ItemsAdder/data/resource_pack/`
+* **Перетащите** в **DropBox** файл **pack.zip**
+* Нажмите **Share**
 
 ![](../../.gitbook/assets/immagine%20%2825%29.png)
 
-* Press **Create**
+* Нажмите **Создать**
 
 ![](../../.gitbook/assets/immagine%20%2824%29.png)
 
-* Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0) 
-* Open `config.yml` of **ItemsAdder**
-* Set it like this \(**I used the example URL, please use your own**\)
+* Нажмите **Копировать ссылку**
+* Например, если ваша ссылка [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)
+* Откройте `config.yml` из **ItemsAdder**
+* Установите его следующим образом\(**Я использовал пример URL, пожалуйста, используйте свой собственный**\)
 
 ```yaml
 resource-pack:
@@ -41,21 +41,21 @@ resource-pack:
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-* **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` \(in this case to reload the resourcepack download link\)
-* **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
+* **ЭТО ОЧЕНЬ ВАЖНО**: **Используйте команду** `/iareload` для **перезагрузки** **плагина после того, как вы **изменили** что-то в `config.yml` \ (в данном случае для перезагрузки ссылки на загрузку ресурспака\)
+* **Используйте команду** `/iatexture` на вашей игре, чтобы обновить текущую текстуру игры внутри игры или используйте `/iatexture all`, чтобы обновить ее для каждого игрока.
 
 {% hint style="danger" %}
-PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+ПОЖАЛУЙСТА, используйте `/iazip` **каждый раз**, когда редактируете **текстуру**, 3D **модель**, **звук**... затем **перезагрузите** пакет на **Dropbox** и используйте **/iareload**, иначе вы не увидите никаких изменений.
 {% endhint %}
 
 {% hint style="warning" %}
-**Change** the **file name each time** you **upload** a **new version** of the **resourcepack** to **force** the game to **redownload** the **new version**.  
-If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
+**Изменяйте** имя **файла каждый раз, когда** вы **загружаете** **новую версию** **пакета ресурсов**, чтобы **заставить** игру **перезагрузить** **новую версию**.  
+Если вы **перезагрузите** **zip** файл с тем же именем и сохраните **одинаковый URL**, он **не будет обновляться** для каждого игрока.
 {% endhint %}
 
-## But this is so slow! I have to reupload on DropBox too many times!
+## Но это так медленно! Мне приходится перезагружать на DropBox слишком много раз!
 
-Yea it is, that's why you should use the self host feature instead of DropBox. But some hosting \(cheap ones\) don't provide port opening, so you must use DropBox.
+Да, это так, поэтому вы должны использовать функцию self host вместо DropBox. Но некоторые хостинги\ (дешевые\) не обеспечивают открытие портов, поэтому вы должны использовать DropBox.
 
 {% page-ref page="resourcepack-self-hosting.md" %}
 

@@ -1,52 +1,51 @@
-# Automatic external hosting
+# Автоматический внешний хостинг
 
-## Video tutorial
+## Видеоурок
 
 {% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" caption="" %}
 
-## What is automatic hosting?
+## Что такое автоматический хостинг?
 
-ItemsAdder 2.4.9 allows you to automatically upload your resourcepack on a **free online service** with servers all over the world.
+ItemsAdder 2.4.9 позволяет автоматически загружать ваш ресурспак на **бесплатный онлайн-сервис** с серверами по всему миру.
 
-Thanks a lot to [PloudOS ](https://ploudos.com/it/)which privides me their platform to host your resourcepacks for free!
+Большое спасибо [PloudOS ](https://ploudos.com/it/), которая предоставляет мне свою платформу для бесплатного размещения ваших ресурспаков!
 
-## What are the advantages?
+## В чем преимущества?
 
-The main advantage is download speed and availability.  
-This service allows your players to download the resourcepack very fast despite the country where they live \(cloud based platform\).
+Основным преимуществом является скорость загрузки и доступность.  
+Этот сервис позволяет вашим игрокам скачивать ресурспак очень быстро, несмотря на страну, в которой они живут\(облачная платформа\).
 
-## I already use self-host, is this better?
+## Я уже использую self-host, это лучше?
 
-Depends.  
-It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continously run `/iazip`, to avoid losing time \(read more [here](../tips-for-fastest-usage.md)\).
+Возможно.  
+Лучше использовать [self-hosting](resourcepack-self-hosting.md), если вы работаете над ресурспаком и вам приходится постоянно запускать `/iazip`, чтобы избежать потери времени \(подробнее [здесь](../tips-for-fastest-usage.md)\).
 
-When you've finished working on the pack you can safely start using the `auto-external-host` feature.  
-This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.
+Когда вы закончите работу над ресурспаком, можете смело начинать использовать функцию `auto-external-host`.  
+Это уменьшит трафик вашего сервера, так как ресурспак больше не будет размещаться на вашем сервере.
 
-If your playerbase is all from the same country you can stick with `self-host`.
+Если все ваши игроки из одной страны, вы можете выбрать `self-host`.
 
-## How to use it?
+## Как его использовать?
 
-You just have to:
+Вам просто нужно:
 
-* enable `auto-external-host` in `config.yml` 
-* disable all the other hosting methods.
+* включить `auto-external-host` в `config.yml`
+* отключить все остальные методы хостинга.
 
 ```yaml
 auto-external-host:
   enabled: true
 ```
 
-### Last step
+### Последний шаг
 
-Run `/iazip` to **compress** the **resourcepack**.  
-**\*\*The** plugin **will** upload it **online** automatically **\(you will have to** accept the privacy policy\*\* only the first time\).
+Введите `/iazip`, чтобы **сжать** **ресурспакет**.  
+**\*\* Плагин **загрузит его **онлайн** автоматически **\(вам придется **принять политику конфиденциальности\*\* только в первый раз\*).
 
-**You're done!** Nothing else to do, enjoy your **free automated resourcepack hosting**.
+**Вы закончили!** Больше ничего не нужно делать, наслаждайтесь вашим **бесплатным автоматизированным хостингом ресурспаков**.
 
-## Will my resourcepack be available online to random people?
+## Будет ли мой ресурсный пакет доступен в Интернете для случайных людей?
 
 2021-08-16:  
-Your resourcepack won't be indexed on Google and won't be published in a list of resourcepacks.  
-Only people who know the link can download the pack.
-
+Ваш ресурспак не будет проиндексирован в Google и не будет опубликован в списке ресурспаков.  
+Только люди, знающие ссылку, смогут скачать этот пакет.

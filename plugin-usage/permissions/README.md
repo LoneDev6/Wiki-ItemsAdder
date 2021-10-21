@@ -5,7 +5,7 @@
     * `ia.user.ia`
   * /iarecipe
     * `ia.user.iarecipe`
-  * /iatexture \(to force apply the pack to yourself\)
+  * /iatexture \(принудительно наложить пакет только на себя\)
     * `ia.user.iatexture`
   * крафтинг
     * `ia.user.craft.PERMISSION` \(или выдайте все права на крафты сразу одной строкой - ia.user.craft.\*\)
@@ -50,7 +50,7 @@
     * `ia.admin.iareload`
   * /iablock \(дает информацию о блоке, на который вы смотрите\)
     * `ia.admin.iablock`
-  * /ialiquid _\(get info about custom liquid you're looking at\)_
+  * /ialiquid _\(получить информацию о жидкости, которую вы просматриваете\)_
     * `ia.admin.ialiquid`
   * /iadurability
     * ia.admin.iadurability
@@ -76,7 +76,7 @@
     * `ia.admin.iaplaysound`
   * /iacleancache
     * `ia.admin.iacleancache`
-  * /iahitbox \(shows the hitbox of placed furnitures\)
+  * /iahitbox \(показывает хитбокс размещенных предметов мебели\)
     * `ia.admin.iahitbox`
 * Прочее:
   * Право избежать отключение от сервера, если владелец права отказался от пакета ресурсов

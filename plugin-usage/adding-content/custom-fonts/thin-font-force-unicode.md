@@ -1,39 +1,39 @@
-# Thin font \(force unicode\)
+# Тонкий шрифт \(принудительный юникод\)
 
-## Thin font
+## Тонкий шрифт
 
-Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"_.
+Обычно в Minecraft вы устанавливаете **Force Unicode Font: ON**, чтобы получить _"тонкий шрифт"_.
 
 ![](../../../.gitbook/assets/immagine%20%284%29.png)
 
-  
-With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft bug.
+
+С **ItemsAdder** это невозможно, потому что это сделает emoji, GUI, HUD больше не работающими. Это баг Minecraft.
 
 {% hint style="warning" %}
-You must set **Force Unicode Font: OFF** 
+Вы должны установить **Force Unicode Font: ВЫКЛ**
 {% endhint %}
 
 ![](../../../.gitbook/assets/immagine%20%283%29.png)
 
-and **set this** in `config.yml`
+и **установить это** в `config.yml`.
 
 ```yaml
   thin-font:
     enabled: true
 ```
 
-This allows you to set **Force Unicode Font: OFF** but still have the thin font enabled.
+Это позволяет вам установить **Force Unicode Font: OFF**, но при этом включить тонкий шрифт.
 
 {% hint style="warning" %}
-Remember, after this change you have to regenerate your pack.zip file.   
-Check [Resourcepack tutorials](../../resourcepack-hosting/)
+Помните, что после этого изменения вы должны заново создать ваш файл pack.zip.
+Проверьте [Resourcepack tutorials](../../resourcepack-hosting/)
 {% endhint %}
 
-### This is the result
+### Вот результат
 
 ![](../../../.gitbook/assets/immagine%20%286%29.png)
 
 {% hint style="success" %}
-Now you can see the "thin font" and GUIs, emojis, HUDs won't break \(bugged white squares\)
+Теперь вы можете видеть "тонкий шрифт" и графические интерфейсы, эмодзи, HUD'ы и это не будут ломаться\(ошибка белых квадратов\).
 {% endhint %}
 

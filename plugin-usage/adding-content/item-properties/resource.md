@@ -1,13 +1,13 @@
 ---
-description: Properties that allows customization of item graphics
+Описание: Свойства, позволяющие настраивать графику элементов
 ---
 
-# Resource
+# Ресурсы
 
-## Automatic generation
+## Автоматическая генерация
 
-In order to tell ItemsAdder which texture/model use for an item you have to add the `resource` attribute.  
-This is an example:
+Для того чтобы указать ItemsAdder, какую текстуру/модель использовать для элемента, необходимо добавить атрибут `resource`.  
+Вот пример:
 
 ```yaml
   resource:
@@ -17,27 +17,27 @@ This is an example:
     - item/example_item.png
 ```
 
-`material` is the vanilla material this item will use as base.
+`material` - это ванильный материал, который предмет будет использовать в качестве основы.
 
-`generate` tells to IA if it needs to generate the item model automatically based on textures you listed
+`generate` сообщает IA, нужно ли ему автоматически генерировать модель элемента на основе перечисленных вами текстур
 
-`textures` is the list of textures IA will use to generate the model automatically.
+`textures` - это список текстур, которые IA будет использовать для автоматической генерации модели.
 
-### Where do I put textures?
+### Где разместить текстуры?
 
-Textures you listed in the `textures` attribute must be placed in the right folder.  
-So if you set `textures` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `example_item.png` ****file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
+Куда мне поместить текстуры Текстур, которые вы указали в атрибуте `textures`, они должны быть помещены в нужную папку.  
+Так что если вы установили `textures` как в примере и ваш **namespace** \(это для примера\) `myitems`, то вы должны поместить `example_item.png` ****file в эту папку: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`es?
 
-If the path doesn't exists create all the folders needed.
+Если путь не существует, создайте все необходимые папки.
 
 {% hint style="info" %}
-You can avoid setting `.png` in the `textures` attribute, IA will recognize the file automatically
+Вы можете не устанавливать `.png` в атрибуте `textures`, IA распознает файл автоматически
 {% endhint %}
 
-## Use your own custom model
+## Использование вашей пользовательской модель
 
-If you have a custom modelled sword or item you can tell IA not to generate the model automatically.  
-This is an example:
+Если у вас есть пользовательская модель меча или предмета, вы можете указать IA не генерировать модель автоматически.  
+Вот пример:
 
 ```yaml
   resource:
@@ -47,14 +47,14 @@ This is an example:
 
 ```
 
-### Where do I put my model?
+### Куда поместить модель?
 
-Model you set in the `model_path`attribute must be placed in the right folder.  
-So if you set `model_path` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `floating_sword.json` ****file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
+Модель, которую вы задали в атрибуте `model_path`, должна быть помещена в правильную папку.  
+Так, если вы установили `model_path` как в примере и ваш **namespace** \(это для примера\) `myitems`, вы должны поместить `floating_sword.json` ****file в эту папку: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`.
 
-If the path doesn't exists create all the folders needed.
+Если путь не существует, создайте все необходимые папки.
 
-## Transparent textures \(glass and similar\)
+## Прозрачные текстуры\(стекло и подобные\)
 
 {% page-ref page="../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
 

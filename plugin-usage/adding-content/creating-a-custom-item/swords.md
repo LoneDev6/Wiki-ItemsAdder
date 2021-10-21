@@ -1,12 +1,12 @@
-# Swords
+# Мечи
 
 {% hint style="danger" %}
-If you didn't create your namespace please follow the [namespace tutorial](../creating-your-namespace.md).
+Если вы не создали свой namespace, следуйте руководству [namespace tutorial](../creating-your-namespace.md).
 {% endhint %}
 
-## My first sword
+## Мой первый меч
 
-This is an example sword \(remember to change myitems namespace to the one you want\)
+Вот пример меча \(не забудьте изменить namespace myitems на тот, которое вы хотите\)
 
 ```yaml
 info:
@@ -25,7 +25,7 @@ items:
   
 ```
 
-### Setting the texture
+### Установка текстуры
 
 {% page-ref page="../item-properties/resource/" %}
 

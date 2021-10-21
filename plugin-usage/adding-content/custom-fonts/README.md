@@ -1,13 +1,12 @@
-# Custom fonts
+# Пользовательские шрифты
 
-## Example custom font
+## Пример пользовательского шрифта
 
 ![](../../../.gitbook/assets/immagine%20%285%29.png)
 
-To this you have to:
+Для этого вам необходимо:
 
-* download the japanese font [here](http://matteodev.it/spigot/itemsadder/res/v2/font.zip)
-* extract contents into `plugins\ItemsAdder\data\resource_pack\assets\minecraft\font`
-* open config.yml and set `custom-font enabled: true`
-* and obviously if you're using [dropbox host](../../resourcepack-hosting/resourcepack-on-dropbox.md) you have to reupload the pack.zip after server restart
-
+* скачать японский шрифт [здесь](http://matteodev.it/spigot/itemsadder/res/v2/font.zip)
+* извлеките содержимое в `plugins\ItemsAdder\data\resource_pack\assets\minecraft\font`
+* откройте config.yml и установите `custom-font enabled: true`
+* и, очевидно, если вы используете [dropbox host](../../resourcepack-hosting/resourcepack-on-dropbox.md), вы должны перезагрузить pack.zip после перезапуска сервера.

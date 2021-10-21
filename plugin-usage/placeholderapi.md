@@ -5,15 +5,15 @@
 Используйте данный заполнитель: `%img_ИМЯ%` где вместо "ИМЯ" вы должны указать название картинки\_юникода из файла конфигурации \(не путайте с названием PNG-файла\).  
 Пример использования: `%img_smile%`
 
-## Offsets
+## Смещение
 
-You can shift text/font\_images back and forward.  
-For example
+Вы можете сдвигать текст/шрифт\_изображения назад и вперед.  
+Например.
 
-* you can shift it back of 16 pixels by writing `%img_offset_-16%` .
-* you can shift it forward of 16 pixels by writing `%img_offset_16%` .
+* Вы можете сдвинуть его на 16 пикселей назад, написав `%img_offset_-16%` .
+* вы можете сдвинуть его вперед на 16 пикселей, написав `%img_offset_16%` .
 
-## ItemsAdder PlayerStats \(HUDs values\)
+## ItemsAdder Статистика игрока\(значения HUDs\)
 
 Эти статистики используются плагином и они не являются ванильными.
 

@@ -1,119 +1,118 @@
-# Commands
+# Команды
 
 * iatexture:
-  * description: Force the client to reload resourcepack \(a player or everyone\)
-  * usage: /iatexture \[all or player\]
-  * permission: "ia.user.iatexture"
+  * описание: Заставить клиента перезагрузить ресурспак \(игрока или всех\)
+  * использование: /iatexture \[все или игрок\]
+  * разрешение: "ia.user.iatexture"
 * iaget:
-  * description: Get custom item by namespaced id or by id
-  * usage: /iaget &lt;item&gt; \[amount\]
-  * permission: "ia.admin.iaget"
+  * описание: Получить пользовательский элемент по имени или по id.
+  * использование: /iaget &lt;item&gt; \[amount\]
+  * разрешение: "ia.admin.iaget"
 * iagive:
-  * description: Give custom item to player
-  * usage: /iagive &lt;item&gt; \[amount\] \[silent\]
-  * permission: "ia.admin.iagive"
+  * описание: Дать игроку пользовательский предмет
+  * использование: /iagive &lt;item&gt; \[amount\] \[silent\]
+  * разрешение: * "ia.admin.iagive"
 * iadrop:
-  * description: Drop custom item at coords or at player location
-  * usage: /iadrop &lt;item&gt; \[amount\]
-  * permission: "ia.admin.iadrop"
+  * описание: Бросает пользовательский предмет в координатах или в местоположении игрока
+  * использование: /iadrop &lt;item&gt; \[amount\]
+  * разрешение: "ia.admin.iadrop"
 * iaremove:
-  * description: Remove custom item from player inventory
-  * usage: /iaremove &lt;item&gt; \[amount\] \[silent\]
-  * permission: "ia.admin.iaremove"
+  * описание: Удалить пользовательский предмет из инвентаря игрока
+  * использование: /iaremove &lt;item&gt; \[amount\] \[silent\]
+  * разрешение: "ia.admin.iaremove"
 * iatag:
-  * description: Shows custom item debug info
-  * usage: /iatag
-  * permission: "ia.admin.iatag"
+  * описание: Показывает отладочную информацию о пользовательском элементе
+  * использование: /iatag
+  * разрешение: "ia.admin.iatag"
 * iacustommodeldata:
-  * description: Shows custom item CustomModelData
-  * usage: /iacustommodeldata
-  * permission: "ia.admin.custommodeldata"
+  * описание: Показывает пользовательский элемент CustomModelData.
+  * использование: /iacustommodeldata
+  * разрешение: "ia.admin.custommodeldata"
 * iaplayerstat:
-  * description: Set a custom player stat \(and update HUD\) value
-  * usage: /iaplayerstat &lt;read\|write&gt; &lt;player&gt; &lt;attribute&gt; &lt;int\|float\|string&gt; \[value\]
-  * permission: "ia.admin.iaplayerstat"
+  * описание: Установить пользовательскую статистику игрока \(и обновить значение HUD\)
+  * использование: /iaplayerstat &lt;read\|write&gt; &lt;player&gt; &lt;attribute&gt; &lt;int\|float\|string&gt; \[value\]
+  * разрешение: "ia.admin.iaplayerstat"
 * ia:
-  * description: Opens items info GUI
-  * usage: /ia
-  * permission: "ia.user.ia"
+  * описание: Открывает графический интерфейс информации об элементах
+  * использование: /ia
+  * разрешение: "ia.user.ia"
 * iarepair:
-  * description: Repairs current item \(vanilla or custom\)
-  * usage: /iarepair
-  * permission: "ia.admin.iarepair"
+  * описание: Ремонтирует текущий предмет \(ванильный или пользовательский\)
+  * использование: /iarepair
+  * разрешение: "ia.admin.iarepair"
 * iadurability:
-  * description: Modify durability of current item \(vanilla or custom\)
-  * usage: /iadurability
-  * permission: "ia.admin.iadurability"
+  * описание: Изменить долговечность текущего предмета \(ванильный или пользовательский\)
+  * использование: /iadurability
+  * разрешение: "ia.admin.iadurability"
 * iareload:
-  * description: Reloads items\_packs files
-  * usage: /iareload
-  * permission: "ia.admin.iareload"
+  * описание: Перезагружает файлы items\_packs
+  * использование: /iareload
+  * разрешение: "ia.admin.iareload"
 * iazip:
-  * description: Executes /iareload and generates pack.zip file
-  * usage: /iazip
-  * permission: "ia.admin.iazip"
+  * описание: Выполняет команду /iareload и генерирует файл pack.zip.
+  * использование: /iazip
+  * разрешение: "ia.admin.iazip"
 * iablock:
-  * description: Show info about block you're looking at
-  * usage: /iablock
-  * permission: "ia.admin.iablock"
+  * description: Показать информацию о просматриваемом блоке.
+  * использование: /iablock
+  * разрешение: "ia.admin.iablock"
 * ialiquid:
-  * description: Show info about liquid you're looking at
-  * usage: /ialiquid \[x\] \[y\] \[z\]
-  * permission: "ia.admin.ialiquid"
+  * описание: Показать информацию о жидкости, на которую вы смотрите.
+  * использование: /ialiquid \[x\] \[y\] \[z\]
+  * разрешение: "ia.admin.ialiquid"
 * e:
-  * description: Show list of font images \(emojis, huds...\). Can also be used to send messages with emojis autocomplete.
-  * usage: /iaimage
-  * permission: "ia.user.image.gui"
+  * description: Показать список изображений шрифтов \(emojis, huds...\). Также может использоваться для отправки сообщений с автозаполнением эмодзи.
+  * использование: /iaimage
+  * разрешение: "ia.user.image.gui"
 * iarecipe:
-  * description: Show item recipe GUI
-  * usage: /iarecipe \[item\]
-  * permission: "ia.user.iarecipe"
+  * описание: Показать графический интерфейс рецепта элемента
+  * использование: /iarecipe \[item\]
+  * разрешение: "ia.user.iarecipe"
 * iahud:
-  * description: Force show/hide a HUD manually by namespaced id
-  * usage: /iahud \[name\]
-  * permission: "ia.admin.iahud"
+  * описание: Принудительное отображение/скрытие HUD вручную по id.
+  * использование: /iahud \[name\]
+  * разрешение: "ia.admin.iahud"
 * iaconvert:
-  * description: Converts old 1.0 world to 2.0 world \(blocks\), you can decide to delete ores \(set stone\) or keep them
-  * usage: /iaconvert \[world\] \[deleteores\]
-  * permission: "ia.admin.iaconvert"
+  * описание: Конвертирует старый мир 1.0 в мир 2.0 \(блоки\), вы можете решить удалить руды \(установить камень\) или оставить их.
+  * использование: /iaconvert \[world\] \[deleteores\]
+  * разрешение: "ia.admin.iaconvert"
 * iainfo:
-  * description: Shows info about the plugin
-  * usage: /iainfo
-  * permission: "ia.admin.iainfo"
+  * описание: Показывает информацию о плагине
+  * использование: /iainfo
+  * разрешение: "ia.admin.iainfo"
 * iakill:
-  * description: Kills custom mobs
-  * usage: /iakill
-  * permission: "ia.admin.iakill"
+  * описание: Убивает пользовательских мобов
+  * использование: /iakill
+  * разрешение: "ia.admin.iakill"
 * iasummon:
-  * description: Summons custom mobs
-  * usage: /iasummon \[amount\]
-  * permission: "ia.admin.iasummon"
+  * описание: Вызывает пользовательских мобов
+  * использование: /iasummon \[amount\]
+  * разрешение: "ia.admin.iasummon"
 * iaexport:
-  * description: Exports a namespace into a .zip file
-  * usage: /iaexport &lt;namespace&gt;
-  * permission: "ia.admin.iaexport"
+  * описание: Экспортирует пространство имен в .zip файл.
+  * использование: /iaexport &lt;namespace&gt;
+  * разрешение: "ia.admin.iaexport"
 * iaspawntree:
-  * description: Spawns a custom tree
-  * usage: /iaspawntree
-  * permission: "ia.admin.iaspawntree"
-* iaplaytotemanimation:
-  * description: Shows a Totem Of Undying animation
-  * usage: /iaplaytotemanimation
-  * permission: "ia.admin.iatotemanimation"
+  * описание: Создает пользовательское дерево
+  * использование: /iaspawntree
+  * разрешение: "ia.admin.iaspawntree"
+* iaplaytototemanimation:
+  * описание: Показывает анимацию Totem Of Undying.
+  * использование: /iaplaytototemanimation
+  * разрешение: "ia.admin.iatotemanimation"
 * iaplaysound:
-  * description: Play itemsadder sounds. Useful in console since vanilla /playsound is bugged in console.
-  * usage: /iaplaysound
-  * permission: "ia.admin.iaplaysound"
+  * описание: Воспроизводить звуки итемаддера. Полезно в консоли, так как ванильный /playsound работает с ошибками в консоли.
+  * использование: /iaplaysound
+  * разрешение: "ia.admin.iaplaysound"
 * iacleancache:
-  * description: Cleans unused IDs from cache to allow them to be used by future added blocks / items.
-  * usage: /iacleancache
-  * permission: "ia.admin.iacleancache"
+  * описание: Очищает неиспользуемые идентификаторы из кэша, чтобы они могли быть использованы будущими добавленными блоками / элементами.
+  * использование: /iacleancache
+  * разрешение: "ia.admin.iacleancache"
 * iasha1:
-  * description: Calculates sha1 of the current resourcepack.
-  * usage: /iasha1
-  * permission: "ia.user.iasha1"
+  * описание: Вычисляет sha1 текущего ресурспака.
+  * использование: /iasha1
+  * разрешение: "ia.user.iasha1"
 * iahitbox:
-  * description: Shows the hitbox of placed furnitures.
-  * usage: /iahitbox
-  * permission: "ia.admin.iahitbox"
-
+  * описание: Показывает хитбокс расставленных предметов мебели.
+  * использование: /iahitbox
+  * разрешение: "ia.admin.iahitbox"

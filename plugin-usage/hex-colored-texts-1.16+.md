@@ -1,10 +1,10 @@
-# Hex colored texts \(1.16+\)
+# Hex текст \(1.16+\)
 
-## How to use 1.16 hex colored texts
+## Как использовать hex текста в 1.16
 
-You can change color of text and specify a custom hex color using the special notation: `%#000000%`.
+Вы можете изменить цвет текста и указать пользовательский шестнадцатеричный цвет, используя специальную нотацию: `%#000000%`.
 
-For example:
+Например:
 
 **display\_name: "`%#FE5A00%`magic\_fuel"**
 
@@ -14,6 +14,6 @@ For example:
 ```
 
 {% hint style="info" %}
-It works anywhere, also in translation files of the plugin.
+Он работает везде, в том числе и в файлах перевода плагина.
 {% endhint %}
 

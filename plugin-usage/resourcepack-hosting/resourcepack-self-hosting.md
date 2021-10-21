@@ -1,24 +1,24 @@
 # Хост текстур со своей машины \(self-host\)
 
-## Video tutorial
+## Видеоурок
 
 {% embed url="https://www.youtube.com/watch?v=XoTwF4\_HztU" caption="" %}
 
-## Info about self-hosting
+## Информация о хостинге (self-host)
 
 С версии ItemsAdder 2.0 \(и выше\) вы можете использовать собственную хост-машину в качестве хоста пакета ресурсов, прямиком из папки вашего сервера!  
 Не нужно платить за внешний хостинг для текстур и **не нужно постоянно перезаливать набор ресурсов на левые сервисы!**
 
 {% hint style="warning" %}
-**Your hosting service must let you get additional ports for your server.**  
-If your hosting service doesn't provide you additional ports you have to use one of the alternative methods:
+**Ваш хостинг должен предоставить вам дополнительные порты для вашего сервера.**.  
+Если ваш хостинг не предоставляет вам дополнительные порты, вы должны использовать один из альтернативных методов:
 
 {% page-ref page="automatic-upload-hosting.md" %}
 
 {% page-ref page="resourcepack-on-dropbox.md" %}
 {% endhint %}
 
-### What is the difference between self-host and the other methods?
+### В чем разница между self-host и другими методами?
 
 Главное отличие в том, что скачивание пакета ресурсов со своей машины производится моментально, прямиком с папки сервера, без разрыва волос на заднице с постоянным перезаливом пакета ресурсов при малейшем изменении.
 
@@ -47,10 +47,10 @@ If your hosting service doesn't provide you additional ports you have to use one
     pack-port: 8163
 ```
 
-* you have to replace `127.0.0.1` with **your server IP**
-* and replace `8163` with the new port you obtained.
+* вы должны заменить `127.0.0.1` на **IP вашего сервера**
+* и заменить `8163` на новый порт, который вы получили.
 
-For example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
+Например, если мой ip - `123.456.789.0`, а мой дополнительный порт - `8163`, я установлю его следующим образом:
 
 ```yaml
   self-host:
@@ -71,7 +71,7 @@ For example if my ip is `123.456.789.0` and my additional port is `8163`I will s
 Не забывайте использовать команду `/iazip` **каждый раз**, когда вы внесли изменения в файлы **текстур**, в 3D **модель**, в **звуках**... _\*\*_или вы не увидите никаких изменений.
 {% endhint %}
 
-### Last step
+### Последний шаг
 
-After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
+После того, как вы настроили файл `config.yml`, вам просто нужно выполнить команду `/iazip`, чтобы обновить zip-файл и запустить хостинг.
 
