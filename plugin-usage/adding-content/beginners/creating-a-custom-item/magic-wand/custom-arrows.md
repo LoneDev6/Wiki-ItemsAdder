@@ -1,6 +1,6 @@
-# Custom Arrows
+# Пользовательские Стрелки
 
-## Some examples \(ItemsAdder 2.2.8+\)
+## Некоторые примеры \(ItemsAdder 2.2.8+\)
 
 ```yaml
 items:
