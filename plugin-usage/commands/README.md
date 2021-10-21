@@ -45,7 +45,7 @@
   * usage: /iadurability
   * permission: "ia.admin.iadurability"
 * iareload:
-  * description: Reloads items_packs files
+  * description: Reloads items\_packs files
   * usage: /iareload
   * permission: "ia.admin.iareload"
 * iazip:
@@ -116,3 +116,6 @@
   * description: Shows the hitbox of placed furnitures.
   * usage: /iahitbox
   * permission: "ia.admin.iahitbox"
+* iaconfig:
+  * description: Main command to execute some operations on the plugin configurations.
+  * permission: "ia.admin.config"
