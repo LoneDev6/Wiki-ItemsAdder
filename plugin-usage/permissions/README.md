@@ -100,13 +100,8 @@
     * `ia.admin.iacleancache`
   * /iahitbox (shows the hitbox of placed furnitures)
     * `ia.admin.iahitbox`
-  * /iaconfig (Main command to execute some operations on the plugin configurations)
-    * ia.admin.config.item.delete
-    * ia.admin.config.item.disable
-    * ia.admin.config.recipes.deleteofitem
-    * ia.admin.config.recipes.disableofitem
-    * ia.admin.config.namespace.delete
-    * ia.admin.config.namespace.disable
+  * [/iaconfig](../commands/iaconfig.md) (Main command to execute some operations on the plugin configurations)
+    * ia.admin.iaconfig
 * Other:
   * Bypass kick on refuse resourcepack
     * `ia.resourcepack.bypasskick`
