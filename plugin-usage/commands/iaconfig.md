@@ -6,7 +6,7 @@
 
 `/iaconfig item delete <item>`
 
-Permission: `ia.admin.config.item.delete`
+Permission: `ia.admin.iaconfig.item.delete`
 
 Deletes an item COMPLETELY from its config file. Please be careful.
 
@@ -14,7 +14,7 @@ Deletes an item COMPLETELY from its config file. Please be careful.
 
 `/iaconfig item disable <item>`
 
-Permission: `ia.admin.config.item.disable`
+Permission: `ia.admin.iaconfig.item.disable`
 
 Disables an item from its config file. Please be careful.
 
@@ -22,7 +22,7 @@ Disables an item from its config file. Please be careful.
 
 `/iaconfig recipes deleteofitem <item>`
 
-Permission `ia.admin.config.recipes.deleteofitem`
+Permission `ia.admin.iaconfig.recipes.deleteofitem`
 
 Deletes COMPLETELY all recipes which contain an item from all the config files. Please be careful.
 
@@ -30,7 +30,7 @@ Deletes COMPLETELY all recipes which contain an item from all the config files. 
 
 `/iaconfig item disableofitem <item>`
 
-Permission: `ia.admin.config.recipes.disableofitem`
+Permission: `ia.admin.iaconfig.recipes.disableofitem`
 
 Disables all recipes which contain an item from all the config files. Please be careful.
 
@@ -38,7 +38,7 @@ Disables all recipes which contain an item from all the config files. Please be 
 
 `/iaconfig namespace delete <namespace>`
 
-Permission: `ia.admin.config.namespace.delete`
+Permission: `ia.admin.iaconfig.namespace.delete`
 
 Deletes all items of a namespace and recipes of these items COMPLETELY. Please be careful.
 
@@ -46,6 +46,6 @@ Deletes all items of a namespace and recipes of these items COMPLETELY. Please b
 
 `/iaconfig namespace disable <namespace>`
 
-Permission: `ia.admin.config.namespace.disable`
+Permission: `ia.admin.iaconfig.namespace.disable`
 
 Disables every item of a namespace and recipes of these items. Please be careful.
