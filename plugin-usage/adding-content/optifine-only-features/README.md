@@ -1,8 +1,8 @@
 # ⚙️Функции, возможные только с Optifine
 
 {% hint style="warning" %}
-**Optifine** is **not officially supported** by **ItemsAdder**, but if you want to get more customization you can read these tutorials.
+**Optifine не поддерживается официально ItemsAdder**, но если вы хотите получить больше настроек, вы можете прочитать эти руководства.
 
-## Please don't ask support about Optifine features. Thanks!
+## Пожалуйста, не спрашивайте службу поддержки о возможностях Optifine. Спасибо!
 {% endhint %}
 
