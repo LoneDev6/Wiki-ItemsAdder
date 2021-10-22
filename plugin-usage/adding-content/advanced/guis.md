@@ -22,12 +22,12 @@
 
 ![https://i.imgur.com/wuFEAoZ.gif](https://i.imgur.com/wuFEAoZ.gif)
 
-## Example content created by users \(Copyright by Gust\)
+## Пример контента, созданного пользователями \(Copyright by Gust\)
 
 ![](../../../.gitbook/assets/immagine%20%28100%29.png)
 
 {% hint style="warning" %}
-### I'm not the owner of this resource
+### Я не являюсь владельцем этого ресурса
 {% endhint %}
 
 {% embed url="https://www.mc-market.org/resources/21017/" caption="" %}

@@ -1,10 +1,10 @@
 ---
-description: This recipe allows your users to craft an item
+описание: Этот рецепт позволяет вашим пользователям изготовить предмет
 ---
 
 # Верстак
 
-## Example
+## Пример
 
 ```yaml
   crafting_table:
@@ -34,9 +34,9 @@ description: This recipe allows your users to craft an item
         amount: 1
 ```
 
-In this example I created two `crafting_table` recipes called `deadmau5_hat` and `top_hat`
+В этом примере я создал два рецепта `crafting_table` под названием `deadmau5_hat` и `top_hat`.
 
-## Special features
+## Специальные возможности
 
 ```yaml
     peeled_potato:
@@ -63,10 +63,10 @@ In this example I created two `crafting_table` recipes called `deadmau5_hat` and
           pitch: 1
 ```
 
-For example this is the `peeled_potato` recipe. This is a special recipe which uses a knife as ingredient of  the crafting \(and a potato\) and decrements its durability when player crafts one peeled potato without making it disappear.  
+Например, это рецепт `peeled_potato`. Это специальный рецепт, который использует нож в качестве ингредиента для изготовления\(и картофеля\) и уменьшает его прочность, когда игрок изготавливает одну очищенную картофелину, не заставляя ее исчезнуть.
 
 
 ![](../../../../.gitbook/assets/image%20%281%29.png)
 
-As you can see you can also play a sound using `play_sound`
+Как вы видите, вы также можете воспроизвести звук, используя `play_sound`.
 

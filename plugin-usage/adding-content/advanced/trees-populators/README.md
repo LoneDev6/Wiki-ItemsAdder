@@ -1,24 +1,24 @@
 # Популяция деревьев
 
-## Generate trees in the world
+## Генерируем деревья в мире
 
-First read this tutorial on creating the tree blocks \(leaved and wood\)
+Сначала прочитайте это руководство по созданию блоков деревьев\(лиственных и древесных\)
 
 {% hint style="danger" %}
-### End dimension
+### Конечное измерение
 
-It's advised **not** to **spawn** the trees in the **END** dimension because it has _some_ **problems**.  
-Thanks
+Рекомендуется **не развивать** деревья в **END** измерении, потому что это имеет _некоторые_ **проблемы**.  
+Спасибо
 
-### Vanilla trees bug
+### Баг с ванильными деревьями
 
-Sometimes trees will spawn with vanilla leaves, this is a known issue and I have no solution for this. Seems to be a Minecraft/Spigot bug, seems an event used by IA sometimes is not trieggered.
+Иногда деревья спавнятся с ванильными листьями, это известная проблема, и у меня нет решения для нее. Похоже, это ошибка Minecraft/Spigot, похоже, событие, используемое IA, иногда не срабатывает.
 
-### Big trees lag
+### Баг больших деревьев
 
-Big trees COULD cause some lag on generation, please use only small tree types.
+Большие деревья МОГУТ вызывать некоторые задержки при генерации, пожалуйста, используйте только маленькие виды деревьев.
 
-### Other problems
+### Другие проблемы
 
 {% page-ref page="../../../../faq/blocks-minerals-issues/leaves-and-transparent-blocks-problems.md" %}
 {% endhint %}

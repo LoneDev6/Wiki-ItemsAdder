@@ -1,20 +1,20 @@
-# Spawning custom mobs naturally
+# Порождение пользовательских мобов естественным образом
 
-## Methods
+## Методы
 
-ItemsAdder offers two ways of creating custom mobs:
+ItemsAdder предлагает два способа создания пользовательских мобов:
 
-### ItemsAdder interal
+### ItemsAdder внутренний
 
-This is the easiest and fastest way to create your custom mobs and see them around the world.  
-You don't need to install MythicMobs.
+Это самый простой и быстрый способ создать своих пользовательских мобов и увидеть их по всему миру.  
+Вам не нужно устанавливать MythicMobs.
 
 {% page-ref page="itemsadder-internal.md" %}
 
-### Using MythicMobs
+### Использование MythicMobs
 
-This is a bit harder and not for beginners. You need to install [MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/).  
-This will allow you to use all the extended features of MythicMobs and apply a custom model to your custom mob.
+Это немного сложнее и не для новичков. Вам нужно установить [MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/).  
+Это позволит вам использовать все расширенные возможности MythicMobs и применить пользовательскую модель к вашему пользовательскому мобу.
 
 {% page-ref page="using-mythicmobs.md" %}
 

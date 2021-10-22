@@ -1,10 +1,10 @@
 # Использование MythicMobs
 
-## How to make MythicMobs handle my custom mob
+## Как заставить MythicMobs управлять моими пользовательскими мобами
 
-If you want to make **MythicMobs** handle your custom mob to have more advanced features and control it's really easy!
+Если вы хотите заставить **MythicMobs** управлять вашим пользовательским мобом, чтобы иметь более продвинутые возможности и контроль, это очень просто!
 
-For example I have this MythicMobs configuration:
+Например, у меня есть такая конфигурация MythicMobs:
 
 ```yaml
 StaticallyChargedSheep:
@@ -21,7 +21,7 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-Open your **ItemsAdder** `.yml` file where you created the mob and to edit the **replace rule** like this:
+Откройте файл **ItemsAdder** `.yml`, в котором вы создали моба, и отредактируйте правило **replace rule** следующим образом:
 
 ```yaml
         replace_mobs_spawn:
@@ -33,23 +33,23 @@ Open your **ItemsAdder** `.yml` file where you created the mob and to edit the *
 ```
 
 {% hint style="warning" %}
-It's important to set **replace\_mythicmob** `name` property to your **mythicmob name**.
+Важно установить **replace\_mythicmob** `name` свойство **mythicmob name**.
 {% endhint %}
 
-### Random chance
+### Случайный шанс
 
-If you want to create custom spawn logic for your custom mob you must not use **ItemsAdder** rules, use **Mythicmobs** configuration: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
+Если вы хотите создать пользовательскую логику спавна для вашего моба, вы не должны использовать правила **ItemsAdder**, используйте конфигурацию **Mythicmobs**: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
 
 {% hint style="warning" %}
-### Warning:
+### Предупреждение:
 
-**ItemsAdder** eggs and /iasummon command **won't work** for Mythicmobs custom mobs, you have to spawn them using **Mythicmobs command** if you want to spawn them manually.  
+**ItemsAdder** яйца и команда /iasummon **не будут работать** для пользовательских мобов Mythicmobs, вы должны спаунить их с помощью **Mythicmobs команды**, если вы хотите спаунить их вручную.  
 `/mythicmobs mobs spawn StaticallyChargedSheep`
 {% endhint %}
 
-## Complete example
+## Полный пример
 
-### ItemsAdder configuration mobs.yml
+### Конфигурация ItemsAdder mobs.yml
 
 ```yaml
   glow_squid:
@@ -81,7 +81,7 @@ If you want to create custom spawn logic for your custom mob you must not use **
             type: SHEEP
 ```
 
-### Mythicmobs configuration Mobs\example.yml
+### Конфигурация Mythicmobs Mobs\example.yml
 
 ```yaml
 StaticallyChargedSheep:
@@ -98,7 +98,7 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-### Mythicmobs configuration RandomSpawns\example.yml
+### Mythicmobs конфигурация RandomSpawns\example.yml
 
 ```yaml
 RandomStaticallyChargedSheep:

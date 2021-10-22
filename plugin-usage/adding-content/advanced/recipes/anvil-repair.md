@@ -1,10 +1,10 @@
 ---
-description: This recipe allows you to let players repair an item in anvil using a material
+описание: Этот рецепт позволяет игрокам ремонтировать предмет в наковальне, используя материал
 ---
 
 # Починка на наковальне
 
-## Example
+## Пример
 
 ```yaml
 anvil_repair:
@@ -14,5 +14,5 @@ anvil_repair:
         item: itemsadder:emerald_sword
 ```
 
-In this example I created an`anvil_repair` recipe called `emerald_sword`
+В этом примере я создал рецепт `anvil_repair` под названием `emerald_sword`.
 

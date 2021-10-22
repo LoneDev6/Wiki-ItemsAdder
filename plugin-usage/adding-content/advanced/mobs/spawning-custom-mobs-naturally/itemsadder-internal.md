@@ -1,13 +1,13 @@
 # Встроенные функции
 
-## Spawn the mob naturally using ItemsAdder
+## Естественное порождение мобов с помощью ItemsAdder
 
-To spawn the mob naturally you have to setup the `replace_mobs_spawn` property.
+Для естественного порождения мобов необходимо настроить свойство `replace_mobs_spawn`.
 
-This is an example for a custom mob names **Soul**.  
-As you can see I set it up like a normal item, but with a special [behaviour ](../../item-properties/behaviours.md)named **mob**.
+Это пример для пользовательского моба по имени **Soul**.  
+Как видите, я настроил его как обычный предмет, но со специальным [поведением ](../../item-properties/behaviours.md)под названием **mob**.
 
-This example configuration tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT` and only in caves \(`max_sky_light: 0`\).
+Этот пример конфигурации указывает ItemsAdder заменить любого естественно порожденного `ZOMBIE` с 20% `chance` (шансом), в `MIDNIGHT` (полуночное время) и только в пещерах\(`max_sky_light: 0`\).
 
 ```yaml
   soul:
@@ -41,7 +41,7 @@ This example configuration tells ItemsAdder to replace any naturally spawned `ZO
              - DESERT_LAKES
 ```
 
-You can create as much as replace rules as you want, for example if you want to replace both `ZOMBIE` and `SKELETON` you can create a second rule
+Вы можете создать столько правил замены, сколько захотите, например, если вы хотите заменить `ZOMBIE` и `SKELETON`, вы можете создать второе правило
 
 ```yaml
         replace_mobs_spawn:
@@ -61,8 +61,8 @@ You can create as much as replace rules as you want, for example if you want to 
               start: NOON
 ```
 
-You can decide if to **replace** the mob **or** to **spawn** the custom **mob without replacing** the **original** one.  
-You have to use the `spawn_another` property.
+Вы можете решить, **заменить** моба **или породить** пользовательского **моба, не заменяя **оригинального**.  
+Вы должны использовать свойство `spawn_another`.
 
 ```yaml
           rule3:

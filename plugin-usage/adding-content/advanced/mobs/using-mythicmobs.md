@@ -1,10 +1,10 @@
 # Использование MythicMobs
 
-## How to make MythicMobs handle my custom mob
+## Как заставить MythicMobs управлять моим пользовательским мобом
 
-If you want to make MythicMobs handle your custom mob to have more advanced features and control it's really easy!
+Если вы хотите, чтобы MythicMobs управлял вашим пользовательским мобом, чтобы иметь более продвинутые возможности и контроль, это очень просто!
 
-For example I have this MythicMobs configuration:
+Например, у меня есть такая конфигурация MythicMobs:
 
 ```yaml
 StaticallyChargedSheep:
@@ -21,8 +21,8 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-  
-Open your ItemsAdder .yml file where you created the mob and to edit the **replace rule** like this:
+
+Откройте файл ItemsAdder .yml, в котором вы создали моба, и отредактируйте правило **replace rule** следующим образом:
 
 ```yaml
         replace_mobs_spawn:
@@ -34,13 +34,13 @@ Open your ItemsAdder .yml file where you created the mob and to edit the **repla
 ```
 
 {% hint style="warning" %}
-It's important to set **replace\_mythicmob** `name` property to your **mythicmob name**.
+Важно установить **replace\_mythicmob** `name` свойство **mythicmob name**.
 {% endhint %}
 
-### Random chance
+### Случайный шанс
 
-If you want to replace the mythic mob only sometimes \(this allows you to create more skin variations for the name mythicmob\) you just have to set `always: false` and set your spawn rules.  
-Example:
+Если вы хотите заменять мифического моба только иногда \(это позволит вам создать больше вариантов кожи для имени mythicmob\), вам просто нужно установить `always: false` и задать свои правила спавна.  
+Пример:
 
 ```yaml
     replace_mobs_spawn:
@@ -57,7 +57,7 @@ Example:
 ```
 
 {% hint style="warning" %}
-Remember to set `reason: CUSTOM` or it won't work as MythicMobs sets the spawn reson to `CUSTOM` and not `NATURAL`.
+Не забудьте установить `reason: CUSTOM`, иначе он не будет работать, так как MythicMobs устанавливает резонанс спавна на `CUSTOM`, а не на `NATURAL`.
 {% endhint %}
 
 

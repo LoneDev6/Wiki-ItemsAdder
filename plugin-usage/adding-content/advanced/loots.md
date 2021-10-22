@@ -188,9 +188,9 @@ loots:
 {% endhint %}
 
 {% hint style="info" %}
-## Drop based on spawner entity
+## Падение на основе сущности спавнера
 
-### \(and any other NBT attribute you want to match\)
+### \(и любой другой атрибут NBT, который вы хотите сопоставить\)
 {% endhint %}
 
 ```yaml

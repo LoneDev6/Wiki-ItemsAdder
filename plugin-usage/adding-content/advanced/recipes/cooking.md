@@ -1,10 +1,10 @@
 ---
-description: This recipes allows your users to cook/smelt materials
+описание: Этот рецепт позволяет вашим пользователям варить/плавить материалы
 ---
 
 # Переплавка в печи
 
-## Example
+## Пример
 
 ```yaml
   cooking:
@@ -22,9 +22,9 @@ description: This recipes allows your users to cook/smelt materials
         amount: 1
 ```
 
-In this example I created a`cooking` recipe called `cooked_sausage`
+В этом примере я создал рецепт `приготовления` под названием `cooked_sausage`.
 
-`machines` is the list of vanilla machines that can smelt/cook the item  
-`exp` is the exp earned by the player when cooking is completed  
-`cook_time` is the time needed to complete the cooking process \(**in ticks**\)
+`machines` - это список ванильных машин, которые могут выплавить/приготовить предмет  
+`exp` - это опыт, получаемая игроком по завершении готовки  
+`cook_time` - время, необходимое для завершения процесса приготовления\(**в тиках**\)
 
