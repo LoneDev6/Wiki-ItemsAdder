@@ -1,24 +1,24 @@
-# Furniture size
+# Размер мебели
 
 {% hint style="warning" %}
-### It's adviced to use the small furniture \(small Armorstand\)
+### Рекомендуется использовать маленькую мебель \(маленький бронестенд\)
 {% endhint %}
 
-## How can I adjust the furniture position when placed?
+## Как отрегулировать положение мебели при установке?
 
-If you want to adjust it you just have to use [Blockbench](../item-properties/resource/creating-3d-models.md) as usual and:
+Если вы хотите настроить его, вам просто нужно использовать [Blockbench](../item-properties/resource/creating-3d-models.md) как обычно и:
 
 ![](../../../../.gitbook/assets/immagine%20%289%29.png)
 
-1. click on **display** on the right
-2. click on the **armorstand icon** on the left
-3. click on the **smile face** \(**head**\) on the left
-4. **move** your model on the armorstand **bottom** \(it's the **ground**\)
+1. нажмите на **display** справа
+2. нажмите на значок **стойки** слева
+3. нажмите на **улыбающееся лицо** \(**голову**\) слева
+4. **переместите** вашу модель на подставку **внизу** \(это **земля**\)
 
-### Too small furniture
+### Слишком маленькая мебель
 
-If your furniture is **too small** but you want it **bigger** and with bigger **hitbox** just set this to **false**.  
-If you instead want a **small furniture** with small hitbox just set it to true
+Если ваша мебель **слишком маленькая**, но вы хотите, чтобы она была **больше** и с большим **хитбоксом**, просто установите значение **false**.  
+Если вы хотите **маленькую мебель** с маленьким хитбоксом, просто установите значение true.
 
 {% tabs %}
 {% tab title="Big furniture" %}
@@ -38,7 +38,7 @@ behaviours:
 {% endtab %}
 {% endtabs %}
 
-#### and set this is [BlockBench](../item-properties/resource/creating-3d-models.md)
+#### и установить это [BlockBench](../item-properties/resource/creating-3d-models.md)
 
 {% tabs %}
 {% tab title="Big furniture" %}
