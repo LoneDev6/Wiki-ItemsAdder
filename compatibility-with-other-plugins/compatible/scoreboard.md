@@ -1,22 +1,22 @@
 # Scoreboard
 
-## [Download here](https://www.spigotmc.org/resources/scoreboard.14754/)
+## [Скачать здесь](https://www.spigotmc.org/resources/scoreboard.14754/)
 
-## Compatibility
+## Совместимость
 
-You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)\(emojis and symbols\) in the **scoreboard**.
+Вы можете использовать [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)\(emojis и символы\) в **scoreboard**.
 
-### Example
+### Пример
 
-`%img_smile%` will show like that:
+`%img_smile%` будет отображаться так:
 
 ![](../../.gitbook/assets/immagine%20%2817%29.png)
 
-## Hiding the scoreboard background
+## Скрытие фона табло
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.
+С помощью ItemsAdder вы можете скрыть фон табло, просто используйте этот трюк.
 
-You just have to add `%img_offset_-500%` in front of **each line** of your scoreboard configuration.
+Вам просто нужно добавить `%img_offset_-500%` перед **каждой строкой** вашей конфигурации табло.
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
@@ -110,11 +110,11 @@ board:
         - '%img_offset_-500%&4------------------------'
 ```
 
-### Before
+### До
 
 ![](../../.gitbook/assets/immagine%20%2897%29.png)
 
-### After
+### После
 
 ![](../../.gitbook/assets/immagine%20%2898%29.png)
 

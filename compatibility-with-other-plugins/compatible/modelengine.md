@@ -1,24 +1,24 @@
 # ModelEngine
 
-## [Download here](https://www.spigotmc.org/resources/conxeptworks-model-engine%E2%80%94ultimate-entity-model-manager-1-14-1-17-1.79477/)
+## [Скачать здесь](https://www.spigotmc.org/resources/conxeptworks-model-engine%E2%80%94ultimate-entity-model-manager-1-14-1-17-1.79477/)
 
-\(free demo in the previous link, on the top part of the page\)
+\(бесплатная демонстрация в предыдущей ссылке, в верхней части страницы\)
 
-## How to add compatibility?
+## Как добавить совместимость?
 
-It's very easy!
+Это очень просто!
 
-* add all your mobs models and configurations inside the **ModelEngine** plugin folder
-* run `/meg reload` to generate the **ModelEngine** resourcepack
-* open the `plugins\ModelEngine\resource_pack\` folder
-* copy the content inside `plugins\ItemsAdder\resource_pack\` folder
-* open config.yml of ItemsAdder and set this option:
+* добавьте все ваши модели мобов и конфигурации в папку плагина **ModelEngine**.
+* запустите `/meg reload` для генерации ресурспака **ModelEngine**
+* откройте папку `plugins\ModelEngine\resource_pack\`.
+* скопируйте содержимое папки `plugins\ItemsAdder\resource_pack\`.
+* откройте config.yml ItemsAdder и установите этот параметр:
 
   ```yaml
   overwrite-vanilla-models__DISABLE_AT_YOUR_OWN_RISK: false
   ```
 
-* Run `/iazip` \(and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed\)
+* Запустите `/iazip`\(и следуйте [руководству по хостингу](../../plugin-usage/resourcepack-hosting/), если это необходимо\)
 
-Done!
+Готово!
 
