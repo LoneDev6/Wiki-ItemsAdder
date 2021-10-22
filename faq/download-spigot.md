@@ -1,12 +1,12 @@
-# Download Spigot
+# Скачать Spigot
 
-## How to download Paper \(alternative to Spigot\)
+## Как скачать бумагу \(альтернатива Спигот\)
 
 {% embed url="https://papermc.io/downloads" caption="" %}
 
-## How to download Spigot
+## Как скачать Spigot
 
-Watch this tutorial:
+Посмотрите этот учебник:
 
 {% embed url="https://www.youtube.com/watch?v=VzZcgnWJSEg" caption="" %}
 
