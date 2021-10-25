@@ -10,10 +10,6 @@ coverY: 0
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
 
-{% hint style="warning" %}
-You **cannot **use **GoogleDrive **and others because they don't provide a **direct download**. **Dropbox does**.
-{% endhint %}
-
 ## Text tutorial
 
 * Open [DropBox](https://dropbox.com), register/login
@@ -61,7 +57,7 @@ If you **reupload **the **zip **file with the same and keep the **same URL **it 
 
 ## But this is so slow! I have to reupload on DropBox too many times!
 
-Yea it is, that's why you should use the self host feature instead of DropBox. But some hosting (cheap ones) don't provide port opening, so you must use DropBox.
+Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting (cheap ones) don't provide port opening, so you must use **DropBox**.
 
 {% content-ref url="resourcepack-self-hosting.md" %}
 [resourcepack-self-hosting.md](resourcepack-self-hosting.md)
