@@ -8,24 +8,28 @@
 
 {% hint style="danger" %}
 
-Remember to **decide** a **resourcepack hosting** method **before** you **start**.  
+{% endhint %}
+
+Remember to **decide** a **resourcepack hosting** method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 
-{% page-ref page="../../../resourcepack-hosting/" %}
+{% content-ref url="../../../resourcepack-hosting/" %}
+[resourcepack-hosting](../../../resourcepack-hosting/)
+{% endcontent-ref %}
 
 ## 我的第一把自定义剑
 
 ### 创建剑的配置
 
 {% hint style="warning" %}
-这是一把自定义剑的栗子 \(记得要换 `myitems` [命名空间](../basic-concepts/namespace.md)to the one you want\).
+这是一把自定义剑的栗子 (记得要换 `myitems` [命名空间](../basic-concepts/namespace.md)to the one you want).
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom swords**:
 
-![](../../../../.gitbook/assets/immagine%20%2822%29.png)
+![](<../../../../.gitbook/assets/immagine (16).png>)
 
-In this file \(`myswords.yml`\) I start creating a simple sword called `mysword`
+In this file (`myswords.yml`) I start creating a simple sword called `mysword`
 
 ```yaml
 info:
@@ -42,16 +46,16 @@ items:
 
 ### Creating the texture file
 
-Now the fun part, let's set the sword texture.  
-To do that you have to put your sword `.png` texture file inside the correct folder.  
+Now the fun part, let's set the sword texture.\
+To do that you have to put your sword `.png` texture file inside the correct folder.\
 In this case your **namespace** is `myitems` so you have to put it here:
 
-![](../../../../.gitbook/assets/immagine%20%2819%29.png)
+![](<../../../../.gitbook/assets/immagine (14).png>)
 
 ### Applying the texture file to your item
 
-Now open `myswords.yml` file again and add the `resource` part as I did.  
-As you can see I set `generate: true` and I set the textures for the item.  
+Now open `myswords.yml` file again and add the `resource` part as I did.\
+As you can see I set `generate: true` and I set the textures for the item.\
 This tells the plugin to generate the 3D model automatically using your texture.
 
 ```yaml
@@ -72,30 +76,30 @@ items:
 
 ## Final part
 
-Now you just need to tell the plugin to load your just added item.  
+Now you just need to tell the plugin to load your just added item.\
 To do that you have to:
 
-* join the server  
-* make sure you accepted the resourcepacks  
-* use the command `/iazip`  
-* if you're using external-host \(DropBox\) scroll down and follow the instructions.  
-* get the item using `/iaget mysword`  
+* join the server &#x20;
+* make sure you accepted the resourcepacks &#x20;
+* use the command `/iazip` &#x20;
+* if you're using external-host (DropBox) scroll down and follow the instructions. &#x20;
+* get the item using `/iaget mysword` &#x20;
 * DONE!
 
 ### Now get your item
 
-![](../../../../.gitbook/assets/immagine%20%2818%29.png)
+![](<../../../../.gitbook/assets/immagine (18).png>)
 
-![](../../../../.gitbook/assets/immagine%20%2816%29.png)
+![](<../../../../.gitbook/assets/immagine (19).png>)
 
-## If you're using external-host \(Dropbox\) read here:
+## If you're using external-host (Dropbox) read here:
 
-Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!  
-1. Get it from this folder:
+Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
+1\. Get it from this folder:
 
-![](../../../../.gitbook/assets/immagine%20%2896%29%20%282%29%20%283%29%20%282%29%20%2810%29.png)
+![](<../../../../.gitbook/assets/immagine (96) (2) (3) (2) (9).png>)
 
-1. Upload it to your hosting \(Dropbox\)  
+1. Upload it to your hosting (Dropbox) &#x20;
 2. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
 
 ```yaml
@@ -110,5 +114,6 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
 
 If you have more questions read the full **external-host** tutorial here:
 
-{% page-ref page="../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
-
+{% content-ref url="../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
+[resourcepack-on-dropbox.md](../../../resourcepack-hosting/resourcepack-on-dropbox.md)
+{% endcontent-ref %}

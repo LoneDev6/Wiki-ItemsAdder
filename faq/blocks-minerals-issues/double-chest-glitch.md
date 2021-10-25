@@ -6,7 +6,6 @@
 这是一个已知的特性,在不使插件滞后服务器的情况下,这个特性很难进行修复.
 {% endhint %}
 
-{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/615" caption="" %}
+{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/615" %}
 
-![](../../.gitbook/assets/immagine%20%2840%29.png)
-
+![](<../../.gitbook/assets/immagine (37).png>)

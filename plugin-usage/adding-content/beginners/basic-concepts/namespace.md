@@ -2,18 +2,19 @@
 
 ## 命名空间
 
-你肯定会注意到,ItemsAdder使用的是**分组**来识别它所管理的大多数物品. 一个**分组**是一个**组合**.在这里是一组物品/方块/怪物.  
+你肯定会注意到,ItemsAdder使用的是**分组**来识别它所管理的大多数物品. 一个**分组**是一个**组合**.在这里是一组物品/方块/怪物.\
 通过命名空间,你可以非常容易地找到一个特定的物品、声音、方块......来自哪里.
 
 ### Example
 
 所有的**realcraft**物品都在**realcraft**命名空间下,所以当你使用`/iaget`指令时,你可以看到所有物品ID都以`realcraft：`为开头。
 
-![](../../../../.gitbook/assets/image%20%2810%29.png)
+![](<../../../../.gitbook/assets/image (7).png>)
 
 ## 我要怎样才能自定义自己的分组?
 
-现在你看到它是如何创建的.我怎样才能创建我自己的命名空间? 要创建你自己的**分组**\(你也可以自定义多个属于自己的名字空间!\) 有手就行,请阅读以下教程:
+现在你看到它是如何创建的.我怎样才能创建我自己的命名空间? 要创建你自己的**分组**(你也可以自定义多个属于自己的名字空间!) 有手就行,请阅读以下教程:
 
-{% page-ref page="../creating-your-namespace.md" %}
-
+{% content-ref url="../creating-your-namespace.md" %}
+[creating-your-namespace.md](../creating-your-namespace.md)
+{% endcontent-ref %}

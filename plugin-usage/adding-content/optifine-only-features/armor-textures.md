@@ -6,44 +6,44 @@
 
 ## 自定义材质盔甲的栗子
 
-![](../../../.gitbook/assets/image%20%2823%29.png)
+![](<../../../.gitbook/assets/image (22).png>)
 
-![](../../../.gitbook/assets/image%20%2825%29.png)
+![](<../../../.gitbook/assets/image (23).png>)
 
 ### 第一步
 
-请创建你的**自定义分组** \(如果你还没有创建\),请[查看这个教程](../beginners/creating-your-namespace.md).  
+请创建你的**自定义分组** (如果你还没有创建),请[查看这个教程](../beginners/creating-your-namespace.md).\
 在这个教程里,我的**自定义**分组为`mystuff`.
 
 ### 第二步
 
 把你为**物品**创建的**材质**放到文件:`plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`里
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](<../../../.gitbook/assets/image (24).png>)
 
 ### 第三步
 
-为**穿上的装备**套上一个**材质** \(当玩家穿戴它时\).你可以从这里得到一个**示例**:  
-`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`  
+为**穿上的装备**套上一个**材质** (当玩家穿戴它时).你可以从这里得到一个**示例**:\
+`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`\
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
 
-按照你想要的效果**修改**这个**材质**\(使用Paint.NET, Photoshop, GIMP或类似的软件\)并保存为`layer_1.png`和`layer_2.png`
+按照你想要的效果**修改**这个**材质**(使用Paint.NET, Photoshop, GIMP或类似的软件)并保存为`layer_1.png`和`layer_2.png`
 
 ### 第四步
 
 创建`optifine`文件,我们要为**穿戴盔甲**提供**材质**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`
 
 {% hint style="warning" %}
-你**必须**在`minecraft`文件下创建这个文件,你**不能**把`optifine`文件创建在**物品配置**下面\(在这个栗子里是`mystuff`\),这是optifine的一个限制.
+你**必须**在`minecraft`文件下创建这个文件,你**不能**把`optifine`文件创建在**物品配置**下面(在这个栗子里是`mystuff`),这是optifine的一个限制.
 {% endhint %}
 
 ### Step 5
 
-现在把之前创建的**纹理**\(`layer_1.png`和`layer_2.png` \)放在这个文件里:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+现在把之前创建的**纹理**(`layer_1.png`和`layer_2.png` )放在这个文件里:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
 
 现在你的文件里是这样的:
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](<../../../.gitbook/assets/image (25).png>)
 
 ### Step 6
 
@@ -61,11 +61,11 @@ texture.diamond_layer_1=layer_1
 texture.diamond_layer_2=layer_2
 ```
 
-对于每一个`.properties`文件,你必须**改变第1行**.把第一行设置为**你的分组名称**,而不是"mystuff",**第二行**是你的**物品ID**,**第五行**是**物品类型**\(`diamond_leggings` , `diamond_boots` ....\)
+对于每一个`.properties`文件,你必须**改变第1行**.把第一行设置为**你的分组名称**,而不是"mystuff",**第二行**是你的**物品ID**,**第五行**是**物品类型**(`diamond_leggings` , `diamond_boots` ....)
 
 现在你的文件里应该是这样的:
 
-![](../../../.gitbook/assets/image%20%2826%29.png)
+![](<../../../.gitbook/assets/image (26).png>)
 
 ### 第七步
 
@@ -158,4 +158,3 @@ items:
 
 比如,如果你创建了一个新的分组,命名为`space_armors`.你会有这样的**optifine**文件:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`
 {% endhint %}
-

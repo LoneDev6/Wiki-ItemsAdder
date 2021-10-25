@@ -4,13 +4,13 @@
 
 ## Compatibility
 
-You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)\(emojis and symbols\) in the **scoreboard**.
+You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)(emojis and symbols) in the **scoreboard**.
 
 ### Example
 
 `%img_smile%` will show like that:
 
-![](../../.gitbook/assets/immagine%20%2817%29.png)
+![](<../../.gitbook/assets/immagine (95).png>)
 
 ## Hiding the scoreboard background
 
@@ -112,9 +112,8 @@ board:
 
 ### Before
 
-![](../../.gitbook/assets/immagine%20%2897%29.png)
+![](<../../.gitbook/assets/immagine (97).png>)
 
 ### After
 
-![](../../.gitbook/assets/immagine%20%2898%29.png)
-
+![](<../../.gitbook/assets/immagine (96).png>)

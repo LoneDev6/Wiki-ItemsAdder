@@ -6,27 +6,25 @@
 
 ## 插件中包含的类型列表
 
-* `block_trade_machine`\[可互交方块\]
-* `furniture_trade_machine`\[可互交家具\]
-* `fuel`\[法力\]
-* `furniture`\[家具\]
-* `furniture_sit`\[可坐家具\]
-* `gun`\[枪\]
-* `hat`\[帽子\]
-* `keep_on_death`\[类似绑定\]
-* `liquid_analyzer`\[水\]
-* `liquid_bucket`\[水桶\]
-* `mob_animation`\[怪物动作\]
-* `mob`\[怪物\]
-* `music_disc`\[唱片\]
-* `sapling`\[树苗\]
-* `spawn_egg`\[生成蛋\]
-* `vehicle`\[车辆\]
+* `block_trade_machine`\[可互交方块]
+* `furniture_trade_machine`\[可互交家具]
+* `fuel`\[法力]
+* `furniture`\[家具]
+* `furniture_sit`\[可坐家具]
+* `gun`\[枪]
+* `hat`\[帽子]
+* `keep_on_death`\[类似绑定]
+* `liquid_analyzer`\[水]
+* `liquid_bucket`\[水桶]
+* `mob_animation`\[怪物动作]
+* `mob`\[怪物]
+* `music_disc`\[唱片]
+* `sapling`\[树苗]
+* `spawn_egg`\[生成蛋]
+* `vehicle`\[车辆]
 
 {% hint style="info" %}
 你可以使用官方在线工具来获得如何使用类型的建议.
-
-{% page-ref page="../../../../files-editor.md" %}
 {% endhint %}
 
 ```yaml
@@ -146,4 +144,3 @@ vehicle:
       y: 0
       z: -0.8
 ```
-

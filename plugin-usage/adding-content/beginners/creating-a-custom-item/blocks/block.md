@@ -5,14 +5,14 @@
 ### Creating the blocks file
 
 {% hint style="warning" %}
-This is an example block \(remember to change `myitems` [namespace ](../../basic-concepts/namespace.md)to the one you want\).
+This is an example block (remember to change `myitems` [namespace ](../../basic-concepts/namespace.md)to the one you want).
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom blocks**:
 
-In this file \(`blocks.yml`\) I start creating a simple block called `red_block`
+In this file (`blocks.yml`) I start creating a simple block called `red_block`
 
-![](../../../../../.gitbook/assets/immagine%20%2891%29.png)
+![](<../../../../../.gitbook/assets/immagine (90).png>)
 
 ```yaml
 info:
@@ -26,24 +26,24 @@ items:
 ```
 
 {% hint style="warning" %}
-It's very important to use a **non placeable** vanilla **material**. For example **PAPER**.  
-If you use a block \(like STONE or DIRT\) it will result a bit glitchy when placed.
+It's very important to use a **non placeable** vanilla **material**. For example **PAPER**.\
+If you use a block (like STONE or DIRT) it will result a bit glitchy when placed.
 {% endhint %}
 
 ## Block textures
 
 ### Creating the textures files
 
-Now the fun part, let's set the textures!  
-To do that you have to put the `.png` textures file inside the correct folder.  
+Now the fun part, let's set the textures!\
+To do that you have to put the `.png` textures file inside the correct folder.\
 In this case your **namespace** is `myitems` so you have to put them here:
 
-![](../../../../../.gitbook/assets/immagine%20%28101%29.png)
+![](<../../../../../.gitbook/assets/immagine (105).png>)
 
 ### Applying the textures files to your item
 
-Now open `blocks.yml` file again and add the `resource` part as I did.  
-As you can see I set `generate: true` and I set the textures for the item.  
+Now open `blocks.yml` file again and add the `resource` part as I did.\
+As you can see I set `generate: true` and I set the textures for the item.\
 This tells the plugin to generate the 3D model automatically using your texture.
 
 ```yaml
@@ -124,8 +124,6 @@ items:
 
 {% hint style="info" %}
 Click on the bottom link if you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
-
-{% page-ref page="../../../advanced/item-properties/specific-properties/blocks.md" %}
 {% endhint %}
 
 ## Final part
@@ -136,14 +134,14 @@ Now you just need to tell the plugin to load your just added block.
 
 * run `/iazip`.
 
-### If you're using [external-host](../../../../resourcepack-hosting/resourcepack-on-dropbox.md) \(Dropbox\) read here:
+### If you're using [external-host](../../../../resourcepack-hosting/resourcepack-on-dropbox.md) (Dropbox) read here:
 
-Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!  
-1. Get it from this folder:
+Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
+1\. Get it from this folder:
 
-![](../../../../../.gitbook/assets/immagine%20%2896%29%20%282%29%20%283%29%20%282%29%20%2811%29.png)
+![](<../../../../../.gitbook/assets/immagine (96) (2) (3) (2) (11) (1).png>)
 
-1. Upload it to your hosting \(Dropbox\)  
+1. Upload it to your hosting (Dropbox) &#x20;
 2. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
 
 ```yaml
@@ -158,15 +156,16 @@ Don't forget to upload the new generated .zip file on your hosting \(Dropbox\)!
 
 If you have more questions read the full **external-host** tutorial here:
 
-{% page-ref page="../../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
+{% content-ref url="../../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
+[resourcepack-on-dropbox.md](../../../../resourcepack-hosting/resourcepack-on-dropbox.md)
+{% endcontent-ref %}
 
 ## Getting the block ingame
 
 Run `/iaget red_block` to get the item.
 
-![](../../../../../.gitbook/assets/immagine%20%2895%29.png)
+![](<../../../../../.gitbook/assets/immagine (92).png>)
 
-![](../../../../../.gitbook/assets/immagine%20%2872%29.png)
+![](<../../../../../.gitbook/assets/immagine (91).png>)
 
-![](../../../../../.gitbook/assets/immagine%20%2894%29.png)
-
+![](<../../../../../.gitbook/assets/immagine (93).png>)

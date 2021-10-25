@@ -1,20 +1,22 @@
 # GUIs
 
-制作自定义GUI,你可复制作者的示例包,并根据你的需求来修改它.  
-你可以使用[JavaAPI](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/7c1831190462fc2269541ef357ac653d3da8c179/kai-fa/java-api/huds-guis.md)或安装一个插件,如[ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
+制作自定义GUI,你可复制作者的示例包,并根据你的需求来修改它.\
+你可以使用[JavaAPI](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/7c1831190462fc2269541ef357ac653d3da8c179/kai-fa/java-api/huds-guis.md)或安装一个插件,如[ChestCommands](https://dev.bukkit.org/projects/chest-commands).\
 使用像ChestCommands这样的菜单插件,只需要将菜单名填写为:
 
-```text
+```
 :offset_-16::blank_menu:
 ```
 
 ItemsAdder使用一个-16偏移的特殊字符替换GUI,这会使main\_menu的材质向后移动16像素.
 
-![](../../../.gitbook/assets/immagine%20%2811%29.png)
+![](<../../../.gitbook/assets/immagine (11).png>)
 
 ## 了解更多关于变量的信息
 
-{% page-ref page="font-images/placeholders.md" %}
+{% content-ref url="font-images/placeholders.md" %}
+[placeholders.md](font-images/placeholders.md)
+{% endcontent-ref %}
 
 ## 扩展栗子
 
@@ -22,13 +24,12 @@ ItemsAdder使用一个-16偏移的特殊字符替换GUI,这会使main\_menu的�
 
 ![https://i.imgur.com/wuFEAoZ.gif](https://i.imgur.com/wuFEAoZ.gif)
 
-## Example content created by users \(Copyright by Gust\)
+## Example content created by users (Copyright by Gust)
 
-![](../../../.gitbook/assets/immagine%20%28100%29.png)
+![](<../../../.gitbook/assets/immagine (110).png>)
 
 {% hint style="warning" %}
 ### I'm not the owner of this resource
 {% endhint %}
 
-{% embed url="https://www.mc-market.org/resources/21017/" caption="" %}
-
+{% embed url="https://www.mc-market.org/resources/21017/" %}

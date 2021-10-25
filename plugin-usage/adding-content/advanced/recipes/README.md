@@ -1,10 +1,10 @@
 # 配方
 
-如果你想给你的物品创建一个合成配方,你必须在你的[命名空间](../../beginners/basic-concepts/namespace.md)下面写一个特殊的部分\(或者在每一个配置里,主要你决定你想如何整理配置\)
+如果你想给你的物品创建一个合成配方,你必须在你的[命名空间](../../beginners/basic-concepts/namespace.md)下面写一个特殊的部分(或者在每一个配置里,主要你决定你想如何整理配置)
 
 ## 栗子: 3x3合成配方
 
-![](../../../../.gitbook/assets/immagine%20%2846%29.png)
+![](<../../../../.gitbook/assets/immagine (42).png>)
 
 ```yaml
 info:
@@ -29,9 +29,9 @@ recipes:
 
 ## 栗子: 2x2合成配方
 
-![](../../../../.gitbook/assets/immagine%20%2844%29.png)
+![](<../../../../.gitbook/assets/immagine (41).png>)
 
-![](../../../../.gitbook/assets/immagine%20%2845%29.png)
+![](<../../../../.gitbook/assets/immagine (43).png>)
 
 ```yaml
 taco:
@@ -53,7 +53,7 @@ taco:
 {% endhint %}
 
 {% hint style="success" %}
-你可以在每个合成配方里创建**multiple patterns\[多个合成方式\]**,只确保开头为'**pattern\[如有多行则在后面加上\_2或者更多数字\]**'.举个栗子`pattern\_2`.
+你可以在每个合成配方里创建**multiple patterns\[多个合成方式]**,只确保开头为'**pattern\[如有多行则在后面加上\_2或者更多数字]**'.举个栗子`pattern\_2`.
 
 ```yaml
 turquoise_sword:
@@ -75,4 +75,3 @@ turquoise_sword:
     amount: 1
 ```
 {% endhint %}
-

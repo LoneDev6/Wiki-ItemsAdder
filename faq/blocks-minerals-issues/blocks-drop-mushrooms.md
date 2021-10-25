@@ -10,7 +10,7 @@
 
 Did you delete the custom blocks folders in your world? Don't do it.
 
-![](../../.gitbook/assets/immagine%20%2896%29.png)
+![](<../../.gitbook/assets/immagine (98).png>)
 
 如果你已经删除了它的话.你会失去这个世界所有的来自Itemsadder自定义的方块的数据.
 
@@ -22,4 +22,3 @@ Did you delete the custom blocks folders in your world? Don't do it.
 * 硬盘内存不足的问题,才导致了配置文件的保存不了
 * reloaded the plugin using **Plugman** or similar
 * reloaded the server using `/reload` command
-

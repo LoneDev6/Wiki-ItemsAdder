@@ -23,5 +23,4 @@ public class ItemsAdderLoadDataEvent extends Event
 
 ### ResourcePackSendEvent
 
-服务器向客户端发送资源包时触发的事件。 此事件包括**url**、**hash**，以及 ****ItemsAdder 资源包 **或** 其他插件\*\* 的资源包信息
-
+服务器向客户端发送资源包时触发的事件。 此事件包括**url**、**hash**，以及** **ItemsAdder 资源包** 或 **其他插件\*\* 的资源包信息

@@ -2,12 +2,12 @@
 
 ## 生成世界上的树木
 
-首先请先阅读这个关于创建自定义树的教程\(叶子和木头\)
+首先请先阅读这个关于创建自定义树的教程(叶子和木头)
 
 {% hint style="danger" %}
 ### 末地特性
 
-It's advised **not** to **spawn** the trees in the **END** dimension because it has _some_ **problems**.  
+It's advised **not** to **spawn** the trees in the **END** dimension because it has _some_ **problems**.\
 Thanks
 
 ### 原版树的特性
@@ -19,7 +19,4 @@ Thanks
 大树可能会导致生成时会产生一些卡顿,建议只使用小树的类型.
 
 ### 其他问题
-
-{% page-ref page="../../../../faq/blocks-minerals-issues/leaves-and-transparent-blocks-problems.md" %}
 {% endhint %}
-

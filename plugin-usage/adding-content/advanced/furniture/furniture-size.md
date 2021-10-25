@@ -1,19 +1,19 @@
 # 家具的尺寸
 
 {% hint style="warning" %}
-### 建议使用小型家具\(小武器架\)
+### 建议使用小型家具(小武器架)
 {% endhint %}
 
 ## 如何调整家具放置时的位置?
 
 如果你想调整它的位置,你需要用到[Blockbench](../item-properties/resource/creating-3d-models.md):
 
-![](../../../../.gitbook/assets/immagine%20%289%29.png)
+![](<../../../../.gitbook/assets/immagine (8).png>)
 
 1. 点击右边的**display**
-2. 点击左边的**armorstand icon\[盔甲架标志\]**
-3. 点击左边的**smile face\[笑脸\]** \(**head**\)
-4. **移动**到盔甲架的**底部** \(底部代表**地面**\)
+2. 点击左边的**armorstand icon\[盔甲架标志]**
+3. 点击左边的**smile face\[笑脸]** (**head**)
+4. **移动**到盔甲架的**底部** (底部代表**地面**)
 
 ### Too small furniture
 
@@ -41,11 +41,10 @@ behaviours:
 
 {% tabs %}
 {% tab title="Big furniture" %}
-![](../../../../.gitbook/assets/immagine%20%288%29.png)
+![](<../../../../.gitbook/assets/immagine (9).png>)
 {% endtab %}
 
 {% tab title="Small furniture" %}
-![](../../../../.gitbook/assets/immagine%20%2810%29.png)
+![](<../../../../.gitbook/assets/immagine (10).png>)
 {% endtab %}
 {% endtabs %}
-

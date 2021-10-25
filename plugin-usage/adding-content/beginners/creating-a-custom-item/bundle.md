@@ -20,11 +20,10 @@ items:
 
 ## Image files
 
-![](../../../../.gitbook/assets/image%20%2835%29.png)
+![](<../../../../.gitbook/assets/image (33).png>)
 
 You have to create another file with `_filled` suffix.
 
 ## Result
 
-![](../../../../.gitbook/assets/image%20%2834%29.png)
-
+![](<../../../../.gitbook/assets/image (34).png>)
