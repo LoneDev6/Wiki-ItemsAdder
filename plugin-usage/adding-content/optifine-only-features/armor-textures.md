@@ -6,45 +6,44 @@
 
 ## Пример пользовательской текстуры брони
 
-![](../../../.gitbook/assets/image%20%2823%29.png)
+![](<../../../.gitbook/assets/image (22).png>)
 
-![](../../../.gitbook/assets/image%20%2825%29.png)
+![](<../../../.gitbook/assets/image (23).png>)
 
 ### Шаг 1
 
-Создайте свое **настраиваемый namespace** \(если вы этого еще не сделали\), следуйте [этому руководству](../beginners/creating-your-namespace.md).  
+Создайте свое **настраиваемый namespace** (если вы этого еще не сделали), следуйте [этому руководству](../beginners/creating-your-namespace.md).\
 В этом руководстве **мой namespace** называется `mystuff`.
 
 ### Шаг 2
 
-Создайте **собственные текстуры** для **инвентарных предметов**. Я поместил их в папку 
-`plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`.
+Создайте **собственные текстуры** для **инвентарных предметов**. Я поместил их в папку `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`.
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](<../../../.gitbook/assets/image (24).png>)
 
 ### Шаг 3
 
-Создайте **собственные текстуры** для **брони на теле**.  Вы можете взять **шаблон** отсюда:  
-`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`  
+Создайте **собственные текстуры** для **брони на теле**. Вы можете взять **шаблон** отсюда:\
+`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`\
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
 
-**Редактируйте текстуры** по своему усмотрению\\ (используйте Paint.NET, Photoshop, GIMP или подобные программы\) и **сохраните** их как `layer_1.png` и `layer_2.png`.
+**Редактируйте текстуры** по своему усмотрению\ (используйте Paint.NET, Photoshop, GIMP или подобные программы) и **сохраните** их как `layer_1.png` и `layer_2.png`.
 
 ### Шаг 4
 
 Создайте папку `optifine`, сюда мы хотим поместить **настроенные текстуры** для **ношеной брони**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`.
 
 {% hint style="warning" %}
-Вы **должны создать** ее в папке `minecraft`, к сожалению, вы **не можете** создать папку `optifine` в папке вашего **namespace** \ (в данном случае `mystuff`\), это ограничение **Optifine**.
+Вы **должны создать** ее в папке `minecraft`, к сожалению, вы **не можете** создать папку `optifine` в папке вашего **namespace** \ (в данном случае `mystuff`), это ограничение **Optifine**.
 {% endhint %}
 
 ### Шаг 5
 
-Теперь сохраните **предыдущие созданные текстуры тела** \(`layer_1.png` и `layer_2.png` \) в этой папке: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`.
+Теперь сохраните **предыдущие созданные текстуры тела** (`layer_1.png` и `layer_2.png` ) в этой папке: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`.
 
 Итак, у вас есть это:
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](<../../../.gitbook/assets/image (25).png>)
 
 ### Шаг 6
 
@@ -62,11 +61,11 @@ texture.diamond_layer_1=layer_1
 texture.diamond_layer_2=layer_2
 ```
 
-Для каждого из файлов `.properties` вы должны **изменить 1-ю** строку, установив **ваш namespace** вместо "mystuff", **2-ю строку** на ваш **идентификатор элемента** и **5-ю строку** на **тип элемента** \(`diamond_leggings` , `diamond_boots` ....\)
+Для каждого из файлов `.properties` вы должны **изменить 1-ю** строку, установив **ваш namespace** вместо "mystuff", **2-ю строку** на ваш **идентификатор элемента** и **5-ю строку** на **тип элемента** (`diamond_leggings` , `diamond_boots` ....)
 
 Теперь у вас должен быть такой вид:
 
-![](../../../.gitbook/assets/image%20%2826%29.png)
+![](<../../../.gitbook/assets/image (26).png>)
 
 ### Шаг 7
 
@@ -159,4 +158,3 @@ items:
 
 Например, если вы создадите новой namespace `space_armors`, у вас будет такая папка **optifine**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`.
 {% endhint %}
-

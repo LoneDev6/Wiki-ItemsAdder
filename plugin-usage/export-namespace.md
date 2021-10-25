@@ -10,4 +10,4 @@
 \`\`
 {% endhint %}
 
-![](<../.gitbook/assets/immagine (34).png>)
+![](<../.gitbook/assets/immagine (35).png>)

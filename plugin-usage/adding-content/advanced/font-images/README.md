@@ -1,16 +1,12 @@
----
-Описание: 'Позволит создать картинки, которые можно использовать в тексте'
----
-
 # Картинки из символов Юникода
 
 ### Картинки юникода?
 
-Эта функция позволяет вам создавать изображения на основе неиспользуемых символов юникода \(белых квадратов - □\), конкретно, чтобы создать: GUI, HUDы, эмоджи, свои собственне символы, [графические префиксы и все](../ranks-textures-tags.md), что вы можете придумать. \(вы можете добавить их рядом с любым текстом\).
+Эта функция позволяет вам создавать изображения на основе неиспользуемых символов юникода (белых квадратов - □), конкретно, чтобы создать: GUI, HUDы, эмоджи, свои собственне символы, [графические префиксы и все](../ranks-textures-tags.md), что вы можете придумать. (вы можете добавить их рядом с любым текстом).
 
 {% hint style="warning" %}
-When you create a **font_image **make sure the **background **is **not **fully **transparent**.\
-You have to set **ALPHA **to **7 **instead of 0.
+When you create a \*\*font\_image \*\*make sure the \*\*background \*\*is \*\*not \*\*fully **transparent**.\
+You have to set \*\*ALPHA \*\*to \*\*7 \*\*instead of 0.
 
 Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 {% endhint %}
@@ -43,18 +39,18 @@ smile:
 
 Minecraft will show the smile emoji every time you write `鄿` in chat.
 
-## I don't care about ItemsAdder font_image, I want to handle default.json by myself.
+## I don't care about ItemsAdder font\_image, I want to handle default.json by myself.
 
 You can do it, you just have to edit the `default.json` file.
 
 ## Examples of content created with Font mages feature
 
-![](<../../../../.gitbook/assets/immagine (102).png>)
+![](<../../../../.gitbook/assets/immagine (106).png>)
 
-![](<../../../../.gitbook/assets/image (27) (4).png>)
+![](<../../../../.gitbook/assets/image (27) (4) (1).png>)
 
-![](<../../../../.gitbook/assets/immagine (104).png>)
+![](<../../../../.gitbook/assets/immagine (107).png>)
 
-![](<../../../../.gitbook/assets/immagine (110).png>)
+![](<../../../../.gitbook/assets/immagine (108).png>)
 
-![](<../../../../.gitbook/assets/immagine (113).png>)
+![](<../../../../.gitbook/assets/immagine (109).png>)

@@ -6,7 +6,6 @@
 Проблема известна и, к сожалению, не может быть легко исправлена плагином без лагов для сервера.
 {% endhint %}
 
-{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/615" caption="" %}
+{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/615" %}
 
-![](../../.gitbook/assets/immagine%20%2840%29.png)
-
+![](<../../.gitbook/assets/immagine (37).png>)

@@ -4,7 +4,7 @@
 
 Вы можете изменить текстуру GUI и использовать иконки ItemsAdder:
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](<../../.gitbook/assets/image (13).png>)
 
 {% tabs %}
 {% tab title="config.yml" %}
@@ -26,4 +26,3 @@ account-title: :offset_-16::blank_menu::offset_-176:&0{player}
 ```
 {% endtab %}
 {% endtabs %}
-

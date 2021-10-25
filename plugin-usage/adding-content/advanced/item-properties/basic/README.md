@@ -1,7 +1,3 @@
----
-Описание: Сборник основных настроек предмета
----
-
 # Основы
 
 ## Включение функции предметов в основном файле конфигурации плагина
@@ -13,11 +9,11 @@ enabled: true
 Этой строкой вы можете отключить всю предметы полностью.
 
 {% hint style="warning" %}
-**Важно - если игрок имеет предмет в инвентаре - он не исчезнет, игрок все еще будет иметь его.  
-Точно так же и с блоками, но выбрасывать предметы при их поломке они перестанут.**
+**Важно - если игрок имеет предмет в инвентаре - он не исчезнет, игрок все еще будет иметь его.**\
+**Точно так же и с блоками, но выбрасывать предметы при их поломке они перестанут.**
 {% endhint %}
 
-## Отображение имени \(Display name\)
+## Отображение имени (Display name)
 
 ```yaml
 display_name: "Test"
@@ -25,13 +21,13 @@ display_name: "Test"
 
 Строка имени предмета, которое увидит игрок
 
-## Права \(Permission\)
+## Права (Permission)
 
 ```yaml
 permission: myitem
 ```
 
-## Описание предмета \(Lore\)
+## Описание предмета (Lore)
 
 ```yaml
 lore:
@@ -40,7 +36,7 @@ lore:
 - '&7в 50% случаев.'
 ```
 
-Строки лора \(описания\) предмета
+Строки лора (описания) предмета
 
 ## Зачарования
 
@@ -51,11 +47,11 @@ enchants:
   - my_custom_plugin:custom_enchant:6
 ```
 
-Зачарования предмета.  
-Вы можете установить [ванильные зачарования](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) и пользовательские зачарования других плагинов \(например, [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...\).  
-Поддерживает также **namespaces** \(если вы создаете пользовательские зачарования, используя ключи с namespaces\).
+Зачарования предмета.\
+Вы можете установить [ванильные зачарования](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) и пользовательские зачарования других плагинов (например, [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
+Поддерживает также **namespaces** (если вы создаете пользовательские зачарования, используя ключи с namespaces).
 
-## Атрибуты предмета \(Attribute modifiers\)
+## Атрибуты предмета (Attribute modifiers)
 
 ```yaml
 attribute_modifiers:
@@ -79,9 +75,9 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-Это атрибуты ванили, вы можете узнать больше о них тут: [https://minecraft.gamepedia.com/Attribute\#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
+Это атрибуты ванили, вы можете узнать больше о них тут: [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities)
 
-## Прочность \(Durability\)
+## Прочность (Durability)
 
 ```yaml
 durability:
@@ -92,10 +88,10 @@ durability:
   usages: 5
 ```
 
-Очень простое для вашего использования  
-`usages` - параметр, который позволит вам выставить количество использований создаваемого предмета. Не забывайте уменьшать это количество событиями \(гляньте статью о событиях\).
+Очень простое для вашего использования\
+`usages` - параметр, который позволит вам выставить количество использований создаваемого предмета. Не забывайте уменьшать это количество событиями (гляньте статью о событиях).
 
-`custom_durability` - параметр изначальной прочности предмета при создании, предмет может создаваться изначально поломанным \(если не указано - строка будет иметь значение строки `max_custom_durability`\)
+`custom_durability` - параметр изначальной прочности предмета при создании, предмет может создаваться изначально поломанным (если не указано - строка будет иметь значение строки `max_custom_durability`)
 
 `max_custom_durability` - параметр максимальной прочности предмета, которое можно достичь
 
@@ -111,10 +107,10 @@ item_flags:
   - HIDE_UNBREAKABLE
 ```
 
-Данный параметр позволяет скрыть лишнюю ванильную информацию о предмете в его описании \(лоре\).  
+Данный параметр позволяет скрыть лишнюю ванильную информацию о предмете в его описании (лоре).\
 Вы можете найти больше информации об этом, а также список этих параметров тут: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-## Блокировка зачарований предмета \(blocked\_enchants\)
+## Блокировка зачарований предмета (blocked\_enchants)
 
 Параметр, который отключит указанные зачарования для предмета.
 
@@ -139,7 +135,7 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-## Перезарядка событий \(events\_cooldown\)
+## Перезарядка событий (events\_cooldown)
 
 Параметр, который не даст игроку спамить определенное событие. Число указано в тиках, поэтому 20 = 1 секунде.
 
@@ -172,15 +168,17 @@ blocked_enchants:
             amplifier: 4
 ```
 
-## События, которым нужна статистики плагина \(events\_needed\_player\_stats\)
+## События, которым нужна статистики плагина (events\_needed\_player\_stats)
 
-Параметр, который заставит работать событие только тогда, когда его статистика соотвествует указанному числу \(Статы плагина ItemsAdder, которые обычно используются в HUDах, например - шкала маны\).
+Параметр, который заставит работать событие только тогда, когда его статистика соотвествует указанному числу (Статы плагина ItemsAdder, которые обычно используются в HUDах, например - шкала маны).
 
 Вы можете установить значение которые `>` - больше, чем указанное, `<` - меньше, чем указанное или `=` - ровно указанному
 
 ### Пример:
 
-{% page-ref page="../../../beginners/creating-a-custom-item/magic-wand.md" %}
+{% content-ref url="../../../beginners/creating-a-custom-item/magic-wand.md" %}
+[magic-wand.md](../../../beginners/creating-a-custom-item/magic-wand.md)
+{% endcontent-ref %}
 
 ```yaml
   magic_wand:
@@ -214,11 +212,11 @@ blocked_enchants:
 
 ## Свечение
 
-Вы можете сделать предмет светящимся при падении на землю.  
-Очень полезно для **редких предметов**.  
+Вы можете сделать предмет светящимся при падении на землю.\
+Очень полезно для **редких предметов**.\
 Пример:
 
-![](../../../../../.gitbook/assets/immagine%20%28117%29.png)
+![](<../../../../../.gitbook/assets/immagine (114).png>)
 
 ```yaml
 items:
@@ -237,11 +235,11 @@ items:
 
 ## show\_name
 
-Вы можете заставить дроп показывать его название.  
-Очень полезно для **редких предметов**.  
+Вы можете заставить дроп показывать его название.\
+Очень полезно для **редких предметов**.\
 Пример:
 
-![](../../../../../.gitbook/assets/immagine%20%28118%29%20%282%29%20%282%29.png)
+![](<../../../../../.gitbook/assets/immagine (118) (2) (3).png>)
 
 ```yaml
   glowing_item:
@@ -257,9 +255,12 @@ items:
 
 ## шаблон
 
-{% page-ref page="templates-and-variants.md" %}
+{% content-ref url="templates-and-variants.md" %}
+[templates-and-variants.md](templates-and-variants.md)
+{% endcontent-ref %}
 
 ## variant\_of
 
-{% page-ref page="templates-and-variants.md" %}
-
+{% content-ref url="templates-and-variants.md" %}
+[templates-and-variants.md](templates-and-variants.md)
+{% endcontent-ref %}

@@ -4,13 +4,13 @@
 
 ## Совместимость
 
-Вы можете использовать [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)\(emojis и символы\) в **scoreboard**.
+Вы можете использовать [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)(emojis и символы) в **scoreboard**.
 
 ### Пример
 
 `%img_smile%` будет отображаться так:
 
-![](<../../.gitbook/assets/immagine (17).png>)
+![](<../../.gitbook/assets/immagine (95).png>)
 
 ## Скрытие фона табло
 
@@ -22,7 +22,7 @@
 
 ### After
 
-![](<../../.gitbook/assets/immagine (98).png>)
+![](<../../.gitbook/assets/immagine (96).png>)
 
 С помощью ItemsAdder вы можете скрыть фон табло, просто используйте этот трюк.
 
@@ -119,14 +119,16 @@ board:
         - '%img_offset_-500%&c------------------------'
         - '%img_offset_-500%&4------------------------'
 ```
+
 ## Скрыть красные числа с табло
+
 ### До
 
-![](../../.gitbook/assets/immagine%20%2897%29.png)
+![](<../../.gitbook/assets/immagine (97).png>)
 
 ### После
 
-![](../../.gitbook/assets/immagine%20%2898%29.png)
+![](<../../.gitbook/assets/immagine (96).png>)
 
 {% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
 [hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)

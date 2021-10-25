@@ -1,4 +1,4 @@
-# Мешок
+# Bundle
 
 {% hint style="warning" %}
 Minecraft 1.17+
@@ -20,11 +20,10 @@ items:
 
 ## Файлы изображений
 
-![](../../../../.gitbook/assets/image%20%2835%29.png)
+![](<../../../../.gitbook/assets/image (33).png>)
 
 Вы должны создать другой файл с суффиксом `_filled`.
 
 ## Результат
 
-![](../../../../.gitbook/assets/image%20%2834%29.png)
-
+![](<../../../../.gitbook/assets/image (34).png>)

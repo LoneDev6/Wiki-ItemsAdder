@@ -12,10 +12,10 @@
 * Установите `"enabled": false` в `config.json` Nova
 * Распакуйте папку assets внутри `plugins\ItemsAdder\data\resource_pack`.
 * Запустить сервер
-* Запустите `/iazip`\ (и следуйте [руководству по хостингу](../../plugin-usage/resourcepack-hosting/), если это необходимо\)
+* Запустите `/iazip`\ (и следуйте [руководству по хостингу](../../plugin-usage/resourcepack-hosting/), если это необходимо)
 
 Готово!
 
-![](<../../.gitbook/assets/immagine (122).png>)
+![](<../../.gitbook/assets/immagine (121).png>)
 
-![](<../../.gitbook/assets/immagine (125).png>)
+![](<../../.gitbook/assets/immagine (122).png>)

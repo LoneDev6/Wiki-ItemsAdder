@@ -11,17 +11,17 @@
 Сначала вам нужно скачать **Fabric** и установить его: [https://fabricmc.net/use/](https://fabricmc.net/use/)\
 Нажмите на кнопку "**Скачать программу установки**":
 
-![](<.gitbook/assets/immagine (120).png>)
+![](<.gitbook/assets/immagine (115).png>)
 
 ### 2. Отредактируйте папку профиля (необязательный шаг)
 
 Нажмите на "**установки**", затем нажмите на "**редактировать**" под установкой "**Фабрика**".
 
-![](<.gitbook/assets/immagine (121).png>)
+![](<.gitbook/assets/immagine (119).png>)
 
 Измените папку на новую, например, я создал новую папку профиля под названием `Fabric` внутри `.minecraft`.
 
-![](<.gitbook/assets/immagine (119).png>)
+![](<.gitbook/assets/immagine (120).png>)
 
 ### 3. Установите мод оптимизации
 
@@ -31,7 +31,7 @@
 
 ### 4. Запустите Fabric
 
-![](<.gitbook/assets/immagine (106).png>)
+![](<.gitbook/assets/immagine (117).png>)
 
 ### Готово!
 

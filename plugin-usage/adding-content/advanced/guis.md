@@ -26,7 +26,7 @@
 
 ## Пример контента, созданного пользователями (Copyright by Gust)
 
-![](<../../../.gitbook/assets/immagine (100).png>)
+![](<../../../.gitbook/assets/immagine (110).png>)
 
 {% hint style="warning" %}
 #### Я не являюсь владельцем этого ресурса
