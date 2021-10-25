@@ -1,3 +1,9 @@
+---
+cover: >-
+  ../../.gitbook/assets/Dropbox_(service)-Blue&White-Dark-Background-Logo.wine.svg
+coverY: 0
+---
+
 # 📦 DropBox
 
 ## Video tutorial
@@ -23,7 +29,7 @@ You **cannot **use **GoogleDrive **and others because they don't provide a **dir
 ![](<../../.gitbook/assets/immagine (24).png>)
 
 * Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0) 
+* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
 * Open `config.yml `of **ItemsAdder**
 * Set it like this (**I used the example URL, please use your own**)
 
