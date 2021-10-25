@@ -4,11 +4,15 @@
 
 **Убедитесь, что вы следовали всем инструкциям по установке верно, а так же ознакомьтесь с прочими руководствами и данной статьей, ваша проблема может быть решена за несколько минут.**
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
 ## Did you recently update your server/plugin or install a new plugin?
 
 Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
 
-### **Если ваша проблема не будет решена, прочтите информацию ниже и напишите мне:** <a id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+### **Если ваша проблема не будет решена, прочтите информацию ниже и напишите мне:** <a href="if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
 Я искренне не люблю слышать эту фразу, вместо объяснений проблемы. Как я могу помочь кому-либо, если я не знаю в чем проблема? Чтобы помочь вам мне нужно больше информации. Пожалуйста, прежде чем обращаться ко мне за помощью - убедитесь, что вы все делали правильно и прочитали достаточно информации на вики. Так же, попробуйте протестировать плагин на абслютно **чистом сервере** \(где установлен только **ItemsAdder** и его библеотеки\), где не будет установлено ничего лишнего, что может вмешаться в работу моего плагина. Кроме этого, убедитесь, что вы используйте стабильную и самую последнюю версию плагина. Если проблема никак не решилась - свяжитесь со мной, предоставив мне следующию информацию:
 
@@ -23,5 +27,7 @@ Try to remove the new plugin, restore from a server backup, or downgrade the upd
 * IP вашего сервера, если на него возможно зайти
 * Сделайте меня оператором сервера на некоторое время `/op LoneDev` \(или дайте мне творческий режим, право на команду `/pl`, все права плагина ItemsAdder и Essentials для использования`/tp`, `/i` и почих команд, которые облегчат тесты\)
 
-{% page-ref page="../support/" %}
+{% content-ref url="../support/" %}
+[support](../support/)
+{% endcontent-ref %}
 

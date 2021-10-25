@@ -5,7 +5,7 @@
 Игра имеет баг, который отключает мипмаппинг для текстур, размер которых не кратен двум в степени \(Размеры кратные двум в степени - 2x2, 4x4, 8x8, 16x16, 32x32... 256x256\).
 {% endhint %}
 
-![LEFT: without mipmap. RIGHT: with mipmap](../.gitbook/assets/image%20%2819%29.png)
+![LEFT: without mipmap. RIGHT: with mipmap](<../.gitbook/assets/image (19).png>)
 
 ## **Как это исправить?**
 

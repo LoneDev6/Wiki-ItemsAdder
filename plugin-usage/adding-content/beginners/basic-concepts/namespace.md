@@ -10,12 +10,14 @@
 
 Все предметы **realcraft** находятся в namespace **realcraft**, поэтому при использовании команды `/iaget` вы можете увидеть, что идентификаторы всех предметов начинаются с `realcraft:`
 
-![](../../../../.gitbook/assets/image%20%2810%29.png)
+![](<../../../../.gitbook/assets/image (10).png>)
 
 ## Как я могу определить свой собственный namespace?
 
 Теперь, когда вы видите, как это работает, вы хотите задать мне этот вопрос: _ Как я могу создать свой собственный namespace?_
 Чтобы создать свое собственноый **namespace**\ (вы также можете определить несколько из них!\) это действительно просто, прочитайте следующий урок:
 
-{% page-ref page="../creating-your-namespace.md" %}
+{% content-ref url="../creating-your-namespace.md" %}
+[creating-your-namespace.md](../creating-your-namespace.md)
+{% endcontent-ref %}
 

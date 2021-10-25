@@ -33,4 +33,3 @@
         machines:
           - BLAST_FURNACE
 ```
-

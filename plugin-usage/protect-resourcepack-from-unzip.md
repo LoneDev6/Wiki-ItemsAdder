@@ -1,4 +1,4 @@
-# Защита ваших текстур
+# 🚨 Защита ваших текстур
 
 {% hint style="info" %}
 С недавних пор, при помощи ItemsAdder вы можете защитить все свои творения от распоковки и воровства.  
@@ -8,12 +8,24 @@
 Используйте эту строку, чтобы включить:
 
 ```yaml
-zip:
-  protect-file-from-unzip__DISABLE_IF_ANY_PROBLEM: true
+  zip:
+    protect-file-from-unzip:
+      enabled: true
+      extreme: true
 ```
 {% endhint %}
 
+### enabled
+
+The `enabled` property allows you to protect the resourcepack with a basic method.
+
+### extreme
+
+The `extreme` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
+
+## Showcase
+
 Небольшой мем, который показывает, как пользователь пытается украсть ваш пакет ресурсов, но внутри видит лишь битые файлы и папки, весом в 0 килобайт.
 
-{% embed url="https://youtu.be/MhtEhoOuWV8" caption="" %}
+{% embed url="https://youtu.be/MhtEhoOuWV8" %}
 

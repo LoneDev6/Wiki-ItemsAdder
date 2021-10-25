@@ -33,11 +33,13 @@ specific_properties:
         pitch: 0.9
 ```
 
-## placed\_model
+## placed_model 
+
+### type
 
 Этот параметр может иметь значения:
 
-* `REAL_NOTE` _\(с версии 2.1.43\)_  
+* `REAL_NOTE`
   * использует настоящие блоки \(нотные блоки\), без лагов, без лишних сущностей, 100% настоящий блок.
   * минусы: максимальное число таких блоков ограничено - **750 шт**. Также, наблюдается микролаг текстуры при установке блока \(на миллисекунду блок отображается нотным блоком, затем, с нужной моделью/текстурой\). 
 * `REAL`
@@ -53,16 +55,28 @@ specific_properties:
     * текстуры/модели становятся невидимыми на дальних дистанциях от игрока из-за оптимизации ванильных текстур спавнеров
     * может вызвать лаги на стороне игрока, клиент может начать виснуть при огромном количестве таких блоков рядом с игроком, но только на очень слабых ПК.
 * `FIRE`
-  * this is a **special** type of **block**, it's the **fire** block.
+  * this is a **special **type of **block**, it's the **fire **block.
   * downsides: 
-    * only a **max** of **14** custom **fires** is possible, so be sure to create only the ones you need.
+    * only a **max **of **14 **custom **fires **is possible, so be sure to create only the ones you need.
 
 {% hint style="warning" %}
 Блоки типов REAL/REAL\_NOTE лучше использовать для декоративных блоков/руд,а блоки типа TILE для торговых автоматов или других редковстречаемых декоративных блоков.  
 Использовать блоки типа TILE для руд не рекомендуется, потому что это может вызвать лаги в генерации чанков.
 {% endhint %}
 
-## cancel\_drop
+### placeable_on_water
+
+This allows to make some blocks placeable directly on **water **surface.
+
+### **placeable_on_lava**
+
+This allows to make some blocks placeable directly on **lava **surface.
+
+### shift_up
+
+Это позволяет сделать некоторые блоки размещенными на 1 блок выше. Это полезно для блоков `REAL_WIRE` для создания высоких растений. 
+
+## cancel_drop
 
 Отменяет выпадение предмета из сломанного блока.  
 Полезно, если вы решили использовать параметр лута предмета \(loots\), чтобы избежать дюпов и дублирований.
@@ -76,19 +90,19 @@ specific_properties:
 Вы можете использовать "\_PICKAXE" для включения всех кирок, которые соответствуют этому имени, то же самое для топоров - "\_AXE", плагин проверит соответствие имени с этой строкой самостоятельно.  
 Это работает и с ID любых предметов плагина, как пример - "ruby\_", все рубиновые инструменты будут соотвествовать условию \(ruby\_pickaxe, ruby\_axe...\)
 
-### break\_tools\_blacklist
+### break_tools_blacklist
 
 Черный список предметов, которыми нельзя будет сломать блок
 
-### break\_tools\_whitelist
+### break_tools_whitelist
 
 Белый список предметов, которыми будет можно сломать блок
 
-### events\_tools\_blacklist
+### events_tools_blacklist
 
 Черный список предметов, которые не могут вызвать события, указанные в параметрах блока[ \(`placed_block.interact`\)](../events/#list-of-events)
 
-### events\_tools\_whitelist
+### events_tools_whitelist
 
 Белый список предметов, которые могут вызвать события, указанные в параметрах блока [\(`placed_block.interact`\)](../events/#list-of-events)
 
@@ -99,11 +113,11 @@ specific_properties:
 Сложность разрушаемости блока \(блок ломается медленнее/быстрее в зависимости от указанного числа\).  
 Вы можете посмотреть на **примеры** использования этого параметра в списке моих заводских блоков \(откройте файл **blocks.yml** в папке **itemsadder**\).
 
-### blast\_resistance
+### blast_resistance
 
-Explosion resistance \(by default is `hardness * 3`\)
+Explosion resistance (by default is `hardness * 3`)
 
-### no\_explosion
+### no_explosion
 
 Totally immune from explosions, ignoring `blast_resistance`
 

@@ -12,7 +12,7 @@
 
 В этом файле \(`blocks.yml`\) Я начинаю создавать простой блок под названием `red_block`
 
-![](../../../../../.gitbook/assets/immagine%20%2891%29.png)
+![](<../../../../../.gitbook/assets/immagine (91).png>)
 
 ```yaml
 info:
@@ -38,7 +38,7 @@ items:
 Для этого вам нужно поместить файл текстур `.png` в нужную папку.
 В этом случае ваше **namespace** - `myitems`, поэтому вы должны разместить их здесь:
 
-![](../../../../../.gitbook/assets/immagine%20%28101%29.png)
+![](<../../../../../.gitbook/assets/immagine (101).png>)
 
 ### Applying the textures files to your item
 
@@ -141,7 +141,7 @@ items:
 Не забудьте загрузить новый сгенерированный .zip файл на свой хостинг \(Dropbox\)!
 1. Достаньте его из этой папки:
 
-![](../../../../../.gitbook/assets/immagine%20%2896%29%20%282%29%20%283%29%20%282%29%20%287%29.png)
+![](<../../../../../.gitbook/assets/immagine (96) (2) (3) (2) (12).png>)
 
 1. Загрузите его на свой хостинг \(Dropbox\)
 2. Откройте `config.yml` от ItemsAdder и обновите URL-адрес `внешнего хоста` своей новой ссылкой.
@@ -158,15 +158,16 @@ items:
 
 Если у вас есть еще вопросы, прочитайте полный урок по **external-host** здесь:
 
-{% page-ref page="../../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
+{% content-ref url="../../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
+[resourcepack-on-dropbox.md](../../../../resourcepack-hosting/resourcepack-on-dropbox.md)
+{% endcontent-ref %}
 
 ## Получение блока в игре
 
 Введите `/iaget red_block`, чтобы получить предмет.
 
-![](../../../../../.gitbook/assets/immagine%20%2895%29.png)
+![](<../../../../../.gitbook/assets/immagine (95).png>)
 
-![](../../../../../.gitbook/assets/immagine%20%2872%29.png)
+![](<../../../../../.gitbook/assets/immagine (72).png>)
 
-![](../../../../../.gitbook/assets/immagine%20%2894%29.png)
-
+![](<../../../../../.gitbook/assets/immagine (94).png>)

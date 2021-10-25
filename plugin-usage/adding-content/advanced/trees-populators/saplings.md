@@ -1,6 +1,8 @@
 # Саженцы
 
-## Example
+## Creating a sapling for a custom tree
+
+### The sapling item
 
 ```yaml
 items:
@@ -16,6 +18,8 @@ items:
       sapling:
         tree_populator: orange_tree
 ```
+
+### The custom tree populator
 
 ```yaml
 trees_populators:

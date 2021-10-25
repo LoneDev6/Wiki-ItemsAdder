@@ -2,12 +2,13 @@
 
 ## Spawn the mob naturally using ItemsAdder
 
-To spawn the mob naturally you have to setup the `replace_mobs_spawn` property.
+To spawn the mob naturally you have to setup the `replace_mobs_spawn `property.
 
-This is an example for a custom mob names **Soul**.  
+This is an example for a custom mob names **Soul**.\
 As you can see I set it up like a normal item, but with a special [behaviour ](../../item-properties/behaviours.md)named **mob**.
 
-This example configuration tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT` and only in caves \(`max_sky_light: 0`\).
+\
+This example configuration tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT `and only in caves (`max_sky_light: 0`).
 
 ```yaml
   soul:
@@ -41,7 +42,7 @@ This example configuration tells ItemsAdder to replace any naturally spawned `ZO
              - DESERT_LAKES
 ```
 
-You can create as much as replace rules as you want, for example if you want to replace both `ZOMBIE` and `SKELETON` you can create a second rule
+You can create as much as replace rules as you want, for example if you want to replace both `ZOMBIE `and `SKELETON `you can create a second rule
 
 ```yaml
         replace_mobs_spawn:
@@ -61,8 +62,8 @@ You can create as much as replace rules as you want, for example if you want to 
               start: NOON
 ```
 
-You can decide if to **replace** the mob **or** to **spawn** the custom **mob without replacing** the **original** one.  
-You have to use the `spawn_another` property.
+You can decide if to **replace **the mob **or **to **spawn **the custom **mob without replacing **the **original **one.\
+You have to use the `spawn_another `property.
 
 ```yaml
           rule3:
@@ -74,4 +75,3 @@ You have to use the `spawn_another` property.
             time:
               start: MIDNIGHT
 ```
-

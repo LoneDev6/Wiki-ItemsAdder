@@ -2,30 +2,31 @@
 
 ## Доступные в настоящее время языки
 
-```text
+```
 GUI: 
-Chinese zh_cn
-Czech cz
-German de
-English en
-Spanish es
-French fr
-Italian it
-Japanese jp
-Korean ko
-Dutch nl
-Polish pl
-Portuguese pt
-Russian ru
-Turkish tr
+    Chinese zh_cn
+    Czech cz
+    German de
+    English en
+    Spanish es
+    French fr
+    Italian it
+    Japanese jp
+    Korean ko
+    Dutch nl
+    Polish pl
+    Portuguese pt
+    Russian ru
+    Turkish tr
+    Thai th
 
 Items: 
-Chinese zh_cn
-Spanish es
-French fr
-Italian it
-Portuguese pt
-Turkish tr
+    Chinese zh_cn
+    Spanish es
+    French fr
+    Italian it
+    Portuguese pt
+    Turkish tr
 ```
 
 ## Как изменить язык?
@@ -47,4 +48,3 @@ config_files:
 {% hint style="warning" %}
 Некоторые аддоны могут помещать свои файлы словарей в другие папки внутри items\_packs, вам придется искать их.
 {% endhint %}
-

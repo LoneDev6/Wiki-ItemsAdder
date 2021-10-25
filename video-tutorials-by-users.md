@@ -1,12 +1,14 @@
-# 📹Видео-туториалы от пользователей
+# 📹 Видео-туториалы от пользователей
 
 ## витрина
 
 {% embed url="https://www.youtube.com/watch?v=YXD2KGHDY-U" %}
 
+{% embed url="https://www.youtube.com/watch?v=OqdQmI0nG0w" %}
+
 ## Начинающие (русский)
 
-{% embed url="https://www.youtube.com/playlist?list=PL7hN0Bjz5znOonvSJmmoDES8PbFMgZ1dM" %}
+{% embed url="https://www.youtube.com/watch?v=m_7w2G3YH_A" %}
 
 ## Начинающие (english)
 

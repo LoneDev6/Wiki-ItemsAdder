@@ -18,27 +18,27 @@
 
 #### Twitter emojis
 
-`plugins\ItemsAdder\data\items_packs\twitteremojis`  
+`plugins\ItemsAdder\data\items_packs\twitteremojis`\
 `plugins\ItemsAdder\data\resource_pack\assets\twitteremojis`
 
 #### Magic craft
 
-`plugins\ItemsAdder\data\items_packs\magiccraft`  
+`plugins\ItemsAdder\data\items_packs\magiccraft`\
 `plugins\ItemsAdder\data\resource_pack\assets\magiccraft`
 
 #### Minecraft Emojis
 
-`plugins\ItemsAdder\data\items_packs\mcemojis`  
+`plugins\ItemsAdder\data\items_packs\mcemojis`\
 `plugins\ItemsAdder\data\resource_pack\assets\mcemojis`
 
 #### Предметы ItemsAdder
 
-`plugins\ItemsAdder\data\items_packs\itemsadder`  
+`plugins\ItemsAdder\data\items_packs\itemsadder`\
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
 #### Образец предметов
 
-`plugins\ItemsAdder\data\items_packs\example`  
+`plugins\ItemsAdder\data\items_packs\example`\
 `plugins\ItemsAdder\data\resource_pack\assets\example`
 
 {% hint style="danger" %}

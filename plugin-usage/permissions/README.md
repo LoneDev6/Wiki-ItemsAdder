@@ -1,38 +1,56 @@
-# 👌Права \(Permissions\)
+# 👌 Права \(Permissions\)
 
-* Для пользователей
-  * /ia
-    * `ia.user.ia`
-  * /iarecipe
-    * `ia.user.iarecipe`
-  * /iatexture \(принудительно наложить пакет только на себя\)
-    * `ia.user.iatexture`
-  * крафтинг
-    * `ia.user.craft.PERMISSION` \(или выдайте все права на крафты сразу одной строкой - ia.user.craft.\*\)
-    * чтобы получить больше информации о правах для предмета - [ознакомьтесь](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/b6ca0e098a470a4971b25346a7a58c6ba6fb5a38/plugin-usage/permissions/adding-content/advanced/item-properties/basic/item-permission.md)
-  * просмотр предметов в меню /ia
-    * `ia.user.ia.PERMISSION` \(или выдайте все права на /ia меню одной строкой - ia.user.ia.\*\)
-    * чтобы получить больше информации о правах для предмета - [ознакомьтесь](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/b6ca0e098a470a4971b25346a7a58c6ba6fb5a38/plugin-usage/permissions/adding-content/advanced/item-properties/basic/item-permission.md)
-    * `ia.user.iasearchgui` для выдачи права на функцию поиска в виде GUI для меню /ia
-    * Также, плагин позволяет устанавливать права на категории предметов, можете ознакомиться с данной страницей - [/ia GUI ](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/b6ca0e098a470a4971b25346a7a58c6ba6fb5a38/plugin-usage/permissions/ia.md)
-  * Эмоджи, GUI и HUDы \(картинки юникода\)
-    * **/iaimage /emoji, /iaemoji, /e** GUI на основе книги \(отображает список всех эмоджи/картинок юникода в форме книги\)
-      * `ia.user.image.gui`
-    * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(отображает все эмоджи на основе искового запроса\)
-      * `ia.user.image.hints`
-    * Использование эмоджи в чате
-      * `ia.user.image.chat`
-    * Использование эмоджи в командах
-      * `ia.user.image.command`
-    * Использование эмоджи на табличках
-      * `ia.user.image.sign`
-    * Использование эмоджи в книгах
-      * `ia.user.image.book`
-    * Использование эмоджи в именах предметов в наковальне
-      * `ia.user.image.anvil`
-    * Право использовать определенный эмоджи
-      * `ia.user.image.use.<font image name>`
-      * Пример: `ia.user.image.use.heart`
+## Права
+
+*   Для пользователей
+
+    * /ia
+      * `ia.user.ia`
+    * /iarecipe
+      * `ia.user.iarecipe`
+    * /iatexture \(принудительно наложить пакет только на себя\)
+      * `ia.user.iatexture`
+    * крафтинг
+      * `ia.user.craft.PERMISSION` \(или выдайте все права на крафты сразу одной строкой - ia.user.craft.\*\)
+      * чтобы получить больше информации о правах для предмета - [ознакомьтесь](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/b6ca0e098a470a4971b25346a7a58c6ba6fb5a38/plugin-usage/permissions/adding-content/advanced/item-properties/basic/item-permission.md)
+    * просмотр предметов в меню /ia
+      * `ia.user.ia.PERMISSION` \(или выдайте все права на /ia меню одной строкой - ia.user.ia.\*\)
+      * чтобы получить больше информации о правах для предмета - [ознакомьтесь](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/b6ca0e098a470a4971b25346a7a58c6ba6fb5a38/plugin-usage/permissions/adding-content/advanced/item-properties/basic/item-permission.md)
+      * `ia.user.iasearchgui` для выдачи права на функцию поиска в виде GUI для меню /ia
+      * Также, плагин позволяет устанавливать права на категории предметов, можете ознакомиться с данной страницей - [/ia GUI ](https://github.com/LoneDev6/Wiki-ItemsAdder/tree/b6ca0e098a470a4971b25346a7a58c6ba6fb5a38/plugin-usage/permissions/ia.md)
+    * Эмоджи, GUI и HUDы \(картинки юникода\)
+      * **/iaimage /emoji, /iaemoji, /e** GUI на основе книги \(отображает список всех эмоджи/картинок юникода в форме книги\)
+        * `ia.user.image.gui`
+      * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(отображает все эмоджи на основе искового запроса\)
+        * `ia.user.image.hints`
+      * Использование эмоджи в чате
+        * `ia.user.image.chat`
+      * Использование эмоджи в командах
+        * `ia.user.image.command`
+      * Использование эмоджи на табличках
+        * `ia.user.image.sign`
+      * Использование эмоджи в книгах
+        * `ia.user.image.book`
+      * Использование эмоджи в именах предметов в наковальне
+        * `ia.user.image.anvil`
+      * Право использовать определенный эмоджи
+        * `ia.user.image.use.<font image name>`
+        * Пример: `ia.user.image.use.heart`
+      * Use **text-effects** in **chat**
+        * `ia.user.text_effect.chat`
+      * Use** text-effects** in **signs**
+        * `ia.user.text_effect.sign`
+      * Use **text-effects** in **books**
+        * `ia.user.text_effect.book`
+      * Use **text-effects** in **anvil **rename field
+        * `ia.user.text_effect.anvil`
+      * Use a **text-effect**
+        * `ia.user.text_effect.use.<effect>`
+        * Examples ([full list here](../text-effects-1.17+.md)):
+          * `ia.user.text_effect.use.r`
+          * `ia.user.text_effect.use.rw`
+
+
 * Для администраторов
   * /iaget
     * `ia.admin.iaget`
@@ -66,13 +84,13 @@
     * `ia.admin.iakill`
   * /iasummon &lt;mob&gt; \[количество\]
     * `ia.admin.iasummon`
-  * /iaexport &lt;namespace&gt;
+  * /iaexport \<namespace>
     * `ia.admin.iaexport`
-  * /iaspawntree &lt;tree&gt;
+  * /iaspawntree \<tree>
     * `ia.admin.iaspawntree`
-  * /iaplaytotemanimation &lt;totem&gt; &lt;player&gt;
+  * /iaplaytotemanimation \<totem> \<player>
     * `ia.admin.iatotemanimation`
-  * /iaplaysound &lt;sound&gt; &lt;player&gt;
+  * /iaplaysound \<sound> \<player>
     * `ia.admin.iaplaysound`
   * /iacleancache
     * `ia.admin.iacleancache`
@@ -84,3 +102,8 @@
   * Право избежать отключенное выпадение предмета из блока для игрока
     * `ia.admin.bypassblockplaceloot`
 
+## Worlguard flags
+
+{% content-ref url="../../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
+[worldguard-flags.md](../../compatibility-with-other-plugins/compatible/worldguard-flags.md)
+{% endcontent-ref %}

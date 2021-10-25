@@ -2,7 +2,7 @@
 
 ## Adding custom NBT attributes to the item
 
-You can specify custom **NBT** attributes to me merged into the custom item
+You can specify custom **NBT **attributes to me merged into the custom item
 
 ## Example
 
@@ -27,8 +27,7 @@ items:
 {% hint style="danger" %}
 ## Warning
 
-Make sure to provide a valid **NBT** \(**json**\) or it won't work.
+Make sure to provide a valid **NBT **(**json**) or it won't work.
 
 ### This feature requires **ItemsAdder 2.4.18+**
 {% endhint %}
-

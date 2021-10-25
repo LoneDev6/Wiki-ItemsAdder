@@ -22,9 +22,8 @@ description: This recipes allows your users to cook/smelt materials
         amount: 1
 ```
 
-In this example I created a`cooking` recipe called `cooked_sausage`
+In this example I created a`cooking `recipe called `cooked_sausage`
 
-`machines` is the list of vanilla machines that can smelt/cook the item  
-`exp` is the exp earned by the player when cooking is completed  
-`cook_time` is the time needed to complete the cooking process \(**in ticks**\)
-
+`machines `is the list of vanilla machines that can smelt/cook the item\
+`exp `is the exp earned by the player when cooking is completed\
+`cook_time `is the time needed to complete the cooking process (**in ticks**)

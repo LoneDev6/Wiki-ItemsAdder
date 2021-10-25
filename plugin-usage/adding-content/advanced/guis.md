@@ -4,17 +4,19 @@
 Чтобы создавать свои GUI вы должны использовать [JavaAPI ](../../../razrabotchikam/java-api/huds-guis.md)или установить плагин, вроде [ChestCommands](https://dev.bukkit.org/projects/chest-commands).  
 Если вы используете плагин ChestCommands или что-то похожее, то вы должны вставить их подобным образом:
 
-```text
+```
 :offset_-16::blank_menu:
 ```
 
 Это даст команду ItemsAdder наложить текстуру со смещением в -16 пикселей по горизонтальной оси назад \(тоесть влево\).
 
-![](../../../.gitbook/assets/immagine%20%2811%29.png)
+![](<../../../.gitbook/assets/immagine (11).png>)
 
 ### Узнать больше о заполнителях \(placeholders\)
 
-{% page-ref page="font-images/placeholders.md" %}
+{% content-ref url="font-images/placeholders.md" %}
+[placeholders.md](font-images/placeholders.md)
+{% endcontent-ref %}
 
 ## Аддон-пример
 
@@ -22,13 +24,13 @@
 
 ![https://i.imgur.com/wuFEAoZ.gif](https://i.imgur.com/wuFEAoZ.gif)
 
-## Example content created by users \(Copyright by Gust\)
+## Example content created by users (Copyright by Gust)
 
-![](../../../.gitbook/assets/immagine%20%28100%29.png)
+![](<../../../.gitbook/assets/immagine (100).png>)
 
 {% hint style="warning" %}
 ### I'm not the owner of this resource
 {% endhint %}
 
-{% embed url="https://www.mc-market.org/resources/21017/" caption="" %}
+{% embed url="https://www.mc-market.org/resources/21017/" %}
 

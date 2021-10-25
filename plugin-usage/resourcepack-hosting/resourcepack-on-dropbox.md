@@ -1,12 +1,8 @@
-# Хост текстур через DropBox
+# 📦 Хост текстур через DropBox
 
 ## Видео-гайд
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" caption="" %}
-
-{% hint style="warning" %}
-Вы **не можете** использовать **GoogleDrive** и другие, потому что они не обеспечивают **прямую загрузку**. А **Dropbox обеспечивает**.
-{% endhint %}
 
 ## Учебник по работе с текстом
 
@@ -16,11 +12,11 @@
 * **Перетащите** в **DropBox** файл **pack.zip**
 * Нажмите **Share**
 
-![](../../.gitbook/assets/immagine%20%2825%29.png)
+![](<../../.gitbook/assets/immagine (25).png>)
 
 * Нажмите **Создать**
 
-![](../../.gitbook/assets/immagine%20%2824%29.png)
+![](<../../.gitbook/assets/immagine (24).png>)
 
 * Нажмите **Копировать ссылку**
 * Например, если ваша ссылка [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)
@@ -57,5 +53,6 @@ resource-pack:
 
 Да, это так, поэтому вы должны использовать функцию self host вместо DropBox. Но некоторые хостинги\ (дешевые\) не обеспечивают открытие портов, поэтому вы должны использовать DropBox.
 
-{% page-ref page="resourcepack-self-hosting.md" %}
-
+{% content-ref url="resourcepack-self-hosting.md" %}
+[resourcepack-self-hosting.md](resourcepack-self-hosting.md)
+{% endcontent-ref %}
