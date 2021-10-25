@@ -2,12 +2,12 @@
 
 ## Make your server look professional with custom ranks
 
-![](<../../../.gitbook/assets/image (27) (4) (2).png>)
+![](<../../../.gitbook/assets/image (27) (4).png>)
 
 {% hint style="warning" %}
 ### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
 
-### If you're using another prefix plugin you may need to use [this method](../../using-font_images-emojis-everywhere.md) to show ranks
+### If you're using another prefix plugin you may need to use [this method](../../using-font\_images-emojis-everywhere.md) to show ranks
 {% endhint %}
 
 ## How to create my ranks?
@@ -51,13 +51,13 @@ For example copy `admin.png`, name it `custom.png` and edit it.
 
 For example in order to make a similar rank to my **BetterRanks **addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
 
-![](<../../../.gitbook/assets/image (39).png>)
-
 ![](<../../../.gitbook/assets/image (36).png>)
+
+![](<../../../.gitbook/assets/image (37).png>)
 
 ![](<../../../.gitbook/assets/image (38).png>)
 
-![](<../../../.gitbook/assets/image (37).png>)
+![](<../../../.gitbook/assets/image (39).png>)
 
 ## Using the rank ingame
 
@@ -75,12 +75,12 @@ Use this command `/lp group admin meta addprefix 100 :admin:`
 
 Use this command (change LoneDev to your player name) `/lp user LoneDev group add admin`
 
-![](<../../../.gitbook/assets/immagine (43).png>)
+![](<../../../.gitbook/assets/immagine (40).png>)
 
 ### TAB plugin
 
 {% hint style="warning" %}
-Make sure you installed [PlaceholderAPI](../../using-font_images-emojis-everywhere.md)
+Make sure you installed [PlaceholderAPI](../../using-font\_images-emojis-everywhere.md)
 {% endhint %}
 
 #### Editing the config.yml of TAB plugin
@@ -96,6 +96,6 @@ Make sure you installed [PlaceholderAPI](../../using-font_images-emojis-everywhe
 
 Then use the command `/tab reload`
 
-![](<../../../.gitbook/assets/immagine (41).png>)
+![](<../../../.gitbook/assets/immagine (38).png>)
 
-![](<../../../.gitbook/assets/immagine (42).png>)
+![](<../../../.gitbook/assets/immagine (39).png>)

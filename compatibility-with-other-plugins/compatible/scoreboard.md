@@ -4,13 +4,13 @@
 
 ## Font images
 
-You can use [font_images ](../../plugin-usage/adding-content/advanced/font-images/)(emojis and symbols) in the **scoreboard**.
+You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)(emojis and symbols) in the **scoreboard**.
 
 ### Example
 
 `%img_smile%` will show like that:
 
-![](<../../.gitbook/assets/immagine (17).png>)
+![](<../../.gitbook/assets/immagine (95).png>)
 
 ## Hide the scoreboard background
 
@@ -22,7 +22,7 @@ You can use [font_images ](../../plugin-usage/adding-content/advanced/font-image
 
 ### After
 
-![](<../../.gitbook/assets/immagine (98).png>)
+![](<../../.gitbook/assets/immagine (96).png>)
 
 With ItemsAdder you can hide the scoreboard background, just use this trick.\
 You just have to add `%img_offset_-500%` in front of **each line **of your scoreboard configuration.

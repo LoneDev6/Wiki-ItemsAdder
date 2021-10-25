@@ -83,7 +83,7 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
+These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities)
 
 ## Durability
 
@@ -118,7 +118,7 @@ item_flags:
 Special item flags that can hide some vanilla info of the item.\
 You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-## blocked_enchants
+## blocked\_enchants
 
 Special item property that disables enchants for this item, so your users won't be able to enchant it.
 
@@ -143,7 +143,7 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-## events_cooldown
+## events\_cooldown
 
 Special attribute to limit spamming of events by players. It's in ticks, so 20 = 1 second.
 
@@ -176,7 +176,7 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
             amplifier: 4
 ```
 
-## events_needed_player_stats
+## events\_needed\_player\_stats
 
 Special attribute to make events work only if the player stat (ItemsAdder player stat, which are usually shown in HUDs) satisfies the set rule.
 
@@ -224,7 +224,7 @@ You can make an item glowing when dropped on the ground.\
 Very useful for **rare items**.\
 Example:
 
-![](<../../../../../.gitbook/assets/immagine (117).png>)
+![](<../../../../../.gitbook/assets/immagine (114).png>)
 
 ```yaml
 items:
@@ -241,7 +241,7 @@ items:
         color: DARK_RED
 ```
 
-## show_name
+## show\_name
 
 You can make a drop show its name.\
 Very useful for **rare items**.\
@@ -267,7 +267,7 @@ Example:
 [templates-and-variants.md](templates-and-variants.md)
 {% endcontent-ref %}
 
-## variant_of
+## variant\_of
 
 {% content-ref url="templates-and-variants.md" %}
 [templates-and-variants.md](templates-and-variants.md)

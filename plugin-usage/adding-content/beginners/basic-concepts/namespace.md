@@ -10,7 +10,7 @@ With namespaces you can easily understand where a particular **item**, **sound**
 
 All **realcraft** items are under the **realcraft **namespace, so when you use the `/iaget `command you can see all items IDs start with `realcraft:`
 
-![](<../../../../.gitbook/assets/image (10).png>)
+![](<../../../../.gitbook/assets/image (7).png>)
 
 ## How can I define my own namespace?
 

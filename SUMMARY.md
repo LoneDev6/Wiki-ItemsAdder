@@ -218,7 +218,7 @@
 
 ## OLD
 
-* [🕸 Old v1.0 tutorials](old-v1.0-tutorials.md)
-* [➡ Updating from 1.0](updating-from-1.0/README.md)
-  * [Convert old files to v2](updating-from-1.0/convert-old-files-to-v2.md)
-  * [Convert old items/blocks ingame](updating-from-1.0/convert-old-items-ingame.md)
+* [🕸 Old v1.0 tutorials](old/old-v1.0-tutorials.md)
+* [➡ Updating from 1.0](old/updating-from-1.0/README.md)
+  * [Convert old files to v2](old/updating-from-1.0/convert-old-files-to-v2.md)
+  * [Convert old items/blocks ingame](old/updating-from-1.0/convert-old-items-ingame.md)

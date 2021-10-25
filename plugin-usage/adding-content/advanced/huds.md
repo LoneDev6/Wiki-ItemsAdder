@@ -5,7 +5,7 @@ In order to create custom HUDs you have 2 examples provided in ItemsAdder and th
 These two HUDs are the mana bar and the thirst bar.\
 You can find them in the **realcraft **and in the **magiccraft **namespaces.
 
-![](<../../../.gitbook/assets/image (32).png>)
+![](<../../../.gitbook/assets/image (30).png>)
 
 ## Disable/enable huds in worlds
 
@@ -21,7 +21,7 @@ huds:
     enabled: true
 ```
 
-### Enable thirst in all worlds but not in world_the_end
+### Enable thirst in all worlds but not in world\_the\_end
 
 ```yaml
 huds:

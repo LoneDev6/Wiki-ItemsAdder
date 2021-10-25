@@ -12,7 +12,7 @@ For example I created a **file **which will contain all my **custom blocks**:
 
 In this file (`blocks.yml`) I start creating a simple block called `red_block`
 
-![](<../../../../../.gitbook/assets/immagine (91).png>)
+![](<../../../../../.gitbook/assets/immagine (90).png>)
 
 ```yaml
 info:
@@ -38,7 +38,7 @@ Now the fun part, let's set the textures!\
 To do that you have to put the `.png` textures file inside the correct folder.\
 In this case your **namespace **is `myitems `so you have to put them here:
 
-![](<../../../../../.gitbook/assets/immagine (101).png>)
+![](<../../../../../.gitbook/assets/immagine (105).png>)
 
 ### Applying the textures files to your item
 
@@ -139,7 +139,7 @@ Now you just need to tell the plugin to load your just added block.
 Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
 1\. Get it from this folder:
 
-![](<../../../../../.gitbook/assets/immagine (96) (2) (3) (2) (12).png>)
+![](<../../../../../.gitbook/assets/immagine (96) (2) (3) (2) (1).png>)
 
 2\. Upload it to your hosting (Dropbox)\
 3\. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
@@ -164,8 +164,8 @@ If you have more questions read the full **external-host **tutorial here:
 
 Run `/iaget red_block` to get the item.
 
-![](<../../../../../.gitbook/assets/immagine (95).png>)
+![](<../../../../../.gitbook/assets/immagine (92).png>)
 
-![](<../../../../../.gitbook/assets/immagine (72).png>)
+![](<../../../../../.gitbook/assets/immagine (91).png>)
 
-![](<../../../../../.gitbook/assets/immagine (94).png>)
+![](<../../../../../.gitbook/assets/immagine (93).png>)

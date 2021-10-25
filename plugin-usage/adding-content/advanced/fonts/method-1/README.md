@@ -1,4 +1,4 @@
-# Method 1 \(.ttf\)
+# Method 1 (.ttf)
 
 {% hint style="info" %}
 ## This method allows you to add fonts using .ttf font files
@@ -6,7 +6,7 @@
 
 ## Example custom font
 
-![](../../../../../.gitbook/assets/immagine%20%285%29.png)
+![](<../../../../../.gitbook/assets/immagine (1).png>)
 
 To this you have to:
 
@@ -14,4 +14,3 @@ To this you have to:
 * extract contents into `plugins\ItemsAdder\data\resource_pack\assets\minecraft\font`
 * open config.yml and set `custom-font enabled: true`
 * and obviously if you're using [dropbox host](../../../../resourcepack-hosting/resourcepack-on-dropbox.md) you have to reupload the pack.zip after server restart
-

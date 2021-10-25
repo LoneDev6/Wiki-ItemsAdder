@@ -12,23 +12,23 @@ If you want to make a colored element (for example a custom colored furniture) o
 
 ### 1. open your model with blockbench
 
-![](<../../../.gitbook/assets/immagine (90).png>)
+![](<../../../.gitbook/assets/immagine (79).png>)
 
 ### 2. select the face you want to be colored
 
-![](<../../../.gitbook/assets/immagine (70).png>)
+![](<../../../.gitbook/assets/immagine (80).png>)
 
 ### 3. use a white/gray texture, for better coloring
 
 ### 4. enable the hidden "Tint" feature
 
-![](<../../../.gitbook/assets/immagine (64).png>)
+![](<../../../.gitbook/assets/immagine (81).png>)
 
-![](<../../../.gitbook/assets/immagine (56).png>)
+![](<../../../.gitbook/assets/immagine (83).png>)
 
 ### 5. enable the coloring for each face you want to be colored
 
-![](<../../../.gitbook/assets/immagine (81).png>)
+![](<../../../.gitbook/assets/immagine (85).png>)
 
 ### 6. set the specific color attribute in your .yml file.
 
@@ -53,7 +53,7 @@ Copy the **decimal **color (hex).
 
 ### 7. now you can create as many as furnitures you want, just change the color and it will be automatically colored by the game
 
-![](<../../../.gitbook/assets/immagine (92).png>)
+![](<../../../.gitbook/assets/immagine (86).png>)
 
 
 

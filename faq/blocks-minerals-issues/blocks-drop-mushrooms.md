@@ -10,7 +10,7 @@ If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchant
 
 Did you delete the custom blocks folders in your world? Don't do it.
 
-![](../../.gitbook/assets/immagine%20%2896%29.png)
+![](<../../.gitbook/assets/immagine (98).png>)
 
 If you delete it you lose every custom ItemsAdder block data in the world.
 
@@ -22,4 +22,3 @@ Corrupted chunk. This can happen if you:
 * full disk problem which blocked saving of files
 * reloaded the plugin using **Plugman** or similar
 * reloaded the server using `/reload` command
-

@@ -1,7 +1,7 @@
 # Create transparent textured furnitures
 
 {% hint style="warning" %}
-If you want to make some transparent/semi transparent textures you have to make sure you based your item on a vanilla item that accepts transparency.  
+If you want to make some transparent/semi transparent textures you have to make sure you based your item on a vanilla item that accepts transparency.\
 For example:
 {% endhint %}
 
@@ -12,5 +12,4 @@ resource:
   model_path: item/your_model
 ```
 
-![Example: potion bottles with semi-trasparency](../../.gitbook/assets/image%20%283%29.png)
-
+![Example: potion bottles with semi-trasparency](<../../.gitbook/assets/image (11).png>)

@@ -11,17 +11,17 @@
 First you have to download **Fabric **and install it: [https://fabricmc.net/use/](https://fabricmc.net/use/)\
 Click on the "**Download installer**" button:
 
-![](<.gitbook/assets/immagine (120).png>)
+![](<.gitbook/assets/immagine (115).png>)
 
 ### 2. Edit the profile folder (optional step)
 
 Click on "**installations**", then press on "**edit**" under the "**Fabric**" installation.
 
-![](<.gitbook/assets/immagine (121).png>)
+![](<.gitbook/assets/immagine (119).png>)
 
 Change the folder to a new one, for example I created a new profile folder called `Fabric` inside `.minecraft`.
 
-![](<.gitbook/assets/immagine (119).png>)
+![](<.gitbook/assets/immagine (120).png>)
 
 ### 3. Install the optimization mod
 
@@ -31,7 +31,7 @@ Open the zip and extract the folders `mods` and `config` inside your `.minecraft
 
 ### 4. Run Fabric
 
-![](<.gitbook/assets/immagine (106).png>)
+![](<.gitbook/assets/immagine (117).png>)
 
 ### Done!
 

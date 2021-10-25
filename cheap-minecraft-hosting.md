@@ -1,9 +1,9 @@
 # 💰 Cheap Minecraft Hosting
 
-![](.gitbook/assets/mmica0s.gif)
+![](.gitbook/assets/MMICa0s.gif)
 
 {% hint style="info" %}
-![](<.gitbook/assets/immagine (26).png>)
+![](<.gitbook/assets/immagine (24).png>)
 
 If you need a **good **and **cheap hosting **to open your **Minecraft server **or **network **here it is, the hosting I use for all my projects.
 
@@ -22,5 +22,5 @@ If you need a **good **and **cheap hosting **to open your **Minecraft server **o
 
 ## Here you can test it yourself, on my server
 
-![](http://www.matteodev.it/spigot/test_server_banner.php)
+![](http://www.matteodev.it/spigot/test\_server\_banner.php)
 

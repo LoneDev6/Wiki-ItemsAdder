@@ -9,7 +9,7 @@ description: Allows you to create images which can be used in texts
 This feature allows you to create images that can be used to make:  **GUIs**, **HUDs**, **Emojis**, custom characters,[** custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
 
 {% hint style="warning" %}
-When you create a **font_image **make sure the **background **is **not **fully **transparent**.\
+When you create a **font\_image **make sure the **background **is **not **fully **transparent**.\
 You have to set **ALPHA **to **7 **instead of 0.
 
 Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
@@ -43,18 +43,18 @@ smile:
 
 Minecraft will show the smile emoji every time you write `鄿` in chat.
 
-## I don't care about ItemsAdder font_image, I want to handle default.json by myself.
+## I don't care about ItemsAdder font\_image, I want to handle default.json by myself.
 
 You can do it, you just have to edit the `default.json` file.
 
 ## Examples of content created with Font mages feature
 
-![](<../../../../.gitbook/assets/immagine (102).png>)
+![](<../../../../.gitbook/assets/immagine (106).png>)
 
-![](<../../../../.gitbook/assets/image (27) (4).png>)
+![](<../../../../.gitbook/assets/image (27) (4) (1).png>)
 
-![](<../../../../.gitbook/assets/immagine (104).png>)
+![](<../../../../.gitbook/assets/immagine (107).png>)
 
-![](<../../../../.gitbook/assets/immagine (110).png>)
+![](<../../../../.gitbook/assets/immagine (108).png>)
 
-![](<../../../../.gitbook/assets/immagine (113).png>)
+![](<../../../../.gitbook/assets/immagine (109).png>)

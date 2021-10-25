@@ -9,11 +9,11 @@ If you are using a plugin like ChestCommands you have to name the GUI like this:
 :offset_-16::blank_menu:
 ```
 
-This tells ItemsAdder to replace the GUI name with a -16 offset special character that will shift the main_menu texture of 16 pixels back.
+This tells ItemsAdder to replace the GUI name with a -16 offset special character that will shift the main\_menu texture of 16 pixels back.
 
 ![](<../../../.gitbook/assets/immagine (11).png>)
 
-###  Read more about placeholders
+### &#x20;Read more about placeholders
 
 {% content-ref url="font-images/placeholders.md" %}
 [placeholders.md](font-images/placeholders.md)
@@ -29,7 +29,7 @@ Here you can get an addon example [https://www.spigotmc.org/resources/gui-server
 
 ## Example content created by users (Copyright by Gust)
 
-![](<../../../.gitbook/assets/immagine (100).png>)
+![](<../../../.gitbook/assets/immagine (110).png>)
 
 {% hint style="warning" %}
 ### I'm not the owner of this resource

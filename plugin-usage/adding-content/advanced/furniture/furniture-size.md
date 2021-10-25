@@ -8,7 +8,7 @@
 
 If you want to adjust it you just have to use [Blockbench](../item-properties/resource/creating-3d-models.md) as usual and:
 
-![](<../../../../.gitbook/assets/immagine (9).png>)
+![](<../../../../.gitbook/assets/immagine (8).png>)
 
 1. click on **display **on the right
 2. click on the **armorstand icon **on the left
@@ -44,7 +44,7 @@ behaviours:
 {% tab title="Big furniture" %}
 
 
-![](<../../../../.gitbook/assets/immagine (8).png>)
+![](<../../../../.gitbook/assets/immagine (9).png>)
 {% endtab %}
 
 {% tab title="Small furniture" %}

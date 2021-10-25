@@ -23,7 +23,7 @@ This is an example sword (remember to change `myitems `[namespace ](../basic-con
 
 For example I created a **file **which will contain all my **custom swords**:
 
-![](<../../../../.gitbook/assets/immagine (22).png>)
+![](<../../../../.gitbook/assets/immagine (16).png>)
 
 In this file (`myswords.yml`) I start creating a simple sword called `mysword`
 
@@ -47,7 +47,7 @@ Now the fun part, let's set the sword texture.\
 To do that you have to put your sword `.png` texture file inside the correct folder.\
 In this case your **namespace **is `myitems `so you have to put it here:
 
-![](<../../../../.gitbook/assets/immagine (19).png>)
+![](<../../../../.gitbook/assets/immagine (14).png>)
 
 ### Applying the texture file to your item
 
@@ -86,7 +86,7 @@ To do that you have to:\
 
 ![](<../../../../.gitbook/assets/immagine (18).png>)
 
-![](<../../../../.gitbook/assets/immagine (16).png>)
+![](<../../../../.gitbook/assets/immagine (19).png>)
 
 ## If you're using external-host (Dropbox) read here:
 

@@ -16,6 +16,6 @@ It's very easy!
 
 Done!
 
-![](<../../.gitbook/assets/immagine (122).png>)
+![](<../../.gitbook/assets/immagine (121).png>)
 
-![](<../../.gitbook/assets/immagine (125).png>)
+![](<../../.gitbook/assets/immagine (122).png>)

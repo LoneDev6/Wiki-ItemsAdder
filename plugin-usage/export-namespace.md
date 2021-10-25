@@ -10,5 +10,5 @@ The zip file will be available in this folder`plugins\ItemsAdder\data\compressed
 ``
 {% endhint %}
 
-![](<../.gitbook/assets/immagine (34).png>)
+![](<../.gitbook/assets/immagine (35).png>)
 

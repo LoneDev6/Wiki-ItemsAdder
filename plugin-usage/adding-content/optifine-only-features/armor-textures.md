@@ -6,9 +6,9 @@ If you want to add a custom texture and not just a custom color to armors you ca
 
 ## Example custom textured armor
 
-![](<../../../.gitbook/assets/image (23).png>)
+![](<../../../.gitbook/assets/image (22).png>)
 
-![](<../../../.gitbook/assets/image (25).png>)
+![](<../../../.gitbook/assets/image (23).png>)
 
 ### Step 1
 
@@ -19,7 +19,7 @@ In this tutorial **my namespace **is named `mystuff`
 
 Create **custom textures **for the **inventory items**. I put them in** **the **folder **`plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`
 
-![](<../../../.gitbook/assets/image (21).png>)
+![](<../../../.gitbook/assets/image (24).png>)
 
 ### Step 3
 
@@ -27,7 +27,7 @@ Create **custom textures **for **on-body armor**. You can get a **template **fro
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`\
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
 
-**Edit **the **textures **as you wish (use Paint.NET, Photoshop, GIMP or similar programs) and **save **them as `layer_1.png` and `layer_2.png` 
+**Edit **the **textures **as you wish (use Paint.NET, Photoshop, GIMP or similar programs) and **save **them as `layer_1.png` and `layer_2.png`&#x20;
 
 ### Step 4
 
@@ -43,7 +43,7 @@ Now save the **previously created on-body **textures (`layer_1.png` and `layer_2
 
 So you have this:
 
-![](<../../../.gitbook/assets/image (24).png>)
+![](<../../../.gitbook/assets/image (25).png>)
 
 ### Step 6
 

@@ -18,11 +18,11 @@ coverY: 0
 * **Drag and drop **on **DropBox** the file **pack.zip**
 * Press **Share**
 
-![](<../../.gitbook/assets/immagine (25).png>)
+![](<../../.gitbook/assets/immagine (20).png>)
 
 * Press **Create**
 
-![](<../../.gitbook/assets/immagine (24).png>)
+![](<../../.gitbook/assets/immagine (21).png>)
 
 * Press **Copy link**
 * For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;

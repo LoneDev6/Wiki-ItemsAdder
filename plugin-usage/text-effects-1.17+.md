@@ -49,11 +49,11 @@ effects:
 
 ![](../.gitbook/assets/rainbow.gif)
 
-![](<../.gitbook/assets/immagine (131).png>)
+![](<../.gitbook/assets/immagine (128).png>)
 
-![](<../.gitbook/assets/immagine (134).png>)
+![](<../.gitbook/assets/immagine (129).png>)
 
-![](../.gitbook/assets/rainbow_item.gif)
+![](../.gitbook/assets/rainbow\_item.gif)
 
 Permission: `ia.user.text_effect.use.r`\
 Usage: `<r text>`
@@ -62,25 +62,25 @@ Usage: `<r text>`
 
 ![](../.gitbook/assets/wobble.gif)
 
-![](../.gitbook/assets/wobble_item.gif)
+![](../.gitbook/assets/wobble\_item.gif)
 
 Permission: `ia.user.text_effect.use.w`\
 Usage: `<w text>`
 
 ### Jump
 
-![](../.gitbook/assets/jump_chat.gif)
+![](../.gitbook/assets/jump\_chat.gif)
 
 ![](../.gitbook/assets/jump.gif)
 
-![](../.gitbook/assets/jump_boss.gif)
+![](../.gitbook/assets/jump\_boss.gif)
 
 Permission: `ia.user.text_effect.use.j`\
 Usage: `<j text>`
 
 ### Rainbow + Wobble
 
-![](../.gitbook/assets/rw_chat.gif)
+![](../.gitbook/assets/rw\_chat.gif)
 
 Permission: `ia.user.text_effect.use.rw`\
 Usage: `<rw text>`
@@ -103,11 +103,11 @@ Usage: `<rj text>`
 * Prefix-Suffix (Luckperms for example)
 * _More soon...._
 
-![](../.gitbook/assets/rainbow_wobble_lore.gif)
+![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
 ## How to create animated prefix (Luckperms)
 
-![](<../.gitbook/assets/immagine (129).png>)
+![](<../.gitbook/assets/immagine (133).png>)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 

@@ -2,26 +2,26 @@
 
 ## Vanilla loading screen
 
-![](<../../../.gitbook/assets/immagine (51).png>)
+![](<../../../.gitbook/assets/immagine (44).png>)
 
 ## Custom loading screen
 
-![](<../../../.gitbook/assets/immagine (48).png>)
+![](<../../../.gitbook/assets/immagine (51).png>)
 
 ## How to do that?
 
 ### Before Minecraft 1.16
 
-![](<../../../.gitbook/assets/immagine (47).png>)
+![](<../../../.gitbook/assets/immagine (49).png>)
 
-You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojang_template.xcf).
+You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf).
 
 * Edit my file:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`
 * Save the file in the same location
 
 ### After Minecraft 1.16
 
-![](<../../../.gitbook/assets/immagine (13).png>)
+![](<../../../.gitbook/assets/immagine (48).png>)
 
 {% hint style="warning" %}
 **Warning**: a known issue is that the logo is bugged when you use `/iazip` or `/iatexture` to apply the texture ingame.\
@@ -30,7 +30,7 @@ The logo will be shown with no issue only on server join for some reason, probab
 
 A little bit difficult: \
 basically you have to split your image in half like I did, so you have to know how to use image editing programs (Photoshop, GIMP or Paint.net).\
-You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various_files/mojangstudios_template.xcf).
+You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf).
 
 * Edit my file: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
 * Save the file in the same location
@@ -60,7 +60,7 @@ screen.loading.progress=1f17ce
 screen.loading.blend=DST_COLOR
 ```
 
-You can edit the colors using a [HEX color picker](https://www.w3schools.com/colors/colors_picker.asp)
+You can edit the colors using a [HEX color picker](https://www.w3schools.com/colors/colors\_picker.asp)
 
 {% hint style="warning" %}
 Do not include the `# `at the start of the color code.
