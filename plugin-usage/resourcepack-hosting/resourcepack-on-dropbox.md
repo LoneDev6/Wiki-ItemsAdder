@@ -1,3 +1,9 @@
+---
+cover: >-
+  ../../.gitbook/assets/Dropbox_(service)-Blue&White-Dark-Background-Logo.wine.svg
+coverY: 0
+---
+
 # 📦 Хост текстур через DropBox
 
 ## Видео-гайд

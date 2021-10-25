@@ -41,4 +41,4 @@ These are used to **connect **the **two items**.
 
 Run `/iaget executableitem_test` and get the item!
 
-![](<../../.gitbook/assets/immagine (140) (1).png>)
+![](<../../.gitbook/assets/immagine (140) (1) (1).png>)

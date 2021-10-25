@@ -96,6 +96,8 @@
     * `ia.admin.iacleancache`
   * /iahitbox \(показывает хитбокс размещенных предметов мебели\)
     * `ia.admin.iahitbox`
+  * [/iaconfig](../commands/iaconfig.md) (Основная команда для выполнения некоторых операций с конфигурациями плагина.)
+    * ia.admin.iaconfig
 * Прочее:
   * Право избежать отключение от сервера, если владелец права отказался от пакета ресурсов
     * `ia.resourcepack.bypasskick`
