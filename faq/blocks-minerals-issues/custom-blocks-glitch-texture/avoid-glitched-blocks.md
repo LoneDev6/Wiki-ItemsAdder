@@ -1,16 +1,16 @@
-# Avoid glitched blocks
+# Избегайте глючных блоков
 
 {% hint style="warning" %}
-## This only works on [Purpur](https://purpur.pl3x.net/). Spigot and Paper don't have this feature.
+## Это работает только на [Purpur](https://purpur.pl3x.net/). Spigot и Paper не имеют этой функции.
 {% endhint %}
 
-Enable these options in **purpur.yml** configuration:
+Включите эти опции в конфигурации **purpur.yml**:
 
 * [https://purpur.pl3x.net/docs/Configuration/\#disable-mushroom-updates](https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates)
 * [https://purpur.pl3x.net/docs/Configuration/\#disable-note-block-updates](https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates)
 * [https://purpur.pl3x.net/docs/Configuration/\#disable-chorus-plant-updates](https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates)
 
-**Example:**
+**Пример:**
 
 ```yaml
   blocks:

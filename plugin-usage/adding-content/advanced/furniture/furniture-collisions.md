@@ -1,8 +1,8 @@
-# Furniture collisions
+# Столкновения мебели
 
-## How can I make a furniture solid?
+## Как сделать мебель твердой?
 
-You can make a furniture solid adding the "solid" attribute and specifying a hitbox (if you want > 1x1x1)
+Вы можете сделать мебель твердой, добавив атрибут "solid" и указав хитбокс \(если вы хотите &gt; 1x1x1\).
 
 ```yaml
   table:
@@ -30,12 +30,12 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
 
 ![](<../../../../.gitbook/assets/image (15).png>)
 
-### Show the hitbox <a href="show-the-hitbox" id="show-the-hitbox"></a>
+## Показать хитбокс <a id="show-the-hitbox"></a>
 
 {% hint style="info" %}
-## Show the hitbox
+## Показать хитбокс
 
-You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
+Вы можете использовать команду `/iahitbox`, чтобы увидеть хитбокс при создании мебели, это очень полезно для обнаружения ошибок в настройке хитбокса.
 {% endhint %}
 
 ![](<../../../../.gitbook/assets/immagine (63) (2) (3) (2) (1) (1).png>)
@@ -45,9 +45,6 @@ You can use the command `/iahitbox` to see the hitbox when you pleace a furnitur
 ![](<../../../../.gitbook/assets/immagine (58).png>)
 
 {% hint style="warning" %}
-## Hitboxes limitations
-
-* **furnitures** that use `entity: item_frame` **support only hitbox** with `width` and `length` of the **same value**. (example: `width: 2`, `length: 2`, `height: 1`). \
-  If you want to have different `width` and `length` use `entity: armor_stand`.
+* **мебель**, использующая `entity: item_frame` **поддерживает только хитбокс** с `width` и `length` одинакового значения**. \(пример: `width: 2`, `length: 2`, `height: 1`\).  Если вы хотите иметь разные `ширину` и `длину`, используйте `entity: armor_stand`. 
 {% endhint %}
 

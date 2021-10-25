@@ -1,88 +1,88 @@
 # Модель моба
 
-## Creating the animated model (idle animation)
+## Создание анимированной модели \(idle animation\)
 
-To create the models I use [BlockBench](https://blockbench.net), it's very easy to use and fast.\
-BlockBench [tutorials ](https://www.youtube.com/results?search_query=blockbench+tutorial)are available on YouTube.
+Для создания моделей я использую [BlockBench](https://blockbench.net/), он очень прост в использовании и быстр.  
+Учебники по BlockBench [tutorials](https://www.youtube.com/results?search_query=blockbench+tutorial) доступны на YouTube.
 
 {% hint style="danger" %}
-You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
+Вы должны убедиться, что создаете свою модель как Java Block/Item model! Не используйте Bedrock Model или Entity model!
 
 ![](<../../../../../.gitbook/assets/immagine (89) (17).png>)
 {% endhint %}
 
-### Creating a very simple idle animation
+### Создание очень простой анимации простоя
 
-For example I created this model, it's made of some cubes as you can see.
+Для примера я создал эту модель, она состоит из нескольких кубиков, как вы можете видеть.
 
 ![](<../../../../../.gitbook/assets/immagine (57).png>)
 
-Now we want to animate it!\
-For example I want to make it float up and down.
+Теперь мы хотим его анимировать!  
+Например, я хочу, чтобы она плавала вверх и вниз.
 
-**1.Save** the **current model **in a temporary folder (anywhere on your PC)
+**1. Сохраните текущую модель** во временной папке\(в любом месте на вашем компьютере\)
 
 ![](<../../../../../.gitbook/assets/immagine (87).png>)
 
 ![](<../../../../../.gitbook/assets/immagine (82).png>)
 
-Ok I saved it as **1.json** inside the **idle **folder. This is the first frame of the **animation**.
+Я сохранил его как **1.json** в папке **idle**. Это первый кадр **анимации**.
 
-**2.**Return to **BlockBench **and select all pressing **CTRL+A**
+**2.** Вернитесь в **BlockBench** и выберите все, нажав **CTRL+A**.
 
 ![](<../../../../../.gitbook/assets/immagine (78).png>)
 
-**Hold left mouse button **while cliking on the **GREEN **arrow, **hold CTRL** and **move **the mouse **up** a little bit
+**зажмите левую кнопку мыши**, нажимая на **ЗЕЛЕНУЮ** стрелку, **зажмите CTRL** и **переместите** мышь **наверх**.
 
 ![](<../../../../../.gitbook/assets/immagine (62).png>)
 
-**3.Save** the file again but change the name to **2.json**
+**3. Сохраните** файл снова, но измените имя на **2.json**.
 
-**4.**Do the same thing 3 times (move the mob a little bit up) and save the file again increasing the number in its file name.
+**4.** Проделайте то же самое 3 раза\(переместите моба немного вверх\) и сохраните файл, увеличив число в его имени.
 
-**5.**Now we have finished creating the needed frames for our animation. Open [this website](https://lonedev6.github.io/animated-models/)
+**5.** Теперь мы закончили создание необходимых кадров для нашей анимации. Откройте [этот сайт](https://lonedev6.github.io/animated-models/)
 
-**6.**Now **click **on the **icon **to load our json frames
+**6. Нажмите** на **иконку**, чтобы загрузить наши json кадры
 
 ![](<../../../../../.gitbook/assets/immagine (80).png>)
 
-**7.**Click on "**Choose files...**" and select your json files and the png texture
+**7.** Нажмите на "**Выбрать файлы...**" и выберите ваши json файлы и png текстуру
 
 ![](<../../../../../.gitbook/assets/immagine (14).png>)
 
 ![](<../../../../../.gitbook/assets/immagine (73).png>)
 
-**8.**Click on **LOAD**
+**8.** Нажмите на **LOAD**
 
 ![](<../../../../../.gitbook/assets/immagine (83).png>)
 
-**9.Click** the **second icon **and** drag **and **drop **the **4 files **to the bottom line
+**9. Нажмите** на **вторую иконку** и **перетащите** и **отпустите** **4 файла** в нижнюю строку
 
 ![](<../../../../../.gitbook/assets/immagine (79).png>)
 
 ![](<../../../../../.gitbook/assets/immagine (61).png>)
 
-**10.**You should have them like that
+**10.** Вы должны иметь их такими.
 
 ![](<../../../../../.gitbook/assets/immagine (74).png>)
 
-**11.**Drag and drop them again but in reverse (3-2**, I skipped 1 and 4 because they would be useless for the animation**)
+**11.**Перетащите их снова, но в обратном порядке\(3-2**, я пропустил 1 и 4, потому что они были бы бесполезны для анимации**\)
 
 ![](<../../../../../.gitbook/assets/immagine (85).png>)
 
-**12.**Press the **play **button (on the **bottom left**) to **preview **the animation
+**12.** Нажмите кнопку **воспроизведения** \(в **левом нижнем углу**\), чтобы **просмотреть** анимацию
 
 ![](https://i.imgur.com/zslbD0G.gif)
 
-**13.** Press "**Export**" button (**top right **of the **screen**) and configure it like in the screenshot, then press "**Export**" again.
+**13.** Нажмите кнопку "**Экспорт**"\ (**вверху справа** на **экране**\) и настройте его как на скриншоте, затем снова нажмите "**Экспорт**".
 
 ![](<../../../../../.gitbook/assets/immagine (66).png>)
 
-**14.**Now you will have a **zip **file with the animation, **download **it and **open **it.
+**14.** Сейчас у вас будет **zip** файл с анимацией, **скачайте** его и **откройте**.
 
-**15.Extract **the zip inside your **ItemsAdder **folder `data\resource_pack\`
+**15. Распакуйте** zip в папку **ItemsAdder** `data\resource_pack\`.
 
-**16.**Set your mob configuration like this, to use the idle animation and not the stuck one: `"mob/soul/idle"`
+**16.** Установите конфигурацию вашего моба следующим образом, чтобы использовать анимацию бездействия, а не анимацию застревания: ``mob/soul/idle``.
 
 ```yaml
 items:
@@ -95,25 +95,25 @@ items:
       model_path: "mob/soul/idle"
 ```
 
-**17.**Use the command `/iazip` (if you're using external-host please follow the [tutorial ](../../../../resourcepack-hosting/)carefully)
+**17.**Используйте команду `/iazip`\(если вы используете внешний хост, пожалуйста, следуйте [учебнику](../../../../../resourcepack-hosting/) внимательно\)
 
-**18.**spawn the mob using` /iasummon soul`
+**18.**породите моба, используя команду `/iasummon soul`.
 
 ![](https://i.imgur.com/1tljgbv.gif)
 
 {% hint style="warning" %}
-Do not open the animated model (exported from the website) with BlockBench or any other editing program or it will probably break and stop working.
+Не открывайте анимированную модель \(экспортированную с сайта\) с помощью BlockBench или любой другой программы редактирования, иначе она может сломаться и перестать работать.
 {% endhint %}
 
 {% hint style="info" %}
-You can delete the 1-2-3-4.json files, you don't need them anymore (but you can backup them for future usage), you only need the idle.json file and the png+mcmeta files which are the animated files.
+Вы можете удалить файлы 1-2-3-4.json, они вам больше не нужны\(но вы можете сделать их резервную копию для будущего использования\), вам нужен только файл idle.json и файлы png+mcmeta, которые являются анимированными файлами.
 {% endhint %}
 
-## More advanced animations:
+## Более продвинутые анимации:
 
 {% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" caption="" %}
 
-## Full addon download
+## Полная загрузка аддона
 
 {% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" %}
 

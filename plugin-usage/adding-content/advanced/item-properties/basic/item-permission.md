@@ -6,11 +6,11 @@
 permission: myitem
 ```
 
-## How to allow crafting?
+## Как разрешить крафтинг?
 
 Вы можете разрешить игрокам **создавать** определенные предметы, дав им подобное право: `ia.user.craft.myitem`
 
-## How to make the item visible in the /ia gui on to some users?
+## Как сделать элемент видимым в /ia gui для некоторых пользователей?
 
 Чтобы разрешить игроком **видеть** предмет в меню `/ia`, вы должны дать им право, подобное этому: `ia.user.ia.myitem`
 
@@ -19,6 +19,6 @@ permission: myitem
 {% endhint %}
 
 {% hint style="warning" %}
-Remember to create a [category ](../../../../ia.md)for the `/ia` GUI.
+Не забудьте создать [категорию](../../../../../ia.md) для графического интерфейса `/ia`.
 {% endhint %}
 

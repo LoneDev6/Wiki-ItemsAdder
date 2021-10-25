@@ -1,39 +1,39 @@
 # Оптимизировать Minecraft 1.17
 
-## Minecraft 1.17 is slow
+## Minecraft 1.17 медленный
 
-**Minecraft 1.17** is known to be very heavy, the community had fixed most of its problems.
+**Minecraft 1.17**, как известно, очень тяжелый, сообщество исправило большинство его проблем.
 
-## How to optimize it
+## Как ее оптимизировать
 
-### 1. Downloading Fabric
+### 1. Загрузка Fabric
 
-First you have to download **Fabric** and install it: [https://fabricmc.net/use/](https://fabricmc.net/use/)  
-Click on the "**Download installer**" button:
+Сначала вам нужно скачать **Fabric** и установить его: [https://fabricmc.net/use/](https://fabricmc.net/use/)  
+Нажмите на кнопку "**Скачать программу установки**":
 
 ![](.gitbook/assets/immagine%20%28120%29.png)
 
-### 2. Edit the profile folder \(optional step\)
+### 2. Отредактируйте папку профиля \(необязательный шаг\)
 
-Click on "**installations**", then press on "**edit**" under the "**Fabric**" installation.
+Нажмите на "**установки**", затем нажмите на "**редактировать**" под установкой "**Фабрика**".
 
 ![](.gitbook/assets/immagine%20%28121%29.png)
 
-Change the folder to a new one, for example I created a new profile folder called `Fabric` inside `.minecraft`.
+Измените папку на новую, например, я создал новую папку профиля под названием `Fabric` внутри `.minecraft`.
 
 ![](.gitbook/assets/immagine%20%28119%29.png)
 
-### 3. Install the optimization mod
+### 3. Установите мод оптимизации
 
-Download the mod here: [https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154)
+Скачайте мод здесь: [https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154)
 
-Open the zip and extract the folders `mods` and `config` inside your `.minecraft` folder \(or inside the **Fabric** profile folder\).
+Откройте zip и извлеките папки `mods` и `config` в папку `.minecraft` \(или в папку **Fabric** профиля\).
 
-### 4. Run Fabric
+### 4. Запустите Fabric
 
 ![](.gitbook/assets/immagine%20%28106%29.png)
 
-### Done!
+### Готово!
 
-Now your game will open and run very fast compared to how the vanilla game runs.
+Теперь ваша игра будет открываться и работать очень быстро по сравнению с тем, как работает ванильная игра.
 

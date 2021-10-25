@@ -1,17 +1,16 @@
-# Furniture
+# Мебель
 
 {% hint style="warning" %}
-## Limitations of itemframes furnitures
+## Ограничения на мебель для рамок
 
-* solid itemframe furnitures are possible only on Server version >= 1.16 (client doesn't matter).
-* invisible itemframe furnitures are possible only on Server and Client version >= 1.16. \
-  If a user connects with viaversion using an old mc version they will see the itemframe.
+* твердые рамки предметов возможны только на сервере версии &gt;= 1.16\(клиент не имеет значения\).
+* невидимые рамки предметов возможны только на сервере и клиенте версии &gt;= 1.16. Если пользователь подключается через версию, использующую старую версию mc, он будет видеть рамку предмета.
 {% endhint %}
 
 {% hint style="warning" %}
-## Limitations of all furnitures
+## Ограничения всех предметов мебели
 
-* non solid furnitures can't receive interact events, they can only be removed using mouse left click but cannot be interacted with (only solid furnitures can get interact events)
-* max size of the hitbox is 3x3x3 for performance reasons
+* не твердые предметы не могут получать события взаимодействия, они могут быть удалены только с помощью левого клика мыши, но с ними нельзя взаимодействовать\(только твердые предметы могут получать события взаимодействия\)
+* максимальный размер хитбокса 3x3x3 по соображениям производительности
 {% endhint %}
 

@@ -1,8 +1,8 @@
 # Саженцы
 
-## Creating a sapling for a custom tree
+## Создание саженца для собственного дерева
 
-### The sapling item
+### Саженец
 
 ```yaml
 items:

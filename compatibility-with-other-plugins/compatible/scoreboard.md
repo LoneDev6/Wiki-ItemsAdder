@@ -1,20 +1,20 @@
 # Scoreboard
 
-## [Download here](https://www.spigotmc.org/resources/scoreboard.14754/)
+## [Скачать здесь](https://www.spigotmc.org/resources/scoreboard.14754/)
 
-## Font images
+## Совместимость
 
-You can use [font_images ](../../plugin-usage/adding-content/advanced/font-images/)(emojis and symbols) in the **scoreboard**.
+Вы можете использовать [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)\(emojis и символы\) в **scoreboard**.
 
-### Example
+### Пример
 
-`%img_smile%` will show like that:
+`%img_smile%` будет отображаться так:
 
 ![](<../../.gitbook/assets/immagine (17).png>)
 
-## Hide the scoreboard background
+## Скрытие фона табло
 
-(works with every scoreboard plugin)
+(работает со всеми плагинами табло)
 
 ### Before
 
@@ -24,8 +24,9 @@ You can use [font_images ](../../plugin-usage/adding-content/advanced/font-image
 
 ![](<../../.gitbook/assets/immagine (98).png>)
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.\
-You just have to add `%img_offset_-500%` in front of **each line **of your scoreboard configuration.
+С помощью ItemsAdder вы можете скрыть фон табло, просто используйте этот трюк.
+
+Вам просто нужно добавить `%img_offset_-500%` перед **каждой строкой** вашей конфигурации табло.
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
@@ -118,8 +119,14 @@ board:
         - '%img_offset_-500%&c------------------------'
         - '%img_offset_-500%&4------------------------'
 ```
+## Скрыть красные числа с табло
+### До
 
-## Hide the red numbers from Scoreboard
+![](../../.gitbook/assets/immagine%20%2897%29.png)
+
+### После
+
+![](../../.gitbook/assets/immagine%20%2898%29.png)
 
 {% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
 [hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)

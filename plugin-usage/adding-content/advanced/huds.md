@@ -7,13 +7,13 @@
 
 ![](../../../.gitbook/assets/image%20%2832%29.png)
 
-## Disable/enable huds in worlds
+## Отключение/включение худов в мирах
 
-You can easily disable/enable huds in some worlds, here some examples:
+Вы можете легко отключить/включить huds в некоторых мирах, вот несколько примеров:
 
-## Enable in all worlds
+## Включить во всех мирах
 
-To enable them in all worlds you just have to avoid entering any world in the list, don't write the property at all.
+Чтобы включить их во всех мирах, нужно просто не вводить ни один мир в список, не писать свойство вообще.
 
 ```yaml
 huds:
@@ -21,7 +21,7 @@ huds:
     enabled: true
 ```
 
-### Enable thirst in all worlds but not in world\_the\_end
+### Разрешить жажду во всех мирах, но не в мире\_the\_end
 
 ```yaml
 huds:
@@ -31,9 +31,9 @@ huds:
     - "!world_the_end"
 ```
 
-Notice the `!` in front of the world name. \(It's very important to use the `" "` characters or plugin won't work \(yml bug\).
+Обратите внимание на `!` перед названием мира. \(Очень важно использовать символы `!`, иначе плагин не будет работать \(yml bug\).
 
-### Enable thirst in all worlds of name which starts with `world_` or `adventure`
+### Включить жажду во всех мирах, название которых начинается с `world_` или `adventure`.
 
 ```yaml
 huds:
@@ -44,5 +44,5 @@ huds:
     - "adventure*
 ```
 
-Notice the `*` at the end, this means "any". \(keep in mind that this works only at the end of the name\)
+Обратите внимание на `*` в конце, это означает "любой". \(имейте в виду, что это работает только в конце имени\)
 

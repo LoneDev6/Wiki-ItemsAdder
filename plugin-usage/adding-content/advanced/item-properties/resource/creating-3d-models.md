@@ -5,12 +5,12 @@
 {% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" caption="" %}
 
 {% hint style="warning" %}
-## Important
+## Важно
 
-If you're using a **non-vanilla** texture \(your **.png** file\) you have to open the **.json** file of your model and do a little edit.
+Если вы используете **не-ванильную** текстуру\(ваш **.png** файл\), вам необходимо открыть **.json** файл вашей модели и сделать небольшую правку.
 
-If your model is using a custom texture you have to make sure to put your namespace in front of the texture name.  
-For example if you have this 3D model and the texture has this path: `plugins\ItemsAdder\data\resource_pack\assets\my_items\textures\item\custom_item_1.png`
+Если ваша модель использует пользовательскую текстуру, вы должны убедиться, что перед именем текстуры указано ваше пространство имен.  
+Например, если у вас есть 3D модель и текстура имеет такой путь: `plugins\ItemsAdder\data\resource_pack\assets\my_items\textures\item\custom_item_1.png`.
 
 ```javascript
  "textures":{
@@ -18,7 +18,7 @@ For example if you have this 3D model and the texture has this path: `plugins\It
    },
 ```
 
-you have to add the **namespace** in front of it \(`my_items` in my example, you have to use your namespace\).
+вы должны добавить **namespace** перед ним\(`my_items` в моем примере, вы должны использовать свой namespace\).
 
 ```javascript
  "textures":{

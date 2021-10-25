@@ -9,23 +9,23 @@
 
 * `block_trade_machine` - поведение торгового автомата для блока
 * `furniture_trade_machine` - поведение торгового автомата для мебели
-* `fuel`
+* `fuel` - топливо
 * `furniture` - мебель
 * `furniture_sit` - мебель, на которую можно сесть
 * `gun` - оружие
 * `hat` - шляпы
 * `keep_on_death`
-* `liquid_analyzer`
-* `liquid_bucket`
-* `mob_animation`
-* `mob`
+* `liquid_analyzer` - анализатор жидкости
+* `liquid_bucket` - ведро с жидкостью
+* `mob_animation` - анимация мобов
+* `mob` - мобы
 * `music_disc` - музыкальные пластинки
-* `sapling`
-* `spawn_egg`
+* `sapling` - саженец
+* `spawn_egg` - яйцо спавна
 * `vehicle` - транспорт
 
 {% hint style="info" %}
-You can get suggestions how how to use the behaviours using the official editor:
+Вы можете получить предложения о том, как использовать модели поведения, используя официальный редактор:
 
 {% page-ref page="../../../../files-editor.md" %}
 {% endhint %}

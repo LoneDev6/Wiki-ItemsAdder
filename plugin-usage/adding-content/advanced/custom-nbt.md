@@ -1,12 +1,12 @@
-# Custom NBT
+# Пользовательские NBT
 
-## Adding custom NBT attributes to the item
+## Добавление пользовательских атрибутов NBT к элементу
 
-You can specify custom **NBT **attributes to me merged into the custom item
+Вы можете указать пользовательские **NBT** атрибуты, которые будут объединены в пользовательский элемент.
 
-## Example
+## Пример
 
-For example I want to merge these tags into my item.
+Например, я хочу объединить эти теги в мой элемент.
 
 `{my-custom-nbt-tag:"hello this is a custom tag", another-tag:"useless"}`
 
@@ -25,9 +25,9 @@ items:
 ```
 
 {% hint style="danger" %}
-## Warning
+## Предупреждение
 
-Make sure to provide a valid **NBT **(**json**) or it won't work.
+Убедитесь, что вы предоставили корректный **NBT** \(**json**\), иначе функция не будет работать.
 
-### This feature requires **ItemsAdder 2.4.18+**
+### Для этой функции требуется **ItemsAdder 2.4.18+**.
 {% endhint %}

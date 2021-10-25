@@ -1,18 +1,18 @@
-# Configuration
+# Конфигурация
 
-## Creating your fist mob
+## Создание своего кулака
 
-### yml configuration
+### Конфигурация yml
 
-You have to create a .yml file in your [namespace ](../../../beginners/basic-concepts/namespace.md)folder \(check [other tutorials ](../../../beginners/creating-your-namespace.md)for more info\).
+Вы должны создать файл .yml в папке [namespace](.../.../.../beginners/basic-concepts/namespace.md) \(посмотрите [другие руководства](.../.../.../beginners/creating-your-namespace.md) для дополнительной информации\).
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../../files-editor.md) to edit ItemsAdder files.  
-It makes you life easier as it has autocomplete \(press CRTL+SPACE\) which helps you on avoiding mistakes.
+Рассмотрите возможность использования [официального онлайн инструмента](../../../../../../files-editor.md) для редактирования файлов ItemsAdder.  
+Он облегчит вам жизнь, так как имеет автозаполнение\(нажмите CRTL+SPACE\), которое поможет вам избежать ошибок.
 {% endhint %}
 
-This is an example for a custom mob named **Soul**.  
-As you can see I set it up like a normal item, but with a special [behaviour ](../../item-properties/behaviours.md)named **mob**.
+Это пример для пользовательского моба под названием **Soul**.  
+Как вы видите, я настроил его как обычный предмет, но со специальным [поведением](../../item-properties/behaviours.md) под названием **mob**.
 
 ```yaml
 info:
@@ -38,23 +38,23 @@ items:
           walk: soul_walking
 ```
 
-The mob will have **head rotation locked** \(only on Y axis\), this will avoid it from looking stupid while looking at player when is at an higher position.
+У моба будет **заблокирован поворот головы** \(только по оси Y\), это позволит ему не выглядеть глупо, когда он смотрит на игрока, находясь в более высоком положении.
 
-`hit_color` is the color the mob will have when damaged by player.  
-You can get a valid color from these websites:  
+`hit_color` - это цвет, который будет иметь моб при повреждении игроком.  
+Вы можете получить правильный цвет на этих сайтах:
 [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)  
 [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)  
-[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) \(use one of the color pickers and copy the value from the right\)
+[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) \(используйте одну из программ выбора цвета и скопируйте значение из правой\)
 
 {% hint style="info" %}
-Note: I **skipped** the `material` property of `resource` because **it's not needed** for **mobs**, ItemsAdder will automatically handle it.
+Примечание: Я **пропустил** свойство `material` в `resource`, потому что **это не нужно** для **mobs**, ItemsAdder автоматически обработает его.
 {% endhint %}
 
-### Animations
+### Анимации
 
-You probably noticed that there are two other attributes: `attack` and `walk` **animations**.  
-The **mob\_animation** behaviour tells ItemsAdder that the item is a mob animation.  
-These are infact other items you have to create like this:
+Вы, вероятно, заметили, что есть еще два атрибута: `attack` и `walk` **анимации**.  
+Поведение **mob\_animation** говорит ItemsAdder, что предмет является анимацией моба.  
+На самом деле это другие предметы, которые вы должны создать подобным образом:
 
 ```yaml
   soul_walking:

@@ -1,9 +1,8 @@
-# I removed blocks but keep saying that I used all the IDs
+# Я удалил блоки, но продолжает говорить, что я использовал все идентификаторы.
 
-If you're really sure you can use this command to cleanup the plugin cache:`/iacleancache`\
-It will remove all the cached IDs so that you can reuse the old IDs of removed blocks.\
-
+Если вы действительно уверены, вы можете использовать эту команду для очистки кэша плагина:`/iacleancache`.  
+Она удалит все кэшированные ID, так что вы сможете повторно использовать старые ID удаленных блоков.
 
 {% hint style="info" %}
-Cache exists because if you remove a block by mistake and then you want to add it back it will have the same old ID instead of a new one each time.
+Кэш существует потому, что если вы удалите блок по ошибке, а затем захотите добавить его обратно, то каждый раз у него будет один и тот же старый ID, а не новый.
 {% endhint %}

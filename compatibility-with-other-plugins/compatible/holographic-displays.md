@@ -16,12 +16,12 @@
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-## How to add a floating custom item?
+## Как добавить плавающий пользовательский элемент?
 
-* run `/iacustommodeldata <item>` (for example `/iacustommodeldata ruby`)
-* copy the `CustomModelData`, for example `10000`
-* create a new hologram, for example: `/hd create holo_icon Hello!`
-* add the floating item to the hologram by specifying the **vanilla type** and the **CustomModelData**. Example:  `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
+* запустите `/iacustommodeldata <item>`\ (например `/iacustommodeldata ruby`\)
+* скопируйте `CustomModelData`, например `10000`.
+* создайте новую голограмму, например: `/hd create holo_icon Hello!`
+* добавьте плавающий элемент к голограмме, указав **тип vanilla** и **CustomModelData**. Пример: `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
 
 ![](<../../.gitbook/assets/immagine (123).png>)
 

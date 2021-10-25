@@ -1,26 +1,26 @@
-# Templates and variants
+# Шаблоны и варианты
 
-## What are templates?
+## Что такое шаблоны?
 
-Templates are special items that won't appear ingame, they are used as properties holders for other items.  
-They allow you to write common properties in one item and add them automatically to other items without constant copy and paste.
+Шаблоны - это специальные предметы, которые не будут появляться в игре, они используются как хранители свойств для других предметов.  
+Они позволяют записывать общие свойства в одном предмете и автоматически добавлять их в другие предметы без постоянного копирования и вставки.
 
-To create a template you have to set `template: true` in your item.
+Чтобы создать шаблон, необходимо установить `template: true` в вашем предмете.
 
 {% hint style="warning" %}
-This is an experimental feature, let me know if something is not working correctly.  
-You can see an usage example in [this addon](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
+Это экспериментальная функция, дайте мне знать, если что-то работает неправильно.  
+Вы можете увидеть пример использования в [этом аддоне](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
 {% endhint %}
 
-## What are variants?
+## Что такое варианты?
 
-Variants are items that will appear ingame and will inherit properties of template items.
+Варианты - это предметы, которые будут появляться в игре и будут наследовать свойства шаблонных предметов.
 
-To create a variant you have to set `variant_of: template name` in your item.
+Чтобы создать вариант, вы должны установить `variant_of: template name` в вашем предмете.
 
-## Example
+## Пример
 
-I want to create multiple furnitures which are equal but with different model.
+Я хочу создать несколько одинаковых предметов мебели, но с разными моделями.
 
 ```yaml
   template_wood_park_bench:

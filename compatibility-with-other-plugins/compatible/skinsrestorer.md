@@ -1,16 +1,16 @@
 # SkinsRestorer
 
-## [Download here](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+## [Скачать здесь](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 
-## How to fix resourcepack not applying on join
+## Как исправить, что ресурспак не применяется при присоединении
 
-### Step 1
+### Шаг 1
 
-Install [**ResourcepackBroadcast**](https://www.spigotmc.org/resources/resourcepackbroadcast.88318/)\*\*\*\*
+Установите [**ResourcepackBroadcast**](https://www.spigotmc.org/resources/resourcepackbroadcast.88318/) \*\*\*\*\*\*.
 
-### Step 2
+### Шаг 2
 
-Set the **ResourcepackBroadcast** `config.yml` to run `sr applyskin` when the resourcepack is loaded correctly:
+Установите в **ResourcepackBroadcast** `config.yml` для запуска `sr applyskin`, когда ресурспак загружен правильно:
 
 ```yaml
 success:
@@ -28,9 +28,9 @@ success:
       as_console: true
 ```
 
-### Step 3
+### Шаг 3
 
-Open `config.yml` of **SkinsRestorer** and set `DisableOnJoinSkins: false`
+Откройте `config.yml` из **SkinsRestorer** и установите `DisableOnJoinSkins: false`.
 
 ### Step 4
 
