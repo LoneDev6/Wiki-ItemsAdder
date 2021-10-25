@@ -1,13 +1,13 @@
-# Текстурированные префиксы \(тэги\)
+# Текстурированные префиксы (тэги)
 
 ## Make your server look professional with custom ranks
 
 ![](<../../../.gitbook/assets/image (27) (4) (2).png>)
 
 {% hint style="warning" %}
-### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
+#### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
 
-### If you're using another prefix plugin you may need to use [this method](../../using-font_images-emojis-everywhere.md) to show ranks
+#### If you're using another prefix plugin you may need to use [this method](../../using-font\_images-emojis-everywhere.md) to show ranks
 {% endhint %}
 
 ## How to create my ranks?
@@ -15,11 +15,11 @@
 ### Download the example ranks
 
 * Update to **ItemsAdder 2.1.30** or next
-* Download the [example ranks here ](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
+* Download the [example ranks here](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
 
 ### Create a new rank configuration
 
-Open`plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` file and **copy **and **paste **one of them.\
+Open`plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` file and \*\*copy \*\*and \*\*paste \*\*one of them.\
 Then rename it to your rank, also decide a new **.png** file name, for example `custom`
 
 ```yaml
@@ -38,18 +38,18 @@ Don't change `scale_ratio `and `y_position`. It would make the ranks look pixela
 
 ### Creating the png image
 
-**Copy **one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\` \
+\*\*Copy \*\*one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`\
 \
-You can edit it using **Photoshop**, **GIMP**, **Paint.NET **or any other editing software you use.\
+You can edit it using **Photoshop**, **GIMP**, \*\*Paint.NET \*\*or any other editing software you use.\
 For example copy `admin.png`, name it `custom.png` and edit it.
 
 {% hint style="danger" %}
-### Don't change the rank image height! Change only the width or the image will look pixelated!
+#### Don't change the rank image height! Change only the width or the image will look pixelated!
 {% endhint %}
 
 ### Example:
 
-For example in order to make a similar rank to my **BetterRanks **addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
+For example in order to make a similar rank to my \*\*BetterRanks \*\*addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
 
 ![](<../../../.gitbook/assets/image (39).png>)
 
@@ -63,7 +63,7 @@ For example in order to make a similar rank to my **BetterRanks **addon you just
 
 ### Luckperms
 
-#### Создание группы, Пример \(admin\)
+#### Создание группы, Пример (admin)
 
 Используйте команду - `/lp creategroup admin`
 
@@ -73,20 +73,20 @@ For example in order to make a similar rank to my **BetterRanks **addon you just
 
 #### Выдача группы игроку
 
-Используйте эту команду \(поменяйте мой ник LoneDev на нужный\) `/lp user LoneDev group add admin`
+Используйте эту команду (поменяйте мой ник LoneDev на нужный) `/lp user LoneDev group add admin`
 
 ![](<../../../.gitbook/assets/immagine (43).png>)
 
 ### TAB
 
 {% hint style="warning" %}
-Убедитесь, что у вас установлен [PlaceholderAPI](../../using-font_images-emojis-everywhere.md)
+Убедитесь, что у вас установлен [PlaceholderAPI](../../using-font\_images-emojis-everywhere.md)
 {% endhint %}
 
 #### Откройте файл конфигурации config.yml плагина TAB
 
-**Добавьте** эти строки под категорией `groups` или измените существующие.  
-\(Вы должны использовать запонитель `%img_admin%`, вместо `:admin:`, так как **TAB** распознает только заполнители **PlaceholderAPI**, игнорируя заполнители **ItemsAdder**. Так же может быть с **другими плагинами**\)
+**Добавьте** эти строки под категорией `groups` или измените существующие.\
+(Вы должны использовать запонитель `%img_admin%`, вместо `:admin:`, так как **TAB** распознает только заполнители **PlaceholderAPI**, игнорируя заполнители **ItemsAdder**. Так же может быть с **другими плагинами**)
 
 ```yaml
   Admin:

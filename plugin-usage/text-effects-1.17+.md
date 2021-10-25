@@ -1,11 +1,11 @@
-# Text Effects (1.17+)
+# Текстовые эффекты (1.17+)
 
 ## What are text effects?
 
 ItemsAdder **2.4.19** offers some cool decorative text effects you can use in your server to make it more professional.
 
 {% hint style="danger" %}
-## This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -28,17 +28,15 @@ effects:
 ```
 {% endhint %}
 
-
-
 ## Permissions
 
 * Use **text-effects** in **chat**
   * `ia.user.text_effect.chat`
-* Use** text-effects** in **signs**
+* Use\*\* text-effects\*\* in **signs**
   * `ia.user.text_effect.sign`
 * Use **text-effects** in **books**
   * `ia.user.text_effect.book`
-* Use **text-effects** in **anvil **rename field
+* Use **text-effects** in \*\*anvil \*\*rename field
   * `ia.user.text_effect.anvil`
 * Use a **text-effect**
   * `ia.user.text_effect.use.<effect>`
@@ -53,7 +51,7 @@ effects:
 
 ![](<../.gitbook/assets/immagine (134).png>)
 
-![](../.gitbook/assets/rainbow_item.gif)
+![](../.gitbook/assets/rainbow\_item.gif)
 
 Permission: `ia.user.text_effect.use.r`\
 Usage: `<r text>`
@@ -62,25 +60,25 @@ Usage: `<r text>`
 
 ![](../.gitbook/assets/wobble.gif)
 
-![](../.gitbook/assets/wobble_item.gif)
+![](../.gitbook/assets/wobble\_item.gif)
 
 Permission: `ia.user.text_effect.use.w`\
 Usage: `<w text>`
 
 ### Jump
 
-![](../.gitbook/assets/jump_chat.gif)
+![](../.gitbook/assets/jump\_chat.gif)
 
 ![](../.gitbook/assets/jump.gif)
 
-![](../.gitbook/assets/jump_boss.gif)
+![](../.gitbook/assets/jump\_boss.gif)
 
 Permission: `ia.user.text_effect.use.j`\
 Usage: `<j text>`
 
 ### Rainbow + Wobble
 
-![](../.gitbook/assets/rw_chat.gif)
+![](../.gitbook/assets/rw\_chat.gif)
 
 Permission: `ia.user.text_effect.use.rw`\
 Usage: `<rw text>`
@@ -103,7 +101,7 @@ Usage: `<rj text>`
 * Prefix-Suffix (Luckperms for example)
 * _More soon...._
 
-![](../.gitbook/assets/rainbow_wobble_lore.gif)
+![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
 ## How to create animated prefix (Luckperms)
 
