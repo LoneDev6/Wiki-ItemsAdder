@@ -1,10 +1,10 @@
 # Конвертация файла в формат .ogg
 
-Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert your file \(mp3, wav...\) to ogg.
+Используйте [этот сайт](https://audio.online-convert.com/convert-to-ogg) для конвертирования вашего файла \(mp3, wav...\) в ogg.
 
-## IMPORTANT:
+## ВАЖНО:
 
-Remember to set "Change audio channels" to MONO or you will experience [audio problems](https://bugs.mojang.com/browse/MC-146721)
+Не забудьте установить для параметра "Изменить аудиоканалы" значение МОНО, иначе возникнут [проблемы со звуком] (https://bugs.mojang.com/browse/MC-146721).
 
 ![](../../../../.gitbook/assets/immagine%20%2812%29.png)
 

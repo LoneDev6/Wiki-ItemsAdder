@@ -1,4 +1,4 @@
-# Dismount related problems
+# Проблемы, связанные с демонтажем
 
-Seems to be related to this Spigot/Vanilla issue: [https://hub.spigotmc.org/jira/browse/SPIGOT-5894](https://hub.spigotmc.org/jira/browse/SPIGOT-5894)
+Похоже, это связано с проблемой Spigot/Vanilla: [https://hub.spigotmc.org/jira/browse/SPIGOT-5894](https://hub.spigotmc.org/jira/browse/SPIGOT-5894)
 

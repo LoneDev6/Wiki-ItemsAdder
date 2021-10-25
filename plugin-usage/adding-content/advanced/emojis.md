@@ -45,11 +45,11 @@ font_images:
 `scale_ratio` должно ВСЕГДА быть больше, чем `y_position` или игра их отобразит в качестве белого квадрата без текстур. Я не могу это исправить, это лимит игры.
 {% endhint %}
 
-## In-game view
+## Игровой вид
 
 ![](../../../.gitbook/assets/immagine%20%28116%29%20%283%29.png)
 
-### Using the /e useful suggestions
+### Использование /e полезные предложения
 
 ![](../../../.gitbook/assets/immagine%20%28108%29.png)
 

@@ -1,4 +1,4 @@
-# An error occurred when enabling the resourcepack
+# Произошла ошибка при включении ресурспака
 
 ## Ознакомьтесь с этим:
 

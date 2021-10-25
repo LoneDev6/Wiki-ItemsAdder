@@ -101,11 +101,11 @@ specific_properties:
 
 ### blast\_resistance
 
-Explosion resistance \(by default is `hardness * 3`\)
+Взрывоустойчивость \(по умолчанию `hardness  * 3`\)
 
 ### no\_explosion
 
-Totally immune from explosions, ignoring `blast_resistance`
+Полностью невосприимчив к взрывам, игнорируя `blast_resistance`.
 
 ### sounds
 

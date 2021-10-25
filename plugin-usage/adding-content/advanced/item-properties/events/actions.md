@@ -37,12 +37,12 @@
 * `target_remove_potion_effect`
 * `play_totem_animation`
 
-### Delay
+### Задержка
 
 {% hint style="info" %}
-Every action has a special attribute **delay**.  
-It's the **delay** in ticks before starting the action.  
-For example:
+У каждого действия есть специальный атрибут **delay**.  
+Это **задержка** в тиках перед началом действия.  
+Например:
 
 ```yaml
 items:
@@ -84,7 +84,7 @@ items:
 ```
 {% endhint %}
 
-### Multiple actions of the same type
+### Несколько действий одного типа
 
 {% hint style="info" %}
 Вы можете указать несколько действий и по нескольку раз. Чтобы заставить его проигрываться несколько раз вам нужно добавить `_любой текст на английской раскладке` в конце.  
@@ -106,13 +106,13 @@ play_sound_3:
 ```
 {% endhint %}
 
-### Actions permission
+### Разрешение на действия
 
 {% hint style="info" %}
-Every action has a special attribute **permission**.  
-It's the **permission** the player must have before starting the **action**.  
-For example the player must have `myitems.usage.secret_items_dispenser` permission to play the sound.  
-In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give\_item.
+У каждого действия есть специальный атрибут **разрешение**.  
+Это **разрешение**, которое игрок должен иметь перед началом **действия**.  
+Например, игрок должен иметь разрешение `myitems.usage.secret_items_dispenser`, чтобы воспроизвести звук.  
+В этом примере вы заметите "проблему". Звук воспроизводится, даже если у пользователя нет разрешения на событие give. Это потому что... ну, проверка разрешения происходит только на элементе give\_.
 
 ```yaml
   test_block:
@@ -140,11 +140,11 @@ In this example you will notice an "issue". The sound is played even if the user
             pitch: 1
 ```
 
-### Setting the same permission to every action
+### Установка одинакового разрешения для каждого действия
 
-If you want to set the same permission to every action without copy and paste you can!  
-Use this special attribute `all_actions_permission`.  
-For example:
+Если вы хотите установить одинаковое разрешение для каждого действия без копирования и вставки, вы можете это сделать!  
+Используйте специальный атрибут `all_actions_permission`.  
+Например:
 
 ```yaml
   test_block:
@@ -173,7 +173,7 @@ For example:
 ```
 {% endhint %}
 
-## List of actions properties
+## Список свойств действий
 
 ```yaml
 play_sound:

@@ -6,7 +6,7 @@
 * Установите [RPGInventory-BetterConfigs](https://www.spigotmc.org/resources/rpginventory-betterconfigs.85230/)
 
 {% hint style="warning" %}
-May not work correctly since some recent updates of RPGInventory.  
-RPGInventory is almost abandoned by its developer, I can't really do anything about that.
+Может работать некорректно после некоторых последних обновлений RPGInventory.  
+RPGInventory почти заброшен его разработчиком, я не могу ничего с этим поделать.
 {% endhint %}
 

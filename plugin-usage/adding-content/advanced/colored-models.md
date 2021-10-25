@@ -1,38 +1,38 @@
-# Colored models
+# Цветные модели
 
 {% hint style="warning" %}
-Only available in **ItemsAdder 2.3.11+**
+Доступно только в **ItemsAdder 2.3.11+**.
 {% endhint %}
 
 {% hint style="info" %}
-If you want to make a colored element \(for example a custom colored furniture\) or a colored vehicle you don't have to make a separate model for each item with different color.
+Если вы хотите сделать цветной элемент\(например, цветную мебель\) или цветное транспортное средство, вам не нужно делать отдельную модель для каждого элемента с разным цветом.
 {% endhint %}
 
-## How can I do this?
+## Как я могу это сделать?
 
-### 1. open your model with blockbench
+### 1. откройте вашу модель в blockbench
 
 ![](../../../.gitbook/assets/immagine%20%2890%29.png)
 
-### 2. select the face you want to be colored
+### 2. выберите лицо, которое вы хотите раскрасить
 
 ![](../../../.gitbook/assets/immagine%20%2870%29.png)
 
-### 3. use a white/gray texture, for better coloring
+### 3. используйте белую/серую текстуру, для лучшего окрашивания
 
-### 4. enable the hidden "Tint" feature
+### 4. включите скрытую функцию "Оттенок"
 
 ![](../../../.gitbook/assets/immagine%20%2864%29.png)
 
 ![](../../../.gitbook/assets/immagine%20%2856%29.png)
 
-### 5. enable the coloring for each face you want to be colored
+### 5. включите раскраску для каждого лица, которое вы хотите раскрасить
 
 ![](../../../.gitbook/assets/immagine%20%2881%29.png)
 
-### 6. set the specific color attribute in your .yml file.
+### 6. Установите атрибут конкретного цвета в вашем .yml-файле.
 
-In this example I used `leather_horse_armor`but you can also use `potion`.
+В этом примере я использовал `leather_horse_armor`, но вы также можете использовать `potion`.
 
 ```yaml
   orange_modern_lamp:
@@ -47,11 +47,11 @@ In this example I used `leather_horse_armor`but you can also use `potion`.
 ```
 
 {% hint style="info" %}
-If you want to use a specific color you can use[ this color picker](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
-Copy the **decimal** color \(hex\).
+Если вы хотите использовать определенный цвет, вы можете воспользоваться[ этой программой выбора цвета](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).  
+Скопируйте **десятичный** цвет \(hex\).
 {% endhint %}
 
-### 7. now you can create as many as furnitures you want, just change the color and it will be automatically colored by the game
+### 7. теперь вы можете создать столько мебели, сколько захотите, просто измените цвет, и она будет автоматически раскрашена игрой
 
 ![](../../../.gitbook/assets/immagine%20%2892%29.png)
 

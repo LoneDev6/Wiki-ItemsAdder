@@ -1,14 +1,14 @@
 ---
-description: How to create configuration and 3D models for your mob
+описание: Как создать конфигурацию и 3D-модели для моба
 ---
 
-# Creating the mob
+# Создание толпы
 
 {% page-ref page="configuration.md" %}
 
 {% page-ref page="3d-model.md" %}
 
-## Final result
+## Окончательный результат
 
 ```yaml
 info:

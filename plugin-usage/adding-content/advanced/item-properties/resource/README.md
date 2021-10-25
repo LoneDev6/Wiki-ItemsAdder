@@ -120,9 +120,9 @@ items:
 ```
 
 {% hint style="warning" %}
-### IMPORTANT
+### ВАЖНО
 
-If you previously created this item and already used `/iazip` command and now you change the **model\_id**:  
-it's **very important** to run the command `/iacleancache items` to **remove unused IDs** and **update** the **changed ID**.
+Если вы ранее создали этот элемент и уже использовали команду `/iazip`, а теперь изменили **model\_id**:  
+**очень важно** выполнить команду `/iacleancache items`, чтобы **удалить неиспользуемые ID** и **обновить** **измененный ID**.
 {% endhint %}
 

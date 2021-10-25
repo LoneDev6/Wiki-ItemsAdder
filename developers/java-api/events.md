@@ -1,4 +1,4 @@
-# Events
+# События
 
 ### ItemsAdderLoadDataEvent
 
@@ -7,25 +7,22 @@ package dev.lone.itemsadder.api.Events;
 public class ItemsAdderLoadDataEvent extends Event
 ```
 
-This event is called when ItemsAdder has loaded all its stuff correctly \(also on `/iareload`\)  
-Listen to this in order to wait all items/images.. are available for your addon/plugin.
+Это событие вызывается, когда ItemsAdder правильно загрузил все свои данные\(также при `/iareload`\).  
+Слушайте это событие, чтобы дождаться, когда все элементы/изображения... будут доступны для вашего аддона/плагина.
 
 ### CustomBlockInteractEvent
 
-Event triggered when a player interacts with a custom block
+Событие, срабатывающее, когда игрок взаимодействует с пользовательским блоком.
 
 ### CustomBlockBreakEvent
 
-Event triggered when a player breaks a custom block
+Событие, возникающее при разрушении игроком пользовательского блока
 
 ### CustomEntityDeathEvent
 
-Event triggered when a custom entity dies.
+Событие, возникающее при смерти пользовательской сущности.
 
 ### ResourcePackSendEvent
 
-Event triggered when the server sends a resourcepack to the client.   
-This event includes **url**, **hash** and also contains info if **it's** an **ItemsAdder resourcepack** or **another plugin** resourcepack.
-
-
-
+Событие, возникающее, когда сервер отправляет клиенту пакет ресурсов.   
+Это событие включает **url**, **hash**, а также содержит информацию о том, **это **ресурспак **ItemsAdder** или **ресурспак другого плагина**.

@@ -42,7 +42,7 @@ lore:
 
 Строки лора \(описания\) предмета
 
-## Enchants
+## Зачарования
 
 ```yaml
 enchants:
@@ -51,9 +51,9 @@ enchants:
   - my_custom_plugin:custom_enchant:6
 ```
 
-Enchants of the item.  
-You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins \(for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...\).  
-Supports also **namespaces** \(if you are creating custom enchants using Namespaced keys\)
+Зачарования предмета.  
+Вы можете установить [ванильные зачарования](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) и пользовательские зачарования других плагинов \(например, [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...\).  
+Поддерживает также **namespaces** \(если вы создаете пользовательские зачарования, используя ключи с namespaces\).
 
 ## Атрибуты предмета \(Attribute modifiers\)
 
@@ -212,11 +212,11 @@ blocked_enchants:
             amount: 1
 ```
 
-## glow
+## Свечение
 
-You can make an item glowing when dropped on the ground.  
-Very useful for **rare items**.  
-Example:
+Вы можете сделать предмет светящимся при падении на землю.  
+Очень полезно для **редких предметов**.  
+Пример:
 
 ![](../../../../../.gitbook/assets/immagine%20%28117%29.png)
 
@@ -237,9 +237,9 @@ items:
 
 ## show\_name
 
-You can make a drop show its name.  
-Very useful for **rare items**.  
-Example:
+Вы можете заставить дроп показывать его название.  
+Очень полезно для **редких предметов**.  
+Пример:
 
 ![](../../../../../.gitbook/assets/immagine%20%28118%29%20%282%29%20%282%29.png)
 
@@ -255,7 +255,7 @@ Example:
       show_name: true
 ```
 
-## template
+## шаблон
 
 {% page-ref page="templates-and-variants.md" %}
 

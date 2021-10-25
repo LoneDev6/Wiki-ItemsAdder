@@ -1,6 +1,6 @@
 # Саженцы
 
-## Example
+## Пример
 
 ```yaml
 items:

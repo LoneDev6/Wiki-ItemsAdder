@@ -1,8 +1,8 @@
-# Block particles not playing
+# Блокирующие частицы не воспроизводятся
 
-* close your game
-* open the game folder \(should be in `%appdata%\.minecraft\` \)
-* open `options.txt`
-* set `particles:0`
-* start the game
+* закройте свою игру
+* откройте папку игры \(должна быть в `%appdata%\.minecraft\` \)
+* откройте `options.txt`
+* установите `particles:0`
+* запустите игру
 

@@ -1,9 +1,9 @@
-# Redstone \(REAL blocks\)
+#Редстоун \(РЕАЛЬНЫЕ блоки\)
 
-## Placing Redstone on top of custom blocks can make them update and revert to Mushroom Blocks
+## Размещение красного камя поверх пользовательских блоков может заставить их обновляться и возвращаться к грибным блокам
 
 {% hint style="warning" %}
-This is a known issue and cannot be fixed easily without making the plugin lag the server.
+Это известная проблема, и она не может быть легко исправлена, не заставляя плагин тормозить сервер.
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" caption="" %}

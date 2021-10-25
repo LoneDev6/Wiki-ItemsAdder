@@ -2,8 +2,8 @@
 
 ## [Download here](https://www.spigotmc.org/resources/bentobox-bskyblock-acidisland-skygrid-caveblock-aoneblock-boxed.73261/)
 
-## Fix explosions permission
+## Исправленное разрешение на взрывы
 
-If you have any problem about explosions in others claims \(for example when throwing Grenades\) you have to install this fix by BentoBox developers: [https://github.com/BONNePlayground/ItemsAdderHook](https://github.com/BONNePlayground/ItemsAdderHook)  
+Если у вас возникла проблема со взрывами в чужих правах\\(например, при бросании гранат\), вам нужно установить это исправление от разработчиков BentoBox: [https://github.com/BONNePlayground/ItemsAdderHook](https://github.com/BONNePlayground/ItemsAdderHook)  
 \([Download](https://ci.codemc.io/job/BONNePlayground/job/ItemsAdderHook/lastBuild/)\)
 

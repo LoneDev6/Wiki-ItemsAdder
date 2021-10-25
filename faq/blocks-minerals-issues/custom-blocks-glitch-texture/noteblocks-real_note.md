@@ -1,7 +1,7 @@
-# Noteblocks \(REAL\_NOTE\)
+# Нотный блок \(REAL\_NOTE\)
 
 {% hint style="info" %}
-Already placed noteblocks \(before ItemsAdder installation\) may be shown with custom blocks textures.  
-This is only a graphical glitch and will be fixes as soon as you make the noteblocks play \(interacting or using redstone\).
+Уже размещенные нотные блоки\ (до установки ItemsAdder\) могут отображаться с текстурами пользовательских блоков.  
+Это всего лишь графический глюк и он будет исправлен, как только вы заставите блокноты играть\(взаимодействуя или используя красный камень\).
 {% endhint %}
 

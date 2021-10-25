@@ -1,25 +1,25 @@
 # Звуки
 
-### Step 1
+### Шаг 1
 
 {% page-ref page="convert-sound-to-.ogg.md" %}
 
-* open **plugins\ItemsAdder\data\resource\_pack\assets** folder
-* open your [namespace](../../beginners/creating-your-namespace.md) folder
-* create a new folder called **sounds**
-* put your **.ogg** file in there \(you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...\)
+* откройте папку **plugins\ItemsAdder\data\resource\_pack\assets**.
+* откройте папку [namespace](../../beginners/creating-your-namespace.md)
+* создайте новую папку под названием **sounds**
+* поместите туда ваш **.ogg** файл \(вы также можете создать другую папку для организации звуков, например, папку "эффекты", папку "музыка"...\)
 
-for example I have a file named **cdk\_sunday.ogg** and I put it into a new **music\_disc** folder.  
-So now I have `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`
+Например, у меня есть файл **cdk\_sunday.ogg** и я поместил его в новую папку **music\_disc**.  
+Теперь у меня есть `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`.
 
-### Step 2
+### Шаг 2
 
-* open **plugins\ItemsAdder\data\resource\_pack\assets** folder
-* open your [namespace](../../beginners/creating-your-namespace.md) folder
-* create a new file named `sounds.json` \(or open it if you already created\)
-* this file is a json file, you MUST write it corretly or it won't work. If you need info about Json files please search online.
+* откройте папку **plugins\ItemsAdder\data\resource\_pack\assets**
+* откройте папку [namespace](../../beginners/creating-your-namespace.md)
+* создайте новый файл с именем `sounds.json`\(или откройте его, если он уже создан\)
+* этот файл является json файлом, вы ДОЛЖНЫ написать его правильно, иначе он не будет работать. Если вам нужна информация о Json файлах, пожалуйста, поищите в интернете.
 
-To add your sound into the file you just have to do this:
+Чтобы добавить ваш звук в файл, вам нужно сделать следующее:
 
 ```javascript
 {
@@ -31,16 +31,16 @@ To add your sound into the file you just have to do this:
 }
 ```
 
-Now I explain each part of the code I wrote.  
-This is the sound name, you will use it in every part of the plugin and also in Minecraft vanilla [/playsound ](https://www.digminecraft.com/game_commands/playsound_command.php)command
+Теперь я объясню каждую часть кода, который я написал.  
+Это название звука, вы будете использовать его в каждой части плагина, а также в Minecraft vanilla [/playsound ](https://www.digminecraft.com/game_commands/playsound_command.php)команда
 
 ```javascript
 "music_disc.cdk_sunday":{
 ```
 
-This is the list of sound files Minecraft will play when you call the sound name.  
-Minecraft will play one of these sounds randomly \(only if you set more than one sound\).  
-⚠️Keep in mind that you have to change `myitems` to your own namespace name.
+Это список звуковых файлов, которые Minecraft будет воспроизводить, когда вы вызовете название звука.  
+Minecraft будет воспроизводить один из этих звуков случайным образом\\(только если вы установите более одного звука\).  
+⚠️ Помните, что вы должны изменить `myitems` на ваше собственное название namespace.
 
 ```javascript
 "sounds":[
@@ -48,7 +48,7 @@ Minecraft will play one of these sounds randomly \(only if you set more than one
         ]
 ```
 
-For example if you want to have random sounds for the same sound name you just have to create multiple .ogg files and put them like this:
+Например, если вы хотите иметь случайные звуки для одного и того же имени звука, вам просто нужно создать несколько файлов .ogg и разместить их следующим образом:
 
 ```javascript
 "sounds":[
@@ -58,10 +58,10 @@ For example if you want to have random sounds for the same sound name you just h
         ]
 ```
 
-## How can I add multiple sounds in the sounds.json file?
+## Как добавить несколько звуков в файл sounds.json?
 
-It's easy, the next time you want to add a sound you just have to add a comma at the end, like this.  
-\(I'm referring to line 6 comma\)
+Это просто, в следующий раз, когда вы захотите добавить звук, вы просто должны добавить запятую в конце, вот так.  
+\(Я имею в виду запятую в строке 6\)
 
 ```javascript
 {
@@ -79,6 +79,6 @@ It's easy, the next time you want to add a sound you just have to add a comma at
 ```
 
 {% hint style="warning" %}
-If you want to be sure not to make mistakes use this website to check if your Json file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
+Если вы хотите не ошибиться, воспользуйтесь этим сайтом, чтобы проверить, хорош ли ваш Json-файл или в нем есть ошибки: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 {% endhint %}
 

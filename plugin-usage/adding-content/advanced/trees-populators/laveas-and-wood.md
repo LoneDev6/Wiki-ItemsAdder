@@ -1,6 +1,6 @@
 # Листья и древесина
 
 {% hint style="info" %}
-## Tutorial will be added soon
+## Учебник будет добавлен в ближайшее время
 {% endhint %}
 

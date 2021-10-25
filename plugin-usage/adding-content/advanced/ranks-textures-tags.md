@@ -1,26 +1,26 @@
 # Текстурированные префиксы \(тэги\)
 
-## Make your server look professional with custom ranks
+## Придайте своему серверу профессиональный вид с помощью пользовательских званий
 
 ![](../../../.gitbook/assets/image%20%2827%29%20%284%29%20%281%29.png)
 
 {% hint style="warning" %}
-### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
+### Вы должны использовать [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) и [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) следовая этому руководству, метод может отличаться, если вы используете другие разрешения и плагины TABs.
 
-### If you're using another prefix plugin you may need to use [this method](../../using-font_images-emojis-everywhere.md) to show ranks
+### Если вы используете другой префиксный плагин, вам может понадобиться использовать [этот метод](../../using-font_images-emojis-everywhere.md) для показа ранга
 {% endhint %}
 
-## How to create my ranks?
+## Как создать свои ранги?
 
-### Download the example ranks
+### Скачать пример рангов
 
-* Update to **ItemsAdder 2.1.30** or next
-* Download the [example ranks here ](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
+* Обновление до версии **ItemsAdder 2.1.30** или следующей.
+* Загрузите [примеры рангов здесь](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
 
-### Create a new rank configuration
+### Создайте новую конфигурацию ранга
 
-Open`plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` file and **copy** and **paste** one of them.  
-Then rename it to your rank, also decide a new **.png** file name, for example `custom`
+Откройте файл `plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` и **скопируйте** и **вставьте** один из них.  
+Затем переименуйте его в свой ранг, также определите новое **.png** имя файла, например `custom`.
 
 ```yaml
   custom:
@@ -33,23 +33,23 @@ Then rename it to your rank, also decide a new **.png** file name, for example `
 ```
 
 {% hint style="warning" %}
-Don't change `scale_ratio` and `y_position`. It would make the ranks look pixelated
+Не изменяйте `scale_ratio` и `y_position`. Это приведет к тому, что звания будут выглядеть пикселированными
 {% endhint %}
 
-### Creating the png image
+### Создание png-изображения
 
-**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`
+**Скопируйте** один из моих рангов **.png** и отредактируйте его из папки `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`.
 
-You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.  
-For example copy `admin.png`, name it `custom.png` and edit it.
+Вы можете редактировать его с помощью **Photoshop**, **GIMP**, **Paint.NET** или любой другой программы редактирования, которую вы используете.  
+Например, скопируйте файл `admin.png`, назовите его `custom.png` и отредактируйте его.
 
 {% hint style="danger" %}
-### Don't change the rank image height! Change only the width or the image will look pixelated!
+### Не изменяйте высоту изображения ранга! Изменяйте только ширину, иначе изображение будет выглядеть пикселированным!
 {% endhint %}
 
-### Example:
+### Пример:
 
-For example in order to make a similar rank to my **BetterRanks** addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
+Например, чтобы сделать ранг, похожий на мой аддон **BetterRanks**, нужно просто использовать шрифт [Minecraftia](https://www.dafont.com/andrew-tyler.d2526) и обрезать несколько пикселей.
 
 ![](../../../.gitbook/assets/image%20%2839%29.png)
 
@@ -59,9 +59,9 @@ For example in order to make a similar rank to my **BetterRanks** addon you just
 
 ![](../../../.gitbook/assets/image%20%2837%29.png)
 
-## Using the rank ingame
+## Использование ранга в игре
 
-### Luckperms
+### Лакпермы (Luckperms)
 
 #### Создание группы, Пример \(admin\)
 
