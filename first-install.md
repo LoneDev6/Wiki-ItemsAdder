@@ -1,5 +1,5 @@
 ---
-description: How to install the plugin
+описание: Как установить плагин
 ---
 
 # ⚙ Первая установка плагина
