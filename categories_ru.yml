@@ -1,0 +1,44 @@
+info:
+  namespace: itemsadder_stuff
+  dictionary-lang: "ru"
+dictionary:
+  display-category-all: Все
+  display-category-armors: Доспехи
+  display-category-swords: Мечи
+  display-category-pickaxes: Кирки
+  display-category-axes: Топоры
+  display-category-hoes: Мотыги
+  display-category-shovels: Лопаты
+  display-category-fishing_rods: Удочки для рыбалки
+  display-category-shears: Ножницы
+  display-category-weapons: Оружие
+  display-category-shields: Щиты
+  display-category-bows: Луки
+  display-category-eatables: Еда
+  display-category-drinks: Напитки
+  display-category-vegetables: Овощи и фрукты
+  display-category-seeds: Семена
+  display-category-fishes: Рыбы
+  display-category-potions: Зелья
+  display-category-furnitures: Мебель
+  display-category-paintings: Картины
+  display-category-chairs: Стулья
+  display-category-hats: Шляпы
+  display-category-wearables: Носимые предметы
+  display-category-machines: Машины
+  display-category-blocks: Блоки
+  display-category-ores: Руды
+  display-category-minerals: Минералы
+  display-category-instruments: Инструменты
+  display-category-various: Продукты и ингредиенты
+  display-category-alchemy: Предметы алхимии
+  display-category-musicdiscs: Музыкальные диски
+  display-category-throwables: Бросаемые предметы
+  display-category-books: Книги
+  display-category-vehicles: Транспортные средства
+  display-category-icons: Иконки
+  display-category-generic_items: Общие элементы
+  display-category-halloween: Предметы для Хэллоуина
+  display-category-christmas: Рождественские Товары
+  display-category-special: Особый
+  display-category-realcraft: RealCraft
