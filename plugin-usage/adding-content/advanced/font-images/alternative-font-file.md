@@ -6,6 +6,10 @@ description: Use another .json file for the auto generated font images
 
 ## How to use the alternative custom font file
 
+{% hint style="danger" %}
+### This feature is unstable.
+{% endhint %}
+
 **ItemsAdder **generates the json file for your custom **font\_images**, in some cases you prefer to have a separate file instead of append the images into the `default.json`.
 
 ItemsAdder (if configured) will generate the **font\_images** inside a new file: `assets/minecraft/font/custom.json` instead of `default.json`.
@@ -36,6 +40,7 @@ ItemsAdder custom font will be named `custom`, so in this case you will have to 
   * `font_images.vault-prefix-suffix`
   * `font_images.player-display-name` <mark style="color:orange;">(works only on Paper)</mark>
   * images in broadcast message <mark style="color:orange;">(works only on Paper)</mark>
+  * signs, books <mark style="color:orange;">(works only on Paper)</mark>
 {% endhint %}
 
 {% hint style="success" %}
@@ -44,7 +49,11 @@ ItemsAdder custom font will be named `custom`, so in this case you will have to 
 
 ## Should I use this feature?
 
+{% hint style="danger" %}
+### This feature is unstable.
+
 I'd avoid using it since it has too many downsides, but I'll leave you the decision since some servers may need to separate the custom images from the default font.
+{% endhint %}
 
 ## How to enable the feature?
 
