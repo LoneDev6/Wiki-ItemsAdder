@@ -38,6 +38,7 @@
   * [Download Spigot](faq/download-spigot.md)
   * [Can I create slabs, stairs, tridents, armors...](faq/can-i-create-slabs-stairs/README.md)
     * [Create transparent textured furnitures](faq/can-i-create-slabs-stairs/transparent-textures.md)
+  * [Recipes book problems](faq/recipes-book-problems.md)
   * [⛔️Errors](faq/errors/README.md)
     * [NoSuchMethodError](faq/errors/nosuchmethoderror.md)
     * [Protocol error](faq/errors/protocol-error.md)
