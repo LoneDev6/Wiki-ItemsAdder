@@ -30,7 +30,12 @@ ItemsAdder custom font will be named `custom`, so in this case you will have to 
 * emojis won't be shown in the `/e` autocomplete command, instead placeholders will be shown ([screenshot](https://i.imgur.com/Im9AXae.png))
 * not being able to copy and paste unicode characters everywhere anymore, you have to rely on `:XXX:` and `%img_XXX%` placeholders or on the vanilla json components specifying the `font` attribute (check the [example](alternative-font-file.md#why-having-a-separate-custom-font-file))
 * only available on Minecraft 1.16+
-* some settings in **config.yml** won't work anymore: `font_images.command`, `font_images.scoreboard-teams`, `font_images.vault-prefix-suffix`
+* some settings in **config.yml** won't work anymore:&#x20;
+  * `font_images.command`
+  * `font_images.scoreboard-teams`
+  * `font_images.vault-prefix-suffix`
+  * `font_images.player-display-name` <mark style="color:orange;">(works only on Paper)</mark>
+  * images in broadcast message <mark style="color:orange;">(works only on Paper)</mark>
 {% endhint %}
 
 {% hint style="success" %}
