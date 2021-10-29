@@ -30,6 +30,8 @@ Download \*\*MMOItems \*\*[here](https://www.spigotmc.org/resources/mmoitems-pre
 
 ![](<../../../.gitbook/assets/immagine (30).png>)
 
+
+
 ### Create your .yml file as usual and add all the properties for the ItemsAdder item
 
 ![](<../../../.gitbook/assets/immagine (32).png>)

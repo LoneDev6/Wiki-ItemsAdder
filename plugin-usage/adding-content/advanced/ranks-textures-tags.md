@@ -7,7 +7,7 @@
 {% hint style="warning" %}
 #### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
 
-#### If you're using another prefix plugin you may need to use [this method](../../using-font\_images-emojis-everywhere.md) to show ranks
+### If you're using another prefix plugin you may need to use [this method](../../using-font\_images-emojis-everywhere.md) to show ranks
 {% endhint %}
 
 ## How to create my ranks?
@@ -49,7 +49,7 @@ For example copy `admin.png`, name it `custom.png` and edit it.
 
 ### Example:
 
-For example in order to make a similar rank to my \*\*BetterRanks \*\*addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
+For example in order to make a similar rank to my **BetterRanks **addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
