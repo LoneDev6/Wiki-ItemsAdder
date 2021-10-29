@@ -17,7 +17,7 @@ This method works 100% of the times on Minecraft 1.17.1 and most recent versions
 
 Rightclick on your resourcepack zip file and press "Get link"
 
-![](<../../.gitbook/assets/immagine (153).png>)
+![](<../../.gitbook/assets/immagine (153) (1).png>)
 
 ### Step 2
 

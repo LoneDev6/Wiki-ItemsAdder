@@ -7,7 +7,7 @@ Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"
 ![](<../../../../../.gitbook/assets/immagine (5).png>)
 
 \
-With **ItemsAdder **this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft bug.
+With **ItemsAdder **this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft limitation.
 
 {% hint style="warning" %}
 You must set **Force Unicode Font: OFF **
@@ -36,3 +36,11 @@ Check [Resourcepack tutorials](../../../../resourcepack-hosting/)
 {% hint style="success" %}
 Now you can see the "thin font" and GUIs, emojis, HUDs won't break (bugged white squares)
 {% endhint %}
+
+## Alternative method
+
+If for some reasons your players really want to use the `Force Unicode: On` you can read here, the alternative font file will avoid the `Force Unicode: Off` setting requirement (Note: Minecraft 1.16+ only).
+
+{% content-ref url="../../font-images/alternative-font-file.md" %}
+[alternative-font-file.md](../../font-images/alternative-font-file.md)
+{% endcontent-ref %}
