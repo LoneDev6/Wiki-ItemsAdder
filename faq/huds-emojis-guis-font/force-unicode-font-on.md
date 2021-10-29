@@ -2,7 +2,7 @@
 
 ## Read here:
 
-{% page-ref page="../../plugin-usage/adding-content/advanced/fonts/method-1/thin-font-force-unicode.md" %}
-
-
+{% content-ref url="../../plugin-usage/adding-content/advanced/fonts/thin-font-force-unicode.md" %}
+[thin-font-force-unicode.md](../../plugin-usage/adding-content/advanced/fonts/thin-font-force-unicode.md)
+{% endcontent-ref %}
 

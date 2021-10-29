@@ -4,7 +4,7 @@
 
 Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"_.
 
-![](<../../../../../.gitbook/assets/immagine (5).png>)
+![](<../../../../.gitbook/assets/immagine (5).png>)
 
 \
 With **ItemsAdder **this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft limitation.
@@ -13,7 +13,7 @@ With **ItemsAdder **this is not possible because it would make emoji, GUIs, HUDs
 You must set **Force Unicode Font: OFF **
 {% endhint %}
 
-![](<../../../../../.gitbook/assets/immagine (6).png>)
+![](<../../../../.gitbook/assets/immagine (6).png>)
 
 and **set this** in `config.yml`
 
@@ -26,21 +26,13 @@ This allows you to set **Force Unicode Font: OFF** but still have the thin font 
 
 {% hint style="warning" %}
 Remember, after this change you have to regenerate your pack.zip file. \
-Check [Resourcepack tutorials](../../../../resourcepack-hosting/)
+Check [Resourcepack tutorials](../../../resourcepack-hosting/)
 {% endhint %}
 
 ### This is the result
 
-![](<../../../../../.gitbook/assets/immagine (7).png>)
+![](<../../../../.gitbook/assets/immagine (7).png>)
 
 {% hint style="success" %}
 Now you can see the "thin font" and GUIs, emojis, HUDs won't break (bugged white squares)
 {% endhint %}
-
-## Alternative method
-
-If for some reasons your players really want to use the `Force Unicode: On` you can read here, the alternative font file will avoid the `Force Unicode: Off` setting requirement (Note: Minecraft 1.16+ only).
-
-{% content-ref url="../../font-images/alternative-font-file.md" %}
-[alternative-font-file.md](../../font-images/alternative-font-file.md)
-{% endcontent-ref %}
