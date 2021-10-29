@@ -2,7 +2,7 @@
 
 ## Old API
 
-This is the old API, it's still available and working fine.
+Это старый API, он все еще доступен и отлично работает.
 
 ```java
 //check if itemsadder finished loading its items and if they are available

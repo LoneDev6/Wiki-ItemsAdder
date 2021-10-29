@@ -8,10 +8,10 @@
 When you create a \*\*font\_image \*\*make sure the \*\*background \*\*is \*\*not \*\*fully **transparent**.\
 You have to set \*\*ALPHA \*\*to \*\*7 \*\*instead of 0.
 
-Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
+Minecraft удаляет все (альфа 0) прозрачные пиксели по краям изображения.
 {% endhint %}
 
-## Туториали
+## Туториалы
 
 {% content-ref url="../ranks-textures-tags.md" %}
 [ranks-textures-tags.md](../ranks-textures-tags.md)
@@ -21,11 +21,11 @@ Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 [emojis.md](../emojis.md)
 {% endcontent-ref %}
 
-## Use specific a character
+## Используйте конкретный символ
 
-ItemsAdder will decide the custom character for you if you don't specify a specific symbol.\
-You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.\
-For example:
+ItemsAdder определит пользовательский символ за вас, если вы не укажете конкретный символ.\
+Вам не нужно беспокоиться об этом для каждого `emoji`/`font_image`, но если вам действительно нужно указать пользовательский символ, который будет использоваться для пользовательского `font_image`, вы можете использовать специальное свойство `symbol`.\
+Например:
 
 ```yaml
 smile:
@@ -37,13 +37,13 @@ smile:
   y_position: 8
 ```
 
-Minecraft will show the smile emoji every time you write `鄿` in chat.
+Minecraft будет показывать эмодзи улыбки каждый раз, когда вы пишете `鄿` в чате.
 
-## I don't care about ItemsAdder font\_image, I want to handle default.json by myself.
+## Меня не волнует ItemsAdder font\_image, я хочу обрабатывать default.json самостоятельно.
 
-You can do it, you just have to edit the `default.json` file.
+Вы можете сделать это, вам просто нужно отредактировать файл `default.json`.
 
-## Examples of content created with Font mages feature
+## Примеры контента, созданного с помощью функции Font mages
 
 ![](<../../../../.gitbook/assets/immagine (106).png>)
 
