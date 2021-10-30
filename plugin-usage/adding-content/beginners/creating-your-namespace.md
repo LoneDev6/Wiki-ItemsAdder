@@ -1,7 +1,7 @@
 # Создание своей папки
 
 {% hint style="warning" %}
-Если вы не знаете, что я имею в виду под **namespace**, пожалуйста, прочитайте \[учебник по namespace] (basic-concepts/namespace.md).
+Если вы не знаете, что я имею в виду под **namespace**, пожалуйста, прочитайте [учебник по namespace](basic-concepts/namespace.md).
 {% endhint %}
 
 ## Создание подпапок items\_packs
