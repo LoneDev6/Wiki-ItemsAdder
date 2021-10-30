@@ -1,4 +1,4 @@
-# Содержание
+# Table of contents
 
 * [👋 Приветствие](README.md)
 * [❤ Материальная поддержка](donation-support-my-work.md)
@@ -45,7 +45,7 @@
     * [Невозможно призвать сущность из ID Cannot retrieve entity from ID](faq/errors/cannot-retrieve-entity-from-id.md)
     * [An error occurred when enabling the resourcepack](faq/errors/an-error-occurred-when-enabling-the-resourcepack.md)
   * [☠️Падения клиента у игроков (устарело)](faq/some-users-crash.md)
-* [📖Использование плагина](plugin-usage/README.md)
+* [📖 Использование плагина](plugin-usage/README.md)
   * [🇬🇧 Языки](plugin-usage/languages.md)
   * [🖥 Команды](plugin-usage/commands/README.md)
     * [iaconfig](plugin-usage/commands/iaconfig.md)
