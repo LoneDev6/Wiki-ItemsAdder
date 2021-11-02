@@ -67,7 +67,7 @@
       * [⛏ Примеры добавленных предметов](plugin-usage/adding-content/beginners/creating-a-custom-item/README.md)
         * [Простой пример меча с текстурой](plugin-usage/adding-content/beginners/creating-a-custom-item/simple-texture-sword.md)
         * [Броня](plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md)
-        * [Custom Arrows](plugin-usage/adding-content/beginners/creating-a-custom-item/custom-arrows.md)
+        * [Собственные стрелы](plugin-usage/adding-content/beginners/creating-a-custom-item/custom-arrows.md)
         * [Магический посох](plugin-usage/adding-content/beginners/creating-a-custom-item/magic-wand.md)
         * [Блоки](plugin-usage/adding-content/beginners/creating-a-custom-item/blocks/README.md)
           * [Блок](plugin-usage/adding-content/beginners/creating-a-custom-item/blocks/block.md)
