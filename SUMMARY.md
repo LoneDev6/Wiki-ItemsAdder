@@ -165,6 +165,7 @@
     * [WorldGuard](compatibility-with-other-plugins/compatible/worldguard-flags.md)
     * [SkinsRestorer](compatibility-with-other-plugins/compatible/skinsrestorer.md)
     * [CustomCrafting](compatibility-with-other-plugins/compatible/customcrafting.md)
+    * [CraftEnhance](compatibility-with-other-plugins/compatible/craftenhance.md)
     * [BossShop](compatibility-with-other-plugins/compatible/bossshop.md)
     * [Spartan Anti Cheat](compatibility-with-other-plugins/compatible/spartan-anti-cheat.md)
     * [RPG Chest Premium](compatibility-with-other-plugins/compatible/rpg-chest-premium.md)
