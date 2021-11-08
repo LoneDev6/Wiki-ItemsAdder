@@ -12,8 +12,6 @@
 
 {% embed url="https://www.youtube.com/watch?v=m_7w2G3YH_A" %}
 
-
-
 ## Mid-advanced users
 
 {% embed url="https://www.youtube.com/watch?v=unhHU52Dt_8" %}
@@ -21,4 +19,8 @@
 {% embed url="https://www.youtube.com/watch?v=CeO7TC-LmVk" %}
 
 {% embed url="https://www.youtube.com/watch?v=1zbH2OyZH1g" %}
+
+## Spanish tutorials
+
+{% embed url="https://www.youtube.com/playlist?list=PLop1Uc5d4Z6rJ1EaQrKBviLQZovZFQtDB" %}
 
