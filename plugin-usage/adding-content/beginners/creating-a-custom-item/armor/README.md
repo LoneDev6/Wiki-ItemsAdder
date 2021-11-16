@@ -66,11 +66,13 @@ items:
         armorToughness: 1
 ```
 
-{% page-ref page="../../../../faq/can-i-create-slabs-stairs/" %}
+{% content-ref url="../../../../../faq/can-i-create-slabs-stairs/" %}
+[can-i-create-slabs-stairs](../../../../../faq/can-i-create-slabs-stairs/)
+{% endcontent-ref %}
 
-## Custom texture \(only in inventory\)
+## Custom texture (only in inventory)
 
-To add a custom texture for an armor item you have to specify a texture or a model \(like for every other custom item\).
+To add a custom texture for an armor item you have to specify a texture or a model (like for every other custom item).
 
 {% hint style="warning" %}
 #### Update to ItemsAdder 2.4.17+
@@ -100,10 +102,4 @@ items:
       generate: false
       model_path: "item/custom_helmet"
 ```
-
-### Custom on-body armor texture
-
-{% page-ref page="../../optifine-only-features/armor-textures.md" %}
-
-
 
