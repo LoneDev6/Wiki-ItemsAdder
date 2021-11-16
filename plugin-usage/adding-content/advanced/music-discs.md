@@ -2,8 +2,8 @@
 
 ### Step 1
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="sounds/" %}
+[sounds](sounds/)
 {% endcontent-ref %}
 
 ### Step 2

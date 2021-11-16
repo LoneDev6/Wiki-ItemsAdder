@@ -1,6 +1,6 @@
 # 😄 Using font\_images/emojis everywhere
 
-It's very easy, you will be able to use emojis everywhere! For example in [holograms](../../../../compatibility-with-other-plugins/compatible/holographic-displays.md).
+It's very easy, you will be able to use emojis everywhere! For example in [holograms](../compatibility-with-other-plugins/compatible/holographic-displays.md).
 
 ### How to do it?
 
@@ -11,8 +11,8 @@ It's very easy, you will be able to use emojis everywhere! For example in [holog
 Now you can use font\_images (emojis) everywhere in other plugins easily! (they must support PlaceholderAPI), check the next link:\
 
 
-{% content-ref url="../../../placeholderapi.md" %}
-[placeholderapi.md](../../../placeholderapi.md)
+{% content-ref url="placeholderapi.md" %}
+[placeholderapi.md](placeholderapi.md)
 {% endcontent-ref %}
 
 

@@ -2,7 +2,7 @@
 
 ### Introduction
 
-For example I want to create an emoji pack named "myemojis", so my [namespace ](../../beginners/basic-concepts/namespace.md)would be `myemojis`
+For example I want to create an emoji pack named "myemojis", so my [namespace ](../beginners/basic-concepts/namespace.md)would be `myemojis`
 
 ### Creating the textures folder
 
@@ -47,12 +47,12 @@ font_images:
 
 ## In-game view
 
-![](<../../../../.gitbook/assets/immagine (116).png>)
+![](<../../../.gitbook/assets/immagine (116).png>)
 
 ### Using the /e useful suggestions
 
-![](<../../../../.gitbook/assets/immagine (112).png>)
+![](<../../../.gitbook/assets/immagine (112).png>)
 
-![](<../../../../.gitbook/assets/immagine (111).png>)
+![](<../../../.gitbook/assets/immagine (111).png>)
 
-![](<../../../../.gitbook/assets/immagine (113).png>)
+![](<../../../.gitbook/assets/immagine (113).png>)
