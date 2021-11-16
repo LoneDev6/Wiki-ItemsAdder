@@ -47,7 +47,7 @@ This is a configuration which specified how the game will show the armor ingame.
 
 Now I create the two PNG files inside the `data/resource_pack/assets/myitems/armor/my_armor/` folder.
 
-![](<../../../../../.gitbook/assets/image (43).png>)
+![](<../../../../../.gitbook/assets/image (45).png>)
 
 ### Creating an armor piece
 
@@ -82,6 +82,77 @@ Now I create the item texture and I put it inside the `data\resource_pack\assets
 ![](<../../../../../.gitbook/assets/image (40).png>)
 
 ![](<../../../../../.gitbook/assets/image (42).png>)
+
+### Animated textures
+
+You can also create animated armors!
+
+![](../../../../../.gitbook/assets/ezgif-7-3b3a255fe802.gif)
+
+To create an animated armor you have to create an image with all the animation frames.
+
+Each frame must be under the previous. This is an example this is a 3 frames animation:
+
+![layer\_1](<../../../../../.gitbook/assets/layer\_1 (1).png>)
+
+![layer\_2](../../../../../.gitbook/assets/layer\_2.png)
+
+Now let's edit the rendering properties to support the animation.
+
+```yaml
+info:
+  namespace: myitems
+armors_rendering:
+  my_armor:
+    color: "#d60000"
+    layer_1: armor/my_armor/layer_1
+    layer_2: armor/my_armor/layer_2
+    use_color: false
+    animation:
+      interpolation: true
+```
+
+In this case I set `interpolation: true` because I want the animation to be smooth.
+
+Default speed is 24, but you can customize it until you find the right speed value:
+
+```yaml
+    animation:
+      speed: 30
+      interpolation: true
+```
+
+### Emissive textures (glowing in the dark)
+
+You can also create emissive textures which glow in the dark. (You can make both animated and emissive textures at the same time!)
+
+```yaml
+info:
+  namespace: myitems
+armors_rendering:
+  my_armor:
+    color: "#d60000"
+    layer_1: armor/my_armor/layer_1
+    layer_2: armor/my_armor/layer_2
+    emission_1: armor/my_armor/emission_1
+    emission_2: armor/my_armor/emission_2
+    use_color: false
+```
+
+In this case I want to make the previous animation emissive, I want it to glow in the dark.
+
+You have to make 2 textures in order to make the textures glow.&#x20;
+
+* the **black **part will **glow**
+* the **transparent **part **won't glow**
+
+In this example I want the whole texture to glow so I make it all **black**.
+
+![emissive\_1](../../../../../.gitbook/assets/emissive\_1.png)
+
+![emissive\_2](../../../../../.gitbook/assets/emissive\_2.png)
+
+![](broken-reference)
 
 
 

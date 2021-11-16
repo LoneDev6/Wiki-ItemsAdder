@@ -67,7 +67,7 @@
       * [Creating your namespace](plugin-usage/adding-content/beginners/creating-your-namespace.md)
       * [⛏ Example items](plugin-usage/adding-content/beginners/creating-a-custom-item/README.md)
         * [Simple texture sword](plugin-usage/adding-content/beginners/creating-a-custom-item/simple-texture-sword.md)
-        * [Armor](plugin-usage/adding-content/beginners/creating-a-custom-item/armor/README.md)
+        * [Armor](plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md)
           * [Texture](plugin-usage/adding-content/beginners/creating-a-custom-item/armor/texture.md)
         * [Custom Arrows](plugin-usage/adding-content/beginners/creating-a-custom-item/custom-arrows.md)
         * [Magic wand](plugin-usage/adding-content/beginners/creating-a-custom-item/magic-wand.md)

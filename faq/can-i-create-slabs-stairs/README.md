@@ -24,8 +24,8 @@ You can make them colored but you cannot change the texture.
 In the future updates I may implement something to allow this, depends on how the feature will be stable.
 {% endhint %}
 
-{% content-ref url="../../plugin-usage/adding-content/beginners/creating-a-custom-item/armor/" %}
-[armor](../../plugin-usage/adding-content/beginners/creating-a-custom-item/armor/)
+{% content-ref url="../../plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md" %}
+[armor.md](../../plugin-usage/adding-content/beginners/creating-a-custom-item/armor.md)
 {% endcontent-ref %}
 
 ### Elytra

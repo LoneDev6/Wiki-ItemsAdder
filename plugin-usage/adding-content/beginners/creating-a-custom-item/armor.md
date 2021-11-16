@@ -66,8 +66,8 @@ items:
         armorToughness: 1
 ```
 
-{% content-ref url="../../../../../faq/can-i-create-slabs-stairs/" %}
-[can-i-create-slabs-stairs](../../../../../faq/can-i-create-slabs-stairs/)
+{% content-ref url="../../../../faq/can-i-create-slabs-stairs/" %}
+[can-i-create-slabs-stairs](../../../../faq/can-i-create-slabs-stairs/)
 {% endcontent-ref %}
 
 ## Custom texture (only in inventory)
