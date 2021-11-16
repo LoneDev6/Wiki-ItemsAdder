@@ -152,8 +152,6 @@ In this example I want the whole texture to glow so I make it all **black**.
 
 ![emissive\_2](../../../../../.gitbook/assets/emissive\_2.png)
 
-![](broken-reference)
-
 
 
 ## Optifine
