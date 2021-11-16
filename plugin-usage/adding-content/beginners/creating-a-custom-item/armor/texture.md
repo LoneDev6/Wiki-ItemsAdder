@@ -45,11 +45,25 @@ armors_rendering:
 
 This is a configuration which specified how the game will show the armor ingame.
 
-`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`.
+{% hint style="warning" %}
+You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
+{% endhint %}
+
+`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`.** **This option will also make the item (in inventory) not colored automatically anymore.
 
 Now I create the two PNG files inside the `data/resource_pack/assets/myitems/textures/armor/my_armor/` folder.
 
 ![](<../../../../../.gitbook/assets/image (45).png>)
+
+{% hint style="info" %}
+### HD armor textures
+
+You can create HD high resolution armors too!&#x20;
+
+Just make sure they have the same proportions of the original.&#x20;
+
+For example 64x32, 128x64, 256x128, 512x256..... <mark style="color:red;">it's very important! Size must be a power of 2.</mark>
+{% endhint %}
 
 ### Creating an armor piece
 
