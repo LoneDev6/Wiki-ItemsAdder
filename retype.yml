@@ -1,0 +1,21 @@
+input: .
+output: .retype
+url: https://itemsadder.devs.beer/
+branding:
+  title: ItemsAdder Wiki
+  logo: static/logo.png
+links:
+- text: Donation
+  link: donation-support-my-work.md
+  icon: heart
+- text: Addons
+  link: https://addons.plugin.ga/itemsadder
+  icon: plus
+- text: More Plugins
+  link: https://plugin.ga/
+  icon: plug
+- text: Support
+  link: /support/ask-for-help.md
+  icon: issue-opened
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."

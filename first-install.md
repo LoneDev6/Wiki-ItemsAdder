@@ -1,8 +1,10 @@
 ---
 description: How to install the plugin
+order: 900
+icon: gear
 ---
 
-# ⚙ First install
+# First install
 
 {% hint style="info" %}
 **You should do** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is down ;)\

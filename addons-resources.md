@@ -1,4 +1,8 @@
-# 💽 Addons/resources
+---
+icon: package
+order: 500
+---
+# Addons/resources
 
 ## Get the addons here:
 

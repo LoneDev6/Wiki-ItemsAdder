@@ -1,4 +1,8 @@
-# ❤ Donation - Support my work
+---
+icon: heart
+order: 1000
+---
+# Donation - Support my work
 
 ## Voluntary donation page
 

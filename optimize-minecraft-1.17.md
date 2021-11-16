@@ -1,4 +1,8 @@
-# ✨ Optimize Minecraft 1.17
+---
+icon: zap
+order: 90
+---
+# Optimize Minecraft 1.17
 
 ## Minecraft 1.17 is slow
 

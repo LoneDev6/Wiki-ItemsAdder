@@ -1,5 +1,10 @@
 # Table of contents
 
+!!!
+This file is not required by Retype.
+It is better to configure the navigation byusing the [`order`](https://retype.com/configuration/page/#order) page or folder config.
+!!!
+
 * [👋 Welcome](README.md)
 * [❤ Donation - Support my work](donation-support-my-work.md)
 * [⚙ First install](first-install.md)

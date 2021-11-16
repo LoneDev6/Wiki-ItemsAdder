@@ -1,4 +1,8 @@
-# 📹 Video tutorials by users
+---
+icon: play
+order: 300
+---
+# Video tutorials by users
 
 ## Showcases
 

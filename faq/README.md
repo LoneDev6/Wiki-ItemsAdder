@@ -1,4 +1,8 @@
-# ❓ Frequently asked questions
+---
+order: 800
+icon: question
+---
+# Frequently asked questions
 
 _**What type of items/weapons/bows exists? Can I create item X, weapon Y... can I add this attribute, can I, can I, can I??? Has the plugin this feature? Why I have this problem and that problem?**_
 
