@@ -1,3 +1,7 @@
+---
+description: Export your items and assets
+---
+
 # 💾 Export namespace
 
 {% hint style="success" %}

@@ -2,6 +2,12 @@
 
 ## Custom armor example
 
+Here you can see an example configuration to create a complete armor with all its pieces: helmet, chestplate, leggings and boots.
+
+This is a simple armor which is created automatically without textures, ItemsAdder will generate it from the color you decided.
+
+![](<../../../../.gitbook/assets/image (46).png>)
+
 ```yaml
 items:
   ruby_head:

@@ -1,14 +1,18 @@
-# PlaceholderAPI
+---
+description: PlaceholderAPI placeholders
+---
+
+# PAPI placeholders
 
 ## FontImage (emoji etc)
 
-This is the code: `%img_NAME% `instead of NAME write the font_image name.\
+This is the code: `%img_NAME% `instead of NAME write the font\_image name.\
 For example: `%img_smile%`
 
 ## Offsets
 
-You can shift text/font_images back and forward.\
-For example 
+You can shift text/font\_images back and forward.\
+For example&#x20;
 
 * you can shift it back of 16 pixels by writing `%img_offset_-16% `.
 * you can shift it forward of 16 pixels by writing `%img_offset_16% `.

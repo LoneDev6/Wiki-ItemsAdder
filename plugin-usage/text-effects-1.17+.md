@@ -1,3 +1,7 @@
+---
+description: Text animations
+---
+
 # Text Effects (1.17+)
 
 ## What are text effects?

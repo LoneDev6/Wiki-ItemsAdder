@@ -4,7 +4,7 @@ description: How to manually edit blockstates json files
 
 # Manual editing blockstates
 
-## Edit note_block.json
+## Editing note\_block.json
 
 {% hint style="warning" %}
 Update to ItemsAdder 2.4.20
@@ -22,9 +22,9 @@ In order to edit the some blockstates files you have to disable the ItemsAdder c
 
 ### mushroom blockstates
 
-Delete the files: 
+Delete the files:&#x20;
 
-* `assets\minecraft\blockstates\brown_mushroom_block.json` 
+* `assets\minecraft\blockstates\brown_mushroom_block.json`&#x20;
 * `assets\minecraft\blockstates\mushroom_stem.json`
 * `assets\minecraft\blockstates\red_mushroom_block.json`
 
@@ -48,7 +48,7 @@ Enable this option:
 ```
 {% endcode %}
 
-### chorus_plant.json
+### chorus\_plant.json
 
 Delete the file `assets\minecraft\blockstates\chorus_plant.json`
 

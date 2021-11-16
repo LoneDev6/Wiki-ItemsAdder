@@ -8,6 +8,10 @@ Minecraft has a bug that disables mipmap if you set textures which their size is
 ### Read more here on how to avoid this problem:
 {% endhint %}
 
+{% content-ref url="../faq/i-see-crisp-textures-far-away.md" %}
+[i-see-crisp-textures-far-away.md](../faq/i-see-crisp-textures-far-away.md)
+{% endcontent-ref %}
+
 ### File and items names
 
 {% hint style="danger" %}

@@ -1,19 +1,21 @@
-# Texture
+---
+description: Custom on-body armor texture
+---
 
-## Custom on-body armor texture
+# Texture (1.17)
 
 {% hint style="danger" %}
 This feature requires ItemsAdder 2.4.22+ and Minecraft 1.17.
 
 It can't work on Minecraft 1.16 and previous versions.
+
+Check the [Optifine tutorial](texture-1.17.md#optifine-1.16-and-lower) if you have lower Minecraft version.
 {% endhint %}
 
 {% hint style="warning" %}
 You must enable this setting in `config.yml` file of ItemsAdder.&#x20;
 
 And set it to `VANILLA_1_17`
-
-
 
 ```yaml
     generate-custom-armors-textures:
@@ -47,7 +49,7 @@ This is a configuration which specified how the game will show the armor ingame.
 
 Now I create the two PNG files inside the `data/resource_pack/assets/myitems/armor/my_armor/` folder.
 
-![](<../../../../../.gitbook/assets/image (45).png>)
+![](<../../../../.gitbook/assets/image (45).png>)
 
 ### Creating an armor piece
 
@@ -79,23 +81,23 @@ In this case I didn't specify any `color` in the `specific_properties `field of 
 
 Now I create the item texture and I put it inside the `data\resource_pack\assets\itemsadder\textures\item\` folder.
 
-![](<../../../../../.gitbook/assets/image (40).png>)
+![](<../../../../.gitbook/assets/image (40).png>)
 
-![](<../../../../../.gitbook/assets/image (42).png>)
+![](<../../../../.gitbook/assets/image (42).png>)
 
 ### Animated textures
 
 You can also create animated armors!
 
-![](../../../../../.gitbook/assets/ezgif-7-3b3a255fe802.gif)
+![](../../../../.gitbook/assets/ezgif-7-3b3a255fe802.gif)
 
 To create an animated armor you have to create an image with all the animation frames.
 
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](<../../../../../.gitbook/assets/layer\_1 (1).png>)
+![layer\_1](<../../../../.gitbook/assets/layer\_1 (1).png>)
 
-![layer\_2](../../../../../.gitbook/assets/layer\_2.png)
+![layer\_2](../../../../.gitbook/assets/layer\_2.png)
 
 Now let's edit the rendering properties to support the animation.
 
@@ -148,13 +150,13 @@ You have to make 2 textures in order to make the textures glow.&#x20;
 
 In this example I want the whole texture to glow so I make it all **black**.
 
-![emissive\_1](../../../../../.gitbook/assets/emissive\_1.png)
+![emissive\_1](../../../../.gitbook/assets/emissive\_1.png)
 
-![emissive\_2](../../../../../.gitbook/assets/emissive\_2.png)
+![emissive\_2](../../../../.gitbook/assets/emissive\_2.png)
 
 
 
-## Optifine
+## Optifine (1.16 and lower)
 
 {% hint style="info" %}
 This method is compatible with any Minecraft version (player must have Optifine installed).
@@ -167,16 +169,15 @@ And set it to `OPTIFINE`
 
 ```yaml
     generate-custom-armors-textures:
-      _: "Available values: VANILLA_1_17 or OPTIFINE"
       enabled: true
       mode: OPTIFINE
 ```
 {% endhint %}
 
-Follow the same tutorial [up here](texture.md#creating-the-armor-renderer), the only difference is that (for now) emissive textures are not supported.
+Follow the same tutorial [up here](texture-1.17.md#creating-the-armor-renderer), the only difference is that (for now) emissive textures are not supported.
 
 This Optifine tutorial will be updated in the future, if you want you can follow the manual way of creating Optifine armors:
 
-{% content-ref url="../../../optifine-only-features/armor-textures.md" %}
-[armor-textures.md](../../../optifine-only-features/armor-textures.md)
+{% content-ref url="../../optifine-only-features/armor-textures.md" %}
+[armor-textures.md](../../optifine-only-features/armor-textures.md)
 {% endcontent-ref %}

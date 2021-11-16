@@ -1,4 +1,4 @@
-# Colored models
+# 🎨 Colored models
 
 {% hint style="warning" %}
 Only available in **ItemsAdder 2.3.11+**

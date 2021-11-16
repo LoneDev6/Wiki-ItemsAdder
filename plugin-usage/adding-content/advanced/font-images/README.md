@@ -2,7 +2,7 @@
 description: Allows you to create images which can be used in texts
 ---
 
-# Font Images
+# 🖼 Font Images
 
 ### What are Font images?
 
@@ -21,8 +21,8 @@ Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 [ranks-textures-tags.md](../ranks-textures-tags.md)
 {% endcontent-ref %}
 
-{% content-ref url="../emojis.md" %}
-[emojis.md](../emojis.md)
+{% content-ref url="emojis.md" %}
+[emojis.md](emojis.md)
 {% endcontent-ref %}
 
 ## Use specific a character

@@ -1,10 +1,22 @@
-# Armor textures
+---
+description: Manually creating Optifine custom armors textures
+---
+
+# Armor textures (old method)
+
+## Custom textured armors on 1.16 (and lower)
 
 If you want to add a custom texture and not just a custom color to armors you can use **Optifine**.
 
-### Download the [example addon here](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
+### Click here if you want the new automatic creation:
 
-## Example custom textured armor
+{% content-ref url="../advanced/custom-armors/optifine-1.16-and-lower.md" %}
+[optifine-1.16-and-lower.md](../advanced/custom-armors/optifine-1.16-and-lower.md)
+{% endcontent-ref %}
+
+## Custom textured armor (manual way)
+
+### Download the [example addon here](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
 
 ![](<../../../.gitbook/assets/image (22).png>)
 
