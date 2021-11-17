@@ -109,3 +109,9 @@ items:
       model_path: "item/custom_helmet"
 ```
 
+## Custom armor ingame texture
+
+{% content-ref url="../../advanced/custom-armors/" %}
+[custom-armors](../../advanced/custom-armors/)
+{% endcontent-ref %}
+
