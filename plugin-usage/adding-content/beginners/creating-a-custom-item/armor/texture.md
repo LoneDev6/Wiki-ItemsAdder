@@ -24,6 +24,10 @@ And set it to `VANILLA_1_17`
 ```
 {% endhint %}
 
+{% hint style="warning" %}
+If you see **bugged **textures and you have **Optifine **installed please [read here](../../../../../faq/armors-textures-bugged.md).
+{% endhint %}
+
 ## Creating the armor renderer
 
 {% hint style="info" %}

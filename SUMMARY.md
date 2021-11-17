@@ -45,7 +45,7 @@
     * ["Duplicate recipe ignored" error](faq/errors/duplicate-recipe-ignored-error.md)
     * [Cannot retrieve entity from ID](faq/errors/cannot-retrieve-entity-from-id.md)
     * [An error occurred when enabling the resourcepack](faq/errors/an-error-occurred-when-enabling-the-resourcepack.md)
-  * [☠️Some users crash (old)](faq/some-users-crash.md)
+  * [Armors textures bugged](faq/armors-textures-bugged.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [🇬🇧 Languages](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)
@@ -224,9 +224,11 @@
 
 ## OLD
 
-* [🕸 Old v1.0 tutorials](old/old-v1.0-tutorials.md)
-* [➡ Updating from 1.0](old/updating-from-1.0/README.md)
-  * [Convert old files to v2](old/updating-from-1.0/convert-old-files-to-v2.md)
-  * [Convert old items/blocks ingame](old/updating-from-1.0/convert-old-items-ingame.md)
+* [Old guides](old/old-guides/README.md)
+  * [🕸 Old v1.0 tutorials](old/old-guides/old-v1.0-tutorials.md)
+  * [➡ Updating from 1.0](old/old-guides/updating-from-1.0/README.md)
+    * [Convert old files to v2](old/old-guides/updating-from-1.0/convert-old-files-to-v2.md)
+    * [Convert old items/blocks ingame](old/old-guides/updating-from-1.0/convert-old-items-ingame.md)
+  * [☠️Some users crash](old/old-guides/some-users-crash.md)
 * [Deprecated](old/deprecated/README.md)
   * [Alternative font file](old/deprecated/alternative-font-file.md)
