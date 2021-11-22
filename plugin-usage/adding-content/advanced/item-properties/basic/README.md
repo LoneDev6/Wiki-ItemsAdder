@@ -221,8 +221,17 @@ You can set it to `>`, `<` ad `=`
 ## glow
 
 You can make an item glowing when dropped on the ground.\
-Very useful for **rare items**.\
-Example:
+Very useful for **rare items**.
+
+{% hint style="warning" %}
+In order to use the glow feature you have to install two APIs.
+
+[GlowAPI](https://www.spigotmc.org/resources/api-glowapi.19422/) and [PacketListenerAPI](https://www.spigotmc.org/resources/api-packetlistenerapi.2930/)
+
+They are needed because this feature is impossible to implement without writing an extremely long code, someone already did it and we can use their API.
+{% endhint %}
+
+Example
 
 ![](<../../../../../.gitbook/assets/immagine (114).png>)
 
