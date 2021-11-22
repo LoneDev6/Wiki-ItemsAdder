@@ -2,7 +2,7 @@
 
 ## Download branding assets
 
-This zip file contains ItemsAdder logo
+This zip file contains ItemsAdder logo, a banner for your addons and colors palette.
 
 {% file src="../.gitbook/assets/itemsadder_branding.zip" %}
 
