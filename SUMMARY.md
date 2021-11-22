@@ -221,6 +221,7 @@
   * [HUDs, GUIs...](developers/java-api/huds-guis.md)
 * [📓 Skript API](developers/skript-api/README.md)
   * [Expert users](developers/skript-api/expert-users-1.md)
+* [™ Branding](developers/branding.md)
 
 ## OLD
 
