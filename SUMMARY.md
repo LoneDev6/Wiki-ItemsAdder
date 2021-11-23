@@ -114,6 +114,7 @@
       * [GUIs](plugin-usage/adding-content/advanced/guis.md)
       * [Furniture](plugin-usage/adding-content/advanced/furniture/README.md)
         * [Furniture collisions](plugin-usage/adding-content/advanced/furniture/furniture-collisions.md)
+        * [Furniture Entity](plugin-usage/adding-content/advanced/furniture/furniture-entity.md)
         * [Furniture size](plugin-usage/adding-content/advanced/furniture/furniture-size.md)
       * [✍ Fonts](plugin-usage/adding-content/advanced/fonts/README.md)
         * [Thin font (force unicode)](plugin-usage/adding-content/advanced/fonts/thin-font-force-unicode.md)
