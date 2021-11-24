@@ -30,7 +30,7 @@
   * permission: "ia.admin.custommodeldata"
 * iaplayerstat:
   * description: Set a custom player stat (and update HUD) value
-  * usage: /iaplayerstat \<read|write> \<player> \<attribute> \<int|float|string> \[value]
+  * usage: /iaplayerstat \<read|write|increment|decrement> \<player> \<attribute> \<int|float|string> \[value]
   * permission: "ia.admin.iaplayerstat"
 * ia:
   * description: Opens items info GUI
