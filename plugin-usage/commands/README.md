@@ -40,6 +40,10 @@
   * description: Repairs current item (vanilla or custom)
   * usage: /iarepair
   * permission: "ia.admin.iarepair"
+* iarename
+  * description: Rename current item (vanilla or custom). Supports emojis (font\_images) and ItemsAdder text-effects.
+  * usage: /iarename \<name>
+  * permission: "ia.admin.iarename"
 * iadurability:
   * description: Modify durability of current item (vanilla or custom)
   * usage: /iadurability

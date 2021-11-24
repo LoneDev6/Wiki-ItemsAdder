@@ -50,6 +50,7 @@
   * [🇬🇧 Languages](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)
     * [iaconfig](plugin-usage/commands/iaconfig.md)
+    * [iarename](plugin-usage/commands/iarename.md)
   * [👌 Permissions](plugin-usage/permissions/README.md)
     * [↪ Example permissions](plugin-usage/permissions/example-permissions.md)
   * [⚠ Important notes](plugin-usage/important-notes.md)
