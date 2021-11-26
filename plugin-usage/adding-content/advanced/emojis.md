@@ -47,7 +47,7 @@ font_images:
 
 ## Игровой вид
 
-![](<../../../.gitbook/assets/immagine (116) (3) (2).png>)
+![](<../../../.gitbook/assets/immagine (116).png>)
 
 ### Использование /e полезные предложения
 

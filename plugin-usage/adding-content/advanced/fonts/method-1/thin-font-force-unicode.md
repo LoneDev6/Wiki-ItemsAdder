@@ -35,3 +35,11 @@
 {% hint style="success" %}
 Теперь вы видите тонкий шрифт, но все элементы картинок юникода не сломаны (баг белых квадратов)
 {% endhint %}
+
+## Alternative method
+
+If for some reasons your players really want to use the `Force Unicode: On` you can read here, the alternative font file will avoid the `Force Unicode: Off` setting requirement (Note: Minecraft 1.16+ only).
+
+{% content-ref url="../../font-images/alternative-font-file.md" %}
+[alternative-font-file.md](../../font-images/alternative-font-file.md)
+{% endcontent-ref %}

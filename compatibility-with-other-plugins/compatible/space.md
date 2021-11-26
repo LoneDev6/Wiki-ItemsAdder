@@ -20,7 +20,7 @@ It's very easy!
 
 ### Done!
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (40).png>)
 
 ## Known issues
 

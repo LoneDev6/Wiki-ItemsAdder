@@ -19,7 +19,7 @@ resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcep
 &aYou need only to download it only once."
 ```
 
-(You can use  as newline)
+(You can use `\n` as newline)
 
 ### Done
 
