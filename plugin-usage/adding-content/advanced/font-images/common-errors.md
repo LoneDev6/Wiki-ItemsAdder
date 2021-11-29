@@ -10,10 +10,6 @@ This is a Minecraft limitation.\
 To bypass this (if you're creating a GUI or HUD) you can split your image in multiple font images and merge them shifting them.
 {% endhint %}
 
-## My partially transparent image looks "cut"
-
-Minecraft cuts images if they have transparency (0/255 alpha channel value), so you must set 1/255 transparency in order to avoid Minecraft to cut it
-
 ## When I add a hud others shift of some pixels
 
 Be sure to have each image size set to a multiple of 2.\
