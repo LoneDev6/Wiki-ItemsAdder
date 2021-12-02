@@ -25,5 +25,5 @@ Event triggered when a custom entity dies.
 ### ResourcePackSendEvent
 
 Event triggered when the server sends a resourcepack to the client. \
-This event includes **url**, **hash **and also contains info if** it's **an **ItemsAdder resourcepack **or **another plugin **resourcepack.
+This event includes **url**, **hash** and also contains info if **it's** an **ItemsAdder resourcepack** or **another plugin** resourcepack.
 

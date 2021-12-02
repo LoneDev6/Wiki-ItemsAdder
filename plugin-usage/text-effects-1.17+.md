@@ -38,11 +38,11 @@ effects:
 
 * Use **text-effects** in **chat**
   * `ia.user.text_effect.chat`
-* Use** text-effects** in **signs**
+* Use **text-effects** in **signs**
   * `ia.user.text_effect.sign`
 * Use **text-effects** in **books**
   * `ia.user.text_effect.book`
-* Use **text-effects** in **anvil **rename field
+* Use **text-effects** in **anvil** rename field
   * `ia.user.text_effect.anvil`
 * Use a **text-effect**
   * `ia.user.text_effect.use.<effect>`

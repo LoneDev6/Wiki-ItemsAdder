@@ -25,26 +25,26 @@
         * `ia.user.image.gui`
       * **/iaimage** **/emoji \<text>, /iaemoji \<text>, /e \<text>** (shows a tab list with emojis based on searched term)
         * `ia.user.image.hints`
-      * Use **emojis **in **chat**
+      * Use **emojis** in **chat**
         * `ia.user.image.chat`
-      * Use **emojis **in **commands**
+      * Use **emojis** in **commands**
         * `ia.user.image.command`
-      * Use **emojis **in **signs**
+      * Use **emojis** in **signs**
         * `ia.user.image.sign`
-      * Use **emojis **in **books**
+      * Use **emojis** in **books**
         * `ia.user.image.book`
-      * Use **emojis **in **anvil **rename field
+      * Use **emojis** in **anvil** rename field
         * `ia.user.image.anvil`
       * Use an **emoji**
         * `ia.user.image.use.<font image name>`
         * Example: `ia.user.image.use.heart`
       * Use **text-effects** in **chat**
         * `ia.user.text_effect.chat`
-      * Use** text-effects** in **signs**
+      * Use **text-effects** in **signs**
         * `ia.user.text_effect.sign`
       * Use **text-effects** in **books**
         * `ia.user.text_effect.book`
-      * Use **text-effects** in **anvil **rename field
+      * Use **text-effects** in **anvil** rename field
         * `ia.user.text_effect.anvil`
       * Use a **text-effect**
         * `ia.user.text_effect.use.<effect>`
@@ -78,7 +78,7 @@
     * ia.admin.iadurability
   * Edit permission (edit button in /ia)
     * `ia.admin.edit`
-  * /iaplayerstat write_ (write a player custom stat)_
+  * /iaplayerstat write _(write a player custom stat)_
     * `ia.admin.iaplayerstat.write`
   * /iaplayerstat read _(read a player custom stat)_
     * `ia.admin.iaplayerstat.read`

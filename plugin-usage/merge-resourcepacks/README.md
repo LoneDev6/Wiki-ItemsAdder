@@ -6,7 +6,7 @@ description: Merge other resourcepacks (also custom plugins resourcepacks)
 
 ## Why merging?
 
-**Minecraft **supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
+**Minecraft** supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
 
 ## How to merge?
 

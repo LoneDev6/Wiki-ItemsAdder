@@ -5,7 +5,7 @@
 ## How to connect an ExecutableItem to an ItemsAdder custom item
 
 {% hint style="warning" %}
-UPDATE **ITEMSADDER **TO **2.2.20+**
+UPDATE **ITEMSADDER** TO **2.2.20+**
 {% endhint %}
 
 ## Create the ItemsAdder item
@@ -34,7 +34,7 @@ items:
 
 {% hint style="success" %}
 As you can see I set a new attribute called **`executableitem`**and **`id`**.\
-These are used to **connect **the **two items**.
+These are used to **connect** the **two items**.
 {% endhint %}
 
 ### Get the item

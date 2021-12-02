@@ -6,11 +6,11 @@ description: Allows you to create images which can be used in texts
 
 ### What are Font images?
 
-This feature allows you to create images that can be used to make:  **GUIs**, **HUDs**, **Emojis**, custom characters,[** custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
+This feature allows you to create images that can be used to make:  **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
 
 {% hint style="warning" %}
-When you create a **font\_image **make sure the **background **is **not **fully **transparent**.\
-You have to set **ALPHA **to **7 **instead of 0.
+When you create a **font\_image** make sure the **background** is **not** fully **transparent**.\
+You have to set **ALPHA** to **7** instead of 0.
 
 Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 {% endhint %}

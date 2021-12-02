@@ -1,33 +1,33 @@
 # Creating your namespace
 
 {% hint style="warning" %}
-If you don't know what I mean by **namespace **please read [namespace tutorial](basic-concepts/namespace.md)
+If you don't know what I mean by **namespace** please read [namespace tutorial](basic-concepts/namespace.md)
 {% endhint %}
 
 ## Creating an items\_packs subfolder
 
-In order to keep everything organized you have to create **your **own **namespace**. \
+In order to keep everything organized you have to create **your** own **namespace**. \
 First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
 
-In this example **namespace **will be `myitems `so create a folder names like the namespace.
+In this example **namespace** will be `myitems` so create a folder names like the namespace.
 
 ![](<../../../.gitbook/assets/image (8).png>)
 
-Open the `myitems `folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
+Open the `myitems` folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
 
 ![](<../../../.gitbook/assets/image (9).png>)
 
-Open the new** .yml **file and paste this:
+Open the new **.yml** file and paste this:
 
 ```yaml
 info:
   namespace: myitems
 ```
 
-As you see I set **namespace **to `myitems`, which is the **namespace **I chose before and it's the same name of the **folder**. Remember to change it based on your **namespace**.
+As you see I set **namespace** to `myitems`, which is the **namespace** I chose before and it's the same name of the **folder**. Remember to change it based on your **namespace**.
 
 {% hint style="info" %}
-You can create as many **namespaces **you want! This allows you to easly organize your packs of items.
+You can create as many **namespaces** you want! This allows you to easly organize your packs of items.
 {% endhint %}
 
 {% hint style="info" %}

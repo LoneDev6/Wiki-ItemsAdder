@@ -19,7 +19,7 @@
 
 ### Create a new rank configuration
 
-Open`plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` file and **copy **and **paste **one of them.\
+Open`plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` file and **copy** and **paste** one of them.\
 Then rename it to your rank, also decide a new **.png** file name, for example `custom`
 
 ```yaml
@@ -33,14 +33,14 @@ Then rename it to your rank, also decide a new **.png** file name, for example `
 ```
 
 {% hint style="warning" %}
-Don't change `scale_ratio `and `y_position`. It would make the ranks look pixelated
+Don't change `scale_ratio` and `y_position`. It would make the ranks look pixelated
 {% endhint %}
 
 ### Creating the png image
 
-**Copy **one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\` \
+**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\` \
 \
-You can edit it using **Photoshop**, **GIMP**, **Paint.NET **or any other editing software you use.\
+You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.\
 For example copy `admin.png`, name it `custom.png` and edit it.
 
 {% hint style="danger" %}
@@ -49,7 +49,7 @@ For example copy `admin.png`, name it `custom.png` and edit it.
 
 ### Example:
 
-For example in order to make a similar rank to my **BetterRanks **addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
+For example in order to make a similar rank to my **BetterRanks** addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
@@ -85,8 +85,8 @@ Make sure you installed [PlaceholderAPI](../../using-font\_images-emojis-everywh
 
 #### Editing the config.yml of TAB plugin
 
-**Add **this under the `groups` category or edit it if already exists.\
-(You have to use `%img_admin%` instead of `:admin:` because **TAB **recognized only **PlaceholderAPI **placeholders and not **ItemsAdder **placeholders. This can be valid also for **other plugins**)
+**Add** this under the `groups` category or edit it if already exists.\
+(You have to use `%img_admin%` instead of `:admin:` because **TAB** recognized only **PlaceholderAPI** placeholders and not **ItemsAdder** placeholders. This can be valid also for **other plugins**)
 
 ```yaml
   Admin:

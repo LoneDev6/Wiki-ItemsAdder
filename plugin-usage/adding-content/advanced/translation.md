@@ -1,4 +1,4 @@
-# 🇬🇧 Translation
+# 🇬🇧 🇬🇧 Translation
 
 You can translate everything in ItemsAdder, it's really easy.
 
@@ -9,9 +9,9 @@ You can translate everything in ItemsAdder, it's really easy.
 If you want to translate IA default items you can, you just have to copy my dictionary and create your own.\
 
 
-* open folder plugins\ItemsAdder\data\items_packs\dictionaries\ia_default_items
+* open folder plugins\ItemsAdder\data\items\_packs\dictionaries\ia\_default\_items
 * copy and paste the file en.yml
-* change `dictionary-lang `from `en `to your language identifier (example `fr`)
+* change `dictionary-lang` from `en` to your language identifier (example `fr`)
 * translate everything you want
 * open config.yml and set `dictionaries-lang` to your language identifier (example `fr`)
 * reload the plugin or restart the server
@@ -50,11 +50,11 @@ items:
 ```
 
 {% hint style="info" %}
-As you can see I set the `display_name`to "display-name-my_sword", this will tell IA to replace the text with text from the dictionary, so sword would be named "épée de saleté".
+As you can see I set the `display_name`to "display-name-my\_sword", this will tell IA to replace the text with text from the dictionary, so sword would be named "épée de saleté".
 {% endhint %}
 
 {% hint style="warning" %}
-You can **skip **the **translation **part and do this directly, **but **this** won't** allow you to easily **translate **items in the **future **if you need to.
+You can **skip** the **translation** part and do this directly, **but** this **won't** allow you to easily **translate** items in the **future** if you need to.
 
 ```yaml
 info:

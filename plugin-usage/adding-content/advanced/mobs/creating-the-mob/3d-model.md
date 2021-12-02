@@ -20,19 +20,19 @@ For example I created this model, it's made of some cubes as you can see.
 Now we want to animate it!\
 For example I want to make it float up and down.
 
-**1.Save** the **current model **in a temporary folder (anywhere on your PC)
+**1.Save** the **current model** in a temporary folder (anywhere on your PC)
 
 ![](<../../../../../.gitbook/assets/immagine (53).png>)
 
 ![](<../../../../../.gitbook/assets/immagine (56).png>)
 
-Ok I saved it as **1.json** inside the **idle **folder. This is the first frame of the **animation**.
+Ok I saved it as **1.json** inside the **idle** folder. This is the first frame of the **animation**.
 
-**2.**Return to **BlockBench **and select all pressing **CTRL+A**
+**2.**Return to **BlockBench** and select all pressing **CTRL+A**
 
 ![](<../../../../../.gitbook/assets/immagine (57).png>)
 
-**Hold left mouse button **while cliking on the **GREEN **arrow, **hold CTRL** and **move **the mouse **up** a little bit
+**Hold left mouse button** while cliking on the **GREEN** arrow, **hold CTRL** and **move** the mouse **up** a little bit
 
 ![](<../../../../../.gitbook/assets/immagine (58).png>)
 
@@ -42,7 +42,7 @@ Ok I saved it as **1.json** inside the **idle **folder. This is the first frame 
 
 **5.**Now we have finished creating the needed frames for our animation. Open [this website](https://lonedev6.github.io/animated-models/)
 
-**6.**Now **click **on the **icon **to load our json frames
+**6.**Now **click** on the **icon** to load our json frames
 
 ![](<../../../../../.gitbook/assets/immagine (68).png>)
 
@@ -56,7 +56,7 @@ Ok I saved it as **1.json** inside the **idle **folder. This is the first frame 
 
 ![](<../../../../../.gitbook/assets/immagine (70).png>)
 
-**9.Click** the **second icon **and** drag **and **drop **the **4 files **to the bottom line
+**9.Click** the **second icon** and **drag** and **drop** the **4 files** to the bottom line
 
 ![](<../../../../../.gitbook/assets/immagine (71).png>)
 
@@ -70,17 +70,17 @@ Ok I saved it as **1.json** inside the **idle **folder. This is the first frame 
 
 ![](<../../../../../.gitbook/assets/immagine (75).png>)
 
-**12.**Press the **play **button (on the **bottom left**) to **preview **the animation
+**12.**Press the **play** button (on the **bottom left**) to **preview** the animation
 
 ![](https://i.imgur.com/zslbD0G.gif)
 
-**13.** Press "**Export**" button (**top right **of the **screen**) and configure it like in the screenshot, then press "**Export**" again.
+**13.** Press "**Export**" button (**top right** of the **screen**) and configure it like in the screenshot, then press "**Export**" again.
 
 ![](<../../../../../.gitbook/assets/immagine (76).png>)
 
-**14.**Now you will have a **zip **file with the animation, **download **it and **open **it.
+**14.**Now you will have a **zip** file with the animation, **download** it and **open** it.
 
-**15.Extract **the zip inside your **ItemsAdder **folder `data\resource_pack\`
+**15.Extract** the zip inside your **ItemsAdder** folder `data\resource_pack\`
 
 **16.**Set your mob configuration like this, to use the idle animation and not the stuck one: `"mob/soul/idle"`
 
@@ -97,7 +97,7 @@ items:
 
 **17.**Use the command `/iazip` (if you're using external-host please follow the [tutorial ](../../../../resourcepack-hosting/)carefully)
 
-**18.**spawn the mob using` /iasummon soul`
+**18.**spawn the mob using `/iasummon soul`
 
 ![](https://i.imgur.com/1tljgbv.gif)
 

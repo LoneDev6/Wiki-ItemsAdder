@@ -5,10 +5,10 @@
 ### Creating the blocks file
 
 {% hint style="warning" %}
-This is an example block (remember to change `myitems `[namespace ](../../basic-concepts/namespace.md)to the one you want).
+This is an example block (remember to change `myitems` [namespace ](../../basic-concepts/namespace.md)to the one you want).
 {% endhint %}
 
-For example I created a **file **which will contain all my **custom blocks**:
+For example I created a **file** which will contain all my **custom blocks**:
 
 In this file (`blocks.yml`) I start creating a simple block called `red_block`
 
@@ -26,7 +26,7 @@ items:
 ```
 
 {% hint style="warning" %}
-It's very important to use a **non placeable **vanilla **material**. For example **PAPER**.\
+It's very important to use a **non placeable** vanilla **material**. For example **PAPER**.\
 If you use a block (like STONE or DIRT) it will result a bit glitchy when placed.
 {% endhint %}
 
@@ -36,13 +36,13 @@ If you use a block (like STONE or DIRT) it will result a bit glitchy when placed
 
 Now the fun part, let's set the textures!\
 To do that you have to put the `.png` textures file inside the correct folder.\
-In this case your **namespace **is `myitems `so you have to put them here:
+In this case your **namespace** is `myitems` so you have to put them here:
 
 ![](<../../../../../.gitbook/assets/immagine (105).png>)
 
 ### Applying the textures files to your item
 
-Now open `blocks.yml `file again and add the `resource` part as I did.\
+Now open `blocks.yml` file again and add the `resource` part as I did.\
 As you can see I set `generate: true` and I set the textures for the item.\
 This tells the plugin to generate the 3D model automatically using your texture.
 
@@ -123,7 +123,7 @@ items:
 ```
 
 {% hint style="info" %}
-Click on the bottom link if you want to specify **tools **which can break the block, add **hardness **and **other attributes**.
+Click on the bottom link if you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
 {% endhint %}
 
 ## Final part
@@ -154,7 +154,7 @@ Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-If you have more questions read the full **external-host **tutorial here:
+If you have more questions read the full **external-host** tutorial here:
 
 {% content-ref url="../../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 [resourcepack-on-dropbox.md](../../../../resourcepack-hosting/resourcepack-on-dropbox.md)

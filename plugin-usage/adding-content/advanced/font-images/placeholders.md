@@ -1,6 +1,6 @@
 # Placeholders
 
-You can use these special placeholders in **chat**, **signs**, **books **and in **GUIs **names.
+You can use these special placeholders in **chat**, **signs**, **books** and in **GUIs** names.
 
 ### Offset
 
@@ -13,11 +13,11 @@ This is a special placeholder that allows you to move a font image back and forw
 :offset_25:
 ```
 
-As you can see you have to write` :offset_`**`AMOUNT`**`: `(without spaces).
+As you can see you have to write `:offset_`**`AMOUNT`**`:` (without spaces).
 
 ### Actual image
 
-To actually show make your font image show up you just have to write down its name surrounded by`  :  `character
+To actually show make your font image show up you just have to write down its name surrounded by `:` character
 
 ```
 :my_gui:

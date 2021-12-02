@@ -57,7 +57,7 @@ enchants:
 
 Enchants of the item.\
 You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins (for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
-Supports also **namespaces **(if you are creating custom enchants using Namespaced keys)
+Supports also **namespaces** (if you are creating custom enchants using Namespaced keys)
 
 ## Attribute modifiers
 
@@ -97,11 +97,11 @@ durability:
 ```
 
 There are pretty self explanatory.\
-`usages `are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events (check events tutorial).
+`usages` are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events (check events tutorial).
 
-`custom_durability `is the durability amount which the item has on crafting (if not specified is the same as `max_custom_durability`)
+`custom_durability` is the durability amount which the item has on crafting (if not specified is the same as `max_custom_durability`)
 
-`max_custom_durability `is the max durability the item can reach
+`max_custom_durability` is the max durability the item can reach
 
 ## Item flags
 

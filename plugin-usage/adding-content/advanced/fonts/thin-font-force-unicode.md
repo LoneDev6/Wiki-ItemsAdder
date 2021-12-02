@@ -7,10 +7,10 @@ Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"
 ![](<../../../../.gitbook/assets/immagine (5).png>)
 
 \
-With **ItemsAdder **this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft limitation.
+With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft limitation.
 
 {% hint style="warning" %}
-You must set **Force Unicode Font: OFF **
+You must set **Force Unicode Font: OFF**&#x20;
 {% endhint %}
 
 ![](<../../../../.gitbook/assets/immagine (6).png>)

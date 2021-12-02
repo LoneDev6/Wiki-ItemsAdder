@@ -13,7 +13,7 @@ These features MAY be laggy, leave them enabled only for some days and then disa
 When you update from ItemsAdder 1.0 to 2.0 you noticed that most of the items has changed, so they are not the same as old items before the update.\
 That's why I had to code a feature that auto replaces old items with new items. This process is run everytime a player opens an inventory in the world (chests, containers.. but NOT their own inventory).
 
-In order to enable this you have to set this property to true in `converter.yml `of **ItemsAdder 2.0**
+In order to enable this you have to set this property to true in `converter.yml` of **ItemsAdder 2.0**
 
 #### Be sure to set inventory-open: true
 
@@ -25,7 +25,7 @@ items-auto-update:
 
 ## How to auto convert old blocks placed in worlds
 
-You have to open `converter.yml `and map your own old blocks **model_id **with the new **namespaced **block of IA 2.0. For example I've already added old ItemsAdder 1.0 blocks map to convert them to 2.0 namespaced blocks.
+You have to open `converter.yml` and map your own old blocks **model\_id** with the new **namespaced** block of IA 2.0. For example I've already added old ItemsAdder 1.0 blocks map to convert them to 2.0 namespaced blocks.
 
 #### Be sure to set enabled: true
 

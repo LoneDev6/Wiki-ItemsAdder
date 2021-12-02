@@ -2,10 +2,10 @@
 
 ## I see only a white square
 
-If you see a **white square **make sure the **height **of your image is not **greather **than the `y_position `value you set. To **bypass **that create an **image **with **higher height**.
+If you see a **white square** make sure the **height** of your image is not **greather** than the `y_position` value you set. To **bypass** that create an **image** with **higher height**.
 
 {% hint style="warning" %}
-Keep in mind that the **max size **of a font image is **256x256**.\
+Keep in mind that the **max size** of a font image is **256x256**.\
 This is a Minecraft limitation.\
 To bypass this (if you're creating a GUI or HUD) you can split your image in multiple font images and merge them shifting them.
 {% endhint %}

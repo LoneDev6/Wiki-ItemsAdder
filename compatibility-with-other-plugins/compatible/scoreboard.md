@@ -25,7 +25,7 @@ You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-imag
 ![](<../../.gitbook/assets/immagine (96).png>)
 
 With ItemsAdder you can hide the scoreboard background, just use this trick.\
-You just have to add `%img_offset_-500%` in front of **each line **of your scoreboard configuration.
+You just have to add `%img_offset_-500%` in front of **each line** of your scoreboard configuration.
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____

@@ -12,7 +12,7 @@ Update to ItemsAdder 2.4.20
 
 You can manually edit the file `assets\minecraft\blockstates\note_block.json` adding your own rules inside.
 
-**ItemsAdder **will automatically merge your custom json file with the **ItemsAdder **custom blocks if you created any.
+**ItemsAdder** will automatically merge your custom json file with the **ItemsAdder** custom blocks if you created any.
 
 ## Editing other .json blockstates
 

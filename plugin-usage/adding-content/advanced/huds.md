@@ -3,7 +3,7 @@
 In order to create custom HUDs you have 2 examples provided in ItemsAdder and they make use of every feature available.
 
 These two HUDs are the mana bar and the thirst bar.\
-You can find them in the **realcraft **and in the **magiccraft **namespaces.
+You can find them in the **realcraft** and in the **magiccraft** namespaces.
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
@@ -33,7 +33,7 @@ huds:
 
 Notice the `!` in front of the world name. (It's very important to use the `" "` characters or plugin won't work (yml bug).
 
-### Enable thirst in all worlds of name which starts with `world_ `or `adventure`
+### Enable thirst in all worlds of name which starts with `world_` or `adventure`
 
 ```yaml
 huds:

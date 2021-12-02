@@ -2,8 +2,8 @@
 
 What are behaviours?
 
-Behaviours are an **already coded **set of **actions **the item will do and which are **not vanilla**.\
-These **behaviours **are already included in the plugin and will allow you to add some already coded functionality to your item.
+Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.\
+These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.
 
 ### List of behaviours included in the plugin
 

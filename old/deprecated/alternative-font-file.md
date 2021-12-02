@@ -10,7 +10,7 @@ description: Use another .json file for the auto generated font images
 ### This feature is unstable.
 {% endhint %}
 
-**ItemsAdder **generates the json file for your custom **font\_images**, in some cases you prefer to have a separate file instead of append the images into the `default.json`.
+**ItemsAdder** generates the json file for your custom **font\_images**, in some cases you prefer to have a separate file instead of append the images into the `default.json`.
 
 ItemsAdder (if configured) will generate the **font\_images** inside a new file: `assets/minecraft/font/custom.json` instead of `default.json`.
 
@@ -24,7 +24,7 @@ For example you can write this command `/tellraw @a [{"text":"Test message!","fo
 
 This command will write the first text with font `default` and the second text with font `alt` (in this case it's included into the game).
 
-![](<../../../../.gitbook/assets/immagine (153).png>)
+![](<../../.gitbook/assets/immagine (153).png>)
 
 ItemsAdder custom font will be named `custom`, so in this case you will have to use the attribute `"font":"custom"`.
 

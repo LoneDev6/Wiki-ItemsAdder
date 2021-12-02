@@ -23,9 +23,9 @@ Title: '%img_offset_-16%%img_blank_menu%'
 PlaceholderAPI is required!
 {% endhint %}
 
-Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%`by **16 **pixels.
+Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%`by **16** pixels.
 
-Read more here: 
+Read more here:&#x20;
 
 {% content-ref url="../../plugin-usage/placeholderapi.md" %}
 [placeholderapi.md](../../plugin-usage/placeholderapi.md)

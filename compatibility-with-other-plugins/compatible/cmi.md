@@ -6,7 +6,7 @@
 
 ## Ranks
 
-1. Open config.yml of **CMI **and set this (I set `%vault_prefix%` placeholder instead of **CMI **`{prefix}`)
+1. Open config.yml of **CMI** and set this (I set `%vault_prefix%` placeholder instead of **CMI** `{prefix}`)
 
 ```yaml
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'

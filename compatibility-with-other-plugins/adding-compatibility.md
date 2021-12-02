@@ -1,7 +1,7 @@
 # Adding compatibility
 
 Adding compatibility to ItemsAdder items is very easy!\
-**API **is **free **and available via maven package:
+**API** is **free** and available via maven package:
 
 {% content-ref url="../developers/java-api/" %}
 [java-api](../developers/java-api/)
@@ -16,5 +16,5 @@ Adding compatibility to ItemsAdder items is very easy!\
 {% hint style="warning" %}
 ## Important
 
-Please make sure to listen to the **ItemsAdderFirstLoadEvent **event. ItemsAdder loads its items and other stuff async, so you have to wait for this event before using the API.
+Please make sure to listen to the **ItemsAdderFirstLoadEvent** event. ItemsAdder loads its items and other stuff async, so you have to wait for this event before using the API.
 {% endhint %}

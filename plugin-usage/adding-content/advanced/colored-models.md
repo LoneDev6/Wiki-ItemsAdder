@@ -48,7 +48,7 @@ In this example I used `leather_horse_armor`but you can also use `potion`.
 
 {% hint style="info" %}
 If you want to use a specific color you can use[ this color picker](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).\
-Copy the **decimal **color (hex).
+Copy the **decimal** color (hex).
 {% endhint %}
 
 ### 7. now you can create as many as furnitures you want, just change the color and it will be automatically colored by the game

@@ -15,5 +15,5 @@ Minecraft has a bug that disables mipmap if you set textures which their size is
 ### File and items names
 
 {% hint style="danger" %}
-Make sure you're not using **UPPERCASE **or **special characters **in items **names**, **namespaces**, texture files (**png**) and **model **files (**json**)
+Make sure you're not using **UPPERCASE** or **special characters** in items **names**, **namespaces**, texture files (**png**) and **model** files (**json**)
 {% endhint %}

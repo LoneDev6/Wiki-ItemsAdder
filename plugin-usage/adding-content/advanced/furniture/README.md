@@ -1,4 +1,4 @@
-# Furniture
+# 🪑 Furniture
 
 {% hint style="warning" %}
 ### Limitations of itemframes furnitures

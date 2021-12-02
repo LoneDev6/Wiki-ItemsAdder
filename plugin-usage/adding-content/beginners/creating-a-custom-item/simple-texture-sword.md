@@ -9,8 +9,8 @@ If you didn't create your namespace please follow the [namespace tutorial](../cr
 {% hint style="danger" %}
 ### Resourcepack hosting
 
-Remember to **decide **a **resourcepack hosting **method **before **you **start**.\
-I **advise **you to use **self-host** which is **easier **and **faster**, but you can also use **Dropbox **and similar
+Remember to **decide** a **resourcepack hosting** method **before** you **start**.\
+I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 {% endhint %}
 
 ## My first sword
@@ -18,10 +18,10 @@ I **advise **you to use **self-host** which is **easier **and **faster**, but yo
 ### Creating the swords file
 
 {% hint style="warning" %}
-This is an example sword (remember to change `myitems `[namespace ](../basic-concepts/namespace.md)to the one you want).
+This is an example sword (remember to change `myitems` [namespace ](../basic-concepts/namespace.md)to the one you want).
 {% endhint %}
 
-For example I created a **file **which will contain all my **custom swords**:
+For example I created a **file** which will contain all my **custom swords**:
 
 ![](<../../../../.gitbook/assets/immagine (16).png>)
 
@@ -45,13 +45,13 @@ items:
 
 Now the fun part, let's set the sword texture.\
 To do that you have to put your sword `.png` texture file inside the correct folder.\
-In this case your **namespace **is `myitems `so you have to put it here:
+In this case your **namespace** is `myitems` so you have to put it here:
 
 ![](<../../../../.gitbook/assets/immagine (14).png>)
 
 ### Applying the texture file to your item
 
-Now open `myswords.yml `file again and add the `resource `part as I did.\
+Now open `myswords.yml` file again and add the `resource` part as I did.\
 As you can see I set `generate: true` and I set the textures for the item.\
 This tells the plugin to generate the 3D model automatically using your texture.
 
@@ -108,7 +108,7 @@ Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-If you have more questions read the full **external-host **tutorial here:
+If you have more questions read the full **external-host** tutorial here:
 
 {% content-ref url="../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 [resourcepack-on-dropbox.md](../../../resourcepack-hosting/resourcepack-on-dropbox.md)

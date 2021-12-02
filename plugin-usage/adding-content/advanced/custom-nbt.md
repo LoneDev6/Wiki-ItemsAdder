@@ -2,13 +2,13 @@
 
 ## Adding custom NBT attributes to the item
 
-You can specify custom **NBT **attributes to me merged into the custom item
+You can specify custom **NBT** attributes to me merged into the custom item
 
 ## Example
 
 For example I want to merge these tags into my item.
 
- `{my-custom-nbt-tag:"hello this is a custom tag", another-tag:"useless"}`
+&#x20;`{my-custom-nbt-tag:"hello this is a custom tag", another-tag:"useless"}`
 
 ```yaml
 items:
@@ -27,7 +27,7 @@ items:
 {% hint style="danger" %}
 ## Warning
 
-Make sure to provide a valid **NBT **(**json**) or it won't work.
+Make sure to provide a valid **NBT** (**json**) or it won't work.
 
 ### This feature requires **ItemsAdder 2.4.18+** 
 {% endhint %}

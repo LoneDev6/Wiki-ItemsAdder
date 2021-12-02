@@ -26,7 +26,7 @@ recipes:
 ```
 
 As you can see I created the recipes section in the .yml file, this section can contain each type of recipe.\
-In this example I created a `crafting_table `recipe called `deadmau5_hat`
+In this example I created a `crafting_table` recipe called `deadmau5_hat`
 
 ## Example 2x2 recipe
 
@@ -54,7 +54,7 @@ You must set first line to XXX, and every ingredient on the bottom right.
 {% endhint %}
 
 {% hint style="success" %}
-You can create **multiple patterns **per recipe, just make sure that the attribute **starts **with '**pattern**' text. For example pattern\_2.
+You can create **multiple patterns** per recipe, just make sure that the attribute **starts** with '**pattern**' text. For example pattern\_2.
 
 ```yaml
 turquoise_sword:

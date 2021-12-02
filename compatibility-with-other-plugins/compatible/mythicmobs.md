@@ -5,10 +5,10 @@
 ### How to use ItemsAdder items in Mythicmobs
 
 You have to import the item you want to use with this command: `/mm items import <item> <item>.yml`\
-For example:` /mm items import ruby ruby.yml`\
-Then you can use the `ruby `inside any **Mythicmobs **file.
+For example: `/mm items import ruby ruby.yml`\
+Then you can use the `ruby` inside any **Mythicmobs** file.
 
 {% hint style="warning" %}
-**Remember:** if you edit any of the **ItemsAdder **item attributes you have to use the **import command again **to apply changes also to **MythicMobs **copy of your **IA **item.
+**Remember:** if you edit any of the **ItemsAdder** item attributes you have to use the **import command again** to apply changes also to **MythicMobs** copy of your **IA** item.
 {% endhint %}
 

@@ -7,7 +7,7 @@ First read this tutorial on creating the tree blocks (leaved and wood)
 {% hint style="danger" %}
 ### End dimension
 
-It's advised **not **to **spawn **the trees in the **END **dimension because it has _some _**problems**.
+It's advised **not** to **spawn** the trees in the **END** dimension because it has _some_ **problems**.
 
 ### Vanilla trees bug
 

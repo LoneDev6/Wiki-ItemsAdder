@@ -4,14 +4,14 @@
 
 ## How to apply resourcepack after login
 
-Open **config.yml** of **ItemsAdder **and disable `apply-on-join`.
+Open **config.yml** of **ItemsAdder** and disable `apply-on-join`.
 
 ```yaml
 resource-pack:
   apply-on-join: false
 ```
 
-Open `commands.yml` of **Authme **and change `onLogin` to this:
+Open `commands.yml` of **Authme** and change `onLogin` to this:
 
 ```yaml
 onLogin:
@@ -21,5 +21,5 @@ onLogin:
 ```
 
 {% hint style="warning" %}
-Make sure that there is **only one onLogin setting **in the configuration file.
+Make sure that there is **only one onLogin setting** in the configuration file.
 {% endhint %}

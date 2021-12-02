@@ -21,7 +21,7 @@ Some servers use the scoreboard to show custom data and they don't use the red n
 {% hint style="warning" %}
 ### Warning:
 
-Using <mark style="color:red;">**RED **</mark>(<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches**.\
+Using <mark style="color:red;">**RED**</mark> (<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches**.\
 This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.\
 
 
@@ -31,7 +31,7 @@ You can change your text color from <mark style="color:red;">`&c`</mark> to <mar
 
 
 
-Another way to fix this is to **add some spaces at the end **of your red text to avoid this.
+Another way to fix this is to **add some spaces at the end** of your red text to avoid this.
 {% endhint %}
 
 ![](<../../.gitbook/assets/immagine (140).png>)

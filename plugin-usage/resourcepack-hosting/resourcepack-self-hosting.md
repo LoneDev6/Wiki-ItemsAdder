@@ -28,7 +28,7 @@ Difference is that with self-host you can download the pack directly from your s
 
 ## How can I configure the self host?
 
-* Check in your **hosting service panel **if you can get an additional port, if not please ask hosting service support to provide your one.
+* Check in your **hosting service panel** if you can get an additional port, if not please ask hosting service support to provide your one.
 
 For example on **Pterodactyl**:
 
@@ -36,7 +36,7 @@ For example on **Pterodactyl**:
 
 ![](<../../.gitbook/assets/immagine (101).png>)
 
-* after you obtained a **new port **you can open `config.yml` and set like this:
+* after you obtained a **new port** you can open `config.yml` and set like this:
 
 ```yaml
   self-host:

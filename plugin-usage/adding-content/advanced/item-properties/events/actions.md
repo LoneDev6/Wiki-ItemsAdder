@@ -41,7 +41,7 @@ Actions are what will happen when an event is triggered.
 
 {% hint style="info" %}
 Every action has a special attribute **delay**.\
-It's the **delay **in ticks before starting the action.\
+It's the **delay** in ticks before starting the action.\
 For example:
 
 ```yaml
@@ -87,7 +87,7 @@ items:
 ### Multiple actions of the same type
 
 {% hint style="info" %}
-You can set the same action multiple times. You just have to add `_anything `at the end.\
+You can set the same action multiple times. You just have to add `_anything` at the end.\
 For example if you want to play two sounds you have to write this:
 
 ```yaml
@@ -110,9 +110,9 @@ play_sound_3:
 
 {% hint style="info" %}
 Every action has a special attribute **permission**.\
-It's the **permission **the player must have before starting the **action**.\
-For example the player must have `myitems.usage.secret_items_dispenser `permission to play the sound.\
-In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give_item.
+It's the **permission** the player must have before starting the **action**.\
+For example the player must have `myitems.usage.secret_items_dispenser` permission to play the sound.\
+In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give\_item.
 
 ```yaml
   test_block:

@@ -25,7 +25,7 @@ And set it to `VANILLA_1_17`
 {% endhint %}
 
 {% hint style="warning" %}
-If you see **bugged **textures and you have **Optifine **installed please [read here](../../../../../faq/armors-textures-bugged.md).
+If you see **bugged** textures and you have **Optifine** installed please [read here](../../../../../faq/armors-textures-bugged.md).
 {% endhint %}
 
 ## Creating the armor renderer
@@ -53,13 +53,13 @@ This is a configuration which specified how the game will show the armor ingame.
 You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
 {% endhint %}
 
-`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`.** **This option will also make the item (in inventory) not colored automatically anymore.
+`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`. **** This option will also make the item (in inventory) not colored automatically anymore.
 
 `color` is the color attribute of this armor. It acts like an unique identifier for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
 
 Now I create the two PNG files inside the `data/resource_pack/assets/myitems/textures/armor/my_armor/` folder.
 
-![](<../../../../../.gitbook/assets/image (45).png>)
+![](<../../../../../.gitbook/assets/image (45) (1).png>)
 
 {% hint style="info" %}
 ### HD armor textures
@@ -97,13 +97,13 @@ For example let's create a chestplate (you will create the other pieces on your 
 
 The `custom_armor` property is important, it makes the plugin use the previous textures setting (`armors_renderer`) for this armor piece.
 
-In this case I didn't specify any `color` in the `specific_properties `field of the armor piece because it's already specified in the `custom_armor` property.
+In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's already specified in the `custom_armor` property.
 
 Now I create the item texture and I put it inside the `data\resource_pack\assets\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
 
 ![](<../../../../../.gitbook/assets/image (40).png>)
 
-![](<../../../../../.gitbook/assets/image (42).png>)
+![](<../../../../../.gitbook/assets/image (42) (1).png>)
 
 ### Animated textures
 
@@ -165,8 +165,8 @@ In this case I want to make the previous animation emissive, I want it to glow i
 
 You have to make 2 textures in order to make the textures glow.&#x20;
 
-* the **black **part will **glow**
-* the **transparent **part **won't glow**
+* the **black** part will **glow**
+* the **transparent** part **won't glow**
 
 In this example I want the whole texture to glow so I make it all **black**.
 

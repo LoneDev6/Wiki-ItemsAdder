@@ -8,4 +8,4 @@ I can't answer surely to this question because I can't know how every plugin in 
 * [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/), this plugin messes up ItemsAdder custom recipes logic and creates duplication bugs. So please don't use it
 * Plugins that customize crafting table behaviour and recipes
 * [LootChest ](https://www.spigotmc.org/resources/lootchest.61564/)can cause some [problems](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
-* For now it's **not compatible **with **plugins **and world generators that **spawn mushroom** blocks with different faces to create custom textures. In the future I will add compatibility.
+* For now it's **not compatible** with **plugins** and world generators that **spawn mushroom** blocks with different faces to create custom textures. In the future I will add compatibility.

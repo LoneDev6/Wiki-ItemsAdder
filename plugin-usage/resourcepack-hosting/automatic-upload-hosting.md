@@ -29,7 +29,7 @@ If your playerbase is all from the same country you can stick with `self-host`.
 
 You just have to:
 
-* enable `auto-external-host` in `config.yml` 
+* enable `auto-external-host` in `config.yml`&#x20;
 * disable all the other hosting methods.
 
 ```yaml
@@ -39,10 +39,10 @@ auto-external-host:
 
 ### Last step
 
-Run `/iazip` to **compress **the **resourcepack**.\
-****The **plugin **will **upload it **online **automatically **(you will have to **accept the privacy policy** only the first time).
+Run `/iazip` to **compress** the **resourcepack**.\
+****The **plugin** will **upload it** online **automatically** (you will have to **accept the privacy policy** only the first time).
 
-**You're done! **Nothing else to do, enjoy your **free automated resourcepack hosting**.
+**You're done!** Nothing else to do, enjoy your **free automated resourcepack hosting**.
 
 ## Will my resourcepack be available online to random people?
 

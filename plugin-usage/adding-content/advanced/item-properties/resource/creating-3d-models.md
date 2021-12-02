@@ -22,7 +22,7 @@ For example if you have this 3D model and the texture has this path: `plugins\It
    },
 ```
 
-you have to add the **namespace **in front of it (`my_items `in my example, you have to use your namespace).
+you have to add the **namespace** in front of it (`my_items` in my example, you have to use your namespace).
 
 ```javascript
  "textures":{

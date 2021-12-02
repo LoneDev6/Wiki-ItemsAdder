@@ -4,7 +4,7 @@ description: ItemsAdder is compatible with MMOItems and it's very easy to integr
 
 # MMOItems
 
-Download **MMOItems **[here](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
+Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
 
 ### Here you can download the example package shown in this tutorial
 
@@ -37,8 +37,8 @@ Download **MMOItems **[here](https://www.spigotmc.org/resources/mmoitems-premium
 ![](<../../../.gitbook/assets/immagine (32).png>)
 
 {% hint style="success" %}
-As you can see I set a new attribute called **`mmoitem `**and also **`type `**and **`id`**.\
-These are used to **connect **the **two items**.
+As you can see I set a new attribute called **`mmoitem`** and also **`type`** and **`id`**.\
+These are used to **connect** the **two items**.
 {% endhint %}
 
 ```yaml
@@ -66,7 +66,7 @@ items:
 
 ### Get the item
 
-Use the command`  /iaget mmoitems_example:test  `to get your finished item
+Use the command `/iaget mmoitems_example:test` to get your finished item
 
 ![](<../../../.gitbook/assets/immagine (33).png>)
 
