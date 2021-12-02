@@ -99,6 +99,7 @@
         * [Leaves and wood](plugin-usage/adding-content/advanced/trees-populators/laveas-and-wood.md)
         * [Populator](plugin-usage/adding-content/advanced/trees-populators/populator.md)
         * [Saplings](plugin-usage/adding-content/advanced/trees-populators/saplings.md)
+      * [🍄 Surface populators](plugin-usage/adding-content/advanced/surface-populators.md)
       * [🖼 Font Images](plugin-usage/adding-content/advanced/font-images/README.md)
         * [Common errors](plugin-usage/adding-content/advanced/font-images/common-errors.md)
         * [Placeholders](plugin-usage/adding-content/advanced/font-images/placeholders.md)
