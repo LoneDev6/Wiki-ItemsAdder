@@ -6,7 +6,7 @@
 
 This type of furniture entity is useful when you want to create chairs, plants, columns, lamps and similar environment decorations which don't need to rotate based on the surface on which you place them.
 
-![](<../../../../.gitbook/assets/image (47) (1).png>)
+![](<../../../../.gitbook/assets/image (47) (1) (1).png>)
 
 ```yaml
 behaviours:

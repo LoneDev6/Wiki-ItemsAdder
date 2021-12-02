@@ -101,7 +101,7 @@ In this case I didn't specify any `color` in the `specific_properties` field of 
 
 Now I create the item texture and I put it inside the `data\resource_pack\assets\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
 
-![](<../../../../../.gitbook/assets/image (40).png>)
+![](<../../../../../.gitbook/assets/image (40) (1).png>)
 
 ![](<../../../../../.gitbook/assets/image (42) (1).png>)
 
