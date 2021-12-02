@@ -18,7 +18,15 @@ Then run `/iazip` command.
 
 ## I see \[] instead of my emojis/ranks
 
-Make sure to run /iazip and reupload the resourcepack if needed.
+{% hint style="warning" %}
+Make sure to run `/iazip` and reupload the resourcepack if needed.
 
 Read more here: [resourcepack hosting](../../plugin-usage/resourcepack-hosting/)
+{% endhint %}
+
+{% hint style="warning" %}
+Make sure `y_position` property is not greater than the image height in pixels.
+
+Minecraft doesn't support this, it won't work.
+{% endhint %}
 
