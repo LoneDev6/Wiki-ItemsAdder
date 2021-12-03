@@ -60,6 +60,7 @@
     * [📤 Automatic external hosting](plugin-usage/resourcepack-hosting/automatic-upload-hosting.md)
     * [📦 DropBox](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
     * [🗂 Google Drive (1.17.1+)](plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)
+    * [1⃣ OneDrive](plugin-usage/resourcepack-hosting/onedrive.md)
   * [🎨 Adding content](plugin-usage/adding-content/README.md)
     * [🍭 Beginners](plugin-usage/adding-content/beginners/README.md)
       * [Basic concepts](plugin-usage/adding-content/beginners/basic-concepts/README.md)
