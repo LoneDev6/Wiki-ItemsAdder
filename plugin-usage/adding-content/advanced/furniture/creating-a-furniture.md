@@ -145,7 +145,7 @@ Edit how the model is shown on player hand:
 
 You have to select the **head icon** and then **small armorstand:**
 
-![](<../../../../.gitbook/assets/image (41).png>)
+![](<../../../../.gitbook/assets/image (41) (1).png>)
 
 Then you have to shift your model down until it matches the armorstand base:
 

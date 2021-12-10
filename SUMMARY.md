@@ -223,7 +223,9 @@
     * [Graves](compatibility-with-other-plugins/compatible/graves.md)
     * [FancyWaystones](compatibility-with-other-plugins/compatible/fancywaystones.md)
     * [ShopGUI+](compatibility-with-other-plugins/compatible/shopgui+.md)
-* [✨ Optimize Minecraft 1.17](optimize-minecraft-1.17.md)
+* [⚡ Optimize Minecraft client](optimize-minecraft-client/README.md)
+  * [1.18](optimize-minecraft-client/1.18.md)
+  * [1.17.1](optimize-minecraft-client/optimize-minecraft-1.17.md)
 
 ## 💻 Developers
 

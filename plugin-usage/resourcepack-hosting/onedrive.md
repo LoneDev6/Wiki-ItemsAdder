@@ -14,7 +14,7 @@ Not recommended.
 
 ### Step 3
 
-![](<../../.gitbook/assets/image (53).png>)
+![](<../../.gitbook/assets/image (53) (1).png>)
 
 ### Step 4
 

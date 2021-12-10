@@ -1,14 +1,4 @@
-# ✨ Optimize Minecraft 1.17
-
-## Minecraft 1.17 is slow
-
-**Minecraft 1.17** is known to be very heavy, the community had fixed most of its problems.
-
-{% hint style="success" %}
-ItemsAdder doesn't require Fabric or other mods to run!
-
-This is an optional tutorial for who wants to optimize their game, because 1.17 is slow.
-{% endhint %}
+# 1.17.1
 
 ## How to optimize it
 
@@ -17,17 +7,17 @@ This is an optional tutorial for who wants to optimize their game, because 1.17 
 First you have to download **Fabric** and install it: [https://fabricmc.net/use/](https://fabricmc.net/use/)\
 Click on the "**Download installer**" button:
 
-![](<.gitbook/assets/immagine (115).png>)
+![](<../.gitbook/assets/immagine (115).png>)
 
 ### 2. Edit the profile folder (optional step)
 
 Click on "**installations**", then press on "**edit**" under the "**Fabric**" installation.
 
-![](<.gitbook/assets/immagine (119).png>)
+![](<../.gitbook/assets/immagine (119).png>)
 
 Change the folder to a new one, for example I created a new profile folder called `Fabric` inside `.minecraft`.
 
-![](<.gitbook/assets/immagine (120).png>)
+![](<../.gitbook/assets/immagine (120).png>)
 
 ### 3. Install the optimization mod
 
@@ -37,7 +27,7 @@ Open the zip and extract the folders `mods` and `config` inside your `.minecraft
 
 ### 4. Run Fabric
 
-![](<.gitbook/assets/immagine (117).png>)
+![](<../.gitbook/assets/immagine (117).png>)
 
 ### Done!
 
