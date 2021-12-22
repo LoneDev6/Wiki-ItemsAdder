@@ -207,7 +207,7 @@
     * [HyperStones](compatibility-with-other-plugins/compatible/hyperstones.md)
     * [Mythicmobs](compatibility-with-other-plugins/compatible/mythicmobs.md)
     * [EcoEnchants](compatibility-with-other-plugins/compatible/ecoenchants.md)
-    * [GoldenEnchants](compatibility-with-other-plugins/compatible/goldenenchants.md)
+    * [ExcellentEnchants](compatibility-with-other-plugins/compatible/excellentenchants.md)
     * [BetonQuest](compatibility-with-other-plugins/compatible/betonquest.md)
     * [ChatControl-Red](compatibility-with-other-plugins/compatible/chatcontrol-red.md)
     * [BanItem](compatibility-with-other-plugins/compatible/banitem.md)
