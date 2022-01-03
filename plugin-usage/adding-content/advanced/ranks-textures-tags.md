@@ -5,7 +5,7 @@
 ![](<../../../.gitbook/assets/image (27) (4).png>)
 
 {% hint style="warning" %}
-### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.spigotmc.org/resources/tab-1-7-x-1-16-5.57806/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
+### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.mc-market.org/resources/14009/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
 
 ### If you're using another prefix plugin you may need to use [this method](../../using-font\_images-emojis-everywhere.md) to show ranks
 {% endhint %}
