@@ -39,6 +39,7 @@
   * [Can I create slabs, stairs, tridents, armors...](faq/can-i-create-slabs-stairs/README.md)
     * [Create transparent textured furnitures](faq/can-i-create-slabs-stairs/transparent-textures.md)
   * [Recipes book problems](faq/recipes-book-problems.md)
+  * [Mohist problems](faq/mohist-problems.md)
   * [⛔️Errors](faq/errors/README.md)
     * [NoSuchMethodError](faq/errors/nosuchmethoderror.md)
     * [Protocol error](faq/errors/protocol-error.md)
@@ -46,6 +47,7 @@
     * [Cannot retrieve entity from ID](faq/errors/cannot-retrieve-entity-from-id.md)
     * [An error occurred when enabling the resourcepack](faq/errors/an-error-occurred-when-enabling-the-resourcepack.md)
   * [Armors textures bugged](faq/armors-textures-bugged.md)
+  * [Leather armor texture overwritten](faq/leather-armor-texture-overwritten.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [🇬🇧 🇬🇧 Languages](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)
@@ -208,6 +210,7 @@
     * [Mythicmobs](compatibility-with-other-plugins/compatible/mythicmobs.md)
     * [EcoEnchants](compatibility-with-other-plugins/compatible/ecoenchants.md)
     * [ExcellentEnchants](compatibility-with-other-plugins/compatible/excellentenchants.md)
+    * [AdvancedEnchantments](compatibility-with-other-plugins/compatible/advancedenchantments.md)
     * [BetonQuest](compatibility-with-other-plugins/compatible/betonquest.md)
     * [ChatControl-Red](compatibility-with-other-plugins/compatible/chatcontrol-red.md)
     * [BanItem](compatibility-with-other-plugins/compatible/banitem.md)
@@ -225,7 +228,7 @@
     * [ShopGUI+](compatibility-with-other-plugins/compatible/shopgui+.md)
     * [TAB](compatibility-with-other-plugins/compatible/tab.md)
 * [⚡ Optimize Minecraft client](optimize-minecraft-client/README.md)
-  * [1.18.1](optimize-minecraft-client/1.18.1.md)
+  * [1.18.1](https://blog.devs.beer/blog/optimize-minecraft)
   * [1.17.1](optimize-minecraft-client/optimize-minecraft-1.17.md)
 
 ## 💻 Developers
