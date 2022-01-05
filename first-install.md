@@ -41,6 +41,10 @@ First step is done. Now you must complete step 2 to configure the resourcepack (
 If you don't care about my default stuff and you only want to make your own items, blocks and other things it's easy!
 {% endhint %}
 
+{% content-ref url="faq/removing-default-stuff.md" %}
+[removing-default-stuff.md](faq/removing-default-stuff.md)
+{% endcontent-ref %}
+
 ### Avoid glitched blocks (if you have Purpur installed)
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
