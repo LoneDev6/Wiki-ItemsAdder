@@ -7,10 +7,7 @@
 This is an example configuration for an ItemsAdder custom item enchant.
 
 {% hint style="warning" %}
-Warning: this feature doesn't work on **AdvancedEnchantments** 8.7.29 because of a bug.\
-I already contacted the developers about this problem.
-
-This also requires **ItemsAdder** 2.5.2+
+This requires **ItemsAdder** 2.5.2+
 {% endhint %}
 
 ```yaml
