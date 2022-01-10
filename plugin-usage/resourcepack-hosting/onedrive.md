@@ -1,4 +1,4 @@
-# 1⃣ OneDrive
+# 1⃣ 1⃣ OneDrive
 
 {% hint style="warning" %}
 Not recommended.
@@ -6,7 +6,7 @@ Not recommended.
 
 ### Step 1
 
-![](<../../.gitbook/assets/image (52).png>)
+![](<../../.gitbook/assets/image (52) (1).png>)
 
 ### Step 2
 
