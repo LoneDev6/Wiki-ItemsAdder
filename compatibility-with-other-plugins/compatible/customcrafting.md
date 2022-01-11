@@ -1,9 +1,12 @@
 # CustomCrafting
 
-Semi-compatible with [CustomCrafting ](https://www.spigotmc.org/resources/customcrafting-advanced-custom-recipe-plugin-1-14-1-16-x-free.55883/updates)(some stuff may break, use with caution).\
-(**ItemsAdder** 2.2.10+ and **CustomCrafting** 1.6.5.1.3)
+## [Download here](https://www.spigotmc.org/resources/55883/)
 
-{% hint style="info" %}
-* I know anvil, grindstone and similar recipes may have compatibility bugs please don't report me the bugs, thanks. I can't fix them.
+{% hint style="warning" %}
+You need **ItemsAdder** 2.5.3+ and **CustomCrafting** v2.16.6+
 {% endhint %}
 
+## How to use
+
+You just have to create recipes using the CustomCrafting recipes creation GUI.\
+Drag and drop ItemsAdder custom items in the ingredients/result slots, the plugin will recognize them as custom items and handle them correctly.
