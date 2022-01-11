@@ -3,7 +3,7 @@
 ## [Download here](https://www.spigotmc.org/resources/55883/)
 
 {% hint style="warning" %}
-You need **ItemsAdder** 2.5.3+ and **CustomCrafting** v2.16.6+
+You need **ItemsAdder** 2.5.3+ and **CustomCrafting** 3.16.0.0-f or more recent.
 {% endhint %}
 
 ## How to use
