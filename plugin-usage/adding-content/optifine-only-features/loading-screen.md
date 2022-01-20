@@ -35,6 +35,14 @@ You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://gi
 * Edit my file: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
 * Save the file in the same location
 
+{% hint style="warning" %}
+**IMPORTANT**\
+The position of the parts needs to be precise.\
+The left side of the texture needs to touch the top-right corner of the canvas while the right side needs to touch the center-left side of the canvas.
+
+This is **always** the case, no matter the size of the actual texture!
+{% endhint %}
+
 ### How to change the background color (1.16 only)
 
 Create a new file (or edit the already provided one): `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\color.properties`
