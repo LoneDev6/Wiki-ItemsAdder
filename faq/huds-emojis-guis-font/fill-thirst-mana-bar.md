@@ -1,4 +1,4 @@
-# 💧Thirst/mana bar
+# 💧 Thirst/mana bar
 
 ## Fill them
 

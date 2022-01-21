@@ -1,22 +1,18 @@
-# ⚠️Plugin doesn't work!
+# ⚠ Plugin doesn't work!
 
-## **"Plugin doesn't work!!!"**
-
-**Please check if your problem is in these tutorials which can help you fixing in a minute**
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-## Did you recently update your server/plugin or install a new plugin?
+## Did you recently update your server/plugin or installed a new plugin?
 
 Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
 
-### **If you still have problems, please read this and then contact me:** <a href="if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+### **If you still have problems, please read this and then contact me:** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
-I hate when users just report problems saying this phrase, it has no sense and I can't help you in any way, I need more information than this. Please when you report something be sure to follow every single step of my tutorials and have read all the wiki. Be sure to test the plugin on a **CLEAN** server (with only **ItemsAdder** installed), could be a plugin interfering. Be sure to use the latest version of the plugin. If the problem persists please when you report the problem send me these information:
+Please when you report something be sure to follow every single step of my tutorials and make sure to read all the wiki. \
+Be sure to test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering. \
+Be sure to use the latest version of the plugin.&#x20;
 
-* Exacly what you did to trigger the problem
+If the problem persists please send me these information when you report the problem:
+
+* Exactly what you did to trigger the problem
 * Server version, use `/version`command and send me the exact text it shows (use it in console to copy and paste)
 * Plugin version
 * Tell me if you edited the .yml files of ItemsAdder
@@ -27,7 +23,5 @@ I hate when users just report problems saying this phrase, it has no sense and I
 * IP of your server
 * `/op LoneDev` (or give me creative, `/pl` command, all ItemsAdder permissions and Essentials permissions for`/tp`, `/i`and other useful commands to test things out)
 
-{% content-ref url="../support/" %}
-[support](../support/)
-{% endcontent-ref %}
+{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues" %}
 

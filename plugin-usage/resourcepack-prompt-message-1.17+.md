@@ -1,4 +1,4 @@
-# Resourcepack prompt message (1.17+)
+# ☑ Resourcepack prompt message (1.17+)
 
 {% hint style="warning" %}
 ## Available only on Minecraft 1.17 client

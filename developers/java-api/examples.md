@@ -2,7 +2,7 @@
 
 ## Custom items
 
-### Getting a custom item of any type \(block, item, hat, food..\) by id or namespace:id
+### Getting a custom item of any type (block, item, hat, food..) by id or namespace:id
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -26,7 +26,7 @@ else
 boolean exists = CustomStack.getInstance("your_item") != null;
 ```
 
-or you can also use the **old method**
+or you can also use the old method which is not allocating anything.
 
 ```java
 ItemsAdder.isCustomItem("your_item");
@@ -55,7 +55,6 @@ CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
 if(customBlock != null)
 {
     //custom block
-    
 }
 else
 {
@@ -136,4 +135,3 @@ void interact(PlayerInteractEvent e)
     }
 }
 ```
-

@@ -31,7 +31,7 @@ public static boolean matchCustomItemName(ItemStack itemStack, String customItem
 
 This is the old API, it's still available and working fine.
 
-```yaml
+```java
 //Get an ItemsAdder custom item by its name in config
 public static ItemStack getCustomItem(String nameInConfig)
 

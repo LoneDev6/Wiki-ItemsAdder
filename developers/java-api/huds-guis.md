@@ -26,8 +26,8 @@ else
 
 ## FAQ
 
-{% content-ref url="../../plugin-usage/adding-content/advanced/font-images/common-errors.md" %}
-[common-errors.md](../../plugin-usage/adding-content/advanced/font-images/common-errors.md)
+{% content-ref url="../../plugin-usage/advanced/font-images/common-errors.md" %}
+[common-errors.md](../../plugin-usage/advanced/font-images/common-errors.md)
 {% endcontent-ref %}
 
 ## Get Emoji or GUI character

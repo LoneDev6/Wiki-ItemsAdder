@@ -2,9 +2,9 @@
 description: Square character
 ---
 
-# \[] characters
+# ☐ characters
 
-## I see \[] character after uninstalling Custom ESC addon
+## I see ☐ character after uninstalling Custom ESC addon
 
 {% hint style="info" %}
 This is useful to uninstall [Custom ESC addon](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
@@ -16,7 +16,7 @@ Then run `/iazip` command.
 
 ![](<../../.gitbook/assets/immagine (150).png>)
 
-## I see \[] instead of my emojis/ranks
+## I see ☐ instead of my emojis/ranks
 
 {% hint style="warning" %}
 Make sure to run `/iazip` and reupload the resourcepack if needed.

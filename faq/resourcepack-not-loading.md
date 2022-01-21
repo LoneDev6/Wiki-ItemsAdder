@@ -1,6 +1,6 @@
-# 📷Resourcepack not loading
+# 📷 Resourcepack not loading
 
-#### Resourcepack not loading, I get an error in chat <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+### _Resourcepack not loading, I get an error in chat_ <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
 * If you have **SkinsRestorer** please [read here](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
 * Check if you have another plugin that uses **custom resourcepacks**, if you have please **disable** its **resourcepack** feature or ItemsAdder won't be able to apply the pack correctly (you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done. The pack folder of ItemsAdder is `resouce_pack`)
@@ -9,8 +9,9 @@
 * Be sure that your`url`is a **direct** download link to the zip file. If you paste the link on your browser (Firefox/Chrome) you must instantly see the download start, if you see a download page with buttons it's wrong. Resourcepack [hosting tutorials](../plugin-usage/resourcepack-hosting/).
 * Be sure to follow all [tutorial ](../plugin-usage/resourcepack-hosting/)steps
 * Be sure the port is opened if you use self-host.
+* Run `/iainfo` command and make sure the resourcepack **URL** is reachable from your browser and it directly downloads the resourcepack `.zip` file.
 
-#### _My players can't see textures! But I've followed the whole tutorial_ <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+### _My players can't see textures! But I've followed the whole tutorial_ <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
 There are three ways to fix this issue:
 
@@ -19,5 +20,5 @@ There are three ways to fix this issue:
 * If you still have problems leave the server, go to **%appdata%/.minecraft/server-resource-packs** and **delete everything**. Then join the server again.
 
 {% hint style="danger" %}
-Make sure you're not using **UPPERCASE** or **special characters** in items **names**, **namespaces**, **texture** files (png) and **model** files (json)
+Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (png) and **model** files (json)
 {% endhint %}

@@ -1,4 +1,4 @@
-# Removing default stuff
+# 🗑 Removing default stuff
 
 ## How can I remove all the items and default stuff?
 
@@ -37,7 +37,7 @@ Open plugin `config.yml` file and set this to **false**.
 `plugins\ItemsAdder\data\items_packs\itemsadder`\
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
-####  Example items
+#### &#x20;Example items
 
 `plugins\ItemsAdder\data\items_packs\example`\
 `plugins\ItemsAdder\data\resource_pack\assets\example`

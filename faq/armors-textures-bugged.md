@@ -6,6 +6,8 @@ description: Armors textures look broken (1.17)
 
 {% hint style="warning" %}
 If you see broken textures make sure you're not using any **custom shader.**
+
+**This will be fixed in the future.**
 {% endhint %}
 
 {% tabs %}

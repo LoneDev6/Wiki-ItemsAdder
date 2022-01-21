@@ -1,7 +1,5 @@
 # Blocks drop Mushrooms, Chorus, Noteblocks
 
-If you have this problem please read here **before asking for support**:
-
 ### First reason
 
 If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2)installed [read this](https://github.com/LoneDev6/ItemsAdder/issues/123)
