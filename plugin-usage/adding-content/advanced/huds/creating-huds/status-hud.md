@@ -71,4 +71,4 @@ As you can see I had created 3 textures, one for the **half** state, one for the
 
 ## Final result
 
-![](<../../../../../.gitbook/assets/image (52) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (52) (1) (1) (1).png>)
