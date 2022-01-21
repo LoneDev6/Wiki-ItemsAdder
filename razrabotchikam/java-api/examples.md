@@ -46,9 +46,9 @@ else
 }
 ```
 
-## Custom Blocks
+## Пользовательский блок
 
-#### Check if world block is a custom blocks
+#### Проверка, является ли мировой блок пользовательским блоком
 
 ```java
 CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
@@ -63,7 +63,7 @@ else
 }
 ```
 
-#### Place custom block
+#### Поставить пользовательский блок
 
 ```java
 CustomBlock customBlock = CustomBlock.getInstance("ruby_ore");
@@ -78,7 +78,7 @@ else
 }
 ```
 
-## Custom mobs
+## Пользовательский моб
 
 ### Призыв сущности при помощи ID или названия папки и ID \(namespace:id\)
 

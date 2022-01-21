@@ -1,0 +1,119 @@
+attribute-armor: '&9+{value} Броня'
+attribute-toughness: '&9+{value} Броня сопротивление'
+attribute-attack-damage: ' &2{value} Урон'
+attribute-attack-speed: ' &2{value} Скорость атаки'
+attribute-when-in-main-hand: '&7Когда в ведущей руке:'
+attribute-when-in-off-hand: "&7Когда в Нерабочем состоянии:"
+attribute-when-on-body: '&7Когда надето:'
+attribute-when-on-feet: '&7Когда обуто:'
+attribute-when-on-head: '&7Когда надето на голову:'
+attribute-when-on-legs: '&7Когда надето на ноги:'
+cannot-break-with-this-tool: '&cВы не можете сломать это с помощью этого инструмента'
+cannot-repair: '&cЭтот предмет не подлежит ремонту'
+repaired-successfully: '&aТовар успешно отремонтирован!'
+cannot-set-durability: '&cНевозможно установить долговечность!'
+set-durability-successfully: '&aДолговечность установлена успешно!'
+crafting-no-recipe: '&eНет рецепта для этого предмета'
+given-item: '&aВыдан предмет &e{item} &aигроку &e{player}'
+removed-item: '&aПредмет &e{item} &aудален &aу &e{player}'
+lost-item: '&aВы потеряли предмет &e{item}'
+item-not-found: '&cПредмета &3{item} &cне существует'
+items-count: '&bКоличество предметов: &a{count}'
+lore-usages: '&7Использований: {value}'
+lore-durability: '&7Прочность: {value} / {max}'
+model-id: '&bID модели: {value}'
+name-config: '&bИмя в конфиге: '
+no-craft-permission: '&eУ вас нет разрешения на создание этого предмета!'
+no-permission: '&cУ вас нет разрешения на использование этой команды!'
+no-permission-detail: '&cУ вас нет разрешения &e{permission}'
+no-permission-short: '&cОтсутствует разрешение'
+now-playing: '&fСейчас играет: {value}'
+obtained-item: '&aПолученный предмет &e{item}'
+dropped-item-coords: '&aВыпал &e{item} &aпо координатам {coords}'
+dropped-item-player: '&aВыпал &e{item} &aу игрока {player}'
+player-full-inventory: '&cИнвентарь игрока полон!'
+player-offline: '&eЭтот игрок не в сети'
+prefix: '[ItemsAdder] '
+resourcepack-error: '&4Ошибка при включении пакета ресурсов. Свяжитесь с админами    пожалуйста!'
+resourcepack-kick-declined: '&4Вы должны принять пакет ресурсов! Также убедитесь, то вы    установите для них значение «Запрашивать» или «Включено» в свойствах сервера.'
+resourcepack-apply-title: "&a&lПрименение пакета ресурсов..."
+resourcepack-apply-subtitle: "&6Пожалуйста, наберитесь терпения, это займет всего несколько секунд!"
+resourcepack-popup-message: "&6Добро пожаловать &b{player}, &6пожалуйста, примите пакет ресурсов, чтобы насладиться всеми удивительными функциями нашего сервера.\n
+&aВам нужно только загрузить его только один раз."
+wrong-command-usage: '&cНеправильное использование команды'
+emoji-gui-title: '&3&lСписок Смайликов'
+map-death-location: 'Место смерти'
+fuel-indicator: '&b&lТопливо: {value}/{max}'
+get-from-trade-machine: '&fПолучите из торговых автоматов'
+ia-button-worlds-populators: '&fИнформация о респаунах руды'
+worlds: '&bМиры:'
+info: '&bИнформация:'
+chance: '&f   Шанс: &7{value}%'
+amount: '&f   Количество: &7{value}'
+min-height: '&f   Мин.Высота: &7{value}'
+max-height: '&f   Макс.высота: &7{value}'
+biome: '&f   Биом: &7{value}'
+drops-itself: '&e   Добыча Itself'
+fuel-item: '    &b{type} &7+{amount}'
+iarecipe-wrong-usage: '&cНеправильное использование команды. Правильное использование: &e/iarecipe <item name>&c, &aили держите предмет в руке'
+iarecipe-no-custom-item: '&cЭто не заказной товар! Пожалуйста, держите пользовательский предмет в руке и или используйте эту команду: &e/iarecipe <item name>'
+anvil-repair-info: '&fМатериал для ремонта наковальни'
+ia-title-menu-categories: '&3&lКатегории'
+ia-title-recipe-view: '&3&lВид для крафта'
+ia-button-search: '&fПоиск...'
+ia-button-back: '&fНазад'
+ia-button-next-page: '&fСледующая страница->'
+ia-button-previous-page: '&f<-Предыдущая страница'
+ia-button-next-recipe: '&fСледующий рецепт'
+ia-button-previous-recipe: '&fПредыдущий рецепт'
+ia-search-results: '&fРезультаты поиска'
+ia-smeling: '&fПлавка'
+ia-smelting: '&fРедактировать элемент'
+ia-button-get-item: '&fПолучить предмет'
+ia-vanilla-type: '&fТип ванили'
+ia-model-id: '&fID Модели'
+ia-title-crafting-view: '&fГлавное меню'
+player-stat-value-read: '&eЗначение: &b{value}'
+player-stat-value-write: '&eЗначение изменено!'
+ia-button-loot-blocks: '&fВыпадет из блока'
+ia-button-loot-mobs: '&fВыпает из моба'
+ia-button-loot-fishing: '&fВыпает из рыболовли'
+ia-button-vehicle-fuel-items: '&eТопливные товары'
+ia-button-seed-result: '&fИз семян'
+nbt-rule: '&f   {rule}: &7{value}'
+resourcepack-not-ready: '&6Ресурспак не готов. Он будет применен автоматически через
+  несколько секунд...'
+mob-summon: "&aПорожденная моба &6{mob} &aв координатах &7{coords}"
+mob-kill: "&aУбит &6{mob} &7x{amount} &aв загруженных чанках"
+mob-kill-all: "&aУбиты &7x{amount} &aпользовательские мобы в загруженных чанках"
+mob-not-found: "&cНе могу найти моба &6{mob}"
+liquid-analyzer-low-level: "&eЭтот уровень жидкости слишком низкий. Пожалуйста, проверьте основной исходный блок"
+liquid-analyzer-no-liquid: "&cЭто не жидкость"
+liquid-bucket-place-near-error: "&cРядом с этим есть специальная жидкость, пожалуйста, не ставьте их слишком близко."
+command-ingame-only: "&cВы не можете выполнить это с консоли! Используйте эту команду в игре"
+rightclick-a-block: "&6Теперь щелкните правой кнопкой мыши поверхность, на которой вы хотите создать дерево"
+spawned-tree: "&aДерево успешно размножилось!"
+spawned-tree-error: "&cЗдесь не может вырасти дерево!"
+tree-not-found: "&cДерево &3{item} &cне существует"
+played-totem-animation: "&aСыгранный тотем &e{totem} &aanimation к &e{player}"
+played-sound: "&aВоспроизводимый звук &e{sound} &7(if exists) &aк &e{player}"
+please-wait-events-cooldown: "&cПожалуйста подождите &6{interval} &cчтобы использовать этот предмет."
+player-stat-value-insufficient: "&cНедостаточный {stat}! &7Тебе нужно {rule}"
+max-furnitures-vehicles-reached: "&cМаксимальное количество мебели/транспортных средств, достигнутое в этом блоке ({value}). Рассмотрите возможность удаления некоторых мобов/стендов с броней/мебели/транспортных средств из этого фрагмента."
+tripwires-disabled: "&cНа этом сервере отключены растяжки."
+font-image-chat-hover: "&fЭмодзи: {font_image}
+\nИспользование: &7{placeholder}
+\n\n&eПОДСКАЗКА:
+\n&7Вы можете использовать &e/e &7команда для отправки общедоступной
+\nсообщения/команды с помощью смайликов проще.
+\nНапишите имя смайлика и нажмите &eTAB.
+\n
+\nExamples:
+\n&e/e Привет, улыбка
+\n&печатает &fПривет :smile:
+\n
+\n&e/e /скажи Нотчу Привет, улыбнись
+\n&7отправляет команду &f/передай Нотчу Привет :smile:"
+ia-button-surface-decorators: "&fИнформация о порождении"
+ia-button-trees-populators: "&fИнформация о порождении"
+please-wait-command-cooldown: "&cПожалуйста подождите &6{interval} &cчтобы использовать эту команду."
