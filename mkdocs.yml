@@ -1,0 +1,71 @@
+site_name: ItemsAdder Wiki
+copyright: Copyright &copy; <a href="https://devs.beer/" target="_blank">LoneDev</a>
+
+site_url: https://andre601.ch/Wiki-ItemsAdder # TODO: Update URL once PR ready.
+
+theme:
+  favicon: assets/images/branding/logo_512x512.png
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - content.code.annotate
+  name: material
+  logo: assets/images/branding/logo_512x512_no_gradient_transparent.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: purple
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: purple
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+
+repo_name: LoneDev6/Wiki-ItemsAdder
+repo_url: https://github.com/LoneDev6/Wiki-ItemsAdder
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/LoneDev6/Wiki-ItemsAdder
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/sMAE3Na
+
+extra_css:
+- 'assets/stylesheets/styling.css'
+
+plugins:
+  - search
+  - awesome-pages
+  - ezlinks
+#
+#  Currently broken. See https://github.com/theskumar/autolink-references-mkdocs-plugin/issues/3
+#  - autolink_references:
+#      autolinks:
+#        - reference_prefix: MC-
+#          target_url: https://bugs.mojang.com/browse/MC-<num>
+
+markdown_extensions:
+  - admonition
+  - meta
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.keys
+  - footnotes
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

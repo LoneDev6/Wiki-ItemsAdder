@@ -1,0 +1,11 @@
+Usage terms:
+
+- you cannot use these images in your own products and state that you made them
+- you don't own these images, they are property of LoneDev (the developer of ItemsAdder)
+- do not reupload this zip file online, instead link the original download page
+- do not edit these images to create your own product logo, you can use these images only to cite ItemsAdder
+
+
+
+Thanks:
+- Thanks to Andre_601 who made the ia_addon_banner file

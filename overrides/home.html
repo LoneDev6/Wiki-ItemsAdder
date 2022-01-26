@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block tabs %}
+  {{ super() }}
+  <style>
+    .md-tabs {
+      display: none
+    }
+    
+    .md-header {
+      position:initial
+    }
+    
+    .md-main__inner {
+      margin:0
+    }
+    
+    .md-content {
+      display:none
+    }
+    
+    @media screen and (min-width:60em) {
+      .md-sidebar--secondary {
+        display:none
+      }
+    }
+    
+    @media screen and (min-width:76.25em) {
+      .md-sidebar--primary {
+        display:none
+      }
+    }
+  </style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <header class="mdx-hero">
+        <img src="assets/images/branding/logo_512x512_round.png" alt="" width="200" height="200" draggable="false">
+        <p class="mdx-description">
+          Bypass Minecraft Limitations
+        </p>
+          <a href="{{ base_url }}/getting-started/first-install" title="Getting started" class="md-button md-button--primary">Getting started</a>
+          <a href="https://discord.com/invite/z3rxuWt6FZ" title="Discord Server" class="md-button" target="_blank">Discord Server</a>
+        <p>
+      </header>
+      <div class="mdx-description">
+        {{ page.content }}
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
