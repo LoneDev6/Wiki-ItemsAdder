@@ -8,7 +8,7 @@
 * ask on the <mark style="color:blue;">`#💬ia-community-help`</mark> channel of the server before opening a support ticket
 {% endhint %}
 
-{% embed url="https://support.plugin.ga/" %}
+{% embed url="https://discord.com/invite/z3rxuWt6FZ" %}
 
 ## Report a bug
 
