@@ -59,7 +59,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
 
 Now I create the two PNG files inside the `data/resource_pack/assets/myitems/textures/armor/my_armor/` folder.
 
-![](<../../../.gitbook/assets/image (45) (1) (1).png>)
+![](<../../../.gitbook/assets/image (45) (1) (1) (1).png>)
 
 {% hint style="info" %}
 ### HD armor textures
@@ -101,9 +101,9 @@ In this case I didn't specify any `color` in the `specific_properties` field of 
 
 Now I create the item texture and I put it inside the `data\resource_pack\assets\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
 
-![](<../../../.gitbook/assets/image (40) (1).png>)
+![](<../../../.gitbook/assets/image (40) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (42) (1).png>)
+![](<../../../.gitbook/assets/image (42) (1) (1).png>)
 
 ### Animated textures
 

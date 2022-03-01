@@ -4,15 +4,15 @@
 
 ### yml configuration
 
-You have to create a .yml file in your [namespace ](../../basic-concepts/namespace/)folder (check [other tutorials ](../../basic-concepts/namespace/creating-your-namespace.md)for more info).
+You have to create a .yml file in your [namespace ](../../../basic-concepts/namespace/)folder (check [other tutorials ](../../../basic-concepts/namespace/creating-your-namespace.md)for more info).
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../files-editor.md) to edit ItemsAdder files. \
+Consider using the[ official online tool](../../../../../files-editor.md) to edit ItemsAdder files. \
 It makes you life easier as it has autocomplete (press CRTL+SPACE) which helps you on avoiding mistakes.
 {% endhint %}
 
 This is an example for a custom mob named **Soul**.\
-As you can see I set it up like a normal item, but with a special [behaviour ](../../item-properties/behaviours.md)named **mob**.
+As you can see I set it up like a normal item, but with a special [behaviour ](../../../item-properties/behaviours.md)named **mob**.
 
 ```yaml
 info:

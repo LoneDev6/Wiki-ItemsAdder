@@ -10,7 +10,7 @@ description: Glitched blocks in some areas/custom worlds
 This is only a graphical glitch, this state won't cause duplication bugs or similar.
 {% endhint %}
 
-![](<../../../.gitbook/assets/image (50).png>)
+![](<../../../.gitbook/assets/image (50) (1).png>)
 
 ## Fix on Spigot/Paper
 

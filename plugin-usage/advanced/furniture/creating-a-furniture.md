@@ -127,11 +127,11 @@ items:
 
 Now open [BlockBench](../item-properties/resource/creating-3d-models.md) and create a _"Java Block/Item"_.
 
-![](<../../../.gitbook/assets/image (49) (1).png>)
+![](<../../../.gitbook/assets/image (49) (1) (1).png>)
 
 Now create you model, in this example I'm modelling an ugly minimal modern lamp.
 
-![](<../../../.gitbook/assets/image (47) (1).png>)
+![](<../../../.gitbook/assets/image (47) (1) (1).png>)
 
 {% hint style="warning" %}
 Important: make sure the north is opposite of where you want the model to face.
@@ -141,19 +141,19 @@ Or add the property to the YML configuration `opposite_direction: true`
 
 Edit how the model is shown on player hand:
 
-![](<../../../.gitbook/assets/image (46).png>)
+![](<../../../.gitbook/assets/image (46) (1).png>)
 
-![](<../../../.gitbook/assets/image (48).png>)
+![](<../../../.gitbook/assets/image (48) (1).png>)
 
 ### Configure how the model is shown ingame
 
 You have to select the **head icon** and then **small armorstand:**
 
-![](<../../../.gitbook/assets/image (41) (1) (1).png>)
+![](<../../../.gitbook/assets/image (41) (1) (1) (1).png>)
 
 Then you have to shift your model down until it matches the armorstand base:
 
-![](<../../../.gitbook/assets/image (42).png>)
+![](<../../../.gitbook/assets/image (42) (1).png>)
 
 Now let's save the model file into the correct folder, in this case I set this property in the yml configuration file: `model_path: lamp`, so you have to save the .json file inside this path: `ItemsAdder\data\resource_pack\assets\myitems\models\lamp.json`.
 
@@ -161,7 +161,7 @@ Now let's save the model file into the correct folder, in this case I set this p
 
 Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/) if needed), then obtain the item and place it: `/iaget myitems:lamp`.
 
-![](<../../../.gitbook/assets/image (50) (1) (1).png>)
+![](<../../../.gitbook/assets/image (50) (1) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (44).png>)
+![](<../../../.gitbook/assets/image (44) (1).png>)
 
