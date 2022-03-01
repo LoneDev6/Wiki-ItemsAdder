@@ -9,6 +9,13 @@ You can import your custom models very easily, you just have to install the Bloc
 [Download Blockbench](https://www.blockbench.net) (don't use the web app).\
 [Download the zip](http://a.devs.beer/ia-blockbench-ext), extract it, then open **Blockbench** and click on File -> Plugins.
 
+{% hint style="warning" %}
+### Before continuing:
+
+* Make sure you're running **Blockbench 4.1.5** or **greater**
+* Make sure you're running the latest version of al dependencies
+{% endhint %}
+
 ![](<../../../../.gitbook/assets/image (48).png>)
 
 Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
