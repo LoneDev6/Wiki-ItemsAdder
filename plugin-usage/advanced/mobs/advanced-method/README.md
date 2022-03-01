@@ -15,6 +15,10 @@ The plugin is very optimized but it can cause lag if you are crazy enough to spa
 
 ![](../../../../.gitbook/assets/ezgif.com-gif-maker.webp)
 
+{% embed url="https://youtu.be/cQpIqExVpR0" %}
+Advanced animation features
+{% endembed %}
+
 ### Main features
 
 * [Blockbench](https://www.blockbench.net) extension to convert models
