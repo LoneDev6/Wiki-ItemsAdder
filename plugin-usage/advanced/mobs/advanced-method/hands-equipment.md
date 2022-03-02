@@ -22,7 +22,7 @@ Rightclick on the bone and select "**Bone Config**", in this case `left_hand_slo
 
 Check the "**Left hand pivot**" option and press "**Confirm**".
 
-![](<../../../../.gitbook/assets/image (61).png>)
+![](<../../../../.gitbook/assets/image (61) (1).png>)
 
 The hand pivot bone has a new icon now, as you can see.
 

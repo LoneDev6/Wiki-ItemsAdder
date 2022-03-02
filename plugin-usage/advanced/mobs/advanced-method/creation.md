@@ -6,15 +6,23 @@ You can import your custom models very easily, you just have to install the Bloc
 
 ## Installing the Blockbench extension
 
-[Download Blockbench](https://www.blockbench.net) (don't use the web app).\
-[Download the zip](http://a.devs.beer/ia-blockbench-ext), extract it, then open **Blockbench** and click on File -> Plugins.
-
 {% hint style="warning" %}
 ### Before continuing:
 
 * Make sure you're running **Blockbench 4.1.5** or **greater**
 * Make sure you're running the latest version of al dependencies
 {% endhint %}
+
+[Download Blockbench](https://www.blockbench.net) (don't use the web app).
+
+![](<../../../../.gitbook/assets/image (98).png>)
+
+\
+[Download the zip](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
+
+![](<../../../../.gitbook/assets/image (61).png>)
+
+Extract it somewhere, then open **Blockbench** and click on File -> Plugins.
 
 ![](<../../../../.gitbook/assets/image (48).png>)
 
