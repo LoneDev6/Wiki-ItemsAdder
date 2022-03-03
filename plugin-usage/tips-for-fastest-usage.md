@@ -1,18 +1,18 @@
-# 🏁 Tips for fastest usage
+# 🏁 Consejos para un uso más rápido
 
-## It takes too much time editing the pack and uploading it online!
+## Lleva demasiado tiempo editar el paquete y subirlo a Internet.
 
-Yes if you do that the wrong way ;) Read this:
+Sí, si lo haces de forma incorrecta ;) Lee esto:
 
 {% hint style="info" %}
-It's a good practice to create a **test server on your PC** with:
+Es una buena práctica crear un **servidor de prueba en tu PC** con:
 
 * [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-emojis-ores-blocks-wings-tails-hats-more.73355/)
 * [LoneLib](https://www.spigotmc.org/resources/lonelibs.75974/)
 * [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 * [LightAPI Fork](https://www.spigotmc.org/resources/lightapi-fork.48247/)
 
-ItemsAdder with this resourcepack config:
+ItemsAdder con esta configuración de resourcepack:
 
 ```yaml
 resource-pack:
@@ -30,12 +30,12 @@ resource-pack:
       url: ''
 ```
 
-Doing this you'll have a fast and easy to use configuration environment. You can add items and edit the pack on the fly.
+Haciendo esto tendrás un entorno de configuración rápido y fácil de usar. Podrás añadir elementos y editar el paquete sobre la marcha.
 
-When you edit an item texture/model and you edit its configuration you will use command  `/iazip` .\
-By doing this you'll see changes applied at real-time.
+Cuando se edita una textura/modelo de un elemento y se edita su configuración se utiliza el comando  `/iazip` .\
+Al hacer esto, verás los cambios aplicados en tiempo real.
 
-So after you finished adding items and configuring them you'll be able to upload everything on your online server to mirror the changes.
+Así que después de terminar de añadir items y configurarlos podrás subir todo a tu servidor online para reflejar los cambios.
 {% endhint %}
 
 {% content-ref url="resourcepack-hosting/resourcepack-on-dropbox.md" %}
@@ -43,11 +43,11 @@ So after you finished adding items and configuring them you'll be able to upload
 {% endcontent-ref %}
 
 {% hint style="warning" %}
-It's a good practice to not edit ItemsAdder textures/models directly on your online server.\
-Players hate lag on plugins reload, server restarts, having to re-download the pack when they're already player.. keep that in mind.
+Es una buena práctica no editar las texturas/modelos de ItemsAdder directamente en su servidor online.\
+Los jugadores odian el retraso en la recarga de los plugins, los reinicios del servidor, tener que volver a descargar el paquete cuando ya son jugadores... tenlo en cuenta.
 {% endhint %}
 
 {% hint style="danger" %}
-It's a good thing not to edit my custom items as surely in the future they can be edited and you'll go crazy maintaining both your customization and my updates.\
-So if you want to edit items just make your own
+Es bueno no editar mis items personalizados ya que seguramente en el futuro se podrán editar y te volverás loco manteniendo tanto tu personalización como mis actualizaciones.\
+Así que si quieres editar item sólo tienes que hacer tu propio
 {% endhint %}
