@@ -1,8 +1,8 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+Descripción: Este sitio web le ayuda a configurar y crear items personalizados para mi plugin
 ---
 
-# 👋 Welcome
+# 👋 Bienvenido
 
 * [Patreon](http://patreon.com/lonedev)
 * [Ko-fi](http://a.devs.beer/kofi)
