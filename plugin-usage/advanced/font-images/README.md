@@ -29,7 +29,7 @@ Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 
 ## Use specific a character
 
-ItemsAdder will decide the custom character for you if you don't specify a specific symbol.\
+ItemsAdder will decide the custom character for you if you don't include the `symbol` property at all.\
 You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.\
 For example:
 
