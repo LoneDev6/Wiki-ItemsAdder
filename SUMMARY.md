@@ -232,6 +232,7 @@
     * [ShopGUI+](compatibility-with-other-plugins/compatible/shopgui+.md)
     * [TAB](compatibility-with-other-plugins/compatible/tab.md)
     * [Mimic](compatibility-with-other-plugins/compatible/mimic.md)
+    * [DailyShop](compatibility-with-other-plugins/compatible/dailyshop.md)
 
 ## 💻 Developers
 
