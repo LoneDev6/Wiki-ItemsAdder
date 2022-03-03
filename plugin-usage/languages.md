@@ -46,5 +46,5 @@ Los archivos de los **mensajes de los plugins** están en **esta carpeta**: `plu
 Los archivos de **items por defecto** y **idiomas de los menús** están dentro de **esta carpeta**: `plugins\ItemsAdder\data\items_packs\dictionaries`
 
 {% hint style="warning" %}
-Algunos addons pueden poner sus archivos de diccionario dentro de otras carpetas dentro de items\packs, tienes que buscarlos.
+Algunos addons pueden poner sus archivos de diccionario dentro de otras carpetas dentro de items_packs, tienes que buscarlos.
 {% endhint %}
