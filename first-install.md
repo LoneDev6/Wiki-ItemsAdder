@@ -46,7 +46,7 @@ Si no te interesan mis cosas por defecto y sólo quieres hacer tus propios objet
 [removing-default-stuff.md](faq/removing-default-stuff.md)
 {% endcontent-ref %}
 
-### Evita los bloques glitcheados (si tienes instalado Purpur)
+### Evita los bloques defectuosos (si tienes instalado Purpur)
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
 [avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
