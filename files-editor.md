@@ -1,6 +1,6 @@
-# 📄 Files editor
+# 📄 Editor de archivos
 
-## Try out my new files editor for ItemsAdder
+## Prueba mi nuevo editor de archivos para ItemsAdder
 
 {% embed url="https://ide.devs.beer/itemsadder/" %}
 
