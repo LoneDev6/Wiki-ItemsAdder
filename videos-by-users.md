@@ -1,6 +1,6 @@
 # 📹 Vídeos de los usuarios
 
-## Novatos
+## Muestra
 
 {% embed url="https://www.youtube.com/watch?v=YXD2KGHDY-U" %}
 
