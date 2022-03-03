@@ -1,6 +1,6 @@
-# 💽 Addons/resources
+# 💽 Addons/recursos
 
-## Get the addons here:
+## Consigue los addons aquí:
 
 {% embed url="https://addons.devs.beer/itemsadder/" %}
 
