@@ -170,7 +170,7 @@
   * [Efectos de texto (1.17+)](plugin-usage/text-effects-1.17+.md)
   * [Scoreboard](plugin-usage/scoreboard/README.md)
     * [Ocultar el fondo del scoreboard](plugin-usage/scoreboard/hide-scoreboard-background.md)
-    * [Ocultar los números del mscoreboard (1.17+)](plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
+    * [Ocultar los números del scoreboard (1.17+)](plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
 * [📄 Editor de archivos](files-editor.md)
 * [💽 Addons/recursos](addons-resources.md)
 * [📹 Vídeos por usuarios](videos-by-users.md)
