@@ -18,7 +18,7 @@ Puedes subir los archivos a tu servidor real después de haber terminado aquí.
 * instalar [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * instalar [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
 * (opcional) instalar **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17](http://a.devs.beer/lightapi-new))
-* (opcional) instalat [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
+* (opcional) instalar [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) si piensas crear mobs personalizadas en el futuro.
 * ponga el archivo **ItemsAdder.jar** dentro de su carpeta de plugins
 * inicia el servidor
 * deja que ItemsAdder termine de cargar **todo**
