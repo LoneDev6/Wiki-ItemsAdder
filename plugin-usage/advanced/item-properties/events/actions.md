@@ -22,6 +22,7 @@ Actions are what will happen when an [event](./) is triggered.
 * `replace_properties`
 * `give_item`
 * `replace_near_blocks`
+* `replace_block`
 * `glow_near_blocks`
 * `multiple_break`
 * `potion_effect`
