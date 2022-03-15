@@ -28,7 +28,7 @@ Extract it somewhere, then open **Blockbench** and click on File -> Plugins.
 
 Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
 
-![](<../../../../.gitbook/assets/image (74).png>)
+![](<../../../../.gitbook/assets/image (74) (1).png>)
 
 Press OK
 

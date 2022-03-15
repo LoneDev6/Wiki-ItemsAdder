@@ -205,7 +205,7 @@ The type attribute of **nbt** and **metadata** are really **important**, don't *
 {% endhint %}
 
 {% hint style="info" %}
-### Drop based on spawner entity (and any other NBT attribute you want to match)
+### Drop based on Tile entity NBT data (for example Spawner)
 {% endhint %}
 
 ```yaml
@@ -216,7 +216,7 @@ loots:
       type: SPAWNER
       nbt:
         spawner_type:
-          path: SpawnData.id
+          path: SpawnData.entity.id
           value: minecraft:zombie
           type: string
       items:
@@ -227,3 +227,12 @@ loots:
           chance: 100
           ignore_fortune: false
 ```
+
+{% hint style="warning" %}
+You have to enable this setting if you want to be able to get items from spawners by using an enchanted item with silktouch.
+
+```yaml
+loots:  
+    allow-loots-drop-from-spawners-using-silk-touch: true
+```
+{% endhint %}

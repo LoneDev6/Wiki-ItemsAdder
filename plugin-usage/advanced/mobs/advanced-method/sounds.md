@@ -12,7 +12,7 @@ Select one of your animations.
 
 Select the magic wand icon "**Animate Effects**"
 
-![](<../../../../.gitbook/assets/image (44).png>)
+![](<../../../../.gitbook/assets/image (44) (1).png>)
 
 Click on the **+** icon near "**Sound**" effect type to create a new particle keyframe.
 

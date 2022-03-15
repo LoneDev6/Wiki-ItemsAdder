@@ -1,5 +1,5 @@
 ---
-description: How to use custom entities as Citizens NPC skin
+description: Custom models for Citizens NPCs
 ---
 
 # Citizens

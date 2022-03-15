@@ -14,7 +14,7 @@ Select the base bone of the entity hands.
 
 Create a new group which will be a child of the hand bone.
 
-![](<../../../../.gitbook/assets/image (70).png>)
+![](<../../../../.gitbook/assets/image (70) (1).png>)
 
 Rightclick on the bone and select "**Bone Config**", in this case `left_hand_slot`
 

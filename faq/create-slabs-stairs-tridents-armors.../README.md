@@ -18,7 +18,7 @@ You can't create custom model for thrown tridents as it's a Minecraft bug I can'
 ### Armors
 
 {% hint style="warning" %}
-Minecraft 1.16 (and lower) doesn't allow you to add custom textures / custom 3D models to armors in any way (you can but [only with Optifine](../../plugin-usage/advanced/armors/optifine-1.16-and-lower.md)).\
+Minecraft 1.16 (and lower) doesn't allow you to add custom textures / custom 3D models to armors in any way (you can but only with Optifine).\
 You can make them colored but you cannot change the texture.
 
 ### Custom textured armors 1.17
@@ -27,7 +27,7 @@ To create custom textured armors in 1.17 you can follow the [tutorial here](../.
 
 ### Custom textured armors 1.16 (and lower)
 
-To create custom textured armors in 1.16 and older versions follow the [tutorial here](../../plugin-usage/advanced/armors/optifine-1.16-and-lower.md) (Optifine).
+ItemsAdder can automatically add custom armors to 1.16 version and lower, but only if the user has Optifine installed. Read [more here](../../plugin-usage/advanced/armors/texture.md).
 {% endhint %}
 
 ### Elytra

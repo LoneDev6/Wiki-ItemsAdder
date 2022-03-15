@@ -1,4 +1,4 @@
-# Ranks textures (tags)
+# 🔖 Ranks textures (tags)
 
 ## Make your server look professional with custom ranks
 
@@ -14,12 +14,12 @@
 
 ### Download the example ranks
 
-* Update to **ItemsAdder 2.1.30** or next
+* Update to **ItemsAdder 2.1.30** or a most recent version
 * Download the [example ranks here ](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
 
 ### Create a new rank configuration
 
-Open`plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` file and **copy** and **paste** one of them.\
+Open `plugins\ItemsAdder\data\items_packs\betterranks\ranks.yml` file and **copy** and **paste** one of them.\
 Then rename it to your rank, also decide a new **.png** file name, for example `custom`
 
 ```yaml
@@ -69,11 +69,34 @@ Use this command `/lp creategroup admin`
 
 #### Add the prefix
 
-Use this command `/lp group admin meta addprefix 100 :admin:`
+Use this command to get the editor: `/lp editor`\
+Now click on the link and open the web editor.
+
+Select the role, in this case `admin`.
+
+![](<../../.gitbook/assets/image (77).png>)
+
+Write `prefix.100.` followed by the prefix placeholder in the bottom input box, in this example I will use `:admin:`
+
+&#x20;`prefix.100.:admin:` (make sure you write it correctly).
+
+![](<../../.gitbook/assets/image (67).png>)
+
+Press <mark style="color:green;">**`+Add`**</mark>
+
+![](<../../.gitbook/assets/image (74).png>)
+
+As you can see you have a new line in the permissions list, this is the prefix setting.
+
+![](<../../.gitbook/assets/image (70).png>)
+
+Now save your changes
+
+![](<../../.gitbook/assets/image (44).png>)
 
 #### Assign the group to a player
 
-Use this command (change LoneDev to your player name) `/lp user LoneDev group add admin`
+Use this command (change `LoneDev` to your player name) `/lp user LoneDev group add admin`
 
 ![](<../../.gitbook/assets/immagine (40).png>)
 

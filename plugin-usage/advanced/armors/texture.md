@@ -2,30 +2,16 @@
 description: Custom on-body armor texture
 ---
 
-# Texture (1.17)
+# Texture
 
 {% hint style="danger" %}
-This feature requires ItemsAdder 2.4.22+ and Minecraft 1.17.
-
-It can't work on Minecraft 1.16 and previous versions.
-
-Check the [Optifine tutorial](texture.md#optifine-1.16-and-lower) if you have lower Minecraft version.
+The `vanilla_1_17` feature requires ItemsAdder 2.4.22+ and Minecraft 1.17.\
+It can't work on Minecraft 1.16 and previous versions.\
+To make 1.16 clients see the custom armors you can enable also the `optifine` attribute, this will allow old clients to see the armors anyway.
 {% endhint %}
 
 {% hint style="warning" %}
-You must enable this setting in `config.yml` file of ItemsAdder.&#x20;
-
-And set it to `VANILLA_1_17`
-
-```yaml
-    generate-custom-armors-textures:
-      enabled: true
-      mode: VANILLA_1_17
-```
-{% endhint %}
-
-{% hint style="warning" %}
-If you see **bugged** textures and you have **Optifine** installed please [read here](../../../faq/armors-textures-bugged.md).
+If you see **bugged** textures and you have **Optifine** installed please [read here](../../../faq/armors-bugs/textures-broken-by-shaders-mod.md).
 {% endhint %}
 
 ## Creating the armor renderer
@@ -161,43 +147,8 @@ armors_rendering:
     use_color: false
 ```
 
-In this case I want to make the previous animation emissive, I want it to glow in the dark.
+In this case I want to make the previous animation emissive, I want it to glow in the dark.\
+You have to make 2 textures in order to make the textures glow. \
+The **transparent** part **won't glow** while the colored part will glow.
 
-You have to make 2 textures in order to make the textures glow.&#x20;
-
-* the **black** part will **glow**
-* the **transparent** part **won't glow**
-
-In this example I want the whole texture to glow so I make it all **black**.
-
-![emissive\_1](../../../.gitbook/assets/emissive\_1.png)
-
-![emissive\_2](../../../.gitbook/assets/emissive\_2.png)
-
-
-
-## Optifine (1.16 and lower)
-
-{% hint style="info" %}
-This method is compatible with any Minecraft version (player must have Optifine installed).
-{% endhint %}
-
-{% hint style="warning" %}
-You must enable this setting in `config.yml` file of ItemsAdder.&#x20;
-
-And set it to `OPTIFINE`
-
-```yaml
-    generate-custom-armors-textures:
-      enabled: true
-      mode: OPTIFINE
-```
-{% endhint %}
-
-Follow the same tutorial [up here](texture.md#creating-the-armor-renderer), the only difference is that (for now) emissive textures are not supported.
-
-This Optifine tutorial will be updated in the future, if you want you can follow the manual way of creating Optifine armors:
-
-{% content-ref url="../optifine-only-features/armor-textures.md" %}
-[armor-textures.md](../optifine-only-features/armor-textures.md)
-{% endcontent-ref %}
+You basically just have to copy and paste your texture and erase the parts you don't want to glow.

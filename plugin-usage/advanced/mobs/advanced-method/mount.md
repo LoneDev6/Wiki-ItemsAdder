@@ -10,11 +10,11 @@ Open your `.iaentitymodel` model file with **Blockbench**.
 
 Create a new bone.
 
-![](<../../../../.gitbook/assets/image (75).png>)
+![](<../../../../.gitbook/assets/image (75) (1).png>)
 
 Rightclick on the bone and select "**Bone Config**"
 
-![](<../../../../.gitbook/assets/image (77).png>)
+![](<../../../../.gitbook/assets/image (77) (1).png>)
 
 Check the "**Mount**" option and press "**Confirm**".
 

@@ -15,7 +15,7 @@ Rightclick on the bone and select "**Bone Config**"
 
 Check the "**Locator**" option and press "**Confirm**".
 
-![](<../../../../.gitbook/assets/image (67).png>)
+![](<../../../../.gitbook/assets/image (67) (1).png>)
 
 Switch to "**Animate**" view.
 
@@ -27,7 +27,7 @@ Select one of your animations.
 
 Select the magic wand icon "**Animate Effects**"
 
-![](<../../../../.gitbook/assets/image (44).png>)
+![](<../../../../.gitbook/assets/image (44) (1).png>)
 
 Click on the **+** icon near "**Particle**" effect type to create a new particle keyframe.
 

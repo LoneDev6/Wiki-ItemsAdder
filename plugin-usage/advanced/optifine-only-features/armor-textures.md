@@ -10,8 +10,8 @@ If you want to add a custom texture and not just a custom color to armors you ca
 
 ### Click here if you want the new automatic creation:
 
-{% content-ref url="../armors/optifine-1.16-and-lower.md" %}
-[optifine-1.16-and-lower.md](../armors/optifine-1.16-and-lower.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Custom textured armor (manual way)

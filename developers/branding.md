@@ -9,7 +9,7 @@ Make sure to read the [Usage terms](branding.md#usage-terms) before doing anythi
 
 ### Preview of the zip content
 
-![logos](<../.gitbook/assets/image (44) (1) (1).png>)
+![logos](<../.gitbook/assets/image (44) (1) (1) (1).png>)
 
 ![palette](../.gitbook/assets/color\_palette.jpg)
 
