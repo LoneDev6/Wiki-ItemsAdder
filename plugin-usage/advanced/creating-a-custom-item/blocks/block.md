@@ -38,7 +38,7 @@ Now the fun part, let's set the textures!\
 To do that you have to put the `.png` textures file inside the correct folder.\
 In this case your **namespace** is `myitems` so you have to put them here:
 
-![](<../../../../.gitbook/assets/image (52) (1).png>)
+![](<../../../../.gitbook/assets/image (52) (1) (1).png>)
 
 ### Applying the textures files to your item
 

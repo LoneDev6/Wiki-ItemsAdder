@@ -44,7 +44,7 @@ Open your `.bbmodel` project with Blockbench, then click on File -> Convert Proj
 
 ![](<../../../../.gitbook/assets/image (54).png>)
 
-![](<../../../../.gitbook/assets/image (94).png>)
+![](<../../../../.gitbook/assets/image (94) (1).png>)
 
 Select "**ItemsAdder Entity Model**" in the **Format** setting, then press **Confirm**.\
 Now save the new converted model file in a new folder where you will put only this file.
@@ -63,7 +63,7 @@ Click on the **ItemsAdder** tab and press **Settings**.
 Here you have to decide a namespace for your custom entities.\
 The default one is `custom`, but you should decide your own, for example `my_entities`, `hell_mobs`, `npcs`...
 
-![](<../../../../.gitbook/assets/image (99).png>)
+![](<../../../../.gitbook/assets/image (99) (1).png>)
 
 The other thing you might need to change is the "**Model Scaling Mode**":
 

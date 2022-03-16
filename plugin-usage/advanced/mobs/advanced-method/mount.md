@@ -18,7 +18,7 @@ Rightclick on the bone and select "**Bone Config**"
 
 Check the "**Mount**" option and press "**Confirm**".
 
-![](<../../../../.gitbook/assets/image (73).png>)
+![](<../../../../.gitbook/assets/image (73) (1).png>)
 
 Do this for each sit you want to create.
 

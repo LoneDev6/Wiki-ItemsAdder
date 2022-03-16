@@ -15,7 +15,7 @@ Resize your hitbox.
 
 ![](<../../../../.gitbook/assets/image (90).png>)
 
-![](<../../../../.gitbook/assets/image (52).png>)
+![](<../../../../.gitbook/assets/image (52) (1).png>)
 
 {% hint style="warning" %}
 * XYZ position doesn't matter.

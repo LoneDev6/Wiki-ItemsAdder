@@ -27,7 +27,7 @@ Select the base bone of the head.
 
 Rightclick on the bone and select "**Bone Config**"
 
-![](<../../../../.gitbook/assets/image (63).png>)
+![](<../../../../.gitbook/assets/image (63) (1).png>)
 
 Check the "**Head**" option and press "**Confirm**".\
 You can also decide max angles for X and Y rotation.

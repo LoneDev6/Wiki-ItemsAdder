@@ -234,6 +234,8 @@
     * [TAB](compatibility-with-other-plugins/compatible/tab.md)
     * [Mimic](compatibility-with-other-plugins/compatible/mimic.md)
     * [DailyShop](compatibility-with-other-plugins/compatible/dailyshop.md)
+* [Contribute](contribute/README.md)
+  * [Translate this wiki](contribute/translate-this-wiki.md)
 
 ## 💻 Developers
 
