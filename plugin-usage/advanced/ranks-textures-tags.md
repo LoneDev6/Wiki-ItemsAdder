@@ -80,7 +80,7 @@ Write `prefix.100.` followed by the prefix placeholder in the bottom input box, 
 
 &#x20;`prefix.100.:admin:` (make sure you write it correctly).
 
-![](<../../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image (67) (1).png>)
 
 Press <mark style="color:green;">**`+Add`**</mark>
 

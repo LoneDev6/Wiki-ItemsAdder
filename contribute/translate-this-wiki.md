@@ -16,7 +16,7 @@ Then, after the branch creation, open the [**Github** repository](https://github
 Click here to change the branch.
 
 {% hint style="warning" %}
-DO NOT EDIT THE `main` BRANCH!
+DO NOT EDIT THE `master` BRANCH!
 {% endhint %}
 
 ![](<../.gitbook/assets/image (94).png>)

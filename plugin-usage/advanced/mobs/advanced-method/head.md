@@ -50,7 +50,7 @@ Place the bone between the entity eyes.
 
 Rightclick on the bone and select "**Bone Config**", then select "Eyes height".
 
-![](<../../../../.gitbook/assets/image (88).png>)
+![](<../../../../.gitbook/assets/image (88) (1).png>)
 
 ### Done
 
