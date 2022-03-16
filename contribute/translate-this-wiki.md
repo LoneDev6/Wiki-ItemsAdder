@@ -32,6 +32,8 @@ Edit the file and then press <mark style="color:green;">**Commit changes**</mark
 {% hint style="warning" %}
 ## Important notes
 
+* Do not add content or new pages, only translate texts.
+* The only content you can add is a "translated by" text in the welcome page.
 * Do not remove the `#` special characters, translate only the next text, these are titles.
 * Do not remove or edit special texts inside `{ }`, for example `{% hint style="info" %}`, these are used to create the hint message boxes.
 * Do not remove `*` character, these are used to create lists
