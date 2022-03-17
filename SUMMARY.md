@@ -190,6 +190,7 @@
     * [CraftEnhance](compatibility-with-other-plugins/compatible/craftenhance.md)
     * [BossShop](compatibility-with-other-plugins/compatible/bossshop.md)
     * [Spartan Anti Cheat](compatibility-with-other-plugins/compatible/spartan-anti-cheat.md)
+    * [HMCCosmetics](compatibility-with-other-plugins/compatible/hmccosmetics.md)
     * [RPG Chest Premium](compatibility-with-other-plugins/compatible/rpg-chest-premium.md)
     * [ClueScrolls](compatibility-with-other-plugins/compatible/cluescrolls.md)
     * [Recipe Control](compatibility-with-other-plugins/compatible/recipe-control.md)
