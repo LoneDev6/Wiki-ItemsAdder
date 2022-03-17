@@ -1,6 +1,5 @@
 # HMCCosmetics
 
-# HMCCosmetics
 ---
 # [Download Here](https://www.spigotmc.org/resources/hmccosmetics.100107/)
 ---
