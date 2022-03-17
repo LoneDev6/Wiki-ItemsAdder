@@ -5,7 +5,7 @@ description: New advanced method to create custom mobs/entities.
 # Advanced method
 
 {% hint style="warning" %}
-This method is in beta and it's available only on ItemsAdder v3.0
+This method is in beta and it's available only on ItemsAdder v3.0+
 {% endhint %}
 
 {% hint style="warning" %}
