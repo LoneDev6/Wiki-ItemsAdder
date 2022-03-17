@@ -55,7 +55,7 @@ How many groups needs to be spawned in the current chunk if the **chance** is ma
 
 ### tree\_type
 
-The type of the tree to be spawned. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/TreeType.html).  
+The type of the tree to be spawned. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/TreeType.html).\
 This property is optional, this tree will spawn on every biome if you don't set it.
 
 ### leaves
@@ -68,12 +68,11 @@ The block to be used as log for this tree.
 
 ### biomes
 
-The list of biomes where the tree can spawn. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html).  
+The list of biomes where the tree can spawn. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html).\
 This property is optional, this tree will spawn on every biome if you don't set it.
 
 ## Example
 
 {% embed url="https://www.spigotmc.org/resources/trees-newtrees-itemsadder-addon.84604/" %}
 
-![](../../../../.gitbook/assets/immagine%20%28126%29.png)
-
+![](<../../../.gitbook/assets/immagine (125).png>)

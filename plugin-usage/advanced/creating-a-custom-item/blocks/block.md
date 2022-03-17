@@ -139,7 +139,7 @@ Now you just need to tell the plugin to load your just added block.
 Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
 1\. Get it from this folder:
 
-![](<../../../../.gitbook/assets/immagine (96) (2) (3) (2) (1).png>)
+![](<../../../../.gitbook/assets/immagine (96) (2) (3) (2) (10).png>)
 
 2\. Upload it to your hosting (Dropbox)\
 3\. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.

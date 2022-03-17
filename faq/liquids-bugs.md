@@ -19,4 +19,4 @@ Custom liquids are not totally colored sometimes, some parts still have vanilla 
 ### **This is a Minecraft bug I cannot fix.**
 {% endhint %}
 
-![](<../.gitbook/assets/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (1).png>)
+![](<../.gitbook/assets/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (10).png>)
