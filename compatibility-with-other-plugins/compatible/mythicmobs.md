@@ -10,7 +10,7 @@ Update to **ItemsAdder 3.0.4** or greater and **MythicMobs 5.0.1** or greater
 
 ### Drops
 
-Example: drop a ruby by 30% chance and 1 to 5 amount.
+Example: drop a custom item by 30% chance and 1 to 5 amount.
 
 ```yaml
 ninja_skeleton:
@@ -19,7 +19,7 @@ ninja_skeleton:
   Health: 10
   Damage: 2
   Drops:
-    - itemsadder:ruby 1-5 30%
+    - my_items:special_sword 1-5 30%
   Options:
     MovementSpeed: 0
     Silent: true
@@ -38,12 +38,12 @@ SkeletalKnight:
   Health: 40
   Damage: 8
   Equipment:
-  - itemsadder:ruby_head HEAD
-  - IRON_CHESTPLATE CHEST
-  - IRON_LEGGINGS LEGS
-  - IRON_BOOTS FEET
-  - itemsadder:ruby_sword HAND
-  - SHIELD OFFHAND
+  - my_items:special_helmet HEAD
+  - my_items:special_chestplate CHEST
+  - my_items:special_leggings LEGS
+  - my_items:special_boots FEET
+  - my_items:special_sword HAND
+  - my_items:special_shield OFFHAND
 ```
 
 ## Custom mobs models
