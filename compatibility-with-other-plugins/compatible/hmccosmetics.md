@@ -1,9 +1,9 @@
 # HMCCosmetics
 
----
 # [Download Here](https://www.spigotmc.org/resources/hmccosmetics.100107/)
----
+
 ## How to Install
+
 - Add HMCCosmetics.jar to your server plugins folder
 - Drag the "data" folder in ItemsAdder-Config.zip into the ItemsAdder plugin folder.
 - Drag the "HMCCosmetics" folder into your plugins folder.
