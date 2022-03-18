@@ -1,52 +1,52 @@
 ---
-description: How to install the plugin
+description: איך להתקין את הפלאגין
 ---
 
-# ⚙ First install
+# ⚙ התקנה ראשונית
 
 {% hint style="info" %}
-**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is offline.\
-You can upload files to your real server after you finished here.
+**אתם צריכים לעקוב אחרי** ההתקנה הזאת  **בתוך שרת ניסיונות** שלכם על המחשב בשביל ***למנוע תקלות ובעיות** או יותר מידי הפעלות מחדש.. שחקנים לא אוהבים שהשרת סגור.\
+אחרי שתסיימו אם ההגדרה פה תכלו להעלות את הקבצים לשרת הראשי שלכם
 {% endhint %}
 
 {% hint style="danger" %}
-You **should** complete ALL installation steps. Not only the first.
+מאוד **מומלץ** לעשות את כל שלבי ההתקנה. לא רק את השלבים הראשונים.
 {% endhint %}
 
-## Step 1 - installing the plugin and APIs
+## שלב 1 - התקנת הפלאגינים והAPI
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17](http://a.devs.beer/lightapi-new))
-* (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
-* put **ItemsAdder.jar** file inside your plugins folder
-* start the server
-* let ItemsAdder finish loading **everything**
+* התקינו [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* התקינו [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
+* (אופציאונלי) התקינו **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17](http://a.devs.beer/lightapi-new))
+* (אופציאונלי) התקינו [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
+* העבירו את **ItemsAdder.jar** לתוך תיקיית ה-plugins של השרת שלכם
+* הפעילו את השרת
+* חכו עד שהפלאגין יטען את **הכול**
 
-First step is done. \
-Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
+השלב הראשון הושלם. \
+עכשיו חייב להשלים את  **שלב 2** הגדרת הטקסטורה (על תתאגו זה לא יהיה קשה).
 
-## Step 2 - resourcepack first installation
+## שלב 2 הגדרה ראשונית של הטקסטורה
 
-#### Decide the resourcepack hosting method:&#x20;
+#### החליטו על האופן שבואו אתם הולכים לאחסן את הטקסטורה:&#x20;
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
-[resourcepack-hosting](plugin-usage/resourcepack-hosting/)
+[אחסון הטקסטורה](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## Optional steps
+## שלבים אופציאונלים
 
-### Removing default items
+### הסרת פריטי ברירת מחדל
 
 {% hint style="info" %}
-If you don't care about my default stuff and you only want to make your own items, blocks and other things it's easy!
+אם לא איכפת לכם מהדברים שיש בפלאגין, ואתם רוצים לעשות דברים משלכם זה קל!
 {% endhint %}
 
 {% content-ref url="faq/removing-default-stuff.md" %}
 [removing-default-stuff.md](faq/removing-default-stuff.md)
 {% endcontent-ref %}
 
-### Avoid glitched blocks (if you have Purpur installed)
+### הימנעו מגליצ'ים (אם מותקן אצלכם Purpur)
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
 [avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
