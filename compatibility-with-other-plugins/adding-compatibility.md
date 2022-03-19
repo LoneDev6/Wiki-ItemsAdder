@@ -1,20 +1,20 @@
-# Adding compatibility
+# הוספת תמיכה
 
-Adding compatibility to ItemsAdder items is very easy!\
-**API** is **free** and available via maven package:
+הוספת תמיכה ל ItemsAdder זה קל!\
+ה**API** הוא **חינם** וזמין ב maven package:
 
 {% content-ref url="../developers/java-api/" %}
 [java-api](../developers/java-api/)
 {% endcontent-ref %}
 
-## How to get an item
+## איך לקבל את החפץ
 
 {% content-ref url="../developers/java-api/examples.md" %}
 [examples.md](../developers/java-api/examples.md)
 {% endcontent-ref %}
 
 {% hint style="warning" %}
-## Important
+## חשוב
 
-Please make sure to listen to the **ItemsAdderFirstLoadEvent** event. ItemsAdder loads its items and other stuff async, so you have to wait for this event before using the API.
+בבקשה וודאו שיש פעולה מקשיבה למאורע של **ItemsAdderFirstLoadEvent** . הפלאגין ItemsAdder טוען את הפריטים שלו ודברים אחרים בסינכרון, אז אתם צריכים לחכות לאירוע הזה לפני השימוש ב-API.
 {% endhint %}
