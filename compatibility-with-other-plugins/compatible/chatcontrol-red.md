@@ -1,21 +1,21 @@
 # ChatControl-Red
 
-[Download here](https://www.mc-market.org/resources/18217/)
+[הורידו כאן](https://www.mc-market.org/resources/18217/)
 
-ItemsAdder Emojis compatibility:\
-More info here: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610](https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610)
+ItemsAdder תיקון אימוג'ים:\
+עוד מידע אפשר לקרוא כאן: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610](https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610)
 
-## Adding custom channel prefix in chat
+## הוספת צ'אנל צ'אט חדש
 
-If you want to create a graphical prefix for your channels and show it in chat you have to follow this tutorial.
+אם אתם רוצים ליצור קידומת גרפית לצ'אנלים שלכם ולהציג אותם בצ'אט, עליכם לעקוב אחר הדרכה זו.
 
-![An example that shows the ARCADE prefix for the Arcade channel](<../../.gitbook/assets/immagine (94).png>)
+![דוגמה שמראה את הקידומת ARCADE לערוץ Arcade](<../../.gitbook/assets/immagine (94).png>)
 
-You just have to set this in your format configuration, (for example in the `format/arcade.yml` file of ChatControl Red):
+אתם רק צריכים להגדיר זאת בתצורת הפורמט שלך, (לדוגמה בקובץ `format/arcade.yml` של ChatControl Red):
 
 ```yaml
   prefix:
     Message: ':arcade:'
 ```
 
-Obviously you have to use your own [font\_image ](../../plugin-usage/advanced/font-images/)name instead of `arcade`, this is just an example.
+ברור שאתם חייבם להשתמש ב [font\_image ](../../plugin-usage/advanced/font-images/)שפ במקום `arcade`, זה רק דוגמא.
