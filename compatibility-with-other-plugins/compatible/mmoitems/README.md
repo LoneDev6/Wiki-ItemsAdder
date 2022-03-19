@@ -1,44 +1,44 @@
 ---
-description: ItemsAdder is compatible with MMOItems and it's very easy to integrate.
+description: ItemsAdder תואם ל MMOitems וזה ממש קל להגדיר את זה.
 ---
 
 # MMOItems
 
-Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
+הורידו **MMOItems** [כאן](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
 
-### Here you can download the example package shown in this tutorial
+### כאן אפשר למצוא את המדריך על ההתקנה
 
 {% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
 
-## Connect an MMOItem to an ItemsAdder item
+## חברו את החפץ של MMOItem לחפץ שלItemsAdder  
 
-### Use the command /mmoitems browse
+### עשו את הפקודה \mmoitems browse
 
 ![](<../../../.gitbook/assets/immagine (25).png>)
 
-### Create a new MMOItem
+### יצירת חפץ MMOitems 
 
 ![](<../../../.gitbook/assets/immagine (26).png>)
 
 ![](<../../../.gitbook/assets/immagine (29).png>)
 
-### Add all the attributes you want, for example magic damage etc
+### הוסיפו את כל התכונות שאתם רוצים, למשל נזקי קסם וכו'
 
 ![](<../../../.gitbook/assets/immagine (28).png>)
 
-### MMOItem preview inside /mmoitems browse
+### MMOItem תצוגה מקדימה /mmoitems browse
 
 ![](<../../../.gitbook/assets/immagine (30).png>)
 
 
 
-### Create your .yml file as usual and add all the properties for the ItemsAdder item
+### צורו את קובץ ה-yml שלך כרגיל והוסיפו את כל המאפיינים עבור הפריט ItemsAdder
 
 ![](<../../../.gitbook/assets/immagine (32).png>)
 
 {% hint style="success" %}
-As you can see I set a new attribute called **`mmoitem`** and also **`type`** and **`id`**.\
-These are used to **connect** the **two items**.
+כפי שאתה יכול לראות, הגדרתי תכונה חדשה בשם **`mmoitem`** וגם **`type`** ו-**`id`**.\
+אלה משמשים ל**חיבור** של **שני הפריטים**.
 {% endhint %}
 
 ```yaml
@@ -60,13 +60,13 @@ items:
       max_custom_durability: 1324
 ```
 
-### Create your .png texture as usual
+### צרו את טקסטורת ה .png כרגיל
 
 ![](<../../../.gitbook/assets/immagine (31).png>)
 
-### Get the item
+### קבלו את החפץ
 
-Use the command `/iaget mmoitems_example:test` to get your finished item
+השתמשו בפקודה `/iaget mmoitems_example:test` כדי לקבל את הפריט הסופי שלכם
 
 ![](<../../../.gitbook/assets/immagine (33).png>)
 
