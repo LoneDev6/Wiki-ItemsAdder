@@ -1,20 +1,20 @@
 # CMI
 
 {% hint style="info" %}
-## If you're using CMI chat feature you have to read this.
+## אם אתם עושים שימוש בצ'אט של CMI קראו את זה.
 {% endhint %}
 
-## Ranks
+## ראנקים
 
-1. Open config.yml of **CMI** and set this (I set `%vault_prefix%` placeholder instead of **CMI** `{prefix}`)
+1. פתחו את ה config.yml של **CMI** והגדירו את זה (I set `%vault_prefix%` placeholder במקום ה **CMI** `{prefix}`)
 
 ```yaml
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
 ```
 
-2\. Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)\
-3\. Install them and Restart\
-4\. execute this command  `/papi ecloud download Vault`\
-5\. execute this command `/papi reload`
+2\. הורדה [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) ו [Vault](https://github.com/MilkBowl/Vault/releases/latest)\
+3\. התקינו ואחרי זה תפעילו מחדש\
+4\. עשו את הפקודה  `/papi ecloud download Vault`\
+5\. ואז עשו את הפקודה `/papi reload`
 
-Done
+זהו
