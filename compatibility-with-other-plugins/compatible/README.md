@@ -1,2 +1,2 @@
-# Compatible
+# תואם
 
