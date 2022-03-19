@@ -1,6 +1,6 @@
-# 📄 Files editor
+# 📄 עורך הקבצים
 
-## Try out my new files editor for ItemsAdder
+## השתמשו בעורך הקבצים המיוחד בעבור ItemsAdder
 
 {% embed url="https://ide.devs.beer/itemsadder/" %}
 
