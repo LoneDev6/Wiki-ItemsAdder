@@ -1,10 +1,11 @@
-# 📷 Resourcepack not loading
+# 📷 הטקסטורה לא נטענת
 
-### _Resourcepack not loading, I get an error in chat_ <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+### _הודעה בצ'אט, הטקסטורה לא נטענת_ <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
-* If you have **SkinsRestorer** please [read here](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
-* Check if you have another plugin that uses **custom resourcepacks**, if you have please **disable** its **resourcepack** feature or ItemsAdder won't be able to apply the pack correctly (you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done. The pack folder of ItemsAdder is `resouce_pack`)
-* Make sure you don't have any resourcepack set in the `server.properties` file
+* אם יש לכם **SkinsRestorer** בבקשה [לקרוא כאן](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
+* בדקו אם יש לכם פלאגין אחר אשר משתמש ב**טקסטורות** בבקשה **בטלו** את ה**טקסטורה שלו** כיItemsAdder יכול לגרום לבעיות בטקסטורה (אפשר לעשות את הפלאגינים מתאימים אם יש לכם הבנה מינימאלית בטקסטורות וחיבור טקסטורות זה לא יהיה בעייה, שימו לב שאתם לא מוחקים קבצים חשובים של הפלאגים והכל אמור להיות בסדר. תיקיית העיצובים שלItemsAdder היא `resouce_pack`  )
+* ודאו שאין לכם קישור טקסטורה ש שהוגדר ב-קובץ `server.properties` .
+* **מיינקראפט** מגביל את **גודל** ל**50MB** במיינקראפט **1.14** בגרסא **1.15+**  **100MB** 
 * **Minecraft** limits servers resourcepacks **size** to **50MB** on Minecraft **1.14** and **100MB** on **1.15+**, be sure to **compress** your **textures** and your **music** files before creating the zip file.
 * Be sure that your`url`is a **direct** download link to the zip file. If you paste the link on your browser (Firefox/Chrome) you must instantly see the download start, if you see a download page with buttons it's wrong. Resourcepack [hosting tutorials](../plugin-usage/resourcepack-hosting/).
 * Be sure to follow all [tutorial ](../plugin-usage/resourcepack-hosting/)steps
