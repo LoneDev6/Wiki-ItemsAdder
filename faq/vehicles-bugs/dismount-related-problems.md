@@ -1,3 +1,3 @@
-# Dismount related problems
+# בעיות יציאה
 
-Seems to be related to this Spigot/Vanilla issue: [https://hub.spigotmc.org/jira/browse/SPIGOT-5894](https://hub.spigotmc.org/jira/browse/SPIGOT-5894)
+זה נראה שזה בעייה של Spigot/Vanilla ראו קישור: [https://hub.spigotmc.org/jira/browse/SPIGOT-5894](https://hub.spigotmc.org/jira/browse/SPIGOT-5894)
