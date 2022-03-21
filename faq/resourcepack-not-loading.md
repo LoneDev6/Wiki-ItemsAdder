@@ -5,21 +5,20 @@
 * אם יש לכם **SkinsRestorer** בבקשה [לקרוא כאן](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
 * בדקו אם יש לכם פלאגין אחר אשר משתמש ב**טקסטורות** בבקשה **בטלו** את ה**טקסטורה שלו** כיItemsAdder יכול לגרום לבעיות בטקסטורה (אפשר לעשות את הפלאגינים מתאימים אם יש לכם הבנה מינימאלית בטקסטורות וחיבור טקסטורות זה לא יהיה בעייה, שימו לב שאתם לא מוחקים קבצים חשובים של הפלאגים והכל אמור להיות בסדר. תיקיית העיצובים שלItemsAdder היא `resouce_pack`  )
 * ודאו שאין לכם קישור טקסטורה ש שהוגדר ב-קובץ `server.properties` .
-* **מיינקראפט** מגביל את **גודל** ל**50MB** במיינקראפט **1.14** בגרסא **1.15+**  **100MB** 
-* **Minecraft** limits servers resourcepacks **size** to **50MB** on Minecraft **1.14** and **100MB** on **1.15+**, be sure to **compress** your **textures** and your **music** files before creating the zip file.
-* Be sure that your`url`is a **direct** download link to the zip file. If you paste the link on your browser (Firefox/Chrome) you must instantly see the download start, if you see a download page with buttons it's wrong. Resourcepack [hosting tutorials](../plugin-usage/resourcepack-hosting/).
-* Be sure to follow all [tutorial ](../plugin-usage/resourcepack-hosting/)steps
-* Be sure the port is opened if you use self-host.
-* Run `/iainfo` command and make sure the resourcepack **URL** is reachable from your browser and it directly downloads the resourcepack `.zip` file.
+* **מיינקראפט** מגביל את **גודל** ל**50MB** בגרסא **1.14** ו **100MB** בגרסא **1.15+**, אנא **דחסו** את ה**טקסטורות** וה**מוזיקה** לפני שאתם יוצרים קובץ zip.
+* וודאו שה`קישור` הוא **ישיר** לקובץ הzip. אם אתם מדביקים את הקישור בדפדפן (Firefox/Chrome) אתם חייבים לראות שההורדה מתחילה, אם אתם רואים דף הוקדה אם כפתורים סימן שמשהו לא טוב. [מדריכי איחסטון טקסטורה](../plugin-usage/resourcepack-hosting/).  
+* עקבו אחרי כל השלבים [במדריך](../plugin-usage/resourcepack-hosting/).
+* וודאו שיש פורט פתוח אם אתם מאסנים את הטקסטורה.
+* הריצו את הפקודה `\iainfo` בשביל לוודא ש**קישור** הטקסטורה, עובד מהדפדפן והוא מוריד את קובץ ה`.zip` ישירות.
 
-### _My players can't see textures! But I've followed the whole tutorial_ <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+### _השחקנים שלי לא יכולים לראות את הטקסטורה! עקבתי אחרי כל המדריך_ <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
-There are three ways to fix this issue:
+יש שלוש דרכים לתקן את הבעייה:
 
-* If your players can't see the new items just link them this simple screens to fix it! [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)​
-* If you still have problems **delete** the **server** from your **servers list**, add it again and then **enable resource packs**.
-* If you still have problems leave the server, go to **%appdata%/.minecraft/server-resource-packs** and **delete everything**. Then join the server again.
+* אם השחקנים שלך לא יכולים לראות את הפריטים החדשים פשוט קשרו אותם למסכים הפשוטים האלה כדי לתקן את זה! [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)​
+* אם עדיין יש לכם בעיות **מחקו** את **שרת** מ**רשימת השרתים** שלכם, ואז הוסיפו אותו שוב ולאחר מכן **הפעילו ערכות משאבים**.
+* אם עדיין יש לכם בעיות, צאו מהשרת לכו ל **%appdata%/.minecraft/server-resource-packs** מיחקו את **כל הקבצים**. התחברו מחדש לשרת.
 
 {% hint style="danger" %}
-Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (png) and **model** files (json)
+ודאו שאתם משתמשים ב-**אותיות רישיות**, **רווחים** או **תווים מיוחדים** בפריטים כמו **שמות**, **מרחבי שמות**, **טקסטורה** בקבצי (png) ו- קבצי **מודל** (json)
 {% endhint %}
