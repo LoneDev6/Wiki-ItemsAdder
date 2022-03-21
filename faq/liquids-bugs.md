@@ -1,22 +1,22 @@
-# 💧 Liquids bugs
+# 💧 בעיות נוזלים
 
 {% hint style="warning" %}
-Sometimes chunks can still maintain the liquid color after you removed them.\
-Logout and login to fix this, that's the only way.&#x20;
+לפעמים צ'אנקים עדיין יכולים לשמור על צבעי הנוזל לאחר שהסרתם אותם.\
+התנתקו והתחברו כדי לתקן זאת, זו הדרך היחידה.&#x20;
 
-### **This is a Minecraft bug I cannot fix.**
+### **זה בעייה במיינקראפט אני לא יכול לתקן את זה.**
 {% endhint %}
 
 {% hint style="warning" %}
-If you place normal water (or if it's naturally generated) on the top or on the bottom of a custom liquid you will see it will have the custom liquid color.&#x20;
+אם תניחו מים רגילים (או אם הם נוצרים באופן טבעי) בחלק העליון או התחתון של נוזל שמותאם אישית, תראה שיהיה לו את צבע הנוזל המותאם אישית.&#x20;
 
-### **This is a Minecraft bug I cannot fix.**
+### **זה בעיית מיינקראפט אני לא יכול לתקן את זה.**
 {% endhint %}
 
 {% hint style="warning" %}
-Custom liquids are not totally colored sometimes, some parts still have vanilla water color.
+נוזלים המותאמים אישית אינם צבעוניים לחלוטין לפעמים, בחלקים מסוימים עדיין יש צבע מים של המשחק הרגיל.
 
-### **This is a Minecraft bug I cannot fix.**
+### **זה בעיית מיינקראפט אני לא יכול לתקן את זה.**
 {% endhint %}
 
 ![](<../.gitbook/assets/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (1).png>)
