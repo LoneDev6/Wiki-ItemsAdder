@@ -1,21 +1,21 @@
-# 🗑 Removing default stuff
+# 🗑 הסרת דברים ברירת מחדל
 
-## How can I remove all the items and default stuff?
+## איך אני יכול למחוק את כל הדברים שמגיעים אם הפלאגין?
 
-If you only want to make your own items, blocks and other things it's easy!\
-Follow this tutorial.\
+אם אתם רוצים למחוק דברים או בלוקים, זה קל!\
+עקבו אחרי המדריך הזה.\
 
 
 ### 1. Config.yml
 
-Open plugin `config.yml` file and set this to **false**.
+פתחו את `config.yml` העבירו למצב **false**.
 
 ```yaml
   extract-default-items: false
   extract-default-resources: false
 ```
 
-### 2. Delete the folders you don't need. Select from this list.
+### 2. מחקו תיקיות שאתם לא צריכים. אפשר להשתמש ברשימה הזאת:
 
 #### Twitter emojis
 
@@ -43,8 +43,8 @@ Open plugin `config.yml` file and set this to **false**.
 `plugins\ItemsAdder\data\resource_pack\assets\example`
 
 {% hint style="danger" %}
-## Do not delete other folders which are not listed in the previous list.
+## אל תמחקו תיקיות אחרות שאינן מופיעות ברשימה הקודמת.
 
-If you delete minecraft, mcguis or mcicons folders some parts of the plugin will stop working.
+אם תמחקו את תיקיות Minecraft, mcguis או mcicons חלקים מסוימים של הפלאגין יפסיקו לעבוד.
 {% endhint %}
 
