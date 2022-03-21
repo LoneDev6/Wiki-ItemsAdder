@@ -1,8 +1,8 @@
-# Mohist problems
+# בעיות מוהיסטיות
 
 {% hint style="warning" %}
-Note: Mohist is an unofficial mod and may break plugins.\
-I didn't code the plugin with official Mohist compatibility just because it's not something that straightforward.
+הערה: Mohist הוא מוד לא רשמי ועשוי לשבור תוספים.\
+לא קידדתי את הפלאגין עם תאימות רשמית של Mohist רק בגלל שזה לא משהו כל כך פשוט.
 {% endhint %}
 
 ```
@@ -27,9 +27,9 @@ at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:315) 
 ... 14 more
 ```
 
-## How to fix this issue
+## איך לתקן את הבעייה
 
-Open **ProtocolLib** `config.yml` file and set this option to false.
+פתחו את הקובץ **ProtocolLib** `config.yml` והגדירו אפשרות זו ל-false.
 
 {% code title="config.yml" %}
 ```yaml
