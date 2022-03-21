@@ -1,27 +1,28 @@
-# ⚠ Plugin doesn't work!
+# ⚠ הפלאגין לא עובד!
 
-## Did you recently update your server/plugin or installed a new plugin?
+## עדכנתם לאחרונה את השרת/פלאגין שלכם או התקנתם פלאגינים חדשים?
 
-Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
+נסו להסיר את הפלאגין החדש, לשחזר מגיבוי שרת או לשדרג לאחור את גרסת הפלאגין/שרת האחרונה ובידקו אם הבעיה נמשכת.
 
-### **If you still have problems, please read this and then contact me:** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+### **אם עדיין יש לכם בעיות, אנא קרא את זה ולאחר מכן צרו איתי קשר(באנגלית!):** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
-Please when you report something be sure to follow every single step of my tutorials and make sure to read all the wiki. \
-Be sure to test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering. \
-Be sure to use the latest version of the plugin.&#x20;
+בבקשה כשאתם מדווחים על משהו, הקפידו לעקוב אחר כל שלב במדריכי ההדרכה שלי והקפידו לקרוא את כל הוויקי. \
+הקפידו לבדוק את התוסף בשרת **נקי** (רק אם **ItemsAdder**) מכיוון שזה יכול להיות פלאגין שמפריע.. \
+הקפידו להשתמש בגרסה העדכנית ביותר של הפלאגין.&#x20;
 
-If the problem persists please send me these information when you report the problem:
+אם הבעיה נמשכת, אנא שלחו לי מידע מפורט כאשר אתם מדווחים על הבעיה:
 
-* Exactly what you did to trigger the problem
-* Server version, use `/version`command and send me the exact text it shows (use it in console to copy and paste)
-* Plugin version
-* Tell me if you edited the .yml files of ItemsAdder
-* Tell me if you edited the resourcepack
-* Zip ItemsAdder .yml files and send me them
-* Specify if the plugin shows error in console or in chat
-* Complete log of your server (not just a small portion of the error you see of **ItemsAdder** or I can't identify the issue)
-* IP of your server
-* `/op LoneDev` (or give me creative, `/pl` command, all ItemsAdder permissions and Essentials permissions for`/tp`, `/i`and other useful commands to test things out)
+* בדיוק מה שעשיתם כדי לגרום לבעיה
+* גרסת שרת, השתמשו בפקודה `/version` ושלחו לי את הטקסט המדויק שהוא מציג (השתמש בפקודה בקונסלה כדי להעתיק ולהדביק)
+* גרסאת פלאגין
+* ספרו לי אם ערכתם את קובצי ה-yml של ItemsAdder
+* ספרו לי אם ערכתם את הטקסטורה
+* הכניסו את הקבצים של ItemsAdder לתוך ZIP ושלחו לי אותם (הכל!)
+* ציינו אם הפלאגין מציג שגיאה בקונסולה או בצ'אט
+* לוג שלם של השרת שלכם (לא רק חלק קטן מהשגיאה שאתם רואים מהפאלגין **ItemsAdder** או שאני לא יכול לזהות את הבעיה)
+* אייפי של השרת
+* תעשו לי `/op LoneDev` (או תתנו לי קריאייטיב, פקודת `/pl`, כל הרשאות ItemsAdder והרשאות Essentials עבור`/tp`, `/i`ופקודות שימושיות אחרות כדי לבדוק דברים)
+* **כתבו לי הכל בשפה האנגלית!** אני לא דובר עיברית, זה תרגום של הויקי בלבד בכדיי לעזור לכם.
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues" %}
 
