@@ -1,6 +1,6 @@
-# 🈁 Force Unicode Font: ON
+# 🈁 כפה גופן Unicode: מופעל
 
-## Read here:
+## קראו כאן:
 
 {% content-ref url="../../plugin-usage/advanced/fonts/thin-font-force-unicode.md" %}
 [thin-font-force-unicode.md](../../plugin-usage/advanced/fonts/thin-font-force-unicode.md)
