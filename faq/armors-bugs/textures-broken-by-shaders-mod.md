@@ -1,14 +1,14 @@
 ---
-description: Armors textures look broken when using custom shaders mods (1.17)
+תיאור: טקסטורות שריון נראות שבורות בעת שימוש במודלי Shaders מותאמים אישית (1.17)
 ---
 
-# Textures broken by shaders mod
+# טקסטורות שבורות על ידי מוד Shaders
 
 {% hint style="warning" %}
-### This bug was fixed in ItemsAdder 3.0.3
+### באג זה תוקן ב-ItemsAdder 3.0.3
 
-If you see broken textures make sure you are using ItemsAdder 3.0.3 or a more recent version.\
-Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
+אם אתה רואה מרקמים שבורים ודא שאתה משתמש ב-ItemsAdder 3.0.3 או גרסה עדכנית יותר.\
+וודאו שאתם משתמשים בעותק עדכני ביותר של הטקסטורה `/iazip` (קראו את [מדריך האיחסון](../../plugin-usage/resourcepack-hosting/) אם צריך).
 {% endhint %}
 
 {% tabs %}
@@ -25,18 +25,18 @@ Also make sure you regenerated your resourcepack using `/iazip` (and read the [h
 {% endtab %}
 {% endtabs %}
 
-## What was the cause of this bug?
+## מה הייתה הסיבה לבאג הזה?
 
-### Optifine issue
+### בעיה של Optifine
 
-Optifine has a limitation which doesn't allow custom armors to work correctly if you have any custom Optifine shader installed.
+ל- Optifine יש מגבלה שאינה מאפשרת לארמורים המותאמים אישית לעבוד כראוי אם מותקן אצלכם מששהוא שקשור Optifine shader מותאם אישית.
 
-You have to disable the **Optifine** shaders temporarily or temporarily live with the issue.
+עליך להשבית את shader **Optifine** באופן זמני או זמני לחיות עם הבעיה.
 
-I already contacted Optifine developer about this: [https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
+יצרתי קשר אם היוצרים של Optifine ראו: [https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
 
-### Iris Shaders issue
+### סוגיית איריס שיידרס(Iris Shaders)
 
-Iris has a limitation which doesn't allow custom armors to work correctly if you have any custom Iris custom shader installed.
+לאיריס יש מגבלה שאינה מאפשרת לשריון מותאמים אישית לעבוד כראוי אם מותקן ברשותך איזשהו הצללה מותאמת אישית של Iris.
 
-I already contacted Iris developers about this: [https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
+כבר יצרתי קשר עם מפתחי Iris בעניין זה: [https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
