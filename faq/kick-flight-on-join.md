@@ -1,18 +1,18 @@
 ---
-description: Players get kicked while installing the resourcepack
+תיאור: שחקנים מקבלים קיק בזמן טעינת הטקסטורה
 ---
 
-# 🥾 Kick flight on join
+# 🥾 קיק של אסור לעוף
 
-## The kick problem
+## על הבעייה
 
-Some servers may think you're flying while the resourcepack is installing, depends on where is your spawn location.
+חלק מהשרתים חושבים שאתם עפים בזמן התקנה תטקסטורה, זה תלוי איפו נימצא מיקום הספאון שלכם
 
-You may get this error: <mark style="color:red;">"Flying is not enabled on this server"</mark>, or getting kicked by an **anticheat**.
+זה ההודעה שמקבלים: <mark style="color:red;">"Flying is not enabled on this server"</mark>, או שאתם מקבלים קיק על ידי **anticheat**.
 
-## How to fix?
+## איך לתקן?
 
-Disable the `hide-hud` feature in the `config.yml` file of **ItemsAdder**.
+בטלו את האפשרות `hide-hud` בתוך הקובץ `config.yml` של **ItemsAdder**.
 
 ```yaml
   protect-player:
@@ -20,9 +20,9 @@ Disable the `hide-hud` feature in the `config.yml` file of **ItemsAdder**.
     hide-hud: false
 ```
 
-## Still having the issue
+## הבעיות ממשיכות
 
-Enable this option in `server.properties` file:
+הפעילו את האפשרות הזאת בתוך הקובץ `server.properties`:
 
 {% code title="server.properties" %}
 ```
