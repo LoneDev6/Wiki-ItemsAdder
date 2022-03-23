@@ -1,32 +1,32 @@
 ---
-description: Square character
+תיאור: תו מרובע
 ---
 
-# ☐ characters
+# תווים כאלה ☐ 
 
-## I see ☐ character after uninstalling Custom ESC addon
+## אני רואה תו ☐ לאחר הסרת ההתקנה של תוסף Custom ESC
 
 {% hint style="info" %}
-This is useful to uninstall [Custom ESC addon](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
+מומלץ להסיר את התוסף [Custom ESC תוסף](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
 {% endhint %}
 
-You have to delete this folder lang folder: `data\resource_pack\assets\minecraft\lang`
+אתם חייבם למחוק את הקובץ הזה: `data\resource_pack\assets\minecraft\lang`
 
-Then run `/iazip` command.
+אחרי זה להריץ אץ הפקודה `/iazip`.
 
 ![](<../../.gitbook/assets/immagine (151).png>)
 
-## I see ☐ instead of my emojis/ranks
+## אני רואה ☐ במקום האימוג'ים/הדרגות המיוחדות  שלי
 
 {% hint style="warning" %}
-Make sure to run `/iazip` and reupload the resourcepack if needed.
+הריצו את הפקודה `/iazip` וודאו שהטקסטורה תואמת להגדרות שיש לכם בקבצים.
 
-Read more here: [resourcepack hosting](../../plugin-usage/resourcepack-hosting/)
+קראו עוד כאן: [אחסון הטקסטורה](../../plugin-usage/resourcepack-hosting/)
 {% endhint %}
 
 {% hint style="warning" %}
-Make sure `y_position` property is not greater than the image height in pixels.
+וודאו שהגדרת ה `y_position` היא בדיוק כמו הפיקסלים שעל התמונה.
 
-Minecraft doesn't support this, it won't work.
+מיינקראפט לא תומך בזה, זה לא יעבוד.
 {% endhint %}
 
