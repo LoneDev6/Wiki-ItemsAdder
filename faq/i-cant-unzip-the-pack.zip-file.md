@@ -1,6 +1,6 @@
-# I can't unzip the pack.zip file
+# אני לא יכול לפתוח את הקובץ pack.zip
 
-Disable the protection option.
+בטלו את האשפרות הזאת.
 
 {% code title="config.yml" %}
 ```yaml
@@ -12,6 +12,6 @@ Disable the protection option.
 {% endcode %}
 
 {% hint style="danger" %}
-This is the option to protect the zip file from unzip.\
-Be careful when disabling it, everyone can unzip your file if you don't protect it.
+זה מגן על הקטסורה שלא יוכלו לפתוח את הקובץ ZIP.\
+אם תבטלו את ההגנה כולם יוכלו לפתוח את הטקסטורה.
 {% endhint %}
