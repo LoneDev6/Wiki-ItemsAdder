@@ -1,6 +1,6 @@
-# An error occurred when enabling the resourcepack
+# שגיאה בפעלת הטקסטורה 
 
-## Read here
+## קראו כאן
 
 {% content-ref url="../resourcepack-not-loading.md" %}
 [resourcepack-not-loading.md](../resourcepack-not-loading.md)
