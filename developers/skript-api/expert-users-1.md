@@ -6,13 +6,13 @@
 * Install [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/download/v2.2.3/skript-reflect-2.2.3.jar)
 
 {% hint style="info" %}
-To get more info about **skript-mirror** please read its [wiki](https://tpgamesnl.gitbook.io/skript-reflect/)
+To get more info about **skript-reflect** please read its [wiki](https://tpgamesnl.gitbook.io/skript-reflect/)
 {% endhint %}
 
 {% hint style="danger" %}
 ### Please **do not ask** for **support** for **skript** related issues or questions.
 
-I'm not a skript expert and I'm not the developer of **skript** nor **skript-mirror**.\
+I'm not a skript expert and I'm not the developer of **skript** nor **skript-reflect**.\
 **Every question about skript will be ignored**, I hope you understand.
 {% endhint %}
 
