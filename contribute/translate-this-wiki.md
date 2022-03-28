@@ -27,7 +27,7 @@ Select a file you want to edit and press the **pen** button
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-![](<../.gitbook/assets/image (76).png>)
+![](<../.gitbook/assets/image (76) (1).png>)
 
 {% hint style="warning" %}
 ## Important notes

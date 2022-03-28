@@ -10,12 +10,12 @@ You can import your custom models very easily, you just have to install the Bloc
 ### Before continuing:
 
 * Make sure you're running **Blockbench 4.1.5** or **greater**
-* Make sure you're running the latest version of al dependencies
+* Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
 {% endhint %}
 
 [Download Blockbench](https://www.blockbench.net) (don't use the web app).
 
-![](<../../../../.gitbook/assets/image (98).png>)
+![](<../../../../.gitbook/assets/image (98) (1).png>)
 
 \
 [Download the zip](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`

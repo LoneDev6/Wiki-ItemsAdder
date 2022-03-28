@@ -122,4 +122,12 @@
   * permission: "ia.admin.iahitbox"
 * iaconfig:
   * description: Main command to execute some operations on the plugin configurations.
-  * permission: "ia.admin.config"
+  * permission: "ia.admin.iaconfig"
+* iaentity:
+  * description: Main command to manage custom entities.
+  * permission: "ia.admin.iaentity"
+* iaemote
+  * description: Play custom player animation.
+  * usage: /iaemote \<emote> \[player]
+  * permission: "ia.user.iaemote"
+    * others: "ia.user.iaemote.others"
