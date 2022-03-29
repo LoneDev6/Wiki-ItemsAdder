@@ -147,6 +147,8 @@ Edit how the model is shown on player hand:
 
 ### Configure how the model is shown ingame
 
+#### Using Armor Stand
+
 You have to select the **head icon** and then **small armorstand:**
 
 ![](<../../../.gitbook/assets/image (41) (1) (1) (1).png>)
@@ -155,7 +157,16 @@ Then you have to shift your model down until it matches the armorstand base:
 
 ![](<../../../.gitbook/assets/image (42) (1).png>)
 
+#### Using Item Frames
+
+You have to select the **Image icon** and then set the Z-offset to `-16`.  
+This will display the model slighly of the block the Item Frame is attached to, but will be seamless when an invisible Item Frame is used. This is because of how items in invisible Item Frames are slightly lower than usual.
+
+### Export the model
+
 Now let's save the model file into the correct folder, in this case I set this property in the yml configuration file: `model_path: lamp`, so you have to save the .json file inside this path: `ItemsAdder\data\resource_pack\assets\myitems\models\lamp.json`.
+
+To achieve this, click on "File" followed by "Export Model" and finally "Export Block/Item Model". In the new window, head over to the path you want to save your model under, give it the right name and confirm the changes.
 
 ### Saving changes
 
