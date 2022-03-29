@@ -23,7 +23,9 @@ Then change the skin using the **ItemsAdder** command:\
 
 ### Optional: getting/uploading custom skins
 
-You can get a [list](https://mineskin.org/gallery) of possible skins and even upload [your own](https://mineskin.org)!
+{% content-ref url="../creation.md" %}
+[creation.md](../creation.md)
+{% endcontent-ref %}
 
 ### Make head rotate
 

@@ -84,7 +84,7 @@ Write `prefix.100.` followed by the prefix placeholder in the bottom input box, 
 
 Press <mark style="color:green;">**`+Add`**</mark>
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (74) (1).png>)
 
 As you can see you have a new line in the permissions list, this is the prefix setting.
 
