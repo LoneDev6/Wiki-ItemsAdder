@@ -1,37 +1,37 @@
-# Create slabs, stairs, tridents, armors...
+# יצירת סלאבים, מדרגות, קילשון, ארמור...
 
-### Placeable
+### ניתן למקם
 
 {% hint style="warning" %}
-You can't create solid custom slabs, stairs and solid placeable items other than blocks. Problem is that Minecraft would show them as transparent blocks because of this limitation: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) \
-You'll be able to create custom shaped blocks when Mojang will add this feature: a special tag that can be turned on or off, now it's always on. **"Opaque"**.
+לא ניתן ליצור סלאבים בהתאמה אישית, מדרגות ופריטים שניתנים להצבה מלבד בלוקים. הבעיה היא שמיינקראפט יציג אותם כבלוקים שקופים בגלל הבעייה הזאת: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) \
+תוכלו ליצור בלוקים בצורת התאמה אישית כאשר Mojang יוסיפו את התכונה הזו: תג מיוחד שניתן להפעיל או לכבות, עכשיו הוא תמיד פועל. **"Opaque"**.
 
-Another reason is that I can't change hitbox of blocks.. sadly another Minecraft limitation.
+סיבה נוספת היא שאני לא יכול לשנות את ה-hitbox של בלוקים.. לצערי עוד מגבלה של Minecraft.
 {% endhint %}
 
-### Tridents
+### קילשונים
 
 {% hint style="warning" %}
-You can't create custom model for thrown tridents as it's a Minecraft bug I can't fix: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
+אי אפשר ליצור מודלים מותאמים אישית עבור קילשונים מכיוון שזה באג של Minecraft שאני לא יכול לתקן: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
 {% endhint %}
 
-### Armors
+### ארמורים
 
 {% hint style="warning" %}
-Minecraft 1.16 (and lower) doesn't allow you to add custom textures / custom 3D models to armors in any way (you can but only with Optifine).\
-You can make them colored but you cannot change the texture.
+מיינקראפט 1.16 (ומטה) לא מאפשר לכם להוסיף טקסטורות מותאמות אישית/דגמי תלת מימד מותאמים אישית לארמור בשום אופן (אתם יכולים אבל רק עם Optifine).\
+אתם יכולים לעשות אותם צבעוניים אבל אתם לא יכולים לשנות את הטקסטורה.
 
-### Custom textured armors 1.17
+### טקסטורות לארמור 1.17
 
-To create custom textured armors in 1.17 you can follow the [tutorial here](../../plugin-usage/advanced/armors/texture.md) (No Optifine).
+בשביל ליצור טקסטורות לאמרור בגרסא 1.17 עקבו אחרי המדריך [המדריך](../../plugin-usage/advanced/armors/texture.md) (ללא Optifine ).
 
-### Custom textured armors 1.16 (and lower)
+### טקסטורות מותאמות אישית לארמור 1.16 (ומטה)
 
-ItemsAdder can automatically add custom armors to 1.16 version and lower, but only if the user has Optifine installed. Read [more here](../../plugin-usage/advanced/armors/texture.md).
+הפלאגין ItemsAdder יכול להוסיף אוטומטית ארמורים מותאמים אישית לגרסת 1.16 ומטה, אך רק אם למשתמש מותקן Optifine. מידע [קראו כאן](../../plugin-usage/advanced/armors/texture.md).
 {% endhint %}
 
-### Elytra
+### אליטרה
 
 {% hint style="warning" %}
-Minecraft doesn't allow you in any way to add custom textures / custom 3D models to elytras.
+מיינקראפט לא מאפשר לכם בשום צורה להוסיף טקסטורות מותאמות אישית/מודלים תלת מימדיים מותאמים אישית ל-elytras.
 {% endhint %}
