@@ -1,4 +1,4 @@
-# Events
+# אירועים
 
 ### ItemsAdderLoadDataEvent
 
@@ -7,23 +7,23 @@ package dev.lone.itemsadder.api.Events;
 public class ItemsAdderLoadDataEvent extends Event
 ```
 
-This event is called when ItemsAdder has loaded all its stuff correctly (also on `/iareload`)\
-Listen to this in order to wait all items/images.. are available for your addon/plugin.
+אירוע זה נקרא כאשר ItemsAdder טען את כל הדברים שלו בצורה נכונה (גם ב-`/iareload`)\
+עשו מאזין מיוחד לזה כדי להמתין לכל הפריטים/תמונות... שזמינים עבור התוסף/פלאגין שלך.
 
 ### CustomBlockInteractEvent
 
-Event triggered when a player interacts with a custom block
+אירוע מופעל כאשר שחקן מקיים אינטראקציה עם בלוק מותאם אישית
 
 ### CustomBlockBreakEvent
 
-Event triggered when a player breaks a custom block
+אירוע מופעל כאשר שחקן שובר חסימה מותאמת אישית
 
 ### CustomEntityDeathEvent
 
-Event triggered when a custom entity dies.
+אירוע מופעל כאשר ישות מותאמת אישית מתה.
 
 ### ResourcePackSendEvent
 
-Event triggered when the server sends a resourcepack to the client. \
-This event includes **url**, **hash** and also contains info if **it's** an **ItemsAdder resourcepack** or **another plugin** resourcepack.
+אירוע מופעל כאשר השרת שולח חבילת משאבים ללקוח. \
+אירוע זה כולל **כתובת URL**, **hash** ומכיל גם מידע אם **זה** חבילת משאבים של **ItemsAdder** או **חבילת משאבים נוספת**.
 
