@@ -1,18 +1,18 @@
-# Leaves and transparent blocks problems
+# בעיות עלים ובלוקים שקופים
 
 {% hint style="danger" %}
-### Tree blocks sometimes disappear and become air blocks
+### גושי עצים נעלמים לפעמים והופכים לגושי אוויר
 
-This is a know issue in CREATIVE mode as the client doesn't send some packets to the server.\
-Please try in survival mode.
+זוהי בעיה ידועה במצב CREATIVE מכיוון שהשחקן לא שולח חבילות לשרת.\
+אנא נסה במצב הישרדות.
 {% endhint %}
 
 {% hint style="danger" %}
-### REAL\_TRANSPARENT blocks are dropped when water flows on them
+### REAL\_TRANSPARENT נופלים כאשר מים זורמים עליהם
 
-I know this bug and I can't fix it without making your server an oven.\
+אני מכיר את הבאג הזה ואני לא יכול לתקן אותו בלי להפוך את השרת שלכם לתנור.\
 \
-Details:\
-As you already know Minecraft is not that great and most of the cool features require a lot of hacks to be implemented.\
-One of these are custom blocks. To fix this water bug I'd have to listen to the water flowing event and check if every block around the water is a custom block. This event is called a looooooot of times in midsized server and I can't make the plugin lag everything.
+פרטים:\
+כפי שאתם כבר יודעים מיינקרפאט לא הכי טוב שיש ורוב התכונות המגניבות דורשות הרבה פריצות ליישום.\
+אחד מהבעיות הם בלוקים מותאמים אישית. כדי לתקן את באג המים הזה אצטרך להקשיב לאירוע זרימת המים ולבדוק אם כל בלוק מסביב למים הוא בלוק מותאם אישית. האירוע הזה נקרא הרבה פעמים בשרת בינוני ואני לא יכול לגרום לפלאגין להשהות הכל.
 {% endhint %}
