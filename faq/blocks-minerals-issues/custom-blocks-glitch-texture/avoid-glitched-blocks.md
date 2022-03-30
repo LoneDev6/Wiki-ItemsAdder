@@ -1,34 +1,34 @@
 ---
-description: Glitched blocks in some areas/custom worlds
+תיאור: בלוקים של מגליצ'ים באזורים מסוימים/עולמות מותאמים אישית
 ---
 
-# Avoid glitched blocks
+# להימנע מגליצ'ים
 
-## Glitched blocks
+## בלוקים מגליצ'ים
 
 {% hint style="info" %}
-This is only a graphical glitch, this state won't cause duplication bugs or similar.
+זוהי רק תקלה גרפית, מצב זה לא יגרום לשכפול באגים וכדומה.
 {% endhint %}
 
 ![](<../../../.gitbook/assets/image (119).png>)
 
-## Fix on Spigot/Paper
+## תיקון ב Spigot/Paper
 
 {% hint style="info" %}
-This is normal if you use REAL type to create custom blocks.\
-ItemsAdder uses mushroom blocks to create them.\
-ItemsAdder just checks some biomes to fix the glitched blocks to avoid using too much CPU.
+זה נורמלי אם אתם משתמשים בסוגי REAL כדי ליצור בלוקים מותאמים אישית.\
+הפלאגין ItemsAdder משתמש בלוקים של פטריות כדי ליצור אותם.\
+הפלאגין ItemsAdder פשוט בודק כמה ביומות(biomes) כדי לתקן את הבלוקים המוגלצ'ים כדי להימנע משימוש ביותר מדי מעבד.
 {% endhint %}
 
-This fix works only for REAL blocks (mushrooms).\
-If you want to apply the fix to any biome you have to set `config.yml` like that:
+תיקון זה עובד רק עבור בלוקים אמיתיים (פטריות).\
+אם אתם רוצים להפעיל את התיקון על ביומה(biome) כלשהי, עליכם להגדיר את 'config.yml' כך:
 
 <details>
 
 <summary>Click here to expand</summary>
 
-This will basically enable the fix on each of the Minecraft overworld biomes.\
-Feel free to remove the ones you think that won't have any mushroom spawned, to avoid high CPU usage.
+זה בעצם יאפשר את התיקון בכל אחת מהביומות של Minecraft Overworld.\
+אל תהססו להסיר את הביומות שבהן לא יהיו פרטיות, כדי להימנע משימוש גבוה במעבד.
 
 {% code title="config.yml" %}
 ```yaml
@@ -113,26 +113,26 @@ seach-also-in-these-biomes:
 
 </details>
 
-### Another solution
+### עוד פתרונות
 
-Another solution is to avoid using `REAL` custom blocks type (mushroom) and use `REAL_NOTE` custom blocks type.\
-`REAL_NOTE` uses Noteblocks to create custom blocks, so you won't have this issue.
+פתרון נוסף הוא הימנעות משימוש בסוג 'REAL' בלוקים מותאמים אישית (פטריה) ולהשתמש בסוג 'REAL_NOTE' בלוקים מותאמים אישית.\
+ה`REAL_NOTE` משתמש בבלוקים של Noteblocks כדי ליצור בלוקים מותאמים אישית, כך שלא תהיה לכם בעיה כזאת.
 
-## Advanced fix on Purpur
+## תיקון מתקדם ב Purpur
 
 {% hint style="warning" %}
-### This only works on [Purpur](https://purpur.pl3x.net).
+### זה רק עובד על [Purpur](https://purpur.pl3x.net).
 
-### Spigot and Paper don't have this feature.
+### ל-Spegot ול-Paper אין תכונה זו.
 {% endhint %}
 
-Enable these options in **purpur.yml** configuration:
+הגדירו את האפשרויות האלה בקובץ **purpur.yml**:
 
 * [https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates](https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates)
 * [https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates](https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates)
 * [https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates](https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates)
 
-**Example:**
+**דוגמא:**
 
 ```yaml
   blocks:
