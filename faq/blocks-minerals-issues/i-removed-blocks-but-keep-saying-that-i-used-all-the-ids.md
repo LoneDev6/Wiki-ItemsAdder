@@ -1,10 +1,10 @@
-# I removed blocks but keep saying that I used all the IDs
+# הסרתי בלוקים אבל כל הזמן אומר שהשתמשתי בכל המזהים
 
-If you're really sure you can use this command to cleanup the plugin cache: `/iacleancache`\
-It will remove all the cached IDs so that you can reuse the old IDs of removed blocks.
+אם אתם באמת בטוחים שאתם מחקתם הכל אז אתם יכולים להשתמש בפקודה הזו כדי לנקות את מטמון הפלאגין: `/iacleancache`\
+זה יסיר את כל המזהים השמורים במטמון כדי שתוכל לעשות שימוש חוזר במזהים הישנים של בלוקים שהוסרו.
 
 {% hint style="info" %}
-### Why does ItemsAdder have a blocks IDs cache?
+### מדוע ל-ItemsAdder יש מטמון של מזהי בלוקים?
 
-Cache exists because if you remove a block by mistake and then you want to add it back it will have the same old ID instead of a new one each time.
+מטמון קיים כי אם תסירו בלוק בטעות ואז תרצו להוסיף אותו בחזרה, יהיה לו אותו מזהה ישן במקום חדש בכל פעם.
 {% endhint %}
