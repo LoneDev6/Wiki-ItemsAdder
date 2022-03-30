@@ -1,2 +1,2 @@
-# Custom blocks glitch texture
+# גליצ'ים בבלוקים מותאמים אישית
 
