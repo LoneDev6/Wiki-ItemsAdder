@@ -2,8 +2,8 @@
 
 ## Installing the required dependencies
 
-* Install [skript](https://github.com/SkriptLang/Skript/releases)
-* Install [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/download/v2.2.3/skript-reflect-2.2.3.jar)
+* Install [skript](https://github.com/SkriptLang/Skript/releases/latest)
+* Install [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/latest)
 
 {% hint style="info" %}
 To get more info about **skript-reflect** please read its [wiki](https://tpgamesnl.gitbook.io/skript-reflect/)
