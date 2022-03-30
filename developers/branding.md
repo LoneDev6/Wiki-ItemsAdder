@@ -1,13 +1,13 @@
-# ™ Branding
+# ™ מיתוג
 
-## Download branding assets
+## הורד נכסי מיתוג
 
-The below ZIP file contains assets that you can use for your resource page or in your own assets related to ItemsAdder.\
-Make sure to read the [Usage terms](branding.md#usage-terms) before doing anything tho.
+קובץ ה-ZIP להלן מכיל נכסים שבהם אתה יכול להשתמש עבור דף המשאבים שלך או בנכסים שלך הקשורים ל-ItemsAdder.\
+קראו את [תנאי השימוש](branding.md#usage-terms) לפני שתעשו משהו.
 
 {% file src="../.gitbook/assets/itemsadder_branding.zip" %}
 
-### Preview of the zip content
+### תצוגה מקדימה של תוכן ה-zip
 
 ![logos](<../.gitbook/assets/image (107).png>)
 
@@ -15,22 +15,21 @@ Make sure to read the [Usage terms](branding.md#usage-terms) before doing anythi
 
 ![addon-banner](../.gitbook/assets/ia\_addon\_banner.png)
 
-## Usage terms
+## תנאי שימוש
 
-You **can** use the assets...
+אתם **יכול** להשתמש בנכסים...
 
-* on resource pages for Add-ons and/or plugins supporting ItemsAdder that you own.
-* in own images for your resources.
+* בדפי משאבים עבור תוספים ו/או תוספים התומכים ב-ItemsAdder שבבעלותך.
+* בתמונות משלך למשאבים שלך.
+...בתנאים הבאים:
 
-...under the following conditions:
+* אינך תובע בעלות על הנכסים. הבעלות המקורית נשארת אצל LoneDev, המפתחת של ItemsAdder.
+* אינך טוען שיצרת את הנכסים הללו בעצמך.
+* אינך משתמש בנכסים או בחלק מהם ליצירת לוגו המשאב שלך.
+* אתה לא מחלק מחדש את הנכסים. זה כולל אך לא מוגבל לגרסאות ששונו הן של קובץ ה-ZIP והן של הקבצים עצמם.
+* תן קרדיט לדף המיתוג המקורי (זה) על ידי קישור אליו.
+* ניתן להשתמש בתמונות רק לציטוט ItemsAdder.
 
-* You do not claim ownership over the assets. Original ownership stays with LoneDev, the developer of ItemsAdder.
-* You do not claim to have created those assets yourself.
-* You do not use the assets or part of them to create your own resource logo.
-* You do not redistribute the assets. This includes but isn't limited to modified versions of both the ZIP file and the actual files themself.
-* Give credit to the original branding page (This one) by linking to it.
-* The images may only be used to cite ItemsAdder.
+## קרדיטים
 
-## Credits
-
-* Thanks to Andre\_601 for the creation of the `ia_addon_banner` file
+* תודה Andre\_601 על יצירת הקובץ `ia_addon_banner`
