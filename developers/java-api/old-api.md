@@ -1,10 +1,10 @@
-# API Utilities
+# תוכניות שירות API
 
-## API Utilities
+## תוכניות שירות של API
 
-These are some static utilities to fast get some information.
+אלה כמה כלי עזר סטטיים כדי לקבל מידע מהיר.
 
-Note that these static utility methods are for lazy usage, you should use the other API classes instead.
+שים לב ששיטות השירות הסטטיות הללו מיועדות לשימוש עצלן, עליך להשתמש במחלקות ה-API האחרות במקום זאת.
 
 ```java
 // Check if itemsadder finished loading its items and if they are available
@@ -27,9 +27,9 @@ public static boolean isFurniture(Entity entity)
 public static boolean matchCustomItemName(ItemStack itemStack, String customItemName)
 ```
 
-## Old API methods
+## שיטות API ישנות
 
-This is the old API, it's still available and working fine.
+זהו ה-API הישן, הוא עדיין זמין ועובד מצוין.
 
 ```java
 //Get an ItemsAdder custom item by its name in config
