@@ -1,10 +1,10 @@
-# Transparent textured furnitures
+# רהיטים שקופים
 
 {% hint style="warning" %}
-If you want to make some transparent or semi-transparent textures you have to make sure you based your item on a vanilla item that accepts transparency.
+אם אתם רוצים לעשות כמה טקסטרות שקופות או חצי שקופים, אתם צריך לוודא שהטקסטורה מבוססת על פריט וניל שמקבל שקיפות.
 {% endhint %}
 
-### Example:
+### לדוגמא:
 
 ```yaml
 resource:
