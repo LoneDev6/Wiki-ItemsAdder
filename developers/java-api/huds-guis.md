@@ -1,18 +1,18 @@
-# HUDs, GUIs...
+# ממשקי משתמש, תפריטים...
 
-To see how to use HUDs and GUIs API (Font Images) you can check my examples.
+כדי לראות כיצד להשתמש ב-HUDs ו-GUIs API (תמונות גופנים), אתם יכול לבדוק את הדוגמאות שלי.
 
-## GUIs
+## תפריטים
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-GUI" %}
 
-## Huds
+## ממשקי משתמש
 
 {% embed url="https://github.com/LoneDev6/RPGhuds" %}
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-ServerMonitor" %}
 
-### Access mana bar value example
+### Access mana bar דוגמה לערך
 
 ```java
 PlayerHudsHolderWrapper huds = new PlayerHudsHolderWrapper(player);
@@ -24,13 +24,13 @@ else
   System.out.println("Error: mana not found, maybe it's disabled.");
 ```
 
-## FAQ
+## שאלות נפוצות
 
 {% content-ref url="../../plugin-usage/advanced/font-images/common-errors.md" %}
 [common-errors.md](../../plugin-usage/advanced/font-images/common-errors.md)
 {% endcontent-ref %}
 
-## Get Emoji or GUI character
+## קבל תו Emoji או GUI
 
 ```java
 new FontImageWrapper("twitteremojis:confirm").getString()
