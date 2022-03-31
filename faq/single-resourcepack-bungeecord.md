@@ -42,9 +42,16 @@ Open the `config.yml` of ItemsAdder in the `lobby` server and set up the hosting
 It's advised to use `self-host`, it's the best method.
 {% endhint %}
 
-After you finished configuring the hosting (follow the linked tutorial carefully) you have to use the `/iainfo` command and get the URL in console, for example:
+After you finished configuring the hosting (follow the linked tutorial carefully) you have to use the `/iainfo` command and get the URL in console, copy it.
+
+For example:
 
 ![](<../.gitbook/assets/image (60).png>)
+
+{% hint style="warning" %}
+You must remove the URL part after `#`, it's not needed.\
+Copy it without that part after `#`.
+{% endhint %}
 
 #### For example using `self-host`:
 
