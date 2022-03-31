@@ -2,7 +2,7 @@
 
 ## I see only a white square
 
-If you see a **white square** make sure the **height** of your image is not **greather** than the `y_position` value you set. To **bypass** that create an **image** with **higher height**.
+If you see a **white square** make sure the **height** of your image is not **greather** than the `y_position` value you set. To **bypass** that create an **image** with **higher height**. Images must also not have **Uppercase** or **Bad Characters** (eg. - or _) in the filename.
 
 {% hint style="warning" %}
 Keep in mind that the **max size** of a font image is **256x256**.\
