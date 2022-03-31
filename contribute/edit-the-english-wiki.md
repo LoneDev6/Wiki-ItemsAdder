@@ -10,7 +10,7 @@ Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of
 
 Make sure you're on the `master` branch.
 
-![](<../.gitbook/assets/image (60).png>)
+![](<../.gitbook/assets/image (60) (1).png>)
 
 Select a file you want to edit and press the **pen** button
 

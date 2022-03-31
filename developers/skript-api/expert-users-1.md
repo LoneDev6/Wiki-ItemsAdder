@@ -10,7 +10,7 @@ To get more info about **skript-reflect** please read its [wiki](https://tpgames
 {% endhint %}
 
 {% hint style="danger" %}
-### Please **do not ask** for **support** for **skript** related issues or questions.
+#### Please **do not ask** for **support** for **skript** related issues or questions.
 
 I'm not a skript expert and I'm not the developer of **skript** nor **skript-reflect**.\
 **Every question about skript will be ignored**, I hope you understand.
@@ -98,7 +98,6 @@ command /healme:
 		{_hud}.setFloatValue(10.0)
 		heal the player
             	set the player's food level to 10
-
 ```
 {% endtab %}
 
@@ -168,8 +167,6 @@ function rellenarINV(inv: inventory, slots: integers):
     loop {_slots::*}:
         set slot loop-value of {_inv} to black stained glass pane named " "
 
-
 ```
 {% endtab %}
 {% endtabs %}
-

@@ -26,7 +26,7 @@ Do this for each sit you want to create.
 
 ![](<../../../../.gitbook/assets/image (53).png>)
 
-![](<../../../../.gitbook/assets/image (89) (1).png>)
+![](<../../../../.gitbook/assets/image (89) (1) (1).png>)
 
 ![](<../../../../.gitbook/assets/image (40).png>)
 

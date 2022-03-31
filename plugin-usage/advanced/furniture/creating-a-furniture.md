@@ -6,7 +6,7 @@ description: Tutorial on how to create your first furniture
 
 ## What is a furniture?
 
-A furniture is a decorative object which can be solid, emit light, used as chair and can have other features.&#x20;
+A furniture is a decorative object which can be solid, emit light, used as chair and can have other features.
 
 ## Creating a simple furniture
 
@@ -143,7 +143,7 @@ Edit how the model is shown on player hand:
 
 ![](<../../../.gitbook/assets/image (46) (1).png>)
 
-![](<../../../.gitbook/assets/image (48) (1).png>)
+![](<../../../.gitbook/assets/image (48) (1) (1).png>)
 
 ### Configure how the model is shown ingame
 
@@ -159,7 +159,7 @@ Then you have to shift your model down until it matches the armorstand base:
 
 #### Using Item Frames
 
-You have to select the **Image icon** and then set the Z-offset to `-16`.  
+You have to select the **Image icon** and then set the Z-offset to `-16`.\
 This will display the model slighly of the block the Item Frame is attached to, but will be seamless when an invisible Item Frame is used. This is because of how items in invisible Item Frames are slightly lower than usual.
 
 ### Export the model
@@ -175,4 +175,3 @@ Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/)
 ![](<../../../.gitbook/assets/image (50) (1) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (44) (1) (1).png>)
-
