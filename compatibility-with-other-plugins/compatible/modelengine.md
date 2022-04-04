@@ -1,22 +1,22 @@
 # ModelEngine
 
-## [Download here](https://www.spigotmc.org/resources/conxeptworks-model-engine%E2%80%94ultimate-entity-model-manager-1-14-1-17-1.79477/)
+## [הורידו כאן](https://www.spigotmc.org/resources/conxeptworks-model-engine%E2%80%94ultimate-entity-model-manager-1-14-1-17-1.79477/)
 
-(free demo in the previous link, on the top part of the page)
+(הדגמה חינם בקישור הקודם, בחלק העליון של העמוד)
 
-## How to add compatibility?
+## איך מוסיפים תאימות?
 
-It's very easy!
+זה קל מאוד!
 
-* add all your mobs models and configurations inside the **ModelEngine** plugin folder
-* run `/meg reload` to generate the **ModelEngine** resourcepack
-* open the `plugins\ModelEngine\resource_pack\assets\` folder
-* copy `assets` folder inside `plugins\ItemsAdder\resource_pack\` folder
-*   open `config.yml` of **ItemsAdder** and set this option:
+* הוסיפו את כל הדגמים והתצורות של המודל שלכם בתוך תיקיית הפלאגין **ModelEngine**
+* עשו `/mag reload` כדי ליצור את הטקסטורה **Model Engine**
+* פתחו את התיקיה `plugins\ModelEngine\resource_pack\assets\`
+* העתיקו את תיקיית `asses` בתוך תיקיית `plugins\ItemsAdder\resource_pack\`
+*   פתחו את 'config.yml' של **ItemsAdder** והגדר את האפשרות הזו:
 
     ```yaml
     overwrite-vanilla-models: false
     ```
-* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
+* עשו  `/iazip` (ופעלו לפי [מדריך האחסון](../../plugin-usage/resourcepack-hosting/) במידת הצורך)
 
-Done!
+סיימתם!
