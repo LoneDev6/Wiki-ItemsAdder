@@ -51,6 +51,10 @@
         * Examples ([full list here](../text-effects-1.17+.md)):
           * `ia.user.text_effect.use.r`
           * `ia.user.text_effect.use.rw`
+    * emotes ([<mark style="color:blue;">player emotes</mark>](../advanced/player-emotes/))
+      * Use an emote: `ia.user.iaemote.use.<emote>`
+      * Example:
+        * `ia.user.iaemote.use.yes`
 
     ​
 * Admin

@@ -79,3 +79,10 @@ There is <mark style="color:green;">no need</mark> to use `/iazip`!
 ## Playing the animations
 
 Use the emote command: `/iaemote <emote> [player]` or `/emote <emote> [player]`
+
+## Emote permission
+
+Use the `/iaemote` command: `ia.user.iaemote`
+
+Use an emote: `ia.user.iaemote.use.<emote>`\
+``Example: `ia.user.iaemote.use.yes`
