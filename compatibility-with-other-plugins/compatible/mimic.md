@@ -1,34 +1,34 @@
 # Mimic
 
-## [Download here](https://github.com/EndlessCodeGroup/Mimic)
+## [הורידו כאן](https://github.com/EndlessCodeGroup/Mimic)
 
 {% hint style="warning" %}
-You need **ItemsAdder** 2.5.3+ and **Mimic** 0.6.3+.
+אתם צריכים את **ItemsAdder** 2.5.3+ ו-**Mimic** 0.6.3+.
 {% endhint %}
 
-## How to get an ItemsAdder item using Mimic
+## כיצד להשיג פריט ItemsAdder באמצעות Mimic
 
-To get a custom item using **Mimic** you have to use this command:
+כדי לקבל פריטים באמצעות **Mimic**, עלייכם לעשות את הפקודה:
 
 `/mimic items give <player> ia:<item id>`
 
-### Example
+### לדוגמא
 
 `/mimic items give LoneDev ia:itemsadder:ruby_sword`
 
 {% hint style="warning" %}
-It's important to add `ia:` in front of the ItemsAdder custom item name or Mimic won't recognize it.
+חשוב להוסיף `ia:` לפני שם הפריט של ItemsAdder או ש-Mimic לא יזהה אותו.
 
-In this case `itemsadder:ruby_sword` must be specified as `ia:itemsadder:ruby_sword`.
+במקרה זה יש לציין `itemsadder:ruby_sword` בתור `ia:itemsadder:ruby_sword`.
 {% endhint %}
 
-## Compare an item
+## השוו פריט
 
-You can even compare an item using Mimic.
+אתם יכולים אפילו להשוות פריטים באמצעות Mimic.
 
-### Example
+### לדוגמא
 
-Hold a `Ruby Sword` in hand and run this command.
+החזיקו 'חרב רובי' ביד אחת ועשו את הפקודה הזו.
 
 `/mimic items compare ia:itemsadder:ruby_sword`
 
