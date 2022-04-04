@@ -31,7 +31,7 @@ Select the magic wand icon "**Animate Effects**"
 
 Click on the **+** icon near "**Particle**" effect type to create a new particle keyframe.
 
-![](<../../../.gitbook/assets/image (64).png>)
+![](<../../../.gitbook/assets/image (64) (1).png>)
 
 Edit the values on the "**Keyframe**" panel.
 

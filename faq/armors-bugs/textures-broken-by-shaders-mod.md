@@ -1,5 +1,5 @@
 ---
-description: Armors textures look broken when using custom shaders mods (1.17)
+description: Armors textures look broken when using custom shaders mods (1.17+)
 ---
 
 # Textures broken by shaders mod

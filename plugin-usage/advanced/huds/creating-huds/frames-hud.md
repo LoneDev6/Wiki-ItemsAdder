@@ -98,7 +98,7 @@ Now you have to create one image file for each of the ones we have specified in 
 
 Create them in this path (as set in the configuration) `ItemsAdder\data\resource_pack\assets\myitems\textures\example_hud\`
 
-![](<../../../../.gitbook/assets/image (50) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (50) (1) (1) (1).png>)
 
 Done!
 

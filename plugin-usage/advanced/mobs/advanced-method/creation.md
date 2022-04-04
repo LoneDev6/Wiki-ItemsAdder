@@ -63,7 +63,7 @@ Click on the **ItemsAdder** tab and press **Settings**.
 Here you have to decide a namespace for your custom entities.\
 The default one is `custom`, but you should decide your own, for example `my_entities`, `hell_mobs`, `npcs`...
 
-![](<../../../../.gitbook/assets/image (99) (1).png>)
+![](<../../../../.gitbook/assets/image (99) (1) (1).png>)
 
 The other thing you might need to change is the "**Model Scaling Mode**":
 

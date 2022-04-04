@@ -36,7 +36,7 @@ You can also decide max angles for X and Y rotation.
 
 The head bone is now marked as head, as you can see (the smiley face is the head bone).
 
-![](<../../../../.gitbook/assets/image (51).png>)
+![](<../../../../.gitbook/assets/image (51) (1).png>)
 
 ### Configure eyes height (optional)
 

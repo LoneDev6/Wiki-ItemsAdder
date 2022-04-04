@@ -47,6 +47,8 @@
     * [Animation and emission not working](faq/armors-bugs/animation-and-emission-not-working.md)
     * [Leather armor texture overwritten](faq/armors-bugs/leather-armor-texture-overwritten.md)
   * [Remove pack on server change](faq/remove-pack-on-server-change.md)
+  * [💃 Emotes bugs](faq/emotes-bugs/README.md)
+    * [Textures broken by shaders mod](faq/emotes-bugs/textures-broken-by-shaders-mod.md)
   * [Single resourcepack Bungeecord](faq/single-resourcepack-bungeecord.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [🇬🇧 Languages](plugin-usage/languages.md)

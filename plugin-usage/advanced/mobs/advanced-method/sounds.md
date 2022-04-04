@@ -4,7 +4,7 @@
 
 Switch to "**Animate**" view.
 
-![](<../../../../.gitbook/assets/image (50).png>)
+![](<../../../../.gitbook/assets/image (50) (1).png>)
 
 Select one of your animations.
 
