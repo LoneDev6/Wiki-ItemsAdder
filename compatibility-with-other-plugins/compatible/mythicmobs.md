@@ -1,16 +1,16 @@
 # Mythicmobs
 
-### [Download here](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
+### [הורידו כאן](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
 
-## Using an ItemsAdder items in MythicMobs&#x20;
+## שימוש בפריטים של ItemsAdder ב-MythicMobs&#x20;
 
 {% hint style="warning" %}
-Update to **ItemsAdder 3.0.4** or greater and **MythicMobs 5.0.1** or greater
+עדכנו את הפלגינים ל-**ItemsAdder 3.0.4** ומעלה ול-**MythicMobs 5.0.1** ומעלה
 {% endhint %}
 
-### Drops
+### דרופים
 
-Example: drop a custom item by 30% chance and 1 to 5 amount.
+דוגמה: הורדת פריט בסיכוי של 30% ובסכום של 1 עד 5.
 
 ```yaml
 ninja_skeleton:
@@ -29,7 +29,7 @@ ninja_skeleton:
   - customentity{walk=b_walk} @self ~onAttack
 ```
 
-### Equipment
+### ציוד
 
 ```yaml
 SkeletalKnight:
@@ -46,8 +46,8 @@ SkeletalKnight:
   - my_items:special_shield OFFHAND
 ```
 
-## Custom mobs models
+## מודלים של מובים
 
 {% content-ref url="../../plugin-usage/advanced/mobs/advanced-method/" %}
-[advanced-method](../../plugin-usage/advanced/mobs/advanced-method/)
+[שיטה מתקדמת](../../plugin-usage/advanced/mobs/advanced-method/)
 {% endcontent-ref %}
