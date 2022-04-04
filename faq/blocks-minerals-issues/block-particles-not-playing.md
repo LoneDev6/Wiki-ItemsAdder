@@ -1,7 +1,7 @@
-# Block particles not playing
+# חלקיקי בלוק לא פועלים
 
-* close your game
-* open the game folder (should be in `%appdata%\.minecraft\` )
-* open `options.txt`
-* set `particles:0`
-* start the game
+* סגרו את המשחק
+* פתחו את התיקייה (אמור להיות ב `%appdata%\.minecraft\` )
+* פתחו את `options.txt`
+* הגדירו את `particles:0`
+* הפעילו את המשחק

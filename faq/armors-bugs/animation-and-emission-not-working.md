@@ -1,8 +1,8 @@
-# Animation and emission not working
+# אנימציות לא עובדת
 
 {% hint style="warning" %}
-Animation and emission won't be shown if the client uses:
+אנימציות לא יעבדו אם שחקנים משתמשים ב:
 
-* ****[**Fabulously Optimized**](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) modpack
-* Mods which are meant to replace **Optifine**
+* ****[**Fabulously Optimized**](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized) מודפאק
+* מודים אשר מיועדים להחליף את **Optifine**
 {% endhint %}

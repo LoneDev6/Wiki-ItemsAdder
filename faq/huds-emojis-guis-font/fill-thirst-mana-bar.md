@@ -1,23 +1,23 @@
-# 💧 Thirst/mana bar
+# 💧 בר צמא/מנה
 
-## Fill them
+## מלא אותם
 
-To fill the thirst bar use `/iaplayerstat write LoneDev thirst float 10`
+עשו את הפקודה בשביל למלא 10 `/iaplayerstat write LoneDev thirst float 10`
 
 ![](<../../.gitbook/assets/immagine (2).png>)
 
-To fill the manabar use `/iaplayerstat write LoneDev mana float 5`
+בשביל למלות את את בר מנה עד הסוף `/iaplayerstat write LoneDev mana float 5`
 
 ![](<../../.gitbook/assets/immagine (3).png>)
 
-## Disable thirst
+## לבטל את בר הצמא
 
-* open plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml
-* set enabled: false
-* use /iareload command
+* פתחו plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml
+* הגדירו enabled: false
+* עשו את הפקודה /iareload command
 
-## Disable mana
+## השבתת בר המנה
 
-* open plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml
-* set enabled: false
-* use /iareload command
+* פתחו plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml
+* הגדירו enabled: false
+* עשו /iareload command

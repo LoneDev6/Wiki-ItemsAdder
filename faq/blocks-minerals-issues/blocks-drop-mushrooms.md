@@ -1,22 +1,22 @@
-# Blocks drop Mushrooms, Chorus, Noteblocks
+# בלוקים מפילים פיטריות, פירות קורוס, בלוקי צליל
 
-### First reason
+### סיבה ראשונה
 
-If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2)installed [read this](https://github.com/LoneDev6/ItemsAdder/issues/123)
+אם יש לכם [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchants2)installed [read this](https://github.com/LoneDev6/ItemsAdder/issues/123)
 
-### Second reason
+### סיבה שנייה
 
-Did you delete the custom blocks folders in your world? Don't do it.
+האם מחקתם את תיקיות הבלוקים המותאמים אישית בעולם שלכם? אל תעשו את זה.
 
 ![](<../../.gitbook/assets/immagine (98).png>)
 
-If you delete it you lose every custom ItemsAdder block data in the world.
+אם תמחק אותו אתה מאבד כל נתוני חסימה מותאמים אישית של ItemsAdder בעולם.
 
-### Third reason
+### סיבה שלישית
 
-Corrupted chunk. This can happen if you:
+נתח פגום. זה יכול לקרות אם אתם:
 
-* killed the server while it was saving an IA region file
-* full disk problem which blocked saving of files
-* reloaded the plugin using **Plugman** or similar
-* reloaded the server using `/reload` command
+* סגרתם את השרת את השרת בזמן שהוא שמר קובץ של IA
+* בעיות דיסק מלא שחסמה שמירת קבצים
+* טענתם מחדש את הפלאגין באמצעות **Plugman** או משהו דומה
+* טענתם מחדש את השרת באמצעות הפקודה `/reload`

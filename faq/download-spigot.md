@@ -1,16 +1,16 @@
-# Download Spigot
+# להוריד Spigot
 
-## How to download Paper (alternative to Spigot)
+## איך להוריד Paper (תחליף ל Spigot)
 
 {% embed url="https://papermc.io/downloads" %}
 
-## How to download Spigot
+## איך להוריד Spigot
 
-Watch this tutorial:
+ראו את המדריכים האלה:
 
 {% embed url="https://www.youtube.com/watch?v=VzZcgnWJSEg" %}
 
-## How to download Purpur
+## איך להוריד Purpur
 
 {% embed url="http://purpur.pl3x.net" %}
 

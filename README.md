@@ -1,8 +1,8 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+description: האתר הזה עוזר לכם להבין ולערוך את הפאלגין שלי
 ---
 
-# 👋 Welcome
+# 👋 ברוכים הבאים
 
 * [Patreon](http://patreon.com/lonedev)
 * [Ko-fi](http://a.devs.beer/kofi)
@@ -11,3 +11,5 @@ description: This website helps you configuring and creating custom items for my
 * [Website](https://www.matteodev.it)
 * [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
+* התרגום לעברית נעשה באדיבות: [IMS-Network](https://israelmincraftml.wixsite.com/ims-network/en)
+* Translated By IMS - Network Team For The Amazing IA comunity

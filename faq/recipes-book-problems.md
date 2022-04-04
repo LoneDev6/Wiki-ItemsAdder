@@ -1,25 +1,25 @@
-# Recipes book problems
+# בעיות בספר המתכונים
 
 {% hint style="info" %}
-These limitations are valid for EVERY Spigot plugin that creates custom recipes with custom items as ingredients, it's not an ItemsAdder bug and I can't fix it in any way.
+מגבלות אלו תקפות עבור כל פלאגני Spigot שיוצרים מתכונים מותאמים אישית עם פריטים מותאמים אישית כמרכיבים, זה לא באג של ItemsAdder ואני לא יכול לתקן את זה בשום אופן.
 
-Please don't report these bugs, I can't really do anything to fix this problem, it's a Minecraft limitation.
+בבקשה אל תדווח על הבאגים האלה, אני לא באמת יכול לעשות שום דבר כדי לתקן את הבעיה הזו, זו מגבלה של Minecraft.
 {% endhint %}
 
-## "Showing Craftable" button not working correctly
+## כפתור "מציג נתינים לצירה"
 
-"Showing Craftable" button doesn't work with recipes that use custom items as ingredients.
+כפתור "מציג נתינים לצירה" לא עובד עם מתכונים המשתמשים בפריטים מותאמים אישית כמרכיבים.
 
 ![](<../.gitbook/assets/immagine (148).png>)
 
-### How to fix?
+### איך לתקן את זה?
 
-Set the button like that when you want to find an ItemsAdder recipe in the book.
+הגדר את הכפתור כך כאשר אתה רוצה למצוא מתכון של ItemsAdder בספר.
 
 ![](<../.gitbook/assets/immagine (157).png>)
 
-## Red recipes even if ingredients are in inventory
+## מתכונים אדומים גם אם המרכיבים נמצאים במלאי
 
-There is no fix for this, it's a Minecraft bug.
+אין תיקון לזה, זה באג של Minecraft.
 
 ##

@@ -1,8 +1,8 @@
-# ☕ Java API
+# ☕ ג'אווה API
 
-## Installing the API
+## התקנה הAPI
 
-You just have to use **maven** or **gradle**, you can get the **API** here
+אתם רק צריך להשתמש ב-**maven** או **gradle**, אתם יכול להשיג את **API** כאן
 
 {% embed url="https://github.com/LoneDev6/ItemsAdder-API#-packages" %}
 
@@ -26,10 +26,10 @@ You just have to use **maven** or **gradle**, you can get the **API** here
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder" %}
 
-## Important notes
+## הערות חשובות
 
 {% hint style="warning" %}
-It's very important to listen to the [ItemsAdderLoadDataEvent ](events.md#itemsadderloaddataevent)event in order to make sure items are correctly loaded before accessing them.
+חשוב מאוד להציב "מקשיב" ל [ItemsAdderLoadDataEvent ](events.md#itemsadderloaddataevent)אירוע על מנת לוודא שהפריטים נטענים כהלכה לפני הגישה אליהם.
 
-**ItemsAdder loading** is **async** that's why.
+**טעינת ItemsAdder** היא **אסינכרית** וזו הסיבה.
 {% endhint %}

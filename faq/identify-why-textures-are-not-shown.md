@@ -1,15 +1,15 @@
-# 🔍 Identify why textures are not shown
+# 🔍 זהו מדוע טקסטורות אינם מוצגים
 
-### Enable output log
+### אפשרו יומני לוג
 
 ![](<../.gitbook/assets/immagine (135).png>)
 
-### Join the server and read the log
+### התחברו לשרת וקרא את הלוג בקונסולה
 
 ![](<../.gitbook/assets/immagine (139).png>)
 
-### Find out which file is broken
+### גלו איזה קובץ שבור
 
-You can clearly see which files failed to load and why, the errors are clear in most of the cases.\
-In this example i had two broken files `gem_vending_machine` and `whitebathroom_sink`. \
-The error tells me that the json files are broken, they probably have bad characters inside or they are corrupted.
+אתם יכולים לראות בבירור אילו קבצים לא הצליחו לטעון ומדוע, השגיאות ברורות ברוב המקרים.\
+בדוגמה הזו היו לי שני קבצים שבורים `gem_vending_machine` ו `whitebathroom_sink`. \
+השגיאה אומרת לי שקבצי ה-json שבורים, כנראה יש בהם תווים גרועים או שהם פגומים.

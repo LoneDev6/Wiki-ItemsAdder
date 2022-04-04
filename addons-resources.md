@@ -1,6 +1,6 @@
-# 💽 Addons/resources
+# 💽 תוספות/משאבים
 
-## Get the addons here:
+## קבלו תוספים פה:
 
 {% embed url="https://addons.devs.beer/itemsadder/" %}
 

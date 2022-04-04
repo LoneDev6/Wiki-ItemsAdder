@@ -1,5 +1,6 @@
-# ❓ Frequently asked questions
+# ❓ שאלות נפוצות
 
-_**What type of items/weapons/bows exists? Can I create item X, weapon Y... can I add this attribute, can I, can I, can I??? Has the plugin this feature? Why I have this problem and that problem?**_
+_**איזה סוג של פריטים/נשקים/קשתות קיים? האם אני יכול ליצור פריט X, נשק Y... האם אני יכול להוסיף את התכונה הזו, האם אני יכול, האם אני יכול, האם אני יכול??? האם לפלאגין יש תכונה זו? למה יש לי את הבעיה הזו והבעיה הזו?**_
 
-I wrote this wiki and its tutorials as clear as possible, so please don't send me support requests for the first problem you encounter configuring the plugin or if you have questions. Please before doing this use the wiki and also its search bar on the top. Thanks!
+כתבתי את הוויקי הזה ואת המדריכים שלו ברורים ככל האפשר, אז בבקשה אל תשלחו לי בקשות תמיכה לבעיה הראשונה שבה אתם נתקלים בהגדרת הפלאגין או אם יש לך שאלות. 
+אנא, לפני שתעשו זאת, השתמשו בוויקי וגם בסרגל החיפוש שלו בחלק העליון. תודה!

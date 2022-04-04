@@ -1,10 +1,10 @@
-# I can't find any mineral/ore
+# אני לא מוצא שום מינרלים/משאבים
 
-## Common causes of this can be:
+## סיבות נפוצות לכך יכולות להיות:
 
-* you are searching ores in a **pregenerated world**. \
-  Ores will spawn only on new generated chunks (generated after ItemsAdder installation).\
-  This is exactly how vanilla Minecraft works. You don't get new ores in old chunks when you update the game.
-* you are searching ores around **spawn location**. Please try to **teleport far** from **spawn**
-* you are searching ores in a world with a custom name.\
-  You have to add the world name in the file: `plugins\ItemsAdder\data\items_packs\itemsadder\blocks.yml` for **each ore** configuration**.**
+* אתם מחפשים משבאים ב**עולם שנוצר מראש**. \
+ עפרות ייווצרו רק על צ'אנקים חדשים שנוצרו (נוצרים לאחר התקנת ItemsAdder).\
+  כך בדיוק עובד המיינקראפט. אתם לא רואים משאבים חדשים בצ'אנקים ישנים כשאתם מעדכנים את המשחק.
+* אתה מחפשים משאבים סביב **מיקום של הספאון**.נסו **להשתגר רחוק** מ**הספאון**
+* אתם מחפשים משאבים בעולם עם שם מותאם אישית.\
+ עליכם להוסיף את שם העולם בקובץ: `plugins\ItemsAdder\data\items_packs\itemsadder\blocks.yml` עבור ההגדרה של **כל המשאבים****.**

@@ -1,8 +1,8 @@
-# Examples
+# דוגמאות
 
-## Custom items
+## פריטים מותאמים אישית
 
-### Getting a custom item of any type (block, item, hat, food..) by id or namespace:id
+### קבלת פריט מותאם אישית מכל סוג (בלוק, פריט, כובע, אוכל..) לפי id או namespace:id
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -18,7 +18,7 @@ else
 }
 ```
 
-### Checking if a custom item exists
+### בודק אם קיים פריט מותאם אישית
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -26,13 +26,13 @@ else
 boolean exists = CustomStack.getInstance("your_item") != null;
 ```
 
-or you can also use the old method which is not allocating anything.
+או שאתם יכולים גם להשתמש בשיטה הישנה שאינה מקצה דבר.
 
 ```java
 ItemsAdder.isCustomItem("your_item");
 ```
 
-### Getting the custom item data from an ingame ItemStack
+### קבלת נתוני הפריטים המותאמים אישית מ-ItemStack בתוך המשחק
 
 ```java
 CustomStack stack = CustomStack.byItemStack(myItemStack);
@@ -46,9 +46,9 @@ else
 }
 ```
 
-## Custom Blocks
+## בלוקים מותאמים אישית
 
-#### Check if world block is a custom blocks
+#### בדוק אם בלוק עולם הוא בלוקים מותאמים אישית
 
 ```java
 CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
@@ -62,7 +62,7 @@ else
 }
 ```
 
-#### Place custom block
+#### הצב בלוק מותאם אישית
 
 ```java
 CustomBlock customBlock = CustomBlock.getInstance("ruby_ore");
@@ -77,9 +77,9 @@ else
 }
 ```
 
-## Custom mobs
+## אספסוף מותאמים אישית
 
-### Spawn a custom mob by id or namespace:id
+### הוליד אספסוף מותאם אישית לפי id או namespace:id
 
 [CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
@@ -98,7 +98,7 @@ else
 }
 ```
 
-### Get custom mob by mob already spawned in the world
+### קבל אספסוף מותאם אישית אחר אספסוף שכבר נוצר בעולם
 
 [CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
@@ -117,7 +117,7 @@ else
 }
 ```
 
-## Liquids API
+## API של נוזלים
 
 Please also install [IALiquids ](https://www.spigotmc.org/resources/84386)addon to have some test liquids
 

@@ -1,60 +1,60 @@
-# Translate this wiki
+# תרגמו את הויקי
 
-## How to translate this wiki?
+## איך לתרגם את הויקי?
 
-### Getting a new branch for your language
+### יצירת ענף בשביל השפה שלכם.
 
-Contact LoneDev and ask him to create a **new branch** for your language.\
-Feel free to ping **LoneDev** on the Discord or to open a support ticket in the community channel.
+דברו אם LeonDev ותבקשו ממנו שיצור לכם **ענף חדש** בשביל השפה שלכם.\
+תייגו את **LoneDev** בדיסקרוד או בטיקט מיוחד.
 
-### Setting up your repository
+### הגדרת המאגר שלך
 
-Then, after the branch creation, open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
+אחרי שיצרתם ענף תעשו [מאגר **Github**](https://github.com/LoneDev6/Wiki-ItemsAdder) של הויקי, לחצו על **`Fork`**.
 
 ![](<../.gitbook/assets/image (163).png>)
 
-Click here to change the branch.
+לחצו כאן בשביל לשנות ענף.
 
 {% hint style="warning" %}
-DO NOT EDIT THE `master` BRANCH!
+לא לערוך את ה `master` ענף!
 {% endhint %}
 
 ![](<../.gitbook/assets/image (151).png>)
 
-Select a file you want to edit and press the **pen** button
+בחרו בקובץ שאתם רוצים לערוך, ולחצו על **עט**
 
 ![](<../.gitbook/assets/image (81).png>)
 
-Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
+ערכו את הקובץ ולאחר מכן הקישו על <mark style="color:green;">**אישור שינויים**</mark>
 
 ![](<../.gitbook/assets/image (111).png>)
 
 {% hint style="warning" %}
-## Important notes
+## הערות חשובות
 
-* Do not add content or new pages, only translate texts.
-* The only content you can add is a "translated by" text in the welcome page.
-* Do not remove the `#` special characters, translate only the next text, these are titles.
-* Do not remove or edit special texts inside `{ }`, for example `{% hint style="info" %}`, these are used to create the hint message boxes.
-* Do not remove `*` character, these are used to create lists
-* Do not remove emojis
-* Do not translate or remove the `--- description: ---` text on top of some pages, translate only the inner text.
-* Do not remove `\` on some lines end
-* Do not remove `[TEXT](LINK)` part, translate only the text, these are the clickable links.
+* אין להוסיף תוכן או דפים חדשים, רק לתרגם טקסטים.
+* התוכן היחיד שאתם יכולים להוסיף הוא טקסט "מתורגם על ידי" בדף הפתיחה.
+* אל תמחקו את התווים המיוחדים '#', תרגמו רק את הטקסט הבא, אלו הן כותרות.
+* אין להסיר או לערוך טקסטים מיוחדים בתוך `{ }`, למשל `{% hint style="info" %}`, אלה משמשים ליצירת תיבות הודעות הרמז.
+* לא להסיר את התו '*', הם משמשים ליצירת רשימות
+* לא להסיר אימוג'י
+* אין לתרגם או להסיר את הטקסט `--- description: ---` בראש חלק מהדפים, תרגם רק את הטקסט הפנימי.
+* לא להסיר את '\' בקצה השורות
+* לא להסיר את חלק `[TEXT](LINK)`, תרגם רק את הטקסט, אלו הם הקישורים הניתנים ללחיצה.
 {% endhint %}
 
-### Example of what you _<mark style="color:red;">must not</mark>_ edit
+### דוגמה למה ש<mark style="color:red;">אסור</mark>_ לערוך
 
 ![](<../.gitbook/assets/image (123).png>)
 
-### Last step
+### שלב אחרון
 
-Contact **LoneDev** in order to get your changes reviewed and added to the wiki.\
-Feel free to ping **LoneDev** on the Discord or to open a support ticket in the community channel.
+דברו אם עם **LoneDev** על מנת לבחון את השינויים שלך ולהוסיף אותם לויקי.\
+אתם מוזמנים לעשות פינג **LoneDev** בדיסקורד או לפתוח כרטיס תמיכה בערוץ הקהילה.
 
 {% hint style="info" %}
-Would be good if you update your translation each time the main repository (the one in English) gets edited, to reflect changes.\
-You can keep track of changes in the Discord notification channel.
+יהיה טוב אם תעדכן את התרגום שלך בכל פעם שהמאגר הראשי (master) נערך, כדי לשקף שינויים.\
+אתה יכול לעקוב אחר שינויים בערוץ ההתראות של Discord.
 
 ![](<../.gitbook/assets/image (102).png>)
 {% endhint %}

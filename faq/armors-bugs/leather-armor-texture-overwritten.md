@@ -1,21 +1,21 @@
-# Leather armor texture overwritten
+# טקסטורת ארמור עור מוחלפת
 
-## Leather layers keep getting overwritten by ItemsAdder
+## שכבות עור מתחלפות על ידי ItemsAdder
 
 ![](<../../.gitbook/assets/image (99).png>)
 
-ItemsAdder automatically overwrites leather layers textures in order to create custom armors.\
-Custom armors are created using colored leather, but the default Minecraft leather armor texture doesn't look like a texture made of minerals.
+הפלאגין ItemsAdder מחליף אוטומטית טקסטורות של שכבות עור על מנת ליצור ארמורים מותאמים אישית.\
+ארמורים מותאמים אישית נוצרים באמצעות עור צבעוני, אך טקסטורת ארמור מעור היא של מיינקראפט המוגדרת כברירת מחדל ולא נראת כמו טקסטורה העשויה על ידי הפלאגין.
 
-In some servers you might not need this feature at all and you could prefer to have the vanilla leather armor layers texture instead, or use your own custom one.
+בשרתים מסוימים, ייתכן שלא תזדקקו לתכונה זו כלל ותוכל להשתמש בטקסטרוה של שכבות הארמור מעור שמגיע אם מיינקרפט במקום האפשרות הזאת או להשתמש באחד הארמורים המותאם אישית שלכם.
 
-## How to disable this?
+## איך לבטל את זה?
 
 {% hint style="warning" %}
-This requires ItemsAdder 2.5.2+
+בשביל זה צריך גרסאת ItemsAdder 2.5.2+
 {% endhint %}
 
-To disable this you just have to set this option in config.yml of ItemsAdder and run `/iazip` again (then [host the pack](../../plugin-usage/resourcepack-hosting/) if needed).
+בשביל לבטל את צריך צריך לפתוח את הקובץ config.yml ב ItemsAdder עשו את הפקודה `/iazip` שוב פעם (אחרי זה [העלו האת הטקסטורה לאחסון](../../plugin-usage/resourcepack-hosting/) אם צריך).
 
 {% code title="config.yml" %}
 ```yaml

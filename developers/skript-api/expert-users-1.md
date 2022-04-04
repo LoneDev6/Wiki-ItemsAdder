@@ -1,22 +1,22 @@
-# Expert users
+# משתמשים מומחים
 
-## Installing the required dependencies
+## התקנת דברים נדרשים
 
-* Install [skript](https://github.com/SkriptLang/Skript/releases)
-* Install [skript-mirror](https://skripttools.net/addons?q=mirror)
+* התקינו [skript](https://github.com/SkriptLang/Skript/releases)
+* התקינו [skript-mirror](https://skripttools.net/addons?q=mirror)
 
 {% hint style="info" %}
-To get more info about **skript-mirror** please read its [wiki](https://skript-mirror.gitbook.io/docs/)
+כדי לקבל מידע נוסף על **skript-mirror** אנא קראו את זה [wiki](https://skript-mirror.gitbook.io/docs/)
 {% endhint %}
 
 {% hint style="danger" %}
-### Please **do not ask** for **support** for **skript** related issues or questions.
+### אנא **אל תבקש** **תמיכה** עבור בעיות או שאלות הקשורות ל**סקריפ**.
 
-I'm not a skript expert and I'm not the developer of **skript** nor **skript-mirror**.\
-**Every question about skript will be ignored**, I hope you understand.
+אני לא מומחה לתסריט ואני לא המפתח של **סקריפ** וגם לא **סקריפטים**.\
+**כל שאלה לגבי סקריפטים תתעלם**, אני מקווה שהבנתם.
 {% endhint %}
 
-## Examples
+## דוגמאות
 
 {% tabs %}
 {% tab title="Getting item on command" %}

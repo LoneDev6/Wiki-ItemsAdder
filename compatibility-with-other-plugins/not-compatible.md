@@ -1,11 +1,10 @@
-# Not compatible
+# לא תואם
 
-_**Is it compatible with plugin X?**_
+_**האם זה תואם את הפאלגין X?**_
 
-I can't answer surely to this question because I can't know how every plugin in the world is coded, but here is a list of plugins that can cause problems:
-
-* All plugins that uses **custom resourcepacks** (you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done)
-* [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/), this plugin messes up ItemsAdder custom recipes logic and creates duplication bugs. So please don't use it
-* Plugins that customize crafting table behaviour and recipes
-* [LootChest ](https://www.spigotmc.org/resources/lootchest.61564/)can cause some [problems](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
-* For now it's **not compatible** with **plugins** and world generators that **spawn mushroom** blocks with different faces to create custom textures. In the future I will add compatibility.
+אני לא יכול לענות על השאלה הזאת, יש המון פלאגינים בעולם אי אפשר לדבדוק כל אחד אבל מה שכן ידוע לי:
+* כל הפלאגינים שמשתמשים **בטקסטורות**(אפשר לעשות אותם תואמים לפאגין אם יש לכם מינימום נסיון בחיבור טקסטורות, לא משנה מה לא להחליף את הקבצים של ItemsAdder)
+* [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/), הפלאגין הזה משחק אם מנגנון המלאכה של ItemsAdder מתכונים משותפים יוצרים באגים, וכפילויות בקבצים. בבקשה לא לעשות שימוש בפאלגין הזה
+* כל פלאגין שמשתמש במערכת מלאכה\קראפטינג 
+* [LootChest ](https://www.spigotmc.org/resources/lootchest.61564/)יכול ליצור קצת [בעיות](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
+* כרגע הפלאגין הוא **לא תואם** וגם כל **פלאגינים** שעושים שימוש ב**שיגור פיטריות** בטקסטורה בשילוב פאות שונות בשביל ליצור טקסטורות מיוחדות. אולי בעתיד יהיה תאימות לפאלגינים מסוג הזה.

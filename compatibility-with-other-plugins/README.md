@@ -1,2 +1,2 @@
-# ✅ Compatibility with other plugins
+# ✅ תאימות אם פלאגינים
 

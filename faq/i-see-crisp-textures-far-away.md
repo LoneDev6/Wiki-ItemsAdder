@@ -1,19 +1,18 @@
-# I see crisp textures far away!
+# אני רואה טקסטורות חדות מרחוק!
 
 {% hint style="warning" %}
-If you see dotted and not smooth textures in far away it's a common mistake of resourcepacks maker.\
-Minecraft has a bug that disables mipmap if you set textures which their size is not a multiple of two
+אם אתם רואה טקסטורות מנוקדות ולא בלוקים מרחוק, זו טעות נפוצה של מנגנון הטקסטורה.\
+למיינקראפט יש באג שמנטרל את mipmap אם אתם מגדיר מרקמים שגודלם אינו כפולה של שתיים
 {% endhint %}
 
-![LEFT: without mipmap. RIGHT: with mipmap](<../.gitbook/assets/image (19).png>)
+![שמאל: ללא mipmap פעיל. ימין: אם mipmap פועל](<../.gitbook/assets/image (19).png>)
 
-## **How to fix?**
+## **איך לתקן את זה?**
 
-It's easy! Just follow this:
+זה קל! פשוט עקובו אחר המדריך הזה:
+* פתחו את הלוג של מיינקראפט לא את הלוג של **השרת** (בדרך כלל זה נמצא ב `%appdata%\.minecraft\logs\latest.log` אם לא בבקשה תסתכלו בתוך `%appdata%\.minecraft\logs\`) 
+* חפשו את הטקסט הזה `limits mip level`.
+* מצאו את הטקסטורה הבעייתית לדוגמא:  `Texture mcicons:item/icon_toggle_off אם הגודל 30x30 הגודל המקסימלי של ה Mip הוא 3 עד 1 `
+* תקנו את הטקסטורה. כדי לתקן את הבעייה, עלייכם לשנות את הגודל של הטקסטורות לגודל של: 16x16, 32x32, 64x64, 128x128, 256x256, אתם צריכים לבחור אחד מאלה.
 
-* open your Minecraft GAME log file, **not server** logs (usually it's in `%appdata%\.minecraft\logs\latest.log` if not please search inside this folder `%appdata%\.minecraft\logs\`)
-* search for this text `limits mip level`
-* identify the problematic texture, for example `Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1`
-* Fix the texture. To fix it you have to resize it to a size of: 16x16, 32x32, 64x64, 128x128, 256x256, you decide one of these.
-
-Done!
+סיימתם!

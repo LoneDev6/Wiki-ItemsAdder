@@ -1,10 +1,10 @@
 ---
-description: Edit default minecraft json files and predicates.
+תיאור: עריכת קבצי Json של Minecraft ברירת המחדל וה predicates.
 ---
 
-# Can't edit minecraft default files
+# לא יכול לערוך את הקבצים של מיינקרפט
 
-To edit default minecraft json files you have to set this setting to `false` in `config.yml` of **ItemsAdder**.
+כדי לערוך קובצי json של minecraft כברירת מחדל, עליכם להגדיר את ההגדרה הזו ל `false` בקובץ `config.yml` של **ItemsAdder**.
 
 ```yaml
 overwrite-vanilla-models: false
