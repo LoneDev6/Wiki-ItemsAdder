@@ -1,9 +1,9 @@
 # RPGMoney
 
-## [Download Here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
+## [הורידו כאן](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
 
-* in RPGMoney folder open config.yml and set **apply\_on\_join: false**
-* set item\_icon like this:
+* בתיקייה RPGMoney פיתחו את config.yml והגדירו את **apply\_on\_join: false**
+* הגדירו פריט\_icon כך:
 
 ```yaml
 item_icon:
@@ -12,8 +12,8 @@ item_icon:
   sack_of_money: "itemsadder:sack_of_money"
 ```
 
-* restart the server
+* הפעילו מחדש את השרת
 
 {% hint style="warning" %}
-Be sure not to remove these items from itemsadder folder
+הקפידו לא להסיר פריטים אלה מתיקיית itemsadder
 {% endhint %}
