@@ -1,34 +1,34 @@
 # 1.17.1
 
-## How to optimize it
+## איך לשפר
 
-### 1. Downloading Fabric
+### 1. הורידו Fabric
 
-First you have to download **Fabric** and install it: [https://fabricmc.net/use/](https://fabricmc.net/use/)\
-Click on the "**Download installer**" button:
+שלב ראשון צריך להוריד את **Fabric** והתקינו אותו: [https://fabricmc.net/use/](https://fabricmc.net/use/)\
+לחצו על "**Download installer**":
 
 ![](<../../.gitbook/assets/immagine (115).png>)
 
-### 2. Edit the profile folder (optional step)
+### 2. שנו את ההגדות של הפרופיל (לא חייב)
 
-Click on "**installations**", then press on "**edit**" under the "**Fabric**" installation.
+לחצו על "**התקנות**", ולאחר מכן לחצו על "**ערוך**" תחת הקטגורייה "**Fabric**".
 
 ![](<../../.gitbook/assets/immagine (119).png>)
 
-Change the folder to a new one, for example I created a new profile folder called `Fabric` inside `.minecraft`.
+שנו את שם התיקייה, למשל יצרתי תיקיית פרופיל חדשה בשם `Fabric` בתוך `.minecraft`.
 
 ![](<../../.gitbook/assets/immagine (120).png>)
 
-### 3. Install the optimization mod
+### 3. התקינו את המוד שעושה את השיפורים
 
-Download the mod here: [https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154)
+הורידו מכאן: [https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154)
 
-Open the zip and extract the folders `mods` and `config` inside your `.minecraft` folder (or inside the **Fabric** profile folder).
+פתחו את קובץ ה-zip וחלצו את התיקיות `mods` ו-`config` בתוך תיקיית `.minecraft` שלכם (או בתוך תיקיית הפרופיל **Fabric**).
 
-### 4. Run Fabric
+### 4. הפעילו את המשחק אם Fabric
 
 ![](<../../.gitbook/assets/immagine (117).png>)
 
-### Done!
+### זהו!
 
-Now your game will open and run very fast compared to how the vanilla game runs.
+כעת המשחק שלכם ייפתח וירוץ מהר מאוד בהשוואה לאופן שבו פועל משחק הרגיל.
