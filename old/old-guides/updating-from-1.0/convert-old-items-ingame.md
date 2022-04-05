@@ -1,21 +1,22 @@
-# Convert old items/blocks ingame
+# המרת פריטים/בלוקים ישנים במשחק
+* התרגום הזה בזכר, אבל מתאים לכולם כאחד
 
 {% hint style="danger" %}
-**It's recommended to start a fresh new world and don't use the old one as converters work but are experimental.**
+**מומלץ להתחיל עולם חדש ורענן ולא להשתמש בעולם הישן מכיוון שממירים עובדים אך הם ניסיוניים.**
 {% endhint %}
 
 {% hint style="danger" %}
-These features MAY be laggy, leave them enabled only for some days and then disable them to avoid useless lag.
+תכונות אלו עשויות להיות פגומות, השאר אותן מופעלות רק לכמה ימים ולאחר מכן השבת אותן כדי למנוע השהייה חסרת תועלת.
 {% endhint %}
 
-## How to auto convert old items in your worlds
+## כיצד להמיר אוטומטית פריטים ישנים בעולמות שלך
 
-When you update from ItemsAdder 1.0 to 2.0 you noticed that most of the items has changed, so they are not the same as old items before the update.\
-That's why I had to code a feature that auto replaces old items with new items. This process is run everytime a player opens an inventory in the world (chests, containers.. but NOT their own inventory).
+כיצד להמיר אוטומטית פריטים ישנים בעולמות שלך כאשר אתה מעדכן מ-ItemsAdder 1.0 ל-2.0 שמת לב שרוב הפריטים השתנו, כך שהם אינם זהים לפריטים ישנים לפני העדכון.\
+זו הסיבה שהייתי צריך לקודד תכונה שמחליפה אוטומטית פריטים ישנים בפריטים חדשים. תהליך זה מופעל בכל פעם ששחקן פותח מלאי בעולם (שידות, מכולות.. אבל לא את המלאי שלו).
 
-In order to enable this you have to set this property to true in `converter.yml` of **ItemsAdder 2.0**
+על מנת לאפשר זאת עליך להגדיר את המאפיין הזה כ-true ב-'converter.yml' של **ItemsAdder 2.0**
 
-#### Be sure to set inventory-open: true
+#### הקפד להגדיר את המלאי פתוח: true
 
 ```
 items-auto-update:
@@ -23,11 +24,11 @@ items-auto-update:
   inventory-open: true
 ```
 
-## How to auto convert old blocks placed in worlds
+## כיצד להמיר אוטומטית בלוקים ישנים המוצבים בעולמות
 
-You have to open `converter.yml` and map your own old blocks **model\_id** with the new **namespaced** block of IA 2.0. For example I've already added old ItemsAdder 1.0 blocks map to convert them to 2.0 namespaced blocks.
+עליך לפתוח את `converter.yml` ולמפות את הבלוקים הישנים שלך **model\_id** עם הבלוק **namespaced** החדש של IA 2.0. לדוגמה, כבר הוספתי את מפת הבלוקים הישנה של ItemsAdder 1.0 כדי להמיר אותם לבלוקים עם רווחי שמות 2.0.
 
-#### Be sure to set enabled: true
+#### הקפד להגדיר מופעל: true
 
 ```
 blocks:
