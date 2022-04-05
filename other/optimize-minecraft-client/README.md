@@ -1,11 +1,11 @@
-# ⚡ Optimize Minecraft client
+# ⚡ שפרו את הביצועים של מיינקראפט
 
-## Minecraft is slow
+## מיינקראפט איטי
 
-**Minecraft** is known to be very heavy, the community had fixed most of its problems.
+**מיינקראפט** ידוע כמשחק כבד מאוד אם המון לאגים ובעיות, קהילת המשחק תיקנה את רוב הבעיות של המשחק.
 
 {% hint style="success" %}
-ItemsAdder doesn't require Fabric or other mods to run!
+ItemsAdder לא צריך Fabric או מודים אחרים בשביל לפעול!
 
-This is an optional tutorial for who wants to optimize their game, because it is slow.
+זהו מדריך אופציונלי למי שרוצה לייעל את המשחק שלו\שלה, כי הוא איטי.
 {% endhint %}
