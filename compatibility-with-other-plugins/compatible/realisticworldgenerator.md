@@ -1,22 +1,22 @@
 # RealisticWorldGenerator
 
-## [Download here](https://www.spigotmc.org/resources/realisticworldgenerator-1-8-8-1-16-x.15905/)
+## [הורידו כאן](https://www.spigotmc.org/resources/realisticworldgenerator-1-8-8-1-16-x.15905/)
 
-## Compatibility
+## תאימות
 
 * biomes
 * ores
 * schematics (RWG schematics)
 
 {% hint style="warning" %}
-This works only on ItemsAdder 2.5.2+ and RealisticWorldGenerator 4.30+
+זה עובד רק ב-ItemsAdder 2.5.2+ ו-RealisticWorldGenerator 4.30+
 {% endhint %}
 
-## Warnings
+## אזהרות
 
 {% hint style="danger" %}
-Do not use custom blocks as base ores blocks. This will cause too much lag.\
-Keep using vanilla blocks for this purpose.
+אל תשתמשו בלוקים מיוחדים כבלוקים לבסיס העולם. זה יגרום ליותר מדי לאגים.\
+המשיכו להשתמש בקוביות וניל למטרה זו.
 {% endhint %}
 
 {% code title="ores.yml" %}
@@ -33,20 +33,20 @@ ores:
 {% endcode %}
 
 {% hint style="success" %}
-Use custom blocks only for:
+השתמשן בלוקים מיוחדים רק עבור:
 
 * surfaces
 * ores
 * structures (schematics)
 {% endhint %}
 
-## How to use custom blocks
+## כיצד להשתמש בלוקים מיוחדים
 
-For example let's create a biome which has ruby\_block as top layer.
+לדוגמה, בואו ניצור איזור עם רובי\_block כשכבה עליונה.
 
-Open the `biomes.yml` file of your **RealisticWorldGenerator** world configuration folder.
+פתחו את הקובץ 'biomes.yml' בץוך תיקיית ההגדרות העולמית של **RealisticWorldGenerator** שלכם.
 
-Decide a biome (for example `plains`) and add this as first layer.
+החליטו על איזור (למשל 'plains') והוסיפו את זה כשכבה הראשונה.
 
 {% code title="biomes.yml" %}
 ```yaml
@@ -61,7 +61,7 @@ plains:
 ```
 {% endcode %}
 
-In this example I also modified the `settings.yml` file of this world to make sure only a biome is generated, to find my custom blocks easier.
+בדוגמה זו, שיניתי גם את הקובץ 'settings.yml' של העולם הזה כדי לוודא שרק האיזור הזה נוצר, כדי למצוא את הבלוקים המותאמים אישית שלי בקלות רבה יותר.
 
 {% code title="settings.yml" %}
 ```yaml
@@ -72,9 +72,9 @@ one_biome:
 ```
 {% endcode %}
 
-### This is the final result
+### זו התוצאה הסופית
 
-This is a world with a custom surface
+זהו עולם עם משטח מותאם אישית שלי
 
 ![](<../../.gitbook/assets/image (47).png>)
 
