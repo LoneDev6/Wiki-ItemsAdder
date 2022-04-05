@@ -1,15 +1,15 @@
-# ☠️Some users crash
+# ☠️חלק מהמשתמשים קורסים
 
 {% hint style="success" %}
-This problem was fixed long time ago, if you still have this problem probably it's a bug introduced again by Mojang
+בעיה זו תוקנה לפני זמן רב, אם עדיין יש לכם בעיה זו כנראה שזה באג שהוצג שוב על ידי Mojang
 {% endhint %}
 
-If some of your users crash it's because of a Minecraft bug which is really deep inside game logic.\
-Problem is that some Intel HD Graphics cards have a driver bug that cause game to crash if custom fonts are included in the resourcepack.
+אם חלק מהמשתמשים שלכם קורסים זה בגלל באג של Minecraft שנמצא ממש עמוק בתוך ההיגיון של המשחק.\
+הבעיה היא שבחלק מכרטיסי Intel HD Graphics יש באג במנהל ההתקנים שגורם למשחק לקרוס אם גופנים מותאמים אישית כלולים בחבילת המשאבים.
 
 {% hint style="warning" %}
-Only way to fix this is to disable [custom font](../../plugin-usage/advanced/fonts/method-1.md) functionality of the plugin..\
-Yes I know it's a shame but I can't do much, it's Mojang fault.\
+הדרך היחידה לתקן זאת היא להשבית את הפונקציונליות של [גופן מותאם אישית](../../plugin-usage/advanced/fonts/method-1.md) של הפלאגין..\
+כן אני יודע שזה מבאס אבל אני לא יכול לעשות הרבה, זו בעייה של מוג'אנג.\
 \
-You can read about that here: [https://bugs.mojang.com/browse/MC-176595](https://bugs.mojang.com/browse/MC-176595)
+אתם יכולים לקרוא על כך כאן: [https://bugs.mojang.com/browse/MC-176595](https://bugs.mojang.com/browse/MC-176595)
 {% endhint %}
