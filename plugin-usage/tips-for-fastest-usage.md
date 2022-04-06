@@ -1,8 +1,8 @@
-# 🏁 Tips for fastest usage
+# 🏁 טיפים לשימוש מהיר
 
-## It takes too much time editing the pack and uploading it online!
+## לוקח יותר מדי זמן לערוך את הטקסטורה ולהעלות אותה בחזרה לאחסון!
 
-Yes if you do that the wrong way ;) Read this:
+כן אם אתם לא עושים את זה בצורה  הנכונה ;) קראו את זה:
 
 {% hint style="info" %}
 It's a good practice to create a **test server on your PC** with:
