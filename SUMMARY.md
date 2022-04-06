@@ -2,9 +2,9 @@
 
 * [👋 ברוכים הבאים](README.md)
 * [❤ תרומות - תתמכו בי](https://donate.devs.beer)
-* [⚙ התתקנה ראשונים](first-install.md)
+* [⚙ התקנה ראשונה](first-install.md)
 * [❓ שאלות נפוצות](faq/README.md)
-  * [🔍 אבחנו מדעו לא רואים את הטקסטורות](faq/identify-why-textures-are-not-shown.md)
+  * [🔍 אבחנו מדוע לא רואים את הטקסטורות](faq/identify-why-textures-are-not-shown.md)
   * [⚠ הפלאגין לא עובד!](faq/plugin-doesnt-work.md)
   * [אני רואה בלוקים חדים מידי רחוק מידי!](faq/i-see-crisp-textures-far-away.md)
   * [📷 הטקסטורה לא נטענת](faq/resourcepack-not-loading.md)
