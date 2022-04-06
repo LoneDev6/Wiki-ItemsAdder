@@ -1,16 +1,16 @@
-# 📕 Ask for help
+# 📕 בקשת עזרה
 
 {% hint style="warning" %}
-### Before opening a support ticket&#x20;
+### לפני פתיחת טיקט תמיכה&#x20;
 
-* please make sure to read ALL the wiki
-* don't open support tickets to report bugs, use [this page](report-a-bug.md)
-* ask on the <mark style="color:blue;">`#💬ia-community-help`</mark> channel of the server before opening a support ticket
+* בבקשה קיראו את כל הוויקי
+* אל תפתחו טיקטים בשביל לדווח על באגים, הישתמשו [בדף הזה](report-a-bug.md)
+* שאלו את הקהילה בצ'אט  <mark style="color:blue;">`#💬ia-community-help`</mark> של השרת דיסקורד שלי לפני פתיחת טיקט
 {% endhint %}
 
 {% embed url="https://discord.com/invite/z3rxuWt6FZ" %}
 
-## Report a bug
+## דיווח על באג
 
 {% content-ref url="report-a-bug.md" %}
 [report-a-bug.md](report-a-bug.md)

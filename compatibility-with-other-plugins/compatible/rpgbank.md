@@ -1,8 +1,8 @@
 # RPGBank
 
-## [Download here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
+## [הורידו כאן](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
 
-You can change GUI icons and use ItemsAdder icons to achieve this:
+אתם יכולים לשנות את סמלי התפריט ולהשתמש בסמלים של ItemsAdder כדי להשיג תוצאה כזאת:
 
 ![](<../../.gitbook/assets/image (13).png>)
 

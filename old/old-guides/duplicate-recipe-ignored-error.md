@@ -1,6 +1,6 @@
-# "Duplicate recipe ignored" error
+# שגיאת "Duplicate recipe ignored"
 
-If you get an error similar to this, please update your Paper or Spigot to LATEST version. If it's 1.14.4 version doesn't mean it's updated, you have to download the very latest version of it.
+אם אתם מקבלים שגיאה דומה לזו, בבקשה עדכנו את ה-Paper או Spigot שלכם לגרסה העדכנית ביותר. אם זו גרסה 1.14.4 לא אומר שהיא מעודכנת, אתם ציריכים להוריד את הגרסה העדכנית ביותר.
 
 ```
 Server thread/ERROR Error occurred while enabling ItemsAdder v1.1.27 (Is it up to date?)

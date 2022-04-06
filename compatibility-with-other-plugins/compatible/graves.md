@@ -1,17 +1,17 @@
 # Graves
 
-## [Download here](https://www.spigotmc.org/resources/graves.74208/)
+## [הורידו](https://www.spigotmc.org/resources/graves.74208/)
 
-## How to add compatibility?
+## איך להוסיף תאימות?
 
-Enable the compatibility
+אפשרו את התאימות
 
 ```yaml
 itemsadder: # https://www.spigotmc.org/resources/itemsadder.73355/
   enabled: true # Should ItemsAdder integration be enabled.
 ```
 
-Edit the default option. You can also customize the items if needed (make sure they are of the correct type, use furniture in furniture and use block in the block property).
+ערכו את אפשרות ברירת המחדל. ניתן גם להתאים את הפריטים במידת הצורך (וודאו שהם מהסוג הנכון, השתמשו בריהוט ברהיטים והשתמשו בבלוק בהגדרת הבלוק הבלוק).
 
 ```yaml
   ##############

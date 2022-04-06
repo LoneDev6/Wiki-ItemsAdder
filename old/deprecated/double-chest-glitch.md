@@ -1,9 +1,9 @@
-# Double chest glitch
+# תקלה בתיבות כפולות
 
-## Replacing a double chest which is adjacent to custom blocks causes a visual bug
+## החלפת תיבות כפולות כאשר הן צמודות לבלוקים של הפלאגין גורמות לבאג ויזואלי
 
 {% hint style="warning" %}
-This is a known issue and cannot be fixed easily without making the plugin lag the server.
+זו בעיה ידועה ולא ניתן לתקן אותה בקלות מבלי שהפלאגין יעשה לאגים בשרת .
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/615" %}

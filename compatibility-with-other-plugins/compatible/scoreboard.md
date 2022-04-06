@@ -1,31 +1,31 @@
 # Scoreboard
 
-## [Download here](https://www.spigotmc.org/resources/scoreboard.14754/)
+## [הורידו כאן](https://www.spigotmc.org/resources/scoreboard.14754/)
 
-## Font images
+## תמונות גופנים
 
-You can use [font\_images ](../../plugin-usage/advanced/font-images/)(emojis and symbols) in the **scoreboard**.
+אתם יכולים להשתמש ב-[font\_images ](../../plugin-usage/advanced/font-images/)(אימוג'ים וסמלים) ב**סקורבורד**.
 
-### Example
+### לדוגמא
 
-`%img_smile%` will show like that:
+`%img_smile%` יראה כך:
 
 ![](<../../.gitbook/assets/immagine (95).png>)
 
-## Hide the scoreboard background
+## הסתרת הרקע של הסקורבורד
 
-(works with every scoreboard plugin)
+(עובד עם כל פלאגין סקורבורד)
 
-### Before
+### לפני
 
 ![](<../../.gitbook/assets/immagine (97).png>)
 
-### After
+### לאחר
 
 ![](<../../.gitbook/assets/immagine (96).png>)
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.\
-You just have to add `%img_offset_-500%` in front of **each line** of your scoreboard configuration.
+עם ItemsAdder אתם יכול להסתיר את הרקע של הסקורבורד, פשוט השתמש בטריק הזה.\
+אתם רק צריך להוסיף `%img_offset_-500%` לפני **כל שורה** בהגדרות של הסקורבורד.
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
@@ -119,7 +119,7 @@ board:
         - '%img_offset_-500%&4------------------------'
 ```
 
-## Hide the red numbers from Scoreboard
+## הסתרת המספרים האדומים מהסקורבורד
 
 {% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
 [hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)

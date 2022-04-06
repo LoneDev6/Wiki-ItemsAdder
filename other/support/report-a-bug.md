@@ -1,5 +1,5 @@
-# 🐞 Report a bug
+# 🐞 דווח על באג
 
-## To report a bug please click here:
+## לדיווח על באג לחצו כאן:
 
 {% embed url="https://github.com/LoneDev6/ItemsAdder/issues" %}

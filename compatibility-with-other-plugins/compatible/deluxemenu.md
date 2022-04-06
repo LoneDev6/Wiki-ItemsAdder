@@ -1,14 +1,14 @@
 # DeluxeMenu
 
-To show an ItemsAdder item with custom texture on **DeluxeMenu** you have to add this special attribute to the icon of your menu:
+כדי להציג פריט ItemsAdder עם בשימוש הטקסטורה ב-** DeluxeMenu ** עלייכם להוסיף את התכונה המיוחדת הזו לסמל של התפריט שלכם:
 
 ```yaml
 nbt_int: CustomModelData: 1
 ```
 
-Instead of 1 you have to set the **CustomModelData** of your custom item.
+במקום הראשון עלייכם להגדיר את **CustomModelData** של הפריט.
 
-### How to get the CustomModelData value?
+### כיצד לקבל את הערך CustomModelData?
 
-You have to use the command `/iatag` while holding an ItemsAdder item, then search for `CustomModelData` value.
+אתם צריכים להשתמש בפקודה `/iatag` תוך כדי החזקת פריט ItemsAdder, ולאחר מכן לחפש את הערך `CustomModelData`.
 

@@ -1,9 +1,9 @@
-# Glitched REAL blocks - redstone
+# גליצ'ים ב REAL בלוקים - רדסטון
 
-## Placing Redstone on top of custom blocks can make them update and revert to Mushroom Blocks
+## הצבת Redstone על גבי בלוקים מותאמים אישית יכולה לגרום להם להתעדכן ולחזור ל- Mushroom Blocks
 
 {% hint style="warning" %}
-This is a known issue and cannot be fixed easily without making the plugin lag the server.
+זו בעיה ידועה ולא ניתן לתקן אותה בקלות מבלי שהפלאגין יעשה לאגים בשרת.
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" %}

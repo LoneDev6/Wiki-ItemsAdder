@@ -1,65 +1,65 @@
 ---
-description: Worldguard flags list
+תיאור: רשימת הכללים של Worldguard
 ---
 
 # WorldGuard
 
-## Flags list
+## רשימת הכללים
 
 ### ia-furniture-sit
 
-This flags allows your players to sit on furnitures or not (furnitures with `furniture_sit` [behaviour](../../plugin-usage/advanced/item-properties/behaviours.md))
+כלל הזה מאפשר לשחקנים שלכם לשבת על רהיטים או לא (ריהוט עם `furniture_sit` [התנהגות](../../plugin-usage/advanced/item-properties/behaviours.md))
 
 ### ia-campfire-item-add
 
-Allow user to move item to campfire
+אפשר לשקחנים להעביר להזיז מדורות
 
 ### ia-campfire-item-remove
 
-Allow user to remove item from campfire
+אפשרו לשחקנים לשבור מדורות
 
 ### ia-vehicle-place
 
-Allow user to place vehicles in the region
+אפשר לשקחנים להציב ולהישתמש בכלי רכב באזור
 
 ### ia-vehicle-remove
 
-Allow user to remove ANY vehicle in the region
+אפשר לשחקנים להסיר כל רכב באזור
 
 ### ia-vehicle-personal-remove
 
-allow user to remove only their own vehicles in the region
+לאפשר לשקחנים להסיר רק את כלי הרכב שלהם באזור
 
 ### ia-vehicle-sit
 
-Allow user to sit on any vehicle in the region
+אפשר לשחקנים לשבת על כל רכב באזור
 
 ### ia-vehicle-personal-sit
 
-allow user to sit only on their own vehicles in the region
+לאפשר לשחקנים לשבת רק על כלי הרכב שלהם באזור
 
 ### ia-trade-machine-use
 
-allow user to use trade machines
+לאפשר לשחקנים להשתמש במכונות סחר
 
 ### ia-placed-block-interact
 
-allow user to trigger placed\_block.interact events
+לאפשר לשחקנים להפעיל אירועים מוצבים\_block.interact
 
 ### ia-placed-armorstand-interact
 
-allow user to trigger placed\_armorstand.interact events
+אפשר לשחקנים להפעיל אירועי place\_armorstand.interact
 
 {% hint style="info" %}
-Set **ia-vehicle-sit** to Deny and **ia-vehicle-personal-sit** to Allow to let your players only sit on personal vehicles
+הגדירו את **ia-vehicle-sit** לדחיית ו-**ia-vehicle-personal-sit** לאפשר לשחקנים שלכם לשבת רק על כלי רכב אישיים
 {% endhint %}
 
-## Common issues
+## בעיות נפוצות
 
 {% hint style="warning" %}
-If your users **cannot sit** on **furnitures** even if you set the correct flag:
+אם השחקנים שלכם **לא יכולים לשבת** על **רהיטים** גם אם הגדרתם את הדגל הנכון:
 
-* check if you are using the `__global__ region` as your main region (the one on which you applied the furniture flag). If yes, please create a new region. global region is known to give some issues with some plugins flags.
-* check if you set the `build` or `passthrough` flag. \
-  Remember that these flags must not be changed, you should keep the default value (unselected, gray text)
+* בידוקו אם אתם משתמשים באזור `__גלובלי__` כאזור הראשי שלך (זה שעליו החלת את דגל הרהיטים). אם כן, נא ליצור אזור חדש. האזור הגלובלי ידוע כגורם לבעיות מסוימות עם דגלים של פלאגינים מסוימים.
+* בידקו אם הכלל 'build' או 'passthrough' מוגדרים כמו שצריך. \
+  זיכורו שאסור לשנות כללים אלה, עלייכם לשמור על ערך ברירת המחדל (לא נבחר, טקסט אפור)
 {% endhint %}

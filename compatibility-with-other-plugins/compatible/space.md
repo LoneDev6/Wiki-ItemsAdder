@@ -1,32 +1,32 @@
 # Space
 
-## [Download here](https://www.spigotmc.org/resources/space.59572/)
+## [הורידו כאן](https://www.spigotmc.org/resources/space.59572/)
 
-## How to add compatibility?
+## כיצד להוסיף תאימות?
 
 {% hint style="warning" %}
-Update ItemsAdder to 2.4.20
+עדכנו את ItemsAdder ל-2.4.20
 {% endhint %}
 
-It's very easy!
+זה קל מאוד!
 
-* Stop the server
-* Open `plugins\Space\config.yml`
-* Download the resourcepack from the `Resource-Pack` field
-* Set `Send-Pack-On-Join: false` in the `config.yml` of **Space**
-* Extract `assets` folder of the **Space** resourcepack inside `plugins\ItemsAdder\data\resource_pack\`
-* Start the server
-* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
+* עצרו את השרת
+* פיתחו את תקיית `plugins\Space\config.yml`
+* הורידו את הטקסטורה מהשדה 'Resource-Pack'
+* הגדירו את 'Send-Pack-On-Join: false' ב-'config.yml' של **Space**
+* חלצו תיקיית `asses` של חבילת המשאבים **Space** בתוך `plugins\ItemsAdder\data\resource_pack\`
+* הפעילו את השרת
+* הריצו את `\iazip` (ועקבו אחרי [מדריך האחסון](../../plugin-usage/resourcepack-hosting/) במידת הצורך)
 
-### Done!
+### סיימתם!
 
 ![](<../../.gitbook/assets/image (90).png>)
 
-## Known issues
+## בעיות ידועות
 
-### Particles problems
+### בעיות חלקיקים
 
-After you've merged the resourcepacks you will notice double particles from blocks. This is normal and I can't fix it for now.
+לאחר שתמזגו את הטקסטורות תבחינו בחלקיקים כפולים מהבלוקים. זה נורמלי ואני לא יכול לתקן את זה כרגע.
 
 ###
 
