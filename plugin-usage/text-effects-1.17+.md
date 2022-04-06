@@ -59,8 +59,8 @@ effects:
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
-Permission: `ia.user.text_effect.use.r`\
-Usage: `<r text>`
+גישה: `ia.user.text_effect.use.r`\
+אופן שימוש: `<r text>`
 
 ### ניענוע
 
@@ -68,8 +68,8 @@ Usage: `<r text>`
 
 ![](../.gitbook/assets/wobble\_item.gif)
 
-Permission: `ia.user.text_effect.use.w`\
-Usage: `<w text>`
+גישה: `ia.user.text_effect.use.w`\
+אופן שימוש: `<w text>`
 
 ### קפיצה
 
@@ -79,22 +79,22 @@ Usage: `<w text>`
 
 ![](../.gitbook/assets/jump\_boss.gif)
 
-Permission: `ia.user.text_effect.use.j`\
-Usage: `<j text>`
+גישה: `ia.user.text_effect.use.j`\
+אופן שימוש: `<j text>`
 
 ### קשת בענן + ניענוע
 
 ![](../.gitbook/assets/rw\_chat.gif)
 
-Permission: `ia.user.text_effect.use.rw`\
-Usage: `<rw text>`
+גישה: `ia.user.text_effect.use.rw`\
+אופן שימוש: `<rw text>`
 
 ### קשת בענן + קפיצה
 
 ![](../.gitbook/assets/rj.gif)
 
-Permission: `ia.user.text_effect.use.rj`\
-Usage: `<rj text>`
+גישה: `ia.user.text_effect.use.rj`\
+אופן שימוש: `<rj text>`
 
 ## איפה אתפ יכולים להשתמש באפקטים האלה?
 
