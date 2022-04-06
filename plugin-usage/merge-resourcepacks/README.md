@@ -35,8 +35,8 @@ Use the `/iazip` command to compress the ItemsAdder resourcepack.\
 
 ## Examples
 
-{% content-ref url="../../compatibility-with-other-plugins/compatible/modelengine.md" %}
-[modelengine.md](../../compatibility-with-other-plugins/compatible/modelengine.md)
+{% content-ref url="../../compatibility-with-other-plugins/compatible/modelengine/" %}
+[modelengine](../../compatibility-with-other-plugins/compatible/modelengine/)
 {% endcontent-ref %}
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/nova.md" %}
