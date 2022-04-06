@@ -177,6 +177,8 @@ If you only want to use your own blocks, items, etc. without ItemsAdder adding i
       `plugins/ItemsAdder/data/items_packs/example`  
       `plugins/ItemsAdder/data/resource_pack/assets/example`
 
+--8<-- "iazip.md"
+
 ----
 
 ## Getting kicked for `Flying is not enabled on this server`
@@ -210,7 +212,7 @@ allow-flight=true
 This was a Minecraft bug prominent in MC 1.16 and that has been fixed in MC 1.17.  
 There is no real fix for this other than using 1.17+.
 
-See [MC-202202](https://bugs.mojang.com/browse/MC-202202) for details.
+See MC-202202 for details.
 
 ### Can't write in chat and can't move
 
@@ -439,6 +441,8 @@ To do this, you have to change `override-vanilla-models` to `false` in ItemsAdde
 override-vanilla-models: false
 ```
 
+--8<-- "iazip.md"
+
 ----
 
 ## ItemsAdder loads very slowly after some time
@@ -462,8 +466,7 @@ zip:
     extreme: false
 ```
 
-!!! info "Note"
-    You have to run `/iazip` again to update the pack.zip after saving the changes.
+After that run `/iazip` and you should be able to unzip the newly created `pack.zip` file.
 
 ----
 
@@ -525,12 +528,12 @@ It is recommendet to use OpenJDK Builds from [Adoptium](https://adoptium.net/). 
 
 ### Slabs/Staors
 
-Custom slabs/stairs cannot be made due to a Minecraft Limitation showing them as transparent (Causing a X-Ray bug). See [MC-54254](https://bugs.mojang.com/browse/MC-54254) for more info.  
+Custom slabs/stairs cannot be made due to a Minecraft Limitation showing them as transparent (Causing a X-Ray bug). See MC-54254 for more info.  
 Another reason is the fact that you cannot make custom hitboxes.
 
 ### Tridents
 
-Custom trident models aren't possible. At least for the thrown variant. This is a Minecraft limitation that can't be fixed on my end ([MC-155286](https://bugs.mojang.com/browse/MC-155286)).
+Custom trident models aren't possible. At least for the thrown variant. This is a Minecraft limitation that can't be fixed on my end (MC-155286).
 
 ### Armor
 
@@ -571,7 +574,7 @@ To disable this, make sure to use ItemsAdder 2.5.2 or newer and update the follo
 disable-override-leather-armor-layers-textures: true
 ```
 
-Afterwards run `/iazip` to update the resource pack. Remember to also update things such as download URL if you don't use self or automatic external host.
+--8<-- "iazip.md"
 
 ----
 

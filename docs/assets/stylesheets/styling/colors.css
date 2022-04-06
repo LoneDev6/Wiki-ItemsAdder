@@ -1,0 +1,47 @@
+:root {
+  --md-spigot-branding-color: orange;
+  --md-mcmarket-branding-color: #3396d8;
+  --md-polymart-branding-color: #03a092;
+  
+  --md-itemsadder-branding-color: #a952c8;
+}
+
+[data-md-color-primary=purple] {
+  --md-primary-fg-color: #23202a;
+  
+  --md-typeset-a-color: var(--md-itemsadder-branding-color);
+}
+
+.icon-color--green {
+    color: #43A047;
+}
+
+.icon-color--red {
+    color: #E53935;
+}
+
+/* Button overrides */
+.md-typeset .md-button {
+    border-color: var(--md-itemsadder-branding-color);
+    color: var(--md-itemsadder-branding-color);
+}
+
+.md-typeset .md-button--primary {
+    background-color: var(--md-itemsadder-branding-color);
+    color: #FFF;
+}
+
+.md-typeset .md-button--spigot {
+    border-color: var(--md-spigot-branding-color);
+    color: var(--md-spigot-branding-color);
+}
+
+.md-typeset .md-button--mcmarket {
+    border-color: var(--md-mcmarket-branding-color);
+    color: var(--md-mcmarket-branding-color);
+}
+
+.md-typeset .md-button--polymart {
+    border-color: var(--md-polymart-branding-color);
+    color: var(--md-polymart-branding-color);
+}

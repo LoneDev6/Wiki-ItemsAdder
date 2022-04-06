@@ -1,0 +1,1 @@
+-e git+https://github.com/ultrabug/mkdocs-static-i18n@folder_structure#egg=mkdocs-static-i18n

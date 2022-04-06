@@ -4,7 +4,6 @@ description: "How to install ItemsAdder for the first time"
 ---
 
 # :fontawesome-solid-gear: First Install
-
 Please read this guide in its **entirety** to avoid errors and confusion.
 
 !!! info "Recommendet"
@@ -12,7 +11,6 @@ Please read this guide in its **entirety** to avoid errors and confusion.
     This prevents misconfiguration and too many restarts... Players don't like a lot of restartds :frowning:
 
 ## Step 1: Installing the plugin
-
 When installing ItemsAdder, make sure you also install the following **required** plugins:
 
 - [ProtocolLib][protocollib]

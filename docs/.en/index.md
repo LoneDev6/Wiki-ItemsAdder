@@ -54,9 +54,9 @@ hide:
 ## Downloads
 
 !!! warning "Important"
-    The official ItemsAdder plugin can ONLY be purchased on the sites listed below.  
+    ItemsAdder is only distributed through the below listed pages and on the Discord Server of LoneDev.  
     **DO NOT DOWNLOAD BUILDS FROM SITES NOT LISTED BELOW. THEY MAY INSTALL HARMFULL CODE ON YOUR SERVER OR CONTAIN EXPLOITS/BACKDOORS.**
 
-[:fontawesome-solid-faucet-drip: SpigotMC](https://spigotmc.org/resources/73355){ .md-button .md-button--spigot }
-[:brands-mc-market: McMarket](https://www.mc-market.org/resources/10839/){ .md-button .md-button--mcmarket }
-[:fontawesome-solid-p: Polymart](https://polymart.org/resource/1851){ .md-button .md-button--polymart }
+[SpigotMC](https://spigotmc.org/resources/73355){ .md-button .md-button--spigot }
+[McMarket](https://www.mc-market.org/resources/10839/){ .md-button .md-button--mcmarket }
+[Polymart](https://polymart.org/resource/1851){ .md-button .md-button--polymart }

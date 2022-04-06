@@ -8,6 +8,8 @@ theme:
   custom_dir: overrides
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
     - content.code.annotate
   name: material
   logo: assets/images/branding/logo_512x512_no_gradient_transparent.png
@@ -30,6 +32,10 @@ theme:
 repo_name: LoneDev6/Wiki-ItemsAdder
 repo_url: https://github.com/LoneDev6/Wiki-ItemsAdder
 
+watch:
+- overrides
+- .snippets
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -38,28 +44,39 @@ extra:
       link: https://discord.com/invite/sMAE3Na
 
 extra_css:
-- 'assets/stylesheets/styling.css'
+  - 'assets/stylesheets/extra.css'
 
 plugins:
   - search
   - awesome-pages
+  - pagenav-generator
   - ezlinks
-#
-#  Currently broken. See https://github.com/theskumar/autolink-references-mkdocs-plugin/issues/3
-#  - autolink_references:
-#      autolinks:
-#        - reference_prefix: MC-
-#          target_url: https://bugs.mojang.com/browse/MC-<num>
+  - autolink_references:
+      autolinks:
+        - reference_prefix: MC-
+          target_url: https://bugs.mojang.com/browse/MC-<num>
+  #
+  # TODO: Prepare wiki once plugin update is out
+  #- i18n:
+  #    default_language: en
+  #    folder_per_language: true
+  #    languages:
+  #      en:
+  #        name: English
 
 markdown_extensions:
+  - md_in_html
   - admonition
   - meta
   - attr_list
+  - footnotes
+  - abbr
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.keys
-  - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
   - toc:
@@ -69,3 +86,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.snippets:
+      base_path:
+        - .snippets

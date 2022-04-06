@@ -26,18 +26,20 @@ Lets you see the recipe(s) of a particular item.
 
 ### `/iatexture`
 
-> **Permission:** `ia.user.iatexture`  
-> **Sub commands:**
-> 
-> - [`/iatexture all`](#iatexture-all)
-
-Forces a refresh of your resource pack.
-
-#### `/iatexture all`
-
-> **Permission:** `ia.user.iatexture.all`
-
-Forces a refresh of the resource pack to all players online.
+!!! info ""
+    **Usages:**
+    
+    - `/iatexture`
+    - `/iatexture all`
+    
+    **Permissions:**
+    
+    - `ia.user.iatexture`
+    - `ia.user.iatexture.all`
+    
+    **Description:**  
+    Forces a refresh of the resource pack for your client.  
+    Using `/iatexture all` will trigger a refresh for all online players.
 
 ----
 
@@ -45,14 +47,20 @@ Forces a refresh of the resource pack to all players online.
 
 ----
 
-### `/iaget <item>` { #iaget-item data-toc-label="/iaget &lt;item&gt;" }
+### `/iaget`
 
-> **Permission:** `ia.admin.iaget`  
-> **Arguments:**
-> 
-> - `<item>` - The item to get.
-
-Gives you a custom item.
+!!! info ""
+    **Usages:**
+    
+    - `/iaget <item>`
+    
+    **Permissions:**
+    
+    - `ia.admin.iaget`
+    
+    **Description:**  
+    Gives you a custom `<item>`.  
+    `<item>` has to be in the format `namespace:item_id` (Tab completion is supported).
 
 ----
 

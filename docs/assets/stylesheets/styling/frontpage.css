@@ -1,0 +1,44 @@
+.mdx-container {
+    display: block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    background-image: linear-gradient(var(--md-primary-fg-color), var(--md-primary-fg-color) 100px, var(--md-default-bg-color) 100px)
+}
+
+.mdx-container .mdx-hero {
+    text-align: center;
+}
+
+.mdx-container .mdx-hero .mdx-description {
+    max-width: 35rem;
+    font-size: 1.6rem;
+    line-height: 1.3;
+}
+
+.mdx-container .mdx-hero .mdx-description, .mdx-container .mdx-hero .mdx-button {
+    margin: 1.8rem auto;
+}
+
+/* Grid stuff */
+
+.mdx-grid-container {
+    background-color: var(--md-admonition-bg-color);
+    padding: 1rem;
+}
+
+.mdx-grid-container h3, .mdx-grid-container h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.mdx-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.mdx-grid-child {
+    background-color: var(--md-default-bg-color);
+    padding: 0.5rem;
+}
