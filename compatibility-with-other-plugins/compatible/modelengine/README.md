@@ -11,8 +11,8 @@ It's very easy!
 {% hint style="warning" %}
 ### WARNING
 
-<mark style="color:red;">You have to disable</mark> <mark style="color:red;"></mark><mark style="color:red;">**ItemsAdder**</mark> <mark style="color:red;"></mark><mark style="color:red;">custom</mark> <mark style="color:red;"></mark><mark style="color:red;">**entities**</mark> <mark style="color:red;"></mark><mark style="color:red;">and</mark> <mark style="color:red;"></mark><mark style="color:red;">**emotes**</mark> <mark style="color:red;"></mark><mark style="color:red;">systems before starting.</mark>\
-Sadly **ModelEngine** code breaks **ItemsAdder** custom **entities** and **emotes**, so you have to decide one of the 2 systems since they can't be used at the same time.
+Sadly **ModelEngine** code breaks **ItemsAdder** custom **entities** and **emotes** optimizations, so you have to make sure to understand that any lag is not caused by ItemsAdder.\
+You should decide to use ItemsAdder entities/emotes or ModelEngine. Having both enabled can cause performance issues.&#x20;
 
 I can't do nothing about that.
 
