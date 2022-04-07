@@ -150,10 +150,10 @@ loots:
 ```
 
 {% hint style="info" %}
-### Custom mobs loots
+### Custom mobs loots ([old entities method](mobs/old-method/))
 {% endhint %}
 
-In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the metadata attribute. Example:
+In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
 
 ```yaml
 loots:
@@ -173,7 +173,33 @@ loots:
           chance: 100
 ```
 
-As you can see I set **ItemsAdderMob** attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
+As you can see I set `ItemsAdderMob` **** attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
+
+{% hint style="info" %}
+### Custom entities loots
+{% endhint %}
+
+In order to let ItemsAdder drop an item based on when you kill a custom entity (created with ItemsAdder) you have to use the `ItemsAdderEntity` metadata attribute. Example:
+
+```yaml
+loots:
+  mobs:
+    soul:
+      type: HUSK
+      metadata:
+        ItemsAdderEntity:
+          name: "ItemsAdderEntity"
+          value: "custom:ninja_skeleton"
+          type: "string"
+      items:
+        ruby:
+          item: ruby
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+```
+
+As you can see I set `ItemsAdderEntity` **** attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob)
 
 {% hint style="info" %}
 ### Villager professions (and any other NBT attribute you want to match)

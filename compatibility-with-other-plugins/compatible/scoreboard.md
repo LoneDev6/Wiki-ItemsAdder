@@ -4,7 +4,7 @@
 
 ## Font images
 
-You can use [font\_images ](../../plugin-usage/advanced/font-images/)(emojis and symbols) in the **scoreboard**.
+You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emojis and symbols) in the **scoreboard**.
 
 ### Example
 

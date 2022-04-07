@@ -3,7 +3,7 @@
 ## How to make an item usable as fuel?
 
 It's very easy!\
-You just have to use the fuel [behaviour](../../advanced/item-properties/behaviours.md).
+You just have to use the fuel [behaviour](../item-properties/behaviours.md).
 
 ## Example
 

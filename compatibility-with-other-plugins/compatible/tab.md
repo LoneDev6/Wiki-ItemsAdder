@@ -4,6 +4,6 @@
 
 ## Tutorials
 
-{% content-ref url="../../plugin-usage/advanced/ranks-textures-tags.md" %}
-[ranks-textures-tags.md](../../plugin-usage/advanced/ranks-textures-tags.md)
+{% content-ref url="../../plugin-usage/adding-content/ranks-textures-tags.md" %}
+[ranks-textures-tags.md](../../plugin-usage/adding-content/ranks-textures-tags.md)
 {% endcontent-ref %}

@@ -14,10 +14,10 @@
       * `ia.user.iatexture.all`
     * crafting
       * `ia.user.craft.PERMISSION` (or to give all crafting permissions just use ia.user.craft.\*)
-      * for more info about item permissions please[ read this](../advanced/item-properties/basic/item-permission.md)
+      * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
     * see item in /ia menu
       * `ia.user.ia.PERMISSION` (or to give all /ia permissions just use ia.user.ia.\*)
-      * for more info about item permissions please[ read this](../advanced/item-properties/basic/item-permission.md)
+      * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
       * `ia.user.iasearchgui` for the search GUI in /ia menu
       * You can also set a permission per category, please check [/ia GUI ](../ia.md)page
     * emoji (font images)
@@ -51,7 +51,7 @@
         * Examples ([full list here](../text-effects-1.17+.md)):
           * `ia.user.text_effect.use.r`
           * `ia.user.text_effect.use.rw`
-    * emotes ([<mark style="color:blue;">player emotes</mark>](../advanced/player-emotes/))
+    * emotes ([<mark style="color:blue;">player emotes</mark>](../adding-content/player-emotes/))
       * Use an emote: `ia.user.iaemote.use.<emote>`
       * Example:
         * `ia.user.iaemote.use.yes`

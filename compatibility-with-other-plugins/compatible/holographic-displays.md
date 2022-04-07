@@ -6,7 +6,7 @@
 * Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 * Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
 
-Now you can use [font\_images ](../../plugin-usage/advanced/font-images/)(**emojis**) inside holograms texts and everywhere in all plugins which support **PlaceholderAPI**, in this case **Holographic Displays**.\
+Now you can use [font\_images ](../../plugin-usage/adding-content/font-images/)(**emojis**) inside holograms texts and everywhere in all plugins which support **PlaceholderAPI**, in this case **Holographic Displays**.\
 This is the code: `%img_NAME%` instead of NAME write the font\_image name.\
 For example: `%img_smile%`
 

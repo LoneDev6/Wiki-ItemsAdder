@@ -48,6 +48,6 @@ SkeletalKnight:
 
 ## Custom mobs models
 
-{% content-ref url="../../plugin-usage/advanced/mobs/advanced-method/" %}
-[advanced-method](../../plugin-usage/advanced/mobs/advanced-method/)
+{% content-ref url="../../plugin-usage/adding-content/mobs/advanced-method/" %}
+[advanced-method](../../plugin-usage/adding-content/mobs/advanced-method/)
 {% endcontent-ref %}

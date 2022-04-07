@@ -18,4 +18,4 @@ You just have to set this in your format configuration, (for example in the `for
     Message: ':arcade:'
 ```
 
-Obviously you have to use your own [font\_image ](../../plugin-usage/advanced/font-images/)name instead of `arcade`, this is just an example.
+Obviously you have to use your own [font\_image ](../../plugin-usage/adding-content/font-images/)name instead of `arcade`, this is just an example.

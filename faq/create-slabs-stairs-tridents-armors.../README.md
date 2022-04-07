@@ -23,11 +23,11 @@ You can make them colored but you cannot change the texture.
 
 ### Custom textured armors 1.17
 
-To create custom textured armors in 1.17 you can follow the [tutorial here](../../plugin-usage/advanced/armors/texture.md) (No Optifine).
+To create custom textured armors in 1.17 you can follow the [tutorial here](../../plugin-usage/adding-content/armors/texture.md) (No Optifine).
 
 ### Custom textured armors 1.16 (and lower)
 
-ItemsAdder can automatically add custom armors to 1.16 version and lower, but only if the user has Optifine installed. Read [more here](../../plugin-usage/advanced/armors/texture.md).
+ItemsAdder can automatically add custom armors to 1.16 version and lower, but only if the user has Optifine installed. Read [more here](../../plugin-usage/adding-content/armors/texture.md).
 {% endhint %}
 
 ### Elytra
