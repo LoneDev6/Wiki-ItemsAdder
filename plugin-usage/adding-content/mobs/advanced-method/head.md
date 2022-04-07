@@ -42,7 +42,7 @@ The head bone is now marked as head, as you can see (the smiley face is the head
 
 Create a new bone, you can call it like you prefer, for example `eyes_height`.
 
-![](<../../../../.gitbook/assets/image (59) (1).png>)
+![](<../../../../.gitbook/assets/image (59) (1) (1).png>)
 
 Place the bone between the entity eyes.
 

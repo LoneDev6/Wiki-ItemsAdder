@@ -50,6 +50,7 @@
   * [💃 Emotes bugs](faq/emotes-bugs/README.md)
     * [Textures broken by shaders mod](faq/emotes-bugs/textures-broken-by-shaders-mod.md)
   * [Single resourcepack Bungeecord](faq/single-resourcepack-bungeecord.md)
+  * [OpenGL Error](faq/opengl-error.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [🇬🇧 Languages](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)

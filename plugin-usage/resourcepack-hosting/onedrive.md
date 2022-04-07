@@ -10,7 +10,7 @@ Not recommended.
 
 ### Step 2
 
-![](<../../.gitbook/assets/image (43) (1).png>)
+![](<../../.gitbook/assets/image (43) (1) (1).png>)
 
 ### Step 3
 

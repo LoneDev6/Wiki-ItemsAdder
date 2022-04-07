@@ -7,7 +7,7 @@
 Open your `.iaentitymodel` model file with **Blockbench**.\
 Create a new bone, it can have any name.
 
-![](<../../../.gitbook/assets/image (78) (1).png>)
+![](<../../../.gitbook/assets/image (78) (1) (1).png>)
 
 Rightclick on the bone and select "**Bone Config**"
 
