@@ -35,3 +35,10 @@ I already contacted Optifine developer about this: [https://github.com/sp614x/op
 Iris has a limitation which doesn't allow custom emotes to work correctly if you have any custom Iris custom shader installed.
 
 I already contacted Iris developers about this: [https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
+
+### 3DSkinLayers
+
+When using the [3DSkinLayers](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) mod will Emotes not render properly.  
+This is because the mod alters how the extra layers are rendered, which messes up the placement of the skin parts in ItemsAdder.
+
+This is nothing that can be fixed (yet). Dev has been contacted about this here: [https://github.com/tr7zw/3d-Skin-Layers/issues/45](https://github.com/tr7zw/3d-Skin-Layers/issues/45)
