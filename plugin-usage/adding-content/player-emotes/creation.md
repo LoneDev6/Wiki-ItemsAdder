@@ -1,11 +1,5 @@
 # Creation
 
-## How to create player animations?
-
-You can do it by installing the Blockbench extension.
-
-{% embed url="https://youtu.be/0wSTEqYBlZQ" %}
-
 ## Installing the Blockbench extension
 
 {% hint style="warning" %}
@@ -36,7 +30,7 @@ Press OK
 
 ![](<../../../.gitbook/assets/image (71).png>)
 
-## Enabling custom entities and animations
+## Enabling emotes
 
 Open `config.yml` of ItemsAdder and enable these two options, then run `/iazip` command.
 

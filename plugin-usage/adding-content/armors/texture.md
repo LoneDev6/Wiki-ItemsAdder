@@ -45,7 +45,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
 
 Now I create the two PNG files inside the `data/resource_pack/assets/myitems/textures/armor/my_armor/` folder.
 
-![](<../../../.gitbook/assets/image (45) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (45) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
 ### HD armor textures

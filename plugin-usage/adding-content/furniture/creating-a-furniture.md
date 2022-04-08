@@ -141,7 +141,7 @@ Or add the property to the YML configuration `opposite_direction: true`
 
 Edit how the model is shown on player hand:
 
-![](<../../../.gitbook/assets/image (46) (1).png>)
+![](<../../../.gitbook/assets/image (46) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (48) (1) (1).png>)
 

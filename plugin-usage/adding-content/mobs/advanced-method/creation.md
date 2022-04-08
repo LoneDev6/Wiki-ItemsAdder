@@ -51,7 +51,7 @@ Now save the new converted model file in a new folder where you will put only th
 
 You will have something like that
 
-![](<../../../../.gitbook/assets/image (60) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (60) (1) (1) (1).png>)
 
 ### Configuring the model
 

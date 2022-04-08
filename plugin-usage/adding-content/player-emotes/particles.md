@@ -19,11 +19,11 @@ Check the "**Locator**" option and press "**Confirm**".
 
 Switch to "**Animate**" view.
 
-![](<../../../.gitbook/assets/image (75).png>)
+![](<../../../.gitbook/assets/image (75) (1).png>)
 
 Select one of your animations.
 
-![](<../../../.gitbook/assets/image (92).png>)
+![](<../../../.gitbook/assets/image (92) (1).png>)
 
 Select the magic wand icon "**Animate Effects**"
 

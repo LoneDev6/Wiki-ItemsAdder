@@ -23,7 +23,7 @@ Open your `.iaentitymodel` model file with **Blockbench**.
 
 Select the base bone of the head.
 
-![](<../../../../.gitbook/assets/image (93).png>)
+![](<../../../../.gitbook/assets/image (93) (1).png>)
 
 Rightclick on the bone and select "**Bone Config**"
 
@@ -46,7 +46,7 @@ Create a new bone, you can call it like you prefer, for example `eyes_height`.
 
 Place the bone between the entity eyes.
 
-![](<../../../../.gitbook/assets/image (45).png>)
+![](<../../../../.gitbook/assets/image (45) (1).png>)
 
 Rightclick on the bone and select "**Bone Config**", then select "Eyes height".
 

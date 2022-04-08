@@ -8,7 +8,7 @@ description: Adding animated player emotes
 This method is in beta and it's available only on **ItemsAdder v3.0.5+** and requires **Minecraft 1.17+**
 {% endhint %}
 
-{% embed url="https://youtu.be/hT5ongH0swo" %}
+{% embed url="https://www.youtube.com/watch?v=posxlbudF8I" %}
 
 ### Main features
 
