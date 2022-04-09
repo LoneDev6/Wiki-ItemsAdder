@@ -1,8 +1,8 @@
 ---
-description: Disable the scoreboard background
+תיאור: כיבוי הרקע של הסקורבורד
 ---
 
-# Hide Scoreboard background
+# איך להחביא את הקרע
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/scoreboard.md" %}
 [scoreboard.md](../../compatibility-with-other-plugins/compatible/scoreboard.md)
