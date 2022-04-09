@@ -1,25 +1,25 @@
 ---
-description: Disable red scoreboard numbers
+תיאור: הסרת מספרים אדומים
 ---
 
-# Hide Scoreboard numbers (1.17+)
+# להסתיר את מספרי הסקורבורד (1.17+)
 
-## Scoreboard numbers
+## מספרי הסקורבורד
 
-Some servers use the scoreboard to show custom data and they don't use the red numbers, they just look awful in most of the servers.
+חלק מהשרתים משתמשים בסקורבורד כדי להציג נתונים והם לא מציגים את המספרים האדומים, המספרים פשוט נראים נורא ברוב השרתים.
 
-![Without ItemsAdder](<../../.gitbook/assets/immagine (131).png>)
+![ללא ItemsAdder](<../../.gitbook/assets/immagine (131).png>)
 
-![With ItemsAdder](<../../.gitbook/assets/immagine (130).png>)
+![אם ItemsAdder](<../../.gitbook/assets/immagine (130).png>)
 
-## Limitations
+## הגבלות
 
 {% hint style="danger" %}
-### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+### תכונה זו פועלת רק בגרסת  **מיינקראפט 1.17**, גרסת השרת לא משנה.
 {% endhint %}
 
 {% hint style="warning" %}
-### Warning:
+### אזהרה!
 
 Using <mark style="color:red;">**RED**</mark> (<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches**.\
 This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.\
