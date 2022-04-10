@@ -21,26 +21,26 @@
 {% hint style="warning" %}
 ### אזהרה!
 
-Using <mark style="color:red;">**RED**</mark> (<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches**.\
-This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.\
+שימוש בצבע <mark style="color:red;">**אדום**</mark> (<mark style="color:red;">**c&**</mark>) על הסקורבורד עלול **לגרום לבעיות**.\
+זה קורה כאשר יש לכם טקסט אדום ליד החלק הימני של הסקורדבורד והגדרת סולם ה-GUI מוגדרת ל-1 או 3.\
 
 
-### How to use <mark style="color:red;">`&c`</mark> color without issues?
+### איך לעשות שימוש בצבע <mark style="color:red;">`c&`</mark> ללא בעיות?
 
-You can change your text color from <mark style="color:red;">`&c`</mark> to <mark style="color:red;">`{#ff5546}`</mark>, it's the same color but it won't be bugged.
+שנו את הצבע <mark style="color:red;">`c&`</mark> לצבע <mark style="color:red;">`{#ff5546}`</mark>, זה אותו הדבר אבל זה לא גורם לבעיות.
 
 
 
-Another way to fix this is to **add some spaces at the end** of your red text to avoid this.
+דרך נוספת לתקן זאת היא **להוסיף כמה רווחים בסוף** של הטקסט האדום כדי להימנע מהבעייה.
 {% endhint %}
 
 ![](<../../.gitbook/assets/immagine (140).png>)
 
-## How to hide them?
+## איך להסתיר אותם?
 
-ItemsAdder **2.4.19** allows you to hide the scoreboard numbers.
+גרסת ItemsAdder **2.4.19** מאפשרת לכם להסתיר את מספרי הסקורבוקרד.
 
-To do that you have to enable the feature in `config.yml` and run **/iazip**.
+לשם כך צריך להגדיר את התכונה ב-`config.yml` ולהריץ את הפקודה **\iazip**.
 
 ```yaml
 effects:
@@ -48,8 +48,8 @@ effects:
 ```
 
 {% hint style="warning" %}
-### Warning
+### אזהרה
 
-this option is definitive and cannot be turned on/off in-game.\
-You will have to disable it in the `config.yml` and run `/iazip` again if you want to show the numbers.
+אחרי שמגדירים את התכונה הזאת זה סופי ולא ניתן להפעיל/לכבות אותה במשחק.\
+תצטרך להשבית את התכונה ב-`config.yml` ולהריץ את הפקודה \iazip' שוב אם אתם רוצים להציג את המספרים.
 {% endhint %}
