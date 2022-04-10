@@ -5,7 +5,7 @@
 כן אם אתם לא עושים את זה בצורה  הנכונה ;) קראו את זה:
 
 {% hint style="info" %}
-It's a good practice to create a **test server on your PC** with:
+מומלץ לנסות קודם כל על **שרת נסיון על המחשב** 
 
 * [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-emojis-ores-blocks-wings-tails-hats-more.73355/)
 * [LoneLib](https://www.spigotmc.org/resources/lonelibs.75974/)
