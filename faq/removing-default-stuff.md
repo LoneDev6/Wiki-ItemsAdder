@@ -42,9 +42,18 @@ Open plugin `config.yml` file and set this to **false**.
 `plugins\ItemsAdder\data\items_packs\example`\
 `plugins\ItemsAdder\data\resource_pack\assets\example`
 
+### 3. Finalizing the changes
+
+Run this command: `/iacleancache items`
+
+Delete these folders:\
+`ItemsAdder\storage\cache\tmp\` `ItemsAdder\data\resource_pack\assets\minecraft\models\item\` `ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
+
+Then run `/iazip`
+
 {% hint style="danger" %}
 ## Do not delete other folders which are not listed in the previous list.
 
-If you delete minecraft, mcguis or mcicons folders some parts of the plugin will stop working.
+If you delete minecraft, mcguis or mcicons folders some parts of the plugin may stop working.
 {% endhint %}
 
