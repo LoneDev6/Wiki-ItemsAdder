@@ -96,7 +96,7 @@
       * [Crafting](plugin-usage/adding-content/recipes/crafting.md)
       * [Cooking](plugin-usage/adding-content/recipes/cooking.md)
       * [Anvil repair](plugin-usage/adding-content/recipes/anvil-repair.md)
-    * [🇬🇧 🇬🇧 Translation](plugin-usage/adding-content/translation.md)
+    * [🇬🇧 Translation](plugin-usage/adding-content/translation.md)
     * [🎁 Loots](plugin-usage/adding-content/loots.md)
     * [💎 Worlds populators](plugin-usage/adding-content/worlds-populators.md)
     * [🌳 Trees populators](plugin-usage/adding-content/trees-populators/README.md)
