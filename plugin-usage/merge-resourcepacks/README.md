@@ -2,38 +2,38 @@
 description: Merge other resourcepacks (also custom plugins resourcepacks)
 ---
 
-# 🗃 Merge resourcepacks
+# 🗃 חיבור טקסטורות
 
-## Why merging?
+## למה למזג?
 
-**Minecraft** supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
+**מיינקראפט** תומך ב**טקסטורה אחת בלבד לשרת**, כך שאם יש לכפ יותר מטקסטורה אחת, עליכם למזג אותם.
 
-## How to merge?
+## איך למזג?
 
-### Step 1
+### שלב 1
 
-Copy the `assets` folder of your resourcepack.
+העתק את תיקיית 'assets' של הטקסטורה שלכם.
 
-### Step 2
+### שלב 2
 
-Paste the `assets` folder of your resourcepack inside the **ItemsAdder** folder: `plugins\ItemsAdder\data\resource_pack\`
+הדביקו את תיקיית ה-'assets' של הטקסטורה שלכם בתוך התיקיה **ItemsAdder הפלאגין**: `plugins\ItemsAdder\data\resource_pack\`
 
-### Step 3
+### שלב 3
 
-Open `config.yml` of **ItemsAdder** and set this option:
+פתחו את הקובץ 'config.yml' של **ItemsAdder** והגדירו את האפשרות הזאת:
 
 ```yaml
 overwrite-vanilla-models: false
 ```
 
-### Step 4
+### שלב 4
 
-Use the `/iazip` command to compress the ItemsAdder resourcepack.\
-(Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided)
+השתמשו בפקודה `\iazip` כדי לדחוס את הטקסטורה של ItemsAdder.\
+(הקפידו לבצע את [המדריך לאחסון](../resourcepack-hosting/) הנכון בהתבסס על שיטת האחסון שלכם)
 
-### Done.
+### סיימתם.
 
-## Examples
+## דוגמאות
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/modelengine.md" %}
 [modelengine.md](../../compatibility-with-other-plugins/compatible/modelengine.md)
