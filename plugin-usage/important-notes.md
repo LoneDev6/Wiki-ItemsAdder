@@ -1,19 +1,19 @@
-# ⚠ Important notes
+# ⚠ הערות חשובות
 
-## Mipmap problem (textures size related)
+## בעיה ב-Mipmap (קשור לגודל הטקסטורות)
 
 {% hint style="warning" %}
-Minecraft has a bug that disables mipmap if you set textures which their size is not a power of two.
+למיינקראפט יש באג שמנטרל את mipmap אם אתה מגדיר טקסטורות שגודלן אינו חזק של שתיים.
 
-### Read more here on how to avoid this problem:
+### קראו עוד כאן כיצד להימנע מבעיה זו:
 {% endhint %}
 
 {% content-ref url="../faq/i-see-crisp-textures-far-away.md" %}
 [i-see-crisp-textures-far-away.md](../faq/i-see-crisp-textures-far-away.md)
 {% endcontent-ref %}
 
-### File and items names
+### שמות קבצים ופריטים
 
 {% hint style="danger" %}
-Make sure you're not using **UPPERCASE** or **special characters** in items **names**, **namespaces**, texture files (**png**) and **model** files (**json**)
+ודאו שאינכם משתמשים ב-**אותיות רישיות** או **תווים מיוחדים** בפריטים **שמות**, **מרחבי שמות**, קבצי טקסטורה (**png**) וקבצי **דגם** ( **json**)
 {% endhint %}
