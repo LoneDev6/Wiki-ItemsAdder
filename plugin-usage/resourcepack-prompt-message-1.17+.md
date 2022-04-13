@@ -1,27 +1,27 @@
-# ☑ Resourcepack prompt message (1.17+)
+# ☑ הודעות טקסטורה (1.17+)
 
 {% hint style="warning" %}
-## Available only on Minecraft 1.17 client
+## זמין רק בגרסאת מיינקראפט 1.17+
 {% endhint %}
 
-## Custom resourcepack prompt message
+## הודעות התקנת טקסטורה לשקחנים
 
-### Step 1
+### שלב 1
 
-Open `ItemsAdde\lang\en.yml` file (or your language)
+פתחו את `ItemsAdder\lang\en.yml` (או בשפה שאתם רוצים)
 
-### Step 2
+### שלב 2
 
-Customize the message: `resourcepack-popup-message`.
+ערכו את ההודעה: `resourcepack-popup-message`.
 
 ```yaml
 resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcepack to enjoy all the amazing features of our server.\n
 &aYou need only to download it only once."
 ```
 
-(You can use `\n` as newline)
+(אפשר לעשות `\n` בשביל שורה חדשה)
 
-### Done
+### סיימתם
 
 ![](<../.gitbook/assets/immagine (127).png>)
 
