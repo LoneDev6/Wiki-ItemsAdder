@@ -156,3 +156,5 @@ Jaggies הם צורות (פינות לא מכוונות) באמנות הפיקס
 ****[![](https://avatars.githubusercontent.com/u/85763346?v=4) MasterianoX](https://github.com/MasterianoX)
 
 [https://www.blockbench.net/wiki/guides/minecraft-style-guide](https://www.blockbench.net/wiki/guides/minecraft-style-guide)
+הדף הזה תורגם מהגרסא המקורית שלו באנגלית.
+
