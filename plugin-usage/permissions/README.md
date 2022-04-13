@@ -1,59 +1,59 @@
-# 👌 Permissions
+# 👌 גישות
 
-## Permissions
+## רשימת גישות
 
-*   Users
+*   שחקנים
 
     * /ia
       * `ia.user.ia`
     * /iarecipe
       * `ia.user.iarecipe`
-    * /iatexture (to force apply the pack to yourself)
+    * /iatexture (בשביל להוריד את הטקסטורה מחדש)
       * `ia.user.iatexture`
-    * /iatexture all (to force apply the pack to everyone)
+    * /iatexture all (בשביל להוריד את הטקסטורה מחדש לכל החשקנים בשרת)
       * `ia.user.iatexture.all`
     * crafting
-      * `ia.user.craft.PERMISSION` (or to give all crafting permissions just use ia.user.craft.\*)
-      * for more info about item permissions please[ read this](../advanced/item-properties/basic/item-permission.md)
-    * see item in /ia menu
-      * `ia.user.ia.PERMISSION` (or to give all /ia permissions just use ia.user.ia.\*)
-      * for more info about item permissions please[ read this](../advanced/item-properties/basic/item-permission.md)
-      * `ia.user.iasearchgui` for the search GUI in /ia menu
-      * You can also set a permission per category, please check [/ia GUI ](../ia.md)page
-    * emoji (font images)
-      * **/iaimage /emoji, /iaemoji, /e** book GUI (shows a book with the list of emojis/font images)
+      * `ia.user.craft.PERMISSION` (או לתת את הגישה ia.user.craft.\*)
+      * בשביל עוד מידע על הגישה הזאת[ קראו כאן](../advanced/item-properties/basic/item-permission.md)
+    * לראות דברים בתפריט ai/
+      * `ia.user.ia.PERMISSION` (או בשביל לתת את כל הגישות של /ia עשו ככה ia.user.ia.\*)
+      * בשביל עוד מידע לגביי הגישה הזאת[ קראו כאן](../advanced/item-properties/basic/item-permission.md)
+      * `ia.user.iasearchgui` בשביל אפשרות חיפוש בתוך תפריט /ai
+      * אפשר לראות עוד מידע בדף [תפריט ia/ ](../ia.md)
+    * emoji (תמונות פונט)
+      * **/iaimage /emoji, /iaemoji, /e** book GUI (מציג ספר אם רשימת אימוג'ים ותמונות פונט)
         * `ia.user.image.gui`
-      * **/iaimage** **/emoji \<text>, /iaemoji \<text>, /e \<text>** (shows a tab list with emojis based on searched term)
+      * **/iaimage** **/emoji \<text>, /iaemoji \<text>, /e \<text>** (מציג רשימת אימוג'ים המבוססים על חיפוש)
         * `ia.user.image.hints`
-      * Use **emojis** in **chat**
+      * שימוש ב **אימוג'ים** בתוך **צ'אט**
         * `ia.user.image.chat`
-      * Use **emojis** in **commands**
+      * שימוש ב **אימוג'ים** בתוך **פקודות**
         * `ia.user.image.command`
-      * Use **emojis** in **signs**
+      * שימוש ב **אימוג'ים** בתוך **שלטים**
         * `ia.user.image.sign`
-      * Use **emojis** in **books**
+      * שימוש ב **אימוג'ים** בתוך **ספרים**
         * `ia.user.image.book`
-      * Use **emojis** in **anvil** rename field
+      * שימוש ב **אימוג'ים** בתוך **סדן\אנביל**
         * `ia.user.image.anvil`
-      * Use an **emoji**
+      * שימוש ב **אימוג'י** מסוים
         * `ia.user.image.use.<font image name>`
-        * Example: `ia.user.image.use.heart`
-      * Use **text-effects** in **chat**
+        * לדוגמא: `ia.user.image.use.heart`
+      * שימוש **אפקטי-טקסט** בתוך **צ'אט**
         * `ia.user.text_effect.chat`
-      * Use **text-effects** in **signs**
+      * שימוש **אפקטי-טקסט** בתוך **שלטים**
         * `ia.user.text_effect.sign`
-      * Use **text-effects** in **books**
+      * שימוש **אפקטי-טקסט** בתוך **ספרים**
         * `ia.user.text_effect.book`
-      * Use **text-effects** in **anvil** rename field
+      * שימוש **אפקטי-טקסט** בתוך **אנביל\סדן**
         * `ia.user.text_effect.anvil`
-      * Use a **text-effect**
+      * שימוש **אפקט-טקסט**
         * `ia.user.text_effect.use.<effect>`
-        * Examples ([full list here](../text-effects-1.17+.md)):
+        * דוגמאות ([רשימה מלאה](../text-effects-1.17+.md)):
           * `ia.user.text_effect.use.r`
           * `ia.user.text_effect.use.rw`
 
     ​
-* Admin
+* אדמין
   * /iaget
     * `ia.admin.iaget`
   * /iagive
@@ -70,21 +70,21 @@
     * `ia.admin.iareload`
   * /iazip
     * `ia.admin.iazip`
-  * /iablock _(get info about block you're looking at)_
+  * /iablock _(מציג מידע על הבלוק שאתם מסתכלים)_
     * `ia.admin.iablock`
-  * /ialiquid _(get info about custom liquid you're looking at)_
+  * /ialiquid _(מציג מידע לגביי הנוזל שאתם מסתכלים עליו)_
     * `ia.admin.ialiquid`
   * /iadurability
     * ia.admin.iadurability
-  * Edit permission (edit button in /ia)
+  * Edit permission (עריכת התפריט /ia)
     * `ia.admin.edit`
-  * /iaplayerstat write _(write a player custom stat)_
+  * /iaplayerstat write _(כתיבת נתון על שחקן)_
     * `ia.admin.iaplayerstat.write`
-  * /iaplayerstat read _(read a player custom stat)_
+  * /iaplayerstat read _(לקרוא נתון על שחקן)_
     * `ia.admin.iaplayerstat.read`
-  * /iainfo (get info about the plugin)
+  * /iainfo (מידע על הפלאגין)
     * `ia.admin.iainfo`
-  * /iakill \<mob|all> (kill custom mobs)
+  * /iakill \<mob|all> (להרוג ישויות מיוחדות)
     * `ia.admin.iakill`
   * /iasummon \<mob> \[amount]
     * `ia.admin.iasummon`
@@ -98,17 +98,17 @@
     * `ia.admin.iaplaysound`
   * /iacleancache
     * `ia.admin.iacleancache`
-  * /iahitbox (shows the hitbox of placed furnitures)
+  * /iahitbox (של רהיטים hitbox-מציג את ה )
     * `ia.admin.iahitbox`
-  * [/iaconfig](../commands/iaconfig.md) (Main command to execute some operations on the plugin configurations)
+  * [/iaconfig](../commands/iaconfig.md) (פקודה ראשית לביצוע פעולות מסוימות בהגדרות הפלאגין)
     * ia.admin.iaconfig
-* Other:
-  * Bypass kick on refuse resourcepack
+* אחר:
+  * ביטול הקיק כאשר אין טקסטורה
     * `ia.resourcepack.bypasskick`
-  * Bypass player placed blocks can't drop loot
+  * לעקוף את השחקן שהציב בלוקים ולא יכול להפיל שלל
     * `ia.admin.bypassblockplaceloot`
 
-## Worlguard flags
+## הגדרות Worlguard 
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
 [worldguard-flags.md](../../compatibility-with-other-plugins/compatible/worldguard-flags.md)
