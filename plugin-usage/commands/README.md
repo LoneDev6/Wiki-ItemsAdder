@@ -1,4 +1,4 @@
-# 🖥 Commands
+# 🖥 פקודות
 
 * iatexture:
   * תיאור: הורדה מחדש של הטקסטורה לשחקן או לכל השרת
