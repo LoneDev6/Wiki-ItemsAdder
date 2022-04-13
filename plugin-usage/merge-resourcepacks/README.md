@@ -1,5 +1,5 @@
 ---
-description: Merge other resourcepacks (also custom plugins resourcepacks)
+תיאור: מיזוג טקסטורת אחרות (גם טקסטורות של פלאגינים)
 ---
 
 # 🗃 חיבור טקסטורות
