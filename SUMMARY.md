@@ -49,6 +49,7 @@
   * [Remove pack on server change](faq/remove-pack-on-server-change.md)
   * [💃 Emotes bugs](faq/emotes-bugs/README.md)
     * [Textures broken by shaders mod](faq/emotes-bugs/textures-broken-by-shaders-mod.md)
+    * [Placed heads texture glitched](faq/emotes-bugs/placed-heads-texture-glitched.md)
   * [Single resourcepack Bungeecord](faq/single-resourcepack-bungeecord.md)
   * [OpenGL Error](faq/opengl-error.md)
 * [📖 Plugin usage](plugin-usage/README.md)
