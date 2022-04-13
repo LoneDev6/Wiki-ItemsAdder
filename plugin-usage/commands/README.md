@@ -1,43 +1,43 @@
-# 🖥 פקודות
+# 🖥 Commands
 
 * iatexture:
-  * תיאור: Force the client to reload resourcepack (a player or everyone)
-  * אופן שימוש: /iatexture \[all or player]
+  * תיאור: הורדה מחדש של הטקסטורה לשחקן או לכל השרת
+  * אופן שימוש: /iatexture \[לכולם או שחקן]
   * גישה: "ia.user.iatexture"
 * iaget:
-  * תיאור: Get custom item by namespaced id or by id
-  * אופן שימוש: /iaget \<item> \[amount]
+  * תיאור: קבלת פריט לפי מזהה עם מרחב שם או לפי מזהה
+  * אופן שימוש: /iaget \<item> \[כמות]
   * גישה: "ia.admin.iaget"
 * iagive:
-  * תיאור: Give custom item to player
-  * אופן שימוש: /iagive \<item> \[amount] \[silent]
+  * תיאור: לתת פריט שהוא חלק מפלאגין לשחקן
+  * אופן שימוש: /iagive \<item> \[כמות] \[silent]
   * גישה: "ia.admin.iagive"
 * iadrop:
-  * תיאור: Drop custom item at coords or at player location
-  * אופן שימוש: /iadrop \<item> \[amount]
+  * תיאור: זורק פריט שהוא חלק מהפלאגין במיקום של השחקן
+  * אופן שימוש: /iadrop \<item> \[כמות]
   * גישה: "ia.admin.iadrop"
 * iaremove:
   * תיאור: Remove custom item from player inventory
-  * אופן שימוש: /iaremove \<item> \[amount] \[silent]
+  * אופן שימוש: /iaremove \<item> \[כמות] \[silent]
   * גישה: "ia.admin.iaremove"
 * iatag:
-  * תיאור: Shows custom item debug info
+  * תיאור: מציג מידע על ניפוי באגים בהתאמה אישית
   * אופן שימוש: /iatag
   * גישה: "ia.admin.iatag"
 * iacustommodeldata:
-  * תיאור: Shows custom item CustomModelData
+  * תיאור: מציג CustomModelData
   * אופן שימוש: /iacustommodeldata
   * גישה: "ia.admin.custommodeldata"
 * iaplayerstat:
-  * תיאור: Set a custom player stat (and update HUD) value
+  * תיאור: הגדר ערך סטטיסטיקת שחקן (ועדכן HUD).
   * אופן שימוש: /iaplayerstat \<read|write|increment|decrement> \<player> \<attribute> \<int|float|string> \[value]
   * גישה: "ia.admin.iaplayerstat"
 * ia:
-  * תיאור: Opens items info GUI
+  * תיאור: פותח את תפריט הדברים
   * אופן שימוש: /ia
   * גישה: "ia.user.ia"
 * iarepair:
-  * תיאור: Repairs current item (vanilla or custom)
+  * תיאור: מתקן פריט שיש ביד (לא משנה אם הוא של מיינקרפאט או של הפלאגין)
   * אופן שימוש: /iarepair
   * גישה: "ia.admin.iarepair"
 * iarename
@@ -90,7 +90,7 @@
   * גישה: "ia.admin.iakill"
 * iasummon:
   * תיאור: Summons custom mobs
-  * אופן שימוש: /iasummon \[amount]
+  * אופן שימוש: /iasummon \[כמות]
   * גישה: "ia.admin.iasummon"
 * iaexport:
   * תיאור: Exports a namespace into a .zip file
