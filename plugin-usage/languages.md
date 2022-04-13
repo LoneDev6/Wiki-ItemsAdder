@@ -1,6 +1,6 @@
-# 🇬🇧 🇬🇧 Languages
+# 🇬🇧 🇬🇧 שפות
 
-### Currently available languages
+### שפות זמינות
 
 ```
 GUI: 
@@ -29,9 +29,9 @@ Items:
     Turkish tr
 ```
 
-### How to change language?
+### איך לשנות שפות?
 
-Open config.yml and change the language setting.
+פתחו את הקובץ config.yml ושנו את ההגדרות.
 
 ```yaml
 config_files:
@@ -39,12 +39,12 @@ config_files:
   dictionaries-lang: 'en'
 ```
 
-## How to edit or to create new languages?
+## כיצד לערוך או ליצור שפות חדשות?
 
-The **plugin** messages **language** files are in **this folder**: `plugins\ItemsAdder\lang\`
+קבצי **התוסף** הודעות **שפה** נמצאים ב**תיקייה זו**: `plugins\ItemsAdder\lang\`
 
-The **default items** and **menus languages** files are inside **this folder**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
+קבצי **פריטי ברירת המחדל** ו**שפות תפריטים** נמצאים בתוך **התיקייה זו**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
 
 {% hint style="warning" %}
-Some addons may put their dictionary files inside other folders inside items\_packs, you have to search for them.
+חלק מהתוספות עשויות לשים את קבצי המילון שלהם בתוך תיקיות אחרות בתוך items\_packs, אתם צריכים לחפש אותם.
 {% endhint %}
