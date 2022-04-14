@@ -27,7 +27,7 @@
     padding: 1rem;
 }
 
-.mdx-grid-container h3, .mdx-grid-container h2 {
+.mdx-grid-container h2, .mdx-grid-container h3 {
     text-align: center;
     margin-top: 0;
 }
@@ -36,6 +36,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .mdx-grid-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 }
 
 .mdx-grid-child {

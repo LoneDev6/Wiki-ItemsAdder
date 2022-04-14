@@ -57,12 +57,14 @@ plugins:
           target_url: https://bugs.mojang.com/browse/MC-<num>
   #
   # TODO: Prepare wiki once plugin update is out
-  #- i18n:
-  #    default_language: en
-  #    folder_per_language: true
-  #    languages:
-  #      en:
-  #        name: English
+  - i18n:
+      default_language: en
+      docs_structure: folder
+      languages:
+        en:
+          name: English
+        de:
+          name: Deutsch
 
 markdown_extensions:
   - md_in_html
@@ -76,7 +78,11 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.keys
   - pymdownx.inlinehilite
-  - pymdownx.magiclink
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      provider: github
+      user: LoneDev6
+      normalize_issue_symbols: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - toc:

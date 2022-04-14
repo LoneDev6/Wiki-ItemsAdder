@@ -8,6 +8,13 @@ hide:
   - toc
 ---
 
+!!! danger "Work in Progress"
+    This wiki is a **Preview** and not yet finished!  
+    You may encounter issues such as missing pages, not working URLs or wrong formatted ones.
+    
+    The preview may also be outdated and not show the latest changes. You can keep track of latest changes here:  
+    https://github.com/LoneDev6/Wiki-ItemsAdder/pull/24
+
 <div class="mdx-grid-container">
   <h2 id="features">Features<a class="headerlink" href="#features" title="Permanent link">¶</a></h2>
   <div class="mdx-grid-wrapper">
