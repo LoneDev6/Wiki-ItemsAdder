@@ -252,6 +252,7 @@
     * [Mimic](compatibility-with-other-plugins/compatible/mimic.md)
     * [DailyShop](compatibility-with-other-plugins/compatible/dailyshop.md)
     * [ItemBridge](compatibility-with-other-plugins/compatible/itembridge.md)
+    * [Ouroboros-Mines](compatibility-with-other-plugins/compatible/ouroboros-mines.md)
 * [✏ Contribute](contribute/README.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
