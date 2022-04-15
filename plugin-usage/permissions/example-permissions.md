@@ -1,40 +1,40 @@
-# ↪ Example permissions
+# ↪ דוגמאות לגישות
 
-## Example setup:
+## דוגמאה להגדרה:
 
-* `ia.user.ia` (open /ia menu)
-* `ia.user.ia.*` (see all items in /ia menu)
-* `ia.user.iarecipe` (use /iarecipe command)
-* `ia.user.craft.*` (craft all items)
-* `ia.menu.*` (see all categories in /ia menu)
-* `ia.user.image.gui` (use /e command to see emojis book)
-* `ia.user.image.hints` (suggest emojis when using /e and TAB complete)
-* `ia.user.image.chat` (replace emoji text :smile: etc in chat)
-* `ia.user.image.command` (replace emoji text :smile: etc in commands)
-* `ia.user.image.sign` (replace emoji text :smile: etc in signs)
-* `ia.user.image.book` (replace emoji text :smile: etc in books)
-* `ia.user.image.use.*` (access to all emojis)
+* `ia.user.ia` (/ia לפתוח את תפריט)
+* `ia.user.ia.*` (/ia לראות את כל הדברים שיש בתוך תפריט)
+* `ia.user.iarecipe` (/iarecipe שימוש בפקודה)
+* `ia.user.craft.*` (להכין את כל הדברים)
+* `ia.menu.*` (/ia לראות את כל הקטגוריות בתפריט)
+* `ia.user.image.gui` (בשביל לראות את ספר האימוג'ים /e שימוש בפקודת)
+* `ia.user.image.hints` (בשביל להשלים TAB וגם לחיצה על /e קבלת הצעות להשלמת אימוג'ים כאשר עושים)
+* `ia.user.image.chat` (ועוד :smile: שימוש באימוג'ים בצ'אט כמו)
+* `ia.user.image.command` (ועוד :smile: שימוש באימוג'ים בפקודות כמו)
+* `ia.user.image.sign` (ועוד :smile: שימוש באימוג'ים בשלטים כמו)
+* `ia.user.image.book` (ועוד :smile: שימוש באימוג'ים בספרים כמו)
+* `ia.user.image.use.*` (גישה לכל האימוג'ים)
 
-## Where can I get categories permissions?
+## איפה אפשר לקבל הרשאות קטגוריות?
 
 {% hint style="info" %}
-### ItemsAdder default categories
+### קטגוריות ברירת מחדל של-ItemsAdder 
 
-Open this file to read all the permissions to see categories: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+פתחן את הקובץ הזה כדי לקרוא את כל ההרשאות ולראות קטגוריות: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 
-For example if you want to make players see ALL the categories of default ItemsAdder you just have to give `ia.menu.*` permission.
+לדוגמה, אם אתם רוצים להראות לשחקנים את כל הקטגוריות של ItemsAdder המוגדרות כברירת מחדל, אתם רק צריכים את הגישה 'ia.menu.*'.
 {% endhint %}
 
 {% hint style="info" %}
-### Addons categories
+### קטגוריות תוספים
 
-If you're installing an [addon ](https://addons.plugin.ga/itemsadder/)you may search for a `categories.yml` file inside `ItemsAdder\data\items_packs\ADDON`, usually they put the categories there, so you can find also their **permissions**.
+אם אתם מתקינים [תוסף ](https://addons.plugin.ga/itemsadder/) אתם יכולים לחפש את הקובץ `categories.yml` בתוך `ItemsAdder\data\items_packs\ADDON`, בדרך כלל הם שמים את הקטגוריות שם, כך שתוכלו למצוא גם את **הגישות שלהם**.
 {% endhint %}
 
 {% hint style="info" %}
-### Creating my categories
+### יצירת הקטגוריות שלי
 
-To create your categories just read the tutorial
+כדי ליצור את הקטגוריות שלכם פשוט קראו את המדריך
 {% endhint %}
 
 

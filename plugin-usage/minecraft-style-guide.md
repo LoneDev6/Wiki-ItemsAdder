@@ -1,159 +1,160 @@
-# 🎨 Minecraft Style Guide
+# 🎨 מדריך סגנונות מיינקראפט
 
-## Minecraft Style Guide <a href="#minecraft-style-guide" id="minecraft-style-guide"></a>
+## מדריך סגנונות מיינקראפט <a href="#minecraft-style-guide" id="minecraft-style-guide"></a>
 
-This set of guidelines covers the properties of the Minecraft art style. It is intended to help you create models and textures that fit right into the vanilla game and to unify the terminology for the community to give more efficient and constructive feedback. Please keep in mind that not all of the mentioned principles apply universally to non-vanilla art styles or to art unrelated to Minecraft. If you plan to create Minecraft art and aren't fully familiar with the technical aspects of it, reading [Blockbench Overview & Tips](https://www.blockbench.net/wiki/guides/blockbench-overview-tips) is highly recommended. It contains materials on how to properly use Blockbench and take full advantage of its features.
+סט הנחיות זה מכסה את המאפיינים של סגנון האמנות של Minecraft. זה נועד לעזור לכם ליצור מודלים וטקסטורת שמתאימים ישירות למשחק הרגיל ולאחד את הטרמינולוגיה לקהילה כדי לתת משוב יעיל ובונה יותר. זיכורו שלא כל העקרונות שהוזכרו חלים באופן אוניברסלי על סגנונות אמנות שאינם מהמשחק הרגיל או על אמנות שאינה קשורה למיינקראפט. אם אתם מתכננים ליצור אמנות מיינקראפט ולא מכירים את ההיבטים הטכניים של זה לגמרי, קראו את המדריך [Blockbench סקירה וטיפים](https://www.blockbench.net/wiki/guides/blockbench-overview-tips) מומלץ מאוד לדעת. המדריך מכיל חומרים כיצד להשתמש נכון ב- Blockbench ולנצל את מלוא היתרונות של התכונות שלו. 
+### מודלים <a href="#modeling" id="modeling"></a>
 
-### Modeling <a href="#modeling" id="modeling"></a>
+#### ספירת אלמנטים <a href="#element-count" id="element-count"></a>
 
-#### Element Count <a href="#element-count" id="element-count"></a>
+סגנון האמנות של Minecraft מבוסס בפשטות. הצורה הכללית של אובייקט צריכה להיות מוגדרת על ידי הדגם ואת רוב הפרטים על ידי הטקסטורה. זה תמיד צריך להיות מטרה לשמור על ספירת האלמנטים נמוכה ככל האפשר תוך הצגת האובייקט בצורה מדויקת. עם זאת, פישוט צורות לא צריך ללכת רחוק מדי, עד לנקודה שבה כבר לא ניתן לזהות אותן.
 
-Minecraft's art style is founded in simplicity. The overall shape of an object should be defined by the model and most of the detail by the texture. It should always be a goal to keep the element count as low as possible while still accurately depicting the object. However, simplifying shapes shouldn't go too far, to the point where they are no longer recognizable.
+#### תיאור צורה <a href="#shape-depiction" id="shape-depiction"></a>
 
-#### Shape Depiction <a href="#shape-depiction" id="shape-depiction"></a>
-
-Therefore, depicting slants and curves as stairs needs to be avoided. Rotating an element to create a slant instead is preferable. Rotated elements can be found in many Minecraft models, but their use needs to be justified. For example, rotating elements next to each other in order to form a curve does not conform with the Minecraft aesthetic.
+לכן, יש להימנע מלתאר אלכסונים ועיקולים כמדרגות. עדיף לסובב אלמנט כדי ליצור נטייה במקום. ניתן למצוא אלמנטים מסתובבים בדגמי Minecraft רבים, אך השימוש בהם צריך להיות מוצדק. לדוגמה, סיבוב אלמנטים זה ליד זה כדי ליצור עקומה לא תואם את האסתטיקה של Minecraft.
 
 ![Rotations](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/rotations.png)
 
-A spherical or cylindrical object would be translated into a single element. Examples of this principle can be found throughout the game (barrel, cake, log, grindstone, pumpkin, melon, cocoa pod...).
+עצם כדורי או גלילי יתורגם לאלמנט בודד. דוגמאות לעיקרון זה ניתן למצוא לאורך כל המשחק (חבית, עוגה, בול עץ, דלעת, מלון, תרמיל קקאו...).
 
 ![Round Shapes](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/round\_shapes.png)
 
-Minecraft models utilize planes (elements with only 2 faces) and transparency, often together. Small parts of an object can be depicted by a single large element with certain pixels strategically being fully transparent. In the Minecraft art style, this solution is preferable to using many small elements to depict the same object/parts of an object.
+דגמי Minecraft משתמשים בפאות (אלמנטים עם 2 פנים בלבד) ובשקיפות, לעתים קרובות ביחד. חלקים קטנים של אובייקט יכולים להיות מתוארים על ידי אלמנט אחד גדול כאשר פיקסלים מסוימים מבחינה אסטרטגית שקופים לחלוטין. בסגנון האמנות של Minecraft, פתרון זה עדיף על פני שימוש באלמנטים קטנים רבים כדי לתאר את אותו אובייקט/חלקים של אובייקט.
 
 ![Planes](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/planes.png)
 
-#### UV Mapping <a href="#uv-mapping" id="uv-mapping"></a>
+#### מיפוי VU <a href="#uv-mapping" id="uv-mapping"></a>
 
-The UV map defines how a texture is applied to the model. In Minecraft, a pixel on the texture corresponds to a pixel on the model (1 unit of scale in Blockbench). It is very important that the ratio of pixels is preserved on the model as well, i.e. that the texture does not get squashed or stretched.
+מפת ה-UV מגדירה כיצד טקסטורה מיושמת על המודל. במיינקראפט, פיקסל בטקסטורה תואם לפיקסל בדגם (יחידת קנה מידה אחת ב-Blockbench). חשוב מאוד שיחס הפיקסלים יישמר גם בדגם, כלומר הטקסטורה לא תמעך או תמתח.
 
 ![UV Ratio](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/uv\_ratio.png)
 
-In per-face UV mapping, Blockbench offers the Auto UV feature, which correctly scales the mapping of a face.
+במיפוי UV פר-פנים, Blockbench מציעה את תכונת ה-UV האוטומטית, המדרגת נכון את מיפוי הפנים.
 
 ![Auto UV](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/auto\_uv.png)
 
-In box UV mapping, the map of the elements is unwrapped automatically and works for all faces by default. In the image below, you can see an example of an unwrapped UV map (blue = north, yellow = south, pink = west, green = east, white = top, grey = bottom). North is normally in the front (e.g. that is where the face of a character or the door of a closet would be).
+במיפוי UV תיבת, המפה של האלמנטים מתפרקת אוטומטית ופועלת עבור כל הפאות כברירת מחדל. בתמונה למטה, ניתן לראות דוגמה למפת UV לא עטופה (כחול = צפון, צהוב = דרום, ורוד = מערב, ירוק = מזרח, לבן = למעלה, אפור = תחתון). הצפון הוא בדרך כלל בחזית (למשל, זה המקום שבו יהיו הפנים של דמות או דלת של ארון).
 
 ![Box UV](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/box\_uv.png)
 
-#### Mixels <a href="#mixels" id="mixels"></a>
+#### מיקסלים <a href="#mixels" id="mixels"></a>
 
-Much like pixels are picture elements (pix + el), mixels are elements of mixed resolutions, be it 2D or 3D. Most low-spec art (digitally restrictive art) avoids mixels altogether. Minecraft art, generally speaking, does not allow mixels (with the notable exception of slightly inflated elements on some models). Mixels on models are manifested as elements smaller than 1px (or 1 unit of scale in Blockbench) or overly inflated elements.
+בדומה לפיקסלים הם אלמנטים של תמונה (פיקס + el), מיקסלים הם אלמנטים של רזולוציות מעורבות, בין אם זה דו-ממד או תלת-ממד. רוב האמנות עם מפרט נמוך (אמנות מגבילה דיגיטלית) נמנעת לחלוטין ממיקסים. אמנות מיינקראפט, באופן כללי, אינה מאפשרת מיקסים (למעט אלמנטים מנופחים מעט בחלק מהדגמים). מיקסים בדגמים באים לידי ביטוי כאלמנטים קטנים מ-1 פיקסלים (או יחידת קנה מידה אחת ב-Blockbench) או אלמנטים מנופחים מדי.
 
 ![Model Mixels](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/model\_mixels.png)
 
-#### Size & Proportions <a href="#size--proportions" id="size--proportions"></a>
+#### גודל ופרופורציות <a href="#size--proportions" id="size--proportions"></a>
 
-The dimensions of a Minecraft block are 16x16x16 pixels, which represents 1m³, meaning that a single pixel is 6.25cm long. This ratio should be taken into account, but it does not always apply. Small objects being recognizable takes priority over being to scale (e.g. a bee would have to be smaller than 1px if it were perfectly proportionate).
+הממדים של בלוק Minecraft הם 16x16x16 פיקסלים, המייצגים 1m³, כלומר פיקסל בודד הוא באורך 6.25 ס"מ. יש לקחת בחשבון יחס זה, אך הוא לא תמיד תקף. אובייקטים קטנים הניתנים לזיהוי מקבלים עדיפות על פני קנה מידה (למשל, דבורה הייתה צריכה להיות קטנה מ-1 פיקסלים אם היא הייתה פרופורציונלית לחלוטין).
 
-Furthermore, functionality within the game's own proportions may not translate directly from real life. The most important example of this is the player model. It is significantly bulkier than a regular human, so objects that the player interacts with should be created with this in mind.
+יתר על כן, ייתכן שפונקציונליות בתוך הפרופורציות של המשחק עצמו לא תתורגם ישירות מהחיים האמיתיים. הדוגמה החשובה ביותר לכך היא מודל השחקן. הוא מגושם משמעותית מאדם רגיל, כך שאובייקטים שהשחקן מקיים איתם אינטראקציה צריכים להיווצר מתוך מחשבה על כך.
 
 ![Human Proportions](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/human\_proportions.png)
 
-Like with any art form, changing the proportions of certain parts of the model influences the way the user interprets what is being depicted and its function. For example, a large head on a small body can make the character cute, while an exaggerated torso and arms indicate strength.
+כמו בכל צורת אמנות, שינוי הפרופורציות של חלקים מסוימים במודל משפיע על האופן שבו המשתמש מפרש את מה שמתואר ותפקודו. לדוגמה, ראש גדול על גוף קטן יכול להפוך את הדמות לחמודה, בעוד פלג גוף עליון וזרועות מוגזמות מעידים על חוזק.
 
 ![Character Proportions](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/golem\_proportions.png)
 
-### Texturing <a href="#texturing" id="texturing"></a>
+### טקסטורינג <a href="#texturing" id="texturing"></a>
 
-#### HSV <a href="#hsv" id="hsv"></a>
+#### מרחב צבע HSV <a href="#hsv" id="hsv"></a>
 
-Hue is the color family determined by wavelength (e.g. brown falls into red or orange, aquamarine falls into blue etc.). It can be thought of as a point in the spectrum of the rainbow. Its range is 0°-360° (rainbow wrapped in a circle).
+הגוון הוא משפחת הצבעים שנקבעת על ידי אורך הגל (למשל חום נופל לאדום או כתום, תרשיש נופל לכחול וכו'). ניתן להתייחס אליו כעל נקודה בספקטרום של הקשת. הטווח שלו הוא 0°-360° (קשת עטופה במעגל).
 
-Saturation is the color intensity, i.e. the presence of a given hue. The higher the saturation, the stronger the hue. Its range is 0-100 (on the horizontal axis).
+רוויה היא עוצמת הצבע, כלומר נוכחות של גוון נתון. ככל שהרוויה גבוהה יותר, הגוון חזק יותר. הטווח שלו הוא 0-100 (על הציר האופקי).
 
-Value is the brightness of the color. A higher value means a brighter color. Its range is 0-100 (on the vertical axis).
+ערך הוא בהירות הצבע. ערך גבוה יותר פירושו צבע בהיר יותר. הטווח שלו הוא 0-100 (על הציר האנכי).
 
 ![HSV](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/hsv.png)
 
-#### Color Ramps & Palettes <a href="#color-ramps--palettes" id="color-ramps--palettes"></a>
+#### רמפות צבע ופלטות <a href="#color-ramps--palettes" id="color-ramps--palettes"></a>
 
-A color ramp is a lineup of all shades of a single color according to brightness. A color palette is the set of all color ramps used in a texture file. It is best to start the creation of a ramp with the midtone. From there, it is advisable to only create one shadow and one highlight and apply basic shading. Afterwards, more shades can be added.
+רמפת צבע היא ליין-אפ של כל הגוונים של צבע בודד לפי בהירות. פלטת צבעים היא הסט של כל רמפות הצבע המשמשות בקובץ טקסטורה. עדיף להתחיל ביצירת רמפה עם גוון הביניים. מפה לשם, רצוי ליצור רק צללית אחת והדגשה אחת ולהחיל הצללה בסיסית. לאחר מכן, ניתן להוסיף גוונים נוספים.
 
-Changing the hue, saturation and value between shades is called shifting (hue shifting, saturation shifting, value shifting). It is important to keep the step between shades balanced.
+שינוי הגוון, הרוויה והערך בין גוונים נקרא הסטת (הסטת גוון, שינוי רוויה, שינוי ערך). חשוב לשמור על איזון השלב בין הגוונים.
 
-A straight ramp is a color ramp all of whose shades are only different in their value (brightness). Straight ramps are very easy to create and often aren’t used due to their dull look, but they can be suitable for some materials and colors. In the image below, the straight ramp is on the left and the hue-shifted ramp is on the right.
+רמפה ישרה היא רמפה צבעונית שכל גווניה שונים רק בערכם (בהירות). קל מאוד ליצור רמפות ישרות ולעיתים קרובות אינן בשימוש בגלל המראה המשעמם שלהן, אבל הן יכולות להתאים לחומרים וצבעים מסוימים. בתמונה למטה, הרמפה הישרה נמצאת משמאל והרמפה המוסטת בגוון מימין.
 
 ![Hue Shifting](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/hue\_shifting.png)
 
-#### Shading <a href="#shading" id="shading"></a>
+#### הצללה <a href="#shading" id="shading"></a>
 
-In pixel art and, therefore, in Minecraft art, placing pixels needs to be deliberate. In order to achieve this, the use of purposefully restricted palettes and a set of tools without smoothness (pencil, shape tool, fill bucket and eraser) are necessary. The material properties need to be clearly defined.
+באמנות פיקסלים, ולכן באמנות מיינקראפט, הצבת פיקסלים צריכה להיות מכוונת. על מנת להשיג זאת, יש צורך בשימוש בפלטות מוגבלות במטרה ובסט כלים ללא חלקות (עיפרון, כלי צורות, דלי מילוי ומחק). יש להגדיר בבירור את תכונות החומר.
 
-Anti-aliasing or AA is a method of manually smoothing out the transition between shapes by placing differently colored pixels on the border. The egg on the left contains AA, the one on the right doesn't.
+אנטי-aliasing או AA היא שיטה להחלקה ידנית של המעבר בין צורות על ידי הצבת פיקסלים בצבעים שונים על הגבול. הביצה משמאל מכילה AA, זו מימין לא.
 
 ![Anti-Aliasing](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/anti\_aliasing.png)
 
-Dithering is a method of transitioning between two pixel clusters by intersecting their pixels in a certain pattern. Checkered dithering is the most common type.
+ניתוק היא שיטה למעבר בין אשכולות של שני פיקסלים על ידי הצלבת הפיקסלים שלהם בתבנית מסוימת. שיוף משובץ הוא הסוג הנפוץ ביותר.
 
 ![Dithering](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/dithering.png)
 
-Using a brush can produce a noisy texture. Noise adds no information to the texture and, in the worst case, makes it unrecognizable without context.
+שימוש במברשת יכול לייצר מרקם רועש. רעש אינו מוסיף מידע למרקם, ובמקרה הגרוע, הופך אותו לבלתי ניתן לזיהוי ללא הקשר.
 
 ![Noisy Texture](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/noisy\_texture.png)
 
-There are many possible ways for shading to go in the wrong direction, often by accident. Banding, in the broadest sense, is an artifact of pixels that line up in a sequence from brightest to darkest, whether in straight lines (a.k.a. fat lines or fat pixels), diagonal lines (a.k.a. staircase banding) or in corners (a.k.a. hugging). The reason it needs to be avoided is that it reveals the pixel grid, distracts the eye of the viewer and the shape is misrepresented. Banding usually appears when the artist tries to create anti-aliasing or has a hard time distributing the shades over a surface.
+ישנן דרכים רבות אפשריות להצללה ללכת בכיוון הלא נכון, לעתים קרובות בטעות. פסים, במובן הרחב, הוא חפץ של פיקסלים המתיישרים ברצף מהבהיר ביותר לכהה ביותר, בין אם בקווים ישרים (המכונה קווים שמנים או פיקסלים שמנים), קווים אלכסוניים (המכונה פסי מדרגות), או בפינות (הידוע גם בחיבוק). ). הסיבה שצריך להימנע מכך היא שהוא חושף את רשת הפיקסלים, מסיח את דעתו של הצופה והצורה מוטעית. פסים מופיעים בדרך כלל כאשר האמן מנסה ליצור אנטי-aliasing או מתקשה לפזר את הגוונים על פני משטח.
 
 ![Banding](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/banding.png)
 
-Pillow shading is an artifact similar to banding, where the artist applies shades concentrically from darkest to brightest in an attempt to somehow cover the surface.
+הצללת כרית היא חפץ הדומה לפס, שבו האמן מחיל גוונים באופן קונצנטרי מהכהה ביותר לבהיר ביותר בניסיון לכסות איכשהו את פני השטח.
 
 ![Pillow Shading](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/pillow\_shading.png)
 
-Pancake shading is an artifact of placing the highlights on one side and shadows on the opposite side of a surface. It disregards the shape of the surface.
+הצללה של פנקייק היא חפץ של הצבת הדגשים בצד אחד והצללים בצד הנגדי של המשטח. זה מתעלם מהצורה של פני השטח.
 
 ![Pancake Shading](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/pancake\_shading.png)
 
-Unnecessary dithering comes in different forms, the most basic of which is the overuse of dithering where the transition starts, covering too much surface area. Other cases are when there is no need for dithering at all or when it’s used inconsistently (randomly, only in some places) within the texture.
+תנועות מיותרות מגיעות בצורות שונות, כשהבסיסית שבהן היא שימוש יתר בתנועות במקום שבו מתחיל המעבר, המכסה שטח פנים גדול מדי. מקרים אחרים הם כאשר אין צורך בהתערבות כלל או כאשר נעשה בו שימוש לא עקבי (באופן אקראי, רק במקומות מסוימים) בתוך הטקסטורה.
 
 ![Unnecessary Dithering](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/unnecessary\_dithering.png)
 
-Mixels on the texture can only occur if the artist purposefully scales up their texture and proceeds to draw on it. This is usually done in order to add more detail. If there is no space for additional detail in the 16x16 resolution, either the entire texture needs to be reevaluated or the detail is not necessary. Elements of conflicting resolutions make a texture seem off-balance and less appealing. It usually looks as though it was scaled up or down wrong.
+ערבובים על הטקסטורה יכולים להתרחש רק אם האמן מגדיל בכוונה את הטקסטורה שלו וממשיך לצייר עליו. זה נעשה בדרך כלל על מנת להוסיף פרטים נוספים. אם אין מקום לפרטים נוספים ברזולוציית 16x16, או שצריך להעריך מחדש את הטקסטורה כולה או שהפרטים אינם נחוצים. אלמנטים של החלטות סותרות גורמים למרקם להיראות לא מאוזן ופחות מושך. זה בדרך כלל נראה כאילו הוא הוגדל או הורד בצורה לא נכונה.
 
 ![Texture Mixels](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/texture\_mixels.png)
 
-#### Lines & Shapes <a href="#lines--shapes" id="lines--shapes"></a>
+#### קווים וצורות <a href="#lines--shapes" id="lines--shapes"></a>
 
-Jaggies are shapes (unintentional corners) in pixel art that appear due to lines/edges being unpolished or lacking anti-aliasing. Straight lines need to have a consistent step so that they wouldn't look unpolished. This has to do with the geometric properties of diagonals. Curves can also contain jaggies, usually visible as corners or diagonal lines (meant to represent round shapes).
+Jaggies הם צורות (פינות לא מכוונות) באמנות הפיקסלים המופיעות עקב קווים/קצוות שאינם מלוטשים או חסרי אנטי-aliasing. לקווים ישרים צריך צעד עקבי כדי שהם לא ייראו לא מלוטשים. זה קשור לתכונות הגיאומטריות של אלכסונים. עקומות יכולות להכיל גם ג'גיות, הנראות בדרך כלל כפינות או קווים אלכסוניים (נועדו לייצג צורות עגולות).
 
 ![Jaggies](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/jaggies.png)
 
-#### Item Textures <a href="#item-textures" id="item-textures"></a>
+#### טקסטורות של פריט <a href="#item-textures" id="item-textures"></a>
 
-All drawn items fit within a 16x16 grid.
+כל הפריטים המצוירים נכנסים לרשת של 16x16.
 
-1. Start by drawing the shape of the item using a midtone. Give it a significantly darker outline.
-2. Add a highlight and a shadow. Item textures are shaded with the light source imagined as coming from the top left corner. Shade the outline accordingly.
-3. Add the rest of the palette (more highlights and shadows).
-4. Add in surface properties. In this example, the item is translucent and smooth. In other cases, the properties could be roughness, cracks, folds, dirtiness...
+1. התחילו בציור צורת הפריט באמצעות גוון ביניים. תנו לו קו מתאר כהה משמעותית.
+2. הוסיפו הדגשה וצללית. טקסטורות פריט מוצללות עם מקור האור המדמיין כמגיע מהפינה השמאלית העליונה. הצל את המתאר בהתאם.
+3. הוסיפו את שאר הפלטה (עוד הדגשות והצללות).
+4. הוסיפו את מאפייני משטח. בדוגמה זו, הפריט שקוף וחלק. במקרים אחרים, המאפיינים יכולים להיות חספוס, סדקים, קפלים, לכלוך...
 
 ![Item Creation](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/item\_creation.png)
 
-#### Block Textures <a href="#block-textures" id="block-textures"></a>
+#### טקסטורות בלוק <a href="#block-textures" id="block-textures"></a>
 
-Block textures need to look good on their own, as well as when placed next to each other. Placing several blocks of the same kind next to each other is called tiling. If a portion of the texture visibly repeats, revealing the tiling pattern, it is called a tiling artifact and is to be corrected.
+טקסטורות בלוקים צריכות להיראות טוב בפני עצמן, כמו גם כשהן מונחות אחת ליד השנייה. הצבת כמה בלוקים מאותו סוג זה ליד זה נקראת ריצוף. אם חלק מהטקסטורה חוזרת על עצמה, וחושפת את תבנית הריצוף, זה נקרא חפץ ריצוף ויש לתקן אותו.
 
-Blockbench can be used to make the block texture directly (in Paint mode) or just as a live 3D preview of a texture created in an external image editor. The best way to preview tiling is by creating a wall of 3x3 blocks.
+ניתן להשתמש ב-Blockbench כדי ליצור את טקסטורת הבלוק ישירות (במצב Paint) או סתם כתצוגה מקדימה תלת מימדית חיה של הטקסטורה שנוצרה בעורך תמונות חיצוני. הדרך הטובה ביותר לתצוגה מקדימה של ריצוף היא על ידי יצירת קיר של 3x3 בלוקים.
 
-It is important to check tiling before doing too much shading. An early version of the texture with two or three shades is enough. After checking for tiling, you can proceed with shading, but still regularly check for tiling as you shade.
+חשוב לבדוק ריצוף לפני שעושים יותר מדי הצללה. מספיקה גרסה מוקדמת של הטקסטורה עם שניים או שלושה גוונים. לאחר בדיקת ריצוף, ניתן להמשיך בהצללה, אך עדיין לבדוק באופן קבוע אם יש ריצוף תוך כדי הצללה.
 
 ![Block Tiling](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/block\_tiling.png)
 
-#### Entity Textures <a href="#entity-textures" id="entity-textures"></a>
+#### טקסטורות של ישות <a href="#entity-textures" id="entity-textures"></a>
 
-Entity textures use box UV mapping and follow a special set of texturing guidelines. The top and front of the entity need to be brighter than the bottom and back. This applies to shading the faces individually, as well as how the faces are shaded relative to each other (e.g. the top face will be noticeably brighter than the bottom face).
+טקסטורות של ישות משתמשות במיפוי UV של תיבת ועוקבים אחר קבוצה מיוחדת של הנחיות טקסטורה. החלק העליון והקדמי של הישות צריכים להיות בהירים יותר מהחלק התחתון והאחורי. זה חל על הצללת הפנים בנפרד, כמו גם על האופן שבו הפנים מוצללות זה ביחס לזה (למשל, הפנים העליונות יהיו בהירות יותר באופן ניכר מהפנים התחתונות).
 
-1. Generate a texture template to make the texturing process easier. Blockbench automatically maps the elements too.
-2. Sketch the color distribution, add a shadow and a highlight.
-3. Add more shades to the palette.
-4. Define the material by editing the relative position of clusters of certain shades. Get rid of banding and any other shading artifacts from the previous steps.
+1. עשו תבנית טקסטורה כדי להקל על התהליך. Blockbench ממפה אוטומטית גם את האלמנטים.
+2. שרטטו את חלוקת הצבע, והוסיפו צל והדגשה.
+3. הוסיפו עוד גוונים לפלטה.
+4. הגדירו את החומר על ידי עריכת המיקום היחסי של אשכולות של גוונים מסוימים. היפטרו מהרצועות וכל חפצי הצללה אחרים מהשלבים הקודמים.
 
 ![Entity Creation](https://www.blockbench.net/images/wiki/guides/minecraft\_style\_guide/entity\_creation.png)
 
-## **Authors**
+## **מחברים**
 
 ****[![](https://avatars.githubusercontent.com/u/85763346?v=4) MasterianoX](https://github.com/MasterianoX)
 
 [https://www.blockbench.net/wiki/guides/minecraft-style-guide](https://www.blockbench.net/wiki/guides/minecraft-style-guide)
+הדף הזה תורגם מהגרסא המקורית שלו באנגלית.
+

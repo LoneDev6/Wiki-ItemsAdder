@@ -1,23 +1,23 @@
-# 📤 Automatic external hosting
+# 📤 אחסון חיצוני אוטומטי
 
-## Video tutorial
+## סרטון הדרכה (באנגלית)
 
 {% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" %}
 
-## What is automatic hosting?
+## מהו אחסון אוטומטי?
 
-ItemsAdder 2.4.9 allows you to automatically upload your resourcepack on a **free online service** with servers all over the world.
+הפלאגין ItemsAdder 2.4.9 מאפשר לכם להעלות אוטומטית את הטקסטורה שלם ב-**שירות מקוון חינם** עם שרתים בכל רחבי העולם.
 
-Thanks a lot to [PloudOS ](https://ploudos.com/it/)which privides me their platform to host your resourcepacks for free!
+תודה רבה ל-[PloudOS ](https://ploudos.com/it/) שמספקת לי את הפלטפורמה שלהם בשביל לאחסן את הטקסטורות שלכם בחינם!
 
-## What are the advantages?
+## מהם היתרונות?
 
-The main advantage is download speed and availability.\
-This service allows your players to download the resourcepack very fast despite the country where they live (cloud based platform).
+היתרון העיקרי הוא מהירות הורדה וזמינות.\
+שירות זה מאפשר לשחקנים שלכם להוריד את הטקסטורה מהר מאוד לא משנה מאיזה מדינה הם נכנסים לשרת(הפלטפורמה מבוססת בענן).
 
-## I already use self-host, is this better?
+## אני כבר משתמש\ת באחסון עצמאי, האם זה טוב יותר?
 
-Depends.\
+תלוי.\
 It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continously run `/iazip`, to avoid losing time (read more [here](../tips-for-fastest-usage.md)).
 
 When you've finished working on the pack you can safely start using the `auto-external-host` feature.\

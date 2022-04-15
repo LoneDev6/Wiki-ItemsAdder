@@ -1,9 +1,9 @@
-# Custom PlayerStats
+# סטטיסטיקות שחקנים מותאמות אישית
 
-## What are PlayerStats?
+## מה זה סטטיסטיקת שחקנים?
 
-They custom attributes added by ItemsAdder, you can add and read them using a special command: `/iaplayerstat`
+אלה תכונות שנוספו על ידי ItemsAdder, אתם יכולים להוסיף ולקרוא אותם באמצעות פקודה מיוחדת: `\iaplayerstat`
 
-You can then use PlaceholderAPI to show them anywhere or bind them to a HUD (like I did for thirst and mana, check my configs for examples).
+לאחר מכן תוכלו להשתמש ב-PlaceholderAPI כדי להציג אותם בכל מקום או לאגד אותם ל-HUD (כמו שעשיתי למד הצמא ולמאנה, ראו את ההגדרות שלי לדוגמאות).
 
-Example: `/iaplayerstat read LoneDev thirst float`
+לדגומא: `iaplayerstat read LoneDev thirst float/`

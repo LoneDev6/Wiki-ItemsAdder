@@ -1,13 +1,13 @@
 ---
-description: How to protect your resourcepack from thief
+תיאור: איך להגן על הטקסטורה מפני גניבה
 ---
 
-# 🚨 Protect resourcepack from unzip
+# 🚨 הגנו על הטקסטורה מפני פתיחה של ZIP
 
 {% hint style="info" %}
-With ItemsAdder you can protect your resourcepack from unzip and thieves.\
-You just have to set this option in config.yml and use /iazip again.\
-If you're using Dropbox don't forget to reupload the pack and update the config.yml
+אם הפלאגין ItemsAdder אפשר להגן על הטקסטורה מפני גנבות.\
+כל מה שצריך לעשות זה להפעיל את האפשרות בתוך הקובץ config.yml ולעשות /iazip שוב פעם.\
+אם אתם משתמשים בדרופבוקס אז על תשכחו גם להעלות את הקובץ המעודכן אחרי שינויים בקובץ- config.yml.
 
 {% code title="config.yml" %}
 ```yaml
@@ -19,26 +19,26 @@ If you're using Dropbox don't forget to reupload the pack and update the config.
 {% endcode %}
 {% endhint %}
 
-### enabled
+### מופעל
 
-The `enabled` property allows you to protect the resourcepack with a basic method.
+הפעילו את `enabled` ההגדרה הזאת מאפשרת לכם להפעיל הגנה בסיסית על הטקסטורה.
 
-### extreme
+### מוגזם
 
-The `extreme` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
+הפעילו את `extreme` ההגרה הזאת מאפשרת לכם להגן על הטקסטורה בעוד שלבים נוספים ולמנוע נסיונות נוספים לגנוב דברים.
 
-## Showcase
+## הדגמה
 
-This is a funny meme showcase of what the user will see when they try to steal your data. But this is actually what the user will see, a group of corrupted files and folders.
+ברגע ששחקנים ינסו לגנוב את הטקסטורה יופיע להם על המסך מימ מצחיק, אשר מראה להם דף הורדה וסרטון מצחיק. ככה שאי אפשר להוריד את הטקסטורה.
 
 {% embed url="https://youtu.be/MhtEhoOuWV8" %}
 
 {% hint style="warning" %}
-There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
+אין דרך יעילה ב-100% להגן על הטקסטורה מכיוון שהמשחק חייב להיות מסוגל לחלץ אותה בצורה נכונה כדי להראות טקסטורות.
 
-This feature is a mitigation to avoid kids and trolls to steal your texture.\
-Some experienced users might be able to find a way to bypass these protections.
+תכונה זו היא הקלה כדי למנוע מילדים וטרולרים לגנוב את הטקסטורה שלכם.\
+ייתכן שחלק מהמשתמשים המנוסים יוכלו למצוא דרך לעקוף את ההגנות הללו.
 
-ItemsAdder does its best to prevent this, but keep that eventuality in mind.
+הפלאגין ItemsAdder עושה כמיטב יכולתו כדי למנוע זאת, אך זיכרו את הדף הזה.
 {% endhint %}
 

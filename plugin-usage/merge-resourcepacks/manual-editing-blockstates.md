@@ -1,34 +1,34 @@
 ---
-description: How to manually edit blockstates json files
+תיאור: כיצד לערוך באופן ידני קבצי json blockstates
 ---
 
-# Manual editing blockstates
+# עריכה ידנית של blockstates 
 
-## Editing note\_block.json
+## עריכת note\_block.json
 
 {% hint style="warning" %}
-Update to ItemsAdder 2.4.20
+עדכנו לגרסאת 2.4.20
 {% endhint %}
 
-You can manually edit the file `assets\minecraft\blockstates\note_block.json` adding your own rules inside.
+אתם יכולים לערוך באופן ידני את הקובץ `assess\minecraft\blockstates\note_block.json` תוך הוספת כללים משלכם פנימה.
 
-**ItemsAdder** will automatically merge your custom json file with the **ItemsAdder** custom blocks if you created any.
+הפלאגין **ItemsAdder** ימזג אוטומטית את קובץ ה-json שלך עם הבלוקים של **ItemsAdder** אם יצרתם כאלה.
 
-## Editing other .json blockstates
+## עריכת קבצים אחרים של .json blockstates
 
-You can edit any blockstate file you want, but you have to read this in order to edit some of them.
+אתם יכולים לערוך כל קובץ blockstate שאתם רוצים, אבל אתה צריך לקרוא את זה כדי לערוך חלק מהם.
 
-In order to edit the some blockstates files you have to disable the ItemsAdder custom blocks feature based on the type you want to edit. In the future I may allow manual editing of these files without disabling the ItemsAdder blocks feature (it's not easy to implement, that's why I didn't make this possible yet).
+על מנת לערוך כמה קובצי blockstates, עליכם להשבית את תכונת החסימות של ItemsAdder בהתבסס על הסוג הדברים שברצונכם לערוך. בעתיד, אני עשוי לאפשר עריכה ידנית של קבצים אלו מבלי להשבית את תכונת החסימות של ItemsAdder (זה לא קל ליישום, זו הסיבה שעדיין לא אפשרתי זאת).
 
 ### mushroom blockstates
 
-Delete the files:&#x20;
+מחקו את הקבצים:&#x20;
 
 * `assets\minecraft\blockstates\brown_mushroom_block.json`&#x20;
 * `assets\minecraft\blockstates\mushroom_stem.json`
 * `assets\minecraft\blockstates\red_mushroom_block.json`
 
-Enable this option:
+הפעילו את האפשרות הזאת:
 
 {% code title="config.yml" %}
 ```yaml
@@ -38,9 +38,9 @@ Enable this option:
 
 ### fire.json
 
-Delete the file `assets\minecraft\blockstates\fire.json`
+מחקו את הקובץ הזה `assets\minecraft\blockstates\fire.json`
 
-Enable this option:
+הפעילו את האפשרות הזאת:
 
 {% code title="config.yml" %}
 ```yaml
@@ -50,9 +50,9 @@ Enable this option:
 
 ### chorus\_plant.json
 
-Delete the file `assets\minecraft\blockstates\chorus_plant.json`
+מחקו את הקובץ `assets\minecraft\blockstates\chorus_plant.json`
 
-Enable this option:
+הפעילו את האפשרות הזאת:
 
 {% code title="config.yml" %}
 ```yaml
@@ -62,9 +62,9 @@ Enable this option:
 
 ### tripwire.json
 
-Delete the file `assets\minecraft\blockstates\tripwire.json`
+מחקו את הקובץ `assets\minecraft\blockstates\tripwire.json`
 
-Enable this option:
+הפעילו את האפשרות הזאת:
 
 {% code title="config.yml" %}
 ```yaml

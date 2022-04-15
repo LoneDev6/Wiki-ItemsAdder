@@ -1,34 +1,34 @@
 ---
-description: PlaceholderAPI placeholders
+תיאור: ממלאי מקום - PlaceholderAPI 
 ---
 
-# PAPI placeholders
+# ממלאי מקום של PAPI
 
-## FontImage (emoji etc)
+## שימוש ב-FontImage (אימוג'ים וכדומה)
 
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.\
-For example: `%img_smile%`
+זה הקוד: `%img_NAME%` במקום NAME רשמו את הקוד של האימוג'י (font\_image).\
+לדוגמא: `%img_smile%`
 
-## Offsets
+## קיזוזים
 
-You can shift text/font\_images back and forward.\
-For example&#x20;
+אפשר להזיז טקסט או תמונות אחורה וקדימה (font\_image).\
+לדוגמא example&#x20;
 
-* you can shift it back of 16 pixels by writing `%img_offset_-16%` .
-* you can shift it forward of 16 pixels by writing `%img_offset_16%` .
+* אפשר להזיז את התמונה\אימוג'י ב 16 פיקסלים אחורה `16%-_img_offset%` .
+* אפשר להזיז את התמונה\אימוג'י ב 16 פיקסלים קדימה `16%_img_offset%` .
 
-## ItemsAdder PlayerStats (HUDs values)
+## שימוש ב- ItemsAdder וסטטיסטיקות שחקנים (ערכי HUDs)
 
-These are stats used by ItemsAdder, they're not vanilla stats.
+אלה נתונים סטטיסטיים המשמשים את ItemsAdder, הם לא סטטיסטיקות של המשחק הרגיל.
 
-This is the code: `%iaplayerstat_NAME%` instead of NAME write the playerstat name.\
-For example: `%iaplayerstat_mana%` or also `%iaplayerstat_thirst%`
+זה הקוד: `%iaplayerstat_NAME%` במקום NAME כיתבו את שם סטטיסטיקת השחקן.\
+לדוגמא: `%iaplayerstat_mana%` או `%iaplayerstat_thirst%`
 
-You can use this command to test it out:\
+אתם יכולים להשתמש בפקודה זו כדי לבדוק:\
 `/papi parse me %iaplayerstat_thirst%`\
 `/papi parse me %iaplayerstat_mana%`
 
 {% hint style="info" %}
-#### Read more about playerstats
+#### קראו עוד על סטטיסטיקות שחקנים
 {% endhint %}
 

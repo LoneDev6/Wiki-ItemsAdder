@@ -1,18 +1,18 @@
-# 🏁 Tips for fastest usage
+# 🏁 טיפים לשימוש מהיר
 
-## It takes too much time editing the pack and uploading it online!
+## לוקח יותר מדי זמן לערוך את הטקסטורה ולהעלות אותה בחזרה לאחסון!
 
-Yes if you do that the wrong way ;) Read this:
+כן אם אתם לא עושים את זה בצורה  הנכונה ;) קראו את זה:
 
 {% hint style="info" %}
-It's a good practice to create a **test server on your PC** with:
+מומלץ לנסות על **שרת נסיון על המחשב שלכם** הורידו את הפלאגינים הבאים: 
 
 * [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-emojis-ores-blocks-wings-tails-hats-more.73355/)
 * [LoneLib](https://www.spigotmc.org/resources/lonelibs.75974/)
 * [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 * [LightAPI Fork](https://www.spigotmc.org/resources/lightapi-fork.48247/)
 
-ItemsAdder with this resourcepack config:
+אחרי זה הגדירו את ההגדרות הבאות בתוך קובץ ה-`config` של הפאלגין ItemsAdder:
 
 ```yaml
 resource-pack:
@@ -30,12 +30,12 @@ resource-pack:
       url: ''
 ```
 
-Doing this you'll have a fast and easy to use configuration environment. You can add items and edit the pack on the fly.
+אם תעשו שרת פרטי על המחשב שלכם תוכלו להגדיר ולשנות דברים במהירות.
 
-When you edit an item texture/model and you edit its configuration you will use command  `/iazip` .\
-By doing this you'll see changes applied at real-time.
+מתי שאתם עושים עריכה לקבצים\מודלים זכרו לעשות  `\iazip` .\
+כאשר אתם עושים את זה השינווים יקרו בזמן אמת. 
 
-So after you finished adding items and configuring them you'll be able to upload everything on your online server to mirror the changes.
+אחרי שכל הדברים יהיו מוגדרים תוכלו פשוט להעתיק את הקבצים לשרת שלכם.
 {% endhint %}
 
 {% content-ref url="resourcepack-hosting/resourcepack-on-dropbox.md" %}
@@ -43,11 +43,11 @@ So after you finished adding items and configuring them you'll be able to upload
 {% endcontent-ref %}
 
 {% hint style="warning" %}
-It's a good practice to not edit ItemsAdder textures/models directly on your online server.\
-Players hate lag on plugins reload, server restarts, having to re-download the pack when they're already player.. keep that in mind.
+זה הרגל טוב לא לערוך ולשנות דברים בשרת שלכם ולעשות את זה בשרת פרטי.\
+זכרו תמיד, שחקנים שונאים בעיות לאגים ולחכות ולכך שהפלאגין יטען זה מעצבן ומפריע.
 {% endhint %}
 
 {% hint style="danger" %}
-It's a good thing not to edit my custom items as surely in the future they can be edited and you'll go crazy maintaining both your customization and my updates.\
-So if you want to edit items just make your own
+המלצה חמה שלי לא לערוך את הדברים שלי, ככה יהיה לכם יותר קל לעדכן את הפלאגין ולהוריד עדכונים חדשים.\
+אם אתם רוצים לערוך דברים צרו דברים חדשים משלכם.
 {% endhint %}

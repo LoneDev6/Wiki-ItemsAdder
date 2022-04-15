@@ -1,20 +1,20 @@
 ---
-description: Text animations
+תיאור: אנימציות טקסט
 ---
 
-# Text Effects (1.17+)
+# אפקטי טקסט (1.17+)
 
-## What are text effects?
+## מזה אפקטי טקסט?
 
-ItemsAdder **2.4.19** offers some cool decorative text effects you can use in your server to make it more professional.
+הפלאגין ItemsAdder **2.4.19** מציע כמה אפקטי טקסט דקורטיביים מגניבים שבהם תוכלו להשתמש בשרת שלכם כדי להפוך אותו למקצועי יותר.
 
 {% hint style="danger" %}
-## This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+## תכונה זו פועלת רק בגרסא **1.17 של מיינקראפט**, גרסת השרת לא משנה.
 {% endhint %}
 
 {% hint style="warning" %}
-You have to run `/iazip` in order to enable/disable this feature.\
-Make sure also to enable it in the `config.yml`.
+צריך להריץ את הפקודה `/iazip` כדי להפעיל/להשבית תכונה זו.\
+שימו לב שגם צריך להגדיר את התכונה הזאת בקובץ `config.yml`.
 
 ```yaml
 effects:
@@ -34,22 +34,22 @@ effects:
 
 
 
-## Permissions
+## גישות
 
-* Use **text-effects** in **chat**
+* שימוש ב**אפקטי-טקסט** ב **צ'אט**
   * `ia.user.text_effect.chat`
-* Use **text-effects** in **signs**
+* שימוש ב**אפקטי-טקסט** ב**שלטים**
   * `ia.user.text_effect.sign`
-* Use **text-effects** in **books**
+* שימוש ב**אפקטי-טקסט** ב**ספרים**
   * `ia.user.text_effect.book`
-* Use **text-effects** in **anvil** rename field
+* שימוש ב**אפקטי-טקסט** ב**סדן** בשדה של שינוי שם.
   * `ia.user.text_effect.anvil`
-* Use a **text-effect**
+* שימוש ב-**אפקט-טקסט** מסויים
   * `ia.user.text_effect.use.<effect>`
 
-## List of effects
+## רשימת אפקטים
 
-### Rainbow
+### קשת בענן
 
 ![](../.gitbook/assets/rainbow.gif)
 
@@ -59,19 +59,19 @@ effects:
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
-Permission: `ia.user.text_effect.use.r`\
-Usage: `<r text>`
+גישה: `ia.user.text_effect.use.r`\
+אופן שימוש: `<r text>`
 
-### Wobble
+### ניענוע
 
 ![](../.gitbook/assets/wobble.gif)
 
 ![](../.gitbook/assets/wobble\_item.gif)
 
-Permission: `ia.user.text_effect.use.w`\
-Usage: `<w text>`
+גישה: `ia.user.text_effect.use.w`\
+אופן שימוש: `<w text>`
 
-### Jump
+### קפיצה
 
 ![](../.gitbook/assets/jump\_chat.gif)
 
@@ -79,37 +79,37 @@ Usage: `<w text>`
 
 ![](../.gitbook/assets/jump\_boss.gif)
 
-Permission: `ia.user.text_effect.use.j`\
-Usage: `<j text>`
+גישה: `ia.user.text_effect.use.j`\
+אופן שימוש: `<j text>`
 
-### Rainbow + Wobble
+### קשת בענן + ניענוע
 
 ![](../.gitbook/assets/rw\_chat.gif)
 
-Permission: `ia.user.text_effect.use.rw`\
-Usage: `<rw text>`
+גישה: `ia.user.text_effect.use.rw`\
+אופן שימוש: `<rw text>`
 
-### Rainbow + Jump
+### קשת בענן + קפיצה
 
 ![](../.gitbook/assets/rj.gif)
 
-Permission: `ia.user.text_effect.use.rj`\
-Usage: `<rj text>`
+גישה: `ia.user.text_effect.use.rj`\
+אופן שימוש: `<rj text>`
 
-## Where can I use these effects?
+## איפה אתפ יכולים להשתמש באפקטים האלה?
 
-* Custom item name (in the .yml file)
-* Custom item lore (in the .yml file)
-* Chat
-* Sign
-* Book
-* Bossbar
-* Prefix-Suffix (Luckperms for example)
-* _More soon...._
+* שמות פריטים (בקובץ ה-yml)
+* מידע על פריטים (בקובץ ה-yml)
+* צ'אט
+* סימן
+* ספר
+* בוסבר
+* קידומות וסיומות (לדוגמה ב Luckperms)
+* _עוד בקרוב...._
 
 ![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
-## How to create animated prefix (Luckperms)
+## כיצד ליצור קידומת מונפשת (Luckperms)
 
 ![](<../.gitbook/assets/immagine (133).png>)
 
@@ -117,4 +117,4 @@ Usage: `<rj text>`
 
 ![](../.gitbook/assets/prefix.gif)
 
-Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
+לחצו כאן כדי לקרוא[ מדריכים רשמיים של Luckperms](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) אם אתם לא יודעים איך פועלת הקידומת.

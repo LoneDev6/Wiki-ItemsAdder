@@ -1,22 +1,22 @@
 ---
-description: /ia command menu
+תיאור: /ia תפריט
 ---
 
-# 📃 Recipes menu
+# 📃 תפריט המלאכה
 
-## Menu settings and "All" category
+## הגדרות תפריט וקטגוריית "הכל".
 
-`ia_gui.yml` contains settings about the  `/ia` command GUI.\
-It also contains the **"all"** category which shows every ItemsAdder item.
+הקובץ `ia_gui.yml` מכיל את כל ההגדרות בשביל התפריט של `/ia`.\
+הוא מכיל גם את הקטגוריה **"הכל"** המציגה את כל הפריטים של ItemsAdder.
 
 {% hint style="info" %}
-Default ItemsAdder pack categories are inside: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+הקטגוריות הבסיסיות של ItemsAdder נמצאות שם: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 {% endhint %}
 
-## Creating a custom category
+## יצירת קטגוריה מותאמת אישית
 
-If you want to create your own category you have to add it to your own `.yml` file in your [namespace](advanced/basic-concepts/namespace/).\
-This is an example:
+אם אתם רוצים ליצור קטגוריה משלכם, עליכם להוסיף אותה לקובץ `.yml` משלכם [מרחב שמות](advanced/basic-concepts/namespace/).\
+זה דוגמא:
 
 ```yaml
 info:
@@ -44,16 +44,16 @@ categories:
       - "itemsadder:spinel_legs"
 ```
 
-Remember to give your users permission for each category if you want them to see the categories.\
-For example a permission is: **ia.menu.armors**
+לא לשכוח לתת למשתמשים שלכם הרשאה לכל קטגוריה אם אתם רוצים שהם יראו את הקטגוריות.\
+לדוגמא אם ההרשאה: **ia.menu.armors**
 
 {% hint style="info" %}
 **font\_image and title\_position\_pixels are optional.**\
-****Plugin will take the one in `ia_gui.yml` if not set.
+****הפלאגין יכניס את זה `ia_gui.yml` אם לא מוגדר.
 
-This option is good if you want to have a different background for each category.
+אפשרות זו טובה אם אתם רוצים שיהיה לכם רקע שונה לכל קטגוריה.
 {% endhint %}
 
 {% hint style="success" %}
-**Categories** with the **same name** and different namespace **will be merged**, this is **helful** if you have two "swords" categories. This allows you to open **/ia** menu and see all swords organized in the same category instead of having 2 swords categories.
+**קטגוריות** עם **אותו שם** ומרחב שמות אחר **ימוזגו**, זה **מועיל** אם יש לכם שתי קטגוריות "חרבות". אז זה מאפשר לכם לפתוח את התפריט **/ia** ולראות את כל החרבות מאורגנות באותה קטגוריה במקום לכלול 2 קטגוריות חרבות.
 {% endhint %}

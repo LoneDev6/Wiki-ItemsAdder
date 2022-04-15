@@ -1,10 +1,10 @@
-# Hex colored texts (1.16+)
+# טקסטים בצבעי HEX (גרסאות 1.16+)
 
-## How to use 1.16 hex colored texts
+## איך לעשות שימוש בצבעי HEX בגרסאות 1.16+
 
-You can change color of text and specify a custom hex color using the special notation: `%#000000%`.
+אתם יכולים לשנות את צבעי הטקסט ולציין צבע HEX באמצעות הסימון המיוחד: `%#000000%`.
 
-For example:
+לדוגמא:
 
 **display\_name: "`%#FE5A00%`magic\_fuel"**
 
@@ -14,5 +14,5 @@ For example:
 ```
 
 {% hint style="info" %}
-It works anywhere, also in translation files of the plugin.
+זה עובד בכל מקום, גם בקבצי תרגום של הפלאגין.
 {% endhint %}
