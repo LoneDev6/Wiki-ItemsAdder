@@ -1,6 +1,6 @@
-# 🇬🇧 🇬🇧 Translation
+# 🇬🇧 🇬🇧 תרגום
 
-You can translate everything in ItemsAdder, it's really easy.
+אפשר לתרגם הכל ב ItemsAdder,זה ממש פשוט.
 
 ## Translate items
 
