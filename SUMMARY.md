@@ -51,6 +51,7 @@
     * [Textures broken by shaders mod](faq/emotes-bugs/textures-broken-by-shaders-mod.md)
     * [Placed heads texture glitched](faq/emotes-bugs/placed-heads-texture-glitched.md)
   * [Single resourcepack Bungeecord](faq/single-resourcepack-bungeecord.md)
+  * [Single resourcepack Bungeecord different features](faq/single-resourcepack-multiple-server.md)
   * [OpenGL Error](faq/opengl-error.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [🇬🇧 🇬🇧 Languages](plugin-usage/languages.md)
