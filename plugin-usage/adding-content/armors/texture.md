@@ -142,8 +142,8 @@ armors_rendering:
     color: "#d60000"
     layer_1: armor/my_armor/layer_1
     layer_2: armor/my_armor/layer_2
-    emission_1: armor/my_armor/emission_1
-    emission_2: armor/my_armor/emission_2
+    emissive_1: armor/my_armor/emissive_1
+    emissive_2: armor/my_armor/emissive_2
     use_color: false
 ```
 
