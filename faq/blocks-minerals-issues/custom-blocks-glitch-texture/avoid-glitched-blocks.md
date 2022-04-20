@@ -124,9 +124,9 @@ Another solution is to avoid using `REAL` custom blocks type (mushroom) and use 
 ## Advanced fix on Purpur
 
 {% hint style="warning" %}
-### This only works on [Purpur](https://purpur.pl3x.net).
+#### This only works on [Purpur](https://purpur.pl3x.net).
 
-### Spigot and Paper don't have this feature.
+#### Spigot and Paper don't have this feature.
 {% endhint %}
 
 Enable these options in **purpur.yml** configuration:
