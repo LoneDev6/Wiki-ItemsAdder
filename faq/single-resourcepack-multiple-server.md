@@ -1,3 +1,8 @@
+---
+description: >-
+  Single resourcepack in Bungeecord network and disable individual features per server
+---
+
 # How to have single Pack in bungee but disable individual features per server?
 
 {% hint style="info" %}
