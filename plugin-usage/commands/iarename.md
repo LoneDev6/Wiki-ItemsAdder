@@ -1,14 +1,14 @@
 # iarename
 
-This command can be used to rename items (vanilla and custom).
+הפקודה הזאת יכולה לשנות שם לפריטים (רגילים של המשחק, מיוחדים של הפאלגים)
 
-It supports [font\_images](../advanced/font-images/) (emojis) and [text effects](../text-effects-1.17+.md).
+תומך ב [תמונות\פונט](../advanced/font-images/) (אימוג'ים) ו [אפקטיי טקסט](../text-effects-1.17+.md).
 
-Usage example: `/iarename test <r qqqqq> :smile: very nice`
+לדוגמא: `iarename test <r qqqqq> :smile: very nice/`
 
 ![](../../.gitbook/assets/143230790-515c74db-b7f6-4c1d-8a03-7bba80ac83cd.png)
 
-### Permission
+### גישה
 
 `ia.admin.iarename`
 
