@@ -17,7 +17,7 @@ You **should** complete ALL installation steps. Not only the first.
 
 * install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17](http://a.devs.beer/lightapi-new))
+* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
 * (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
 * put **ItemsAdder.jar** file inside your plugins folder
 * start the server
