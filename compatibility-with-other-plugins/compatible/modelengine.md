@@ -8,17 +8,6 @@
 
 It's very easy!
 
-{% hint style="warning" %}
-### WARNING
-
-Sadly **ModelEngine** code breaks **ItemsAdder** custom **entities** and **emotes** optimizations, so you have to make sure to understand that any lag is not caused by ItemsAdder.\
-You should decide to use ItemsAdder entities/emotes or ModelEngine. Having both enabled can cause performance issues.&#x20;
-
-I can't do nothing about that.
-
-### [Read more here](compatibility-issue.md)
-{% endhint %}
-
 * open `config.yml` of **ItemsAdder** and set this option:
 
 {% code title="config.yml" %}
@@ -41,6 +30,6 @@ overwrite-vanilla-models: false
 ```
 {% endcode %}
 
-* Run `/iazip` (and follow the [hosting tutorial](../../../plugin-usage/resourcepack-hosting/) if needed)
+* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
 
 Done!
