@@ -308,7 +308,7 @@ explosion:
   break_blocks: true
   
 # Allows you to damage entities around you
-damange_near_entities:
+damage_near_entities:
   entity_groups:
    - HOSTILE
    - PLAYERS
