@@ -1,6 +1,6 @@
 # 🏁 Hızlı kullanım için ipuçları
 
-## Kaynak paketini düzenlemek ve webe yüklemek çok uzun zaman alıyor !
+## Kaynak paketini düzenlemek ve internete yüklemek çok uzun zaman alıyor !
 
 Eğer yanlış yolu yaparsanız ;) Bunu okuyun:
 
@@ -30,7 +30,7 @@ resource-pack:
       url: ''
 ```
 
-Bunu yaparak hızlı kullanım ve kolay bir yapılandırmaya sahip olacaksınız. Öğeleri ekleyip paketi anında düzenleyebilirsiniz.
+Bunu yaparak hızlı kullanımı ve kolay bir yapılandırmaya sahip olacaksınız. Öğeleri ekleyip paketi anında düzenleyebilirsiniz.
 Bir öğenin modelini veya dokusunu düzenlediğinizde şu komutu kullanacaksınız:  `/iazip` .\
 Bunu yaparak değişiklikleri gerçek zamanlı olarak görebileceksiniz.
 
