@@ -1,18 +1,18 @@
-# 🏁 Tips for fastest usage
+# 🏁 Hızlı kullanım için ipuçları
 
-## It takes too much time editing the pack and uploading it online!
+## Kaynak paketini düzenlemek ve webe yüklemek çok uzun zaman alıyor !
 
-Yes if you do that the wrong way ;) Read this:
+Eğer yanlış yolu yaparsanız ;) Bunu okuyun:
 
 {% hint style="info" %}
-It's a good practice to create a **test server on your PC** with:
+Bunlarla birlikte bilgisayarınızda bir **test sunucusu** kurmak iyi bir alıştırma:
 
 * [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-emojis-ores-blocks-wings-tails-hats-more.73355/)
 * [LoneLib](https://www.spigotmc.org/resources/lonelibs.75974/)
 * [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 * [LightAPI Fork](https://www.spigotmc.org/resources/lightapi-fork.48247/)
 
-ItemsAdder with this resourcepack config:
+Bu kaynak paketi ile Itemsadder:
 
 ```yaml
 resource-pack:
@@ -30,12 +30,11 @@ resource-pack:
       url: ''
 ```
 
-Doing this you'll have a fast and easy to use configuration environment. You can add items and edit the pack on the fly.
+Bunu yaparak hızlı kullanım ve kolay bir yapılandırmaya sahip olacaksınız. Öğeleri ekleyip paketi anında düzenleyebilirsiniz.
+Bir öğenin modelini veya dokusunu düzenlediğinizde şu komutu kullanacaksınız:  `/iazip` .\
+Bunu yaparak değişiklikleri gerçek zamanlı olarak görebileceksiniz.
 
-When you edit an item texture/model and you edit its configuration you will use command  `/iazip` .\
-By doing this you'll see changes applied at real-time.
-
-So after you finished adding items and configuring them you'll be able to upload everything on your online server to mirror the changes.
+Eşya/öğe eklemeyi ve yapılandırmayı bitirdikten sonra değişiklikleri göstermek için her şeyi sunucunuza yükleyebilirsiniz.
 {% endhint %}
 
 {% content-ref url="resourcepack-hosting/resourcepack-on-dropbox.md" %}
@@ -43,8 +42,8 @@ So after you finished adding items and configuring them you'll be able to upload
 {% endcontent-ref %}
 
 {% hint style="warning" %}
-It's a good practice to not edit ItemsAdder textures/models directly on your online server.\
-Players hate lag on plugins reload, server restarts, having to re-download the pack when they're already player.. keep that in mind.
+ItemsAdder dokularını/modellerini doğrudan sunucunuzda düzenlememek iyi bir uygulamadır..\
+Oyuncular pluginlerin yeniden başlatılmasından dolayı oluşan lagdan, sunucunun yeniden başlamasından, paketi tekrar indirmekten hiç hoşlanmazlar.. aklınızda bulunsun.
 {% endhint %}
 
 {% hint style="danger" %}
