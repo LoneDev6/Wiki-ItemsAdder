@@ -47,6 +47,6 @@ Oyuncular pluginlerin yeniden başlatılmasından dolayı oluşan lagdan, sunucu
 {% endhint %}
 
 {% hint style="danger" %}
-It's a good thing not to edit my custom items as surely in the future they can be edited and you'll go crazy maintaining both your customization and my updates.\
-So if you want to edit items just make your own
+Benim yarattığım özel eşyaları düzenlememenizi tavsiye ediyorum çünkü gelecekte hem benim güncellemelerimi hemde kendi yaptıklarınızı düzenlemeye çalışırken delirebilirsiniz.\
+Yani eşyalarımı düzenlemek istiyorsanız kendinizinkileri yapın.
 {% endhint %}
