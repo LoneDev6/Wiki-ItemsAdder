@@ -14,7 +14,7 @@ It's very easy!
     enabled: false
     emotes: false
     
-overwrite-vanilla-models: false
+  overwrite-vanilla-models: false
 ```
 {% endcode %}
 
