@@ -1,20 +1,20 @@
 ---
-description: Text animations
+description: Yazı animasyonları
 ---
 
-# Text Effects (1.17+)
+# Yazı Efektleri (1.17+)
 
-## What are text effects?
+## Yazı efektleri nedir?
 
-ItemsAdder **2.4.19** offers some cool decorative text effects you can use in your server to make it more professional.
+ItemsAdder **2.4.19** sunucunuzu daha profesyonel göstermek için kullanabileceğiniz havalı yazı efektleri kullanıyor..
 
 {% hint style="danger" %}
-## This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+## Bu özellik sadece **Minecraft 1.17** istemcisi ile çalışıyor, sunucu versiyonunuz önemli değil.
 {% endhint %}
 
 {% hint style="warning" %}
-You have to run `/iazip` in order to enable/disable this feature.\
-Make sure also to enable it in the `config.yml`.
+Bu özelliği aktifleştirmek için `/iazip` komutunu kullanın.\
+Bu özelliği `config.yml` 'dede aktifleştirdiğinizden emin olun.
 
 ```yaml
 effects:
@@ -34,22 +34,22 @@ effects:
 
 
 
-## Permissions
+## İzinler
 
-* Use **text-effects** in **chat**
+* **Sohbette** **yazı-efekti** kullanmak için
   * `ia.user.text_effect.chat`
-* Use **text-effects** in **signs**
+* **Tabelalarda** **yazı-efekti** kullanmak için
   * `ia.user.text_effect.sign`
-* Use **text-effects** in **books**
+* **Kitaplarda** **yazı-efekti**  kullanmak için
   * `ia.user.text_effect.book`
-* Use **text-effects** in **anvil** rename field
+* **Örslerde** **yazı-efekti**  kullanmak için
   * `ia.user.text_effect.anvil`
-* Use a **text-effect**
+* **yazı-efekti** kullanmak için
   * `ia.user.text_effect.use.<effect>`
 
-## List of effects
+## Efekt listesi
 
-### Rainbow
+### Gökkuşağı
 
 ![](../.gitbook/assets/rainbow.gif)
 
@@ -59,19 +59,19 @@ effects:
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
-Permission: `ia.user.text_effect.use.r`\
-Usage: `<r text>`
+İzin: `ia.user.text_effect.use.r`\
+Kullanım: `<r text>`
 
-### Wobble
+### Sallanan
 
 ![](../.gitbook/assets/wobble.gif)
 
 ![](../.gitbook/assets/wobble\_item.gif)
 
-Permission: `ia.user.text_effect.use.w`\
-Usage: `<w text>`
+İzin: `ia.user.text_effect.use.w`\
+Kullanım: `<w text>`
 
-### Jump
+### Zıplayan
 
 ![](../.gitbook/assets/jump\_chat.gif)
 
@@ -79,37 +79,37 @@ Usage: `<w text>`
 
 ![](../.gitbook/assets/jump\_boss.gif)
 
-Permission: `ia.user.text_effect.use.j`\
-Usage: `<j text>`
+İzin: `ia.user.text_effect.use.j`\
+Kullanım: `<j text>`
 
-### Rainbow + Wobble
+### Gökkuşağı + Sallanan
 
 ![](../.gitbook/assets/rw\_chat.gif)
 
-Permission: `ia.user.text_effect.use.rw`\
-Usage: `<rw text>`
+İzin: `ia.user.text_effect.use.rw`\
+Kullanım: `<rw text>`
 
-### Rainbow + Jump
+### Gökküşağı + Zıplayan
 
 ![](../.gitbook/assets/rj.gif)
 
-Permission: `ia.user.text_effect.use.rj`\
-Usage: `<rj text>`
+İzin: `ia.user.text_effect.use.rj`\
+Kullanım: `<rj text>`
 
-## Where can I use these effects?
+## Bu efektleri nerelerde kullanabilirim?
 
-* Custom item name (in the .yml file)
-* Custom item lore (in the .yml file)
-* Chat
-* Sign
-* Book
+* Özel eşya isimlerinde (.yml dosyasının içinde)
+* Özel eşya bilgilerinde (.yml dosyasının içinde)
+* Sohbet
+* Tabelalar
+* Kitap
 * Bossbar
-* Prefix-Suffix (Luckperms for example)
-* _More soon...._
+* Önek-Sonek (örneğin: Luckperms)
+* _Daha fazlası yakında...._
 
 ![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
-## How to create animated prefix (Luckperms)
+## Animasyonlu önek nasıl oluşturulur (Luckperms)
 
 ![](<../.gitbook/assets/immagine (133).png>)
 
@@ -117,4 +117,4 @@ Usage: `<rj text>`
 
 ![](../.gitbook/assets/prefix.gif)
 
-Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
+Luck perms dökümanlarını okumaj için buraya tıklayın [ Luckperms dökumanları](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
