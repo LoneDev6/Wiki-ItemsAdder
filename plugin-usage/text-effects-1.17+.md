@@ -117,4 +117,4 @@ Kullanım: `<rj text>`
 
 ![](../.gitbook/assets/prefix.gif)
 
-Luck perms dökümanlarını okumaj için buraya tıklayın [ Luckperms dökumanları](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
+Nasıl yapılıcağını bilmiyor iseniz luck perms dökümanlarını okumak için buraya tıklayın [ Luckperms dökumanları](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta)
