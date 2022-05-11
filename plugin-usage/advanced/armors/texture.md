@@ -1,25 +1,25 @@
 ---
-description: Custom on-body armor texture
+תיאור: טקסטורת ארמור מותאם אישית על הגוף
 ---
 
-# Texture
+# טקסטורה
 
 {% hint style="danger" %}
-The `vanilla_1_17` feature requires ItemsAdder 2.4.22+ and Minecraft 1.17.\
-It can't work on Minecraft 1.16 and previous versions.\
-To make 1.16 clients see the custom armors you can enable also the `optifine` attribute, this will allow old clients to see the armors anyway.
+התכונה `vanilla_1_17` דורשת ItemsAdder 2.4.22+ ו-Minecraft 1.17.\
+זה לא יכול לעבוד על Minecraft 1.16 וגרסאות קודמות.\
+כדי לגרום לטקסטורה 1.16 להראות את הארמור המיוחד אתם יכולים להפעיל גם את התכונה 'optifine', זה יאפשר לשחקנים מגרסאות ישנות לראות את הארמור בכל מקרה.
 {% endhint %}
 
 {% hint style="warning" %}
-If you see **bugged** textures and you have **Optifine** installed please [read here](../../../faq/armors-bugs/textures-broken-by-shaders-mod.md).
+אם אתם רואים טקסטורות **פגומות** והתקנתם **Optifine** בבקשה [קראו כאן](../../../faq/armors-bugs/textures-broken-by-shaders-mod.md).
 {% endhint %}
 
-## Creating the armor renderer
+## יצירת רנדר לארמור 
 
 {% hint style="info" %}
-An armor renderer is a setting which contains the information how to show the armor ingame on the player body.
+מעבד\רנדר הארמור הוא הגדרה המכילה מידע כיצד להציג את הארמור במשחק על גוף השחקן.
 
-Note: there can be only one armor renderer with per color.
+הערה: יכול להיות רק עיבוד ארמור אחד לכל צבע.
 {% endhint %}
 
 ```yaml
@@ -33,33 +33,33 @@ armors_rendering:
     use_color: false
 ```
 
-This is a configuration which specified how the game will show the armor ingame.
+זה הוא קובץ ההגדרה שמפרט כיצד המשחק יציג את הארמור במשחק.
 
 {% hint style="warning" %}
-You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
+אתם חייבים להחליט על צבע! גם אם הארמור לא יהיה צבעוני. הצבע הוא כמו מז ה עבור המערכת שמעבדת הארמור שאתם יוצרים.
 {% endhint %}
 
-`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`. **** This option will also make the item (in inventory) not colored automatically anymore.
+הפוקצייה `use_color` משביתה את הצביעה מחדש של הארמור באמצעות `הצבע שצוין: "#d60000"`. במקרים מסוימים ייתכן שתרצו לצבוע מחדש את הארמור באמצעות ה'צבע' שצוין, אז תצטרכו להגדיר אותו ל'true'. **** אפשרות זו גם תגרום לפריט (באינבטורי) לא להיצבע יותר אוטומטית.
 
-`color` is the color attribute of this armor. It acts like an unique identifier for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
+התכונה 'color' היא תכונת הצבע של שריון זה. הוא פועל כמזהה ייחודי עבור השריון (ויגוון את השריון אם 'use_color' הוא מוגדר ל 'true'). השתמשו באתר זה כדי לקבל צבע תקף: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
 
-Now I create the two PNG files inside the `data/resource_pack/assets/myitems/textures/armor/my_armor/` folder.
+כעת אני יוצר את שני קבצי PNG בתוך התיקיה `data/resource_pack/assets/myitems/textures/armor/my_armor/`.
 
 ![](<../../../.gitbook/assets/image (126).png>)
 
 {% hint style="info" %}
-### HD armor textures
+### טקסטורות ארמור HD
 
-You can create HD high resolution armors too!&#x20;
+אתם יכולים ליצור גם ארמורים HD ברזולוציה גבוהה!&#x20;
 
-Just make sure they have the same proportions of the original.&#x20;
+רק וודאו שיש להם את אותן פרופורציות של המקור.&#x20;
+לדוגמה 64x32, 128x64, 256x128, 512x256..... <mark style="color:red;"> זה מאוד חשוב! הגודל חייב להיות חזק של 2.</mark>
 
-For example 64x32, 128x64, 256x128, 512x256..... <mark style="color:red;">it's very important! Size must be a power of 2.</mark>
 {% endhint %}
 
-### Creating an armor piece
+### יצירת חתיכת ארמור
 
-For example let's create a chestplate (you will create the other pieces on your own, following the same method).
+לדוגמה, בואו ניצור ארמור "חזה"(את שאר החלקים תעשו לבד, לפי אותה שיטה).
 
 ```yaml
   my_armor_chestplate:
@@ -81,31 +81,31 @@ For example let's create a chestplate (you will create the other pieces on your 
         armorToughness: 3
 ```
 
-The `custom_armor` property is important, it makes the plugin use the previous textures setting (`armors_renderer`) for this armor piece.
+המאפיין `custom_armour` חשוב, הוא גורם לתוסף להשתמש בהגדרת הטקסטורות הקודמת (`armors_renderer`) עבור חתיכת הארמור הזאת.
 
-In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's already specified in the `custom_armor` property.
+במקרה זה, לא ציינתי שום 'color' בשדה 'specific_properties' של ה-חתיכת ארמור כי הוא כבר צוין במאפיין 'custom_armour'.
 
-Now I create the item texture and I put it inside the `data\resource_pack\assets\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
+כעת אני יוצר את טקסטורת הפריט ואז אני שם אותו בתוך תיקיית `data\resource_pack\assets\myitems\textures\item\my_armor\` (בדוגמה זו יצרתי גם תיקיה חדשה בשם `my_armor` כדי לארגן טוב יותר את חבילת המשאבים).
 
 ![](<../../../.gitbook/assets/image (52).png>)
 
 ![](<../../../.gitbook/assets/image (71).png>)
 
-### Animated textures
+### טקסטורות מונפשות (אנימציות)
 
-You can also create animated armors!
+אתם גם יכולים ליצור ארמור אם אנימציות!
 
 ![](../../../.gitbook/assets/ezgif-7-3b3a255fe802.gif)
 
-To create an animated armor you have to create an image with all the animation frames.
+כדי ליצור ארמור מונפש יש ליצור תמונה עם כל הפריימים של האנימציה.
 
-Each frame must be under the previous. This is an example this is a 3 frames animation:
+כל מסגרת חייבת להיות מתחת לקודמת. זו דוגמה זו אנימציה של 3 פריימים:
 
 ![layer\_1](<../../../.gitbook/assets/layer\_1 (1).png>)
 
 ![layer\_2](../../../.gitbook/assets/layer\_2.png)
 
-Now let's edit the rendering properties to support the animation.
+כעת נערוך את מאפייני הרינדור כדי לתמוך בהנפשה.
 
 ```yaml
 info:
@@ -120,9 +120,9 @@ armors_rendering:
       interpolation: true
 ```
 
-In this case I set `interpolation: true` because I want the animation to be smooth.
+במקרה הזה אני מגדיר 'interpolation: true' כי אני רוצה שהאנימציה תהיה חלקה.
 
-Default speed is 24, but you can customize it until you find the right speed value:
+מהירות ברירת המחדל היא 24, אבל אתה יכול להתאים אותה עד שתמצא את ערך המהירות הנכון:
 
 ```yaml
     animation:
@@ -130,9 +130,9 @@ Default speed is 24, but you can customize it until you find the right speed val
       interpolation: true
 ```
 
-### Emissive textures (glowing in the dark)
+### מרקמים פולטים (זוהרים בחושך)
 
-You can also create emissive textures which glow in the dark. (You can make both animated and emissive textures at the same time!)
+אתם יכולים גם ליצור טקסטורות ארמור שזוהרות בחושך. (אתם יכולים ליצור גם אנימציה וגם טקסטורות זוהרות בו-זמנית!)
 
 ```yaml
 info:
@@ -147,8 +147,8 @@ armors_rendering:
     use_color: false
 ```
 
-In this case I want to make the previous animation emissive, I want it to glow in the dark.\
-You have to make 2 textures in order to make the textures glow. \
-The **transparent** part **won't glow** while the colored part will glow.
+במקרה הזה אני רוצה להפוך את האנימציה הקודמת לזוהרת, אני רוצה שהיא תאיר בחושך.\
+יש להכין 2 טקסטורות על מנת לגרום להם להאיר. \
+החלק **השקוף** **לא יאיר** ואילו החלק הצבעוני יאיר.
 
-You basically just have to copy and paste your texture and erase the parts you don't want to glow.
+אתם בעצם רק צריכים להעתיק ולהדביק את הטקסטורה שלכם ולמחוק את החלקים שאתם לא רוצים שיזהרו.
