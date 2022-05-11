@@ -1,6 +1,6 @@
 ---
-description: Create customized armors
+תיאור: יצירת ארמור מיוחד
 ---
 
-# 🥷 Armors
+# 🥷 ארמור
 
