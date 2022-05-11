@@ -33,15 +33,15 @@ armors_rendering:
     use_color: false
 ```
 
-This is a configuration which specified how the game will show the armor ingame.
+This is a configuration that specifies how the game will show the armor in the game.
 
 {% hint style="warning" %}
-You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
+You must decide on a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
 {% endhint %}
 
 `use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`. **** This option will also make the item (in inventory) not colored automatically anymore.
 
-`color` is the color attribute of this armor. It acts like an unique identifier for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
+`color` is the color attribute of this armor. It acts like a unique identifier for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
 
 Now I create the two PNG files inside the `data/resource_pack/assets/myitems/textures/armor/my_armor/` folder.
 
