@@ -17,7 +17,7 @@ If you see **bugged** textures and you have **Optifine** installed please [read 
 ## Creating the armor renderer
 
 {% hint style="info" %}
-An armor renderer is a setting which contains the information how to show the armor ingame on the player body.
+An armor renderer is a setting containing information on how to show the armor in the game on the player's body.
 
 Note: there can be only one armor renderer with per color.
 {% endhint %}
