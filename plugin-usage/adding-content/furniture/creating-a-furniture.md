@@ -143,7 +143,7 @@ Edit how the model is shown on player hand:
 
 ![](<../../../.gitbook/assets/image (46) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (48) (1) (1).png>)
+![](<../../../.gitbook/assets/image (48) (1) (1) (1).png>)
 
 ### Configure how the model is shown ingame
 
