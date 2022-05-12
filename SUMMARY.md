@@ -170,7 +170,7 @@
     * [ℹ Items tooltips](plugin-usage/adding-content/items-tooltips.md)
     * [Animated titles](plugin-usage/adding-content/animated-titles.md)
     * [🔖 Ranks textures (tags)](plugin-usage/adding-content/ranks-textures-tags.md)
-    * [🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 Minecraft translation files](plugin-usage/adding-content/minecraft-translation-files.md)
+    * [Minecraft translation files](plugin-usage/adding-content/minecraft-translation-files.md)
     * [🎨 Colored models](plugin-usage/adding-content/colored-models.md)
     * [Custom NBT](plugin-usage/adding-content/custom-nbt.md)
     * [⚙ Optifine only features](plugin-usage/adding-content/optifine-only-features/README.md)

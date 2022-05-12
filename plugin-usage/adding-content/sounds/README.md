@@ -7,7 +7,7 @@
 {% endcontent-ref %}
 
 * open **plugins\ItemsAdder\data\resource\_pack\assets** folder
-* open your [namespace](../basic-concepts/namespace/creating-your-namespace.md) folder
+* open your **namespace** folder
 * create a new folder called **sounds**
 * put your **.ogg** file in there (you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...)
 
@@ -17,9 +17,9 @@ So now I have `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\musi
 ### Step 2
 
 * open **plugins\ItemsAdder\data\resource\_pack\assets** folder
-* open your [namespace](../basic-concepts/namespace/creating-your-namespace.md) folder
+* open your **namespace** folder
 * create a new file named `sounds.json` (or open it if you already created)
-* this file is a json file, you MUST write it corretly or it won't work. If you need info about Json files please search online.
+* this file is a json file, you MUST write it correctly or it won't work. If you need info about Json files please search online.
 
 To add your sound into the file you just have to do this:
 
@@ -42,7 +42,7 @@ This is the sound name, you will use it in every part of the plugin and also in 
 
 This is the list of sound files Minecraft will play when you call the sound name.\
 Minecraft will play one of these sounds randomly (only if you set more than one sound).\
-⚠️Keep in mind that you have to change `myitems` to your own namespace name.
+⚠️Keep in mind that you have to change `myitems`  to your own namespace name.
 
 ```javascript
 "sounds":[
