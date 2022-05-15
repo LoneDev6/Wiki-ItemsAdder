@@ -52,9 +52,11 @@
           * `ia.user.text_effect.use.r`
           * `ia.user.text_effect.use.rw`
     * emotes ([<mark style="color:blue;">player emotes</mark>](../adding-content/player-emotes/))
+      * Use the emote command: `ia.user.iaemote`
       * Use an emote: `ia.user.iaemote.use.<emote>`
       * Example:
         * `ia.user.iaemote.use.yes`
+        * `ia.user.iaemote.use.*`
 
     ​
 * Admin

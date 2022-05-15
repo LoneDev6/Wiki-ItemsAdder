@@ -35,7 +35,8 @@ worlds_populators:
     iterations: 1
 ```
 
-This code allows you to tell ItemsAdder to generate the block "myitems:custom_block" in the world named "world" and replace only block of types STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL and only in biome PLAINS.
+This code allows you to tell ItemsAdder to generate the block "myitems:custom\_block" in the world named "world" and replace only block of types STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL and only in biome PLAINS.\
+It will spawn 1 vein made of 3 blocks in each chunk.
 
 ### amount, iterations, chance
 
@@ -47,9 +48,9 @@ Take my values as example.\
 The only thing that you can increase safely as you wish is the **chance**.
 {% endhint %}
 
-**iterations**: number of veins to be spawned to make a bigger ore vein\
+**iterations**: number of veins to be spawned in the chunk\
 **amount**: number of blocks in each ore vein (or the **vein size**)\
-**chance**: chance of that generation to happen in a chunk, you should set it to 100 to normal ores and lower it down for more rare ores.
+**chance**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
 
 ### Biomes
 

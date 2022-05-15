@@ -141,9 +141,9 @@ In this example you will notice an "issue". The sound is played even if the user
             pitch: 1
 ```
 
-###
+####
 
-### Setting the same permission to every action
+#### Setting the same permission to every action
 
 If you want to set the same permission to every action without copy and paste you can!\
 Use this special attribute `all_actions_permission`.\
@@ -308,7 +308,7 @@ explosion:
   break_blocks: true
   
 # Allows you to damage entities around you
-damange_near_entities:
+damage_near_entities:
   entity_groups:
    - HOSTILE
    - PLAYERS
