@@ -25,7 +25,7 @@
 
 <details>
 
-<summary>Click here to expand</summary>
+<summary>לחצו כאן בשביל לראות</summary>
 
 זה בעצם יאפשר את התיקון בכל אחת מהביומות של Minecraft Overworld.\
 אל תהססו להסיר את הביומות שבהן לא יהיו פרטיות, כדי להימנע משימוש גבוה במעבד.
