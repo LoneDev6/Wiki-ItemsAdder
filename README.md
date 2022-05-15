@@ -1,7 +1,7 @@
 ---
 description: This website helps you configuring and creating custom items for my plugin
 cover: >-
-  ![](.gitbook/assets/README-md-cover.png)
+  ![](<.gitbook/assets/README-md-cover.png>)
 coverY: 0
 ---
 # 👋 Welcome
