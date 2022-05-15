@@ -17,7 +17,7 @@
 
 * התקינו [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * התקינו [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (אופציאונלי) התקינו **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17](http://a.devs.beer/lightapi-new))
+* (אופציאונלי) התקינו **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
 * (אופציאונלי) התקינו [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
 * הכניסו את ה**ItemsAdder.jar** לתוך תיקיית הפלאגינים שלכם.
 * הפעילו את השרת מחדש
