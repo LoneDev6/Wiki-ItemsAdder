@@ -28,5 +28,5 @@ Rightclick on the bone and select "**Bone Config**"
 
 Check the "**Hitbox**" option and press "**Confirm**".
 
-![](<../../../../.gitbook/assets/image (49).png>)
+![](<../../../../.gitbook/assets/image (49) (1).png>)
 

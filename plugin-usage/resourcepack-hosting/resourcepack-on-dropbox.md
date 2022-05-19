@@ -12,7 +12,7 @@ coverY: 0
 
 ## Text tutorial
 
-* Open [DropBox](https://dropbox.com), register/login
+* Open [DropBox](https://dropbox.com/), register/login
 * Use the command`/iazip` (**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file)
 * Open folder: `plugins/ItemsAdder/data/resource_pack/`
 * **Drag and drop** on **DropBox** the file **pack.zip**

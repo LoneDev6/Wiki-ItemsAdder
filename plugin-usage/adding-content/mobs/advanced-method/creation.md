@@ -13,7 +13,7 @@ You can import your custom models very easily, you just have to install the Bloc
 * Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
 {% endhint %}
 
-[Download Blockbench](https://www.blockbench.net) (don't use the web app).
+[Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
 ![](<../../../../.gitbook/assets/image (98) (1).png>)
 

@@ -127,7 +127,7 @@ items:
 
 Now open [BlockBench](../item-properties/resource/creating-3d-models.md) and create a _"Java Block/Item"_.
 
-![](<../../../.gitbook/assets/image (49) (1) (1).png>)
+![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
 
 Now create you model, in this example I'm modelling an ugly minimal modern lamp.
 
