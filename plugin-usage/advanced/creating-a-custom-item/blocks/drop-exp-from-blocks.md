@@ -1,12 +1,12 @@
-# Drop exp from blocks
+# קבלת אקספי מבלוקים
 
 {% hint style="info" %}
-### There are 2 ways to drop exp from your custom blocks.
+### ישנן 2 דרכים לקבל אקספי מהבלוקים המיוחדים שלכם.
 {% endhint %}
 
-## 1. Add the exp drop directly in the custom block creation
+## 1. הגדרת האקספי בתוך הגדרות הבלוק המיוחד
 
-This has a downside, you can only set the exp drop to custom blocks, not to vanilla blocks.
+יש לזה חיסרון, אתם יכול להגדיר את קבלת האקספי רק לבלוקים המיוחדים, לא לבלוקים במשחק הרגיל.
 
 ```yaml
   ruby_block:
@@ -34,9 +34,9 @@ This has a downside, you can only set the exp drop to custom blocks, not to vani
             max_amount: 3
 ```
 
-## 2. Add the exp drop to loots
+## 2. הגדרת האקספי בתוך לוט
 
-This is the best way because you can also apply this to vanilla blocks types and you can add as many as exp settings you want. This allows you to add more randomness and dynamicity to your drops.
+זו הדרך הטובה ביותר כי אתם יכולים ליישם את זה גם על סוגי בלוקי במשחק הרגיל ואתם גם יכולים להוסיף כמה הגדרות אקספי שאתם רוצים. זה מאפשר לכם להוסיף יותר אקראיות ודינמיות לאספי שלכם.
 
 ```yaml
 loots:
