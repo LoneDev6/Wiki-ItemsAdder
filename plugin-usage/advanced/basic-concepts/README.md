@@ -1,2 +1,2 @@
-# ℹ Basic concepts
+# ℹ מושגי יסוד
 
