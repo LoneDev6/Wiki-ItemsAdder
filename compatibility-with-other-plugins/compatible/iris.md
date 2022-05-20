@@ -1,22 +1,21 @@
-#  מנוע Iris
+# Iris
 
-## [הורידו מכאן](https://www.spigotmc.org/resources/iris-world-gen-custom-biome-colors.84586/)
+## [Download here](https://www.spigotmc.org/resources/iris-world-gen-custom-biome-colors.84586/)
 
-## הוספת התאמה
+## Enabling compatibility
 
-### שלב 1
+### Step 1
 
-התקינו [ItemsAdderBlocksInjector](https://www.spigotmc.org/resources/itemsadderblocksinjector.102078/) זיכרו <mark style="color:red;"לא להסיר את הפלאגין הזה אחרי ההתנה !</mark>
+Install [ItemsAdderBlocksInjector](https://www.spigotmc.org/resources/itemsadderblocksinjector.102078/) and <mark style="color:red;">don't remove it after installation!</mark>
 
-### שלב 2
+### Step 2
 
-צרו את העולם במנוע Iris (קראו את דפי המידע של הפלאגין) והשתמשו ב-ItemsAdder בשביל ליצור מזההי(ID) בלוקים מיוחדים בדיוק כמו שעושים אם בלוקים במשחק הרגיל
+Create your Iris world (follow their guides) and use your ItemsAdder custom blocks IDs as you would do with vanilla blocks.
 
 \
-ראו דוגמא בקובץ הרים שהוא חלק מחבילת ה-`plugins\Iris\packs\overworld\biomes\mountain\mountain.json` : `overworld`
+For example open this file of the `overworld` pack: `plugins\Iris\packs\overworld\biomes\mountain\mountain.json`
 
-אתם יכולים לערוך שכבות בשימוש בלוקים מיוחדים מהפלאגין, בדוגמא הזאת אני משתמש ב **Amethyst Block**: 
-
+Then edit the layers settings to use a custom block, in this example the custom **Amethyst Block**:
 
 ```json
 "layers": [
@@ -35,12 +34,13 @@
     },
 ```
 
-זה התוצאה:
+This will generate a similar result:
 
 ![](<../../.gitbook/assets/image (49).png>)
 
 ![](<../../.gitbook/assets/image (96).png>)
 
-## בעיות בהתאמה
-* הפלאגין FastAsyncWorldEdit יפסיק לפעול בשרת, אני לא יכול לעשות שום דבר בנוגע לזה 
-* בפלאגין WorldEdit לא תוכלו לעשות `//undo` וגם `//copy` על הבלוקים המיוחדים שנוצרו בעזרת מנוע `Iris` הבלוקים יחזרו ל-`NOTE_BLOCK` (או`TRIPWIRE` `mushroom` `CHORUS_PLANT` , )
+## Compatibility issues
+
+* FastAsyncWorldEdit will stop working, there is nothing I can do about that.
+* WorldEdit `//undo` and `//copy` won't work with the custom blocks placed by `Iris`, they would be reverted back to `NOTE_BLOCK` (or `mushroom`, `TRIPWIRE`, `CHORUS_PLANT`)
