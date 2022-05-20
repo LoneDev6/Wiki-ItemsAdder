@@ -1,7 +1,7 @@
-# Sword
+# חרב
 
 {% hint style="danger" %}
-### Namespace
+### מרחב שמות
 
 If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace/creating-your-namespace.md).
 {% endhint %}
