@@ -1,6 +1,6 @@
-# Custom Arrows
+# חצים מיוחדים
 
-## Some examples (ItemsAdder 2.2.8+)
+## דוגמאות (ItemsAdder 2.2.8+)
 
 ```yaml
 items:
