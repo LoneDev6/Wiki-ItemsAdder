@@ -1,8 +1,8 @@
-# Magic wand
+# שרביט קסם
 
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
 
-## Example of fire magic wand
+## דוגמה של שרביט קסם אש
 
 ```yaml
   advanced_magic_wand:
@@ -103,7 +103,7 @@
           amount: 1
 ```
 
-## Example of mana recover crystals
+## דוגמה למשחזר גבישי מאנה
 
 ```yaml
   mana_recover_crystals:
