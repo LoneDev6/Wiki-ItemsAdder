@@ -1,21 +1,22 @@
-# Iris
+#  מנוע Iris
 
-## [Download here](https://www.spigotmc.org/resources/iris-world-gen-custom-biome-colors.84586/)
+## [הורידו מכאן](https://www.spigotmc.org/resources/iris-world-gen-custom-biome-colors.84586/)
 
-## Enabling compatibility
+## הוספת התאמה
 
-### Step 1
+### שלב 1
 
-Install [ItemsAdderBlocksInjector](https://www.spigotmc.org/resources/itemsadderblocksinjector.102078/) and <mark style="color:red;">don't remove it after installation!</mark>
+התקינו [ItemsAdderBlocksInjector](https://www.spigotmc.org/resources/itemsadderblocksinjector.102078/) זיכרו <mark style="color:red;"לא להסיר את הפלאגין הזה אחרי ההתנה !</mark>
 
-### Step 2
+### שלב 2
 
-Create your Iris world (follow their guides) and use your ItemsAdder custom blocks IDs as you would do with vanilla blocks.
+צרו את העולם במנוע Iris (קראו את דפי המידע של הפלאגין) והשתמשו ב-ItemsAdder בשביל ליצור מזההי(ID) בלוקים מיוחדים בדיוק כמו שעושים אם בלוקים במשחק הרגיל
 
 \
-For example open this file of the `overworld` pack: `plugins\Iris\packs\overworld\biomes\mountain\mountain.json`
+ראו דוגמא בקובץ הרים שהוא חלק מחבילת ה-`plugins\Iris\packs\overworld\biomes\mountain\mountain.json` : `overworld`
 
-Then edit the layers settings to use a custom block, in this example the custom **Amethyst Block**:
+אתם יכולים לערוך שכבות בשימוש בלוקים מיוחדים מהפלאגין, בדוגמא הזאת אני משתמש ב **Amethyst Block**: 
+
 
 ```json
 "layers": [
@@ -34,13 +35,12 @@ Then edit the layers settings to use a custom block, in this example the custom 
     },
 ```
 
-This will generate a similar result:
+זה התוצאה:
 
 ![](<../../.gitbook/assets/image (49).png>)
 
 ![](<../../.gitbook/assets/image (96).png>)
 
-## Compatibility issues
-
-* FastAsyncWorldEdit will stop working, there is nothing I can do about that.
-* WorldEdit `//undo` and `//copy` won't work with the custom blocks placed by `Iris`, they would be reverted back to `NOTE_BLOCK` (or `mushroom`, `TRIPWIRE`, `CHORUS_PLANT`)
+## בעיות בהתאמה
+* הפלאגין FastAsyncWorldEdit יפסיק לפעול בשרת, אני לא יכול לעשות שום דבר בנוגע לזה 
+* בפלאגין WorldEdit לא תוכלו לעשות `//undo` וגם `//copy` על הבלוקים המיוחדים שנוצרו בעזרת מנוע `Iris` הבלוקים יחזרו ל-`NOTE_BLOCK` (או`TRIPWIRE` `mushroom` `CHORUS_PLANT` , )
