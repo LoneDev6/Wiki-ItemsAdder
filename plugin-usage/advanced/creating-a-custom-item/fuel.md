@@ -1,11 +1,11 @@
-# Fuel
+# דלק
 
-## How to make an item usable as fuel?
+##כיצד להפוך פריט לדלקן?
 
-It's very easy!\
-You just have to use the fuel [behaviour](../item-properties/behaviours.md).
+זה ממש פשוט!\
+כל מה שצריך להוסיף זה את [ההתנהגות](../item-properties/behaviours.md).
 
-## Example
+## לדוגמא
 
 ```yaml
       fuel: 
@@ -14,9 +14,9 @@ You just have to use the fuel [behaviour](../item-properties/behaviours.md).
           - BLAST_FURNACE
 ```
 
-For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** (**1 second**).&#x20;
+לדוגמה, הגדרה זו תהפוך את הפריט הזה לשימוש ב-**BLAST\_FURNACE** ותישרף ב-**20 טיקים** (**1 שנייה**).&#x20;
 
-### Complete example item
+### פריט לדוגמה
 
 ```yaml
   magic_fuel:
