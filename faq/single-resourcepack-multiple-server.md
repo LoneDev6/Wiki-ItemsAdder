@@ -34,7 +34,7 @@ Open each one of your Spigot servers and set host method to `no-host` in the Ite
 **STEP 3**
 
 Run `/iazip` and upload the generated pack to a file hosting and make sure it offers a DIRECT DOWNLOAD.\
-For example [**MCPACKS**](https://mc-packs.net)**,** [**DropBox**](../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)**,** [**GoogleDrive**](../plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)**.**
+For example [**MCPACKS**](https://mc-packs.net/)**,** [**DropBox**](../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)**,** [**GoogleDrive**](../plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)**.**
 
 **STEP 4**
 

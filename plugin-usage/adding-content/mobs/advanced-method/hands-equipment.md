@@ -28,7 +28,7 @@ The hand pivot bone has a new icon now, as you can see.
 
 ![](<../../../../.gitbook/assets/image (97).png>)
 
-![](<../../../../.gitbook/assets/image (96) (1).png>)
+![](<../../../../.gitbook/assets/image (96) (1) (1).png>)
 
 Follow the same steps to specify the the right hand, then you have to export the model as usual.
 

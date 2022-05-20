@@ -21,7 +21,7 @@ Advanced animation features
 
 ### Main features
 
-* [Blockbench](https://www.blockbench.net) extension to convert models
+* [Blockbench](https://www.blockbench.net/) extension to convert models
 * Completely Async, no TPS drops
 * Optimized for big servers
 * Damage animation

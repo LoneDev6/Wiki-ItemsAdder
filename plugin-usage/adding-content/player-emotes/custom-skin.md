@@ -2,7 +2,7 @@
 
 ## Getting custom skins
 
-You can get a [list](https://mineskin.org/gallery) of possible skins and even upload [your own](https://mineskin.org)!
+You can get a [list](https://mineskin.org/gallery) of possible skins and even upload [your own](https://mineskin.org/)!
 
 ![](<../../../.gitbook/assets/image (89) (1).png>)
 
