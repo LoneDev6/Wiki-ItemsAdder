@@ -23,7 +23,7 @@ items:
     display_name: executableitem_test
     permission: executableitem_test
     executableitem:
-      id: spit
+      id: Free_Spit
     resource:
       material: IRON_INGOT
       generate: true
