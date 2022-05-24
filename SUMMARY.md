@@ -107,6 +107,7 @@
       * [Populator](plugin-usage/adding-content/trees-populators/populator.md)
       * [Saplings](plugin-usage/adding-content/trees-populators/saplings.md)
     * [🍄 Surface populators](plugin-usage/adding-content/surface-populators.md)
+    * [🪨 Cave populators](plugin-usage/adding-content/surface-populators-1.md)
     * [🖼 Font Images](plugin-usage/adding-content/font-images/README.md)
       * [Common errors](plugin-usage/adding-content/font-images/common-errors.md)
       * [Placeholders](plugin-usage/adding-content/font-images/placeholders.md)
