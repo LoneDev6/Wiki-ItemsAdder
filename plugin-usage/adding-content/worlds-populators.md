@@ -28,7 +28,7 @@ worlds_populators:
     - world
     replaceable_blocks:
     - DIRT
-    per_chunk_chance: 100.0
+    chunk_chance: 100.0
     max_height: 64
     min_height: 40
     vein_blocks: 3
