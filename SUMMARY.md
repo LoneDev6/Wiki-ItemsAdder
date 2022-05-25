@@ -169,6 +169,7 @@
           * [Using MythicMobs](plugin-usage/adding-content/mobs/old-method/spawning-custom-mobs-naturally/using-mythicmobs.md)
           * [ItemsAdder internal](plugin-usage/adding-content/mobs/old-method/spawning-custom-mobs-naturally/itemsadder-internal.md)
     * [ℹ Items tooltips](plugin-usage/adding-content/items-tooltips.md)
+    * [2D icons for blocks/furniture](plugin-usage/adding-content/2d-icons-for-blocks-furniture.md)
     * [Animated titles](plugin-usage/adding-content/animated-titles.md)
     * [🔖 Ranks textures (tags)](plugin-usage/adding-content/ranks-textures-tags.md)
     * [Minecraft translation files](plugin-usage/adding-content/minecraft-translation-files.md)
