@@ -1,13 +1,13 @@
 ---
-description: How to protect your resourcepack from thief
+description: Kaynak paketinizi hırsızlardan koruyun
 ---
 
-# 🚨 Protect resourcepack from unzip
+# 🚨 Kaynak paketinizi birinin unzip'lemesinden koruyun
 
 {% hint style="info" %}
-With ItemsAdder you can protect your resourcepack from unzip and thieves.\
-You just have to set this option in config.yml and use /iazip again.\
-If you're using Dropbox don't forget to reupload the pack and update the config.yml
+Itemsadder ile kaynak paketinizi hırsızlar ve unzip'ten koruyun.\
+Bu ayarı config.yml açmanız ve /iazip komutunu kullanmanız gerekiyor.\
+Dropbox kullanıyorsanız paketi tekrar yüklemeyi ve config.yml'den linki düzenlemeniz gerekiyor.
 
 {% code title="config.yml" %}
 ```yaml
