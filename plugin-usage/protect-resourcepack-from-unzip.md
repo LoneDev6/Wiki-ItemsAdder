@@ -21,24 +21,24 @@ Dropbox kullanıyorsanız paketi tekrar yüklemeyi ve config.yml'den linki düze
 
 ### enabled
 
-The `enabled` property allows you to protect the resourcepack with a basic method.
+Ayar `true` ise kaynak paketinizi başlangıç seviyesindeki bir korumayla korur.
 
 ### extreme
 
-The `extreme` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
+Ayar `extreme` açık ise kaynak paketinizi başka bir katmanda koruma ile korur..
 
-## Showcase
+## Gösterim
 
-This is a funny meme showcase of what the user will see when they try to steal your data. But this is actually what the user will see, a group of corrupted files and folders.
+Bu video kullanıcının kaynak paketinizi çalmaya çalıştığında olucakları gösteriyor. Ama kullanıcı sadece bozulmuş dosyalar görücek.
 
 {% embed url="https://youtu.be/MhtEhoOuWV8" %}
 
 {% hint style="warning" %}
-There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
+Kaynak paketinizi %100 efektik olarak korumanın bir yolu yok çünkü oyun bu paketi çıkarabilmeli
 
-This feature is a mitigation to avoid kids and trolls to steal your texture.\
-Some experienced users might be able to find a way to bypass these protections.
+Bu özellik trollerin ve çocukların paketinizi çalmasını engeller.\
+Tecrübeli kişiler bu korumayı geçebilir.
 
-ItemsAdder does its best to prevent this, but keep that eventuality in mind.
+Itemsadder bunu engellemek için elinden geleni yapıyor ama yinede aklınızda bulunsun.
 {% endhint %}
 
