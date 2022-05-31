@@ -43,10 +43,19 @@ Now you must complete **step 2** to configure the resourcepack (don't worry it's
 **ItemsAdder** comes with a lot of custom content already created for you.\
 It's not automatically included into the downloaded plugin because some people might not want every item/feature automatically added into their server.
 
-In order to add these new features you can read here:
+#### Default pack
 
-* download the latest version of the DefaultPack here
-* (optional: download the second pack here which adds even more content)
+![](<.gitbook/assets/image (47).png>)
+
+* download the latest version of the DefaultPack [here](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;
+* extract the content into the **ItemAdder** folder and overwrite the files if asked
+* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+
+#### Other pack (optional)
+
+![](<.gitbook/assets/image (50).png>)
+
+* if you want you can download the OtherPacks file [here](https://github.com/ItemsAdder/OtherPacks/releases/latest) which adds even more content
 * extract the content into the **ItemAdder** folder and overwrite the files if asked
 * run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
 
