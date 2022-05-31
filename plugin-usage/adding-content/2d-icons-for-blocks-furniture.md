@@ -1,5 +1,9 @@
 # 2D icons for blocks/furniture
 
+{% hint style="warning" %}
+This feature requires **ItemsAdder 3.1.6+**
+{% endhint %}
+
 {% embed url="https://youtu.be/FOLoAAjV_oI" %}
 
 ## Block
