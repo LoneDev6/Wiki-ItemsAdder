@@ -10,7 +10,7 @@ Open your `.iaentitymodel` model file with **Blockbench**.
 
 Select the base bone of the entity hands.
 
-![](<../../../../.gitbook/assets/image (47).png>)
+![](<../../../../.gitbook/assets/image (47) (1).png>)
 
 Create a new group which will be a child of the hand bone.
 

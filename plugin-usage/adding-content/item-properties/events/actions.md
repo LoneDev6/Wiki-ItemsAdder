@@ -37,6 +37,9 @@ Actions are what will happen when an [event](./) is triggered.
 * `target_potion_effect`
 * `target_remove_potion_effect`
 * `play_totem_animation`
+* `set_block`
+* `place_furniture`
+* `drop_item`
 
 ### Delay
 
@@ -352,6 +355,21 @@ target_remove_potion_effect:
   type: GLOWING
   
 play_totem_animation: animatedtitles:bruh
+
+set_block:
+  block: rocks
+  target: RELATIVE
+  decrement_amount: true
+  
+place_furniture:
+  furniture: furniture
+  decrement_amount: true
+
+drop_item:
+  item: 2d_furniture
+  chance: 99.9
+  max_amount: 3
+  min_amount: 1
 ```
 
 ###

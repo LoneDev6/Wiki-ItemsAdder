@@ -1,10 +1,20 @@
-# 🗑 Removing default stuff
+---
+description: ItemsAdder before 3.2.0
+---
+
+# 🗑 Old ItemsAdder
+
+{% hint style="warning" %}
+Read here only if you're using ItemsAdder old resourcepack.\
+You can ignore this if you just bought the plugin at or after v3.2.0.
+{% endhint %}
 
 ## How can I remove all the items and default stuff?
 
-If you only want to make your own items, blocks and other things it's easy!\
-Follow this tutorial.\
-
+{% hint style="info" %}
+If you don't care about my default stuff and you only want to make your own items, blocks and other things it's easy!\
+Follow this tutorial.
+{% endhint %}
 
 ### 1. Config.yml
 

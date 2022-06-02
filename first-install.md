@@ -23,12 +23,12 @@ You **should** complete ALL installation steps. Not only the first.
 * start the server
 * let ItemsAdder finish loading **everything**
 
-First step is done. \
+First step is done.\
 Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
 
 ## Step 2 - resourcepack first installation
 
-#### Decide the resourcepack hosting method:&#x20;
+#### Decide the resourcepack hosting method:
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
@@ -36,17 +36,45 @@ Now you must complete **step 2** to configure the resourcepack (don't worry it's
 
 ## Optional steps
 
+### Adding official ItemsAdder custom content
+
+![](.gitbook/assets/items\_showcase\_gif.apng)
+
+**ItemsAdder** comes with a lot of custom content already created for you.\
+It's not automatically included into the downloaded plugin because some people might not want every item/feature automatically added into their server.
+
+#### Default pack
+
+![](<.gitbook/assets/image (47).png>)
+
+* download the latest version of the DefaultPack [here](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;
+* extract the content into the **ItemAdder** folder and overwrite the files if asked
+* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+
+#### Other pack (optional)
+
+![](<.gitbook/assets/image (50).png>)
+
+* if you want you can download the OtherPacks file [here](https://github.com/ItemsAdder/OtherPacks/releases/latest) which adds even more content
+* extract the content into the **ItemAdder** folder and overwrite the files if asked
+* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+
+If you're on 1.17 or lower you have to change the ores generation:
+
+* Open these files and set `enabled: true`.\
+  `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_old.yml`\
+  `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_old.yml`
+* Open these files and set `enabled: false`.\
+  `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_1_18.yml`\
+  `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_1_18.yml`
+
 ### Removing default items
 
-{% hint style="info" %}
-If you don't care about my default stuff and you only want to make your own items, blocks and other things it's easy!
-{% endhint %}
-
-{% content-ref url="faq/removing-default-stuff.md" %}
-[removing-default-stuff.md](faq/removing-default-stuff.md)
+{% content-ref url="faq/removing-default-stuff/" %}
+[removing-default-stuff](faq/removing-default-stuff/)
 {% endcontent-ref %}
 
-### Avoid glitched blocks (if you have Purpur installed)
+### Avoid glitched blocks
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
 [avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)

@@ -61,7 +61,7 @@ Click on the **ItemsAdder** tab and press **Export**.
 
 You should get a success message.
 
-![](<../../../.gitbook/assets/image (81).png>)
+![](<../../../.gitbook/assets/image (81) (1).png>)
 
 Now you should save the project file too using **CTRL+S**.
 

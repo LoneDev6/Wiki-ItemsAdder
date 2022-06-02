@@ -82,7 +82,7 @@ Click on the **ItemsAdder** tab and press **Export**.
 
 You should get a success message.
 
-![](<../../../../.gitbook/assets/image (81).png>)
+![](<../../../../.gitbook/assets/image (81) (1).png>)
 
 Now open the folder where you have your model and copy/cut the new generated folder `assets`.
 

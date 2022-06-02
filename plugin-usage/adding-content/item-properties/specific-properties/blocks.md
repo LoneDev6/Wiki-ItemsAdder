@@ -6,6 +6,8 @@ specific_properties:
     placed_model:
       type: REAL_NOTE
       break_particles: BLOCK
+      rotx: 0
+      roty: 0
     cancel_drop: true #default is false. if true the custom block won't be dropped when
                       #player mines it
     light_level: 12 #make block emit light
@@ -71,6 +73,11 @@ this property can have these value:
 It's better to use **REAL** and **REAL\_NOTE** blocks for decorative blocks/ores and use **TILE** blocks for trade machines and machinery/rare decorative blocks.\
 You should not use **TILE** blocks for ores because it COULD cause a bit of lag on chunk generation.
 {% endhint %}
+
+### rotx and roty
+
+This allows you to specify a rotation for a particular model. This is an option for expert users.\
+The specified rotation is STATIC, it's not dynamic. This is useful only if you want to create multiple variants of the same block without having to create a separate model manually.
 
 ### placeable\_on\_water
 
