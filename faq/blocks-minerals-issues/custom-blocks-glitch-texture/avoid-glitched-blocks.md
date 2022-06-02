@@ -123,7 +123,7 @@ seach-also-in-these-biomes:
 {% hint style="warning" %}
 ### זה רק עובד על [Purpur](https://purpur.pl3x.net).
 
-### ל-Spegot ול-Paper אין תכונה זו.
+### ל-Spigot ול-Paper אין תכונה זו.
 {% endhint %}
 
 הגדירו את האפשרויות האלה בקובץ **purpur.yml**:
