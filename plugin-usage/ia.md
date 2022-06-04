@@ -55,5 +55,5 @@ Bu ayar eğer her kategoride farklı font kullanmak istiyorsanız yararlı.
 {% endhint %}
 
 {% hint style="success" %}
-**Aynı isimdeki** **kategoriler** and different namespace **will be merged**, this is **helful** if you have two "swords" categories. This allows you to open **/ia** menu and see all swords organized in the same category instead of having 2 swords categories.
+**Aynı isimdeki** **kategoriler** ve farklı isimler **birleştirilecek**, bu eper 2 tane "kılıçlar" kategoriniz varsa **çok yardımcı** olucaktır. Bu **/ia** menüsünü açtığınızda 2 tane kılıçlar kategorisi görmeniz yerine organize olmuş tek bir kategori görmenizi sağlıyor.
 {% endhint %}
