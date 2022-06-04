@@ -1,46 +1,46 @@
 ---
-description: Disable red scoreboard numbers
+description: Tüm kırmızı skor tablosu sayılarını gizleyin
 ---
 
-# Hide Scoreboard numbers (1.17+)
+# Skor tablosu sayılarını gizleyin (1.17+)
 
-## Scoreboard numbers
+## Skor tablosu sayıları
 
-Some servers use the scoreboard to show custom data and they don't use the red numbers, they just look awful in most of the servers.
+Bazı sunucular özel verileri göstermek için puan tablosunu kullanır ve kırmızı sayıları kullanmazlar, sunucuların çoğunda berbat görünürler.
 
 ![Without ItemsAdder](<../../.gitbook/assets/immagine (131).png>)
 
 ![With ItemsAdder](<../../.gitbook/assets/immagine (130).png>)
 
-## Limitations
+## Limitlemeler
 
 {% hint style="danger" %}
-### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+### Bu özellik sadece **Minecraft 1.17** istemcisinde çalışır, sunucu versiyonu önemli değildir.
 {% endhint %}
 
 {% hint style="warning" %}
-### Warning:
+### Uyarı:
 
-Using <mark style="color:red;">**RED**</mark> (<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches**.\
-This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.\
-
-
-### How to use <mark style="color:red;">`&c`</mark> color without issues?
-
-You can change your text color from <mark style="color:red;">`&c`</mark> to <mark style="color:red;">`{#ff5546}`</mark>, it's the same color but it won't be bugged.
+<mark style="color:red;">**KIRMIZI**</mark> (<mark style="color:red;">**\&c**</mark>) rengini skor tablosunda kullanmak **hatalara yol açabilir**.\
+Bu, skor tablosunun sağ tarafında kırmızı bir metin olduğunda ve GUI ölçeği ayarınız 1 veya 3 olarak ayarlandığında gerçekleşir.\
 
 
+### <mark style="color:red;">`&c`</mark> rengini sorun olmadan nasıl kullanabiliriz?
 
-Another way to fix this is to **add some spaces at the end** of your red text to avoid this.
+ <mark style="color:red;">`&c`</mark> rengini <mark style="color:red;">`{#ff5546}`</mark>, şeklinde değiştirirseniz sorun olmayacaktor.
+
+
+
+Bunu düzeltmenin başka bir yolu kırmızı yazınızın **sonuna biraz boşluk eklemek** .
 {% endhint %}
 
 ![](<../../.gitbook/assets/immagine (140).png>)
 
-## How to hide them?
+## Nasıl gizleyebiliriz?
 
-ItemsAdder **2.4.19** allows you to hide the scoreboard numbers.
+ItemsAdder **2.4.19** skor tablosu numaralarınızı gizlemenizi sağlar.
 
-To do that you have to enable the feature in `config.yml` and run **/iazip**.
+Bunu yapmak için `config.yml` dosyasından ayarı açmak ve **/iazip** yazmak.
 
 ```yaml
 effects:
@@ -48,8 +48,8 @@ effects:
 ```
 
 {% hint style="warning" %}
-### Warning
+### Uyarı
 
-this option is definitive and cannot be turned on/off in-game.\
-You will have to disable it in the `config.yml` and run `/iazip` again if you want to show the numbers.
+bu ayar oyun içinden kapatılıp/açılamaz.\
+Bunu `config.yml` içinden kapatıp `/iazip` yazmalasınız.
 {% endhint %}
