@@ -1,2 +1,2 @@
-# Scoreboard
+# Skor tablosu
 
