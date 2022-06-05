@@ -44,7 +44,7 @@ auto-external-host:
 
 **Ve bitirdiniz!** Başka yapıcak bir şey kalmadı, **ücretsiz otomatik kaynak paketi barındırmanın** keyfini çıkarın.
 
-## Kaynak paketim çevrimiçi olarak rastgele kişiler tarafından ulaşılabir olucak mı?
+## Kaynak paketim çevrimiçi olarak rastgele kişiler tarafından ulaşılabir olacak mı?
 
 2021-08-16: \
 Kaynak paketiniz Google'da aramaya eklenmez ve kaynak paketleri listesinde yayınlanmaz.\
