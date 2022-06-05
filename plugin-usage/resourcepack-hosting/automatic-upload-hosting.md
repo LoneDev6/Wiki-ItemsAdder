@@ -1,51 +1,51 @@
-# 📤 Automatic external hosting
+# 📤 Otomatik Dış Hosting
 
-## Video tutorial
+## Öğretici Video
 
 {% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" %}
 
-## What is automatic hosting?
+## Otomatik hosting'de nedir?
 
-ItemsAdder 2.4.9 allows you to automatically upload your resourcepack on a **free online service** with servers all over the world.
+ItemsAdder 2.4.9 kaynak paketinizi otomatik olarak **bedava bir servise** yüklemenize olanak sağlıyor.
 
-Thanks a lot to [PloudOS ](https://ploudos.com/it/)which privides me their platform to host your resourcepacks for free!
+[PloudOS ](https://ploudos.com/it/)'a kaynak paketlerinizi ücretsiz olarak barındırmak için  kendi platformunu sağladığı için teşekkürler!
 
-## What are the advantages?
+## Avantajlar nedir?
 
-The main advantage is download speed and availability.\
-This service allows your players to download the resourcepack very fast despite the country where they live (cloud based platform).
+Ana avantaj, indirme hızı ve kullanılabilirliğidir.\
+Bu hizmet, oyuncularınızın yaşadıkları ülkeye (bulut tabanlı platform) rağmen kaynak paketini çok hızlı indirmelerini sağlar.
 
-## I already use self-host, is this better?
+## Zaten self-host kullanıyorum, bu daha mı iyi?
 
-Depends.\
-It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continously run `/iazip`, to avoid losing time (read more [here](../tips-for-fastest-usage.md)).
+Duruma göre değişir.\
+Eğer sürekli `/iazip` kullandığınız bir kaynak paketiniz varsa ve sürekli üstünde çalışıyor, zaman kaybetmek istemiyorsanız [self-host](resourcepack-self-hosting.md) daha iyidir (burayo [okuyun](../tips-for-fastest-usage.md)).
 
-When you've finished working on the pack you can safely start using the `auto-external-host` feature.\
-This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.
+Paket üzerinde çalışmayı bitirdiğinizde,  güvenle. `auto-external-host` özelliğini kullanmaya başlayabilirsiniz.\
+Bu, kaynak paketi artık sunucunuzda barındırılmayacağından sunucu trafiğinizi azaltacaktır.
 
-If your playerbase is all from the same country you can stick with `self-host`.
+Oyuncu tabanınızın tamamı aynı ülkeden ise, `self-host`  kullanmaya devam edebilirsiniz.
 
-## How to use it?
+## Nasıl kullanılır?
 
-You just have to:
+Sadece:
 
-* enable `auto-external-host` in `config.yml`&#x20;
-* disable all the other hosting methods.
+* `auto-external-host`'u `config.yml`'den aktif edin&#x20;
+* diğer tüm barındırma yöntemlerini devre dışı bırakın.
 
 ```yaml
 auto-external-host:
   enabled: true
 ```
 
-### Last step
+### Son adım
 
-Run `/iazip` to **compress** the **resourcepack**.\
-****The **plugin** will **upload it** online **automatically** (you will have to **accept the privacy policy** only the first time).
+**Kaynak paketinizi** **sıkıştırmak** için `/iazip` komutunu kullanın.\
+**Eklenti** onu **otomatik** olarrak **yükleyecektr** (ilk seferde **gizlilik politikasını kabul etmeniz** gerekecektir.).
 
-**You're done!** Nothing else to do, enjoy your **free automated resourcepack hosting**.
+**Ve bitirdiniz!** Başka yapıcak bir şey kalmadı, **ücretsiz otomatik kaynak paketi barındırmanın** keyfini çıkarın.
 
-## Will my resourcepack be available online to random people?
+## Kaynak paketim çevrimiçi olarak rastgele kişiler tarafından ulaşılabir olucak mı?
 
 2021-08-16: \
-Your resourcepack won't be indexed on Google and won't be published in a list of resourcepacks.\
-Only people who know the link can download the pack.
+Kaynak paketiniz Google'da aramaya eklenmez ve kaynak paketleri listesinde yayınlanmaz.\
+Paketi yalnızca bağlantıya sahip olan kişiler indirebilir.
