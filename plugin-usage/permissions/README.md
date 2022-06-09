@@ -1,35 +1,35 @@
-# 👌 Permissions
+# 👌 İzinler
 
-## Permissions
+## İzinler
 
-*   Users
+*   Kullanıcılar
 
     * /ia
       * `ia.user.ia`
     * /iarecipe
       * `ia.user.iarecipe`
-    * /iatexture (to force apply the pack to yourself)
+    * /iatexture (paketi kendinize yüklemeyi sağlar)
       * `ia.user.iatexture`
-    * /iatexture all (to force apply the pack to everyone)
+    * /iatexture all (paketi herkesin yüklemesini sağlar)
       * `ia.user.iatexture.all`
     * crafting
-      * `ia.user.craft.PERMISSION` (or to give all crafting permissions just use ia.user.craft.\*)
-      * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
-    * see item in /ia menu
-      * `ia.user.ia.PERMISSION` (or to give all /ia permissions just use ia.user.ia.\*)
-      * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
-      * `ia.user.iasearchgui` for the search GUI in /ia menu
-      * You can also set a permission per category, please check [/ia GUI ](../ia.md)page
-    * emoji (font images)
-      * **/iaimage /emoji, /iaemoji, /e** book GUI (shows a book with the list of emojis/font images)
+      * `ia.user.craft.PERMISSION` (yada tüm izinler vermek için ia.user.craft. kullanın.\*)
+      * eşya izinleri ile ilgili daha fazla için [ okuyun](../adding-content/item-properties/basic/item-permission.md)
+    * eşyayı /ia menu görmek için
+      * `ia.user.ia.PERMISSION` (yada tüm /ia izinlerini vermek için ia.user.ia kullanın.\*)
+      * eşya izinleri için[ bunu okuyun](../adding-content/item-properties/basic/item-permission.md)
+      * `ia.user.iasearchgui` /ia menu deki Arama GUİ'si için
+      * Her katogoriye bir izin verebilirsiniz, lütfen kontrol edin; [/ia GUI ](../ia.md)page
+    * emoji (font resimş)
+      * **/iaimage /emoji, /iaemoji, /e** kitap (empjilerim listesi olduğu bir kitap gösterir)
         * `ia.user.image.gui`
-      * **/iaimage** **/emoji \<text>, /iaemoji \<text>, /e \<text>** (shows a tab list with emojis based on searched term)
+      * **/iaimage** **/emoji \<yazi>, /iaemoji \<yazı>, /e \<yazı>** (emojilerin olduğu bir tab gösterir)
         * `ia.user.image.hints`
-      * Use **emojis** in **chat**
+      * **Sohbette** **emoji kullanın**
         * `ia.user.image.chat`
-      * Use **emojis** in **commands**
+      * **komutlarda** **emoji kullanın**
         * `ia.user.image.command`
-      * Use **emojis** in **signs**
+      * **Tabelalarda** **emoji** kullanın
         * `ia.user.image.sign`
       * Use **emojis** in **books**
         * `ia.user.image.book`
