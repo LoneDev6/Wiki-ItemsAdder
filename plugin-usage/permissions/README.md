@@ -25,35 +25,35 @@
         * `ia.user.image.gui`
       * **/iaimage** **/emoji \<yazi>, /iaemoji \<yazı>, /e \<yazı>** (emojilerin olduğu bir tab gösterir)
         * `ia.user.image.hints`
-      * **Sohbette** **emoji kullanın**
+      * **Sohbette** **emoji kullanma**
         * `ia.user.image.chat`
-      * **komutlarda** **emoji kullanın**
+      * **komutlarda** **emoji kullanma**
         * `ia.user.image.command`
-      * **Tabelalarda** **emoji** kullanın
+      * **Tabelalarda** **emoji** kullanma
         * `ia.user.image.sign`
-      * Use **emojis** in **books**
+      * **Kitaplarda** **emoji** kullanma
         * `ia.user.image.book`
-      * Use **emojis** in **anvil** rename field
+      * **Örslerde** yeni isim kısmında **emoji** kullanma
         * `ia.user.image.anvil`
-      * Use an **emoji**
-        * `ia.user.image.use.<font image name>`
-        * Example: `ia.user.image.use.heart`
-      * Use **text-effects** in **chat**
+      * Bir **emoji** kullanma
+        * `ia.user.image.use.<font resim ismi>`
+        * Örneğin: `ia.user.image.use.heart`
+      * **Yazı-efektlerini** **sohbette** kullanma
         * `ia.user.text_effect.chat`
-      * Use **text-effects** in **signs**
+      * **Yazı-efektlerini** **tabelalarda** kullanma
         * `ia.user.text_effect.sign`
-      * Use **text-effects** in **books**
+      * **Yazı-efektlerini** **kitaplarda** kullanma
         * `ia.user.text_effect.book`
-      * Use **text-effects** in **anvil** rename field
+      * **Yazı-efektlerini** yeniden adlandırma kısmında **örslerde** kullanma
         * `ia.user.text_effect.anvil`
-      * Use a **text-effect**
+      * Bir **yazı-efekti** kullanma
         * `ia.user.text_effect.use.<effect>`
-        * Examples ([full list here](../text-effects-1.17+.md)):
+        * Örnekler ([tam liste burda](../text-effects-1.17+.md)):
           * `ia.user.text_effect.use.r`
           * `ia.user.text_effect.use.rw`
-    * emotes ([<mark style="color:blue;">player emotes</mark>](../adding-content/player-emotes/))
-      * Use an emote: `ia.user.iaemote.use.<emote>`
-      * Example:
+    * ifadeler ([<mark style="color:blue;">player emotes</mark>](../adding-content/player-emotes/))
+      * Bir ifade kullan: `ia.user.iaemote.use.<emote>`
+      * Örnek:
         * `ia.user.iaemote.use.yes`
 
     ​
@@ -74,23 +74,23 @@
     * `ia.admin.iareload`
   * /iazip
     * `ia.admin.iazip`
-  * /iablock _(get info about block you're looking at)_
+  * /iablock _(baktığınız blok hakkında bigli alın)_
     * `ia.admin.iablock`
-  * /ialiquid _(get info about custom liquid you're looking at)_
+  * /ialiquid _(baktığınız özel sıvı hakkında bilgi alın)_
     * `ia.admin.ialiquid`
   * /iadurability
     * ia.admin.iadurability
-  * Edit permission (edit button in /ia)
+  * Edit permission (/ia'daki düzenleme kısmı)
     * `ia.admin.edit`
-  * /iaplayerstat write _(write a player custom stat)_
+  * /iaplayerstat write _(özel bir oyunucu istatistiği yazın)_
     * `ia.admin.iaplayerstat.write`
-  * /iaplayerstat read _(read a player custom stat)_
+  * /iaplayerstat read _(özel bir oyuncu istatistiğini okuyun)_
     * `ia.admin.iaplayerstat.read`
-  * /iainfo (get info about the plugin)
+  * /iainfo (eklenti hakkında bilgi alın)
     * `ia.admin.iainfo`
-  * /iakill \<mob|all> (kill custom mobs)
+  * /iakill \<mob|all> (özel canavarları öldürün)
     * `ia.admin.iakill`
-  * /iasummon \<mob> \[amount]
+  * /iasummon \<mob> \[miktar]
     * `ia.admin.iasummon`
   * /iaexport \<namespace>
     * `ia.admin.iaexport`
@@ -102,17 +102,17 @@
     * `ia.admin.iaplaysound`
   * /iacleancache
     * `ia.admin.iacleancache`
-  * /iahitbox (shows the hitbox of placed furnitures)
+  * /iahitbox (koyulmuş mobilyaların hitboxunu görün)
     * `ia.admin.iahitbox`
-  * [/iaconfig](../commands/iaconfig.md) (Main command to execute some operations on the plugin configurations)
+  * [/iaconfig](../commands/iaconfig.md) (Eklenti konfigürasyonunda operasyon yapmak için ana komut)
     * ia.admin.iaconfig
-* Other:
-  * Bypass kick on refuse resourcepack
+* Diğer:
+  * Kaynak paketini reddettiğinde atılmadan muaf ol
     * `ia.resourcepack.bypasskick`
-  * Bypass player placed blocks can't drop loot
+  * Oyuncunun yerleştirdiği blokları kırmasını atlar
     * `ia.admin.bypassblockplaceloot`
 
-## Worlguard flags
+## Worlguard flagleri
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
 [worldguard-flags.md](../../compatibility-with-other-plugins/compatible/worldguard-flags.md)
