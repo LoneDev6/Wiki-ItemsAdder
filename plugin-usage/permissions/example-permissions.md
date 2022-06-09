@@ -1,16 +1,16 @@
-# ↪ Example permissions
+# ↪ Örnek izinler
 
-## Example setup:
+## Örnek kurulum:
 
-* `ia.user.ia` (open /ia menu)
-* `ia.user.ia.*` (see all items in /ia menu)
-* `ia.user.iarecipe` (use /iarecipe command)
-* `ia.user.craft.*` (craft all items)
-* `ia.menu.*` (see all categories in /ia menu)
-* `ia.user.image.gui` (use /e command to see emojis book)
-* `ia.user.image.hints` (suggest emojis when using /e and TAB complete)
-* `ia.user.image.chat` (replace emoji text :smile: etc in chat)
-* `ia.user.image.command` (replace emoji text :smile: etc in commands)
+* `ia.user.ia` (/ia menüsünü aç)
+* `ia.user.ia.*` (/ia menüsündeki tüm eşyaları gör)
+* `ia.user.iarecipe` (/iarecipe komutunu kullan)
+* `ia.user.craft.*` (tüm itemleri craftla)
+* `ia.menu.*` (/ia menüdeki tüm kategorileri gör)
+* `ia.user.image.gui` (emoji kitabını görmek için /e kullan)
+* `ia.user.image.hints` (/e ve tab kullanırken emojileri öner)
+* `ia.user.image.chat` (enoji yazısı :smile: yazarken yeniden yerleştir)
+* `ia.user.image.command` (komutlarda emoji :smile: metnini değiştirin 
 * `ia.user.image.sign` (replace emoji text :smile: etc in signs)
 * `ia.user.image.book` (replace emoji text :smile: etc in books)
 * `ia.user.image.use.*` (access to all emojis)
