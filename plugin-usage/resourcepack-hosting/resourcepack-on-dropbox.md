@@ -6,28 +6,28 @@ coverY: 0
 
 # 📦 DropBox
 
-## Video tutorial
+## Öğretici video
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
 
-## Text tutorial
+## Yazı ile anlatım
 
-* Open [DropBox](https://dropbox.com), register/login
-* Use the command`/iazip` (**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file)
-* Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* **Drag and drop** on **DropBox** the file **pack.zip**
-* Press **Share**
+* [DropBox](https://dropbox.com)'u açın, kayıt olun/giriş yapın
+* `/iazip` komutunu kullanın (**bu çok önemli** çünkü `/iazip`konfigürasyonu yeniden yükler ve **pack.zip** dosyasını günceller)
+* Şu dosyayı açın: `plugins/ItemsAdder/data/resource_pack/`
+* **pack.zip** dosyasını **DropBox**'a **sürükleyin**
+* **Paylaşa** basın
 
 ![](<../../.gitbook/assets/immagine (20).png>)
 
-* Press **Create**
+* **Oluştura** basın
 
 ![](<../../.gitbook/assets/immagine (21).png>)
 
-* Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
-* Open `config.yml` of **ItemsAdder**
-* Set it like this (**I used the example URL, please use your own**)
+* **Linki kopyalaya** basın
+* Örneğin [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
+* **Itemsadderın** `config.yml` of dosyasını açın
+* Ve şu şekilde ayarlayın (**Ben örnek URL kullandım, lütfen kendinizinkini kullanın**)
 
 ```yaml
 resource-pack:
@@ -43,7 +43,7 @@ resource-pack:
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-* **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` (in this case to reload the resourcepack download link)
+* **BU ÇOK ÖNEMLİ**: **komutunu kullanın** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` (in this case to reload the resourcepack download link)
 * **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
 
 {% hint style="danger" %}
