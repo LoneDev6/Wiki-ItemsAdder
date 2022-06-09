@@ -43,21 +43,21 @@ resource-pack:
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-* **BU ÇOK ÖNEMLİ**: **komutunu kullanın** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` (in this case to reload the resourcepack download link)
-* **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
+* **BU ÇOK ÖNEMLİ**: `config.yml` dosyasında birşey değiştirdiğinizde eklentiyi **yeniden yüklemek** için `/iareload` **komutunu kullanın** (bu durumda paletin indirme linki için)
+* Oyununuzun kaynak paketini oyun içinden yenilemek için `/iatexture` **komutunu kullanın**  yada bunu hekres için yapmak için `/iatexture all` komutunu kullanın
 
 {% hint style="danger" %}
-PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+Lütfen dosyaları,3D Modelleri ve sesleri düzenlediğinizde **her zaman** `/iazip` komutunu kullanın... sonra paketinizi **Dropbox**'a **yeniden yükleyin** ve **/iareload** komutunu kullanın.
 {% endhint %}
 
 {% hint style="warning" %}
-**Change** the **file name each time** you **upload** a **new version** of the **resourcepack** to **force** the game to **redownload** the **new version**.\
-If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
+**Her seferinde** **kaynak paketinin yeni versiyonunu** **yüklerken** **adını değiştirin** ve oyunun **yeniden yüklemesini** **zorlayın** .\
+Eğer **zip** dosyasını **yeniden** aynı şekilde yüklerseniz ve **aynı URL**'yi tutarsanız paket her oyuncu için **güncellenmeyecektir**.
 {% endhint %}
 
-## But this is so slow! I have to reupload on DropBox too many times!
+## Ama bu çok yavaş! Dropboxa çok kez yüklemeye çalışmalısınız!
 
-Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting (cheap ones) don't provide port opening, so you must use **DropBox**.
+İşte bu yüzden **DropBox** yerine **self-host** kullanmalısınız. Ama bazı barındırma hizmetleri (özellikle ucuz olanlar) port açma özelliği sağlamaz, ve **DropBox** kullanmak zorunda kalırsınız.
 
 {% content-ref url="resourcepack-self-hosting.md" %}
 [resourcepack-self-hosting.md](resourcepack-self-hosting.md)
