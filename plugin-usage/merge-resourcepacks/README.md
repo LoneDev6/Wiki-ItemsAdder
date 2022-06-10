@@ -2,9 +2,9 @@
 description: Diğer kaynak paketlerini birleştirme(aynı zamanda özel eklentilerim paketlerini)
 ---
 
-# 🗃 Kaynak paketlerini birleştir
+# 🗃 Kaynak paketlerini birleştirme
 
-## Neden birleştirme?
+## Neden birleştirmeye ihtiyacım var?
 
 **Minecraft** sadece **1 sunucu kaynak paketini destekliyor**, yani 1'den fazla kaynak paketiniz varsa onları birleştirmelisiniz.
 
