@@ -1,16 +1,16 @@
 ---
-description: How to manually edit blockstates json files
+description: Blokstate json dosyalarını manuel olarak nasıl düzenleyebiliriz
 ---
 
-# Manual editing blockstates
+# Blok durumlarını manuel olarak düzenleme
 
-## Editing note\_block.json
+## note\_block.json Düzenleme
 
 {% hint style="warning" %}
-Update to ItemsAdder 2.4.20
+ItemsAdder 2.4.20'a güncelleyin
 {% endhint %}
 
-You can manually edit the file `assets\minecraft\blockstates\note_block.json` adding your own rules inside.
+`assets\minecraft\blockstates\note_block.json` Dosyasını manuel olarak adding your own rules inside.
 
 **ItemsAdder** will automatically merge your custom json file with the **ItemsAdder** custom blocks if you created any.
 
