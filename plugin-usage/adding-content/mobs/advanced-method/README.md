@@ -5,6 +5,10 @@ description: New advanced method to create custom mobs/entities.
 # Advanced method
 
 {% hint style="warning" %}
+Please Make Sure that you have [Lib's Disguises](https://www.spigotmc.org/resources/libs-disguises-free.81/) on your server
+{% endhint %}
+
+{% hint style="warning" %}
 This method is in beta and it's available only on ItemsAdder v3.0+
 {% endhint %}
 
