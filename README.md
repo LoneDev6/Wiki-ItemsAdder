@@ -1,7 +1,7 @@
 ---
 description: This website helps you configuring and creating custom items for my plugin
 ---
-# ![](https://readme-typing-svg.herokuapp.com?font=arial&size=30&color=FFFFFF&vCenter=true&width=800&lines=%F0%9F%91%8B+Welcome+To+The+ItesmAdder+Wiki;The+Best+Minecraft+Customizer+;%E2%9C%85Compatible+with+Spigot+1.15.2+to+1.18.2+and+Java+8+to+17%E2%9C%85;%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90One+of+The+Best+Rated+Premium+Plugins;4000%2B+Downloads+And+1500%2B+Servers;Break+The+Minecraft+Limits;Make+Your+Server+Unique;What+Are+You+Waiting+For%3F)
+# ![](https://readme-typing-svg.herokuapp.com?size=30&duration=3500&color=FFFFFF&width=1000&lines=%F0%9F%91%8B+Welcome+To+The+ItemsAdder+Wiki;%F0%9F%8E%AD+The+Best+Minecraft+Customizer;%E2%9C%85+Compatible+with+Spigot+1.15.2+to+1.18.2+and+Java+8+to+17;%F0%9F%92%AF+One+of+The+Best+Rated+Premium+Plugins;%F0%9F%92%8C+5000%2B+Downloads+And+2000%2B+Servers;%F0%9F%8C%90+Break+The+Minecraft+Limits;%F0%9F%92%AB+Make+Your+Server+Unique;%E2%9A%A1+More+Then+100%2B+Addons;%F0%9F%92%AC+Huge+Community+;%F0%9F%93%8A+World+Class+Optimization+;%F0%9F%A4%94+So%3F+What+Are+You+Waiting+For%3F;%F0%9F%98%8E+Your+Server+Story+Starts+Here+)
 ## 🌐Socials
 * [Patreon](http://patreon.com/lonedev)
 * [Ko-fi](http://a.devs.beer/kofi)
