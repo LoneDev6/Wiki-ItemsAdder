@@ -12,23 +12,23 @@ ItemsAdder 2.4.20'a güncelleyin
 
 `assets\minecraft\blockstates\note_block.json` Dosyasını manuel olarak adding your own rules inside.
 
-**ItemsAdder** will automatically merge your custom json file with the **ItemsAdder** custom blocks if you created any.
+**ItemsAdder** özel json dosyanızı otomatik olarak **ItemsAdder** özel bloklar ile birleştiricektir.
 
-## Editing other .json blockstates
+## EDiğer .json blok durumlarını düzenleme
 
-You can edit any blockstate file you want, but you have to read this in order to edit some of them.
+İstediğiniz herhangi bir blok durum dosyasını düzenleyebilirsiniz, ancak bazılarını düzenlemek için bunu okumalısınız.
 
-In order to edit the some blockstates files you have to disable the ItemsAdder custom blocks feature based on the type you want to edit. In the future I may allow manual editing of these files without disabling the ItemsAdder blocks feature (it's not easy to implement, that's why I didn't make this possible yet).
+Bazı blok durumları dosyalarını düzenlemek için, düzenlemek istediğiniz türe göre ItemsAdder özel bloklar özelliğini devre dışı bırakmanız gerekir. Gelecekte, ItemsAdder blokları özelliğini devre dışı bırakmadan bu dosyaların manuel olarak düzenlenmesine izin verebilirim (uygulaması kolay değil, bu yüzden henüz bunu mümkün kılmadım).
 
-### mushroom blockstates
+### mantar blok durumları
 
-Delete the files:&#x20;
+Dosyaları silin:&#x20;
 
 * `assets\minecraft\blockstates\brown_mushroom_block.json`&#x20;
 * `assets\minecraft\blockstates\mushroom_stem.json`
 * `assets\minecraft\blockstates\red_mushroom_block.json`
 
-Enable this option:
+Bu ayarı açın:
 
 {% code title="config.yml" %}
 ```yaml
@@ -38,9 +38,9 @@ Enable this option:
 
 ### fire.json
 
-Delete the file `assets\minecraft\blockstates\fire.json`
+Dosyayı silin `assets\minecraft\blockstates\fire.json`
 
-Enable this option:
+Bu ayarı açın:
 
 {% code title="config.yml" %}
 ```yaml
@@ -50,9 +50,9 @@ Enable this option:
 
 ### chorus\_plant.json
 
-Delete the file `assets\minecraft\blockstates\chorus_plant.json`
+Dosyayı silin `assets\minecraft\blockstates\chorus_plant.json`
 
-Enable this option:
+Bu ayarı açın:
 
 {% code title="config.yml" %}
 ```yaml
@@ -62,9 +62,9 @@ Enable this option:
 
 ### tripwire.json
 
-Delete the file `assets\minecraft\blockstates\tripwire.json`
+Dosyayı silin `assets\minecraft\blockstates\tripwire.json`
 
-Enable this option:
+Bu ayarı açın:
 
 {% code title="config.yml" %}
 ```yaml
