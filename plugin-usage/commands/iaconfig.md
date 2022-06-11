@@ -1,28 +1,28 @@
 # iaconfig
 
-## Features
+## Özellikler
 
-### Delete an item from config
+### Yapılandırma dosyasından bir eşya silme
 
-`/iaconfig item delete <item>`
+`/iaconfig item delete <eşya>`
 
-Permission: `ia.admin.iaconfig.item.delete`
+İzin: `ia.admin.iaconfig.item.delete`
 
-Deletes an item COMPLETELY from its config file. Please be careful.
+Bir eşyayı yapılandırma dosyasından TAMAMIYLA siler. Lütfen dikkatli olun.
 
-### Disable an item in configs
+### Yapılandırmadan bir eşyayı devre dışı bırak
 
-`/iaconfig item disable <item>`
+`/iaconfig item disable <eşya>`
 
-Permission: `ia.admin.iaconfig.item.disable`
+İzin: `ia.admin.iaconfig.item.disable`
 
-Disables an item from its config file. Please be careful.
+Bir eşyayı onun yapılandırma dosyasından devre dışı bırakır. Lütfen dikkatli olun.
 
-### Delete recipes which use/create an item
+### Bir eşyayı kullanmak/yaratmak için kullanılan tarifi siler
 
-`/iaconfig recipes deleteofitem <item>`
+`/iaconfig recipes deleteofitem <eşya>`
 
-Permission `ia.admin.iaconfig.recipes.deleteofitem`
+İzin `ia.admin.iaconfig.recipes.deleteofitem`
 
 Deletes COMPLETELY all recipes which contain an item from all the config files. Please be careful.
 
