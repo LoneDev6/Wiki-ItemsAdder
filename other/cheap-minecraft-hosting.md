@@ -20,7 +20,7 @@ Eğer **Minecraft sunucunuzu** veya **networkünüzü** açmak için **güzel** 
 
 {% embed url="http://bit.ly/humble-itemsadderwiki" %}
 
-## Burada kendi sunucumda test edebilirsiniz.
+## Kendi sunucumda test edebilirsiniz.
 
 ![](http://www.matteodev.it/spigot/test\_server\_banner.php)
 
