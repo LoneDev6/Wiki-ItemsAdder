@@ -1,26 +1,26 @@
-# 🖥 Cheap Minecraft Hosting
+# 🖥 Ucuz Minecraft Barındırma
 
 ![](../.gitbook/assets/MMICa0s.gif)
 
 {% hint style="info" %}
 ![](<../.gitbook/assets/immagine (24).png>)
 
-If you need a **good** and **cheap hosting** to open your **Minecraft server** or **network** here it is, the hosting I use for all my projects.
+Eğer **Minecraft sunucunuzu** veya **networkünüzü** açmak için **güzel** ve **ucuz** bir barındırma servisi arıyorsanız işte burada, tüm projelerim için kullandığım barındırma servisi.
 
 [http://bit.ly/humble-itemsadderwiki](http://bit.ly/humble-itemsadderwiki)
 
-* Top Notch Hardware @ Budget Cost.
-* 24/7 Support
-* **Instant Deployment**
-* **Custom Control Panel**(Pterodactyl)
-* **sFTP** & **MySQL** Database Access
-* **SSD** & **NVME** Storage
-* Supports **port opening** for **ItemsAdder** [self host](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
+* Birinci Sınıf Donanım @ Bütçe maliyeti.
+* 24/7 Destek
+* **Anında Dağıtım**
+* **Özel kontrol paneli**(Pterodactyl)
+* **sFTP** & **MySQL** Veritabanı Erişimi
+* **SSD** & **NVME** Depolama
+* **Itemsadder** için **port açmayı** destekliyor [self host](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
 {% endhint %}
 
 {% embed url="http://bit.ly/humble-itemsadderwiki" %}
 
-## Here you can test it yourself, on my server
+## Burada kendi sunucumda test edebilirsiniz.
 
 ![](http://www.matteodev.it/spigot/test\_server\_banner.php)
 
