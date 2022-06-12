@@ -24,28 +24,28 @@ Bir eşyayı onun yapılandırma dosyasından devre dışı bırakır. Lütfen d
 
 İzin `ia.admin.iaconfig.recipes.deleteofitem`
 
-Deletes COMPLETELY all recipes which contain an item from all the config files. Please be careful.
+Bir eşyayı  yapılandırma dosyalarındaki tüm tariflerini TAMAMEN siler. Lütfen dikkatli olun.
 
-### Disable recipes which use/create an item
+### Eşya kullanan/oluşturan tarifleri devre dışı bırakma
 
 `/iaconfig item disableofitem <item>`
 
-Permission: `ia.admin.iaconfig.recipes.disableofitem`
+İzin: `ia.admin.iaconfig.recipes.disableofitem`
 
-Disables all recipes which contain an item from all the config files. Please be careful.
+Tüm yapılandırma dosyalarından bir öğe içeren tüm tarifleri devre dışı bırakır. Lütfen dikkatli olun.
 
-### Delete all items of a namespace and recipes of these items
+### Bir ad alanının tüm öğelerini ve bu öğelerin tariflerini siler
 
 `/iaconfig namespace delete <namespace>`
 
-Permission: `ia.admin.iaconfig.namespace.delete`
+İzin: `ia.admin.iaconfig.namespace.delete`
 
-Deletes all items of a namespace and recipes of these items COMPLETELY. Please be careful.
+Bir ad alanının tüm öğelerini ve bu öğelerin tariflerini TAMAMEN siler. Lütfen dikkatli olun.
 
-### Disable every item of a namespace
+### Bir ad alanının her öğesini devre dışı bırakma
 
 `/iaconfig namespace disable <namespace>`
 
-Permission: `ia.admin.iaconfig.namespace.disable`
+İzin: `ia.admin.iaconfig.namespace.disable`
 
-Disables every item of a namespace and recipes of these items. Please be careful.
+Bir ad alanının her öğesini ve bu öğelerin tariflerini devre dışı bırakır. Lütfen dikkatli olun.
