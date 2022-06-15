@@ -56,6 +56,7 @@
   * [Single resourcepack Bungeecord different features](faq/single-resourcepack-multiple-server.md)
   * [Internal Exception](faq/internal-exception.md)
   * [OpenGL Error](faq/opengl-error.md)
+  * [Optifine CIT not working](faq/optifine-cit-not-working.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [Languages](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)
