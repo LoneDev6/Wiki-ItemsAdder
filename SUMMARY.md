@@ -262,6 +262,7 @@
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
 * [✏ Contribute](contribute/README.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
+  * [Editing With GitBook](contribute/editing-with-gitbook.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
 
 ## 💻 Developers

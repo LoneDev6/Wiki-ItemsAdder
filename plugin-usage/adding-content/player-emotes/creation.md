@@ -3,7 +3,7 @@
 ## Installing the Blockbench extension
 
 {% hint style="warning" %}
-### Before continuing:
+#### Before continuing:
 
 * Make sure you're running **Blockbench 4.1.5** or **greater**
 * Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
@@ -79,4 +79,4 @@ Use the emote command: `/iaemote <emote> [player]` or `/emote <emote> [player]`
 Use the `/iaemote` command: `ia.user.iaemote`
 
 Use an emote: `ia.user.iaemote.use.<emote>`\
-``Example: `ia.user.iaemote.use.yes`
+\`\`Example: `ia.user.iaemote.use.yes`

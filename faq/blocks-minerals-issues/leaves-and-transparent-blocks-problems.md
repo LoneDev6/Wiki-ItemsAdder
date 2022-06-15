@@ -1,14 +1,14 @@
 # Leaves and transparent blocks problems
 
 {% hint style="danger" %}
-### Tree blocks sometimes disappear and become air blocks
+#### Tree blocks sometimes disappear and become air blocks
 
 This is a know issue in CREATIVE mode as the client doesn't send some packets to the server.\
 Please try in survival mode.
 {% endhint %}
 
 {% hint style="danger" %}
-### REAL_TRANSPARENT blocks are dropped when water flows on them
+#### REAL\_TRANSPARENT blocks are dropped when water flows on them
 
 I know this bug and I can't fix it without making your server an oven.\
 \

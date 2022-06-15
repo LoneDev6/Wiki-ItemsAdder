@@ -39,7 +39,7 @@ This is a configuration which specified how the game will show the armor ingame.
 You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
 {% endhint %}
 
-`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`. **** This option will also make the item (in inventory) not colored automatically anymore.
+`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`. \*\*\*\* This option will also make the item (in inventory) not colored automatically anymore.
 
 `color` is the color attribute of this armor. It acts like an unique identifier for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
 
@@ -48,11 +48,11 @@ Now I create the two PNG files inside the `data/resource_pack/assets/myitems/tex
 ![](<../../../.gitbook/assets/image (45) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
-### HD armor textures
+#### HD armor textures
 
-You can create HD high resolution armors too!&#x20;
+You can create HD high resolution armors too!
 
-Just make sure they have the same proportions of the original.&#x20;
+Just make sure they have the same proportions of the original.
 
 For example 64x32, 128x64, 256x128, 512x256..... <mark style="color:red;">it's very important! Size must be a power of 2.</mark>
 {% endhint %}
@@ -148,7 +148,7 @@ armors_rendering:
 ```
 
 In this case I want to make the previous animation emissive, I want it to glow in the dark.\
-You have to make 2 textures in order to make the textures glow. \
+You have to make 2 textures in order to make the textures glow.\
 The **transparent** part **won't glow** while the colored part will glow.
 
 You basically just have to copy and paste your texture and erase the parts you don't want to glow.

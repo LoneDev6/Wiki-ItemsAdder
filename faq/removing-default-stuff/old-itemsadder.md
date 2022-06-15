@@ -47,7 +47,7 @@ Open plugin `config.yml` file and set this to **false**.
 `plugins\ItemsAdder\data\items_packs\itemsadder`\
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
-#### &#x20;Example items
+#### Example items
 
 `plugins\ItemsAdder\data\items_packs\example`\
 `plugins\ItemsAdder\data\resource_pack\assets\example`
@@ -62,8 +62,7 @@ Delete these folders:\
 Then run `/iazip`
 
 {% hint style="danger" %}
-## Do not delete other folders which are not listed in the previous list.
+### Do not delete other folders which are not listed in the previous list.
 
 If you delete minecraft, mcguis or mcicons folders some parts of the plugin may stop working.
 {% endhint %}
-
