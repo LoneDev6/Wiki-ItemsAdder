@@ -26,7 +26,7 @@ Create the animation, in this example a death animation.
 
 Right click it and mark it as `Loop`.
 
-![](<../../../.gitbook/assets/image (92).png>)
+![](<../../../.gitbook/assets/image (92) (1).png>)
 
 ### Step 2
 
