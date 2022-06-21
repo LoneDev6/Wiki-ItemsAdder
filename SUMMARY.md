@@ -231,6 +231,7 @@
     * [TrMenu](compatibility-with-other-plugins/compatible/trmenu.md)
     * [CMI](compatibility-with-other-plugins/compatible/cmi.md)
     * [Holographic Displays](compatibility-with-other-plugins/compatible/holographic-displays.md)
+    * [DecentHolograms](compatibility-with-other-plugins/compatible/decentholograms.md)
     * [Nova](compatibility-with-other-plugins/compatible/nova.md)
     * [Space](compatibility-with-other-plugins/compatible/space.md)
     * [AdvancedOreGen](compatibility-with-other-plugins/compatible/advancedoregen.md)
