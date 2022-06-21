@@ -1,10 +1,10 @@
-# Bundle
+# חבילה
 
 {% hint style="warning" %}
-Minecraft 1.17+
+מיינקראפט 1.17+
 {% endhint %}
 
-## Configuration
+## הגדרה
 
 ```yaml
 items:
@@ -18,12 +18,12 @@ items:
       - item/bundle_test.png
 ```
 
-## Image files
+## קבצי תמונה
 
 ![](<../../../.gitbook/assets/image (33).png>)
 
 You have to create another file with `_filled` suffix.
 
-## Result
+## תוצאה
 
 ![](<../../../.gitbook/assets/image (34).png>)

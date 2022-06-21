@@ -1,7 +1,7 @@
-# Animated titles
+# כותרות מונפשות
 
-You can create animated titles (using totem animation), this is useful for custom gamemodes and to notify players.\
-Check this example addon to create your own animated title: [https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/](https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/)
+אתם יכולים ליצור כותרות מונפשות (באמצעות אנימציית טוטם), זה שימושי עבור מצבי משחק מיוחדים או כדי להודיע לשחקנים דברים שונים.\
+ראו את התוסף הזה בשביל לקחת דוגמא כדי ליצור כותרת מונפשת משלכם: [https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/](https://www.spigotmc.org/ resources/animatedtitles-some-example-animations-itemsadder-addon.84865/)
 
 ![](<../../.gitbook/assets/image (28).png>)
 

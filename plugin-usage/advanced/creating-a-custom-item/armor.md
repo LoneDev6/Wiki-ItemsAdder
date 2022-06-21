@@ -1,10 +1,10 @@
-# Armor
+# ארמור
 
-## Custom armor example
+## דוגמא לארמור מיוחד
 
-Here you can see an example configuration to create a complete armor with all its pieces: helmet, chestplate, leggings and boots.
+כאן אתם יכולים לראות הגדרה לדוגמה ליצירת ארמור שלם עם כל החלקים שלו: קסדה, חזה, מכנסיים ומגפיים.
 
-This is a simple armor which is created automatically without textures, ItemsAdder will generate it from the color you decided.
+זהו ארמור פשוט שנוצר באופן אוטומטי ללא טקסטורות, ItemsAdder יפיק אותו מהצבע שהחלטתם.
 
 ![](<../../../.gitbook/assets/image (131).png>)
 
@@ -74,15 +74,15 @@ items:
         armorToughness: 1
 ```
 
-## Custom texture - in inventory
+## טקסטורות מיוחדת - באינבנטורי
 
-To add a custom texture for an armor item you have to specify a texture or a model (like for every other custom item).
+כדי להוסיף טקסטורה מיוחדת לפריטי ארמור יש לציין טקסטורה או דגם (כמו לכל פריט מיוחד בפלאגין).
 
 {% hint style="warning" %}
-#### Update to ItemsAdder 2.4.17+
+#### עדכנו את הפלאגין לגרסה: ItemsAdder 2.4.17+
 {% endhint %}
 
-### Custom item texture
+### טקסטורת חפצים מיוחדת
 
 ```yaml
 items:
@@ -95,7 +95,7 @@ items:
        - "item/custom_helmet"
 ```
 
-### Custom item model
+### מודל חפץ מיוחד
 
 ```yaml
 items:
@@ -107,7 +107,7 @@ items:
       model_path: "item/custom_helmet"
 ```
 
-## Custom texture - ingame
+## טקסטטורה מיוחדת - בתוך המשחק
 
 {% content-ref url="../armors/" %}
 [armors](../armors/)

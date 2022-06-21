@@ -1,51 +1,51 @@
 # iaconfig
 
-## Features
+## שימושים
 
-### Delete an item from config
+### למחוק פריט מקובץ ה-config
 
 `/iaconfig item delete <item>`
 
-Permission: `ia.admin.iaconfig.item.delete`
+גישה: `ia.admin.iaconfig.item.delete`
 
-Deletes an item COMPLETELY from its config file. Please be careful.
+מוחק פריט לחלוטין מהקובץ. נא להיזהר.
 
-### Disable an item in configs
+### השבתת פריט בקובץ ה-config
 
 `/iaconfig item disable <item>`
 
-Permission: `ia.admin.iaconfig.item.disable`
+גישה: `ia.admin.iaconfig.item.disable`
 
-Disables an item from its config file. Please be careful.
+משבית פריט מקובץ ה-config. נא להיזהר.
 
-### Delete recipes which use/create an item
+### מוחק מתכונים המשתמשים/יוצרים פריט
 
 `/iaconfig recipes deleteofitem <item>`
 
-Permission `ia.admin.iaconfig.recipes.deleteofitem`
+גישה: `ia.admin.iaconfig.recipes.deleteofitem`
 
-Deletes COMPLETELY all recipes which contain an item from all the config files. Please be careful.
+מחק לחלוטין את כל המתכונים המכילים את הפריט מכל מקובצי ה-config. נא להיזהר.
 
-### Disable recipes which use/create an item
+### משבית מתכונים המשתמשים/יוצרים פריט
 
 `/iaconfig item disableofitem <item>`
 
-Permission: `ia.admin.iaconfig.recipes.disableofitem`
+גישה: `ia.admin.iaconfig.recipes.disableofitem`
 
-Disables all recipes which contain an item from all the config files. Please be careful.
+משבית את כל המתכונים המכילים פריט מכל קובצי ה-config. נא להיזהר.
 
-### Delete all items of a namespace and recipes of these items
+### מוחק את כל הפריטים של מרחב השמות ואת המתכונים של הפריטים האלה
 
 `/iaconfig namespace delete <namespace>`
 
-Permission: `ia.admin.iaconfig.namespace.delete`
+גישה: `ia.admin.iaconfig.namespace.delete`
 
-Deletes all items of a namespace and recipes of these items COMPLETELY. Please be careful.
+מוחק את כל הפריטים של מרחב השמות ואת המתכונים של הפריטים האלה לחלוטין. נא להיזהר.
 
-### Disable every item of a namespace
+### השבת כל פריט במרחב שמות
 
 `/iaconfig namespace disable <namespace>`
 
-Permission: `ia.admin.iaconfig.namespace.disable`
+גישה: `ia.admin.iaconfig.namespace.disable`
 
-Disables every item of a namespace and recipes of these items. Please be careful.
+משבית כל פריט במרחב שמות ומתכונים של פריטים אלה. נא להיזהר.

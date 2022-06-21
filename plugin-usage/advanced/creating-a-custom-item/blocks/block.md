@@ -1,16 +1,16 @@
-# Block
+# בלוק
 
-## My first custom block
+## בלוק הראשון והמיוחד שלי
 
-### Creating the blocks file
+### יצירת קבצי ההגדה של הבלוק
 
 {% hint style="warning" %}
-This is an example block (remember to change `myitems` [namespace ](../../basic-concepts/namespace/)to the one you want).
+זהו בלוק לדוגמה (על תשכחו לשנות את `myitems` [לשם מרחב ](../../basic-concepts/namespace/) אחר שאתם רוצים).
 {% endhint %}
 
-For example I created a **file** which will contain all my **custom blocks**:
+לדוגמא יצרתי **קובץ** שיכיל את כל ה**בלוקים המויחדים** שלי:
 
-In this file (`blocks.yml`) I start creating a simple block called `red_block`
+בקובץ הזה (`blocks.yml`) אני מתחיל ליצור בלוק פשוט בשם `red_block`
 
 ![](<../../../../.gitbook/assets/immagine (90).png>)
 
@@ -26,25 +26,25 @@ items:
 ```
 
 {% hint style="warning" %}
-It's very important to use a **non placeable** vanilla **material**. For example **PAPER**.\
-If you use a block (like STONE or DIRT) it will result a bit glitchy when placed.
+חשוב מאוד להשתמש ב-**חומר** שהוא במשחק הרגיל וגם **לא ניתן להצבה**. לדוגמה **נייר**.\
+אם אתם משתמשים בבלוק (כמו STONE או DIRT) התוצאה תהיה מעט תקולה כאשר מניחים אותו.
 {% endhint %}
 
-## Block textures
+## טקסטורות בלוק
 
-### Creating the textures files
+### יצירת קבצי הטקסטורה
 
-Now the fun part, let's set the textures!\
-To do that you have to put the `.png` textures file inside the correct folder.\
-In this case your **namespace** is `myitems` so you have to put them here:
+עכשיו החלק המהנה, בואו נעשה את הטקסטרה!\
+לשם כך עליכם להכניס את קבצי הטקסטורה `.png` בתוך התיקיה הנכונה.\
+במקרה זה **מרחב השמות** שלכם הוא 'myitems' אז עלייכם לשים אותם כאן:
 
 ![](<../../../../.gitbook/assets/image (130).png>)
 
-### Applying the textures files to your item
+### החלת קבצי הטקסטורה על הפריט שלכם
 
-Now open `blocks.yml` file again and add the `resource` part as I did.\
-As you can see I set `generate: true` and I set the textures for the item.\
-This tells the plugin to generate the 3D model automatically using your texture.
+כעת פתחו שוב את הקובץ 'blocks.yml' והוסיפו את החלק 'resource' כפי שעשיתי.\
+כפי שאתם יכולים לראות, אני מגדיר 'generate: true' ואני מגדיר את הטקסטרה לפריט.\
+זה אומר לפלאגין ליצור את מודל התלת-ממדי באופן אוטומטי באמצעות הטקסטרה שלכם.
 
 ```yaml
 info:
@@ -58,10 +58,13 @@ items:
       material: PAPER
 ```
 
-### Using different texture for each face
+### שימוש הטקסטורה שונה לכל פנים
 
+{% hint style="info" %}
+פנים, מתייחס למושג של הקוביה - לכל קובייה יש 6 פנים. כאשר אנחנו כותבים טקסטורה שונה לכל פנים אנחנו מדברים על כך שלכל פנים בקובייה יהיה טקסטורה שונה.
+{% endhint %}
 {% hint style="warning" %}
-**Important**: keep the correct cardinal directions order as shown in the example.
+**חשוב**: שמרו על סדר ההוראות הקרדינליות הנכון כפי שמוצג בדוגמה.
 {% endhint %}
 
 ```yaml
@@ -83,7 +86,7 @@ items:
         - block/red_block_west.png
 ```
 
-### Using the same texture for each face
+### שימוש באותו הטקסטורה עבור כל פנים
 
 ```yaml
 info:
@@ -99,9 +102,9 @@ items:
         - block/red_block.png
 ```
 
-## Adding the block placing functionality
+## הוספת פונקציונליות הצבת בלוק
 
-You have to add the `specific_properties` attribute, like in this example:
+עליכם להוסיף את התכונה 'specific_properties', כמו בדוגמה הזאת:
 
 ```yaml
 info:
@@ -123,26 +126,26 @@ items:
 ```
 
 {% hint style="info" %}
-Click on the bottom link if you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
+לחצו על הקישור אם אתה רוצה לציין **כלים** שיכולים לשבור את הבלוק, להוסיף **קשיות (עד כמה קשה לשבור את הבלוק)** ו**תכונות נוספות**.
 {% endhint %}
 
-## Final part
+## חלק אחרון
 
-Now you just need to tell the plugin to load your just added block.
+עכשיו אתם רק צריכים לטעון את הפלאגין מחדש.
 
-### If you're using [self-host](../../../resourcepack-hosting/resourcepack-self-hosting.md) or [auto-external-host](../../../resourcepack-hosting/automatic-upload-hosting.md):
+### אם אתם עושים [אחסון עצמאי](../../../resourcepack-hosting/resourcepack-self-hosting.md) או [אחסון-חיצוני-אוטומטי](../../../resourcepack-hosting/automatic-upload-hosting.md):
 
-* run `/iazip`.
+* עשו את הפקודה `/iazip`.
 
-### If you're using [external-host](../../../resourcepack-hosting/resourcepack-on-dropbox.md) (Dropbox) read here:
+### אם אתם עושים [אחסון-חיצוני](../../../resourcepack-hosting/resourcepack-on-dropbox.md) (דרופבוקס) קראו כאן:
 
-Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
-1\. Get it from this folder:
+אל תשכחו להעלות את קובץ ה-zip החדש שנוצר למקום החאסון שלכם שלך (דרופבוקס)!\
+1\. אפשר למצוא את הקובץ בתוך התקייה:
 
 ![](<../../../../.gitbook/assets/immagine (96) (2) (3) (2) (1).png>)
 
-2\. Upload it to your hosting (Dropbox)\
-3\. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
+2\. העלו את הקובץ לאחסון שלכם (דרופבוקס)\
+3\. פתחו את `config.yml` של ItemsAdder ועדכנו את כתובת האתר של `external-host` עם הקישור החדש שלכם.
 
 ```yaml
   self-host:
@@ -154,15 +157,15 @@ Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-If you have more questions read the full **external-host** tutorial here:
+אם יש לכם שאלות נוספות קראו את המדריך המלא של **איחסון חיצוני** כאן:
 
 {% content-ref url="../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 [resourcepack-on-dropbox.md](../../../resourcepack-hosting/resourcepack-on-dropbox.md)
 {% endcontent-ref %}
 
-## Getting the block ingame
+## קבלת הבלוק במשחק
 
-Run `/iaget red_block` to get the item.
+הריצו את הפקודה `/iaget red_block` כדי לקבל את הפריט.
 
 ![](<../../../../.gitbook/assets/immagine (92).png>)
 

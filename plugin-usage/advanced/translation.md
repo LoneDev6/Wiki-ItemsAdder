@@ -1,12 +1,12 @@
-# 🇬🇧 🇬🇧 Translation
+# 🇬🇧 🇬🇧 תרגום
 
-You can translate everything in ItemsAdder, it's really easy.
+אפשר לתרגם הכל ב ItemsAdder,זה ממש פשוט.
 
-## Translate items
+## תרגום דברים
 
-### Translate ItemsAdder default items
+### איך לתרגם את החפצים ב-ItemsAdder
 
-If you want to translate IA default items you can, you just have to copy my dictionary and create your own.\
+אם אתם רוצים לתרגם את החפצים בפלאגין פשוט העתיקו אותם מהקובץ שלי.\
 
 
 * open folder plugins\ItemsAdder\data\items\_packs\dictionaries\ia\_default\_items

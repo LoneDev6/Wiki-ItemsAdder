@@ -25,7 +25,7 @@
 
 <details>
 
-<summary>Click here to expand</summary>
+<summary>לחצו כאן בשביל לראות</summary>
 
 זה בעצם יאפשר את התיקון בכל אחת מהביומות של Minecraft Overworld.\
 אל תהססו להסיר את הביומות שבהן לא יהיו פרטיות, כדי להימנע משימוש גבוה במעבד.
@@ -123,7 +123,7 @@ seach-also-in-these-biomes:
 {% hint style="warning" %}
 ### זה רק עובד על [Purpur](https://purpur.pl3x.net).
 
-### ל-Spegot ול-Paper אין תכונה זו.
+### ל-Spigot ול-Paper אין תכונה זו.
 {% endhint %}
 
 הגדירו את האפשרויות האלה בקובץ **purpur.yml**:

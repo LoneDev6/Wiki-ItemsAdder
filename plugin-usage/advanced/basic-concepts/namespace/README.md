@@ -1,21 +1,21 @@
 # Namespace
 
-## Namespace
+## פונקציית ה-Namespace (מרחב שמות)
 
-As you surely noticed ItemsAdder uses **namespaces** to identify most of the things it manages.\
-A **namespace** is a **group** of elements, in this case a group of **items**/**blocks**/**mobs**... \
-With namespaces you can easily understand where a particular **item**, **sound**, **block**.. comes from.
+כפי שבוודאי שמתם לב ItemsAdder משתמש ב**מרחבי שמות** כדי לזהות את רוב הדברים שהיא מנהלת.\
+**מרחב שמות** הוא **קבוצה** של אלמנטים, במקרה זה קבוצה של **פריטים**/**בלוקים**/**המונים**... \
+עם מרחבי שמות, אתה יכול להבין בקלות מאיפה מגיע **פריט** מסוים, **צליל**, **בלוק**..
 
-### Example
+### לדוגמא
 
-All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
+כל פריטי **realcraft** נמצאים תחת מרחב השמות **realcraft**, כך שכאשר אתם משתמשים בפקודה `/iaget` אתם יכול לראות את כל מזהי הפריטים מתחילים ב-'realcraft:`
 
 ![](<../../../../.gitbook/assets/image (7).png>)
 
-## How can I define my own namespace?
+## איך אני יוצר את מרחב השמות שלי?
 
-Now that you see how it works you want to ask me this question: _How can I create my own namespace?_\
-To create your own **namespace** (you can also define multiple ones!) it's really easy, read the following tutorial:
+עכשיו כשאתם רואים ומבינים איך זה עובד אתם צריכים לשאול אותי את השאלה הזאת: _איך אנחנו יכולים ליצור מרחב שמות משלנו?_\
+כדי ליצור **מרחב שמות** משלכם (אתם יכולים גם להגדיר כמה מרחבי שמות!), קראו את המדריך הבא:
 
 {% content-ref url="creating-your-namespace.md" %}
 [creating-your-namespace.md](creating-your-namespace.md)
