@@ -1,6 +1,6 @@
-# Languages
+# Dil
 
-### Currently available languages
+### Şuanda erişilebilir diller
 
 ```
 GUI: 
@@ -29,9 +29,8 @@ Items:
     Turkish tr
 ```
 
-### How to change language?
-
-Open config.yml and change the language setting.
+### Dili nasıl değişirim?
+config.yml dosyasını açın ve dil ayarını değiştirin.
 
 ```yaml
 config_files:
@@ -39,12 +38,10 @@ config_files:
   dictionaries-lang: 'en'
 ```
 
-## How to edit or to create new languages?
-
-The **plugin** messages **language** files are in **this folder**: `plugins\ItemsAdder\lang\`
-
-The **default items** and **menus languages** files are inside **this folder**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
+## Nasıl yeni bir dil oluşturulur veya düzenlenir?
+**Eklentinin** mesajlar **dil** dosyası **şurada**: `plugins\ItemsAdder\lang\`
+**Varsayılan eşyalar** ve **menü dilleri** dosyaları **şurada**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
 
 {% hint style="warning" %}
-Some addons may put their dictionary files inside other folders inside items\_packs, you have to search for them.
+Bazı eklentiler dosyalarını items\_packs içine koyabilirler, onları aramalısın.
 {% endhint %}

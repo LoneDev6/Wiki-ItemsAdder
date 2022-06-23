@@ -1,8 +1,8 @@
 ---
-description: Disable the scoreboard background
+description: Skor tablosu arkaplanını devre dışı bırak
 ---
 
-# Hide Scoreboard background
+# Skor tablosu arka planını gizle
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/scoreboard.md" %}
 [scoreboard.md](../../compatibility-with-other-plugins/compatible/scoreboard.md)

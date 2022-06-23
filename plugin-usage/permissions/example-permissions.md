@@ -1,32 +1,32 @@
-# ↪ Example permissions
+# ↪ Örnek izinler
 
-## Example setup:
+## Örnek kurulum:
 
-* `ia.user.ia` (open /ia menu)
-* `ia.user.ia.*` (see all items in /ia menu)
-* `ia.user.iarecipe` (use /iarecipe command)
-* `ia.user.craft.*` (craft all items)
-* `ia.menu.*` (see all categories in /ia menu)
-* `ia.user.image.gui` (use /e command to see emojis book)
-* `ia.user.image.hints` (suggest emojis when using /e and TAB complete)
-* `ia.user.image.chat` (replace emoji text :smile: etc in chat)
-* `ia.user.image.command` (replace emoji text :smile: etc in commands)
+* `ia.user.ia` (/ia menüsünü aç)
+* `ia.user.ia.*` (/ia menüsündeki tüm eşyaları gör)
+* `ia.user.iarecipe` (/iarecipe komutunu kullan)
+* `ia.user.craft.*` (tüm itemleri craftla)
+* `ia.menu.*` (/ia menüdeki tüm kategorileri gör)
+* `ia.user.image.gui` (emoji kitabını görmek için /e kullan)
+* `ia.user.image.hints` (/e ve tab kullanırken emojileri öner)
+* `ia.user.image.chat` (emoji yazısı :smile: yazarken yeniden yerleştir)
+* `ia.user.image.command` (komutlarda emoji :smile: metnini değiştirin 
 * `ia.user.image.sign` (replace emoji text :smile: etc in signs)
 * `ia.user.image.book` (replace emoji text :smile: etc in books)
-* `ia.user.image.use.*` (access to all emojis)
+* `ia.user.image.use.*` (tüm emojilere eriş)
 
-## Where can I get categories permissions?
+## Kategori izinlerini nerden alabilirim?
 
 {% hint style="info" %}
-### ItemsAdder default categories
+### ItemsAdder varsayılan kategorileri
 
-Open this file to read all the permissions to see categories: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+Bu dosyayı açın ve kategorileri görmek için tüm izinleri okuyun: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 
-For example if you want to make players see ALL the categories of default ItemsAdder you just have to give `ia.menu.*` permission.
+Örneğin oyuncularınızın tüm kategorileri görmesini istiyorsanız `ia.menu.*` iznini vermelisiniz.
 {% endhint %}
 
 {% hint style="info" %}
-### Addons categories
+### Eklenti kategorileri
 
 If you're installing an [addon ](https://addons.plugin.ga/itemsadder/)you may search for a `categories.yml` file inside `ItemsAdder\data\items_packs\ADDON`, usually they put the categories there, so you can find also their **permissions**.
 {% endhint %}
@@ -34,7 +34,7 @@ If you're installing an [addon ](https://addons.plugin.ga/itemsadder/)you may se
 {% hint style="info" %}
 ### Creating my categories
 
-To create your categories just read the tutorial
+Kategorilerinizi oluşturmak için tutoriali okuyun
 {% endhint %}
 
 

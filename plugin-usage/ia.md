@@ -1,22 +1,22 @@
 ---
-description: /ia command menu
+description: /ia komutu menüsü
 ---
 
-# 📃 Recipes menu
+# 📃 Tarifler menüsü
 
-## Menu settings and "All" category
+## "Hepsi" için menü ayarları
 
-`ia_gui.yml` contains settings about the  `/ia` command GUI.\
-It also contains the **"all"** category which shows every ItemsAdder item.
+`ia_gui.yml` dosyası  `/ia` komutuyla ilgili ayarları içeriyor.\
+Aynı zamanda **"tüm"** ItemsAdder eşyalarınıda gösteriyor.
 
 {% hint style="info" %}
-Default ItemsAdder pack categories are inside: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+Varsayılan ItemsAdder kaynak paketi kategorileri şunun içinde: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 {% endhint %}
 
-## Creating a custom category
+## Özel bir kategori oluşturma
 
-If you want to create your own category you have to add it to your own `.yml` file in your [namespace](adding-content/basic-concepts/namespace/).\
-This is an example:
+Eeğer kendi özel kategorinizi oluşturmak istiyorsanız kendi dosyanızı `.yml` dosyasına koymalısınz [namespace](adding-content/basic-concepts/namespace/).\
+Bu bir örnek:
 
 ```yaml
 info:
@@ -44,16 +44,16 @@ categories:
       - "itemsadder:spinel_legs"
 ```
 
-Remember to give your users permission for each category if you want them to see the categories.\
-For example a permission is: **ia.menu.armors**
+Tüm kullanıcılara kategoriyi görmek için yetki verdiğinizden emin olun.\
+Örneğin: **ia.menu.armors**
 
 {% hint style="info" %}
 **font\_image and title\_position\_pixels are optional.**\
-****Plugin will take the one in `ia_gui.yml` if not set.
+****Eklenti ayarlanmamış ise `ia_gui.yml` dosyasındakini alıcak.
 
-This option is good if you want to have a different background for each category.
+Bu ayar eğer her kategoride farklı font kullanmak istiyorsanız yararlı.
 {% endhint %}
 
 {% hint style="success" %}
-**Categories** with the **same name** and different namespace **will be merged**, this is **helful** if you have two "swords" categories. This allows you to open **/ia** menu and see all swords organized in the same category instead of having 2 swords categories.
+**Aynı isimdeki** **kategoriler** ve farklı isimler **birleştirilecek**, bu eper 2 tane "kılıçlar" kategoriniz varsa **çok yardımcı** olucaktır. Bu **/ia** menüsünü açtığınızda 2 tane kılıçlar kategorisi görmeniz yerine organize olmuş tek bir kategori görmenizi sağlıyor.
 {% endhint %}

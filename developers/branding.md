@@ -1,13 +1,13 @@
-# ™ Branding
+# ™ Markalaşma
 
-## Download branding assets
+## Marka dosyalarını indirin
 
-The below ZIP file contains assets that you can use for your resource page or in your own assets related to ItemsAdder.\
-Make sure to read the [Usage terms](branding.md#usage-terms) before doing anything tho.
+Aşağıdaki ZIP dosyası, kaynak sayfanız için veya ItemsAdder ile ilgili kendi varlıklarınızda kullanabileceğiniz varlıkları içerir.\
+Birşey yapmadan önce [Kullanım koşullarını](branding.md#usage-terms) okuduğunuzdan emin olun.
 
 {% file src="../.gitbook/assets/itemsadder_branding.zip" %}
 
-### Preview of the zip content
+### Zip içeriğinin önizlemesi
 
 ![logos](<../.gitbook/assets/image (120).png>)
 
@@ -15,22 +15,22 @@ Make sure to read the [Usage terms](branding.md#usage-terms) before doing anythi
 
 ![addon-banner](../.gitbook/assets/ia\_addon\_banner.png)
 
-## Usage terms
+## Kullanım koşulları
 
-You **can** use the assets...
+Varlıkları **kullanabileceğiniz yerler**...
 
-* on resource pages for Add-ons and/or plugins supporting ItemsAdder that you own.
-* in own images for your resources.
+* Sahip olduğunuz ItemsAdder'ı destekleyen Eklentiler ve/veya eklentiler için kaynak sayfalarında.
+* kaynaklarınız için kendi resimlerinizde.
 
-...under the following conditions:
+...bu koşullar altında:
 
-* You do not claim ownership over the assets. Original ownership stays with LoneDev, the developer of ItemsAdder.
-* You do not claim to have created those assets yourself.
-* You do not use the assets or part of them to create your own resource logo.
-* You do not redistribute the assets. This includes but isn't limited to modified versions of both the ZIP file and the actual files themself.
-* Give credit to the original branding page (This one) by linking to it.
-* The images may only be used to cite ItemsAdder.
+* Varlıklar üzerinde sahiplik iddiasında bulunmazsınız. Orijinal mülkiyet, ItemsAdder'ın geliştiricisi LoneDev'de kalır.
+* Bu varlıkları kendiniz yarattığınızı iddia etmiyorsunuz.
+* Varlıkları veya bir kısmını kendi kaynak logonuzu oluşturmak için kullanmazsınız.
+* Varlıkları yeniden dağıtmazsınız. Bu, hem ZIP dosyasının hem de gerçek dosyaların değiştirilmiş sürümlerini içerir ancak bunlarla sınırlı değildir.
+* Orijinal marka bilinci oluşturma sayfasına (Buna) bağlantı vererek kredi verin.
+* Görüntüler yalnızca ItemsAdder'dan alıntı yapmak için kullanılabilir.
 
-## Credits
+## Yapanlar
 
-* Thanks to Andre\_601 for the creation of the `ia_addon_banner` file
+* 'ia_addon_banner' dosyasının oluşturulduğu için Andre\_601'e teşekkürler

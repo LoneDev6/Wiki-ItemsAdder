@@ -1,2 +1,2 @@
-# 📷 Resourcepack hosting
+# 📷 Kaynak paketi barındırma
 

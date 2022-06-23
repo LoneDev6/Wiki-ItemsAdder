@@ -1,6 +1,6 @@
 # 📓 Skript API
 
-## Examples
+## Örnekler
 
 {% tabs %}
 {% tab title="Command: give custom item" %}
@@ -39,5 +39,5 @@ command /emojitest:
 {% endtabs %}
 
 {% hint style="warning" %}
-If you think there is any missing method you need don't worry. I will add more features to the Skript API, you just have to be patient.
+Eksik bir yöntem olduğunu düşünüyorsanız endişelenmenize gerek yok. Skript API'ye daha fazla özellik ekleyeceğim, sabırlı olmanız yeterli.
 {% endhint %}
