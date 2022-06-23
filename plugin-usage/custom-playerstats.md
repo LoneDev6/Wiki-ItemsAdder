@@ -1,9 +1,9 @@
-# Özelleştirilmiş oyuncu istatisikleri
+# Custom PlayerStats
 
-## Oyuncu istatistikleride ne?
+## What are PlayerStats?
 
-ItemsAdder tarafından eklenen özel nitelikler, şu özel komut ile onları ekleyebilir yada çıkarabilirsiniz: `/iaplayerstat`
+They custom attributes added by ItemsAdder, you can add and read them using a special command: `/iaplayerstat`
 
-Onları nereye atadığınızı görmek için PlaceholderAPI kullanabilirsiniz (thirst ve mana için yaptığım gibi, örnekler için yapılandırma dosyalarımı kontrol edin).
+You can then use PlaceholderAPI to show them anywhere or bind them to a HUD (like I did for thirst and mana, check my configs for examples).
 
-Örneğin: `/iaplayerstat read LoneDev thirst float`
+Example: `/iaplayerstat read LoneDev thirst float`

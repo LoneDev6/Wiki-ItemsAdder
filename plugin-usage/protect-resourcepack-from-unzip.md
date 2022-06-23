@@ -1,13 +1,13 @@
 ---
-description: Kaynak paketinizi hırsızlardan koruyun
+description: How to protect your resourcepack from thief
 ---
 
-# 🚨 Kaynak paketinizi birinin unzip'lemesinden koruyun
+# 🚨 Protect resourcepack from unzip
 
 {% hint style="info" %}
-Itemsadder ile kaynak paketinizi hırsızlar ve unzip'ten koruyun.\
-Bu ayarı config.yml açmanız ve /iazip komutunu kullanmanız gerekiyor.\
-Dropbox kullanıyorsanız paketi tekrar yüklemeyi ve config.yml'den linki düzenlemeniz gerekiyor.
+With ItemsAdder you can protect your resourcepack from unzip and thieves.\
+You just have to set this option in config.yml and use /iazip again.\
+If you're using Dropbox don't forget to reupload the pack and update the config.yml
 
 {% code title="config.yml" %}
 ```yaml
@@ -21,24 +21,24 @@ Dropbox kullanıyorsanız paketi tekrar yüklemeyi ve config.yml'den linki düze
 
 ### enabled
 
-Ayar `true` ise kaynak paketinizi başlangıç seviyesindeki bir korumayla korur.
+The `enabled` property allows you to protect the resourcepack with a basic method.
 
 ### extreme
 
-Ayar `extreme` açık ise kaynak paketinizi başka bir katmanda koruma ile korur..
+The `extreme` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
 
-## Gösterim
+## Showcase
 
-Bu video kullanıcının kaynak paketinizi çalmaya çalıştığında olucakları gösteriyor. Ama kullanıcı sadece bozulmuş dosyalar görücek.
+This is a funny meme showcase of what the user will see when they try to steal your data. But this is actually what the user will see, a group of corrupted files and folders.
 
 {% embed url="https://youtu.be/MhtEhoOuWV8" %}
 
 {% hint style="warning" %}
-Kaynak paketinizi %100 efektik olarak korumanın bir yolu yok çünkü oyun bu paketi çıkarabilmeli
+There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
 
-Bu özellik trollerin ve çocukların paketinizi çalmasını engeller.\
-Tecrübeli kişiler bu korumayı geçebilir.
+This feature is a mitigation to avoid kids and trolls to steal your texture.\
+Some experienced users might be able to find a way to bypass these protections.
 
-Itemsadder bunu engellemek için elinden geleni yapıyor ama yinede aklınızda bulunsun.
+ItemsAdder does its best to prevent this, but keep that eventuality in mind.
 {% endhint %}
 

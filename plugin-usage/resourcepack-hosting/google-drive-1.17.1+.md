@@ -5,45 +5,45 @@ coverY: 0
 
 # 🗂 Google Drive (1.17.1+)
 
-## Google Drive nasıl kullanılır
+## How to use Google Drive
 
 {% hint style="warning" %}
-Bu method bazı pclerde 1.17 sürümü dışında bir minecraft hatasına sahip, daha fazla okuyun: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
+This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-Bu method Minecraft 1.17.1 ve daha üst versiyonlarında %100 çalışıyor.
+This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
 {% endhint %}
 
-### Adım 1
+### Step 1
 
-Kaynak paketi zip dosyanıza sağ tıklayın ve "Linki Al"'a basın
+Rightclick on your resourcepack zip file and press "Get link"
 
 ![](<../../.gitbook/assets/immagine (156).png>)
 
-### Adım 2
+### Step 2
 
-Önemli: izinleri "Bağlantıya sahip olan herkes" olarak ayarlayın
+Important: set the permission to "Anyone with the link"
 
 ![](<../../.gitbook/assets/immagine (145).png>)
 
-"Bağlantıyı kopyala"'ya basın
+Press "Copy link"
 
 ![](<../../.gitbook/assets/immagine (150).png>)
 
-### Adım 3
+### Step 3
 
-Websiteye göz atın: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
+Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
 
-Bağlantıyı yapıştırın ve "Get direct link" butonuna basın
+Paste the link and press on "Get direct link"
 
 <img src="../../.gitbook/assets/immagine (144).png" alt="" data-size="original">
 
-### Adım 4
+### Step 4
 
-Website otomatik olarak oluşturulmuş linki kopyalar
+The website automatically adds the generated link in your clipboard.
 
 ![](<../../.gitbook/assets/immagine (147).png>)
 
-Şimdi linki **ItemsAdder** konfigürasyon  dosyasında `config.yml`'ye yapıştırıp  `/iareload` komutunu kullanabilirsiniz.
+You can now paste the link inside **ItemsAdder** configuration file `config.yml`, then use `/iareload` command.
 
 {% code title="config.yml" %}
 ```yaml
@@ -53,22 +53,22 @@ external-host:
 ```
 {% endcode %}
 
-### Bitti!
+### Done!
 
-Şimdi paketin oyun tarafından başarıyla yüklendiğini görebilirsiniz.
+You can now see that the pack is correctly loaded by the game.
 
-## Sık görülen hatalar
+## Common issues
 
-### "Making Request... 100%" kısmında uzun süre takılma
+### Long time on "Making Request... 100%"
 
 ### ![](<../../.gitbook/assets/immagine (146).png>)
 
-Bu normal. Çünkü Google Drive kaynak paketinin indirmesini başlatmadan önce doğrulamalar yapıyor.
+This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
 
-Bu sadece oyuncu paketi ilk kez indiriyorsa oluyor ve 5-10 saniye alıyor.
+This happens only when the player downloads the resourcepack for the first time and it will take from 5 to 10 seconds.
 
-### Kaynak paketi yüklenmiyor
+### Resourcepack not loading at all
 
-Bu method bazı pclerde 1.17 sürümü dışında bir minecraft hatasına sahip, daha fazlasını okuyun: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
+This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-Bu method Minecraft 1.17.1 ve daha üst versiyonlarında %100 çalışıyor.
+This method works 100% of the times on Minecraft 1.17.1 and most recent versions.

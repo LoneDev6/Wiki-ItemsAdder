@@ -1,34 +1,34 @@
 # 1.17.1
 
-## Nasıl optimize edilir
+## How to optimize it
 
-### 1. Fabrici indirmek
+### 1. Downloading Fabric
 
-İlk önce **Fabric**'i indirmeli ve kurmalısınız : [https://fabricmc.net/use/](https://fabricmc.net/use/)\
-"**Download installer**" butonuna tıklayın:
+First you have to download **Fabric** and install it: [https://fabricmc.net/use/](https://fabricmc.net/use/)\
+Click on the "**Download installer**" button:
 
 ![](<../../.gitbook/assets/immagine (115).png>)
 
-### 2. Profil dosyasını düzenleyin (isteğe bağlı adım)
+### 2. Edit the profile folder (optional step)
 
-"**installations**" butonuna tıklayın, sonra "**Fabric**" kurucusunun altındaki "**edit**" butonuna basın .
+Click on "**installations**", then press on "**edit**" under the "**Fabric**" installation.
 
 ![](<../../.gitbook/assets/immagine (119).png>)
 
-Klasörü yenisiyle değiştirin, örneğin, `.minecraft`'ın içinde `Fabric` adında yeni bir profil klasörü oluşturdum.
+Change the folder to a new one, for example I created a new profile folder called `Fabric` inside `.minecraft`.
 
 ![](<../../.gitbook/assets/immagine (120).png>)
 
-### 3. Optimizasyon modunu yükleyin
+### 3. Install the optimization mod
 
-Modu buradan indirin: [https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/)
+Download the mod here: [https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154)
 
-Zip dosyasını açın ve içindekileri `.minecraft`'ın içindeki `mods` ve `config` dosyalarına atın (yada **Fabric** profil dosyasına).
+Open the zip and extract the folders `mods` and `config` inside your `.minecraft` folder (or inside the **Fabric** profile folder).
 
-### 4. Fabric'i çalıştırın
+### 4. Run Fabric
 
 ![](<../../.gitbook/assets/immagine (117).png>)
 
-### Bitti!
+### Done!
 
-Artık oyununuz, vanilla oyununun işleyişine kıyasla çok hızlı açılacaktır.
+Now your game will open and run very fast compared to how the vanilla game runs.

@@ -1,52 +1,52 @@
 ---
-description: Plugin nasıl kurulur
+description: How to install the plugin
 ---
 
-# ⚙ İlk kurulum
+# ⚙ First install
 
 {% hint style="info" %}
-**Hatalardan** ve birden çok yeniden başlatmadan kaçınmak için bu ilk yapılandırmayı kendi **bilgisayarınızdaki test sunucusunda** denemelisiniz.. Oyuncular sunucu aktif olmadığında mutlu olmazlar.\
-Dosyalarınızı düzenlemeyi bitirdikten sonra gerçek sunucunuza yükleyebilirsiniz.
+**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is offline.\
+You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-Tüm kurulum aşamalarını **tamamlamalısınız**. Sadece ilkini değil
+You **should** complete ALL installation steps. Not only the first.
 {% endhint %}
 
-## Adım 1 - eklentinin ve API'lerin kurulumu
+## Step 1 - installing the plugin and APIs
 
-* [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/) kurun
-* [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/) kurun
-* (isteğe bağlı) **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new)) kurun
-* (isteğe bağlı)   gelecekte özel moblar eklemeyi planlıyorsanız [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) kurun
-* **ItemsAdder.jar**'ı plugins dosyanızın içine koyun
-* sunucuyu başlatın
-* ItemsAdder'ın **herşeyi** yükleneyi bitirmesini bekleyin
+* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
+* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
+* (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
+* put **ItemsAdder.jar** file inside your plugins folder
+* start the server
+* let ItemsAdder finish loading **everything**
 
-Birinci adım tamamlandı.\
-Şimdi kaynak paketini ayarlamak için (merak etmeyin çok zor değil) **adım 2**'yi tamamlamalısınız.
+First step is done.\
+Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
 
-## Adım 2 - kaynak paketi ilk kurulumu
+## Step 2 - resourcepack first installation
 
-#### Kaynak paketinin hostlanma yolunu seçin:
+#### Decide the resourcepack hosting method:
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## İsteğe bağlı adımlar
+## Optional steps
 
-### Varsayılan eşyaları kaldırma
+### Removing default items
 
 {% hint style="info" %}
-Varsayılan öğelerimi umursamıyorsanız ve sadece kendi öğelerinizi, bloklarınızı ve diğer şeyleri yapmak istiyorsanız, bu gayet kolay!
+If you don't care about my default stuff and you only want to make your own items, blocks and other things it's easy!
 {% endhint %}
 
 {% content-ref url="faq/removing-default-stuff.md" %}
 [removing-default-stuff.md](faq/removing-default-stuff.md)
 {% endcontent-ref %}
 
-### Hatalı blokladan kaçının (Purpur kullanıyorsanız)
+### Avoid glitched blocks (if you have Purpur installed)
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
 [avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)

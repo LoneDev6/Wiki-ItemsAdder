@@ -1,25 +1,25 @@
-# Uzman kullanıcılar
+# Expert users
 
-## Gereklilikleri yükleme
+## Installing the required dependencies
 
-* [skript](https://github.com/SkriptLang/Skript/releases/latest)'i yükle
-* [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/latest)'i yükle 
+* Install [skript](https://github.com/SkriptLang/Skript/releases/latest)
+* Install [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/latest)
 
 {% hint style="info" %}
-**skript-reflect** ile ilgili daha fazla bilgi almak için lütfen onun [wikisini](https://tpgamesnl.gitbook.io/skript-reflect/) okuyun
+To get more info about **skript-reflect** please read its [wiki](https://tpgamesnl.gitbook.io/skript-reflect/)
 {% endhint %}
 
 {% hint style="danger" %}
-#### Lütfen **skript** ile ilgili sorunlar veya sorular için **destek** talebi açmayın.
+#### Please **do not ask** for **support** for **skript** related issues or questions.
 
-Ben bir skript uzmanı değilim ve **skript** veya **skript-reflect** geliştiricisi değilim.\
-**Skript ile ilgili her soru göz ardı edilecek**, Umarım anlarsınız.
+I'm not a skript expert and I'm not the developer of **skript** nor **skript-reflect**.\
+**Every question about skript will be ignored**, I hope you understand.
 {% endhint %}
 
-## Örnekler
+## Examples
 
 {% tabs %}
-{% tab title="Komutta öğe alma" %}
+{% tab title="Getting item on command" %}
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
@@ -31,7 +31,7 @@ command /iaskript:
 ```
 {% endtab %}
 
-{% tab title="Tıklanan bloğun özel blok olup olmadığını kontrol edin" %}
+{% tab title="Check if clicked block is custom block" %}
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
@@ -53,7 +53,7 @@ on PlayerInteractEvent:
 ```
 {% endtab %}
 
-{% tab title="Özel GUI" %}
+{% tab title="Custom GUI" %}
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
@@ -84,7 +84,7 @@ on inventory close:
 ```
 {% endtab %}
 
-{% tab title="Hud değerini değiştir" %}
+{% tab title="Change hud value" %}
 ```yaml
 import:
   dev.lone.itemsadder.api.FontImages.PlayerQuantityHudWrapper
@@ -101,7 +101,7 @@ command /healme:
 ```
 {% endtab %}
 
-{% tab title="item menüsü" %}
+{% tab title="item menu" %}
 ```yaml
 import:
   dev.lone.itemsadder.api.CustomStack

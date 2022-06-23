@@ -1,39 +1,39 @@
 ---
-description: Diğer kaynak paketlerini birleştirme(aynı zamanda özel eklentilerim paketlerini)
+description: Merge other resourcepacks (also custom plugins resourcepacks)
 ---
 
-# 🗃 Kaynak paketlerini birleştirme
+# 🗃 Merge resourcepacks
 
-## Neden birleştirmeye ihtiyacım var?
+## Why merging?
 
-**Minecraft** sadece **1 sunucu kaynak paketini destekliyor**, yani 1'den fazla kaynak paketiniz varsa onları birleştirmelisiniz.
+**Minecraft** supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
 
-## Nasıl birleştirilir?
+## How to merge?
 
-### Adım 1
+### Step 1
 
-Kaynak paketinizin `assets` dosyasını kopyalayın.
+Copy the `assets` folder of your resourcepack.
 
-### Adım 2
+### Step 2
 
-Kaynak paketinizin `assets` dosyasını **ItemsAdder** dosyasının içine yapıştırın: `plugins\ItemsAdder\data\resource_pack\`
+Paste the `assets` folder of your resourcepack inside the **ItemsAdder** folder: `plugins\ItemsAdder\data\resource_pack\`
 
-### Adım 3
+### Step 3
 
-**Itemsadder**'ın `config.yml` dosyasını açın ve bu ayarı ayarlayın:
+Open `config.yml` of **ItemsAdder** and set this option:
 
 ```yaml
 overwrite-vanilla-models: false
 ```
 
-### Adım 4
+### Step 4
 
-Itemsadder kaynak paketinizi sıkıştırmak için `/iazip` komutunu kullanın.\
-(Doğru yaptığınızdan emin olun [barındırma rehberi](../resourcepack-hosting/) based on the hosting method you decided)
+Use the `/iazip` command to compress the ItemsAdder resourcepack.\
+(Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided)
 
-### Bitti.
+### Done.
 
-## Örnekler
+## Examples
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/modelengine.md" %}
 [modelengine.md](../../compatibility-with-other-plugins/compatible/modelengine.md)

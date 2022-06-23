@@ -1,6 +1,6 @@
-# 📹 Kullanıcılar tarafından çekilen videolar
+# 📹 Videos by users
 
-## Tanıtımlar
+## Showcases
 
 {% embed url="https://www.youtube.com/watch?v=YXD2KGHDY-U" %}
 
@@ -8,13 +8,14 @@
 
 {% embed url="https://www.youtube.com/watch?v=2rtd096_7kY" %}
 
-## Yeni başlayanlar için
+## Beginners
 
 {% embed url="https://www.youtube.com/watch?v=GKGnlF4zZVg" %}
 
 {% embed url="https://www.youtube.com/watch?v=m_7w2G3YH_A" %}
 
-## Orta düzey kullanıcılar için
+## Mid-advanced users
+
 {% embed url="https://www.youtube.com/watch?v=unhHU52Dt_8" %}
 
 {% embed url="https://www.youtube.com/watch?v=CeO7TC-LmVk" %}

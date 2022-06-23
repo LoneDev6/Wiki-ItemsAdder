@@ -89,8 +89,8 @@ You have to change it to this (`your_namespace` is your [namespace ](../../basic
 
 ## Transparent textures (glass and similar)
 
-{% content-ref url="../../../../faq/create-slabs-stairs-tridents-armors.../transparent-textured-furnitures.md" %}
-[transparent-textured-furnitures.md](../../../../faq/create-slabs-stairs-tridents-armors.../transparent-textured-furnitures.md)
+{% content-ref url="../../../../faq/create-slabs-stairs-tridents-armors-etc/transparent-textured-furnitures.md" %}
+[transparent-textured-furnitures.md](../../../../faq/create-slabs-stairs-tridents-armors-etc/transparent-textured-furnitures.md)
 {% endcontent-ref %}
 
 ## Manually specify custom\_model\_data

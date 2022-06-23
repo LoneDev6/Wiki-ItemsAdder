@@ -1,34 +1,34 @@
 ---
-description: Blokstate json dosyalarını manuel olarak nasıl düzenleyebiliriz
+description: How to manually edit blockstates json files
 ---
 
-# Blok durumlarını manuel olarak düzenleme
+# Manual editing blockstates
 
-## note\_block.json Düzenleme
+## Editing note\_block.json
 
 {% hint style="warning" %}
-ItemsAdder 2.4.20'a güncelleyin
+Update to ItemsAdder 2.4.20
 {% endhint %}
 
-`assets\minecraft\blockstates\note_block.json` Dosyasını manuel olarak adding your own rules inside.
+You can manually edit the file `assets\minecraft\blockstates\note_block.json` adding your own rules inside.
 
-**ItemsAdder** özel json dosyanızı otomatik olarak **ItemsAdder** özel bloklar ile birleştiricektir.
+**ItemsAdder** will automatically merge your custom json file with the **ItemsAdder** custom blocks if you created any.
 
-## EDiğer .json blok durumlarını düzenleme
+## Editing other .json blockstates
 
-İstediğiniz herhangi bir blok durum dosyasını düzenleyebilirsiniz, ancak bazılarını düzenlemek için bunu okumalısınız.
+You can edit any blockstate file you want, but you have to read this in order to edit some of them.
 
-Bazı blok durumları dosyalarını düzenlemek için, düzenlemek istediğiniz türe göre ItemsAdder özel bloklar özelliğini devre dışı bırakmanız gerekir. Gelecekte, ItemsAdder blokları özelliğini devre dışı bırakmadan bu dosyaların manuel olarak düzenlenmesine izin verebilirim (uygulaması kolay değil, bu yüzden henüz bunu mümkün kılmadım).
+In order to edit the some blockstates files you have to disable the ItemsAdder custom blocks feature based on the type you want to edit. In the future I may allow manual editing of these files without disabling the ItemsAdder blocks feature (it's not easy to implement, that's why I didn't make this possible yet).
 
-### mantar blok durumları
+### mushroom blockstates
 
-Dosyaları silin:&#x20;
+Delete the files:&#x20;
 
 * `assets\minecraft\blockstates\brown_mushroom_block.json`&#x20;
 * `assets\minecraft\blockstates\mushroom_stem.json`
 * `assets\minecraft\blockstates\red_mushroom_block.json`
 
-Bu ayarı açın:
+Enable this option:
 
 {% code title="config.yml" %}
 ```yaml
@@ -38,9 +38,9 @@ Bu ayarı açın:
 
 ### fire.json
 
-Dosyayı silin `assets\minecraft\blockstates\fire.json`
+Delete the file `assets\minecraft\blockstates\fire.json`
 
-Bu ayarı açın:
+Enable this option:
 
 {% code title="config.yml" %}
 ```yaml
@@ -50,9 +50,9 @@ Bu ayarı açın:
 
 ### chorus\_plant.json
 
-Dosyayı silin `assets\minecraft\blockstates\chorus_plant.json`
+Delete the file `assets\minecraft\blockstates\chorus_plant.json`
 
-Bu ayarı açın:
+Enable this option:
 
 {% code title="config.yml" %}
 ```yaml
@@ -62,9 +62,9 @@ Bu ayarı açın:
 
 ### tripwire.json
 
-Dosyayı silin `assets\minecraft\blockstates\tripwire.json`
+Delete the file `assets\minecraft\blockstates\tripwire.json`
 
-Bu ayarı açın:
+Enable this option:
 
 {% code title="config.yml" %}
 ```yaml

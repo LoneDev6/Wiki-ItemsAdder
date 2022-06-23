@@ -1,27 +1,27 @@
-# ☑ Kaynak Paketi Mesajı (1.17+)
+# ☑ Resourcepack prompt message (1.17+)
 
 {% hint style="warning" %}
-## Sadece 1.17 minecraftta çalışıyor
+## Available only on Minecraft 1.17 client
 {% endhint %}
 
-## Özel kaynak paketi kabul etme mesajı
+## Custom resourcepack prompt message
 
-### Adım 1
+### Step 1
 
-`ItemsAdde\lang\en.yml` dosyasını açın (yada kendi diliniz için olanı)
+Open `ItemsAdde\lang\en.yml` file (or your language)
 
-### Adım 2
+### Step 2
 
-Bu mesajı düzenleyin: `resourcepack-popup-message`.
+Customize the message: `resourcepack-popup-message`.
 
 ```yaml
 resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcepack to enjoy all the amazing features of our server.\n
 &aYou need only to download it only once."
 ```
 
-(Yeni satır için `\n` kullanabilirsiniz)
+(You can use `\n` as newline)
 
-### Bitti
+### Done
 
 ![](<../.gitbook/assets/immagine (127).png>)
 

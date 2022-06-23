@@ -2,7 +2,7 @@
 
 ## Creating the animated model (idle animation)
 
-To create the models I use [BlockBench](https://blockbench.net), it's very easy to use and fast.\
+To create the models I use [BlockBench](https://blockbench.net/), it's very easy to use and fast.\
 BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench+tutorial)are available on YouTube.
 
 {% hint style="danger" %}

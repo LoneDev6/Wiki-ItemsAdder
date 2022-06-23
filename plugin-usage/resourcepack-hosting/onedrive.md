@@ -1,24 +1,24 @@
 # OneDrive
 
 {% hint style="warning" %}
-Tavsiye edilmez.
+Not recommended.
 {% endhint %}
 
-### Adım 1
+### Step 1
 
 ![](<../../.gitbook/assets/image (166).png>)
 
-### Adım 2
+### Step 2
 
 ![](<../../.gitbook/assets/image (81).png>)
 
-### Adım 3
+### Step 3
 
 ![](<../../.gitbook/assets/image (182).png>)
 
-### Adım 4
+### Step 4
 
-**Itemsadderin** `config.yml` dosyasını açın ve `external-host` ayarını yeni URL'niz için aktif edin.
+Open `config.yml` of **ItemsAdder** and enable the `external-host` option for your new URL.
 
 {% code title="config.yml" %}
 ```yaml
@@ -29,14 +29,14 @@ Tavsiye edilmez.
 ```
 {% endcode %}
 
-Bu çok önemli. Mutlaka true olarak ayarlamalısınız.
+This is very important. Set it to true.
 
 ```yaml
 skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
 ```
 
 {% hint style="warning" %}
-Bunun biraz "riskli" olduğunu unutmayın çünkü sunucu URL'nin geçerli olduğunu doğrulayamaz.
+Keep in mind that it's a bit "risky" because the server cannot make sure the URL is valid.
 
-Onedrive bazen doğrudan link vermez ve bu oyuncularınızın giriş aşamasında takılmasona sebep olur. 
+This can cause your players to be stuck on login phase if the URL is not valid or if OneDrive doesn't provide the direct download, sometimes it happens.
 {% endhint %}

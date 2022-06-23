@@ -1,15 +1,15 @@
 ---
-description: Eşyalarını ve kaynaklarını dışarı çıkart
+description: Export your items and assets
 ---
 
-# 💾 Dışarı aktarma
+# 💾 Export namespace
 
 {% hint style="success" %}
-### ItemsAdder ile yarattığınız şeyleri kopyala yapıştır yapmadan dışarı aktarmak çok kolay!
+### With ItemsAdder it's easy to share your creations without having to copy and paste files!
 
-Tüm ad yapılandırmalarını ve kaynakları/modelleri bir zip dosyasına aktarmak ve arkadaşlarınızla paylaşmak veya [https://addons.devs.beer/itemsadder/](https://addons.devs.beer/itemsadder/) ' da paylaşmak için`/iaexport <NAMESPACE>` komutunu kullanın
+Use the command `/iaexport <NAMESPACE>` to export all your namespace configurations and textures/models into a zip file you can share with your friends or on [https://addons.devs.beer/itemsadder/](https://addons.devs.beer/itemsadder/)
 
-Zip dosyası`plugins\ItemsAdder\data\compressed_out` bu dosyada olacaktır
+The zip file will be available in this folder`plugins\ItemsAdder\data\compressed_out`
 
 ``
 {% endhint %}

@@ -1,16 +1,16 @@
-# 📕 Yardım iste
+# 📕 Ask for help
 
 {% hint style="warning" %}
-### Bir destek bileti açmadan önce&#x20;
+### Before opening a support ticket&#x20;
 
-* TÜM wikiyi okuduğunuzdan emin olun
-* hataları bildirmek için destek biletleri açmayın, bu [sayfayı kullanın](report-a-bug.md)
-* bir destek bileti açmadan önce <mark style="color:blue;">`#💬ia-community-help`</mark> kanalında yardım isteyin
+* please make sure to read ALL the wiki
+* don't open support tickets to report bugs, use [this page](report-a-bug.md)
+* ask on the <mark style="color:blue;">`#💬ia-community-help`</mark> channel of the server before opening a support ticket
 {% endhint %}
 
 {% embed url="https://discord.com/invite/z3rxuWt6FZ" %}
 
-## Hata bildir
+## Report a bug
 
 {% content-ref url="report-a-bug.md" %}
 [report-a-bug.md](report-a-bug.md)

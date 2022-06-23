@@ -1,51 +1,51 @@
 # iaconfig
 
-## Özellikler
+## Features
 
-### Yapılandırma dosyasından bir eşya silme
+### Delete an item from config
 
-`/iaconfig item delete <eşya>`
+`/iaconfig item delete <item>`
 
-İzin: `ia.admin.iaconfig.item.delete`
+Permission: `ia.admin.iaconfig.item.delete`
 
-Bir eşyayı yapılandırma dosyasından TAMAMIYLA siler. Lütfen dikkatli olun.
+Deletes an item COMPLETELY from its config file. Please be careful.
 
-### Yapılandırmadan bir eşyayı devre dışı bırak
+### Disable an item in configs
 
-`/iaconfig item disable <eşya>`
+`/iaconfig item disable <item>`
 
-İzin: `ia.admin.iaconfig.item.disable`
+Permission: `ia.admin.iaconfig.item.disable`
 
-Bir eşyayı onun yapılandırma dosyasından devre dışı bırakır. Lütfen dikkatli olun.
+Disables an item from its config file. Please be careful.
 
-### Bir eşyayı kullanmak/yaratmak için kullanılan tarifi siler
+### Delete recipes which use/create an item
 
-`/iaconfig recipes deleteofitem <eşya>`
+`/iaconfig recipes deleteofitem <item>`
 
-İzin `ia.admin.iaconfig.recipes.deleteofitem`
+Permission `ia.admin.iaconfig.recipes.deleteofitem`
 
-Bir eşyayı  yapılandırma dosyalarındaki tüm tariflerini TAMAMEN siler. Lütfen dikkatli olun.
+Deletes COMPLETELY all recipes which contain an item from all the config files. Please be careful.
 
-### Eşya kullanan/oluşturan tarifleri devre dışı bırakma
+### Disable recipes which use/create an item
 
 `/iaconfig item disableofitem <item>`
 
-İzin: `ia.admin.iaconfig.recipes.disableofitem`
+Permission: `ia.admin.iaconfig.recipes.disableofitem`
 
-Tüm yapılandırma dosyalarından bir öğe içeren tüm tarifleri devre dışı bırakır. Lütfen dikkatli olun.
+Disables all recipes which contain an item from all the config files. Please be careful.
 
-### Bir ad alanının tüm öğelerini ve bu öğelerin tariflerini siler
+### Delete all items of a namespace and recipes of these items
 
 `/iaconfig namespace delete <namespace>`
 
-İzin: `ia.admin.iaconfig.namespace.delete`
+Permission: `ia.admin.iaconfig.namespace.delete`
 
-Bir ad alanının tüm öğelerini ve bu öğelerin tariflerini TAMAMEN siler. Lütfen dikkatli olun.
+Deletes all items of a namespace and recipes of these items COMPLETELY. Please be careful.
 
-### Bir ad alanının her öğesini devre dışı bırakma
+### Disable every item of a namespace
 
 `/iaconfig namespace disable <namespace>`
 
-İzin: `ia.admin.iaconfig.namespace.disable`
+Permission: `ia.admin.iaconfig.namespace.disable`
 
-Bir ad alanının her öğesini ve bu öğelerin tariflerini devre dışı bırakır. Lütfen dikkatli olun.
+Disables every item of a namespace and recipes of these items. Please be careful.

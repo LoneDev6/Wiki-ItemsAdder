@@ -4,31 +4,31 @@ description: PlaceholderAPI placeholders
 
 # PAPI placeholders
 
-## FontResmi (emoji vb.)
+## FontImage (emoji etc)
 
-Bu kodu kullanın: `%img_NAME%` isim yerine font \_resminin ismini yazın.\
-Örneğin: `%img_smile%`
+This is the code: `%img_NAME%` instead of NAME write the font\_image name.\
+For example: `%img_smile%`
 
-## Yer
+## Offsets
 
-Yazı/font\_resimlerini ileri ve geri hizalayabilirsiniz.\
-Örneğin&#x20;
+You can shift text/font\_images back and forward.\
+For example&#x20;
 
-* resimi şunu yazarak 16 piksel kaydırabilirsiniz `%img_offset_-16%` .
-* resimi şunu yazarak 16 piksel geri kaydırabilirsiniz`%img_offset_16%` .
+* you can shift it back of 16 pixels by writing `%img_offset_-16%` .
+* you can shift it forward of 16 pixels by writing `%img_offset_16%` .
 
-## ItemsAdder Oyuncuİstatistikleri (HUDs değerleri)
+## ItemsAdder PlayerStats (HUDs values)
 
-Bunlar ItemsAdder tarafında kullanılan istatisikler, vanilla değiller.
+These are stats used by ItemsAdder, they're not vanilla stats.
 
-İşte kod: `%iaplayerstat_NAME%` İSİM yerine oyuncunun ismini yazın.\
-Örneğin: `%iaplayerstat_mana%` yada `%iaplayerstat_thirst%`
+This is the code: `%iaplayerstat_NAME%` instead of NAME write the playerstat name.\
+For example: `%iaplayerstat_mana%` or also `%iaplayerstat_thirst%`
 
-Test etmek için bu komutu kullanabilirsin:\
+You can use this command to test it out:\
 `/papi parse me %iaplayerstat_thirst%`\
 `/papi parse me %iaplayerstat_mana%`
 
 {% hint style="info" %}
-#### Oyuncu istatistikleri ile ilgili daha fazla şey okuyun
+#### Read more about playerstats
 {% endhint %}
 

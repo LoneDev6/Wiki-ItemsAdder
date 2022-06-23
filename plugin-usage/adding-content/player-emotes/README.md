@@ -12,7 +12,7 @@ This method is in beta and it's available only on **ItemsAdder v3.0.5+** and req
 
 ### Main features
 
-* [Blockbench](https://www.blockbench.net) extension to animate the Minecraft player model
+* [Blockbench](https://www.blockbench.net/) extension to animate the Minecraft player model
 * Completely Async, no TPS drops
 * Optimized for big servers
 * Play sounds and particles in animations

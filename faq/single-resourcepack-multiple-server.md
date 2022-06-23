@@ -1,25 +1,25 @@
 ---
 description: >-
-  Bungeecord ağında tek kaynak paketi ve sunucu başına özellikleri devre dışı
-  bırakma
+  Single resourcepack in Bungeecord network and disable individual features per
+  server
 ---
 
-# Tek kaynak paketi Bungeecord farklı özellikler
+# Single resourcepack Bungeecord different features
 
-Öğreticiyi yapan; [@itsmemac](https://github.com/LoneDev6/Wiki-ItemsAdder/pull/35)
+Tutorial by [@itsmemac](https://github.com/LoneDev6/Wiki-ItemsAdder/pull/35)
 
 {% hint style="info" %}
-Bu rehberi izlemeden önce, [**İlk Kurulum**](https://itemsadder.devs.beer/first-install) yaptığınızdan emin olun ve ve çalışan bir IA kurulumunuz olduğundan
+Before you follow this guide, make sure you have gone through [**First Install**](https://itemsadder.devs.beer/first-install) and have a working IA installation
 {% endhint %}
 
-**ADIM 1**
+**STEP 1**
 
-Sunucunuz için tüm ağınızda ihtiyaç duyacağınız her şeyi içeren son paketi yerel olarak oluşturun (her öğe, GUI, mob, emoji vb.).\
-PC'nizde istediğiniz her şeyi yapılandıracağınız yerel bir Spigot sunucusu oluşturmanız gerekir.
+Create the final pack for your server locally which includes everything you would need in your entire network (every item, GUI, mob, emoji, etc...).\
+To do that you have to create a local Spigot server on your PC where you will configure everything you want.
 
-**ADIM 2**
+**STEP 2**
 
-Spigot sunucularınızın her birini açın ve Itemsadder yapılandırmasından barındırma yöntemini şu şekilde ayarlayın: `no-host` ve extract of items'i false şeklinde ayarlayın
+Open each one of your Spigot servers and set host method to `no-host` in the ItemsAdder config and disable extract of items to false
 
 {% code title="config.yml" %}
 ```yaml
@@ -31,40 +31,40 @@ Spigot sunucularınızın her birini açın ve Itemsadder yapılandırmasından 
 ```
 {% endcode %}
 
-**ADIM 3**
+**STEP 3**
 
-Run `/iazip` komutunu çalıştırın ve oluşturulan paketi DİREKT İNDİRMEYE sahip olan bir barındırma hizmetine yükleyin.\
-Örneğin [**MCPACKS**](https://mc-packs.net)**,** [**DropBox**](../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)**,** [**GoogleDrive**](../plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)**.**
+Run `/iazip` and upload the generated pack to a file hosting and make sure it offers a DIRECT DOWNLOAD.\
+For example [**MCPACKS**](https://mc-packs.net/)**,** [**DropBox**](../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)**,** [**GoogleDrive**](../plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)**.**
 
-**ADIM 4**
+**STEP 4**
 
-Networke girdiğinizde paketi yükleyecek [**Force resourcepack**](https://www.spigotmc.org/resources/force-resourcepacks.10499/) gibi bir eklenti kullanın.
+Use plugin like [**Force resourcepack**](https://www.spigotmc.org/resources/force-resourcepacks.10499/) or similar in your bungee to load the the resource pack when you enter the network.
 
-**ADIM 5**
+**STEP 5**
 
-`ItemsAdder.jar`'ını ve tüm `ItemsAdder` eklenti dosyasını kopyalayın ve tüm network sunucularınızın `/plugins` dosyasına yapıştırın (örneğin `lobby`).
+Copy `ItemsAdder.jar` and the whole `ItemsAdder` plugin folder from local Spigot server to the first network server (for example `lobby`) to your `/plugins` folder.
 
-**ADIM 6**
+**STEP 6**
 
-ItemsAdder'ın config.yml dosyasını açın ve ihtiyacınız olmayan özellikleri devre dışı bırakın.\
-Ayrıca istenmeyen dosyaları da `plugins/ItemsAdder/data/items_packs`'dan kaldırın .
+Open the config.yml of ItemsAdder and disable the features you don't need.\
+Also remove unwanted files from `plugins/ItemsAdder/data/items_packs` .
 
 {% hint style="danger" %}
-Sözlükleri, mcemojis, mcguis, mcicons, realcraft, çeşitli\yapılandırma KLASÖRÜNÜ KALDIRMAYIN.\
-Daha fazlasını buradan okuyun: [Varsayılan öğeleri kaldırma](removing-default-stuff.md)
+DONT REMOVE dictionaries, mcemojis, mcguis, mcicons, realcraft, various\_configs FOLDER.\
+Read more here: [Removing default stuff](removing-default-stuff.md)
 {% endhint %}
 
-Temel olarak, bu belirli sunucuda tutmak istediğiniz özelliklerin klasörlerini tutmanız gerekir.(`lobby` örneğin).
+You basically have to keep the folders of features you want to keep in this particular server (`lobby` in this example).
 
-**ADIM 7**
+**STEP 7**
 
-Sunucuyu yeniden başlatın ve katılın. Sunucu sizden kaynak paketini indirmenizi isteyecektir.\
-Daha sonra yalnızca `items_packs` dosyasında bıraktığınız öğeleri göreceksiniz.
+Restart the server and join it. The server should ask you to download resource pack.\
+You will then see only the items you have left in the `items_packs` folder.
 
-**ADIM 8**
+**STEP 8**
 
-Ağınızda bulunan her sunucu için adım 5,6,7'yi yeniden yapın.
+Redo the step 5,6,7 for each server you have in your network.
 
 {% hint style="info" %}
-**BungeePackFix** eklentisi bu rehber için gerekli değildir.
+**BungeePackFix** plugin is not needed for this tutorial.
 {% endhint %}
