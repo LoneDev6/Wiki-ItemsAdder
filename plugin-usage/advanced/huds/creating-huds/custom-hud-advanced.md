@@ -2,7 +2,7 @@
 description: Creating a totally customizable HUD
 ---
 
-# Custom HUD (advanced)
+# ממשק משתמש משלכם (קשה)
 
 ## What is a CUSTOM HUD?
 
@@ -13,11 +13,11 @@ This special type gives you total control over how the HUD will work. No image i
 {% hint style="warning" %}
 Warning:
 
-This type of HUD requires you to use the [Java API](../../../../developers/java-api/) and know how to code in Java.
+This type of HUD requires you to use the [Java API](broken-reference) and know how to code in Java.
 {% endhint %}
 
-{% content-ref url="../../../../developers/java-api/huds-guis.md" %}
-[huds-guis.md](../../../../developers/java-api/huds-guis.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Examples

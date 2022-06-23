@@ -1,4 +1,4 @@
-# 😁 Emojis
+# 😁 אימוג'ים
 
 ### Introduction
 
@@ -47,7 +47,7 @@ font_images:
 
 ## In-game view
 
-![](<../../../.gitbook/assets/immagine (116).png>)
+![](<../../../.gitbook/assets/immagine (116) (3) (2) (1).png>)
 
 ### Using the /e useful suggestions
 

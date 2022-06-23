@@ -1,4 +1,4 @@
-# Creation
+# יצירה
 
 ## How to import the custom entity model and animations
 
@@ -13,7 +13,7 @@ You can import your custom models very easily, you just have to install the Bloc
 * Make sure you're running the latest version of al dependencies
 {% endhint %}
 
-[Download Blockbench](https://www.blockbench.net) (don't use the web app).
+[Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
 ![](<../../../../.gitbook/assets/image (157).png>)
 

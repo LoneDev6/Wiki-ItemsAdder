@@ -2,7 +2,7 @@
 description: New advanced method to create custom mobs/entities.
 ---
 
-# Advanced method
+# שיטה מתקדמת
 
 {% hint style="warning" %}
 This method is in beta and it's available only on ItemsAdder v3.0+
@@ -21,7 +21,7 @@ Advanced animation features
 
 ### Main features
 
-* [Blockbench](https://www.blockbench.net) extension to convert models
+* [Blockbench](https://www.blockbench.net/) extension to convert models
 * Completely Async, no TPS drops
 * Optimized for big servers
 * Damage animation

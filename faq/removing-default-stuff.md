@@ -1,10 +1,9 @@
-# 🗑 הסרת דברים ברירת מחדל
+# 🗑 להסיר חפצי ברירת מחדל
 
 ## איך אני יכול למחוק את כל הדברים שמגיעים אם הפלאגין?
 
 אם אתם רוצים למחוק דברים או בלוקים, זה קל!\
-עקבו אחרי המדריך הזה.\
-
+עקבו אחרי המדריך הזה.\\
 
 ### 1. Config.yml
 
@@ -37,14 +36,13 @@
 `plugins\ItemsAdder\data\items_packs\itemsadder`\
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
-#### &#x20;Example items
+#### Example items
 
 `plugins\ItemsAdder\data\items_packs\example`\
 `plugins\ItemsAdder\data\resource_pack\assets\example`
 
 {% hint style="danger" %}
-## אל תמחקו תיקיות אחרות שאינן מופיעות ברשימה הקודמת.
+### אל תמחקו תיקיות אחרות שאינן מופיעות ברשימה הקודמת.
 
 אם תמחקו את תיקיות Minecraft, mcguis או mcicons חלקים מסוימים של הפלאגין יפסיקו לעבוד.
 {% endhint %}
-

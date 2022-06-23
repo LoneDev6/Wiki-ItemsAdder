@@ -3,7 +3,7 @@ cover: ../../.gitbook/assets/Google-Drive.jpg
 coverY: 0
 ---
 
-# 🗂 Google Drive (1.17.1+)
+# 🗂 כונן דרייב (1.17.1+)
 
 ## How to use Google Drive
 
@@ -35,7 +35,7 @@ Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive
 
 Paste the link and press on "Get direct link"
 
-![](<../../.gitbook/assets/immagine (144).png>)
+<img src="../../.gitbook/assets/immagine (144).png" alt="" data-size="original">
 
 ### Step 4
 

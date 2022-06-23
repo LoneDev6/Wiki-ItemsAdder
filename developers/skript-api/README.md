@@ -1,4 +1,4 @@
-# 📓 API של Skript
+# 📓שימוש ב- Skript API
 
 ## דוגמאות
 

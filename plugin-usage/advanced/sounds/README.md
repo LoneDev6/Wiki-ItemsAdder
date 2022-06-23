@@ -1,4 +1,4 @@
-# 🔊 Sounds
+# 🔊 סאונד
 
 ### Step 1
 
@@ -81,5 +81,5 @@ It's easy, the next time you want to add a sound you just have to add a comma at
 ```
 
 {% hint style="warning" %}
-If you want to be sure not to make mistakes use this website to check if your Json file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com)
+If you want to be sure not to make mistakes use this website to check if your Json file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 {% endhint %}

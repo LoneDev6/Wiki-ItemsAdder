@@ -4,7 +4,7 @@ description: >-
   and symbols.
 ---
 
-# 🖼 Font Images
+# 🖼 תמונות גופנים
 
 ### What are Font images?
 
@@ -53,7 +53,7 @@ You can do it, you just have to edit the `default.json` file.
 
 ![](<../../../.gitbook/assets/immagine (106).png>)
 
-![](<../../../.gitbook/assets/image (27) (4) (1).png>)
+![](<../../../.gitbook/assets/image (27) (2) (1).png>)
 
 ![](<../../../.gitbook/assets/immagine (107).png>)
 

@@ -1,8 +1,8 @@
-# 🔖 Ranks textures (tags)
+# 🔖 טקסטורות לראנקים (תגים)
 
 ## Make your server look professional with custom ranks
 
-![](<../../.gitbook/assets/image (27) (4).png>)
+![](<../../.gitbook/assets/image (27) (2).png>)
 
 {% hint style="warning" %}
 #### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.mc-market.org/resources/14009/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.

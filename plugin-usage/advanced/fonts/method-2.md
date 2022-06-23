@@ -1,4 +1,4 @@
-# PNG font (easier)
+# פונט-PNG (הכי קל)
 
 {% hint style="info" %}
 ## This method allows you to add fonts using .png files
@@ -9,7 +9,7 @@
 ![](<../../../.gitbook/assets/immagine (13).png>)
 
 {% hint style="info" %}
-This font is made by Faithful team, please check their work: [https://faithful.team/](https://faithful.team)
+This font is made by Faithful team, please check their work: [https://faithful.team/](https://faithful.team/)
 {% endhint %}
 
 To this you have to:

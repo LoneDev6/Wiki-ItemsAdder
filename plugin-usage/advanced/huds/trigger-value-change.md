@@ -4,7 +4,7 @@ description: >-
   gameplay.
 ---
 
-# Trigger value change
+# טריגרים לשינוי ערך
 
 ## Making the HUD value dynamic
 
@@ -19,7 +19,7 @@ The thirst HUD automatically decreases based on some factors: biome, if you're i
 {% hint style="info" %}
 I know this HUDS system lacks some features and it may be a bit confusing, in the future I'll revamp it to add more features and make it better.
 
-If you want to have more control over HUDs you should use the [Java API](../../../developers/java-api/).
+If you want to have more control over HUDs you should use the [Java API](broken-reference).
 {% endhint %}
 
 This is the HUD configuration file:

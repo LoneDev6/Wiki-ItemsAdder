@@ -1,14 +1,14 @@
-# 3D model
+# מודל תלת מימדי
 
 ## Creating the animated model (idle animation)
 
-To create the models I use [BlockBench](https://blockbench.net), it's very easy to use and fast.\
+To create the models I use [BlockBench](https://blockbench.net/), it's very easy to use and fast.\
 BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench+tutorial)are available on YouTube.
 
 {% hint style="danger" %}
 You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
 
-![](<../../../../../.gitbook/assets/immagine (89) (3).png>)
+![](<../../../../../.gitbook/assets/immagine (89) (10) (2).png>)
 {% endhint %}
 
 ### Creating a very simple idle animation

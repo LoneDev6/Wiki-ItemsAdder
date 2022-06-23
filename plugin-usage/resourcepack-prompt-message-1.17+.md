@@ -1,7 +1,7 @@
-# ☑ הודעות טקסטורה (1.17+)
+# ☑ הודעת טקסטורה (1.17+)
 
 {% hint style="warning" %}
-## זמין רק בגרסאת מיינקראפט 1.17+
+### זמין רק בגרסאת מיינקראפט 1.17+
 {% endhint %}
 
 ## הודעות התקנת טקסטורה לשקחנים
@@ -19,9 +19,8 @@ resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcep
 &aYou need only to download it only once."
 ```
 
-(אפשר לעשות `\n` בשביל שורה חדשה)
+(אפשר לעשות  בשביל שורה חדשה)
 
 ### סיימתם
 
 ![](<../.gitbook/assets/immagine (127).png>)
-
