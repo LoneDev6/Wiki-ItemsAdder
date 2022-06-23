@@ -114,6 +114,11 @@
   * Bypass player placed blocks can't drop loot
     * `ia.admin.bypassblockplaceloot`
 
+{% hint style="warning" %}
+You **must** use a permission manager like [LuckPerms](https://luckperms.net/download) which supports `.*` permissions notation.\
+Bukkit doens't support this notation by default.
+{% endhint %}
+
 ## Worlguard flags
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
