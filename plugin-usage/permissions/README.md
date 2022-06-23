@@ -12,13 +12,13 @@
       * `ia.user.iatexture`
     * /iatexture all (to force apply the pack to everyone)
       * `ia.user.iatexture.all`
-    * crafting
-      * `ia.user.craft.PERMISSION` (or to give all crafting permissions just use ia.user.craft.\*)
+    * using recipes
+      * `ia.user.recipe.PERMISSION` (or to give all crafting permissions just use `ia.user.recipe.*`)
       * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
-    * see item in /ia menu
-      * `ia.user.ia.PERMISSION` (or to give all /ia permissions just use ia.user.ia.\*)
+    * see item in the `/ia` menu
+      * `ia.user.ia.seeitem.PERMISSION` (or to give all /ia permissions just use `ia.user.ia.seeitem.*`)
       * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
-      * `ia.user.iasearchgui` for the search GUI in /ia menu
+      * `ia.user.ia.search` for the search GUI in `/ia` menu
       * You can also set a permission per category, please check [/ia GUI ](../ia.md)page
     * emoji (font images)
       * **/iaimage /emoji, /iaemoji, /e** book GUI (shows a book with the list of emojis/font images)
