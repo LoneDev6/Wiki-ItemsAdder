@@ -8,16 +8,6 @@
 
 It's very easy!
 
-* open `config.yml` of **ItemsAdder** and set this option:
-
-{% code title="config.yml" %}
-```yaml
-  custom-entitites:
-    enabled: false
-    emotes: false
-```
-{% endcode %}
-
 * add all your mobs models and configurations inside the **ModelEngine** plugin folder
 * run `/meg reload` to generate the **ModelEngine** resourcepack
 * open the `plugins\ModelEngine\resource_pack\assets\` folder
