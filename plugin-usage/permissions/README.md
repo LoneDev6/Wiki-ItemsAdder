@@ -116,7 +116,7 @@
 
 {% hint style="warning" %}
 You **must** use a permission manager like [LuckPerms](https://luckperms.net/download) which supports `.*` permissions notation.\
-Bukkit doens't support this notation by default.
+Bukkit doesn't support this notation by default.
 {% endhint %}
 
 ## Worlguard flags
