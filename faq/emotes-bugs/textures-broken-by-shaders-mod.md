@@ -12,7 +12,7 @@ It's a Optifine/Iris mod incompatibility I cannot fix for now without a change o
 
 {% tabs %}
 {% tab title="With shaders (bug)" %}
-![](<../../.gitbook/assets/image (51) (2).png>)
+![](<../../.gitbook/assets/image (51) (2) (1).png>)
 {% endtab %}
 
 {% tab title="Without shaders (no bug)" %}

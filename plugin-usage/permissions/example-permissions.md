@@ -2,18 +2,18 @@
 
 ## Example setup:
 
-* `ia.user.ia `(open /ia menu)
-* `ia.user.ia.* `(see all items in /ia menu)
-* `ia.user.iarecipe `(use /iarecipe command)
-* `ia.user.craft.* `(craft all items)
-* `ia.menu.* `(see all categories in /ia menu)
-* `ia.user.image.gui `(use /e command to see emojis book)
-* `ia.user.image.hints `(suggest emojis when using /e and TAB complete)
-* `ia.user.image.chat `(replace emoji text :smile: etc in chat)
-* `ia.user.image.command` (replace emoji text :smile: etc in commands)
-* `ia.user.image.sign` (replace emoji text :smile: etc in signs)
-* `ia.user.image.book `(replace emoji text :smile: etc in books)
-* `ia.user.image.use.* `(access to all emojis)
+* `ia.user.ia` (open `/ia` menu)
+* `ia.user.ia.seeitem.*` (see all items in `/ia` menu)
+* `ia.user.iarecipe` (use `/iarecipe` command)
+* `ia.user.recipe.*` (use all recipes)
+* `ia.menu.seecategory.*` (see all categories in `/ia` menu). NOTE: This can change based on the items pack you downloaded. Category permission usually starts with `ia.menu.seecategory.` but some developers may have changed it.
+* `ia.user.image.gui` (use `/e` command to see emojis book)
+* `ia.user.image.hints` (suggest emojis when using `/e` and TAB complete)
+* `ia.user.image.chat` (replace emoji text `:smile:` etc in chat)
+* `ia.user.image.command` (replace emoji text `:smile:` etc in commands)
+* `ia.user.image.sign` (replace emoji text `:smile:` etc in signs)
+* `ia.user.image.book` (replace emoji text `:smile:` etc in books)
+* `ia.user.image.use.*` (access to all emojis)
 
 ## Where can I get categories permissions?
 
