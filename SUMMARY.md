@@ -48,6 +48,7 @@
     * [Textures broken by shaders mod](faq/armors-bugs/textures-broken-by-shaders-mod.md)
     * [Animation and emission not working](faq/armors-bugs/animation-and-emission-not-working.md)
     * [Leather armor texture overwritten](faq/armors-bugs/leather-armor-texture-overwritten.md)
+    * [Armors not working PackSquash](faq/armors-bugs/armors-not-working-packsquash.md)
     * [Optifine CIT not working](faq/armors-bugs/optifine-cit-not-working.md)
   * [Remove pack on server change](faq/remove-pack-on-server-change.md)
   * [💃 Emotes bugs](faq/emotes-bugs/README.md)

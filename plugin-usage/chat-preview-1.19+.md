@@ -14,7 +14,7 @@ ItemsAdder **3.2.0c** allows you to enable the 1.19+ chat preview feature of Min
 
 ### Announcement shown to the player on join
 
-![](<../.gitbook/assets/image (51).png>)
+![](<../.gitbook/assets/image (51) (2).png>)
 
 ![](<../.gitbook/assets/image (92).png>)
 
