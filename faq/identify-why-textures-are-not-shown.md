@@ -6,7 +6,7 @@
 
 ### Join the server and read the log
 
-![](<../.gitbook/assets/immagine (136) (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../.gitbook/assets/immagine (136) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 
 ### Find out which file is broken
 

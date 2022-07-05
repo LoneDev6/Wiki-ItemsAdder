@@ -11,7 +11,7 @@ Create a new bone, it can have any name.
 
 Rightclick on the bone and select "**Bone Config**"
 
-![](<../../../.gitbook/assets/image (68).png>)
+![](<../../../.gitbook/assets/image (68) (1).png>)
 
 Check the "**Locator**" option and press "**Confirm**".
 
