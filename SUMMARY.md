@@ -1,11 +1,12 @@
 # Table of contents
 
 * [👋 感谢使用](README.md)
+* [☕ 汉化贡献用户](thanks.md)
 * [❤ 赞助开发者](https://donate.devs.beer)
-* [⚙ First install](first-install.md)
-* [❓ Frequently asked questions](faq/README.md)
-  * [🔍 Identify why textures are not shown](faq/identify-why-textures-are-not-shown.md)
-  * [⚠ Plugin doesn't work!](faq/plugin-doesnt-work.md)
+* [⚙ 首次安装](first-install.md)
+* [❓ 常见问题](faq/README.md)
+  * [🔍 无法识别且显示我的材质](faq/identify-why-textures-are-not-shown.md)
+  * [⚠ 插件无法正常加载](faq/plugin-doesnt-work.md)
   * [I see crisp textures far away!](faq/i-see-crisp-textures-far-away.md)
   * [📷 Resourcepack not loading](faq/resourcepack-not-loading.md)
   * [💧 HUDs, emojis, GUIs, Font](faq/huds-emojis-guis-font/README.md)
