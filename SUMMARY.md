@@ -1,7 +1,7 @@
 # Table of contents
 
-* [👋 Welcome](README.md)
-* [❤ Donation - Support my work](https://donate.devs.beer)
+* [👋 感谢使用](README.md)
+* [❤ 赞助开发者](https://donate.devs.beer)
 * [⚙ First install](first-install.md)
 * [❓ Frequently asked questions](faq/README.md)
   * [🔍 Identify why textures are not shown](faq/identify-why-textures-are-not-shown.md)
