@@ -13,7 +13,7 @@
     * [💧 口渴/魔力栏](faq/huds-emojis-guis-font/fill-thirst-mana-bar.md)
     * [👀 没法显示emoji, GUIs, HUDs](faq/huds-emojis-guis-font/i-cant-see-emoji-guis-huds.md)
     * [🈁 强制 Unicode Font: ON](faq/huds-emojis-guis-font/force-unicode-font-on.md)
-    * [☐ 字符的消失](faq/huds-emojis-guis-font/characters.md)
+    * [消除 ☐ 字符](faq/huds-emojis-guis-font/characters.md)
   * [🗑 删除IA默认物品](faq/removing-default-stuff/README.md)
     * [🗑 最新版本](faq/removing-default-stuff/latest-itemsadder.md)
     * [🗑 老版本](faq/removing-default-stuff/old-itemsadder.md)
