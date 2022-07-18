@@ -1,6 +1,6 @@
 # HUDs, GUIs...
 
-To see how to use HUDs and GUIs API (Font Images) you can check my examples.
+要了解如何使用 HUD 和 GUIs API (Font Images)，查看下方示例：
 
 ## GUIs
 
@@ -12,7 +12,7 @@ To see how to use HUDs and GUIs API (Font Images) you can check my examples.
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-ServerMonitor" %}
 
-### Access mana bar value example
+### 访问法力值示例
 
 ```java
 PlayerHudsHolderWrapper huds = new PlayerHudsHolderWrapper(player);
@@ -30,8 +30,9 @@ else
 [common-errors.md](../../plugin-usage/adding-content/font-images/common-errors.md)
 {% endcontent-ref %}
 
-## Get Emoji or GUI character
+## 获取 表情符号 或 GUI
 
 ```java
 new FontImageWrapper("twitteremojis:confirm").getString()
 ```
+
