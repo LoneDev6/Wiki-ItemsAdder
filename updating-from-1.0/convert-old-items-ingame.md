@@ -1,21 +1,21 @@
-# Convert old items/blocks ingame
+# 在游戏中转换旧物品/方块
 
 {% hint style="danger" %}
-**It's recommended to start a fresh new world and don't use the old one as converters work but are experimental.**
+**建议重新创建一个世界，并且不要使用旧的世界来进行转换.转换器仍处于测试阶段.**
 {% endhint %}
 
 {% hint style="danger" %}
-These features MAY be laggy, leave them enabled only for some days and then disable them to avoid useless lag.
+该功能会产生较大延迟，只需要启用一段时间即可关闭该功能，避免造成无意义的性能损耗
 {% endhint %}
 
-## How to auto convert old items in your worlds
+## 如何自动转换您世界中的旧物品
 
-When you update from ItemsAdder 1.0 to 2.0 you noticed that most of the items has changed, so they are not the same as old items before the update.\
-That's why I had to code a feature that auto replaces old items with new items. This process is run everytime a player opens an inventory in the world (chests, containers.. but NOT their own inventory).
+当你将 ItemsAdder 从 1.0 升级至 2.0 你会发现所有的物品都发生了改变，因此这些物品与1.0不同.\
+于是自动转换功能诞生了，每当玩家在世界中打开物品栏（包括箱子，漏斗，等等容器时..）都会自动转换旧版本物品
 
-In order to enable this you have to set this property to true in `converter.yml `of **ItemsAdder 2.0**
+为了启用该功能，您必须在 **ItemsAdder 2.0** 的 `converter.yml ` 文件中将属性设置为 true
 
-#### Be sure to set inventory-open: true
+#### 确保已设置 inventory-open: true
 
 ```
 items-auto-update:
@@ -23,11 +23,14 @@ items-auto-update:
   inventory-open: true
 ```
 
-## How to auto convert old blocks placed in worlds
+## 如何自动转换在世界中放置的旧方块
 
-You have to open `converter.yml `and map your own old blocks **model_id **with the new **namespaced **block of IA 2.0. For example I've already added old ItemsAdder 1.0 blocks map to convert them to 2.0 namespaced blocks.
+你需要打开 `converter.yml ` 并且将旧的 **model_id** 映射至 新的 **命名空间:物品名称**
 
-#### Be sure to set enabled: true
+具体格式为： `"id": "命名空间:物品名称"`
+
+栗子如下：
+#### 确保已设置 enabled: true
 
 ```
 blocks:
@@ -62,4 +65,5 @@ blocks:
     "26": "itemsadder:coal_dirt_ore"
     "27": "itemsadder:blaze_powder_ore"
     "28": "itemsadder:nether_alchemy_ore"
+    "id": "命名空间:物品名称"
 ```
