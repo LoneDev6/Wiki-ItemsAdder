@@ -1,10 +1,10 @@
-# 📄 Files editor
+# 📄 文件编辑器
 
-## VisualStudio Code extension
+## VisualStudio Code 扩展
 
 {% embed url="https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode" %}
 
-## Online files editor
+## 在线编辑器
 
 {% embed url="https://ide.devs.beer/itemsadder/" %}
 

@@ -1,6 +1,6 @@
-# 💽 Addons/resources
+# 💽 附属资源
 
-## Get the addons here:
+## 你可以在此获取附属资源:
 
 {% embed url="https://addons.devs.beer/itemsadder/" %}
 

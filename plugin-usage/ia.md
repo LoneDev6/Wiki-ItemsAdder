@@ -56,7 +56,6 @@ categories:
 
 {% hint style="success" %}
 
-**Categories** with the **same name** and different namespace **will be merged**, this is **helful** 
-if you have two "swords" categories. This allows you to open **/ia** menu and see all swords organized in the same category instead of
- having 2 swords categories.
+当 **分类** 不相同 但具有 **相同的名称** 的物品 **将会被合并在一起**
+假如你有两种关于“剑”的分类（sowrd1,sword2）.在你使用**/ia**打开菜单时可以查看到自动合并在一起的分类，而非两种不同的分类
 {% endhint %}

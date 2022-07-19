@@ -1,4 +1,4 @@
-# Table of contents
+# 目录
 
 * [👋 感谢使用](README.md)
 * [☕ 汉化贡献用户](thanks.md)
@@ -10,8 +10,8 @@
   * [如何看清远处的材质](faq/i-see-crisp-textures-far-away.md)
   * [📷 资源包无法加载](faq/resourcepack-not-loading.md)
   * [💧 HUDs, emojis, GUIs, Font](faq/huds-emojis-guis-font/README.md)
-    * [💧 口渴/魔力栏](faq/huds-emojis-guis-font/fill-thirst-mana-bar.md)
-    * [👀 没法显示emoji, GUIs, HUDs](faq/huds-emojis-guis-font/i-cant-see-emoji-guis-huds.md)
+    * [💧 口渴值/法力值](faq/huds-emojis-guis-font/fill-thirst-mana-bar.md)
+    * [👀 无法显示emoji, GUIs, HUDs](faq/huds-emojis-guis-font/i-cant-see-emoji-guis-huds.md)
     * [🈁 强制 Unicode Font: ON](faq/huds-emojis-guis-font/force-unicode-font-on.md)
     * [消除 ☐ 字符](faq/huds-emojis-guis-font/characters.md)
   * [🗑 删除IA默认物品](faq/removing-default-stuff/README.md)
@@ -201,7 +201,7 @@
 * [📄 Files editor](files-editor.md)
 * [💽 Addons/resources](addons-resources.md)
 * [📹 Videos by users](videos-by-users.md)
-* [✅ Compatibility with other plugins](compatibility-with-other-plugins/README.md)
+* [✅ 兼容性](compatibility-with-other-plugins/README.md)
   * [Adding compatibility](compatibility-with-other-plugins/adding-compatibility.md)
   * [Not compatible](compatibility-with-other-plugins/not-compatible.md)
   * [Compatible](compatibility-with-other-plugins/compatible/README.md)
@@ -280,13 +280,13 @@
   * [Expert users](developers/skript-api/expert-users-1.md)
 * [™ Branding](developers/branding.md)
 
-## 📘 Other
+## 📘 其他
 
 * [📔 Support](other/support/README.md)
   * [🐞 Report a bug](other/support/report-a-bug.md)
   * [📕 Ask for help](other/support/ask-for-help.md)
 * [🖥 Cheap Minecraft Hosting](other/cheap-minecraft-hosting.md)
-* [⚡ Optimize Minecraft client](other/optimize-minecraft-client/README.md)
+* [⚡ 优化 Minecraft 客户端](other/optimize-minecraft-client/README.md)
   * [1.18.1](https://blog.devs.beer/blog/optimize-minecraft)
   * [1.17.1](other/optimize-minecraft-client/optimize-minecraft-1.17.md)
 

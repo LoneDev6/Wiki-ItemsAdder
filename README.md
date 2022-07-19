@@ -1,8 +1,8 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+描述: 该wiki可以指导你使用 Itemsadder 配置和创建新的自定义物品
 ---
 
-# 👋 Welcome
+# 👋 欢迎
 
 * [Patreon](http://patreon.com/lonedev)
 * [Ko-fi](http://a.devs.beer/kofi)
@@ -11,3 +11,4 @@ description: This website helps you configuring and creating custom items for my
 * [Website](https://www.matteodev.it/)
 * [Steam developer page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
+* [Mcbbs](https://www.mcbbs.net/thread-1200632-1-1.html)

@@ -1,8 +1,6 @@
 # 👌 权限
 
-## Permissions
-
-*   Users
+*   玩家
 
     * /ia
       * `ia.user.ia`
@@ -20,7 +18,7 @@
       * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
       * `ia.user.ia.search` for the search GUI in `/ia` menu
       * You can also set a permission per category, please check [/ia GUI ](../ia.md)page
-    * emoji (font images)
+    * 表情 (font图像)
       * **/iaimage /emoji, /iaemoji, /e** book GUI (shows a book with the list of emojis/font images)
         * `ia.user.image.gui`
       * **/iaimage** **/emoji \<text>, /iaemoji \<text>, /e \<text>** (shows a tab list with emojis based on searched term)
@@ -59,7 +57,7 @@
         * `ia.user.iaemote.use.*`
 
     ​
-* Admin
+* 管理员
   * /iaget
     * `ia.admin.iaget`
   * /iagive
@@ -108,7 +106,7 @@
     * `ia.admin.iahitbox`
   * [/iaconfig](../commands/iaconfig.md) (Main command to execute some operations on the plugin configurations)
     * ia.admin.iaconfig
-* Other:
+* 其他：
   * Bypass kick on refuse resourcepack
     * `ia.resourcepack.bypasskick`
   * Bypass player placed blocks can't drop loot
