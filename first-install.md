@@ -13,7 +13,7 @@ You can upload files to your real server after you finished here.
 You **should** complete ALL installation steps. Not only the first.
 {% endhint %}
 
-## Step 1 - installing the plugin and APIs
+## 步骤 1 —— 安装插件和API
 
 * install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
@@ -68,13 +68,13 @@ If you're on 1.17 or lower you have to change the ores generation:
   `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_1_18.yml`\
   `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_1_18.yml`
 
-### Removing default items
+### 移除预置物品
 
 {% content-ref url="faq/removing-default-stuff/" %}
 [removing-default-stuff](faq/removing-default-stuff/)
 {% endcontent-ref %}
 
-### Avoid glitched blocks
+### 避免方块错误 (使用 Purpur 核心 的腐竹需要阅读)
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
 [avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)

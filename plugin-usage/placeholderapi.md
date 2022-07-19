@@ -1,18 +1,18 @@
 ---
-description: PlaceholderAPI placeholders
+描述: PlaceholderAPI 变量
 ---
 
-# PAPI placeholders
+# PAPI 变量
 
-## FontImage (emoji etc)
+## FontImage (表情符号 图像 etc..)
 
 This is the code: `%img_NAME% `instead of NAME write the font\_image name.\
-For example: `%img_smile%`
+栗子: `%img_smile%`
 
-## Offsets
+## Offsets 偏移量
 
 You can shift text/font\_images back and forward.\
-For example&#x20;
+栗子&#x20;
 
 * you can shift it back of 16 pixels by writing `%img_offset_-16% `.
 * you can shift it forward of 16 pixels by writing `%img_offset_16% `.
@@ -22,13 +22,13 @@ For example&#x20;
 These are stats used by ItemsAdder, they're not vanilla stats.
 
 This is the code: `%iaplayerstat_NAME%` instead of NAME write the playerstat name.\
-For example: `%iaplayerstat_mana%` or also `%iaplayerstat_thirst%`
+栗子: `%iaplayerstat_mana%` 或 `%iaplayerstat_thirst%`
 
-You can use this command to test it out:\
+你可以使用以下命令来进行测试:\
 `/papi parse me %iaplayerstat_thirst%`\
 `/papi parse me %iaplayerstat_mana%`
 
 {% hint style="info" %}
-#### Read more about playerstats
+#### 阅读更多有关 playerstats 信息
 {% endhint %}
 
