@@ -5,7 +5,7 @@
 Yes if you do that the wrong way ;) Read this:
 
 {% hint style="info" %}
-It's a good practice to create a **test server on your PC** with:
+在本地架设 **测试服务器** 是个好方法:
 
 * [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-emojis-ores-blocks-wings-tails-hats-more.73355/)
 * [LoneLib](https://www.spigotmc.org/resources/lonelibs.75974/)
