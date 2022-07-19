@@ -38,9 +38,8 @@
 {% hint style="warning" %}
 因为游戏需要能够正确读取资源文件才能正确显示材质，所以该方案无法100%阻止盗窃
 
-This feature is a mitigation to avoid kids and trolls to steal your texture.\
-Some experienced users might be able to find a way to bypass these protections.
+该功能只能防止一些愣头青盗取您的资源包 一些用户仍可以通过某些手段来获取你资源包的内容
 
-ItemsAdder does its best to prevent this, but keep that eventuality in mind.
+ItemsAdder 已尽最大的可能保护您的资源包.
 {% endhint %}
 
