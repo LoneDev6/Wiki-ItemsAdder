@@ -1,11 +1,11 @@
-# ⚡ Optimize Minecraft client
+# ⚡ 优化客户端
 
 ## Minecraft is slow
 
 **Minecraft** is known to be very heavy, the community had fixed most of its problems.
 
 {% hint style="success" %}
-ItemsAdder doesn't require Fabric or other mods to run!
+ItemsAdder 不需要 Fabric 或其他模组即可运行！
 
-This is an optional tutorial for who wants to optimize their game, because it is slow.
+对于想要优化游戏的人来说，这是一个可选教程，因为它很慢。
 {% endhint %}

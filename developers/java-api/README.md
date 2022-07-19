@@ -1,8 +1,8 @@
 # ☕ Java API
 
-## Installing the API
+## 如何获取 API
 
-You just have to use **maven** or **gradle**, you can get the **API** here
+你可以使用 Maven 或 Gradle 将远程仓库和依赖添加到你的项目
 
 {% embed url="https://github.com/LoneDev6/ItemsAdder-API#-packages" %}
 
@@ -26,10 +26,10 @@ You just have to use **maven** or **gradle**, you can get the **API** here
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder" %}
 
-## Important notes
+## 重要提醒
 
 {% hint style="warning" %}
-It's very important to listen to the [ItemsAdderLoadDataEvent ](events.md#itemsadderloaddataevent)event in order to make sure items are correctly loaded before accessing them.
-
-**ItemsAdder loading** is **async** that's why.
+如果你要获取ItemsAdder物品实例，请监听[ItemsAdderLoadDataEvent ](events.md#itemsadderloaddataevent)事件后再获取
+ItemsAdder 加载物品是 **异步** 的，如果你仅仅是在插件plugin.yml加入ItemsAdder为依赖
+并在ItemsAdder启动完成后让你的插件获取ItemsAdder物品实例，很可能无法获取，因为ItemsAdder异步加载物品还未完成
 {% endhint %}

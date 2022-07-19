@@ -1,11 +1,11 @@
 # 1.17.1
 
-## How to optimize it
+## 如何优化
 
-### 1. Downloading Fabric
+### 1. 下载并安装 Fabric
 
-First you have to download **Fabric** and install it: [https://fabricmc.net/use/](https://fabricmc.net/use/)\
-Click on the "**Download installer**" button:
+首先，下载 **Fabric** 并安装它: [https://fabricmc.net/use/](https://fabricmc.net/use/)\
+点击 “**Download install**” 按钮：
 
 ![](<../../.gitbook/assets/immagine (115).png>)
 
@@ -25,10 +25,10 @@ Download the mod here: [https://www.curseforge.com/minecraft/modpacks/fabulously
 
 Open the zip and extract the folders `mods` and `config` inside your `.minecraft` folder (or inside the **Fabric** profile folder).
 
-### 4. Run Fabric
+### 4. 运行 Fabric
 
 ![](<../../.gitbook/assets/immagine (117).png>)
 
-### Done!
+### 完成!
 
-Now your game will open and run very fast compared to how the vanilla game runs.
+现在，与原版客户端相比，运行速度相对更加快速
