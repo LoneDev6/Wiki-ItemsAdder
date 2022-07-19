@@ -112,7 +112,19 @@ Example: show the enchant effect on a bone when the custom entity is damaged
 - bone{name=leftLeg;enchant=true} @self ~onDamaged
 ```
 
-### Mounting
+### Apply the previous properties to every bone
+
+```
+- bone{all=true;PROPERTY=VALUE} TARGETER ~EVENT
+```
+
+Example: hide every bone when the custom entity is damaged
+
+```
+- bone{all=true;visible=false} @self ~onDamaged
+```
+
+## Mounting a bone
 
 ```
 - mountentity{bone=BONE;locked=TRUE/FALSE;control=TRUE/FALSE} TARGETER ~EVENT

@@ -2,7 +2,7 @@
 
 ## Make your server look professional with custom ranks
 
-![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 {% hint style="warning" %}
 #### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.mc-market.org/resources/14009/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
@@ -80,7 +80,7 @@ Write `prefix.100.` followed by the prefix placeholder in the bottom input box, 
 
 &#x20;`prefix.100.:admin:` (make sure you write it correctly).
 
-![](<../../.gitbook/assets/image (67) (1).png>)
+![](<../../.gitbook/assets/image (80) (1).png>)
 
 Press <mark style="color:green;">**`+Add`**</mark>
 
