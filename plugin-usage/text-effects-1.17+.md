@@ -1,21 +1,21 @@
 ---
-description: Text animations
+描述: 文本动画
 ---
 
-# Text Effects (1.17+)
+# 文字效果 (1.17+)
 
-## What are text effects?
+## 什么是文字效果？
 
-ItemsAdder **2.4.19** offers some cool decorative text effects you can use in your server to make it more professional.
+在 ItemsAdder **2.4.19** 版本后，提供了一些非常炫酷的文字效果，使用这些效果可以使服务器显得更加高大上
 
 {% hint style="danger" %}
-## This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+## 该特性适用于 **Minecraft 1.17** 及以上客户端, 与服务端核心版本无联系
 {% endhint %}
 
 {% hint style="warning" %}
-You have to run `/iazip` in order to enable/disable this feature.\
-Make sure also to enable it in the `config.yml`.
-
+你必须先使用 `/iazip` 才能够 开启/关闭 该特性.\
+并确保在 `config.yml`中启用该功能.
+（如下）
 ```yaml
 effects:
   text-effects:
@@ -34,20 +34,20 @@ effects:
 
 
 
-## Permissions
+## 效果
 
-* Use **text-effects** in **chat**
+*  在 **聊天中** 使用 **文字效果**
   * `ia.user.text_effect.chat`
-* Use **text-effects** in **signs**
+* 在 **告示牌中** 使用 **文字效果**
   * `ia.user.text_effect.sign`
-* Use **text-effects** in **books**
+* 在 **书中** 使用 **文字效果**
   * `ia.user.text_effect.book`
-* Use **text-effects** in **anvil** rename field
+* 在 **铁砧中** 使用 **文字效果**
   * `ia.user.text_effect.anvil`
-* Use a **text-effect**
+* 使用某种 **文字效果**
   * `ia.user.text_effect.use.<effect>`
 
-## List of effects
+## 效果列表
 
 ### Rainbow
 
@@ -59,8 +59,8 @@ effects:
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
-Permission: `ia.user.text_effect.use.r`\
-Usage: `<r text>`
+效果: `ia.user.text_effect.use.r`\
+用法: `<r 文本>`
 
 ### Wobble
 
@@ -68,8 +68,8 @@ Usage: `<r text>`
 
 ![](../.gitbook/assets/wobble\_item.gif)
 
-Permission: `ia.user.text_effect.use.w`\
-Usage: `<w text>`
+效果: `ia.user.text_effect.use.w`\
+用法: `<w 文本>`
 
 ### Jump
 
@@ -79,37 +79,37 @@ Usage: `<w text>`
 
 ![](../.gitbook/assets/jump\_boss.gif)
 
-Permission: `ia.user.text_effect.use.j`\
-Usage: `<j text>`
+效果: `ia.user.text_effect.use.j`\
+用法: `<j 文本>`
 
 ### Rainbow + Wobble
 
 ![](../.gitbook/assets/rw\_chat.gif)
 
-Permission: `ia.user.text_effect.use.rw`\
-Usage: `<rw text>`
+效果: `ia.user.text_effect.use.rw`\
+用法: `<rw 文本>`
 
 ### Rainbow + Jump
 
 ![](../.gitbook/assets/rj.gif)
 
-Permission: `ia.user.text_effect.use.rj`\
-Usage: `<rj text>`
+效果: `ia.user.text_effect.use.rj`\
+用法: `<rj 文本>`
 
-## Where can I use these effects?
+## 文字效果使用范围
 
-* Custom item name (in the .yml file)
-* Custom item lore (in the .yml file)
-* Chat
-* Sign
-* Book
+* 自定义物品的 名称 (在 .yml 中编辑)
+* 自定义物拼的 lore (在 .yml 中编辑)
+* 聊天
+* 告示牌
+* 书
 * Bossbar
-* Prefix-Suffix (Luckperms for example)
-* _More soon...._
+* 前缀&后缀 (例如Luckperms)
+* _等等...._
 
 ![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
-## How to create animated prefix (Luckperms)
+## 如何创建动态文字前缀 (Luckperms)
 
 ![](<../.gitbook/assets/immagine (133).png>)
 
@@ -117,4 +117,4 @@ Usage: `<rj text>`
 
 ![](../.gitbook/assets/prefix.gif)
 
-Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
+如果你不了解该插件 点击阅读[ Luckperms 官方指南](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) 
