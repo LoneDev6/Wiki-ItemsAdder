@@ -1,4 +1,4 @@
-# 👌 Permissions
+# 👌 权限
 
 ## Permissions
 

@@ -1,30 +1,30 @@
 ---
-description: Preview chat messages before they are sent
+描述: 预览发送的聊天消息
 ---
 
-# Chat preview (1.19+)
+# 聊天预览 (1.19+)
 
-## Chat preview
+## 聊天预览
 
-ItemsAdder **3.2.0c** allows you to enable the 1.19+ chat preview feature of Minecraft.
+ItemsAdder **3.2.0c** 支持开启 Minecraft 1.19+ 的聊天预览特性
 
 {% hint style="danger" %}
-### This feature works only on **Minecraft 1.19** client, it also wasn't tested on old servers.
+### 该特性只适用于 **Minecraft 1.19** 客户端版本, 并未在旧的游戏版本中进行过测试
 {% endhint %}
 
-### Announcement shown to the player on join
+### 玩家加入游戏时显示的公告
 
 ![](<../.gitbook/assets/image (51) (2).png>)
 
 ![](<../.gitbook/assets/image (92).png>)
 
-### Chat preview feature in action
+### 聊天预览效果
 
 ![](../.gitbook/assets/chat\_preview\_gif.gif)
 
-### Enabling the chat preview
+### 启用聊天预览
 
-Open `config.yml` of ItemsAdder and set this option, then run `/iareload` and join the server.
+打开 `config.yml` 设置该属性,随即使用命令 `/iareload` 进行重载并且重新进入服务器
 
 {% code title="config.yml" %}
 ```yaml
@@ -33,10 +33,10 @@ chat-preview: true
 {% endcode %}
 
 {% hint style="warning" %}
-### Warning
+### 注意
 
 <mark style="color:red;">The</mark> <mark style="color:red;"></mark><mark style="color:red;">`chat-preview`</mark> <mark style="color:red;"></mark><mark style="color:red;">setting disables messages signature!</mark>\
-Do not use `chat-preview` if you need messages signature (which is a 1.19+ new feature).
+如果你需要消息签名请勿启用 `chat-preview` (1.19+新特性).
 
-This might be changed in the future, for now it's not possible to have both chat-preview and messages signature enabled at the same time, it's a Spigot limitation I can't bypass.
+由于Spigot的限制，目前无法将 聊天预览 与 消息签名 同时开启
 {% endhint %}

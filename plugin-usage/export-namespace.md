@@ -1,15 +1,15 @@
 ---
-description: Export your items and assets
+描述: 导出你的自定义物品与资源
 ---
 
-# 💾 Export namespace
+# 💾 导出命名空间
 
 {% hint style="success" %}
-### With ItemsAdder it's easy to share your creations without having to copy and paste files!
+### ItemsAdder,可以使你更简单的分享作品,不需要复制和粘贴配置文件
 
-Use the command `/iaexport <NAMESPACE>` to export all your namespace configurations and textures/models into a zip file you can share with your friends or on [https://addons.devs.beer/itemsadder/](https://addons.devs.beer/itemsadder/)
+使用指令 `/iaexport <NAMESPACE>` 将你所有命名空间配置和材质/模型压缩为一个ZIP文件,这样你就可以和你的朋友进行PY交易,或在 [https://addons.devs.beer/itemsadder/](https://addons.devs.beer/itemsadder/)展示你的创作
 
-The zip file will be available in this folder`plugins\ItemsAdder\data\compressed_out`
+压缩后的文件将储存在 `plugins\ItemsAdder\data\compressed_out` 文件夹中
 
 ``
 {% endhint %}

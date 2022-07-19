@@ -1,4 +1,4 @@
-# 🏁 Tips for fastest usage
+# 🏁 快速上手
 
 ## It takes too much time editing the pack and uploading it online!
 
@@ -12,7 +12,7 @@ It's a good practice to create a **test server on your PC** with:
 * [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 * [LightAPI Fork](https://www.spigotmc.org/resources/lightapi-fork.48247/)
 
-ItemsAdder with this resourcepack config:
+ItemsAdder 中 资源包部分的配置文件如下:
 
 ```yaml
 resource-pack:
@@ -22,7 +22,7 @@ resource-pack:
     auto-external-host:
       enabled: false
     self-host:
-      enabled: true # <----- HERE, set true
+      enabled: true # <----- 该处设置为 true
       server-ip: '127.0.0.1'
       pack-port: 8163
     external-host:

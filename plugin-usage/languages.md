@@ -1,6 +1,6 @@
-# Languages
+# 语言文件
 
-### Currently available languages
+### 当前可用语言
 
 ```
 GUI: 
@@ -30,9 +30,9 @@ Items:
     Turkish tr
 ```
 
-### How to change language?
+### 如何设置语言
 
-Open config.yml and change the language setting.
+打开 config.yml 来更改语言设置
 
 ```yaml
 config_files:
@@ -40,12 +40,12 @@ config_files:
   dictionaries-lang: 'en'
 ```
 
-## How to edit or to create new languages?
+## 如何编辑/创建新的语言文件?
 
 The **plugin** messages **language** files are in **this folder**: `plugins\ItemsAdder\lang\`
 
 The **default items** and **menus languages** files are inside **this folder**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
 
 {% hint style="warning" %}
-Some addons may put their dictionary files inside other folders inside items\_packs, you have to search for them.
+某些附属可能会将其语言文件放置在items\_packs的某些文件夹中，你需要找到该文件来进行更改
 {% endhint %}

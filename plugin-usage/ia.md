@@ -1,22 +1,22 @@
 ---
-description: /ia command menu
+描述: /ia 菜单设置
 ---
 
-# 📃 Recipes menu
+# 📃 合成菜单
 
-## Menu settings and "All" category
+## 菜单设置和“全部”类别
 
-`ia_gui.yml` contains settings about the  `/ia` command GUI.\
-It also contains the **"all"** category which shows every ItemsAdder item.
+`ia_gui.yml` 文件中包含有关 `/ia`  GUI 的设置。\
+并且包含 ItemsAdder 的所有分类 以及显示 **"all（全部）"** 物品 
 
 {% hint style="info" %}
-Default ItemsAdder pack categories are inside: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+默认的Itemsadder资源包分类配置位于: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 {% endhint %}
 
-## Creating a custom category
+## 创建一个自定分类
 
-If you want to create your own category you have to add it to your own `.yml` file in your [namespace](adding-content/basic-concepts/namespace/).\
-This is an example:
+如果你想创建一个自定的分类，你需要添加一个新的yml文件至你的[命名空间]中(adding-content/basic-concepts/namespace/).\
+栗子:
 
 ```yaml
 info:
@@ -27,11 +27,11 @@ categories:
     icon: "itemsadder:ruby_head"
     name: 'Armors'
     permission: "ia.menu.armors"
-    #THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    #[可选设置] 如果未设置，将会以 `ia_gui.yml` 为中的设置为默认设置
     font_image:
       name: "mcguis:blank_menu"
       x_position_pixels: -16
-    #THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    #[可选设置]. 如果未设置，将会以 `ia_gui.yml` 为中的设置为默认设置
     title_position_pixels: 0
     items:
       - "itemsadder:ruby_sword"
@@ -44,16 +44,19 @@ categories:
       - "itemsadder:spinel_legs"
 ```
 
-Remember to give your users permission for each category if you want them to see the categories.\
-For example a permission is: **ia.menu.armors**
+如果你想玩家只能查看某些分类，只需要给予相应的分类权限即可（该权限在分类中设置（见上述配置））.\
+权限栗子: **ia.menu.armors**
 
 {% hint style="info" %}
 **font\_image and title\_position\_pixels are optional.**\
-****Plugin will take the one in `ia_gui.yml` if not set.
+****如果未设置，将会以 `ia_gui.yml` 为中的设置为默认设置
 
-This option is good if you want to have a different background for each category.
+此设置能够帮助你为每个分类设置不同的背景
 {% endhint %}
 
 {% hint style="success" %}
-**Categories** with the **same name** and different namespace **will be merged**, this is **helful** if you have two "swords" categories. This allows you to open **/ia** menu and see all swords organized in the same category instead of having 2 swords categories.
+
+**Categories** with the **same name** and different namespace **will be merged**, this is **helful** 
+if you have two "swords" categories. This allows you to open **/ia** menu and see all swords organized in the same category instead of
+ having 2 swords categories.
 {% endhint %}

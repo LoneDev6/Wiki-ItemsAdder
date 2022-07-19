@@ -1,10 +1,11 @@
-# Hex colored texts \(1.16+\)
+# Hex（十六进制数值） 彩色文本 \(1.16+\)
 
-## How to use 1.16 hex colored texts
+## 如何使用Hex 彩色文本
 
-You can change color of text and specify a custom hex color using the special notation: `%#000000%`.
+你可以使用该格式： `%#000000%`. 改变文本颜色并指定自定义十六进制颜色
+（#XXXXXX为十六进制数值）
 
-For example:
+栗子:
 
 **display\_name: "`%#FE5A00%`magic\_fuel"**
 
@@ -14,6 +15,6 @@ For example:
 ```
 
 {% hint style="info" %}
-It works anywhere, also in translation files of the plugin.
+该特性可在任何文本处使用，包括插件消息配置中
 {% endhint %}
 

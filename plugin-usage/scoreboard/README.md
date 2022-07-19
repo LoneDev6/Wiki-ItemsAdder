@@ -1,2 +1,2 @@
-# Scoreboard
+# 计分板
 
