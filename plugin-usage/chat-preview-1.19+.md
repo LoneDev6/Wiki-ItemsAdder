@@ -35,7 +35,7 @@ chat-preview: true
 {% hint style="warning" %}
 ### 注意
 
-<mark style="color:red;"></mark><mark style="color:red;">`chat-preview`</mark> <mark style="color:red;"></mark><mark style="color:red;">的使用将会关闭消息签名!</mark>\
+<mark style="color:red;"></mark>使用<mark style="color:red;">`chat-preview`</mark> <mark style="color:red;"></mark><mark style="color:red;">将会关闭消息签名!</mark>\
 如果你需要消息签名请勿启用 `chat-preview` (1.19+新特性).
 
 由于Spigot的限制，目前无法将 聊天预览 与 消息签名 同时开启
