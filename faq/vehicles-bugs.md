@@ -1,6 +1,6 @@
-# Vehicles bugs
+# 载具异常
 
-If you experience bugged vehicles \(get tipped under world and strange bugs like that\) please open config.yml of WorldGuard and set this:
+如果载具出现异常 (例如车辆放置后陷入地面) 请打开 Worldguard 插件的 config.yml 并且将 block-plugin-spawning: 设置为 false
 
 ```text
 block-plugin-spawning: false

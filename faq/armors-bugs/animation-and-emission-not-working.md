@@ -9,6 +9,6 @@ Animation and emission won't be shown if the client uses:
 
 ## Emission not working
 
-Enable smooth lighting
+启用平滑光照
 
 ![](<../../.gitbook/assets/image (48) (1).png>)

@@ -16,5 +16,5 @@
 {% hint style="warning" %}
 ## 重要事项
 
-请确保监听**ItemsAdderFirstLoadEvent** event. \ItemsAdder会以异步的方式加载物品和其他东西,所以你一定要在使用API之前使该事件.
+请确保监听**ItemsAdderFirstLoadEvent** 事件. \ItemsAdder会以异步的方式加载物品和其他东西,所以你一定要在使用API之前监听该事件.
 {% endhint %}

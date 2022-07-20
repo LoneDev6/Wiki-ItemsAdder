@@ -1,22 +1,24 @@
-# 💧 Liquids bugs
+# 💧 自定义水流异常
 
 {% hint style="warning" %}
-Sometimes chunks can still maintain the liquid color after you removed them.\
-Logout and login to fix this, that's the only way.&#x20;
 
-### **This is a Minecraft bug I cannot fix.**
+在你卸载区块后有一定几率保留自定义水流的颜色，重新进入服务器即可解决该问题
+
+### **此bug为 Minecraft 原生特性 无法修复.**
 {% endhint %}
 
 {% hint style="warning" %}
-If you place normal water (or if it's naturally generated) on the top or on the bottom of a custom liquid you will see it will have the custom liquid color.&#x20;
 
-### **This is a Minecraft bug I cannot fix.**
+在自定义水流的上方或下方放置正常的水流（包括自然生成的水），正常的水流也会显示为自定义水流的颜色
+
+### **此bug为 Minecraft 原生特性 无法修复.**
 {% endhint %}
 
 {% hint style="warning" %}
-Custom liquids are not totally colored sometimes, some parts still have vanilla water color.
 
-### **This is a Minecraft bug I cannot fix.**
+自定义水流有时无法正常显示自定义的颜色，部分水流仍存在原版水流的颜色.
+
+### **此bug为 Minecraft 原生特性 无法修复.**
 {% endhint %}
 
 ![](<../.gitbook/assets/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
