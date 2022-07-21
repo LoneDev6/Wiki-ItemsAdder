@@ -60,7 +60,7 @@
   * [Internal Exception](faq/internal-exception.md)
   * [OpenGL Error](faq/opengl-error.md)
 * [📖 使用教程](plugin-usage/README.md)
-  * [Languages](plugin-usage/languages.md)
+  * [语言文件](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)
     * [iaconfig](plugin-usage/commands/iaconfig.md)
     * [iarename](plugin-usage/commands/iarename.md)
