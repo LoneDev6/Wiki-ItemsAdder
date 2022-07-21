@@ -1,13 +1,13 @@
 # AdvancedEnchantments
 
-## [Download here](https://www.spigotmc.org/resources/43058/)
+## [下载插件](https://www.spigotmc.org/resources/43058/)
 
-## How to use enchants
+## 如何给Ia物品附魔
 
-This is an example configuration for an ItemsAdder custom item enchant.
+这是一个给Ia物品附魔的配置.
 
 {% hint style="warning" %}
-This requires **ItemsAdder** 2.5.2+
+需要**ItemsAdder**版本 2.5.2+
 {% endhint %}
 
 ```yaml

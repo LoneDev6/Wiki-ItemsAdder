@@ -1,44 +1,44 @@
 ---
-description: ItemsAdder is compatible with MMOItems and it's very easy to integrate.
+description: Ia可与MMOItems进行兼容
 ---
 
 # MMOItems
 
-Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
+在此下载[**MMOItems**](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
 
-### Here you can download the example package shown in this tutorial
+### 在此可下载本教程中的资源包
 
 {% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
 
-## Connect an MMOItem to an ItemsAdder item
+## 给MMOItem套Ia物品的材质包
 
-### Use the command /mmoitems browse
+### 使用指令 /mmoitems 浏览
 
 ![](<../../../.gitbook/assets/immagine (25).png>)
 
-### Create a new MMOItem
+### 创建一个新的 MMOItem
 
 ![](<../../../.gitbook/assets/immagine (26).png>)
 
 ![](<../../../.gitbook/assets/immagine (29).png>)
 
-### Add all the attributes you want, for example magic damage etc
+### 添加想要的属性,例如魔法伤害等...
 
 ![](<../../../.gitbook/assets/immagine (28).png>)
 
-### MMOItem preview inside /mmoitems browse
+### 在 /mmoitems 中预览MMOItem
 
 ![](<../../../.gitbook/assets/immagine (30).png>)
 
 
 
-### Create your .yml file as usual and add all the properties for the ItemsAdder item
+### 创建.yml文件设置ItemsAdder物品
 
 ![](<../../../.gitbook/assets/immagine (32).png>)
 
 {% hint style="success" %}
-As you can see I set a new attribute called **`mmoitem`** and also **`type`** and **`id`**.\
-These are used to **connect** the **two items**.
+如下,可以看到我设置了 **`mmoitem`** 项.在里头还有**`type`**项跟**`id`**项.\
+设置**`mmoitem`** 项就是**指定**这**两物品**是一个东西.
 {% endhint %}
 
 ```yaml
@@ -48,7 +48,7 @@ items:
   test:
     display_name: ""
     permission: example_item
-    mmoitem:
+    mmoitem:    #在这捏=w=[瑞瑞看不到]
       type: SWORD
       id: TEST
     resource:
@@ -60,13 +60,13 @@ items:
       max_custom_durability: 1324
 ```
 
-### Create your .png texture as usual
+### 创建.png材质
 
 ![](<../../../.gitbook/assets/immagine (31).png>)
 
-### Get the item
+### 获得物品
 
-Use the command `/iaget mmoitems_example:test` to get your finished item
+使用指令 `/iaget mmoitems_example:test` 来获取你刚刚制作的物品
 
 ![](<../../../.gitbook/assets/immagine (33).png>)
 

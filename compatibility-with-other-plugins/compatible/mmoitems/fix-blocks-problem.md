@@ -1,21 +1,21 @@
 # Fix blocks problem
 
 {% hint style="warning" %}
-**MMOItems** blocks are not compatible with **ItemsAdder** and vice versa.
+**MMOItems**方块他没法兼容**ItemsAdder**.
 {% endhint %}
 
-## How to use MMOItems blocks?
+## 如何使用MMOitem方块
 
-You have to open the `config.yml` file of **ItemsAdder** and disable **REAL** blocks (mushroom).
+在这之前请打开**ItemsAdder**中的`config.yml`.<br>然后禁用 **REAL** 方块(蘑菇方块).
 
 {% code title="config.yml" %}
 ```yaml
-  disable-REAL: true
+  disable-REAL: true [把该项改为true. =w=]
 ```
 {% endcode %}
 
 {% hint style="info" %}
-After applying this change you won't be able to create ItemsAdder blocks with type: REAL.
+若你启用了该项,你将无法创建类型为: **REAL** 的自定义方块.
 
-Other ItemsAdder custom block types will still work (for example REAL\_NOTE).
+其他物品增加的自定义方块类型将可以继续使用.(举个栗子:REAL\_NOTE).
 {% endhint %}
