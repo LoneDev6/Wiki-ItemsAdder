@@ -1,7 +1,7 @@
 # Adding compatibility
 
-你要给你的插件兼容ia?其实很简单\
-Ia的**API**是**免费的**而且你可以在maven包中得到:
+你要给你的插件兼容Ia?其实很简单.\
+Ia的**Java API[接口]**是**免费的**,你可以在maven包中得到:
 
 {% content-ref url="../developers/java-api/" %}
 [java-api](../developers/java-api/)
