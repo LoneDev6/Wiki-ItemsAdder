@@ -4,6 +4,5 @@
 下载[扩展](https://www.spigotmc.org/resources/itemsadder-bossshop-integration.72396/)
 
 {% hint style="warning" %}
-**在此,我并不是该兼容性插件的开发者,请不要联系我寻求帮助.** \
-**请联系兼容性插件的开发者,谢谢!**
+**该插件任何问题请至插件页面寻求帮助.**
 {% endhint %}

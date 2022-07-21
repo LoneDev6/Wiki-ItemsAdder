@@ -11,9 +11,9 @@
 * 在Nova的 `config.json` 中设置 `"enabled": false` 
 * 复制 Nova 资源包中的 assets 文件夹至 `plugins\ItemsAdder\data\resource_pack`
 * 开启服务器
-* 使用命令 `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
+* 使用命令 `/iazip` (请按照你资源包 [托管方式](../../plugin-usage/resourcepack-hosting/) 进行更新)
 
-Done!
+完成！
 
 ![](<../../.gitbook/assets/immagine (121).png>)
 

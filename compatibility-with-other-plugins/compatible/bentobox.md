@@ -4,6 +4,7 @@
 
 ## 如何修复爆炸权限
 
-当然在这之前可能会导致别人的领域被因为爆炸而破坏\(比如扔手榴弹\)你需要安装BentoBox开发者的这个修复插件: [https://github.com/BONNePlayground/ItemsAdderHook](https://github.com/BONNePlayground/ItemsAdderHook)  
+Itemsadder的自定义物品爆炸会无视该插件的防爆，使其玩家的空岛受到破坏\(例如：扔手榴弹，火箭筒\)
+<br>只需要安装BentoBox开发者针对该问题的修复插件: [https://github.com/BONNePlayground/ItemsAdderHook](https://github.com/BONNePlayground/ItemsAdderHook)  
 \([下载](https://ci.codemc.io/job/BONNePlayground/job/ItemsAdderHook/lastBuild/)\)
 

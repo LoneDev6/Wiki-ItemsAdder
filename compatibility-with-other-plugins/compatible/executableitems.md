@@ -2,18 +2,19 @@
 
 ## [下载插件](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
 
-## 如何将ExecutableItem运用到ItemsAdder的自定义物品上
+## 如何将 ExecutableItems 的物品与 Itemsadder 关联
 
 {% hint style="warning" %}
-更新 **ITEMSADDER** 为 **2.2.20+**\
-****更新 **ExecutableItems** 为 4.2.3.5+
+将 **ITEMSADDER** 更新到 **2.2.20+**
+将 **ExecutableItems** 更新到 **4.2.3.5+**
 {% endhint %}
 
-## 创建Ia物品
+## 创建一个新的 Itemsadder 物品
 
-### 创建.yml文件并修改ItemsAdder物品
+### 创建.yml文件并配置 ItemsAdder 物品
 
-我将把一个名为 `executableitem_test` 的 **ItemsAdder** 物品运用到ExecutableItem示例文件中的 `spit` 项
+在该示例中，我创建了一个名为 `executableitem_test` 的 **ItemsAdder** 物品 并且将其与 **ExecutableItem** 示例文件中的 `spit`物品进行关联
+
 
 ```yaml
 info:
@@ -22,6 +23,7 @@ items:
   executableitem_test:
     display_name: executableitem_test
     permission: executableitem_test
+    # ↓ ↓ ↓ 关键属性
     executableitem:
       id: Free_Spit
     resource:
@@ -34,11 +36,11 @@ items:
 ```
 
 {% hint style="success" %}
-我设置了一个新项,叫做 **`executableitem`** 里面还有 **`id`**.\
+如配置所见，我设置了一个新的属性 **`executableitem`** 其中包括其 **`id`** 将新建的物品与 **ExecutableItem** 中的 `spit`进行了关联.\
 {% endhint %}
 
-### 获得物品
+### 获取物品
 
-使用 `/iaget executableitem_test` 去获得该物品
+使用 `/iaget executableitem_test` 获取该物品
 
 ![](<../../.gitbook/assets/immagine (152).png>)

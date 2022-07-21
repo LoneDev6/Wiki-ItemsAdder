@@ -5,7 +5,8 @@
 ## 如何进行兼容
 
 {% hint style="warning" %}
-确保 ItemsAdder 版本为 2.4.20+
+版本需求：
+ItemsAdder 2.4.20+
 {% endhint %}
 
 

@@ -1,18 +1,16 @@
 # ModelEngine
 
-## [Download here](https://www.spigotmc.org/resources/conxeptworks-model-engine%E2%80%94ultimate-entity-model-manager-1-14-1-17-1.79477/)
+## [下载](https://www.spigotmc.org/resources/conxeptworks-model-engine%E2%80%94ultimate-entity-model-manager-1-14-1-17-1.79477/)
 
-(free demo in the previous link, on the top part of the page)
 
-## How to add compatibility?
+## 如何进行兼容
 
-It's very easy!
 
-* add all your mobs models and configurations inside the **ModelEngine** plugin folder (read the **ModelEngine** tutorials for more info)
-* run `/meg reload` to generate the **ModelEngine** resourcepack
-* open the `plugins\ModelEngine\resource_pack\assets\` folder
-* copy `assets` folder inside `plugins\ItemsAdder\resource_pack\` folder
-* open `config.yml` of **ItemsAdder** and set this option:
+* 在 **ModelEngine** 文件夹中导入所有怪物模型以及配置（请阅读 **ModelEngine** 教程）
+* 使用命令 `/meg reload` 来生成 **ModelEngine** 资源包
+* 打开 `plugins\ModelEngine\resource_pack\assets\` 文件夹
+* 复制 `assets` 文件夹放至 `plugins\ItemsAdder\resource_pack\` 文件夹
+* 打开 **ItemsAdder** 的 `config.yml` 并设置：
 
 {% code title="config.yml" %}
 ```yaml
@@ -20,6 +18,6 @@ overwrite-vanilla-models: false
 ```
 {% endcode %}
 
-* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
+* 使用命令 `/iazip` (请按照你资源包 [托管方式](../../plugin-usage/resourcepack-hosting/) 进行更新
 
 Done!

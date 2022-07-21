@@ -5,5 +5,5 @@
 {% hint style="warning" %}
 ### 部分兼容
 
-(我们需要等待CraftEnhance的开发者把ItemsAdder API用在插件上)
+(需要等待 **CraftEnhance** 的开发者将 **ItemsAdder API** 在插件上使用)
 {% endhint %}

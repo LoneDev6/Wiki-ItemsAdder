@@ -2,7 +2,7 @@
 
 [下载插件](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)
 
-(之前称为 **GoldenEnchants**)
+(前身为 **GoldenEnchants**)
 
 ## 如何添加附魔
 
@@ -13,7 +13,7 @@
 
 <mark style="color:green;">但是附魔效果仍有效!</mark>
 
-所以你可以自己写在lore上
+所以可以自行注释在lore上
 {% endhint %}
 
 ```yaml

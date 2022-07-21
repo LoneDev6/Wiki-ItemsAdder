@@ -1,16 +1,18 @@
 # Mythicmobs
 
-### [Download here](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
+### [下载](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
 
-## Using an ItemsAdder items in MythicMobs&#x20;
+## 如何在 Mythicmobs 中使用 ItemsAdder 物品&#x20;
 
 {% hint style="warning" %}
-Update to **ItemsAdder 3.0.4** or greater and **MythicMobs 5.0.1** or greater
+版本需求：
+**ItemsAdder 3.0.4** +
+**MythicMobs 5.0.1** +
 {% endhint %}
 
-### Drops
+### 掉落物
 
-Example: drop a custom item by 30% chance and 1 to 5 amount.
+栗子：有30%的几率掉落1-5个自定义物品
 
 ```yaml
 ninja_skeleton:
@@ -29,7 +31,7 @@ ninja_skeleton:
   - customentity{walk=b_walk} @self ~onAttack
 ```
 
-### Equipment
+### 装备
 
 ```yaml
 SkeletalKnight:
@@ -46,7 +48,7 @@ SkeletalKnight:
   - my_items:special_shield OFFHAND
 ```
 
-## Custom mobs models
+## 自定义怪物模型
 
 {% content-ref url="../../plugin-usage/adding-content/mobs/advanced-method/" %}
 [advanced-method](../../plugin-usage/adding-content/mobs/advanced-method/)

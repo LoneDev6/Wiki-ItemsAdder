@@ -1,27 +1,29 @@
 # Holographic Displays
 
-## How to use emojis in hologram
+## 如何在 Holographic（所有的全息显示插件） 中使用表情符号
 
-* Download [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
-* Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
-* Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
+* 下载 [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
+* 现在 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+* 现在 [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
 
-Now you can use [font\_images ](../../plugin-usage/adding-content/font-images/)(**emojis**) inside holograms texts and everywhere in all plugins which support **PlaceholderAPI**, in this case **Holographic Displays**.\
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.\
-For example: `%img_smile%`
+现在你可以使用 [font\_images ](../../plugin-usage/adding-content/font-images/)(**表情符号**) 在任何地方！ (使用处必须支持 PlaceholderAPI).
 
-To create an hologram you can use these commands for example:
+正确表达式为:: `%img_NAME%` 而不是填写 font_image 的名称.
+例如: `%img_smile%`
+
+如何创建一个带有表情符号的全息图
+例如：
 
 `/holo create test_itemsadder Hello! %img_smile%`
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-## How to add a floating custom item?
+## 如何创建 Itemsadder 自定义物品的全息物品显示
 
-* run `/iacustommodeldata <item>` (for example `/iacustommodeldata ruby`)
-* copy the `CustomModelData`, for example `10000`
-* create a new hologram, for example: `/hd create holo_icon Hello!`
-* add the floating item to the hologram by specifying the **vanilla type** and the **CustomModelData**. Example:  `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
+* 使用命令 `/iacustommodeldata <item>` (例如 `/iacustommodeldata ruby`)
+* 复制该物品的 `CustomModelData`, 例如 `10000`
+* 创建一个全息显示，例如: `/hd create holo_icon Hello!`
+* 通过设置 **原版物品id**（该id为自定义物品原材料的id） 和 **CustomModelData** 将自定义物品添加到全息图中. 例如：  `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
 
 ![](<../../.gitbook/assets/immagine (124).png>)
 

@@ -4,10 +4,11 @@
 
 ## 如何给Ia物品附魔
 
-这是一个给Ia物品附魔的配置.
+ItemsAdder 物品附魔配置示例
 
 {% hint style="warning" %}
-需要**ItemsAdder**版本 2.5.2+
+版本需求：
+**ItemsAdder** 2.5.2+
 {% endhint %}
 
 ```yaml

@@ -4,14 +4,14 @@
 
 ## 登录后如何下载资源包
 
-在**ItemsAdder**打开 **config.yml** 禁用 `apply-on-join` 项.
+在**ItemsAdder**打开 **config.yml** 禁用 `apply-on-join` 
 
 ```yaml
 resource-pack:
   apply-on-join: false #此项改为 false
 ```
 
-在**Authme** 打开 `commands.yml` 把 `onLogin` 项改成这样:
+在 **Authme** 打开 `commands.yml` 将 `onLogin` 设置为如下所示：
 
 ```yaml
 onLogin:
@@ -21,5 +21,5 @@ onLogin:
 ```
 
 {% hint style="warning" %}
-请确保配置文件中只有一个onLogin项.
+请确保配置文件中只有一个 onLogin 属性
 {% endhint %}
