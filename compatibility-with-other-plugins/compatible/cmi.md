@@ -6,7 +6,7 @@
 
 ## Ranks
 
-1. 打开 **CMI** 的 config.yml .然后像我这样设置(我设置 `%vault_prefix%` 变量在**CMI**`{prefix}`之前)
+1. 打开 **CMI** 的 config.yml . 然后像我这样设置(我设置 `%vault_prefix%` 变量在 **CMI** `{prefix}` 之前)
 
 ```yaml
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
