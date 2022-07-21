@@ -1,12 +1,12 @@
 # CustomCrafting
 
-## [Download here](https://www.spigotmc.org/resources/55883/)
+## [下载插件](https://www.spigotmc.org/resources/55883/)
 
 {% hint style="warning" %}
-You need **ItemsAdder** 2.5.3+ and **CustomCrafting** 3.16.0.0-f or more recent.
+你需要 **ItemsAdder** 2.5.3+ 和 **CustomCrafting** 3.16.0.0-f 或者更高版本.
 {% endhint %}
 
-## How to use
+## 如何使用
 
-You just have to create recipes using the CustomCrafting recipes creation GUI.\
-Drag and drop ItemsAdder custom items in the ingredients/result slots, the plugin will recognize them as custom items and handle them correctly.
+你需要使用CustomCrafting配方的方式创建GUI来创建配方\
+在合成结果槽中放入ItemsAdder的物品,插件将会自动处理.

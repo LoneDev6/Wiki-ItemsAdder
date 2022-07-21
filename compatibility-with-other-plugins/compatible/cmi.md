@@ -1,20 +1,20 @@
 # CMI
 
 {% hint style="info" %}
-## If you're using CMI chat feature you have to read this.
+## 若你正在使用CMI的聊天功能,请你务必你阅读此页.
 {% endhint %}
 
 ## Ranks
 
-1. Open config.yml of **CMI** and set this (I set `%vault_prefix%` placeholder instead of **CMI** `{prefix}`)
+1. 打开 **CMI** 的 config.yml .然后像我这样设置(我设置 `%vault_prefix%` 变量在**CMI**`{prefix}`之前)
 
 ```yaml
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
 ```
 
-2\. Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest)\
-3\. Install them and Restart\
-4\. execute this command  `/papi ecloud download Vault`\
-5\. execute this command `/papi reload`
+2\. 下载 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) 和 [Vault](https://github.com/MilkBowl/Vault/releases/latest)\
+3\. 安装并重新启动\
+4\. 使用该命令 `/papi ecloud download Vault` 下载Vault的扩展\
+5\. 使用该命令 `/papi reload`
 
 Done
