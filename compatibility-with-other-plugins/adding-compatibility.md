@@ -1,7 +1,8 @@
-# Adding compatibility
+# 使插件与Itemsadder进行兼容
 
-你要给你的插件兼容Ia?其实很简单.\
-Ia的**Java API[接口]**是**免费的**,你可以在maven包中得到:
+与 Itemsadder 进行兼容非常容易
+
+**API** 可通过添加 maven 依赖免费获取
 
 {% content-ref url="../developers/java-api/" %}
 [java-api](../developers/java-api/)

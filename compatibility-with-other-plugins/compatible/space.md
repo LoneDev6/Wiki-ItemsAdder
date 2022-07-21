@@ -1,32 +1,31 @@
 # Space
 
-## [Download here](https://www.spigotmc.org/resources/space.59572/)
+## [下载](https://www.spigotmc.org/resources/space.59572/)
 
-## How to add compatibility?
+## 如何进行兼容
 
 {% hint style="warning" %}
-Update ItemsAdder to 2.4.20
+确保 ItemsAdder 版本为 2.4.20+
 {% endhint %}
 
-It's very easy!
 
-* Stop the server
-* Open `plugins\Space\config.yml`
-* Download the resourcepack from the `Resource-Pack` field
-* Set `Send-Pack-On-Join: false` in the `config.yml` of **Space**
-* Extract `assets` folder of the **Space** resourcepack inside `plugins\ItemsAdder\data\resource_pack\`
-* Start the server
-* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
+* 关闭服务器
+* 打开 `plugins\Space\config.yml`
+* 从 `Resource-Pack` 中的链接下载资源包
+* 设置 **Space** 的  `config.yml` 中的 `Send-Pack-On-Join: false` 
+* 复制 **Space** 资源包中的 `assets` 文件夹 至 `plugins\ItemsAdder\data\resource_pack\`
+* 开启服务器
+* 使用命令 `/iazip` (请按照你资源包托管方式进行更新资源包 [托管方式](../../plugin-usage/resourcepack-hosting/) )
 
-### Done!
+### 完成
 
 ![](<../../.gitbook/assets/image (40) (1) (1) (1) (1).png>)
 
-## Known issues
+## 已知问题
 
-### Particles problems
+### 粒子问题
 
-After you've merged the resourcepacks you will notice double particles from blocks. This is normal and I can't fix it for now.
+当合并资源包后，你会发现方块有双重粒子效果，这是正常的现象，目前无法修复.
 
 ###
 

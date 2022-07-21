@@ -1,23 +1,24 @@
 # SkinsRestorer
 
-## [Download here](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+## [下载](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 
-## How to fix resourcepack not applying on join
+## 如何修复加入游戏时资源包无法正常加载
 
-### Step 1
+### 步骤 1
 
-Install [**ResourcepackBroadcast**](https://www.spigotmc.org/resources/resourcepackbroadcast.88318/)\*\*\*\*
+安装 [**ResourcepackBroadcast**](https://www.spigotmc.org/resources/resourcepackbroadcast.88318/)\*\*\*\*
 
-### Step 2
+### 步骤 2
 
-Set the **ResourcepackBroadcast** `config.yml` to run `sr applyskin` when the resourcepack is loaded correctly:
+在 **ResourcepackBroadcast** 的 `config.yml` 中 设置当资源包正确加载时 使用命令 `sr applyskin`.
+具体设置如下:
 
 ```yaml
 success:
   enabled: true
   message:
     enabled: true
-    text: "&e%player_name% loaded resourcepack"
+    text: "&e%player_name% 已正确加载资源包"
   placeholder:
     enabled: true
     text: "%img_smile%"
@@ -28,14 +29,14 @@ success:
       as_console: true
 ```
 
-### Step 3
+### 步骤 3
 
-Open `config.yml` of **SkinsRestorer** and set `DisableOnJoinSkins: false`
+打开 **SkinsRestorer** 的 `config.yml` 并设置 `DisableOnJoinSkins: false`
 
-### Step 4
+### 步骤 4
 
 Install [PlaceholderAPI ](https://www.spigotmc.org/resources/placeholderapi.6245/)\(if you don't have it\).  
-Execute the command `/papi ecloud download Player` then `/papi reload`.
+使用命令 `/papi ecloud download Player` 接着使用 `/papi reload` 进行重载.
 
-### Done
+### 完成
 
