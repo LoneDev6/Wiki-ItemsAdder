@@ -21,7 +21,7 @@
 {% hint style="warning" %}
 ### <mark style="color:red;">注意！</mark>
 
-每次修改，请确保子服 `plugins/ItemsAdder/` 中的 **配置文件** 的同步
+每次修改，请确保子服 `plugins/ItemsAdder/` 中 **配置文件** 的同步
 只有 `config.yml` 中的 hosting 部分允许修改.
 
 ！这是非常关键的一个细节，否则会导致失效
