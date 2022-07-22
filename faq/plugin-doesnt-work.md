@@ -11,6 +11,7 @@ Be sure to test the plugin on a **CLEAN** server (with only **ItemsAdder** insta
 Be sure to use the latest version of the plugin.&#x20;
 
 If the problem persists please send me these information when you report the problem:
+如果问题仍然存在，请在报告问题时将这些信息发送给我：
 
 * Exactly what you did to trigger the problem
 * Server version, use `/version`command and send me the exact text it shows (use it in console to copy and paste)

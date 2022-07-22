@@ -1,2 +1,2 @@
-# 💎 Blocks/minerals issues
+# 💎 方块/矿物问题
 
