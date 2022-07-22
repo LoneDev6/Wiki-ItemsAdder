@@ -14,12 +14,14 @@
 
 **步骤 1**
 
+创建一个本地服务器来制作你
 Create the final pack for your server locally which includes everything you would need in your entire network (every item, GUI, mob, emoji, etc...).\
 To do that you have to create a local Spigot server on your PC where you will configure everything you want.
 
 **步骤 2**
 
-Open each one of your Spigot servers and set host method to `no-host` in the ItemsAdder config and disable extract of items to false
+在所有子服中将 ItemsAdder 的 hosting 设置为 `no-host`，并将默认预置包生成关闭
+<br>设置如下：
 
 {% code title="config.yml" %}
 ```yaml
@@ -33,8 +35,7 @@ Open each one of your Spigot servers and set host method to `no-host` in the Ite
 
 **步骤 3**
 
-Run `/iazip` and upload the generated pack to a file hosting and make sure it offers a DIRECT DOWNLOAD.\
-For example [**MCPACKS**](https://mc-packs.net/)**,** [**DropBox**](../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)**,** [**GoogleDrive**](../plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)**.**
+使用 `/iazip` 将生成的资源包上传至云端
 
 **步骤 4**
 
@@ -67,6 +68,5 @@ Redo the 步骤 5,6,7 for each server you have in your network.
 每个子服重复步骤5,6,7
 
 {% hint style="info" %}
-**BungeePackFix** plugin is not needed for this tutorial.
 使用 **BungeePackFix**  插件不需要阅读此教程
 {% endhint %}
