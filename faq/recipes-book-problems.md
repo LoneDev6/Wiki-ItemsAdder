@@ -12,9 +12,9 @@ Please don't report these bugs, I can't really do anything to fix this problem, 
 
 ![](<../.gitbook/assets/immagine (148).png>)
 
-### How to fix?
+### 如何修复？
 
-Set the button like that when you want to find an ItemsAdder recipe in the book.
+当您想在书中找到 ItemsAdder 的合成配方时，如图设置
 
 ![](<../.gitbook/assets/immagine (155).png>)
 

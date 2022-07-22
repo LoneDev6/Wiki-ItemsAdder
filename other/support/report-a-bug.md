@@ -1,5 +1,5 @@
-# 🐞 Report a bug
+# 🐞 反映特性
 
-## To report a bug please click here:
+## 反映特性请点击该链接
 
 {% embed url="https://github.com/LoneDev6/ItemsAdder/issues" %}

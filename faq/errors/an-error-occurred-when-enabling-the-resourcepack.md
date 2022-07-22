@@ -1,6 +1,6 @@
-# An error occurred when enabling the resourcepack
+# An error occurred when enabling the resourcepack（启用资源包时出错）
 
-## Read here
+## 阅读此教程
 
 {% page-ref page="../resourcepack-not-loading.md" %}
 

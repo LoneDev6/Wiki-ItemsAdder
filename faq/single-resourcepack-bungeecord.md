@@ -1,63 +1,62 @@
 ---
-description: >-
-  Using a network-wide resourcepack to avoid players from redownloading a
-  different one on each join
+描述: >-
+  使用 Network-wide 资源包 来避免玩家每次进服/传送至子服时 都需要重新下载资源包
 ---
 
-# Single resourcepack Bungeecord
+# Bungeecord 设置全局资源包
 
-## Network-wide resourcepack
+## Network-wide 资源包
 
-Do you want to install ItemsAdder on multiple Spigot servers of your network?\
-Do you want to avoid players from downloading the resourcepack each time they change server?\
-Follow this simple tutorial.
+该教程可以使玩家每次传送至子服时，避免重复加载资源包
 
-## How to set it up
+## 如何设置
 
-For example you can have 3 servers: `lobby`, `survival`, `creative`.\
+假如你有三个子服: `lobby`, `survival`, `creative`.\
 
 
-### Step 1
+### 步骤 1
 
-Install ItemsAdder on all these 3 servers.
+分别安装 Itemsadder 至三个子服中
 
 {% hint style="warning" %}
-### <mark style="color:red;">This is very important</mark>
+### <mark style="color:red;">注意！</mark>
 
-Make sure to **sync all** the 3 servers `plugins/ItemsAdder/` **configurations folders** each time you make a modification, they must be the same, only the `config.yml` hosting part can change.
+每次修改，请确保子服 `plugins/ItemsAdder/` 中的 **配置文件** 的同步
+只有 `config.yml` 中的 hosting 部分允许修改.
 
-This is very crucial for this task or everything won't work.
+！这是非常关键的一个细节，否则会导致失效
 {% endhint %}
 
-### Step 2
+### 步骤 2
 
-Decide a main server, for example `lobby`.\
-Open the `config.yml` of ItemsAdder in the `lobby` server and set up the hosting.
+选择你用来使玩家应用资源包的服务器（一般选择为登录服）, 例如： `lobby` 子服.\
+在 `lobby` 子服中打开 ItemsAdder 的 `config.yml` 并设置 `Hosting(托管)`。
 
 {% content-ref url="../plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](../plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
-It's advised to use `self-host`, it's the best method.
+建议使用 `self-host` 当然使用其他托管方式也是可行的，操作同理
 {% endhint %}
 
-After you finished configuring the hosting (follow the linked tutorial carefully) you have to use the `/iainfo` command and get the URL in console, copy it.
+在你完成hosting（托管）的配置之后，你只需要使用 `/iainfo` 命令来获取资源包的url，接着复制该url-> 接着步骤 3 的操作
 
-For example:
+如图:
 
 ![](<../.gitbook/assets/image (60) (1).png>)
 
 {% hint style="warning" %}
-You must remove the URL part after `#`, it's not needed.\
-Copy it without that part after `#`.
+
+我们只需要复制 **#** 之前的部分，请勿连同 **#** 后的字符一同复制
+
 {% endhint %}
 
-#### For example using `self-host`:
+#### 例如使用 `self-host` 来进行配置:
 
 <details>
 
-<summary>Self host example</summary>
+<summary>Self-host 配置如下</summary>
 
 {% code title="config.yml" %}
 ```yaml
@@ -77,14 +76,14 @@ resource-pack:
 ```
 {% endcode %}
 
-Run `/iazip` to generate the resourcepack.
+使用 `/iazip` 生成资源包
 
 </details>
 
-### Step 3
+### 步骤 3
 
-Open the other servers (survival, creative) ItemsAdder `config.yml` file and edit the hosting part.\
-Instead of `YOUR_PACK_COMPLETE_URL` you have to put the **URL** you got from the `/iainfo` command.
+打开其他子服的（survival, creative）ItemsAdder `config.yml` 并编辑Hosting托管.\
+将 `YOUR_PACK_COMPLETE_URL` 替换为使用 `/iainfo` 命令获取的 **URL**
 
 {% code title="config.yml" %}
 ```yaml
@@ -100,18 +99,19 @@ resource-pack:
       pack-port: 8163
     external-host:
       enabled: true
+      # 在此填写使用 /iainfo 获得的url
       url: 'YOUR_PACK_COMPLETE_URL'
 ```
 {% endcode %}
 
-### Step 4 (Bungeecord only)
+### 步骤 4 (仅适用于bc端)
 
-Install the Bungeecord plugin to make the loading even faster!
+安装 Bungeecord 插件使加载速度更快
 
 {% embed url="https://www.spigotmc.org/resources/96794" %}
 
 {% hint style="danger" %}
-### <mark style="color:red;">Do not install</mark> <mark style="color:red;"></mark><mark style="color:red;">**BungeePackFix**</mark> <mark style="color:red;"></mark><mark style="color:red;">on</mark> <mark style="color:red;"></mark><mark style="color:red;">**Spigot**</mark> <mark style="color:red;"></mark><mark style="color:red;">servers!</mark>
+### <mark style="color:red;">请勿将</mark> <mark style="color:red;"></mark><mark style="color:red;">**BungeePackFix**</mark> <mark style="color:red;"></mark><mark style="color:red;">安装至</mark> <mark style="color:red;"></mark><mark style="color:red;">子服中!</mark>
 
-This is a **Bungeecord** plugin! Install it on **Bungeecord**!
+该插件为 **Bungeecord** 插件！ 请将其安装至 **Bungeecord** 的 plugins 文件夹中
 {% endhint %}

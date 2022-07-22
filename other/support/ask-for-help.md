@@ -1,16 +1,16 @@
-# 📕 Ask for help
+# 📕 寻求帮助
 
 {% hint style="warning" %}
-### Before opening a support ticket&#x20;
+### 在获得帮助之前你需要知道的事情&#x20;
 
-* please make sure to read ALL the wiki
-* don't open support tickets to report bugs, use [this page](report-a-bug.md)
-* ask on the <mark style="color:blue;">`#💬ia-community-help`</mark> channel of the server before opening a support ticket
+* 确保你已经完整的阅读了wiki，且无法帮助你解决问题
+* 不要使用 support tickets 来反馈Bug，请移步至 [该页面](report-a-bug.md)
+* 在寻求帮助之前在服务器的 <mark style="color:blue;">`#💬ia-community-help`</mark> 频道询问
 {% endhint %}
 
 {% embed url="https://discord.com/invite/z3rxuWt6FZ" %}
 
-## Report a bug
+## 反馈bug
 
 {% content-ref url="report-a-bug.md" %}
 [report-a-bug.md](report-a-bug.md)

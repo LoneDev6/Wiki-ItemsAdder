@@ -1,6 +1,6 @@
-# Protocol error
+# Protocol 报错
 
- If you get an error about Protocol please install latest ProtocolLib [https://www.spigotmc.org/resources/protocollib.1997/](https://www.spigotmc.org/resources/protocollib.1997/)
+ 如果你的后台出现了有关protocol的报错 请安装最新的 [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 
 ```text
 Error occurred while enabling ItemsAdder v1.1.16 (Is it up to date?)
