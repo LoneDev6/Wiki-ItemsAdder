@@ -1,8 +1,8 @@
-# Furniture collisions
+# 家具碰撞箱
 
-### How can I make a furniture solid?
+### 如何给家具设置碰撞箱
 
-You can make a furniture solid adding the "solid" attribute.
+你只需要通过添加 `solid` 属性使家具变为具有碰撞箱的实体
 
 ```yaml
   table:

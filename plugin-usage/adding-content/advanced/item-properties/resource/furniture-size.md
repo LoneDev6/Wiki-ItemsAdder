@@ -1,6 +1,6 @@
-# Furniture size
+# 家具尺寸
 
-## How can I adjust the furniture position when placed?
+## 如何调整放置时的家具位置？
 
 If you want to adjust it you just have to use [Blockbench](creating-3d-models.md) as usual and:
 

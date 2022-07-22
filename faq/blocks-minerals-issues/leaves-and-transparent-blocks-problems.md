@@ -1,16 +1,16 @@
-# Leaves and transparent blocks problems
+# 树叶与透明方块
 
 {% hint style="danger" %}
 ### Tree blocks sometimes disappear and become air blocks
 
 This is a know issue in CREATIVE mode as the client doesn't send some packets to the server.\
-Please try in survival mode.
+这是创造模式下的一个已知问题，因为客户端不会向服务器发送某些数据包，请尝试在生存模式下进行操作
 {% endhint %}
 
 {% hint style="danger" %}
-### REAL_TRANSPARENT blocks are dropped when water flows on them
+### REAL_TRANSPARENT 方块在水流过时会掉落
 
-I know this bug and I can't fix it without making your server an oven.\
+该bug是已知的，但修复该bug会占用大量服务器资源，造成严重的延迟以及性能滞后.\
 \
 Details:\
 As you already know Minecraft is not that great and most of the cool features require a lot of hacks to be implemented.\
