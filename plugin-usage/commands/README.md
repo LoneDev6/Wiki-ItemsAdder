@@ -1,133 +1,133 @@
 # 🖥 Commands
 
 * iatexture:
-  * description: Force the client to reload resourcepack (a player or everyone)
-  * usage: /iatexture \[all or player]
-  * permission: "ia.user.iatexture"
+  * 用处: 强制玩家客户端重新加载资源包
+  * 用法: /iatexture \[all/player]
+  * 权限: "ia.user.iatexture"
 * iaget:
-  * description: Get custom item by namespaced id or by id
-  * usage: /iaget \<item> \[amount]
-  * permission: "ia.admin.iaget"
+  * 用处: 获取Ia物品的id
+  * 用法: /iaget \<item> \[amount]
+  * 权限: "ia.admin.iaget"
 * iagive:
-  * description: Give custom item to player
-  * usage: /iagive \<item> \[amount] \[silent]
-  * permission: "ia.admin.iagive"
+  * 用处: 给予玩家Ia物品
+  * 用法: /iagive \<item> \[amount] \[silent]
+  * 权限: "ia.admin.iagive"
 * iadrop:
-  * description: Drop custom item at coords or at player location
-  * usage: /iadrop \<item> \[amount]
-  * permission: "ia.admin.iadrop"
+  * 用处: 掉落Ia物品?
+  * 用法: /iadrop \<item> \[amount]
+  * 权限: "ia.admin.iadrop"
 * iaremove:
-  * description: Remove custom item from player inventory
-  * usage: /iaremove \<item> \[amount] \[silent]
-  * permission: "ia.admin.iaremove"
+  * 用处: 在玩家背包中删Ia物品
+  * 用法: /iaremove \<item> \[amount] \[silent]
+  * 权限: "ia.admin.iaremove"
 * iatag:
-  * description: Shows custom item debug info
-  * usage: /iatag
-  * permission: "ia.admin.iatag"
+  * 用处: 显示Ia物品的debug信息
+  * 用法: /iatag
+  * 权限: "ia.admin.iatag"
 * iacustommodeldata:
-  * description: Shows custom item CustomModelData
-  * usage: /iacustommodeldata
-  * permission: "ia.admin.custommodeldata"
+  * 用处: 显示Ia物品的CustomModelData
+  * 用法: /iacustommodeldata
+  * 权限: "ia.admin.custommodeldata"
 * iaplayerstat:
-  * description: Set a custom player stat (and update HUD) value
-  * usage: /iaplayerstat \<read|write|increment|decrement> \<player> \<attribute> \<int|float|string> \[value]
-  * permission: "ia.admin.iaplayerstat"
+  * 用处: 设置一个自定义的玩家统计值或HUD值
+  * 用法: /iaplayerstat \<read|write|increment|decrement> \<player> \<attribute> \<int|float|string> \[value]
+  * 权限: "ia.admin.iaplayerstat"
 * ia:
-  * description: Opens items info GUI
-  * usage: /ia
-  * permission: "ia.user.ia"
+  * 用处: 打开Ia物品信息的GUI
+  * 用法: /ia
+  * 权限: "ia.user.ia"
 * iarepair:
-  * description: Repairs current item (vanilla or custom)
-  * usage: /iarepair
-  * permission: "ia.admin.iarepair"
+  * 用处: 修理手上物品(支持原版/Ia物品).
+  * 用法: /iarepair
+  * 权限: "ia.admin.iarepair"
 * iarename
-  * description: Rename current item (vanilla or custom). Supports emojis (font\_images) and ItemsAdder text-effects.
-  * usage: /iarename \<name>
-  * permission: "ia.admin.iarename"
+  * 用处: 重命名当前物品(支持原版/Ia物品). 也支持Ia表情(font\_images)和IA text-effects.
+  * 用法: /iarename \<name>
+  * 权限: "ia.admin.iarename"
 * iadurability:
-  * description: Modify durability of current item (vanilla or custom)
-  * usage: /iadurability
-  * permission: "ia.admin.iadurability"
+  * 用处: 设置手上物品的耐久度 (支持原版/Ia物品)
+  * 用法: /iadurability
+  * 权限: "ia.admin.iadurability"
 * iareload:
-  * description: Reloads items\_packs files
-  * usage: /iareload
-  * permission: "ia.admin.iareload"
+  * 用处: 加载 items\_packs 
+  * 用法: /iareload
+  * 权限: "ia.admin.iareload"
 * iazip:
-  * description: Executes /iareload and generates pack.zip file
-  * usage: /iazip
-  * permission: "ia.admin.iazip"
+  * 用处: 自动使用 /iareload 然后生成 pack.zip 
+  * 用法: /iazip
+  * 权限: "ia.admin.iazip"
 * iablock:
-  * description: Show info about block you're looking at
-  * usage: /iablock
-  * permission: "ia.admin.iablock"
+  * 用处: 显示你正在看[MC行为的看]的方块信息
+  * 用法: /iablock
+  * 权限: "ia.admin.iablock"
 * ialiquid:
-  * description: Show info about liquid you're looking at
-  * usage: /ialiquid \[x] \[y] \[z]
-  * permission: "ia.admin.ialiquid"
+  * 用处: 显示你正在看的液体信息
+  * 用法: /ialiquid \[x] \[y] \[z]
+  * 权限: "ia.admin.ialiquid"
 * e:
-  * description: Show list of font images (emojis, huds...). Can also be used to send messages with emojis autocomplete.
-  * usage: /iaimage
-  * permission: "ia.user.image.gui"
+  * 用处: 显示字体/图像的列表(表情, huds...)
+  * 用法: /iaimage
+  * 权限: "ia.user.image.gui"
 * iarecipe:
-  * description: Show item recipe GUI
-  * usage: /iarecipe \[item]
-  * permission: "ia.user.iarecipe"
+  * 用处: 显示物品合成配方GUI
+  * 用法: /iarecipe \[item]
+  * 权限: "ia.user.iarecipe"
 * iahud:
-  * description: Force show/hide a HUD manually by namespaced id
-  * usage: /iahud \[name]
-  * permission: "ia.admin.iahud"
+  * 用处: 通过ID来强制显示/隐藏HUD
+  * 用法: /iahud \[name]
+  * 权限: "ia.admin.iahud"
 * iaconvert:
-  * description: Converts old 1.0 world to 2.0 world (blocks), you can decide to delete ores (set stone) or keep them
-  * usage: /iaconvert \[world] \[deleteores]
-  * permission: "ia.admin.iaconvert"
+  * 用处: 将旧的插件版本 1.0 世界的方块生成机制转换插件版本为 2.0 世界的方块生成机制(会重新生成Ia方块),你可以删除矿物或者继续保留.
+  * 用法: /iaconvert \[world] \[deleteores]
+  * 权限: "ia.admin.iaconvert"
 * iainfo:
-  * description: Shows info about the plugin
-  * usage: /iainfo
-  * permission: "ia.admin.iainfo"
+  * 用处: 显示关于这个插件的消息
+  * 用法: /iainfo
+  * 权限: "ia.admin.iainfo"
 * iakill:
-  * description: Kills custom mobs
-  * usage: /iakill
-  * permission: "ia.admin.iakill"
+  * 用处: 杀死Ia怪物
+  * 用法: /iakill
+  * 权限: "ia.admin.iakill"
 * iasummon:
-  * description: Summons custom mobs
-  * usage: /iasummon \[amount]
-  * permission: "ia.admin.iasummon"
+  * 用处: 生成Ia怪物
+  * 用法: /iasummon \[amount]
+  * 权限: "ia.admin.iasummon"
 * iaexport:
-  * description: Exports a namespace into a .zip file
-  * usage: /iaexport \<namespace>
-  * permission: "ia.admin.iaexport"
+  * 用处: 将命名空间导出到.zip文件中
+  * 用法: /iaexport \<namespace>
+  * 权限: "ia.admin.iaexport"
 * iaspawntree:
-  * description: Spawns a custom tree
-  * usage: /iaspawntree
-  * permission: "ia.admin.iaspawntree"
+  * 用处: 生成一个Ia自定义的树
+  * 用法: /iaspawntree
+  * 权限: "ia.admin.iaspawntree"
 * iaplaytotemanimation:
-  * description: Shows a Totem Of Undying animation
-  * usage: /iaplaytotemanimation
-  * permission: "ia.admin.iatotemanimation"
+  * 用处: 显示不死图腾动画
+  * 用法: /iaplaytotemanimation
+  * 权限: "ia.admin.iatotemanimation"
 * iaplaysound:
-  * description: Play itemsadder sounds. Useful in console since vanilla /playsound is bugged in console.
-  * usage: /iaplaysound
-  * permission: "ia.admin.iaplaysound"
+  * 用处: 播放Ia音效,在后台无法进行播放
+  * 用法: /iaplaysound
+  * 权限: "ia.admin.iaplaysound"
 * iacleancache:
-  * description: Cleans unused IDs from cache to allow them to be used by future added blocks / items.
-  * usage: /iacleancache
-  * permission: "ia.admin.iacleancache"
+  * 用处: 清理Ia的缓存
+  * 用法: /iacleancache
+  * 权限: "ia.admin.iacleancache"
 * iasha1:
-  * description: Calculates sha1 of the current resourcepack.
-  * usage: /iasha1
-  * permission: "ia.user.iasha1"
+  * 用处: 生成资源包的sha1
+  * 用法: /iasha1
+  * 权限: "ia.user.iasha1"
 * iahitbox:
-  * description: Shows the hitbox of placed furnitures.
-  * usage: /iahitbox
-  * permission: "ia.admin.iahitbox"
+  * 用处: 显示放置家具的Hitbox
+  * 用法: /iahitbox
+  * 权限: "ia.admin.iahitbox"
 * iaconfig:
-  * description: Main command to execute some operations on the plugin configurations.
-  * permission: "ia.admin.iaconfig"
+  * 用处: 对Ia配置执行操作所需的重要命令.
+  * 权限: "ia.admin.iaconfig"
 * iaentity:
-  * description: Main command to manage custom entities.
-  * permission: "ia.admin.iaentity"
+  * 用处: 管理Ia实体所需的重要命令
+  * 权限: "ia.admin.iaentity"
 * iaemote
-  * description: Play custom player animation.
-  * usage: /iaemote \<emote> \[player]
-  * permission: "ia.user.iaemote"
-    * others: "ia.user.iaemote.others"
+  * 用处: 播放Ia玩家动作.
+  * 用法: /iaemote \<emote> \[player]
+  * 权限: "ia.user.iaemote"
+    * 其他: "ia.user.iaemote.others"
