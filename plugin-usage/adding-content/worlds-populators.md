@@ -46,8 +46,8 @@ Don't put too high values or the server could lag.\
 Take my values as example.
 {% endhint %}
 
-**chunk\_veins**: number of veins to be spawned in the chunk\
-**vein\_blocks**: number of blocks in each ore vein (or the **vein size**)\
+**chunk\_veins**: 区块中生成的矿脉数量\
+**vein\_blocks**: 每个矿脉中的自定义方块数量（或**矿脉大小**）\
 **chunk\_chance**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
 
 {% hint style="warning" %}
@@ -61,7 +61,7 @@ Take my values as example.
 
 ### Biomes
 
-You can remove this option and the plugin will spawn ores in every biome.
+你可以移除该选项，插件会在每个群系都生成自定义方块
 
 ```yaml
   custom_block:
@@ -82,9 +82,9 @@ You can remove this option and the plugin will spawn ores in every biome.
     chunk_veins: 1
 ```
 
-### Replaceable blocks
+### 可替换的方块（replaceable_blocks）
 
-You can remove this option and the plugin will spawn ores replacing every block instead of checking if it can be replaced.
+你可以移除该选项，插件会生成矿石来替换每个自定义方块，而不是检查是否可以替换
 
 ```yaml
   custom_block:

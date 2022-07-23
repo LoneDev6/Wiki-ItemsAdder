@@ -2,19 +2,20 @@
 
 ## 如何调整放置时的家具位置？
 
-If you want to adjust it you just have to use [Blockbench](creating-3d-models.md) as usual and:
+如果你想调整家具只需要使用 [Blockbench](creating-3d-models.md) ，并且进行如下操作：
 
 ![](../../../../../.gitbook/assets/immagine%20%289%29.png)
 
-1. click on **display** on the right
-2. click on the **armorstand icon** on the left
-3. click on the **smile face** \(**head**\) on the left
-4. **move** your model on the armorstand **bottom** \(it's the **ground**\)
+1. 点击右上方的 **显示调整**
+2. 点击左边工具栏中的 **笑脸（头部）**
+3. 点击左边工具栏中的 **盔甲架图标**
+4. 将模型 **移动** 至盔甲架 **底部**（此时模型与地面齐平）
 
-### Too small furniture
+### 小型家具
 
-If your furniture is **too small** bug you want it **bigger** and with bigger **hitbox** just set this to **false**.  
-If you instead want a **small furniture** with small hitbox just set it to true
+如果出现 **家具尺寸过小** 但你希望你的家具变大并且拥有更大的碰撞箱只需要将该值设置为**false**
+
+如果你想给你的小型家具增加碰撞箱只需要将 `small_hitbox:` 设置为 `true`
 
 {% tabs %}
 {% tab title="Big furniture" %}
@@ -34,7 +35,7 @@ behaviours:
 {% endtab %}
 {% endtabs %}
 
-#### and set this is [BlockBench](creating-3d-models.md)
+#### 并在 [BlockBench](creating-3d-models.md) 中进行位置调整
 
 {% tabs %}
 {% tab title="Big furniture" %}

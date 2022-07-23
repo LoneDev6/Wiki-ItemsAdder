@@ -1,6 +1,6 @@
 ---
-description: Create customized armors
+描述: 创建自定义盔甲
 ---
 
-# 🥷 Armors
+# 🥷 盔甲
 
