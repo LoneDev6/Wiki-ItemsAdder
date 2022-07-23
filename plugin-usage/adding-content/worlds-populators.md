@@ -48,7 +48,7 @@ Take my values as example.
 
 **chunk\_veins**: 区块中生成的矿脉数量\
 **vein\_blocks**: 每个矿脉中的自定义方块数量（或**矿脉大小**）\
-**chunk\_chance**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
+**chunk\_chance**: 区块中生成自定义矿物的几率. （越稀有的矿石设置的数值越低）\
 
 {% hint style="warning" %}
 <mark style="color:red;">**Old ItemsAdder**</mark> versions before **3.1.6** used these properties instead:\
