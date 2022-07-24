@@ -6,13 +6,13 @@
       * `ia.user.ia`
     * /iarecipe
       * `ia.user.iarecipe`
-    * /iatexture (to force apply the pack to yourself)
+    * /iatexture (强行给自己安资源包)
       * `ia.user.iatexture`
-    * /iatexture all (to force apply the pack to everyone)
+    * /iatexture all (强行给每个玩家安资源包)
       * `ia.user.iatexture.all`
-    * using recipes
-      * `ia.user.recipe.PERMISSION` (or to give all crafting permissions just use `ia.user.recipe.*`)
-      * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
+    * 使用物品合成配方
+      * `ia.user.recipe.PERMISSION` (如果需要全部物品的权限,你可以使用这个 `ia.user.recipe.*`)
+      * 关于权限的更多信息,请[查阅此处](../adding-content/item-properties/basic/item-permission.md)
     * see item in the `/ia` menu
       * `ia.user.ia.seeitem.PERMISSION` (or to give all /ia permissions just use `ia.user.ia.seeitem.*`)
       * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
@@ -46,13 +46,13 @@
         * `ia.user.text_effect.anvil`
       * Use a **text-effect**
         * `ia.user.text_effect.use.<effect>`
-        * Examples ([full list here](../text-effects-1.17+.md)):
+        * 栗子 ([full list here](../text-effects-1.17+.md)):
           * `ia.user.text_effect.use.r`
           * `ia.user.text_effect.use.rw`
     * emotes ([<mark style="color:blue;">player emotes</mark>](../adding-content/player-emotes/))
       * Use the emote command: `ia.user.iaemote`
       * Use an emote: `ia.user.iaemote.use.<emote>`
-      * Example:
+      * 栗子:
         * `ia.user.iaemote.use.yes`
         * `ia.user.iaemote.use.*`
 
