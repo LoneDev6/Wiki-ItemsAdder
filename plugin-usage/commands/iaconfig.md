@@ -1,51 +1,51 @@
 # iaconfig
 
-## Features
+## 介绍
 
-### Delete an item from config
+### 在config中删除物品
 
 `/iaconfig item delete <item>`
 
-Permission: `ia.admin.iaconfig.item.delete`
+权限: `ia.admin.iaconfig.item.delete`
 
-Deletes an item COMPLETELY from its config file. Please be careful.
+可以将Ia物品的config给他"完全"清理干净.
 
-### Disable an item in configs
+### 在config中禁用物品
 
 `/iaconfig item disable <item>`
 
-Permission: `ia.admin.iaconfig.item.disable`
+权限: `ia.admin.iaconfig.item.disable`
 
-Disables an item from its config file. Please be careful.
+在配置文件中禁用Ia物品.
 
-### Delete recipes which use/create an item
+### 删除Ia物品合成配方
 
 `/iaconfig recipes deleteofitem <item>`
 
-Permission `ia.admin.iaconfig.recipes.deleteofitem`
+权限 `ia.admin.iaconfig.recipes.deleteofitem`
 
-Deletes COMPLETELY all recipes which contain an item from all the config files. Please be careful.
+"完全"删除config中包含该Ia物品的合成配方
 
-### Disable recipes which use/create an item
+### 禁用Ia物品合成配方
 
 `/iaconfig item disableofitem <item>`
 
-Permission: `ia.admin.iaconfig.recipes.disableofitem`
+权限: `ia.admin.iaconfig.recipes.disableofitem`
 
-Disables all recipes which contain an item from all the config files. Please be careful.
+禁用config中包含该Ia物品的合成配方
 
-### Delete all items of a namespace and recipes of these items
+### 删除整个Namespace[包括内含物品]
 
 `/iaconfig namespace delete <namespace>`
 
-Permission: `ia.admin.iaconfig.namespace.delete`
+权限: `ia.admin.iaconfig.namespace.delete`
 
-Deletes all items of a namespace and recipes of these items COMPLETELY. Please be careful.
+"完全"删除整个Namespace,当然包括内含物品,以及合成配方
 
-### Disable every item of a namespace
+### 禁用整个Namespace
 
 `/iaconfig namespace disable <namespace>`
 
-Permission: `ia.admin.iaconfig.namespace.disable`
+权限: `ia.admin.iaconfig.namespace.disable`
 
-Disables every item of a namespace and recipes of these items. Please be careful.
+禁用Namespace,当然包括内含物品,以及合成配方.
