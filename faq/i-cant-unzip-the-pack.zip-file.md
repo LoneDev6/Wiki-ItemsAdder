@@ -1,6 +1,6 @@
-# I can't unzip the pack.zip file
+# 无法解压 pack.zip 资源包
 
-Disable the protection option.
+在设置中关闭资源包保护
 
 {% code title="config.yml" %}
 ```yaml
@@ -12,6 +12,7 @@ Disable the protection option.
 {% endcode %}
 
 {% hint style="danger" %}
-This is the option to protect the zip file from unzip.\
-Be careful when disabling it, everyone can unzip your file if you don't protect it.
+这是保护 zip 文件免于解压缩的选项
+该属性能够防止资源包被解压，防止别人窃取你的劳动成果.\
+<br>请慎重关闭该属性，关闭后资源包将不受防解压保护.
 {% endhint %}

@@ -1,31 +1,31 @@
 ---
-description: ItemsAdder before 3.2.0
+描述: ItemsAdder 3.2.0 之前的版本
 ---
 
-# 🗑 Old ItemsAdder
+# 🗑 旧版本 ItemsAdder
 
 {% hint style="warning" %}
-Read here only if you're using ItemsAdder old resourcepack.\
-You can ignore this if you just bought the plugin at or after v3.2.0.
+仅当使用 ItemsAdder 旧资源包时阅读该教程。\
+如果你使用的版本为3.2.0之前的版本请阅读该教程
 {% endhint %}
 
-## How can I remove all the items and default stuff?
+## 如何删除所有物品和预置内容
 
 {% hint style="info" %}
-If you don't care about my default stuff and you only want to make your own items, blocks and other things it's easy!\
-Follow this tutorial.
+如果你不想使用预置的内容，想要自己制作.
+<br>遵循该教程的步骤与即可：
 {% endhint %}
 
 ### 1. Config.yml
 
-Open plugin `config.yml` file and set this to **false**.
+打开 `config.yml` 文件并将其设置为 **false**
 
 ```yaml
   extract-default-items: false
   extract-default-resources: false
 ```
 
-### 2. Delete the folders you don't need. Select from this list.
+### 2. 在下列列表中选择不需要的文件夹删除
 
 #### Twitter emojis
 
@@ -52,18 +52,19 @@ Open plugin `config.yml` file and set this to **false**.
 `plugins\ItemsAdder\data\items_packs\example`\
 `plugins\ItemsAdder\data\resource_pack\assets\example`
 
-### 3. Finalizing the changes
+### 3. 完成
 
-Run this command: `/iacleancache items`
+使用指令: `/iacleancache items`
 
-Delete these folders:\
-`ItemsAdder\storage\cache\tmp\` `ItemsAdder\data\resource_pack\assets\minecraft\models\item\` `ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
-
-Then run `/iazip`
+删除下列文件夹：\
+<BR>`ItemsAdder\storage\cache\tmp\` 
+<BR>`ItemsAdder\data\resource_pack\assets\minecraft\models\item\` 
+<BR>`ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
+<BR>使用指令 `/iazip`
 
 {% hint style="danger" %}
-## Do not delete other folders which are not listed in the previous list.
+## 请勿删除列表中未列出的文件夹
 
-If you delete minecraft, mcguis or mcicons folders some parts of the plugin may stop working.
+如果删除 minecraft、mcguis 、 mcicons 文件夹，插件的某些功能将会失效
 {% endhint %}
 

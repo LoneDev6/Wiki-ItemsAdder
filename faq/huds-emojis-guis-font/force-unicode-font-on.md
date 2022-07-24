@@ -1,6 +1,6 @@
-# 🈁 Force Unicode Font: ON
+# 强制 Unicode Font: ON
 
-## Read here:
+## 阅读此页面:
 
 {% content-ref url="../../plugin-usage/adding-content/fonts/thin-font-force-unicode.md" %}
 [thin-font-force-unicode.md](../../plugin-usage/adding-content/fonts/thin-font-force-unicode.md)

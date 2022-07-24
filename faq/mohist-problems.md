@@ -1,8 +1,8 @@
-# Mohist problems
+# Mohist 核心的一些问题
 
 {% hint style="warning" %}
-Note: Mohist is an unofficial mod and may break plugins.\
-I didn't code the plugin with official Mohist compatibility just because it's not something that straightforward.
+提醒：
+Itemsadder 并没有特地的为 Mohist 核心进行一些兼容性操作，所以可能 Itemsadder 会出些一些不知名的错误
 {% endhint %}
 
 ```
@@ -27,9 +27,9 @@ at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:315) 
 ... 14 more
 ```
 
-## How to fix this issue
+## 如何修复该错误
 
-Open **ProtocolLib** `config.yml` file and set this option to false.
+打开 **ProtocolLib** 的 `config.yml` 文件并将下列选项设置为 false
 
 {% code title="config.yml" %}
 ```yaml

@@ -1,10 +1,9 @@
 ---
 描述: >-
-  Single resourcepack in Bungeecord network and disable individual features per
-  server
+  在群组服务器中使用一个资源包，并且允许在子服中保留特定的自定义内容
 ---
 
-# Single resourcepack Bungeecord different features
+# 使用一个资源包且在群组中的每个子服拥有不同的特色**（保留某些自定义内容）**
 
 该教程由 [@itsmemac](https://github.com/LoneDev6/Wiki-ItemsAdder/pull/35) 编写
 
@@ -14,13 +13,12 @@
 
 **步骤 1**
 
-创建一个本地服务器来制作你
-Create the final pack for your server locally which includes everything you would need in your entire network (every item, GUI, mob, emoji, etc...).\
-To do that you have to create a local Spigot server on your PC where you will configure everything you want.
+创建一个本地服务器来制作你 **整个群组服务器** 的所需要的资源包（物品，GUI，怪物，表情，等等...）.\
 
 **步骤 2**
 
 在所有子服中将 ItemsAdder 的 hosting 设置为 `no-host`，并将默认预置包生成关闭
+
 <br>设置如下：
 
 {% code title="config.yml" %}
@@ -39,33 +37,33 @@ To do that you have to create a local Spigot server on your PC where you will co
 
 **步骤 4**
 
-Use plugin like [**Force resourcepack**](https://www.spigotmc.org/resources/force-resourcepacks.10499/) or similar in your bungee to load the the resource pack when you enter the network.
+使用类似 [**Force resourcepack**](https://www.spigotmc.org/resources/force-resourcepacks.10499/) 的资源包加载插件
 
 **步骤 5**
 
-Copy `ItemsAdder.jar` and the whole `ItemsAdder` plugin folder from local Spigot server to the first network server (for example `lobby`) to your `/plugins` folder.
+将 `ItemsAdder.jar` 和整个 `ItemsAdder` 文件夹从本地服务器复制到登录服（例如 `lobby`）的 `/plugins` 文件夹中
 
 **步骤 6**
 
-Open the config.yml of ItemsAdder and disable the features you don't need.\
-Also remove unwanted files from `plugins/ItemsAdder/data/items_packs` .
+打开 ItemsAdder 的 config.yml 并禁用不需要的功能.\
+并且删除 `plugins/ItemsAdder/data/items_packs` 中不需要的文件.
 
 {% hint style="danger" %}
-DONT REMOVE dictionaries, mcemojis, mcguis, mcicons, realcraft, various\_configs FOLDER.\
-Read more here: [Removing default stuff](removing-default-stuff/)
+请不要删除 **dictionaries, mcemojis, mcguis, mcicons, realcraft, various\_configs** 文件夹.\
+<br>（此为预置内容，你也可以选择自行创建）
+<br>更多详情请阅读: [删除默认内容](removing-default-stuff/)
 {% endhint %}
 
-You basically have to keep the folders of features you want to keep in this particular server (`lobby` in this example).
+你需要保留你想留在该子服的自定义内容的文件夹（items_packs文件夹中的内容）
+<br>(`lobby` 为本次示例的子服).
 
 **步骤 7**
 
-Restart the server and join it. The server should ask you to download resource pack.\
-You will then see only the items you have left in the `items_packs` folder.
+重启服务器并进入游戏.接受服务器资源包后，你会发现就只剩下你留在 `items_packs` 文件夹中的物品
 
 **步骤 8**
 
-Redo the 步骤 5,6,7 for each server you have in your network.
-每个子服重复步骤5,6,7
+将群组中的每个子服重复 5,6,7 步骤
 
 {% hint style="info" %}
 使用 **BungeePackFix**  插件不需要阅读此教程

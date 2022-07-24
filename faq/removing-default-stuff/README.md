@@ -1,2 +1,2 @@
-# 🗑 Removing default stuff
+# 🗑 移除预置内容
 

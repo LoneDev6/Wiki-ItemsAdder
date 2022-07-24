@@ -1,10 +1,11 @@
 ---
-description: Edit default minecraft json files and predicates.
+描述: 编辑默认的 minecraft json 文件以及 predicates.
 ---
 
-# Can't edit minecraft default files
+# 无法编辑 minecraft 的默认文件
 
-To edit default minecraft json files you have to set this setting to `false` in `config.yml` of **ItemsAdder**.
+如果你想编辑 Minecraft的默认文件
+请在 **ItemsAdder** 的 `config.yml` 中将此设置设置为 `false`
 
 ```yaml
 overwrite-vanilla-models: false

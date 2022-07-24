@@ -1,46 +1,45 @@
 ---
-description: Disable red scoreboard numbers
+描述: 隐藏计分板右侧的数字
 ---
 
-# Hide Scoreboard numbers (1.17+)
+# 隐藏计分板右侧的数字 (1.17+)
 
-## Scoreboard numbers
+## 计分板数字
 
-Some servers use the scoreboard to show custom data and they don't use the red numbers, they just look awful in most of the servers.
+许多服务器都有使用计分板插件，但是其右侧的红色数字对于整体效果来说非常不美观，我们可以将其隐藏
 
 ![Without ItemsAdder](<../../.gitbook/assets/immagine (131).png>)
 
 ![With ItemsAdder](<../../.gitbook/assets/immagine (130).png>)
 
-## Limitations
+## 局限性
 
 {% hint style="danger" %}
-### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+### 该特性只适用于 **Minecraft 1.17+** 客户端，与服务器核心版本无关
 {% endhint %}
 
 {% hint style="warning" %}
-### Warning:
+### 提醒:
 
-Using <mark style="color:red;">**RED**</mark> (<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches**.\
-This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.\
-
-
-### How to use <mark style="color:red;">`&c`</mark> color without issues?
-
-You can change your text color from <mark style="color:red;">`&c`</mark> to <mark style="color:red;">`{#ff5546}`</mark>, it's the same color but it won't be bugged.
+使用 <mark style="color:red;">**红色**</mark> (<mark style="color:red;">**\&c**</mark>) 颜色代码会导致 **某些错误**.\
+当计分板右侧有红色文本，并且将界面比例（客户端视频设置中）设置为1或3时，就会出现如下图错误.\
 
 
+### 如何避免出现错误的使用 <mark style="color:red;">`&c`</mark> 颜色代码
 
-Another way to fix this is to **add some spaces at the end** of your red text to avoid this.
+你可以将 <mark style="color:red;">`&c`</mark> 颜色代码换另一种方式表达，与 `&c` 相同的颜色代码为 <mark style="color:red;">`{#ff5546}`</mark>, 该方式不会出现图中错误.
+
+
+或者你可以在 **使用 `&c` 的文本后加一些空格**，来避免该问题的出现.
 {% endhint %}
 
 ![](<../../.gitbook/assets/immagine (140).png>)
 
-## How to hide them?
+## 如何隐藏
 
-ItemsAdder **2.4.19** allows you to hide the scoreboard numbers.
+ItemsAdder **2.4.19+** 支持一键隐藏计分板数字
 
-To do that you have to enable the feature in `config.yml` and run **/iazip**.
+你只需要打开 `config.yml` 进行如下设置并且使用 **/iazip** 即可
 
 ```yaml
 effects:
@@ -48,8 +47,9 @@ effects:
 ```
 
 {% hint style="warning" %}
-### Warning
+### 提醒
 
-this option is definitive and cannot be turned on/off in-game.\
-You will have to disable it in the `config.yml` and run `/iazip` again if you want to show the numbers.
+该选项无法在游戏中进行更改.\
+要想关闭隐藏计分板数字，你需要重新在 `config.yml` 中设置并且使用 **/iazip**
+
 {% endhint %}

@@ -1,16 +1,17 @@
-# 2D icons for blocks/furniture
+# 为你的方块/家具应用2d图标
 
 {% hint style="warning" %}
-This feature requires **ItemsAdder 3.1.6+**
+版本需求：
+**ItemsAdder 3.1.6+**
 {% endhint %}
 
 {% embed url="https://youtu.be/FOLoAAjV_oI" %}
 
 ## Block
 
-### Step 1
+### 步骤 1
 
-Create the 2D icon for the block
+为你的方块制作2D图标
 
 {% hint style="info" %}
 Replace `my_items` with your [namespace](basic-concepts/namespace/#namespace)!
@@ -39,11 +40,12 @@ items:
             decrement_amount: true
 ```
 
-Now create the `rocks.png` file inside the folder `data\resource_pack\assets\my_items\textures\item`
 
-### Step 2
+现在在文件夹 `data\resource_pack\assets\my_items\textures\item` 中创建 `rocks.png` 文件
 
-Create the item which shows the placed rock model. It is a different item form the one you see in the inventory (the one created in the **step 1**).
+### 步骤 2
+
+Create the item which shows the placed rock model. It is a different item form the one you see in the inventory (the one created in the **步骤 1**).
 
 ```yaml
   rocks_placed:
@@ -76,7 +78,7 @@ Now try to right click with the `rocks` item and you will see it places the `roc
 
 ## Furniture
 
-### Step 1
+### 步骤 1
 
 Create the 2D icon for the furniture
 
@@ -106,9 +108,9 @@ items:
 
 Now create the `2d_furniture.png` file inside the folder `data\resource_pack\assets\my_items\textures\item\`
 
-### Step 2
+### 步骤 2
 
-Create the item which shows the placed furniture model. It is a different item form the one you see in the inventory (the one created in the **step 1**).
+Create the item which shows the placed furniture model. It is a different item form the one you see in the inventory (the one created in the **步骤 1**).
 
 ```yaml
   furniture:
@@ -137,6 +139,8 @@ Create the item which shows the placed furniture model. It is a different item f
 
 Now create the `furniture.json` file inside the folder `data\resource_pack\assets\my_items\models\decoration\`
 
-### Done!
+### 完成!
 
 Now try to right click with the `2d_furniture` item and you will see it places the `furniture` model.
+现在尝试右键单击 `2d_furniture` 项目，您会看到它放置了 `furniture` 模型。
+现在你右键 `2d_furniture` 这个物品，将会放置 `furniture` 的模型

@@ -1,32 +1,31 @@
 ---
-description: Square character
+描述: ☐ 字符
 ---
 
-# ☐ characters
+# ☐ 字符
 
-## I see ☐ character after uninstalling Custom ESC addon
+## 卸载自定义 ESC 界面附属后显示 ☐ 
 
 {% hint style="info" %}
-This is useful to uninstall [Custom ESC addon](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
+有关于 [Custom ESC addon](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/) 卸载后出现的问题的帮助
 {% endhint %}
 
-You have to delete this folder lang folder: `data\resource_pack\assets\minecraft\lang`
+你只需要将此文件夹删除：`data\resource_pack\assets\minecraft\lang`
 
-Then run `/iazip` command.
+然后使用指令 `/iazip` 
 
 ![](<../../.gitbook/assets/immagine (150).png>)
 
-## I see ☐ instead of my emojis/ranks
+## 导入的表情和图像显示为 ☐
 
 {% hint style="warning" %}
-Make sure to run `/iazip` and reupload the resourcepack if needed.
+确保使用指令 `/iazip` 进行压缩资源包
+并重新上传资源包至云端
 
-Read more here: [resourcepack hosting](../../plugin-usage/resourcepack-hosting/)
+更多详情阅读: [资源包托管方式](../../plugin-usage/resourcepack-hosting/)
 {% endhint %}
 
 {% hint style="warning" %}
-Make sure `y_position` property is not greater than the image height in pixels.
-
-Minecraft doesn't support this, it won't work.
+确保 `y_position` 属性不大于图像高度（以像素为单位）
 {% endhint %}
 

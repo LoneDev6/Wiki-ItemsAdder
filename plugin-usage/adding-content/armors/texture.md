@@ -1,5 +1,5 @@
 ---
-description: Custom on-body armor texture
+描述: 自定义盔甲材质
 ---
 
 # Texture
@@ -36,6 +36,7 @@ armors_rendering:
 This is a configuration which specified how the game will show the armor ingame.
 
 {% hint style="warning" %}
+
 You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
 {% endhint %}
 

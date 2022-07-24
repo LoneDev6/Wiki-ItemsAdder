@@ -51,7 +51,7 @@ Take my values as example.
 **chunk\_chance**: 区块中生成自定义矿物的几率. （越稀有的矿石设置的数值越低）\
 
 {% hint style="warning" %}
-<mark style="color:red;">**Old ItemsAdder**</mark> versions before **3.1.6** used these properties instead:\
+<mark style="color:red;">**旧版 ItemsAdder**</mark> **3.1.6** 之前的版本使用下列属性代替：\
 `chunk_veins` -> `iterations`
 
 `vein_blocks` -> `amount`

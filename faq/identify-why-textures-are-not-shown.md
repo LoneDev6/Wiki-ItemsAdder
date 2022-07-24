@@ -1,15 +1,16 @@
-# 🔍 Identify why textures are not shown
+# 🔍 检查材质不显示的原因
 
-### Enable output log
+### 启用输出日志
 
 ![](<../.gitbook/assets/immagine (135).png>)
 
-### Join the server and read the log
+### 加入服务器并查看日志
 
 ![](<../.gitbook/assets/immagine (136) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 
-### Find out which file is broken
+### 找出损坏的文件
 
-You can clearly see which files failed to load and why, the errors are clear in most of the cases.\
-In this example i had two broken files `gem_vending_machine` and `whitebathroom_sink`. \
-The error tells me that the json files are broken, they probably have bad characters inside or they are corrupted.
+
+你可以非常容易的看出哪些文件加载失败以及失败的原因，在大多数情况下，这些错误都是显而易见的.\
+<br>从示例中的截图中你可以发现 出现问题的文件为 `gem_vending_machine` 和 `whitebathroom_sink`.\
+<br>该错误显示 json 文件已损坏，其文件中可能包含错误字符或已经损坏.

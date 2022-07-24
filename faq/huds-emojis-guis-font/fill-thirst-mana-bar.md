@@ -1,23 +1,24 @@
-# 💧 Thirst/mana bar
+# 口渴值/法力值
 
 ## Fill them
 
-To fill the thirst bar use `/iaplayerstat write LoneDev thirst float 10`
+恢复口渴值 `/iaplayerstat write LoneDev thirst float 10`
 
-![](<../../.gitbook/assets/immagine (2).png>)
+![](../.gitbook/assets/immagine%20%281%29.png)
 
-To fill the manabar use `/iaplayerstat write LoneDev mana float 5`
+恢复法力值 `/iaplayerstat write LoneDev mana float 5`
 
-![](<../../.gitbook/assets/immagine (3).png>)
+![](../.gitbook/assets/immagine.png)
 
-## Disable thirst
+## 关闭口渴值
 
-* open plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml
-* set enabled: false
-* use /iareload command
+* 打开 `plugins\ItemsAdder\data\items\_packs\realcraft\huds.yml`
+* 设置 `enabled: false`
+* 使用命令 /iareload 
 
-## Disable mana
+## 关闭法力值
 
-* open plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml
-* set enabled: false
-* use /iareload command
+* 打开 `plugins\ItemsAdder\data\items\_packs\magiccraft\huds.yml`
+* 设置 `enabled: false`
+* 使用命令 /iareload 
+

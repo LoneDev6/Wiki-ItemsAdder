@@ -1,6 +1,6 @@
-# I can't find any mineral/ore
+# 无法找到任何新增的矿物
 
-## Common causes of this can be:
+## 可能造成该问题的原因:
 
 * you are searching ores in a **pregenerated world**. Ores will spawn only on new generated chunks \(generated after ItemsAdder installation\). In future updates I will add an option to generate ores also on pregenerated chunks \(example: WorldBorder\).
 * you are searching ores around **spawn location**. Please try to **teleport far** from **spawn**
