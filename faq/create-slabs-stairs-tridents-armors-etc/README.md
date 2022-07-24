@@ -1,12 +1,11 @@
 # Create slabs, stairs, tridents, armors...
 
-### Placeable
+### 可放置的自定义台阶、楼梯
 
 {% hint style="warning" %}
-You can't create solid custom slabs, stairs and solid placeable items other than blocks. Problem is that Minecraft would show them as transparent blocks because of this limitation: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) \
-You'll be able to create custom shaped blocks when Mojang will add this feature: a special tag that can be turned on or off, now it's always on. **"Opaque"**.
-
-Another reason is that I can't change hitbox of blocks.. sadly another Minecraft limitation.
+ 除了方块以外无法创建具有碰撞箱的自定义台阶，楼梯和可放置的物品.
+ 问题是Minecraft会因为这个[bug](https://bugs.mojang.com/browse/MC-54254)会将其显示为透明方块（如果想实现自定义台阶、楼梯必须得等mojang修复该bug）
+ 还有另一个重要的原因是由于Minecraft的限制 无法更改方块的碰撞箱
 {% endhint %}
 
 ### Tridents
