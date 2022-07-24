@@ -34,18 +34,18 @@
 
 禁用config中包含该Ia物品的合成配方
 
-### 删除整个Namespace[包括内含物品]
+### 删除整个Namespace[命名空间][包括内含物品]
 
 `/iaconfig namespace delete <namespace>`
 
 权限: `ia.admin.iaconfig.namespace.delete`
 
-"完全"删除整个Namespace,当然包括内含物品,以及合成配方
+"完全"删除整个Namespace[命名空间],当然包括内含物品,以及合成配方
 
-### 禁用整个Namespace
+### 禁用整个Namespace[命名空间]
 
 `/iaconfig namespace disable <namespace>`
 
 权限: `ia.admin.iaconfig.namespace.disable`
 
-禁用Namespace,当然包括内含物品,以及合成配方.
+禁用整个Namespace[命名空间],当然包括内含物品,以及合成配方.
