@@ -2,24 +2,22 @@
 描述: 自定义盔甲材质
 ---
 
-# Texture
+# 材质
 
 {% hint style="danger" %}
-The `vanilla_1_17` feature requires ItemsAdder 2.4.22+ and Minecraft 1.17.\
-It can't work on Minecraft 1.16 and previous versions.\
-To make 1.16 clients see the custom armors you can enable also the `optifine` attribute, this will allow old clients to see the armors anyway.
+使用 `vanilla_1_17` 功能 版本需求： ItemsAdder 2.4.22+ 以及 Minecraft 1.17+.\
+要使1.17以下的版本能够显示自定义盔甲，你可以开启 `optifine` 属性，这样子就能在新老客户端上都能显示自定义盔甲
+（ItemsAdder 可以自动将自定义盔甲添加到 1.16 及更低版本）
 {% endhint %}
 
 {% hint style="warning" %}
-If you see **bugged** textures and you have **Optifine** installed please [read here](../../../faq/armors-bugs/textures-broken-by-shaders-mod.md).
+当你使用了 **Optifine** 时仍然显示 **错误** 的材质 [请阅读该页面](../../../faq/armors-bugs/textures-broken-by-shaders-mod.md).
 {% endhint %}
 
-## Creating the armor renderer
+## 创建盔甲渲染器
 
 {% hint style="info" %}
-An armor renderer is a setting which contains the information how to show the armor ingame on the player body.
-
-Note: there can be only one armor renderer with per color.
+盔甲渲染器是一项包含如何在游戏中显示自定义盔甲信息的设置
 {% endhint %}
 
 ```yaml
@@ -33,11 +31,11 @@ armors_rendering:
     use_color: false
 ```
 
-This is a configuration which specified how the game will show the armor ingame.
+该配置指定了游戏将如何显示示例中的盔甲
 
 {% hint style="warning" %}
 
-You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
+即使不会显示在盔甲上,你也必须在盔甲渲染器中指定一个颜色! 因为颜色就像自定义盔甲的 ID.
 {% endhint %}
 
 `use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`. **** This option will also make the item (in inventory) not colored automatically anymore.
@@ -49,18 +47,18 @@ Now I create the two PNG files inside the `data/resource_pack/assets/myitems/tex
 ![](<../../../.gitbook/assets/image (45) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
-### HD armor textures
+### 高清盔甲材质
 
-You can create HD high resolution armors too!&#x20;
+你可以制作高分辨率的自定义盔甲&#x20;
 
-Just make sure they have the same proportions of the original.&#x20;
+只需要注意分辨率需要与原来的贴图大小具有相同的比例.&#x20;
 
-For example 64x32, 128x64, 256x128, 512x256..... <mark style="color:red;">it's very important! Size must be a power of 2.</mark>
+例如： 64x32, 128x64, 256x128, 512x256..... <mark style="color:red;">注意！！尺寸大小必须是2的倍数.</mark>
 {% endhint %}
 
-### Creating an armor piece
+### 制作一件盔甲
 
-For example let's create a chestplate (you will create the other pieces on your own, following the same method).
+例如：如下配置创建一个胸甲（你只需要按照相同的方法自行创建其他盔甲部件）
 
 ```yaml
   my_armor_chestplate:
@@ -92,21 +90,21 @@ Now I create the item texture and I put it inside the `data\resource_pack\assets
 
 ![](<../../../.gitbook/assets/image (42) (1) (1).png>)
 
-### Animated textures
+### 动态材质
 
-You can also create animated armors!
+你还可以制作动态的盔甲材质
 
 ![](../../../.gitbook/assets/ezgif-7-3b3a255fe802.gif)
 
-To create an animated armor you have to create an image with all the animation frames.
+要创建动态盔甲材质，你需要制作一张包含所有动画帧的贴图
 
-Each frame must be under the previous. This is an example this is a 3 frames animation:
+<br>每一帧必须在前一帧的下方， 如下是一个3帧动画的示例：
 
 ![layer\_1](<../../../.gitbook/assets/layer\_1 (1).png>)
 
 ![layer\_2](../../../.gitbook/assets/layer\_2.png)
 
-Now let's edit the rendering properties to support the animation.
+现在，让我们编辑盔甲渲染属性以支持动画
 
 ```yaml
 info:
@@ -121,9 +119,9 @@ armors_rendering:
       interpolation: true
 ```
 
-In this case I set `interpolation: true` because I want the animation to be smooth.
+你可以发现我设置了 `interpolation: true` 属性，该属性可以使得动画更加平滑
 
-Default speed is 24, but you can customize it until you find the right speed value:
+动画默认速度为 24，但是你可以自定义一个觉得合适的速度值，
 
 ```yaml
     animation:
@@ -131,10 +129,9 @@ Default speed is 24, but you can customize it until you find the right speed val
       interpolation: true
 ```
 
-### Emissive textures (glowing in the dark)
+### 发光材质
 
-You can also create emissive textures which glow in the dark. (You can make both animated and emissive textures at the same time!)
-
+你还可以为其盔甲设置发光材质（并且可以同时设置贴图动画以及发光材质）
 ```yaml
 info:
   namespace: myitems

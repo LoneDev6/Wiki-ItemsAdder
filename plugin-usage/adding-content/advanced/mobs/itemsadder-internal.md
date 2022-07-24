@@ -1,4 +1,4 @@
-# ItemsAdder internal
+# ItemsAdder 自定义怪物
 
 ## 创建你的第一个自定义怪物
 
