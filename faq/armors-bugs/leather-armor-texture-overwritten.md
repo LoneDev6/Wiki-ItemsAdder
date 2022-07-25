@@ -4,11 +4,8 @@
 
 ![](<../../.gitbook/assets/image (45) (1) (1).png>)
 
-Itemsadder 会自动覆盖皮革的原版材质来创建自定义盔甲，自定义盔甲是通过染色的皮革来实现的.
-通过染色的皮革来创建
-Custom armors are created using colored leather, but the default Minecraft leather armor texture doesn't look like a texture made of minerals.
-In some servers you might not need this feature at all and you could prefer to have the vanilla leather armor layers texture instead, or use your own custom one.
-在某些服务器中可能不需要该功能
+Itemsadder 会自动覆盖皮革的原版材质来创建自定义盔甲，自定义盔甲是通过染色的皮革来实现的.然而默认的皮革盔甲看上去不像任何一种矿物做成的.
+某些服务器里你可能根本不需要这个特性，并且你可能会想要使用原版的皮革材质或是自己的自定义材质
 ## 如何关闭该功能
 
 {% hint style="warning" %}
