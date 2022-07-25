@@ -30,4 +30,4 @@
 
 ## 鸣谢
 
-* 感谢 Andre\_601 提供 `ia_addon_banner` 
+* 感谢 Andre\_601 提供 `ia_addon_banner`  
