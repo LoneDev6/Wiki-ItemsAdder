@@ -1,4 +1,4 @@
-# Noteblocks (REAL\_NOTE)
+# 音符盒 (REAL\_NOTE)
 
 {% hint style="info" %}
 Already placed noteblocks (before ItemsAdder installation) may be shown with custom blocks textures.

@@ -6,9 +6,9 @@
       * `ia.user.ia`
     * /iarecipe
       * `ia.user.iarecipe`
-    * /iatexture (强行给自己安资源包)
+    * /iatexture (强制加载资源包)
       * `ia.user.iatexture`
-    * /iatexture all (强行给每个玩家安资源包)
+    * /iatexture all (强制所有人加载资源包)
       * `ia.user.iatexture.all`
     * 使用物品合成配方
       * `ia.user.recipe.PERMISSION` (如果需要全部物品的权限,你可以使用这个 `ia.user.recipe.*`)
@@ -27,7 +27,7 @@
         * `ia.user.image.chat`
       * 使用 **表情** 在 **指令** 中
         * `ia.user.image.command`
-      * 使用 **表情** 在 **提示牌** 中
+      * 使用 **表情** 在 **告示牌** 中
         * `ia.user.image.sign`
       * 使用 **表情** 在 **书** 中
         * `ia.user.image.book`
@@ -102,12 +102,12 @@
     * `ia.admin.iaplaysound`
   * /iacleancache
     * `ia.admin.iacleancache`
-  * /iahitbox (显示家具的hitbox)
+  * /iahitbox (显示家具的碰撞箱)
     * `ia.admin.iahitbox`
   * [/iaconfig](../commands/iaconfig.md)
     * ia.admin.iaconfig
 * 其他：
-  * 绕过不安材质踢出的权限
+  * 无视强制加载资源包（不加载资源包会被服务器踢出）
     * `ia.resourcepack.bypasskick`
   * 绕过玩家放置方块不能掉落
     * `ia.admin.bypassblockplaceloot`

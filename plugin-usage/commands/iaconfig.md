@@ -2,7 +2,7 @@
 
 ## 介绍
 
-### 在config中删除物品
+### 删除配置中的某个物品
 
 `/iaconfig item delete <item>`
 

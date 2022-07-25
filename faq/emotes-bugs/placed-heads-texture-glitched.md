@@ -8,13 +8,8 @@
 
 {% embed url="https://youtu.be/Gn7uzcSmjmU" %}
 
-该故障
-This bug happens if you have more than 1 player head of the same player in front of you.\
-This doesn't happen if you have different player heads in front of you or if you have only 1 head in front of you.
+当你在面前放置同一个玩家的头颅数量超过 1 个时就会出现该错误
+而如果你面前只放置一个玩家的头颅或者不同玩家的头颅则不会出现该错误
 
-This bug is also reproducible in **OriginRealms** server and will be reproducible with any other custom emotes system that will be released by other developers.\
-I probably can't fix this bug in any way because it's how the game rendering system works.
-
-I'll do my best to find a workaround but I doubt this game allows me to identify placed heads in order to fix that.
-
-解决该问题的唯一方法是在 **ItemsAdder** 的 `config.yml` 中禁用表情系统。
+在**OriginRealms（起源领域）** 中也出现了该错误，并且所有自定义表情的插件都可能出现该问题..
+该问题目前无法修复，因为这是游戏渲染的方式,想要避免该问题只能禁用表情系统

@@ -1,12 +1,10 @@
-# Optifine CIT not working
+# 使用 Optifine CIT 新增的自定义盔甲失效
 
-## Custom CIT not working correctly
+## 通过 CIT 新增的自定义盔甲失效
 
-If you created a custom CIT for leather armor it might not work.
+修复该问题，你需要为盔甲配置添加 `weight`（权重）属性，使 optifine 优先加载 cit 中的自定义盔甲
 
-In order to fix this you have to make sure to add the `weight` attribute to your custom CIT, this makes Optifine prioritize your CIT and it will load it correctly.
-
-Example:
+栗子:
 
 ```editorconfig
 type=armor

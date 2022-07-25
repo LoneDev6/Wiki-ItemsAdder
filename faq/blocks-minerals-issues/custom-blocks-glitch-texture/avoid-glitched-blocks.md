@@ -1,8 +1,8 @@
 ---
-description: Glitched blocks in some areas/custom worlds
+描述: Glitched blocks in some areas/custom worlds
 ---
 
-# Avoid glitched blocks
+# 防止方块材质错误
 
 ## Glitched blocks
 

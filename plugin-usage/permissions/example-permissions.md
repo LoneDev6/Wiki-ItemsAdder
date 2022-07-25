@@ -1,41 +1,42 @@
-# ↪ Example permissions
+# ↪ 示例权限
 
 ## 基础设置:
 
 * `ia.user.ia` (打开 `/ia` 菜单的权限)
-* `ia.user.ia.seeitem.*` (使用`/ia`在菜单中查看所有Ia物品)
+* `ia.user.ia.seeitem.*` (在`/ia`菜单中查看某Ia物品的权限)
 * `ia.user.iarecipe` (使用 `/iarecipe` )
 * `ia.user.recipe.*` (使用所有合成配方)
-* `ia.menu.seecategory.*` (使用`/ia`在菜单中查看所有Ia类别). 注意: This can change based on the items pack you downloaded. Category permission usually starts with `ia.menu.seecategory.` but some developers may have changed it.
+* `ia.menu.seecategory.*` (在`/ia`中查看某分类的权限). 注意: 该权限将以下载附属中的分类配置所决定，但通常格式为 `ia.menu.seecategory.XXXX`，但附属包的开发者可以自定该权限的格式，所以详情需要查看该附属的分类文件
 * `ia.user.image.gui` (使用 `/e` 来查看表情Gui)
 * `ia.user.image.hints` (在使用`/e`和TAB时补全表情符号)
-* `ia.user.image.chat` (可以使 `:smile:` 等显示在聊天栏里)
-* `ia.user.image.command` (可以使 `:smile:` 等显示在命令里)
-* `ia.user.image.sign` (可以使 `:smile:` 等显示在提示牌上)
-* `ia.user.image.book` (可以使 `:smile:` 等显示在书上)
-* `ia.user.image.use.*` (允许使用表情的权限)
+* `ia.user.image.chat` (允许使用表情在 聊天栏 )
+* `ia.user.image.command` (允许使用表情在 命令 中)
+* `ia.user.image.sign` (允许使用表情在 告示牌 上)
+* `ia.user.image.book` (允许使用表情在 书 上)
+* `ia.user.image.use.*` (允许使用某个表情)
 
-## 我可以在哪获得类别的权限？
+## 如何获取分类的权限
 
 {% hint style="info" %}
-### ItemsAdder 默认类别
+### ItemsAdder 默认分类
 
-打开此文件,找到所有的权限,查看类别:
+在此文件中你可以获取所有的分类以及权限
  `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 
-如果你想让玩家查看到ItemsAdder的默认类别,你只需要给`ia.menu.*`权限就可以.
+如果想让玩家查看默认的所有分类,给予`ia.menu.*`权限即可.
 {% endhint %}
 
 {% hint style="info" %}
-### 扩展类别
+### 扩展分类
 
-若你安装了[扩展 ](https://addons.plugin.ga/itemsadder/)你可以找到 `categories.yml` 在 `ItemsAdder\data\items_packs\ADDON`, 可能他们会把类别放在那儿,所以你也可以找到**权限**.
+若你安装了 [附属](https://addons.plugin.ga/itemsadder/) 通常附属包作者会将其分类放在 `ItemsAdder\data\items_packs\ADDON（附属名称）` 中找到  `categories.yml`
+<br>通常附属包作者会将分类放在 `categories.yml` 文件中，你可以从该分类中获取**权限**
 {% endhint %}
 
 {% hint style="info" %}
-### 创建类别
+### 创建分类
 
-创建类别?只需阅读此教程
+创建分类只需阅读此教程
 {% endhint %}
 
 
