@@ -1,10 +1,9 @@
 # 树叶与透明方块
 
 {% hint style="danger" %}
-### Tree blocks sometimes disappear and become air blocks
+### 树的方块在有的时候会消失或变成空气方块
 
-This is a know issue in CREATIVE mode as the client doesn't send some packets to the server.\
-这是创造模式下的一个已知问题，因为客户端不会向服务器发送某些数据包，请尝试在生存模式下进行操作
+这是创造模式下的一个已知问题，因为客户端不会向服务器发送某些数据包，请尝试在生存模式下进行操作.
 {% endhint %}
 
 {% hint style="danger" %}
