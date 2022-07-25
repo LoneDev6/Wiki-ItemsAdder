@@ -1,34 +1,34 @@
 ---
-描述: Glitched blocks in some areas/custom worlds
+描述: 在某些区域/自定义世界中方块材质显示错误
 ---
 
 # 防止方块材质错误
 
-## Glitched blocks
+## 错误方块
 
 {% hint style="info" %}
-This is only a graphical glitch, this state won't cause duplication bugs or similar.
+此问题为显示错误，不会导致出现重复或类似的错误
 {% endhint %}
 
 ![](<../../../.gitbook/assets/image (50) (1) (1) (1).png>)
 
-## Fix on Spigot/Paper
+## Spigot/Paper 的修复方法
 
 {% hint style="info" %}
-This is normal if you use REAL type to create custom blocks.\
-ItemsAdder uses mushroom blocks to create them.\
-ItemsAdder just checks some biomes to fix the glitched blocks to avoid using too much CPU.
+当你使用 REAL 类型来创建自定义方块出现该错误是很正常的.\
+ItemsAdder 使用蘑菇块来实现新增的自定义方块.\
+ItemsAdder 为了保证插件不导致服务器滞后产生延迟，只检查一些生物群系来判断是否需要修复错误的方块.
 {% endhint %}
 
 This fix works only for REAL blocks (mushrooms).\
-If you want to apply the fix to any biome you have to set `config.yml` like that:
+该修复方法仅适用于 REAL 类型（蘑菇块）.\
+如果你想使所有生物群系都修复错误方块，需要在 `config.yml` 进行如下设置：
 
 <details>
 
-<summary>Click here to expand</summary>
+<summary>点击展开</summary>
 
-This will basically enable the fix on each of the Minecraft overworld biomes.\
-Feel free to remove the ones you think that won't have any mushroom spawned, to avoid high CPU usage.
+该配置将会使每个群系对错误方块的修复,可以删除你认为不会生成蘑菇块的生物群系，来避免过多的占用服务器资源
 
 {% code title="config.yml" %}
 ```yaml
@@ -116,26 +116,26 @@ Feel free to remove the ones you think that won't have any mushroom spawned, to 
 
 </details>
 
-### Another solution
+### 其他解决办法
 
-Another solution is to avoid using `REAL` custom blocks type (mushroom) and use `REAL_NOTE` custom blocks type.\
-`REAL_NOTE` uses Noteblocks to create custom blocks, so you won't have this issue.
+避免使用 `REAL` 自定义方块类型（蘑菇块）更换为 `REAL_NOTE` 自定义方块类型.\
+因为 `REAL_NOTE` 使用 **音符盒** 来创建自定义方块，所以避免了该问题的出现
 
-## Advanced fix on Purpur
+## Purpur 的高级修复
 
 {% hint style="warning" %}
-#### This only works on [Purpur](https://purpur.pl3x.net).
+#### 该解决方式只适用于 [Purpur](https://purpur.pl3x.net).
 
-#### Spigot and Paper don't have this feature.
+#### Spigot 与 Paper 不具有该功能
 {% endhint %}
 
-Enable these options in **purpur.yml** configuration:
+在 **purpur.yml** 配置中启用下列选项：
 
 * [https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates](https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates)
 * [https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates](https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates)
 * [https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates](https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates)
 
-**Example:**
+**栗子:**
 
 ```yaml
   blocks:

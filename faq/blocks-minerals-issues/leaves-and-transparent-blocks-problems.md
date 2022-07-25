@@ -11,7 +11,8 @@
 
 该bug是已知的，但修复该bug会占用大量服务器资源，造成严重的延迟以及性能滞后.\
 \
-Details:\
-As you already know Minecraft is not that great and most of the cool features require a lot of hacks to be implemented.\
-One of these are custom blocks. To fix this water bug I'd have to listen to the water flowing event and check if every block around the water is a custom block. This event is called a looooooot of times in midsized server and I can't make the plugin lag everything.
+详细原因:\
+在利用minecraft的原版特性达到一些很酷的效果，需要大量的编写代码.\
+其中一项就是自定义方块，要修复该问题，需要监听水流事件，并判断每个水流的附近是否为自定义方块.\
+该事件需要消耗大量的服务器资源,为了避免服务器产生较大的延迟，不得不放弃修复该错误.\
 {% endhint %}
