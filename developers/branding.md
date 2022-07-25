@@ -29,5 +29,5 @@
 * 该图像资源只能表明附属/插件基于 Itemsadder
 
 ## 鸣谢
-
+ 
 * 感谢 Andre\_601 提供 `ia_addon_banner`  
