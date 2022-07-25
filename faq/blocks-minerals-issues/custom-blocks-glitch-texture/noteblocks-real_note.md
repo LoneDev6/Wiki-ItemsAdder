@@ -1,8 +1,8 @@
 # 音符盒 (REAL\_NOTE)
 
 {% hint style="info" %}
-Already placed noteblocks (before ItemsAdder installation) may be shown with custom blocks textures.
+在安装 Itemsdder 之前放置的音符盒，可能会显示为自定义方块的材质
 
 \
-This is only a graphical glitch and will be fixes as soon as you make the noteblocks play (interacting or using redstone).
+这只是一个显示的错误，在你使用（交互或使用红石）音符盒后将会自动修复该错误
 {% endhint %}
