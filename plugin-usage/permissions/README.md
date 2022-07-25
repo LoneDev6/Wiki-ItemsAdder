@@ -19,7 +19,7 @@
       * `ia.user.ia.search` 可以查询 `/ia` 中的物品
       * 可按类别来给予权限,详细查阅[/ia GUI ](../ia.md)
     * 表情 (font图像)
-      * **/iaimage /emoji, /iaemoji, /e** Gui (可显示出带有所有  表情/font 的书)
+      * **/iaimage /emoji, /iaemoji, /e** Gui (可显示出带有所有"表情/font"的书)
         * `ia.user.image.gui`
       * **/iaimage** **/emoji \<text>, /iaemoji \<text>, /e \<text>** (可根据搜索显示出带有表情的列表)
         * `ia.user.image.hints`
