@@ -1,39 +1,38 @@
 ---
-description: Merge other resourcepacks (also custom plugins resourcepacks)
+描述: 合并资源包（同为自定义资源包的插件）
 ---
 
-# 🗃 Merge resourcepacks
+# 🗃 合并资源包
 
-## Why merging?
+## 为什么要合并资源包
 
-**Minecraft** supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
+**Minecraft** 仅支持应用 **一个服务器资源包** ，所以你需要将所有带有自定义资源包功能插件的资源包进行合并.
 
-## How to merge?
+## 如何合并资源包
 
-### Step 1
+### 步骤 1
 
-Copy the `assets` folder of your resourcepack.
+复制需要合并的资源包中的 `assets` 文件夹
 
-### Step 2
+### 步骤 2
 
-Paste the `assets` folder of your resourcepack inside the **ItemsAdder** folder: `plugins\ItemsAdder\data\resource_pack\`
+将资源包的 `assets` 文件夹粘贴至 **ItemsAdder** 文件夹中：`plugins\ItemsAdder\data\resource_pack\`
 
-### Step 3
+### 步骤 3
 
-Open `config.yml` of **ItemsAdder** and set this option:
+打开 **ItemsAdder** 的 `config.yml` 并设置下列属性：
 
 ```yaml
 overwrite-vanilla-models: false
 ```
 
-### Step 4
+### 步骤 4
 
-Use the `/iazip` command to compress the ItemsAdder resourcepack.\
-(Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided)
+使用指令 `/iazip` 生成新的 Itemsadder 资源包 ，并上传至云端
 
-### Done.
+### 完成.
 
-## Examples
+## 栗子
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/modelengine.md" %}
 [modelengine.md](../../compatibility-with-other-plugins/compatible/modelengine.md)

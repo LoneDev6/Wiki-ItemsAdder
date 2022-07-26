@@ -5,7 +5,7 @@
 * `ia.user.ia` (打开 `/ia` 菜单的权限)
 * `ia.user.ia.seeitem.*` (在`/ia`菜单中查看某Ia物品的权限)
 * `ia.user.iarecipe` (使用 `/iarecipe` )
-* `ia.user.recipe.*` (使用所有合成配方)
+* `ia.user.recipe.*` (允许使用全部合成配方)（将 * 替换为任意物品id即特指该物品的合成配方）
 * `ia.menu.seecategory.*` (在`/ia`中查看某分类的权限). 注意: 该权限将以下载附属中的分类配置所决定，但通常格式为 `ia.menu.seecategory.XXXX`，但附属包的开发者可以自定该权限的格式，所以详情需要查看该附属的分类文件
 * `ia.user.image.gui` (使用 `/e` 来查看表情Gui)
 * `ia.user.image.hints` (在使用`/e`和TAB时补全表情符号)
@@ -13,7 +13,7 @@
 * `ia.user.image.command` (允许使用表情在 命令 中)
 * `ia.user.image.sign` (允许使用表情在 告示牌 上)
 * `ia.user.image.book` (允许使用表情在 书 上)
-* `ia.user.image.use.*` (允许使用某个表情)
+* `ia.user.image.use.*` (允许使用全部表情)（将 * 替换为任意表情名称即特指该表情的使用权限）
 
 ## 如何获取分类的权限
 

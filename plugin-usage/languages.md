@@ -4,30 +4,30 @@
 
 ```
 GUI: 
-    Chinese zh_cn
-    Czech cz
-    German de
-    English en
-    Spanish es
-    French fr
-    Italian it
-    Japanese jp
-    Korean ko
-    Dutch nl
-    Polish pl
-    Portuguese pt
-    Russian ru
-    Turkish tr
-    Thai th
+    简体中文 zh_cn
+    捷克语 cz
+    德语 de
+    英语 en
+    西班牙语 es
+    法语 fr
+    意大利语 it
+    日语 jp
+    韩语 ko
+    荷兰语 nl
+    波兰语 pl
+    葡萄牙语 pt
+    俄语 ru
+    土耳其语 tr
+    泰语 th
 
 Items: 
-    Chinese zh_cn
-    Spanish es
-    French fr
-    Italian it
-    Portuguese pt
-    Russian ru
-    Turkish tr
+    简体中文 zh_cn
+    西班牙语 es
+    法语 fr
+    意大利语 it
+    葡萄牙语 pt
+    俄语 ru
+    土耳其语 tr
 ```
 
 ### 如何设置语言

@@ -11,15 +11,15 @@
     * /iatexture all (强制所有人加载资源包)
       * `ia.user.iatexture.all`
     * 使用物品合成配方
-      * `ia.user.recipe.PERMISSION` (如果需要全部物品的权限,你可以使用这个 `ia.user.recipe.*`)
+      * `ia.user.recipe.PERMISSION` (如果需要给予全部物品合成权限,请给予权限 `ia.user.recipe.*`)
       * 关于权限的更多信息,请[查阅此处](../adding-content/item-properties/basic/item-permission.md)
     * 使用 `/ia` 物品显示
-      * `ia.user.ia.seeitem.PERMISSION` (若你需要给予全部物品的权限,你可以考虑这个 `ia.user.ia.seeitem.*`)
+      * `ia.user.ia.seeitem.PERMISSION` (若你需要给予查看全部物品的权限,请给予权限 `ia.user.ia.seeitem.*`)
       * 关于更多物品的权限,请[查阅此处](../adding-content/item-properties/basic/item-permission.md)
       * `ia.user.ia.search` 可以查询 `/ia` 中的物品
-      * 可按类别来给予权限,详细查阅[/ia GUI ](../ia.md)
+      * 可按分类来给予权限,详细查阅[/ia GUI ](../ia.md)
     * 表情 (font图像)
-      * **/iaimage /emoji, /iaemoji, /e** Gui (可显示出带有所有"表情/font"的书)
+      * **/iaimage /emoji, /iaemoji, /e** Gui (即可显示全部 `表情&图像` 的书本界面)
         * `ia.user.image.gui`
       * **/iaimage** **/emoji \<text>, /iaemoji \<text>, /e \<text>** (可根据搜索显示出带有表情的列表)
         * `ia.user.image.hints`
@@ -109,12 +109,12 @@
 * 其他：
   * 无视强制加载资源包（不加载资源包会被服务器踢出）
     * `ia.resourcepack.bypasskick`
-  * 绕过玩家放置方块不能掉落
+  * 无视玩家放置的方块无法掉落
     * `ia.admin.bypassblockplaceloot`
 
 {% hint style="warning" %}
-你 **可能需要** 使用像 [LuckPerms](https://luckperms.net/download) 可以支持后缀为 `.*` 的权限\
-因为Bukkit在默认情况下并不会支持.
+你 **可能需要** 使用像 [LuckPerms](https://luckperms.net/download) 支持后缀为 `.*` 的权限插件\
+因为 Bukkit 在默认情况下并不支持该权限后缀
 {% endhint %}
 
 ## Worlguard flags

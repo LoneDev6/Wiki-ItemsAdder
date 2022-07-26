@@ -1,6 +1,6 @@
-# 📥 Self hosting
+# 📥 Self hosting（自托管）
 
-## Video tutorial
+## 视频教程
 
 {% embed url="https://www.youtube.com/watch?v=XoTwF4_HztU" %}
 
