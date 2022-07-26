@@ -1,12 +1,12 @@
-# Namespace
+# Namespace（命名空间）
 
-## Namespace
+## Namespace（命名空间）
 
 As you surely noticed ItemsAdder uses **namespaces** to identify most of the things it manages.\
 A **namespace** is a **group** of elements, in this case a group of **items**/**blocks**/**mobs**... \
 With namespaces you can easily understand where a particular **item**, **sound**, **block**.. comes from.
 
-### Example
+### 栗子
 
 All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 

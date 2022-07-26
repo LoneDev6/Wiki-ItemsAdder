@@ -1,6 +1,6 @@
-# items\_packs and resource\_pack
+# items\_packs 与 resource\_pack
 
-## What are these folders?
+## 这两个文件夹是用来做什么的？
 
 ### items\_packs
 

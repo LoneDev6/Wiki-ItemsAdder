@@ -4,7 +4,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=XoTwF4_HztU" %}
 
-## Info about self-hosting
+## 关于 自托管 的信息
 
 With ItemsAdder you can host the resourcepack directly on your server!\
 No need to pay for a website host and **no need to upload the pack every time you make a change!**
@@ -58,18 +58,19 @@ For example if my ip is `123.456.789.0` and my additional port is `8163`I will s
 ```
 
 {% hint style="warning" %}
-**pack-port** is not the same as your server port (the one your users use to connect).
+**pack-port** 与服务器端口（连接服务器的端口）不为同一端口
 {% endhint %}
 
 {% hint style="info" %}
-`127.0.0.1` means "**this pc**".\
+`127.0.0.1` 代表 "**本地连接**".\
+
 **So if you are testing the plugin on your PC** you can **leave default config** so plugin will look for the resourcepack zip directly in your PC.
 {% endhint %}
 
 {% hint style="danger" %}
-Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... or you won't see any change obviously.
+当你编辑了任何 **材质**，**模型**，**音效**... 别忘记使用 `/iazip` 来生成最新的资源包，否则将不会显示最新效果
 {% endhint %}
 
-### Last step
+### 最后一步
 
-After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
+配置好 `config.yml` 文件后，使用指令 `/iazip` 来生成最新资源包 并开始托管.

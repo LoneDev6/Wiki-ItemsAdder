@@ -6,25 +6,25 @@ coverY: 0
 
 # 📦 DropBox
 
-## Video tutorial
+## 视频教程
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
 
-## Text tutorial
+## 文字教程
 
-* Open [DropBox](https://dropbox.com/), register/login
+* 打开 [DropBox](https://dropbox.com/), 进行注册/登录
 * Use the command`/iazip` (**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file)
 * Open folder: `plugins/ItemsAdder/data/resource_pack/`
 * **Drag and drop** on **DropBox** the file **pack.zip**
-* Press **Share**
+* 点击 **Share**
 
 ![](<../../.gitbook/assets/immagine (20).png>)
 
-* Press **Create**
+* 点击 **Create**
 
 ![](<../../.gitbook/assets/immagine (21).png>)
 
-* Press **Copy link**
+* 点击 **Copy link**
 * For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
 * Open `config.yml` of **ItemsAdder**
 * Set it like this (**I used the example URL, please use your own**)
@@ -47,6 +47,7 @@ resource-pack:
 * **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
 
 {% hint style="danger" %}
+当你编辑了任何 **材质**，**模型**，**音效**... 别忘记使用 `/iazip` 来生成最新的资源包，否则将不会显示最新效果
 PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
 {% endhint %}
 

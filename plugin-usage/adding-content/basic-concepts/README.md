@@ -1,2 +1,2 @@
-# ℹ Basic concepts
+# ℹ 基本概念
 

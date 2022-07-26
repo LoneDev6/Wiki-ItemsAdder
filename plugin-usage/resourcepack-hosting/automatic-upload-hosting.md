@@ -1,6 +1,6 @@
 # 📤 Automatic external hosting
 
-## Video tutorial
+## 视频教程
 
 {% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" %}
 

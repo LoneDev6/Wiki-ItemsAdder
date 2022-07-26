@@ -5,7 +5,7 @@ coverY: 0
 
 # 🗂 Google Drive (1.17.1+)
 
-## How to use Google Drive
+## 如何使用 Google Drive
 
 {% hint style="warning" %}
 This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
@@ -13,23 +13,23 @@ This method has some problems on some PCs in Minecraft versions before 1.17 beca
 This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
 {% endhint %}
 
-### Step 1
+### 步骤 1
 
 Rightclick on your resourcepack zip file and press "Get link"
 
 ![](<../../.gitbook/assets/immagine (153) (1).png>)
 
-### Step 2
+### 步骤 2
 
 Important: set the permission to "Anyone with the link"
 
 ![](<../../.gitbook/assets/immagine (145).png>)
 
-Press "Copy link"
+点击 "Copy link"
 
 ![](<../../.gitbook/assets/immagine (149).png>)
 
-### Step 3
+### 步骤 3
 
 Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
 
@@ -37,7 +37,7 @@ Paste the link and press on "Get direct link"
 
 <img src="../../.gitbook/assets/immagine (144).png" alt="" data-size="original">
 
-### Step 4
+### 步骤 4
 
 The website automatically adds the generated link in your clipboard.
 
@@ -53,7 +53,7 @@ external-host:
 ```
 {% endcode %}
 
-### Done!
+### 完成!
 
 You can now see that the pack is correctly loaded by the game.
 

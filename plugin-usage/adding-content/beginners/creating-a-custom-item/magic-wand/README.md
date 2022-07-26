@@ -2,7 +2,7 @@
 
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
 
-## Example of fire magic wand
+## 栗子：火魔杖
 
 ```yaml
   advanced_magic_wand:

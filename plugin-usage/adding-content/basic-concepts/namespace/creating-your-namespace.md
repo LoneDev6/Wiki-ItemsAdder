@@ -1,4 +1,4 @@
-# Creating your namespace
+# 创建你的 namespace（命名空间）
 
 {% hint style="warning" %}
 If you don't know what I mean by **namespace** please read [namespace tutorial](./)
