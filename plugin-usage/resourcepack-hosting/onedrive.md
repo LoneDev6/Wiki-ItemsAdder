@@ -1,24 +1,24 @@
 # OneDrive
 
 {% hint style="warning" %}
-## Not recommended.
+## 不建议使用
 {% endhint %}
 
-### Step 1
+### 步骤 1
 
 ![](<../../.gitbook/assets/image (52) (1) (1) (1) (1).png>)
 
-### Step 2
+### 步骤 2
 
 ![](<../../.gitbook/assets/image (43) (1) (1).png>)
 
-### Step 3
+### 步骤 3
 
 ![](<../../.gitbook/assets/image (53) (1) (1).png>)
 
-### Step 4
+### 步骤 4
 
-Open `config.yml` of **ItemsAdder** and enable the `external-host` option for your new URL.
+打开 **ItemsAdder** 的 `config.yml` 将 url 填写至 external-host 属性中，记得将 external-host 设置为 `enabled: true`
 
 {% code title="config.yml" %}
 ```yaml
@@ -29,14 +29,12 @@ Open `config.yml` of **ItemsAdder** and enable the `external-host` option for yo
 ```
 {% endcode %}
 
-This is very important. Set it to true.
+此步骤非常重要，请将该属性设置为 `true`
 
 ```yaml
 skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
 ```
 
 {% hint style="warning" %}
-Keep in mind that it's a bit "risky" because the server cannot make sure the URL is valid.
-
-This can cause your players to be stuck on login phase if the URL is not valid or if OneDrive doesn't provide the direct download, sometimes it happens.
+有时候资源包链接会失效，当链接失效或 Onedrive 不提供直连链接，将会导致玩家卡在登录阶段，无法应用资源包
 {% endhint %}

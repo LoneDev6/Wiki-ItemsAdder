@@ -1,51 +1,51 @@
-# 📤 Automatic external hosting
+# 📤 Automatic external hosting（自动外部托管）
 
 ## 视频教程
 
 {% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" %}
 
-## What is automatic hosting?
+## 什么是自动托管？
 
-**ItemsAdder** allows you to automatically upload your resourcepack on a **free online service** with servers all over the world.
+**ItemsAdder** 会将资源包自动上传到具有世界各地服务器的 **免费的在线服务平台** 上
 
-Thanks a lot to [PloudOS ](https://ploudos.com/it/)which privides me their platform to host your resourcepacks for free!
+非常感谢 [PloudOS ](https://ploudos.com/it/)提供了免费的资源包托管平台
 
-## What are the advantages?
+## 有什么优势？
 
-The main advantage is download speed and availability.\
-This service allows your players to download the resourcepack very fast despite the country where they live (cloud based platform).
+主要优势为 下载速度快以及可用性
+<br>基于云服务,该服务能够使无论处于什么地区的玩家都可以非常快速地下载资源包
 
-## I already use self-host, is this better?
+## 该托管方式会比自托管更好吗？
 
 Depends.\
-It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continously run `/iazip`, to avoid losing time (read more [here](../tips-for-fastest-usage.md)).
+如果你正在制作资源包，需要不断地使用 `/iazip` 来生成最新的资源包查看制作的效果，建议使用 [self-host（主机自托管）](resourcepack-self-hosting.md),避免浪费时间
+<br>[详情阅读该页面](.. /tips-for-fastest-usage.md)
 
-When you've finished working on the pack you can safely start using the `auto-external-host` feature.\
-This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.
+当你完成资源包的制作后，你就可以放心的使用 `auto-external-host（自动外部托管）` 功能了.\
+这将减少服务器带宽的应用，因为资源包托管不在基于服务器主机.
 
-If your playerbase is all from the same country you can stick with `self-host`.
+当玩家群体都来自同一国家/地区时，你可以坚定的选择使用 `self-host`.
 
-## How to use it?
+## 如何使用？
 
-You just have to:
+你只需要：
 
-* enable `auto-external-host` in `config.yml`&#x20;
-* disable all the other hosting methods.
+* 在 `config.yml` 中启用 `auto-external-host`&#x20;
+* 并禁用其他的托管方式
 
 ```yaml
 auto-external-host:
   enabled: true
 ```
 
-### Last step
+### 最后一步
 
-Run `/iazip` to **compress** the **resourcepack**.\
-****The **plugin** will **upload it** online **automatically** (you will have to **accept the privacy policy** only the first time).
+使用指令 `/iazip` 来 **生成** 最新的 **资源包**.\
+插件会 **自动** 将 **资源包** 上传至 **在线服务平台** (首次使用需要 **接受隐私政策**).\
+至此便完成了 **资源包自动托管**
 
-**You're done!** Nothing else to do, enjoy your **free automated resourcepack hosting**.
-
-## Will my resourcepack be available online to random people?
+## 我的资源包会在网上随机提供给其他人吗？
 
 2021-08-16: \
-Your resourcepack won't be indexed on Google and won't be published in a list of resourcepacks.\
-Only people who know the link can download the pack.
+您的资源包不会在 Google 上编入索引，也不会发布在资源包列表中.\
+只有拥有链接的人才能下载该资源包.
