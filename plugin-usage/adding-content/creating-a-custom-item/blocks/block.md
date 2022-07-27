@@ -5,12 +5,12 @@
 ### 创建方块文件
 
 {% hint style="warning" %}
-该配置示例（记得将 `myitems` [命名空间 ](../../basic-concepts/namespace/) 更改为你想的名称）
+该配置为示例（记得将 `myitems` [命名空间 ](../../basic-concepts/namespace/) 更改为你想的名称）
 {% endhint %}
 
 例如，我创建了一个 **文件** ，该文件将包含所有的 **自定义方块**
 
-在这个文件中 (`blocks.yml`) 我创建一个名为 `red_block` 的自定义方块
+在该文件中 (`blocks.yml`) 我创建一个名为 `red_block` 的自定义方块
 
 ![](<../../../../.gitbook/assets/immagine (90).png>)
 

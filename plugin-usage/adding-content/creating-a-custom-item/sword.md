@@ -1,31 +1,31 @@
-# Sword
+# 自定义剑
 
 {% hint style="danger" %}
 ### 命名空间
 
-If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace/creating-your-namespace.md).
+如果你不知道该如何创建命名空间 [请阅读该页面]](../basic-concepts/namespace/creating-your-namespace.md).
 {% endhint %}
 
 {% hint style="danger" %}
-### Resourcepack hosting
+### 资源包托管
 
-Remember to **decide** a **resourcepack hosting** method **before** you **start**.\
-I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
+记得在开始操作前先决定你要适用的托管方式.\
+建议你使用 **self-host（主机自托管）** 比较简便快捷,当然你也可以选择第三方托管平台
 {% endhint %}
 
-## My first sword
+## 我的第一把自定义剑
 
-### Creating the swords file
+### 创建自定义剑的文件
 
 {% hint style="warning" %}
-This is an example sword (remember to change `myitems` [namespace ](../basic-concepts/namespace/)to the one you want).
+该配置为示例（记得将 `myitems` [namespace ](../basic-concepts/namespace/)更改为你想的名称）
 {% endhint %}
 
-For example I created a **file** which will contain all my **custom swords**:
+例如，我创建了一个 **文件** ，该文件将包含我所有新增的 **自定义剑**：
 
 ![](<../../../.gitbook/assets/immagine (16).png>)
 
-In this file (`myswords.yml`) I start creating a simple sword called `mysword`
+在该文件中 (`myswords.yml`) 我创建一个名为 `mysword` 的自定义剑
 
 ```yaml
 info:
@@ -39,21 +39,19 @@ items:
   
 ```
 
-## Item texture
+## 物品材质
 
-### Creating the texture file
+### 创建材质文件
 
-Now the fun part, let's set the sword texture.\
-To do that you have to put your sword `.png` texture file inside the correct folder.\
-In this case your **namespace** is `myitems` so you have to put it here:
+这是个有趣的部分，为物品设置材质,因此，你必须将 `.png` 材质文件放入正确的文件夹中.\
+在该示例中 **命名空间** 为 `myitems` 所以你需要将材质贴图放在该文件夹中:
 
 ![](<../../../.gitbook/assets/immagine (14).png>)
 
-### Applying the texture file to your item
+### 应用材质至物品
 
-Now open `myswords.yml` file again and add the `resource` part as I did.\
-As you can see I set `generate: true` and I set the textures for the item.\
-This tells the plugin to generate the 3D model automatically using your texture.
+打开 `myswords.yml` 并添加 `resource` 部分,并为物品设置源材质.\
+你可以发现我设置了属性 `generate: true` ，该属性会使插件使用自定义的材质生成模型.\
 
 ```yaml
 info:
@@ -73,14 +71,14 @@ items:
 
 ## 最后一步
 
-Now you just need to tell the plugin to load your just added item.\
-To do that you have to:\
-\- join the server\
-\- make sure you accepted the resourcepacks\
-\- use the command `/iazip`\
-\- if you're using external-host (DropBox) scroll down and follow the instructions.\
-\- get the item using `/iaget mysword`\
-\- DONE!
+现在要使插件加载你刚刚添加的自定义物品
+你需要进行如下操作:\
+\- 加入服务器\
+\- 确认你接受了服务器资源包\
+\- 使用指令 `/iazip`\
+\- 如果你使用的是 external-host（第三方托管（Dropbox,mcpacks）)请向下继续阅读并按照说明进行操作.\
+\- 使用指令 `/iaget mysword` 获取物品\
+\- 完成!
 
 ### 获取物品
 
