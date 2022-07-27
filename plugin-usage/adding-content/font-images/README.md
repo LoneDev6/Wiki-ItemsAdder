@@ -7,7 +7,8 @@
 
 ### 什么是 Font images?
 
-This feature allows you to create images that can be used to make:  **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
+该功能能够允许你创建自定义图像并且应用至 **GUIs**, **HUDs**, **表情**  自定义字符，以及你想得到的任何内容.
+<br>你可以将其应用在任何地方 使用实例： [ **自定义玩家称号**](../ranks-textures-tags.md) 
 
 {% hint style="warning" %}
 When you create a **font\_image** make sure the **background** is **not** fully **transparent**.\

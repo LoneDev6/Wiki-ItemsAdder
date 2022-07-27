@@ -1,14 +1,14 @@
-# 🎹 Music discs
+# 🎹 音乐唱片
 
-### Step 1 - create the sound
+### 步骤 1 - 创建音频
 
 {% content-ref url="./" %}
 [.](./)
 {% endcontent-ref %}
 
-### Step 2 - create the disc
+### 步骤 2 - 创建音乐唱片
 
-Create a new item in your namespace, this will be your music disc:
+在命名空间中创建一个新的物品，并进行如下设置：
 
 ```yaml
   music_disc_cdk_sunday:
@@ -28,5 +28,5 @@ Create a new item in your namespace, this will be your music disc:
           description: Cdk - Sunday
 ```
 
-As you can see I added a special behaviour called "music\_disc". This will tell Spigot server that this item is a custom music disc.\
-**name** is the sound to be played, you added it in the **step 1**
+你可以发现我添加了属性 `music\_disc`.该属性使其物品定义为自定义音乐唱片.\
+**name** 是在 **步骤1** 添加的音频，当玩家使用该唱片时将会播放 **name** 中的音频

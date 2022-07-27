@@ -1,10 +1,10 @@
 ---
-description: How to create a chair
+描述: How to create a chair
 ---
 
-# Creating a chair
+# 创建坐椅
 
-## Your first chair
+## 第一把椅子
 
 In order to create a chair you just have to follow the furniture creation tutorial and add a simple attribute to the furniture to make it sittable.
 

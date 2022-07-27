@@ -150,7 +150,7 @@ loots:
 ```
 
 {% hint style="info" %}
-### Custom mobs loots ([old entities method](mobs/old-method/))
+### 自定义怪物掉落物 [旧实体方法](mobs/old-method/))
 {% endhint %}
 
 In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
@@ -255,7 +255,7 @@ loots:
 ```
 
 {% hint style="warning" %}
-You have to enable this setting if you want to be able to get items from spawners by using an enchanted item with silktouch.
+如果你希望能够通过使用具有 **精准采集** 的附魔物品，从刷怪笼中获取物品，请启用该选项
 
 ```yaml
 loots:  

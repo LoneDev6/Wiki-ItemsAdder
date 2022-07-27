@@ -1,27 +1,27 @@
-# 🔊 Sounds
+# 🔊 自定义音频
 
-### Step 1
+### 步骤 1
 
 {% content-ref url="convert-sound-to-.ogg.md" %}
 [convert-sound-to-.ogg.md](convert-sound-to-.ogg.md)
 {% endcontent-ref %}
 
-* open **plugins\ItemsAdder\data\resource\_pack\assets** folder
-* open your **namespace** folder
-* create a new folder called **sounds**
+* 打开 **plugins\ItemsAdder\data\resource\_pack\assets** 文件夹
+* 打开你的 **命名空间** 文件夹
+* 创建一个名为 **sounds** 的文件夹
 * put your **.ogg** file in there (you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...)
 
 for example I have a file named **cdk\_sunday.ogg** and I put it into a new **music\_disc** folder.\
 So now I have `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`
 
-### Step 2
+### 步骤 2
 
-* open **plugins\ItemsAdder\data\resource\_pack\assets** folder
-* open your **namespace** folder
-* create a new file named `sounds.json` (or open it if you already created)
+* 打开 **plugins\ItemsAdder\data\resource\_pack\assets** 文件夹
+* 打开你的 **命名空间** 文件夹
+* 创建文件 `sounds.json` (如果你已经创建就打开)
 * this file is a json file, you MUST write it correctly or it won't work. If you need info about Json files please search online.
 
-To add your sound into the file you just have to do this:
+将音频添加至文件中，只需要进行以下操作：
 
 ```javascript
 {
@@ -51,6 +51,7 @@ Minecraft will play one of these sounds randomly (only if you set more than one 
 ```
 
 For example if you want to have random sounds for the same sound name you just have to create multiple .ogg files and put them like this:
+举个栗子：如果您想为相同的音频名称生成随机声音，您只需创建多个 .ogg 文件并将它们像这样放置：
 
 ```javascript
 "sounds":[
@@ -60,10 +61,10 @@ For example if you want to have random sounds for the same sound name you just h
 		]
 ```
 
-## How can I add multiple sounds in the sounds.json file?
+## 如何在 sounds.json 文件中添加多个音频？
 
-It's easy, the next time you want to add a sound you just have to add a comma at the end, like this.\
-(I'm referring to line 6 comma)
+当你想要添加新的音频时，你只需要在末尾加一个逗号.\
+（指的是第 6 行逗号）
 
 ```javascript
 {
@@ -81,5 +82,5 @@ It's easy, the next time you want to add a sound you just have to add a comma at
 ```
 
 {% hint style="warning" %}
-If you want to be sure not to make mistakes use this website to check if your Json file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
+如果你想避免错误，请使用此网站检查你的 json 文件中是否有错误: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 {% endhint %}

@@ -1,7 +1,7 @@
-# 🪑 Furniture
+# 🪑 家具
 
 {% hint style="warning" %}
-### Limitations of itemframes furnitures
+### 物品展示框显示家具的限制
 
 * solid itemframe furnitures are possible only on Server version >= 1.16 (client doesn't matter).
 * invisible itemframe furnitures are possible only on Server and Client version >= 1.16. \
@@ -9,9 +9,9 @@
 {% endhint %}
 
 {% hint style="warning" %}
-### Limitations of all furnitures
+### 所有家具的限制
 
 * non solid furnitures can't receive interact events, they can only be removed using mouse left click but cannot be interacted with (only solid furnitures can get interact events)
-* max size of the hitbox is 3x3x3 for performance reasons
+* 出于性能原因，hitbox（碰撞箱） 的最大尺寸为 3x3x3
 {% endhint %}
 

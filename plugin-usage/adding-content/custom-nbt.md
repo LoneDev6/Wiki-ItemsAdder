@@ -1,4 +1,4 @@
-# Custom NBT
+# 自定义 NBT
 
 ## Adding custom NBT attributes to the item
 
