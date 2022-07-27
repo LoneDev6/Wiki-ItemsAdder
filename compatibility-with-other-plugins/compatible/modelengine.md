@@ -20,4 +20,4 @@ overwrite-vanilla-models: false
 
 * 使用命令 `/iazip` (请按照你资源包 [托管方式](../../plugin-usage/resourcepack-hosting/) 进行更新
 
-Done!
+完成!
