@@ -14,7 +14,7 @@
 为你的方块制作2D图标
 
 {% hint style="info" %}
-Replace `my_items` with your [namespace](basic-concepts/namespace/#namespace)!
+将 `my_items` 替换成 [你的命名空间](basic-concepts/namespace/#namespace)!
 {% endhint %}
 
 ```yaml
@@ -72,11 +72,11 @@ Create the item which shows the placed rock model. It is a different item form t
 
 Now create the `placed_rocks.json` file inside the folder `data\resource_pack\assets\my_items\models\block\`
 
-### Done!
+### 完成!
 
-Now try to right click with the `rocks` item and you will see it places the `rocks_placed` model.
+现在右键 "rocks"物品，将能够放置出 "rocks_placed" 的模型
 
-## Furniture
+## 家具
 
 ### 步骤 1
 
@@ -141,6 +141,4 @@ Now create the `furniture.json` file inside the folder `data\resource_pack\asset
 
 ### 完成!
 
-Now try to right click with the `2d_furniture` item and you will see it places the `furniture` model.
-现在尝试右键单击 `2d_furniture` 项目，您会看到它放置了 `furniture` 模型。
 现在你右键 `2d_furniture` 这个物品，将会放置 `furniture` 的模型

@@ -1,4 +1,4 @@
-# 🍳 Recipes
+# 🍳 合成配方
 
 In order to create a recipe for your items in your [namespace ](../basic-concepts/namespace/)you have to create a special section in one of your .yml files (or on each one, you decide how you want to organize the plugin).
 

@@ -1,10 +1,10 @@
 # Actions
 
-## What are actions?
+## 什么是 actions?
 
 Actions are what will happen when an [event](./) is triggered.
 
-### List of actions:
+### actions 列表:
 
 * `play_sound`
 * `stop_sound`

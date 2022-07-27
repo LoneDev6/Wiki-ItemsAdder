@@ -1,11 +1,11 @@
-# ⚡ Events
+# ⚡ 事件（Events）
 
-## What are events?
+## 什么是事件？
 
-Events describe the time when something happen.\
-You can make things happen ([actions](actions.md)) when an event is triggered (play sound, execute command...)
+Event 对象代表事件的状态，比如事件在其中发生的元素.\
+当触发事件（比如：播放声音，执行命令...）时，你可以设置一些操作（[actions]（actions.md））
 
-### List of events
+### 事件列表
 
 * block\_break
 * attack

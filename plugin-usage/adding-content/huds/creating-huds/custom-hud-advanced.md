@@ -1,26 +1,26 @@
 ---
-描述: Creating a totally customizable HUD
+描述: 创建一个完全可自定义的 HUD
 ---
 
-# Custom HUD (advanced)
+# 自定义 HUD（进阶）
 
-## What is a CUSTOM HUD?
+## 什么是自定义 HUD？
 
 A custom HUD is a hud with the `type: CUSTOM` set.
 
 This special type gives you total control over how the HUD will work. No image is specified in the YML file and you can avoid creating the `player_stat_name`.
 
 {% hint style="warning" %}
-Warning:
+注意:
 
-This type of HUD requires you to use the [Java API](../../../../../developers/java-api/) and know how to code in Java.
+该类型的 HUD 需要你会使用 [Java API](../../../../../developers/java-api/) 并懂得如何使用 JAVA 进行编程.
 {% endhint %}
 
 {% content-ref url="../../../../../developers/java-api/huds-guis.md" %}
 [huds-guis.md](../../../../../developers/java-api/huds-guis.md)
 {% endcontent-ref %}
 
-## Examples
+## 栗子
 
 {% embed url="https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486" %}
 

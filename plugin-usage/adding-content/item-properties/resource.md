@@ -1,5 +1,5 @@
 ---
-description: Properties that allows customization of item graphics
+描述: Properties that allows customization of item graphics
 ---
 
 # Resource

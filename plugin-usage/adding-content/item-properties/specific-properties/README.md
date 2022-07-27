@@ -1,4 +1,4 @@
-# Specific properties
+# Specific properties（具体属性）
 
 {% hint style="info" %}
 You can get all the `specific_properties `suggestions using the official editor.\

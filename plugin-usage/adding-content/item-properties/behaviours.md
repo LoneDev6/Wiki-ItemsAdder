@@ -1,4 +1,4 @@
-# Behaviours
+# 行为属性（Behaviours）
 
 What are behaviours?
 

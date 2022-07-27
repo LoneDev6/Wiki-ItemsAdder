@@ -1,8 +1,8 @@
 ---
-描述: Tutorial on how to create a FRAMES HUD
+描述: 如何创建一个动态的HUD
 ---
 
-# Frames HUD
+# 动态 HUD
 
 ## How to create your first HUD (type FRAMES)
 

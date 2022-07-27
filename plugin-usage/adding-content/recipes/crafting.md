@@ -1,5 +1,5 @@
 ---
-description: This recipe allows your users to craft an item
+描述: This recipe allows your users to craft an item
 ---
 
 # Crafting
