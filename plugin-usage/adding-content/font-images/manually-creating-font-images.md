@@ -24,11 +24,9 @@
 ```
 
 
-如上，我创建了一个 json 配置条目，下列是我的自定义字符图像设置列表.
+如上，我创建了一个 json 配置条目，这是我的自定义字符图像设置列表.
 
-现在你需要将其添加至 `assets/minecraft/font/default.json` 的default.json 文件中.
-
-为此，您必须将其添加到 `"providers"` 属性中。
+现在你需要将其添加至 `assets/minecraft/font/default.json` 文件中的`"providers"` 属性下.
 
 ```json
 {
@@ -46,7 +44,7 @@
 }
 ```
 
-&#x20;If you have more entries you have to add a `,` after the previous entry, for example:
+&#x20;如果你有多个条目需要添加，请在上一个条目结尾添加一个 `,`，如下所示：
 
 ```json
 {
@@ -82,7 +80,7 @@ To do so you just have to create a new json and call it whatever you want, for e
 The complete path will be: `assets/minecraft/font/my_font.json`.
 
 {% hint style="warning" %}
-This feature only works on Minecraft 1.16+
+该功能仅适用于 Minecraft 1.16+
 {% endhint %}
 
 ## Using a customized json namespace
@@ -94,10 +92,10 @@ To do so you have to create a folder inside `assets` folder and use it instead o
 The complete path will be (for example): `assets/your_namespace/font/my_font.json`.
 
 {% hint style="warning" %}
-This feature only works on Minecraft 1.16+
+该功能仅适用于 Minecraft 1.16+
 {% endhint %}
 
-### Showing the customized namespace/font name in-game
+### 在游戏中显示自定义 命名空间/字体名称
 
 If you customized the font namespace and/or the font name you have to use a special syntax to show your images in-game.
 
