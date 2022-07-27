@@ -64,7 +64,7 @@
   * [🖥 命令](plugin-usage/commands/README.md)
     * [iaconfig](plugin-usage/commands/iaconfig.md)
     * [iarename](plugin-usage/commands/iarename.md)
-  * [👌 权限(plugin-usage/permissions/README.md)
+  * [👌 权限](plugin-usage/permissions/README.md)
     * [↪ 示例权限](plugin-usage/permissions/example-permissions.md)
   * [⚠ 重要提醒](plugin-usage/important-notes.md)
   * [🏁 快速上手](plugin-usage/tips-for-fastest-usage.md)
