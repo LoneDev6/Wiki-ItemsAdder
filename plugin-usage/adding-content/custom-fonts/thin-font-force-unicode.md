@@ -1,39 +1,40 @@
-# Thin font \(force unicode\)
+# 细体字 \(force unicode\)
 
-## Thin font
+## 细体字
 
-Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"_.
+通常你需要设置 **强制 Unicode 字体: ON** 才能使用  _"细体字"_.
 
 ![](../../../.gitbook/assets/immagine%20%284%29.png)
 
-  
-With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft bug.
+但如果设置为  **强制 Unicode 字体: ON** ，Itemsadder 的很多自定义功能将无法正常使用（例如：表情符号 , GUIs, HUDs）
+
 
 {% hint style="warning" %}
-You must set **Force Unicode Font: OFF** 
+以至于你必须在客户端中设置 **强制 Unicode 字体: OFF**
 {% endhint %}
 
 ![](../../../.gitbook/assets/immagine%20%283%29.png)
 
-and **set this** in `config.yml`
+不过现在，itemsadder 有了修复方法，
+你只需要在 `config.yml` 中 **设置** 下列属性：
 
 ```yaml
   thin-font:
     enabled: true
 ```
 
-This allows you to set **Force Unicode Font: OFF** but still have the thin font enabled.
+该设置允许当设置为 **强制 Unicode 字体: OFF** 时仍启用细体字
 
-{% hint style="warning" %}
-Remember, after this change you have to regenerate your pack.zip file.   
-Check [Resourcepack tutorials](../../resourcepack-hosting/)
+{% hint style="warning" %}  
+记得在更改后，重新生成资源包
+并[参阅该教程](../../resourcepack-hosting/)
 {% endhint %}
 
-### This is the result
+### 最终效果
 
 ![](../../../.gitbook/assets/immagine%20%286%29.png)
 
 {% hint style="success" %}
-Now you can see the "thin font" and GUIs, emojis, HUDs won't break \(bugged white squares\)
+现在，客户端显示的字体为 `细体字`，并且不会影响到  表情符号 , GUIs, HUDs 这些内容 \(比如：无法正常显示\)
 {% endhint %}
 
