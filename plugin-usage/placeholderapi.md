@@ -4,24 +4,24 @@
 
 # PAPI 变量
 
-## FontImage (表情符号 图像 etc..)
+## 字符图像(FontImage) (表情符号 图像 etc..)
 
-This is the code: `%img_NAME% `instead of NAME write the font\_image name.\
+字符图像的显示格式为: `%img_NAME% `
 栗子: `%img_smile%`
 
 ## Offsets 偏移量
 
-You can shift text/font\_images back and forward.\
+你可以前后移动 本文/字符图像.\
 栗子&#x20;
 
-* you can shift it back of 16 pixels by writing `%img_offset_-16% `.
-* you can shift it forward of 16 pixels by writing `%img_offset_16% `.
+* 你可以通过使用 `%img_offset_-16% ` 来使其向后移动16个像素.
+* 你可以通过使用 `%img_offset_16% ` 来向前移动16个像素.
 
-## ItemsAdder PlayerStats (HUDs values)
+## ItemsAdder 的自定义玩家数据（PlayerStats） (HUDs 数值)
 
-These are stats used by ItemsAdder, they're not vanilla stats.
+该自定义数据来源于 Itemsadder，不是原版的自定义数据
 
-This is the code: `%iaplayerstat_NAME%` instead of NAME write the playerstat name.\
+其代码格式为: `%iaplayerstat_NAME%` 
 栗子: `%iaplayerstat_mana%` 或 `%iaplayerstat_thirst%`
 
 你可以使用以下命令来进行测试:\

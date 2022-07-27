@@ -42,9 +42,9 @@ config_files:
 
 ## 如何编辑/创建新的语言文件?
 
-The **plugin** messages **language** files are in **this folder**: `plugins\ItemsAdder\lang\`
+Itemsadder 的 **消息语言文件** 位于: `plugins\ItemsAdder\lang\`
 
-The **default items** and **menus languages** files are inside **this folder**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
+Itemsadder 的 **默认物品** 以及 **菜单语言文件** 位于: `plugins\ItemsAdder\data\items_packs\dictionaries\`
 
 {% hint style="warning" %}
 某些附属可能会将其语言文件放置在items\_packs的某些文件夹中，你需要找到该文件来进行更改
