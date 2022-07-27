@@ -1,12 +1,11 @@
 ---
-description: >-
-  Allows you to create images which can be used in texts, also known as glyphs
-  and symbols.
+描述: >-
+  允许你创建自定义图像并使用在文本中，也称作 字符图像
 ---
 
 # 🖼 Font Images
 
-### What are Font images?
+### 什么是 Font images?
 
 This feature allows you to create images that can be used to make:  **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
 
@@ -17,7 +16,7 @@ You have to set **ALPHA** to **7** instead of 0.
 Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 {% endhint %}
 
-## Tutorials
+## 教程
 
 {% content-ref url="../ranks-textures-tags.md" %}
 [ranks-textures-tags.md](../ranks-textures-tags.md)
@@ -27,7 +26,7 @@ Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 [emojis.md](emojis.md)
 {% endcontent-ref %}
 
-## Use specific a character
+## 使用特定的字符
 
 ItemsAdder will decide the custom character for you if you don't include the `symbol` property at all.\
 You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.\
@@ -43,13 +42,13 @@ smile:
   y_position: 8
 ```
 
-Minecraft will show the smile emoji every time you write `鄿` in chat.
+当在聊天中打出 "鄿" 时，游戏中都会显示微笑的表情
 
-## I don't care about ItemsAdder font\_image, I want to handle default.json by myself.
+## 我不想使用 ItemsAdder 的 font\_image, 我想自己手动编写 default.json
 
-You can do it, you just have to edit the `default.json` file.
+你只需要直接编辑 default.json 即可
 
-## Examples of content created with Font images feature
+## 使用 font\_image 创建的效果示例
 
 ![](<../../../.gitbook/assets/immagine (106).png>)
 

@@ -1,6 +1,6 @@
-# Common errors
+# 常见问题
 
-## I see only a white square
+## 我只看到一个白色方块
 
 If you see a **white square** make sure the **height** of your image is not **greather** than the `y_position` value you set. To **bypass** that create an **image** with **higher height**. Images must also not have **Uppercase** or **Bad Characters** (eg. - or _) in the filename.
 
@@ -13,7 +13,7 @@ To bypass this (if you're creating a GUI or HUD) you can split your image in mul
 ## When I add a hud others shift of some pixels
 
 Be sure to have each image size set to a multiple of 2.\
-Example:\
+例如:\
 \- 2x2\
 \- 4x4\
 \- 6x6\

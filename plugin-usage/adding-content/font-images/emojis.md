@@ -1,6 +1,6 @@
-# 😁 Emojis
+# 😁 表情
 
-### Introduction
+### 介绍
 
 For example I want to create an emoji pack named "myemojis", so my [namespace ](../basic-concepts/namespace/)would be `myemojis`
 
@@ -45,11 +45,11 @@ font_images:
 `scale_ratio` must ALWAYS be bigger than `y_position` or Minecraft won't like it. I cannot fix that issue, it's a **Minecraft** limitation.
 {% endhint %}
 
-## In-game view
+## 游戏中效果
 
 ![](<../../../.gitbook/assets/immagine (116) (3) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 
-### Using the /e useful suggestions
+### 使用 /e 进行自动补全
 
 ![](<../../../.gitbook/assets/immagine (112).png>)
 

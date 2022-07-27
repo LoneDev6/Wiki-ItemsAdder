@@ -1,12 +1,12 @@
 ---
-description: Manually creating Optifine custom armors textures
+描述: 手动编辑 Optifine 来创建自定义盔甲材质
 ---
 
 # Armor textures (old method)
 
 ## Custom textured armors on 1.16 (and lower)
 
-If you want to add a custom texture and not just a custom color to armors you can use **Optifine**.
+如果你想为盔甲添加自定义材质而不仅仅是自定义颜色,你可以配合 **Optifine** 来实现.
 
 ### Click here if you want the new automatic creation:
 
@@ -22,18 +22,18 @@ If you want to add a custom texture and not just a custom color to armors you ca
 
 ![](<../../../.gitbook/assets/image (23).png>)
 
-### Step 1
+### 步骤 1
 
 Create your **custom namespace** (if you didn't already), follow[ this tutorial](../basic-concepts/namespace/creating-your-namespace.md).\
 In this tutorial **my namespace** is named `mystuff`
 
-### Step 2
+### 步骤 2
 
 Create **custom textures** for the **inventory items**. I put them in **** the **folder** `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`
 
 ![](<../../../.gitbook/assets/image (24).png>)
 
-### Step 3
+### 步骤 3
 
 Create **custom textures** for **on-body armor**. You can get a **template** from here:\
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`\
@@ -41,7 +41,7 @@ Create **custom textures** for **on-body armor**. You can get a **template** fro
 
 **Edit** the **textures** as you wish (use Paint.NET, Photoshop, GIMP or similar programs) and **save** them as `layer_1.png` and `layer_2.png`&#x20;
 
-### Step 4
+### 步骤 4
 
 Create the `optifine` folder, this is where we want to put out **custom textures** for the **worn armor**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`
 
@@ -49,7 +49,7 @@ Create the `optifine` folder, this is where we want to put out **custom textures
 You **must create** it under the folder `minecraft`, sadly you **cannot** create the `optifine` folder inside your **namespace** folder (in this case `mystuff`), it's an **Optifine limitation**.
 {% endhint %}
 
-### Step 5
+### 步骤 5
 
 Now save the **previously created on-body** textures (`layer_1.png` and `layer_2.png` ) inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
 
@@ -57,7 +57,7 @@ So you have this:
 
 ![](<../../../.gitbook/assets/image (25).png>)
 
-### Step 6
+### 步骤 6
 
 **Create** these files: **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties** inside `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
 
@@ -81,11 +81,11 @@ Now you should have this view:
 
 
 
-### Step 7
+### 步骤 7
 
 **Create** a **file** to contain this custom armor, to better organize it. Name it **example\_1.yml** and **place it** inside your namespace, in this example: `plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`
 
-### Step 8
+### 步骤 8
 
 **Add content** to the **yml file**. As you can see I decided to base my items on the Minecraft DIAMOND armor and I didn't specify any color because I don't need to color it, Optifine will apply a texture to it.
 
@@ -163,13 +163,13 @@ items:
         armorToughness: 1
 ```
 
-### Done!
+### 完成!
 
-## Notes:
+## 提醒:
 
 {% hint style="warning" %}
-If you will **create another namespace** which contains **other armors** it's **highly advised** to **maintain** the **same structure** as I did in the tutorial to **avoid mistakes**.
-
+如果你要创建另一个包含其他装备的命名空间.强烈推荐模仿栗子的结构尽量使其相同,以避免出现错误.
 \
-For example if you create a new namespace names `space_armors` you will have this **optifine** folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`
+例如，你创建了一个名为 `space_armors` 的新命名空间，
+在 **optifine** 中你会有  `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors` 这样的文件夹.
 {% endhint %}

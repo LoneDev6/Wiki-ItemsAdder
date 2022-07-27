@@ -1,25 +1,25 @@
-# Loading screen
+# 自定义资源包加载界面
 
-## Vanilla loading screen
+## 原版加载页面
 
 ![](<../../../.gitbook/assets/immagine (44).png>)
 
-## Custom loading screen
+## 自定义加载界面
 
 ![](<../../../.gitbook/assets/immagine (51).png>)
 
-## How to do that?
+## 如何实现？
 
-### Before Minecraft 1.16
+### Minecraft 1.16 之前的版本
 
 ![](<../../../.gitbook/assets/immagine (49).png>)
 
-You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf).
+你可以从 [这里](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf) 获取一个 [GIMP ](https://www.gimp.org/downloads/) [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf)模板.
 
-* Edit my file:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`
-* Save the file in the same location
+* 编辑文件:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`
+* 保存文件在相同的位置
 
-### After Minecraft 1.16
+### Minecraft 1.16 之后的版本
 
 ![](<../../../.gitbook/assets/immagine (48).png>)
 
@@ -43,11 +43,11 @@ The left side of the texture needs to touch the top-right corner of the canvas w
 This is **always** the case, no matter the size of the actual texture!
 {% endhint %}
 
-### How to change the background color (1.16+ only)
+### 如何修改加载页面的背景颜色(仅适用于)
 
-Create a new file (or edit the already provided one): `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\color.properties`
+创建一个新文件(或修改已存在的文件):: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\color.properties`
 
-Put this content:
+把该内容复制进去:
 
 ```yaml
 ###############################################################################
@@ -68,8 +68,8 @@ screen.loading.progress=1f17ce
 screen.loading.blend=DST_COLOR
 ```
 
-You can edit the colors using a [HEX color picker](https://www.w3schools.com/colors/colors\_picker.asp)
+你可以使用 [HEX color picker](https://www.w3schools.com/colors/colors\_picker.asp) 修改颜色
 
 {% hint style="warning" %}
-Do not include the `#` at the start of the color code.
+不要在颜色代码的前面加上 `#`!
 {% endhint %}

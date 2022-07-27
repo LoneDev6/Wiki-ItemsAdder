@@ -1,13 +1,13 @@
-# 😄 Using font\_images/emojis everywhere
+# 😄 在任何地方使用 font_images
 
-It's very easy, you will be able to use emojis everywhere! \
-For example in [holograms](../../../compatibility-with-other-plugins/compatible/holographic-displays.md).
+你可以在任何地方使用 font_images
+比如在 [holograms](../../../compatibility-with-other-plugins/compatible/holographic-displays.md) 插件中使用.
 
-## How to do it?
+## 如何实现?
 
-Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/).
+下载 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/).
 
-Now you can use font\_images (emojis) everywhere in other plugins easily! (they must support **PlaceholderAPI**), check the next link:
+现在你可以在其他插件中使用 font\_images (前提为支持 **PlaceholderAPI**), 查看下一个链接:
 
 {% content-ref url="../../placeholderapi.md" %}
 [placeholderapi.md](../../placeholderapi.md)
