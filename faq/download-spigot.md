@@ -6,7 +6,7 @@
 
 ## 如何下载 Spigot 核心
 
-Watch this tutorial:
+观看此教程:
 
 {% embed url="https://www.youtube.com/watch?v=VzZcgnWJSEg" %}
 
