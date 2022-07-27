@@ -1,2 +1,2 @@
-# ⛏ Example items
+# ⛏ 示例物品
 

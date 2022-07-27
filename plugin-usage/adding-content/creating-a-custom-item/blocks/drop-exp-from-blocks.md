@@ -1,12 +1,12 @@
-# Drop exp from blocks
+# 挖掘方块掉落经验
 
 {% hint style="info" %}
-### There are 2 ways to drop exp from your custom blocks.
+### 两种方法使自定义方块被挖掘后掉落经验
 {% endhint %}
 
-## 1. Add the exp drop directly in the custom block creation
+## 1. 在自定义方块中直接添加 drop_exp 属性
 
-This has a downside, you can only set the exp drop to custom blocks, not to vanilla blocks.
+该方法具有缺陷，你只能将 drop_exp 属性 添加在自定义方块上，无法在原版方块上应用.
 
 ```yaml
   ruby_block:
@@ -34,9 +34,10 @@ This has a downside, you can only set the exp drop to custom blocks, not to vani
             max_amount: 3
 ```
 
-## 2. Add the exp drop to loots
+## 2. 添加经验掉落至掉落物中
 
-This is the best way because you can also apply this to vanilla blocks types and you can add as many as exp settings you want. This allows you to add more randomness and dynamicity to your drops.
+该方法为最佳方法，因为你也可以将其应用在原版方块上，并且可以添加任意数量的经验设置.\
+可使你的自定义方块拥有更多的随机性和动态性
 
 ```yaml
 loots:
