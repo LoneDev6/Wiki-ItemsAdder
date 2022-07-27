@@ -1,10 +1,9 @@
-# Armor
+# 自定义盔甲
 
-## Custom armor example
+## 自定义盔甲示例
 
-Here you can see an example configuration to create a complete armor with all its pieces: helmet, chestplate, leggings and boots.
-
-This is a simple armor which is created automatically without textures, ItemsAdder will generate it from the color you decided.
+该教程中提供一个示例配置，用于创建包含所有部件的完整盔甲：头盔、胸甲、护腿和靴子.
+<br>这是个没有自定义材质的盔甲,该盔甲由 ItemsAdder 根据您指定的颜色生成.
 
 ![](<../../../.gitbook/assets/image (46) (1) (1) (1).png>)
 
@@ -74,15 +73,7 @@ items:
         armorToughness: 1
 ```
 
-## Custom texture - in inventory
-
-To add a custom texture for an armor item you have to specify a texture or a model (like for every other custom item).
-
-{% hint style="warning" %}
-#### Update to ItemsAdder 2.4.17+
-{% endhint %}
-
-### Custom item texture
+### 自定义物品材质
 
 ```yaml
 items:
@@ -95,7 +86,7 @@ items:
        - "item/custom_helmet"
 ```
 
-### Custom item model
+### 自定义物品模型
 
 ```yaml
 items:
@@ -107,8 +98,12 @@ items:
       model_path: "item/custom_helmet"
 ```
 
-## Custom texture - ingame
+## 在游戏中自定义材质
+要为盔甲物品应用自定义材质，你必须指定材质或模型（就像其他自定义物品一样）
 
+{% hint style="warning" %}
+#### 更新版本至 ItemsAdder 2.4.17+
+{% endhint %}
 {% content-ref url="../armors/" %}
 [armors](../armors/)
 {% endcontent-ref %}

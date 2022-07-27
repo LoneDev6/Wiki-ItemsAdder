@@ -128,7 +128,7 @@ items:
 
 重新压缩最新的资源文件
 
-### 如果你使用 [self-host](../../../resourcepack-hosting/resourcepack-self-hosting.md) or [auto-external-host](../../../resourcepack-hosting/automatic-upload-hosting.md):
+### 如果你使用 [self-host](../../../resourcepack-hosting/resourcepack-self-hosting.md) 或 [auto-external-host](../../../resourcepack-hosting/automatic-upload-hosting.md):
 
 * 使用指令 `/iazip`.
 

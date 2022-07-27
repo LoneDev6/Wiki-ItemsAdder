@@ -1,11 +1,10 @@
-# Fuel
+# 燃料
 
-## How to make an item usable as fuel?
+## 如何将物品设置为燃料？
 
-It's very easy!\
-You just have to use the fuel [behaviour](../item-properties/behaviours.md).
+你只需要使用 **fuel** [行为属性](../item-properties/behaviours.md).
 
-## Example
+## 栗子
 
 ```yaml
       fuel: 
@@ -14,9 +13,9 @@ You just have to use the fuel [behaviour](../item-properties/behaviours.md).
           - BLAST_FURNACE
 ```
 
-For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** (**1 second**).&#x20;
+栗子中的配置使燃油能够在 **BLAST\_FURNACE** 中使用 **20 ticks** (**1 秒**).&#x20;
 
-### Complete example item
+### 完整栗子配置
 
 ```yaml
   magic_fuel:

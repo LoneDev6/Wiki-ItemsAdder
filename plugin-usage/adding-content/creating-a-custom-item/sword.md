@@ -1,7 +1,7 @@
 # Sword
 
 {% hint style="danger" %}
-### Namespace
+### 命名空间
 
 If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace/creating-your-namespace.md).
 {% endhint %}
@@ -71,7 +71,7 @@ items:
       - item/example_item.png
 ```
 
-## Final part
+## 最后一步
 
 Now you just need to tell the plugin to load your just added item.\
 To do that you have to:\
@@ -82,21 +82,21 @@ To do that you have to:\
 \- get the item using `/iaget mysword`\
 \- DONE!
 
-### Now get your item
+### 获取物品
 
 ![](<../../../.gitbook/assets/immagine (18).png>)
 
 ![](<../../../.gitbook/assets/immagine (19).png>)
 
-## If you're using external-host (Dropbox) read here:
+## 如果你使用 external-host (Dropbox) 请阅读:
 
-Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
-1\. Get it from this folder:
+不要忘记上传最新的资源包至云端.
+1\. 从 resources_packs 文件夹中找到生成的资源包:
 
 ![](<../../../.gitbook/assets/immagine (96) (2) (3) (2) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
-2\. Upload it to your hosting (Dropbox)\
-3\. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
+2\. 上传至托管云端
+3\. 打开 ItemsAdder 的 `config.yml` 并更新 `external-host` 属性中的链接.
 
 ```yaml
   self-host:
@@ -108,7 +108,7 @@ Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-If you have more questions read the full **external-host** tutorial here:
+其他关于资源包托管的疑问，请在此处阅读完整的 **external-host** 教程：
 
 {% content-ref url="../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 [resourcepack-on-dropbox.md](../../resourcepack-hosting/resourcepack-on-dropbox.md)

@@ -1,10 +1,11 @@
-# Bundle
+# 收纳袋
 
+如果你将源材质设置为 Bundle（收纳袋） 则需要阅读该页面内容.
 {% hint style="warning" %}
 Minecraft 1.17+
 {% endhint %}
 
-## Configuration
+## 配置
 
 ```yaml
 items:
@@ -18,12 +19,12 @@ items:
       - item/bundle_test.png
 ```
 
-## Image files
+## 贴图文件
 
 ![](<../../../../.gitbook/assets/image (33).png>)
 
-You have to create another file with `_filled` suffix.
+你需要创建另一个带有 `_filled` 后缀的贴图文件
 
-## Result
+## 效果
 
 ![](<../../../../.gitbook/assets/image (34).png>)
