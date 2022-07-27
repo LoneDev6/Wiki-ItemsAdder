@@ -1,41 +1,39 @@
 # 创建你的 namespace（命名空间）
 
 {% hint style="warning" %}
-If you don't know what I mean by **namespace** please read [namespace tutorial](./)
+如果你不了解命名空间的概念 [阅读该页面](./)
 {% endhint %}
 
-## Creating an items\_packs subfolder
+## 在 items\_packs 文件夹中创建子文件夹
 
-In order to keep everything organized you have to create **your** own **namespace**. \
-First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
+为了方便管理自定义内容，你必须创建命名空间.\
+首先在 `plugins\ItemsAdder\data\items_packs` 中创建一个新的文件夹
 
-In this example **namespace** will be `myitems` so create a folder names like the namespace.
+在此示例中，**命名空间** 为 `myitems`
+
 
 ![](<../../../../.gitbook/assets/image (8).png>)
 
-Open the `myitems` folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
+打开 `myitems` 文件夹并创建一个新文件并设置文件名称，该文件名称自定即可，在这里我将其命名为 `myswords.yml`
 
 ![](<../../../../.gitbook/assets/image (9).png>)
 
-Open the new **.yml** file and paste this:
+打开新的 **.yml** 文件并粘贴：
 
 ```yaml
 info:
   namespace: myitems
 ```
 
-As you see I set **namespace** to `myitems`, which is the **namespace** I chose before and it's the same name of the **folder**. Remember to change it based on your **namespace**.
+从上方配置中，可以发现我将 **namespace** 属性设置为 `myitems`，命名空间与刚才新建的文件夹名称相同（通常文件夹的名称就是命名空间的名称）.\
+当然在你配置时，需要根据你的命名空间名称来更改该属性中的内容.
 
 {% hint style="info" %}
-You can create as many **namespaces** you want! This allows you to easly organize your packs of items.
-{% endhint %}
-
-{% hint style="info" %}
-You can create as many as **.yml** files you want in the same namespace!\
-This allows you to organize items/things types better.\
-For example I divided my items in swords, blocks, food, drinks...
+你可以在同一个命名空间中创建 **不限数量 ** 的 .yml 文件.\
+这可以使你更加方便的管理不同类型的物品或其他自定义内容.\
+例如：给 剑 、 方块 、 食物 、 家具，在同一命名空间内创建不同的 .yml 来进行配置管理
 {% endhint %}
 
 {% hint style="warning" %}
-**All this "nesting" could seem boring** **but** **trust me**, it reduces errors as much as possible and allows you to find everything easily.
+使用 **命名空间** 来管理自定义内容尽管操作很繁琐，但是当自定义内容出现问题 或者 当你需要找到某个自定义物品的配置时会很方便.
 {% endhint %}

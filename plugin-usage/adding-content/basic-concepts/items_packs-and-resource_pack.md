@@ -4,11 +4,10 @@
 
 ### items\_packs
 
-is a folder which contains a set of folders, each one of these folders contains separated and organized **.yml** files which contains items behaviour, setting, enchant, recipe, loot... everything that is related to items creation, recipes and behaviours.\
-You can see that each folder name in **items\_packs** is the [namespace ](namespace/)of the items it contains.
-
+**items\_packs** 是包含着 **命名空间** 的文件夹，其中的每个子文件夹都包含着单一或多个自定义内容组成的 .yml文件.\
+每个文件都包含着物品的行为属性、设置、附魔、合成配方、掉落物...配置
 {% hint style="warning" %}
-**Namespace** is also set inside the **.yml** file itself, don't forget to set it in the top part:
+别忘了在 .yml 文件顶部设置 **命名空间**！ 
 
 ```yaml
 info:
@@ -18,16 +17,13 @@ info:
 
 ### resource\_pack
 
-is a folder which contains an **automatically generated resourcepack**.\
-You can see this folder and **items\_packs** as a very similar thing, but **resource\_pack** folder contains the "**graphical**" part of all **items** (and also sounds, GUIs...). \
-(**items\_packs** contains the behaviours and settings of the items)\
-This folder is automatically compressed as a file named **pack.zip**, the one that will be sent to players.
-
+**resource\_pack** 为材质资源文件夹用于放置新增的资源（包括 GUI, 音效,模型...等等内容）.\
+你可以在此文件夹中对你的资源包进行配置,该文件夹会自动压缩成名为 **pack.zip** 的文件，并且发送资源包至玩家使其应用.
 {% hint style="danger" %}
-### Important
+### 重要提醒
 
-Remember to always maintain order in **resource\_pack** folder, don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.\
-**Remember that please.**
+为了确保在出现问题时，能够高效的解决问题.\
+请 **不要** _随意复制粘贴内容 、 创建太多的子文件夹 、 保留未使用的贴图/模型_
 {% endhint %}
 
 \
