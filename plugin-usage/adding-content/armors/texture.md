@@ -17,7 +17,7 @@
 ## 创建盔甲渲染器
 
 {% hint style="info" %}
-盔甲渲染器是一项包含如何在游戏中显示自定义盔甲信息的设置
+盔甲渲染器是包含如何在游戏中显示自定义盔甲的信息设置
 {% endhint %}
 
 ```yaml
@@ -38,11 +38,14 @@ armors_rendering:
 即使不会显示在盔甲上,你也必须在盔甲渲染器中指定一个颜色! 因为颜色就像自定义盔甲的 ID.
 {% endhint %}
 
-`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`. **** This option will also make the item (in inventory) not colored automatically anymore.
+`use_color` 属性为是否使用 `color` 中指定的颜色为盔甲进行染色 （`color: "#d60000"`) 
+该功能不仅仅用于自定义盔甲材质，或许某些时候你需要指定颜色的染色皮革盔甲，此时你就可以将 `use_color` 设置为 `true`
+**** 该选项还会使背包中使用同一 `color` 来自定义的盔甲失效（变为指定颜色的染色皮革盔甲）
 
-`color` is the color attribute of this armor. It acts like an unique identifier for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
+`color` 是盔甲的颜色属性，也是盔甲的唯一标识（ID）（当 `use_color` 为 `true`时，（皮革）盔甲将会显示为 `color` 数值内的颜色）
+使用该网站获取有效颜色：[https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
 
-Now I create the two PNG files inside the `data/resource_pack/assets/myitems/textures/armor/my_armor/` folder.
+现在，在 `data/resource_pack/assets/myitems/textures/armor/my_armor/` 文件夹中放入盔甲的贴图文件(.PNG)
 
 ![](<../../../.gitbook/assets/image (45) (1) (1) (1) (1).png>)
 
@@ -80,12 +83,11 @@ Now I create the two PNG files inside the `data/resource_pack/assets/myitems/tex
         armorToughness: 3
 ```
 
-The `custom_armor` property is important, it makes the plugin use the previous textures setting (`armors_renderer`) for this armor piece.
+`custom_armor` 属性，它使插件使用之前的材质设置（`armors_renderer（盔甲渲染器）`）来处理该盔甲
 
-In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's already specified in the `custom_armor` property.
-
-Now I create the item texture and I put it inside the `data\resource_pack\assets\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
-
+因此，我在配置中并没有在 `specific_properties` 中去设置指定的 `颜色` ，因为在配置 `armors_renderer（盔甲渲染器）` 时已经完成指定了
+现在，创建盔甲材质贴图并将其放入 `data\resource_pack\assets\myitems\textures\item\my_armor\` 文件夹中
+（在此示例中，我还创建了一个名为 `my_armor` 的文件夹来对新增的自定义盔甲进行整合）
 ![](<../../../.gitbook/assets/image (40) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (42) (1) (1).png>)
@@ -145,8 +147,8 @@ armors_rendering:
     use_color: false
 ```
 
-In this case I want to make the previous animation emissive, I want it to glow in the dark.\
-You have to make 2 textures in order to make the textures glow. \
-The **transparent** part **won't glow** while the colored part will glow.
-
-You basically just have to copy and paste your texture and erase the parts you don't want to glow.
+当你想让盔甲的动态材质在黑暗中发光,你需要制作对应的 2 张发光材质贴图.\
+将发光贴图的位置填入 `emissive_X` 属性中即可.\
+实际上，你只需要复制动态材质贴图，并使用图像编辑软件 擦去不需要发光的部分像素即可.\
+因为只有具有 **像素点** 的地方在游戏中才具有发光效果，光的亮度取决于此像素的透明度.\
+默认A通道是100时 亮度等级是15（也就是最亮），该发光效果不会影响刷怪的光源.
