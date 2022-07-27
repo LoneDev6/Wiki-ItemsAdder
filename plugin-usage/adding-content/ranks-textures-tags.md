@@ -117,7 +117,7 @@ Make sure you installed [PlaceholderAPI](font-images/using-font\_images-emojis-e
     tagprefix: '%img_admin%  '
 ```
 
-Then use the command `/tab reload`
+使用指令 `/tab reload`
 
 ![](<../../.gitbook/assets/immagine (38).png>)
 
