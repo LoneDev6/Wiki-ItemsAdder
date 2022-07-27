@@ -1,10 +1,10 @@
 ---
-description: This recipe allows you to let players repair an item in anvil using a material
+描述： 设置自定义铁砧修复配方
 ---
 
-# Anvil repair
+# 自定义铁砧修复配方
 
-## Example
+## 栗子
 
 ```yaml
 anvil_repair:
@@ -14,4 +14,4 @@ anvil_repair:
         item: itemsadder:emerald_sword
 ```
 
-In this example I created an`anvil_repair `recipe called `emerald_sword`
+在示例中，我在 `anvil_repair` 属性下创建了名为 `emerald_sword` 的自定义铁砧修复配方

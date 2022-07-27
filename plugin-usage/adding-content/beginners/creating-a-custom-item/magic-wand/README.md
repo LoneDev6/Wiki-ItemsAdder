@@ -1,4 +1,4 @@
-# Magic wand
+# 魔杖
 
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
 
@@ -103,7 +103,7 @@
           amount: 1
 ```
 
-## Example of mana recover crystals
+## 使用愈合结晶恢复法力值的栗子
 
 ```yaml
   mana_recover_crystals:
