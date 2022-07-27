@@ -264,6 +264,7 @@
     * [ItemBridge](compatibility-with-other-plugins/compatible/itembridge.md)
     * [Ouroboros-Mines](compatibility-with-other-plugins/compatible/ouroboros-mines.md)
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
+    * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
 * [✏ Contribute](contribute/README.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
