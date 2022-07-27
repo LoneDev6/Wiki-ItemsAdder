@@ -73,23 +73,21 @@
 
 ## 使用自定义的 json 文件名
 
-By using a customized json font file you can separate the default font characters from your custom characters.
-
-To do so you just have to create a new json and call it whatever you want, for example `my_font.json`.
-
-The complete path will be: `assets/minecraft/font/my_font.json`.
+通过使用自定义的 json 字体文件，可以将默认的字体字符与自定义字符分开
+你只需要创建一个新的 json 文件，并将其命名为你想要的名称，例如 `my_font.json`.
+创建完后的路径将会是: `assets/minecraft/font/my_font.json`.
 
 {% hint style="warning" %}
 该功能仅适用于 Minecraft 1.16+
 {% endhint %}
 
-## Using a customized json namespace
+## 使用自定义的 json 命名空间
 
-If you want to further organize your pack you can use a customized namespace for your font file.
+当你想进一步的整合你的资源包，可以为你的字体文件使用一个自定义的命名空间
 
-To do so you have to create a folder inside `assets` folder and use it instead of `minecraft` folder.
+所以你需要在 `assets` 文件夹中创建一个新的文件夹，而不是在 `minecraft` 文件夹下创建
 
-The complete path will be (for example): `assets/your_namespace/font/my_font.json`.
+创建完后的路径将会是：`assets/your_namespace/font/my_font.json`
 
 {% hint style="warning" %}
 该功能仅适用于 Minecraft 1.16+
@@ -97,12 +95,12 @@ The complete path will be (for example): `assets/your_namespace/font/my_font.jso
 
 ### 在游戏中显示自定义 命名空间/字体名称
 
-If you customized the font namespace and/or the font name you have to use a special syntax to show your images in-game.
+当你自定义了字体命名空间和字体名称，你需要使用特殊指令在游戏中显示自定义图像.
 
-Example if you set both custom namespace and custom font name:
+如：同时设置了自定义命名空间和自定义字体名称：
 
 `/tellraw @a [{"text":"Test message!","font":"your_namespace:my_font"}]`
 
-Example if you set only custom font name:
+如：只设置了自定义字体名称:
 
 `/tellraw @a [{"text":"Test message!","font":"my_font"}]`
