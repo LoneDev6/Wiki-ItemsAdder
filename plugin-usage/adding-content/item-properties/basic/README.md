@@ -1,5 +1,5 @@
 ---
-description: Collection of basic item properties
+描述: 基本物品属性的集合
 ---
 
 # Basic

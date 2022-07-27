@@ -1,14 +1,14 @@
-# Item Permission
+# 物品权限
 
-### Example
+### 栗子
 
 ```yaml
 permission: myitem
 ```
 
-## How to allow crafting?
+## 如何允许玩家合成?
 
-Permission: `ia.user.craft.myitem`\
+给予权限: `ia.user.craft.myitem`\
 
 
 ## How to make the item visible in the /ia gui on to some users?
