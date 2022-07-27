@@ -1,8 +1,8 @@
-# Saplings
+# 树苗
 
-## Creating a sapling for a custom tree
+## 为自定义树创建树苗
 
-### The sapling item
+### 树苗
 
 ```yaml
 items:
@@ -19,7 +19,7 @@ items:
         tree_populator: orange_tree
 ```
 
-### The custom tree populator
+### 自定义树木填充器
 
 ```yaml
 trees_populators:

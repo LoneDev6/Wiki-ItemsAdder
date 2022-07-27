@@ -1,5 +1,5 @@
 ---
-description: Tutorial on how to create a FRAMES HUD
+描述: Tutorial on how to create a FRAMES HUD
 ---
 
 # Frames HUD

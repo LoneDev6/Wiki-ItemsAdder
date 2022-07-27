@@ -4,7 +4,7 @@
 
 ### Offset（偏移量）
 
-This is a special placeholder that allows you to move a font image back and forward specifying pixels number.
+这是一个特殊的变量，可以使你指定像素对 字符图像（Font images）进行前后移动 .
 
 ```
 :offset_-1:
@@ -13,11 +13,11 @@ This is a special placeholder that allows you to move a font image back and forw
 :offset_25:
 ```
 
-As you can see you have to write `:offset_`**`AMOUNT`**`:` (without spaces).
+偏移量格式为： `:offset_偏移数值:`
 
 ### 显示图像
 
-要让你的 font_image 显示, 只需要在 font_image 名称前后添加 `:` 即可
+要让你的 字符图像（Font images）显示, 只需要在 字符图像（Font images） 名称前后添加 `:` 即可
 
 ```
 :my_gui:

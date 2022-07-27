@@ -1,5 +1,5 @@
 ---
-description: Tutorial on how to create a STATUS HUD
+描述: Tutorial on how to create a STATUS HUD
 ---
 
 # Status HUD

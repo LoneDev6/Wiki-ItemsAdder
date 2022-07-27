@@ -1,5 +1,5 @@
 ---
-description: >-
+描述: >-
   How to use triggers to automatically increase/decrease HUD value during
   gameplay.
 ---

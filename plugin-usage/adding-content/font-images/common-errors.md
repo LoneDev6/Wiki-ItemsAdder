@@ -2,8 +2,9 @@
 
 ## 我只看到一个白色方块
 
-If you see a **white square** make sure the **height** of your image is not **greather** than the `y_position` value you set.
-To **bypass** that create an **image** with **higher height**. Images must also not have **Uppercase** or **Bad Characters** (eg. - or _) in the filename.
+当你的 字符图像（Font images） 显示为 **白色的方块**，请确保该图像的 **高度** 没有大于 `y_position` 属性的值.
+忽略该图像，去创建一个 **更大尺寸** 的图像
+图像的文件名中不要包含 **大写** 或 **特殊字符**（例如 - 或 _）.
 
 {% hint style="warning" %}
 注意：图像的 **最大尺寸** 为 **256x256**.\

@@ -1,7 +1,7 @@
-# Furniture size
+# 家具尺寸
 
 {% hint style="warning" %}
-### It's adviced to use the small furniture (small Armorstand)
+### It's adviced to use the small furniture (小型盔甲架)
 {% endhint %}
 
 ## How can I adjust the furniture position when placed?

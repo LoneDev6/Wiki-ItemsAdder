@@ -1,14 +1,15 @@
-# Manually creating font images
+# 手动创建 字符图像（Font images）
 
-## How to create font images manually without ItemsAdder
 
-Some servers may require font images to be created manually for various reasons, for example:
+## 在不适用 ItemsAdder 的情况下手动创建 字符图像（Font images）
 
-* you don't want ItemsAdder to manage the fonts
-* you want to use a custom namespace and custom font name for some custom characters
-* you want to manage them on your own
+某些服务器可能出于各种原因需要手动创建字体图像，例如：
 
-## Creating a custom character
+* 不希望 ItemsAdder 管理字符图像
+* 想为某些自定义字符使用自定义命名空间和自定义字体名称
+* 想自己管理字符图像文件
+
+## 创建一个自定义字符
 
 ```json
 {
@@ -22,11 +23,12 @@ Some servers may require font images to be created manually for various reasons,
 }
 ```
 
-As you can see I created a json configuration entry, this is the list of settings for my custom font image.
 
-Now you have to add it to the default.json file: `assets/minecraft/font/default.json`.
+如上，我创建了一个 json 配置条目，下列是我的自定义字符图像设置列表.
 
-To do so you have to add it into the `"providers"` attribute.
+现在你需要将其添加至 `assets/minecraft/font/default.json` 的default.json 文件中.
+
+为此，您必须将其添加到 `"providers"` 属性中。
 
 ```json
 {
@@ -71,7 +73,7 @@ To do so you have to add it into the `"providers"` attribute.
 }
 ```
 
-## Using a customized json file name
+## 使用自定义的 json 文件名
 
 By using a customized json font file you can separate the default font characters from your custom characters.
 

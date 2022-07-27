@@ -1,8 +1,8 @@
 # Populator
 
-## Make the trees spawn randomly
+## 让自定义树随机生成
 
-In order to make trees spawn in the world you have to create a `tree_populator`.
+为了让自定义树在世界中生成，你必须使用 `tree_populator` 属性.
 
 ```yaml
 info:

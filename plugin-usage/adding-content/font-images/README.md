@@ -3,18 +3,18 @@
   允许你创建自定义图像并使用在文本中，也称作 字符图像
 ---
 
-# 🖼 Font Images
+# 🖼 字符图像（Font images）
 
-### 什么是 Font images?
+### 什么是 字符图像（Font images）?
 
 该功能能够允许你创建自定义图像并且应用至 **GUIs**, **HUDs**, **表情**  自定义字符，以及你想得到的任何内容.
 <br>你可以将其应用在任何地方 使用实例： [ **自定义玩家称号**](../ranks-textures-tags.md) 
 
 {% hint style="warning" %}
-When you create a **font\_image** make sure the **background** is **not** fully **transparent**.\
-You have to set **ALPHA** to **7** instead of 0.
+创建 **font\_image** 时，请确保图片背景不是完全透明的.\
+你需要将 **ALPHA** 设置为 **7** 而不能设置为 0.\
 
-Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
+Minecraft 会移除图像边缘所有(alpha 为 0) 的透明像素.
 {% endhint %}
 
 ## 教程
@@ -29,9 +29,10 @@ Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 
 ## 使用特定的字符
 
-ItemsAdder will decide the custom character for you if you don't include the `symbol` property at all.\
-You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.\
-For example:
+`symbol` 属性可以指定 font_image 对应的字符.\
+当你不使用 `symbol` 来指定字符时，ItemsAdder 会自动分配字符进行应用.\
+
+例如:
 
 ```yaml
 smile:
