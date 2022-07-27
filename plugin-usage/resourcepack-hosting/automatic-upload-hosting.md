@@ -17,7 +17,6 @@
 
 ## 该托管方式会比自托管更好吗？
 
-Depends.\
 如果你正在制作资源包，需要不断地使用 `/iazip` 来生成最新的资源包查看制作的效果，建议使用 [self-host（主机自托管）](resourcepack-self-hosting.md),避免浪费时间
 <br>[详情阅读该页面](.. /tips-for-fastest-usage.md)
 
