@@ -1,4 +1,4 @@
-# 🔊 自定义音频
+# 🔊 自定义音效
 
 ### 步骤 1
 
@@ -9,19 +9,19 @@
 * 打开 **plugins\ItemsAdder\data\resource\_pack\assets** 文件夹
 * 打开你的 **命名空间** 文件夹
 * 创建一个名为 **sounds** 的文件夹
-* put your **.ogg** file in there (you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...)
+* 将 **.ogg** 放入 **sounds** 文件夹（你也可以创建其他文件夹来管理你的音效，例如"effects"文件夹，"music"文件夹......）
 
-for example I have a file named **cdk\_sunday.ogg** and I put it into a new **music\_disc** folder.\
-So now I have `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`
+例如，我有一个名为 **cdk\_sunday.ogg** 的音效，我将该音效放入 **sounds** 中新建的 **music\_disc** 文件夹中.\
+可以得到路径：`plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`
 
 ### 步骤 2
 
 * 打开 **plugins\ItemsAdder\data\resource\_pack\assets** 文件夹
 * 打开你的 **命名空间** 文件夹
 * 创建文件 `sounds.json` (如果你已经创建就打开)
-* this file is a json file, you MUST write it correctly or it won't work. If you need info about Json files please search online.
+* 该文件为 json 文件，你需要使用正确的格式进行编写，否则将自定义音乐唱片将无效. （如果需要有关json文件的信息，请在网上查阅相关内容）
 
-将音频添加至文件中，只需要进行以下操作：
+将音效添加至文件中，只需要进行以下操作：
 
 ```javascript
 {
@@ -33,16 +33,16 @@ So now I have `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\musi
 }
 ```
 
-Now I explain each part of the code I wrote.\
-This is the sound name, you will use it in every part of the plugin and also in Minecraft vanilla [/playsound ](https://www.digminecraft.com/game\_commands/playsound\_command.php)command
+下面我会解释每段代码的含义.\
+此为 [音效名称 ](https://www.digminecraft.com/game\_commands/playsound\_command.php)，你将会在插件的每个部分 或 Minecraft原版指令 /playsound 中使用到.
 
 ```javascript
 "music_disc.cdk_sunday":{
 ```
 
-This is the list of sound files Minecraft will play when you call the sound name.\
-Minecraft will play one of these sounds randomly (only if you set more than one sound).\
-⚠️Keep in mind that you have to change `myitems`  to your own namespace name.
+该文件为音效列表，当你调用该文件中的音效时 Minecraft 会播放对应的音效.\
+在你设置多个音效时 Minecraft 可以随机播放其中一个音效.\
+⚠️ 注意：你必须将 `myitems` 更改为自定的命名空间名称
 
 ```javascript
 "sounds":[
@@ -50,8 +50,7 @@ Minecraft will play one of these sounds randomly (only if you set more than one 
 		]
 ```
 
-For example if you want to have random sounds for the same sound name you just have to create multiple .ogg files and put them like this:
-举个栗子：如果您想为相同的音频名称生成随机声音，您只需创建多个 .ogg 文件并将它们像这样放置：
+举个栗子：如果您想为相同的音效名称生成随机声音，您只需创建多个 .ogg 文件并像示例中一样填写配置：
 
 ```javascript
 "sounds":[
@@ -61,9 +60,9 @@ For example if you want to have random sounds for the same sound name you just h
 		]
 ```
 
-## 如何在 sounds.json 文件中添加多个音频？
+## 如何在 sounds.json 文件中添加多个音效？
 
-当你想要添加新的音频时，你只需要在末尾加一个逗号.\
+当你想要添加新的音效时，你只需要在末尾加一个逗号.\
 （指的是第 6 行逗号）
 
 ```javascript
