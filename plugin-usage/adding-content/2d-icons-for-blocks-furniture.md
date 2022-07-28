@@ -80,10 +80,10 @@ Now create the `placed_rocks.json` file inside the folder `data\resource_pack\as
 
 ### 步骤 1
 
-Create the 2D icon for the furniture
+创建家具的2D图标
 
 {% hint style="info" %}
-Replace `my_items` with your [namespace](basic-concepts/namespace/#namespace)!
+将 `my_items` 替换成 [你的命名空间](basic-concepts/namespace/#namespace)!
 {% endhint %}
 
 ```yaml
@@ -106,7 +106,7 @@ items:
             decrement_amount: true
 ```
 
-Now create the `2d_furniture.png` file inside the folder `data\resource_pack\assets\my_items\textures\item\`
+在 `data\resource_pack\assets\my_items\textures\item\` 创建 `2d_furniture.png` 文件
 
 ### 步骤 2
 
@@ -137,7 +137,7 @@ Create the item which shows the placed furniture model. It is a different item f
             item: 2d_furniture
 ```
 
-Now create the `furniture.json` file inside the folder `data\resource_pack\assets\my_items\models\decoration\`
+在文件夹 `data\resource_pack\assets\my_items\models\decoration\` 中创建 `furniture.json` 文件
 
 ### 完成!
 
