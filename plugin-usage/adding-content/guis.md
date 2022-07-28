@@ -1,4 +1,4 @@
-# GUIs
+# 自定义 GUIs
 
 为了创建 自定义GUI 你可以复制作者的示例包 **mcgui** 并且以你的想法进行编辑.\
 为了使用 自定义GUI 你可以使用 [JavaAPI ](../../../developers/java-api/huds-guis.md) 或安装类似于 [ChestCommands](https://dev.bukkit.org/projects/chest-commands) 的菜单插件.\

@@ -1,9 +1,9 @@
-# 🪨 Cave populators
+# 🪨 洞穴生成器
 
-## Generate decorations in caves
+## 生成洞穴装饰物
 
 {% hint style="warning" %}
-This feature requires **ItemsAdder** 3.1.6+
+版本需求： **ItemsAdder** 3.1.6+
 {% endhint %}
 
 With ItemsAdder you can generate decorations in the world caves to make your server more professional and original.
@@ -12,9 +12,9 @@ For example you can make new mushrooms, new little plants, rocks and decorations
 
 ![](<../../.gitbook/assets/image (81).png>)
 
-## Creating a Cave Populator
+## 创建一个洞穴生成器
 
-### Creating the configuration
+### 创建配置文件
 
 For example let's create a group of small rocks which will spawn around the world.
 
@@ -49,7 +49,7 @@ cave_decorators:
     position: SURFACE
 ```
 
-As you can see I set some properties:
+属性详情：
 
 `block` is the ItemsAdder block to spawn as decoration.
 

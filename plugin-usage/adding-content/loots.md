@@ -7,7 +7,7 @@ You can decide to create different loot types:&#x20;
 * mobs
 * fishing
 
-For example this is the loots category of a .yml file I created.
+例如：这是我在 .yml 中创建的战利品属性
 
 ```yaml
 loots:
@@ -121,7 +121,7 @@ loots:
           chance: 5
 ```
 
-### Mobs
+### 怪物
 
 ```yaml
 loots:
@@ -150,7 +150,7 @@ loots:
 ```
 
 {% hint style="info" %}
-### 自定义怪物掉落物 [旧实体方法](mobs/old-method/))
+### 自定义怪物掉落物 ([旧实体方法](mobs/old-method/))
 {% endhint %}
 
 In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
@@ -176,7 +176,7 @@ loots:
 As you can see I set `ItemsAdderMob` **** attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
 
 {% hint style="info" %}
-### Custom entities loots
+### 自定义实体战利品 Custom entities loots
 {% endhint %}
 
 In order to let ItemsAdder drop an item based on when you kill a custom entity (created with ItemsAdder) you have to use the `ItemsAdderEntity` metadata attribute. Example:
@@ -202,7 +202,7 @@ loots:
 As you can see I set `ItemsAdderEntity` **** attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob)
 
 {% hint style="info" %}
-### Villager professions (and any other NBT attribute you want to match)
+### 村民职业（以及想要匹配的任何其他 NBT 属性）
 {% endhint %}
 
 ```yaml
@@ -227,11 +227,11 @@ As you can see I set **profession** attribute and specified the **NBT attribute*
 Then I set value to **minecraft:farmer**, this tells ItemsAdder to match only **villagers** with attribute **VillagerData.profession** set to **minecraft:farmer**.
 
 {% hint style="warning" %}
-The type attribute of **nbt** and **metadata** are really **important**, don't **forget** them or matches could not occur.
+`nbt` 的 `type` 属性和 `metadata（对应Value）` 属性非常重要，不要忘记配置！否则将无法匹配!
 {% endhint %}
 
 {% hint style="info" %}
-### Drop based on Tile entity NBT data (for example Spawner)
+### 基于 Tile 实体的 NBT数据 掉落（例如 刷怪笼（Spawner））
 {% endhint %}
 
 ```yaml

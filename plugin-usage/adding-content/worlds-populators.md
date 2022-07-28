@@ -1,6 +1,6 @@
-# 💎 Worlds populators
+# 💎 世界生成器
 
-### Example: two populators
+### 两个生成器栗子
 
 ```yaml
 worlds_populators:

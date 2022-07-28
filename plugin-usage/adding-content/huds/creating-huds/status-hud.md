@@ -1,22 +1,20 @@
 ---
-描述: Tutorial on how to create a STATUS HUD
+描述: 关于如何创建状态 HUD 的教程
 ---
 
-# Status HUD
+# 状态 HUD
 
-## How to create your first HUD (type STATUS)
+## 如何创建一个 HUD（STATUS）
 
-STATUS HUDs allows you to create HUDs which have one texture to represent their filled state, empty state and half filled state.
+状态HUD 允许你创建使用材质来表示三种不同的状态，分别是： **half** **negative** **positive**
+<br>例如：原版中的 **饥饿值** 就使用了相同的方法.
+并且 Itemsadder 的预置内容中有该类型HUD的示例 —— "口渴值"，
 
-For example vanilla Minecraft **hunger bar** uses the same method.
+### 请阅读 [上一个教程](frames-hud.md) 
 
-ItemsAdder has an example usage of this type of HUD, the **thirst bar**.
+## 创建所需的配置
 
-### Please read the [previous tutorial](frames-hud.md) before starting this one.
-
-## Creating the needed configuration
-
-The difference from [FRAMES HUDs](frames-hud.md) is that you don't have to bother creating one texture for each one of the possible values.
+与 [动态 HUD](frames-hud.md) 的不同之处在于不需要为每个可能的值创建材质贴图.
 
 ```yaml
 info:
@@ -63,12 +61,12 @@ font_images:
 
 ```
 
-## Creating the textures
+## 创建材质
 
 ![](<../../../../.gitbook/assets/image (49) (1) (1).png>)
 
-As you can see I had created 3 textures, one for the **half** state, one for the **negative** state and one for the **positive** state.
+如图所示，我创建了 3 个材质，分别用于 **half** **negative** **positive** 三种状态.
 
-## Final result
+## 最终效果
 
 ![](<../../../../.gitbook/assets/image (52) (1) (1) (1) (1) (1).png>)

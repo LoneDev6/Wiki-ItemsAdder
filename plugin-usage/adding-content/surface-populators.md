@@ -1,4 +1,4 @@
-# 🍄 Surface populators
+# 🍄 表层生成器
 
 ## Generate decorations on the world surface
 
@@ -43,7 +43,7 @@ surface_decorators:
     amount: 1
 ```
 
-As you can see I set some properties:
+属性详情：
 
 `block` is the ItemsAdder block to spawn as decoration.
 
