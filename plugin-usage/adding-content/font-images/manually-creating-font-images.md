@@ -1,7 +1,7 @@
 # 手动创建 字符图像（Font images）
 
 
-## 在不适用 ItemsAdder 的情况下手动创建 字符图像（Font images）
+## 在不使用 ItemsAdder 的情况下手动创建 字符图像（Font images）
 
 某些服务器可能出于各种原因需要手动创建字体图像，例如：
 
