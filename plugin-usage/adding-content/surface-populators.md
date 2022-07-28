@@ -10,9 +10,9 @@ For example you can make new mushrooms, new little plants, rocks and decorations
 
 ![](../../.gitbook/assets/desert\_rose.png)
 
-## Creating a Surface Populator
+## 创建一个表层生成器
 
-### Creating the configuration
+### 创建配置文件
 
 For example let's create a rose which will spawn around the world.
 

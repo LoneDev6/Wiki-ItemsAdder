@@ -7,11 +7,11 @@ You can find them in the **realcraft** and in the **magiccraft** namespaces.
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-## Disable/enable huds in worlds
+## 在世界中 启用/禁用 HUD
 
 You can easily disable/enable huds in some worlds, here some examples:
 
-### Enable in all worlds
+### 在所有世界中启用
 
 To enable them in all worlds you just have to avoid entering any world in the list, don't write the property at all.
 
@@ -33,7 +33,7 @@ huds:
 
 Notice the `!` in front of the world name. (It's very important to use the `" "` characters or plugin won't work (yml bug).
 
-### Enable thirst in all worlds of name which starts with `world_` or `adventure`
+### 在所有以 `world_` 、 `adventure` 为开头的世界中启用口渴值
 
 ```yaml
 huds:
@@ -44,4 +44,4 @@ huds:
     - "adventure*
 ```
 
-Notice the `*` at the end, this means "any". (keep in mind that this works only at the end of the name)
+注意：在末尾的 `*`，代表"全部".（该含义仅适用于名称的末尾.）

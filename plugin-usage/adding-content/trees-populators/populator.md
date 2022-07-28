@@ -1,4 +1,4 @@
-# Populator
+# 生成器
 
 ## 让自定义树随机生成
 
@@ -71,7 +71,7 @@ The block to be used as log for this tree.
 The list of biomes where the tree can spawn. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html).\
 This property is optional, this tree will spawn on every biome if you don't set it.
 
-## Example
+## 示例
 
 {% embed url="https://www.spigotmc.org/resources/trees-newtrees-itemsadder-addon.84604/" %}
 
