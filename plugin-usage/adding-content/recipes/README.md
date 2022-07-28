@@ -1,8 +1,8 @@
 # 🍳 合成配方
 
-为了在 [命名空间 ](../basic-concepts/namespace/) 中为自定义物品创建合成配方，你需要在.yml文件中添加 `recipes` 的属性（当然你也可以新建一个文件来专门配置合成配方）
+In order to create a recipe for your items in your [namespace ](../basic-concepts/namespace/)you have to create a special section in one of your .yml files (or on each one, you decide how you want to organize the plugin).
 
-## 示例：3x3 的合成配方
+## Example 3x3 recipe 基础3x3配方
 
 ![](<../../../.gitbook/assets/immagine (42).png>)
 
@@ -25,10 +25,10 @@ recipes:
         amount: 1
 ```
 
-从配置中你可以发现我创建了 `recipes:` 属性部分，该属性部分可以创建各种类型的合成配方.\
-在示例中，我创建了一个名为 `deadmau5_hat` 的 `crafting_table（工作台）` 配方
+As you can see I created the recipes section in the .yml file, this section can contain each type of recipe.\
+In this example I created a `crafting_table` recipe called `deadmau5_hat`
 
-## 示例：2x2 的合成配方
+## Example 2x2 recipe 基础2x2配方
 
 ![](<../../../.gitbook/assets/immagine (41).png>)
 
@@ -50,13 +50,11 @@ taco:
 ```
 
 {% hint style="warning" %}
-在 2x2 的配方中你必须将第一行设置为 *XXX** 并在右下角设置合成的材料.\
-_在合成配方中 X 代表空白_
+You must set first line to XXX, and every ingredient on the bottom right.
 {% endhint %}
 
 {% hint style="success" %}
-如果你需要创建 **多个** 合成配方，只需要确保多种配方的属性以`pattern` 为前缀. .\
-例如：pattern\_2
+You can create **multiple patterns** per recipe, just make sure that the attribute **starts** with '**pattern**' text. For example pattern\_2.
 
 ```yaml
 turquoise_sword:
