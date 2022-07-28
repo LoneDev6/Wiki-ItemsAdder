@@ -1,7 +1,8 @@
-# 🎨 Colored models
+# 🎨 Colored models可染色的模型
 
 {% hint style="warning" %}
-Only available in **ItemsAdder 2.3.11+**
+版本需求：
+**ItemsAdder 2.3.11+**
 {% endhint %}
 
 {% hint style="info" %}
