@@ -1,15 +1,15 @@
-# ℹ Items tooltips
+# ℹ 自定义物品 tooltips
 
-You can add custom textured tooltips for your items, please refer to this example addon:\
+你可以为你的物品自定义 tooltips，详情请参阅该附属插件：
 [https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/)
 
 
 
 ![https://i.imgur.com/eA7iz50.gif](https://i.imgur.com/eA7iz50.gif)
 
-## Limitations
+## 局限性
 
 {% hint style="warning" %}
-* you cannot show custom enchants as they will go out of the window if the image is too small
-* you have to write everything in the tooltip image, text would go out of the window if the image is too small
+* 无法显示自定义附魔，如果 tooltips 太小，附魔内容会超出 tooltips
+* 你必须在 tooltips 图像中编辑好要显示的内容，如果 tooltips 太小，内容会超出 tooltips
 {% endhint %}
