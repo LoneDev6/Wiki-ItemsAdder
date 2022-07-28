@@ -2,7 +2,6 @@
 
 ## 为物品添加自定义 NBT 属性
 
-You can specify custom **NBT** attributes to me merged into the custom item
 你可以指定自定义的 NBT 属性标签合并到自定义物品中.
 
 ## 示例
