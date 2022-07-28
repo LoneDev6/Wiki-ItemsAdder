@@ -1,10 +1,10 @@
 ---
-描述: This recipe allows your users to craft an item [此页面可教会你如何使用Ia的合成配方功能]
+描述: 该合成配方可以使玩家通过工作台合成物品
 ---
 
-# Crafting
+# 工作台
 
-## Example 栗子
+## 栗子
 
 ```yaml
   crafting_table:
@@ -34,10 +34,9 @@
         amount: 1
 ```
 
-In this example I created two `crafting_table `recipes called `deadmau5_hat `and `top_hat`
-在示例中，我在 `cooking` 属性下创建了 `deadmau5_hat `/`top_hat` 的合成配方
+在该示例中，分别创建了 `deadmau5_hat` 和 `top_hat` 的 `crafting_table（工作台）` 合成配方
 
-## Special features [特殊之处]
+## 特殊功能
 
 ```yaml
     peeled_potato:
@@ -64,11 +63,9 @@ In this example I created two `crafting_table `recipes called `deadmau5_hat `and
           pitch: 1
 ```
 
-For example this is the `peeled_potato `recipe. This is a special recipe which uses a knife as ingredient of  the crafting (and a potato) and decrements its durability when player crafts one peeled potato without making it disappear.\
-在这个示例中这个 `peeled_potato` 的合成配方很特殊.\
-他可以使用刀和土豆来合成,并且每次合成小刀并不会消失而是耐久下降,但是土豆会消失并且变成`peeled_potato`.
+该示例为 `peeled_potato（去皮土豆）` 的合成配方. .\
+该配方中加入了一些特殊的功能，使用刀与（土豆）作为材料，当玩家通过该合成配方去制作物品时将会获得 `peeled_potato（去皮土豆）` ，随之材料中的刀的耐久也会跟着减少.
 
 ![](<../../../../.gitbook/assets/image (10).png>)
 
-As you can see you can also play a sound using `play_sound`.
-你可以使用音效,正如示例中的`play_sound`.
+当然，你还可以使用 `play_sound` 属性来播放音效
