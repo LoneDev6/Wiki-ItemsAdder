@@ -1,10 +1,10 @@
-# 🇬🇧 🇬🇧 Translation
+# 🇬🇧 🇬🇧 汉化
 
-You can translate everything in ItemsAdder, it's really easy.
+你可以汉化 ItemsAdder 中的任何内容
 
-## Translate items
+## 汉化物品
 
-### Translate ItemsAdder default items
+### 汉化 ItemsAdder 的默认物品
 
 If you want to translate IA default items you can, you just have to copy my dictionary and create your own.\
 
@@ -16,7 +16,7 @@ If you want to translate IA default items you can, you just have to copy my dict
 * open config.yml and set `dictionaries-lang` to your language identifier (example `fr`)
 * reload the plugin or restart the server
 
-### Create your own translation for your new items
+### 为自己新增的物品增添语言文件
 
 To create your own translations for your own items (you won't likely need this, but if you want to share your items online in the future it would be better to make them translatable) you just have to create a new file wherever you want (I'd put it inside the `dictionaries`folder for easier organization, but you can put anywhere inside `items_packs`).
 
@@ -73,6 +73,7 @@ items:
 ```
 {% endhint %}
 
-## Translate commands and messages
+## 汉化 命令和消息
 
-You just have to open lang folder and copy and paste en.yml, then translate it and change the lang setting in config.yml to your file name.
+~打开 lang 文件夹并复制并粘贴 en.yml，并将 config.yml 中的 lang 设置为新的汉化文件名~
+你只需要在 config.yml zhong 将 lang 设置为zh_cn即可

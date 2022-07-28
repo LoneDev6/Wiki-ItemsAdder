@@ -1,11 +1,11 @@
-# Minecraft translation files
+# 更改 Minecraft 的语言文件
 
 {% hint style="info" %}
 With ItemsAdder you can easily overwrite Minecraft default translation files.  
 \(version 2.1.35+\)
 {% endhint %}
 
-### Example of usage
+### 用法示例
 
 In this example I will change the Return to game text of ESC menu.
 
