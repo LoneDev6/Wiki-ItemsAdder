@@ -14,7 +14,7 @@
 
 ![](<../../../.gitbook/assets/immagine (49).png>)
 
-你可以从 [这里](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf) 获取一个 [GIMP ](https://www.gimp.org/downloads/) [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf)模板.
+你可以在 [该页面](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf) 获取 [GIMP ](https://www.gimp.org/downloads/) [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf)模板.
 
 * 编辑文件:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`
 * 保存文件在相同的位置
@@ -24,23 +24,20 @@
 ![](<../../../.gitbook/assets/immagine (48).png>)
 
 {% hint style="warning" %}
-**Warning**: a known issue is that the logo is bugged when you use `/iazip` or `/iatexture` to apply the texture ingame.\
-The logo will be shown with no issue only on server join for some reason, probably an Optifine bug.
+**提醒**: 该功能有一个已知的问题，在你使用指令 `/iazip` 或 `/iatexture` 进行重载资源包时，将不会显示LOGO.\
+只有在从服务器列表进入服务器时才会正常显示LOGO.
 {% endhint %}
 
-A little bit difficult:\
-basically you have to split your image in half like I did, so you have to know how to use image editing programs (Photoshop, GIMP or Paint.net).\
-You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf).
+你需要像示例图片中一样将图片分成两半，所以你需要能够熟练的使用图像编辑软件 (Photoshop, GIMP or Paint.net).\
+你可以在 [该页面](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf) 获取 [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf)模板.
 
-* Edit my file: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
-* Save the file in the same location
+* 编辑文件 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
+* 保存文件（不要改变文件的位置）
 
 {% hint style="warning" %}
-**IMPORTANT**\
-The position of the parts needs to be precise.\
-The left side of the texture needs to touch the top-right corner of the canvas while the right side needs to touch the center-left side of the canvas.
+**重要**\
+无论材质的大小为多少，你都要保证材质的左侧需要接触画布的右上角，材质的右侧需要接触画布中线的左侧（如图所示），两个部分的位置必须十分精确!
 
-This is **always** the case, no matter the size of the actual texture!
 {% endhint %}
 
 ### 如何修改加载页面的背景颜色(仅适用于)
@@ -51,17 +48,17 @@ This is **always** the case, no matter the size of the actual texture!
 
 ```yaml
 ###############################################################################
-# Resource loading screen
+# 自定义资源包加载界面
 ###############################################################################
-# Background color
+# 背景颜色 Background color
 screen.loading=14181c
-# Loading bar background color
+# 加载条背景 Loading bar background color
 screen.loading.bar=14181c
-# Loading bar outline
+# 加载条边框 Loading bar outline
 screen.loading.outline=303336
-# Loading bar foreground color
+# 加载条前景色 Loading bar foreground color
 screen.loading.progress=1f17ce
-# Logo blend mode
+# Logo 混合 模式
 # Where src, dst, srcA and dstA are one of: 
 #   ZERO, ONE, SRC_COLOR, ONE_MINUS_SRC_COLOR, DST_COLOR, ONE_MINUS_DST_COLOR, 
 #   SRC_ALPHA, ONE_MINUS_SRC_ALPHA, DST_ALPHA, ONE_MINUS_DST_ALPHA, SRC_ALPHA_SATURATE

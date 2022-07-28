@@ -2,21 +2,21 @@
 描述: 手动编辑 Optifine 来创建自定义盔甲材质
 ---
 
-# Armor textures (old method)
+# 自定义盔甲材质(旧方法)
 
-## Custom textured armors on 1.16 (and lower)
+## 在 1.16 中自定义盔甲材质 (或更低版本)
 
 如果你想为盔甲添加自定义材质而不仅仅是自定义颜色,你可以配合 **Optifine** 来实现.
 
-### Click here if you want the new automatic creation:
+### 如果你想要使用自动创建请参阅该教程
 
 {% content-ref url="../armors/" %}
 [armors](../armors/)
 {% endcontent-ref %}
 
-## Custom textured armor (manual way)
+## 自定义盔甲材质 (手动)
 
-### Download the [example addon here](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
+### [下载该附属](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
 
 ![](<../../../.gitbook/assets/image (22).png>)
 
@@ -24,44 +24,46 @@
 
 ### 步骤 1
 
-Create your **custom namespace** (if you didn't already), follow[ this tutorial](../basic-concepts/namespace/creating-your-namespace.md).\
-In this tutorial **my namespace** is named `mystuff`
+创建你的 **命名空间** (如果还未创建), [ 参阅该教程](../basic-concepts/namespace/creating-your-namespace.md).\
+在该示例中 **命名空间** 名为 `mystuff`
 
 ### 步骤 2
 
-Create **custom textures** for the **inventory items**. I put them in **** the **folder** `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`
+在 `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1` 中放入 自定义盔甲的物品材质.
 
 ![](<../../../.gitbook/assets/image (24).png>)
 
 ### 步骤 3
 
-Create **custom textures** for **on-body armor**. You can get a **template** from here:\
+为 **盔甲** 创建 **自定义材质** . 你可以在下方路径中获取一个 **模板** :\
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`\
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
 
-**Edit** the **textures** as you wish (use Paint.NET, Photoshop, GIMP or similar programs) and **save** them as `layer_1.png` and `layer_2.png`&#x20;
+使用图像编辑软件 **制作** 你的自定义盔甲 **材质贴图** 并保存为文件，例如：`layer_1.png` 和 `layer_2.png`&#x20;
 
 ### 步骤 4
 
-Create the `optifine` folder, this is where we want to put out **custom textures** for the **worn armor**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`
+创建 `optifine` 文件夹，我们将在 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine` 路径中加入自定义盔甲的材质贴图
 
 {% hint style="warning" %}
-You **must create** it under the folder `minecraft`, sadly you **cannot** create the `optifine` folder inside your **namespace** folder (in this case `mystuff`), it's an **Optifine limitation**.
+使用 optifine 导入自定义盔甲有一个限制：.\
+你 **必须在 `minecraft` 文件夹中创建 `optifine` 文件夹**，你不能在 **命名空间** 中（在本示例中为 `mystuff`）创建 `optifine` 文件夹，因为optifine无法进行读取.
 {% endhint %}
 
 ### 步骤 5
 
-Now save the **previously created on-body** textures (`layer_1.png` and `layer_2.png` ) inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+现在将之前制作的 **盔甲材质贴图**(`layer_1.png` and `layer_2.png` ) 放入 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
 
-So you have this:
+现在应该拥有如下文件:
 
 ![](<../../../.gitbook/assets/image (25).png>)
 
 ### 步骤 6
 
-**Create** these files: **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties** inside `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+在 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity` 文件夹中 **创建** 下列文件:
+<br> **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties**
 
-Each of the files must contain this:
+每个文件都必须包含下列内容：
 
 ```elixir
 nbt.itemsadder.namespace=mystuff
@@ -73,9 +75,13 @@ texture.diamond_layer_1=layer_1
 texture.diamond_layer_2=layer_2
 ```
 
-For each of the `.properties` files you have to **change** the **1th** line setting **your namespace** instead of "mystuff", the **2nd line** to your **item id** and the **5th line** to the **item type** (`diamond_leggings` , `diamond_boots` ....)
+对于每个 `.properties` 文件，你应该更改文件中的配置：
+`nbt.itemsadder.namespace` ：为盔甲的命名空间
+`nbt.itemsadder.id` ： 为盔甲的ID
+`items` ：为盔甲的部件(`diamond_leggings` , `diamond_boots` ....)
+`texture.diamond_layer_X` ：为盔甲的自定义材质
 
-Now you should have this view:
+现在应该拥有如下文件:
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
@@ -83,11 +89,12 @@ Now you should have this view:
 
 ### 步骤 7
 
-**Create** a **file** to contain this custom armor, to better organize it. Name it **example\_1.yml** and **place it** inside your namespace, in this example: `plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`
+创建 **.yml**文件 来配置该自定义盔甲，将其命名为  **example_1.yml** 并放在命名空间的文件夹下.\
+该示例的路径为：`plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`
 
 ### 步骤 8
 
-**Add content** to the **yml file**. As you can see I decided to base my items on the Minecraft DIAMOND armor and I didn't specify any color because I don't need to color it, Optifine will apply a texture to it.
+**添加内容** 至 **.yml** 文件中.如配置所示，我将盔甲的 **源材质** 设置为 钻石盔甲，但并没有指定任何颜色，因为使用 optifine 会自动为其应用材质.
 
 ```yaml
 info:

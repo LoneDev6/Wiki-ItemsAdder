@@ -1,13 +1,13 @@
-# 更改 Minecraft 的语言文件
+# 快捷的更改 Minecraft 的语言文件
 
 {% hint style="info" %}
-With ItemsAdder you can easily overwrite Minecraft default translation files.  
+使用 Itemsadder 可以使你更快捷的覆盖 Minecraft 的语言文件
 \(version 2.1.35+\)
 {% endhint %}
 
 ### 用法示例
 
-In this example I will change the Return to game text of ESC menu.
+在该示例中，我将更改 ESC 菜单中的 **返回游戏** 文本
 
 ![](../../../.gitbook/assets/image%20%2831%29.png)
 
@@ -24,12 +24,12 @@ minecraft_lang_overwrite:
 
 ### languages
 
-The languages property is used to list all the languages where you want to change the text.  
-You should set it to only the languages of your playerbase, but I decided to set it to ALL so you will be sure that everyone can see the custom text despite their decided clientside language.
 
-### entries
+`languages` 用于列出你想要覆盖的语言文件，你可以只设置玩家群体所在地区的语言，当然你也可以设置为 `ALL` 这样子可以确保覆盖所有的语言文件.
 
-It's the list of translated texts. You can find the [complete list here](https://gist.github.com/LoneDev6/1df03fd853b2b244a7348216c8fa909d).
+### 条目
+
+[完整的 Minecraft 语言文件条目](https://gist.github.com/LoneDev6/1df03fd853b2b244a7348216c8fa909d).
 
 
 

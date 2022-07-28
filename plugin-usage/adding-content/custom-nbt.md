@@ -1,12 +1,13 @@
 # 自定义 NBT
 
-## Adding custom NBT attributes to the item
+## 为物品添加自定义 NBT 属性
 
 You can specify custom **NBT** attributes to me merged into the custom item
+你可以指定自定义的 NBT 属性标签合并到自定义物品中.
 
-## Example
+## 示例
 
-For example I want to merge these tags into my item.
+例如，下列标签合并到 自定义物品 中.
 
 &#x20;`{my-custom-nbt-tag:"hello this is a custom tag", another-tag:"useless"}`
 
@@ -25,9 +26,9 @@ items:
 ```
 
 {% hint style="danger" %}
-## Warning
+## 提醒
 
-Make sure to provide a valid **NBT** (**json**) or it won't work.
+确保提供有效的 **NBT** (**json**) 否则将会失效.
 
-### This feature requires **ItemsAdder 2.4.18+** 
+### 版本需求 **ItemsAdder 2.4.18+** 
 {% endhint %}
