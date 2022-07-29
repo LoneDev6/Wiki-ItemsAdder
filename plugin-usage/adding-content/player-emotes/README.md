@@ -1,5 +1,5 @@
 ---
-描述: Adding animated player emotes
+描述: 为玩家添加表情动作
 ---
 
 # 💃 Player Emotes

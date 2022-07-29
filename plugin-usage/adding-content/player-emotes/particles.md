@@ -1,11 +1,11 @@
-# Particles
+# 粒子效果
 
-## Setup
+## 设置
 
-### Configure the special particle location bone
+### 为骨骼配置粒子效果
 
-Open your `.iaentitymodel` model file with **Blockbench**.\
-Create a new bone, it can have any name.
+在 Blockbench 中打开 `.iaentitymodel` 模型文件.\
+创建一个任意名称的新骨骼
 
 ![](<../../../.gitbook/assets/image (78) (1) (1).png>)
 
@@ -44,4 +44,4 @@ Edit the values on the "**Keyframe**" panel.
 
 ![](<../../../.gitbook/assets/image (69) (1).png>)
 
-## Done
+## 完成

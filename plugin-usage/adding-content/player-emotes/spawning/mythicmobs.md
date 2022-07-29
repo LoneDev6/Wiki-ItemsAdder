@@ -1,5 +1,5 @@
 ---
-description: Custom 3D models for Mythicmobs mobs
+描述: 为 Mythicmobs 怪物使用自定义动作
 ---
 
 # Mythicmobs
@@ -7,6 +7,7 @@ description: Custom 3D models for Mythicmobs mobs
 ## Reskinning a Mythicmob mob
 
 You can use a custom player skin for any Mythicmob mob.
+你可以为 Mythicmobs 怪物使用自定义玩家皮肤.
 
 {% hint style="success" %}
 This plugin doesn't require Mythicmobs to work, but some servers might need to use it to create custom bosses and similar.
@@ -40,15 +41,15 @@ In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
 
 ![](<../../../../.gitbook/assets/image (74).png>)
 
-### Custom skin
+### 自定义皮肤
 
 {% content-ref url="../custom-skin.md" %}
 [custom-skin.md](../custom-skin.md)
 {% endcontent-ref %}
 
-### Skills
+### 技能
 
-* `customentity{playerskin=SKIN}` Change the player skin
+* `customentity{playerskin=SKIN}` 更改玩家皮肤
 * `customentity{idle=ANIMATION}` To change the idle animation
 * `customentity{walk=ANIMATION}` To change the walk animation
 * `customentity{attack=ANIMATION}` To change the attack animation
@@ -56,6 +57,6 @@ In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
 * `customentity{play=ANIMATION}` To play an animation right now
 * `customentity{stop=ANIMATION}` To stop the current animation
 
-### Done
+### 完成
 
 ![](<../../../../.gitbook/assets/ezgif.com-gif-maker (1).webp>)

@@ -1,6 +1,6 @@
 # Creation
 
-## Installing the Blockbench extension
+## 安装 Blockbench 扩展
 
 {% hint style="warning" %}
 ### Before continuing:
@@ -9,7 +9,7 @@
 * Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
 {% endhint %}
 
-[Download Blockbench](https://www.blockbench.net/) (don't use the web app).
+[下载 Blockbench](https://www.blockbench.net/) (不要使用网页版).
 
 ![](<../../../.gitbook/assets/image (98) (1).png>)
 
@@ -30,9 +30,9 @@ Press OK
 
 ![](<../../../.gitbook/assets/image (71).png>)
 
-## Enabling emotes
+## 启用表情动作
 
-Open `config.yml` of ItemsAdder and enable these two options, then run `/iazip` command.
+打开 `config.yml` 并启用下列两个选项，并使用指令 `/iazip` 生成新的资源包
 
 {% code title="config.yml" %}
 ```yaml
@@ -91,9 +91,9 @@ There is <mark style="color:green;">no need</mark> to use `/iazip`!
 
 Use the emote command: `/iaemote <emote> [player]` or `/emote <emote> [player]`
 
-## Emote permission
+## 表情动作权限
 
-Use the `/iaemote` command: `ia.user.iaemote`
+使用指令 `/iaemote` 的权限为：`ia.user.iaemote`
 
-Use an emote: `ia.user.iaemote.use.<emote>`\
-``Example: `ia.user.iaemote.use.yes`
+使用某个表情动作： `ia.user.iaemote.use.<emote>`\
+``例如: `ia.user.iaemote.use.yes`
