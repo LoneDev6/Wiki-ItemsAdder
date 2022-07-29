@@ -20,11 +20,11 @@
 
 编辑 "**Keyframe（关键帧）**" 界面中的值
 
-* Name: name of the sound, use the ingame Minecraft particle name. You can also use custom sounds from your resourcepack.
-* Volume: the volume of the sound.
-* Pitch: the pitch of the sound.\
+* Name: 音效名称（你可以使用原版的音效名称，也可以使用添加的自定义音效）
+* Volume: 音效音量
+* Pitch: 音效的音高.\
 
 
 ![](<../../../.gitbook/assets/image (87).png>)
 
-## Done
+## 完成
