@@ -2,7 +2,7 @@
 描述: NPC 的自定义模型
 ---
 
-# Citizens
+# Citizens（NPC）
 
 ## Animating a player Citizens NPC
 
@@ -16,7 +16,7 @@ This plugin doesn't require Citizens to work, but some servers might need to use
 
 Then change the skin using the **ItemsAdder** command:\
 `/iaentity citizens playerskin <playerName|skinUrl>`\
-``Examples:
+``示例:
 
 * `/iaentity citizens playerskin LoneDev`
 * `/iaentity citizens playerskin` [`https://minesk.in/8b4bf861ea544edd8529707276d24853`](https://minesk.in/8b4bf861ea544edd8529707276d24853)
@@ -27,7 +27,7 @@ Then change the skin using the **ItemsAdder** command:\
 [creation.md](../creation.md)
 {% endcontent-ref %}
 
-### Make head rotate
+### 使 NPC 注视玩家
 
 You can make the NPC look at nearby players by using this command, more info on [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
 `/npc look`
