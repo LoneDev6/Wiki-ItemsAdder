@@ -5,20 +5,20 @@
 # 导入
 
 {% hint style="warning" %}
-This is a temporary tutorial. There will be a import export button in the future to easily import export emotes.
+该教程为临时教程，在不久后将会更新导入的按钮，使得导入表情动作更加方便
 {% endhint %}
 
-You can import emotes from packs shared online, without replacing your own emotes.
-
+你可以从共享的表情包中导入表情动作，不需要替换你原有的表情动作
+假如你要将 共享表情包 `custom_emotes.iaentitymodel` 中的表情导入至你自己的表情文件.
 ### 步骤 1
 
-Open the other file you want to import emotes from, in this example `custom_emotes.iaentitymodel` .
+首先打开 `custom_emotes.iaentitymodel` 文件
 
-Open also the `player.iaentitymodel` file inside the plugin folder `ItemsAdder\data\resource_pack\assets\minecraft\animations`
+并打开你自己的表情动作文件 `player.iaentitymodel`（位于`ItemsAdder\data\resource_pack\assets\minecraft\animations`）
 
 ### 步骤 2
 
-Select one emote and press CTRL+C, then press CTRL+V inside the `player.iaentitymodel` file.\
-Do that for every emote you want to import.
+为每个你想要导入的表情执行下列操作：.\
+选择一个表情并按下 `CTRL+C` 进行复制并在 `player.iaentitymodel` 文件中按下 `CTRL+V` 来粘贴
 
 ### 完成

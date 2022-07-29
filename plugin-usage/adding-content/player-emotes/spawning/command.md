@@ -20,7 +20,7 @@ With **ItemsAdder** you can also spawn custom players in the world, you can also
 
 `/iaentity summonplayer https://minesk.in/8b4bf861ea544edd8529707276d24853`
 
-## Set custom skin
+## 设置自定义皮肤
 
 ### Change skin of the nearest custom player entity
 

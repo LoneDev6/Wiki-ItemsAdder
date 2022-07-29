@@ -1,30 +1,30 @@
-# Animations
+# 表情动画
 
-## How to create an animation
+## 创建一个动画
 
-You can animate your models normally, like you would do with normal Blockbench models.\
-You can find a lot of tutorials on YouTube.
+你可以正常为模型制作动画，就像制作普通的 Blockbench 模型一样.\
+在 YouTube 上有很多关于模型动画的教程
 
 {% embed url="https://www.youtube.com/results?search_query=blockbench+animation+tutorial" %}
 
-## Lock the player movement
+## 锁定玩家位置（无法移动）
 
 You can specify if the player can move while playing one specific animation or not.
 
 ![](<../../../.gitbook/assets/image (76).png>)
 
-## Looping animations
+## 循环动画
 
 You can create animations which would play `start` -> `loop` -> `end` sub-animation.\
 This allows you to create complex looping animations, for example a sleep animation where your player would lay and stay there until the player presses SHIFT.
 
 ### 步骤 1
 
-Create the animation, in this example a death animation.
+创建一个动画，在该示例中为死亡动画
 
 ![](<../../../.gitbook/assets/image (96) (1).png>)
 
-Right click it and mark it as `Loop`.
+右键将其设置为 `Loop（循环）` 动画.
 
 ![](<../../../.gitbook/assets/image (92) (1).png>)
 

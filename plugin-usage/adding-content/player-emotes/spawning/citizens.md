@@ -1,5 +1,5 @@
 ---
-描述: Custom models for Citizens NPCs
+描述: NPC 的自定义模型
 ---
 
 # Citizens
@@ -21,7 +21,7 @@ Then change the skin using the **ItemsAdder** command:\
 * `/iaentity citizens playerskin LoneDev`
 * `/iaentity citizens playerskin` [`https://minesk.in/8b4bf861ea544edd8529707276d24853`](https://minesk.in/8b4bf861ea544edd8529707276d24853)
 
-### Optional: getting/uploading custom skins
+### 可选：获取/上传自定义皮肤
 
 {% content-ref url="../creation.md" %}
 [creation.md](../creation.md)
@@ -32,11 +32,11 @@ Then change the skin using the **ItemsAdder** command:\
 You can make the NPC look at nearby players by using this command, more info on [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
 `/npc look`
 
-### Done
+### 完成
 
 {% embed url="https://youtu.be/phr3GbGgJys" %}
 
-## Playing animation
+## 播放动画
 
-You can play an animation using this command: `/iaentity citizens anim play <animation>`
+你可以使用指令来播放动画: `/iaentity citizens anim play <animation>`
 

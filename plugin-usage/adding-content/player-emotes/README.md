@@ -2,25 +2,26 @@
 描述: 为玩家添加表情动作
 ---
 
-# 💃 Player Emotes
+# 💃 表情动作
 
 {% hint style="warning" %}
-This method is in beta and it's available only on **ItemsAdder v3.0.5+** and requires **Minecraft 1.17+**
+版本需求：**ItemsAdder v3.0.5+** **Minecraft 1.17+**.\
+该特性处于测试阶段.
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=posxlbudF8I" %}
 
-### Main features
+### 主要特点
 
-* [Blockbench](https://www.blockbench.net/) extension to animate the Minecraft player model
-* Completely Async, no TPS drops
-* Optimized for big servers
-* Play sounds and particles in animations
-* Shows player hands equipment
+* 独立开发了为 Minecraft 玩家模型制作动画的 [Blockbench](https://www.blockbench.net/) 扩展
+* 完全使用异步处理，不会造成TPS降低
+* 针对大型服务器进行了优化
+* 在动画中使用声音和粒子
+* 显示玩家的手持装备
 
-## Limitations
+## 局限性
 
-* Won't show the player armor equipment (for now)
-* Works only on Minecraft 1.17+
-* Shaders mods (Optifine, Iris) can cause rendering problems, [read more here](../../../faq/emotes-bugs/textures-broken-by-shaders-mod.md).
-* Placed heads won't be shown correctly in some cases, [read more here](../../../faq/emotes-bugs/placed-heads-texture-glitched.md).
+* 目前无法显示玩家的盔甲装备
+* 仅使用于 Minecraft 1.17+ 
+* 使用光影mod（Optifine, Iris）时会导致渲染错误, [更多详情](../../../faq/emotes-bugs/textures-broken-by-shaders-mod.md).
+* 某些情况下，放置的头颅无法正常显示, [更多详情](../../../faq/emotes-bugs/placed-heads-texture-glitched.md).

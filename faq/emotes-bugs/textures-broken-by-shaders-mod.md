@@ -1,5 +1,5 @@
 ---
-描述: 在使用光影时表情材质显示错误
+描述: 在使用光影时表情动作材质显示错误
 ---
 
 # 使用光影时材质显示错误
@@ -7,7 +7,7 @@
 {% hint style="warning" %}
 #### 目前无法修复该错误
 
-该问题是由于 Optifine/Iris 模组使用光影时无法与自定义表情兼容，修复该问题需要从模组层面进行兼容.
+该问题是由于 Optifine/Iris 模组使用光影时无法与自定义表情动作兼容，修复该问题需要从模组层面进行兼容.
 {% endhint %}
 
 {% tabs %}
@@ -24,13 +24,13 @@
 
 ### Optifine 问题
 
-在使用 Optifine 渲染器的光影时，会导致自定义表情失效，想要解决该问题只能关闭光影功能
+在使用 Optifine 渲染器的光影时，会导致自定义表情动作失效，想要解决该问题只能关闭光影功能
 
 已与该开发者联系修复: [https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
 
 ### Iris 问题
 
-在使用 Iris 渲染器的光影时，会导致自定义表情失效，想要解决该问题只能关闭光影功能
+在使用 Iris 渲染器的光影时，会导致自定义表情动作失效，想要解决该问题只能关闭光影功能
 
 已与该开发者联系修复: [https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
 
