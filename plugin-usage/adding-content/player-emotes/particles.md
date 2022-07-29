@@ -37,7 +37,7 @@
 
 * Name: 粒子名称（原版的粒子效果名称）
 * Bone (locator): 使用粒子效果的骨骼
-* Speed: 粒子消失的速度.
+* Speed: 粒子消失的速度(数值越大粒子消散的越快).
 * Count: 粒子的数量.
 * XYZ delta: 以 **x y z** specifies the dimensions (in number of blocks) for each dimension of the particle effect, with **x y z** in the center. Each coordinate specifies the number of blocks from the center that the particles will appear. You can set decimal numbers.\
 
