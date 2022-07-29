@@ -49,7 +49,7 @@ custom_player:
 [custom-skin.md](../custom-skin.md)
 {% endcontent-ref %}
 
-### 技能
+### 技能动画
 
 * `customentity{playerskin=SKIN}` 更改皮肤
 * `customentity{idle=ANIMATION}` 静止时的动画

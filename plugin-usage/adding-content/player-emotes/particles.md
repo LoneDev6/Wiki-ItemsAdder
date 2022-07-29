@@ -17,7 +17,7 @@
 
 ![](<../../../.gitbook/assets/image (67) (1) (1).png>)
 
-切换至 "**Animate（动画模式）**" view.
+切换至 "**Animate（动画模式）**" 界面.
 
 ![](<../../../.gitbook/assets/image (75) (1).png>)
 

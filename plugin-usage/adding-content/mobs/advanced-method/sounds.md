@@ -1,32 +1,32 @@
-# Sounds
+# 音效
 
-## Playing a sound
+## 播放音效
 
-Switch to "**Animate**" view.
+切换至 "**Animate（动画模式）**" 界面.
 
 ![](<../../../../.gitbook/assets/image (50) (1) (1).png>)
 
-Select one of your animations.
+选择一个动画
 
 ![](<../../../../.gitbook/assets/image (92) (1) (1).png>)
 
-Select the magic wand icon "**Animate Effects**"
+选择 "**Animate Effects（动画效果）**"
 
 ![](<../../../../.gitbook/assets/image (44) (1).png>)
 
-Click on the **+** icon near "**Sound**" effect type to create a new particle keyframe.
+点击 "**Sound（声音）**" 旁边的 **+** 来创建新的效果关键帧.
 
 ![](<../../../../.gitbook/assets/image (76) (1) (1).png>)
 
-Edit the values on the "**Keyframe**" panel.
+编辑 "**Keyframe（关键帧）**" 界面中的值
 
-* Name: name of the sound, use the ingame Minecraft particle name. You can also use custom sounds from your resourcepack.
-* Volume: the volume of the sound.
-* Pitch: the pitch of the sound.\
+* Name: 音效名称（你可以使用原版的音效名称，也可以使用添加的自定义音效）
+* Volume: 音效音量
+* Pitch: 音效的音高.\
 
 
 ![](<../../../../.gitbook/assets/image (87).png>)
 
-## Done
+## 完成
 
 {% embed url="https://youtu.be/EDxXYrdq86M" %}

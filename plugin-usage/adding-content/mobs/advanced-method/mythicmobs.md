@@ -1,28 +1,29 @@
 ---
-description: Custom 3D models for Mythicmobs mobs
+描述： 为 Mythicmobs 怪物使用自定义模型
 ---
 
 # Mythicmobs
 
-## Reskinning a Mythicmob mob
+## 为 Mythicmobs 怪物使用自定义模型
 
-You can use a custom model as skin for any Mythicmob mob.
+你可以为 Mythicmobs 怪物使用自定义模型
 
 {% hint style="success" %}
-This plugin doesn't require Mythicmobs to work, but some servers might need to use it to create custom bosses and similar.
+_Itemsadder 本身就可以创建自定义实体.所以该功能不需要 Mythicmobs 也能使用_.\
+Mythicmobs 为可选前置，因为有的服务器可能需要该插件来创建自定义BOSS之类的怪物.
+
 {% endhint %}
 
 {% hint style="danger" %}
-This requires **ItemsAdder 3.2.1-beta1** or greater
+版本需求： **ItemsAdder 3.2.1-beta1+**
 {% endhint %}
 
-## Changing the model
-
-Create a new **Mythicmobs** mob configuration file in this path:   `plugins/MythicMobs/Mobs/ninja_skeleton.yml`\
-``(you can decide the filename).
+## 为 Mythicmobs 怪物 应用模型
+在 `plugins/MythicMobs/Mobs/ninja_skeleton.yml`路径中创建一个新的 Mythicmobs 怪物配置\
+``(文件名称自定).
 
 {% hint style="warning" %}
-Do not use `PLAYER` as type, it causes issues with head/body rotation.
+不要使用 `PLAYER` 类型，否则会导致 头部/身体 旋转出现问题
 {% endhint %}
 
 {% code title="ninja_skeleton.yml" %}
@@ -56,26 +57,27 @@ As you can see I also added some Skills to replace the mob animation dynamically
 \
 `{walk=b_walk}` is used to replace the mob walk animation `b_walk` which is an "angry" walk animation, because the mob has just attacked another entity and has a target.
 
-### Animation
+### 技能动画
 
-* `customentity{idle=ANIMATION}` To change the idle animation
-* `customentity{walk=ANIMATION}` To change the walk animation
-* `customentity{attack=ANIMATION}` To change the attack animation
-* `customentity{death=ANIMATION}` To change the death animation
-* `customentity{play=ANIMATION}` To play an animation right now
-* `customentity{stop=ANIMATION}` To stop the current animation
+* `customentity{playerskin=SKIN}` 更改皮肤
+* `customentity{idle=ANIMATION}` 静止时的动画
+* `customentity{walk=ANIMATION}` 行走时的动画
+* `customentity{attack=ANIMATION}` 攻击时播放的动画
+* `customentity{death=ANIMATION}` 死亡时播放的动画
+* `customentity{play=ANIMATION}` 播放自定义动画
+* `customentity{stop=ANIMATION}` 停止播放动画
 
-## Bones
+## 骨骼
 
-### Visibility
+### Visibility（是否可见）
 
-Hide/show a bone programmatically
+显示/隐藏 骨骼
 
 ```
 - bone{name=BONE;visible=TRUE/FALSE} TARGETER ~EVENT
 ```
 
-Example: hiding a leg bone on a particular event
+示例：在特定事件中隐藏某个骨骼
 
 ```
 - bone{name=leftLeg;visible=false} @self ~onDamaged
@@ -89,10 +91,10 @@ Change a bone color programmatically
 - bone{name=BONE;color=COLOR} TARGETER ~EVENT
 ```
 
-Default color (white): `16777215`\
-``[Color picker](https://minecraftcommand.science/armor-color)
+默认颜色 (white): `16777215`\
+``[拾色器](https://minecraftcommand.science/armor-color)
 
-Example: changing color of a bone when the custom entity is damaged
+示例: 更改自定义实体受击时显示的颜色
 
 ```
 - bone{name=leftLeg;color=16711790} @self ~onDamaged
@@ -187,6 +189,6 @@ Example: play a particle each 3 ticks on the bone center.
 
 {% embed url="https://youtu.be/LYCWCtmCzLc" %}
 
-### Final result
+### 最终效果
 
 ![](../../../../.gitbook/assets/ezgif.com-gif-maker\(1\).webp)
