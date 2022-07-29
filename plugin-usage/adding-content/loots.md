@@ -45,8 +45,8 @@ loots:
 
 {% hint style="info" %}
 特殊属性：**drop\_only\_first**\
-This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**. \
-**提醒**: 该属性会导致物品 **更难** 掉落..
+该属性只会 **掉落** **items** 属性下的战利品中的 **其中一个**，并不会**同时**掉落两种战利品（根据战利品的 `chance` 来决定掉落哪个战利品的可能性更大）
+**提醒**: 该属性会导致某些战利品 **更难** 掉落..
 {% endhint %}
 
 ## 仅在特定的生物群系中掉落
