@@ -59,7 +59,7 @@ surface_decorators:
 
 `min_height` 为 允许生成的最小高度
 
-`amount` 为 将在 装饰组（surface_decorators）中生成的自定义方块数量,（例如：你将该属性设置为5）for example you can set 5 to make a group of 5 decorations spawn one attached to the other.
+`amount` 为 从装饰组（surface_decorators）中生成的自定义方块数量,（例如：你将该属性设置为 5,在生成该自定义方块时会生成 5 个连在一起的自定义方块）
 
 ## 创建自定义方块
 

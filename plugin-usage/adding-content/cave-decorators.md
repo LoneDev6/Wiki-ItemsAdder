@@ -6,9 +6,9 @@
 版本需求： **ItemsAdder** 3.1.6+
 {% endhint %}
 
-With ItemsAdder you can generate decorations in the world caves to make your server more professional and original.
+使用 ItemsAdder 的 **洞穴生成器**，你可以在世界的洞穴中生成装饰物，使得服务器看起来更加专业，更有特色.\
 
-For example you can make new mushrooms, new little plants, rocks and decorations
+例如：可以制作新的蘑菇、小植物、小石块和任何装饰
 
 ![](<../../.gitbook/assets/image (81).png>)
 
@@ -16,7 +16,7 @@ For example you can make new mushrooms, new little plants, rocks and decorations
 
 ### 创建配置文件
 
-For example let's create a group of small rocks which will spawn around the world.
+现在让我们来制作将在世界各处生成的小石块
 
 ```yaml
 info:
@@ -65,9 +65,9 @@ cave_decorators:
 
 `min_height` 为 允许生成的最小高度
 
-`amount` is the amount of blocks to spawn in the decorations group, for example you can set 5 to make a group of 5 decorations spawn one attached to the other.
+`amount` 为 从装饰组（surface_decorators）中生成的自定义方块数量,（例如：你将该属性设置为 5,在生成该自定义方块时会生成 5 个连在一起的自定义方块）
 
-`position` is a property used to specify if the block must be on the cave `SURFACE` or `CEILING`.
+`position` 为 指定自定义方块生成的位置，类型有：`SURFACE` 和 `CEILING`.
 
 ## 创建自定义方块
 
