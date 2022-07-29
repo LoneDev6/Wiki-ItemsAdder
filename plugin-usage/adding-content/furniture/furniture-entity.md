@@ -4,7 +4,8 @@
 
 ### armor\_stand（盔甲架）
 
-This type of furniture entity is useful when you want to create chairs, plants, columns, lamps and similar environment decorations which don't need to rotate based on the surface on which you place them.
+该家具实体类型适用于 那些不需要基于放置表面的倾斜度进行旋转的家具
+<br>例如：椅子，植物，路灯，柱子，等环境装饰物
 
 ![](<../../../.gitbook/assets/image (47) (1) (1) (1) (2).png>)
 
@@ -30,9 +31,9 @@ behaviours:
 
 ### item\_frame（展示框）
 
-该家具实体类型适用于让放置的家具随着放置的角度进行旋转.
+该家具实体类型适用于 需要让家具基于放置的表面进行旋转.
 
-例如, 如果您有一个装饰灯具, 则可以将其放置在地上、墙上或是天花板上, 并根据视角的位置自动确定方向.&#x20;
+<br>例如, 你有一个装饰灯具, 则可以将其放置在地上、墙上或是天花板上, 并根据表面的倾斜度的位置自动确定方向.&#x20;
 
 ![](<../../../.gitbook/assets/image (41) (1) (1) (1) (1).png>)
 
