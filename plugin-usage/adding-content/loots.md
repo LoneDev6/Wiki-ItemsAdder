@@ -1,11 +1,11 @@
 # 🎁 战利品
 
-Loots can be used to specify when to drop a particular item.\
-You can decide to create different loot types:&#x20;
+Loots（战利品）可以在特定的情况下指定掉落特定物品.
+可以创建的战利品类型:&#x20;
 
-* blocks
-* mobs
-* fishing
+* blocks（挖掘方块）
+* mobs （击杀怪物）
+* fishing （钓鱼）
 
 例如：这是我在 .yml 中创建的战利品属性
 
@@ -36,15 +36,16 @@ loots:
           chance: 15
 ```
 
-This example has two loots in **blocks** category.
+该示例在 **blocks** 分类中有两个战利品配置 
 
-First one is called **ruby\_ore** (you can call them as you prefer), this will drop a **itemsadder:ruby** item when you break a custom **block** of type **itemsadder:ruby\_ore** with a minimum **amount** of **1** and **maximum** amount of **2** with **100% chance**.
+第一个战利品为 **ruby_ore**（你可以在任何地方对其进行调用），当你挖掘自定义方块 **itemsadder:ruby_ore** 后将会 **100%** 掉落 1-2个 **itemsadder:ruby**
 
+第二个战利品为 **原版方块**
 The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal** or a **knowledge\_fragment** when the player breaks a **NETHER\_QUARTZ\_ORE**.\
 These **drops** are decided by **ItemsAdder** based on **chance** you set.&#x20;
 
 {% hint style="info" %}
-Special property: **drop\_only\_first**\
+特殊属性：**drop\_only\_first**\
 This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**. \
 **WARNING**: this would make your items **harder** to be **dropped**.
 {% endhint %}
@@ -86,10 +87,10 @@ loots:
           ignore_fortune: true # <----- here
 ```
 
-## Other types of loots
+## 其他类型的战利品
 
-As I said before there are other types of loots: mobs and fishing.\
-These are some examples:
+除了方块掉落的战利品，还有其他类型的战利品.\
+比如：击杀怪物或钓鱼. 下面是一些示例:
 
 ### 钓鱼（fishing）
 
@@ -153,7 +154,7 @@ loots:
 ### 自定义怪物掉落物 ([旧实体方法](mobs/old-method/))
 {% endhint %}
 
-In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
+为了使 Itemsadder 能在你击杀了自定义怪物（基于Itemsadder创建）后掉落指定的物品，你需要使用 `ItemsAdderMob` 属性，配置如下：
 
 ```yaml
 loots:
@@ -173,13 +174,14 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderMob` **** attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
+在该示例中，我设置了 `ItemsAdderMob`  属性并指定了自定义怪物 **命名空间:id**
+（在该示例中的自定义怪物为 `creaturesplus:soul` ）
 
 {% hint style="info" %}
-### 自定义实体战利品 Custom entities loots
+### 自定义实体战利品
 {% endhint %}
 
-In order to let ItemsAdder drop an item based on when you kill a custom entity (created with ItemsAdder) you have to use the `ItemsAdderEntity` metadata attribute. Example:
+为了使 Itemsadder 能在你击杀了自定义怪物（基于Itemsadder创建）后掉落指定的物品，你需要使用 `ItemsAdderEntity` 属性，配置如下：
 
 ```yaml
 loots:
@@ -199,7 +201,8 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderEntity` **** attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob)
+在该示例中，我设置了 `ItemsAdderEntity` 属性并指定了自定义怪物 **命名空间:id**
+（在该示例中的自定义怪物为 `custom:ninja_skeleto` ）
 
 {% hint style="info" %}
 ### 村民职业（以及想要匹配的任何其他 NBT 属性）
