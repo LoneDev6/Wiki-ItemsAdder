@@ -9,7 +9,8 @@
 你可以为 Mythicmobs 怪物使用自定义玩家皮肤.
 
 {% hint style="success" %}
-Mythicmobs 为可选前置，因为有的服务器可能需要该插件来创建自定义BOSS之类的怪物.
+该功能不需要 Mythicmobs 也能使用.\
+所以 Mythicmobs 为可选前置，因为有的服务器可能需要该插件来创建自定义BOSS之类的怪物.
 
 {% endhint %}
 
