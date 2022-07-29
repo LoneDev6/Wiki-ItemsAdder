@@ -11,9 +11,9 @@ permission: myitem
 给予权限: `ia.user.craft.myitem`\
 
 
-## How to make the item visible in the /ia gui on to some users?
+## 如何让指定的物品在玩家的 /ia 界面中可见?
 
-To allow your players to **see** this item in `/ia` GUI you have to give them permission: `ia.user.ia.myitem`
+若要允许玩家在 `/ia` GUI 中能看见指定的物品，请给予权限: `ia.user.ia.myitem`
 
 {% hint style="info" %}
 Remember to give them permission `ia.user.ia` to let them use `/ia` command
