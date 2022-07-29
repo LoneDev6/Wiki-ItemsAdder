@@ -1,10 +1,10 @@
-# Actions
+# 动作
 
 ## 什么是 actions?
 
-Actions are what will happen when an [event](./) is triggered.
+动作是指 [事件](./) 被触发时所执行的操作.
 
-### actions 列表:
+### 动作列表:
 
 * `play_sound`
 * `stop_sound`
@@ -41,11 +41,11 @@ Actions are what will happen when an [event](./) is triggered.
 * `place_furniture`
 * `drop_item`
 
-### Delay
+### 延迟
 
 {% hint style="info" %}
-Every action has a special attribute **delay**.\
-It's the **delay** in ticks before starting the action.\
+每个动作都有一个特殊的属性 **delay**.\
+在经历指定的 **延迟** 后再触发该动作.\
 For example:
 
 ```yaml
@@ -92,7 +92,7 @@ items:
 
 {% hint style="info" %}
 You can set the same action multiple times. You just have to add `_anything` at the end.\
-For example if you want to play two sounds you have to write this:
+例如, 您想对玩家播放三种声音时, 可以这样写:
 
 ```yaml
 play_sound_first:
