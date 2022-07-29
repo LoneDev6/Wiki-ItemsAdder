@@ -4,17 +4,18 @@
 
 # Citizens（NPC）
 
-## Animating a player Citizens NPC
+## 为 NPC 制作动画
 
-Finally you can animate any Citizens player NPC!
+你可以将动画应用至 任何NPC中，详情请继续阅读该教程
 
 {% hint style="success" %}
-This plugin doesn't require Citizens to work, but some servers might need to use it to create NPCs.
+_Itemsadder 本身就可以创建自定义实体.所以该功能不需要 Citizens 也能够正常使用._\
+Citizens 为可选前置，因为有的服务器可能需要用它来创建 NPC
 {% endhint %}
 
-### Make the NPC animatable and change skin
+### 为 NPC 更换皮肤并使用自定义动画
 
-Then change the skin using the **ItemsAdder** command:\
+使用 **ItemsAdder** 指令来更改皮肤:\
 `/iaentity citizens playerskin <playerName|skinUrl>`\
 ``示例:
 
@@ -29,8 +30,8 @@ Then change the skin using the **ItemsAdder** command:\
 
 ### 使 NPC 注视玩家
 
-You can make the NPC look at nearby players by using this command, more info on [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
-`/npc look`
+你可以使用 `/npc look` 指令让NPC始终注视玩家，更多信息请参阅 [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
+
 
 ### 完成
 

@@ -39,7 +39,7 @@
 * Bone (locator): 使用粒子效果的骨骼
 * Speed: 粒子消失的速度(数值越大粒子消散的越快).
 * Count: 粒子的数量.
-* XYZ delta: 以 **x y z** specifies the dimensions (in number of blocks) for each dimension of the particle effect, with **x y z** in the center. Each coordinate specifies the number of blocks from the center that the particles will appear. You can set decimal numbers.\
+* XYZ delta: 指定粒子生成的区域.（你可以在[此处](https://wiki.biligame.com/mc/%E5%91%BD%E4%BB%A4/particle)阅读对此项更加详细的信息）
 
 
 ![](<../../../.gitbook/assets/image (69) (1).png>)

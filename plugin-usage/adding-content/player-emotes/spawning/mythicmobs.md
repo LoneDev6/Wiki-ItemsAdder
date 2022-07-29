@@ -9,8 +9,8 @@
 你可以为 Mythicmobs 怪物使用自定义玩家皮肤.
 详情教学请往下阅读.
 {% hint style="success" %}
-该功能不需要 Mythicmobs 也能使用.\
-所以 Mythicmobs 为可选前置，因为有的服务器可能需要该插件来创建自定义BOSS之类的怪物.
+_Itemsadder 本身就可以创建自定义实体.所以该功能不需要 Mythicmobs 也能使用_.\
+Mythicmobs 为可选前置，因为有的服务器可能需要该插件来创建自定义BOSS之类的怪物.
 
 {% endhint %}
 

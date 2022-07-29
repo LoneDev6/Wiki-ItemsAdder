@@ -150,7 +150,7 @@
       * [音效](plugin-usage/adding-content/player-emotes/sounds.md)
       * [自定义皮肤](plugin-usage/adding-content/player-emotes/custom-skin.md)
       * [应用](plugin-usage/adding-content/player-emotes/spawning/README.md)
-        * [Command](plugin-usage/adding-content/player-emotes/spawning/command.md)
+        * [相关命令](plugin-usage/adding-content/player-emotes/spawning/command.md)
         * [Citizens](plugin-usage/adding-content/player-emotes/spawning/citizens.md)
         * [Mythicmobs](plugin-usage/adding-content/player-emotes/spawning/mythicmobs.md)
     * [🐖 Entities](plugin-usage/adding-content/mobs/README.md)

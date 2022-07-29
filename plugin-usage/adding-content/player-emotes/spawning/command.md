@@ -1,32 +1,33 @@
-# Command
+# 相关命令
 
 {% hint style="warning" %}
-This method is in beta and it's available only on **ItemsAdder v3.0.5+** and requires **Minecraft 1.17+**
+版本需求：**ItemsAdder v3.0.5+** **Minecraft 1.17+**.\
+该特性处于测试阶段.
 {% endhint %}
 
-## Spawning a custom player entity in the world
+## 在世界中生成一个自定义玩家实体
 
-With **ItemsAdder** you can also spawn custom players in the world, you can also animate them.&#x20;
+使用 **ItemsAdder** 在世界中生成一个自定义玩家实体，并可以为其应用动画.&#x20;
 
-## Summon a custom player entity
+## 召唤一个自定义玩家实体
 
 `/iaentity summonplayer <playerName|skinUrl>`
 
-### By player name
+### 通过 玩家名称 召唤自定义实体
 
 `/iaentity summonplayer LoneDev`
 
-### By custom skin
+### 通过 自定义皮肤 召唤自定义实体
 
 `/iaentity summonplayer https://minesk.in/8b4bf861ea544edd8529707276d24853`
 
 ## 设置自定义皮肤
 
-### Change skin of the nearest custom player entity
+### 更改离得最近的自定义玩家实体的皮肤
 
-Change the skin using the **ItemsAdder** command:\
+使用 **ItemsAdder** 指令来更改皮肤:\
 `/iaentity playerskin <playerName|skinUrl>`\
-``Examples:
+``示例:
 
 * `/iaentity playerskin LoneDev`
 * `/iaentity playerskin https://minesk.in/8b4bf861ea544edd8529707276d24853`
@@ -35,7 +36,7 @@ Change the skin using the **ItemsAdder** command:\
 [custom-skin.md](../custom-skin.md)
 {% endcontent-ref %}
 
-## Creating custom animations
+## 创建自定义动画
 
 {% content-ref url="../creation.md" %}
 [creation.md](../creation.md)
