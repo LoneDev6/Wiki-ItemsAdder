@@ -14,7 +14,7 @@ enabled: true
 使用该选项, 您可以完全禁用一个物品.
 
 {% hint style="warning" %}
-**即使玩家的背包中有该物品, 也不会将其移除.**\
+**即使玩家的背包中有被禁用的物品, 也不会将其移除.**\
 **已放置的方块也是同理, 但破坏后不会再掉落任何东西.**
 {% endhint %}
 
@@ -272,7 +272,7 @@ items:
       show_name: true
 ```
 
-## 物品模板
+## templates
 
 {% content-ref url="templates-and-variants.md" %}
 [templates-and-variants.md](templates-and-variants.md)
