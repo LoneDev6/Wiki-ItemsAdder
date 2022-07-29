@@ -6,7 +6,7 @@
 
 ## 第一把椅子
 
-In order to create a chair you just have to follow the furniture creation tutorial and add a simple attribute to the furniture to make it sittable.
+为了创建一把椅子, 您只需要遵循创建家具的教程, 并为家具添加一个简单的属性, 使其可以让玩家坐下.
 
 ```yaml
 behaviours:
@@ -16,4 +16,4 @@ behaviours:
     sit_height: 0.5
 ```
 
-As you can see you just have to add the `furniture_sit` behaviour and specify the `sit_height`.
+正如您所见, 只需要添加 `furniture_sit` 行为并指定 `sit_height` 的值即可.

@@ -6,14 +6,14 @@
 permission: myitem
 ```
 
-## 如何允许玩家合成?
+## 如何允许玩家合成指定物品?
 
-给予权限: `ia.user.craft.myitem`\
+请给予权限: `ia.user.craft.myitem`\
 
 
-## 如何让指定的物品在玩家的 /ia 界面中可见?
+## 如何让玩家在 /ia 界面中可以看见指定的物品?
 
-若要允许玩家在 `/ia` GUI 中能看见指定的物品，请给予权限: `ia.user.ia.myitem`
+若要允许玩家在 `/ia` 界面中能看见指定的物品，请给予权限: `ia.user.ia.myitem`
 
 {% hint style="info" %}
 Remember to give them permission `ia.user.ia` to let them use `/ia` command

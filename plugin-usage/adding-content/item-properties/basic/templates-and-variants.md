@@ -1,30 +1,30 @@
-# Templates and variants
+# 物品模板和子级物品
 
-## What are templates?
+## 什么是物品模板?
 
-Templates are special items that won't appear ingame, they are used as properties holders for other items.  
-They allow you to write common properties in one item and add them automatically to other items without constant copy and paste.
+物品模板作为一种不会在游戏内显示的特殊物品, 它会为其他的物品添加相同的配置.  
+这允许您在物品模板中写入公共配置，并将其自动添加到其他物品中，而无需频繁地复制和粘贴.
 
-To create a template you have to set `template: true` in your item.
+要创建一个模板，您必须在物品中添加 `template: true`.
 
 {% hint style="warning" %}
-This is an experimental feature, let me know if something is not working correctly.  
-You can see an usage example in [this addon](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
+这是一个正在测试的实验性功能，如果有问题，请立即和作者反馈.  
+您可以在这里看到一个示例用法 [点击打开](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
 {% endhint %}
 
-## What are variants?
+## 什么是 variants（子级物品）?
 
-Variants are items that will appear ingame and will inherit properties of template items.
+Variants（子级物品） 将显示在游戏中， 并将继承模板物品的物品配置.
 
-To create a variant you have to set `variant_of: template name` in your item.
+要创建一个子级物品，您必须在物品添加 `variant_of: 模板名称`.
 
 ## Example
 
-I want to create multiple furnitures which are equal but with different model.
+我想创建多个不同模型的相同样式家具.
 
 ```yaml
   template_wood_park_bench:
-    template: true  # <---- HERE you can see I set this item as "template"
+    template: true  # <---- 在这里可以看到我将此项设置为 "template"
     display_name: ""
     lore:
     - 'lore-decorative-item'
@@ -53,7 +53,7 @@ I want to create multiple furnitures which are equal but with different model.
         
         
   oak_wood_park_bench:
-    variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
+    variant_of: template_wood_park_bench # <-- 这里是指定我要继承的物品模板
     display_name: "Oak wood Park Bench"
     permission: oak_wood_park_bench
     lore:
@@ -65,7 +65,7 @@ I want to create multiple furnitures which are equal but with different model.
       
       
   spruce_wood_park_bench:
-    variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
+    variant_of: template_wood_park_bench # <-- 这里是指定我要继承的物品模板
     display_name: "Spruce wood Park Bench"
     permission: spruce_wood_park_bench
     lore:
@@ -77,7 +77,7 @@ I want to create multiple furnitures which are equal but with different model.
       
       
   birch_wood_park_bench:
-    variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
+    variant_of: template_wood_park_bench # <-- 这里是指定我要继承的物品模板
     display_name: "Birch wood Park Bench"
     permission: birch_wood_park_bench
     lore:

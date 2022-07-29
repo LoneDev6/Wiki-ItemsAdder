@@ -1,18 +1,18 @@
 ---
-description: Tutorial on how to create your first furniture
+描述: Tutorial on how to create your first furniture
 ---
 
 # Creating a furniture
 
-## What is a furniture?
+## 什么是家具?
 
-A furniture is a decorative object which can be solid, emit light, used as chair and can have other features.
+家具作为一种装饰物品，它可以是实心的、发光的，用作椅子并且具有其他的功能.
 
-## Creating a simple furniture
+## 创建一个简单的家具
 
-### Creating the configuration file
+### 创建配置文件
 
-The first step is to create a configuration file in your [namespace](../basic-concepts/namespace/) folder. In this example I called it `furniture_example.yml`.
+第一步, 请在 [namespace](../basic-concepts/namespace/) 文件夹下创建一个配置文件. 比如在下列例子中命名的 `furniture_example.yml`.
 
 {% code title="furniture_example.yml" %}
 ```yaml
@@ -35,11 +35,11 @@ items:
 ```
 {% endcode %}
 
-As you can see I created the item with some special properties.
+正如您所见, 我创建了一些带有特殊配置的物品.
 
-`behaviours` attribute has a special sub-attribute called `furniture`, this attribute tells ItemsAdder that this item is a placeable furniture model.
+`behaviours` 属性有一个特殊的子属性, 命名为 `furniture`, 该属性会让 ItemsAdder 识别为这是一个可放置的家具模型.
 
-Let's add some more settings to it:
+让我们再添加一些配置:
 
 {% code title="furniture_example.yml" %}
 ```yaml
@@ -71,14 +71,14 @@ Let's add some more settings to it:
 ```
 {% endcode %}
 
-I added some properties, in this case I specified where the furniture can be placed (only on the `floor`), the [`hitbox`](furniture-collisions.md) size and `place`/`break` sounds.
+我在该例子中添加了一些配置, 指定了家具可放置的位置 (只能在 `floor` 上), 碰撞箱 [`hitbox`](furniture-collisions.md) 的尺寸和 `放置`/`破坏` 时发出的声音.
 
 {% hint style="info" %}
-By default the hitbox is 1x1x1, so it's not really needed to specify these options.
+默认情况下, 碰撞箱的尺寸为 1x1x1, 因此实际上并不需要指定这些选项.
 
-Specify them only if the model is bigger than 1x1x1.
+仅当模型的尺寸大于 1x1x1 时您才需要更改它.
 
-For example if you have a furniture which is 1x2x1 you can set it like that:
+假如您有一件模型尺寸为 1x2x1 的家具, 您可以这样设置:
 
 ```yaml
     hitbox:
@@ -88,7 +88,7 @@ For example if you have a furniture which is 1x2x1 you can set it like that:
 ```
 {% endhint %}
 
-Final result:
+最终结果如下:
 
 {% code title="furniture_example.yml" %}
 ```yaml
@@ -123,23 +123,23 @@ items:
 ```
 {% endcode %}
 
-### Creating the model file
+### 创建模型文件
 
-Now open [BlockBench](../item-properties/resource/creating-3d-models.md) and create a _"Java Block/Item"_.
+请打开 [BlockBench](../item-properties/resource/creating-3d-models.md) 并创建一个 _"Java Block/Item"_.
 
 ![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
 
-Now create you model, in this example I'm modelling an ugly minimal modern lamp.
+现在将创建您的模型, 在以下示例中, 我会为一个（丑陋的）小型台灯建模.
 
 ![](<../../../.gitbook/assets/image (47) (1) (1) (1).png>)
 
 {% hint style="warning" %}
-Important: make sure the north is opposite of where you want the model to face.
+重要: make sure the north is opposite of where you want the model to face.
 
-Or add the property to the YML configuration `opposite_direction: true`
+或者将选项添加到您的配置文件中 `opposite_direction: true`
 {% endhint %}
 
-Edit how the model is shown on player hand:
+编辑模型在玩家手中的显示方式:
 
 ![](<../../../.gitbook/assets/image (46) (1) (1).png>)
 
