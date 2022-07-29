@@ -7,14 +7,14 @@
 ## 为 Mythicmobs 怪物更换皮肤
 
 你可以为 Mythicmobs 怪物使用自定义玩家皮肤.
-
+详情教学请往下阅读.
 {% hint style="success" %}
 该功能不需要 Mythicmobs 也能使用.\
 所以 Mythicmobs 为可选前置，因为有的服务器可能需要该插件来创建自定义BOSS之类的怪物.
 
 {% endhint %}
 
-### 为怪物模型使用自定义动作
+### 为怪物模型更换皮肤并使用自定义动作
 
 在 `plugins/MythicMobs/Mobs/custom_player.yml` 路径中创建一个新的 Mythicmobs 怪物配置.\
 ``(文件名称自定).
