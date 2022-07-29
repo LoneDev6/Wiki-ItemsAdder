@@ -1,5 +1,5 @@
 ---
-描述: How to create a chair
+描述: 如何创建坐椅
 ---
 
 # 创建坐椅

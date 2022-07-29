@@ -1,8 +1,8 @@
-# Furniture entity
+# 家具实体
 
-## Supported entities
+## 支持的实体类型
 
-### armor\_stand
+### armor\_stand（盔甲架）
 
 This type of furniture entity is useful when you want to create chairs, plants, columns, lamps and similar environment decorations which don't need to rotate based on the surface on which you place them.
 
@@ -28,11 +28,11 @@ behaviours:
     sit_height: 0.5
 ```
 
-### item\_frame
+### item\_frame（展示框）
 
-This type of furniture entity is useful when you want to make the furniture rotate based on the surface on which you place it.
+该家具实体类型适用于让放置的家具随着放置的角度进行旋转.
 
-例如, 如果您有一个装饰灯具, 则可以将其放置在地上、墙上或是天花板上, 并根据表面倾角自动确定方向.&#x20;
+例如, 如果您有一个装饰灯具, 则可以将其放置在地上、墙上或是天花板上, 并根据视角的位置自动确定方向.&#x20;
 
 ![](<../../../.gitbook/assets/image (41) (1) (1) (1) (1).png>)
 

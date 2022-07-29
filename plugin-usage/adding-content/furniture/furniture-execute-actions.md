@@ -1,6 +1,6 @@
 # 家具的执行动作
 
-## 通过和家具互动执行命令
+## 通过和家具互动来执行命令
 
 ```yaml
 items:
@@ -26,7 +26,7 @@ items:
               as_console: false
 ```
 
-在该例子中, 当玩家和家具进行交互时, 它会让玩家执行 `/help` 命令.&#x20;
+在该示例中, 当玩家和家具进行交互时, 它会让玩家执行 `/help` 命令.&#x20;
 
 显然, 除了 `执行命令`, 你也可以向 [placed\_armorstand](../item-properties/events/) 添加更多的 [动作](../item-properties/events/actions.md)和交互事件.
 

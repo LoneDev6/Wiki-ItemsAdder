@@ -71,12 +71,12 @@
 {% hint style="warning" %}
 ## 碰撞箱的限制
 
-### `item_frame` limitations (doesn't affect `armor_stand`)
+### `item_frame` 的限制 (对 `armor_stand` 不影响)
 
-**Furnitures** that use `entity: item_frame` **support only hitbox** with `width` and `length` of the **same value**. \
-Example: `width: 2`, `length: 2`, `height: 1`.&#x20;
+使用 `item_frame` 来制作的家具，碰撞箱中 `width` 和 `length` 的值必须相同
+例如: `width: 2`, `length: 2`, `height: 1`.&#x20;
 
 \
-If you want to have different `width` and `length` use `entity: armor_stand`.
+如果你想要使用 `width` 和 `length` 数值不同的碰撞箱 请使用：`entity: armor_stand`.
 {% endhint %}
 

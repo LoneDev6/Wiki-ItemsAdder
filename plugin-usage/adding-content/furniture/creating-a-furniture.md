@@ -1,18 +1,18 @@
 ---
-描述: Tutorial on how to create your first furniture
+描述: 该教程将会指导你创建你的第一个家具
 ---
 
-# Creating a furniture
+# 创建一个家具
 
 ## 什么是家具?
 
-家具作为一种装饰物品，它可以是实心的、发光的，用作椅子并且具有其他的功能.
+家具作为一种装饰物品，它可以是有碰撞箱的、能够发光的（如台灯..），能够用作坐椅，并且具有其他的功能.
 
 ## 创建一个简单的家具
 
 ### 创建配置文件
 
-第一步, 请在 [namespace](../basic-concepts/namespace/) 文件夹下创建一个配置文件. 比如在下列例子中命名的 `furniture_example.yml`.
+第一步, 请在 [命名空间](../basic-concepts/namespace/) 文件夹下创建一个配置文件. 比如在下列例子中命名的 `furniture_example.yml`.
 
 {% code title="furniture_example.yml" %}
 ```yaml
@@ -125,7 +125,7 @@ items:
 
 ### 创建模型文件
 
-请打开 [BlockBench](../item-properties/resource/creating-3d-models.md) 并创建一个 _"Java Block/Item"_.
+请打开 [BlockBench](../item-properties/resource/creating-3d-models.md) 并创建一个 _"Java Block/Item（java 方块/物品）"_.
 
 ![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
 
@@ -134,9 +134,10 @@ items:
 ![](<../../../.gitbook/assets/image (47) (1) (1) (1).png>)
 
 {% hint style="warning" %}
-重要: make sure the north is opposite of where you want the model to face.
+重要: 确保模型的北面与你想要模型正对的方向相反.\
 
 或者将选项添加到您的配置文件中 `opposite_direction: true`
+（建议直接添加属性，避免为每个模型进行单独设置）
 {% endhint %}
 
 编辑模型在玩家手中的显示方式:
@@ -149,7 +150,7 @@ items:
 
 #### 用于盔甲架时
 
-您需要选择 **head icon**, 然后选择 **small armorstand:**
+您需要选择 **head icon（头部）**, 然后选择 **small armorstand（小型盔甲架）:**
 
 ![](<../../../.gitbook/assets/image (41) (1) (1) (1).png>)
 
@@ -159,14 +160,14 @@ items:
 
 #### 用于物品展示框时
 
-您需要选择 **Image icon**, 然后设置 Z-offset 的值为 `-16`.\
-This will display the model slighly of the block the Item Frame is attached to, but will be seamless when an invisible Item Frame is used. This is because of how items in invisible Item Frames are slightly lower than usual.
+您需要在显示中选择 **Image icon（展示框）**, 然后设置 Z-offset（Z轴偏移） 的值为 `-16`.\
+因为在隐形展示框中的物品位置会比平时略低一些，将Z轴偏移数值设置为 `-16` 能够使家具完美贴合地面（或其他方块上）.
 
 ### 导出您的模型
 
 现在, 让我们把模型导出到指定的文件夹中, 在本示例中, 我在配置文件设置了这个选项: `model_path: lamp`, 所以您必须保存 .json 文件于此路径中: `ItemsAdder\data\resource_pack\assets\myitems\models\lamp.json`.
 
-要实现这一点, 请点击 "File", 然后点击 "Export Model", 最后点击 "Export Block/Item Model". 在新窗口中, 跳转到要保存模型的路径, 为其命名并确认本次更改.
+要实现这一点, 请点击 "File（文件）", 然后点击 "Export Model（导出模型）", 最后点击 "Export Block/Item Model（导出 方块/物品 模型）". 在新窗口中, 跳转到要保存模型的路径, 为其命名并确认本次更改.
 
 ### 保存此次更改
 
