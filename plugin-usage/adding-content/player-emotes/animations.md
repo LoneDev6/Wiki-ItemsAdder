@@ -18,7 +18,7 @@ You can specify if the player can move while playing one specific animation or n
 You can create animations which would play `start` -> `loop` -> `end` sub-animation.\
 This allows you to create complex looping animations, for example a sleep animation where your player would lay and stay there until the player presses SHIFT.
 
-### Step 1
+### 步骤 1
 
 Create the animation, in this example a death animation.
 
@@ -28,13 +28,13 @@ Right click it and mark it as `Loop`.
 
 ![](<../../../.gitbook/assets/image (92) (1).png>)
 
-### Step 2
+### 步骤 2
 
 Now place the cursor on the frame where you want the loop to start, in this case when the player is on the ground.
 
 ![](<../../../.gitbook/assets/image (75).png>)
 
-### Step 3
+### 步骤 3
 
 Click on the `Add Loop Start/End marker` icon to add a `start loop` marker.
 

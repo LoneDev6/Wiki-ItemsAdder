@@ -1,11 +1,12 @@
-# Custom skin
+# 自定义皮肤
 
-## Getting custom skins
+## 获取自定义皮肤
 
-You can get a [list](https://mineskin.org/gallery) of possible skins and even upload [your own](https://mineskin.org/)!
+你可以从 [该页面](https://mineskin.org/gallery)  获取自定义皮肤，或者你也可以 [上传自己的皮肤](https://mineskin.org/)!
 
 ![](<../../../.gitbook/assets/image (89) (1).png>)
 
 {% hint style="success" %}
-You don't need to run `/iazip`! These skins are loaded at runtime without any resourcepack download.
+不需要使用指令 `/iazip` .\
+这些皮肤会在运行时自动加载，不需要下载任何资源包.
 {% endhint %}
