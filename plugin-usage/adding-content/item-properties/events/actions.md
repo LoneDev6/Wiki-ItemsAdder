@@ -88,10 +88,10 @@ items:
 ```
 {% endhint %}
 
-### Multiple actions of the same type
+### 同时执行多组同一动作
 
 {% hint style="info" %}
-You can set the same action multiple times. You just have to add `_anything` at the end.\
+您可以设置在同一时间执行多组同一动作. 您只需要在最后加上 `_anything`.\
 例如, 您想对玩家播放三种声音时, 可以这样写:
 
 ```yaml
