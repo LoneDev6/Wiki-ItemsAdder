@@ -6,9 +6,9 @@
 
 ## 什么是自定义 HUD？
 
-自定义 HUD 是设置为 `type: CUSTOM` 的 HUD.
+自定义 HUD 是 `type` 设定为 `type: CUSTOM` 的 HUD.
 
-这种特殊类型能让您完全控制 HUD 的工作方式. 在 YML 文件中没有指定图像, you can avoid creating the `player_stat_name`.
+这种特殊类型能让您完全控制 HUD 的工作方式. 在 YML 文件中没有指定图像, 您可以避免创建 `player_stat_name`.
 
 {% hint style="warning" %}
 注意:

@@ -10,20 +10,20 @@
 
 ![](<../../../../.gitbook/assets/immagine (8).png>)
 
-1. click on **display** on the right
-2. click on the **armorstand icon** on the left
-3. click on the **smile face** (**head**) on the left
-4. **move** your model on the armorstand **bottom** (it's the **ground**)
+1. 点击右上角的 **display**
+2. 点击左侧操作栏的 **盔甲架图标**
+3. 点击左侧操作栏的 **笑脸** (**头**)
+4. 将您的模型 **移动** 到盔甲架的 **底部** (就是 **地面**)
 
 ### Too small furniture
 
-If your furniture is **too small** but you want it **bigger** and with bigger **hitbox** just set this to **false**.\
-If you instead want a **small furniture** with small hitbox just set it to true.
+如果您的家具 **太小**, 但您想要 **更大** 的尺寸和更大的 **碰撞箱**, 只需要设置为 **false**.\
+相反地, 如果您想要一个带有 小型碰撞箱 的 **小型家具**, 请设置为 true.
 
 {% hint style="info" %}
-Note: hitbox is not limited, you can set a bigger hitbox which will be unrelated to the entity itself.
+提示: 碰撞箱不受限制, 您可以设置一个更大的碰撞箱, 该碰撞箱与实体本身无关.
 
-Set the hitbox attributes:
+设置碰撞箱的属性:
 
 ```yaml
     hitbox:
@@ -51,7 +51,7 @@ behaviours:
 {% endtab %}
 {% endtabs %}
 
-#### and set this is [BlockBench](../item-properties/resource/creating-3d-models.md)
+#### 并在 [BlockBench](../item-properties/resource/creating-3d-models.md) 中设置
 
 {% tabs %}
 {% tab title="Big furniture" %}

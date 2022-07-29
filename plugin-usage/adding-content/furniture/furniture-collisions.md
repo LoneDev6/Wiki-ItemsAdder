@@ -37,11 +37,11 @@
 例如, 您的家具模型的碰撞箱为 2x1x1 就有可能发生这种情况.
 {% endhint %}
 
-### Wrong hitbox location
+### 错误的碰撞箱位置
 
 ![](../../../.gitbook/assets/143050888-2efd90f5-a462-459b-b71b-0e63beaa7620.png)
 
-### Correct location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
+### 正确的位置 <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
 ![](../../../.gitbook/assets/143051038-92bafa25-90f7-4677-9466-c6cc2a591e7e.png)
 
@@ -59,7 +59,7 @@
 ## 碰撞箱预览 <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
 {% hint style="info" %}
-当您放置了一个家具时, 可以使用命令 `/iahitbox` 查看家具的碰撞箱, 这用于检测 碰撞箱的配置错误 非常有效.
+当您放置了一个家具时, 可以使用命令 `/iahitbox` 查看家具的碰撞箱, 这用于检测 `碰撞箱的配置错误` 十分有效.
 {% endhint %}
 
 ![](<../../../.gitbook/assets/immagine (63) (2) (3) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
