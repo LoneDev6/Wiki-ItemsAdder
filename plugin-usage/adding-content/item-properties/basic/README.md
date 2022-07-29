@@ -23,7 +23,7 @@ enabled: true
 display_name: "Test"
 ```
 
-这是玩家能看到的物品显示名称
+这是玩家能看到的物品显示名称.
 
 ## Permission
 
@@ -44,7 +44,7 @@ lore:
 - '&750% of times.'
 ```
 
-物品的展示文本
+物品的展示文本.
 
 ## Enchants
 
@@ -101,7 +101,7 @@ There are pretty self explanatory.\
 
 `custom_durability` 是物品合成时的耐久度 (如果未指定, 则与 `max_custom_durability` 相同)
 
-`max_custom_durability` 是物品可达到的最大耐久度
+`max_custom_durability` 是物品可达到的最大耐久度.
 
 ## Item flags
 
@@ -221,7 +221,7 @@ You can set it to `>`, `<` ad `=`
 ## glow
 
 物品掉落在地面上时是否会发光.\
-很适合用来做 **稀有物品**.
+这很适合用来做 **稀有物品**.
 
 {% hint style="warning" %}
 若要使用发光功能, 您需要安装以下两个 API 以正常工作.
@@ -253,7 +253,7 @@ items:
 ## show\_name
 
 物品掉落在地面上时是否显示名称.\
-很适合用来做 **稀有物品**.\
+这很适合用来做 **稀有物品**.\
 以下是个例子:
 
 ![](<../../../../.gitbook/assets/immagine (118) (1) (1) (1) (1) (1) (1) (1) (2).png>)
@@ -276,7 +276,7 @@ items:
 [templates-and-variants.md](templates-and-variants.md)
 {% endcontent-ref %}
 
-## variant\_of
+## variant\_of（子级物品）
 
 {% content-ref url="templates-and-variants.md" %}
 [templates-and-variants.md](templates-and-variants.md)

@@ -46,7 +46,7 @@
 {% hint style="info" %}
 每个动作都有一个特殊的属性 **delay**.\
 在经历指定的 **延迟** 后再触发该动作.\
-For example:
+例如:
 
 ```yaml
 items:
@@ -110,13 +110,13 @@ play_sound_3:
 ```
 {% endhint %}
 
-### Actions permission
+### 动作权限
 
 {% hint style="info" %}
-Every action has a special attribute **permission**.\
-It's the **permission** the player must have before starting the **action**.\
-For example the player must have `myitems.usage.secret_items_dispenser` permission to play the sound.\
-In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give\_item.
+每个动作都有一个特殊的属性 **permission**.\
+检测玩家在执行 **动作** 前是否有特定的 **权限**.\
+例如, 玩家必须持有 `myitems.usage.secret_items_dispenser` 权限才能播放特定音效.\
+在本例子中您可以发现一个 "问题". 即使玩家没有事件所需的特定权限也会播放声音. 这是因为... 嗯, 它只在 give\_item 事件进行权限检测.
 
 ```yaml
   test_block:
@@ -146,11 +146,11 @@ In this example you will notice an "issue". The sound is played even if the user
 
 ####
 
-#### Setting the same permission to every action
+#### 为每个事件设置相同的权限
 
-If you want to set the same permission to every action without copy and paste you can!\
-Use this special attribute `all_actions_permission`.\
-For example:
+如果您不想在频繁复制粘贴的情况下, 为每个事件设置相同的权限!\
+您可以使用此特殊属性 `all_actions_permission`.\
+例如:
 
 ```yaml
   test_block:
@@ -179,9 +179,9 @@ For example:
 ```
 {% endhint %}
 
-## List of actions properties
+## 动作的配置列表
 
-Use the online editor to create your files easier.
+使用在线编辑器可以更轻松地创建文件.
 
 {% content-ref url="../../../../files-editor.md" %}
 [files-editor.md](../../../../files-editor.md)
