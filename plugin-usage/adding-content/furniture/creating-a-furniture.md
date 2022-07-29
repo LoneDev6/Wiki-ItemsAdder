@@ -145,32 +145,32 @@ items:
 
 ![](<../../../.gitbook/assets/image (48) (1) (1) (1).png>)
 
-### Configure how the model is shown ingame
+### 配置模型在游戏中的显示
 
-#### Using Armor Stand
+#### 用于盔甲架时
 
-You have to select the **head icon** and then **small armorstand:**
+您需要选择 **head icon**, 然后选择 **small armorstand:**
 
 ![](<../../../.gitbook/assets/image (41) (1) (1) (1).png>)
 
-Then you have to shift your model down until it matches the armorstand base:
+然后您需要将模型向下移动, 以确保它和盔甲架的底座匹配:
 
 ![](<../../../.gitbook/assets/image (42) (1).png>)
 
-#### Using Item Frames
+#### 用于物品展示框时
 
-You have to select the **Image icon** and then set the Z-offset to `-16`.\
-This will display the model slighly of the block the Item Frame is attached to, but will be seamless when an invisible Item Frame is used. This is because of how items in invisible Item Frames are slightly lower than usual.
+您需要选择 **Image icon**, 然后设置 Z-offset 的值为 `-16`.\
+这将显示物品展示框所附着的方块模型, 但在使用不可见的物品展示框时将无缝显示. 这是因为物品在不可见的展示框中要略低于正常情况.
 
-### Export the model
+### 导出您的模型
 
-Now let's save the model file into the correct folder, in this case I set this property in the yml configuration file: `model_path: lamp`, so you have to save the .json file inside this path: `ItemsAdder\data\resource_pack\assets\myitems\models\lamp.json`.
+现在, 让我们把模型导出到指定的文件夹中, 在本示例中, 我在配置文件设置了这个选项: `model_path: lamp`, 所以您必须保存 .json 文件于此路径中: `ItemsAdder\data\resource_pack\assets\myitems\models\lamp.json`.
 
-To achieve this, click on "File" followed by "Export Model" and finally "Export Block/Item Model". In the new window, head over to the path you want to save your model under, give it the right name and confirm the changes.
+要实现这一点, 请点击 "File", 然后点击 "Export Model", 最后点击 "Export Block/Item Model". 在新窗口中, 跳转到要保存模型的路径, 为其命名并确认本次更改.
 
-### Saving changes
+### 保存此次更改
 
-Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/) if needed), then obtain the item and place it: `/iaget myitems:lamp`.
+现在, 请运行命令 `/iazip` (如果需要的话, 请遵循 [资源包托管](../../resourcepack-hosting/) 的内容), 然后使用命令: `/iaget myitems:lamp` 获取物品并放置它.
 
 ![](<../../../.gitbook/assets/image (50) (1) (1) (1) (1) (1).png>)
 
