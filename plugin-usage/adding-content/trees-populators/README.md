@@ -2,20 +2,21 @@
 
 ## 在世界中生成自定义树木
 
-First read this tutorial on creating the tree blocks (leaved and wood)
+首先，阅读教程创建自定义树木的方块（树叶和原木）
 
 {% hint style="danger" %}
-### End dimension
+### 有关末地维度中的树木类型（例如：CHORUS_PLANT（紫颂植株））
 
-It's advised **not** to **spawn** the trees in the **END** dimension because it has _some_ **problems**.
+建议不要使用 **末地维度** 中的树木类型来生成自定义树木，该类型存在着一些**问题**.
 
 ### 原版树木的漏洞
 
-Sometimes trees will spawn with vanilla leaves, this is a known issue and I have no solution for this. Seems to be  a Minecraft/Spigot bug, seems an event used by IA sometimes is not triggered.
+有时候自定义树木会生成原版的树叶方块，这是一个已知的问题，但是无法修复.
+该问题为 Minecraft/Spigot 的漏洞，有时候无法触发 Itemsadder 使用的事件
 
-### Big trees lag
+### BIG_TREE 树木类型会导致滞后
 
-Big trees COULD cause some lag on generation, please use only small tree types.
+BIG_TREE 树木类型会在生成时产生滞后导致服务器延迟，请使用其他小型的树木类型
 
 ### 其他问题
 {% endhint %}

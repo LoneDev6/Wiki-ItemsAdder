@@ -1,16 +1,16 @@
-# Leaves and wood
+# 树叶和原木
 
-## Creating the leaves and wood blocks
+## 创建树叶和原木
 
-In order to create a custom tree you have to create two blocks for each tree: leaves and wood.
+为了创建自定义树木，你需要分别为其创建 **树叶** 和 **原木** 方块.
 
-### Follow this tutorial to create blocks&#x20;
+### 根据教程创建自定义方块&#x20;
 
 {% content-ref url="../creating-a-custom-item/blocks/block.md" %}
 [block.md](../creating-a-custom-item/blocks/block.md)
 {% endcontent-ref %}
 
-For example I created 2 blocks by following the tutorial: `my_leaves`, `my_log`.
+例如：我按照教程创建了两个自定义方块: `my_leaves`, `my_log`.
 
 ```yaml
 info:
