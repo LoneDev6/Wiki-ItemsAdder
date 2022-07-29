@@ -9,14 +9,16 @@
 
 ## 锁定玩家位置（无法移动）
 
-You can specify if the player can move while playing one specific animation or not.
+设置玩家是否能在播放动画时进行移动
 
 ![](<../../../.gitbook/assets/image (76).png>)
 
 ## 循环动画
 
-You can create animations which would play `start` -> `loop` -> `end` sub-animation.\
-This allows you to create complex looping animations, for example a sleep animation where your player would lay and stay there until the player presses SHIFT.
+你可以创建可播放的动画，比如顺序为 `start（开始）` -> `loop（循环）` -> `end（结束）` 的子动画.\
+
+该操作能够允许你制作复杂的循环动画.\
+例如：睡眠动画，玩家将一直保持躺着的动画，直到玩家按下 **SHIFT** 按钮.
 
 ### 步骤 1
 
@@ -30,20 +32,20 @@ This allows you to create complex looping animations, for example a sleep animat
 
 ### 步骤 2
 
-Now place the cursor on the frame where you want the loop to start, in this case when the player is on the ground.
+现在将光标放在你想要循环开始的关键帧上.
 
 ![](<../../../.gitbook/assets/image (75).png>)
 
 ### 步骤 3
 
-Click on the `Add Loop Start/End marker` icon to add a `start loop` marker.
+点击 `Add Loop Start/End marker（添加循环开始/结束标记）` 图标 来进行添加  `start loop（循环开始）` 标记.
 
 ![](<../../../.gitbook/assets/image (60).png>)
 
-Now place the animation cursor on the frame where you want the loop to stop and press again on the `Add Loop Start/End marker` icon.
+现在将光标放在你想要循环停止的关键帧上，点击 `Add Loop Start/End marker（添加循环开始/结束标记）` 图标
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
-The result will be like this:
+你会得到如下效果:
 
 ![](<../../../.gitbook/assets/image (93).png>)

@@ -1,46 +1,46 @@
 ---
-description: Custom models for Citizens NPCs
+描述: 为 NPC 使用自定义模型
 ---
 
 # Citizens
 
-## Reskinning a Citizens NPC
+## 为 NPC 应用自定义模型
 
-You can use a custom model as skin for any Citizens NPC.
+该教程将指导你如何为 NPC 应用自定义模型
 
 {% hint style="success" %}
-This plugin doesn't require Citizens to work, but some servers might need to use it to create NPCs.
+_Itemsadder 本身就可以创建自定义实体.所以该功能不需要 Citizens 也能够正常使用._\
+Citizens 为可选前置，因为有的服务器可能需要用它来创建 NPC
 {% endhint %}
 
-### Changing the model
+### 更改 NPC 模型
 
-Set the NPC type to `ZOMBIE`: \
+将 npc 的类型设置为`ZOMBIE`: \
 `/npc type ZOMBIE`
 
 {% hint style="warning" %}
-Do not use `PLAYER` as type, it causes issues with head/body rotation.
+不要使用 `PLAYER` 类型，否则会导致 头部/身体 旋转出现问题
 {% endhint %}
 
-Then change the skin using the **ItemsAdder** command:\
+使用 **ItemsAdder** 指令来更改模型:\
 `/iaentity citizens model <model>`\
-``In this example: `/iaentity citizens model custom:barman_robot`
+``示例: `/iaentity citizens model custom:barman_robot`
 
-### Mute sounds
+### 禁用音效
 
-You can mute the NPC by using this command, more info on [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
+你可以使用 `/npc sound -n` 来禁用NPC音效, 更多信息请参阅 [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
 `/npc sound -n`
 
-### Make head rotate
+### 使 NPC 注视玩家
 
-You can make the NPC look at nearby players by using this command, more info on [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
-`/npc look`
+你可以使用 `/npc look` 指令让NPC始终注视玩家，更多信息请参阅 [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
 
-### Done
+### 完成
 
 ![](../../../../.gitbook/assets/ezgif-2-31a4557026.webp)
 
-## Playing animation
+## 播放动画
 
-You can play an animation using this command: `/iaentity citizens anim play <animation>`
+你可以使用指令来播放动画: `/iaentity citizens anim play <animation>`
 
 ![](../../../../.gitbook/assets/ezgif.com-gif-maker.webp)

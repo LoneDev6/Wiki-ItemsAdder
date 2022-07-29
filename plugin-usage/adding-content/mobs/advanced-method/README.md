@@ -1,5 +1,5 @@
 ---
-description: New advanced method to create custom mobs/entities.
+描述: New advanced method to create custom mobs/entities.
 ---
 
 # Advanced method
