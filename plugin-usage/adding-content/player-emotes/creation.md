@@ -1,12 +1,12 @@
-# Creation
+# 创建表情动作
 
 ## 安装 Blockbench 扩展
 
 {% hint style="warning" %}
-### Before continuing:
+### 在继续阅读教程之前:
 
-* Make sure you're running **Blockbench 4.2.5** or **greater**
-* Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
+* 确保 Blockbench 版本为 **Blockbench 4.2.5+**
+* 确保 你正在使用最新版本的 ItemsAdder 以及 Itemsadder 的 Blockbench 扩展
 {% endhint %}
 
 [下载 Blockbench](https://www.blockbench.net/) (不要使用网页版).
@@ -14,19 +14,19 @@
 ![](<../../../.gitbook/assets/image (98) (1).png>)
 
 \
-[Download the zip](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
+[下载](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
 
 ![](<../../../.gitbook/assets/image (61).png>)
 
-Extract it somewhere, then open **Blockbench** and click on File -> Plugins.
+将压缩包解压，接着打开 **Blockbench** 并点击 File（文件） -> Plugins（插件）.
 
 ![](<../../../.gitbook/assets/image (48) (1) (1).png>)
 
-Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
+点击加载图标 导入扩展  `iaentitymodel.js`.
 
 ![](<../../../.gitbook/assets/image (74) (1) (1).png>)
 
-Press OK
+完成导入
 
 ![](<../../../.gitbook/assets/image (71).png>)
 
@@ -43,53 +43,52 @@ entities:
 ```
 {% endcode %}
 
-## Opening the animations editor
+## 选择动画模式
 
-Open the file `player.iaentitymodel` using Blockbench, you can find this file after running `/iazip` for the first time.
+在第一次使用 `/iazip` 后可以在 `ItemsAdder\data\resource_pack\assets\minecraft\animations\player.iaentitymodel` 中找到 `player.iaentitymodel`
+接着在 Blockbench 中打开 `player.iaentitymodel` 文件,
 
-`ItemsAdder\data\resource_pack\assets\minecraft\animations\player.iaentitymodel`
-
-You can notice a lot of example animations on the left.
+你可以发现在左侧有很多的示例动画
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-### Creating your own animations file
+### 创建自定义表情动作
 
-You can create as many as animations files you want (**ItemsAdder 3.2.1+**).
+你可以创建任意数量的动画文件 (**ItemsAdder 3.2.1+**)。
 
 ![](<../../../.gitbook/assets/image (62).png>)
 
 ![](<../../../.gitbook/assets/image (82).png>)
 
-Delete all the emotes and edit/rename the ones you want. They are useful only as base for your personal emotes.
+该预置只能作为你自定义表情动作的基础（或示例），你可以删除所有表情或 编辑/重命名 这些表情. 
 
 ![](<../../../.gitbook/assets/image (68).png>)
 
-Now create an emote and save your `.iaentitymodel` project file into this folder:\
+现在创建一个表情并将你的 `.iaentitymodel` 项目文件保存该文件夹中：\
 `ItemsAdder\data\resource_pack\assets\minecraft\animations\`
 
 ![](<../../../.gitbook/assets/image (95).png>)
 
-Then continue following the tutorial to know how to export the emotes into ItemsAdder.
+接着阅读教程了解如何将表情导出至 ItemsAdder.
 
-### Apply the changes to ItemsAdder
+### 应用更改至 Itemsadder
 
-Click on the **ItemsAdder** tab and press **Export**.
+点击 **ItemsAdder** 选项 并选择 **Export（导出模型）**.
 
 ![](<../../../.gitbook/assets/image (100).png>)
 
-You should get a success message.
+成功导出
 
 ![](<../../../.gitbook/assets/image (81) (1).png>)
 
 {% hint style="success" %}
-Use the command `/iareload` to load the new animation.\
-There is <mark style="color:green;">no need</mark> to use `/iazip`!
+使用指令 `/iareload` 来加载新的表情动作.\
+<mark style="color:green;">不需要</mark> 使用指令 `/iazip`!
 {% endhint %}
 
-## Playing the animations
+## 播放表情动作
 
-Use the emote command: `/iaemote <emote> [player]` or `/emote <emote> [player]`
+使用指令: `/iaemote <emote> [player]` 或 `/emote <emote> [player]`
 
 ## 表情动作权限
 
