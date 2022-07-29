@@ -6,7 +6,7 @@
 
 ## 自动生成模型
 
-In order to tell ItemsAdder which texture/model use for an item you have to add the `resource` attribute.  
+为了让 ItemsAdder 识别有哪些 模型/材质 用于该物品, 您必须设定 `resource` 属性.  
 示例：
 
 ```yaml
@@ -17,13 +17,13 @@ In order to tell ItemsAdder which texture/model use for an item you have to add 
     - item/example_item.png
 ```
 
-`material` is the vanilla material this item will use as base.
+`material` 是使用基于原版材质的物品.
 
-`generate` tells to IA if it needs to generate the item model automatically based on textures you listed
+`generate` 告诉 IA 是否要根据您列出的纹理自动生成物品模型
 
-`textures` is the list of textures IA will use to generate the model automatically.
+`textures` 是 IA 用于自动生成模型的材质列表（文件）.
 
-### 我应该将材质放在哪？
+### 我应该将材质放在哪里？
 
 Textures you listed in the `textures` attribute must be placed in the right folder.  
 So if you set `textures` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `example_item.png` ****file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`

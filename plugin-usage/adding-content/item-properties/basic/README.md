@@ -1,8 +1,9 @@
+
+# 基础属性
+
 ---
 描述: 基本物品属性的集合
 ---
-
-# 基础属性
 
 ## Enabled
 
@@ -13,8 +14,8 @@ enabled: true
 使用该选项, 您可以完全禁用一个物品.
 
 {% hint style="warning" %}
-**If a player has the item in inventory it won't be removed.**\
-**Same thing for blocks, but when broken they won't drop anymore.**
+**即使玩家的背包中有该物品, 也不会将其移除.**\
+**已放置的方块也是同理, 但破坏后不会再掉落任何东西.**
 {% endhint %}
 
 ## Display name
@@ -123,7 +124,7 @@ item_flags:
 特殊的物品配置项, 用于禁用为物品附上指定附魔, 您也可以填写 `ALL` 以禁用所有附魔.
 
 {% tabs %}
-{% tab title="Disable some enchants" %}
+{% tab title="禁止某些附魔" %}
 ```yaml
 blocked_enchants:
       - DAMAGE_UNDEAD
@@ -135,7 +136,7 @@ blocked_enchants:
 ```
 {% endtab %}
 
-{% tab title="Disable all enchants" %}
+{% tab title="禁止所有附魔" %}
 ```yaml
 blocked_enchants:
       - ALL
@@ -178,9 +179,10 @@ blocked_enchants:
 
 ## events\_needed\_player\_stats
 
-特殊属性, 使事件仅在玩家的特定数据 (ItemsAdder player stat, 通常会在 HUDs 中显示) 满足特定规则时触发.
+一个特殊的属性.
+使事件仅在玩家的特定数据 (ItemsAdder player stat, 通常会在 HUDs 中显示) 满足特定规则时触发.
 
-You can set it to `>`, `<` ad `=`
+您可以使用符号 `>`, `<` 和 `=`
 
 #### 这是个例子:
 
@@ -231,7 +233,7 @@ You can set it to `>`, `<` ad `=`
 之所以需要它们, 是因为这个功能需要编写非常多的代码, 而目前已有现成的 API 可以使用.
 {% endhint %}
 
-Example
+例子
 
 ![](<../../../../.gitbook/assets/immagine (114).png>)
 

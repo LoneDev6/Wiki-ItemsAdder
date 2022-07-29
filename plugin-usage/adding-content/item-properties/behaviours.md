@@ -1,11 +1,11 @@
 # 行为属性（Behaviours）
 
-What are behaviours?
+什么是行为属性?
 
 Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.\
 These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.
 
-### List of behaviours included in the plugin
+### 插件内置的行为属性列表
 
 * `block_trade_machine`
 * `furniture_trade_machine`
@@ -25,7 +25,7 @@ These **behaviours** are already included in the plugin and will allow you to ad
 * `vehicle`
 
 {% hint style="info" %}
-You can get suggestions how how to use the behaviours using the official editor:
+您可以通过官方编辑器获得如何使用这些行为的建议:
 {% endhint %}
 
 ```yaml
