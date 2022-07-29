@@ -3,7 +3,7 @@
 为了创建自定义 HUDs, ItemsAdder 提供了两个示例配置，它们使用了所有可用的功能.
 
 这两个 HUDs 分别是 `法力值` 和 `口渴值`.\
-You can find them in the **realcraft** and in the **magiccraft** namespaces.
+你可以分别在 **realcraft** **magiccraft** 命名空间文件夹中找到其配置
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
