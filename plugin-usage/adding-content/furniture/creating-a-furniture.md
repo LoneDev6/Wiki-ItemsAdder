@@ -160,7 +160,7 @@ items:
 #### 用于物品展示框时
 
 您需要选择 **Image icon**, 然后设置 Z-offset 的值为 `-16`.\
-这将显示物品展示框所附着的方块模型, 但在使用不可见的物品展示框时将无缝显示. 这是因为物品在不可见的展示框中要略低于正常情况.
+This will display the model slighly of the block the Item Frame is attached to, but will be seamless when an invisible Item Frame is used. This is because of how items in invisible Item Frames are slightly lower than usual.
 
 ### 导出您的模型
 

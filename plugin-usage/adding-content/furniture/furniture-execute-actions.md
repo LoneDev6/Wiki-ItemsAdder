@@ -1,6 +1,6 @@
-# Furniture execute actions
+# 家具的执行动作
 
-## Execute commands on interact
+## 通过和家具互动执行命令
 
 ```yaml
 items:
@@ -26,11 +26,11 @@ items:
               as_console: false
 ```
 
-In this case you can see a furniture which will make the player execute the command `/help` when they interact the furniture.&#x20;
+在该例子中, 当玩家和家具进行交互时, 它会让玩家执行 `/help` 命令.&#x20;
 
-You can obviously also add more [actions](../item-properties/events/actions.md) to the [placed\_armorstand](../item-properties/events/).interaction event, not only `execute_commands`.
+显然, 除了 `执行命令`, 你也可以向 [placed\_armorstand](../item-properties/events/) 添加更多的 [动作](../item-properties/events/actions.md)和交互事件.
 
-## Open a trading menu on interact
+## 通过交互打开交易菜单
 
 ```yaml
   energy_extractor:
@@ -64,4 +64,4 @@ You can obviously also add more [actions](../item-properties/events/actions.md) 
               amount: 3
 ```
 
-In this example you can see how to attach a trading GUI to your furniture. This is useful to create custom machinery.
+在该例子中, 您可以看到如何将 `交易菜单` 添加到家具中, 这对于创建自定义机器来说非常有用.

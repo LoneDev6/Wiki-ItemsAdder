@@ -6,9 +6,9 @@
 
 ## 什么是自定义 HUD？
 
-A custom HUD is a hud with the `type: CUSTOM` set.
+自定义 HUD 是设置为 `type: CUSTOM` 的 HUD.
 
-This special type gives you total control over how the HUD will work. No image is specified in the YML file and you can avoid creating the `player_stat_name`.
+这种特殊类型能让您完全控制 HUD 的工作方式. 在 YML 文件中没有指定图像, you can avoid creating the `player_stat_name`.
 
 {% hint style="warning" %}
 注意:

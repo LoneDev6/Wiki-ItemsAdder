@@ -1,12 +1,12 @@
 # 家具尺寸
 
 {% hint style="warning" %}
-### It's adviced to use the small furniture (小型盔甲架)
+### 建议使用小型家具 (小型盔甲架)
 {% endhint %}
 
-## How can I adjust the furniture position when placed?
+## 放置后如何调整家具的位置?
 
-If you want to adjust it you just have to use [Blockbench](../item-properties/resource/creating-3d-models.md) as usual and:
+如果您想调整家具位置, 您只需要和往常一样使用 [Blockbench](../item-properties/resource/creating-3d-models.md):
 
 ![](<../../../../.gitbook/assets/immagine (8).png>)
 

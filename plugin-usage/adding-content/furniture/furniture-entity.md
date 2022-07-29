@@ -32,7 +32,7 @@ behaviours:
 
 This type of furniture entity is useful when you want to make the furniture rotate based on the surface on which you place it.
 
-For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.&#x20;
+例如, 如果您有一个装饰灯具, 则可以将其放置在地上、墙上或是天花板上, 并根据表面倾角自动确定方向.&#x20;
 
 ![](<../../../.gitbook/assets/image (41) (1) (1) (1) (1).png>)
 

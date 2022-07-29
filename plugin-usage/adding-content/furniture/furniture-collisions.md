@@ -1,8 +1,8 @@
-# Furniture collisions
+# 家具的碰撞效果
 
-### How can I make a furniture solid?
+### 怎么让家具变成一个实体?
 
-You can make a furniture solid adding the "solid" attribute and specifying a hitbox (if you want > 1x1x1)
+您可以通过添加一条 "solid" 属性并设定碰撞箱 "hitbox" (如果您希望它大于 1x1x1), 使家具成为一个实体
 
 ```yaml
   table:
@@ -30,11 +30,11 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
 
 ![](<../../../.gitbook/assets/image (15).png>)
 
-## Hitbox has wrong location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
+## 碰撞箱的位置错误 <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
 {% hint style="warning" %}
-Sometimes you need to also specify an "offset" to fix the hitbox location.\
-This can happen if your furniture is 2x1x1 for example.
+有时候, 您还需要指定 "offset" 来修正碰撞箱子的位置.\
+例如, 您的家具模型的碰撞箱为 2x1x1 就有可能发生这种情况.
 {% endhint %}
 
 ### Wrong hitbox location
@@ -45,8 +45,8 @@ This can happen if your furniture is 2x1x1 for example.
 
 ![](../../../.gitbook/assets/143051038-92bafa25-90f7-4677-9466-c6cc2a591e7e.png)
 
-I had to set a width offset of 0.5.\
-You can also use negative values if needed.
+我需要将 width offset 设置为 0.5.\
+如果需要的话，您也可以设置为负值.
 
 ```yaml
         hitbox:
@@ -56,10 +56,10 @@ You can also use negative values if needed.
           width_offset: 0.5
 ```
 
-## Preview the hitbox <a href="#show-the-hitbox" id="show-the-hitbox"></a>
+## 碰撞箱预览 <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
 {% hint style="info" %}
-You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
+当您放置了一个家具时, 可以使用命令 `/iahitbox` 查看家具的碰撞箱, 这用于检测 碰撞箱的配置错误 非常有效.
 {% endhint %}
 
 ![](<../../../.gitbook/assets/immagine (63) (2) (3) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
@@ -69,7 +69,7 @@ You can use the command `/iahitbox` to see the hitbox when you pleace a furnitur
 ![](<../../../.gitbook/assets/immagine (88).png>)
 
 {% hint style="warning" %}
-## Hitboxes limitations
+## 碰撞箱的限制
 
 ### `item_frame` limitations (doesn't affect `armor_stand`)
 

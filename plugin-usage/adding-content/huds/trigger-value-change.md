@@ -4,25 +4,25 @@
   gameplay.
 ---
 
-# Trigger value change
+# 更改触发值
 
-## Making the HUD value dynamic
+## 让 HUDs 的值动态化
 
-With ItemsAdder you can easily make your HUD value change automatically during gameplay, for example you can make a HUD value gradually decrease.
+通过 ItemsAdder, 您可以轻松地在游戏过程中自动更改 HUD 的值, 例如: 您可以让 HUD 的值逐渐减小.
 
-In this example I will explain how the **thirst** HUD works.
+在以下的例子中, 我将解释 **口渴值** HUD 的工作原理.
 
-## How does the thirst HUD work?
+## 口渴值的 HUD 是如何工作的?
 
-The thirst HUD automatically decreases based on some factors: biome, if you're inside a home or outside and also generally during gameplay without any particular factor.
+口渴值会根据一些因素而自动减少: 生物群系, 您在家中还是在野外探险, 通常在游戏过程中没有任何特定因素.
 
 {% hint style="info" %}
-I know this HUDS system lacks some features and it may be a bit confusing, in the future I'll revamp it to add more features and make it better.
+我知道目前的 HUDs 系统缺少一些功能, 可能会显得很混乱, 未来我会对它进行改进, 让它变得更加完善.
 
-If you want to have more control over HUDs you should use the [Java API](../../../developers/java-api/).
+If you want to have more control over HUDs, 你可以使用 [Java API](../../../developers/java-api/).
 {% endhint %}
 
-This is the HUD configuration file:
+以下是 HUD 的配置文件:
 
 ```yaml
 info:
@@ -86,11 +86,11 @@ huds:
 
 ## The triggers
 
-In ItemsAdder you can use triggers to decide how to make the HUD value change, and there are two triggers: `decrement`, `increment` and `on_min_value`.
+在 ItemsAdder 中, 您可以使用触发器来决定如何更改 HUD 的值, 目前有两个触发器: `decrement`, `increment` 和 `on_min_value`.
 
-The `decrement` triggers makes the HUD value decrease, the `increment` trigger makes it increase.
+其中, `decrement` 触发器会减少使 HUD 的值, `increment` 触发器会增加 HUD 的值.
 
-`on_min_value` is a special trigger which makes its rules ran when the HUD value reached its min value.
+`on_min_value` 是一个特殊的触发器, 当 HUD 的值达到其最小值时, 该触发器会运行.
 
 Each trigger has a list of possible rules which tells the ItemsAdder if it can change the HUD value or not.
 
@@ -151,7 +151,7 @@ Each trigger has a list of possible rules which tells the ItemsAdder if it can c
 
 ### `on_min_value` trigger
 
-This is a special trigger which doesn't alter the HUD value, but is used to make something happen when the HUD value reaches the min value.
+这是一个特殊的触发器, 它不会改变 HUD 的值, 但会在 HUD 的值达到其设定的最小值时触发某些事情.
 
 ```yaml
   triggers:
@@ -166,5 +166,5 @@ This is a special trigger which doesn't alter the HUD value, but is used to make
         duration: 100
 ```
 
-* `damage_player` deals a damage of 0.5 to the player each 100 ticks.
-* `potion_effect` gives SLOW effect to the player with amplifier 1 and duration 100, each 100 ticks (in this case it means that the player gets infinite slowness until their HUD value increases somehow).
+* `damage_player` 每 100 ticks（游戏刻）对玩家造成 0.5 点伤害 .
+* `potion_effect` 每 100 ticks（游戏刻）给予玩家持续 100 ticks 的缓慢 1 效果(在这种情况下, 意味着直到玩家的 HUD 值以某种方式增加之前, 将获得无限缓慢效果).

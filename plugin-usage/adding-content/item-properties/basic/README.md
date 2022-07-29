@@ -2,7 +2,7 @@
 描述: 基本物品属性的集合
 ---
 
-# Basic
+# 基础属性
 
 ## Enabled
 
@@ -10,7 +10,7 @@
 enabled: true
 ```
 
-With this setting you can disable an item completely.
+使用该选项, 您可以完全禁用一个物品.
 
 {% hint style="warning" %}
 **If a player has the item in inventory it won't be removed.**\
@@ -23,7 +23,7 @@ With this setting you can disable an item completely.
 display_name: "Test"
 ```
 
-This is the name user will see on the item
+这是玩家能看到的物品显示名称
 
 ## Permission
 
@@ -44,7 +44,7 @@ lore:
 - '&750% of times.'
 ```
 
-Lore lines of the item
+物品的展示文本
 
 ## Enchants
 
@@ -55,9 +55,9 @@ enchants:
   - my_custom_plugin:custom_enchant:6
 ```
 
-Enchants of the item.\
-You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins (for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
-Supports also **namespaces** (if you are creating custom enchants using Namespaced keys)
+物品的附魔属性.\
+您可以设置 [原版附魔列表](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) 和其他插件的自定义附魔 (例如 [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
+支持 **namespaces** (如果您使用 Namespaced keys 创建自定义附魔的话)
 
 ## Attribute modifiers
 
@@ -83,7 +83,7 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities)
+这里是原版属性编辑项, 您可以在这里找到更多内容 [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities)
 
 ## Durability
 
@@ -99,9 +99,9 @@ durability:
 There are pretty self explanatory.\
 `usages` are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events (check events tutorial).
 
-`custom_durability` is the durability amount which the item has on crafting (if not specified is the same as `max_custom_durability`)
+`custom_durability` 是物品合成时的耐久度 (如果未指定, 则与 `max_custom_durability` 相同)
 
-`max_custom_durability` is the max durability the item can reach
+`max_custom_durability` 是物品可达到的最大耐久度
 
 ## Item flags
 
@@ -115,12 +115,12 @@ item_flags:
   - HIDE_UNBREAKABLE
 ```
 
-Special item flags that can hide some vanilla info of the item.\
-You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
+特殊的物品标志, 可以隐藏物品的一些原版信息.\
+您可以在这里找到详细的信息列表: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
 ## blocked\_enchants
 
-Special item property that disables enchants for this item, so your users won't be able to enchant it.
+特殊的物品配置项, 用于禁用为物品附上指定附魔, 您也可以填写 `ALL` 以禁用所有附魔.
 
 {% tabs %}
 {% tab title="Disable some enchants" %}
@@ -145,7 +145,7 @@ blocked_enchants:
 
 ## events\_cooldown
 
-Special attribute to limit spamming of events by players. It's in ticks, so 20 = 1 second.
+限制玩家触发事件的特殊属性. 使用 `ticks` 作为单位, 20 ticks = 1 秒.
 
 ```yaml
   healing_crystals:
@@ -162,7 +162,7 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
       disappear_when_broken: true
     item_flags:
     - HIDE_ATTRIBUTES
-    events_cooldown: 1200 ########### <-- EXAMPLE 60 seconds
+    events_cooldown: 1200 ########### <-- 这儿的例子代表 60 秒冷却时间
     events:
       interact:
         right:
@@ -178,11 +178,11 @@ Special attribute to limit spamming of events by players. It's in ticks, so 20 =
 
 ## events\_needed\_player\_stats
 
-Special attribute to make events work only if the player stat (ItemsAdder player stat, which are usually shown in HUDs) satisfies the set rule.
+特殊属性, 使事件仅在玩家的特定数据 (ItemsAdder player stat, 通常会在 HUDs 中显示) 满足特定规则时触发.
 
 You can set it to `>`, `<` ad `=`
 
-#### Example:
+#### 这是个例子:
 
 {% content-ref url="../../creating-a-custom-item/magic-wand.md" %}
 [magic-wand.md](../../creating-a-custom-item/magic-wand.md)
@@ -205,7 +205,7 @@ You can set it to `>`, `<` ad `=`
     blocked_enchants:
     - ALL
     events_needed_player_stats:
-      mana: ">0" ### <---- for example. You could also set it to <5 or =1 for example.
+      mana: ">0" ### <---- 例子, 您也可以设置成 <5 或 =1 或其他不等式.
     events:
       interact:
         entity:
@@ -220,15 +220,15 @@ You can set it to `>`, `<` ad `=`
 
 ## glow
 
-You can make an item glowing when dropped on the ground.\
-Very useful for **rare items**.
+物品掉落在地面上时是否会发光.\
+很适合用来做 **稀有物品**.
 
 {% hint style="warning" %}
-In order to use the glow feature you have to install two APIs.
+若要使用发光功能, 您需要安装以下两个 API 以正常工作.
 
-[GlowAPI](https://www.spigotmc.org/resources/api-glowapi.19422/) and [PacketListenerAPI](https://www.spigotmc.org/resources/api-packetlistenerapi.2930/)
+[GlowAPI](https://www.spigotmc.org/resources/api-glowapi.19422/) 和 [PacketListenerAPI](https://www.spigotmc.org/resources/api-packetlistenerapi.2930/)
 
-They are needed because this feature is impossible to implement without writing an extremely long code, someone already did it and we can use their API.
+之所以需要它们, 是因为这个功能需要编写非常多的代码, 而目前已有现成的 API 可以使用.
 {% endhint %}
 
 Example
@@ -252,9 +252,9 @@ items:
 
 ## show\_name
 
-You can make a drop show its name.\
-Very useful for **rare items**.\
-Example:
+物品掉落在地面上时是否显示名称.\
+很适合用来做 **稀有物品**.\
+以下是个例子:
 
 ![](<../../../../.gitbook/assets/immagine (118) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 
@@ -270,7 +270,7 @@ Example:
       show_name: true
 ```
 
-## template
+## 物品模板
 
 {% content-ref url="templates-and-variants.md" %}
 [templates-and-variants.md](templates-and-variants.md)
