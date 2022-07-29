@@ -51,28 +51,29 @@ cave_decorators:
 
 属性详情：
 
-`block` is the ItemsAdder block to spawn as decoration.
+`block` 为 生成的自定义方块
 
-`bottom_blocks` property is used to decide the block types on which the decoration can spawn.
+`bottom_blocks` 为 决定是否能生成自定义方块的方块类型（自定义方块将会在该属性设置的方块类型上生成）
 
-`biomes` property is used to decide the valid biomes in which the decoration can spawn.
+`biomes` 为 允许生成的生物群系
 
-`worlds` property decides the worlds in which the decoration can spawn.
+`worlds` 为 允许生成的世界
 
-`chance` is the change of a decoration to spawn in each chunk of the world.
+`chance` 为 每个区块中生成的几率
 
-`max_height` is the max world height where the decoration can spawn.
+`max_height` 为 允许生成的最大高度
 
-`min_height` is the min world height where the decoration can spawn.
+`min_height` 为 允许生成的最小高度
 
 `amount` is the amount of blocks to spawn in the decorations group, for example you can set 5 to make a group of 5 decorations spawn one attached to the other.
 
 `position` is a property used to specify if the block must be on the cave `SURFACE` or `CEILING`.
 
-## Creating the block
+## 创建自定义方块
 
-Now you just have to create the block following the tutorial. You can use `REAL_NOTE`, `REAL_WIRE` `REAL_TRANSPARENT` and `REAL` blocks, depends on your needs.
-
+现在你只需要根据下列教程创建自定义方块.\
+并决定使用下列某一个类型来创建自定义方块： 
+<br>`REAL_NOTE`, `REAL_WIRE`， `REAL_TRANSPARENT` ，`REAL` （根据具体需求来选择类型）
 {% content-ref url="creating-a-custom-item/blocks/block.md" %}
 [block.md](creating-a-custom-item/blocks/block.md)
 {% endcontent-ref %}

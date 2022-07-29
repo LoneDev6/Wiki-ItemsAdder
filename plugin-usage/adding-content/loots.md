@@ -1,4 +1,4 @@
-# 🎁 Loots
+# 🎁 战利品
 
 Loots can be used to specify when to drop a particular item.\
 You can decide to create different loot types:&#x20;
@@ -49,7 +49,7 @@ This allows you to **stop** the **plugin** from **dropping each** of the **items
 **WARNING**: this would make your items **harder** to be **dropped**.
 {% endhint %}
 
-## Drop only in specific biomes
+## 仅在特定的生物群系中掉落
 
 ```yaml
 loots:
@@ -68,9 +68,9 @@ loots:
           chance: 100
 ```
 
-## Ignore fortune enchant
+## 忽略时运附魔效果
 
-You can make a loot ignore fortune enchant by adding the **ignore\_fortune** property.
+通过添加 **ignore\_fortune** 属性来使战利品忽略时运的附魔效果
 
 ```yaml
 loots:
@@ -91,7 +91,7 @@ loots:
 As I said before there are other types of loots: mobs and fishing.\
 These are some examples:
 
-### Fishing
+### 钓鱼（fishing）
 
 ```yaml
 loots:

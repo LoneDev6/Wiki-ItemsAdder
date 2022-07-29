@@ -1,20 +1,20 @@
-# 🍄 表层生成器
+# 🍄 地表生成器
 
-## Generate decorations on the world surface
+## 在世界地标生成装饰物
 
-With ItemsAdder you can generate decorations around the world to make your server more professional and original.
+使用 ItemsAdder 的 **地表生成器**，你可以在世界的地表上生成装饰物，使得服务器看起来更加专业，更有特色.\
 
-For example you can make new mushrooms, new little plants, rocks and decorations
+例如：可以制作新的蘑菇、小植物、小石块和任何装饰
 
 ![](../../.gitbook/assets/leaves.png)
 
 ![](../../.gitbook/assets/desert\_rose.png)
 
-## 创建一个表层生成器
+## 创建一个地表生成器
 
 ### 创建配置文件
 
-For example let's create a rose which will spawn around the world.
+现在让我们来制作一朵将在世界各处生成的玫瑰
 
 ```yaml
 info:
@@ -45,33 +45,35 @@ surface_decorators:
 
 属性详情：
 
-`block` is the ItemsAdder block to spawn as decoration.
+`block` 为 生成的自定义方块
 
-`bottom_blocks` property is used to decide the block types on which the decoration can spawn.
+`bottom_blocks` 为 决定是否能生成自定义方块的方块类型（自定义方块将会在该属性设置的方块类型上生成）
 
-`biomes` property is used to decide the valid biomes in which the decoration can spawn.
+`biomes` 为 允许生成的生物群系
 
-`worlds` property decides the worlds in which the decoration can spawn.
+`worlds` 为 允许生成的世界
 
-`chance` is the change of a decoration to spawn in each chunk of the world.
+`chance` 为 每个区块中生成的几率
 
-`max_height` is the max world height where the decoration can spawn.
+`max_height` 为 允许生成的最大高度
 
-`min_height` is the min world height where the decoration can spawn.
+`min_height` 为 允许生成的最小高度
 
-`amount` is the amount of blocks to spawn in the decorations group, for example you can set 5 to make a group of 5 decorations spawn one attached to the other.
+`amount` 为 将在 装饰组（surface_decorators）中生成的自定义方块数量,（例如：你将该属性设置为5）for example you can set 5 to make a group of 5 decorations spawn one attached to the other.
 
-## Creating the block
+## 创建自定义方块
 
-Now you just have to create the block following the tutorial. You can use `REAL_NOTE`, `REAL_WIRE` `REAL_TRANSPARENT` and `REAL` blocks, depends on your needs.
+现在你只需要根据下列教程创建自定义方块.\
+并决定使用下列某一个类型来创建自定义方块： 
+<br>`REAL_NOTE`, `REAL_WIRE`， `REAL_TRANSPARENT` ，`REAL` （根据具体需求来选择类型）
 
 {% content-ref url="creating-a-custom-item/blocks/block.md" %}
 [block.md](creating-a-custom-item/blocks/block.md)
 {% endcontent-ref %}
 
-## Example
+## 示例
 
-You can download the fully working addon here:
+你可以在该链接中下载到完整的附属:
 
 {% embed url="https://www.spigotmc.org/resources/deco-worlddeco-add-autogenerating-decorations-on-your-world-surface.95207" %}
 

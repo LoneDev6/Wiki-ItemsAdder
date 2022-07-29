@@ -35,15 +35,15 @@ worlds_populators:
     chunk_veins: 1
 ```
 
-This code allows you to tell ItemsAdder to generate the block "myitems:custom\_block" in the world named "world" and replace only block of types STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL and only in biome PLAINS.\
-It will spawn 1 vein made of 3 blocks in each chunk.
+该示例配置指定世界生成器，在 **world** 世界中生成自定义方块 **"myitems:custom\_block"** 并只在生物群系 `PLAINS（平原）` 中对类型为 STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL 的方块进行替换.
+且将在每个区块中生成 1 个由 3 个自定义方块组成的矿脉.
+
 
 ### vein\_blocks, chunk\_veins, chunk\_chance
 
 {% hint style="warning" %}
-I suggest you to read values from the `blocks.yml` file I created in the **ItemsAdder** folder.\
-Don't put too high values or the server could lag.\
-Take my values as example.
+不要设置过高的数值，否则会导致服务器滞后产生大量延迟.\
+你可以参考 Itemsadder 文件夹下 `blocks.yml` 文件内的数值.
 {% endhint %}
 
 **chunk\_veins**: 区块中生成的矿脉数量\
