@@ -11,7 +11,7 @@ permission: myitem
 请给予权限: `ia.user.craft.myitem`\
 
 
-## 如何让玩家在 /ia 界面中可以看见指定的物品?
+## 如何让玩家在 /ia 界面中能看见指定的物品?
 
 若要允许玩家在 `/ia` 界面中能看见指定的物品，请给予权限: `ia.user.ia.myitem`
 
