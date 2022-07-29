@@ -1,7 +1,7 @@
 # Specific properties（具体属性）
 
 {% hint style="info" %}
-You can get all the `specific_properties `suggestions using the official editor.\
-The wiki lacks all the other `specific_properties` information.
+您可以使用官方编辑器获取所有关于 `specific_properties ` 的使用建议.\
+当前的 WIKI 缺少关于 `specific_properties` 的所有信息.
 {% endhint %}
 

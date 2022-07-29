@@ -1,20 +1,20 @@
-# Creating 3D models
+# 创建 3D 模型
 
-To create custom models I use [BlockBench ](https://blockbench.net/)which is a free, easy to use and amazing tool to make Minecraft model.
+要创建自定义模型, 推荐使用免费的 [BlockBench ](https://blockbench.net/), 一个制作 Minecraft 的简单易用模型工具.
 
 {% embed url="https://www.youtube.com/watch?v=aaJ8XgMAOno" %}
 
-## Creating 3D model from a texture
+## 从纹理材质创建 3D 模型
 
 {% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" %}
 
 {% hint style="warning" %}
-## Important
+## 重要事项
 
-If you're using a **non-vanilla** texture (your **.png** file) you have to open the **.json** file of your model and do a little edit.
+如果您在使用 **非原版** 的材质 (你的 **.png** 格式文件), 您需要打开 **.json** 文件并做一些编辑.
 
-If your model is using a custom texture you have to make sure to put your namespace in front of the texture name.\
-For example if you have this 3D model and the texture has this path: `plugins\ItemsAdder\data\resource_pack\assets\my_items\textures\item\custom_item_1.png`
+如果您的模型使用的是自定义材质, 则必须确保 **namespace** 放在材质名称之前.\
+例如, 您有一个这样的 3D 模型, 且材质保存在此路径: `plugins\ItemsAdder\data\resource_pack\assets\my_items\textures\item\custom_item_1.png`
 
 ```javascript
  "textures":{
@@ -22,7 +22,7 @@ For example if you have this 3D model and the texture has this path: `plugins\It
    },
 ```
 
-you have to add the **namespace** in front of it (`my_items` in my example, you have to use your namespace).
+您必须添加 **namespace** 在其前面 (`my_items` 为该例子的 **namespace**, 请按照实际情况填写).
 
 ```javascript
  "textures":{
