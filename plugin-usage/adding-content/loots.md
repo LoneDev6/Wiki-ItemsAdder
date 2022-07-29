@@ -40,14 +40,13 @@ loots:
 
 第一个战利品为 **ruby_ore**（你可以在任何地方对其进行调用），当你挖掘自定义方块 **itemsadder:ruby_ore** 后将会 **100%** 掉落 1-2个 **itemsadder:ruby**
 
-第二个战利品为 **原版方块**
-The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal** or a **knowledge\_fragment** when the player breaks a **NETHER\_QUARTZ\_ORE**.\
-These **drops** are decided by **ItemsAdder** based on **chance** you set.&#x20;
+第二个战利品为 **原版方块** ，如配置所示，当你在挖掘 **下界石英矿石（nether_quartz_ore）** 时 有几率会掉落 **水晶（crystal）** 与 **知识碎片（knowledge_fragment）**.\
+掉落的几率由配置中的 `chance` 属性决定.&#x20;
 
 {% hint style="info" %}
 特殊属性：**drop\_only\_first**\
 This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**. \
-**WARNING**: this would make your items **harder** to be **dropped**.
+**提醒**: 该属性会导致物品 **更难** 掉落..
 {% endhint %}
 
 ## 仅在特定的生物群系中掉落
@@ -226,8 +225,9 @@ loots:
           chance: 100
 ```
 
-As you can see I set **profession** attribute and specified the **NBT attribute** path, which in this case is **VillagerData.profession**.\
-Then I set value to **minecraft:farmer**, this tells ItemsAdder to match only **villagers** with attribute **VillagerData.profession** set to **minecraft:farmer**.
+
+在该示例中，设置了村民的职业并指定了 **NBT 属性** path 数值为 **VillagerData.profession**.\
+并将 value 数值设置为 **minecraft:farmer**，这样子 Itemsadder 只会匹配属性 **VillagerData.profession** 设置为 **minecraft:farmer** 的村民
 
 {% hint style="warning" %}
 `nbt` 的 `type` 属性和 `metadata（对应Value）` 属性非常重要，不要忘记配置！否则将无法匹配!
