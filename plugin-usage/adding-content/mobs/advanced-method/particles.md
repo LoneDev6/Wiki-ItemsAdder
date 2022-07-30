@@ -9,7 +9,7 @@
 
 ![](<../../../../.gitbook/assets/image (78) (1) (1).png>)
 
-右键骨骼并选择 "**Bone Config**"
+右键骨骼并选择 "**Bone Config（骨骼设置）**"
 
 ![](<../../../../.gitbook/assets/image (68) (1).png>)
 
