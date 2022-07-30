@@ -3,6 +3,7 @@
 {% hint style="warning" %}
 如果你想制作一些透明/半透明的材质,你必须确保你的物品是基于一个透明的原版物品.(如:玻璃板)
 举个栗子:
+![半透明的药水瓶](<https://gitee.com/white-diamond/Simplechinese_Wiki-ItemsAdder/raw/master/.gitbook/assets/btm.png>)
 {% endhint %}
 
 ```yaml
@@ -13,3 +14,7 @@ resource:
 ```
 
 ![半透明的药水瓶](<https://gitee.com/white-diamond/Simplechinese_Wiki-ItemsAdder/raw/master/.gitbook/assets/btm.png>)
+
+
+
+![左：没有 mipmap 右：使用 mipmap](<../.gitbook/assets/image (19).png>)
