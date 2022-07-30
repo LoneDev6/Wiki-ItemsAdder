@@ -8,19 +8,19 @@
 
 使用 **Blockbench** 打开您的 `.iaentitymodel` 模型文件.
 
-Select the base bone of the entity hands.
+选择实体手部的基础骨骼.
 
 ![](<../../../../.gitbook/assets/image (47) (1).png>)
 
-Create a new group which will be a child of the hand bone.
+创建一个新的分组, 该分组应是手部骨骼的子级分组.
 
 ![](<../../../../.gitbook/assets/image (70) (1).png>)
 
-Rightclick on the bone and select "**Bone Config**", in this case `left_hand_slot`
+右键点击骨骼选项并选择 "**Bone Config（骨骼配置）**", 以下图 `left_hand_slot` 为例.
 
 ![](<../../../../.gitbook/assets/image (65).png>)
 
-Check the "**Left hand pivot**" option and press "**Confirm**".
+确认启用 "**Left hand pivot**" 选项后, 点击 "**Confirm（确认）**".
 
 ![](<../../../../.gitbook/assets/image (61) (1).png>)
 

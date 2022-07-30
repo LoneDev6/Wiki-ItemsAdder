@@ -22,11 +22,11 @@
 * 只和 XY 的大小有关联, Z 不必在意. This is a Minecraft limitation, it's how hitboxes work in the game.
 {% endhint %}
 
-右键点击骨骼并选择 "**Bone Config**"
+右键点击 ** 骨骼选项 **并选择 "**Bone Config（骨骼配置）**"
 
 ![](<../../../../.gitbook/assets/image (62) (1) (1).png>)
 
-检查 "**Hitbox**" 选项, 确认无误后点击 "**Confirm**".
+检查 "**Hitbox（碰撞箱）**" 选项, 确认无误后点击 "**Confirm（确认）**".
 
 ![](<../../../../.gitbook/assets/image (49) (1).png>)
 
