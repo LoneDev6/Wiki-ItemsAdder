@@ -172,7 +172,7 @@
           * [模型](plugin-usage/adding-content/mobs/old-method/creating-the-mob/3d-model.md)
         * [自然生成自定义怪物](plugin-usage/adding-content/mobs/old-method/spawning-custom-mobs-naturally/README.md)
           * [使用 MythicMobs](plugin-usage/adding-content/mobs/old-method/spawning-custom-mobs-naturally/using-mythicmobs.md)
-          * [ItemsAdder internal](plugin-usage/adding-content/mobs/old-method/spawning-custom-mobs-naturally/itemsadder-internal.md)
+          * [ItemsAdder 内部创建](plugin-usage/adding-content/mobs/old-method/spawning-custom-mobs-naturally/itemsadder-internal.md)
     * [ℹ 自定义物品 tooltips](plugin-usage/adding-content/items-tooltips.md)
     * [为你的方块/家具应用2d图标](plugin-usage/adding-content/2d-icons-for-blocks-furniture.md)
     * [动态标题](plugin-usage/adding-content/animated-titles.md)

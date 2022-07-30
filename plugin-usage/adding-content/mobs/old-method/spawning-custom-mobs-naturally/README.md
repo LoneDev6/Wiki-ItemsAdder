@@ -4,7 +4,7 @@
 
 ItemsAdder 提供了两种创建自定义实体的方法:
 
-### ItemsAdder 内部
+### ItemsAdder 内部创建
 
 这是您创建自定义实体并在世界范围内查看它们的最简单、快速的方法.  
 您不需要安装 MythicMobs 就可以使用.

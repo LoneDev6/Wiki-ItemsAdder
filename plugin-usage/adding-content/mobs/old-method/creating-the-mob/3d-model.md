@@ -1,10 +1,10 @@
-# 3D model
+# 自定义怪物模型
 
-## Creating the animated model (idle animation)
+## 创建自定义实体模型动画 (idle（闲置）的时动画)
 
 我将使用 [BlockBench](https://blockbench.net/) 创建一个模型, 这个工具简单易用也很高效.\
-BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench+tutorial)可以在 YouTube 上找到.
-（国内一般上不去, 要么科学上网, 要么看 Bilibili）
+BlockBench [教程 ](https://www.youtube.com/results?search\_query=blockbench+tutorial)可以在 YouTube 上找到.
+（国内一般上不去, 要么科学上网, 要么在 Bilibili 搜寻教程）
 
 {% hint style="danger" %}
 您必须确保创建的模型为 Java Block/Item 模型, 而非 Bedrock（基岩版） 模型 或 Entity（实体） 模型!
@@ -12,7 +12,7 @@ BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench
 ![](<../../../../../.gitbook/assets/immagine (89) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 {% endhint %}
 
-### 创建一个非常简单的待机动画
+### 创建一个非常简单的idle（闲置）动画
 
 如下所示, 我创建了一个由许多立方体组成的模型.
 
@@ -33,57 +33,57 @@ BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench
 
 ![](<../../../../../.gitbook/assets/immagine (57).png>)
 
-**Hold left mouse button** while cliking on the **GREEN** arrow, **hold CTRL** and **move** the mouse **up** a little bit
+**按住鼠标左键**，同时点击 **绿色**箭头，**按住 CTRL** 并 **向上** 移动一点
 
 ![](<../../../../../.gitbook/assets/immagine (58).png>)
 
-**3.Save** the file again but change the name to **2.json**
+**3.再次保存**文件，但将名称更改为**2.json**
 
-**4.**Do the same thing 3 times (move the mob a little bit up) and save the file again increasing the number in its file name.
+**4.**重复三次操作（将怪物向上进行小幅度移动），保存文件按照数字序列来进行命名
 
-**5.**Now we have finished creating the needed frames for our animation. Open [this website](https://lonedev6.github.io/animated-models/)
+**5.**现在我们完成了动画所需要的序列帧模型.接着 打开 [该页面](https://lonedev6.github.io/animated-models/)
 
-**6.**Now **click** on the **icon** to load our json frames
+**6.**点击 **文件图标** 加载我们的 json 序列帧
 
 ![](<../../../../../.gitbook/assets/immagine (68).png>)
 
-**7.**Click on "**Choose files...**" and select your json files and the png texture
+**7.**点击“**Choose files（选择文件）...**”并选择您的 json 文件和 png 贴图
 
 ![](<../../../../../.gitbook/assets/immagine (77).png>)
 
 ![](<../../../../../.gitbook/assets/immagine (69).png>)
 
-**8.**Click on **LOAD**
+**8.**点击 **LOAD（加载）**
 
 ![](<../../../../../.gitbook/assets/immagine (70).png>)
 
-**9.Click** the **second icon** and **drag** and **drop** the **4 files** to the bottom line
+**9.点击** **第二个图标** 将 **4个文件** 拖放至下方
 
 ![](<../../../../../.gitbook/assets/immagine (71).png>)
 
 ![](<../../../../../.gitbook/assets/immagine (72).png>)
 
-**10.**You should have them like that
+**10.**现在你的界面应该与图片中一样
 
 ![](<../../../../../.gitbook/assets/immagine (73).png>)
 
-**11.**Drag and drop them again but in reverse (3-2**, I skipped 1 and 4 because they would be useless for the animation**)
+**11.**再次拖放文件至下方，不过此次顺序为相反的（4-3-2-1） (3-2**, 在此步骤中我跳过了 1 和 4 序列动画，因为对动画没有任何影响**)
 
 ![](<../../../../../.gitbook/assets/immagine (75).png>)
 
-**12.**Press the **play** button (on the **bottom left**) to **preview** the animation
+**12.**点击 **play** 按钮 (在 **左下角**) 来 **预览动画**
 
 ![](https://i.imgur.com/zslbD0G.gif)
 
-**13.** Press "**Export**" button (**top right** of the **screen**) and configure it like in the screenshot, then press "**Export**" again.
+**13.** 点击 "**Export（导出）**" 按钮 (位于屏幕右上角) 并按照需求进行配置，再次点击 **Export（导出）**
 
 ![](<../../../../../.gitbook/assets/immagine (76).png>)
 
-**14.**Now you will have a **zip** file with the animation, **download** it and **open** it.
+**14.**现在你可以下载一个包含动画文件的压缩包，下载并打开它
 
-**15.Extract** the zip inside your **ItemsAdder** folder `data\resource_pack\`
+**15.复制** 压缩包中的内容至 **ItemsAdder** 文件夹 `data\resource_pack\`
 
-**16.**Set your mob configuration like this, to use the idle animation and not the stuck one: `"mob/soul/idle"`
+**16.**配置你的自定义怪物使用 idle 动画  `"mob/soul/idle"`
 
 ```yaml
 items:
@@ -96,25 +96,25 @@ items:
       model_path: "mob/soul/idle"
 ```
 
-**17.**Use the command `/iazip` (if you're using external-host please follow the [tutorial ](../../../../resourcepack-hosting/)carefully)
+**17.**使用指令 `/iazip` (并上传至云端)
 
-**18.**spawn the mob using `/iasummon soul`
+**18.**使用指令 `/iasummon soul` 生成自定义实体
 
 ![](https://i.imgur.com/1tljgbv.gif)
 
 {% hint style="warning" %}
-Do not open the animated model (exported from the website) with BlockBench or any other editing program or it will probably break and stop working.
+请勿使用 BlockBench 或任何其他编辑程序打开动画模型（从网站导出后），否则动画可能会损坏并且失效.
 {% endhint %}
 
 {% hint style="info" %}
-You can delete the 1-2-3-4.json files, you don't need them anymore (but you can backup them for future usage), you only need the idle.json file and the png+mcmeta files which are the animated files.
+现在可以删除 1-2-3-4.json 序列动画文件，因为不再需要这些文件了（但你仍然可以进行备份），你只需要 idle.json 文件和 png+mcmeta 文件
 {% endhint %}
 
-## More advanced animations:
+## 更多进阶的动画
 
 {% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" %}
 
-## Full addon download
+## 完整附属下载
 
 {% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" %}
 

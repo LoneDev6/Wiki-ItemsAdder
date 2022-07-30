@@ -1,10 +1,10 @@
 # 配置文件
 
-## 创建您的第一只实体
+## 创建您的第一个实体
 
-### yml configuration
+### yml 配置文件
 
-您需要在 [namespace ](../../../basic-concepts/namespace/)文件夹下创建一个 .yml 后缀的文件 (查看 [其他教程 ](../../../basic-concepts/namespace/creating-your-namespace.md)了解更多信息).
+您需要在 [命名空间 ](../../../basic-concepts/namespace/)文件夹下创建一个 .yml 后缀的文件 (查看 [其他教程 ](../../../basic-concepts/namespace/creating-your-namespace.md)了解更多信息).
 
 {% hint style="info" %}
 考虑使用[ 官方在线工具](../../../../../files-editor.md) 来编辑 ItemsAdder 的文件. \
