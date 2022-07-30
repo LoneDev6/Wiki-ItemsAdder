@@ -97,8 +97,8 @@ durability:
   usages: 5
 ```
 
-There are pretty self explanatory.\
-`usages` are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events (check events tutorial).
+
+`usages` 是每当玩家使用一次该物品会消耗的物品耐久值.（例如：当玩家使用一次法杖将会消耗该法杖的5点耐久度）
 
 `custom_durability` 是物品合成时的耐久度 (如果未指定, 则与 `max_custom_durability` 相同)
 
@@ -184,7 +184,7 @@ blocked_enchants:
 
 您可以使用符号 `>`, `<` 和 `=`
 
-#### 这是个例子:
+#### 示例:
 
 {% content-ref url="../../creating-a-custom-item/magic-wand.md" %}
 [magic-wand.md](../../creating-a-custom-item/magic-wand.md)
@@ -272,7 +272,7 @@ items:
       show_name: true
 ```
 
-## templates
+## 子级物品模板
 
 {% content-ref url="templates-and-variants.md" %}
 [templates-and-variants.md](templates-and-variants.md)

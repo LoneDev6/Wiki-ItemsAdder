@@ -19,7 +19,7 @@
 {% hint style="info" %}
 我知道目前的 HUDs 系统缺少一些功能, 可能会显得很混乱, 未来我会对它进行改进, 让它变得更加完善.
 
-If you want to have more control over HUDs, 你可以使用 [Java API](../../../developers/java-api/).
+如果你想对HUD进行更多的操作, 你可以使用 [Java API](../../../developers/java-api/).
 {% endhint %}
 
 以下是 HUD 的配置文件:

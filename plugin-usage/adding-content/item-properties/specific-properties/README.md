@@ -1,4 +1,4 @@
-# Specific properties（具体属性）
+# 特殊属性
 
 {% hint style="info" %}
 您可以使用官方编辑器获取所有关于 `specific_properties ` 的使用建议.\

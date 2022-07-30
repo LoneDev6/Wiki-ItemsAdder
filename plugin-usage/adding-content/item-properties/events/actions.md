@@ -213,7 +213,7 @@ execute_commands:
 play_particle:
   name: "ENCHANTMENT_TABLE"
 
-# Shoots particle (useful for wands and weapons)
+# 发射粒子 (适用于武器以及法杖)
 shoot_particle:
   name: FLAME
   distance: 7
@@ -246,14 +246,14 @@ drop_exp:
   min_amount: 1
   max_amount: 3
     
-# Vanilla saturation values: 
+# 原版恢复饥饿值详情: 
 # https://minecraft.gamepedia.com/Hunger#Food_level_and_saturation_level_restoration
 feed:
   amount: 6
-  saturation: 2 # <--- this is optional, default is 0
+  saturation: 2 # <---可选项，默认为0
     
-# Replaced properties of the current item copying them from another.
-# For now you can only do that with custom_model_data. More will be added.
+# 复制另一个物品的属性，应用至当前物品
+# 目前你只能使用 custom_model_data 来进行此操作，更多类型将会在未来更新
 replace_properties:
   custom_model_data:
     copy_from_item: "itemsadder:closed_lightsaber"
@@ -264,7 +264,7 @@ give_item:
   item: empty_cup
   amount: 1
   
-# Replaces blocks around the block you interacted with or break
+# 当你交互或破坏方块的时候使周围的特定方块替换为另一种特定方块（例如，该示例将岩浆替换为黑曜石）
 replace_near_blocks:
   radius:
     x: 2
@@ -275,7 +275,7 @@ replace_near_blocks:
   decrement_durability: 8
   no_physics: false #default is false
   
-# Glows blocks around the block you interacted with or break
+# 在你交互或破坏方块的时候使周围的特定方块发光
 glow_near_blocks:
   decrement_durability:
     amount: 1
@@ -285,7 +285,8 @@ glow_near_blocks:
     z: 50
   material: DIAMOND_ORE
   
-# Breaks multiple blocks around the block you interacted with or break
+# 当你交互或破坏方块的时候能够额外破坏周围的方块（例如，在该示例中，挖掘掉一个方块将会使其周围 3x3 范围的方块都掉落 ）
+
 multiple_break:
   keep_ores: true
   drop_all_blocks:
@@ -310,7 +311,7 @@ explosion:
   fire: true
   break_blocks: true
   
-# Allows you to damage entities around you
+# 使你周围的实体受到伤害
 damage_near_entities:
   entity_groups:
    - HOSTILE
@@ -319,38 +320,37 @@ damage_near_entities:
   damage: 4
   range: 7
   
-# Allows you to damage the entity you're looking at
+# 使你注视的实体受到伤害
 damage_entity_in_sight:
   damage: 4
   distance: 7
   
-# Allows you to damage the entity of this event. For example on interact or attack
-# or on event item_hit_entity
+# 在该事件中能够使实体受到伤害（例如，攻击，交互或 item_hit_entity 事件）
 damage_entity:
   damage: 4
   
-# Special action that allows you to increment player stat linked to an hud
-#in this case hud named: "itemsadder:mana_bar"
+# 该属性能够允许你为 自定义玩家数据HUD 的 数值 进行减少（例如：预置物品中的愈合结晶） 
+# 该示例中作用的 HUD 为 "itemsadder:mana_bar"
 increment_player_stat:
   name: "itemsadder:mana_bar"
   amount: 1
   
-# Special action that allows you to decrement player stat linked to an hud
-#in this case hud named: "itemsadder:mana_bar"
+# 该属性能够允许你为 自定义玩家数据HUD 的 数值 进行增加（例如：预置物品中的愈合结晶） 
+# 该示例中作用的 HUD 为 "itemsadder:mana_bar"
 decrement_player_stat:
   name: "itemsadder:mana_bar"
   amount: 1
   
-# Special action to make the event cancelled (the event that called this action)
+# 取消事件的特殊操作（调用此动作的事件）
 cancel: true
 
-# Adds potion effect to target entity (attack, interact...)
+# 添加对目标实体的药水效果（攻击、互动……）
 target_potion_effect:
   type: GLOWING
   duration: 70
   amplifier: 15
   
-# Removes potion effect to target entity (attack, interact...)
+# 移除对目标实体的药水效果（攻击、互动……）
 target_remove_potion_effect:
   type: GLOWING
   

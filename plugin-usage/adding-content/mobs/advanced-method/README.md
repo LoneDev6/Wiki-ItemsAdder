@@ -1,5 +1,5 @@
 ---
-description: 创建 自定义怪物/实体 的新进阶方法.
+描述: 创建 自定义怪物/实体 的新进阶方法.
 ---
 
 # 进阶方法
@@ -35,7 +35,7 @@ description: 创建 自定义怪物/实体 的新进阶方法.
 * MythicMobs 兼容
 * Citizens 兼容
 
-### Limitations
+### 局限性
 
 * 只有当怪物的头部离其身体的中心在一定距离内, 头骨旋转才会生效.
 * 在飞行生物上按下 SHIFT 使其向下降落的功能只在 1.15 / 1.17 / 1.18 的客户端生效，, 因为 1.16 客户端存在 BUG: [https://bugs.mojang.com/browse/MC-202202](https://bugs.mojang.com/browse/MC-202202) .\

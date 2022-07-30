@@ -2,7 +2,7 @@
 
 ## 设置步骤
 
-### 配置头部颅骨
+### 配置头部骨骼
 
 使用 **Blockbench** 打开您的 `.iaentitymodel` 模型文件.\
 创建一个任意名称的新骨骼.
@@ -18,11 +18,11 @@
 ![](<../../../../.gitbook/assets/image (52) (1).png>)
 
 {% hint style="warning" %}
-* XYZ 的位置无关紧要.
-* 只和 XY 的大小有关联, Z 不必在意. This is a Minecraft limitation, it's how hitboxes work in the game.
+* 与 XYZ 的位置无关
+* 碰撞箱只和 XY 的大小有关联（忽略Z轴即可）.
 {% endhint %}
 
-右键点击 ** 骨骼选项 **并选择 "**Bone Config（骨骼配置）**"
+右键 **(hitbox)骨骼 **并选择 "**Bone Config（**"
 
 ![](<../../../../.gitbook/assets/image (62) (1) (1).png>)
 

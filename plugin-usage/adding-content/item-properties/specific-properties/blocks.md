@@ -1,4 +1,4 @@
-# Blocks
+# 方块
 
 ```yaml
 specific_properties:
@@ -8,23 +8,23 @@ specific_properties:
       break_particles: BLOCK
       rotx: 0
       roty: 0
-    cancel_drop: true #default is false. if true the custom block won't be dropped when
+    cancel_drop: true #默认为false. 该属性为true时会取消方块掉落
                       #player mines it
-    light_level: 12 #make block emit light
-    #tools you can't use to break block(accepts partial name of material/customitem)
+    light_level: 12 #使方块发光
+    #破坏该方块的工具黑名单(原版物品以及自定义物品都可以)
     break_tools_blacklist:
     - WOODEN_PICKAXE
     - STONE_PICKAXE
     - IRON_PICKAXE
-    #tools you can use to break block(accepts partial name of material/customitem)
+    #破坏该方块的工具白名单(原版物品以及自定义物品都可以)
     break_tools_whitelist:
     - DIAMOND_PICKAXE
     - PICKAXE
     - pickaxe
-    hardness: 2 #hardness of the block
-    blast_resistance: 1 #explosion resistance (by default is hardness*3)
-    no_explosion: false #totally immune from explosions, ignoring blast_resistance
-    sound: #customizable sounds of the block
+    hardness: 2 #方块的硬度
+    blast_resistance: 1 #防爆等级(默认为硬度*3)
+    no_explosion: false #无视爆炸影响, 忽略 "blast_resistance" 的值
+    sound: #为方块使用自定义音效
       break:
         name: BLOCK_WOOD_BREAK
         volume: 1
@@ -51,7 +51,7 @@ this property can have these value:
   * downsides:&#x20;
     * **max** of **191 blocks** in total
 * `REAL_TRANSPARENT`
-  * uses a real block (chorus), no lag, no entities, 100% real blocks, also with transparency support!
+  * uses a real block (紫颂植株), no lag, no entities, 100% real blocks, also with transparency support!
   * downsides:&#x20;
     * **max** of **63 blocks** in total
 * `REAL_WIRE`
@@ -121,7 +121,7 @@ Blacklist of tools that cannot run events on this block[ (`placed_block.interact
 
 Whitelist of tools that cannot run events on this block [(`placed_block.interact`)](../events/#list-of-events)
 
-## Other options
+## 其他选项
 
 ### hardness
 
@@ -142,7 +142,7 @@ You can change block break and place sounds. You can specify a [custom sound](..
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound\_list\_pc.php) names.
 
 {% hint style="info" %}
-If no **break** sound is specified it will play  [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK\_STONE\_BREAK)  ``  (`block.stone.break`)
+如果未设置 **break** 播放的音效，默认使用 [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK\_STONE\_BREAK)  ``  (`block.stone.break`)
 
 If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](../resource/)attribute of this block.
 {% endhint %}

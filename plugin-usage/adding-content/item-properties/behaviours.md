@@ -5,7 +5,7 @@
 Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.\
 These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.
 
-### 插件内置的行为属性列表
+### 内置的行为属性列表
 
 * `block_trade_machine`
 * `furniture_trade_machine`

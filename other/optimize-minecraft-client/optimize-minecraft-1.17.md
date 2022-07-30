@@ -9,21 +9,21 @@
 
 ![](<../../.gitbook/assets/immagine (115).png>)
 
-### 2. Edit the profile folder (optional step)
+### 2. 编辑配置文件夹 (可选步骤)
 
-Click on "**installations**", then press on "**edit**" under the "**Fabric**" installation.
+点击 "**installations**", 接着点击 "**edit**" 下的 "**Fabric**" 来进行安装.
 
 ![](<../../.gitbook/assets/immagine (119).png>)
 
-Change the folder to a new one, for example I created a new profile folder called `Fabric` inside `.minecraft`.
+更改为新文件夹，例如，在 `.minecraft` 中创建 `Fabric` 的新配置文件夹。
 
 ![](<../../.gitbook/assets/immagine (120).png>)
 
-### 3. Install the optimization mod
+### 3. 安装优化模组
 
-Download the mod here: [https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154)
+在此处下载模组 : [https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154](https://www.curseforge.com/minecraft/modpacks/fabulously-optimized/files/3456154)
 
-Open the zip and extract the folders `mods` and `config` inside your `.minecraft` folder (or inside the **Fabric** profile folder).
+打开 zip 并在 `.minecraft` 文件夹（或 **Fabric** 配置文件夹中）中复制 `mods` 和 `config` 文件夹
 
 ### 4. 运行 Fabric
 
