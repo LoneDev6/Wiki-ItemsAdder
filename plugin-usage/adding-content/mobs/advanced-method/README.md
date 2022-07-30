@@ -21,14 +21,14 @@
 
 ### 主要特点
 
-* [Blockbench](https://www.blockbench.net/) 转换模型的扩展
+* 便捷的 [Blockbench](https://www.blockbench.net/) 扩展
 * 完全异步执行, 不会出现 TPS 下降
 * 针对大型服务器进行优化
-* Damage animation
+* 受击动画
 * 实体着火时的火焰动画
-* Animate size of bones
+* 动态的骨骼大小
 * 设置不受角度限制的骨骼旋转动画
-* Multiple mount seats
+* 多个骑乘位
 * 在动画中播放声音和粒子特效
 * 显示实体手持设备
 * 可自定义的碰撞箱
@@ -37,11 +37,11 @@
 
 ### 局限性
 
-* 只有当怪物的头部离其身体的中心在一定距离内, 头骨旋转才会生效.
+* 只有当怪物的头部离其身体的中心在一定距离内, 头部骨骼旋转才会生效.
 * 在飞行生物上按下 SHIFT 使其向下降落的功能只在 1.15 / 1.17 / 1.18 的客户端生效，, 因为 1.16 客户端存在 BUG: [https://bugs.mojang.com/browse/MC-202202](https://bugs.mojang.com/browse/MC-202202) .\
-  1.16 clients will see players flying if they press SHIFT while on a flying entity while they should still be riding the entity.
+  在 1.16 客户端中当玩家骑乘飞行的实体按下SHIFT后显示玩家已取消骑乘处于飞行状态，但实际上仍骑乘在飞行实体上
 * 该插件会使用多个实体来创建动画. \
   网络延迟可能会带来一些轻微的动画问题. \
   如果您在玩家周围创建过多的实体, 且您的实体模型有很多骨骼, 则有可能会对服务器带来一些滞后.\
-  (NOTE: 插件经过高度优化, 只要您的服务器不是 **土豆** 就不会出现延迟)
+  (提醒: 插件经过高度优化, 只要您的服务器不是育碧的土豆服务器就不会出现太大延迟)
 * 无法修改 Citizens NPCs 的碰撞箱大小, 这是 Citizens 插件本身的限制 &#x20;

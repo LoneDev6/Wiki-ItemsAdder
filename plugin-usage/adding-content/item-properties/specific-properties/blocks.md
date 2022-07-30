@@ -79,9 +79,6 @@ specific_properties:
 
 该属性能够让你使特殊的模型进行指定角度旋转.(该属性适用于进阶用户).\
 指定角度旋转是静态的,该属性仅在你使用子级物品的时才有用.\
-{% content-ref url="templates-and-variants.md" %}
-[子级物品](templates-and-variants.md)
-{% endcontent-ref %}
 
 
 ### placeable\_on\_water

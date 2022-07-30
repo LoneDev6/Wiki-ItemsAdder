@@ -1,4 +1,4 @@
-# Creation
+# 创建自定义怪物
 
 ## 如何导入自定义实体模型和动画
 
@@ -7,10 +7,10 @@
 ## 安装 Blockbench 扩展
 
 {% hint style="warning" %}
-### 在此之前:
+### 在继续阅读教程之前:
 
-* 确保您正在运行的是 **Blockbench 4.1.5** 或 **更高版本**
-* 确保您正在运行的是 ItemsAdder 和 ItemsAdder Blockbench 扩展的最新版本
+* 确保 Blockbench 版本为 **Blockbench 4.2.5+**
+* 确保 你正在使用最新版本的 ItemsAdder 以及 Itemsadder 的 Blockbench 扩展
 {% endhint %}
 
 [下载 Blockbench](https://www.blockbench.net/) (不要使用 Web 应用).
@@ -22,11 +22,11 @@
 
 ![](<../../../../.gitbook/assets/image (61).png>)
 
-将其解压到某个位置, 然后打开 **Blockbench** 应用并依次点击 File -> Plugins.
+将其解压到某个位置, 然后打开 **Blockbench** 应用并依次点击 File（文件） -> Plugins（插件）.
 
 ![](<../../../../.gitbook/assets/image (48) (1) (1).png>)
 
-点击 `load plugins from file` 图标, 然后选择文件 `iaentitymodel.js`.
+点击 `load plugins from file（从文件中加载插件）` 图标, 然后选择文件 `iaentitymodel.js`.
 
 ![](<../../../../.gitbook/assets/image (74) (1) (1).png>)
 
@@ -46,7 +46,7 @@
 
 ![](<../../../../.gitbook/assets/image (94) (1).png>)
 
-在 **Format** 设置中选择 "**ItemsAdder Entity Model**", 然后点击 **Confirm**.\
+在 **Format（格式）** 设置中选择 "**ItemsAdder Entity Model**", 然后点击 **Confirm**.\
 现在, 将新转换的模型文件保存在一个 **您仅在其中放置此文件** 的文件夹中.
 
 如图所示, 您会得到这样一个东西:
@@ -67,10 +67,10 @@
 
 此外, 可能需要您更改的另一项设置是: "**Model Scaling Mode**":
 
-* Max Model size provides 7x7x7 block wide models but limits scaling to shrinking only.
-* Max Scaling range provides shrinking and growing up to 3.125x in size, but limits the maximum model size to 3x3x3 blocks
+* Max Model size 提供 7x7x7 方块大小的模型，但仅限于缩小
+* Max Scaling range 提供 3.125倍 的缩放范围，但限制最大的缩放模型尺寸为 3x3x3
 
-Change "**Max Model Size**"  only if you have animated the size of some bones.
+仅当为动画中的骨骼使用尺寸缩放功能时才需要更改 "**Max Model Size**".
 
 ![](<../../../../.gitbook/assets/image (66).png>)
 
@@ -125,8 +125,8 @@ entities:
 
 请使用命令: `/iaentity summon <实体名>`
 
-## Notes
+## 提醒
 
 {% hint style="info" %}
-请保持模型尽量简单, 不要创建太多的骨骼. 不要忘记这是一个像素游戏! 详情可参阅 [Minecraft Style](../../../minecraft-style-guide.md).
+请保持模型尽量简单, 不要创建太多的骨骼. 不要忘记这是一个像素游戏! 详情可参阅 [Minecraft 美术风格指导](../../../minecraft-style-guide.md).
 {% endhint %}

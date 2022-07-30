@@ -24,7 +24,7 @@
 
 ![](<../../../../.gitbook/assets/image (61) (1).png>)
 
-The hand pivot bone has a new icon now, as you can see.
+如图所示，手部枢轴骨骼现在有了一个新图标.
 
 ![](<../../../../.gitbook/assets/image (97).png>)
 
