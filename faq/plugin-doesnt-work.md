@@ -1,28 +1,27 @@
-# ⚠ Plugin doesn't work!
+# ⚠ 插件无法工作!
 
-## Did you recently update your server/plugin or installed a new plugin?
+## 您是否最近更新了 服务端/插件 或安装了新的插件?
 
-Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
+请尝试删除新加入的插件、从服务器备份中还原或降级更新的插件/服务端版本，并检查问题是否仍然存在.
 
-### **If you still have problems, please read this and then contact me:** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+### **如果问题仍然存在, 请阅读下面的内容, 然后与我联系:** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
-Please when you report something be sure to follow every single step of my tutorials and make sure to read all the wiki. \
+在您您报告问题之前, 请确保遵循我教程的每一个步骤, 并确保阅读了所有的 wiki. \
 Be sure to test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering. \
-Be sure to use the latest version of the plugin.&#x20;
+请确保使用最新版本的插件.&#x20;
 
-If the problem persists please send me these information when you report the problem:
-如果问题仍然存在，请在报告问题时将这些信息发送给我：
+如果问题仍然存在, 请在报告问题时将这些信息发送给我：
 
-* Exactly what you did to trigger the problem
-* Server version, use `/version`command and send me the exact text it shows (use it in console to copy and paste)
-* Plugin version
-* Tell me if you edited the .yml files of ItemsAdder
-* Tell me if you edited the resourcepack
-* Zip ItemsAdder .yml files and send me them
-* Specify if the plugin shows error in console or in chat
-* Complete log of your server (not just a small portion of the error you see of **ItemsAdder** or I can't identify the issue)
-* IP of your server
-* `/op LoneDev` (or give me creative, `/pl` command, all ItemsAdder permissions and Essentials permissions for`/tp`, `/i`and other useful commands to test things out)
+* 您是如何触发这个问题的?
+* 服务端版本, 使用 `/version` 命令并将它输出的文本发送给我 (在控制台中对其进行复制和粘贴)
+* 插件版本
+* 告诉我您是否编辑了 ItemsAdder 的 .yml 文件
+* 告诉我您是否编辑了 resourcepack（资源包）
+* 将 ItemsAdder 的 .yml 文件压缩并发送给我
+* 插件在控制台或聊天栏中是否弹出详细报错
+* 完整的服务器日志 (不仅仅是您看到 **ItemsAdder** 报错的那一部分)
+* 您的服务器 IP 地址
+* `/op LoneDev` (或给我创造模式, `/pl` 命令, 所有 ItemsAdder 的命令权限和能让我使用 `/tp`, `/i` 的基础插件命令, 以及其他有用的命令来测试)
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues" %}
 
