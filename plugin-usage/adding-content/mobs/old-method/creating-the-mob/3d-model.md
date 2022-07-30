@@ -2,33 +2,34 @@
 
 ## Creating the animated model (idle animation)
 
-To create the models I use [BlockBench](https://blockbench.net/), it's very easy to use and fast.\
-BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench+tutorial)are available on YouTube.
+我将使用 [BlockBench](https://blockbench.net/) 创建一个模型, 这个工具简单易用也很高效.\
+BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench+tutorial)可以在 YouTube 上找到.
+（国内一般上不去, 要么科学上网, 要么看 Bilibili）
 
 {% hint style="danger" %}
-You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
+您必须确保创建的模型为 Java Block/Item 模型, 而非 Bedrock（基岩版） 模型 或 Entity（实体） 模型!
 
 ![](<../../../../../.gitbook/assets/immagine (89) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 {% endhint %}
 
-### Creating a very simple idle animation
+### 创建一个非常简单的待机动画
 
-For example I created this model, it's made of some cubes as you can see.
+如下所示, 我创建了一个由许多立方体组成的模型.
 
 ![](<../../../../../.gitbook/assets/immagine (52).png>)
 
-Now we want to animate it!\
-For example I want to make it float up and down.
+现在我想给它设置一个动画!\
+例如, 我想让它有上下浮动的效果.
 
-**1.Save** the **current model** in a temporary folder (anywhere on your PC)
+**1.保存当前模型** 在临时文件夹中 (您电脑的任意位置)
 
 ![](<../../../../../.gitbook/assets/immagine (53).png>)
 
 ![](<../../../../../.gitbook/assets/immagine (56).png>)
 
-Ok I saved it as **1.json** inside the **idle** folder. This is the first frame of the **animation**.
+很好, 我将其命名为 **1.json** 并保存在 **idle** 文件夹下. 它将是 **动画** 的第一帧.
 
-**2.**Return to **BlockBench** and select all pressing **CTRL+A**
+**2.**返回 **BlockBench** 并按下组合键 **CTRL+A** 全选
 
 ![](<../../../../../.gitbook/assets/immagine (57).png>)
 

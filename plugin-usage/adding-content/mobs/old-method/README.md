@@ -1,4 +1,4 @@
-# 旧方法
+# 旧版方法
 
-This is the old method to create entities.\
-It still works but this method has some limitations, that's why I implemented a new way to create custom mobs/entities.
+这是创建自定义实体的旧版方法.\
+这仍然有效, 但具有一定的局限性. 这就是为什么我实现了一种新的方法来创建自定义实体/政务.

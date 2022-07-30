@@ -1,6 +1,6 @@
-# Using MythicMobs
+# 使用 MythicMobs
 
-## How to make MythicMobs handle my custom mob
+## 如何让 MythicMobs 处理我的自定义实体
 
 If you want to make **MythicMobs** handle your custom mob to have more advanced features and control it's really easy!
 

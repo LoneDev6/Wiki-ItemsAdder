@@ -1,14 +1,14 @@
 ---
-description: How to create configuration and 3D models for your mob
+description: 如何为您的实体创建配置和 3D 模型
 ---
 
-# Creating the mob
+# 创建一个实体
 
 {% page-ref page="configuration.md" %}
 
 {% page-ref page="3d-model.md" %}
 
-## Final result
+## 最终效果
 
 ```yaml
 info:

@@ -1,20 +1,20 @@
-# Spawning custom mobs naturally
+# 自然生成自定义实体
 
-## Methods
+## 创建方法
 
-ItemsAdder offers two ways of creating custom mobs:
+ItemsAdder 提供了两种创建自定义实体的方法:
 
-### ItemsAdder interal
+### ItemsAdder 内部
 
-This is the easiest and fastest way to create your custom mobs and see them around the world.  
-You don't need to install MythicMobs.
+这是您创建自定义实体并在世界范围内查看它们的最简单、快速的方法.  
+您不需要安装 MythicMobs 就可以使用.
 
 {% page-ref page="itemsadder-internal.md" %}
 
-### Using MythicMobs
+### 使用 MythicMobs
 
-This is a bit harder and not for beginners. You need to install [MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/).  
-This will allow you to use all the extended features of MythicMobs and apply a custom model to your custom mob.
+不建议初学者使用该方法. 您需要安装 [MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/).  
+这允许您使用 MythicMobs 的所有扩展功能，并将自定义模型应用于自定义实体.
 
 {% page-ref page="using-mythicmobs.md" %}
 
