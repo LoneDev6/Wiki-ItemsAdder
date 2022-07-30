@@ -12,4 +12,4 @@ resource:
   model_path: item/your_model
 ```
 
-![半透明的药水瓶](../.gitbook/assets/image (11).png)
+![半透明的药水瓶](../.gitbook/assets/btm.png)

@@ -12,5 +12,5 @@ resource:
   model_path: item/your_model
 ```
 
-![半透明的药水瓶](../.gitbook/assets/image%20%283%29.png)
+![半透明的药水瓶](../.gitbook/assets/btm.png)
 
