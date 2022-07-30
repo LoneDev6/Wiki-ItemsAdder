@@ -1,10 +1,10 @@
 # 使用 MythicMobs
 
-## 如何让 MythicMobs 处理我的自定义实体
+## 如何让 MythicMobs 处理自定义怪物
 
-If you want to make **MythicMobs** handle your custom mob to have more advanced features and control it's really easy!
+如果您想让 **MythicMobs** 处理您的自定义怪物, 使其拥有更高级的功能和控制效果, 那就请跟着下面走!
 
-For example I have this MythicMobs configuration:
+如下所示, 我有一个 MythicMobs 配置:
 
 ```yaml
 StaticallyChargedSheep:
@@ -22,7 +22,7 @@ StaticallyChargedSheep:
 ```
 
 \
-Open your **ItemsAdder** `.yml` file where you created the mob and to edit the **replace rule** like this:
+接着, 打开您的 **ItemsAdder** 创建自定义怪物的 `.yml` 文件, 并编辑 **replace rule（替换规则）** 如下所示:
 
 ```yaml
         replace_mobs_spawn:
@@ -34,21 +34,21 @@ Open your **ItemsAdder** `.yml` file where you created the mob and to edit the *
 ```
 
 {% hint style="warning" %}
-It's important to set **replace\_mythicmob** `name` property to your **mythicmob name**.
+最重要的一点, 将 **replace\_mythicmob** 的 `name` 选项的值填写为 **您的 MythicMobs 怪物名称**.
 {% endhint %}
 
-### Random chance
+### 随机概率
 
-If you want to create custom spawn logic for your custom mob you must not use **ItemsAdder** rules, use **Mythicmobs** configuration: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
+如果您想为自定义怪物创建自定义的生成逻辑, 那就不能使用 **ItemsAdder** 的规则, 请使用 **Mythicmobs** 配置: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
 
 {% hint style="warning" %}
 ### Warning:
 
-**ItemsAdder** eggs and /iasummon command **won't work** for Mythicmobs custom mobs, you have to spawn them using **Mythicmobs command** if you want to spawn them manually.\
+**ItemsAdder** 的怪物蛋和 /iasummon 命令对 Mythicmobs 的自定义实体 **无效**, 必须使用 **Mythicmobs 命令** 来生成他们.\
 `/mythicmobs mobs spawn StaticallyChargedSheep`
 {% endhint %}
 
-## Complete example
+## 完整配置
 
 ### ItemsAdder configuration mobs.yml
 
