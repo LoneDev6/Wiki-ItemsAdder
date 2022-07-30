@@ -6,12 +6,12 @@
 
 ## 如何创建您的第一个动态 HUD (type FRAMES)
 
-动态 HUD 的原理就是为每个值创建对应的贴图，
+动态 HUD 的原理就是为每个值创建对应的贴图.\
 （通过将每个值作为一个序列帧，将其组合便成为动态HUD）
 
 ### 创建配置文件
 
-第一步, 请在您的对应 [namespace（命名空间）](../../basic-concepts/namespace/) 文件夹中创建配置文件.
+第一步, 请在您的对应 [namespace（命名空间）](../../basic-concepts/namespace/) 文件夹中创建配置文件.\
 如下所示, 我创建了一个 `hud.yml` 文件.
 
 {% code title="hud.yml" %}
@@ -60,7 +60,7 @@ huds:
 
 ### 创建图像
 
-创建一个新的 `.yml` 文件并在其中添加此代码. 
+创建一个新的 `.yml` 文件并在其中添加此代码.\
 它用于让 ItemsAdder 知道您的 HUD 图像位置, 以及如何在屏幕上显示.
 
 如下所示, 它们的图像名称与先前在 `hud.yml` 文件中设置的材质名称相同.
@@ -99,7 +99,7 @@ font_images:
 
 现在，您需要为上一个文件中指定的每个图像配置创建一个图形文件.
 
-在此路径中创建它们 (如配置中所示) `ItemsAdder\data\resource_pack\assets\myitems\textures\example_hud\`
+在此路径中创建它们 (如上方配置中所示) `ItemsAdder\data\resource_pack\assets\myitems\textures\example_hud\`
 
 ![](<../../../../.gitbook/assets/image (50) (1) (1) (1) (1).png>)
 
@@ -107,12 +107,12 @@ font_images:
 
 ### 查看 HUD 是否正常运行
 
-想查看 HUD 的作情况, 只需要使用命令 `/iazip` (如需要, 请遵循 [资源包托管](../../../resourcepack-hosting/) 的内容) 
+想查看 HUD 的作情况, 只需要使用命令 `/iazip` (如需要, 请遵循 [资源包托管](../../../resourcepack-hosting/) 的内容).\
 即可在游戏内查看新的 HUD.
 
 ![](<../../../../.gitbook/assets/image (47) (1) (1).png>)
 
-现在, 尝试输入命令 (请将 `LoneDev` 更改为您的玩家名) 来改变 HUD 的数值:
+现在, 尝试输入命令 (请将 `LoneDev` 更改为您的玩家名) 来改变 HUD 的数值:\
  `/iaplayerstat write LoneDev example_stat float 2`
 
 ![](<../../../../.gitbook/assets/image (40) (1).png>)
