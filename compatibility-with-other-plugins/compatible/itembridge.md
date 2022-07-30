@@ -1,6 +1,6 @@
 # ItemBridge
 
-## [下载]](https://www.spigotmc.org/resources/77080/)
+## [下载](https://www.spigotmc.org/resources/77080/)
 
 {% hint style="warning" %}
 版本需求：

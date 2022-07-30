@@ -20,5 +20,5 @@ permission: myitem
 {% endhint %}
 
 {% hint style="warning" %}
-记得在 `/ia` 界面中创建一个 [目录](../../../ia.md).
+记得在 `/ia` 界面中创建一个 [分类](../../../ia.md).
 {% endhint %}

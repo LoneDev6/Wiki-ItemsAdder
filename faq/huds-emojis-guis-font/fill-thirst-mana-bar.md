@@ -1,6 +1,6 @@
 # 口渴值/法力值
 
-## Fill them
+## 恢复数值
 
 恢复口渴值 `/iaplayerstat write LoneDev thirst float 10`
 

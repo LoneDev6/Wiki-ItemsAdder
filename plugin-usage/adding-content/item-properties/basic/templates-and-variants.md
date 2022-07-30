@@ -5,11 +5,11 @@
 物品模板作为一种不会在游戏内显示的特殊物品, 它会为其他的物品添加相同的配置.  
 这允许您在物品模板中写入公共配置, 并将其自动添加到其他物品中, 而无需频繁地复制和粘贴.
 
-要创建一个模板，您必须在物品中添加 `template: true`.
+要创建一个模板，你必须在物品中添加 `template: true` 属性.
 
 {% hint style="warning" %}
 这是一个正在测试的实验性功能，如果有问题，请立即和作者反馈.  
-您可以在这里看到一个示例用法 [点击打开](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
+你可以在这里看到一个示例用法 [点击打开](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
 {% endhint %}
 
 ## 什么是 variants（子级物品）?

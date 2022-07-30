@@ -3,7 +3,7 @@
 {% hint style="danger" %}
 ### 命名空间
 
-如果你不知道该如何创建命名空间 [请阅读该页面]](../basic-concepts/namespace/creating-your-namespace.md).
+如果你不知道该如何创建命名空间 [请阅读该页面](../basic-concepts/namespace/creating-your-namespace.md).
 {% endhint %}
 
 {% hint style="danger" %}
@@ -18,7 +18,7 @@
 ### 创建自定义剑的文件
 
 {% hint style="warning" %}
-该配置为示例（记得将 `myitems` [namespace ](../basic-concepts/namespace/)更改为你想的名称）
+该配置为示例（记得将 `myitems` [命名空间 ](../basic-concepts/namespace/)更改为你想的名称
 {% endhint %}
 
 例如，我创建了一个 **文件** ，该文件将包含我所有新增的 **自定义剑**：
