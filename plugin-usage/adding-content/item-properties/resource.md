@@ -25,13 +25,12 @@
 
 ### 我应该将材质放在哪里？
 
-Textures you listed in the `textures` attribute must be placed in the right folder.  
-So if you set `textures` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `example_item.png` ****file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
-
-If the path doesn't exists create all the folders needed.
+在 `texture` 中设置的纹理材质必须放在正确的路径下,
+例如：你像示例中一样设置 `textures` 且 **命名空间** （将命名空间换为你自定的名称）为 `myitems`，则你需要将 `example_item.png` 放至该路径下 `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
+如果路径不存在，则创建所需的文件夹
 
 {% hint style="info" %}
-You can avoid setting `.png` in the `textures` attribute, IA will recognize the file automatically
+你可以忽略 `textures` 属性下 贴图文件的 `.png` 后缀,IA将会自动识别文件
 {% endhint %}
 
 ## 使用自定义模型
@@ -49,12 +48,11 @@ You can avoid setting `.png` in the `textures` attribute, IA will recognize the 
 
 ### 我应该将模型放在哪？
 
-Model you set in the `model_path`attribute must be placed in the right folder.  
-So if you set `model_path` like in the example and your **namespace** \(is for example\) `myitems` you will have to put `floating_sword.json` ****file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
+在 `model_path` 中设置的模型必须放在正确的路径下,
+例如：你像示例中一样设置 `model_path` 且 **命名空间**（将命名空间换为你自定的名称） 为 `myitems` ，则你需要将 `floating_sword.json` 放至该路径下 `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
+如果路径不存在，则创建所需的文件夹
 
-If the path doesn't exists create all the folders needed.
-
-## 透明材质  \(类似玻璃之类的物品\)
+## 半透明材质  \(类似玻璃之类的物品\)
 
 {% page-ref page="../../../faq/can-i-create-slabs-stairs/transparent-textures.md" %}
 
