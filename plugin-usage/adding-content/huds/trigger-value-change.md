@@ -146,8 +146,8 @@ huds:
 （触发器的数值都可以自定义为你想要的数值）.\
 * `generic_over_time` 当玩家处于环境光照为 0-13 的环境中（说明玩家处于结构建筑内）每 30000 ticks，玩家的HUD数值增加0.5
 * `biome_over_time` 当玩家处于环境光照为 14-15 的环境中（说明玩家处于野外，并且会检查生物群系是否为 `DESERT（沙漠）`.），每 30000 ticks，玩家的HUD数值增加 0.5
-* `food_level_change` 当玩家恢复饥饿值时为其减少 10 的 HUD 数值（玩家使用食物之后）
-* `player_respawn` 当玩家死亡后重生时为其增加 10 HUD 数值（这样子有助于玩家重生之后将口渴值恢复至满）
+* `food_level_change` 当玩家恢复饥饿值时为其减少 10 的 HUD 数值（玩家食用食物之后）
+* `player_respawn` 当玩家死亡后重生时为其增加 10 HUD 数值（这样子有助于玩家重生之后将口渴值恢复至满值）
 
 ### `on_min_value` 触发器
 
@@ -166,5 +166,5 @@ huds:
         duration: 100
 ```
 
-* `damage_player` 每 100 ticks（游戏刻）对玩家造成 0.5 点伤害 .
-* `potion_effect` 每 100 ticks（游戏刻）给予玩家持续 100 ticks 的缓慢 1 效果(在这种情况下, 意味着直到玩家的 HUD 值以某种方式增加之前, 将获得无限缓慢效果).
+* `damage_player` 每 100 ticks 对玩家造成 0.5 点伤害.
+* `potion_effect` 每 100 ticks 给予玩家持续 100 ticks 的缓慢 I 的效果(如上所示, 意味着直到玩家的 HUD 值以某种方式增加之前, 将获得无限缓慢效果).
