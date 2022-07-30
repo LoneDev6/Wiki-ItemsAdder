@@ -3,7 +3,7 @@
 
 
 {% hint style="danger" %}
-**建议重新创建一个世界，并且不要使用旧的世界来进行转换.转换器仍是测试阶段**
+**建议重新创建一个世界，并且不要使用旧的世界来进行转换. 转换器仍是测试阶段**
 {% endhint %}
 
 {% hint style="warning" %}
@@ -14,14 +14,16 @@
 
 ### 版本对比
 
-ItemsAdder v2 是对 ItemsAdder 旧版本的全新编译 优化了配置以及资源包文件的路径/属性/格式 功能更多，更加优化，更易于服主编辑维护
+ItemsAdder v2 是对 ItemsAdder 旧版本的全新编译 优化了配置以及资源包文件的路径/属性/格式
+功能更多，优化更强，更易于服主的编辑和维护
 
 ### 如何将旧的配置文件和资源包转换为新格式？
 
 您必须遵循本教程步骤(｀・ω・´)
 
 {% hint style="warning" %}
-请务必仔细按照教程进行操作, 不要着急(〃´-ω･) ，否则您可能会犯错误并使用更长的时间来进行转换.
+请务必仔细按照教程进行操作, 不要着急(〃´-ω･)
+否则您可能会犯错误并使用更长的时间来进行转换.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -56,16 +58,17 @@ ItemsAdder v2 是对 ItemsAdder 旧版本的全新编译 优化了配置以及�
 ## 步骤 4 - 准备 ItemsAdder 2.0
 
 {% hint style="info" %}
-**如果你不想使用插件预置的自定义项目，想从零开始，可进行以下操作: **
+** 如果你不想使用插件预置的自定义项目，想从零开始，可进行以下操作: **
 
-打开 **ItemsAdder** 文件夹中的 `config.yml` \（由 **ItemsAdder 2.0** 生成的) 并将这些属性设置为 false
+打开 **ItemsAdder** 文件夹中的 `config.yml` \（由 **ItemsAdder 2.0** 生成的) 
+并将这些属性设置为 false
 
 ```
 extract-default-items: false
 extract-default-resources: false
 ```
-然后删除 ItemsAdder\data\items_packs\... 里面的所有文件夹 `**保留**` minecraft 文件夹.
-并删除 ItemsAdder\data\resource_pack\assets\... 里面的所有文件夹 `**保留**` minecraft 文件夹.
+然后删除 ItemsAdder\data\items_packs\... 里的所有文件夹，`保留` minecraft 文件夹.
+并删除 ItemsAdder\data\resource_pack\assets\... 里的文件夹，`保留` minecraft 文件夹.
 
 你还需要从 `ia_gui.yml` 删除预置内容的分类
 {% endhint %}
@@ -96,17 +99,17 @@ ItemsAdder 转换时将自动跳过预置的自定义项目，因此它会创建
 ## 安装 ItemsAdder v2
 
 {% hint style="danger" %}
-* **关闭 ** 服务器
+* 确保已经 **关闭** 你的服务器
 * 确保你已经 **删除旧版 ItemsAdder.jar**
-* 如果已存在旧版itemadder文件夹 请将其 **重命名** 并放入 **ItemsAdder_backup ** 文件夹 或者 **删除 ** 已存在的备份
-* **下载 **ItemsAdder 2.0 并放入插件目录
-* **开启 **服务器
+* 如果已存在旧版itemadder文件夹 请将其 **重命名** 并放入 **ItemsAdder_backup** 文件夹 或者 **删除** 已存在的备份
+* **下载** ItemsAdder 2.0 并放入插件目录
+* **启动** 你的服务器
 * 等待 ItemsAdder 2.0 完成其文件的创建
-* 如果出现任何错误，请阅读本篇文章并检查是否有步骤出错 (缺少前置, 错误的版本....) 并重复正确步骤
+* 如果出现任何错误，请阅读本篇文章并检查是否有步骤出错 (缺少前置, 错误的版本...) 并尝试重复正确的步骤
 * (忽略关于资源包 URL 的错误，过后咱们会配置它( • ̀ω•́ )✧)
 * 打开刚刚生成的 **ItemsAdder_converted** 文件夹
 * 复制 `items_packs`以及 `resource_pack`两个文件夹到新的 `ItemsAdder` 文件夹 (如果有弹窗请选择直接覆盖)
-* **重启 **服务器
+* **重新启动** 你的服务器
 {% endhint %}
 
 ## 最后一步
