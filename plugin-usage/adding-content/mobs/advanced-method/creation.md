@@ -46,26 +46,26 @@
 
 ![](<../../../../.gitbook/assets/image (94) (1).png>)
 
-Select "**ItemsAdder Entity Model**" in the **Format** setting, then press **Confirm**.\
-Now save the new converted model file in a new folder where you will put only this file.
+在 **Format** 设置中选择 "**ItemsAdder Entity Model**", 然后点击 **Confirm**.\
+现在, 将新转换的模型文件保存在一个 **您仅在其中放置此文件** 的文件夹中.
 
-You will have something like that
+如图所示, 您会得到这样一个东西:
 
 ![](<../../../../.gitbook/assets/image (60) (1) (1) (1).png>)
 
-### Configuring the model
+### 配置模型
 
-Now you can configure your model based on your preferences. The ItemsAdder extension automatically decided some settings for you but you might need to change them.\
-Click on the **ItemsAdder** tab and press **Settings**.
+现在, 您可以根据自己的偏好来配置模型. ItemsAdder 扩展自动为您决定了一些设置. 但您可能需要更改它们.\
+点击工具栏的 **ItemsAdder** 图标, 然后点击 **Settings**.
 
 ![](<../../../../.gitbook/assets/image (57).png>)
 
-Here you have to decide a namespace for your custom entities.\
-The default one is `custom`, but you should decide your own, for example `my_entities`, `hell_mobs`, `npcs`...
+在这里, 您需要为自定义实体设定一个 namespace.\
+默认值是 `custom`, 但具体应该由您自行决定, 例如: `my_entities`, `hell_mobs`, `npcs`...
 
 ![](<../../../../.gitbook/assets/image (99) (1) (1).png>)
 
-The other thing you might need to change is the "**Model Scaling Mode**":
+此外, 可能需要您更改的另一项设置是: "**Model Scaling Mode**":
 
 * Max Model size provides 7x7x7 block wide models but limits scaling to shrinking only.
 * Max Scaling range provides shrinking and growing up to 3.125x in size, but limits the maximum model size to 3x3x3 blocks
@@ -74,27 +74,28 @@ Change "**Max Model Size**"  only if you have animated the size of some bones.
 
 ![](<../../../../.gitbook/assets/image (66).png>)
 
-### Export the model
+### 导出模型
 
-Click on the **ItemsAdder** tab and press **Export**.
+点击工具栏的 **ItemsAdder** 图标, 然后点击 **Export**.
 
 ![](<../../../../.gitbook/assets/image (56).png>)
 
-You should get a success message.
+您应该会收到一条成功导出的消息提示.
 
 ![](<../../../../.gitbook/assets/image (81) (1).png>)
 
-Now open the folder where you have your model and copy/cut the new generated folder `assets`.
+现在打开模型所在的文件夹, 并复制/剪切新生成的文件夹 `assets`.
 
 ![](<../../../../.gitbook/assets/image (83).png>)
 
-Paste the `assets` folder inside the ItemsAdder folder `plugins/ItemsAdder/data/resource_pack/`.&#x20;
+将其粘贴在 ItemsAdder 所在路径 `plugins/ItemsAdder/data/resource_pack/` 下的 `assets` 文件夹 .&#x20;
 
-### Creating the ingame entity configuration
+### 创建游戏内实体配置
 
-Now create a new folder inside `plugins/ItemsAdder/data/items_packs/`, it's your namespace folder. For example mine is `custom,` so the path is `plugins/ItemsAdder/data/items_packs/custom/`.
+现在, 请在路径 `plugins/ItemsAdder/data/items_packs/` 中创建一个新文件夹, 他应该是您的 namespace 文件夹. 
+例如, 我的 namespace 名称为 `custom,` 则对应的路径应该是 `plugins/ItemsAdder/data/items_packs/custom/`.
 
-Create a new `.yml` configuration file and call it as you prefer, in this example I use one file per-entity, to keep things organized.
+创建一个以 `.yml` 为后缀名的文件, 并根据需求调用它, 在本例子中, 我将为每个实体单独创建文件, to keep things organized.
 
 ![](<../../../../.gitbook/assets/image (72).png>)
 
@@ -117,15 +118,15 @@ entities:
 ```
 {% endcode %}
 
-In this example my custom entity will use a ZOMBIE as base entity for its AI.\
-You can use any living entity as base entity, depending on your needs.
+在本例子中，我的自定义实体将使用 **僵尸** 作为其 AI 的基本实体.\
+根据您的需求, 您可以使用任何（有生命的）实体作为其基本实体.
 
-### Summoning the entity
+### 召唤实体
 
-Use the summon command: `/iaentity summon <entity>`
+请使用命令: `/iaentity summon <实体名>`
 
 ## Notes
 
 {% hint style="info" %}
-Do not create too many bones, keep the model simple, remember this is a blocky pixelated game, use [its style](../../../minecraft-style-guide.md).
+请保持模型尽量简单, 不要创建太多的骨骼. 不要忘记这是一个像素游戏! 详情可参阅 [Minecraft Style](../../../minecraft-style-guide.md).
 {% endhint %}

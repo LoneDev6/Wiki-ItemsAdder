@@ -1,12 +1,12 @@
-# Hands equipment
+# 手持装备
 
-## Show custom entity hands equipment
+## 显示自定义实体的手持装备
 
 {% embed url="https://youtu.be/LL0c9U4q6gA" %}
 
-## How to configure hands locations
+## 如何配置手部的位置
 
-Open your `.iaentitymodel` model file with **Blockbench**.
+使用 **Blockbench** 打开您的 `.iaentitymodel` 模型文件.
 
 Select the base bone of the entity hands.
 
@@ -30,7 +30,7 @@ The hand pivot bone has a new icon now, as you can see.
 
 ![](<../../../../.gitbook/assets/image (96) (1) (1).png>)
 
-Follow the same steps to specify the the right hand, then you have to export the model as usual.
+按照相同的步骤设定右手骨骼, 然后向往常一样导出您的模型.
 
 {% content-ref url="creation.md" %}
 [creation.md](creation.md)
