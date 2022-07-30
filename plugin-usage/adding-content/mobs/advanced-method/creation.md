@@ -1,46 +1,46 @@
 # Creation
 
-## How to import the custom entity model and animations
+## 如何导入自定义实体模型和动画
 
-You can import your custom models very easily, you just have to install the Blockbench extension.
+只需安装 Blockbench 扩展, 您就可以非常轻松地导入自定义模型.
 
-## Installing the Blockbench extension
+## 安装 Blockbench 扩展
 
 {% hint style="warning" %}
-### Before continuing:
+### 在此之前:
 
-* Make sure you're running **Blockbench 4.1.5** or **greater**
-* Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
+* 确保您正在运行的是 **Blockbench 4.1.5** 或 **更高版本**
+* 确保您正在运行的是 ItemsAdder 和 ItemsAdder Blockbench 扩展的最新版本
 {% endhint %}
 
-[Download Blockbench](https://www.blockbench.net/) (don't use the web app).
+[下载 Blockbench](https://www.blockbench.net/) (不要使用 Web 应用).
 
 ![](<../../../../.gitbook/assets/image (98) (1).png>)
 
 \
-[Download the zip](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
+[下载压缩包](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
 
 ![](<../../../../.gitbook/assets/image (61).png>)
 
-Extract it somewhere, then open **Blockbench** and click on File -> Plugins.
+将其解压到某个位置, 然后打开 **Blockbench** 应用并依次点击 File -> Plugins.
 
 ![](<../../../../.gitbook/assets/image (48) (1) (1).png>)
 
-Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
+点击 `load plugins from file` 图标, 然后选择文件 `iaentitymodel.js`.
 
 ![](<../../../../.gitbook/assets/image (74) (1) (1).png>)
 
-Press OK
+点击 OK 选项
 
 ![](<../../../../.gitbook/assets/image (71).png>)
 
-## Converting the model
+## 转换模型
 
 {% hint style="danger" %}
-Remember to make a <mark style="color:red;">**backup**</mark> of your `.bbmodel` file before using this tool!
+在使用该工具转换之前请记得 <mark style="color:red;">**备份**</mark> 您的 `.bbmodel` 模型文件!
 {% endhint %}
 
-Open your `.bbmodel` project with Blockbench, then click on File -> Convert Project
+在 Blockbench 中打开您的 `.bbmodel` 模型项目, 然后依次点击 File -> Convert Project
 
 ![](<../../../../.gitbook/assets/image (54).png>)
 

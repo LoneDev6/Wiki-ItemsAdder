@@ -1,47 +1,47 @@
 ---
-描述: New advanced method to create custom mobs/entities.
+description: 创建 自定义怪物/实体 的新进阶方法.
 ---
 
-# Advanced method
+# 进阶方法
 
 {% hint style="warning" %}
-This method is in beta and it's available only on ItemsAdder v3.0+
+该方法目前处于 beta 版, 仅在 ItemsAdder v3.0+ 版本可使用.
 {% endhint %}
 
 {% hint style="warning" %}
-Do not abuse the spawning of these mobs.\
-The plugin is very optimized but it can cause lag if you are crazy enough to spawn 600+ entities in front of a player.
+不要滥用怪物生成.\
+纵使 ItemsAdder 有非常好的优化, 但您如果疯狂到在玩家面前生成 600+ 实体, 依旧会造成很严重的滞后.
 {% endhint %}
 
 ![](../../../../.gitbook/assets/ezgif.com-gif-maker.webp)
 
 {% embed url="https://youtu.be/cQpIqExVpR0" %}
-Advanced animation features
+进阶动画功能
 {% endembed %}
 
-### Main features
+### 主要特点
 
-* [Blockbench](https://www.blockbench.net/) extension to convert models
-* Completely Async, no TPS drops
-* Optimized for big servers
+* [Blockbench](https://www.blockbench.net/) 转换模型的扩展
+* 完全异步执行, 不会出现 TPS 下降
+* 针对大型服务器进行优化
 * Damage animation
-* Fire animation when entity is on fire
+* 实体着火时的火焰动画
 * Animate size of bones
-* Animate rotation of bones without angles limitations
+* 设置不受角度限制的骨骼旋转动画
 * Multiple mount seats
-* Play sounds and particles in animations
-* Show entity hands equipment
-* Custom hitbox
-* MythicMobs compatibility
-* Citizens compatibility
+* 在动画中播放声音和粒子特效
+* 显示实体手持设备
+* 可自定义的碰撞箱
+* MythicMobs 兼容
+* Citizens 兼容
 
 ### Limitations
 
-* Head bone rotation works only if the mob head is not too far from the center of the body
-* Pressing SHIFT on flying mobs to move down works only on 1.15, 1.17 and 1.18 clients as 1.16 clients have this bug: [https://bugs.mojang.com/browse/MC-202202](https://bugs.mojang.com/browse/MC-202202) .\
+* 只有当怪物的头部离其身体的中心在一定距离内, 头骨旋转才会生效.
+* 在飞行生物上按下 SHIFT 使其向下降落的功能只在 1.15 / 1.17 / 1.18 的客户端生效，, 因为 1.16 客户端存在 BUG: [https://bugs.mojang.com/browse/MC-202202](https://bugs.mojang.com/browse/MC-202202) .\
   1.16 clients will see players flying if they press SHIFT while on a flying entity while they should still be riding the entity.
-* This plugin uses multiple entities to create the animation. \
-  Network delay can cause slight animation glitches. \
-  It can cause a little lag on servers if you spawn too many entities around players and if your models have too many bones.\
-  (NOTE: this plugin is highly optimized so you won't get lag if your server is not a potato)
-* Hitbox of Citizens NPCs can't be changed for now, it's a Citizens limitation &#x20;
+* 该插件会使用多个实体来创建动画. \
+  网络延迟可能会带来一些轻微的动画问题. \
+  如果您在玩家周围创建过多的实体, 且您的实体模型有很多骨骼, 则有可能会对服务器带来一些滞后.\
+  (NOTE: 插件经过高度优化, 只要您的服务器不是 **土豆** 就不会出现延迟)
+* 无法修改 Citizens NPCs 的碰撞箱大小, 这是 Citizens 插件本身的限制 &#x20;
