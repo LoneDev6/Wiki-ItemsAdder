@@ -1,26 +1,26 @@
-# Mount
+# 坐骑
 
-## Drive entities
+## 驾驭实体
 
 {% embed url="https://youtu.be/LAQkrqSqKfM" %}
 
-## Setting the mount locations
+## 设置骑乘的位置
 
-Open your `.iaentitymodel` model file with **Blockbench**.
+使用 **Blockbench** 打开 `.iaentitymodel` 模型文件.
 
-Create a new bone.
+创建一个新的骨骼.
 
 ![](<../../../../.gitbook/assets/image (75) (1) (1) (1).png>)
 
-Rightclick on the bone and select "**Bone Config**"
+右键点击骨骼选项, 然后点击 "**Bone Config（骨骼配置）**"
 
 ![](<../../../../.gitbook/assets/image (77) (1).png>)
 
-Check the "**Mount**" option and press "**Confirm**".
+确认启用 "**Mount**" 选项后, 点击 "**Confirm（确认）**".
 
 ![](<../../../../.gitbook/assets/image (73) (1).png>)
 
-Do this for each sit you want to create.
+对您想要创建的每个骑乘座位重复以上的操作, 如下图所示.
 
 ![](<../../../../.gitbook/assets/image (82) (1).png>)
 
@@ -30,16 +30,16 @@ Do this for each sit you want to create.
 
 ![](<../../../../.gitbook/assets/image (40).png>)
 
-Now you have to export the model as usual.
+现在, 您可以像往常一样导出您的模型了.
 
 {% content-ref url="creation.md" %}
 [creation.md](creation.md)
 {% endcontent-ref %}
 
-## How to mount
+## 如何骑乘
 
-Just rightclick the entity and drive it.
+只需要右键点击实体并骑乘它即可.
 
 {% hint style="warning" %}
-Only the first player who sits on the vehicle can drive it.
+只有第一个骑乘在实体上的玩家才能驾驭实体.
 {% endhint %}
