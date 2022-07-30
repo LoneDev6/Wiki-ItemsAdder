@@ -1,12 +1,11 @@
 ---
 描述: >-
-  How to use triggers to automatically increase/decrease HUD value during
-  gameplay.
+ 如何在游戏过程中使用触发器自动增加/减少 HUD 的数值
 ---
 
 # 更改触发值
 
-## 让 HUDs 的值动态化
+## 使 HUDs 的值动态化
 
 通过 ItemsAdder, 您可以轻松地在游戏过程中自动更改 HUD 的值, 例如: 您可以让 HUD 的值逐渐减小.
 
@@ -17,7 +16,7 @@
 口渴值会根据一些因素而自动减少: 生物群系, 您在家中还是在野外探险, 通常在游戏过程中没有任何特定因素.
 
 {% hint style="info" %}
-我知道目前的 HUDs 系统缺少一些功能, 可能会显得很混乱, 未来我会对它进行改进, 让它变得更加完善.
+我知道目前的 HUDs 系统缺少一些功能, 可能会显得很混乱, 未来我会对其进行改进, 让其变得更加完善.
 
 如果你想对HUD进行更多的操作, 你可以使用 [Java API](../../../developers/java-api/).
 {% endhint %}
@@ -84,21 +83,21 @@ huds:
 
 ```
 
-## The triggers
+## 触发器
 
 在 ItemsAdder 中, 您可以使用触发器来决定如何更改 HUD 的值, 目前有两个触发器: `decrement`, `increment` 和 `on_min_value`.
 
-其中, `decrement` 触发器会减少使 HUD 的值, `increment` 触发器会增加 HUD 的值.
+其中, `decrement` 触发器会减少 HUD 的值, `increment` 触发器会增加 HUD 的值.
 
-`on_min_value` 是一个特殊的触发器, 当 HUD 的值达到其最小值时, 该触发器会运行.
+`on_min_value` 是一个特殊的触发器, 当 HUD 的值达到其最小值时, 该触发器运行.
 
-Each trigger has a list of possible rules which tells the ItemsAdder if it can change the HUD value or not.
+每一个触发器都有特定的规则列表，来使告诉插件是否能够更改HUD的数值
 
-## The rules
+## 规则
 
-`triggers` have some specific rules and they are not available on each one of the triggers, so please refer to this list:
+`triggers` 有一些特定的规则，并且它们不适用于每个触发器，因此请参阅此列表：
 
-### `decrement` trigger
+### `decrement` 触发器
 
 ```yaml
       triggers:
@@ -117,12 +116,12 @@ Each trigger has a list of possible rules which tells the ItemsAdder if it can c
           food_level_change:
             amount: 0.1
 ```
+（触发器的数值都可以自定义为你想要的数值）.\
+* `generic_over_time` 当玩家处于天空光照为0-13的环境中（说明玩家处于结构建筑内）每 30000 时刻 玩家的HUD数值增加0.5
+* `biome_over_time` 当玩家处于天空光照为14-15的环境中（说明玩家处于野外，并且会检查生物群系是否为 `DESERT（沙漠）`.），每 30000 时刻 玩家的HUD数值增加0.5
+* `food_level_change` 当玩家饥饿值减少时 HUD 数值减少 0.1
 
-* `generic_over_time` makes the HUD value decrement of 0.5 each 30000 ticks if the sky light is between 0 and 13 (which means the player is inside a structure).
-* `biome_over_time` makes the HUD value decrement of 0.5 each 30000 ticks if the sky light is between 14 and 15 (which means the player is outside, in the wild) and also checks if the biome is `DESERT`.
-* `food_level_change` makes the HUD value decrement of 0.1 when the food level decreases (vanilla).
-
-### `increment` trigger
+### `increment` 触发器
 
 ```yaml
   triggers:
@@ -143,13 +142,13 @@ Each trigger has a list of possible rules which tells the ItemsAdder if it can c
       player_respawn:
         amount: 10
 ```
+（触发器的数值都可以自定义为你想要的数值）.\
+* `generic_over_time` 当玩家处于天空光照为0-13的环境中（说明玩家处于结构建筑内）每 30000 时刻 玩家的HUD数值增加0.5
+* `biome_over_time` 当玩家处于天空光照为14-15的环境中（说明玩家处于野外，并且会检查生物群系是否为 `DESERT（沙漠）`.），每 30000 时刻 玩家的HUD数值增加0.5
+* `food_level_change` 当玩家恢复饥饿值时为其减少 10 HUD数值（玩家使用食物之后）
+* `player_respawn` 当玩家死亡后重生时为其增加 10 HUD 数值（这样子有助于玩家重生之后将口渴值恢复至满）
 
-* `generic_over_time` makes the HUD value increment of 0.5 each 30000 ticks if the sky light is between 0 and 13 (which means the player is inside a structure).
-* `biome_over_time` makes the HUD value increment of 0.5 each 30000 ticks if the sky light is between 14 and 15 (which means the player is outside, in the wild) and also checks if the biome is `DESERT`.
-* `food_level_change` makes the HUD value decrement of 0.1 when the food level increases (vanilla, when the player eats something).
-* `player_respawn` makes the HUD value increase of 10 when the player respawns after death, in this case this is useful o make the player thirst increase to the max value on respawn.
-
-### `on_min_value` trigger
+### `on_min_value` 触发器
 
 这是一个特殊的触发器, 它不会改变 HUD 的值, 但会在 HUD 的值达到其设定的最小值时触发某些事情.
 

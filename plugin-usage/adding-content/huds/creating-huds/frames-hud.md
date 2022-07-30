@@ -6,7 +6,9 @@
 
 ## 如何创建您的第一个动态 HUD (type FRAMES)
 
-动态 HUD 允许您创建一个 **每个可能的数值都具有不同的材质纹理** 的 HUDs.
+
+动态 HUD 的原理就是为每个值创建对应的贴图，
+（通过将每个值作为一个序列帧，将其组合便成为动态HUD）
 
 ### 创建配置文件
 
@@ -42,18 +44,18 @@ huds:
 
 我创建了一个配置文件, 其中包含一些关于新 HUD 的设置.
 
-`type: FRAMES` 用于创建具有不同材质纹理的 HUD, 每个材质纹理对应一个数值.
+`type: FRAMES` 用于创建具有不同材质纹理的 HUD, 每个材质纹理对应一个值.
 
-`x_position_pixels: 120` is used to make the HUD positioned 120 pixels on the right (从屏幕中心开始偏移).
+`x_position_pixels: 120` 使 HUD 位于距离屏幕中心 120 像素处（偏移是以屏幕中心为起点）
 
-`value` 属性是决定 HUD 的上限值是多少, 在本例中是 0 到 5, 并且数值是从 0 开始的.
+`value` 属性是决定 HUD 的上限值是多少, 在本示例中是 0 到 5, 并且数值是从 0 开始的.
 
-`player_stat_name` is an attribute which attaches the HUD to a custom player attribute which will contain the HUD value between server restarts, it's a custom attribute not a vanilla attribute, name it as you wish.
+`player_stat_name` 将 HUD 应用至 自定义玩家数据
 
 `images frames` 是 [字符图像](../../font-images/) 的材质列表, HUD 的每个数值可对应一个材质.
 
 {% hint style="warning" %}
-重要提示: 请确保 HUD 的每个数值都有一个相对应的材质. 在本例中, 我的 HUD 的可能值范围在 0 到 5 之间, 所以我创建了 6 个图像, 以确保每个值都有一个对应图像.&#x20;
+重要提示: 请确保 HUD 的每个值都有一个相对应的材质. 在本例中, HUD 值的范围在 0 到 5 之间, 所以我创建了 6 个图像, 以确保每个值都有一个对应图像.&#x20;
 {% endhint %}
 
 ### 创建图像
