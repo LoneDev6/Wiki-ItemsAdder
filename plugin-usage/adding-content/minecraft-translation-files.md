@@ -22,7 +22,7 @@ minecraft_lang_overwrite:
       - ALL
 ```
 
-### languages
+### 语言文件
 
 
 `languages` 用于列出你想要覆盖的语言文件，你可以只设置玩家群体所在地区的语言，当然你也可以设置为 `ALL` 这样子可以确保覆盖所有的语言文件.
