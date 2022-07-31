@@ -19,7 +19,7 @@ items:
         tree_populator: orange_tree
 ```
 
-### 自定义树木填充器
+### 自定义树木生成器
 
 ```yaml
 trees_populators:
