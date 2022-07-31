@@ -15,7 +15,7 @@
 
 {% endhint %}
 
-## Examples
+## 示例
 
 {% tabs %}
 {% tab title="Getting item on command" %}
