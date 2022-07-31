@@ -43,16 +43,16 @@ ninja_skeleton:
 ```
 {% endcode %}
 
-In this example I'm changing the **Mythicmobs** mob skin to a `ninja_skeleton` skin.
+在该示例中我将 **Mythicmobs** 怪物模型更换为 `ninja_skeleton` 
 
 ```yaml
 customentity{model=MODEL NAME} @self ~onSpawn
 ```
 
-## Animations
+## 动画
 
-As you can see I also added some Skills to replace the mob animation dynamically.\
-`{play=attack}` is used to make the attack animation play, in this case when the entity attacks.
+在该配置中，我为自定义实体添加了技能来替换怪物的动画.\
+`{play=attack}` 播放动画（在该示例中为，当实体进行攻击时播放attack动画）
 
 \
 `{walk=b_walk}` is used to replace the mob walk animation `b_walk` which is an "angry" walk animation, because the mob has just attacked another entity and has a target.
@@ -85,7 +85,7 @@ As you can see I also added some Skills to replace the mob animation dynamically
 
 ### Color
 
-Change a bone color programmatically
+为模型骨骼着色
 
 ```
 - bone{name=BONE;color=COLOR} TARGETER ~EVENT
@@ -100,7 +100,7 @@ Change a bone color programmatically
 - bone{name=leftLeg;color=16711790} @self ~onDamaged
 ```
 
-### Enchant glint
+### 附魔光效
 
 Show the enchant effect on a bone programmatically
 
@@ -108,7 +108,7 @@ Show the enchant effect on a bone programmatically
 - bone{name=BONE;enchant=TRUE/FALSE} TARGETER ~EVENT
 ```
 
-Example: show the enchant effect on a bone when the custom entity is damaged
+示例：当自定义实体受击时显示附魔效果在骨骼效果
 
 ```
 - bone{name=leftLeg;enchant=true} @self ~onDamaged
