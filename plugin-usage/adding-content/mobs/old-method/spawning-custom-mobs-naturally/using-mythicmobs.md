@@ -50,7 +50,7 @@ StaticallyChargedSheep:
 
 ## 完整配置
 
-### ItemsAdder configuration mobs.yml
+### ItemsAdder 中的 mobs.yml 配置
 
 ```yaml
   glow_squid:
@@ -82,7 +82,7 @@ StaticallyChargedSheep:
             type: SHEEP
 ```
 
-### Mythicmobs configuration Mobs\example.yml
+### Mythicmobs 怪物配置示例
 
 ```yaml
 StaticallyChargedSheep:
@@ -99,7 +99,7 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-### Mythicmobs configuration RandomSpawns\example.yml
+### Mythicmobs 随机生成配置示例
 
 ```yaml
 RandomStaticallyChargedSheep:
