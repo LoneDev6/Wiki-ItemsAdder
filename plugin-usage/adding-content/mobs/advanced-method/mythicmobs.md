@@ -55,7 +55,8 @@ customentity{model=MODEL NAME} @self ~onSpawn
 `{play=attack}` 播放动画（在该示例中为，当实体进行攻击时播放 `attack` 动画）
 
 \
-`{walk=b_walk}` 则会替换自定义实体的行走动画（在该示例中为，当实体有一个攻击目标，行走时会播放 `b_walk` 动画).
+`{walk=b_walk}` 则会替换自定义实体的行走动画.\
+（在该示例中为，当实体有一个攻击目标，行走时会播放 `b_walk` 动画)
 
 ### 技能动画
 
