@@ -121,14 +121,16 @@ Show the enchant effect on a bone programmatically
 - mountentity{bone=BONE;locked=TRUE/FALSE;control=TRUE/FALSE} TARGETER ~EVENT
 ```
 
-如下示例：右键点击自定义实体来骑乘它，禁用 SHIFT 键离开自定义实体（无法在低于 1.16 的客户端正常工作）以及禁用 WASD 方向键控制实体.
+如下示例：右键点击自定义实体来骑乘它，禁用 SHIFT 键离开自定义实体（无法在低于 1.16 的客户端正常工作）\
+以及禁用 WASD 方向键控制实体.
 
 ```
 - mountentity{bone=mountbone;locked=true;control=false} @trigger ~onInteract
 ```
 
 {% hint style="warning" %}
-警告: 如果您想自行决定某个实体的触发骑乘方式, 必须在自定义实体的 **ItemAdder** 配置中设置如下属性:
+警告: 如果您想自行决定某个实体的触发骑乘方式.\
+必须在自定义实体的 **ItemAdder** 配置中设置如下属性:
 
 `mount_on_interact: false`
 
