@@ -25,7 +25,7 @@ town_mob_removal_entities: Monster,Flying,Shulker,SkeletonHorse,ZombieHorse
 请确保你没有设置任何有关 **SLIME** 实体类型的规则，这将会导致插件移除作为载具一部分的史莱姆而导致错误.
 ## Residence
 
-在**Residence**中使用命令`/res set monsters t/r`。\
+在**Residence**中使用命令`/res set monsters t/r`.\
 目前已经与 Residence 开发者协商 [修复该问题](https://github.com/Zrips/Residence/issues/469#issuecomment-801425643)
 
 ## 其他有关 怪物 移除/分组/合并 的插件

@@ -30,7 +30,7 @@
 ### 步骤 2
 
 选择你用来使玩家应用资源包的服务器（一般选择为登录服）, 例如： `lobby` 子服.\
-在 `lobby` 子服中打开 ItemsAdder 的 `config.yml` 并设置 `Hosting(托管)`。
+在 `lobby` 子服中打开 ItemsAdder 的 `config.yml` 并设置 `Hosting(托管)`.
 
 {% content-ref url="../plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](../plugin-usage/resourcepack-hosting/)

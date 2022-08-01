@@ -10,5 +10,5 @@ nbt_int: CustomModelData: 1
 
 ### 如何获取 CustomModelData 值？
 
-手持ia物品的同时使用命令 `/iatag` ，然后搜索 `CustomModelData` 值。
+手持ia物品的同时使用命令 `/iatag` ，然后搜索 `CustomModelData` 值.
 

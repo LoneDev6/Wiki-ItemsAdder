@@ -6,7 +6,7 @@
 
 ## 菜单设置和“全部”类别
 
-`ia_gui.yml` 文件中包含有关 `/ia`  GUI 的设置。\
+`ia_gui.yml` 文件中包含有关 `/ia`  GUI 的设置.\
 并且包含 ItemsAdder 的所有分类 以及显示 **"all（全部）"** 物品 
 
 {% hint style="info" %}

@@ -54,7 +54,7 @@ entities:
 
 ### 创建自定义表情动作
 
-你可以创建任意数量的动画文件 (**ItemsAdder 3.2.1+**)。
+你可以创建任意数量的动画文件 (**ItemsAdder 3.2.1+**)
 
 ![](<../../../.gitbook/assets/image (62).png>)
 

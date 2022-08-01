@@ -15,7 +15,7 @@
 
 ![](<../../.gitbook/assets/immagine (119).png>)
 
-更改为新文件夹，例如，在 `.minecraft` 中创建 `Fabric` 的新配置文件夹。
+更改为新文件夹，例如，在 `.minecraft` 中创建 `Fabric` 的新配置文件夹
 
 ![](<../../.gitbook/assets/immagine (120).png>)
 
