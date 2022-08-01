@@ -12,4 +12,4 @@ resource:
   model_path: item/your_model
 ```
 
-![半透明的药水瓶](<https://gitee.com/white-diamond/Simplechinese_Wiki-ItemsAdder/raw/master/.gitbook/assets/btm.png>)
+![半透明的药水瓶](https://gitee.com/white-diamond/Simplechinese_Wiki-ItemsAdder/raw/master/.gitbook/assets/btm.png)
