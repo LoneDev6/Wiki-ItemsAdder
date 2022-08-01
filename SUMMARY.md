@@ -191,7 +191,7 @@
   * [🚨 防止资源包被暴力解压](plugin-usage/protect-resourcepack-from-unzip.md)
   * [Hex（十六进制数值） 彩色文本 (1.16+)](plugin-usage/hex-colored-texts-1.16+.md)
   * [🎨 Minecraft 美术风格教程](plugin-usage/minecraft-style-guide.md)
-  * [🔃 快捷的更改 Minecraft 的语言文件](plugin-usage/Minecraft-translation-files.md)
+  * [🔃 快捷的更改 Minecraft 的语言文件](plugin-usage/minecraft-translation-files.md)
   * [☑ 资源包提示信息 (1.17+)](plugin-usage/resourcepack-prompt-message-1.17+.md)
   * [文字效果 (1.17+)](plugin-usage/text-effects-1.17+.md)
   * [聊天预览 (1.19+)](plugin-usage/chat-preview-1.19+.md)
