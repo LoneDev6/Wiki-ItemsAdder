@@ -1,4 +1,4 @@
-# 快捷的更改 Minecraft 的语言文件
+# 快捷地更改 Minecraft 的语言文件
 
 {% hint style="info" %}
 使用 Itemsadder 可以使你更快捷的覆盖 Minecraft 的语言文件
