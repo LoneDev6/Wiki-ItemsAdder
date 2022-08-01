@@ -52,10 +52,10 @@ customentity{model=MODEL NAME} @self ~onSpawn
 ## 动画
 
 在该配置中，我为自定义实体添加了技能来替换怪物的动画.\
-`{play=attack}` 播放动画（在该示例中为，当实体进行攻击时播放attack动画）
+`{play=attack}` 播放动画（在该示例中为，当实体进行攻击时播放 `attack` 动画）
 
 \
-`{walk=b_walk}` is used to replace the mob walk animation `b_walk` which is an "angry" walk animation, because the mob has just attacked another entity and has a target.
+`{walk=b_walk}` 则会替换自定义实体的行走动画（在该示例中为，当实体有一个攻击目标，行走时会播放 `b_walk` 动画).
 
 ### 技能动画
 
@@ -114,20 +114,20 @@ Show the enchant effect on a bone programmatically
 - bone{name=leftLeg;enchant=true} @self ~onDamaged
 ```
 
-### Mounting
+### 实体骑乘
 
 ```
 - mountentity{bone=BONE;locked=TRUE/FALSE;control=TRUE/FALSE} TARGETER ~EVENT
 ```
 
-Example: mounting a custom entity on right click, disable SHIFT to dismount (not working on < 1.16 clients) and disable entity control with WASD.
+如下示例：右键点击自定义实体来骑乘它，禁用 SHIFT 键离开自定义实体（无法在低于 1.16 的客户端正常工作）以及禁用 WASD 方向键控制实体.
 
 ```
 - mountentity{bone=mountbone;locked=true;control=false} @trigger ~onInteract
 ```
 
 {% hint style="warning" %}
-Warning: if you want to manually handle mounts like this you have to set this property in the **ItemAdder** configuration of your custom entity:
+警告: 如果您想自行决定某个实体的触发骑乘方式, 必须在自定义实体的 **ItemAdder** 配置中设置如下属性:
 
 `mount_on_interact: false`
 
@@ -148,25 +148,25 @@ entities:
 
 ### Dismounting
 
-Removing passengers from some mount bones
+从实体身上移除正坐在某个骨骼上、正在骑乘该实体的玩家（强制让其离开）（多人）
 
 ```
 - dismountentity{bones=BONE1,BONE2,BONE3} TARGETER ~EVENT
 ```
 
-Removing passengers from a single mount bone
+从实体身上移除正坐在某个骨骼上、正在骑乘该实体的玩家（强制让其离开）（单人）
 
 ```
 - dismountentity{bones=BONE1} TARGETER ~EVENT
 ```
 
-Removing passengers from all the mount bones
+移除所有正在骑乘该实体的玩家（强制让其离开）
 
 ```
 - dismountentity{all=true} TARGETER ~EVENT
 ```
 
-Examples:
+以下是个例子:
 
 ```
 - dismountentity{bones=mount1,mount2} @self ~onDamaged
@@ -175,13 +175,13 @@ Examples:
 
 ### Bone Targeter
 
-Bone targeter returns the location of the specified bone.
+`Bone targeter` 会返回指定骨骼的位置, 如下所示.
 
 ```
 @bone{bone=BONE}
 ```
 
-Example: play a particle each 3 ticks on the bone center.
+Example: 在骨骼中心处每 3 ticks 播放一个粒子效果.
 
 ```
 - effect:particles{vd=50;p=end_rod;amount=10;speed=0;hS=0.2;vS=0.2;repeat=270;repeatInterval=1} @bone{bone=rightArm} ~onTimer:3

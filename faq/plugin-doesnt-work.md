@@ -7,7 +7,7 @@
 ### **如果问题仍然存在, 请阅读下面的内容, 然后与我联系:** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
 在您您报告问题之前, 请确保遵循我教程的每一个步骤, 并确保阅读了所有的 wiki. \
-Be sure to test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering. \
+请确保您在 **纯净环境** 的服务器（仅安装了 **ItemsAdder**）进行测试. \
 请确保使用最新版本的插件.&#x20;
 
 如果问题仍然存在, 请在报告问题时将这些信息发送给我：
