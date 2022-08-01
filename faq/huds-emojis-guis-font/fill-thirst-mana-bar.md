@@ -4,11 +4,11 @@
 
 恢复口渴值 `/iaplayerstat write LoneDev thirst float 10`
 
-![](../.gitbook/assets/immagine%20%281%29.png)
+![](https://mclinglan.oss-cn-beijing.aliyuncs.com/ItemsAdder-Wiki/%E5%8F%A3%E6%B8%B4%E5%80%BC.png)
 
 恢复法力值 `/iaplayerstat write LoneDev mana float 5`
 
-![](../.gitbook/assets/immagine.png)
+![](https://mclinglan.oss-cn-beijing.aliyuncs.com/ItemsAdder-Wiki/%E6%B3%95%E5%8A%9B%E5%80%BC.png)
 
 ## 关闭口渴值
 
