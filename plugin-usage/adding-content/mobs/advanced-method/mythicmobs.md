@@ -103,7 +103,7 @@ customentity{model=MODEL NAME} @self ~onSpawn
 
 ### 附魔光效
 
-Show the enchant effect on a bone programmatically
+为模型骨骼添加附魔光效
 
 ```
 - bone{name=BONE;enchant=TRUE/FALSE} TARGETER ~EVENT
