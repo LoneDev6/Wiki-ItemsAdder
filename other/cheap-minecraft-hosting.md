@@ -1,6 +1,6 @@
 # 🖥 Cheap Minecraft Hosting
 
-![](../.gitbook/assets/MMICa0s.gif)
+![](../.gitbook/assets/mmica0s.gif)
 
 {% hint style="info" %}
 ![](<../.gitbook/assets/immagine (24).png>)
