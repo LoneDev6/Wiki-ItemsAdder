@@ -28,7 +28,7 @@ You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://gi
 The logo will be shown with no issue only on server join for some reason, probably an Optifine bug.
 {% endhint %}
 
-A little bit difficult:\
+A little bit difficult: \
 basically you have to split your image in half like I did, so you have to know how to use image editing programs (Photoshop, GIMP or Paint.net).\
 You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf).
 
@@ -43,7 +43,7 @@ The left side of the texture needs to touch the top-right corner of the canvas w
 This is **always** the case, no matter the size of the actual texture!
 {% endhint %}
 
-### How to change the background color (1.16+ only)
+### How to change the background color (1.16 only)
 
 Create a new file (or edit the already provided one): `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\color.properties`
 
@@ -71,5 +71,8 @@ screen.loading.blend=DST_COLOR
 You can edit the colors using a [HEX color picker](https://www.w3schools.com/colors/colors\_picker.asp)
 
 {% hint style="warning" %}
-Do not include the `#` at the start of the color code.
+Do not include the `# `at the start of the color code.
 {% endhint %}
+
+
+

@@ -8,7 +8,7 @@ Switch to "**Animate**" view.
 
 Select one of your animations.
 
-![](<../../../.gitbook/assets/image (92) (1) (1).png>)
+![](<../../../.gitbook/assets/image (92) (1).png>)
 
 Select the magic wand icon "**Animate Effects**"
 

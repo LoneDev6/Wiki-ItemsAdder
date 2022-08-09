@@ -2,12 +2,12 @@
 
 ## Make your server look professional with custom ranks
 
-![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1).png>)
 
 {% hint style="warning" %}
-#### You have to use [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/) and [TAB](https://www.mc-market.org/resources/14009/) to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.
+**You have to use** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **and** [**TAB**](https://www.mc-market.org/resources/14009/) **to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.**
 
-#### If you're using another prefix plugin you may need to use [this method](font-images/using-font\_images-emojis-everywhere.md) to show ranks
+**If you're using another prefix plugin you may need to use** [**this method**](font-images/using-font\_images-emojis-everywhere.md) **to show ranks**
 {% endhint %}
 
 ## How to create my ranks?
@@ -15,7 +15,7 @@
 ### Download the example ranks
 
 * Update to **ItemsAdder 2.1.30** or a most recent version
-* Download the [example ranks here ](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
+* Download the [example ranks here](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-itemsadder-addon.84852/)
 
 ### Create a new rank configuration
 
@@ -38,13 +38,13 @@ Don't change `scale_ratio` and `y_position`. It would make the ranks look pixela
 
 ### Creating the png image
 
-**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\` \
+**Copy** one of my ranks **.png** files and edit it from folder `plugins\ItemsAdder\data\resource_pack\assets\betterranks\textures\font\rank\`\
 \
 You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.\
 For example copy `admin.png`, name it `custom.png` and edit it.
 
 {% hint style="danger" %}
-### Don't change the rank image height! Change only the width or the image will look pixelated!
+#### Don't change the rank image height! Change only the width or the image will look pixelated!
 {% endhint %}
 
 ### Example:
@@ -78,7 +78,7 @@ Select the role, in this case `admin`.
 
 Write `prefix.100.` followed by the prefix placeholder in the bottom input box, in this example I will use `:admin:`
 
-&#x20;`prefix.100.:admin:` (make sure you write it correctly).
+`prefix.100.:admin:` (make sure you write it correctly).
 
 ![](<../../.gitbook/assets/image (80) (1).png>)
 

@@ -1,13 +1,13 @@
 # Sword
 
 {% hint style="danger" %}
-### Namespace
+#### Namespace
 
 If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace/creating-your-namespace.md).
 {% endhint %}
 
 {% hint style="danger" %}
-### Resourcepack hosting
+#### Resourcepack hosting
 
 Remember to **decide** a **resourcepack hosting** method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
@@ -93,7 +93,7 @@ To do that you have to:\
 Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
 1\. Get it from this folder:
 
-![](<../../../.gitbook/assets/immagine (96) (2) (3) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/immagine (96) (2) (3) (2) (1) (1) (1) (1) (1).png>)
 
 2\. Upload it to your hosting (Dropbox)\
 3\. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
@@ -113,4 +113,3 @@ If you have more questions read the full **external-host** tutorial here:
 {% content-ref url="../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 [resourcepack-on-dropbox.md](../../resourcepack-hosting/resourcepack-on-dropbox.md)
 {% endcontent-ref %}
-

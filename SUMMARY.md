@@ -35,8 +35,8 @@
   * [I can't unzip the pack.zip file](faq/i-cant-unzip-the-pack.zip-file.md)
   * [I can't remove furnitures and vehicles](faq/i-cant-remove-furnitures-and-vehicles.md)
   * [Download Spigot](faq/download-spigot.md)
-  * [Create slabs, stairs, tridents, armors etc.](faq/create-slabs-stairs-tridents-armors-etc/README.md)
-    * [Transparent textured furnitures](faq/create-slabs-stairs-tridents-armors-etc/transparent-textured-furnitures.md)
+  * [Create slabs, stairs, tridents, armors...](faq/create-slabs-stairs-tridents-armors.../README.md)
+    * [Transparent textured furnitures](faq/create-slabs-stairs-tridents-armors.../transparent-textured-furnitures.md)
   * [Recipes book problems](faq/recipes-book-problems.md)
   * [Mohist problems](faq/mohist-problems.md)
   * [⛔ Errors](faq/errors/README.md)
@@ -48,7 +48,6 @@
     * [Textures broken by shaders mod](faq/armors-bugs/textures-broken-by-shaders-mod.md)
     * [Animation and emission not working](faq/armors-bugs/animation-and-emission-not-working.md)
     * [Leather armor texture overwritten](faq/armors-bugs/leather-armor-texture-overwritten.md)
-    * [Armors not working PackSquash](faq/armors-bugs/armors-not-working-packsquash.md)
     * [Optifine CIT not working](faq/armors-bugs/optifine-cit-not-working.md)
   * [Remove pack on server change](faq/remove-pack-on-server-change.md)
   * [💃 Emotes bugs](faq/emotes-bugs/README.md)
@@ -193,7 +192,6 @@
   * [🎨 Minecraft Style Guide](plugin-usage/minecraft-style-guide.md)
   * [☑ Resourcepack prompt message (1.17+)](plugin-usage/resourcepack-prompt-message-1.17+.md)
   * [Text Effects (1.17+)](plugin-usage/text-effects-1.17+.md)
-  * [Chat preview (1.19+)](plugin-usage/chat-preview-1.19+.md)
   * [Scoreboard](plugin-usage/scoreboard/README.md)
     * [Hide Scoreboard background](plugin-usage/scoreboard/hide-scoreboard-background.md)
     * [Hide Scoreboard numbers (1.17+)](plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
@@ -233,7 +231,6 @@
     * [TrMenu](compatibility-with-other-plugins/compatible/trmenu.md)
     * [CMI](compatibility-with-other-plugins/compatible/cmi.md)
     * [Holographic Displays](compatibility-with-other-plugins/compatible/holographic-displays.md)
-    * [DecentHolograms](compatibility-with-other-plugins/compatible/decentholograms.md)
     * [Nova](compatibility-with-other-plugins/compatible/nova.md)
     * [Space](compatibility-with-other-plugins/compatible/space.md)
     * [AdvancedOreGen](compatibility-with-other-plugins/compatible/advancedoregen.md)
@@ -264,10 +261,10 @@
     * [ItemBridge](compatibility-with-other-plugins/compatible/itembridge.md)
     * [Ouroboros-Mines](compatibility-with-other-plugins/compatible/ouroboros-mines.md)
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
-    * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
 * [✏ Contribute](contribute/README.md)
-  * [Edit the English wiki](contribute/edit-the-english-wiki.md)
-  * [Translate this wiki](contribute/translate-this-wiki.md)
+  * [🖇 Edit the English wiki](contribute/edit-the-english-wiki.md)
+  * [📑 Editing With GitBook](contribute/editing-with-gitbook.md)
+  * [🌐 Translate this wiki](contribute/translate-this-wiki.md)
 
 ## 💻 Developers
 
@@ -289,6 +286,10 @@
 * [⚡ Optimize Minecraft client](other/optimize-minecraft-client/README.md)
   * [1.18.1](https://blog.devs.beer/blog/optimize-minecraft)
   * [1.17.1](other/optimize-minecraft-client/optimize-minecraft-1.17.md)
+
+## 🏛 Legal
+
+* [Discord Support TOS](legal/discord-support-tos.md)
 
 ## OLD
 

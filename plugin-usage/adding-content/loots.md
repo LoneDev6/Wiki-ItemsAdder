@@ -1,7 +1,7 @@
 # 🎁 Loots
 
 Loots can be used to specify when to drop a particular item.\
-You can decide to create different loot types:&#x20;
+You can decide to create different loot types:
 
 * blocks
 * mobs
@@ -41,11 +41,11 @@ This example has two loots in **blocks** category.
 First one is called **ruby\_ore** (you can call them as you prefer), this will drop a **itemsadder:ruby** item when you break a custom **block** of type **itemsadder:ruby\_ore** with a minimum **amount** of **1** and **maximum** amount of **2** with **100% chance**.
 
 The second one is a loot from a vanilla **block**. As you imagine it will drop a **crystal** or a **knowledge\_fragment** when the player breaks a **NETHER\_QUARTZ\_ORE**.\
-These **drops** are decided by **ItemsAdder** based on **chance** you set.&#x20;
+These **drops** are decided by **ItemsAdder** based on **chance** you set.
 
 {% hint style="info" %}
 Special property: **drop\_only\_first**\
-This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**. \
+This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.\
 **WARNING**: this would make your items **harder** to be **dropped**.
 {% endhint %}
 
@@ -150,7 +150,7 @@ loots:
 ```
 
 {% hint style="info" %}
-### Custom mobs loots ([old entities method](mobs/old-method/))
+#### Custom mobs loots ([old entities method](mobs/old-method/))
 {% endhint %}
 
 In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
@@ -173,10 +173,10 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderMob` **** attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
+As you can see I set `ItemsAdderMob` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
 
 {% hint style="info" %}
-### Custom entities loots
+#### Custom entities loots
 {% endhint %}
 
 In order to let ItemsAdder drop an item based on when you kill a custom entity (created with ItemsAdder) you have to use the `ItemsAdderEntity` metadata attribute. Example:
@@ -199,10 +199,10 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderEntity` **** attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob)
+As you can see I set `ItemsAdderEntity` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob)
 
 {% hint style="info" %}
-### Villager professions (and any other NBT attribute you want to match)
+#### Villager professions (and any other NBT attribute you want to match)
 {% endhint %}
 
 ```yaml
@@ -231,7 +231,7 @@ The type attribute of **nbt** and **metadata** are really **important**, don't *
 {% endhint %}
 
 {% hint style="info" %}
-### Drop based on Tile entity NBT data (for example Spawner)
+#### Drop based on Tile entity NBT data (for example Spawner)
 {% endhint %}
 
 ```yaml

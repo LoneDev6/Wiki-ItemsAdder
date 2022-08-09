@@ -1,4 +1,4 @@
-# Languages
+# 🇬🇧 🇬🇧 Languages
 
 ### Currently available languages
 
@@ -26,7 +26,6 @@ Items:
     French fr
     Italian it
     Portuguese pt
-    Russian ru
     Turkish tr
 ```
 

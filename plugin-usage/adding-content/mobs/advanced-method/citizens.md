@@ -22,8 +22,8 @@ Do not use `PLAYER` as type, it causes issues with head/body rotation.
 {% endhint %}
 
 Then change the skin using the **ItemsAdder** command:\
-`/iaentity citizens <id|selected> model <model>`\
-``In this example: `/iaentity citizens <id|selected> model custom:barman_robot`
+`/iaentity citizens model <model>`\
+``In this example: `/iaentity citizens model custom:barman_robot`
 
 ### Mute sounds
 
@@ -41,6 +41,6 @@ You can make the NPC look at nearby players by using this command, more info on 
 
 ## Playing animation
 
-You can play an animation using this command: `/iaentity citizens <id|selected> anim play <animation>`
+You can play an animation using this command: `/iaentity citizens anim play <animation>`
 
 ![](../../../../.gitbook/assets/ezgif.com-gif-maker.webp)

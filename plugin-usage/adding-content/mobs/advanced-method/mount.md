@@ -22,7 +22,7 @@ Check the "**Mount**" option and press "**Confirm**".
 
 Do this for each sit you want to create.
 
-![](<../../../../.gitbook/assets/image (82) (1).png>)
+![](<../../../../.gitbook/assets/image (82).png>)
 
 ![](<../../../../.gitbook/assets/image (53).png>)
 

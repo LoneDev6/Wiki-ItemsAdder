@@ -8,6 +8,15 @@ description: How to create configuration and 3D models for your mob
 
 {% page-ref page="3d-model.md" %}
 
+{% hint style="info" %}
+This is the old method for adding entities, I recommend you to take a look at the [New advanced method to create custom mobs/entities.
+](https://itemsadder.devs.beer/plugin-usage/adding-content/mobs/advanced-method)
+{% endhint %}
+
+{% hint style="warning" %}
+Please Make Sure that you have [Lib's Disguises](https://www.spigotmc.org/resources/libs-disguises-free.81/) on your server
+{% endhint %}
+
 ## Final result
 
 ```yaml

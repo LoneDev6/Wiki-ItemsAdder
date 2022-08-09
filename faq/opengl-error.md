@@ -12,6 +12,6 @@ For example `OpenGL Error: 1280 (Invalid enum)`
 
 ![](<../.gitbook/assets/image (78).png>)
 
-![](<../.gitbook/assets/image (62) (1).png>)
+![](<../.gitbook/assets/image (62).png>)
 
 ![](<../.gitbook/assets/image (59).png>)

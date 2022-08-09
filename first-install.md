@@ -38,6 +38,17 @@ Now you must complete **step 2** to configure the resourcepack (don't worry it's
 
 ### Adding official ItemsAdder custom content
 
+{% hint style="info" %}
+If you already have installed ItemsAdder you will continue using the old textures/configurations, but if you want you can start over and delete everything in order to get the new configurations in a clean install, but depends on your server needs.
+{% endhint %}
+
+{% hint style="danger" %}
+**DO NOT MERGE THIS WITH THE OLD FOLDERS! MAKE A BACKUP BEFORE DOING ANYTHING**
+
+This must be used only by the new customers or on a clean server.\
+Previous ItemsAdder default pack is not compatible with that version of the default pack.
+{% endhint %}
+
 ![](.gitbook/assets/items\_showcase\_gif.apng)
 
 **ItemsAdder** comes with a lot of custom content already created for you.\
@@ -47,7 +58,7 @@ It's not automatically included into the downloaded plugin because some people m
 
 ![](<.gitbook/assets/image (47).png>)
 
-* download the latest version of the DefaultPack [here](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;
+* download the latest version of the DefaultPack [here](https://github.com/ItemsAdder/DefaultPack/releases/latest)
 * extract the content into the **ItemAdder** folder and overwrite the files if asked
 * run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
 

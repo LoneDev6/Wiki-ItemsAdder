@@ -30,7 +30,7 @@ This is an example:
 ### Where do I put textures?
 
 Textures you listed in the `textures` attribute must be placed in the right folder.\
-So if you set `textures` like in the example and your **namespace** (is for example) `myitems` you will have to put `example_item.png` **** file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
+So if you set `textures` like in the example and your **namespace** (is for example) `myitems` you will have to put `example_item.png` \*\*\*\* file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\textures\item`
 
 If the path doesn't exists create all the folders needed.
 
@@ -48,18 +48,17 @@ This is an example:
     material: DIAMOND_SWORD
     generate: false
     model_path: item/floating_sword
-
 ```
 
 ### Where do I put my model?
 
 Model you set in the `model_path`attribute must be placed in the right folder.\
-So if you set `model_path` like in the example and your **namespace** (is for example) `myitems` you will have to put `floating_sword.json` **** file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
+So if you set `model_path` like in the example and your **namespace** (is for example) `myitems` you will have to put `floating_sword.json` \*\*\*\* file inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\myitems\models\item`
 
 If the path doesn't exists create all the folders needed.
 
 {% hint style="warning" %}
-### My textures are not working!
+#### My textures are not working!
 
 If your custom model textures are not showing you have to open your model file and fix the textures path.\
 For example if you had this:
@@ -89,8 +88,8 @@ You have to change it to this (`your_namespace` is your [namespace ](../../basic
 
 ## Transparent textures (glass and similar)
 
-{% content-ref url="../../../../faq/create-slabs-stairs-tridents-armors-etc/transparent-textured-furnitures.md" %}
-[transparent-textured-furnitures.md](../../../../faq/create-slabs-stairs-tridents-armors-etc/transparent-textured-furnitures.md)
+{% content-ref url="../../../../faq/create-slabs-stairs-tridents-armors.../transparent-textured-furnitures.md" %}
+[transparent-textured-furnitures.md](../../../../faq/create-slabs-stairs-tridents-armors.../transparent-textured-furnitures.md)
 {% endcontent-ref %}
 
 ## Manually specify custom\_model\_data
@@ -123,9 +122,8 @@ items:
 ```
 
 {% hint style="warning" %}
-### IMPORTANT
+#### IMPORTANT
 
 If you previously created this item and already used `/iazip` command and now you change the **model\_id**:\
 it's **very important** to run the command `/iacleancache items` to **remove unused IDs** and **update** the **changed ID**.
 {% endhint %}
-

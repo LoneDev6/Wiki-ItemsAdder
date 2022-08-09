@@ -7,7 +7,7 @@ You can import your custom models very easily, you just have to install the Bloc
 ## Installing the Blockbench extension
 
 {% hint style="warning" %}
-### Before continuing:
+#### Before continuing:
 
 * Make sure you're running **Blockbench 4.1.5** or **greater**
 * Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
@@ -70,7 +70,7 @@ The other thing you might need to change is the "**Model Scaling Mode**":
 * Max Model size provides 7x7x7 block wide models but limits scaling to shrinking only.
 * Max Scaling range provides shrinking and growing up to 3.125x in size, but limits the maximum model size to 3x3x3 blocks
 
-Change "**Max Model Size**"  only if you have animated the size of some bones.
+Change "**Max Model Size**" only if you have animated the size of some bones.
 
 ![](<../../../../.gitbook/assets/image (66).png>)
 
@@ -88,7 +88,7 @@ Now open the folder where you have your model and copy/cut the new generated fol
 
 ![](<../../../../.gitbook/assets/image (83).png>)
 
-Paste the `assets` folder inside the ItemsAdder folder `plugins/ItemsAdder/data/resource_pack/`.&#x20;
+Paste the `assets` folder inside the ItemsAdder folder `plugins/ItemsAdder/data/resource_pack/`.
 
 ### Creating the ingame entity configuration
 

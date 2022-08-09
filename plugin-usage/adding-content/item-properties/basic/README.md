@@ -81,10 +81,6 @@ attribute_modifiers:
     armorToughness: 1.1
     attackKnockback: 1.1
     luck: 1.1
-  head:
-    armor: 1
-    armorToughness: 1
-    knockbackResistance: 1 
 ```
 
 These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities)
@@ -260,7 +256,7 @@ You can make a drop show its name.\
 Very useful for **rare items**.\
 Example:
 
-![](<../../../../.gitbook/assets/immagine (118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/immagine (118) (1) (1) (1) (1) (1) (1).png>)
 
 ```yaml
   glowing_item:

@@ -12,13 +12,13 @@
       * `ia.user.iatexture`
     * /iatexture all (to force apply the pack to everyone)
       * `ia.user.iatexture.all`
-    * using recipes
-      * `ia.user.recipe.PERMISSION` (or to give all crafting permissions just use `ia.user.recipe.*`)
+    * crafting
+      * `ia.user.craft.PERMISSION` (or to give all crafting permissions just use ia.user.craft.\*)
       * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
-    * see item in the `/ia` menu
-      * `ia.user.ia.seeitem.PERMISSION` (or to give all /ia permissions just use `ia.user.ia.seeitem.*`)
+    * see item in /ia menu
+      * `ia.user.ia.PERMISSION` (or to give all /ia permissions just use ia.user.ia.\*)
       * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
-      * `ia.user.ia.search` for the search GUI in `/ia` menu
+      * `ia.user.iasearchgui` for the search GUI in /ia menu
       * You can also set a permission per category, please check [/ia GUI ](../ia.md)page
     * emoji (font images)
       * **/iaimage /emoji, /iaemoji, /e** book GUI (shows a book with the list of emojis/font images)
@@ -113,11 +113,6 @@
     * `ia.resourcepack.bypasskick`
   * Bypass player placed blocks can't drop loot
     * `ia.admin.bypassblockplaceloot`
-
-{% hint style="warning" %}
-You **must** use a permission manager like [LuckPerms](https://luckperms.net/download) which supports `.*` permissions notation.\
-Bukkit doesn't support this notation by default.
-{% endhint %}
 
 ## Worlguard flags
 
