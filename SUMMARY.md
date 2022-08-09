@@ -262,9 +262,9 @@
     * [Ouroboros-Mines](compatibility-with-other-plugins/compatible/ouroboros-mines.md)
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
 * [✏ Contribute](contribute/README.md)
-  * [Edit the English wiki](contribute/edit-the-english-wiki.md)
-  * [Editing With GitBook](contribute/editing-with-gitbook.md)
-  * [Translate this wiki](contribute/translate-this-wiki.md)
+  * [🖇 Edit the English wiki](contribute/edit-the-english-wiki.md)
+  * [📑 Editing With GitBook](contribute/editing-with-gitbook.md)
+  * [🌐 Translate this wiki](contribute/translate-this-wiki.md)
 
 ## 💻 Developers
 
@@ -286,6 +286,10 @@
 * [⚡ Optimize Minecraft client](other/optimize-minecraft-client/README.md)
   * [1.18.1](https://blog.devs.beer/blog/optimize-minecraft)
   * [1.17.1](other/optimize-minecraft-client/optimize-minecraft-1.17.md)
+
+## 🏛 Legal
+
+* [Discord Support TOS](legal/discord-support-tos.md)
 
 ## OLD
 
