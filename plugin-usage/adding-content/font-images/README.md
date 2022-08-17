@@ -31,6 +31,8 @@ Minecraft 会移除图像边缘所有(alpha 为 0) 的透明像素.
 
 `symbol` 属性可以指定 font_image 对应的字符.\
 当你不使用 `symbol` 来指定字符时，ItemsAdder 会自动分配字符进行应用.\
+<br>注意：
+如果想要使用 `symbol` 属性， 需要关闭 `thin_font` 属性（在config中）
 
 例如:
 
@@ -45,8 +47,6 @@ smile:
 ```
 
 当在聊天中打出 "鄿" 时，游戏中都会显示微笑的表情
-<br>注意：.\
-在 **thin_font** 属性开启后，`symbol` 属性无法使用.
 
 ## 我不想使用 ItemsAdder 的 font\_image, 我想自己手动编写 default.json
 
