@@ -45,6 +45,8 @@ smile:
 ```
 
 当在聊天中打出 "鄿" 时，游戏中都会显示微笑的表情
+<br>注意：.\
+在 **thin_font** 属性开启后，`symbol` 属性无法使用.
 
 ## 我不想使用 ItemsAdder 的 font\_image, 我想自己手动编写 default.json
 
