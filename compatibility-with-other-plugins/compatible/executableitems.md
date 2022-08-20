@@ -5,7 +5,8 @@
 ## How to connect an ExecutableItem to an ItemsAdder custom item
 
 {% hint style="warning" %}
-UPDATE **ITEMSADDER** TO **2.2.20+**
+UPDATE **ITEMSADDER** TO **2.2.20+**\
+****UPDATE **ExecutableItems** to 4.2.3.5+
 {% endhint %}
 
 ## Create the ItemsAdder item
@@ -22,7 +23,7 @@ items:
     display_name: executableitem_test
     permission: executableitem_test
     executableitem:
-      id: spit
+      id: Free_Spit
     resource:
       material: IRON_INGOT
       generate: true
@@ -41,4 +42,4 @@ These are used to **connect** the **two items**.
 
 Run `/iaget executableitem_test` and get the item!
 
-![](<../../.gitbook/assets/immagine (152).png>)
+![](<../../.gitbook/assets/immagine (140) (1) (1).png>)

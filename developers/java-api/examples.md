@@ -135,3 +135,18 @@ void interact(PlayerInteractEvent e)
     }
 }
 ```
+## Changing HUD values with API
+
+### Setting a float value in a Frames Hud
+```java
+PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
+PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
+hud.setFloatValue(1f);
+```
+
+### Making a HUD visible.
+```java
+PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
+PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
+hud.setVisible(true);
+```

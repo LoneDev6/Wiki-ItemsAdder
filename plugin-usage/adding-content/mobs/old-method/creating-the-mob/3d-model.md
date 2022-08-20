@@ -2,13 +2,13 @@
 
 ## Creating the animated model (idle animation)
 
-To create the models I use [BlockBench](https://blockbench.net), it's very easy to use and fast.\
+To create the models I use [BlockBench](https://blockbench.net/), it's very easy to use and fast.\
 BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench+tutorial)are available on YouTube.
 
 {% hint style="danger" %}
 You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
 
-![](<../../../../../.gitbook/assets/immagine (89) (1) (1) (2).png>)
+![](<../../../../../.gitbook/assets/immagine (89) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 {% endhint %}
 
 ### Creating a very simple idle animation
@@ -30,7 +30,7 @@ Ok I saved it as **1.json** inside the **idle** folder. This is the first frame 
 
 **2.**Return to **BlockBench** and select all pressing **CTRL+A**
 
-![](<../../../../../.gitbook/assets/immagine (57).png>)
+![](<../../../../../.gitbook/assets/immagine (78) (1).png>)
 
 **Hold left mouse button** while cliking on the **GREEN** arrow, **hold CTRL** and **move** the mouse **up** a little bit
 

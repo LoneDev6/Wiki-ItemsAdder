@@ -11,4 +11,4 @@ Animation and emission won't be shown if the client uses:
 
 Enable smooth lighting
 
-![](<../../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (48) (1).png>)

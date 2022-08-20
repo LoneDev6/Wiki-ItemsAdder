@@ -24,9 +24,9 @@ Resize your hitbox.
 
 Rightclick on the bone and select "**Bone Config**"
 
-![](<../../../../.gitbook/assets/image (62) (1).png>)
+![](<../../../../.gitbook/assets/image (62) (1) (1).png>)
 
 Check the "**Hitbox**" option and press "**Confirm**".
 
-![](<../../../../.gitbook/assets/image (49).png>)
+![](<../../../../.gitbook/assets/image (49) (1).png>)
 

@@ -13,7 +13,7 @@ You can import your custom models very easily, you just have to install the Bloc
 * Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
 {% endhint %}
 
-[Download Blockbench](https://www.blockbench.net) (don't use the web app).
+[Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
 ![](<../../../../.gitbook/assets/image (98) (1).png>)
 
@@ -24,7 +24,7 @@ You can import your custom models very easily, you just have to install the Bloc
 
 Extract it somewhere, then open **Blockbench** and click on File -> Plugins.
 
-![](<../../../../.gitbook/assets/image (48) (1).png>)
+![](<../../../../.gitbook/assets/image (48) (1) (1).png>)
 
 Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
 
@@ -82,7 +82,7 @@ Click on the **ItemsAdder** tab and press **Export**.
 
 You should get a success message.
 
-![](<../../../../.gitbook/assets/image (81).png>)
+![](<../../../../.gitbook/assets/image (81) (1).png>)
 
 Now open the folder where you have your model and copy/cut the new generated folder `assets`.
 

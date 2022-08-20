@@ -11,7 +11,7 @@ Create a new bone, it can have any name.
 
 Rightclick on the bone and select "**Bone Config**"
 
-![](<../../../../.gitbook/assets/image (68).png>)
+![](<../../../../.gitbook/assets/image (68) (1).png>)
 
 Check the "**Locator**" option and press "**Confirm**".
 
@@ -23,7 +23,7 @@ Switch to "**Animate**" view.
 
 Select one of your animations.
 
-![](<../../../../.gitbook/assets/image (92) (1).png>)
+![](<../../../../.gitbook/assets/image (92) (1) (1).png>)
 
 Select the magic wand icon "**Animate Effects**"
 

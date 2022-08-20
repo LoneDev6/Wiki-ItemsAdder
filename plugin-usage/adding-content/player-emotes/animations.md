@@ -22,11 +22,11 @@ This allows you to create complex looping animations, for example a sleep animat
 
 Create the animation, in this example a death animation.
 
-![](<../../../.gitbook/assets/image (96).png>)
+![](<../../../.gitbook/assets/image (96) (1).png>)
 
 Right click it and mark it as `Loop`.
 
-![](<../../../.gitbook/assets/image (92).png>)
+![](<../../../.gitbook/assets/image (92) (1).png>)
 
 ### Step 2
 

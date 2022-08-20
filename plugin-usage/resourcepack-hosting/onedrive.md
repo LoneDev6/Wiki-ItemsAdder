@@ -1,7 +1,7 @@
-# 1⃣ OneDrive
+# OneDrive
 
 {% hint style="warning" %}
-Not recommended.
+## Not recommended.
 {% endhint %}
 
 ### Step 1

@@ -127,11 +127,11 @@ items:
 
 Now open [BlockBench](../item-properties/resource/creating-3d-models.md) and create a _"Java Block/Item"_.
 
-![](<../../../.gitbook/assets/image (49) (1) (1).png>)
+![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
 
 Now create you model, in this example I'm modelling an ugly minimal modern lamp.
 
-![](<../../../.gitbook/assets/image (47) (1) (1).png>)
+![](<../../../.gitbook/assets/image (47) (1) (1) (1).png>)
 
 {% hint style="warning" %}
 Important: make sure the north is opposite of where you want the model to face.
@@ -143,7 +143,7 @@ Edit how the model is shown on player hand:
 
 ![](<../../../.gitbook/assets/image (46) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (48) (1) (1).png>)
+![](<../../../.gitbook/assets/image (48) (1) (1) (1).png>)
 
 ### Configure how the model is shown ingame
 
@@ -172,6 +172,6 @@ To achieve this, click on "File" followed by "Export Model" and finally "Export 
 
 Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/) if needed), then obtain the item and place it: `/iaget myitems:lamp`.
 
-![](<../../../.gitbook/assets/image (50) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (50) (1) (1) (1) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (44) (1) (1).png>)

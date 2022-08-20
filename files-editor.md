@@ -1,6 +1,10 @@
 # 📄 Files editor
 
-## Try out my new files editor for ItemsAdder
+## VisualStudio Code extension
+
+{% embed url="https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode" %}
+
+## Online files editor
 
 {% embed url="https://ide.devs.beer/itemsadder/" %}
 

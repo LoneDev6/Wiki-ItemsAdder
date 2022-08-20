@@ -10,8 +10,8 @@ If you want to add a custom texture and not just a custom color to armors you ca
 
 ### Click here if you want the new automatic creation:
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../armors/" %}
+[armors](../armors/)
 {% endcontent-ref %}
 
 ## Custom textured armor (manual way)

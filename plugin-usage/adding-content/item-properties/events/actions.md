@@ -37,6 +37,9 @@ Actions are what will happen when an [event](./) is triggered.
 * `target_potion_effect`
 * `target_remove_potion_effect`
 * `play_totem_animation`
+* `set_block`
+* `place_furniture`
+* `drop_item`
 
 ### Delay
 
@@ -141,9 +144,9 @@ In this example you will notice an "issue". The sound is played even if the user
             pitch: 1
 ```
 
-###
+####
 
-### Setting the same permission to every action
+#### Setting the same permission to every action
 
 If you want to set the same permission to every action without copy and paste you can!\
 Use this special attribute `all_actions_permission`.\
@@ -308,7 +311,7 @@ explosion:
   break_blocks: true
   
 # Allows you to damage entities around you
-damange_near_entities:
+damage_near_entities:
   entity_groups:
    - HOSTILE
    - PLAYERS
@@ -352,6 +355,21 @@ target_remove_potion_effect:
   type: GLOWING
   
 play_totem_animation: animatedtitles:bruh
+
+set_block:
+  block: rocks
+  target: RELATIVE
+  decrement_amount: true
+  
+place_furniture:
+  furniture: furniture
+  decrement_amount: true
+
+drop_item:
+  item: 2d_furniture
+  chance: 99.9
+  max_amount: 3
+  min_amount: 1
 ```
 
 ###

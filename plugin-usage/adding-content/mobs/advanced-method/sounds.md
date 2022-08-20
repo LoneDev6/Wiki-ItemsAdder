@@ -4,11 +4,11 @@
 
 Switch to "**Animate**" view.
 
-![](<../../../../.gitbook/assets/image (50) (1).png>)
+![](<../../../../.gitbook/assets/image (50) (1) (1).png>)
 
 Select one of your animations.
 
-![](<../../../../.gitbook/assets/image (92) (1).png>)
+![](<../../../../.gitbook/assets/image (92) (1) (1).png>)
 
 Select the magic wand icon "**Animate Effects**"
 

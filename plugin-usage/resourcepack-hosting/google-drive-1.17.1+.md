@@ -35,7 +35,7 @@ Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive
 
 Paste the link and press on "Get direct link"
 
-![](<../../.gitbook/assets/immagine (144).png>)
+<img src="../../.gitbook/assets/immagine (144).png" alt="" data-size="original">
 
 ### Step 4
 
@@ -61,7 +61,7 @@ You can now see that the pack is correctly loaded by the game.
 
 ### Long time on "Making Request... 100%"
 
-### ![](<../../.gitbook/assets/immagine (146).png>)
+### ![](<../../.gitbook/assets/immagine (141).png>)
 
 This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
 

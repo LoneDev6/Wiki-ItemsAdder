@@ -5,14 +5,14 @@ description: Emotes textures look broken when using custom shaders mods (1.17+)
 # Textures broken by shaders mod
 
 {% hint style="warning" %}
-### This "bug" can't be fixed for now
+#### This "bug" can't be fixed for now
 
 It's a Optifine/Iris mod incompatibility I cannot fix for now without a change on these two shaders mods.
 {% endhint %}
 
 {% tabs %}
 {% tab title="With shaders (bug)" %}
-![](<../../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (51) (2) (1).png>)
 {% endtab %}
 
 {% tab title="Without shaders (no bug)" %}
@@ -38,8 +38,8 @@ I already contacted Iris developers about this: [https://github.com/IrisShaders/
 
 ### 3DSkinLayers
 
-When using the [3DSkinLayers](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) mod will Emotes not render properly with the default settings.  
-This is due to the mod altering how extra layers on Player heads are rendered, which influences the placement of the different skin parts in ItemsAdder.
+When using the [3DSkinLayers](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) mod will Emotes not render properly.\
+This is because the mod alters how the extra layers are rendered, which messes up the placement of the skin parts in ItemsAdder.
 
 To fix this, open the settings of 3DSkinLayers and set `3D Skulls` and `3D Skull Items` (For customized skulls in inventories) to `Off`.  
 There is currently no workaround for using 3D layers in Emote animations.
