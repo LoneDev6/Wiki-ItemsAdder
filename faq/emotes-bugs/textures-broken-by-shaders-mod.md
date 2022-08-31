@@ -41,4 +41,7 @@ I already contacted Iris developers about this: [https://github.com/IrisShaders/
 When using the [3DSkinLayers](https://www.curseforge.com/minecraft/mc-mods/skin-layers-3d) mod will Emotes not render properly.\
 This is because the mod alters how the extra layers are rendered, which messes up the placement of the skin parts in ItemsAdder.
 
-This is nothing that can be fixed (yet). Dev has been contacted about this here: [https://github.com/tr7zw/3d-Skin-Layers/issues/45](https://github.com/tr7zw/3d-Skin-Layers/issues/45)
+To fix this, open the settings of 3DSkinLayers and set `3D Skulls` and `3D Skull Items` (For customized skulls in inventories) to `Off`.  
+There is currently no workaround for using 3D layers in Emote animations.
+
+Extra info can be found here: [https://github.com/tr7zw/3d-Skin-Layers/issues/45](https://github.com/tr7zw/3d-Skin-Layers/issues/45)
