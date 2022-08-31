@@ -1,38 +1,43 @@
-# ↪️基础权限
+# ↪ 示例权限
 
-## 基础权限:
+## 基础设置:
 
-* `ia.user.ia` (打开 /ia 菜单)
-* `ia.user.ia.*` (查看所以物品在 /ia 菜单)
-* `ia.user.iarecipe` (使用 /iarecipe 命令)
-* `ia.user.craft.*` (合成Itemsadder物品权限)
-* `ia.menu.*` (在 /ia 菜单中查看所有类型)
-* `ia.user.image.gui` (使用 /e 命令查看表情列表)
-* `ia.user.image.hints` (在使用 /e 指令后,可以用Tab补全表情文字)
-* `ia.user.image.chat` (替换聊天中的表情文字,例如:slime:)
-* `ia.user.image.command` (替换命令中的表情文字,例如:slime:)
-* `ia.user.image.sign` (替换告示牌中的表情文字,例如:slime:)
-* `ia.user.image.book` (替换书中的表情文字,例如:sliem:)
-* `ia.user.image.use.*` (可以使用所有表情)
+* `ia.user.ia` (打开 `/ia` 菜单的权限)
+* `ia.user.ia.seeitem.*` (在`/ia`菜单中查看某Ia物品的权限)
+* `ia.user.iarecipe` (使用 `/iarecipe` )
+* `ia.user.recipe.*` (允许使用全部合成配方)（将 * 替换为任意物品id即特指该物品的合成配方）
+* `ia.menu.seecategory.*` (在`/ia`中查看某分类的权限). 注意: 该权限将以下载附属中的分类配置所决定，但通常格式为 `ia.menu.seecategory.XXXX`，但附属包的开发者可以自定该权限的格式，所以详情需要查看该附属的分类文件
+* `ia.user.image.gui` (使用 `/e` 来查看表情Gui)
+* `ia.user.image.hints` (在使用`/e`和TAB时补全表情符号)
+* `ia.user.image.chat` (允许使用表情在 聊天栏 )
+* `ia.user.image.command` (允许使用表情在 命令 中)
+* `ia.user.image.sign` (允许使用表情在 告示牌 上)
+* `ia.user.image.book` (允许使用表情在 书 上)
+* `ia.user.image.use.*` (允许使用全部表情)（将 * 替换为任意表情名称即特指该表情的使用权限）
 
-## 我要怎么做才可以获得类型权限呢?
+## 如何获取分类的权限
 
 {% hint style="info" %}
-### 默认类别
+### ItemsAdder 默认分类
 
-打开这个文件夹,查询所有权限/查看所有类别: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+在此文件中你可以获取所有的分类以及权限
+ `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 
-比如,你想让玩家看到默认ItemsAdder里所有的类型,你只需要给予 `ia.menu.*` 权限.
+如果想让玩家查看默认的所有分类,给予`ia.menu.*`权限即可.
 {% endhint %}
 
 {% hint style="info" %}
-### 扩展类别
+### 扩展分类
 
-如果你安装了一个 [扩展插件](https://addons.plugin.ga/itemsadder/)你可以在里面搜索到一个`categories.yml` 文件 `ItemsAdder\data\items_packs\ADDON`,通常开发者会把配置放在这里,所以你也可以找到他们设置的 **权限**.
+若你安装了 [附属](https://addons.plugin.ga/itemsadder/) 通常附属包作者会将其分类放在 `ItemsAdder\data\items_packs\ADDON（附属名称）` 中找到  `categories.yml`
+<br>通常附属包作者会将分类放在 `categories.yml` 文件中，你可以从该分类中获取**权限**
 {% endhint %}
 
 {% hint style="info" %}
-### 创建属于我的类型
+### 创建分类
 
-如果你要创建属于你的类型,只需阅读该教程.
+创建分类只需阅读此教程
 {% endhint %}
+
+
+

@@ -1,6 +1,8 @@
-# 👁 我不能看到表情,GUIs,HUDs
+# 无法显示表情、gui、hud
 
-如果你把设置 **强制 Unicode Font** 设置为 **ON** 则无法正常显示图像,必须将 **强制 Unicode Font** 设置为 **OFF**
+如果因为不喜欢 Minecraft 的默认字体而将 **Force Unicode** 设置为 **ON**，导致无法显示表情、gui 和 hud
+请阅读此页面：
 
-{% page-ref page="../../plugin-usage/adding-content/advanced/fonts/method-1/thin-font-force-unicode.md" %}
-
+{% content-ref url="../../plugin-usage/adding-content/fonts/thin-font-force-unicode.md" %}
+[thin-font-force-unicode.md](../../plugin-usage/adding-content/fonts/thin-font-force-unicode.md)
+{% endcontent-ref %}

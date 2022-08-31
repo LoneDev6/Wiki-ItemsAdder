@@ -1,10 +1,9 @@
-# 🐌 插件加载过慢
+# 🐌 插件加载缓慢
 
-## 几周/几个月后,ItemAdder将加载得非常慢
+## 使用一段时间后，插件加载速度变慢
 
-有手就行啦,按下面步骤操作就可以啦.
+修复该问题很简单，只需要进行以下操作：
 
-* 关闭服务器控制台
-* 删除该文件 `plugins\ItemsAdder\storage\cache\various\fixed_glitched_blocks.nbt` 
-* 开启服务器控制台
-
+* 关闭服务器
+* 删除该路径下的文件 `plugins\ItemsAdder\storage\cache\various\fixed_glitched_blocks.nbt`&#x20;
+* 开启服务器

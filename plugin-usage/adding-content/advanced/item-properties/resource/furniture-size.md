@@ -1,21 +1,22 @@
-# 家具的尺寸
+# 家具尺寸
 
-## How can I adjust the furniture position when placed?
+## 如何调整放置时的家具位置？
 
-如果你想调整模型,你只需像往常一样使用[Blockbench](creating-3d-models.md)来进行调整:
+如果你想调整家具只需要使用 [Blockbench](creating-3d-models.md) ，并且进行如下操作：
 
 ![](../../../../../.gitbook/assets/immagine%20%289%29.png)
 
-1. 点击右边的**display**
-2. 点击左边的**armorstand icon[盔甲架标志]**
-3. 点击左边的**smile face[笑脸]** \(**head**\)
-4. 把你的模型**移到**盔甲架的**底部**\(它算是**ground[地面]**\)
+1. 点击右上方的 **显示调整**
+2. 点击左边工具栏中的 **笑脸（头部）**
+3. 点击左边工具栏中的 **盔甲架图标**
+4. 将模型 **移动** 至盔甲架 **底部**（此时模型与地面齐平）
 
-### 太小的家具
+### 小型家具
 
-如果你的家具是**太小的话**这是个特性.你想让它**更大的话**,并且有更大的**打击箱**,只要把这个设置为**false**. 
-If you instead want a **small furniture** with small hitbox just set it to true
-如果你想要一个**小的家具**和小的打击箱,只需将其设置为true.
+如果您的家具 **太小**, 但您想要 **更大** 的尺寸和更大的 **碰撞箱**, 只需要将其设置为 **false**.\
+相反地, 如果您想要一个带有 小型碰撞箱 的 **小型家具**, 请设置为 true.
+
+
 {% tabs %}
 {% tab title="Big furniture" %}
 ```yaml
@@ -26,7 +27,7 @@ behaviours:
 {% endtab %}
 
 {% tab title="Small furniture" %}
-```text
+```
 behaviours:
   furniture:
     small_hitbox: true
@@ -34,14 +35,18 @@ behaviours:
 {% endtab %}
 {% endtabs %}
 
-#### and set this is [BlockBench](creating-3d-models.md)
+#### 并在 [BlockBench](creating-3d-models.md) 中进行位置调整
 
 {% tabs %}
 {% tab title="Big furniture" %}
+
+
 ![](../../../../../.gitbook/assets/immagine%20%288%29.png)
 {% endtab %}
 
 {% tab title="Small furniture" %}
+
+
 ![](../../../../../.gitbook/assets/immagine%20%2810%29.png)
 {% endtab %}
 {% endtabs %}

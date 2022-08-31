@@ -1,22 +1,31 @@
 # Scoreboard
 
-## [Download here](https://www.spigotmc.org/resources/scoreboard.14754/)
+## [下载](https://www.spigotmc.org/resources/scoreboard.14754/)
 
-## Compatibility
+## Font image
 
-You can use [font\_images ](../../plugin-usage/adding-content/advanced/font-images/)(emojis and symbols) in the **scoreboard**.
+你可以在 **scoreboard** 中使用 [Font image ](../../plugin-usage/adding-content/font-images/)(例如：表情、特殊符号)
 
-### Example
+### 栗子
 
-`%img_smile%` will show like that:
+`%img_smile%` 将会显示为:
 
 ![](<../../.gitbook/assets/immagine (95).png>)
 
-## Hiding the scoreboard background
+## 隐藏计分板背景
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.
+(适用于所有计分板插件)
 
-You just have to add `%img_offset_-500%` in front of **each line** of your scoreboard configuration.
+### 隐藏前
+
+![](<../../.gitbook/assets/immagine (97).png>)
+
+### 隐藏后
+
+![](<../../.gitbook/assets/immagine (96).png>)
+
+使用Itemsadder的技巧隐藏计分板背景
+只需要在计分板配置的 **每一行** 前面添加 `%img_offset_-500%`即可.
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
@@ -110,10 +119,8 @@ board:
         - '%img_offset_-500%&4------------------------'
 ```
 
-### Before
+## 如何隐藏计分板旁的数字
 
-![](<../../.gitbook/assets/immagine (97).png>)
-
-### After
-
-![](<../../.gitbook/assets/immagine (96).png>)
+{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
+[hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
+{% endcontent-ref %}

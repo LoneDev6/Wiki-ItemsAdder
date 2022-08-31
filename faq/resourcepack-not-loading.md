@@ -1,24 +1,22 @@
 # 📷 资源包无法加载
 
-## 资源包无法加载,我还在聊天栏里发现了报错信息 <a id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+### _资源包无法加载,控制台刷报错_ <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
-* 如果您有 **SkinsRestorer** [请阅读此处](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
-* 请检查您是否有其他的插件加载自定义材质包,如果有请禁用材质包功能,否则ItemsAdder将无法正常应用资源包 \(如果你有了解如何合并材质包,您可以让它们相互兼容,确保不要替换ItemsAdder文件就可以了.ItemsAdder的材质包包文件夹是 `resouce_pack`\)
-* 确保你没有在 `server.properties` 中设置任何资源包链接
-* **MineCraft**限制了材质包的加载大小.在1.14版本的限制是**50MB**.在1.15+版本的限制则是**100MB**.请确保在自动生成材质包之前先解压一下你的音效和材质文件
-* 请确保`你的材质包链接`是一个 **直接** 下载zip文件的链接. 在浏览器上粘贴你的材质包链接 \(Firefox/Chrome\) 然后一定会立即下载,如果你看到有下载按钮的下载页面,那就出现问题了. Resourcepack [托管教程](../plugin-usage/resourcepack-hosting/).
-* 请务必按照所有[教程](../plugin-usage/resourcepack-hosting/)进行操作
-* 如果使用self-host,那么请确保端口已经打开
+* 如果你使用了 **SkinsRestorer** 插件 请阅读[该教程](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
+* 检查是否有其他的插件也使用了 **自定义资源包**，如有请关闭该插件的 **resourcepack**（指的是资源包的自动发送应用） 功能，并且如果你对资源包有一定的了解可以将两个插件的自定义资源进行合并（在不变动itemsadder文件的情况下）
+* 确保没有在 `server.properties` 中设置任何资源包链接
+* **Minecraft** 在 ***Minecraft 1.14**上将服务器资源包的 **大小** 限制至 **50MB**，***Minecraft 1.15+** 将服务器资源包的 **大小** 限制至 **100MB** 请注意资源包大小！
+* 检查所有的 [托管](../plugin-usage/resourcepack-hosting/) 步骤
+* 如果你使用的托管方式为 Self-host 请确保你设置的端口是开放的
+* 使用 `/iainfo` 命令，来确保资源包的 **url** 能够正常下载资源包，将获得的 **url** 复制至浏览器中检查是否能够正常下载 `.zip`文件
 
-## _我的玩家还是看不到材质! 但是我已经按照教程做了_ <a id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+### _我已经按照wiki完成了所有配置，但玩家仍看不见材质_ <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
-有三种方法可以解决这个问题:
+请尝试以下几种修复方法：
 
-* 给你的玩家查看这个链接,也许就解决了 [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)​
-* 如果你还是有问题 从你的**服务器**中**删除**插件,再次添加,然后 **启用材质包**.
-* 如果你还是没有解决的话离开服务器, 找到 **%appdata%/.minecraft/server-resource-packs** 并且 **删除里面任何东西**. 然后再加入服务器.
+* 尝试在服务器界面中重新添加服务器并 **编辑 -> 启用服务器资源包** 如图所示: http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)​
+* 找到你的客户端中的 **/.minecraft/server-resource-packs** 并将 **server-resource-packs** 中的所有文件删除. 接着重新进入服务器
 
 {% hint style="danger" %}
-确保你没使用 **大写英文** 或者 **特殊字符** 在物品的 **物品名称**, **分组**, **材质** \(png\) 和 **模型** \(json\)
+请确保没有在物品的 **名称**, **命名空间**, **材质 (png)** 和 **模型 (json)** 中使用 **大写字母** 或 **特殊字符** 
 {% endhint %}
-

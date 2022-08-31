@@ -1,8 +1,12 @@
-# 无法修改minecraft默认文件
+---
+描述: 编辑默认的 minecraft json 文件以及 predicates.
+---
 
-为了能编辑minecraft默认的json文件,你需要在config.yml中把这个设置设为false
+# 无法编辑 minecraft 的默认文件
+
+如果你想编辑 Minecraft的默认文件
+请在 **ItemsAdder** 的 `config.yml` 中将此设置设置为 `false`
 
 ```yaml
-overwrite-vanilla-models__DISABLE_AT_YOUR_OWN_RISK: false
+overwrite-vanilla-models: false
 ```
-

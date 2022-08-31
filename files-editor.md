@@ -1,12 +1,11 @@
 # 📄 文件编辑器
 
-{% hint style="info" %}
-**Warning**: 该编辑器处于测试阶段,可能会出现不知名BUG,以及缺失部分功能
-{% endhint %}
+## VisualStudio Code 扩展
 
-## 试用效果
+{% embed url="https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode" %}
 
-{% embed url="https://ide.devs.beer/itemsadder/" caption="" %}
+## 在线编辑器
 
-![](.gitbook/assets/image%20%2814%29.png)
+{% embed url="https://ide.devs.beer/itemsadder/" %}
 
+![](<.gitbook/assets/image (14).png>)

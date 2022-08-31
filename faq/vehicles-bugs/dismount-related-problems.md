@@ -1,4 +1,4 @@
-# 拆装的问题
+# 卸载相关问题
 
-似乎与这个Spigot/原版 问题有关: [https://hub.spigotmc.org/jira/browse/SPIGOT-5894](https://hub.spigotmc.org/jira/browse/SPIGOT-5894)
+参阅此链接内容: [https://hub.spigotmc.org/jira/browse/SPIGOT-5894](https://hub.spigotmc.org/jira/browse/SPIGOT-5894)
 

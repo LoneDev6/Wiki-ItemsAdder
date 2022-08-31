@@ -1,40 +1,42 @@
 # 在游戏中转换旧物品/方块
 
 {% hint style="danger" %}
-**建议重新创建一个世界，并且不要使用旧的世界来进行转换.转换器仍是测试阶段**
+**建议重新创建一个世界，并且不要使用旧的世界来进行转换.转换器仍处于测试阶段.**
 {% endhint %}
 
 {% hint style="danger" %}
-这些功能吃服务器性能，启用几天然后再关闭它，避免占用服务器性能使服务器有延迟
+该功能会产生较大延迟，只需要启用一段时间即可关闭该功能，避免造成无意义的性能损耗
 {% endhint %}
 
 ## 如何自动转换您世界中的旧物品
 
-从 ItemsAdder 1.0 更新到 2.0 时，项目都发生了改变，与旧版项目有一定的区别
-（这就是作者编写自动转换的理由）当玩家在世界中打开容器时都会运行此过程 \(这里指的是箱子, 等储存界面.. 并不是玩家的背包\).
+当你将 ItemsAdder 从 1.0 升级至 2.0 你会发现所有的物品都发生了改变，因此这些物品与1.0不同.\
+于是自动转换功能诞生了，每当玩家在世界中打开物品栏（包括箱子，漏斗，等等容器时..）都会自动转换旧版本物品
 
-为了启用此功能，请将 **ItemsAdder 2.0** 中的 `converter.yml` 中属性设置为 true
+为了启用该功能，您必须在 **ItemsAdder 2.0** 的 `converter.yml ` 文件中将属性设置为 true
 
-#### 确保设置为 inventory-open: true
+#### 确保已设置 inventory-open: true
 
-```text
+```
 items-auto-update:
   debug: false
   inventory-open: true
 ```
 
-## 如何自动转换放置在世界中的旧方块
+## 如何自动转换在世界中放置的旧方块
 
-打开 `converter.yml` 文件 并且标注旧的 **model\_id** 以及在Itemadder2.0中新 **分组** 的方块. 具体看下方例子就明白啦！(=ﾟωﾟ)ﾉ
+你需要打开 `converter.yml ` 并且将旧的 **model_id** 映射至 新的 **命名空间:物品名称**
 
-#### 确保设置为 enabled: true
+具体格式为： `"id": "命名空间:物品名称"`
 
-```text
+栗子如下：
+#### 确保已设置 enabled: true
+
+```
 blocks:
   enabled: true
   debug: false
   conversion-map:
-    "物品id" : "分组:新方块"
     "1": "itemsadder:ruby_block"
     "2": "itemsadder:crystal_block"
     "3": "itemsadder:spinel_block"
@@ -63,5 +65,5 @@ blocks:
     "26": "itemsadder:coal_dirt_ore"
     "27": "itemsadder:blaze_powder_ore"
     "28": "itemsadder:nether_alchemy_ore"
+    "id": "命名空间:物品名称"
 ```
-

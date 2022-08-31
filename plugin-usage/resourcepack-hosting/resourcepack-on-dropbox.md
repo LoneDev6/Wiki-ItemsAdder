@@ -1,31 +1,33 @@
-# DropBox托管材质包(需VPN)
+---
+cover: >-
+  ../../.gitbook/assets/Dropbox_(service)-Blue&White-Dark-Background-Logo.wine.svg
+coverY: 0
+---
+
+# 📦 DropBox
 
 ## 视频教程
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
 
-{% hint style="warning" %}
-You **cannot** use **GoogleDrive** and others because they don't provide a **direct download**. **Dropbox does**.
-{% endhint %}
+## 文字教程
 
-## 文本教程
-
-* 打开 [DropBox](https://dropbox.com), 注册/登录
-* 使用指令`/iazip` (**非常重要!**因为使用`/iazip`指令会重新加载配置并会更新**pack.zip**材质文件)
+* 打开 [DropBox](https://dropbox.com/), 进行注册/登录
+* 使用指令 `/iazip` 生成新的资源包
 * 打开文件夹: `plugins/ItemsAdder/data/resource_pack/`
-* **拖\*\***pack.zip**\*\*放**在**DropBox**
-* 点击**Share**
+* 将 **pack.zip** 拖入 **DropBox** 
+* 点击 **Share**
 
 ![](<../../.gitbook/assets/immagine (20).png>)
 
-* 点击**Create**
+* 点击 **Create**
 
 ![](<../../.gitbook/assets/immagine (21).png>)
 
-* 点击**Copy link**
-* 你获得的链接会是 [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
-* 打开**ItemsAdder插件**的 `config.yml`.
-* 像这样设置 (**我使用了例子中的URL,在这请使用你自己的链接**)
+* 点击 **Copy link**
+* 例如，资源包链接为 [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
+* 接着打开 **ItemsAdder** 的 `config.yml`
+* 并进行如下设置 (**url为示例，请填写从Dropbox复制的链接**)
 
 ```yaml
 resource-pack:
@@ -41,20 +43,24 @@ resource-pack:
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-* **这一点非常重要**:你修改了 `config.yml` 后,**一定**要使用`/iareload`指令**重新加载**插件(在这种情况下,请重新加载材质包的下载链接)
-* 你可以**使用指令** `/iatexture` 在游戏里刷新当前的材质包,或者使用 `/iatexture all` 指令,为每个玩家刷新它的材质包
+* 当你更改了 `config.yml` 中资源包的下载链接后，你需要使用 `/iareload` 来重载配置文件
+* 并使用指令 `/iatexture` 来应用最新的资源包，或使用指令 `/iatexture all` 将最新的资源包应用至每个玩家.
 
 {% hint style="danger" %}
-**每次**修改**材质**,3D**模型**,**音效**... 时.请使用`/iazip`指令**重新生成**材质包.然后重新更换材质包在**Dropbox**之后使用**/iareload**指令重载插件.不重载的话,你将不会看到有任何变化.
+当你编辑了任何 **材质**，**模型**，**音效**... 别忘记使用 `/iazip` 来生成最新的资源包， 并将其 **重新上传** 至 **Dropbox** 之后使用 **/iareload** 进行重载配置.
 {% endhint %}
 
 {% hint style="warning" %}
-请在你每次**上传**新版本的材质包时**改变配置文件里的下载链接**.这样玩家就能下载并使用新版本的材质包. 如果你**上传相同的材质包**,并不修改**原来的链接**.就不会更新给每个玩家
+
+在 **每次** 上传 **新的资源包**时,请更改资源包的文件名.使服务器能够强制玩家下载最新版本的资源包
+<br>如果你上传的新资源包名字与之前相同，也未在配置中更改新的资源包链接，玩家将无法更新至最新的资源包.
 {% endhint %}
 
-## 但是这样做太慢了!我不得不在DropBox重新上传材质包!
+## 这太繁琐了，每次更新我都需要重新上传资源包至 Dropbox 
 
-对的,这就是为什么你要使用自搭材质托管而不是DropBox.但是有些(便宜的服务商)并不会提供端口,所以你只能使用DropBox来托管你的材质包.
+使用该托管方法正是如此，所以才建议服主们使用 主机自托管 .
+<br>有些 VPS 并不额外提供端口以至于只能使用第三方平台来进行托管.
+<br>(国内租用的vps基本上都有一定数量的端口提供，所以建议使用主机自托管！！)
 
 {% content-ref url="resourcepack-self-hosting.md" %}
 [resourcepack-self-hosting.md](resourcepack-self-hosting.md)

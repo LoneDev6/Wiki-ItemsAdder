@@ -2,7 +2,7 @@
 
 ## 自定义物品
 
-### 通过 id 或 namespace:id 获取任何类型的自定义物品 \(block, item, hat, food..\)
+### 通过 id 或 namespace:id 获取任何类型的自定义物品 (block, item, hat, food..)
 
 [CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
 
@@ -26,7 +26,7 @@ else
 boolean exists = CustomStack.getInstance("your_item") != null;
 ```
 
-或者你也可以使用**旧方法**
+或者你也可以使用旧方法 如下：
 
 ```java
 ItemsAdder.isCustomItem("your_item");
@@ -38,7 +38,7 @@ ItemsAdder.isCustomItem("your_item");
 CustomStack stack = CustomStack.byItemStack(myItemStack);
 if(stack != null)
 {
-    stack.setUsages(5)//for example set usages
+    stack.setUsages(5)//比如设置 剩余使用次数
 }
 else
 {
@@ -48,14 +48,13 @@ else
 
 ## 自定义方块
 
-#### 检查是否为自定义方块
+#### 判断是否为自定义方块
 
 ```java
 CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
 if(customBlock != null)
 {
     //自定义方块
-
 }
 else
 {
@@ -82,14 +81,14 @@ else
 
 ### 通过 id 或 namespace:id 生成自定义生物
 
-[CustomMob](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
+[CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
 ```java
 CustomMob customMob = CustomMob.spawn("your_item", location)
 if(customMob != null)
 {
     //生成自定义生物
-
+    
     //例如，在控制台显示实体名字
     System.out.println(customMob.getName());
 }
@@ -101,14 +100,14 @@ else
 
 ### 在世界里已生成的怪物中获取自定义怪物
 
-[CustomMob](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
+[CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
 
 ```java
 CustomMob customMob = CustomMob.byAlreadySpawned(entity)
 if(customMob != null)
 {
     //这是一个自定义怪物
-
+    
     //例如，在控制台显示实体名字
     System.out.println(customMob.getName());
 }
@@ -120,7 +119,7 @@ else
 
 ## Liquids API
 
-还请安装插件 [IALiquids](https://www.spigotmc.org/resources/84386) 以获得一些测试水流
+安装 [IALiquids ](https://www.spigotmc.org/resources/84386)附属，获取一些测试水流
 
 ```java
 @EventHandler
@@ -136,4 +135,18 @@ void interact(PlayerInteractEvent e)
     }
 }
 ```
+## 使用 API 更改 HUD 数值
 
+### 在 Frames Hud 设置 float 数值
+```java
+PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
+PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
+hud.setFloatValue(1f);
+```
+
+### 使HUD可见
+```java
+PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
+PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
+hud.setVisible(true);
+```

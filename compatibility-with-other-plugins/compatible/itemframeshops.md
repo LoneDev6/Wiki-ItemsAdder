@@ -3,7 +3,7 @@
 ## [下载](https://www.spigotmc.org/resources/itemframeshops.4667/)
 
 {% hint style="warning" %}
-**限制**  
-需要为每个商店的 ItemsAdder 物品设置价格，因为无法从默认值加载
+**局限性**
+由于无法加载默认值，你需要手动为每个商店中的Itemsadder 物品设置价格
 {% endhint %}
 

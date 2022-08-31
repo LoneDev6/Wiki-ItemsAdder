@@ -1,44 +1,62 @@
-# 👌🏻权限
+# 👌 权限
 
-* 玩家
+*   玩家
 
-  * /ia
-    * `ia.user.ia`
-  * /iarecipe
-    * `ia.user.iarecipe`
-  * /iatexture \(强行给自己装上材质包\)
-    * `ia.user.iatexture`
-  * /iatexture all \(强行对每个玩家装上材质包\)
-    * `ia.user.iatexture.all`
-  * 合成
-    * `ia.user.craft.PERMISSION` \(或者如果你要给所有的合成权限,只需使用 ia.user.craft.\*\)
-    * 关于物品权限的更多信息,请[阅读这里](../adding-content/advanced/item-properties/basic/item-permission.md)
-  * 查看物品在/ia
-    * `ia.user.ia.PERMISSION` \(或者要给所有类型权限,只需使用 ia.user.ia.\*\)
-    * 关于物品权限的更多信息,请[阅读这里](../adding-content/advanced/item-properties/basic/item-permission.md)
-    * `ia.user.iasearchgui` 用于/ia菜单中的搜索GUI
-    * 你也可以为每个类型设置一个权限,请查看[/ia GUI ](../ia.md)页面
-  * 表情 \(图像/字体\)
-    * **/iaimage /emoji, /iaemoji, /e** 书GUI \(显示一本带有表情/图像的书\)
-      * `ia.user.image.gui`
-    * **/iaimage** **/emoji &lt;text&gt;, /iaemoji &lt;text&gt;, /e &lt;text&gt;** \(根据搜索词来显示带有表情的标签\)
-      * `ia.user.image.hints`
-    * 在聊天中使用表情
-      * `ia.user.image.chat`
-    * 在输入命令时使用表情
-      * `ia.user.image.command`
-    * 在告示牌使用表情
-      * `ia.user.image.sign`
-    * 在书中显示表情
-      * `ia.user.image.book`
-    * 在铁砧重命名时使用表情
-      * `ia.user.image.anvil`
-    * 允许使用表情符号
-      * `ia.user.image.use.<图像名称>`
-      * 比如: `ia.user.image.use.heart`
+    * /ia
+      * `ia.user.ia`
+    * /iarecipe
+      * `ia.user.iarecipe`
+    * /iatexture (强制加载资源包)
+      * `ia.user.iatexture`
+    * /iatexture all (强制所有人加载资源包)
+      * `ia.user.iatexture.all`
+    * 使用物品合成配方
+      * `ia.user.recipe.PERMISSION` (如果需要给予全部物品合成权限,请给予权限 `ia.user.recipe.*`)
+      * 关于权限的更多信息,请[查阅此处](../adding-content/item-properties/basic/item-permission.md)
+    * 使用 `/ia` 物品显示
+      * `ia.user.ia.seeitem.PERMISSION` (若你需要给予查看全部物品的权限,请给予权限 `ia.user.ia.seeitem.*`)
+      * 关于更多物品的权限,请[查阅此处](../adding-content/item-properties/basic/item-permission.md)
+      * `ia.user.ia.search` 可以查询 `/ia` 中的物品
+      * 可按分类来给予权限,详细查阅[/ia GUI ](../ia.md)
+    * 表情 (font图像)
+      * **/iaimage /emoji, /iaemoji, /e** Gui (即可显示全部 `表情&图像` 的书本界面)
+        * `ia.user.image.gui`
+      * **/iaimage** **/emoji \<text>, /iaemoji \<text>, /e \<text>** (可根据搜索显示出带有表情的列表)
+        * `ia.user.image.hints`
+      * 使用 **表情** 在 **聊天栏** 中
+        * `ia.user.image.chat`
+      * 使用 **表情** 在 **指令** 中
+        * `ia.user.image.command`
+      * 使用 **表情** 在 **告示牌** 中
+        * `ia.user.image.sign`
+      * 使用 **表情** 在 **书** 中
+        * `ia.user.image.book`
+      * 使用 **emojis** 在 **铁砧** 重命名栏
+        * `ia.user.image.anvil`
+      * 使用 **表情**
+        * `ia.user.image.use.<font image name>`
+        * 栗子: `ia.user.image.use.heart`
+      * 使用 **text-effects** 在 **聊天栏** 中
+        * `ia.user.text_effect.chat`
+      * 使用 **text-effects** 在 **提示牌** 中
+        * `ia.user.text_effect.sign`
+      * 使用 **text-effects** 在 **书** 中
+        * `ia.user.text_effect.book`
+      * 使用 **text-effects** 在 **铁砧** 重命名栏
+        * `ia.user.text_effect.anvil`
+      * 使用 **text-effect**
+        * `ia.user.text_effect.use.<effect>`
+        * 栗子 ([此为列表](../text-effects-1.17+.md)):
+          * `ia.user.text_effect.use.r`
+          * `ia.user.text_effect.use.rw`
+    * 动作表情 ([<mark style="color:blue;">玩家动作表情</mark>](../adding-content/player-emotes/))
+      * 使用动作表情指令的权限: `ia.user.iaemote`
+      * 使用动作表情: `ia.user.iaemote.use.<emote>`
+      * 栗子:
+        * `ia.user.iaemote.use.yes`
+        * `ia.user.iaemote.use.*`
 
-  ​
-
+    ​
 * 管理员
   * /iaget
     * `ia.admin.iaget`
@@ -50,43 +68,46 @@
     * `ia.admin.iaremove`
   * /iatag
     * `ia.admin.iatag`
+  * /iacustommodeldata
+    * `ia.admin.custommodeldata`
   * /iareload
     * `ia.admin.iareload`
   * /iazip
     * `ia.admin.iazip`
-  * /iablock _\(获得关于你在看的方块的信息\)_
+  * /iablock _(获得你正在查看的方块信息）_
     * `ia.admin.iablock`
-  * /ialiquid _\(获得关于你在看的自定义水的信息\)_
+  * /ialiquid _(获得你正在查看的液体信息)_
     * `ia.admin.ialiquid`
   * /iadurability
     * ia.admin.iadurability
-  * 编辑权限 \(编辑按钮在/ia中\)
+  * 修改权限 (修改/ia中的按钮)
     * `ia.admin.edit`
-  * /iaplayerstat write _\(显示一个玩家的自定义统计\)_
+  * /iaplayerstat write _(修改玩家的Ia数据)_
     * `ia.admin.iaplayerstat.write`
-  * /iaplayerstat read _\(读取一个玩家的自定义数据\)_
+  * /iaplayerstat read _(读取玩家Ia数据)_
     * `ia.admin.iaplayerstat.read`
-  * /iainfo \(获取关于该插件的信息\)
+  * /iainfo (获得Ia相关消息)
     * `ia.admin.iainfo`
-  * /iakill &lt;mob\|all&gt; \(杀死自定义怪物\)
+  * /iakill \<mob|all> (杀死Ia怪物)
     * `ia.admin.iakill`
-  * /iasummon &lt;mob&gt; \[数量\]
+  * /iasummon \<mob> \[amount]
     * `ia.admin.iasummon`
-  * /iaexport &lt;namespace&gt;
+  * /iaexport \<namespace>
     * `ia.admin.iaexport`
-  * /iaspawntree &lt;tree&gt;
+  * /iaspawntree \<tree>
     * `ia.admin.iaspawntree`
-  * /iaplaytotemanimation &lt;totem&gt; &lt;player&gt;
+  * /iaplaytotemanimation \<totem> \<player>
     * `ia.admin.iatotemanimation`
-  * /iaplaysound &lt;sound&gt; &lt;player&gt;
+  * /iaplaysound \<sound> \<player>
     * `ia.admin.iaplaysound`
   * /iacleancache
     * `ia.admin.iacleancache`
-  * /iahitbox \(显示放置的家具的破坏框\)
+  * /iahitbox (显示家具的碰撞箱)
     * `ia.admin.iahitbox`
-* 其他:
-  * 绕过接收资源包
+  * [/iaconfig](../commands/iaconfig.md)
+    * ia.admin.iaconfig
+* 其他：
+  * 无视强制加载资源包（不加载资源包会被服务器踢出）
     * `ia.resourcepack.bypasskick`
-  * 绕过玩家放置的方块不能掉落物品
+  * 无视玩家放置的方块无法掉落
     * `ia.admin.bypassblockplaceloot`
-

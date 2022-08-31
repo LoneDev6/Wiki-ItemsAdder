@@ -1,7 +1,7 @@
-# Towny vehicles bug
+# Towny 中的载具bug
 
 {% hint style="warning" %}
-如果你的车辆有问题,并且你安装了Towny插件,请打开config.yml,然后在这里删除Slime:
+如果你使用了 **Towny** 插件并且 载具功能出现问题，请打开 **Towny** 的 `config.yml` 并且进行如下设置：
 {% endhint %}
 
 ```yaml

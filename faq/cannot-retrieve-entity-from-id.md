@@ -1,6 +1,6 @@
-# 无法从ID中找到实体
+# Cannot retrieve entity from ID
 
-请尝试安装最新版本的ProtocolLib [http://ci.dmulloy2.net/job/ProtocolLib%20Gradle/lastStableBuild/artifact/build/libs/ProtocolLib.jar](http://ci.dmulloy2.net/job/ProtocolLib%20Gradle/lastStableBuild/artifact/build/libs/ProtocolLib.jar)​
+修复该问题只需要安装最新版本的 [ProtocolLib](http://ci.dmulloy2.net/job/ProtocolLib%20Gradle/lastStableBuild/artifact/build/libs/ProtocolLib.jar)​
 
 ```text
 [ItemsAdder] Unhandled exception occured in onPacketReceiving(PacketEvent) for ItemsAdder

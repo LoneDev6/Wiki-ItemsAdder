@@ -1,55 +1,69 @@
-# 盔甲材质
+---
+描述: 手动编辑 Optifine 来创建自定义盔甲材质
+---
 
-如果你想为盔甲添加自定义材质而不仅仅是自定义颜色,你可以配合**Optifine**来实现.
+# 自定义盔甲材质(旧方法)
 
-### 下载[示例插件](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
+## 在 1.16 中自定义盔甲材质 (或更低版本)
 
-## 自定义材质盔甲的栗子
+如果你想为盔甲添加自定义材质而不仅仅是自定义颜色,你可以配合 **Optifine** 来实现.
+
+### 如果你想要使用自动创建请参阅该教程
+
+{% content-ref url="../armors/" %}
+[armors](../armors/)
+{% endcontent-ref %}
+
+## 自定义盔甲材质 (手动)
+
+### [下载该附属](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
 
 ![](<../../../.gitbook/assets/image (22).png>)
 
 ![](<../../../.gitbook/assets/image (23).png>)
 
-### 第一步
+### 步骤 1
 
-请创建你的**自定义分组** (如果你还没有创建),请[查看这个教程](../beginners/creating-your-namespace.md).\
-在这个教程里,我的**自定义**分组为`mystuff`.
+创建你的 **命名空间** (如果还未创建), [ 参阅该教程](../basic-concepts/namespace/creating-your-namespace.md).\
+在该示例中 **命名空间** 名为 `mystuff`
 
-### 第二步
+### 步骤 2
 
-把你为**物品**创建的**材质**放到文件:`plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`里
+在 `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1` 中放入 自定义盔甲的物品材质.
 
 ![](<../../../.gitbook/assets/image (24).png>)
 
-### 第三步
+### 步骤 3
 
-为**穿上的装备**套上一个**材质** (当玩家穿戴它时).你可以从这里得到一个**示例**:\
+为 **盔甲** 创建 **自定义材质** . 你可以在下方路径中获取一个 **模板** :\
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`\
 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
 
-按照你想要的效果**修改**这个**材质**(使用Paint.NET, Photoshop, GIMP或类似的软件)并保存为`layer_1.png`和`layer_2.png`
+使用图像编辑软件 **制作** 你的自定义盔甲 **材质贴图** 并保存为文件，例如：`layer_1.png` 和 `layer_2.png`&#x20;
 
-### 第四步
+### 步骤 4
 
-创建`optifine`文件,我们要为**穿戴盔甲**提供**材质**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`
+创建 `optifine` 文件夹，我们将在 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine` 路径中加入自定义盔甲的材质贴图
 
 {% hint style="warning" %}
-你**必须**在`minecraft`文件下创建这个文件,你**不能**把`optifine`文件创建在**物品配置**下面(在这个栗子里是`mystuff`),这是optifine的一个限制.
+使用 optifine 导入自定义盔甲有一个限制：.\
+你 **必须在 `minecraft` 文件夹中创建 `optifine` 文件夹**，你不能在 **命名空间** 中（在本示例中为 `mystuff`）创建 `optifine` 文件夹，因为optifine无法进行读取.
 {% endhint %}
 
-### Step 5
+### 步骤 5
 
-现在把之前创建的**纹理**(`layer_1.png`和`layer_2.png` )放在这个文件里:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+现在将之前制作的 **盔甲材质贴图**(`layer_1.png` and `layer_2.png` ) 放入 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
 
-现在你的文件里是这样的:
+现在应该拥有如下文件:
 
 ![](<../../../.gitbook/assets/image (25).png>)
 
-### Step 6
+### 步骤 6
 
-**创建**该文件在: **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties**内创建`plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+在 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity` 文件夹中 **创建** 下列文件:
+<br> **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties**
 
-每个文件都必须包含这个.properties文件:
+每个文件都必须包含下列内容：
 
 ```elixir
 nbt.itemsadder.namespace=mystuff
@@ -61,19 +75,26 @@ texture.diamond_layer_1=layer_1
 texture.diamond_layer_2=layer_2
 ```
 
-对于每一个`.properties`文件,你必须**改变第1行**.把第一行设置为**你的分组名称**,而不是"mystuff",**第二行**是你的**物品ID**,**第五行**是**物品类型**(`diamond_leggings` , `diamond_boots` ....)
+对于每个 `.properties` 文件，你应该更改文件中的配置：
+`nbt.itemsadder.namespace` ：为盔甲的命名空间
+`nbt.itemsadder.id` ： 为盔甲的ID
+`items` ：为盔甲的部件(`diamond_leggings` , `diamond_boots` ....)
+`texture.diamond_layer_X` ：为盔甲的自定义材质
 
-现在你的文件里应该是这样的:
+现在应该拥有如下文件:
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-### 第七步
 
-**创建一个文件**里面包含这个自定义盔甲的配置文件.把它命名为**example\_1.yml**,并把它**放在**在你的分组里,这个例子放在: `plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`
 
-### Step 8
+### 步骤 7
 
-在**yml文件**中添加配置文件.如你们所见,我决定拿Minecraft的DIAMOND盔甲作为基础,无需任何修改,Optifine将会自动给它套上材质.
+创建 **.yml**文件 来配置该自定义盔甲，将其命名为  **example_1.yml** 并放在命名空间的文件夹下.\
+该示例的路径为：`plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`
+
+### 步骤 8
+
+**添加内容** 至 **.yml** 文件中.如配置所示，我将盔甲的 **源材质** 设置为 钻石盔甲，但并没有指定任何颜色，因为使用 optifine 会自动为其应用材质.
 
 ```yaml
 info:
@@ -154,7 +175,8 @@ items:
 ## 提醒:
 
 {% hint style="warning" %}
-如果你要**创建另一个包含其他装备的分组**.**强烈推荐**你写的和我写的栗子结构**相同**,以避免出现**错误**.
-
-比如,如果你创建了一个新的分组,命名为`space_armors`.你会有这样的**optifine**文件:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`
+如果你要创建另一个包含其他装备的命名空间.强烈推荐模仿栗子的结构尽量使其相同,以避免出现错误.
+\
+例如，你创建了一个名为 `space_armors` 的新命名空间，
+在 **optifine** 中你会有  `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors` 这样的文件夹.
 {% endhint %}

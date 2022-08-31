@@ -1,18 +1,22 @@
-# 修改/ia菜单
+---
+描述: /ia 菜单设置
+---
 
-## 界面设置和"All"类别
+# 📃 合成菜单
 
-ia\_gui.yml 包括与 `/ia` 指令的菜单相关的设置.  
-也包括"All"类别的选项来显示所有ItemsAdder的物品
+## 菜单设置和“全部”类别
+
+`ia_gui.yml` 文件中包含有关 `/ia`  GUI 的设置.\
+并且包含 ItemsAdder 的所有分类 以及显示 **"all（全部）"** 物品 
 
 {% hint style="info" %}
-默认的类型设置可以在以下目录里找到：`plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+默认的Itemsadder资源包分类配置位于: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 {% endhint %}
 
-## 创建自定义类型
+## 创建一个自定分类
 
-如果你想创建一个子类项的类型,你需要把这部分内容添加到你自己写好的 .yml 文件中 [命名空间](adding-content/beginners/basic-concepts/namespace.md).  
-这是个栗子:
+如果你想创建一个自定的分类，你需要添加一个新的yml文件至你的[命名空间]中(adding-content/basic-concepts/namespace/).\
+栗子:
 
 ```yaml
 info:
@@ -23,11 +27,11 @@ categories:
     icon: "itemsadder:ruby_head"
     name: 'Armors'
     permission: "ia.menu.armors"
-    #THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    #[可选设置] 如果未设置，将会以 `ia_gui.yml` 为中的设置为默认设置
     font_image:
       name: "mcguis:blank_menu"
       x_position_pixels: -16
-    #THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    #[可选设置]. 如果未设置，将会以 `ia_gui.yml` 为中的设置为默认设置
     title_position_pixels: 0
     items:
       - "itemsadder:ruby_sword"
@@ -40,19 +44,18 @@ categories:
       - "itemsadder:spinel_legs"
 ```
 
-如果你想让玩家在菜单中看到这一类型,记得给他们权限.比如： **ia.menu.armors**
+如果你想玩家只能查看某些分类，只需要给予相应的分类权限即可（该权限在分类中设置（见上述配置））.\
+权限栗子: **ia.menu.armors**
 
 {% hint style="info" %}
-**font\_image and title\_position\_pixels are optional.**  
-Plugin will take the one in `ia_gui.yml` if not set.
-{% endhint %}
+**font\_image and title\_position\_pixels are optional.**\
+****如果未设置，将会以 `ia_gui.yml` 为中的设置为默认设置
 
-{% hint style="info" %}
-**font\_image and title\_position\_pixels are optional.**  
-Plugin will take the one in `ia_gui.yml` if not set.
+此设置能够帮助你为每个分类设置不同的背景
 {% endhint %}
 
 {% hint style="success" %}
-**相同名字类型**即便命名空间不同,**也会被合并**,当你给两个文件都设置类型名为“Sword”,那么在**/ia**打开的菜单中,你会在Sword这一类型里看到两个文件中写的物品.
-{% endhint %}
 
+当 **分类** 不相同 但具有 **相同的名称** 的物品 **将会被合并在一起**
+假如你有两种关于“剑”的分类（sowrd1,sword2）.在你使用**/ia**打开菜单时可以查看到自动合并在一起的分类，而非两种不同的分类
+{% endhint %}

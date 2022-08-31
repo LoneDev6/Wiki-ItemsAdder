@@ -1,8 +1,8 @@
-# 方块粒子没有播放
+# 方块粒子无法播放
 
-* close your game
-* open the game folder \(should be in `%appdata%\.minecraft\` \)
-* open `options.txt`
-* set `particles:0`
-* start the game
+* 关闭客户端
+* 打开客户端中的.minecraft
+* 找到并打开 `options.txt`
+* 设置 `particles:0`
+* 开启游戏
 

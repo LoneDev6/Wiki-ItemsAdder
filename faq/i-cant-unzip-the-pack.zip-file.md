@@ -1,13 +1,18 @@
-# 我无法解压pack.zip
+# 无法解压 pack.zip 资源包
 
-{% hint style="info" %}
-尝试在config.yml中关闭这个功能
+在设置中关闭资源包保护
 
+{% code title="config.yml" %}
 ```yaml
-zip:
-  protect-file-from-unzip__DISABLE_IF_ANY_PROBLEM: false
+  zip:
+    protect-file-from-unzip:
+      enabled: false
+      extreme: false
 ```
+{% endcode %}
 
-这是保护压缩文件不被解压的功能. 关闭时要注意,如果你不保护你的材质,那每个人都可以解压你的材质包.
+{% hint style="danger" %}
+这是保护 zip 文件免于解压缩的选项
+该属性能够防止资源包被解压，防止别人窃取你的劳动成果.\
+<br>请慎重关闭该属性，关闭后资源包将不受防解压保护.
 {% endhint %}
-

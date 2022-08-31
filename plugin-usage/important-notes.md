@@ -1,16 +1,19 @@
-# ⚠️ 重要说明
+# ⚠ 重要提醒
 
-## Mipmap 问题 \(和材质大小相关\)
+## Mipmap 错误 (材质大小相关)
 
 {% hint style="warning" %}
+在材质文件的尺寸不为2的倍数时，Minecraft有一个bug会使mipmap自动关闭，所以在贴图尺寸问题上大家要注意啦！！
 
-如果你的材质图片大小不是偶数,Minecraft 会禁用 mipmap 功能.
+### 在此处阅读有关如何避免此问题的更多信息：
+{% endhint %}
 
-### 点击下方访问更多相关信息:
+{% content-ref url="../faq/i-see-crisp-textures-far-away.md" %}
+[i-see-crisp-textures-far-away.md](../faq/i-see-crisp-textures-far-away.md)
+{% endcontent-ref %}
 
 ### 文件名和物品名
 
 {% hint style="danger" %}
-物品名\(即配置文件中的**names**\),命名空间\(即配置文件中的**namespaces**\),材质文件名（比如:**png**）,模型文件名\(比如:**json**\)以上均**不**要使用**大写字母**或者是**特殊字符**
+请确保你没有使用任何 **大写字符** 以及 **特殊字符** 在物品的 **名称**, **命名空间**, 贴图文件（**png**）以及 **模型**文件（**json**）
 {% endhint %}
-

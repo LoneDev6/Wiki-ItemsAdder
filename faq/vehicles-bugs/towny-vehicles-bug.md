@@ -1,25 +1,18 @@
-# 不能聊天和不能移动
+# 无法在聊天中发送消息以及无法移动
 
 ## Worldguard
 
-如果遇到你的车辆被窃盗的话 \(奇怪的Bug\) 请打开WorldGuard的config.yml,设置这个:
+当你在使用载具时遇到一些bug (载具塌陷至地下或一些奇怪的错误) 
+打开 Worldguard 的 config.yml 并且进行如下设置:
 
-```text
-block-plugin-spawning: false
 ```
-
-## Worldguard
-
-If you experience bugged vehicles \(get tipped under world and strange bugs like that\) please open config.yml of WorldGuard and set this:
-
-```text
 block-plugin-spawning: false
 ```
 
 ## Towny
 
 {% hint style="warning" %}
-如果你的车辆有问题,而你使用了Towny插件.打开Towny的config.yml,在这里删除Slime:
+当载具出现问题时，刚好服务器有使用 Towny 插件，请打开 Towny 的 config.yml 并从该属性中删除 `Slime`：
 {% endhint %}
 
 ```yaml
@@ -28,14 +21,13 @@ town_mob_removal_entities: Monster,Flying,Shulker,SkeletonHorse,ZombieHorse
 
 ## Mob Farm Manager
 
-如果你使用 [Mob Farm Manager ](https://www.spigotmc.org/resources/mob-farm-manager-supports-1-7-10-up-to-1-16-hopper-support.15127/)插件请确保检查是否设置了任何实体类型的**SLIME**,这可能会删除作为车辆一部分的SLIME,才导致会发生报错
-
+如果你使用了 [Mob Farm Manager ](https://www.spigotmc.org/resources/mob-farm-manager-supports-1-7-10-up-to-1-16-hopper-support.15127/)
+请确保你没有设置任何有关 **SLIME** 实体类型的规则，这将会导致插件移除作为载具一部分的史莱姆而导致错误.
 ## Residence
 
-使用指令 `/res set monsters t/r` 在你的 **领地**.  
-我已经联系了Residence开发者,我希望[他们能解决这个问题](https://github.com/Zrips/Residence/issues/469#issuecomment-801425643)
+在**Residence**中使用命令`/res set monsters t/r`.\
+目前已经与 Residence 开发者协商 [修复该问题](https://github.com/Zrips/Residence/issues/469#issuecomment-801425643)
 
-## 其他怪物限制/分组怪物/合并怪物插件
+## 其他有关 怪物 移除/分组/合并 的插件
 
-请删除实体类型**SLIME**的任何分组怪物/合并怪物/怪物限制功能.
-
+请移除有关 **怪物 移除/分组/合并** 中具有 **SLIME** 实体类型的词条.

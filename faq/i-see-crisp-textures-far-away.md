@@ -1,18 +1,19 @@
-# 无法看清远处的材质
+# 无法看清远处材质（模糊、锯齿）
 
 {% hint style="warning" %}
-如果你在远处看到点状而不是平滑的材质,这个是资源包制作的常见问题.  
-Minecraft有一个特性,如果你设置的材质的大小不是2的倍数的话,就会关闭Mipmap功能
+如果你看远处时出现点状且不平滑的材质，问题出在资源包制作上
+当材质尺寸大小不为2的倍数，Minecraft 将会自动关闭 mipmap
 {% endhint %}
 
-![&#x5DE6;&#x8FB9;:&#x65E0;mipmap &#x53F3;&#x8FB9;:&#x6709;mipmap](../.gitbook/assets/image%20%2819%29.png)
+![左：没有 mipmap 右：使用 mipmap](<../.gitbook/assets/image (19).png>)
 
-## **如何去修复?**
+## **如何修复?**
 
-有手就行!来按下面设置:
+根据下列步骤进行操作:
 
-* 打开你的Minecraft客户端日志页面, **不是服务器** 日志 \(通常它在 `%appdata%\.minecraft\logs\latest.log` 如果没有,请在文件内搜索 `%appdata%\.minecraft\logs\`\)
-* 搜索此行 `limits mip level`
-* 识别问题材质,例如 `Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1`
-* 修复材质.想要修复它,你要把它的大小调整为:16x16, 32x32, 64x64, 128x128, 256x256, 当然你要选择其中之一
+* 打开Minecraft 客户端的日志（logs）文件  **不是服务器的日志文件！** 
+* ctrl+f 查找 `limits mip level`
+* 检查有问题的材质，例如：`Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1` 中的 `mcicons:item/icon_toggle_off`
+* 修复材质，将材质尺寸调整为以下大小：16x16、32x32、64x64、128x128、256x256 ...
 
+完成!

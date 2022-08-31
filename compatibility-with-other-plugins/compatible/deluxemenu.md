@@ -6,9 +6,9 @@
 nbt_int: CustomModelData: 1
 ```
 
-是填写自定义项目的 **CustomModelData** 而不是固定为 1（这里只是一个例子）
+其中的 1 请填写你自定义物品的 **CustomModelData** 
 
-## 如何获取 CustomModelData 值？
+### 如何获取 CustomModelData 值？
 
-手持ia物品的同时使用命令 `/iatag`，然后搜索 `CustomModelData` 值。
+手持ia物品的同时使用命令 `/iatag` ，然后搜索 `CustomModelData` 值.
 

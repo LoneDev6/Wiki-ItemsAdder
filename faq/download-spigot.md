@@ -1,12 +1,18 @@
-# Download Spigot
+# 下载 Spigot 核心
 
-## 如何下载Paper服务器核心 \(Spigot的代替\)
+## Paper 核心下载
 
-{% embed url="https://papermc.io/downloads" caption="" %}
+{% embed url="https://papermc.io/downloads" %}
 
-## 如何下载spigot服务器核心
+## 如何下载 Spigot 核心
 
-查看下面的视频:
+观看此教程:
 
-{% embed url="https://www.youtube.com/watch?v=VzZcgnWJSEg" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=VzZcgnWJSEg" %}
+
+## Purpur 核心下载
+
+{% embed url="http://purpur.pl3x.net" %}
+
+
 

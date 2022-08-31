@@ -1,31 +1,32 @@
 # TrMenu
 
-## Plugin download
+### 下载插件
 
-{% embed url="https://www.spigotmc.org/resources/trmenu-premium-modern-advanced-menu-plugin-1-8-1-16.83120/" caption="" %}
+{% embed url="https://www.spigotmc.org/resources/trmenu-premium-modern-advanced-menu-plugin-1-8-1-16.83120/" %}
 
-## How to use ItemsAdder items in the GUIs
+### 如何在菜单中使用Itemsadder自定义的物品
 
-{% embed url="https://trmenu.trixey.cc/menu/icon/display/cai-zhi\#itemsadder" caption="" %}
+{% embed url="https://trmenu.trixey.cc/menu/icon/display/cai-zhi#itemsadder" %}
 
 ```yaml
 material: 'source:ITEMADDER:itemId'
 material: 'source:IA:anotherItemId'
 ```
 
-## How to retexture the GUI background
+### 如何在菜单中使用自定义背景（fontimage）
 
 ```yaml
 Title: '%img_offset_-16%%img_blank_menu%'
 ```
 
 {% hint style="warning" %}
-PlaceholderAPI is required!
+PlaceholderAPI 为必要前置
 {% endhint %}
 
-Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%`by **16** pixels.
+`%img_offset_-16%` 的含义为：将图像 `%img_blank_menu%` 向后偏移 **16** 个像素.
 
-Read more here:
+更多详情参阅:&#x20;
 
-{% page-ref page="../../plugin-usage/placeholderapi.md" %}
-
+{% content-ref url="../../plugin-usage/placeholderapi.md" %}
+[placeholderapi.md](../../plugin-usage/placeholderapi.md)
+{% endcontent-ref %}
