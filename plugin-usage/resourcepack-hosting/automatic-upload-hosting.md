@@ -8,7 +8,9 @@
 
 **ItemsAdder** allows you to automatically upload your resourcepack on a **free online service** with servers all over the world.
 
-Thanks a lot to [PloudOS ](https://ploudos.com/it/)which privides me their platform to host your resourcepacks for free!
+Thanks a lot to [PloudOS ](https://ploudos.com/it/)which provides me their platform to host your resourcepacks for free!
+
+{% embed url="https://ploudos.com/" %}
 
 ## What are the advantages?
 
