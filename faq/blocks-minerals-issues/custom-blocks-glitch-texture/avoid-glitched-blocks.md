@@ -131,9 +131,9 @@ Another solution is to avoid using `REAL` custom blocks type (mushroom) and use 
 
 Enable these options in **purpur.yml** configuration:
 
-* [https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates](https://purpur.pl3x.net/docs/Configuration/#disable-mushroom-updates)
-* [https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates](https://purpur.pl3x.net/docs/Configuration/#disable-note-block-updates)
-* [https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates](https://purpur.pl3x.net/docs/Configuration/#disable-chorus-plant-updates)
+* [https://purpurmc.org/docs/Configuration/disable-mushroom-updates](https://purpurmc.org/docs/Configuration/disable-mushroom-updates)
+* [https://purpurmc.org/docs/Configuration/disable-note-block-updates](https://purpurmc.org/docs/Configuration/disable-note-block-updates)
+* [https://purpurmc.org/docs/Configuration/disable-chorus-plant-updates](https://purpurmc.org/docs/Configuration/disable-chorus-plant-updates)
 
 **Example:**
 
