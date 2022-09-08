@@ -287,10 +287,16 @@
 * [📔 Support](other/support/README.md)
   * [🐞 Report a bug](other/support/report-a-bug.md)
   * [📕 Ask for help](other/support/ask-for-help.md)
-* [🖥 Cheap Minecraft Hosting](other/cheap-minecraft-hosting.md)
 * [⚡ Optimize Minecraft client](other/optimize-minecraft-client/README.md)
   * [1.18.1](https://blog.devs.beer/blog/optimize-minecraft)
   * [1.17.1](other/optimize-minecraft-client/optimize-minecraft-1.17.md)
+* [🖥 Cheap Minecraft Hosting](other/cheap-minecraft-hosting.md)
+
+## ☮ legal
+
+* [⛔ TOS](legal/tos.md)
+* [🆘 Support Team Policy](legal/support-team-policy.md)
+* [🖌 Addon Creation Policy](legal/addon-creation-policy.md)
 
 ## OLD
 
