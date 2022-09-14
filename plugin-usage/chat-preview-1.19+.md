@@ -6,10 +6,8 @@ description: Preview chat messages before they are sent
 
 ## Chat preview
 
-ItemsAdder **3.2.0c** allows you to enable the 1.19+ chat preview feature of Minecraft.
-
 {% hint style="danger" %}
-### This feature works only on **Minecraft 1.19** client, it also wasn't tested on old servers.
+### This feature works only on **Minecraft 1.19+** clients.
 {% endhint %}
 
 ### Announcement shown to the player on join
@@ -31,12 +29,3 @@ Open `config.yml` of ItemsAdder and set this option, then run `/iareload` and jo
 chat-preview: true
 ```
 {% endcode %}
-
-{% hint style="warning" %}
-### Warning
-
-<mark style="color:red;">The</mark> <mark style="color:red;"></mark><mark style="color:red;">`chat-preview`</mark> <mark style="color:red;"></mark><mark style="color:red;">setting disables messages signature!</mark>\
-Do not use `chat-preview` if you need messages signature (which is a 1.19+ new feature).
-
-This might be changed in the future, for now it's not possible to have both chat-preview and messages signature enabled at the same time, it's a Spigot limitation I can't bypass.
-{% endhint %}

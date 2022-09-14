@@ -5,7 +5,7 @@ description: Terms and Conditions for IA
 # ⛔ TOS
 
 {% hint style="danger" %}
-## **Before Buying Remember:**
+### **Before Buying Remember:**
 
 * ⛔ **If you have another plugin that uses a custom resourcepack you have to know how to merge it with ItemsAdder resourcepack or disable the other plugin.**
 * ⛔ **Before asking for support, please read the tutorials**: [**official wiki**](https://itemsadder.devs.beer/)
@@ -45,8 +45,8 @@ You can sell **custom packs, textures, and configs...** make sure to read the [a
 
 ### Bugs & Issues & Support
 
-If you have any problems **do not leave one-star review.** \
-I can fix bugs only if you contact me. \
+If you have any problems **do not leave one-star review.**\
+I can fix bugs only if you contact me.\
 Check the [FAQ](https://itemsadder.devs.beer/faq) for more info.\
 For support requests just [click here](https://itemsadder.devs.beer/support/) (please be sure to read tutorials before asking for help)\
 If you are contacting support please read the [support team policy](support-team-policy.md)\
