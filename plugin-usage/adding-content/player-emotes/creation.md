@@ -51,7 +51,7 @@ Open the file `player.iaentitymodel` using Blockbench, you can find this file af
 
 You can notice a lot of example animations on the left.
 
-![](<../../../.gitbook/assets/image (51).png>)
+![](<../../../.gitbook/assets/image (51) (3).png>)
 
 ### Creating your own animations file
 
