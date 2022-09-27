@@ -52,7 +52,7 @@ Do this operation only on a local test server on your PC so you won't make mista
 * Create a **new** folder named **pack** inside **ItemsAdder\_old**&#x20;
 * Extract the exact **CONTENT** of your old resourcepack **.zip** file inside the new folder **pack**
 
-![](<../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1) (1).png>)
 
 ## Step 4 - Prepare new ItemsAdder 2.0
 
