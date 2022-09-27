@@ -21,16 +21,13 @@ Then edit the layers settings to use a custom block, in this example the custom 
 "layers": [
     {
         "minHeight": 1,
-        "maxHeight": 1,
-        "slopeCondition": {
-            "minimumSlope": 0,
-            "maximumSlope": 2.6
-        },
-        "palette": [
-            {
-                "block": "itemsadder:amethyst_block"
-            }
-        ]
+        "maxPerChunk": 21,
+        "maxHeight": 80,
+        "minPerChunk": 7,
+        "minSize": 3,
+        "maxSize": 7,
+        "palette": [{ "block": "iasurvival:cassiterite_ore" }],
+        "varience": 7
     },
 ```
 
