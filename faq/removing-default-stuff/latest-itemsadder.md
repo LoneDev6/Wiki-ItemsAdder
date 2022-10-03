@@ -1,5 +1,5 @@
 ---
-description: ItemsAdder before 3.2.0
+description: ItemsAdder since 3.2.0
 ---
 
 # 🗑 Latest ItemsAdder
@@ -17,14 +17,17 @@ Open plugins/ItemsAdder/data/items\_packs/ folder and delete the folders/files y
 
 ### Deleting models, textures and other assets
 
-Open plugins/ItemsAdder/data/resource\_pack/data/ folder and delete the folders/files you don't need
+Open plugins/ItemsAdder/data/resource\_pack/assets/ folder and delete the folders/files you don't need
 
 ### Finalizing the changes
 
 Run this command: `/iacleancache items`
 
-Delete these folders:\
-`ItemsAdder\storage\cache\tmp\` `ItemsAdder\data\resource_pack\assets\minecraft\models\item\` `ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
+Delete these folders:
+
+- `ItemsAdder\storage\cache\tmp\`
+- `ItemsAdder\data\resource_pack\assets\minecraft\models\item\`
+- `ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
 
 Then run `/iazip`
 
