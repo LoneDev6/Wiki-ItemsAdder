@@ -1,5 +1,5 @@
 ---
-description: ItemsAdder since 3.2.0
+description: ItemsAdder after 3.2.0
 ---
 
 # 🗑 Latest ItemsAdder
