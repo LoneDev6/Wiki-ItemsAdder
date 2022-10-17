@@ -17,7 +17,7 @@ For example I want to create an emoji pack named "myemojis", so my [namespace ](
 
 1. Now you have to create the folders for your emoji configs. In this example you have to create a folder named **myemojis** inside **plugins\ItemsAdder\data\items\_packs\\**
 2. inside **plugins\ItemsAdder\data\items\_packs\myemojis** create a file named **emoji\_images.yml** (you can call it whatever you want)
-3. Now you have to open the .yml file and&#x20;
+3. Now you have to open the .yml file and
 
 ```yaml
 info:
@@ -47,7 +47,7 @@ font_images:
 
 ## In-game view
 
-![](<../../../.gitbook/assets/immagine (116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../../../.gitbook/assets/immagine (116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### Using the /e useful suggestions
 

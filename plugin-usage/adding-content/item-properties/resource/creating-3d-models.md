@@ -9,7 +9,7 @@ To create custom models I use [BlockBench ](https://blockbench.net/)which is a f
 {% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" %}
 
 {% hint style="warning" %}
-## Important
+### Important
 
 If you're using a **non-vanilla** texture (your **.png** file) you have to open the **.json** file of your model and do a little edit.
 

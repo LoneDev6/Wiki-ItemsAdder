@@ -1,7 +1,7 @@
 # PNG font (easier)
 
 {% hint style="info" %}
-## This method allows you to add fonts using .png files
+### This method allows you to add fonts using .png files
 {% endhint %}
 
 ## Example font

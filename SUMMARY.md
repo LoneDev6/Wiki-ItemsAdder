@@ -296,6 +296,7 @@
 
 ## ☮ legal
 
+* [🛒 Buy](legal/buy.md)
 * [⛔ TOS](legal/tos.md)
 * [🆘 Support Team Policy](legal/support-team-policy.md)
 * [🖌 Addon Creation Policy](legal/addon-creation-policy.md)

@@ -6,9 +6,7 @@ Here you can see an example configuration to create a complete armor with all it
 
 This is a simple armor which is created automatically without textures, ItemsAdder will generate it from the color you decided.
 
-![](<../../../.gitbook/assets/image (47) (1) (1) (1) (1).png>)
-
-
+![](<../../../.gitbook/assets/image (46) (1) (1) (1).png>)
 
 ```yaml
 items:
@@ -79,7 +77,7 @@ items:
 To add a custom texture for an armor item you have to specify a texture or a model (like for every other custom item).
 
 {% hint style="warning" %}
-#### Update to ItemsAdder 2.4.17+
+**Update to ItemsAdder 2.4.17+**
 {% endhint %}
 
 ### Custom item texture
@@ -112,4 +110,3 @@ items:
 {% content-ref url="../armors/" %}
 [armors](../armors/)
 {% endcontent-ref %}
-

@@ -14,7 +14,7 @@ You have to delete this folder lang folder: `data\resource_pack\assets\minecraft
 
 Then run `/iazip` command.
 
-![](<../../.gitbook/assets/immagine (140) (1).png>)
+![](<../../.gitbook/assets/immagine (150).png>)
 
 ## I see ☐ instead of my emojis/ranks
 
@@ -51,4 +51,3 @@ Unable to load font 'minecraft:default' in fonts.json in resourcepack: '260e803a
 com.google.gson.JsonParseException: Ascent 30 higher than height 9
 	at net.minecraft.class_386$class_387.method_2037(class_386.java:74)
 ```
-

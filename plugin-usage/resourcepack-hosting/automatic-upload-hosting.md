@@ -1,3 +1,7 @@
+---
+description: How To Use External Hosting With IA
+---
+
 # 📤 Automatic external hosting
 
 ## Video tutorial
@@ -31,7 +35,7 @@ If your playerbase is all from the same country you can stick with `self-host`.
 
 You just have to:
 
-* enable `auto-external-host` in `config.yml`&#x20;
+* enable `auto-external-host` in `config.yml`
 * disable all the other hosting methods.
 
 ```yaml
@@ -42,12 +46,12 @@ auto-external-host:
 ### Last step
 
 Run `/iazip` to **compress** the **resourcepack**.\
-****The **plugin** will **upload it** online **automatically** (you will have to **accept the privacy policy** only the first time).
+\*\*\*\*The **plugin** will **upload it** online **automatically** (you will have to **accept the privacy policy** only the first time).
 
 **You're done!** Nothing else to do, enjoy your **free automated resourcepack hosting**.
 
 ## Will my resourcepack be available online to random people?
 
-2021-08-16: \
+2021-08-16:\
 Your resourcepack won't be indexed on Google and won't be published in a list of resourcepacks.\
 Only people who know the link can download the pack.

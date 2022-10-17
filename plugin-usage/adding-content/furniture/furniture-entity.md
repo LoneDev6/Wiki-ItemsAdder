@@ -32,11 +32,9 @@ behaviours:
 
 This type of furniture entity is useful when you want to make the furniture rotate based on the surface on which you place it.
 
-For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.&#x20;
+For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.
 
-![](<../../../.gitbook/assets/image (43) (1) (1) (1) (1).png>)
-
-
+![](<../../../.gitbook/assets/image (41) (1) (1) (1) (1).png>)
 
 ```yaml
 behaviours:

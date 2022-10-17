@@ -14,7 +14,7 @@ Adding compatibility to ItemsAdder items is very easy!\
 {% endcontent-ref %}
 
 {% hint style="warning" %}
-## Important
+### Important
 
 Please make sure to listen to the **ItemsAdderFirstLoadEvent** event. ItemsAdder loads its items and other stuff async, so you have to wait for this event before using the API.
 {% endhint %}

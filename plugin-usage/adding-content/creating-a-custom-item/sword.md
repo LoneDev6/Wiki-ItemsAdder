@@ -1,13 +1,13 @@
 # Sword
 
 {% hint style="danger" %}
-### Namespace
+#### Namespace
 
 If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace/creating-your-namespace.md).
 {% endhint %}
 
 {% hint style="danger" %}
-### Resourcepack hosting
+#### Resourcepack hosting
 
 Remember to **decide** a **resourcepack hosting** method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
@@ -113,4 +113,3 @@ If you have more questions read the full **external-host** tutorial here:
 {% content-ref url="../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 [resourcepack-on-dropbox.md](../../resourcepack-hosting/resourcepack-on-dropbox.md)
 {% endcontent-ref %}
-

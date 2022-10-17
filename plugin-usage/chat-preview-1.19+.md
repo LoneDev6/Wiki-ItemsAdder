@@ -7,7 +7,7 @@ description: Preview chat messages before they are sent
 ## Chat preview
 
 {% hint style="danger" %}
-### This feature works only on **Minecraft 1.19+** clients.
+#### This feature works only on **Minecraft 1.19+** clients.
 {% endhint %}
 
 ### Announcement shown to the player on join

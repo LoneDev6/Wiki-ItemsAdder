@@ -6,7 +6,7 @@
 
 {% hint style="warning" %}
 UPDATE **ITEMSADDER** TO **2.2.20+**\
-****UPDATE **ExecutableItems** to 4.2.3.5+
+\*\*\*\*UPDATE **ExecutableItems** to 4.2.3.5+
 {% endhint %}
 
 ## Create the ItemsAdder item
@@ -34,7 +34,7 @@ items:
 ```
 
 {% hint style="success" %}
-As you can see I set a new attribute called **`executableitem`**and **`id`**.\
+As you can see I set a new attribute called \*\*`executableitem`\*\*and **`id`**.\
 These are used to **connect** the **two items**.
 {% endhint %}
 
@@ -42,4 +42,4 @@ These are used to **connect** the **two items**.
 
 Run `/iaget executableitem_test` and get the item!
 
-![](<../../.gitbook/assets/immagine (140) (1) (1).png>)
+![](<../../.gitbook/assets/immagine (152).png>)

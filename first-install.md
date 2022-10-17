@@ -5,15 +5,19 @@ description: How to install the plugin
 # ⚙ First install
 
 {% hint style="info" %}
-**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is offline.\
+**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when the server is offline.\
 You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-You **should** complete ALL installation steps. Not only the first.
+You **should** complete <mark style="color:red;">**ALL**</mark> installation steps. Not only the first step.
 {% endhint %}
 
-## Step 1 - installing the plugin and APIs
+{% hint style="warning" %}
+**Make sure** that all of your plugins and server software are up to date.
+{% endhint %}
+
+## Step 1 - Installing the plugin and APIs
 
 * install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
@@ -26,7 +30,7 @@ You **should** complete ALL installation steps. Not only the first.
 First step is done.\
 Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
 
-## Step 2 - resourcepack first installation
+## Step 2 - Resourcepack first installation
 
 #### Decide the resourcepack hosting method:
 
@@ -34,22 +38,33 @@ Now you must complete **step 2** to configure the resourcepack (don't worry it's
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
+{% hint style="warning" %}
+This Step Is Important, The plugin <mark style="color:red;">**WILL NOT WORK,**</mark> **IF** you won't complete step 2
+{% endhint %}
+
 ## Optional steps
+
+If you want to get all the items & emojis
 
 ### Adding official ItemsAdder custom content
 
 ![](.gitbook/assets/items\_showcase\_gif.apng)
 
 **ItemsAdder** comes with a lot of custom content already created for you.\
-It's not automatically included into the downloaded plugin because some people might not want every item/feature automatically added into their server.
+It's not automatically included in the downloaded plugin because some people might not want every item/feature automatically added into their server.
 
 #### Default pack
 
 ![](<.gitbook/assets/image (47).png>)
 
-* download the latest version of the DefaultPack [here](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;
-* extract the content into the **ItemAdder** folder and overwrite the files if asked
-* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+* Download the latest version of the DefaultPack 🔽
+
+{% embed url="https://github.com/ItemsAdder/DefaultPack/releases/latest" %}
+Click On The Link 👆
+{% endembed %}
+
+* Extract the content into the **ItemAdder** folder and overwrite the files if asked
+* Run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
 
 #### Other pack (optional)
 

@@ -18,7 +18,7 @@
 ## Where can I get categories permissions?
 
 {% hint style="info" %}
-### ItemsAdder default categories
+#### ItemsAdder default categories
 
 Open this file to read all the permissions to see categories: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
 
@@ -26,16 +26,13 @@ For example if you want to make players see ALL the categories of default ItemsA
 {% endhint %}
 
 {% hint style="info" %}
-### Addons categories
+#### Addons categories
 
 If you're installing an [addon ](https://addons.plugin.ga/itemsadder/)you may search for a `categories.yml` file inside `ItemsAdder\data\items_packs\ADDON`, usually they put the categories there, so you can find also their **permissions**.
 {% endhint %}
 
 {% hint style="info" %}
-### Creating my categories
+#### Creating my categories
 
 To create your categories just read the tutorial
 {% endhint %}
-
-
-

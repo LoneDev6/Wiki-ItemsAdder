@@ -1,7 +1,7 @@
 # 📕 Ask for help
 
 {% hint style="warning" %}
-### Before opening a support ticket&#x20;
+#### Before opening a support ticket
 
 * please make sure to read ALL the wiki
 * don't open support tickets to report bugs, use [this page](report-a-bug.md)

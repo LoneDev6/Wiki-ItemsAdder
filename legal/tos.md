@@ -5,27 +5,31 @@ description: Terms and Conditions for IA
 # ⛔ TOS
 
 {% hint style="danger" %}
-### **Before Buying Remember:**
+#### **Before Buying Remember:**
 
-* ⛔ **If you have another plugin that uses a custom resourcepack you have to know how to merge it with ItemsAdder resourcepack or disable the other plugin.**
+* ⛔ **If you have another plugin that uses a custom resource pack you have to know how to merge it with the ItemsAdder resource pack or disable the other plugin.**
 * ⛔ **Before asking for support, please read the tutorials**: [**official wiki**](https://itemsadder.devs.beer/)
-* ⛔ You must **have** some **knowledge** on how to **create**/**manage**/**merge** vanilla Minecraft **resource packs** as this plugin uses a custom-made and modified resourcepack to show custom textures/models. Please **if you have no knowledge about resource packs** don't buy the plugin.
+* ⛔ You must **have** some **knowledge** on how to **create**/**manage**/**merge** vanilla Minecraft **resource packs** as this plugin uses a custom-made and modified resource pack to show custom textures/models. Please **if you have no knowledge about resource packs** don't buy the plugin.
 * ⛔ I don't know if this plugin interferes with any other plugin, it's impossible to know that without testing every single plugin on the planet, so if the plugin doesn't work with your server setup don't ask for a refund but try to find the cause.
 * ⛔ [**Not compatible with some plugins**](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
 {% endhint %}
 
 ## **Terms of Service**
 
+I ("Lone, LoneDev, Developer") Have the full right to change or update the TOS without any prior notice
+
 ### No Refunds!
+
+Specific Cases or Individual Requests are subject to my own assessment of the situation.
 
 ### Resource Pack
 
-This plugin **requires** your **users** to **download** a **resourcepack** (which is sent automatically on join) one time.\
+This plugin **requires** your **users** to **download** a **resource pack** (which is sent automatically on join) one time.\
 This Pugin may not work with plugins that are using server texture packs, [read this to see if your plugin is compatible](../compatibility-with-other-plugins/)
 
 ### Server Software
 
-This Pugin works with Spigot, I can't guarantee that the plugin will work on other spigot forks.\
+This Plugin works with Spigot, I can't guarantee that the plugin will work on other spigot forks.\
 By using other server software solutions you agree that the plugin may not work correctly\
 [Please Report Bugs](../other/support/report-a-bug.md) (make sure you contact support)
 
