@@ -30,5 +30,3 @@ description: This website helps you configuring and creating custom items for my
 * [Addons Creation Policy](legal/addon-creation-policy.md)
 * [Plugin TOS](legal/tos.md)
 
-### ⚙ Other Plugins
-
