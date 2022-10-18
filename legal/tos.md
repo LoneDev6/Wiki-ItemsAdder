@@ -5,7 +5,7 @@ description: Terms and Conditions for IA
 # ⛔ TOS
 
 {% hint style="danger" %}
-#### **Before Buying Remember:**
+**Before Buying Remember:**
 
 * ⛔ **If you have another plugin that uses a custom resource pack you have to know how to merge it with the ItemsAdder resource pack or disable the other plugin.**
 * ⛔ **Before asking for support, please read the tutorials**: [**official wiki**](https://itemsadder.devs.beer/)
@@ -14,13 +14,9 @@ description: Terms and Conditions for IA
 * ⛔ [**Not compatible with some plugins**](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
 {% endhint %}
 
-## **Terms of Service**
-
-I ("Lone, LoneDev, Developer") Have the full right to change or update the TOS without any prior notice
-
 ### No Refunds!
 
-Specific Cases or Individual Requests are subject to my own assessment of the situation.
+
 
 ### Resource Pack
 
