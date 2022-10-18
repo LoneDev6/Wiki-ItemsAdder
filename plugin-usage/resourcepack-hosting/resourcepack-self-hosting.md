@@ -11,7 +11,7 @@ No need to pay for a website host and **no need to upload the pack every time yo
 
 {% hint style="warning" %}
 **Your hosting service must let you get additional ports for your server.**\
-If your hosting service doesn't provide you additional ports you have to use one of the alternative methods:
+If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./)
 {% endhint %}
 
 ### What is the difference between self-host and the other methods?

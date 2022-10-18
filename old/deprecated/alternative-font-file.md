@@ -7,7 +7,7 @@ description: Use another .json file for the auto generated font images
 ## How to use the alternative custom font file
 
 {% hint style="danger" %}
-### This feature is unstable.
+#### This feature is unstable.
 {% endhint %}
 
 **ItemsAdder** generates the json file for your custom **font\_images**, in some cases you prefer to have a separate file instead of append the images into the `default.json`.
@@ -34,7 +34,7 @@ ItemsAdder custom font will be named `custom`, so in this case you will have to 
 * emojis won't be shown in the `/e` autocomplete command, instead placeholders will be shown ([screenshot](https://i.imgur.com/Im9AXae.png))
 * not being able to copy and paste unicode characters everywhere anymore, you have to rely on `:XXX:` and `%img_XXX%` placeholders or on the vanilla json components specifying the `font` attribute (check the [example](alternative-font-file.md#why-having-a-separate-custom-font-file))
 * only available on Minecraft 1.16+
-* some settings in **config.yml** won't work anymore:&#x20;
+* some settings in **config.yml** won't work anymore:
   * `font_images.command`
   * `font_images.scoreboard-teams`
   * `font_images.vault-prefix-suffix`
@@ -50,14 +50,14 @@ ItemsAdder custom font will be named `custom`, so in this case you will have to 
 ## Should I use this feature?
 
 {% hint style="danger" %}
-### This feature is unstable.
+#### This feature is unstable.
 
 I'd avoid using it since it has too many downsides, but I'll leave you the decision since some servers may need to separate the custom images from the default font.
 {% endhint %}
 
 ## How to enable the feature?
 
-You have to enable this option in `config.yml` and run `/iazip`:&#x20;
+You have to enable this option in `config.yml` and run `/iazip`:
 
 {% code title="config.yml" %}
 ```yaml

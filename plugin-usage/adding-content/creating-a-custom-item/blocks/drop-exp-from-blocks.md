@@ -1,7 +1,7 @@
 # Drop exp from blocks
 
 {% hint style="info" %}
-### There are 2 ways to drop exp from your custom blocks.
+#### There are 2 ways to drop exp from your custom blocks.
 {% endhint %}
 
 ## 1. Add the exp drop directly in the custom block creation
@@ -55,4 +55,3 @@ loots:
           max_amount: 3
           chance: 100
 ```
-

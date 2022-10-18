@@ -14,15 +14,14 @@ Follow this simple tutorial.
 
 ## How to set it up
 
-For example you can have 3 servers: `lobby`, `survival`, `creative`.\
-
+For example you can have 3 servers: `lobby`, `survival`, `creative`.\\
 
 ### Step 1
 
 Install ItemsAdder on all these 3 servers.
 
 {% hint style="warning" %}
-### <mark style="color:red;">This is very important</mark>
+#### <mark style="color:red;">This is very important</mark>
 
 Make sure to **sync all** the 3 servers `plugins/ItemsAdder/` **configurations folders** each time you make a modification, they must be the same, only the `config.yml` hosting part can change.
 
@@ -111,7 +110,7 @@ Install the Bungeecord plugin to make the loading even faster!
 {% embed url="https://www.spigotmc.org/resources/96794" %}
 
 {% hint style="danger" %}
-### <mark style="color:red;">Do not install</mark> <mark style="color:red;"></mark><mark style="color:red;">**BungeePackFix**</mark> <mark style="color:red;"></mark><mark style="color:red;">on</mark> <mark style="color:red;"></mark><mark style="color:red;">**Spigot**</mark> <mark style="color:red;"></mark><mark style="color:red;">servers!</mark>
+#### <mark style="color:red;">Do not install</mark> <mark style="color:red;">**BungeePackFix**</mark> <mark style="color:red;">on</mark> <mark style="color:red;">**Spigot**</mark> <mark style="color:red;">servers!</mark>
 
 This is a **Bungeecord** plugin! Install it on **Bungeecord**!
 {% endhint %}

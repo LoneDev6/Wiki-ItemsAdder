@@ -9,7 +9,7 @@ description: Text animations
 ItemsAdder **2.4.19** offers some cool decorative text effects you can use in your server to make it more professional.
 
 {% hint style="danger" %}
-## This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -31,8 +31,6 @@ effects:
       enabled: true
 ```
 {% endhint %}
-
-
 
 ## Permissions
 
