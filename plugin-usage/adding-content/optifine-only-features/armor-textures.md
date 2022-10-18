@@ -24,7 +24,7 @@ If you want to add a custom texture and not just a custom color to armors you ca
 
 ### Step 1
 
-Create your **custom namespace** (if you didn't already), follow[ this tutorial](../basic-concepts/namespace/creating-your-namespace.md).\
+Create your **custom namespace** (if you didn't already), follow[ this tutorial](broken-reference).\
 In this tutorial **my namespace** is named `mystuff`
 
 ### Step 2

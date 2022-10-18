@@ -58,7 +58,7 @@ So if you set `model_path` like in the example and your **namespace** (is for ex
 If the path doesn't exists create all the folders needed.
 
 {% hint style="warning" %}
-#### My textures are not working!
+**My textures are not working!**
 
 If your custom model textures are not showing you have to open your model file and fix the textures path.\
 For example if you had this:
@@ -73,7 +73,7 @@ For example if you had this:
   },
 ```
 
-You have to change it to this (`your_namespace` is your [namespace ](../../basic-concepts/namespace/)folder):
+You have to change it to this (`your_namespace` is your [namespace ](../../basic-concepts/namespace.md)folder):
 
 ```yaml
 {
@@ -122,7 +122,7 @@ items:
 ```
 
 {% hint style="warning" %}
-#### IMPORTANT
+**IMPORTANT**
 
 If you previously created this item and already used `/iazip` command and now you change the **model\_id**:\
 it's **very important** to run the command `/iacleancache items` to **remove unused IDs** and **update** the **changed ID**.

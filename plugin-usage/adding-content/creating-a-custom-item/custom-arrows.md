@@ -1,6 +1,6 @@
 # Custom Arrows
 
-## Some examples \(ItemsAdder 2.2.8+\)
+## Some examples
 
 ```yaml
 items:
@@ -82,4 +82,3 @@ items:
           play_effect:
             name: ENDERDRAGON_SHOOT
 ```
-

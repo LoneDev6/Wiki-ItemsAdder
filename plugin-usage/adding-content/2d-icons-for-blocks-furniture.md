@@ -13,7 +13,7 @@ This feature requires **ItemsAdder 3.1.6+**
 Create the 2D icon for the block
 
 {% hint style="info" %}
-Replace `my_items` with your [namespace](basic-concepts/namespace/#namespace)!
+Replace `my_items` with your [namespace](basic-concepts/namespace.md#namespace)!
 {% endhint %}
 
 ```yaml
@@ -81,7 +81,7 @@ Now try to right click with the `rocks` item and you will see it places the `roc
 Create the 2D icon for the furniture
 
 {% hint style="info" %}
-Replace `my_items` with your [namespace](basic-concepts/namespace/#namespace)!
+Replace `my_items` with your [namespace](basic-concepts/namespace.md#namespace)!
 {% endhint %}
 
 ```yaml

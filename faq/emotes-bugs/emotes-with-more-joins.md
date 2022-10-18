@@ -18,4 +18,4 @@ The current emotes have the same style of Bedrock edition emotes, which follows 
 
 ### Reason 3
 
-Adding more joins would require a complete rewrite of the animations code which would take hours of coding and old animation won't work anymore.
+Adding more joins would require a **complete rewrite** of the animations code which would take weeks of coding and old animations won't work anymore.

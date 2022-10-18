@@ -20,5 +20,5 @@ Right click an animation and make sure the animation type is correct.
 
 {% hint style="info" %}
 * This extension supports animated scale of bones. Make sure to avoid scaling when it's not needed. Check your keyframes.
-* Avoid adding too many rotation, details and movements, don't forget this is a blocky pixelated game, use [its style](../../../minecraft-style-guide.md).
+* Avoid adding too many rotation, details and movements, don't forget this is a blocky pixelated game, use [its style](broken-reference).
 {% endhint %}

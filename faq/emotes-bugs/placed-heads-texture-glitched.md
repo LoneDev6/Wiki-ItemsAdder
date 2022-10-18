@@ -16,5 +16,7 @@ I probably can't fix this bug in any way because it's how the game rendering sys
 
 I'll do my best to find a workaround but I doubt this game allows me to identify placed heads in order to fix that.
 
+## How to fix
+
 The only way to fix this is to disable emotes system in `config.yml` of **ItemsAdder**.\
 Don't forget to regenerate the resourcepack using `/iazip`.

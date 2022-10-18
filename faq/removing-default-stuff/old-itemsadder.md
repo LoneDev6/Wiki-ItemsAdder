@@ -62,7 +62,7 @@ Delete these folders:\
 Then run `/iazip`
 
 {% hint style="danger" %}
-### Do not delete other folders which are not listed in the previous list.
+#### Do not delete other folders which are not listed in the previous list.
 
 If you delete minecraft, mcguis or mcicons folders some parts of the plugin may stop working.
 {% endhint %}

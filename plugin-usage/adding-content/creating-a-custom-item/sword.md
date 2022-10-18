@@ -1,15 +1,15 @@
 # Sword
 
 {% hint style="danger" %}
-#### Namespace
+**Namespace**
 
-If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace/creating-your-namespace.md).
+If you didn't create your namespace please follow the [namespace tutorial](broken-reference).
 {% endhint %}
 
 {% hint style="danger" %}
-#### Resourcepack hosting
+**Resourcepack hosting**
 
-Remember to **decide** a **resourcepack hosting** method **before** you **start**.\
+Remember to **decide** a [**resourcepack hosting**](../../resourcepack-hosting/) method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 {% endhint %}
 
@@ -18,7 +18,7 @@ I **advise** you to use **self-host** which is **easier** and **faster**, but yo
 ### Creating the swords file
 
 {% hint style="warning" %}
-This is an example sword (remember to change `myitems` [namespace ](../basic-concepts/namespace/)to the one you want).
+This is an example sword (remember to change `myitems` [namespace ](../basic-concepts/namespace.md)to the one you want).
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom swords**:

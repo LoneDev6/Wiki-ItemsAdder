@@ -1,4 +1,4 @@
-# 📹 Video tutorials by users
+# 📹 Videos by users
 
 ## Showcases
 
@@ -21,8 +21,4 @@
 {% embed url="https://www.youtube.com/watch?v=CeO7TC-LmVk" %}
 
 {% embed url="https://www.youtube.com/watch?v=1zbH2OyZH1g" %}
-
-## Spanish tutorials
-
-{% embed url="https://www.youtube.com/playlist?list=PLop1Uc5d4Z6rJ1EaQrKBviLQZovZFQtDB" %}
 

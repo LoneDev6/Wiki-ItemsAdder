@@ -65,8 +65,8 @@ As you can see I set some properties:
 
 Now you just have to create the block following the tutorial. You can use `REAL_NOTE`, `REAL_WIRE` `REAL_TRANSPARENT` and `REAL` blocks, depends on your needs.
 
-{% content-ref url="creating-a-custom-item/blocks/block.md" %}
-[block.md](creating-a-custom-item/blocks/block.md)
+{% content-ref url="creating-a-custom-item/block.md" %}
+[block.md](creating-a-custom-item/block.md)
 {% endcontent-ref %}
 
 ## Example

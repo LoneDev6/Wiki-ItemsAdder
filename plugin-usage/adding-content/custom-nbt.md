@@ -25,9 +25,9 @@ items:
 ```
 
 {% hint style="danger" %}
-### Warning
+#### Warning
 
 Make sure to provide a valid **NBT** (**json**) or it won't work.
 
-#### This feature requires **ItemsAdder 2.4.18+**
+**This feature requires ItemsAdder 2.4.18+**
 {% endhint %}

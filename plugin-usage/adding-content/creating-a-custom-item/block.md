@@ -5,14 +5,14 @@
 ### Creating the blocks file
 
 {% hint style="warning" %}
-This is an example block (remember to change `myitems` [namespace ](../../basic-concepts/namespace/)to the one you want).
+This is an example block (remember to change `myitems` [namespace ](../basic-concepts/namespace.md)to the one you want).
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom blocks**:
 
 In this file (`blocks.yml`) I start creating a simple block called `red_block`
 
-![](<../../../../.gitbook/assets/immagine (90).png>)
+![](<../../../.gitbook/assets/immagine (90).png>)
 
 ```yaml
 info:
@@ -38,7 +38,7 @@ Now the fun part, let's set the textures!\
 To do that you have to put the `.png` textures file inside the correct folder.\
 In this case your **namespace** is `myitems` so you have to put them here:
 
-![](<../../../../.gitbook/assets/image (52) (1) (1).png>)
+![](<../../../.gitbook/assets/image (52) (1) (1).png>)
 
 ### Applying the textures files to your item
 
@@ -128,44 +128,77 @@ Click on the bottom link if you want to specify **tools** which can break the bl
 
 ## Final part
 
-Now you just need to tell the plugin to load your just added block.
+Now you just need to tell the plugin to load your just added block.\
+Make sure to read the hosting tutorial or you won't see the block correctly.
 
-### If you're using [self-host](../../../resourcepack-hosting/resourcepack-self-hosting.md) or [auto-external-host](../../../resourcepack-hosting/automatic-upload-hosting.md):
-
-* run `/iazip`.
-
-### If you're using [external-host](../../../resourcepack-hosting/resourcepack-on-dropbox.md) (Dropbox) read here:
-
-Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
-1\. Get it from this folder:
-
-![](<../../../../.gitbook/assets/immagine (96) (2) (3) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (10) (1).png>)
-
-2\. Upload it to your hosting (Dropbox)\
-3\. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
-
-```yaml
-  self-host:
-    enabled: false
-    server-ip: '127.0.0.1'
-    pack-port: 8163
-  external-host:
-    enabled: true
-    url: 'https://www.dropbox.com/blablabla?dl=0'
-```
-
-If you have more questions read the full **external-host** tutorial here:
-
-{% content-ref url="../../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
-[resourcepack-on-dropbox.md](../../../resourcepack-hosting/resourcepack-on-dropbox.md)
+{% content-ref url="../../resourcepack-hosting/" %}
+[resourcepack-hosting](../../resourcepack-hosting/)
 {% endcontent-ref %}
 
 ## Getting the block ingame
 
 Run `/iaget red_block` to get the item.
 
-![](<../../../../.gitbook/assets/immagine (92).png>)
+![](<../../../.gitbook/assets/immagine (92).png>)
 
-![](<../../../../.gitbook/assets/immagine (91).png>)
+![](<../../../.gitbook/assets/immagine (91).png>)
 
-![](<../../../../.gitbook/assets/immagine (93).png>)
+![](<../../../.gitbook/assets/immagine (93).png>)
+
+## Drop exp from block
+
+{% hint style="info" %}
+**There are 2 ways to drop exp from your custom blocks.**
+{% endhint %}
+
+## 1. Add the exp drop directly in the custom block creation
+
+This has a downside, you can only set the exp drop to custom blocks, not to vanilla blocks.
+
+```yaml
+  ruby_block:
+    display_name: display-name-ruby_block
+    permission: ruby_block
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/ruby_block.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: REDSTONE_BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+    events:
+      placed_block:
+        break:
+          drop_exp:
+            chance: 100
+            min_amount: 0
+            max_amount: 3
+```
+
+## 2. Add the exp drop to loots
+
+This is the best way because you can also apply this to vanilla blocks types and you can add as many as exp settings you want. This allows you to add more randomness and dynamicity to your drops.
+
+```yaml
+loots:
+  blocks:
+    ruby_ore:
+      type: itemsadder:ruby_ore
+      items:
+        ruby:
+          item: itemsadder:ruby
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+```

@@ -1,7 +1,7 @@
 # CMI
 
 {% hint style="info" %}
-### If you're using CMI chat feature you have to read this.
+#### If you're using CMI chat feature you have to read this.
 {% endhint %}
 
 ## Ranks

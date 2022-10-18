@@ -12,12 +12,9 @@ Buying the plugins from any other source is strongly prohibited and voids the [T
 * [Polymart](https://polymart.org/resource/itemsadder-custom-items-etc.1851)
 * [builtbybit (MCmarket)](https://builtbybit.com/resources/itemsadder-emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.10839/)
 
-### Other
+### Pay without PayPal
 
-For Customers That Can't Pay Because \*, Use The Other Available Option.
+It's possible to pay using another payment gateway if you can't pay without PayPal.\
+Follow the instructions on each market page.
 
-{% embed url="https://pay.devs.beer/" %}
-
-### Support?
-
-If you have any problems with payment, join my [discord](https://discord.gg/4dfnpUK) and make a ticket :smile:&#x20;
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

@@ -12,7 +12,7 @@ A furniture is a decorative object which can be solid, emit light, used as chair
 
 ### Creating the configuration file
 
-The first step is to create a configuration file in your [namespace](../basic-concepts/namespace/) folder. In this example I called it `furniture_example.yml`.
+The first step is to create a configuration file in your [namespace](../basic-concepts/namespace.md) folder. In this example I called it `furniture_example.yml`.
 
 {% code title="furniture_example.yml" %}
 ```yaml

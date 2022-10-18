@@ -1,5 +1,7 @@
 # Magic wand
 
+## Example addon
+
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
 
 ## Example of fire magic wand
@@ -172,4 +174,3 @@
             name: mana
             amount: 5
 ```
-

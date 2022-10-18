@@ -5,7 +5,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-### If you didn't create any custom item and you are using only my custom items please skip that tutorial, you don't need to convert files. But be sure to follow the tutorial "Convert old items ingame"
+#### If you didn't create any custom item and you are using only my custom items please skip that tutorial, you don't need to convert files. But be sure to follow the tutorial "Convert old items ingame"
 
 You just have to rename ItemsAdder folder to ItemsAdder\_backup, delete the old plugin and install the 2.0 version
 {% endhint %}
@@ -37,7 +37,7 @@ Do this operation only on a local test server on your PC so you won't make mista
 * Open server **plugins** folder and create a **new** folder named **ItemsAdder\_old**
 * Open your **OLD** ItemsAdder folder and copy files from items folder **(see screenshot)**
 
-![](<../../../.gitbook/assets/image (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1).png>)
 
 * Paste the **items** folder into **ItemsAdder\_old**
 

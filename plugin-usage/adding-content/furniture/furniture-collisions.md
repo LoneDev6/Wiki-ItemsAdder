@@ -69,9 +69,9 @@ You can use the command `/iahitbox` to see the hitbox when you pleace a furnitur
 ![](<../../../.gitbook/assets/immagine (88).png>)
 
 {% hint style="warning" %}
-### Hitboxes limitations
+#### Hitboxes limitations
 
-#### `item_frame` limitations (doesn't affect `armor_stand`)
+**`item_frame` limitations (doesn't affect `armor_stand`)**
 
 **Furnitures** that use `entity: item_frame` **support only hitbox** with `width` and `length` of the **same value**.\
 Example: `width: 2`, `length: 2`, `height: 1`.

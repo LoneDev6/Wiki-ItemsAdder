@@ -13,11 +13,11 @@ Follow this tutorial.
 
 ### Deleting configurations
 
-Open plugins/ItemsAdder/data/items\_packs/ folder and delete the folders/files you don't need
+Open `plugins/ItemsAdder/data/items_packs/` folder and delete the folders/files you don't need
 
 ### Deleting models, textures and other assets
 
-Open plugins/ItemsAdder/data/resource\_pack/assets/ folder and delete the folders/files you don't need
+Open `plugins/ItemsAdder/data/resource_pack/assets/` folder and delete the folders/files you don't need.
 
 ### Finalizing the changes
 
@@ -25,9 +25,8 @@ Run this command: `/iacleancache items`
 
 Delete these folders:
 
-- `ItemsAdder\storage\cache\tmp\`
-- `ItemsAdder\data\resource_pack\assets\minecraft\models\item\`
-- `ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
+* `ItemsAdder\storage\cache\tmp\`
+* `ItemsAdder\data\resource_pack\assets\minecraft\models\item\`
+* `ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
 
 Then run `/iazip`
-

@@ -1,21 +1,31 @@
-# Creating your namespace
+# Namespace
 
-{% hint style="warning" %}
-If you don't know what I mean by **namespace** please read [namespace tutorial](./)
-{% endhint %}
+## Namespace
 
-## Creating an items\_packs subfolder
+As you surely noticed ItemsAdder uses **namespaces** to identify most of the things it manages.\
+A **namespace** is a **group** of elements, in this case a group of **items**/**blocks**/**mobs**... \
+With namespaces you can easily understand where a particular **item**, **sound**, **block**.. comes from.
+
+### Example
+
+All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
+
+![](<../../../.gitbook/assets/image (7).png>)
+
+## How can I define my own namespace?
+
+Now that you see how it works you want to ask me this question: _How can I create my own namespace?_
 
 In order to keep everything organized you have to create **your** own **namespace**. \
 First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
 
 In this example **namespace** will be `myitems` so create a folder names like the namespace.
 
-![](<../../../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8).png>)
 
 Open the `myitems` folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
 
-![](<../../../../.gitbook/assets/image (9).png>)
+![](<../../../.gitbook/assets/image (9).png>)
 
 Open the new **.yml** file and paste this:
 

@@ -15,7 +15,7 @@ Default ItemsAdder pack categories are inside: `plugins\ItemsAdder\data\items_pa
 
 ## Creating a custom category
 
-If you want to create your own category you have to add it to your own `.yml` file in your [namespace](adding-content/basic-concepts/namespace/).\
+If you want to create your own category you have to add it to your own `.yml` file in your [namespace](adding-content/basic-concepts/namespace.md).\
 This is an example:
 
 ```yaml
