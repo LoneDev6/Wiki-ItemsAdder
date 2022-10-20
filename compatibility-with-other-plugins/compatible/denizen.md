@@ -47,7 +47,8 @@ player.item_in_hand.is_ia_block
 # Get item namespaced id
 player.item_in_hand.ia_namespaced_id
 
-# Place a custom block
+# Place a custom block.
+# Syntax set_custom_block [&#x3C;location>|...] [&#x3C;namespaced_id>]
 set_custom_block &#x3C;context.location> ruby_block 
 # Check if block is a custom block
 context.location.is_ia_block
