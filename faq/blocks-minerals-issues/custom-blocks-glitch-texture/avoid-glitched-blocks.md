@@ -47,6 +47,10 @@ Enable these options in **purpur.yml** configuration:
 * [https://purpurmc.org/docs/Configuration/disable-note-block-updates](https://purpurmc.org/docs/Configuration/disable-note-block-updates)
 * [https://purpurmc.org/docs/Configuration/disable-chorus-plant-updates](https://purpurmc.org/docs/Configuration/disable-chorus-plant-updates)
 
+{% hint style="warning" %}
+Note: `disable-chorus-plant-updates: true` will completely stop chorus plants from updating. So you won't have the chain break effect on them when the first block is broken.
+{% endhint %}
+
 **Example:**
 
 ```yaml
