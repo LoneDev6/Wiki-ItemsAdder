@@ -150,7 +150,7 @@ loots:
 ```
 
 {% hint style="info" %}
-#### Custom mobs loots ([old entities method](mobs/old-method/))
+**Custom mobs loots (**[**old entities method**](mobs/old-method/)**)**
 {% endhint %}
 
 In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
@@ -176,7 +176,7 @@ loots:
 As you can see I set `ItemsAdderMob` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
 
 {% hint style="info" %}
-#### Custom entities loots
+**Custom entities loots**
 {% endhint %}
 
 In order to let ItemsAdder drop an item based on when you kill a custom entity (created with ItemsAdder) you have to use the `ItemsAdderEntity` metadata attribute. Example:
@@ -202,7 +202,7 @@ loots:
 As you can see I set `ItemsAdderEntity` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob)
 
 {% hint style="info" %}
-#### Villager professions (and any other NBT attribute you want to match)
+**Villager professions (and any other NBT attribute you want to match)**
 {% endhint %}
 
 ```yaml
@@ -231,7 +231,7 @@ The type attribute of **nbt** and **metadata** are really **important**, don't *
 {% endhint %}
 
 {% hint style="info" %}
-#### Drop based on Tile entity NBT data (for example Spawner)
+**Drop based on Tile entity NBT data (for example Spawner)**
 {% endhint %}
 
 ```yaml
@@ -262,3 +262,42 @@ loots:
     allow-loots-drop-from-spawners-using-silk-touch: true
 ```
 {% endhint %}
+
+## Per-world loots
+
+{% hint style="warning" %}
+This requires ItemsAdder 3.2.5+
+{% endhint %}
+
+```yaml
+loots:
+  blocks:
+    change_me:
+      enabled: true
+      type: SAND
+      biomes:
+        - BEACH
+      worlds:
+        - "world_*"
+        - "!private_*"
+        - "example1"
+        - "!example2"
+      items:
+        change_me:
+          item: STONE
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: false
+```
+
+The special `*` character allows any world starting with a particular text.\
+In this example every world starting with `world_` will match and will drop loots.
+
+The special `!` character denies the loot to be dropped in any world starting with a particular text.\
+In this example every world starting with `private_` will match and won't allow dropping loots.
+
+You can also specify precise world names, in this example `example2` won't allow loots to be dropped.
+
+You can also specify precise world names, in this example `example1` will allow loots to be dropped.
+
