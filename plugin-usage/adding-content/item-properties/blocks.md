@@ -1,4 +1,4 @@
-# Blocks
+# Block
 
 ```yaml
 specific_properties:
@@ -91,6 +91,33 @@ This allows to make some blocks placeable directly on **lava** surface.
 
 This allows to make some blocks placed 1 block up. This is useful for `REAL_WIRE` blocks to create tall plants.
 
+### custom\_variants
+
+{% hint style="warning" %}
+Available on ItemsAdder 3.2.5+
+{% endhint %}
+
+Special property which allows to specify custom variants for that block.\
+Accepts the same properties shown in the Minecraft wiki [models page](https://minecraft.fandom.com/wiki/Tutorials/Models).
+
+Example:
+
+```yaml
+          custom_variants:
+            variant1:
+              model: "minecraft:block/end_stone_bricks"
+              y: 90
+            variant2:
+              model: "minecraft:block/end_stone_bricks"
+              y: 180
+              x: 90
+            variant3:
+              model: "minecraft:block/diamond_block"
+              uvlock: true
+            variant4:
+              model: "minecraft:block/cobblestone"
+```
+
 ## cancel\_drop
 
 Cancel drop when block is broken.\
@@ -115,11 +142,11 @@ Whitelist of tools that can break this block
 
 ### events\_tools\_blacklist
 
-Blacklist of tools that cannot run events on this block[ (`placed_block.interact`)](../events/#list-of-events)
+Blacklist of tools that cannot run events on this block[ (`placed_block.interact`)](events/#list-of-events)
 
 ### events\_tools\_whitelist
 
-Whitelist of tools that cannot run events on this block [(`placed_block.interact`)](../events/#list-of-events)
+Whitelist of tools that cannot run events on this block [(`placed_block.interact`)](events/#list-of-events)
 
 ## Other options
 
@@ -138,11 +165,11 @@ Totally immune from explosions, ignoring `blast_resistance`
 
 ### sounds
 
-You can change block break and place sounds. You can specify a [custom sound](../../sounds/) name instead of a Minecraft sound.\
+You can change block break and place sounds. You can specify a [custom sound](../sounds/) name instead of a Minecraft sound.\
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound\_list\_pc.php) names.
 
 {% hint style="info" %}
 If no **break** sound is specified it will play  [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK\_STONE\_BREAK)  ``  (`block.stone.break`)
 
-If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](../resource/)attribute of this block.
+If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](resource/)attribute of this block.
 {% endhint %}
