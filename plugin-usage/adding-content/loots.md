@@ -291,6 +291,8 @@ loots:
           ignore_fortune: false
 ```
 
+Loots will drop in all worlds if you don't specify any world.
+
 The special `*` character allows any world starting with a particular text.\
 In this example every world starting with `world_` will match and will drop loots.
 
@@ -300,4 +302,3 @@ In this example every world starting with `private_` will match and won't allow 
 You can also specify precise world names, in this example `example2` won't allow loots to be dropped.
 
 You can also specify precise world names, in this example `example1` will allow loots to be dropped.
-
