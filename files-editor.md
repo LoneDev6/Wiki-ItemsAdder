@@ -2,10 +2,14 @@
 
 ## VisualStudio Code extension
 
-{% embed url="https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode" %}
+### [> Download the vs-code extension here <](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode)&#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Online files editor
 
-{% embed url="https://ide.devs.beer/itemsadder/" %}
+{% hint style="warning" %}
+Outdated, please use the vs-code extension.
+{% endhint %}
 
-![](<.gitbook/assets/image (14).png>)
+{% embed url="https://ide.devs.beer/itemsadder/" %}
