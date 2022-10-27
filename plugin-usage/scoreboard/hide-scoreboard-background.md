@@ -14,6 +14,6 @@ description: Disable the scoreboard background
 
 ### Scoreboard-revision <mark style="color:orange;">(outdated)</mark>
 
-{% content-ref url="../../compatibility-with-other-plugins/compatible/scoreboard-revision.md" %}
-[scoreboard-revision.md](../../compatibility-with-other-plugins/compatible/scoreboard-revision.md)
+{% content-ref url="../../compatibility-with-other-plugins/compatible/scoreboard.md" %}
+[scoreboard.md](../../compatibility-with-other-plugins/compatible/scoreboard.md)
 {% endcontent-ref %}

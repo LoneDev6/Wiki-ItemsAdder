@@ -128,8 +128,8 @@ board:
 
 ## Hide the red numbers from Scoreboard
 
-{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1-17.md" %}
-[hide-scoreboard-numbers-1-17.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1-17.md)
+{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
+[hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
 {% endcontent-ref %}
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

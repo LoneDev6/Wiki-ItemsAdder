@@ -10,6 +10,10 @@ Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium
 
 {% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
 
+## Known limitations
+
+{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/2008" %}
+
 ## Connect an MMOItem to an ItemsAdder item
 
 ### Use the command /mmoitems browse

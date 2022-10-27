@@ -208,6 +208,6 @@ display:
 
 ## Hide the red numbers from Scoreboard
 
-{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1-17.md" %}
-[hide-scoreboard-numbers-1-17.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1-17.md)
+{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
+[hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
 {% endcontent-ref %}
