@@ -1,6 +1,13 @@
-# Scoreboard
+# Scoreboard-revision
 
-## [Download here](https://www.spigotmc.org/resources/scoreboard.14754/)
+## ​[Download here](https://www.spigotmc.org/resources/scoreboard.14754/)​ <a href="#download-here" id="download-here"></a>
+
+{% hint style="warning" %}
+Seems the plugin was removed from SpigotMC.org for some reason.\
+(I'm not its author).
+
+[Source code](https://github.com/RienBijl/Scoreboard-revision)
+{% endhint %}
 
 ## Font images
 
@@ -25,7 +32,7 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emoj
 ![](<../../.gitbook/assets/immagine (96).png>)
 
 With ItemsAdder you can hide the scoreboard background, just use this trick.\
-You just have to add `%img_offset_-500%` in front of **each line** of your scoreboard configuration.
+You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>** ** of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
@@ -121,6 +128,8 @@ board:
 
 ## Hide the red numbers from Scoreboard
 
-{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
-[hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
+{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1-17.md" %}
+[hide-scoreboard-numbers-1-17.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1-17.md)
 {% endcontent-ref %}
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
