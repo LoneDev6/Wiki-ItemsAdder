@@ -265,7 +265,6 @@
     * [Ouroboros-Mines](compatibility-with-other-plugins/compatible/ouroboros-mines.md)
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
     * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
-    * [Denizen](compatibility-with-other-plugins/compatible/denizen.md)
 * [✏ Contribute](contribute/README.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
@@ -280,6 +279,7 @@
   * [HUDs, GUIs...](developers/java-api/huds-guis.md)
 * [📓 Skript API](developers/skript-api/README.md)
   * [Expert users](developers/skript-api/expert-users-1.md)
+* [📓 Denizen API](developers/denizen-api.md)
 * [™ Branding](developers/branding.md)
 
 ## 📘 Other
