@@ -7,7 +7,7 @@ description: This website helps you configuring and creating custom items for my
 ### 💠Links Rápidos
 
 {% content-ref url="first-install.md" %}
-[first-install.md](Primeira Instalção.md)
+[first-install.md](first-install.md)
 {% endcontent-ref %}
 
 {% content-ref url="plugin-usage/adding-content/" %}
