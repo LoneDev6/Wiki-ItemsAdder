@@ -2,10 +2,10 @@
 description: How to install the plugin
 ---
 
-# ⚙ First install
+# ⚙ Primeira instalação
 
 {% hint style="info" %}
-**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when the server is offline.\
+**Você deve seguir** esta primeira configuração **no** seu **servidor de teste** em seu PC para **evitar erros** e muitas reinicializações.. os jogadores não gostam quando o servidor está offline.\
 You can upload files to your real server after you finished here.
 {% endhint %}
 
