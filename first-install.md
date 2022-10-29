@@ -10,7 +10,7 @@ You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-You **should** complete <mark style="color:red;">**ALL**</mark> installation steps. Not only the first step.
+Você **deve** completar <mark style="color:red;">**TODAS**</mark> as etapas de instalação. Não só o primeiro passo.
 {% endhint %}
 
 {% hint style="warning" %}
