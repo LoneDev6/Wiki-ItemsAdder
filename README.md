@@ -2,9 +2,9 @@
 description: This website helps you configuring and creating custom items for my plugin
 ---
 
-# 👋 Welcome
+# 👋 Bem Vindo
 
-### 💠Quick Links
+### 💠Links Rápidos
 
 {% content-ref url="first-install.md" %}
 [first-install.md](first-install.md)
