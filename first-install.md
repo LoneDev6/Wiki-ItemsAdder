@@ -14,10 +14,10 @@ Você **deve** completar <mark style="color:red;">**TODAS**</mark> as etapas de 
 {% endhint %}
 
 {% hint style="warning" %}
-**Make sure** that all of your plugins and server software are up to date.
+**Certifique-se** de que todos os seus plugins e softwares de servidor estejam atualizados.
 {% endhint %}
 
-## Step 1 - Installing the plugin and APIs
+## Etapa 1 - Instalando o plug-in e as APIs
 
 * install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
 * install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
