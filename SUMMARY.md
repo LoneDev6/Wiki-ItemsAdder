@@ -269,6 +269,7 @@
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
   * [Preview wiki changes](contribute/preview-wiki-changes.md)
+* [🧪 Beta testing](beta-testing.md)
 
 ## 💻 Developers
 
