@@ -55,7 +55,7 @@
     * [Optifine CIT not working](faq/armors-bugs/optifine-cit-not-working.md)
   * [Remove pack on server change](faq/remove-pack-on-server-change.md)
   * [💃 Emotes](faq/emotes-bugs/README.md)
-    * [Textures broken by shaders mod](faq/emotes-bugs/textures-broken-by-shaders-mod.md)
+    * [Broken emote textures](faq/emotes-bugs/broken-emote-textures.md.md)
     * [Placed heads texture glitched](faq/emotes-bugs/placed-heads-texture-glitched.md)
     * [Emotes with more joins](faq/emotes-bugs/emotes-with-more-joins.md)
   * [Single resourcepack Bungeecord](faq/single-resourcepack-bungeecord.md)
