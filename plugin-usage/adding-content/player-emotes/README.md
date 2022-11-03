@@ -22,5 +22,5 @@ This method is in beta and it's available only on **ItemsAdder v3.0.5+** and req
 
 * Won't show the player armor equipment (for now)
 * Works only on Minecraft 1.17+
-* Shaders mods (Optifine, Iris) can cause rendering problems, [read more here](../../../faq/emotes-bugs/textures-broken-by-shaders-mod.md).
+* Shaders mods (Optifine, Iris) can cause rendering problems, [read more here](../../../faq/emotes-bugs/broken-emote-textures.md).
 * Placed heads won't be shown correctly in some cases, [read more here](../../../faq/emotes-bugs/placed-heads-texture-glitched.md).
