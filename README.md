@@ -30,7 +30,7 @@ description: This website helps you configuring and creating custom items for my
     </a>
     <a href="http://a.devs.beer/kofi">
     <img alt="Ko-fi" title="Ko-fi" 
-    src=".readme-assets/Ko-fi.png" width="36"/>
+    src=".readme-assets/Ko-Fi.png" width="36"/>
     </a>
     <a href="http://youtube.com/lonedev">
     <img alt="YouTube" title="YouTube" 
