@@ -4,6 +4,12 @@ description: This website helps you configuring and creating custom items for my
 
 # 👋 Welcome
 
+<!-- Welcome Text -->
+<div align="center">
+<h1>Welcome To The <img src=".readme-assets/logo_32x32.png" width="28"> Wiki
+</h1>
+</div>
+
 ### 💠Quick Links
 
 {% content-ref url="first-install.md" %}
@@ -14,19 +20,43 @@ description: This website helps you configuring and creating custom items for my
 [adding-content](plugin-usage/adding-content/)
 {% endcontent-ref %}
 
-### 🌐Social Media
+<div align="center">
+<h3>🌐Social Media</h3>
+<!-- Contact Me -->
+<p>
+    <a href="http://patreon.com/lonedev">
+    <img alt="patreon" title="patreon" 
+    src=".readme-assets/Patreon.png" width="36"/>
+    </a>
+    <a href="http://a.devs.beer/kofi">
+    <img alt="Ko-fi" title="Ko-fi" 
+    src=".readme-assets/Ko-fi.png" width="36"/>
+    </a>
+    <a href="http://youtube.com/lonedev">
+    <img alt="YouTube" title="YouTube" 
+    src=".readme-assets/YouTube.png" width="36"/>
+    <a href="https://thefourcraft.com">
+    <img alt="SpigotMC" title="SpigotMC" 
+    src=".readme-assets/SpigotMC.png" width="56"/>
+    </a>
+    <a href="https://www.matteodev.it/">
+    <img alt="Website" title="Website" 
+    src=".readme-assets/Website.png" width="36"/>
+    </a>
+    <a href="https://store.steampowered.com/developer/LoneDev/">
+    <img alt="Steam Developer Page" title="Steam Developer Page" 
+    src=".readme-assets/Steam.png" width="36"/>
+    </a>
+    <a href="https://discord.gg/4dfnpUK">
+    <img alt="Discord" title="Discord" 
+    src=".readme-assets/Discord.png" width="36"/>
+    </a>
+</p>
 
-* [Patreon](http://patreon.com/lonedev)
-* [Ko-fi](http://a.devs.beer/kofi)
-* [YouTube](http://youtube.com/lonedev)
-* [SpigotMC](https://www.spigotmc.org/members/lonedev.88296/#resources)
-* [Website](https://www.matteodev.it/)
-* [Steam Developer Page](https://store.steampowered.com/developer/LoneDev/)
-* [Discord](https://discord.gg/4dfnpUK)
+</div>
 
 ### 📚Legal Info
 
 * [Support Team Policy](legal/support-team-policy.md)
 * [Addons Creation Policy](legal/addon-creation-policy.md)
 * [Plugin TOS](legal/tos.md)
-
