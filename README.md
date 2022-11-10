@@ -16,9 +16,10 @@ description: This website helps you configuring and creating custom items for my
 [adding-content](plugin-usage/adding-content/)
 {% endcontent-ref %}
 
-<div align="center">
-<h3>🌐Social Media</h3>
+
+### 🌐Social Media
 <!-- Contact Me -->
+<div align="center">
 <p>
     <a href="http://patreon.com/lonedev">
     <img alt="patreon" title="patreon" 
