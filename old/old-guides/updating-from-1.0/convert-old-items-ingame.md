@@ -1,6 +1,12 @@
 # Convert old items/blocks ingame
 
 {% hint style="danger" %}
+## :warning: THIS IS AN OLD OUTDATED GUILD :warning:
+
+## [PLEASE UPDATE TO THE LATEST VERSION](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
+{% endhint %}
+
+{% hint style="danger" %}
 **It's recommended to start a fresh new world and don't use the old one as converters work but are experimental.**
 {% endhint %}
 

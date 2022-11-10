@@ -1,11 +1,17 @@
 # Convert old files to v2
 
 {% hint style="danger" %}
+## :warning: THIS IS AN OLD OUTDATED GUILD :warning:
+
+## [PLEASE UPDATE TO THE LATEST VERSION](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
+{% endhint %}
+
+{% hint style="danger" %}
 **It's recommended to start a fresh new world and don't use the old one as converters work but are experimental.**
 {% endhint %}
 
 {% hint style="warning" %}
-#### If you didn't create any custom item and you are using only my custom items please skip that tutorial, you don't need to convert files. But be sure to follow the tutorial "Convert old items ingame"
+**If you didn't create any custom item and you are using only my custom items please skip that tutorial, you don't need to convert files. But be sure to follow the tutorial "Convert old items ingame"**
 
 You just have to rename ItemsAdder folder to ItemsAdder\_backup, delete the old plugin and install the 2.0 version
 {% endhint %}

@@ -1,8 +1,14 @@
 # "Duplicate recipe ignored" error
 
+{% hint style="danger" %}
+## &#x20;:warning:THIS IS AN OLD OUTDATED GUILD :warning:
+
+## [PLEASE UPDATE TO THE LATEST VERSION](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
+{% endhint %}
+
 If you get an error similar to this, please update your Paper or Spigot to LATEST version. If it's 1.14.4 version doesn't mean it's updated, you have to download the very latest version of it.
 
-```text
+```
 Server thread/ERROR Error occurred while enabling ItemsAdder v1.1.27 (Is it up to date?)
 java.lang.IllegalStateException: Duplicate recipe ignored with ID itemsadder:philosopher_stone
 at net.minecraft.server.v1_14_R1.CraftingManager.addRecipe(CraftingManager.java:72) ~[minecraft_server.jar:git-Spigot-9de398a-9c887d4]
@@ -25,4 +31,3 @@ at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:37
 at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449) [minecraft_server.jar:git-Spigot-9de398a-9c887d4]
 at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258) [minecraft_server.jar:git-Spigot-9de398a-9c887d4]
 ```
-

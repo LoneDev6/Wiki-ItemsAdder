@@ -18,4 +18,5 @@ When Creating, Updating, Adding, Changing, Thinking, Improving, Fixing, Configur
 Before Asking Questions, **FOLLOW THE GOLDEN RULE!**
 {% endhint %}
 
-Thanks, the Support™
+Thanks, the Support™\
+Created By [thefourCraft](https://github.com/thefourcraft)

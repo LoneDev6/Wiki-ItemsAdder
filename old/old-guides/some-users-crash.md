@@ -1,5 +1,11 @@
 # ☠️Some users crash
 
+{% hint style="danger" %}
+## &#x20;:warning:THIS IS AN OLD OUTDATED GUILD :warning:
+
+## [PLEASE UPDATE TO THE LATEST VERSION](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
+{% endhint %}
+
 {% hint style="success" %}
 This problem was fixed long time ago, if you still have this problem probably it's a bug introduced again by Mojang
 {% endhint %}

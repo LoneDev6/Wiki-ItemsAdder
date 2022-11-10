@@ -4,10 +4,16 @@ description: Use another .json file for the auto generated font images
 
 # Alternative font file
 
+{% hint style="danger" %}
+## &#x20;:warning:THIS IS AN OLD OUTDATED GUILD :warning:
+
+## [PLEASE UPDATE TO THE LATEST VERSION](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
+{% endhint %}
+
 ## How to use the alternative custom font file
 
 {% hint style="danger" %}
-#### This feature is unstable.
+**This feature is unstable.**
 {% endhint %}
 
 **ItemsAdder** generates the json file for your custom **font\_images**, in some cases you prefer to have a separate file instead of append the images into the `default.json`.
@@ -50,7 +56,7 @@ ItemsAdder custom font will be named `custom`, so in this case you will have to 
 ## Should I use this feature?
 
 {% hint style="danger" %}
-#### This feature is unstable.
+**This feature is unstable.**
 
 I'd avoid using it since it has too many downsides, but I'll leave you the decision since some servers may need to separate the custom images from the default font.
 {% endhint %}

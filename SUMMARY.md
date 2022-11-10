@@ -315,6 +315,7 @@
 
 ## OLD
 
+* [Warning](old/warning.md)
 * [Old guides](old/old-guides/README.md)
   * [🕸 Old v1.0 tutorials](old/old-guides/old-v1.0-tutorials.md)
   * [➡ Updating from 1.0](old/old-guides/updating-from-1.0/README.md)
