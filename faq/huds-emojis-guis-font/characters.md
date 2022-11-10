@@ -14,7 +14,7 @@ You have to delete this folder lang folder: `data\resource_pack\assets\minecraft
 
 Then run `/iazip` command.
 
-![](<../../.gitbook/assets/immagine (140) (1).png>)
+![](<../../.gitbook/assets/immagine (150).png>)
 
 ## I see ☐ instead of my emojis/ranks
 

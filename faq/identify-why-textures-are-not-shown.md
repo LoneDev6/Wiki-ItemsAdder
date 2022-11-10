@@ -23,10 +23,10 @@ You can clearly see which files failed to load and why, the errors are clear in 
 
 ### Join the server and read the log
 
-![](<../.gitbook/assets/immagine (136) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../.gitbook/assets/immagine (136) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### Find out which file is broken
 
 You can clearly see which files failed to load and why, the errors are clear in most of the cases.\
-In this example I had two broken files `gem_vending_machine` and `whitebathroom_sink`. \
+In this example I had two broken files `gem_vending_machine` and `whitebathroom_sink`.\
 The error tells me that the JSON files are broken, they probably have bad characters inside or they are corrupted.

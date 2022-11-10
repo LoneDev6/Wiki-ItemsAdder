@@ -2,17 +2,17 @@
 description: Emotes have bugged textures (1.17+)
 ---
 
-# Broken Emote textures
+# Broken emote textures
 
 ## Shader Mod issues
 
 Mods that allow the usage of custom shaders will break emotes due to them overriding/replacing the vanilla Shader which ItemsAdder uses for the Emotes feature.
 
-The only way to *"fix"* this is by disabling the shaders themself or removing the shader mod in question.
+The only way to _"fix"_ this is by disabling the shaders themself or removing the shader mod in question.
 
 {% tabs %}
 {% tab title="With Shaders on (Bug)" %}
-![shader bug](<../../.gitbook/assets/image (51) (2) (1).png>)
+![shader bug](<../../.gitbook/assets/image (99).png>)
 {% endtab %}
 
 {% tab title="With Shaders off (No Bug)" %}

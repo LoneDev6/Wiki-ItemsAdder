@@ -62,6 +62,7 @@
     * [Single resourcepack Bungeecord](faq/bungeecord/single-resourcepack-bungeecord.md)
     * [Single resourcepack Bungeecord different features](faq/bungeecord/single-resourcepack-multiple-server.md)
   * [🗝 The Golden Rule](faq/the-golden-rule.md)
+  * [🗯 Slang](faq/slang.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [📃 Languages](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)
