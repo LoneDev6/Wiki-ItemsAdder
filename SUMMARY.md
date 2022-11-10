@@ -299,6 +299,11 @@
   * [1.18.1](https://blog.devs.beer/blog/optimize-minecraft)
   * [1.17.1](other/optimize-minecraft-client/optimize-minecraft-1.17.md)
 * [🖥 Minecraft Hosting](other/minecraft-hosting.md)
+* [🍬 Partners](other/partners/README.md)
+  * [Mine Academy](https://mineacademy.org)
+  * [Elite Creatures](https://elitecreatures.com)
+  * [Abyssdev](https://abyssdev.net/)
+  * [Aquatic Creations](https://discord.gg/ffKAAQwNdC)
 
 ## ☮ legal
 
@@ -306,6 +311,7 @@
 * [⛔ TOS](legal/tos.md)
 * [🆘 Support Team Policy](legal/support-team-policy.md)
 * [🖌 Addon Creation Policy](legal/addon-creation-policy.md)
+* [🤝 Become A Partner Policy](legal/become-a-partner-policy.md)
 
 ## OLD
 
