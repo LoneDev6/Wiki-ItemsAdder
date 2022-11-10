@@ -2,13 +2,8 @@
 description: This website helps you configuring and creating custom items for my plugin
 ---
 
-# 👋 Welcome
+# 👋 Welcome To The <img src=".readme-assets/logo_32x32.png" width="28"> Wiki
 
-<!-- Welcome Text -->
-<div align="center">
-<h1>Welcome To The <img src=".readme-assets/logo_32x32.png" width="28"> Wiki
-</h1>
-</div>
 
 ### 💠Quick Links
 
