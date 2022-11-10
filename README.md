@@ -34,7 +34,7 @@ description: This website helps you configuring and creating custom items for my
     </a>
     <a href="http://youtube.com/lonedev">
     <img alt="YouTube" title="YouTube" 
-    src=".readme-assets/YouTube.png" width="36"/>
+    src=".readme-assets/Youtube.png" width="36"/>
     <a href="https://thefourcraft.com">
     <img alt="SpigotMC" title="SpigotMC" 
     src=".readme-assets/SpigotMC.png" width="56"/>
