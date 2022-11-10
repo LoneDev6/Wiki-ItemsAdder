@@ -33,8 +33,8 @@ This is very crucial for this task or everything won't work.
 Decide a main server, for example `lobby`.\
 Open the `config.yml` of ItemsAdder in the `lobby` server and set up the hosting.
 
-{% content-ref url="../plugin-usage/resourcepack-hosting/" %}
-[resourcepack-hosting](../plugin-usage/resourcepack-hosting/)
+{% content-ref url="../../plugin-usage/resourcepack-hosting/" %}
+[resourcepack-hosting](../../plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -45,7 +45,7 @@ After you finished configuring the hosting (follow the linked tutorial carefully
 
 For example:
 
-![](<../.gitbook/assets/image (60) (1).png>)
+![](<../../.gitbook/assets/image (60) (1).png>)
 
 {% hint style="warning" %}
 You must remove the URL part after `#`, it's not needed.\
@@ -110,7 +110,7 @@ Install the Bungeecord plugin to make the loading even faster!
 {% embed url="https://www.spigotmc.org/resources/96794" %}
 
 {% hint style="danger" %}
-<mark style="color:red;">**Do not install**</mark>**  **<mark style="color:red;">**BungeePackFix**</mark>**  **<mark style="color:red;">**on**</mark>**  **<mark style="color:red;">**Spigot**</mark>**  **<mark style="color:red;">**servers!**</mark>
+<mark style="color:red;">**Do not install**</mark>\*\* <mark style="color:red;">**BungeePackFix**</mark> <mark style="color:red;">**on**</mark> <mark style="color:red;">**Spigot**</mark> \*\*<mark style="color:red;">**servers!**</mark>
 
 This is a **Bungeecord** plugin! Install it on **Bungeecord**!
 {% endhint %}

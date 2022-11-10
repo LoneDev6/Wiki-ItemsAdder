@@ -58,10 +58,12 @@
     * [Broken emote textures](faq/emotes-bugs/broken-emote-textures.md)
     * [Placed heads texture glitched](faq/emotes-bugs/placed-heads-texture-glitched.md)
     * [Emotes with more joins](faq/emotes-bugs/emotes-with-more-joins.md)
-  * [Single resourcepack Bungeecord](faq/single-resourcepack-bungeecord.md)
-  * [Single resourcepack Bungeecord different features](faq/single-resourcepack-multiple-server.md)
+  * [📶 Bungeecord](faq/bungeecord/README.md)
+    * [Single resourcepack Bungeecord](faq/bungeecord/single-resourcepack-bungeecord.md)
+    * [Single resourcepack Bungeecord different features](faq/bungeecord/single-resourcepack-multiple-server.md)
+  * [🗝 The Golden Rule](faq/the-golden-rule.md)
 * [📖 Plugin usage](plugin-usage/README.md)
-  * [📔 Languages](plugin-usage/languages.md)
+  * [📃 Languages](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)
     * [iaconfig](plugin-usage/commands/iaconfig.md)
     * [iarename](plugin-usage/commands/iarename.md)
@@ -266,11 +268,15 @@
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
     * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
     * [Ore Regenerator](compatibility-with-other-plugins/compatible/ore-regenerator.md)
-* [✏ Contribute](contribute/README.md)
-  * [Edit the English wiki](contribute/edit-the-english-wiki.md)
-  * [Translate this wiki](contribute/translate-this-wiki.md)
-  * [Preview wiki changes](contribute/preview-wiki-changes.md)
-* [🧪 Beta testing](beta-testing.md)
+
+## 💕 contributing
+
+* [📚 wiki](contributing/wiki/README.md)
+  * [Edit the English wiki](contributing/wiki/edit-the-english-wiki.md)
+  * [Editing With GitBook](contributing/wiki/editing-with-gitbook.md)
+  * [Translate this wiki](contributing/wiki/translate-this-wiki.md)
+  * [Preview wiki changes](contributing/wiki/preview-wiki-changes.md)
+* [🧪 Beta testing](contributing/beta-testing.md)
 
 ## 💻 Developers
 

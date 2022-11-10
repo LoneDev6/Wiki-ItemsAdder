@@ -24,7 +24,7 @@ You can see this folder and **items\_packs** as a very similar thing, but **reso
 This folder is automatically compressed as a file named **pack.zip**, the one that will be sent to players.
 
 {% hint style="danger" %}
-### **Important**
+#### **Important**
 
 Remember to always maintain order in **resource\_pack** folder, don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.
 {% endhint %}

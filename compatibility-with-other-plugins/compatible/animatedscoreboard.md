@@ -22,8 +22,6 @@ Use the following commands:
 
 `/animatedsb switch example_itemsadder`
 
-
-
 ## Font images in the scoreboard
 
 You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emojis and symbols) in the scoreboard if you install **PlaceholderAPI**.
@@ -48,8 +46,7 @@ With ItemsAdder you can hide the scoreboard background, just use this trick.
 {% endtab %}
 
 {% tab title="After" %}
-​\
-
+​\\
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-M28TcKgSDvuFN510qye%2F-MhOfUmIRJYMhFZM2AQy%2F-MhOg9VxfKvE2ZGZ3QE6%2Fimmagine.png?alt=media&#x26;token=c4ee2fd0-2aa9-46e2-a8dd-0025dcc64f7e" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -57,10 +54,10 @@ With ItemsAdder you can hide the scoreboard background, just use this trick.
 
 ### How to hide the background
 
-You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>** ** of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
+You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>\*\* \*\* of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
 
 {% hint style="danger" %}
-### Warning!
+#### Warning!
 
 Not compatible with special attributes of **AnimatedScoreboard** like these and similar!
 
@@ -72,14 +69,10 @@ Not compatible with special attributes of **AnimatedScoreboard** like these and 
 
 <mark style="color:red;">Please do not ask me for support</mark>, I cannot fix this, I'm not the author of **AnimatedScoreboard**.
 
-
-
 If you want to use `<stay>` you have to put the `%img_offset_-500%` after the first `>`.\
 Example:
 
 `<stay ticks=100>%img_offset_-500%&lAnimated Scoreboard</stay>`
-
-
 {% endhint %}
 
 <details>

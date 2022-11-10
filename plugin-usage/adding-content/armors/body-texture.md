@@ -2,7 +2,7 @@
 description: Custom on-body armor texture
 ---
 
-# Texture
+# Body texture
 
 {% hint style="danger" %}
 The `vanilla_1_17` feature requires ItemsAdder 2.4.22+ and Minecraft 1.17.\
@@ -48,7 +48,7 @@ Now I create the two PNG files inside the `data/resource_pack/assets/myitems/tex
 ![](<../../../.gitbook/assets/image (45) (1) (1) (1) (1).png>)
 
 {% hint style="info" %}
-#### HD armor textures
+**HD armor textures**
 
 You can create HD high resolution armors too!
 
@@ -95,13 +95,13 @@ Now I create the item texture and I put it inside the `data\resource_pack\assets
 
 You can also create animated armors!
 
-![](../../../.gitbook/assets/ezgif-7-3b3a255fe802.gif)
+![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1).gif>)
 
 To create an animated armor you have to create an image with all the animation frames.
 
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](<../../../.gitbook/assets/layer\_1 (1).png>)
+![layer\_1](../../../.gitbook/assets/layer\_1.png)
 
 ![layer\_2](../../../.gitbook/assets/layer\_2.png)
 

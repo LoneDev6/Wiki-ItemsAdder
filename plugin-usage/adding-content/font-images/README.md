@@ -8,7 +8,7 @@ description: >-
 
 ### What are Font images?
 
-This feature allows you to create images that can be used to make:  **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
+This feature allows you to create images that can be used to make: **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
 
 {% hint style="warning" %}
 When you create a **font\_image** make sure the **background** is **not** fully **transparent**.\
@@ -53,7 +53,7 @@ You can do it, you just have to edit the `default.json` file.
 
 ![](<../../../.gitbook/assets/immagine (106).png>)
 
-![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (5).png>)
+![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (3).png>)
 
 ![](<../../../.gitbook/assets/immagine (107).png>)
 
