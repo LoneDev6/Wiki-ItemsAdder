@@ -2,8 +2,9 @@
 description: This website helps you configuring and creating custom items for my plugin
 ---
 
-# 👋 Welcome To The <img src=".readme-assets/logo_32x32.png" width="28"> Wiki
+# 👋 Welcome
 
+ <h2>This Is The <img src=".readme-assets/logo_32x32.png" width="28"> Wiki</h2>
 
 ### 💠Quick Links
 
