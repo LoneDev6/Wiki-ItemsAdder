@@ -2,29 +2,29 @@
 description: How to install the plugin
 ---
 
-# ⚙ First install
+# ⚙ Primeira instalação
 
 {% hint style="info" %}
-**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when the server is offline.\
+**Você deve seguir** esta primeira configuração **no** seu **servidor de teste** em seu PC para **evitar erros** e muitas reinicializações.. os jogadores não gostam quando o servidor está offline.\
 You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-You **should** complete <mark style="color:red;">**ALL**</mark> installation steps. Not only the first step.
+Você **deve** completar <mark style="color:red;">**TODAS**</mark> as etapas de instalação. Não só o primeiro passo.
 {% endhint %}
 
 {% hint style="warning" %}
-**Make sure** that all of your plugins and server software are up to date.
+**Certifique-se** de que todos os seus plugins e softwares de servidor estejam atualizados.
 {% endhint %}
 
-## Step 1 - Installing the plugin and APIs
+## Etapa 1 - Instalando o Plugin e as APIs
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
-* (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
-* put **ItemsAdder.jar** file inside your plugins folder
-* start the server
+* Instale [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* Instale [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
+* (opcional) Instale **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
+* (opcional) Instale [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) se você planeja criar mobs personalizados no futuro.
+* coloque o arquivo **ItemsAdder.jar** dentro da sua pasta de plugins
+* inicie o servidor
 * let ItemsAdder finish loading **everything**
 
 First step is done.\
