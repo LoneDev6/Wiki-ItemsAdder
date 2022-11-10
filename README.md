@@ -41,7 +41,7 @@ description: This website helps you configuring and creating custom items for my
     </a>
     <a href="https://www.matteodev.it/">
     <img alt="Website" title="Website" 
-    src=".readme-assets/Website.png" width="36"/>
+    src=".readme-assets/Internet.png" width="36"/>
     </a>
     <a href="https://store.steampowered.com/developer/LoneDev/">
     <img alt="Steam Developer Page" title="Steam Developer Page" 
