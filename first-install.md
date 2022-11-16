@@ -19,7 +19,7 @@ You **should** complete <mark style="color:red;">**ALL**</mark> installation ste
 
 ## Step 1 - Installing the plugin and APIs
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
+* install [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/)****
 * install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
 * (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
 * (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
