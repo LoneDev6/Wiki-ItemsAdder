@@ -181,7 +181,6 @@
       * [Loading screen](plugin-usage/adding-content/optifine-only-features/loading-screen.md)
       * [Armor textures (old method)](plugin-usage/adding-content/optifine-only-features/armor-textures.md)
   * [📃 Recipes menu](plugin-usage/ia.md)
-  * [💾 Export namespace](plugin-usage/export-namespace.md)
   * [🗃 Merge resourcepacks](plugin-usage/merge-resourcepacks/README.md)
     * [Manual editing blockstates](plugin-usage/merge-resourcepacks/manual-editing-blockstates.md)
   * [PAPI placeholders](plugin-usage/placeholderapi.md)
