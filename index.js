@@ -52,6 +52,6 @@ console.log(__dirname)
 
 assetsFilesNamesToRemove.forEach(function(item, index, object) {
     const remove = __dirname + "\\" + item.replaceAll("\\_", "_");
-    //fs.unlinkSync(remove);
+    fs.unlinkSync(remove);
     console.log("Deleted file: " + remove)
 });
