@@ -11,7 +11,7 @@ If you see broken textures make sure you are using ItemsAdder 3.0.3 or a more re
 Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
 {% endhint %}
 
-![](../../.gitbook/assets/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3533333431333137313430333239323731322f3931353939333232363736313130393531342f323032312d31322d30325f31362e34372e34302e706e67.png)
+![](../../.gitbook/assets/shader_armor_bug.png)
 
 ![](../../.gitbook/assets/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)
 

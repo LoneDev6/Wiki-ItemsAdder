@@ -8,7 +8,7 @@ In order to create a recipe for your items in your [namespace ](../basic-concept
 
 ## Example 3x3 recipe
 
-![](<../../../.gitbook/assets/immagine (42).png>)
+![](<../../../.gitbook/assets/image_(42).png>)
 
 ```yaml
 info:
@@ -34,9 +34,9 @@ In this example I created a `crafting_table` recipe called `deadmau5_hat`
 
 ## Example 2x2 recipe
 
-![](<../../../.gitbook/assets/immagine (41).png>)
+![](<../../../.gitbook/assets/image_(41).png>)
 
-![](<../../../.gitbook/assets/immagine (43).png>)
+![](<../../../.gitbook/assets/image_(43).png>)
 
 ```yaml
 taco:

@@ -8,4 +8,4 @@ This is a known issue and cannot be fixed easily without making the plugin lag t
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" %}
 
-![](<../../../.gitbook/assets/immagine (36).png>)
+![](<../../../.gitbook/assets/image_(36).png>)

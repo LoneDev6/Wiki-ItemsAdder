@@ -24,7 +24,7 @@ For example you can write this command `/tellraw @a [{"text":"Test message!","fo
 
 This command will write the first text with font `default` and the second text with font `alt` (in this case it's included into the game).
 
-![](<../../.gitbook/assets/immagine (153).png>)
+![](<../../.gitbook/assets/image_(153).png>)
 
 ItemsAdder custom font will be named `custom`, so in this case you will have to use the attribute `"font":"custom"`.
 

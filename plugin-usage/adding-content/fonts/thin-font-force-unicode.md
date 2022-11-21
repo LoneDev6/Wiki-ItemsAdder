@@ -4,7 +4,7 @@
 
 Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"_.
 
-![](<../../../.gitbook/assets/immagine (5).png>)
+![](<../../../.gitbook/assets/image_(5).png>)
 
 \
 With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft limitation.
@@ -13,7 +13,7 @@ With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs
 You must set **Force Unicode Font: OFF**&#x20;
 {% endhint %}
 
-![](<../../../.gitbook/assets/immagine (6).png>)
+![](<../../../.gitbook/assets/image_(6).png>)
 
 and **set this** in `config.yml`
 
@@ -31,7 +31,7 @@ Check [Resourcepack tutorials](../../resourcepack-hosting/)
 
 ### This is the result
 
-![](<../../../.gitbook/assets/immagine (7).png>)
+![](<../../../.gitbook/assets/image_(7).png>)
 
 {% hint style="success" %}
 Now you can see the "thin font" and GUIs, emojis, HUDs won't break (bugged white squares)

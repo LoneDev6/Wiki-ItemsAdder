@@ -4,11 +4,11 @@
 
 To fill the thirst bar use `/iaplayerstat write LoneDev thirst float 10`
 
-![](<../../.gitbook/assets/immagine (2).png>)
+![](<../../.gitbook/assets/image_(2).png>)
 
 To fill the manabar use `/iaplayerstat write LoneDev mana float 5`
 
-![](<../../.gitbook/assets/immagine (3).png>)
+![](<../../.gitbook/assets/image_(3).png>)
 
 ## Disable thirst
 

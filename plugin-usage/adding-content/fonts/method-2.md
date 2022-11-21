@@ -6,7 +6,7 @@
 
 ## Example font
 
-![](<../../../.gitbook/assets/immagine (13).png>)
+![](<../../../.gitbook/assets/image_(13).png>)
 
 {% hint style="info" %}
 This font is made by Faithful team, please check their work: [https://faithful.team/](https://faithful.team/)

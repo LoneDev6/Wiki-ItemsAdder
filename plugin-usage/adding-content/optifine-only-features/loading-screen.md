@@ -2,17 +2,17 @@
 
 ## Vanilla loading screen
 
-![](<../../../.gitbook/assets/immagine (44).png>)
+![](<../../../.gitbook/assets/image_(44).png>)
 
 ## Custom loading screen
 
-![](<../../../.gitbook/assets/immagine (51).png>)
+![](<../../../.gitbook/assets/image_(51).png>)
 
 ## How to do that?
 
 ### Before Minecraft 1.16
 
-![](<../../../.gitbook/assets/immagine (49).png>)
+![](<../../../.gitbook/assets/image_(49).png>)
 
 You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf).
 
@@ -21,7 +21,7 @@ You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://gi
 
 ### After Minecraft 1.16
 
-![](<../../../.gitbook/assets/immagine (48).png>)
+![](<../../../.gitbook/assets/image_(48).png>)
 
 {% hint style="warning" %}
 **Warning**: a known issue is that the logo is bugged when you use `/iazip` or `/iatexture` to apply the texture ingame.\

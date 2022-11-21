@@ -12,7 +12,7 @@ For example I created a **file** which will contain all my **custom blocks**:
 
 In this file (`blocks.yml`) I start creating a simple block called `red_block`
 
-![](<../../../.gitbook/assets/immagine (90).png>)
+![](<../../../.gitbook/assets/image_(90).png>)
 
 ```yaml
 info:
@@ -139,11 +139,11 @@ Make sure to read the hosting tutorial or you won't see the block correctly.
 
 Run `/iaget red_block` to get the item.
 
-![](<../../../.gitbook/assets/immagine (92).png>)
+![](<../../../.gitbook/assets/image_(92).png>)
 
-![](<../../../.gitbook/assets/immagine (91).png>)
+![](<../../../.gitbook/assets/image_(91).png>)
 
-![](<../../../.gitbook/assets/immagine (93).png>)
+![](<../../../.gitbook/assets/image_(93).png>)
 
 ## Drop exp from block
 

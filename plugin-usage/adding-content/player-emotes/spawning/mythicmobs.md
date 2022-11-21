@@ -58,4 +58,4 @@ In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
 
 ### Done
 
-![](<../../../../.gitbook/assets/ezgif.com-gif-maker (1).webp>)
+![](<../../../../.gitbook/assets/notch_attack.webp>)

@@ -10,11 +10,11 @@ Some servers use the scoreboard to show custom data and they don't use the red n
 
 {% tabs %}
 {% tab title="After" %}
-![With ItemsAdder](<../../.gitbook/assets/immagine (130).png>)
+![With ItemsAdder](<../../.gitbook/assets/image_(130).png>)
 {% endtab %}
 
 {% tab title="Before" %}
-![Without ItemsAdder](<../../.gitbook/assets/immagine (131).png>)
+![Without ItemsAdder](<../../.gitbook/assets/image_(131).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -37,7 +37,7 @@ You can change your text color from <mark style="color:red;">`&c`</mark> to <mar
 
 Another way to fix this is to **add some spaces at the end** of your red text to avoid this.
 
-<img src="../../.gitbook/assets/immagine (140).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image_(140).png" alt="" data-size="original">
 
 </details>
 

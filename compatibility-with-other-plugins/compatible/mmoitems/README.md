@@ -18,27 +18,27 @@ Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium
 
 ### Use the command /mmoitems browse
 
-![](<../../../.gitbook/assets/immagine (25).png>)
+![](<../../../.gitbook/assets/image_(25).png>)
 
 ### Create a new MMOItem
 
-![](<../../../.gitbook/assets/immagine (26).png>)
+![](<../../../.gitbook/assets/image_(26).png>)
 
-![](<../../../.gitbook/assets/immagine (29).png>)
+![](<../../../.gitbook/assets/image_(29).png>)
 
 ### Add all the attributes you want, for example magic damage etc
 
-![](<../../../.gitbook/assets/immagine (28).png>)
+![](<../../../.gitbook/assets/image_(28).png>)
 
 ### MMOItem preview inside /mmoitems browse
 
-![](<../../../.gitbook/assets/immagine (30).png>)
+![](<../../../.gitbook/assets/image_(30).png>)
 
 
 
 ### Create your .yml file as usual and add all the properties for the ItemsAdder item
 
-![](<../../../.gitbook/assets/immagine (32).png>)
+`ItemsAdder/contents/mmoitems_example/configs/example.yml`
 
 {% hint style="success" %}
 As you can see I set a new attribute called **`mmoitem`** and also **`type`** and **`id`**.\
@@ -66,12 +66,12 @@ items:
 
 ### Create your .png texture as usual
 
-![](<../../../.gitbook/assets/immagine (31).png>)
+`ItemsAdder/contents/mmoitems_example/resourcepack/mmoitems_example/textures/item/test.png`
 
 ### Get the item
 
 Use the command `/iaget mmoitems_example:test` to get your finished item
 
-![](<../../../.gitbook/assets/immagine (33).png>)
+![](<../../../.gitbook/assets/image_(33).png>)
 
-![](<../../../.gitbook/assets/immagine (34).png>)
+![](<../../../.gitbook/assets/image_(34).png>)

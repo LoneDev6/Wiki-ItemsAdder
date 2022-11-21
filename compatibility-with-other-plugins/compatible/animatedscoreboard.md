@@ -32,7 +32,7 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emoj
 
 `%img_smile%` will show like that:
 
-![](<../../.gitbook/assets/immagine (95).png>)
+![](<../../.gitbook/assets/image_(95).png>)
 
 ## Hide the scoreboard background
 

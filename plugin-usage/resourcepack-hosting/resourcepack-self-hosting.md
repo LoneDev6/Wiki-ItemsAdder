@@ -32,9 +32,9 @@ Difference is that with self-host you can download the pack directly from your s
 
 For example on **Pterodactyl**:
 
-![](<../../.gitbook/assets/immagine (104).png>)
+![](<../../.gitbook/assets/image_(104).png>)
 
-![](<../../.gitbook/assets/immagine (101).png>)
+![](<../../.gitbook/assets/image_(101).png>)
 
 * after you obtained a **new port** you can open `config.yml` and set like this:
 

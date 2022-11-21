@@ -51,12 +51,12 @@ You can do it, you just have to edit the `default.json` file.
 
 ## Examples of content created with Font images feature
 
-![](<../../../.gitbook/assets/immagine (106).png>)
+![](<../../../.gitbook/assets/image_(106).png>)
 
 ![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
-![](<../../../.gitbook/assets/immagine (107).png>)
+![](<../../../.gitbook/assets/image_(107).png>)
 
-![](<../../../.gitbook/assets/immagine (108).png>)
+![](<../../../.gitbook/assets/image_(108).png>)
 
-![](<../../../.gitbook/assets/immagine (109).png>)
+![](<../../../.gitbook/assets/image_(109).png>)

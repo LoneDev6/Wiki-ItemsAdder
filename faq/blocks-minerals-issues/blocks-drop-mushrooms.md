@@ -8,7 +8,7 @@ If you have [EmeraldEnchants2 ](https://github.com/TheBusyBiscuit/EmeraldEnchant
 
 Did you delete the custom blocks folders in your world? Don't do it.
 
-![](<../../.gitbook/assets/immagine (98).png>)
+![](<../../.gitbook/assets/image_(98).png>)
 
 If you delete it you lose every custom ItemsAdder block data in the world.
 

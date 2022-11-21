@@ -51,9 +51,9 @@ effects:
 
 ![](../.gitbook/assets/rainbow.gif)
 
-![](<../.gitbook/assets/immagine (128).png>)
+![](<../.gitbook/assets/image_(128).png>)
 
-![](<../.gitbook/assets/immagine (129).png>)
+![](<../.gitbook/assets/image_(129).png>)
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
@@ -109,7 +109,7 @@ Usage: `<rj text>`
 
 ## How to create animated prefix (Luckperms)
 
-![](<../.gitbook/assets/immagine (133).png>)
+![](<../.gitbook/assets/image_(133).png>)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 

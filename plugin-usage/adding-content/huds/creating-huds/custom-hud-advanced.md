@@ -24,6 +24,6 @@ This type of HUD requires you to use the [Java API](../../../../../developers/ja
 
 {% embed url="https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486" %}
 
-![](../../../../../.gitbook/assets/78b0de78224899524466178c9e7af2ade34514f1.gif)
+![](../../../../../.gitbook/assets/arrow_showcase.gif)
 
-![](../../../../../.gitbook/assets/e32ea483cc0e3e389c90081e2f6f1f33ed043440.gif)
+![](../../../../../.gitbook/assets/hud_showcase.gif)

@@ -98,7 +98,7 @@ Now save your changes
 
 Use this command (change `LoneDev` to your player name) `/lp user LoneDev group add admin`
 
-![](<../../.gitbook/assets/immagine (40).png>)
+![](<../../.gitbook/assets/image_(40).png>)
 
 ### TAB plugin
 
@@ -119,6 +119,6 @@ Make sure you installed [PlaceholderAPI](font-images/using-font\_images-emojis-e
 
 Then use the command `/tab reload`
 
-![](<../../.gitbook/assets/immagine (38).png>)
+![](<../../.gitbook/assets/image_(38).png>)
 
-![](<../../.gitbook/assets/immagine (39).png>)
+![](<../../.gitbook/assets/image_(39).png>)

@@ -19,11 +19,11 @@ You can clearly see which files failed to load and why, the errors are clear in 
 
 ### Enable output log
 
-![](<../.gitbook/assets/immagine (135).png>)
+![](<../.gitbook/assets/image_(135).png>)
 
 ### Join the server and read the log
 
-![](<../.gitbook/assets/immagine (136) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/json_errors.png>)
 
 ### Find out which file is broken
 

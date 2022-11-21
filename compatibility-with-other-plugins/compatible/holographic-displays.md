@@ -23,7 +23,7 @@ To create an hologram you can use these commands for example:
 * create a new hologram, for example: `/hd create holo_icon Hello!`
 * add the floating item to the hologram by specifying the **vanilla type** and the **CustomModelData**. Example:  `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
 
-![](<../../.gitbook/assets/immagine (124).png>)
+![](<../../.gitbook/assets/image_(124).png>)
 
 
 

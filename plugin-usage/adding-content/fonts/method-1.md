@@ -4,7 +4,7 @@ This method allows you to add fonts using .ttf font files
 
 ## Example custom font
 
-![](<../../../.gitbook/assets/immagine (1).png>)
+![](<../../../.gitbook/assets/image_(1).png>)
 
 To this you have to:
 
