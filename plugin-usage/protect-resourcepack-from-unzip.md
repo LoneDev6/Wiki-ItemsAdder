@@ -13,19 +13,19 @@ If you're using Dropbox don't forget to reupload the pack and update the config.
 ```yaml
   zip:
     protect-file-from-unzip:
-      enabled: true
-      extreme: true
+      protection_1: true
+      protection_2: true
 ```
 {% endcode %}
 {% endhint %}
 
-### enabled
+### protection_1
 
-The `enabled` property allows you to protect the resourcepack with a basic method.
+The `protection_1` property allows you to protect the resourcepack with a basic method.
 
-### extreme
+### protection_2
 
-The `extreme` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
+The `protection_2` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
 
 ## Showcase
 
