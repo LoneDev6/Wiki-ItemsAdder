@@ -7,6 +7,10 @@ description: Square character
 ## I see ☐ character after uninstalling Custom ESC addon
 
 {% hint style="info" %}
+This happens only on ItemsAdder version older than 3.3.0.
+{% endhint %}
+
+{% hint style="info" %}
 This is useful to uninstall [Custom ESC addon](https://www.spigotmc.org/resources/addon-custom-esc-menu-and-death-screen-for-itemsadder.88809/)
 {% endhint %}
 

@@ -17,13 +17,14 @@ All **realcraft** items are under the **realcraft** namespace, so when you use t
 Now that you see how it works you want to ask me this question: _How can I create my own namespace?_
 
 In order to keep everything organized you have to create **your** own **namespace**. \
-First step is to create a subfolder inside: `plugins\ItemsAdder\data\items_packs`
+First step is to create a subfolder inside: `plugins\ItemsAdder\contents\`
 
-In this example **namespace** will be `myitems` so create a folder names like the namespace.
+In this example **namespace** will be `myitems` so create a folder named like the namespace: `contents\myitems\`
 
 ![](<../../../.gitbook/assets/image (8).png>)
 
-Open the `myitems` folder and create a new file, you can call it like as prefer, I named it `myswords.yml`
+Open the `myitems` folder and create a new file, you can call it like as prefer, I named it `myswords.yml`.\
+`contents\myitems\myswords.yml`
 
 ![](<../../../.gitbook/assets/image (9).png>)
 

@@ -12,7 +12,7 @@
 * put your **.ogg** file in there (you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...)
 
 for example I have a file named **cdk\_sunday.ogg** and I put it into a new **music\_disc** folder.\
-So now I have `plugin\ItemsAdder\data\resource_pack\assets\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`
+So now I have `contents\NAMESPACE\resourcepack\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`
 
 ### Step 2
 

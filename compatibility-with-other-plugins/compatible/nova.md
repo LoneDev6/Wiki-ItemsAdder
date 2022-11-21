@@ -4,18 +4,4 @@
 
 ## How to add compatibility?
 
-It's very easy!
-
-* Stop the server
-* Open `plugins\Nova\config\config.json`
-* Download the resourcepack from the `url` field
-* Set `"enabled": false` in the `config.json` of Nova
-* Extract assets folder inside `plugins\ItemsAdder\data\resource_pack`
-* Start the server
-* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
-
-Done!
-
-![](<../../.gitbook/assets/immagine (121).png>)
-
-![](<../../.gitbook/assets/immagine (122).png>)
+WARNING: this tutorial must be rewrote. Please stay tuned.

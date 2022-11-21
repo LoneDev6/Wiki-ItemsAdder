@@ -10,7 +10,8 @@ description: /ia command menu
 It also contains the **"all"** category which shows every ItemsAdder item.
 
 {% hint style="info" %}
-Default ItemsAdder pack categories are inside: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+Default ItemsAdder pack categories are inside `categories.yml` files on each `namespace` folder.\
+For example: `contents\iasurvival\configs\categories.yml`
 {% endhint %}
 
 ## Creating a custom category

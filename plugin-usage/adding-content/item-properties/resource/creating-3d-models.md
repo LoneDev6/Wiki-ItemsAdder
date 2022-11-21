@@ -14,7 +14,7 @@ To create custom models I use [BlockBench ](https://blockbench.net/)which is a f
 If you're using a **non-vanilla** texture (your **.png** file) you have to open the **.json** file of your model and do a little edit.
 
 If your model is using a custom texture you have to make sure to put your namespace in front of the texture name.\
-For example if you have this 3D model and the texture has this path: `plugins\ItemsAdder\data\resource_pack\assets\my_items\textures\item\custom_item_1.png`
+For example if you have this 3D model and the texture has this path: `contents\myitems\resourcepack\myitems\textures\item\custom_item_1.png`
 
 ```javascript
  "textures":{
@@ -22,11 +22,11 @@ For example if you have this 3D model and the texture has this path: `plugins\It
    },
 ```
 
-you have to add the **namespace** in front of it (`my_items` in my example, you have to use your namespace).
+you have to add the **namespace** in front of it (`myitems` in my example, you have to use your namespace).
 
 ```javascript
  "textures":{
-      "0":"my_items:item/custom_item_1"
+      "0":"myitems:item/custom_item_1"
    },
 ```
 {% endhint %}

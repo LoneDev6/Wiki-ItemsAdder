@@ -47,7 +47,7 @@ Copy `ItemsAdder.jar` and the whole `ItemsAdder` plugin folder from local Spigot
 **STEP 6**
 
 Open the config.yml of ItemsAdder and disable the features you don't need.\
-Also remove unwanted files from `plugins/ItemsAdder/data/items_packs` .
+Also remove unwanted files from `plugins/ItemsAdder/contents/` .
 
 {% hint style="danger" %}
 DONT REMOVE dictionaries, mcemojis, mcguis, mcicons, realcraft, various\_configs FOLDER.\
@@ -59,7 +59,7 @@ You basically have to keep the folders of features you want to keep in this part
 **STEP 7**
 
 Restart the server and join it. The server should ask you to download resource pack.\
-You will then see only the items you have left in the `items_packs` folder.
+You will then see only the items you have left in the `contents` folder.
 
 **STEP 8**
 

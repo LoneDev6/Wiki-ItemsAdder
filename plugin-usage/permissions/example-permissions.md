@@ -20,7 +20,9 @@
 {% hint style="info" %}
 #### ItemsAdder default categories
 
-Open this file to read all the permissions to see categories: `plugins\ItemsAdder\data\items_packs\various_configs\ia_gui_default_categories.yml`
+Open the `categories.yml` file to read all the permissions to see categories.\
+The default ItemsAdder pack categories files are inside each `namespace` folder.\
+For example: `contents\iasurvival\configs\categories.yml`
 
 For example if you want to make players see ALL the categories of default ItemsAdder you just have to give `ia.menu.*` permission.
 {% endhint %}
@@ -28,7 +30,7 @@ For example if you want to make players see ALL the categories of default ItemsA
 {% hint style="info" %}
 #### Addons categories
 
-If you're installing an [addon ](https://addons.plugin.ga/itemsadder/)you may search for a `categories.yml` file inside `ItemsAdder\data\items_packs\ADDON`, usually they put the categories there, so you can find also their **permissions**.
+If you're installing an [addon](https://addons.plugin.ga/itemsadder/)you may search for a `categories.yml` file inside `ItemsAdder\contents\<ADDON NAME>\configs`, usually they put the categories there, so you can find also their **permissions**.
 {% endhint %}
 
 {% hint style="info" %}

@@ -96,7 +96,7 @@ font_images:
 
 Now you have to create one image file for each of the ones we have specified in the previous file.
 
-Create them in this path (as set in the configuration) `ItemsAdder\data\resource_pack\assets\myitems\textures\example_hud\`
+Create them in this path (as set in the configuration) `contents\myitems\resourcepack\myitems\textures\example_hud\`
 
 ![](<../../../../.gitbook/assets/image (50) (1) (1) (1) (1).png>)
 

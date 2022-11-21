@@ -19,7 +19,7 @@ ninja_skeleton:
   Health: 10
   Damage: 2
   Drops:
-    - my_items:special_sword 1-5 30%
+    - myitems:special_sword 1-5 30%
   Options:
     MovementSpeed: 0
     Silent: true
@@ -38,12 +38,12 @@ SkeletalKnight:
   Health: 40
   Damage: 8
   Equipment:
-  - my_items:special_helmet HEAD
-  - my_items:special_chestplate CHEST
-  - my_items:special_leggings LEGS
-  - my_items:special_boots FEET
-  - my_items:special_sword HAND
-  - my_items:special_shield OFFHAND
+  - myitems:special_helmet HEAD
+  - myitems:special_chestplate CHEST
+  - myitems:special_leggings LEGS
+  - myitems:special_boots FEET
+  - myitems:special_sword HAND
+  - myitems:special_shield OFFHAND
 ```
 
 ## Custom mobs models

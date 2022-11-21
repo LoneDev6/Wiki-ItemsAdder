@@ -16,7 +16,7 @@
 
 You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf).
 
-* Edit my file:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`
+* Edit my file:`contents\loading_screen\resourcepack\minecraft\textures\gui\title\mojang.png`
 * Save the file in the same location
 
 ### After Minecraft 1.16
@@ -32,7 +32,7 @@ A little bit difficult:\
 basically you have to split your image in half like I did, so you have to know how to use image editing programs (Photoshop, GIMP or Paint.net).\
 You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf).
 
-* Edit my file: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
+* Edit my file: `contents\loading_screen\resourcepack\minecraft\textures\gui\title\mojangstudios.png`
 * Save the file in the same location
 
 {% hint style="warning" %}
@@ -45,7 +45,7 @@ This is **always** the case, no matter the size of the actual texture!
 
 ### How to change the background color (1.16+ only)
 
-Create a new file (or edit the already provided one): `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\color.properties`
+Create a new file (or edit the already provided one): `contents\loading_screen\resourcepack\minecraft\optifine\color.properties`
 
 Put this content:
 

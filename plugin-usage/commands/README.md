@@ -49,11 +49,11 @@
   * usage: /iadurability
   * permission: "ia.admin.iadurability"
 * iareload:
-  * description: Reloads items\_packs files
+  * description: Reloads configuration files
   * usage: /iareload
   * permission: "ia.admin.iareload"
 * iazip:
-  * description: Executes /iareload and generates pack.zip file
+  * description: Executes /iareload and generates pack file
   * usage: /iazip
   * permission: "ia.admin.iazip"
 * iablock:

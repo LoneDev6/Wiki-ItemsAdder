@@ -77,11 +77,11 @@ Click On The Link 👆
 If you're on 1.17 or lower you have to change the ores generation:
 
 * Open these files and set `enabled: true`.\
-  `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_old.yml`\
-  `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_old.yml`
+  `contents\iaalchemy\configs\worlds_populators_old.yml`\
+  `contents\iasurvival\ores\configs\worlds_populators_old.yml`
 * Open these files and set `enabled: false`.\
-  `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_1_18.yml`\
-  `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_1_18.yml`
+  `contents\iaalchemy\configs\worlds_populators_1_18.yml`\
+  `contents\iasurvival\ores\configs\worlds_populators_1_18.yml`
 
 ### Removing default items
 

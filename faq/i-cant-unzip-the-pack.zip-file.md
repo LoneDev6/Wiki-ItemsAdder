@@ -1,4 +1,4 @@
-# I can't unzip the pack.zip file
+# I can't unzip the pack file
 
 Disable the protection option.
 

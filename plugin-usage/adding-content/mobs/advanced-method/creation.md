@@ -88,15 +88,13 @@ Now open the folder where you have your model and copy/cut the new generated fol
 
 ![](<../../../../.gitbook/assets/image (83).png>)
 
-Paste the `assets` folder inside the ItemsAdder folder `plugins/ItemsAdder/data/resource_pack/`.
+Now create a new folder inside `ItemsAdder/contents/`, it's your namespace folder. For example mine is `custom`, so the path is `ItemsAdder/contents/custom/`.
+
+Paste the `assets` folder inside the ItemsAdder folder `ItemsAdder/contents/custom/resourcepack/`.
 
 ### Creating the ingame entity configuration
 
-Now create a new folder inside `plugins/ItemsAdder/data/items_packs/`, it's your namespace folder. For example mine is `custom,` so the path is `plugins/ItemsAdder/data/items_packs/custom/`.
-
-Create a new `.yml` configuration file and call it as you prefer, in this example I use one file per-entity, to keep things organized.
-
-![](<../../../../.gitbook/assets/image (72).png>)
+Create a new `.yml` configuration file inside `ItemsAdder/contents/custom/configs/` and call it as you prefer, in this example I use one file per-entity, to keep things organized.
 
 {% code title="barman_robot.yml" %}
 ```yaml

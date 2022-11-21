@@ -16,7 +16,7 @@ Copy the `assets` folder of your resourcepack.
 
 ### Step 2
 
-Paste the `assets` folder of your resourcepack inside the **ItemsAdder** folder: `plugins\ItemsAdder\data\resource_pack\`
+Paste the `assets` folder of your resourcepack inside a new folder in the **ItemsAdder** `contents` folder, for example `merged_pack_1`: `ItemsAdder\contents\merged_pack_1\resourcepack\`
 
 ### Step 3
 

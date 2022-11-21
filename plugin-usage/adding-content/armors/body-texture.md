@@ -43,7 +43,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
 
 `color` is the color attribute of this armor. It acts like an unique identifier for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
 
-Now I create the two PNG files inside the `data/resource_pack/assets/myitems/textures/armor/my_armor/` folder.
+Now I create the two PNG files inside the `contents/myitems/resourcepack/myitems/textures/armor/my_armor/` folder.
 
 ![](<../../../.gitbook/assets/image (45) (1) (1) (1) (1).png>)
 
@@ -85,7 +85,7 @@ The `custom_armor` property is important, it makes the plugin use the previous t
 
 In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's already specified in the `custom_armor` property.
 
-Now I create the item texture and I put it inside the `data\resource_pack\assets\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
+Now I create the item texture and I put it inside the `contents\myitems\resourcepack\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
 
 ![](<../../../.gitbook/assets/image (40) (1) (1).png>)
 

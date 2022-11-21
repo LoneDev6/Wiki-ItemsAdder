@@ -47,7 +47,7 @@ entities:
 
 Open the file `player.iaentitymodel` using Blockbench, you can find this file after running `/iazip` for the first time.
 
-`ItemsAdder\data\resource_pack\assets\minecraft\animations\player.iaentitymodel`
+`contents\_iainternal\resourcepack\assets\minecraft\animations\player.iaentitymodel`
 
 You can notice a lot of example animations on the left.
 
@@ -65,8 +65,8 @@ Delete all the emotes and edit/rename the ones you want. They are useful only as
 
 ![](<../../../.gitbook/assets/image (68).png>)
 
-Now create an emote and save your `.iaentitymodel` project file into this folder:\
-`ItemsAdder\data\resource_pack\assets\minecraft\animations\`
+Now create an emote and save your `.iaentitymodel` project file into this folder (for example):\
+`contents\my_emotes\resourcepack\minecraft\animations\`
 
 ![](<../../../.gitbook/assets/image (95).png>)
 

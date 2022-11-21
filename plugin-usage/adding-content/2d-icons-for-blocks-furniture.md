@@ -13,12 +13,12 @@ This feature requires **ItemsAdder 3.1.6+**
 Create the 2D icon for the block
 
 {% hint style="info" %}
-Replace `my_items` with your [namespace](basic-concepts/namespace.md#namespace)!
+Replace `myitems` with your [namespace](basic-concepts/namespace.md#namespace)!
 {% endhint %}
 
 ```yaml
 info:
-  namespace: my_items
+  namespace: myitems
 items:
   rocks:
     display_name: Rocks
@@ -39,7 +39,7 @@ items:
             decrement_amount: true
 ```
 
-Now create the `rocks.png` file inside the folder `data\resource_pack\assets\my_items\textures\item`
+Now create the `rocks.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item`
 
 ### Step 2
 
@@ -68,7 +68,7 @@ Create the item which shows the placed rock model. It is a different item form t
             item: rocks
 ```
 
-Now create the `placed_rocks.json` file inside the folder `data\resource_pack\assets\my_items\models\block\`
+Now create the `placed_rocks.json` file inside the folder `contents\myitems\resourcepack\myitems\models\block\`
 
 ### Done!
 
@@ -81,12 +81,12 @@ Now try to right click with the `rocks` item and you will see it places the `roc
 Create the 2D icon for the furniture
 
 {% hint style="info" %}
-Replace `my_items` with your [namespace](basic-concepts/namespace.md#namespace)!
+Replace `myitems` with your [namespace](basic-concepts/namespace.md#namespace)!
 {% endhint %}
 
 ```yaml
 info:
-  namespace: my_items
+  namespace: myitems
 items:
   2d_furniture:
     display_name: 2d_furniture
@@ -104,7 +104,7 @@ items:
             decrement_amount: true
 ```
 
-Now create the `2d_furniture.png` file inside the folder `data\resource_pack\assets\my_items\textures\item\`
+Now create the `2d_furniture.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item\`
 
 ### Step 2
 
@@ -135,7 +135,7 @@ Create the item which shows the placed furniture model. It is a different item f
             item: 2d_furniture
 ```
 
-Now create the `furniture.json` file inside the folder `data\resource_pack\assets\my_items\models\decoration\`
+Now create the `furniture.json` file inside the folder `dcontents\myitems\resourcepack\myitems\models\decoration\`
 
 ### Done!
 

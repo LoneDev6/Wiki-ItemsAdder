@@ -44,7 +44,8 @@ config_files:
 
 The **plugin** messages **language** files are in **this folder**: `plugins\ItemsAdder\lang\`
 
-The **default items** and **menus languages** files are inside **this folder**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
+**Default** ItemsAdder pack items/menus **languages** are inside `dictionaries` folders on each `namespace` folder.\
+For example: `contents\iasurvival\dictionaries\`
 
 {% hint style="warning" %}
 Some addons may put their dictionary files inside other folders inside items\_packs, you have to search for them.

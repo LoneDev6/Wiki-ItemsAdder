@@ -29,21 +29,21 @@ In this tutorial **my namespace** is named `mystuff`
 
 ### Step 2
 
-Create **custom textures** for the **inventory items**. I put them in **** the **folder** `plugins\ItemsAdder\data\resource_pack\assets\mystuff\textures\item\example_1`
+Create **custom textures** for the **inventory items**. I put them in **** the **folder** `contents\mystuff\resourcepack\mystuff\textures\item\example_1`
 
 ![](<../../../.gitbook/assets/image (24).png>)
 
 ### Step 3
 
 Create **custom textures** for **on-body armor**. You can get a **template** from here:\
-`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_1.png`\
-`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\models\armor\leather_layer_2.png`
+`contents\mystuff\resourcepack\minecraft\textures\models\armor\leather_layer_1.png`\
+`contents\mystuff\resourcepack\minecraft\textures\models\armor\leather_layer_2.png`
 
 **Edit** the **textures** as you wish (use Paint.NET, Photoshop, GIMP or similar programs) and **save** them as `layer_1.png` and `layer_2.png`&#x20;
 
 ### Step 4
 
-Create the `optifine` folder, this is where we want to put out **custom textures** for the **worn armor**: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine`
+Create the `optifine` folder, this is where we want to put out **custom textures** for the **worn armor**: `contents\mystuff\resourcepack\minecraft\optifine`
 
 {% hint style="warning" %}
 You **must create** it under the folder `minecraft`, sadly you **cannot** create the `optifine` folder inside your **namespace** folder (in this case `mystuff`), it's an **Optifine limitation**.
@@ -51,7 +51,7 @@ You **must create** it under the folder `minecraft`, sadly you **cannot** create
 
 ### Step 5
 
-Now save the **previously created on-body** textures (`layer_1.png` and `layer_2.png` ) inside this folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+Now save the **previously created on-body** textures (`layer_1.png` and `layer_2.png` ) inside this folder: `contents\mystuff\resourcepack\minecraft\optifine\cit\mystuff\armors\example_1\entity`
 
 So you have this:
 
@@ -59,7 +59,7 @@ So you have this:
 
 ### Step 6
 
-**Create** these files: **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties** inside `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\mystuff\armors\example_1\entity`
+**Create** these files: **boots.properties**, **chestplate.properties**, **helmet.properties**, **leggings.properties** inside `contents\mystuff\resourcepack\minecraft\optifine\cit\mystuff\armors\example_1\entity`
 
 Each of the files must contain this:
 
@@ -83,7 +83,7 @@ Now you should have this view:
 
 ### Step 7
 
-**Create** a **file** to contain this custom armor, to better organize it. Name it **example\_1.yml** and **place it** inside your namespace, in this example: `plugins\ItemsAdder\data\items_packs\mystuff\example_1.yml`
+**Create** a **file** to contain this custom armor, to better organize it. Name it **example\_1.yml** and **place it** inside your namespace, in this example: `plugins\ItemsAdder\contents\mystuff\configs\example_1.yml`
 
 ### Step 8
 
@@ -171,5 +171,5 @@ items:
 If you will **create another namespace** which contains **other armors** it's **highly advised** to **maintain** the **same structure** as I did in the tutorial to **avoid mistakes**.
 
 \
-For example if you create a new namespace names `space_armors` you will have this **optifine** folder: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\cit\space_armors\armors`
+For example if you create a new namespace names `space_armors` you will have this **optifine** folder: `contents\mystuff\resourcepack\minecraft\optifine\cit\space_armors\armors`
 {% endhint %}

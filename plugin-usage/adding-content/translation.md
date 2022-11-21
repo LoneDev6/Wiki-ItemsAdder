@@ -18,7 +18,7 @@ If you want to translate IA default items you can, you just have to copy my dict
 
 ### Create your own translation for your new items
 
-To create your own translations for your own items (you won't likely need this, but if you want to share your items online in the future it would be better to make them translatable) you just have to create a new file wherever you want (I'd put it inside the `dictionaries`folder for easier organization, but you can put anywhere inside `items_packs`).
+To create your own translations for your own items you just have to create new files (one per language) in a new folder inside `ItemsAdder/contents/`, for example `ItemsAdder/contents/myitems/configs/dictionaries/`.
 
 This is how it looks like:
 

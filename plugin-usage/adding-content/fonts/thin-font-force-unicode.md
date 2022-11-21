@@ -25,7 +25,7 @@ and **set this** in `config.yml`
 This allows you to set **Force Unicode Font: OFF** but still have the thin font enabled.
 
 {% hint style="warning" %}
-Remember, after this change you have to regenerate your pack.zip file. \
+Remember, after this change you have to regenerate your `generated.zip` file. \
 Check [Resourcepack tutorials](../../resourcepack-hosting/)
 {% endhint %}
 

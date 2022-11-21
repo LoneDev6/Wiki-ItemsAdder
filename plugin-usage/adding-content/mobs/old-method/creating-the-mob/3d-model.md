@@ -80,7 +80,7 @@ Ok I saved it as **1.json** inside the **idle** folder. This is the first frame 
 
 **14.**Now you will have a **zip** file with the animation, **download** it and **open** it.
 
-**15.Extract** the zip inside your **ItemsAdder** folder `data\resource_pack\`
+**15.Extract** the zip inside your **ItemsAdder** folder `contents\myitems\resourcepack\`
 
 **16.**Set your mob configuration like this, to use the idle animation and not the stuck one: `"mob/soul/idle"`
 
@@ -95,7 +95,7 @@ items:
       model_path: "mob/soul/idle"
 ```
 
-**17.**Use the command `/iazip` (if you're using external-host please follow the [tutorial ](../../../../resourcepack-hosting/)carefully)
+**17.**Use the command `/iazip` (if you're using external-host please follow the [tutorial](../../../../resourcepack-hosting/)carefully)
 
 **18.**spawn the mob using `/iasummon soul`
 
