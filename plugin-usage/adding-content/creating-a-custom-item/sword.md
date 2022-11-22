@@ -3,7 +3,7 @@
 {% hint style="danger" %}
 **Namespace**
 
-If you didn't create your namespace please follow the [namespace tutorial](broken-reference).
+If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace).
 {% endhint %}
 
 {% hint style="danger" %}
