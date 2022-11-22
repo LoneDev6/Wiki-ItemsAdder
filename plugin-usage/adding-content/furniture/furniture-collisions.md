@@ -62,14 +62,14 @@ You can also use negative values if needed.
 You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}
 
-![](<../../../.gitbook/assets/hitbox3.png>)
+![](<../../../.gitbook/assets/hitbox3 (4).png>)
 
-![](<../../../.gitbook/assets/image_(87).png>)
+![](../../../.gitbook/assets/image\_\(87\).png)
 
-![](<../../../.gitbook/assets/image_(88).png>)
+![](../../../.gitbook/assets/image\_\(88\).png)
 
 {% hint style="warning" %}
-#### Hitboxes limitations
+**Hitboxes limitations**
 
 **`item_frame` limitations (doesn't affect `armor_stand`)**
 

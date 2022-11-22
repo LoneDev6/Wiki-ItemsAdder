@@ -233,7 +233,7 @@ They are needed because this feature is impossible to implement without writing 
 
 Example
 
-![](<../../../../.gitbook/assets/image_(114).png>)
+![](../../../../.gitbook/assets/image\_\(114\).png)
 
 ```yaml
 items:
@@ -256,7 +256,7 @@ You can make a drop show its name.\
 Very useful for **rare items**.\
 Example:
 
-![](<../../../../.gitbook/assets/image_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4).png>)
+![](<../../../../.gitbook/assets/image\_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4) (3).png>)
 
 ```yaml
   glowing_item:

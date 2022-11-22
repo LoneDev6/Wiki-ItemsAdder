@@ -10,11 +10,11 @@ Some servers use the scoreboard to show custom data and they don't use the red n
 
 {% tabs %}
 {% tab title="After" %}
-![With ItemsAdder](<../../.gitbook/assets/image_(130).png>)
+![With ItemsAdder](../../.gitbook/assets/image\_\(130\).png)
 {% endtab %}
 
 {% tab title="Before" %}
-![Without ItemsAdder](<../../.gitbook/assets/image_(131).png>)
+![Without ItemsAdder](../../.gitbook/assets/image\_\(131\).png)
 {% endtab %}
 {% endtabs %}
 
@@ -28,10 +28,10 @@ Some servers use the scoreboard to show custom data and they don't use the red n
 
 <summary>&#x3C;--- Warning for ItemsAdder &#x3C; 3.2.5 only</summary>
 
-Using <mark style="color:red;">**RED**</mark> (<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches** on old <mark style="color:orange;">**ItemsAdder**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">versions before</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**3.2.5**</mark>.\
+Using <mark style="color:red;">**RED**</mark> (<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches** on old <mark style="color:orange;">**ItemsAdder**</mark> <mark style="color:orange;">versions before</mark> <mark style="color:orange;">**3.2.5**</mark>.\
 This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.\\
 
-**How to use **<mark style="color:red;">**`&c`**</mark>** color without issues?**
+**How to use `&c`**\*\* color without issues?\*\*
 
 You can change your text color from <mark style="color:red;">`&c`</mark> to <mark style="color:red;">`{#ff5546}`</mark>, it's the same color but it won't be bugged.
 
@@ -51,7 +51,7 @@ effects:
 ```
 
 {% hint style="warning" %}
-## **Warning**
+### **Warning**
 
 This option is definitive and cannot be turned on/off in-game.\
 You will have to disable it in the `config.yml` and regenerate the pack again to disable it.

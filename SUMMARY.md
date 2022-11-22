@@ -60,6 +60,7 @@
     * [Emotes with more joins](faq/emotes-bugs/emotes-with-more-joins.md)
   * [Single resourcepack Bungeecord](faq/single-resourcepack-bungeecord.md)
   * [Single resourcepack Bungeecord different features](faq/single-resourcepack-multiple-server.md)
+* [🗿 3.3 vs 3.2](3-3-vs-3-2.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [📔 Languages](plugin-usage/languages.md)
   * [🖥 Commands](plugin-usage/commands/README.md)

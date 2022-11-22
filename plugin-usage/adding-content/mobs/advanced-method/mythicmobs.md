@@ -201,4 +201,4 @@ Example: play a particle each 3 ticks on the bone center.
 
 ### Final result
 
-![](../../../../.gitbook/assets/ezgif.com-gif-maker\(1\).webp)
+![](broken-reference)

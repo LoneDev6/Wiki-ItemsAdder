@@ -47,12 +47,12 @@ font_images:
 
 ## In-game view
 
-![](<../../../.gitbook/assets/image_(116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image\_(116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### Using the /e useful suggestions
 
-![](<../../../.gitbook/assets/image_(112).png>)
+![](../../../.gitbook/assets/image\_\(112\).png)
 
-![](<../../../.gitbook/assets/image_(111).png>)
+![](../../../.gitbook/assets/image\_\(111\).png)
 
-![](<../../../.gitbook/assets/image_(113).png>)
+![](../../../.gitbook/assets/image\_\(113\).png)

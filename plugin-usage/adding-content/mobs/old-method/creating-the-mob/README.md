@@ -4,9 +4,13 @@ description: How to create configuration and 3D models for your mob
 
 # Creating the mob
 
-{% page-ref page="configuration.md" %}
+{% content-ref url="configuration.md" %}
+[configuration.md](configuration.md)
+{% endcontent-ref %}
 
-{% page-ref page="3d-model.md" %}
+{% content-ref url="3d-model.md" %}
+[3d-model.md](3d-model.md)
+{% endcontent-ref %}
 
 ## Final result
 
@@ -51,5 +55,4 @@ items:
       mob_animation: true
 ```
 
-![](../../../../../.gitbook/assets/image%20%2816%29.png)
-
+![](broken-reference)

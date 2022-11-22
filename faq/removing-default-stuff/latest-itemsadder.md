@@ -2,42 +2,44 @@
 description: ItemsAdder after 3.2.0
 ---
 
-# 🗑 ItemsAdder newer than 3.3.0
+# 🗑 Latest ItemsAdder
 
-## How can I remove all the items and default stuff?
+## 🗑 ItemsAdder newer than 3.3.0
+
+### How can I remove all the items and default stuff?
 
 {% hint style="info" %}
 If you only want to make your own items, blocks and other things it's easy!\
 Follow this tutorial.
 {% endhint %}
 
-### How to delete
+#### How to delete
 
 Open `plugins/ItemsAdder/contents/` folder and delete the folders/files you don't need
 
-### Finalizing the changes
+#### Finalizing the changes
 
 Run this command: `/iacleancache items`\
 Then run `/iazip`.
 
-# 🗑 ItemsAdder older than 3.3.0
+## 🗑 ItemsAdder older than 3.3.0
 
-## How can I remove all the items and default stuff?
+### How can I remove all the items and default stuff?
 
 {% hint style="info" %}
 If you only want to make your own items, blocks and other things it's easy!\
 Follow this tutorial.
 {% endhint %}
 
-### Deleting configurations
+#### Deleting configurations
 
 Open `plugins/ItemsAdder/data/items_packs/` folder and delete the folders/files you don't need
 
-### Deleting models, textures and other assets
+#### Deleting models, textures and other assets
 
 Open `plugins/ItemsAdder/data/resource_pack/assets/` folder and delete the folders/files you don't need.
 
-### Finalizing the changes
+#### Finalizing the changes
 
 Run this command: `/iacleancache items`
 

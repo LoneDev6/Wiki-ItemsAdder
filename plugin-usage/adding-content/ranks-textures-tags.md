@@ -2,7 +2,7 @@
 
 ## Make your server look professional with custom ranks
 
-![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 {% hint style="warning" %}
 **You have to use** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **and** [**TAB**](https://www.mc-market.org/resources/14009/) **to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.**
@@ -98,7 +98,7 @@ Now save your changes
 
 Use this command (change `LoneDev` to your player name) `/lp user LoneDev group add admin`
 
-![](<../../.gitbook/assets/image_(40).png>)
+![](../../.gitbook/assets/image\_\(40\).png)
 
 ### TAB plugin
 
@@ -119,6 +119,6 @@ Make sure you installed [PlaceholderAPI](font-images/using-font\_images-emojis-e
 
 Then use the command `/tab reload`
 
-![](<../../.gitbook/assets/image_(38).png>)
+![](../../.gitbook/assets/image\_\(38\).png)
 
-![](<../../.gitbook/assets/image_(39).png>)
+![](../../.gitbook/assets/image\_\(39\).png)

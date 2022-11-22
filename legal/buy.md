@@ -17,4 +17,4 @@ Buying the plugins from any other source is strongly prohibited and voids the [T
 It's possible to pay using another payment gateway if you can't pay without PayPal.\
 Follow the instructions on each market page.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>

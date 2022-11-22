@@ -8,7 +8,7 @@ description: >-
 
 ### What are Font images?
 
-This feature allows you to create images that can be used to make:  **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
+This feature allows you to create images that can be used to make: **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
 
 {% hint style="warning" %}
 When you create a **font\_image** make sure the **background** is **not** fully **transparent**.\
@@ -51,12 +51,12 @@ You can do it, you just have to edit the `default.json` file.
 
 ## Examples of content created with Font images feature
 
-![](<../../../.gitbook/assets/image_(106).png>)
+![](../../../.gitbook/assets/image\_\(106\).png)
 
-![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (6).png>)
 
-![](<../../../.gitbook/assets/image_(107).png>)
+![](../../../.gitbook/assets/image\_\(107\).png)
 
-![](<../../../.gitbook/assets/image_(108).png>)
+![](../../../.gitbook/assets/image\_\(108\).png)
 
-![](<../../../.gitbook/assets/image_(109).png>)
+![](../../../.gitbook/assets/image\_\(109\).png)

@@ -95,7 +95,7 @@ Now I create the item texture and I put it inside the `contents\myitems\resource
 
 You can also create animated armors!
 
-![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1).gif>)
+![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1) (1).gif>)
 
 To create an animated armor you have to create an image with all the animation frames.
 
