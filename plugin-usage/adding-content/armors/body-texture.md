@@ -101,7 +101,7 @@ To create an animated armor you have to create an image with all the animation f
 
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](../../../.gitbook/assets/layer\_1.png)
+![layer\_1](<../../../.gitbook/assets/layer\_1 (1).png>)
 
 ![layer\_2](../../../.gitbook/assets/layer\_2.png)
 

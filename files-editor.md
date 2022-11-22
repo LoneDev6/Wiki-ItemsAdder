@@ -4,7 +4,7 @@
 
 ### [> Download the vs-code extension here <](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode)&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Online files editor
 
