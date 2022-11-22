@@ -19,14 +19,14 @@ You can clearly see which files failed to load and why, the errors are clear in 
 
 ### Enable output log
 
-![](<../.gitbook/assets/image_(135).png>)
+![](../.gitbook/assets/image\_\(135\).png)
 
 ### Join the server and read the log
 
-![](<../.gitbook/assets/json_errors.png>)
+![](<../.gitbook/assets/json\_errors (2).png>)
 
 ### Find out which file is broken
 
 You can clearly see which files failed to load and why, the errors are clear in most of the cases.\
-In this example I had two broken files `gem_vending_machine` and `whitebathroom_sink`. \
+In this example I had two broken files `gem_vending_machine` and `whitebathroom_sink`.\
 The error tells me that the JSON files are broken, they probably have bad characters inside or they are corrupted.

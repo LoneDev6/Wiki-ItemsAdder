@@ -6,7 +6,8 @@ description: Merge other resourcepacks (also custom plugins resourcepacks)
 
 ## Why merging?
 
-**Minecraft** supports **only 1 server resourcepack**, so if you have more than one resourcepack you need to merge them.
+**Minecraft** supports **only 1 server resourcepack**.\
+**I**f you have more than one resourcepack you need to merge them.
 
 ## How to merge?
 
@@ -16,20 +17,30 @@ Copy the `assets` folder of your resourcepack.
 
 ### Step 2
 
-Paste the `assets` folder of your resourcepack inside a new folder in the **ItemsAdder** `contents` folder, for example `merged_pack_1`: `ItemsAdder\contents\merged_pack_1\resourcepack\`
+Paste the `assets` folder of your resourcepack inside a new `contents` sub-folder.\
+For example `merged_pack_1`: `ItemsAdder/contents/merged_pack_1/resourcepack/`
 
 ### Step 3
 
-Open `config.yml` of **ItemsAdder** and set this option:
-
-```yaml
-overwrite-vanilla-models: false
-```
-
-### Step 4
-
 Use the `/iazip` command to compress the ItemsAdder resourcepack.\
-(Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided)
+(Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided).
+
+### Step 4 (advanced users) - ItemsAdder 3.3+ only!
+
+If you are merging more than 1 pack you might need to decide a merge priority.\
+Open config.yml and write the load priority order of your `contents` sub-folders folders.
+
+{% code title="config.yml" %}
+```yaml
+    contents-folders-priorities:
+      - vanilla
+      - _iainternal
+      - merged_pack_1
+      - merged_pack_2
+      - merged_pack_3
+      # ... other packs here of which you want to change load order.
+```
+{% endcode %}
 
 ### Done.
 
