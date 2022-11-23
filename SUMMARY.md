@@ -266,11 +266,15 @@
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
     * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
     * [Ore Regenerator](compatibility-with-other-plugins/compatible/ore-regenerator.md)
-* [✏ Contribute](contribute/README.md)
-  * [Edit the English wiki](contribute/edit-the-english-wiki.md)
-  * [Translate this wiki](contribute/translate-this-wiki.md)
-  * [Preview wiki changes](contribute/preview-wiki-changes.md)
-* [🧪 Beta testing](beta-testing.md)
+
+## 💕 contributing
+
+* [📚 wiki](contributing/wiki/README.md)
+  * [Edit the English wiki](contributing/wiki/edit-the-english-wiki.md)
+  * [Editing With GitBook](contributing/wiki/editing-with-gitbook.md)
+  * [Translate this wiki](contributing/wiki/translate-this-wiki.md)
+  * [Preview wiki changes](contributing/wiki/preview-wiki-changes.md)
+* [🧪 Beta testing](contributing/beta-testing.md)
 
 ## 💻 Developers
 
@@ -293,6 +297,11 @@
   * [1.18.1](https://blog.devs.beer/blog/optimize-minecraft)
   * [1.17.1](other/optimize-minecraft-client/optimize-minecraft-1.17.md)
 * [🖥 Minecraft Hosting](other/minecraft-hosting.md)
+* [🍬 Partners](other/partners/README.md)
+  * [Mine Academy](https://mineacademy.org)
+  * [Elite Creatures](https://elitecreatures.com)
+  * [Abyssdev](https://abyssdev.net/)
+  * [Aquatic Creations](https://discord.gg/ffKAAQwNdC)
 
 ## ☮ legal
 
@@ -300,6 +309,7 @@
 * [⛔ TOS](legal/tos.md)
 * [🆘 Support Team Policy](legal/support-team-policy.md)
 * [🖌 Addon Creation Policy](legal/addon-creation-policy.md)
+* [🤝 Become A Partner Policy](legal/become-a-partner-policy.md)
 
 ## OLD
 
