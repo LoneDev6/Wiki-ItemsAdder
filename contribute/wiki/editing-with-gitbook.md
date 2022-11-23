@@ -8,7 +8,7 @@ description: How To Edit The Wiki With GitBook
 
 Fork the repository.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/.gitbook/assets/Froking-wiki.png" alt=""><figcaption></figcaption></figure>
 
 ## Step 2
 
