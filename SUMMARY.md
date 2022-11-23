@@ -269,12 +269,12 @@
 
 ## 💕 contributing
 
-* [📚 wiki](contributing/wiki/README.md)
-  * [Edit the English wiki](contributing/wiki/edit-the-english-wiki.md)
-  * [Editing With GitBook](contributing/wiki/editing-with-gitbook.md)
-  * [Translate this wiki](contributing/wiki/translate-this-wiki.md)
-  * [Preview wiki changes](contributing/wiki/preview-wiki-changes.md)
-* [🧪 Beta testing](contributing/beta-testing.md)
+* [📚 wiki](contribute/wiki/README.md)
+  * [Edit the English wiki](contribute/wiki/edit-the-english-wiki.md)
+  * [Editing With GitBook](contribute/wiki/editing-with-gitbook.md)
+  * [Translate this wiki](contribute/wiki/translate-this-wiki.md)
+  * [Preview wiki changes](contribute/wiki/preview-wiki-changes.md)
+* [🧪 Beta testing](contribute/beta-testing.md)
 
 ## 💻 Developers
 
