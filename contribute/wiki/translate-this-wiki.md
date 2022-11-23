@@ -11,7 +11,7 @@ Feel free to ping **LoneDev** on the Discord or to open a support ticket in the 
 
 Then, after the branch creation, open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
 
-![](<../.gitbook/assets/image (99) (1).png>)
+![](</.gitbook/assets/Froking-wiki.png>)
 
 Untick this option!
 
