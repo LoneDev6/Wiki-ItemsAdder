@@ -6,7 +6,7 @@
 
 Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.&#x20;
 
-![](<../.gitbook/assets/image (99) (1).png>)
+![](<../.gitbook/assets/Froking-wiki.png>)
 
 Make sure you're on the `master` branch.
 
