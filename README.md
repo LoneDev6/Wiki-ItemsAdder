@@ -1,32 +1,40 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+description: The Itemsadder wiki, all the Knowledge you need in one place
 ---
 
 # 👋 Welcome
 
-### 💠Quick Links
+## This Is The ![](.readme-assets/logo\_32x32.png) Wiki
+
+### 💠 Quick Links
 
 {% content-ref url="first-install.md" %}
 [first-install.md](first-install.md)
 {% endcontent-ref %}
 
+{% hint style="warning" %}
+The First Install Step Is Important ☝
+{% endhint %}
+
 {% content-ref url="plugin-usage/adding-content/" %}
 [adding-content](plugin-usage/adding-content/)
 {% endcontent-ref %}
 
-### 🌐Social Media
+{% content-ref url="faq/" %}
+[faq](faq/)
+{% endcontent-ref %}
 
-* [Patreon](http://patreon.com/lonedev)
-* [Ko-fi](http://a.devs.beer/kofi)
-* [YouTube](http://youtube.com/lonedev)
-* [SpigotMC](https://www.spigotmc.org/members/lonedev.88296/#resources)
-* [Website](https://www.matteodev.it/)
-* [Steam Developer Page](https://store.steampowered.com/developer/LoneDev/)
-* [Discord](https://discord.gg/4dfnpUK)
+{% content-ref url="plugin-usage/" %}
+[plugin-usage](plugin-usage/)
+{% endcontent-ref %}
+
+### 🌐 Social Media
+
+[![patreon](.readme-assets/Patreon.png) ](http://patreon.com/lonedev)[![Ko-fi](.readme-assets/Ko-Fi.png) ](http://a.devs.beer/kofi)[![YouTube](.readme-assets/Youtube.png) ](http://youtube.com/lonedev)[![SpigotMC](.readme-assets/SpigotMC.png) ](https://thefourcraft.com)[![Website](.readme-assets/Internet.png) ](https://www.matteodev.it/)[![Steam Developer Page](.readme-assets/Steam.png) ](https://store.steampowered.com/developer/LoneDev/)[![Discord](.readme-assets/Discord.png)](https://discord.gg/4dfnpUK)
 
 ### 📚Legal Info
 
 * [Support Team Policy](legal/support-team-policy.md)
 * [Addons Creation Policy](legal/addon-creation-policy.md)
 * [Plugin TOS](legal/tos.md)
-
+* [Become A Partner Policy](legal/become-a-partner-policy.md)

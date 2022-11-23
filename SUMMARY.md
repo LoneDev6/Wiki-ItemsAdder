@@ -53,13 +53,16 @@
     * [Leather armor texture overwritten](faq/armors-bugs/leather-armor-texture-overwritten.md)
     * [Armors not working PackSquash](faq/armors-bugs/armors-not-working-packsquash.md)
     * [Optifine CIT not working](faq/armors-bugs/optifine-cit-not-working.md)
-  * [Remove pack on server change](faq/remove-pack-on-server-change.md)
   * [💃 Emotes](faq/emotes-bugs/README.md)
     * [Broken emote textures](faq/emotes-bugs/broken-emote-textures.md)
     * [Placed heads texture glitched](faq/emotes-bugs/placed-heads-texture-glitched.md)
     * [Emotes with more joins](faq/emotes-bugs/emotes-with-more-joins.md)
-  * [Single resourcepack Bungeecord](faq/single-resourcepack-bungeecord.md)
-  * [Single resourcepack Bungeecord different features](faq/single-resourcepack-multiple-server.md)
+  * [📶 Bungeecord](faq/bungeecord/README.md)
+    * [Remove pack on server change](faq//bungeecord/remove-pack-on-server-change.md)
+    * [Single resourcepack Bungeecord](faq/bungeecord/single-resourcepack-bungeecord.md)
+    * [Single resourcepack Bungeecord different features](faq/bungeecord/single-resourcepack-multiple-server.md)
+  * [🗝 The Golden Rule](faq/the-golden-rule.md)
+  * [🗯 Slang](faq/slang.md)
 * [🗿 3.3 vs 3.2](3-3-vs-3-2.md)
 * [📖 Plugin usage](plugin-usage/README.md)
   * [📔 Languages](plugin-usage/languages.md)
@@ -266,11 +269,15 @@
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
     * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
     * [Ore Regenerator](compatibility-with-other-plugins/compatible/ore-regenerator.md)
-* [✏ Contribute](contribute/README.md)
-  * [Edit the English wiki](contribute/edit-the-english-wiki.md)
-  * [Translate this wiki](contribute/translate-this-wiki.md)
-  * [Preview wiki changes](contribute/preview-wiki-changes.md)
-* [🧪 Beta testing](beta-testing.md)
+
+## 💕 contributing
+
+* [📚 wiki](contribute/wiki/README.md)
+  * [Edit the English wiki](contribute/wiki/edit-the-english-wiki.md)
+  * [Editing With GitBook](contribute/wiki/editing-with-gitbook.md)
+  * [Translate this wiki](contribute/wiki/translate-this-wiki.md)
+  * [Preview wiki changes](contribute/wiki/preview-wiki-changes.md)
+* [🧪 Beta testing](contribute/beta-testing.md)
 
 ## 💻 Developers
 
@@ -293,6 +300,11 @@
   * [1.18.1](https://blog.devs.beer/blog/optimize-minecraft)
   * [1.17.1](other/optimize-minecraft-client/optimize-minecraft-1.17.md)
 * [🖥 Minecraft Hosting](other/minecraft-hosting.md)
+* [🍬 Partners](other/partners/README.md)
+  * [Mine Academy](https://mineacademy.org)
+  * [Elite Creatures](https://elitecreatures.com)
+  * [Abyssdev](https://abyssdev.net/)
+  * [Aquatic Creations](https://discord.gg/ffKAAQwNdC)
 
 ## ☮ legal
 
@@ -300,9 +312,10 @@
 * [⛔ TOS](legal/tos.md)
 * [🆘 Support Team Policy](legal/support-team-policy.md)
 * [🖌 Addon Creation Policy](legal/addon-creation-policy.md)
+* [🤝 Become A Partner Policy](legal/become-a-partner-policy.md)
 
 ## OLD
-
+* [Warning](old/warning.md)
 * [Old guides](old/old-guides/README.md)
   * [🕸 Old v1.0 tutorials](old/old-guides/old-v1.0-tutorials.md)
   * [➡ Updating from 1.0](old/old-guides/updating-from-1.0/README.md)

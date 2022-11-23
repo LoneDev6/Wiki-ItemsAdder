@@ -6,19 +6,19 @@
 
 Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.&#x20;
 
-![](<../.gitbook/assets/image (99) (1).png>)
+<img src="/.gitbook/assets/Froking-wiki.png">
 
 Make sure you're on the `master` branch.
 
-![](<../.gitbook/assets/image (60) (1) (1).png>)
+<img src=/.gitbook/assets/Froking-wiki-1.png>
 
 Select a file you want to edit and press the **pen** button
 
-![](<../.gitbook/assets/image (69).png>)
+<img src=/.gitbook/assets/Froking-wiki-2.png>
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-![](<../.gitbook/assets/image (67).png>)
+<img src=(/.gitbook/assets/Froking-wiki-3.png>
 
 {% hint style="warning" %}
 ## Important notes
@@ -33,7 +33,7 @@ Edit the file and then press <mark style="color:green;">**Commit changes**</mark
 
 ### Example of what you _<mark style="color:red;">must not</mark>_ edit
 
-![](<../.gitbook/assets/image (80).png>)
+![](</.gitbook/assets/Froking-wiki-4.png>)
 
 ### Last step
 
@@ -46,10 +46,10 @@ Would be good if you update your repository each time the main repository (the o
 To sync it you have to press **Fetch Upstream**.\
 [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
-![](<../.gitbook/assets/image (88).png>)
+![](</.gitbook/assets/Froking-wiki-5.png>)
 
 \
 You can keep track of changes in the Discord notification channel.
 
-![](<../.gitbook/assets/image (73).png>)
+![](</.gitbook/assets/Froking-wiki-6.png>)
 {% endhint %}
