@@ -10,8 +10,9 @@ It's very easy!
 
 * add all your mobs models and configurations inside the **ModelEngine** plugin folder (read the **ModelEngine** tutorials for more info)
 * run `/meg reload` to generate the **ModelEngine** resourcepack
-* open the `plugins\ModelEngine\resource_pack\assets\` folder
-* copy `assets` folder inside `plugins\ItemsAdder\contents\modelengine\resourcepack\` folder
+* open the `plugins\ModelEngine\resource pack\assets\` folder
+* create a folder `modelengine` in `plugins\ItemsAdder\contents\`
+* copy the `assets` folder to `plugins\ItemsAdder\contents\modelengine\resourcepack\` folder
 * Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
 
 Done!
