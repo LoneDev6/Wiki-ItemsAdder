@@ -4,7 +4,7 @@ description: The Itemsadder wiki, all the Knowledge you need in one place
 
 # 👋 Welcome
 
-## This Is The ![](.readme-assets/logo\_32x32.png) Wiki
+## This Is The ![](<.readme-assets/logo\_32x32 (1).png>) Wiki
 
 ### 💠 Quick Links
 

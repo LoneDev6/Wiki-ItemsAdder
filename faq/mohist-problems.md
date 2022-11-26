@@ -1,7 +1,12 @@
+---
+description: For Mohist Users
+---
+
 # Mohist problems
 
-{% hint style="warning" %}
-Note: Mohist is an unofficial mod and may break plugins.\
+{% hint style="danger" %}
+**Note:** Mohist is an unofficial mod and may break plugins.
+
 I didn't code the plugin with official Mohist compatibility just because it's not something that straightforward.
 {% endhint %}
 
@@ -29,7 +34,7 @@ at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:315) 
 
 ## How to fix this issue
 
-Open **ProtocolLib** `config.yml` file and set this option to false.
+Open the **ProtocolLib** `config.yml` file and set this option to false.
 
 {% code title="config.yml" %}
 ```yaml

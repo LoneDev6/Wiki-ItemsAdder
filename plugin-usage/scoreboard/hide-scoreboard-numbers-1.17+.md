@@ -51,7 +51,7 @@ effects:
 ```
 
 {% hint style="warning" %}
-### **Warning**
+#### **Warning**
 
 This option is definitive and cannot be turned on/off in-game.\
 You will have to disable it in the `config.yml` and regenerate the pack again to disable it.

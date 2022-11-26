@@ -1,6 +1,6 @@
-# Download Spigot
+# 🚰 Download Spigot
 
-## How to download Paper (alternative to Spigot)
+## How to download Paper (Alternative To Spigot)
 
 {% embed url="https://papermc.io/downloads" %}
 
@@ -13,6 +13,3 @@ Watch this tutorial:
 ## How to download Purpur
 
 {% embed url="http://purpur.pl3x.net" %}
-
-
-

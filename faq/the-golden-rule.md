@@ -12,6 +12,8 @@ When Creating, Updating, Adding, Changing, Thinking, Improving, Fixing, Configur
 
 ## `/iazip`
 
+#### Follow Your [Method Of Hosting](../plugin-usage/resourcepack-hosting/) <mark style="color:red;">IF</mark> you are not using [self-host](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
+
 ## `/iatextureall`
 
 {% hint style="danger" %}
