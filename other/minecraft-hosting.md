@@ -1,11 +1,9 @@
 # 🖥 Minecraft Hosting
 
-![](../.gitbook/assets/mmica0s.gif)
+![](../.gitbook/assets/MMICa0s.gif)
 
 {% hint style="info" %}
-### <mark style="color:green;">Use the code</mark> <mark style="color:blue;">`LONEDEV`</mark> <mark style="color:green;">and get 20% discount!</mark>
-
-
+#### <mark style="color:green;">Use the code</mark> <mark style="color:blue;">`LONEDEV`</mark> <mark style="color:green;">and get 20% discount!</mark>
 
 If you need a **good** and **cheap hosting** to open your **Minecraft server** or **network** here it is, the hosting I use for all my projects.
 

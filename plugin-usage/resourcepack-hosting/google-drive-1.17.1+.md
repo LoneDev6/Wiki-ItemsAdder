@@ -61,7 +61,7 @@ You can now see that the pack is correctly loaded by the game.
 
 ### Long time on "Making Request... 100%"
 
-### ![](<../../.gitbook/assets/image\_(141) (1).png>)
+### ![](../../.gitbook/assets/image\_\(141\).png)
 
 This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
 

@@ -5,7 +5,7 @@ description: Merge other resourcepacks (also custom plugins resourcepacks)
 # 🗃 Merge resourcepacks
 
 {% hint style="danger" %}
-### ItemsAdder 3.3+ only!
+#### ItemsAdder 3.3+ only!
 {% endhint %}
 
 ## Why merging?
