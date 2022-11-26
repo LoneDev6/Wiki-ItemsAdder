@@ -256,7 +256,7 @@ You can make a drop show its name.\
 Very useful for **rare items**.\
 Example:
 
-![](<../../../../.gitbook/assets/image\_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4) (5).png>)
+![](<../../../../.gitbook/assets/image\_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4) (4).png>)
 
 ```yaml
   glowing_item:

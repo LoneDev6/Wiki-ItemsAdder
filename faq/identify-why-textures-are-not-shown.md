@@ -23,7 +23,7 @@ You can clearly see which files failed to load and why, the errors are clear in 
 
 ### Join the server and read the log
 
-![](<../.gitbook/assets/json\_errors (2).png>)
+![](<../.gitbook/assets/json\_errors (1).png>)
 
 ### Find out which file is broken
 

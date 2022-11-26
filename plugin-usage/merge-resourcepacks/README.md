@@ -4,6 +4,10 @@ description: Merge other resourcepacks (also custom plugins resourcepacks)
 
 # 🗃 Merge resourcepacks
 
+{% hint style="danger" %}
+### ItemsAdder 3.3+ only!
+{% endhint %}
+
 ## Why merging?
 
 **Minecraft** supports **only 1 server resourcepack**.\
@@ -25,7 +29,7 @@ For example `merged_pack_1`: `ItemsAdder/contents/merged_pack_1/resourcepack/`
 Use the `/iazip` command to compress the ItemsAdder resourcepack.\
 (Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided).
 
-### Step 4 (advanced users) - ItemsAdder 3.3+ only!
+### Step 4 (advanced users)
 
 If you are merging more than 1 pack you might need to decide a merge priority.\
 Open config.yml and write the load priority order of your `contents` sub-folders folders.

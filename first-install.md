@@ -27,15 +27,16 @@ Now you must complete **step 2** to configure the resourcepack (don't worry it's
 
 ## Step 2 - Resourcepack first installation
 
-#### Decide the resourcepack hosting method:
+{% hint style="warning" %}
+This step is important, the plugin <mark style="color:red;">**WILL NOT WORK,**</mark> if you won't complete this step.
+{% endhint %}
+
+Before using the plugin you have to decide the resourcepack hosting method. \
+Click down here to decide an hosting method for the resourcepack (best method: `self-host`).
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
-
-{% hint style="warning" %}
-This Step Is Important, The plugin <mark style="color:red;">**WILL NOT WORK,**</mark> **IF** you won't complete step 2
-{% endhint %}
 
 ## Step 3 - (optional) Add official ItemsAdder custom content
 
