@@ -53,7 +53,7 @@ You can do it, you just have to edit the `default.json` file.
 
 ![](../../../.gitbook/assets/image\_\(106\).png)
 
-![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (6).png>)
+![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ![](../../../.gitbook/assets/image\_\(107\).png)
 
