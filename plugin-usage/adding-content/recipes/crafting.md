@@ -4,11 +4,12 @@ description: This recipe allows your users to craft an item
 
 # Crafting
 
-In order to create a recipe for your items in your [namespace ](../basic-concepts/namespace.md)you have to create a special section in one of your .yml files (or on each one, you decide how you want to organize the plugin).
+To create a recipe you have to create a special section in one of your `.yml` files.\
+This section can be added in all and any of your `.yml` files for better organization of recipes.
 
-## Example 3x3 recipe
+## 3x3 recipe
 
-![](<../../../.gitbook/assets/image_(42).png>)
+![](../../../.gitbook/assets/image\_\(42\).png)
 
 ```yaml
 info:
@@ -30,20 +31,21 @@ recipes:
 ```
 
 As you can see I created the recipes section in the .yml file, this section can contain each type of recipe.\
-In this example I created a `crafting_table` recipe called `deadmau5_hat`
+In this example I created a `crafting_table` recipe called `deadmau5_hat`.
 
-## Example 2x2 recipe
+## 2x2 recipe
 
-![](<../../../.gitbook/assets/image_(41).png>)
+![](../../../.gitbook/assets/image\_\(41\).png)
 
-![](<../../../.gitbook/assets/image_(43).png>)
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### Method 1
 
 ```yaml
 taco:
   permission: itemsadder.taco
   enabled: true
   pattern:
-  - XXX
   - XSC
   - XPB
   ingredients:
@@ -53,12 +55,26 @@ taco:
     S: itemsadder:lettuce
 ```
 
-{% hint style="warning" %}
-You must set first line to XXX, and every ingredient on the bottom right.
-{% endhint %}
+### Method 2
+
+```yaml
+taco:
+  permission: itemsadder.taco
+  enabled: true
+  pattern:
+  - SC
+  - PB
+  ingredients:
+    B: itemsadder:baguette
+    C: itemsadder:sliced_roast_beef
+    P: itemsadder:potato_sticks
+    S: itemsadder:lettuce
+```
+
+## Multiple patterns
 
 {% hint style="success" %}
-You can create **multiple patterns** per recipe, just make sure that the attribute **starts** with '**pattern**' text. For example pattern\_2.
+You can create **multiple patterns** per recipe, just make sure that the attribute **starts** with `pattern` text. For example `pattern_2`.
 
 ```yaml
 turquoise_sword:
@@ -69,8 +85,8 @@ turquoise_sword:
   - XRX
   - XSX
   pattern_2:
-  - XXX
-  - XRX
+  - RXX
+  - XXR
   - XSX
   ingredients:
     R: itemsadder:turquoise
@@ -108,9 +124,26 @@ turquoise_sword:
           pitch: 1
 ```
 
-For example this is the `peeled_potato` recipe. This is a special recipe which uses a knife as ingredient of  the crafting (and a potato) and decrements its durability when player crafts one peeled potato without making it disappear.\
-
+For example this is the `peeled_potato` recipe. This is a special recipe which uses a knife as ingredient of the crafting (and a potato) and decrements its durability when player crafts one peeled potato without making it disappear.
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-As you can see you can also play a sound using `play_sound`
+As you can see you can also play a sound using `play_sound`.
+
+## Shapeless recipes
+
+```yaml
+shapeless_emerald_example:
+  enabled: true
+  shapeless: true
+  ingredients:
+    A: POTATO
+    B: STONE
+  result:
+    item: EMERALD
+    amount: 1
+```
+
+<figure><img src="../../../.gitbook/assets/emerald_shapeless_2.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/emerald_shapeless_1.png" alt=""><figcaption></figcaption></figure>
