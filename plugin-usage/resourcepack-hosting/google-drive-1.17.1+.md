@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Google-Drive.jpg
+cover: /.gitbook/assets/Google-Drive.jpg
 coverY: 0
 ---
 
@@ -17,17 +17,17 @@ This method works 100% of the times on Minecraft 1.17.1 and most recent versions
 
 Rightclick on your resourcepack zip file and press "Get link"
 
-![](<../../.gitbook/assets/image\_(153) (1).png>)
+![](</.gitbook/assets/google-drive-1.png>)
 
 ### Step 2
 
 Important: set the permission to "Anyone with the link"
 
-![](../../.gitbook/assets/image\_\(145\).png)
+![](</.gitbook/assets/google-drive-2.png>)
 
 Press "Copy link"
 
-![](../../.gitbook/assets/image\_\(149\).png)
+![](</.gitbook/assets/google-drive-3.png>)
 
 ### Step 3
 
@@ -35,13 +35,13 @@ Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive
 
 Paste the link and press on "Get direct link"
 
-<img src="../../.gitbook/assets/image_(144).png" alt="" data-size="original">
+<img src="/.gitbook/assets/google-drive-4.png" alt="" data-size="original">
 
 ### Step 4
 
 The website automatically adds the generated link in your clipboard.
 
-![](../../.gitbook/assets/image\_\(147\).png)
+![](</.gitbook/assets/google-drive-5.png>)
 
 You can now paste the link inside **ItemsAdder** configuration file `config.yml`, then use `/iareload` command.
 
@@ -61,7 +61,7 @@ You can now see that the pack is correctly loaded by the game.
 
 ### Long time on "Making Request... 100%"
 
-### ![](../../.gitbook/assets/image\_\(141\).png)
+### ![](/.gitbook/assets/google-drive-6.png)
 
 This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
 
