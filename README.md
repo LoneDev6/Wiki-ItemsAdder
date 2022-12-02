@@ -1,5 +1,5 @@
 ---
-description: The Itemsadder wiki, all the Knowledge you need in one place
+description: The Itemsadder wiki, all the knowledge you need in one place
 ---
 
 # 👋 Welcome
