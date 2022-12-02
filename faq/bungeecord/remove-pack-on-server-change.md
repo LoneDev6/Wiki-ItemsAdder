@@ -7,7 +7,7 @@ Follow this tutorial if you have multiple servers and you want the ItemsAdder re
 ### How to
 
 1. Download the [blank resourcepack](http://matteodev.it/spigot/itemsadder/blank\_pack.zip).
-2. Upload it somewhere, for example (skip the `/iazip` part of the tutorial) [DropBox](../../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md), [OneDrive](../../plugin-usage/resourcepack-hosting/onedrive.md), [GoogleDrive](../../plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)...
+2. Upload it somewhere, for example (skip the `/iazip` part of the tutorial) [DropBox](/plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md), [OneDrive](/plugin-usage/resourcepack-hosting/onedrive.md), [GoogleDrive](/plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)...
 3. Get the URL
 4. Open the other server `server.properties` file and set the URL
 
