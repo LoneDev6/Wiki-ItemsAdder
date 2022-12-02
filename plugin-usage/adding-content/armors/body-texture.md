@@ -11,7 +11,7 @@ To make 1.16 clients see the custom armors you can enable also the `optifine` at
 {% endhint %}
 
 {% hint style="warning" %}
-If you see **bugged** textures and you have **Optifine** installed please [read here](../../../faq/armors-bugs/textures-broken-by-shaders-mod.md).
+If you see **bugged** textures and you have **Optifine** installed please [read here](/faq/armors-bugs/textures-broken-by-shaders-mod.md).
 {% endhint %}
 
 ## Creating the armor renderer
@@ -45,7 +45,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
 
 Now I create the two PNG files inside the `contents/myitems/resourcepack/myitems/textures/armor/my_armor/` folder.
 
-![](<../../../.gitbook/assets/image (45) (1) (1) (1) (1).png>)
+![](</.gitbook/assets/body-texture-1.png>)
 
 {% hint style="info" %}
 **HD armor textures**
@@ -87,23 +87,23 @@ In this case I didn't specify any `color` in the `specific_properties` field of 
 
 Now I create the item texture and I put it inside the `contents\myitems\resourcepack\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
 
-![](<../../../.gitbook/assets/image (40) (1) (1).png>)
+![](</.gitbook/assets/body-texture-2.png>)
 
-![](<../../../.gitbook/assets/image (42) (1) (1).png>)
+![](</.gitbook/assets/body-texture-3.png>)
 
 ### Animated textures
 
 You can also create animated armors!
 
-![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1) (1).gif>)
+![](</.gitbook/assets/body-texture.gif>)
 
 To create an animated armor you have to create an image with all the animation frames.
 
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](../../../.gitbook/assets/layer\_1.png)
+![](</.gitbook/assets/body-texture-4.png>)
 
-![layer\_2](../../../.gitbook/assets/layer\_2.png)
+![](</.gitbook/assets/body-texture-5.png>)
 
 Now let's edit the rendering properties to support the animation.
 
