@@ -6,19 +6,19 @@
 
 Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
 
-![](<../../.gitbook/assets/image (99) (1).png>)
+![](</.gitbook/assets/Froking-wiki-master.png>)
 
 Make sure you're on the `master` branch.
 
-![](../../.gitbook/assets/Froking-wiki-1.png)
+![](/.gitbook/assets/Froking-wiki-1.png)
 
 Select a file you want to edit and press the **pen** button
 
-![](../../.gitbook/assets/Froking-wiki-2.png)
+![](/.gitbook/assets/Froking-wiki-2.png)
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-![](\(/.gitbook/assets/Froking-wiki-3.png)
+![](/.gitbook/assets/Froking-wiki-3.png)
 
 ## Important notes
 
