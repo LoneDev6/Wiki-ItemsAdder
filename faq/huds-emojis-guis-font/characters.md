@@ -18,14 +18,14 @@ You have to delete this folder lang folder: `data\resource_pack\assets\minecraft
 
 Then run `/iazip` command.
 
-![](<../../.gitbook/assets/image\_(140) (1) (2) (2).png>)
+![](</.gitbook/assets/image/characters.png>)
 
 ## I see ☐ instead of my emojis/ranks
 
 {% hint style="warning" %}
 Make sure to run `/iazip` and reupload the resourcepack if needed.
 
-Read more here: [resourcepack hosting](../../plugin-usage/resourcepack-hosting/)
+Read more here: [resourcepack hosting](/plugin-usage/resourcepack-hosting/)
 {% endhint %}
 
 {% hint style="warning" %}
