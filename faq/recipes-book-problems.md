@@ -10,13 +10,13 @@ Please don't report these bugs, I can't really do anything to fix this problem, 
 
 The "Showing Craftable" button doesn't work with recipes that use custom items as ingredients.
 
-![](../.gitbook/assets/image\_\(148\).png)
+![](/.gitbook/assets/image/recipes-book-problems-1.png)
 
 ### How to fix it?
 
 Set the button like that when you want to find an ItemsAdder recipe in the book.
 
-![](../.gitbook/assets/image\_\(155\).png)
+![](/.gitbook/assets/recipes-book-problems-2.png)
 
 ## Red recipes even if ingredients are in inventory
 
