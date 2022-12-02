@@ -12,11 +12,11 @@ The only way to _"fix"_ this is by disabling the shaders themself or removing th
 
 {% tabs %}
 {% tab title="With Shaders on (Bug)" %}
-![shader bug](<../../.gitbook/assets/image (51) (2) (1) (1).png>)
+![shader bug](</.gitbook/assets/broken-emote-textures-1.png>)
 {% endtab %}
 
 {% tab title="With Shaders off (No Bug)" %}
-![no shader bug](<../../.gitbook/assets/image (64).png>)
+![no shader bug](</.gitbook/assets/broken-emote-textures-2.png>)
 {% endtab %}
 {% endtabs %}
 
