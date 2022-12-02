@@ -10,7 +10,7 @@ Please don't report these bugs, I can't really do anything to fix this problem, 
 
 The "Showing Craftable" button doesn't work with recipes that use custom items as ingredients.
 
-![](/.gitbook/assets/image/recipes-book-problems-1.png)
+![](/.gitbook/assets/recipes-book-problems-1.png)
 
 ### How to fix it?
 
