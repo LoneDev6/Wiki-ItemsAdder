@@ -11,7 +11,7 @@ Feel free to ping **LoneDev** on the Discord or to open a support ticket in the 
 
 Then, after the branch creation, open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
 
-![](<../../.gitbook/assets/image (99) (1).png>)
+![](</.gitbook/assets/Froking-wiki-master.png>)
 
 Untick this option!
 
@@ -23,15 +23,15 @@ Click here to change the branch.
 DO NOT EDIT THE `master` BRANCH!
 {% endhint %}
 
-![](../../.gitbook/assets/translate-this-wiki-1.png)
+![](/.gitbook/assets/translate-this-wiki-1.png)
 
 Select a file you want to edit and press the **pen** button
 
-![](../../.gitbook/assets/translate-this-wiki-2.png)
+![](/.gitbook/assets/translate-this-wiki-2.png)
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-![](../../.gitbook/assets/translate-this-wiki-3.png)
+![](/.gitbook/assets/translate-this-wiki-3.png)
 
 ## Important notes
 
@@ -52,7 +52,7 @@ Edit the file and then press <mark style="color:green;">**Commit changes**</mark
 
 ### Example of what you _<mark style="color:red;">must not</mark>_ edit
 
-![](../../.gitbook/assets/Froking-wiki-4.png)
+![](/.gitbook/assets/Froking-wiki-4.png)
 
 ### Last step
 
@@ -63,5 +63,5 @@ Feel free to ping **LoneDev** on the Discord or to open a support ticket in the 
 Would be good if you update your translation each time the main repository (the one in English) gets edited, to reflect changes.\
 You can keep track of changes in the Discord notification channel.
 
-<img src="../../.gitbook/assets/Froking-wiki-6.png" alt="" data-size="original">
+<img src="/.gitbook/assets/Froking-wiki-6.png" alt="" data-size="original">
 {% endhint %}
