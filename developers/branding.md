@@ -3,7 +3,7 @@
 ## Download branding assets
 
 The below ZIP file contains assets that you can use for your resource page or in your own assets related to ItemsAdder.\
-Make sure to read the [Usage terms](branding.md#usage-terms) before doing anything tho.
+Make sure to read the [Usage terms](branding.md#usage-terms) before doing anything though.
 
 {% file src="../.gitbook/assets/itemsadder_branding.zip" %}
 
