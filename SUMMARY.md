@@ -80,6 +80,7 @@
     * [ℹ Basic concepts](plugin-usage/adding-content/basic-concepts/README.md)
       * [Namespace](plugin-usage/adding-content/basic-concepts/namespace.md)
       * [items\_packs and resource\_pack](plugin-usage/adding-content/basic-concepts/configs-and-resourcepack.md)
+    * [Contents folders structure](plugin-usage/adding-content/contents-folders-structure.md)
     * [⛏ Example items](plugin-usage/adding-content/creating-a-custom-item/README.md)
       * [Sword](plugin-usage/adding-content/creating-a-custom-item/sword.md)
       * [Armor](plugin-usage/adding-content/creating-a-custom-item/armor.md)
