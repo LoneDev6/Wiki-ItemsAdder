@@ -21,7 +21,7 @@ description: Terms and Conditions for IA
 ### Resource Pack
 
 This plugin **requires** your **users** to **download** a **resource pack** (which is sent automatically on join) one time.\
-This Pugin may not work with plugins that are using server texture packs, [read this to see if your plugin is compatible](../compatibility-with-other-plugins/)
+This Plugin may not work with plugins that are using server texture packs, [read this to see if your plugin is compatible](../compatibility-with-other-plugins/)
 
 ### Server Software
 
