@@ -3,7 +3,7 @@
 ## Installing the Blockbench extension
 
 {% hint style="warning" %}
-#### Before continuing:
+**Before continuing:**
 
 * Make sure you're running **Blockbench 4.2.5** or **greater**
 * Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
@@ -47,7 +47,7 @@ entities:
 
 Open the file `player.iaentitymodel` using Blockbench, you can find this file after running `/iazip` for the first time.
 
-`contents\_iainternal\resourcepack\assets\minecraft\animations\player.iaentitymodel`
+`contents/_iainternal/resourcepack/assets/minecraft/animations/player.iaentitymodel`
 
 You can notice a lot of example animations on the left.
 
@@ -66,7 +66,7 @@ Delete all the emotes and edit/rename the ones you want. They are useful only as
 ![](<../../../.gitbook/assets/image (68).png>)
 
 Now create an emote and save your `.iaentitymodel` project file into this folder (for example):\
-`contents\my_emotes\resourcepack\minecraft\animations\`
+`contents/my_emotes/resourcepack/assets/minecraft/animations/`
 
 ![](<../../../.gitbook/assets/image (95).png>)
 
@@ -96,4 +96,4 @@ Use the emote command: `/iaemote <emote> [player]` or `/emote <emote> [player]`
 Use the `/iaemote` command: `ia.user.iaemote`
 
 Use an emote: `ia.user.iaemote.use.<emote>`\
-\`\`Example: `ia.user.iaemote.use.yes`
+Example: `ia.user.iaemote.use.yes`

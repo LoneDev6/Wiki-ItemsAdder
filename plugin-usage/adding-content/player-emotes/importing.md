@@ -14,7 +14,7 @@ You can import emotes from packs shared online, without replacing your own emote
 
 Open the other file you want to import emotes from, in this example `custom_emotes.iaentitymodel` .
 
-Open also the `player.iaentitymodel` file inside the plugin folder `contents\_iainternal\resourcepack\assets\minecraft\animations\`
+Open also the `player.iaentitymodel` file inside the plugin folder `contents/_iainternal/resourcepack/assets/minecraft/animations/`
 
 ### Step 2
 
