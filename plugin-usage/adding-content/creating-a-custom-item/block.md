@@ -1,3 +1,7 @@
+---
+description: Creating your first custom block
+---
+
 # Block
 
 ## My first custom block
@@ -8,11 +12,10 @@
 This is an example block (remember to change `myitems` [namespace ](../basic-concepts/namespace.md)to the one you want).
 {% endhint %}
 
-For example I created a **file** which will contain all my **custom blocks**:
+For example I created a **file** which will contain all my **custom blocks.**\
+****I created it in the folder: `plugins/ItemsAdder/contents/myitems/configs/`
 
-In this file (`blocks.yml`) I start creating a simple block called `red_block`
-
-![](<../../../.gitbook/assets/image_(90).png>)
+In this file (`blocks.yml`) I start creating a simple block called `red_block`.
 
 ```yaml
 info:
@@ -35,10 +38,23 @@ If you use a block (like STONE or DIRT) it will result a bit glitchy when placed
 ### Creating the textures files
 
 Now the fun part, let's set the textures!\
-To do that you have to put the `.png` textures file inside the correct folder.\
-In this case your **namespace** is `myitems` so you have to put them here:
+To do that you have to put the `.png` textures file inside the correct folder.
 
-![](<../../../.gitbook/assets/image (52) (1) (1).png>)
+In this case your **namespace** is `myitems` so you have to put them in this folder:\
+`plugins/ItemsAdder/contents/myitems/resourcepack/textures/block/`
+
+<details>
+
+<summary>Alternative textures location</summary>
+
+Alternatively you can put them in this folder too:\
+`plugins/ItemsAdder/contents/myitems/resourcepack/assets/myitems/textures/block/`
+
+Read more here: [folders structure](../contents-folders-structure.md)
+
+</details>
+
+<figure><img src="../../../.gitbook/assets/red_block_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
 ### Applying the textures files to your item
 
@@ -139,11 +155,11 @@ Make sure to read the hosting tutorial or you won't see the block correctly.
 
 Run `/iaget red_block` to get the item.
 
-![](<../../../.gitbook/assets/image_(92).png>)
+![](../../../.gitbook/assets/image\_\(92\).png)
 
-![](<../../../.gitbook/assets/image_(91).png>)
+![](../../../.gitbook/assets/image\_\(91\).png)
 
-![](<../../../.gitbook/assets/image_(93).png>)
+![](../../../.gitbook/assets/image\_\(93\).png)
 
 ## Drop exp from block
 
