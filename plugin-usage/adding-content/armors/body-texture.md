@@ -39,13 +39,15 @@ This is a configuration which specified how the game will show the armor ingame.
 You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
 {% endhint %}
 
-`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`. In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`. \*\*\*\* This option will also make the item (in inventory) not colored automatically anymore.
+`use_color` disables the recoloring of the armor using the specified `color: "#d60000"`.\
+In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`.\
+This option will also make the item (in inventory) not colored automatically anymore.
 
 `color` is the color attribute of this armor. It acts like an unique identifier for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)
 
-Now I create the two PNG files inside the `contents/myitems/resourcepack/myitems/textures/armor/my_armor/` folder.
+Now I create the two PNG files inside the `contents/myitems/resourcepack/textures/armor/my_armor/` folder.
 
-![](<../../../.gitbook/assets/image (45) (1) (1) (1) (1).png>)
+<figure><img src="../../../.gitbook/assets/armor_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **HD armor textures**
@@ -59,7 +61,8 @@ For example 64x32, 128x64, 256x128, 512x256..... <mark style="color:red;">it's v
 
 ### Creating an armor piece
 
-For example let's create a chestplate (you will create the other pieces on your own, following the same method).
+Let's create a chestplate.\
+To create other pieces you just have to repeat the following method and change the `slot`.
 
 ```yaml
   my_armor_chestplate:
@@ -85,7 +88,7 @@ The `custom_armor` property is important, it makes the plugin use the previous t
 
 In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's already specified in the `custom_armor` property.
 
-Now I create the item texture and I put it inside the `contents\myitems\resourcepack\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
+Now I create the item texture and I put it inside the `contents\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
 
 ![](<../../../.gitbook/assets/image (40) (1) (1).png>)
 

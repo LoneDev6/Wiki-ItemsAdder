@@ -41,7 +41,7 @@ Now the fun part, let's set the textures!\
 To do that you have to put the `.png` textures file inside the correct folder.
 
 In this case your **namespace** is `myitems` so you have to put them in this folder:\
-`plugins/ItemsAdder/contents/myitems/resourcepack/textures/block/`
+`plugins/ItemsAdder/contents/myitems/textures/block/`
 
 <details>
 
