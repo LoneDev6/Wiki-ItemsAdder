@@ -6,7 +6,7 @@ description: How to create a chair
 
 ## Your first chair
 
-In order to create a chair you just have to follow the furniture creation tutorial and add a simple attribute to the furniture to make it sittable.
+In order to create a chair you just have to follow the [furniture creation tutorial](creating-a-furniture.md) and add a simple attribute to the furniture to make it sittable.
 
 ```yaml
 behaviours:

@@ -164,13 +164,15 @@ This will display the model slighly of the block the Item Frame is attached to, 
 
 ### Export the model
 
-Now let's save the model file into the correct folder, in this case I set this property in the yml configuration file: `model_path: lamp`, so you have to save the .json file inside this path: `contents\myitems\resourcepack\myitems\models\lamp.json`.
+Now let's save the model file into the correct folder, in this case I set this property in the yml configuration file: `model_path: lamp`, so you have to save the .json file inside this path: `contents\myitems\models\lamp.json`.
 
 To achieve this, click on "File" followed by "Export Model" and finally "Export Block/Item Model". In the new window, head over to the path you want to save your model under, give it the right name and confirm the changes.
 
 ### Saving changes
 
-Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/) if needed), then obtain the item and place it: `/iaget myitems:lamp`.
+Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/) if needed).
+
+To obtain the item use this command: `/iaget myitems:lamp`.
 
 ![](<../../../.gitbook/assets/image (50) (1) (1) (1) (1) (1).png>)
 
