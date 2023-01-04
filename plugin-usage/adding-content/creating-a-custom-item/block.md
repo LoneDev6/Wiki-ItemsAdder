@@ -115,9 +115,11 @@ items:
         - block/red_block.png
 ```
 
-## Adding the block placing functionality
+## Final complete configuration
 
-You have to add the `specific_properties` attribute, like in this example:
+### Adding the block placing functionality
+
+You have to add the `specific_properties` attribute.
 
 ```yaml
 info:
@@ -160,6 +162,10 @@ Run `/iaget red_block` to get the item.
 ![](../../../.gitbook/assets/image\_\(91\).png)
 
 ![](../../../.gitbook/assets/image\_\(93\).png)
+
+## Download the complete example&#x20;
+
+{% embed url="https://addon.devs.beer/toolbox/assetsrepository/red_block" %}
 
 ## Drop exp from block
 

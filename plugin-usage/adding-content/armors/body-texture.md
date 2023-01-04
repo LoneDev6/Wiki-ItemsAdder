@@ -88,7 +88,10 @@ The `custom_armor` property is important, it makes the plugin use the previous t
 
 In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's already specified in the `custom_armor` property.
 
-Now I create the item texture and I put it inside the `contents\myitems\textures\item\my_armor\` folder (in this example I created also a new folder called `my_armor` to better organize the resourcepack).
+Now I create the item texture and I put it inside the folder: \
+`contents\myitems\textures\item\my_armor\`&#x20;
+
+In this example I created also a new folder called `my_armor` to better organize the resourcepack since you will have 1 texture for each armor piece, and having them in the same textures folder might cause confusion.
 
 ![](<../../../.gitbook/assets/image (40) (1) (1).png>)
 
@@ -100,8 +103,7 @@ You can also create animated armors!
 
 ![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1).gif>)
 
-To create an animated armor you have to create an image with all the animation frames.
-
+To create an animated armor you have to create an image with all the animation frames.\
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
 ![layer\_1](<../../../.gitbook/assets/layer\_1 (1).png>)
