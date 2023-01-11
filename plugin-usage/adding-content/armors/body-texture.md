@@ -101,12 +101,12 @@ In this example I created also a new folder called `my_armor` to better organize
 
 You can also create animated armors!
 
-![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1).gif>)
+![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1) (1).gif>)
 
 To create an animated armor you have to create an image with all the animation frames.\
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](<../../../.gitbook/assets/layer\_1 (1).png>)
+![layer\_1](../../../.gitbook/assets/layer\_1.png)
 
 ![layer\_2](../../../.gitbook/assets/layer\_2.png)
 

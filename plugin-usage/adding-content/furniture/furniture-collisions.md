@@ -62,7 +62,7 @@ You can also use negative values if needed.
 You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}
 
-![](<../../../.gitbook/assets/hitbox3 (6).png>)
+![](<../../../.gitbook/assets/hitbox3 (1) (4).png>)
 
 ![](../../../.gitbook/assets/image\_\(87\).png)
 

@@ -8,7 +8,7 @@ BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench
 {% hint style="danger" %}
 You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
 
-<img src="../../../../../.gitbook/assets/image_(89) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (9) (14).png" alt="" data-size="original">
+<img src="../../../../../.gitbook/assets/image_(89) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (9) (1) (7).png" alt="" data-size="original">
 {% endhint %}
 
 ### Creating a very simple idle animation
@@ -30,7 +30,7 @@ Ok I saved it as **1.json** inside the **idle** folder. This is the first frame 
 
 \*\*2.\*\*Return to **BlockBench** and select all pressing **CTRL+A**
 
-![](<../../../../../.gitbook/assets/image\_(78) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image\_(78) (1).png>)
 
 **Hold left mouse button** while cliking on the **GREEN** arrow, **hold CTRL** and **move** the mouse **up** a little bit
 
