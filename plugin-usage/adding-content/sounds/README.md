@@ -6,18 +6,17 @@
 [convert-sound-to-.ogg.md](convert-sound-to-.ogg.md)
 {% endcontent-ref %}
 
-* open **plugins\ItemsAdder\data\resource\_pack\assets** folder
-* open your **namespace** folder
+* create a new folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/` **** folder (or use yours if you already have one)
+* create a new sub-folder called `sounds`
 * create a new folder called **sounds**
 * put your **.ogg** file in there (you can also create another folder to organize your sounds, for example "effects" folder, "music" folder...)
 
 for example I have a file named **cdk\_sunday.ogg** and I put it into a new **music\_disc** folder.\
-So now I have `contents\NAMESPACE\resourcepack\NAMESPACE\sounds\music_disc\cdk_sunday.ogg`
+So now I have `contents/my_sounds/resourcepack/my_sounds/sounds/music_disc/cdk_sunday.ogg`
 
 ### Step 2
 
-* open **plugins\ItemsAdder\data\resource\_pack\assets** folder
-* open your **namespace** folder
+* open the folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/`
 * create a new file named `sounds.json` (or open it if you already created)
 * this file is a json file, you MUST write it correctly or it won't work. If you need info about Json files please search online.
 
@@ -27,7 +26,7 @@ To add your sound into the file you just have to do this:
 {
 	"music_disc.cdk_sunday":{
 		"sounds":[
-			"myitems:music_disc/cdk_sunday"
+			"my_sounds:music_disc/cdk_sunday"
 		]
 	}
 }
@@ -41,12 +40,15 @@ This is the sound name, you will use it in every part of the plugin and also in 
 ```
 
 This is the list of sound files Minecraft will play when you call the sound name.\
-Minecraft will play one of these sounds randomly (only if you set more than one sound).\
-⚠️Keep in mind that you have to change `myitems`  to your own namespace name.
+Minecraft will play one of these sounds randomly (only if you set more than one sound).
+
+{% hint style="warning" %}
+Keep in mind that you have to change `my_sounds` to your own namespace name if it's different!
+{% endhint %}
 
 ```javascript
 "sounds":[
-			"myitems:music_disc/cdk_sunday"
+			"my_sounds:music_disc/cdk_sunday"
 		]
 ```
 
@@ -54,9 +56,9 @@ For example if you want to have random sounds for the same sound name you just h
 
 ```javascript
 "sounds":[
-			"myitems:music_disc/cdk_sunday_1",
-			"myitems:music_disc/cdk_sunday_2",
-			"myitems:music_disc/test_file"
+			"my_sounds:music_disc/cdk_sunday_1",
+			"my_sounds:music_disc/cdk_sunday_2",
+			"my_sounds:music_disc/test_file"
 		]
 ```
 
@@ -69,12 +71,12 @@ It's easy, the next time you want to add a sound you just have to add a comma at
 {
     "music_disc.cdk_sunday":{
         "sounds":[
-            "itemsadder:music_disc/cdk_sunday"
+            "my_sounds:music_disc/cdk_sunday"
         ]
     },
     "music_disc.vidian_aether_theories":{
         "sounds":[
-            "itemsadder:music_disc/vidian_aether_theories"
+            "my_sounds:music_disc/vidian_aether_theories"
         ]
     }
 }
