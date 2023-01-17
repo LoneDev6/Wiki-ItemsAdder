@@ -90,28 +90,14 @@ To do that you have to:\
 
 ![](../../../.gitbook/assets/image\_\(19\).png)
 
-## If you're using external-host (Dropbox) read here:
-
-Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
-1\. Get it from this folder:
-
-![](../../../.gitbook/assets/packzip.png)
-
-2\. Upload it to your hosting (Dropbox)\
-3\. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
-
-```yaml
-  self-host:
-    enabled: false
-    server-ip: '127.0.0.1'
-    pack-port: 8163
-  external-host:
-    enabled: true
-    url: 'https://www.dropbox.com/blablabla?dl=0'
-```
-
-If you have more questions read the full **external-host** tutorial here:
+## If you're using external-host (Dropbox, GoogleDrive etc.) read here:
 
 {% content-ref url="../../resourcepack-hosting/resourcepack-on-dropbox.md" %}
 [resourcepack-on-dropbox.md](../../resourcepack-hosting/resourcepack-on-dropbox.md)
+{% endcontent-ref %}
+
+## If you are using self-host or another hosting method read here:
+
+{% content-ref url="../../resourcepack-hosting/" %}
+[resourcepack-hosting](../../resourcepack-hosting/)
 {% endcontent-ref %}

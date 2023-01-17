@@ -6,6 +6,10 @@ coverY: 0
 
 # 📦 DropBox
 
+## Video tutorial
+
+{% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
+
 ## Text tutorial
 
 * Open [DropBox](https://dropbox.com/), register/login
@@ -14,14 +18,14 @@ coverY: 0
 * **Drag and drop** on **DropBox** the file **generated.zip**
 * Press **Share**
 
-![](../../.gitbook/assets/image\_\(20\).png)
+![](<../../.gitbook/assets/image_(20).png>)
 
 * Press **Create**
 
-![](../../.gitbook/assets/image\_\(21\).png)
+![](<../../.gitbook/assets/image_(21).png>)
 
 * Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)
+* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
 * Open `config.yml` of **ItemsAdder**
 * Set it like this (**I used the example URL, please use your own**)
 
@@ -32,6 +36,8 @@ resource-pack:
   delay-ticks: 1
   self-host:
     enabled: false
+    server-ip: '127.0.0.1'
+    pack-port: 8163
   external-host:
     enabled: true
     url: 'https://www.dropbox.com/blablabla?dl=0'
