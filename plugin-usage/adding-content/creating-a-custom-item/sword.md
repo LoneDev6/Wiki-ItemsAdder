@@ -3,7 +3,7 @@
 {% hint style="danger" %}
 **Namespace**
 
-If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace).
+If you didn't create your namespace please follow the [namespace tutorial](../basic-concepts/namespace/).
 {% endhint %}
 
 {% hint style="danger" %}
@@ -18,17 +18,17 @@ I **advise** you to use **self-host** which is **easier** and **faster**, but yo
 ### Creating the swords file
 
 {% hint style="warning" %}
-This is an example sword (remember to change `myitems` [namespace ](../basic-concepts/namespace.md)to the one you want).
+This is an example sword (remember to change `my_items` [namespace ](../basic-concepts/namespace.md)to the one you want).
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom swords**:\
-`ItemsAdder/contents/myitems/configs/myswords.yml`
+`ItemsAdder/contents/my_items/configs/myswords.yml`
 
 In this file (`myswords.yml`) I start creating a simple sword called `mysword`
 
 ```yaml
 info:
-  namespace: myitems
+  namespace: my_items
 items:
   mysword:
     display_name: My Sword
@@ -43,10 +43,13 @@ items:
 ### Creating the texture file
 
 Now the fun part, let's set the sword texture.\
-To do that you have to put your sword `.png` texture file inside the correct folder.\
-In this case your **namespace** is `myitems` so you have to put it here:
+To do that you have to put your sword `.png` texture file inside the correct folder.
 
-![](<../../../.gitbook/assets/image_(14).png>)
+In this case your **namespace** is `my_items` so you have to put it here:
+
+`ItemsAdder/contents/my_items/textures/item/mysword.png`
+
+![](../../../.gitbook/assets/image\_\(14\).png)
 
 ### Applying the texture file to your item
 
@@ -83,16 +86,16 @@ To do that you have to:\
 
 ### Now get your item
 
-![](<../../../.gitbook/assets/image_(18).png>)
+![](../../../.gitbook/assets/image\_\(18\).png)
 
-![](<../../../.gitbook/assets/image_(19).png>)
+![](../../../.gitbook/assets/image\_\(19\).png)
 
 ## If you're using external-host (Dropbox) read here:
 
 Don't forget to upload the new generated .zip file on your hosting (Dropbox)!\
 1\. Get it from this folder:
 
-![](<../../../.gitbook/assets/packzip.png>)
+![](../../../.gitbook/assets/packzip.png)
 
 2\. Upload it to your hosting (Dropbox)\
 3\. Open `config.yml` of ItemsAdder and update the `external-host` url with your new link.
