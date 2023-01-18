@@ -1,7 +1,3 @@
----
-description: The List of Platform, You Can Purchase IA
----
-
 # 🛒 Buy
 
 Buying the plugins from any other source is strongly prohibited and voids the [TOS agreement](tos.md).

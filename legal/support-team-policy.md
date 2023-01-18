@@ -1,37 +1,31 @@
----
-description: we are doing it voluntarily remember?
----
-
 # 🆘 Support Team Policy
 
 Dear Customers, we are the support team that brings you this policy to clear things up and help you gain better answers to your questions.
 
-### How To Ask For Proper Support&#x20;
+### How to ask for proper support
 
 {% content-ref url="../other/support/ask-for-help.md" %}
 [ask-for-help.md](../other/support/ask-for-help.md)
 {% endcontent-ref %}
 
-### No Support
+### No support for
 
-#### Unverified Accounts
+#### No support for unverified accounts
 
 All users must complete the verification process to ask for support.
 
-#### Support Abuse
+#### No support for in case of support abuse
 
 You are not allowed to open tickets or spam threads or tag the support team.\
 Any user that will spam support will be ignored.
 
-#### Team Accounts
+#### Team accounts
 
-most server work in a team, we don't have anything against that. \
-BUT when you ask for support one verified account must be present. \
-LIMITATIONS:\
-max team members from a single server will not exceed 4.
+Most server work in a team, we don't have anything against that.\
+BUT when you ask for support one verified account must be present.
 
-#### Not Enough Information
+#### No support if not enough information is provided
 
 It's your responsibility to give us all the information that is related to your issues.\
 We can't provide support if you won't give us any information.\
-If your thread won't have enough information, you won't get support
+You won't get support if your help request doesn't have enough information.

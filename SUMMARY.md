@@ -7,7 +7,7 @@
   * [🔍 Resourcepack is not loading correctly](faq/identify-why-textures-are-not-shown.md)
   * [📷 Resourcepack not loading](faq/resourcepack-not-loading.md)
   * [⚠ Plugin doesn't work!](faq/plugin-doesnt-work.md)
-  * [I see crisp textures far away!](faq/i-see-crisp-textures-far-away.md)
+  * [👁 I see crisp textures far away!](faq/i-see-crisp-textures-far-away.md)
   * [💧 HUDs, emojis, GUIs, Font](faq/huds-emojis-guis-font/README.md)
     * [💧 Thirst/mana bar](faq/huds-emojis-guis-font/fill-thirst-mana-bar.md)
     * [👀 I can't see emoji, GUIs, HUDs](faq/huds-emojis-guis-font/i-cant-see-emoji-guis-huds.md)
@@ -295,7 +295,7 @@
   * [1.17.1](other/optimize-minecraft-client/optimize-minecraft-1.17.md)
 * [🖥 Minecraft Hosting](other/minecraft-hosting.md)
 
-## ☮ legal
+## 🖋 legal
 
 * [🛒 Buy](legal/buy.md)
 * [⛔ TOS](legal/tos.md)
