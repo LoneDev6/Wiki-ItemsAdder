@@ -1,17 +1,19 @@
-# 🔍 Identify why textures are not shown
+# 🔍 Resourcepack is not loading correctly
 
-### Purpose
+## Purpose
 
 * black and purple texture is shown
 * your model doesn't load correctly
 * the pack failed to load
+* custom sounds don't play
+* infinite resourcepack loading glitch
 
 ## Any launcher
 
 Join the server and let the pack load.
 
 Open your Minecraft GAME log file, **not server** logs.\
-It is usually in `%appdata%\.minecraft\logs\latest.log` if not please search inside this folder `%appdata%\.minecraft\logs\`
+It is usually located here: `%appdata%\.minecraft\logs\latest.log`&#x20;
 
 You can clearly see which files failed to load and why, the errors are clear in most of the cases.
 
