@@ -33,9 +33,14 @@
   * usage: /iaplayerstat \<read|write|increment|decrement> \<player> \<attribute> \<int|float|string> \[value]
   * permission: "ia.admin.iaplayerstat"
 * ia:
-  * description: Opens items info GUI
+  * description: Opens items list GUI
   * usage: /ia
   * permission: "ia.user.ia"
+* ia (alternative usage):
+  * description: Opens an items category GUI
+  * usage: /ia \<category> \[player]
+  * permission: "ia.user.ia.categories"
+    * others: "ia.user.ia.categories.others"
 * iarepair:
   * description: Repairs current item (vanilla or custom)
   * usage: /iarepair

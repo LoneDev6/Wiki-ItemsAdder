@@ -34,7 +34,9 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 * wear
 * unwear
 * held
+* held\_offhand
 * unheld
+* unheld\_offhand
 * item\_throw
 * item\_hit\_ground
 * item\_hit\_entity
@@ -44,5 +46,8 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 * placed\_armorstand.break
 * placed\_itemframe.interact
 * placed\_itemframe.break
+* holding\_item.player\_damaged\_by\_entity
+* holding\_item\_offhand.player\_damaged\_by\_entity
+* equipped\_armor\_item.player\_damaged\_by\_entity
 * bucket\_empty
 * bucket\_fill

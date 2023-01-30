@@ -6,6 +6,8 @@
 
     * /ia
       * `ia.user.ia`
+      * `ia.user.ia.categories` (to access subcommand)
+      * `ia.user.ia.categories.others` (to use subcommand with other players)
     * /iarecipe
       * `ia.user.iarecipe`
     * /iatexture (to force apply the pack to yourself)
@@ -13,10 +15,12 @@
     * /iatexture all (to force apply the pack to everyone)
       * `ia.user.iatexture.all`
     * using recipes
-      * `ia.user.recipe.PERMISSION` (or to give all crafting permissions just use `ia.user.recipe.*`)
+      * `ia.user.recipe.PERMISSION` \
+        (or to give all crafting permissions just use `ia.user.recipe.*`)
       * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
     * see item in the `/ia` menu
-      * `ia.user.ia.seeitem.PERMISSION` (or to give all /ia permissions just use `ia.user.ia.seeitem.*`)
+      * `ia.user.ia.seeitem.PERMISSION` \
+        (or to give all /ia permissions just use `ia.user.ia.seeitem.*`)
       * for more info about item permissions please[ read this](../adding-content/item-properties/basic/item-permission.md)
       * `ia.user.ia.search` for the search GUI in `/ia` menu
       * You can also set a permission per category, please check [/ia GUI ](../ia.md)page
@@ -57,6 +61,11 @@
       * Example:
         * `ia.user.iaemote.use.yes`
         * `ia.user.iaemote.use.*`
+    * HUDs
+      * Permission to see HUDs: `ia.user.hud.show.*`
+      * Stops player huds values from increasing or decreasing based on events: `ia.user.hud.bypass.triggers.*`
+      * Stops the player hud value from increasing or decreasing called by commands: `ia.user.hud.bypass.commands.*`
+      * Stops the player hud value from increasing or decreasing called by API: `ia.user.hud.bypass.api.*`
 
     ​
 * Admin
