@@ -37,7 +37,7 @@ In this example I created a `crafting_table` recipe called `deadmau5_hat`.
 
 ![](../../../.gitbook/assets/image\_\(41\).png)
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 1
 

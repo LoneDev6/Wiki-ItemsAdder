@@ -267,6 +267,7 @@
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
     * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
     * [Ore Regenerator](compatibility-with-other-plugins/compatible/ore-regenerator.md)
+    * [JetsPrisonMines](compatibility-with-other-plugins/compatible/ore-regenerator-1.md)
 * [✏ Contribute](contribute/README.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
