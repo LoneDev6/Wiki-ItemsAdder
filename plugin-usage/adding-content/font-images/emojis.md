@@ -9,14 +9,14 @@ For example I want to create an emoji pack named "myemojis", so my [namespace ](
 1. Open folder plugins\ItemsAdder\data\resource\_pack\assets\\
 2. Create a folder named `myemojis`
 3. Create a folder named `textures`, then inside create a folder named `font` and then a folder named `emoji`
-4. Now you should have this path: **plugins\ItemsAdder\data\resource\_pack\assets\myemojis\textures\font\emoji**
+4. Now you should have this path: `ItemsAdder/contents/myemojis/resourcepack/textures/font/emoji/`
 5. Inside this folder you have to put your emojis, you should make them 72x72 to make sure they're not too big and they're not pixelated. But you can decide the size you want (only important thing is that height and width is not over 256.
 6. In this example I put an image named **smile.png**
 
 ### Creating ItemsAdder config for your emojis
 
-1. Now you have to create the folders for your emoji configs. In this example you have to create a folder named **myemojis** inside **plugins\ItemsAdder\data\items\_packs\\**
-2. inside **plugins\ItemsAdder\data\items\_packs\myemojis** create a file named **emoji\_images.yml** (you can call it whatever you want)
+1. Now you have to create the folders for your emoji configs. In this example you have to create a folder named **myemojis** inside `ItemsAdder/contents/myemojis/configs/`
+2. inside of the `configs` folder create a file named **emoji\_images.yml** (you can call it whatever you want)
 3. Now you have to open the .yml file and
 
 ```yaml
