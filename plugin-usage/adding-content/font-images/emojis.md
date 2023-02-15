@@ -4,6 +4,10 @@
 
 For example I want to create an emoji pack named "myemojis", so my [namespace ](../basic-concepts/namespace.md)would be `myemojis`
 
+### Example configurations
+
+[https://github.com/ItemsAdder/DefaultPack/tree/main/contents/twitteremojis](https://github.com/ItemsAdder/DefaultPack/tree/main/contents/twitteremojis)
+
 ### Creating the textures folder
 
 1. Open folder plugins\ItemsAdder\data\resource\_pack\assets\\

@@ -4,7 +4,7 @@
 
 You can change GUI icons and use ItemsAdder icons to achieve this:
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 {% tabs %}
 {% tab title="config.yml" %}
