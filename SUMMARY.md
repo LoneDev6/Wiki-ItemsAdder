@@ -224,6 +224,7 @@
     * [MMOItems](compatibility-with-other-plugins/compatible/mmoitems/README.md)
       * [Fix blocks problem](compatibility-with-other-plugins/compatible/mmoitems/fix-blocks-problem.md)
     * [ExecutableItems](compatibility-with-other-plugins/compatible/executableitems.md)
+    * [ExecutableBlocks](compatibility-with-other-plugins/compatible/executableblocks.md)
     * [ItemFrameShops](compatibility-with-other-plugins/compatible/itemframeshops.md)
     * [Authme](compatibility-with-other-plugins/compatible/authme.md)
     * [Slimefun4](compatibility-with-other-plugins/compatible/slimefun4.md)
