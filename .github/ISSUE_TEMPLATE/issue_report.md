@@ -1,8 +1,8 @@
 ---
 name: Issue in the ItemsAdder wiki
-about: Create a report to help us improve
+about: Create a report to help us improve the wiki
 title: ""
-labels: bug
+labels: mistake
 assignees: ''
 
 ---
