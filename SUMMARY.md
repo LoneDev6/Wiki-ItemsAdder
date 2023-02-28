@@ -192,7 +192,6 @@
   * [🎨 Minecraft Style Guide](https://www.blockbench.net/wiki/guides/minecraft-style-guide)
   * [☑ Resourcepack prompt message (1.17+)](plugin-usage/resourcepack-prompt-message-1.17+.md)
   * [Text Effects (1.17+)](plugin-usage/text-effects-1.17+.md)
-  * [Chat preview (1.19+)](plugin-usage/chat-preview-1.19+.md)
   * [Scoreboard](plugin-usage/scoreboard/README.md)
     * [Hide Scoreboard background](plugin-usage/scoreboard/hide-scoreboard-background.md)
     * [Hide Scoreboard numbers (1.17+)](plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)

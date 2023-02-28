@@ -6,10 +6,10 @@ description: Text animations
 
 ## What are text effects?
 
-ItemsAdder **2.4.19** offers some cool decorative text effects you can use in your server to make it more professional.
+ItemsAdder offers some cool decorative text effects you can use in your server to make it more professional.
 
 {% hint style="danger" %}
-#### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+**This feature works only on Minecraft 1.17+ client, server version doesn't matter.**
 {% endhint %}
 
 {% hint style="warning" %}
@@ -51,9 +51,9 @@ effects:
 
 ![](../.gitbook/assets/rainbow.gif)
 
-![](<../.gitbook/assets/image_(128).png>)
+![](../.gitbook/assets/image\_\(128\).png)
 
-![](<../.gitbook/assets/image_(129).png>)
+![](../.gitbook/assets/image\_\(129\).png)
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
@@ -109,7 +109,7 @@ Usage: `<rj text>`
 
 ## How to create animated prefix (Luckperms)
 
-![](<../.gitbook/assets/image_(133).png>)
+![](../.gitbook/assets/image\_\(133\).png)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 
