@@ -48,15 +48,15 @@ If you place normal water (or if it's naturally generated) on the top or on the 
 
 #### Bad - 1.17.1 and lower
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/water_bug_1.png" alt=""><figcaption></figcaption></figure>
 
 #### Good - 1.18.1 and greater
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/water_bug_2.png" alt=""><figcaption></figcaption></figure>
 
 ## Liquids do not spread like water!
 
 It's working as intended to avoid lag and glitches.\
 Use multiple liquid buckets to place a wider liquid area.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/water_bug_3.png" alt=""><figcaption></figcaption></figure>
