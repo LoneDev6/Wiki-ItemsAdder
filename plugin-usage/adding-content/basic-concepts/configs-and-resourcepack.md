@@ -1,4 +1,4 @@
-# items\_packs and resource\_pack
+# Contents folder
 
 ## What are these folders?
 
@@ -31,5 +31,6 @@ This folder is automatically compressed inside `ItemsAdder/output/generated.zip`
 {% hint style="danger" %}
 #### **Important**
 
-Remember to always maintain order in **contents** sub-folders, don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.
+Remember to always maintain order in **contents** sub-folders!\
+Don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.
 {% endhint %}

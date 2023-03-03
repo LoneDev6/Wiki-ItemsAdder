@@ -50,7 +50,7 @@ In this case your **namespace** is `myitems` so you have to put them in this fol
 Alternatively you can put them in this folder too:\
 `plugins/ItemsAdder/contents/myitems/resourcepack/assets/myitems/textures/block/`
 
-Read more here: [folders structure](../contents-folders-structure.md)
+Read more here: [folders structure](../basic-concepts/contents-folders-structure.md)
 
 </details>
 
