@@ -7,6 +7,7 @@
   * [🔍 Resourcepack is not loading correctly](faq/identify-why-textures-are-not-shown.md)
   * [📷 Resourcepack not loading](faq/resourcepack-not-loading.md)
   * [⚠ Plugin doesn't work!](faq/plugin-doesnt-work.md)
+  * [Turkish computer errors](faq/turkish-computer-errors.md)
   * [👁 I see crisp textures far away!](faq/i-see-crisp-textures-far-away.md)
   * [💧 HUDs, emojis, GUIs, Font](faq/huds-emojis-guis-font/README.md)
     * [💧 Thirst/mana bar](faq/huds-emojis-guis-font/fill-thirst-mana-bar.md)
