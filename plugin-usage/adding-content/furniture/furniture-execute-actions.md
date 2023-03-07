@@ -1,4 +1,4 @@
-# Furniture execute actions
+# ⚡ Furniture execute actions
 
 ## Execute commands on interact
 

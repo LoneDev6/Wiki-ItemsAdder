@@ -2,7 +2,7 @@
 description: How to create a chair
 ---
 
-# Creating a chair
+# 🪑 Creating a chair
 
 ## Your first chair
 

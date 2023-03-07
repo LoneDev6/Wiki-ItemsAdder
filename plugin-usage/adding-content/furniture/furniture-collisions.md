@@ -1,4 +1,4 @@
-# Furniture collisions
+# 🪨 Furniture collisions
 
 ### How can I make a furniture solid?
 

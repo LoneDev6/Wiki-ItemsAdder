@@ -7,7 +7,7 @@ description: Creating your first custom block
 {% hint style="danger" %}
 **Resourcepack hosting**
 
-Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\
+Remember to **decide** a [**resourcepack hosting**](../../resourcepack-hosting/) method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 {% endhint %}
 
@@ -55,11 +55,11 @@ In this case your **namespace** is `myitems` so you have to put them in this fol
 Alternatively you can put them in this folder too:\
 `plugins/ItemsAdder/contents/myitems/resourcepack/assets/myitems/textures/block/`
 
-Read more here: [folders structure](configs-and-resourcepack.md#why-different-folder-structures-choices)
+Read more here: [folders structure](../configs-and-resourcepack.md#why-different-folder-structures-choices)
 
 </details>
 
-<figure><img src="../../.gitbook/assets/red_block_textures_preview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/red_block_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
 ### Applying the textures files to your item
 
@@ -154,19 +154,19 @@ Click on the bottom link if you want to specify **tools** which can break the bl
 Now you just need to tell the plugin to load your just added block.\
 Make sure to read the hosting tutorial or you won't see the block correctly.
 
-{% content-ref url="../resourcepack-hosting/" %}
-[resourcepack-hosting](../resourcepack-hosting/)
+{% content-ref url="../../resourcepack-hosting/" %}
+[resourcepack-hosting](../../resourcepack-hosting/)
 {% endcontent-ref %}
 
 ## Getting the block ingame
 
 Run `/iaget red_block` to get the item.
 
-![](../../.gitbook/assets/image\_\(92\).png)
+![](../../../.gitbook/assets/image\_\(92\).png)
 
-![](../../.gitbook/assets/image\_\(91\).png)
+![](../../../.gitbook/assets/image\_\(91\).png)
 
-![](../../.gitbook/assets/image\_\(93\).png)
+![](../../../.gitbook/assets/image\_\(93\).png)
 
 ## Download the complete example&#x20;
 
@@ -246,7 +246,7 @@ this property can have these value:
 {% hint style="warning" %}
 * **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
 * **`TILE` ** blocks for trade machines and machinery/rare decorative blocks.\
-  You should not use **`TILE` ** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](trees-populators/populator.md) or [decorators](cave-decorators.md).
+  You should not use **`TILE` ** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](../trees-populators/populator.md) or [decorators](../cave-decorators.md).
 {% endhint %}
 
 ### `rotx` and `roty`
@@ -317,11 +317,11 @@ Whitelist of tools that can break this block
 
 ### `events_tools_blacklist`
 
-Blacklist of tools that cannot run events on this block[ (`placed_block.interact`)](item-properties/events/#list-of-events)
+Blacklist of tools that cannot run events on this block[ (`placed_block.interact`)](../item-properties/events/#list-of-events)
 
 ### `events_tools_whitelist`
 
-Whitelist of tools that cannot run events on this block [(`placed_block.interact`)](item-properties/events/#list-of-events)
+Whitelist of tools that cannot run events on this block [(`placed_block.interact`)](../item-properties/events/#list-of-events)
 
 ## Other options
 
@@ -340,19 +340,19 @@ Totally immune from explosions, ignoring `blast_resistance`
 
 ### `sounds`
 
-You can change block break and place sounds. You can specify a [custom sound](sounds/) name instead of a Minecraft sound.\
+You can change block break and place sounds. You can specify a [custom sound](../sounds/) name instead of a Minecraft sound.\
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound\_list\_pc.php) names.
 
 {% hint style="info" %}
 If no **break** sound is specified it will play  [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK\_STONE\_BREAK)  ``  (`block.stone.break`)
 
-If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](item-properties/resource.md)attribute of this block.
+If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](../item-properties/resource.md)attribute of this block.
 {% endhint %}
 
 ### Use the official files editor to read all the properties
 
-{% content-ref url="../files-editor.md" %}
-[files-editor.md](../files-editor.md)
+{% content-ref url="../../files-editor.md" %}
+[files-editor.md](../../files-editor.md)
 {% endcontent-ref %}
 
 ## Drop experience from block
@@ -412,30 +412,3 @@ loots:
           max_amount: 3
           chance: 100
 ```
-
-## Transparent block
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-To create a transparent block you have to use `REAL_TRANSPARENT` block model type.
-
-```yaml
-info:
-  namespace: test_transparent
-items:
-  test_block_transparent:
-    enabled: true
-    display_name: test_block_transparent
-    resource:
-      generate: true
-      textures:
-        - test
-      material: PAPER
-    specific_properties:
-      block:
-        placed_model:
-          type: REAL_TRANSPARENT
-        cancel_drop: false
-```
-
-{% file src="../../.gitbook/assets/test_transparent.zip" %}
