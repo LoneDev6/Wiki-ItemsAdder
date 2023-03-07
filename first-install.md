@@ -10,25 +10,29 @@ You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-**Make sure** that all of your plugins and server software are up to date.
+**Make sure** that all of your plugins and server software are up to date!
 {% endhint %}
 
-## Step 1 - Installing the plugin and APIs
+## Step 1 - Installing the plugin and libraries
 
+* stop the server
 * install [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/)
 * install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
 * put `ItemsAdder.jar` file inside your plugins folder
 * start the server
 * let ItemsAdder finish loading **everything**
 
-First step is done.\
-Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
+First step is done.
+
+{% hint style="warning" %}
+Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).\
+<mark style="color:red;">**DO NOT SKIP!**</mark>
+{% endhint %}
 
 ## Step 2 - Resourcepack first installation
 
 {% hint style="warning" %}
-This step is important, the plugin <mark style="color:red;">**WILL NOT WORK,**</mark> if you won't complete this step.
+This step is important, the plugin <mark style="color:red;">**WILL NOT WORK**</mark> if you won't complete this step!
 {% endhint %}
 
 Before using the plugin you have to decide the resourcepack hosting method. \
@@ -45,7 +49,7 @@ Click down here to decide an hosting method for the resourcepack (best method: `
 **ItemsAdder** comes with a lot of custom content already created for you.\
 It's not automatically included in the downloaded plugin because some people might not want every item/feature automatically added into their server.
 
-### Default pack
+### Default pack (optional)
 
 ![](<.gitbook/assets/image (47).png>)
 
@@ -70,14 +74,8 @@ If you're on 1.17 or lower you have to change the ores generation:
   * `contents\iaalchemy\configs\worlds_populators_1_18.yml`
   * `contents\iasurvival\ores\configs\worlds_populators_1_18.yml`
 
-### Removing default items
+### Removing default items (optional)
 
 {% content-ref url="faq/removing-default-stuff/" %}
 [removing-default-stuff](faq/removing-default-stuff/)
-{% endcontent-ref %}
-
-### Avoid glitched blocks
-
-{% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
-[avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
 {% endcontent-ref %}

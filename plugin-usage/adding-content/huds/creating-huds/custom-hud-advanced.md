@@ -13,17 +13,17 @@ This special type gives you total control over how the HUD will work. No image i
 {% hint style="warning" %}
 Warning:
 
-This type of HUD requires you to use the [Java API](../../../../../developers/java-api/) and know how to code in Java.
+This type of HUD requires you to use the [Java API](../../../../developers/java-api/) and know how to code in Java.
 {% endhint %}
 
-{% content-ref url="../../../../../developers/java-api/huds-guis.md" %}
-[huds-guis.md](../../../../../developers/java-api/huds-guis.md)
+{% content-ref url="../../../../developers/java-api/huds-guis-images-etc..md" %}
+[huds-guis-images-etc..md](../../../../developers/java-api/huds-guis-images-etc..md)
 {% endcontent-ref %}
 
 ## Examples
 
 {% embed url="https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486" %}
 
-![](../../../../../.gitbook/assets/arrow_showcase.gif)
+![](../../../../.gitbook/assets/arrow\_showcase.gif)
 
-![](../../../../../.gitbook/assets/hud_showcase.gif)
+![](../../../../.gitbook/assets/hud\_showcase.gif)

@@ -32,7 +32,7 @@ Items:
 
 ### How to change language?
 
-Open config.yml and change the language setting.
+Open `config.yml` and change the `lang` setting.
 
 ```yaml
 config_files:
@@ -42,11 +42,7 @@ config_files:
 
 ## How to edit or to create new languages?
 
-The **plugin** messages **language** files are in **this folder**: `plugins\ItemsAdder\lang\`
+The **plugin** messages **language** files are in **this folder**: `plugins/ItemsAdder/lang/`
 
 **Default** ItemsAdder pack items/menus **languages** are inside `dictionaries` folders on each `namespace` folder.\
-For example: `contents\iasurvival\dictionaries\`
-
-{% hint style="warning" %}
-Some addons may put their dictionary files inside other folders inside items\_packs, you have to search for them.
-{% endhint %}
+For example: `contents/iasurvival/dictionaries/`

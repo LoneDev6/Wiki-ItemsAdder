@@ -1,29 +1,35 @@
 # Loading screen
 
+{% hint style="danger" %}
+**Optifine** is **not officially supported** by **ItemsAdder**, but if you want to get more customization you can read these tutorials.
+
+#### Please don't ask support about Optifine features. Thanks!
+{% endhint %}
+
 ## Vanilla loading screen
 
-![](<../../../.gitbook/assets/image_(44).png>)
+![](../../../.gitbook/assets/image\_\(44\).png)
 
 ## Custom loading screen
 
-![](<../../../.gitbook/assets/image_(51).png>)
+![](../../../.gitbook/assets/image\_\(51\).png)
 
 ## How to do that?
 
-### Before Minecraft 1.16
+### Minecraft 1.15 and lower versions
 
-![](<../../../.gitbook/assets/image_(49).png>)
+![](../../../.gitbook/assets/image\_\(49\).png)
 
 You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf).
 
-* Edit my file:`contents\loading_screen\resourcepack\minecraft\textures\gui\title\mojang.png`
+* Edit my file: `contents/loading_screen/resourcepack/minecraft/textures/gui/title/mojang.png`
 * Save the file in the same location
 
-### After Minecraft 1.16
+### Minecraft 1.16+
 
-![](<../../../.gitbook/assets/image_(48).png>)
+![](../../../.gitbook/assets/image\_\(48\).png)
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **Warning**: a known issue is that the logo is bugged when you use `/iazip` or `/iatexture` to apply the texture ingame.\
 The logo will be shown with no issue only on server join for some reason, probably an Optifine bug.
 {% endhint %}
@@ -35,7 +41,7 @@ You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://gi
 * Edit my file: `contents\loading_screen\resourcepack\minecraft\textures\gui\title\mojangstudios.png`
 * Save the file in the same location
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **IMPORTANT**\
 The position of the parts needs to be precise.\
 The left side of the texture needs to touch the top-right corner of the canvas while the right side needs to touch the center-left side of the canvas.
@@ -45,7 +51,7 @@ This is **always** the case, no matter the size of the actual texture!
 
 ### How to change the background color (1.16+ only)
 
-Create a new file (or edit the already provided one): `contents\loading_screen\resourcepack\minecraft\optifine\color.properties`
+Create a new file (or edit the already provided one): `contents/loading_screen/resourcepack/minecraft/optifine/color.properties`
 
 Put this content:
 
@@ -70,6 +76,6 @@ screen.loading.blend=DST_COLOR
 
 You can edit the colors using a [HEX color picker](https://www.w3schools.com/colors/colors\_picker.asp)
 
-{% hint style="warning" %}
-Do not include the `#` at the start of the color code.
+{% hint style="danger" %}
+Do not include the `#` at the start of the color code!
 {% endhint %}

@@ -1,16 +1,19 @@
-# 🇬🇧 🇬🇧 Translation
+# 📚 Translate
 
-You can translate everything in ItemsAdder, it's really easy.
+## Translation supports:
+
+* items names
+* items lore
+* `/ia` menu categories names
 
 ## Translate items
 
 ### Translate ItemsAdder default items
 
-If you want to translate IA default items you can, you just have to copy my dictionary and create your own.\
+If you want to translate IA default items you can, you just have to copy my dictionary and create your own.
 
-
-* open folder plugins\ItemsAdder\data\items\_packs\dictionaries\ia\_default\_items
-* copy and paste the file en.yml
+* open folder `plugins/ItemsAdder/contents/` and search for the `dictionaries` folders (on each directory, for example `iasurvival/configs/`)
+* duplicate and rename the file `en.yml`
 * change `dictionary-lang` from `en` to your language identifier (example `fr`)
 * translate everything you want
 * open config.yml and set `dictionaries-lang` to your language identifier (example `fr`)
@@ -50,7 +53,7 @@ items:
 ```
 
 {% hint style="info" %}
-As you can see I set the `display_name`to "display-name-my\_sword", this will tell IA to replace the text with text from the dictionary, so sword would be named "épée de saleté".
+As you can see I set the `display_name`to `display-name-my_sword`, this will tell IA to replace the text with text from the dictionary, so sword would be named `épée de saleté`.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -75,4 +78,4 @@ items:
 
 ## Translate commands and messages
 
-You just have to open lang folder and copy and paste en.yml, then translate it and change the lang setting in config.yml to your file name.
+You just have to open `lang` folder create a copy of `en.yml`, then translate it and change the `lang` setting in `config.yml` to your file name.

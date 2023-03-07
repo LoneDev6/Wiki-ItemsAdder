@@ -17,7 +17,7 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emoj
 
 `%img_smile%` will show like that:
 
-![](<../../.gitbook/assets/image_(95).png>)
+![](../../.gitbook/assets/image\_\(95\).png)
 
 ## Hide the scoreboard background
 
@@ -25,14 +25,14 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emoj
 
 ### Before
 
-![](<../../.gitbook/assets/image_(97).png>)
+![](../../.gitbook/assets/image\_\(97\).png)
 
 ### After
 
-![](<../../.gitbook/assets/image_(96).png>)
+![](../../.gitbook/assets/image\_\(96\).png)
 
 With ItemsAdder you can hide the scoreboard background, just use this trick.\
-You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>** ** of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
+You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>\*\* \*\* of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
@@ -125,11 +125,3 @@ board:
         - '%img_offset_-500%&c------------------------'
         - '%img_offset_-500%&4------------------------'
 ```
-
-## Hide the red numbers from Scoreboard
-
-{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
-[hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
-{% endcontent-ref %}
-
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>

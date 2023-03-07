@@ -15,7 +15,7 @@ This is only a graphical glitch, this state won't cause duplication bugs or simi
 ## Fix on Spigot/Paper
 
 {% hint style="info" %}
-This is normal if you use REAL type to create custom blocks.\
+This is normal if you use `REAL` type to create custom blocks.\
 ItemsAdder uses mushroom blocks to create them.
 {% endhint %}
 
@@ -32,7 +32,7 @@ Open `config.yml` and set this option:
 ### Another solution
 
 Another solution is to avoid using `REAL` custom blocks type (mushroom) and use `REAL_NOTE` custom blocks type.\
-`REAL_NOTE` uses Noteblocks to create custom blocks, so you won't have this issue because they don't naturally generate around the vanilla world.
+`REAL_NOTE` uses **Note Blocks** to create custom blocks, so you won't have this issue because they don't naturally generate around the vanilla world.
 
 ## Optional settings on Purpur
 
@@ -41,7 +41,7 @@ Another solution is to avoid using `REAL` custom blocks type (mushroom) and use 
 **Spigot and Paper don't have this feature.**
 {% endhint %}
 
-Enable these options in **purpur.yml** configuration:
+Enable these options in **`purpur.yml`** configuration:
 
 * [https://purpurmc.org/docs/Configuration/disable-mushroom-updates](https://purpurmc.org/docs/Configuration/disable-mushroom-updates)
 * [https://purpurmc.org/docs/Configuration/disable-note-block-updates](https://purpurmc.org/docs/Configuration/disable-note-block-updates)

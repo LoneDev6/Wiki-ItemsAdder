@@ -22,8 +22,8 @@ Difference is that with self-host you can download the pack directly from your s
 `self-host` is really useful when you are configuring the resourcepack on your test server on your PC. Because you just have to use command `/iazip` and you'll see changes applied ingame almost instantly.
 {% endhint %}
 
-{% content-ref url="../tips-for-fastest-usage.md" %}
-[tips-for-fastest-usage.md](../tips-for-fastest-usage.md)
+{% content-ref url="tips-for-fastest-usage.md" %}
+[tips-for-fastest-usage.md](tips-for-fastest-usage.md)
 {% endcontent-ref %}
 
 ## How can I configure the self host?
@@ -32,9 +32,9 @@ Difference is that with self-host you can download the pack directly from your s
 
 For example on **Pterodactyl**:
 
-![](<../../.gitbook/assets/image_(104).png>)
+![](../../.gitbook/assets/image\_\(104\).png)
 
-![](<../../.gitbook/assets/image_(101).png>)
+![](../../.gitbook/assets/image\_\(101\).png)
 
 * after you obtained a **new port** you can open `config.yml` and set like this:
 
@@ -73,3 +73,9 @@ Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model
 ### Last step
 
 After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
+
+## Continue installation if you need
+
+{% content-ref url="../../first-install.md" %}
+[first-install.md](../../first-install.md)
+{% endcontent-ref %}

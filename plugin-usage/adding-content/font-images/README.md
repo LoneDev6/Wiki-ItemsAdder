@@ -1,26 +1,19 @@
 ---
 description: >-
   Allows you to create images which can be used in texts, also known as glyphs
-  and symbols.
+  and symbols
 ---
 
 # 🖼 Font Images
 
 ### What are Font images?
 
-This feature allows you to create images that can be used to make: **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-tags.md) and anything else you imagine! (you can put these images inside any text).
-
-{% hint style="warning" %}
-When you create a **font\_image** make sure the **background** is **not** fully **transparent**.\
-You have to set **ALPHA** to **7** instead of 0.
-
-Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
-{% endhint %}
+This feature allows you to create images that can be used to make: **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-prefix.md) and anything else you imagine! (you can put these images inside any text).
 
 ## Tutorials
 
-{% content-ref url="../ranks-textures-tags.md" %}
-[ranks-textures-tags.md](../ranks-textures-tags.md)
+{% content-ref url="../ranks-textures-prefix.md" %}
+[ranks-textures-prefix.md](../ranks-textures-prefix.md)
 {% endcontent-ref %}
 
 {% content-ref url="emojis.md" %}
@@ -30,8 +23,9 @@ Minecraft removes all (alpha 0) transparent pixels on the edges of the image.
 ## Use specific a character
 
 ItemsAdder will decide the custom character for you if you don't include the `symbol` property at all.\
-You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.\
-For example:
+You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.
+
+#### For example:
 
 ```yaml
 smile:
@@ -45,9 +39,13 @@ smile:
 
 Minecraft will show the smile emoji every time you write `鄿` in chat.
 
-## I don't care about ItemsAdder font\_image, I want to handle default.json by myself.
+## I don't care about ItemsAdder font\_image, I want to handle `default.json` by myself
 
-You can do it, you just have to edit the `default.json` file.
+You can do it, you just have to create a `default.json` file and handle it on your own.
+
+{% content-ref url="manually-creating-font-images.md" %}
+[manually-creating-font-images.md](manually-creating-font-images.md)
+{% endcontent-ref %}
 
 ## Examples of content created with Font images feature
 

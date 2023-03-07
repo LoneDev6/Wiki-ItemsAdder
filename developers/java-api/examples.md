@@ -1,10 +1,12 @@
-# Examples
+# Usage
 
-## Custom items
+## Getting the API
 
-### Getting a custom item of any type (block, item, hat, food..) by id or namespace:id
+{% embed url="https://github.com/LoneDev6/API-ItemsAdder" %}
 
-[CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
+## Custom items - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)
+
+#### Getting a custom item of any type (block, item, hat, food etc.) by id or namespace:id
 
 ```java
 CustomStack stack = CustomStack.getInstance("your_item")
@@ -18,35 +20,35 @@ else
 }
 ```
 
-### Checking if a custom item exists
-
-[CustomStack ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)class docs
+#### Checking if a custom item exists
 
 ```java
-boolean exists = CustomStack.getInstance("your_item") != null;
+CustomStack.isInRegistry("your_item")
 ```
 
-or you can also use the old method which is not allocating anything.
-
-```java
-ItemsAdder.isCustomItem("your_item");
-```
-
-### Getting the custom item data from an ingame ItemStack
+#### Obtaining the CustomStack from a Bukkit ItemStack
 
 ```java
 CustomStack stack = CustomStack.byItemStack(myItemStack);
-if(stack != null)
+
+if(stack != null) // It's a custom item!
 {
-    stack.setUsages(5)//for example set usages
+    stack.setUsages(5) // For example set usages
+    // ...
 }
-else
+else // It's not a custom item!
 {
-    //not a custom item
+     // ...
 }
 ```
 
-## Custom Blocks
+## Custom Blocks - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomBlock.java)
+
+#### Check if a custom block exists
+
+```java
+CustomBlock.isInRegistry("your_item")
+```
 
 #### Check if world block is a custom blocks
 
@@ -54,11 +56,11 @@ else
 CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
 if(customBlock != null)
 {
-    //custom block
+    // Custom block, do your own stuff here
 }
 else
 {
-    //not a custom block
+    // Not a custom block
 }
 ```
 
@@ -68,52 +70,47 @@ else
 CustomBlock customBlock = CustomBlock.getInstance("ruby_ore");
 if(customBlock != null) //not needed if you're sure the blocks exists.
 {
-    //custom block
     customBlock.place(location);
 }
 else
 {
-    //not a custom block
+    // Custom block not found in ItemsAdder configurations!
 }
 ```
 
-## Custom mobs
+## Custom entity - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomEntity.java)
 
-### Spawn a custom mob by id or namespace:id
-
-[CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
+#### Spawn a custom mob by id or namespace:id
 
 ```java
-CustomMob customMob = CustomMob.spawn("your_item", location)
-if(customMob != null)
+CustomEntity customEntity = CustomEntity.spawn("your_item", location)
+if(customEntity != null)
 {
-    //spawned the custom mob
+    // Custom entity spawned
     
-    //example, print the display name in console
-    System.out.println(customMob.getName());
+    // Example: print the namespaced id in console
+    System.out.println(customEntity.getNamespacedID());
 }
 else
 {
-    //no custom mob found with that id
+    // Custom entity not found in ItemsAdder configurations!
 }
 ```
 
-### Get custom mob by mob already spawned in the world
-
-[CustomMob ](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)class docs
+### Get custom entity by an already spawned Bukkit entity
 
 ```java
-CustomMob customMob = CustomMob.byAlreadySpawned(entity)
-if(customMob != null)
+CustomEntity customEntity = CustomEntity.byAlreadySpawned(entity)
+if(customEntity != null)
 {
-    //it's a custom mob
+    // It's a custom entity
     
-    //example, print the display name in console
-    System.out.println(customMob.getName());
+    // Example: print the namespaced id in console
+    System.out.println(customEntity.getNamespacedID());
 }
 else
 {
-    //this mob is not a custom mob
+    // This Bukkit entity is not a custom entity!
 }
 ```
 
@@ -135,9 +132,11 @@ void interact(PlayerInteractEvent e)
     }
 }
 ```
+
 ## Changing HUD values with API
 
 ### Setting a float value in a Frames Hud
+
 ```java
 PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
 PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
@@ -145,8 +144,47 @@ hud.setFloatValue(1f);
 ```
 
 ### Making a HUD visible.
+
 ```java
 PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
 PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
 hud.setVisible(true);
+```
+
+## Old stuff:
+
+### Custom mobs <mark style="color:orange;">(old)</mark> - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)
+
+#### Spawn a custom mob by id or namespace:id
+
+```java
+CustomMob customMob = CustomMob.spawn("your_item", location)
+if(customMob != null)
+{
+    //spawned the custom mob
+    
+    //example, print the display name in console
+    System.out.println(customMob.getName());
+}
+else
+{
+    //no custom mob found with that id
+}
+```
+
+#### Get custom mob by mob already spawned in the world
+
+```java
+CustomMob customMob = CustomMob.byAlreadySpawned(entity)
+if(customMob != null)
+{
+    //it's a custom mob
+    
+    //example, print the display name in console
+    System.out.println(customMob.getName());
+}
+else
+{
+    //this mob is not a custom mob
+}
 ```

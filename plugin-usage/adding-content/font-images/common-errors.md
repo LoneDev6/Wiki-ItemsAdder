@@ -2,7 +2,10 @@
 
 ## I see only a white square
 
-If you see a **white square** make sure the **height** of your image is not **greather** than the `y_position` value you set. To **bypass** that create an **image** with **higher height**. Images must also not have **Uppercase** or **Bad Characters** (eg. - or _) in the filename.
+If you see a **white square** make sure the **height** of your image is not **greater** than the `y_position` value you set. \
+To **bypass** this limitation you have to create an **image** with **higher height**.
+
+Images must also not have **Uppercase** or **Bad Characters** (eg. `*`, `à`, `ù`, `=`, `$`, space etc.) in the filename or in the folders.
 
 {% hint style="warning" %}
 Keep in mind that the **max size** of a font image is **256x256**.\
@@ -18,8 +21,7 @@ Example:\
 \- 4x4\
 \- 6x6\
 \- 52x52\
-\- ......\
-
+\- etc.
 
 If you still have problems try to increase/decrease the size by 2 until the wrong shift disappears.\
-This is an approximation problem I cannot fix.\
+This is an approximation problem I cannot fix.

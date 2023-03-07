@@ -46,7 +46,7 @@ Open config.yml and write the load priority order of your `contents` sub-folders
 ```
 {% endcode %}
 
-### Done.
+### Done
 
 ## Examples
 

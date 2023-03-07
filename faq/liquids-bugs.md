@@ -56,7 +56,9 @@ If you place normal water (or if it's naturally generated) on the top or on the 
 
 ## Liquids do not spread like water!
 
+{% hint style="success" %}
 It's working as intended to avoid lag and glitches.\
 Use multiple liquid buckets to place a wider liquid area.
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/water_bug_3.png" alt=""><figcaption></figcaption></figure>

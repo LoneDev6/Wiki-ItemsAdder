@@ -1,9 +1,3 @@
----
-cover: >-
-  ../../.gitbook/assets/Dropbox_(service)-Blue&White-Dark-Background-Logo.wine.svg
-coverY: 0
----
-
 # 📦 DropBox
 
 ## Text tutorial
@@ -55,4 +49,10 @@ Yea it is, that's why you should use the self host feature instead of **DropBox*
 
 {% content-ref url="resourcepack-self-hosting.md" %}
 [resourcepack-self-hosting.md](resourcepack-self-hosting.md)
+{% endcontent-ref %}
+
+## Continue installation if you need
+
+{% content-ref url="../../first-install.md" %}
+[first-install.md](../../first-install.md)
 {% endcontent-ref %}

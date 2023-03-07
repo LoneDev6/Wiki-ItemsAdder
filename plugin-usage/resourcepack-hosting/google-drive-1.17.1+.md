@@ -1,9 +1,4 @@
----
-cover: ../../.gitbook/assets/Google-Drive.jpg
-coverY: 0
----
-
-# 🗂 Google Drive (1.17.1+)
+# 📦 Google Drive (1.17.1+)
 
 ## How to use Google Drive
 
@@ -72,3 +67,9 @@ This happens only when the player downloads the resourcepack for the first time 
 This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
 This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+
+## Continue installation if you need
+
+{% content-ref url="../../first-install.md" %}
+[first-install.md](../../first-install.md)
+{% endcontent-ref %}

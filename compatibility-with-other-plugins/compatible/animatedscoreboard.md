@@ -6,22 +6,6 @@
 Please refer to the plugin page tutorials before asking for help, I'm not the developer of this plugin and this info might become outdated at some point.
 {% endhint %}
 
-## Creating a scoreboard
-
-Create a new file in `plugins/AnimatedScoreboard/scoreboards` and name it `example_itemsadder.yml`
-
-Copy this content inside the file and save it:
-
-```
-// Some code
-```
-
-Use the following commands:
-
-`/animatedsb reload`
-
-`/animatedsb switch example_itemsadder`
-
 ## Font images in the scoreboard
 
 You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emojis and symbols) in the scoreboard if you install **PlaceholderAPI**.
@@ -30,13 +14,13 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emoj
 
 `%img_smile%` will show like that:
 
-![](../../.gitbook/assets/image\_\(95\).png)
+![](../../.gitbook/assets/animatedscoreboard\_1.png)
 
 ## Hide the scoreboard background
 
 With ItemsAdder you can hide the scoreboard background, just use this trick.
 
-(works with every scoreboard plugin)
+(works with every scoreboard plugin which supports PlaceholderAPI)
 
 {% tabs %}
 {% tab title="Before" %}
@@ -54,7 +38,7 @@ With ItemsAdder you can hide the scoreboard background, just use this trick.
 
 ### How to hide the background
 
-You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>\*\* \*\* of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
+You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark> of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
 
 {% hint style="danger" %}
 #### Warning!
@@ -77,7 +61,7 @@ Example:
 
 <details>
 
-<summary>&#x3C;--- Click here to get the YML configuration file</summary>
+<summary>&#x3C;--- Click here to get the example YML configuration file</summary>
 
 {% code title="defaultscoreboard.yml" %}
 ```yaml
@@ -198,9 +182,3 @@ display:
 {% endcode %}
 
 </details>
-
-## Hide the red numbers from Scoreboard
-
-{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
-[hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
-{% endcontent-ref %}

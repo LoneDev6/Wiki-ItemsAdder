@@ -35,10 +35,10 @@ worlds_populators:
     chunk_veins: 1
 ```
 
-This code allows you to tell ItemsAdder to generate the block "myitems:custom\_block" in the world named "world" and replace only block of types STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL and only in biome PLAINS.\
+This code allows you to tell ItemsAdder to generate the block `myitems:custom_block` in the world named `world` and replace only block of types `STONE`, `DIRT`, `ANDESITE`, `GRANITE`, `COBBLESTONE`, `GRAVEL` and only in biome `PLAINS`.\
 It will spawn 1 vein made of 3 blocks in each chunk.
 
-### vein\_blocks, chunk\_veins, chunk\_chance
+### `vein_blocks`, `chunk_veins`, `chunk_chance`
 
 {% hint style="warning" %}
 I suggest you to read values from the `blocks.yml` file I created in the **ItemsAdder** folder.\
@@ -46,9 +46,9 @@ Don't put too high values or the server could lag.\
 Take my values as example.
 {% endhint %}
 
-**chunk\_veins**: number of veins to be spawned in the chunk\
-**vein\_blocks**: number of blocks in each ore vein (or the **vein size**)\
-**chunk\_chance**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
+**`chunk_veins`**: number of veins to be spawned in the chunk\
+**`vein_blocks`**: number of blocks in each ore vein (or the **vein size**)\
+**`chunk_chance`**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
 
 {% hint style="warning" %}
 <mark style="color:red;">**Old ItemsAdder**</mark> versions before **3.1.6** used these properties instead:\

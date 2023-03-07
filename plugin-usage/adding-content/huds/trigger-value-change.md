@@ -1,7 +1,5 @@
 ---
-description: >-
-  How to use triggers to automatically increase/decrease HUD value during
-  gameplay.
+description: Automatically increase/decrease HUD value during gameplay
 ---
 
 # Trigger value change

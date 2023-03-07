@@ -2,7 +2,7 @@
 
 ## Read here
 
-{% page-ref page="../resourcepack-not-loading.md" %}
-
-
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 

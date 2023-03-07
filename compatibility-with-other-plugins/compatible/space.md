@@ -19,4 +19,5 @@ Then run `/iazip` and follow the [hosting tutorial](../../plugin-usage/resourcep
 
 ### Particles problems
 
-After you've merged the resourcepacks you will notice double particles from blocks. This is normal and I can't fix it for now.
+After you've merged the resourcepacks you will notice double particles from blocks.\
+This is normal and I can't fix it for now, it's because of how Space plugin creases blocks models (in the wrong way).

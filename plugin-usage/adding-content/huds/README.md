@@ -21,7 +21,7 @@ huds:
     enabled: true
 ```
 
-### Enable thirst in all worlds but not in world\_the\_end
+### Enable in all worlds but not in `world_the_end`
 
 ```yaml
 huds:
@@ -31,9 +31,9 @@ huds:
     - "!world_the_end"
 ```
 
-Notice the `!` in front of the world name. (It's very important to use the `" "` characters or plugin won't work (yml bug).
+Notice the `!` in front of the world name. (It's very important to use the `" "` characters or plugin won't work (`.yml` bug).
 
-### Enable thirst in all worlds of name which starts with `world_` or `adventure`
+### Enable in all worlds of name which starts with `world_` or `adventure`
 
 ```yaml
 huds:
@@ -44,4 +44,4 @@ huds:
     - "adventure*
 ```
 
-Notice the `*` at the end, this means "any". (keep in mind that this works only at the end of the name)
+Notice the `*` at the end, this means "_**any**_". (keep in mind that this works only at the end of the name)

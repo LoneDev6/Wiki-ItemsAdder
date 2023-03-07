@@ -147,7 +147,8 @@ vehicle:
       z: -0.8
 ```
 
+## Use the official files editor to read all the properties
 
-
-
-
+{% content-ref url="../../files-editor.md" %}
+[files-editor.md](../../files-editor.md)
+{% endcontent-ref %}

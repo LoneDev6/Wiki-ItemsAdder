@@ -24,9 +24,10 @@ Create a new item in your namespace, this will be your music disc:
     behaviours:
       music_disc:
         song:
-          name: itemsadder:music_disc.cdk_sunday
+          name: my_sounds:music_disc.cdk_sunday
           description: Cdk - Sunday
 ```
 
-As you can see I added a special behaviour called "music\_disc". This will tell Spigot server that this item is a custom music disc.\
-**name** is the sound to be played, you added it in the **step 1**
+As you can see I added a special behaviour called `music_disc`.\
+This will tell Spigot server that this item is a custom music disc.\
+**name** is the sound to be played, you added it in the [step 1](music-discs.md#step-1-create-the-sound).

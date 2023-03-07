@@ -18,6 +18,8 @@ Requires ItemsAdder 3.4.0b or greater.
     placeholder-font: "minecraft:default"
 ```
 
+It's advised to set `max-line-length: 18`, this allows long texts to use the whole available line space.
+
 <figure><img src="../../.gitbook/assets/iaimage_book_1.png" alt=""><figcaption></figcaption></figure>
 
 ### Change book font to Minecraft thin font

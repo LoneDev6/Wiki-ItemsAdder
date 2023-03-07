@@ -1,16 +1,18 @@
-# GUIs
+# 🔘 GUIs
 
-In order to make GUIs you can copy and paste my pack named mcguis and edit it on your likings.\
-In order to create custom GUIs you can use the [JavaAPI ](../../developers/java-api/huds-guis.md)or install a plugin like [ChestCommands](https://dev.bukkit.org/projects/chest-commands).\
-If you are using a plugin like ChestCommands you have to name the GUI like this:\\
+In order to make GUIs you can copy and paste my pack named `_iainternal` and edit it on your likings:\
+`contents/_iainternal/resourcepack/assets/_iainternal/textures/gui/`
+
+In order to create custom GUIs you can use the [JavaAPI ](../../developers/java-api/huds-guis-images-etc..md)or install a plugin like [ChestCommands](https://dev.bukkit.org/projects/chest-commands).\
+If you are using a plugin like ChestCommands you have to name the GUI like this:
 
 ```
 :offset_-16::blank_menu:
 ```
 
-This tells ItemsAdder to replace the GUI name with a -16 offset special character that will shift the main\_menu texture of 16 pixels back.
+This tells ItemsAdder to replace the GUI name with a `-16` offset special character that will shift the `blank_menu` texture of 16 pixels back.
 
-![](<../../.gitbook/assets/image_(11).png>)
+![](../../.gitbook/assets/image\_\(11\).png)
 
 ### Read more about placeholders
 
@@ -20,16 +22,17 @@ This tells ItemsAdder to replace the GUI name with a -16 offset special characte
 
 ## Example addon
 
-Here you can get an addon example [https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/](https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/)
+Here you can get an addon example\
+[https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/](https://www.spigotmc.org/resources/gui-server-rules-main-menu-itemsadder-addon.84793/)
 
 ![https://i.imgur.com/wuFEAoZ.gif](https://i.imgur.com/wuFEAoZ.gif)
 
 ## Example content created by users (Copyright by Gust)
 
-![](<../../.gitbook/assets/image_(110).png>)
+![](../../.gitbook/assets/image\_\(110\).png)
 
 {% hint style="warning" %}
-#### I'm not the owner of this resource
+**I'm not the owner of this resource**
 {% endhint %}
 
 {% embed url="https://www.mc-market.org/resources/21017/" %}

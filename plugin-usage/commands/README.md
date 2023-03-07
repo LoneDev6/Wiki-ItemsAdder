@@ -1,138 +1,43 @@
 # 🖥 Commands
 
-* iatexture:
-  * description: Force the client to reload resourcepack (a player or everyone)
-  * usage: /iatexture \[all or player]
-  * permission: "ia.user.iatexture"
-* iaget:
-  * description: Get custom item by namespaced id or by id
-  * usage: /iaget \<item> \[amount]
-  * permission: "ia.admin.iaget"
-* iagive:
-  * description: Give custom item to player
-  * usage: /iagive \<item> \[amount] \[silent]
-  * permission: "ia.admin.iagive"
-* iadrop:
-  * description: Drop custom item at coords or at player location
-  * usage: /iadrop \<item> \[amount]
-  * permission: "ia.admin.iadrop"
-* iaremove:
-  * description: Remove custom item from player inventory
-  * usage: /iaremove \<item> \[amount] \[silent]
-  * permission: "ia.admin.iaremove"
-* iatag:
-  * description: Shows custom item debug info
-  * usage: /iatag
-  * permission: "ia.admin.iatag"
-* iacustommodeldata:
-  * description: Shows custom item CustomModelData
-  * usage: /iacustommodeldata
-  * permission: "ia.admin.custommodeldata"
-* iaplayerstat:
-  * description: Set a custom player stat (and update HUD) value
-  * usage: /iaplayerstat \<read|write|increment|decrement> \<player> \<attribute> \<int|float|string> \[value]
-  * permission: "ia.admin.iaplayerstat"
-* ia:
-  * description: Opens items list GUI
-  * usage: /ia
-  * permission: "ia.user.ia"
-* ia (alternative usage):
-  * description: Opens an items category GUI
-  * usage: /ia \<category> \[player]
-  * permission: "ia.user.ia.categories"
-    * others: "ia.user.ia.categories.others"
-* iarepair:
-  * description: Repairs current item (vanilla or custom)
-  * usage: /iarepair
-  * permission: "ia.admin.iarepair"
-* iarename
-  * description: Rename current item (vanilla or custom). Supports emojis (font\_images) and ItemsAdder text-effects.
-  * usage: /iarename \<name>
-  * permission: "ia.admin.iarename"
-* iadurability:
-  * description: Modify durability of current item (vanilla or custom)
-  * usage: /iadurability
-  * permission: "ia.admin.iadurability"
-* iareload:
-  * description: Reloads configuration files
-  * usage: /iareload
-  * permission: "ia.admin.iareload"
-* iazip:
-  * description: Executes /iareload and generates pack file
-  * usage: /iazip
-  * permission: "ia.admin.iazip"
-* iablock:
-  * description: Show info about block you're looking at
-  * usage: /iablock
-  * permission: "ia.admin.iablock"
-* ialiquid:
-  * description: Show info about liquid you're looking at
-  * usage: /ialiquid \[x] \[y] \[z]
-  * permission: "ia.admin.ialiquid"
-* e:
-  * description: Show list of font images (emojis, huds...). Can also be used to send messages with emojis autocomplete.
-  * usage: /iaimage
-  * permission: "ia.user.image.gui"
-* iarecipe:
-  * description: Show item recipe GUI
-  * usage: /iarecipe \[item]
-  * permission: "ia.user.iarecipe"
-* iahud:
-  * description: Force show/hide a HUD manually by namespaced id
-  * usage: /iahud \[name]
-  * permission: "ia.admin.iahud"
-* iaconvert:
-  * description: Converts old 1.0 world to 2.0 world (blocks), you can decide to delete ores (set stone) or keep them
-  * usage: /iaconvert \[world] \[deleteores]
-  * permission: "ia.admin.iaconvert"
-* iainfo:
-  * description: Shows info about the plugin
-  * usage: /iainfo
-  * permission: "ia.admin.iainfo"
-* iakill:
-  * description: Kills custom mobs
-  * usage: /iakill
-  * permission: "ia.admin.iakill"
-* iasummon:
-  * description: Summons custom mobs
-  * usage: /iasummon \[amount]
-  * permission: "ia.admin.iasummon"
-* iaexport:
-  * description: Exports a namespace into a .zip file
-  * usage: /iaexport \<namespace>
-  * permission: "ia.admin.iaexport"
-* iaspawntree:
-  * description: Spawns a custom tree
-  * usage: /iaspawntree
-  * permission: "ia.admin.iaspawntree"
-* iaplaytotemanimation:
-  * description: Shows a Totem Of Undying animation
-  * usage: /iaplaytotemanimation
-  * permission: "ia.admin.iatotemanimation"
-* iaplaysound:
-  * description: Play itemsadder sounds. Useful in console since vanilla /playsound is bugged in console.
-  * usage: /iaplaysound
-  * permission: "ia.admin.iaplaysound"
-* iacleancache:
-  * description: Cleans unused IDs from cache to allow them to be used by future added blocks / items.
-  * usage: /iacleancache
-  * permission: "ia.admin.iacleancache"
-* iasha1:
-  * description: Calculates sha1 of the current resourcepack.
-  * usage: /iasha1
-  * permission: "ia.user.iasha1"
-* iahitbox:
-  * description: Shows the hitbox of placed furnitures.
-  * usage: /iahitbox
-  * permission: "ia.admin.iahitbox"
-* iaconfig:
-  * description: Main command to execute some operations on the plugin configurations.
-  * permission: "ia.admin.iaconfig"
-* iaentity:
-  * description: Main command to manage custom entities.
-  * permission: "ia.admin.iaentity"
-* iaemote
-  * description: Play custom player animation.
-  * usage: /iaemote \<emote> \[player]
-  * permission: "ia.user.iaemote"
-    * others: "ia.user.iaemote.others"
+| Command                 | Permission                                                                                 | Usage                                                                                                 | Description                                                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| iatexture               | `ia.user.iatexture`                                                                        | `/iatexture`                                                                                          | Force the client to reload resourcepack                                                                                            |
+| iatexture               | `ia.user.iatexture.all`                                                                    | `/iatexture [all\|player]`                                                                            | Force the client to reload resourcepack (a player or everyone)                                                                     |
+| iaget                   | `ia.admin.iaget`                                                                           | `/iaget <item> [amount]`                                                                              | Get custom item by namespaced id or by id                                                                                          |
+| iagive                  | `ia.admin.iagive`                                                                          | `/iagive <item> [amount] [silent]`                                                                    | Give custom item to player                                                                                                         |
+| iadrop                  | `ia.admin.iadrop`                                                                          | `/iadrop <item> [amount]`                                                                             | Drop custom item at coords or at player location                                                                                   |
+| iaremove                | `ia.admin.iaremove`                                                                        | `/iaremove <item> [amount] [silent]`                                                                  | Remove custom item from player inventory                                                                                           |
+| iatag                   | `ia.admin.iatag`                                                                           | `/iatag`                                                                                              | Shows custom item debug info                                                                                                       |
+| iacustommodeldata       | `ia.admin.custommodeldata`                                                                 | `/iacustommodeldata`                                                                                  | Shows custom item CustomModelData                                                                                                  |
+| iaplayerstat            | `ia.admin.iaplayerstat`                                                                    | `/iaplayerstat <read\|write\|increment\|decrement> <player> <attribute> <int\|float\|string> [value]` | Access the command                                                                                                                 |
+| iaplayerstat            | `ia.admin.iaplayerstat.read`                                                               | `/iaplayerstat <read> [arguments]`                                                                    | Reads a custom player stat value                                                                                                   |
+| iaplayerstat            | `ia.admin.iaplayerstat.write`                                                              | `/iaplayerstat <write> [arguments]`                                                                   | Set a custom player stat (and update HUD) value                                                                                    |
+| ia                      | `ia.user.ia`                                                                               | `/ia`                                                                                                 | Opens items list GUI                                                                                                               |
+| ia                      | `ia.user.ia.categories`                                                                    | `/ia <category>`                                                                                      | Opens an items category GUI                                                                                                        |
+| ia                      | `ia.user.ia.categories.others`                                                             | `/ia <category> [player]`                                                                             | Opens an items category GUI to other users                                                                                         |
+| iarepair                | `ia.admin.iarepair`                                                                        | `/iarepair`                                                                                           | Repairs current item (vanilla or custom)                                                                                           |
+| [iarename](iarename.md) | `ia.admin.iarename`                                                                        | `/iarename <name>`                                                                                    | Rename current item (vanilla or custom). Supports emojis (font\_images) and ItemsAdder text-effects.                               |
+| iadurability            | `ia.admin.iadurability`                                                                    | `/iadurability`                                                                                       | Modify durability of current item (vanilla or custom)                                                                              |
+| iareload                | `ia.admin.iareload`                                                                        | `/iareload`                                                                                           | Reloads configuration files                                                                                                        |
+| iazip                   | `ia.admin.iazip`                                                                           | `/iazip`                                                                                              | Executes /iareload and generates pack file                                                                                         |
+| iablock                 | `ia.admin.iablock`                                                                         | `/iablock`                                                                                            | Show info about block you're looking at                                                                                            |
+| ialiquid                | `ia.admin.ialiquid`                                                                        | `/ialiquid [x] [y] [z]`                                                                               | Show info about liquid you're looking at                                                                                           |
+| [e](iaimage.md)         | `ia.user.image.gui`                                                                        | `/iaimage`                                                                                            | Show list of font images (emojis, huds...). Can also be used to send messages with emojis autocomplete.                            |
+| iarecipe                | `ia.user.iarecipe`                                                                         | `/iarecipe [item]`                                                                                    | Show item recipe GUI                                                                                                               |
+| iahud                   | `ia.admin.iahud`                                                                           | `/iahud [name]`                                                                                       | Force show/hide a HUD manually by namespaced id                                                                                    |
+| iainfo                  | `ia.admin.iainfo`                                                                          | `/iainfo`                                                                                             | Shows info about the plugin                                                                                                        |
+| iakill                  | `ia.admin.iakill`                                                                          | `/iakill`                                                                                             | Kills custom mobs                                                                                                                  |
+| iasummon                | `ia.admin.iasummon`                                                                        | `/iasummon [amount]`                                                                                  | Summons custom mobs                                                                                                                |
+| iaspawntree             | `ia.admin.iaspawntree`                                                                     | `/iaspawntree` \<tree>                                                                                | Spawns a custom tree                                                                                                               |
+| iaplaytotemanimation    | `ia.admin.iatotemanimation`                                                                | `/iaplaytotemanimation <totem> <player>`                                                              | Shows a Totem Of Undying animation                                                                                                 |
+| iaplaysound             | `ia.admin.iaplaysound`                                                                     | `/iaplaysound <sound> <player>`                                                                       | <p>Play itemsadder sounds. <br>Useful in console since vanilla /playsound is bugged in console.</p>                                |
+| iacleancache            | `ia.admin.iacleancache`                                                                    | `/iacleancache`                                                                                       | Cleans unused IDs from cache to allow them to be used by future added blocks / items.                                              |
+| iasha1                  | `ia.user.iasha1`                                                                           | `/iasha1`                                                                                             | Calculates sha1 of the current resourcepack.                                                                                       |
+| iahitbox                | `ia.admin.iahitbox`                                                                        | `/iahitbox`                                                                                           | Shows the hitbox of placed furnitures.                                                                                             |
+| [iaconfig](iaconfig.md) | `ia.admin.iaconfig`                                                                        | `/iaconfig`                                                                                           | <p>Main command to execute some operations on the plugin configurations.<br>Read <a href="iaconfig.md">here</a> for more info.</p> |
+| iaentity                | `ia.admin.iaentity`                                                                        | `/iaentity`                                                                                           | Main command to manage custom entities.                                                                                            |
+| iaemote                 | <ul><li><code>ia.user.iaemote</code></li><li><code>ia.user.iaemote.others</code></li></ul> | `/iaemote <emote> [player]`                                                                           | Play custom player animation.                                                                                                      |
+
+
+

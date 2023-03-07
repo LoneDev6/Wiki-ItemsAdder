@@ -1,14 +1,14 @@
 # ☑ Resourcepack prompt message (1.17+)
 
 {% hint style="warning" %}
-#### Available only on Minecraft 1.17 client
+**Available only on Minecraft 1.17+ clients**
 {% endhint %}
 
 ## Custom resourcepack prompt message
 
 ### Step 1
 
-Open `ItemsAdde\lang\en.yml` file (or your language)
+Open `ItemsAdde/lang/en.yml` file (or your language)
 
 ### Step 2
 
@@ -19,8 +19,8 @@ resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcep
 &aYou need only to download it only once."
 ```
 
-(You can use as newline)
+(You can use `\n` as newline)
 
 ### Done
 
-![](<../.gitbook/assets/image_(127).png>)
+![](../.gitbook/assets/image\_\(127\).png)

@@ -18,8 +18,8 @@ I'm not a skript expert and I'm not the developer of **skript** nor **skript-ref
 
 ## Examples
 
-{% tabs %}
-{% tab title="Getting item on command" %}
+### Getting item on command
+
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
@@ -29,9 +29,9 @@ command /iaskript:
     set {testItem} to ItemsAdder.getCustomItem("itemsadder:ruby")
     sender.getInventory().addItem({testItem})
 ```
-{% endtab %}
 
-{% tab title="Check if clicked block is custom block" %}
+### Check if clicked block is custom block
+
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
@@ -51,9 +51,9 @@ on PlayerInteractEvent:
         set {_name} to {_tmp}.getItemMeta().getDisplayName()
         event.getPlayer().sendMessage("%{_name}%")
 ```
-{% endtab %}
 
-{% tab title="Custom GUI" %}
+### Custom GUI
+
 ```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
@@ -82,9 +82,9 @@ on inventory click:
 on inventory close:
 	remove player from {players::*}
 ```
-{% endtab %}
 
-{% tab title="Change hud value" %}
+### Change HUD value
+
 ```yaml
 import:
   dev.lone.itemsadder.api.FontImages.PlayerQuantityHudWrapper
@@ -99,9 +99,9 @@ command /healme:
 		heal the player
             	set the player's food level to 10
 ```
-{% endtab %}
 
-{% tab title="item menu" %}
+Iitem menu
+
 ```yaml
 import:
   dev.lone.itemsadder.api.CustomStack
@@ -165,8 +165,5 @@ on inventory click:
 
 function rellenarINV(inv: inventory, slots: integers):
     loop {_slots::*}:
-        set slot loop-value of {_inv} to black stained glass pane named " "
-
+        set slot loop-value of {_inv} to black stained glass pane named " a
 ```
-{% endtab %}
-{% endtabs %}

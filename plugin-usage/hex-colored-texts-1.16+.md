@@ -1,4 +1,4 @@
-# Hex colored texts \(1.16+\)
+# 🌈 Hex colored texts (1.16+)
 
 ## How to use 1.16 hex colored texts
 
@@ -16,4 +16,3 @@ For example:
 {% hint style="info" %}
 It works anywhere, also in translation files of the plugin.
 {% endhint %}
-

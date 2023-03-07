@@ -4,10 +4,10 @@
 
 ### yml configuration
 
-You have to create a .yml file in your [namespace ](../../../basic-concepts/namespace.md)folder (check [other tutorials ](broken-reference)for more info).
+You have to create a .yml file in your [namespace ](broken-reference)folder (check [other tutorials ](broken-reference)for more info).
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../../files-editor.md) to edit ItemsAdder files. \
+Consider using the[ official online tool](../../../../files-editor.md) to edit ItemsAdder files. \
 It makes you life easier as it has autocomplete (press CRTL+SPACE) which helps you on avoiding mistakes.
 {% endhint %}
 

@@ -1,4 +1,4 @@
-# OneDrive
+# 📦 OneDrive
 
 {% hint style="warning" %}
 #### Not recommended.
@@ -40,3 +40,9 @@ Keep in mind that it's a bit "risky" because the server cannot make sure the URL
 
 This can cause your players to be stuck on login phase if the URL is not valid or if OneDrive doesn't provide the direct download, sometimes it happens.
 {% endhint %}
+
+## Continue installation if you need
+
+{% content-ref url="../../first-install.md" %}
+[first-install.md](../../first-install.md)
+{% endcontent-ref %}

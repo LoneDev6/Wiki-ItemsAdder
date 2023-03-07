@@ -1,2 +1,0 @@
-# Furniture/vehicles issues
-

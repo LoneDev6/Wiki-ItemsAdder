@@ -1,15 +1,15 @@
 ---
-description: Text animations
+description: Special text animations and coloring effects
 ---
 
-# Text Effects (1.17+)
+# 🎆 Text Effects (1.17+)
 
 ## What are text effects?
 
-ItemsAdder offers some cool decorative text effects you can use in your server to make it more professional.
+They are some cool decorative text effects you can use in your server to make it more professional.
 
 {% hint style="danger" %}
-**This feature works only on Minecraft 1.17+ client, server version doesn't matter.**
+**This feature works only on Minecraft 1.17+ client (Server version doesn't matter.**
 {% endhint %}
 
 {% hint style="warning" %}
@@ -116,3 +116,44 @@ Usage: `<rj text>`
 ![](../.gitbook/assets/prefix.gif)
 
 Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
+
+## Using text effects without the placeholders
+
+For some reason if you want to use text effects on areas which don't support ItemsAdder placeholders (like `<r TEXT>`) you can use another method.
+
+These effects are triggered based on a **special HEX color**.\
+So if the area where you want to show a text effect supports HEX colors you can do that.
+
+### Rainbow
+
+`#FFFFFE`
+
+### Wobble
+
+`#FFFFFD`
+
+### Jump
+
+`#FFFFFB`
+
+### Rainbow + Wobble
+
+`#FFFFFC`
+
+### Rainbow + Jump
+
+`#FFFEFE`
+
+### Using them in Minecraft vanilla JSON notation
+
+This triggers the rainbow effect:\
+`/tellraw @a {"text":"custom text example", "color":"#FFFFFE"}`
+
+### Using them in plugins which support `minimessage`
+
+{% embed url="https://docs.advntr.dev/minimessage/format.html#color" %}
+
+(for example [ChatFormatter](https://www.spigotmc.org/resources/102212/))
+
+This triggers the rainbow effect: \
+`<#FFFFFE>custom text example`

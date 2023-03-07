@@ -2,7 +2,7 @@
 
 ### Introduction
 
-For example I want to create an emoji pack named "myemojis", so my [namespace ](../basic-concepts/namespace.md)would be `myemojis`
+For example I want to create an emoji pack named "myemojis", so my [namespace ](broken-reference)would be `myemojis`
 
 ### Example configurations
 
@@ -13,7 +13,7 @@ For example I want to create an emoji pack named "myemojis", so my [namespace ](
 1. Open folder plugins\ItemsAdder\data\resource\_pack\assets\\
 2. Create a folder named `myemojis`
 3. Create a folder named `textures`, then inside create a folder named `font` and then a folder named `emoji`
-4. Now you should have this path: `ItemsAdder/contents/myemojis/resourcepack/textures/font/emoji/`
+4. Now you should have this path: `ItemsAdder/contents/myemojis/textures/font/emoji/`
 5. Inside this folder you have to put your emojis, you should make them 72x72 to make sure they're not too big and they're not pixelated. But you can decide the size you want (only important thing is that height and width is not over 256.
 6. In this example I put an image named **smile.png**
 
@@ -55,8 +55,16 @@ font_images:
 
 ### Using the /e useful suggestions
 
+Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
+
 ![](../../../.gitbook/assets/image\_\(112\).png)
 
 ![](../../../.gitbook/assets/image\_\(111\).png)
 
 ![](../../../.gitbook/assets/image\_\(113\).png)
+
+### Using the tab autocomplete in chat
+
+Write `:` in chat and press **TAB** to start autocompleting.
+
+<figure><img src="../../../.gitbook/assets/emoji_autocomplete_chat.png" alt=""><figcaption></figcaption></figure>

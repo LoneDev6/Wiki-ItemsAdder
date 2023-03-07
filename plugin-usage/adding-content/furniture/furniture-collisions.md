@@ -43,9 +43,9 @@ This can happen if your furniture is 2x1x1 for example.
 
 ### Correct location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
-![](../../../.gitbook/assets/htibox2.png)
+![](<../../../.gitbook/assets/hitbox2 (1) (1).png>)
 
-I had to set a width offset of 0.5.\
+I had to set a width `offset` of `0.5`.\
 You can also use negative values if needed.
 
 ```yaml

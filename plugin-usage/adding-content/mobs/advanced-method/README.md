@@ -1,12 +1,8 @@
 ---
-description: New advanced method to create custom mobs/entities.
+description: New advanced method to create custom mobs/entities
 ---
 
-# Advanced method
-
-{% hint style="warning" %}
-This method is in beta and it's available only on ItemsAdder v3.0+
-{% endhint %}
+# Entity creation
 
 {% hint style="warning" %}
 Do not abuse the spawning of these mobs.\

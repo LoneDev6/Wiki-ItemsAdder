@@ -144,8 +144,6 @@ In this example you will notice an "issue". The sound is played even if the user
             pitch: 1
 ```
 
-
-
 **Setting the same permission to every action**
 
 If you want to set the same permission to every action without copy and paste you can!\
@@ -180,12 +178,6 @@ For example:
 {% endhint %}
 
 ## List of actions properties
-
-Use the online editor to create your files easier.
-
-{% content-ref url="../../../../files-editor.md" %}
-[files-editor.md](../../../../files-editor.md)
-{% endcontent-ref %}
 
 ```yaml
 play_sound:
@@ -372,4 +364,8 @@ drop_item:
   min_amount: 1
 ```
 
-###
+## Use the official files editor to read all the properties
+
+{% content-ref url="../../../files-editor.md" %}
+[files-editor.md](../../../files-editor.md)
+{% endcontent-ref %}

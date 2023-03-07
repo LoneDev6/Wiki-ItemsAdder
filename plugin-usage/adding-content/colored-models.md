@@ -1,34 +1,30 @@
 # 🎨 Colored models
 
-{% hint style="warning" %}
-Only available in **ItemsAdder 2.3.11+**
-{% endhint %}
-
 {% hint style="info" %}
 If you want to make a colored element (for example a custom colored furniture) or a colored vehicle you don't have to make a separate model for each item with different color.
 {% endhint %}
 
 ## How can I do this?
 
-### 1. open your model with blockbench
+### 1. open your model with Blockbench
 
-![](<../../../.gitbook/assets/image_(79).png>)
+![](../../.gitbook/assets/image\_\(79\).png)
 
 ### 2. select the face you want to be colored
 
-![](<../../../.gitbook/assets/image_(80).png>)
+![](../../.gitbook/assets/image\_\(80\).png)
 
 ### 3. use a white/gray texture, for better coloring
 
 ### 4. enable the hidden "Tint" feature
 
-![](<../../../.gitbook/assets/image_(81).png>)
+![](../../.gitbook/assets/image\_\(81\).png)
 
-![](<../../../.gitbook/assets/image_(83).png>)
+![](../../.gitbook/assets/image\_\(83\).png)
 
 ### 5. enable the coloring for each face you want to be colored
 
-![](<../../../.gitbook/assets/image_(85).png>)
+![](../../.gitbook/assets/image\_\(85\).png)
 
 ### 6. set the specific color attribute in your .yml file.
 
@@ -53,7 +49,4 @@ Copy the **decimal** color (hex).
 
 ### 7. now you can create as many as furnitures you want, just change the color and it will be automatically colored by the game
 
-![](<../../../.gitbook/assets/image_(86).png>)
-
-
-
+![](../../.gitbook/assets/image\_\(86\).png)

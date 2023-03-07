@@ -12,7 +12,8 @@ A furniture is a decorative object which can be solid, emit light, used as chair
 
 ### Creating the configuration file
 
-The first step is to create a configuration file in your [namespace](../basic-concepts/namespace.md) folder. In this example I called it `furniture_example.yml`.
+The first step is to create a configuration file in your [namespace](broken-reference) folder.\
+In this example I called it `furniture_example.yml`.
 
 {% code title="furniture_example.yml" %}
 ```yaml
@@ -125,7 +126,7 @@ items:
 
 ### Creating the model file
 
-Now open [BlockBench](../item-properties/resource/creating-3d-models.md) and create a _"Java Block/Item"_.
+Now open [BlockBench](broken-reference) and create a _"Java Block/Item"_.
 
 ![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
 
@@ -164,7 +165,7 @@ This will display the model slighly of the block the Item Frame is attached to, 
 
 ### Export the model
 
-Now let's save the model file into the correct folder, in this case I set this property in the yml configuration file: `model_path: lamp`, so you have to save the .json file inside this path: `contents\myitems\models\lamp.json`.
+Now let's save the model file into the correct folder, in this case I set this property in the yml configuration file: `model_path: lamp`, so you have to save the .json file inside this path: `contents/myitems/models/lamp.json`.
 
 To achieve this, click on "File" followed by "Export Model" and finally "Export Block/Item Model". In the new window, head over to the path you want to save your model under, give it the right name and confirm the changes.
 

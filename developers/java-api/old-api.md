@@ -4,7 +4,9 @@
 
 These are some static utilities to fast get some information.
 
+{% hint style="warning" %}
 Note that these static utility methods are for lazy usage, you should use the other API classes instead.
+{% endhint %}
 
 ```java
 // Check if itemsadder finished loading its items and if they are available
@@ -29,7 +31,9 @@ public static boolean matchCustomItemName(ItemStack itemStack, String customItem
 
 ## Old API methods
 
+{% hint style="warning" %}
 This is the old API, it's still available and working fine.
+{% endhint %}
 
 ```java
 //Get an ItemsAdder custom item by its name in config

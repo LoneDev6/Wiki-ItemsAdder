@@ -3,7 +3,7 @@
 ## What are events?
 
 Events describe the time when something happen.\
-You can make things happen ([actions](actions.md)) when an event is triggered (play sound, execute command...)
+You can make things happen ([actions](actions.md)) when an event is triggered (play sound, execute command etc.)
 
 ### List of events
 
@@ -51,3 +51,9 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 * equipped\_armor\_item.player\_damaged\_by\_entity
 * bucket\_empty
 * bucket\_fill
+
+## Use the official files editor to read all the properties
+
+{% content-ref url="../../../files-editor.md" %}
+[files-editor.md](../../../files-editor.md)
+{% endcontent-ref %}
