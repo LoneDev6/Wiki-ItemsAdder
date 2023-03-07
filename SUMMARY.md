@@ -56,7 +56,6 @@
   * [💃 Broken emote textures](faq/broken-emote-textures.md)
   * [🦴 Emotes with more joins](faq/emotes-with-more-joins.md)
 * [✅ Compatibility with other plugins](compatibility-with-other-plugins/README.md)
-  * [➕ Adding compatibility](compatibility-with-other-plugins/adding-compatibility.md)
   * [⚠ Not compatible](compatibility-with-other-plugins/not-compatible.md)
   * [✅ Compatible](compatibility-with-other-plugins/compatible/README.md)
     * [CosmeticsCore](compatibility-with-other-plugins/compatible/cosmeticscore.md)

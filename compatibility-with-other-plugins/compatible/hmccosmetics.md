@@ -2,6 +2,12 @@
 
 ## HMCCosmetics
 
+{% hint style="danger" %}
+I'm not the author of this plugin and I don't guarantee its future updates nor if it still works with ItemsAdder.
+
+The official cosmetics solution for ItemsAdder is here instead: [CosmeticsCore](cosmeticscore.md).
+{% endhint %}
+
 ## [Download Here](https://www.spigotmc.org/resources/hmccosmetics.100107/)
 
 ![](../../.gitbook/assets/HMCCOSMETICS-1.png)
