@@ -5,13 +5,15 @@ description: Armors textures look broken when using custom shaders mods (1.17+)
 # Textures broken by shaders mod
 
 {% hint style="warning" %}
-#### This bug was fixed in ItemsAdder 3.0.3
+**This bug has a workaround fix in ItemsAdder 3.0.3**
+
+**Note:** this fix requires you to have **Optifine** or a **CIT mod** equivalent (like **CIT Resewn**) installed in your game.
 
 If you see broken textures make sure you are using ItemsAdder 3.0.3 or a more recent version.\
 Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
 {% endhint %}
 
-![](../../.gitbook/assets/shader_armor_bug.png)
+![](../../.gitbook/assets/shader\_armor\_bug.png)
 
 ![](../../.gitbook/assets/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)
 
@@ -21,7 +23,7 @@ Also make sure you regenerated your resourcepack using `/iazip` (and read the [h
 
 ### Optifine issue
 
-Optifine has a limitation which doesn't allow custom armors to work correctly if you have any custom Optifine shader installed.
+Optifine has a limitation which doesn't allow custom armors to work correctly if you have any custom Optifine shaders installed.
 
 You have to disable the **Optifine** shaders temporarily or temporarily live with the issue.
 
