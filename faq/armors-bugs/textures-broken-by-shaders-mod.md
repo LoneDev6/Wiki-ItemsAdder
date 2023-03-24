@@ -13,6 +13,14 @@ If you see broken textures make sure you are using ItemsAdder 3.0.3 or a more re
 Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
 {% endhint %}
 
+{% hint style="danger" %}
+**Optifine** 1.19.3 and 1.19.4 are currently bugged and I cannot do anything about that.\
+They don't support my fix.\
+We have to wait the developer of **Optifine** to fix that issue.
+
+This is not my fault.
+{% endhint %}
+
 ![](../../.gitbook/assets/shader\_armor\_bug.png)
 
 ![](../../.gitbook/assets/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)
