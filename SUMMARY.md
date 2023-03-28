@@ -53,6 +53,7 @@
     * [Leather armor texture overwritten](faq/armors-bugs/leather-armor-texture-overwritten.md)
     * [Armors not working PackSquash](faq/armors-bugs/armors-not-working-packsquash.md)
     * [Optifine CIT not working](faq/armors-bugs/optifine-cit-not-working.md)
+    * [Armor glow outline bug](faq/armors-bugs/armor-glow-outline-bug.md)
   * [💃 Broken emote textures](faq/broken-emote-textures.md)
   * [🦴 Emotes with more joins](faq/emotes-with-more-joins.md)
 * [✅ Compatibility with other plugins](compatibility-with-other-plugins/README.md)
