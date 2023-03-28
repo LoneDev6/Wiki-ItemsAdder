@@ -69,10 +69,10 @@ If you're on 1.17 or lower you have to change the ores generation:
 
 * Open these files and set `enabled: true`.
   * `contents\iaalchemy\configs\worlds_populators_old.yml`
-  * `contents\iasurvival\ores\configs\worlds_populators_old.yml`
+  * `contents\iasurvival\configs\ores\configs\worlds_populators_old.yml`
 * Open these files and set `enabled: false`.
   * `contents\iaalchemy\configs\worlds_populators_1_18.yml`
-  * `contents\iasurvival\ores\configs\worlds_populators_1_18.yml`
+  * `contents\iasurvival\configs\ores\configs\worlds_populators_1_18.yml`
 
 ### Removing default items (optional)
 

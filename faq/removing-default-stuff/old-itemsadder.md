@@ -1,8 +1,10 @@
 ---
-description: ItemsAdder before 3.2.0
+description: ItemsAdder before 3.3.0
 ---
 
 # 🗑 Old ItemsAdder
+
+## ItemsAdder before 3.3.0
 
 {% hint style="warning" %}
 Read here only if you're using ItemsAdder old resourcepack.\
