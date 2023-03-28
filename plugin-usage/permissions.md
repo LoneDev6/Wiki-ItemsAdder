@@ -1,0 +1,86 @@
+# 🆗 Permissions
+
+## Permissions
+
+{% hint style="danger" %}
+You **must** use a permission manager like [LuckPerms](https://luckperms.net/download) which supports `.*` permissions notation.\
+Bukkit doesn't support this notation by default!
+{% endhint %}
+
+| What                                                                                                     | Permission                                                                                                                                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Allow using recipe, [more info](adding-content/item-properties/permission.md).                           | <p><code>ia.user.recipe.PERMISSION</code> <br><br>(or to give all crafting permissions just use <code>ia.user.recipe.*</code>)</p>                                                                                                            |
+| See item in `/ia` GUI, [more info](adding-content/item-properties/permission.md).                        | <p><code>ia.user.ia.seeitem.PERMISSION</code><br><code></code><br><code></code>(or to give all /ia permissions just use <code>ia.user.ia.seeitem.*</code>)</p>                                                                                |
+| Search permission in `/ia` GUI.                                                                          | `ia.user.ia.search`                                                                                                                                                                                                                           |
+| See category in GUI.                                                                                     | Use the category permission, please check [/ia GUI ](ia.md)page.                                                                                                                                                                              |
+| Show `/e` book when using `/e` without arguments.                                                        | `ia.user.image.gui`                                                                                                                                                                                                                           |
+| Shows a tab list with emojis based on search term.                                                       | `ia.user.image.hints`                                                                                                                                                                                                                         |
+| Use **emojis** in **chat.**                                                                              | `ia.user.image.chat`                                                                                                                                                                                                                          |
+| Use **emojis** in **commands.**                                                                          | `ia.user.image.command`                                                                                                                                                                                                                       |
+| Use **emojis** in **signs.**                                                                             | `ia.user.image.sign`                                                                                                                                                                                                                          |
+| Use **emojis** in **books.**                                                                             | `ia.user.image.book`                                                                                                                                                                                                                          |
+| Use **emojis** in **anvil** rename field.                                                                | `ia.user.image.anvil`                                                                                                                                                                                                                         |
+| Use an **emoji.**                                                                                        | <p><code>ia.user.image.use.&#x3C;name></code><br><code></code>Example: <code>ia.user.image.use.heart</code></p>                                                                                                                               |
+| Use **text-effects** in **chat.**                                                                        | `ia.user.text_effect.chat`                                                                                                                                                                                                                    |
+| Use **text-effects** in **signs.**                                                                       | `ia.user.text_effect.sign`                                                                                                                                                                                                                    |
+| Use **text-effects** in **books.**                                                                       | `ia.user.text_effect.book`                                                                                                                                                                                                                    |
+| Use **text-effects** in **anvil** rename field.                                                          | `ia.user.text_effect.anvil`                                                                                                                                                                                                                   |
+| Use a **text-effect.**                                                                                   | <p><code>ia.user.text_effect.use.&#x3C;effect></code></p><p></p><p>Examples (<a href="text-effects-1.17+.md">full list here</a>):</p><ul><li><code>ia.user.text_effect.use.r</code></li><li><code>ia.user.text_effect.use.rw</code></li></ul> |
+| Use the emote command ([<mark style="color:blue;">player emotes</mark>](adding-content/player-emotes/)). | `ia.user.iaemote`                                                                                                                                                                                                                             |
+| Use an emote ([<mark style="color:blue;">player emotes</mark>](adding-content/player-emotes/)).          | <p><code>ia.user.iaemote.use.&#x3C;emote></code><br><code></code>  </p><p>Example:</p><ul><li><code>ia.user.iaemote.use.yes</code></li><li><code>ia.user.iaemote.use.*</code></li></ul>                                                       |
+| Permission to see an HUD.                                                                                | `ia.user.hud.show.<name>`                                                                                                                                                                                                                     |
+| Permission to see all HUD.                                                                               | `ia.user.hud.show.*`                                                                                                                                                                                                                          |
+| Stops player huds values from increasing or decreasing based on events.                                  | `ia.user.hud.bypass.triggers.*`                                                                                                                                                                                                               |
+| Stops the player hud value from increasing or decreasing called by commands.                             | `ia.user.hud.bypass.commands.*`                                                                                                                                                                                                               |
+| Stops the player hud value from increasing or decreasing called by API.                                  | `ia.user.hud.bypass.api.*`                                                                                                                                                                                                                    |
+| Bypass kick on refuse resourcepack                                                                       | `ia.resourcepack.bypasskick`                                                                                                                                                                                                                  |
+| Bypass player placed blocks can't drop loot                                                              | `ia.admin.bypassblockplaceloot`                                                                                                                                                                                                               |
+
+## WorldGuard flags
+
+{% content-ref url="../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
+[worldguard-flags.md](../compatibility-with-other-plugins/compatible/worldguard-flags.md)
+{% endcontent-ref %}
+
+## Example permissions setup
+
+| Permission              | Action                                                                                                                                                                                                                                                                                                                                                            |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ia.user.ia`            | open `/ia` menu                                                                                                                                                                                                                                                                                                                                                   |
+| `ia.user.ia.seeitem.*`  | see all items in `/ia` menu                                                                                                                                                                                                                                                                                                                                       |
+| `ia.user.iarecipe`      | use `/iarecipe` command                                                                                                                                                                                                                                                                                                                                           |
+| `ia.user.recipe.*`      | use all recipes                                                                                                                                                                                                                                                                                                                                                   |
+| `ia.menu.seecategory.*` | <p>see all categories in <code>/ia</code> menu.<br><mark style="color:red;">NOTE:</mark> <br><mark style="background-color:red;">This can change based on the items pack you downloaded. Category permission usually starts with</mark> <code>ia.menu.seecategory.</code> <mark style="background-color:red;">but some developers may have changed it.</mark></p> |
+| `ia.user.image.gui`     | use `/e` command to see emojis book                                                                                                                                                                                                                                                                                                                               |
+| `ia.user.image.hints`   | suggest emojis when using `/e` and TAB complete                                                                                                                                                                                                                                                                                                                   |
+| `ia.user.image.chat`    | replace emoji text `:smile:` etc in chat                                                                                                                                                                                                                                                                                                                          |
+| `ia.user.image.command` | replace emoji text `:smile:` etc in commands                                                                                                                                                                                                                                                                                                                      |
+| `ia.user.image.sign`    | replace emoji text `:smile:` etc in signs                                                                                                                                                                                                                                                                                                                         |
+| `ia.user.image.book`    | replace emoji text `:smile:` etc in books                                                                                                                                                                                                                                                                                                                         |
+| `ia.user.image.use.*`   | access to all emojis                                                                                                                                                                                                                                                                                                                                              |
+
+## Where can I get categories permissions?
+
+{% hint style="info" %}
+**ItemsAdder default categories**
+
+Open the `categories.yml` file to read all the permissions to see categories.\
+The default ItemsAdder pack categories files are inside each `namespace` folder.\
+For example: `contents/iasurvival/configs/categories.yml`
+
+For example if you want to make players see ALL the categories of default ItemsAdder you just have to give `ia.menu.*` permission.
+{% endhint %}
+
+{% hint style="info" %}
+**Addons categories**
+
+If you're installing an [addon](https://addons.plugin.ga/itemsadder/) you may search for a `categories.yml` file inside `contents/<ADDON NAME>/configs`, usually they put the categories there, so you can find also their **permissions**.
+{% endhint %}
+
+### **Creating my categories**
+
+To create your categories just read the tutorial
+
+{% content-ref url="ia.md" %}
+[ia.md](ia.md)
+{% endcontent-ref %}

@@ -1,0 +1,2 @@
+# ✅ Compatibility with other plugins
+
