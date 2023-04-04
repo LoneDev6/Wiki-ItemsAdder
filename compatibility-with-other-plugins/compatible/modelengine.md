@@ -2,9 +2,24 @@
 
 ## [Download here](https://www.spigotmc.org/resources/conxeptworks-model-engine%E2%80%94ultimate-entity-model-manager-1-14-1-17-1.79477/)
 
-(free demo in the previous link, on the top part of the page)
+(free demo [here](https://www.spigotmc.org/resources/conxeptworks-model-engine-demo-1-16-5-1-19-4.106521/))
 
 ## How to add compatibility?
+
+### ItemsAdder 3.4.1-r5 and greater
+
+* add all your mobs models and configurations inside the **ModelEngine** plugin folder (read the **ModelEngine** tutorials for more info)
+* open `config.yml` of **ItemsAdder** and set this:
+
+```yaml
+    merge_other_plugins_resourcepacks_folders:
+      - "ModelEngine/resource pack"
+```
+
+* run `/meg reload`  to generate the **ModelEngine** resourcepack.
+* `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
+
+### ItemsAdder 3.4.1-r4 and lower
 
 It's very easy!
 
