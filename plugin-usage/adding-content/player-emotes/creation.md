@@ -5,7 +5,7 @@
 {% hint style="warning" %}
 **Before continuing:**
 
-* Make sure you're running **Blockbench 4.2.5** or **greater**
+* Make sure you're running **Blockbench 4.6.5** or **greater**
 * Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
 {% endhint %}
 
@@ -14,11 +14,11 @@
 ![](<../../../.gitbook/assets/image (98) (1).png>)
 
 \
-[Download the zip](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
+[Download](https://github.com/LoneDev6/itemsadder-entity/releases) the extension file.
 
-![](<../../../.gitbook/assets/image (61).png>)
+<figure><img src="../../../.gitbook/assets/ia-entities-download-js.png" alt=""><figcaption></figcaption></figure>
 
-Extract it somewhere, then open **Blockbench** and click on File -> Plugins.
+Then open **Blockbench** and click on File -> Plugins.
 
 ![](<../../../.gitbook/assets/image (48) (1) (1).png>)
 
@@ -45,27 +45,30 @@ entities:
 
 ## Opening the animations editor
 
-Open the file `player.iaentitymodel` using Blockbench, you can find this file after running `/iazip` for the first time.
+Create a new "`ItemsAdder Entity Model`"
 
-`contents/_iainternal/resourcepack/assets/minecraft/animations/player.iaentitymodel`
+You can create as many as animations files you want (**ItemsAdder 3.2.1+**).
+
+<figure><img src="../../../.gitbook/assets/ia-entities-new.png" alt=""><figcaption></figcaption></figure>
+
+Decide if you want to create an emotes file with examples or a blank emotes file.
+
+<figure><img src="../../../.gitbook/assets/ia-entities-new2.png" alt=""><figcaption></figcaption></figure>
+
+Decide a name for your emotes pack.
+
+<figure><img src="../../../.gitbook/assets/ia-entities-new3.png" alt=""><figcaption></figcaption></figure>
 
 You can notice a lot of example animations on the left.
 
 ![](<../../../.gitbook/assets/image (51) (3).png>)
 
-### Creating your own animations file
-
-You can create as many as animations files you want (**ItemsAdder 3.2.1+**).
-
-![](<../../../.gitbook/assets/image (62).png>)
-
-![](<../../../.gitbook/assets/image (82).png>)
-
-Delete all the emotes and edit/rename the ones you want. They are useful only as base for your personal emotes.
+Delete all the emotes and edit/rename the ones you want. \
+They are useful only as base for your new emotes, to have an example to learn from.
 
 ![](<../../../.gitbook/assets/image (68).png>)
 
-Now create an emote and save your `.iaentitymodel` project file into this folder (for example):\
+Now create a new animation (emote) and save your `.iaentitymodel` project file into this folder (for example):\
 `contents/my_emotes/resourcepack/assets/minecraft/animations/`
 
 ![](<../../../.gitbook/assets/image (95).png>)
@@ -97,3 +100,9 @@ Use the `/iaemote` command: `ia.user.iaemote`
 
 Use an emote: `ia.user.iaemote.use.<emote>`\
 Example: `ia.user.iaemote.use.yes`
+
+### More info about permissions
+
+{% content-ref url="../../permissions.md" %}
+[permissions.md](../../permissions.md)
+{% endcontent-ref %}
