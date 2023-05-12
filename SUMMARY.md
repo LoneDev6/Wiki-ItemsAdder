@@ -162,6 +162,8 @@
     * [Behaviours](plugin-usage/adding-content/item-properties/behaviours.md)
     * [Templates and variants](plugin-usage/adding-content/item-properties/templates-and-variants.md)
   * [⚔ Sword](plugin-usage/adding-content/sword.md)
+  * [🗃 Item States](plugin-usage/adding-content/item-states/README.md)
+    * [Using Filenames](plugin-usage/adding-content/item-states/using-filenames.md)
   * [🧱 Block](plugin-usage/adding-content/block/README.md)
     * [🖼 Block 2D icon ](plugin-usage/adding-content/block/block-2d-icon.md)
     * [🪟 Transparent block](plugin-usage/adding-content/block/transparent-block.md)
