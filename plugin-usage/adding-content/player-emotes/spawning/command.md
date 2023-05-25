@@ -26,7 +26,7 @@ With **ItemsAdder** you can also spawn custom players in the world, you can also
 
 Change the skin using the **ItemsAdder** command:\
 `/iaentity playerskin <playerName|skinUrl>`\
-``Examples:
+Examples:
 
 * `/iaentity playerskin LoneDev`
 * `/iaentity playerskin https://minesk.in/8b4bf861ea544edd8529707276d24853`

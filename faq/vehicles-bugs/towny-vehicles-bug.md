@@ -20,7 +20,7 @@ town_mob_removal_entities: Monster,Flying,Shulker,SkeletonHorse,ZombieHorse
 
 ## Mob Farm Manager
 
-If you own [Mob Farm Manager ](https://www.spigotmc.org/resources/mob-farm-manager-supports-1-7-10-up-to-1-16-hopper-support.15127/)plugin please make sure to check if you set any entity type **`SLIME` ** rule, this may remove the slime which is part of the vehicle and cause this bug.
+If you own [Mob Farm Manager ](https://www.spigotmc.org/resources/mob-farm-manager-supports-1-7-10-up-to-1-16-hopper-support.15127/)plugin please make sure to check if you set any entity type **`SLIME`** rule, this may remove the slime which is part of the vehicle and cause this bug.
 
 ## Residence
 

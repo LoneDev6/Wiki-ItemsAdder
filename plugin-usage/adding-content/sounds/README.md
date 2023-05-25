@@ -10,8 +10,8 @@ Note: for now only folder structure&#x20;
 [convert-mp3-to-ogg.md](convert-mp3-to-ogg.md)
 {% endcontent-ref %}
 
-* create a new folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/` **** \
-  ****(or use yours if you already have one)
+* create a new folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/` \
+  (or use yours if you already have one)
 * put your **.ogg** file in there.\
   You can also create more folders inside `sounds` to organize your sounds.\
   For example "effects", "music" etc.

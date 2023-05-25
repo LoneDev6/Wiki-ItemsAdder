@@ -43,7 +43,7 @@ This can happen if your furniture is 2x1x1 for example.
 
 ### Correct location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
-![](<../../../.gitbook/assets/hitbox2 (1) (1).png>)
+![](<../../../.gitbook/assets/hitbox2 (1).png>)
 
 I had to set a width `offset` of `0.5`.\
 You can also use negative values if needed.
@@ -62,7 +62,7 @@ You can also use negative values if needed.
 You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}
 
-![](<../../../.gitbook/assets/hitbox3 (1) (1) (8).png>)
+![](<../../../.gitbook/assets/hitbox3 (1) (1) (1) (8).png>)
 
 ![](../../../.gitbook/assets/image\_\(87\).png)
 

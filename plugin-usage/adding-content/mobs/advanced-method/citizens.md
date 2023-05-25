@@ -23,7 +23,7 @@ Do not use `PLAYER` as type, it causes issues with head/body rotation.
 
 Then change the skin using the **ItemsAdder** command:\
 `/iaentity citizens <id|selected> model <model>`\
-``In this example: `/iaentity citizens <id|selected> model custom:barman_robot`
+In this example: `/iaentity citizens <id|selected> model custom:barman_robot`
 
 ### Mute sounds
 

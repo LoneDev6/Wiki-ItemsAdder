@@ -110,7 +110,7 @@ Install the Bungeecord plugin to make the loading even faster!
 {% embed url="https://www.spigotmc.org/resources/96794" %}
 
 {% hint style="danger" %}
-<mark style="color:red;">**Do not install**</mark>**  **<mark style="color:red;">**BungeePackFix**</mark>**  **<mark style="color:red;">**on**</mark>**  **<mark style="color:red;">**Spigot**</mark>**  **<mark style="color:red;">**servers!**</mark>
+<mark style="color:red;">**Do not install**</mark> <mark style="color:red;">**BungeePackFix**</mark> <mark style="color:red;">**on**</mark> <mark style="color:red;">**Spigot**</mark> <mark style="color:red;">**servers!**</mark>
 
 This is a **Bungeecord** plugin! Install it on **Bungeecord**!
 {% endhint %}

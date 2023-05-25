@@ -19,7 +19,7 @@ This requires **ItemsAdder 3.2.1-beta1** or greater
 ## Changing the model
 
 Create a new **Mythicmobs** mob configuration file in this path:   `plugins/MythicMobs/Mobs/ninja_skeleton.yml`\
-``(you can decide the filename).
+(you can decide the filename).
 
 {% hint style="warning" %}
 Do not use `PLAYER` as type, it causes issues with head/body rotation.
@@ -90,7 +90,7 @@ Change a bone color programmatically
 ```
 
 Default color (white): `16777215`\
-``[Color picker](https://minecraftcommand.science/armor-color)
+[Color picker](https://minecraftcommand.science/armor-color)
 
 Example: changing color of a bone when the custom entity is damaged
 

@@ -20,7 +20,7 @@ This is an example block (remember to change `myitems` [namespace ](broken-refer
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom blocks.**\
-****I created it in the folder: `plugins/ItemsAdder/contents/myitems/configs/`
+I created it in the folder: `plugins/ItemsAdder/contents/myitems/configs/`
 
 In this file (`blocks.yml`) I start creating a simple block called `red_block`.
 
@@ -245,8 +245,8 @@ this property can have these value:
 
 {% hint style="warning" %}
 * **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
-* **`TILE` ** blocks for trade machines and machinery/rare decorative blocks.\
-  You should not use **`TILE` ** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](../trees-populators/populator.md) or [decorators](../cave-decorators.md).
+* **`TILE`** blocks for trade machines and machinery/rare decorative blocks.\
+  You should not use **`TILE`** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](../trees-populators/populator.md) or [decorators](../cave-decorators.md).
 {% endhint %}
 
 ### `rotx` and `roty`
@@ -344,7 +344,7 @@ You can change block break and place sounds. You can specify a [custom sound](..
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound\_list\_pc.php) names.
 
 {% hint style="info" %}
-If no **break** sound is specified it will play  [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK\_STONE\_BREAK)  ``  (`block.stone.break`)
+If no **break** sound is specified it will play  [`BLOCK_STONE_BREAK`](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html#BLOCK\_STONE\_BREAK)  (`block.stone.break`)
 
 If no **place** sound is specified it will play the default sound of the vanilla material you set in the [resource ](../item-properties/resource.md)attribute of this block.
 {% endhint %}

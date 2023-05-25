@@ -34,7 +34,7 @@ In this tutorial **my namespace** is named `mystuff`
 
 ### Step 2
 
-Create **custom textures** for the **inventory items**. I put them in the folder: **** `contents/mystuff/resourcepack/mystuff/textures/item/example_1`
+Create **custom textures** for the **inventory items**. I put them in the folder: `contents/mystuff/resourcepack/mystuff/textures/item/example_1`
 
 <figure><img src="../../../.gitbook/assets/old_optifine_armor_preview_1.png" alt=""><figcaption></figcaption></figure>
 
@@ -91,7 +91,7 @@ Now you should have this:
 
 ### Step 8
 
-**Add content** to the `.yml` **** file. As you can see I decided to base my items on the Minecraft DIAMOND armor and I didn't specify any color because I don't need to color it, Optifine will apply a texture to it.
+**Add content** to the `.yml` file. As you can see I decided to base my items on the Minecraft DIAMOND armor and I didn't specify any color because I don't need to color it, Optifine will apply a texture to it.
 
 ```yaml
 info:

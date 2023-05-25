@@ -16,7 +16,7 @@ This plugin doesn't require Citizens to work, but some servers might need to use
 
 Then change the skin using the **ItemsAdder** command:\
 `/iaentity citizens playerskin <playerName|skinUrl>`\
-``Examples:
+Examples:
 
 * `/iaentity citizens playerskin LoneDev`
 * `/iaentity citizens playerskin` [`https://minesk.in/8b4bf861ea544edd8529707276d24853`](https://minesk.in/8b4bf861ea544edd8529707276d24853)

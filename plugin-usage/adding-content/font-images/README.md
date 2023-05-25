@@ -51,7 +51,7 @@ You can do it, you just have to create a `default.json` file and handle it on yo
 
 ![](../../../.gitbook/assets/image\_\(106\).png)
 
-![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (6).png>)
+![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (6).png>)
 
 ![](../../../.gitbook/assets/image\_\(107\).png)
 

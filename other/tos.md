@@ -86,7 +86,7 @@ Also [a donation ](http://a.devs.beer/lonedevdonate)is appreciated if you earn a
 When creating add-ons you are not allowed to include any items from the default ItemsAdder pack\
 DO NOT INCLUDE MY DEFAULT ITESM, MODELS, FONT IMAGES etc. IN YOUR ADDONS!\
 **PLEASE DO NOT INCLUDE MY DEFAULT ITEMS IN YOUR PACK!**\
-****You can't resell my assets.
+You can't resell my assets.
 
 ### Copying Other Addons
 

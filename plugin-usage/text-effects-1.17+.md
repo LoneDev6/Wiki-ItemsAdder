@@ -157,3 +157,29 @@ This triggers the rainbow effect:\
 
 This triggers the rainbow effect: \
 `<#FFFFFE>custom text example`
+
+### Using them in plugins which support legacy HEX notation
+
+### Rainbow
+
+`&X&F&F&F&F&F&E`
+
+### Wobble
+
+`&X&F&F&F&F&F&D`
+
+### Jump
+
+`&X&F&F&F&F&F&B`
+
+### Rainbow + Wobble
+
+`&X&F&F&F&F&F&C`
+
+### Rainbow + Jump
+
+`&X&F&F&F&F&F&E`
+
+This was tested on [EpicRename](https://www.spigotmc.org/resources/epicrename.4341/) and should work in any plugin or place where Spigot handles the colors replacement using its own legacy colors code.
+
+Example: `/rename &x&F&F&F&F&F&ETest`
