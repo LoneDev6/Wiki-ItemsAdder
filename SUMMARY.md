@@ -127,6 +127,7 @@
     * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
     * [Ore Regenerator](compatibility-with-other-plugins/compatible/ore-regenerator.md)
     * [JetsPrisonMines](compatibility-with-other-plugins/compatible/ore-regenerator-1.md)
+    * [AlixAnimations](https://alixanimations.gitbook.io/alixanimations/fundamentals/getting-set-up/actions/compatible-plugins/itemsadder)
 * [✏ Contribute](contribute/README.md)
   * [🧪 Beta testing](contribute/beta-testing.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
