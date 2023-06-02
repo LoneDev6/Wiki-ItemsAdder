@@ -1,17 +1,17 @@
 # ExcellentEnchants
 
-[Download here](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)
+[Şuradan İndir](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)
 
-(previously known as **GoldenEnchants**)
+(Daha Önce **GoldenEnchants** Olarak Biliniyordu)
 
-## How to use enchants
+## büyüler nasıl kullanılır
 
-This is an example configuration for an ItemsAdder custom item enchant.
+Bu, bir ItemsAdder özel öğe büyüsü için örnek bir yapılandırmadır.
 
 {% hint style="warning" %}
-Warning: enchants won't be shown on the item lore, it's a "bug" of the other plugin.
+Uyarı: Büyüler, eşya bilgisinde gösterilmeyecek, bu diğer eklentinin bir "hatası".
 
-<mark style="color:green;">The effect will still work!</mark>
+<mark style="color:green;">Efekt yine de çalışacak!</mark>
 
 So you should write the lore on your own.
 {% endhint %}
@@ -29,5 +29,4 @@ So you should write the lore on your own.
     - tunnel:1
 ```
 
-In this case I set `tunnel` enchant with level 1
-
+Bu durumda `tunnel` büyüsünü seviye 1 olarak ayarlıyorum
