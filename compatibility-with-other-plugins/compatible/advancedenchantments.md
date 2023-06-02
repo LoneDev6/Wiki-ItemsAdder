@@ -1,13 +1,13 @@
 # AdvancedEnchantments
 
-## [Download here](https://www.spigotmc.org/resources/43058/)
+## [Buradan İndir](https://www.spigotmc.org/resources/43058/)
 
-## How to use enchants
+## Büyü Nasıl Kullanılır
 
-This is an example configuration for an ItemsAdder custom item enchant.
+Bu, bir ItemsAdder özel öğe büyüsü için örnek bir yapılandırmadır.
 
 {% hint style="warning" %}
-This requires **ItemsAdder** 2.5.2+
+**ItemsAdder** 2.5.2+ Gereklidir
 {% endhint %}
 
 ```yaml
