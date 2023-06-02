@@ -1,44 +1,48 @@
 ---
-description: ItemsAdder is compatible with MMOItems and it's very easy to integrate.
+description: ItemsAdder, MMOItems ile uyumludur ve entegrasyonu çok kolaydır.
 ---
 
 # MMOItems
 
-Download **MMOItems** [here](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
+**MMOItems** Yükle [burdan](https://www.spigotmc.org/resources/mmoitems-premium.39267/)
 
-### Here you can download the example package shown in this tutorial
+### Bu eğitimde gösterilen örnek paketi buradan indirebilirsiniz.
 
 {% embed url="https://www.spigotmc.org/resources/items-mmoitem-example-integration.88351/" %}
 
-## Connect an MMOItem to an ItemsAdder item
+## Bilinen sınırlamalar
 
-### Use the command /mmoitems browse
+{% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/2008" %}
 
-![](<../../../.gitbook/assets/immagine (25).png>)
+## Bir MMOItem'i bir ItemsAdder öğesine bağlayın
 
-### Create a new MMOItem
+### /mmoitems browse komutunu kullanın
 
-![](<../../../.gitbook/assets/immagine (26).png>)
+![](<../../../.gitbook/assets/image_(25).png>)
 
-![](<../../../.gitbook/assets/immagine (29).png>)
+### Yeni bir MMOItem oluşturun
+
+![](<../../../.gitbook/assets/image_(26).png>)
+
+![](<../../../.gitbook/assets/image_(29).png>)
 
 ### Add all the attributes you want, for example magic damage etc
 
-![](<../../../.gitbook/assets/immagine (28).png>)
+![](<../../../.gitbook/assets/image_(28).png>)
 
 ### MMOItem preview inside /mmoitems browse
 
-![](<../../../.gitbook/assets/immagine (30).png>)
+![](<../../../.gitbook/assets/image_(30).png>)
 
 
 
-### Create your .yml file as usual and add all the properties for the ItemsAdder item
+### .yml dosyanızı her zamanki gibi oluşturun ve ItemsAdder öğesinin tüm özelliklerini ekleyin
 
-![](<../../../.gitbook/assets/immagine (32).png>)
+`ItemsAdder/contents/mmoitems_example/configs/example.yml`
 
 {% hint style="success" %}
-As you can see I set a new attribute called **`mmoitem`** and also **`type`** and **`id`**.\
-These are used to **connect** the **two items**.
+Gördüğünüz gibi **`mmoitem`** ve ayrıca **`type`** ve **`id`**.\ adında yeni bir özellik belirledim.
+Bunlar **iki öğeyi** **bağlamak** için kullanılır.
 {% endhint %}
 
 ```yaml
@@ -60,14 +64,14 @@ items:
       max_custom_durability: 1324
 ```
 
-### Create your .png texture as usual
+### .png dokunuzu her zamanki gibi oluşturun
 
-![](<../../../.gitbook/assets/immagine (31).png>)
+`ItemsAdder/contents/mmoitems_example/resourcepack/mmoitems_example/textures/item/test.png`
 
-### Get the item
+### öğeyi al
 
 Use the command `/iaget mmoitems_example:test` to get your finished item
 
-![](<../../../.gitbook/assets/immagine (33).png>)
+![](<../../../.gitbook/assets/image_(33).png>)
 
-![](<../../../.gitbook/assets/immagine (34).png>)
+![](<../../../.gitbook/assets/image_(34).png>)
