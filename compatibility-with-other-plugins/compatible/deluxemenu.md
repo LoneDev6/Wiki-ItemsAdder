@@ -1,14 +1,14 @@
 # DeluxeMenu
 
-To show an ItemsAdder item with custom texture on **DeluxeMenu** you have to add this special attribute to the icon of your menu:
+**DeluxeMenu**'de özel dokuya sahip bir ItemsAdder öğesini göstermek için bu özel özelliği menünüzün simgesine eklemelisiniz:
 
 ```yaml
 nbt_int: CustomModelData: 1
 ```
 
-Instead of 1 you have to set the **CustomModelData** of your custom item.
+1 yerine, özel öğenizin **CustomModelData** değerini ayarlamanız gerekir.
 
-### How to get the CustomModelData value?
+### CustomModelData değeri nasıl alınır?
 
-You have to use the command `/iatag` while holding an ItemsAdder item, then search for `CustomModelData` value.
+Bir ItemsAdder öğesini tutarken `/iatag` komutunu kullanmanız ve ardından `CustomModelData` değerini aramanız gerekir.
 
