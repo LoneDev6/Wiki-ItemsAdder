@@ -1,18 +1,19 @@
 # ExecutableItems
 
-## [Download here](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
+## [Şuradan İndir](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
 
-## How to connect an ExecutableItem to an ItemsAdder custom item
+## Bir ExecutableItem'i bir ItemsAdder özel öğesine bağlama
 
 {% hint style="warning" %}
-UPDATE **ITEMSADDER** TO **2.2.20+**
+**ITEMSADDER**'ı **2.2.20+**'e Güncelleyin\
+**ExecutableItems**'i **4.2.3.5+**'e Güncelleyin
 {% endhint %}
 
-## Create the ItemsAdder item
+## ItemsAdder öğesini oluşturun
 
-### Create your .yml file as usual and add all the properties for the ItemsAdder item
+### .yml dosyanızı her zamanki gibi oluşturun ve ItemsAdder öğesinin tüm özelliklerini ekleyin
 
-In this example I will connect an **ItemsAdder** item called `executableitem_test` to the example `spit` item from ExecutableItem example files.
+Bu örnekte, ExecutableItem örnek dosyalarından örnek "spit" öğesine "executableitem_test" adlı bir **ItemsAdder** öğesini bağlayacağım.
 
 ```yaml
 info:
@@ -22,7 +23,7 @@ items:
     display_name: executableitem_test
     permission: executableitem_test
     executableitem:
-      id: spit
+      id: Free_Spit
     resource:
       material: IRON_INGOT
       generate: true
@@ -33,12 +34,12 @@ items:
 ```
 
 {% hint style="success" %}
-As you can see I set a new attribute called **`executableitem`**and **`id`**.\
-These are used to **connect** the **two items**.
+Gördüğünüz gibi \*\*`executableitem`\*\* ve **`id`**.\ adında yeni bir öznitelik belirledim.
+Bunlar **iki öğeyi** **bağlamak** için kullanılır.
 {% endhint %}
 
 ### Get the item
 
-Run `/iaget executableitem_test` and get the item!
+`/iaget executableitem_test` komutunu çalıştırın ve öğeyi alın!
 
-![](<../../.gitbook/assets/immagine (153).png>)
+![](<../../.gitbook/assets/image\_(140) (1) (1).png>)

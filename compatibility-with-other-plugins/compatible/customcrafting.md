@@ -1,12 +1,12 @@
 # CustomCrafting
 
-## [Download here](https://www.spigotmc.org/resources/55883/)
+## [Şuradan İndir](https://www.spigotmc.org/resources/55883/)
 
 {% hint style="warning" %}
-You need **ItemsAdder** 2.5.3+ and **CustomCrafting** 3.16.0.0-f or more recent.
+**ItemsAdder** 2.5.3+ ve **CustomCrafting** 3.16.0.0-f veya daha yenisine ihtiyacınız var.
 {% endhint %}
 
-## How to use
+## Nasıl Kullanılır
 
-You just have to create recipes using the CustomCrafting recipes creation GUI.\
-Drag and drop ItemsAdder custom items in the ingredients/result slots, the plugin will recognize them as custom items and handle them correctly.
+CustomCrafting tarif oluşturma GUI'sini kullanarak tarifler oluşturmanız yeterlidir.\
+ItemsAdder özel öğelerini içerikler/sonuç yuvalarına sürükleyip bırakın, eklenti bunları özel öğeler olarak tanıyacak ve doğru şekilde işleyecektir.
