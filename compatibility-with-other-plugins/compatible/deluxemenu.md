@@ -10,5 +10,6 @@ Instead of 1 you have to set the **CustomModelData** of your custom item.
 
 ### How to get the CustomModelData value?
 
-You have to use the command `/iatag` while holding an ItemsAdder item, then search for `CustomModelData` value.
+* run `/iacustommodeldata <item>` (for example `/iacustommodeldata ruby`)
+* copy the `CustomModelData`, for example `10000`
 
