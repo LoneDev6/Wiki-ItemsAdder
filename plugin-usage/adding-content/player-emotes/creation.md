@@ -115,6 +115,10 @@ Example: `ia.user.iaemote.use.yes`
 
 {% embed url="https://youtu.be/aP5Jz9OW208" fullWidth="false" %}
 
+### Here you can download an example project:
+
+{% embed url="https://raw.githubusercontent.com/LoneDev6/SpigotUtilities/master/ItemsAdder/various_files/example_advanced_emotes.iaentitymodel" %}
+
 You can add custom models to your emotes, for example: items, monsters, furniture, animated effects.
 
 ### Important
