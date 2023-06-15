@@ -5,7 +5,7 @@
 {% hint style="warning" %}
 **Before continuing:**
 
-* Make sure you're running **Blockbench 4.6.5** or **greater**
+* Make sure you're running **Blockbench 4.7.4** or **greater**
 * Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
 {% endhint %}
 
@@ -68,8 +68,8 @@ They are useful only as base for your new emotes, to have an example to learn fr
 
 ![](<../../../.gitbook/assets/image (68).png>)
 
-Now create a new animation (emote) and save your `.iaentitymodel` project file into this folder (for example):\
-`contents/my_emotes/resourcepack/assets/minecraft/animations/`
+Now create a new animation (emote) and save your `.iaentitymodel` project file into this folder (change `my_emotes` to your namespace, this one is an example):\
+`ItemsAdder/contents/my_emotes/resourcepack/`
 
 ![](<../../../.gitbook/assets/image (95).png>)
 
@@ -86,8 +86,8 @@ You should get a success message.
 ![](<../../../.gitbook/assets/image (81) (1).png>)
 
 {% hint style="success" %}
-Use the command `/iareload` to load the new animation.\
-There is <mark style="color:green;">no need</mark> to use `/iazip`!
+If you didn't add any custom model into your emote there is <mark style="color:green;">no need</mark> to use `/iazip`!\
+Use the command `/iareload` to load the new animation in the game.
 {% endhint %}
 
 ## Playing the animations
@@ -106,3 +106,55 @@ Example: `ia.user.iaemote.use.yes`
 {% content-ref url="../../permissions.md" %}
 [permissions.md](../../permissions.md)
 {% endcontent-ref %}
+
+## Adding custom models into emotes
+
+### Showcase of some examples
+
+{% embed url="https://youtu.be/VnFNzmhAVIM" %}
+
+{% embed url="https://youtu.be/aP5Jz9OW208" fullWidth="false" %}
+
+You can add custom models to your emotes, for example: items, monsters, furniture, animated effects.
+
+### Important
+
+{% hint style="warning" %}
+This requires ItemsAdder 5.2.0 or greater.
+
+* DO NOT delete any built-in player bone.
+* DO NOT resize any built-in player bone, it simply won't work ingame.
+* Edit built-in player bones only in the animation view (rotate, move).
+* You can hide the built-in player bones using scale to `0,0,0`. Set to `1,1,1` to show them again.
+{% endhint %}
+
+### Different type of emotes
+
+* `.player_advanced_animations` file format is now used to identify player animations which also add custom models to the emote.
+* `.player_animations` are the player animations which don't add any custom model but will be loaded into the default player model.
+
+In order to decide that you have to set this option in the **Blockbench** extension settings.
+
+[![image](../../../.gitbook/assets/emotes\_advanced\_1.png)](https://user-images.githubusercontent.com/27242001/244145963-c9ca9a77-bb79-4804-92e4-8708eac41517.png)
+
+<figure><img src="../../../.gitbook/assets/emotes_advanced_2.png" alt=""><figcaption></figcaption></figure>
+
+### Importing elements into the scene
+
+You can import any `.bbmodel` into the scene and use it in your animation.\
+You can also import extruded textures to show items dynamically.
+
+<figure><img src="../../../.gitbook/assets/emotes_advanced_3.png" alt=""><figcaption></figcaption></figure>
+
+### Hiding unused elements in other animations of the game `.iaentitymodel` emotes file
+
+1. select the animation
+2. select the element you want to hide for a particular animation
+3. move to the first frame of the animation, using the timeline
+4. create a new scale key, make sure to set it to the first keyframe
+5. set scale to 0
+
+Now your model won't be shown for this particular animation.\
+You can show/hide it in the middle of the animation just by doing the same thing but setting scale to 1.
+
+<figure><img src="../../../.gitbook/assets/emotes_advanced_4.png" alt=""><figcaption></figcaption></figure>
