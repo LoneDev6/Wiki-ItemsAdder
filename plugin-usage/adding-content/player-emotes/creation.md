@@ -124,7 +124,7 @@ You can add custom models to your emotes, for example: items, monsters, furnitur
 ### Important
 
 {% hint style="warning" %}
-This requires ItemsAdder 5.2.0 or greater.
+This requires ItemsAdder 3.5.0 or greater.
 
 * DO NOT delete any built-in player bone.
 * DO NOT resize any built-in player bone, it simply won't work ingame.
