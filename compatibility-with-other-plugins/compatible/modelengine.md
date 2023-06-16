@@ -30,3 +30,11 @@ It's very easy!
 * Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
 
 Done!
+
+## Difference between ItemsAdder and ModelEngine
+
+{% embed url="https://git.lumine.io/mythiccraft/modelengine/-/wikis/Comparison:-ItemsAdder" %}
+
+{% hint style="warning" %}
+This comparison page wasn't updated since Nov 26, 2022 and might not reflect the actual state of the plugins.
+{% endhint %}
