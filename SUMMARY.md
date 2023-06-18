@@ -68,6 +68,7 @@
     * [Wailat](compatibility-with-other-plugins/compatible/wailat.md)
     * [GriefPreventionStickFix](compatibility-with-other-plugins/compatible/griefpreventionstickfix.md)
     * [WorldGuard](compatibility-with-other-plugins/compatible/worldguard-flags.md)
+    * [WorldEdit](compatibility-with-other-plugins/compatible/worldedit.md)
     * [SkinsRestorer](compatibility-with-other-plugins/compatible/skinsrestorer.md)
     * [CustomCrafting](compatibility-with-other-plugins/compatible/customcrafting.md)
     * [CraftEnhance](compatibility-with-other-plugins/compatible/craftenhance.md)
