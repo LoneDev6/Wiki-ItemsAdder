@@ -7,19 +7,22 @@ description: Glitched blocks in some areas/custom worlds
 ## Glitched blocks
 
 {% hint style="info" %}
-This is only a graphical glitch, this state won't cause duplication bugs or similar.
-{% endhint %}
-
-![](<../../../.gitbook/assets/image (50) (1) (1) (1).png>)
-
-## Fix on Spigot/Paper
-
-{% hint style="info" %}
 This is normal if you use `REAL` , `REAL_TRANSPARENT` types to create custom blocks.\
 ItemsAdder uses Mushroom Blocks and Chorus Plants to create them.
 
 This happens because the game generates them during gameplay to create some structures (example: big mushrooms in the overworld and chorus plants in the end), so they might spawn with some specific block data, which interfere with ItemsAdder blocks.
 {% endhint %}
+
+{% hint style="success" %}
+This is only a graphical glitch, this state won't cause duplication bugs or similar.
+{% endhint %}
+
+![](<../../../.gitbook/assets/image (50) (1) (1) (1).png>)
+
+Generally you should avoid using `REAL` custom blocks type (mushroom) and use `REAL_NOTE` custom blocks type.\
+`REAL_NOTE` uses **Note Blocks** to create custom blocks, so you won't have this issue because they don't naturally generate around the vanilla world.
+
+## How to fix
 
 Open `config.yml` and set this option:
 
@@ -31,12 +34,24 @@ Open `config.yml` and set this option:
 ```
 {% endcode %}
 
-### Another solution
+## Advanced fix on Paper 1.20.1+
 
-Another solution is to avoid using `REAL` custom blocks type (mushroom) and use `REAL_NOTE` custom blocks type.\
-`REAL_NOTE` uses **Note Blocks** to create custom blocks, so you won't have this issue because they don't naturally generate around the vanilla world.
+### Disable REAL\_NOTE blocks glitches
 
-## Optional settings on Purpur
+```yaml
+block-updates:
+  disable-noteblock-updates: true
+  disable-tripwire-updates: true
+```
+
+{% hint style="warning" %}
+### Note
+
+Setting `disable-tripwire-updates: true` will completely stop tripwire from updating.\
+So it can potentially make tripwires traps not working anymore.
+{% endhint %}
+
+## Advanced fix on on Purpur (before 1.20.1)
 
 {% hint style="warning" %}
 **This only works on** [**Purpur**](https://purpur.pl3x.net)**.**\
