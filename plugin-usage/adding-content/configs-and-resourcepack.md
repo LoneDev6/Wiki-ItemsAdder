@@ -1,26 +1,26 @@
 ---
-description: What is the contents folder and how it's structured
+description: Что такое папка contents и как она устроена
 ---
 
-# 🗂 Contents folder
+# 🗂 Папка Contents
 
-## Folders types
+## Типы папок
 
 ### contents
 
-Is a folder which contains a set of sub-folders.\
-Each one contains separated pack which contain configurations and models/textures/sounds...
+Представляет собой папку, содержащую набор вложенных папок.\
+Каждая из них содержит отдельный пакет, содержащий конфигурации и модели/текстуры/звуки...
 
-You can see that each folder name in **contents** is the [namespace](broken-reference) of the assets it contains.
+Видно, что каждое имя папки в **contents** является [namespace](broken-reference) содержащихся в ней активов.
 
 ### configs
 
-Each folder inside `contents` contains a sub-folder called `configs`.\
-This is a folder which contains a set of folders and files.\
-It contains organized `.yml` files which contain items behavior, settings, enchant, recipe, loots, items properties, recipes and more.
+Каждая папка внутри `contents` содержит вложенную папку `configs`.
+Это папка, содержащая набор папок и файлов.
+В ней находятся упорядоченные файлы `.yml`, содержащие поведение предметов, настройки, зачарования, рецепты, луты, свойства предметов, рецепты и многое другое.
 
 {% hint style="warning" %}
-**Namespace** is also set inside the `.yml` file itself, don't forget to set it in the top part:
+**Namespace** также задается в самом файле `.yml`, не забудьте задать его в верхней части:
 
 ```yaml
 info:
@@ -30,81 +30,81 @@ info:
 
 ### resourcepack
 
-You can see this folder and **configs** as a very similar thing, but **resourcepack** folder contains the "**graphical**" part of all **items** (and also sounds, GUIs...).
+Вы можете рассматривать эту папку и **configs** как очень похожие вещи, но папка **resourcepack** содержит "**графическую**" часть всех **элементов** (а также звуки, графические интерфейсы...).
 
 {% hint style="danger" %}
 #### **Important**
 
-Remember to always maintain order in **contents** sub-folders!\
-Don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.
+Не забывайте всегда поддерживать порядок во вложенных папках **contents**!\
+Не вставляйте ничего беспорядочно, не создавайте слишком много подпапок, не оставляйте неиспользуемых текстур/моделей, иначе будет трудно найти ошибки и огрехи.
 {% endhint %}
 
-## What is a `namespace`?
+## Что такое `namespace`?
 
-As you surely noticed ItemsAdder uses **`namespaces`** to identify most of the things it manages.\
-A **`namespace`** is a **group** of elements, in this case a group of **items, blocks, mobs etc**.\
-With namespaces you can easily understand where a particular **item**, **sound**, **block etc.** comes from.
+Как вы наверняка заметили, ItemsAdder использует **`namespaces`** для идентификации большинства вещей, которыми он управляет.\
+namespaces - это **группа** элементов, в данном случае группа **предметов, блоков, мобов и т.д.\\.
+С помощью namespaces вы можете легко понять, откуда взялся тот или иной **элемент**, **звук**, **блок и т.д.**.
 
-### Example
+### Пример
 
-All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
+Все предметы **realcraft** находятся в namespace **realcraft**, поэтому при использовании команды `/iaget` можно увидеть, что идентификаторы всех предметов начинаются с `realcraft:`.
 
 ![](../../.gitbook/assets/image.png)
 
-## How can I define my own namespace?
+## Как определить собственный namespace?
 
-In order to keep everything organized you have to create **your** own **namespace**.\
-First step is to create a subfolder inside: `plugins/ItemsAdder/contents/`
+Для того чтобы все было упорядочено, необходимо создать **ваше** собственное **namespace**.\
+Первым шагом будет создание подпапки внутри: `plugins/ItemsAdder/contents/`
 
-In this example **namespace** will be `my_items` so create a folder named like the namespace: `contents/my_items/`
+В данном примере **namespace** будет `my_items`, поэтому создайте папку с именем, подобным пространству имен: `contents/my_items/`
 
 ![](../../.gitbook/assets/my\_items\_namespace.png)
 
-Open the `my_items` folder and create a new file, you can call it like as you prefer.\
-For example: `contents/my_items/myswords.yml`
+Откройте папку `my_items` и создайте новый файл, назвать его можно как угодно.\
+Например: `contents/my_items/myswords.yml`.
 
 ![](../../.gitbook/assets/my\_swords\_yml.png)
 
-Open the new `.yml` file and paste this:
+Откройте новый файл `.yml` и вставьте в него следующее:
 
 ```yaml
 info:
   namespace: my_items
 ```
 
-As you see I set **namespace** to `my_items`, which is the **namespace** I chose before and it's the same name of the **folder**. \
-Remember to change it based on your **namespace**.
+Как видите, я установил **namespace** в `my_items`, которое является тем **namespace**, которое я выбрал ранее, и которое совпадает с именем **папки**. \
+Не забудьте изменить его в соответствии с вашим **namespace**.
 
 {% hint style="info" %}
-You can create as many **namespaces** you want! \
-This allows you to easily organize your packs of items.
+Вы можете создать столько **namespaces**, сколько захотите! \
+Это позволит вам легко организовать ваши пачки предметов.
 {% endhint %}
 
 {% hint style="info" %}
-You can create as many as `.yml` files you want in the same namespace!\
-This allows you to organize items/things types better.\
-For example I divided my items in swords, blocks, food, drinks etc...
+Вы можете создавать сколько угодно файлов `.yml` в одном и том же пространстве имен!\
+Это позволит вам лучше организовать типы предметов/вещей.\
+Например, я разделил свои предметы на мечи, блоки, еду, напитки и т.д...
 {% endhint %}
 
 {% hint style="warning" %}
-**All this "nesting" could seem boring,** but it reduces errors as much as possible and allows you to find everything easily.
+**Вся эта "вложенность" может показаться скучной,** но она максимально снижает количество ошибок и позволяет легко находить все необходимое.
 {% endhint %}
 
-## Why different folder structures choices?
+## Зачем нужны различные варианты структур папок?
 
-**ItemsAdder** allows you to decide which folders structure to use in order to organize your various packs.
+**ItemsAdder** позволяет определить, какую структуру папок использовать для организации различных пакетов.
 
-This is very useful for admins to have the freedom to organize their pack very fast without worrying about useless nesting of folders. \
-The easiest folder structure to use is the [structure 5](configs-and-resourcepack.md#folders-structure-method-5).
+Это очень удобно для администраторов, которые могут быстро организовать свой pack, не беспокоясь о бесполезной вложенности папок. \
+Проще всего использовать структуру папок [structure 5](configs-and-resourcepack.md#folders-structure-method-5).
 
 {% hint style="warning" %}
-Each sub-pack must use only one structure at a time.\
-**Do not mix them in the same sub-pack!**
+В каждом sub-pack одновременно должна использоваться только одна структура.\
+**Не смешивайте их в одном субпаке!**
 {% endhint %}
 
-### Folders structure method 1
+### Метод структурирования папок 1
 
-This structure is the default and most complete one.
+Эта структура является стандартной и наиболее полной.
 
 ```
 plugins
@@ -125,9 +125,9 @@ plugins
                                 └── example_texture.png
 ```
 
-### Folders structure method 2
+### Метод структурирования папок 2
 
-This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
+Такая структура позволяет избежать создания папки `assets`, которая подразумевается и только добавляет ненужные сложности.
 
 ```
 plugins
@@ -147,9 +147,9 @@ plugins
                             └── example_texture.png
 ```
 
-### Folders structure method 3
+### Метод структурирования папок 3
 
-This structure avoids you to create the `resource_pack` folder which is implied and would just add unnecessary complexity.
+Такая структура позволяет избежать создания папки `resource_pack`, которая подразумевается и только добавляет ненужные сложности.
 
 ```
 plugins
@@ -169,9 +169,9 @@ plugins
                             └── example_texture.png
 ```
 
-### Folders structure method 4
+### Метод структурирования папок 4
 
-This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
+Такая структура позволяет избежать создания папки `assets`, которая подразумевается и только добавляет ненужные сложности.
 
 ```
 plugins
@@ -190,14 +190,14 @@ plugins
                         └── example_texture.png
 ```
 
-### Folders structure method 5
+### Метод структурирования папок 5
 
 {% hint style="success" %}
-This is the easier way to create a simple pack with some items without having to create too many sub-folders.\
-This avoids you to create `resourcepack`, `assets`, `NAMESPACE` folders and makes everything cleaner.
+Это более простой способ создать простой пакет с некоторыми элементами без необходимости создавать слишком много вложенных папок.\
+Это избавляет вас от необходимости создавать папки `resourcepack`, `assets`, `NAMESPACE` и делает все более чистым.
 {% endhint %}
 
-This is useful if your sub-pack doesn't use multiple namespaces, or you won't be able to specify them.
+Это полезно, если в вашем sub-pack не используется несколько пространств имен, иначе вы не сможете их указать.
 
 ```
 plugins
