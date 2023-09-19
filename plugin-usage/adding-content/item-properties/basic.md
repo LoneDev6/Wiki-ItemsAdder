@@ -28,7 +28,7 @@ This is the name user will see on the item
 ## Permission
 
 ```yaml
-permission: myitem
+permission_suffix: myitem
 ```
 
 {% content-ref url="permission.md" %}

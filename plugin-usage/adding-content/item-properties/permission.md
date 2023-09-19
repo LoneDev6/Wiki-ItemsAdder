@@ -5,7 +5,7 @@
 ```yaml
   my_armor_simple_helmet:
     display_name: my_armor_simple helmet
-    permission: my_armor_simple
+    permission_suffix: my_armor_simple
     resource:
       generate: true
     durability:
@@ -19,10 +19,6 @@
         armor: 9
         armorToughness: 1
 ```
-
-## How to allow crafting
-
-Permission: `ia.user.recipe.my_armor_simple`
 
 ## How to make the item visible in the `/ia` gui
 
