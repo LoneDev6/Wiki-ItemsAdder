@@ -158,6 +158,7 @@
   * [🎨 Minecraft Style Guide](https://www.blockbench.net/wiki/guides/minecraft-style-guide)
   * [📜 Item properties](plugin-usage/adding-content/item-properties/README.md)
     * [Basic](plugin-usage/adding-content/item-properties/basic.md)
+    * [Text formatting](plugin-usage/adding-content/item-properties/text-formatting.md)
     * [Permission](plugin-usage/adding-content/item-properties/permission.md)
     * [🖼 Resource](plugin-usage/adding-content/item-properties/resource.md)
     * [⚡ Events](plugin-usage/adding-content/item-properties/events/README.md)
