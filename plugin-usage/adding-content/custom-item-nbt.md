@@ -4,7 +4,7 @@
 
 You can specify custom **NBT** attributes to me merged into the custom item
 
-## Example
+### Example custom attribute
 
 For example I want to merge these tags into my item.
 
@@ -29,3 +29,16 @@ items:
 
 Make sure to provide a valid **NBT** (`json`) or it won't work!
 {% endhint %}
+
+### Example custom item name
+
+```yml
+items:
+  example_item_custom_name:
+    enabled: true
+    display_name: example_item_custom_name
+    permission: custom.example_item_custom_name
+    nbt: "{display:{Name:'{\"text\":\"TEST\", \"font\": \"alt\"}'}}"
+```
+
+<figure><img src="../../.gitbook/assets/nbt_custom_item_name_example.png" alt=""><figcaption></figcaption></figure>
