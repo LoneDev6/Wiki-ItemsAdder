@@ -55,3 +55,59 @@ This option is good if you want to have a different background for each category
 **Categories** with the **same name** and different namespace **will be merged**, this is **helpful** if you have two "swords" categories.\
 This allows you to open **`/ia`** menu and see all swords organized in the same category instead of having 2 swords categories.
 {% endhint %}
+
+## Add bulk items to categories
+
+{% hint style="warning" %}
+Requires ItemsAdder 3.5.1 or greater.
+{% endhint %}
+
+### Wildcard
+
+Matches any item which has `example` namespace.
+
+```yml
+categories:
+  test:
+    enabled: true
+    skip_if_already: false
+    icon: example:my_item
+    name: TEST
+    permission: ia.menu.seecategory.test
+    items:
+      - example:*
+```
+
+Matches any namespace which has `some_item` item.
+
+```yml
+categories:
+  test:
+    enabled: true
+    skip_if_already: false
+    icon: example:my_item
+    name: TEST
+    permission: ia.menu
+```
+
+### Regex (advanced users)
+
+Matches any armor item of the `iasurvival` namespace.
+
+{% hint style="info" %}
+Use [this website](https://regex101.com/) to test your regex.
+{% endhint %}
+
+```yml
+  armors:
+    enabled: true
+    skip_if_already: false
+    icon: iasurvival:ruby_helmet
+    name: display-category-armors
+    permission: ia.menu.seecategory.armors
+    items:
+      - iasurvival\:(.*)_helmet
+      - iasurvival\:(.*)_chestplate
+      - iasurvival\:(.*)_leggings
+      - iasurvival\:(.*)_boots
+```
