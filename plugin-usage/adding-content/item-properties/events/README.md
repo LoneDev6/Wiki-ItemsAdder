@@ -1,5 +1,11 @@
 # ⚡ Events
 
+## Use the official files editor to read all the properties
+
+{% content-ref url="../../../files-editor.md" %}
+[files-editor.md](../../../files-editor.md)
+{% endcontent-ref %}
+
 ## What are events?
 
 Events describe the time when something happen.\
@@ -15,6 +21,14 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 * interact.left\_shift
 * interact.right
 * interact.right\_shift
+* interact\_mainhand.left
+* interact\_mainhand.left\_shift
+* interact\_mainhand.right
+* interact\_mainhand.right\_shift
+* interact\_offhand.left
+* interact\_offhand.left\_shift
+* interact\_offhand.right
+* interact\_offhand.right\_shift
 * drop
 * pickup
 * eat
@@ -51,9 +65,3 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 * equipped\_armor\_item.player\_damaged\_by\_entity
 * bucket\_empty
 * bucket\_fill
-
-## Use the official files editor to read all the properties
-
-{% content-ref url="../../../files-editor.md" %}
-[files-editor.md](../../../files-editor.md)
-{% endcontent-ref %}

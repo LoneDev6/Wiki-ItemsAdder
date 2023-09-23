@@ -1,5 +1,11 @@
 # Actions
 
+## Use the official files editor to read all the properties
+
+{% content-ref url="../../../files-editor.md" %}
+[files-editor.md](../../../files-editor.md)
+{% endcontent-ref %}
+
 ## What are actions?
 
 Actions are what will happen when an [event](./) is triggered.
@@ -363,9 +369,3 @@ drop_item:
   max_amount: 3
   min_amount: 1
 ```
-
-## Use the official files editor to read all the properties
-
-{% content-ref url="../../../files-editor.md" %}
-[files-editor.md](../../../files-editor.md)
-{% endcontent-ref %}
