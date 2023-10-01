@@ -4,6 +4,16 @@ description: How To Use External Hosting With IA
 
 # 📤 Automatic external hosting
 
+##
+
+{% hint style="warning" %}
+## This guide is outdated and won't work anymore
+
+PloudOS is shutting down and I sadly have no control over it since I don't own the business.
+
+Please use another hosting method instead since this one won't work anymore.
+{% endhint %}
+
 ## Video tutorial
 
 {% embed url="https://www.youtube.com/watch?v=fOpB5-80coY" %}
@@ -46,7 +56,7 @@ auto-external-host:
 ### Last step
 
 Run `/iazip` to **compress** the **resourcepack**.\
-\*\*\*\*The **plugin** will **upload it** online **automatically** (you will have to **accept the privacy policy** only the first time).
+The **plugin** will **upload it** online **automatically** (you will have to **accept the privacy policy** only the first time).
 
 **You're done!** Nothing else to do, enjoy your **free automated resourcepack hosting**.
 
