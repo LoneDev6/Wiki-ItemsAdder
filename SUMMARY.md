@@ -147,7 +147,6 @@
 * [🆗 Permissions](plugin-usage/permissions.md)
 * [📷 Resourcepack hosting](plugin-usage/resourcepack-hosting/README.md)
   * [📥 Self hosting](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
-  * [📤 Automatic external hosting](plugin-usage/resourcepack-hosting/automatic-upload-hosting.md)
   * [📦 DropBox](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
   * [📦 Google Drive (1.17.1+)](plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)
   * [📦 OneDrive](plugin-usage/resourcepack-hosting/onedrive.md)
@@ -301,3 +300,4 @@
   * ["Duplicate recipe ignored" error](old/old-guides/duplicate-recipe-ignored-error.md)
   * [Alternative font file](old/old-guides/alternative-font-file.md)
   * [🐌 Plugin loading very slow](old/old-guides/plugin-loading-very-slow.md)
+  * [📤 Automatic external hosting](old/old-guides/automatic-upload-hosting.md)
