@@ -28,7 +28,7 @@ categories:
     enabled: true
     icon: "my_items:custom_item"
     name: 'Swords'
-    permission: "ia.menu.swords"
+    permission: "ia.menu.seecategory.swords"
     # THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
     font_image:
       name: "mcguis:blank_menu"
