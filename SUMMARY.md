@@ -161,6 +161,7 @@
     * [Permission](plugin-usage/adding-content/item-properties/permission.md)
     * [🖼 Resource](plugin-usage/adding-content/item-properties/resource.md)
     * [⚡ Events](plugin-usage/adding-content/item-properties/events/README.md)
+      * [Settings](plugin-usage/adding-content/item-properties/events/settings.md)
       * [Actions](plugin-usage/adding-content/item-properties/events/actions.md)
     * [Behaviours](plugin-usage/adding-content/item-properties/behaviours.md)
     * [Templates and variants](plugin-usage/adding-content/item-properties/templates-and-variants.md)

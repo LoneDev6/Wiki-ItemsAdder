@@ -143,39 +143,6 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-## events\_cooldown
-
-Special attribute to limit spamming of events by players. It's in ticks, so 20 = 1 second.
-
-```yaml
-  healing_crystals:
-    display_name: display-name-healing_crystals
-    permission: healing_crystals
-    resource:
-      material: IRON_SWORD
-      generate: true
-      textures:
-      - item/healing_crystals.png
-    durability:
-      max_custom_durability: 6
-      custom_durability: 6
-      disappear_when_broken: true
-    item_flags:
-    - HIDE_ATTRIBUTES
-    events_cooldown: 1200 ########### <-- EXAMPLE 60 seconds
-    events:
-      interact:
-        right:
-          play_particle:
-            name: HEART
-          decrement_durability:
-            amount: 1
-          potion_effect:
-            type: REGENERATION
-            duration: 70
-            amplifier: 4
-```
-
 ## events\_needed\_player\_stats
 
 Special attribute to make events work only if the player stat (ItemsAdder player stat, which are usually shown in HUDs) satisfies the set rule.
