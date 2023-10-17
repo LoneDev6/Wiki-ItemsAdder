@@ -4,7 +4,6 @@
 
 ```
 GUI: 
-    Chinese zh_cn
     Czech cz
     German de
     English en
@@ -14,20 +13,23 @@ GUI:
     Japanese jp
     Korean ko
     Dutch nl
-    Polish pl
     Portuguese pt
+    Polish pl
     Russian ru
     Turkish tr
     Thai th
-
-Items: 
     Chinese zh_cn
+Items: 
+    English en
     Spanish es
     French fr
+    Hebrew he
     Italian it
     Portuguese pt
     Russian ru
+    Thai th
     Turkish tr
+    Chinese zh_cn
 ```
 
 ### How to change language?
