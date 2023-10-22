@@ -230,6 +230,7 @@
       * [Mythicmobs](plugin-usage/adding-content/player-emotes/spawning/mythicmobs.md)
   * [🐖 Entities](plugin-usage/adding-content/mobs/README.md)
     * [Entity creation](plugin-usage/adding-content/mobs/advanced-method/README.md)
+      * [Advanced settings](plugin-usage/adding-content/mobs/advanced-method/advanced-settings.md)
       * [Creation](plugin-usage/adding-content/mobs/advanced-method/creation.md)
       * [Common errors](plugin-usage/adding-content/mobs/advanced-method/common-errors.md)
       * [Animations](plugin-usage/adding-content/mobs/advanced-method/animations.md)
