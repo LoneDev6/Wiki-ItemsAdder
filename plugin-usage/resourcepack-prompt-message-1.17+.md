@@ -8,7 +8,7 @@
 
 ### Step 1
 
-Open `ItemsAdde/lang/en.yml` file (or your language)
+Open `ItemsAdder/lang/en.yml` file (or your language)
 
 ### Step 2
 
