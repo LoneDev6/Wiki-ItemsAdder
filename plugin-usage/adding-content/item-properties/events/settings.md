@@ -53,7 +53,7 @@ Shows a custom HUD on-screen.
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 `custom_hud` property is not mandatory, `_iainternal:small_cooldown_bar` will be used instead if not specified, which is the built-in custom hud.
@@ -74,6 +74,10 @@ Shows a custom HUD on-screen.
     events:
     ## .... your events
 ```
+
+{% hint style="info" %}
+If you want to create a custom HUD, but you don't want to waste time coloring, you can use [this guide](../../../../other/bulk-colorize-images.md) to colorize images in one click.
+{% endhint %}
 
 #### TITLE
 

@@ -41,7 +41,7 @@ Do this operation only on a local test server on your PC so you won't make mista
 
 * Paste the **items** folder into **ItemsAdder\_old**
 
-![](<../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1) (1).png>)
 
 ## Step 3 - copy resourcepack
 

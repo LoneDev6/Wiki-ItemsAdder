@@ -22,6 +22,6 @@ Source code of the tool:&#x20;
 
 If you want you can use Optifine and customize the screen with custom images.
 
-{% content-ref url="adding-content/optifine-only-features/optifine-loading-screen.md" %}
-[optifine-loading-screen.md](adding-content/optifine-only-features/optifine-loading-screen.md)
+{% content-ref url="adding-content/optifine-only-features/loading-screen.md" %}
+[loading-screen.md](adding-content/optifine-only-features/loading-screen.md)
 {% endcontent-ref %}
