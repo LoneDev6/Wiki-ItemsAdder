@@ -142,7 +142,11 @@ I did some testing using a model lend by the [EliteCreatures](https://a.devs.bee
 ❌ MEG v3 entity walking/rotating looks clunky as you can see in the **previous video**.
 
 {% hint style="info" %}
-The packets amount difference is negligible for both plugins, so you have to decide which one fits your server project the most.
+The packets amount difference is negligible between ModelEngine v3 and ItemsAdder for both plugins.
+
+ModelEngine v4 introduces the display entities usage which cuts down the packets usage due to how these entities work.
+
+In conclusion: you have to decide which one fits your server project the most.
 {% endhint %}
 
 
