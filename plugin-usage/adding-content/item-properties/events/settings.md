@@ -53,7 +53,7 @@ Shows a custom HUD on-screen.
 
 
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 `custom_hud` property is not mandatory, `_iainternal:small_cooldown_bar` will be used instead if not specified, which is the built-in custom hud.
@@ -79,7 +79,7 @@ Shows a custom HUD on-screen.
 
 Shows a big on-screen title indicator.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
   healing_crystals:
@@ -98,7 +98,7 @@ Shows a big on-screen title indicator.
 
 Shows a bossbar on-screen.
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 `color` and `style` properties are not mandatory, the ones from `config.yml` will be used instead if not specified.

@@ -259,17 +259,18 @@
   * [🎨 Colored models](plugin-usage/adding-content/colored-models.md)
   * [📎 Custom item NBT](plugin-usage/adding-content/custom-item-nbt.md)
   * [⚙ Optifine only features](plugin-usage/adding-content/optifine-only-features/README.md)
-    * [Loading screen](plugin-usage/adding-content/optifine-only-features/loading-screen.md)
+    * [Optifine loading screen](plugin-usage/adding-content/optifine-only-features/optifine-loading-screen.md)
     * [Armor textures (old 1.16 and lower)](plugin-usage/adding-content/optifine-only-features/armor-textures-old-1.16-and-lower.md)
 * [📃 Recipes menu](plugin-usage/ia.md)
 * [🗃 Merge resourcepacks](plugin-usage/merge-resourcepacks/README.md)
   * [🔧 Manual editing blockstates](plugin-usage/merge-resourcepacks/manual-editing-blockstates.md)
 * [📎 Special placeholders](plugin-usage/placeholderapi.md)
 * [🔢 Custom player stats](plugin-usage/custom-playerstats.md)
-* [🌈 Hex colored texts (1.16+)](plugin-usage/hex-colored-texts-1.16+.md)
-* [☑ Resourcepack prompt message (1.17+)](plugin-usage/resourcepack-prompt-message-1.17+.md)
-* [🎆 Text Effects (1.17+)](plugin-usage/text-effects-1.17+.md)
+* [🌈 Colored texts](plugin-usage/colored-texts.md)
+* [☑ Resourcepack prompt message](plugin-usage/resourcepack-prompt-message.md)
+* [🎆 Text Effects](plugin-usage/text-effects.md)
 * [⬜ Hide Scoreboard background and numbers](plugin-usage/hide-scoreboard-numbers-1.17+.md)
+* [🔃 Loading screen](plugin-usage/loading-screen.md)
 
 ## Other
 

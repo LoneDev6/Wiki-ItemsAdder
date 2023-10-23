@@ -14,7 +14,7 @@
 [scoreboard.md](../compatibility-with-other-plugins/compatible/scoreboard.md)
 {% endcontent-ref %}
 
-## Hide scoreboard numbers <mark style="color:red;">(1.17+ only!)</mark>
+## Hide scoreboard numbers
 
 {% hint style="danger" %}
 **This feature works only on Minecraft 1.17 client, server version doesn't matter.**
