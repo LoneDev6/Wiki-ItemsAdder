@@ -79,3 +79,25 @@ After you configured the `config.yml` file you just have to run `/iazip` command
 {% content-ref url="../../first-install.md" %}
 [first-install.md](../../first-install.md)
 {% endcontent-ref %}
+
+## Cloudflare paid plan
+
+Read this part if you are using `Cloudflare` to protect your IP + port (paid plan) and you have a special rule to redirect the resourcepack request from a subdomain to the resourcepack port.
+
+For example:
+
+* the server is hosted on `mc.example.com`
+* the resourcepack is on port `8163`
+* you set a **Cloudflare** rule to redirect all traffic from `pack.example.com` to `mc.example.com:8163`
+
+In order for it to work you have to set your configuration like that:
+
+```yml
+    self-host:
+      enabled: true
+      server-ip: 'https://pack.example.com' # <-- don't forget https
+      pack-port: 8163
+      append-port: false # <-- important
+```
+
+This will stop ItemsAdder from adding http in front of your URL and stop adding the port at the end of the URL.
