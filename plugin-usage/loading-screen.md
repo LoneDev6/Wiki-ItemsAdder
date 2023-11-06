@@ -2,15 +2,11 @@
 
 ## Customization of the loading screen
 
-You can use this tool to create a custom loading screen: [https://lonedev6.github.io/ImgToShader/](https://lonedev6.github.io/ImgToShader/)
+You can use this tool to create a custom loading screen: [https://non0reo.github.io/ImgToShader/](https://non0reo.github.io/ImgToShader/)
 
 {% hint style="warning" %}
-For now it doesn't allow inserting custom images but only changing colors and hiding the Mojang logo.
+For now it doesn't allow inserting custom logo but only changing colors and hiding the Mojang logo.
 {% endhint %}
-
-Source code of the tool:&#x20;
-
-{% embed url="https://github.com/Non0reo/ImgToShader/tree/master" %}
 
 ## Examples
 
