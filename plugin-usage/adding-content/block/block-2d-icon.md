@@ -1,4 +1,4 @@
-# 🖼 Block 2D icon&#x20;
+# 🖼 Block 2D icon
 
 {% hint style="warning" %}
 This feature requires **ItemsAdder 3.1.6+**
@@ -35,6 +35,11 @@ items:
             block: rocks_placed
             target: RELATIVE
             decrement_amount: true
+        right_shift:
+          set_block:
+            block: rocks_placed
+            target: RELATIVE
+            decrement_amount: true
 ```
 
 Now create the `rocks.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item`
@@ -44,6 +49,9 @@ Now create the `rocks.png` file inside the folder `contents\myitems\resourcepack
 Create the item which shows the placed rock model. It is a different item form the one you see in the inventory (the one created in the **step 1**).
 
 ```yaml
+info:
+  namespace: myitems
+items:
   rocks_placed:
     display_name: ""
     permission: admin.blocks.rocks_placed
@@ -64,6 +72,28 @@ Create the item which shows the placed rock model. It is a different item form t
         break:
           drop_item:
             item: rocks
+  rocks:
+    display_name: Rocks
+    permission: blocks.rocks
+    lore:
+     - 'lore-decorative-item'
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/rocks
+    events:
+      interact:
+        right:
+          set_block:
+            block: rocks_placed
+            target: RELATIVE
+            decrement_amount: true
+        right_shift:
+          set_block:
+            block: rocks_placed
+            target: RELATIVE
+            decrement_amount: true
 ```
 
 Now create the `placed_rocks.json` file inside the folder `contents\myitems\resourcepack\myitems\models\block\`
