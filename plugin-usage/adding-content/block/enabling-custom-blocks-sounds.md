@@ -2,6 +2,10 @@
 
 ## Enable custom blocks sounds
 
+{% hint style="warning" %}
+You have to run `/iazip` each time you change any of these settings to regenerate the resourcepack.
+{% endhint %}
+
 To enable custom blocks sounds you have to enable these options in `config.yml`.
 
 ```yaml
