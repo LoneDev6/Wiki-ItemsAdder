@@ -6,8 +6,8 @@ In order to create a custom tree you have to create two blocks for each tree: le
 
 ### Follow this tutorial to create blocks&#x20;
 
-{% content-ref url="../block/block.md" %}
-[block.md](../block/block.md)
+{% content-ref url="../block/create-a-block.md" %}
+[create-a-block.md](../block/create-a-block.md)
 {% endcontent-ref %}
 
 For example I created 2 blocks by following the tutorial: `my_leaves`, `my_log`.

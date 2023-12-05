@@ -344,7 +344,7 @@ Totally immune from explosions, ignoring `blast_resistance`
 `hit`, `step` and `fall` sounds require **ItemsAdder 3.6.3b** or **greater**.
 {% endhint %}
 
-You can specify [custom sound](../sounds/sounds.md) names instead of vanilla sound.\
+You can specify [custom sound](../sounds/adding-sounds.md) names instead of vanilla sound.\
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound\_list\_pc.php) names.
 
 {% hint style="info" %}
@@ -393,7 +393,7 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 ```
 
 {% hint style="info" %}
-To add custom sounds to  your resourcepack you have to [read the sounds tutorial](../sounds/sounds.md).
+To add custom sounds to  your resourcepack you have to [read the sounds tutorial](../sounds/adding-sounds.md).
 {% endhint %}
 
 ### Use the official files editor to read all the properties

@@ -2,8 +2,8 @@
 
 ### Step 1 - create the sound
 
-{% content-ref url="sounds.md" %}
-[sounds.md](sounds.md)
+{% content-ref url="adding-sounds.md" %}
+[adding-sounds.md](adding-sounds.md)
 {% endcontent-ref %}
 
 ### Step 2 - create the disc
