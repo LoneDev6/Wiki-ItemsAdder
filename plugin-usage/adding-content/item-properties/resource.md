@@ -96,8 +96,8 @@ You have to change it to this (`your_namespace` is your [namespace ](broken-refe
 
 ### Blocks
 
-{% content-ref url="../block/" %}
-[block](../block/)
+{% content-ref url="../block/block.md" %}
+[block.md](../block/block.md)
 {% endcontent-ref %}
 
 ## Manually specify custom\_model\_data

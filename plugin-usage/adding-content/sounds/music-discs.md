@@ -1,9 +1,9 @@
-# 🎹 Music discs
+# 💿 Music discs
 
 ### Step 1 - create the sound
 
-{% content-ref url="./" %}
-[.](./)
+{% content-ref url="sounds.md" %}
+[sounds.md](sounds.md)
 {% endcontent-ref %}
 
 ### Step 2 - create the disc
