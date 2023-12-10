@@ -290,7 +290,7 @@
   * [Usage](developers/java-api/examples.md)
   * [Events](developers/java-api/events.md)
   * [API Utilities](developers/java-api/old-api.md)
-  * [HUDs, GUIs, images etc.](developers/java-api/huds-guis-images-etc..md)
+  * [HUDs, GUIs, images and more](developers/java-api/huds-guis-images-and-more.md)
 * [📓 Skript API](developers/skript-api/README.md)
   * [Simple](developers/skript-api/simple.md)
   * [Expert users](developers/skript-api/expert-users-1.md)

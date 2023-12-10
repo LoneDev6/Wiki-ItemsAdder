@@ -3,7 +3,7 @@
 In order to make GUIs you can copy and paste my pack named `_iainternal` and edit it on your likings:\
 `contents/_iainternal/resourcepack/assets/_iainternal/textures/gui/`
 
-In order to create custom GUIs you can use the [JavaAPI ](../../developers/java-api/huds-guis-images-etc..md)or install a plugin like [ChestCommands](https://dev.bukkit.org/projects/chest-commands).\
+In order to create custom GUIs you can use the [JavaAPI ](../../developers/java-api/huds-guis-images-and-more.md)or install a plugin like [ChestCommands](https://dev.bukkit.org/projects/chest-commands).\
 If you are using a plugin like ChestCommands you have to name the GUI like this:
 
 ```

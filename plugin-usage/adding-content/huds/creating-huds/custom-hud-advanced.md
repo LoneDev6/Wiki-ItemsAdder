@@ -16,8 +16,8 @@ Warning:
 This type of HUD requires you to use the [Java API](../../../../developers/java-api/) and know how to code in Java.
 {% endhint %}
 
-{% content-ref url="../../../../developers/java-api/huds-guis-images-etc..md" %}
-[huds-guis-images-etc..md](../../../../developers/java-api/huds-guis-images-etc..md)
+{% content-ref url="../../../../developers/java-api/huds-guis-images-and-more.md" %}
+[huds-guis-images-and-more.md](../../../../developers/java-api/huds-guis-images-and-more.md)
 {% endcontent-ref %}
 
 ## Examples
