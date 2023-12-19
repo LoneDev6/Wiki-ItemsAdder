@@ -1,6 +1,6 @@
 # ⬜ Hide Scoreboard background and numbers
 
-## Hide scoreboard background
+## Hide background
 
 ### Plugin: AnimatedScoreboard
 
@@ -16,12 +16,6 @@
 
 ## Hide scoreboard numbers
 
-{% hint style="danger" %}
-**This feature works only on Minecraft 1.17 client, server version doesn't matter.**
-{% endhint %}
-
-Some servers use the scoreboard to show custom data and they don't use the red numbers, they just look awful in most of the servers.
-
 {% tabs %}
 {% tab title="After" %}
 ![With ItemsAdder](../.gitbook/assets/image\_\(130\).png)
@@ -32,14 +26,32 @@ Some servers use the scoreboard to show custom data and they don't use the red n
 {% endtab %}
 {% endtabs %}
 
-## How to hide them the numbers
+### 1.20.3 and greater clients
 
-Enable the feature in `config.yml` regenerate your resourcepack using `/iazip` (follow the hosting tutorial if you are not using self-host).
-
+{% code title="config.yml" %}
 ```yaml
 effects:
   hide-scoreboard-numbers: true
 ```
+{% endcode %}
+
+{% hint style="info" %}
+This option doesn't require `/iazip` to be toggled on/off.\
+You can change this value and simply run `iareload` to apply.
+{% endhint %}
+
+### 1.20.2 and lower clients
+
+{% hint style="danger" %}
+**This feature works only on Minecraft 1.17 client, server version doesn't matter.**
+{% endhint %}
+
+{% code title="config.yml" %}
+```yaml
+effects:
+  hide-scoreboard-numbers-old-clients: true
+```
+{% endcode %}
 
 {% hint style="warning" %}
 ### **Warning**
