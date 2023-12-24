@@ -4,6 +4,19 @@ description: How to protect your resourcepack from thief
 
 # 🚨 Protect resourcepack from unzip
 
+{% hint style="warning" %}
+## Disclaimer
+
+There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
+
+This feature is a mitigation to avoid kids and trolls to steal your texture.\
+Some experienced users might be able to find a way to bypass these protections.
+
+ItemsAdder does its best to prevent this, but keep that eventuality in mind.
+
+Every other plugin has the same limitations. It's not a limitation of ItemsAdder.
+{% endhint %}
+
 {% hint style="info" %}
 With ItemsAdder you can protect your resourcepack from unzip and thieves.\
 You just have to set this option in config.yml and use /iazip again.\
@@ -17,19 +30,6 @@ If you're using Dropbox don't forget to reupload the pack and update the config.
       protection_2: true
 ```
 {% endcode %}
-{% endhint %}
-
-{% hint style="warning" %}
-### Disclaimer
-
-There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
-
-This feature is a mitigation to avoid kids and trolls to steal your texture.\
-Some experienced users might be able to find a way to bypass these protections.
-
-ItemsAdder does its best to prevent this, but keep that eventuality in mind.
-
-Every other plugin has the same limitations. It's not a limitation of ItemsAdder.
 {% endhint %}
 
 ## protection\_1

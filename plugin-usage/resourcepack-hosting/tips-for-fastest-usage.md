@@ -26,7 +26,6 @@ resource-pack:
       pack-port: 8163
     external-host:
       enabled: false
-      url: ''
 ```
 
 Doing this you'll have a fast and easy to use configuration environment.\
@@ -45,6 +44,7 @@ It's better to do edits and tests on a local test server instead.
 {% endhint %}
 
 {% hint style="danger" %}
-It's a good thing not to edit my custom items as surely in the future they can be edited and you'll go crazy maintaining both your customization and my updates.\
-So if you want to edit items just make your own.
+It's a good thing not to edit my custom items.\
+In the future I will edit them and you'll go crazy maintaining both your customization and my updates.\
+It's advised to create your own items instead.
 {% endhint %}

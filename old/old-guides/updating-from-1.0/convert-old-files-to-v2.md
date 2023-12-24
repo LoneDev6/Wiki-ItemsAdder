@@ -119,3 +119,4 @@ Please follow this fast tutorial to activate resourcepack:
 [resourcepack-self-hosting.md](../../../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
 {% endcontent-ref %}
 
+***
