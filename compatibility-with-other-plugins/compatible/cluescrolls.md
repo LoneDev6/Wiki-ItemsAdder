@@ -1,6 +1,7 @@
 # ClueScrolls
 
-### [Download Here](https://polymart.org/resource/cluescrolls.906)
+### [Spigot Download Here](https://www.spigotmc.org/resources/30276/)
+### [Polymart Download Here](https://polymart.org/resource/cluescrolls.906)
 
 ## Using Custom Items
 
