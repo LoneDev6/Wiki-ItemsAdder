@@ -1,8 +1,8 @@
 # 🌈 Colored texts
 
 {% hint style="warning" %}
-Requires Minecraft 1.16+ (client) and ItemsAdder 3.5.1+\
-Doesn't work in [Minecraft language files](adding-content/minecraft-language-files.md).
+* Requires Minecraft 1.16+ (client) and ItemsAdder 3.5.1+
+* Doesn't work in [Minecraft language files](adding-content/minecraft-language-files.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -18,6 +18,7 @@ You can change color of text and specify a custom hex color using the special no
 
 <pre><code><strong>&#x3C;#FE5A00>Magic Fuel
 </strong>&#x3C;red>Magic &#x3C;green>Fuel
+&#x3C;gradient:#ff00ee:#f79459>Here is a gradient example text!
 </code></pre>
 
 <div>
@@ -27,6 +28,10 @@ You can change color of text and specify a custom hex color using the special no
  
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

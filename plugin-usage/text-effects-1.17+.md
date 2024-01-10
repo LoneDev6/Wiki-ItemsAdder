@@ -5,7 +5,9 @@ description: Special text animations and coloring effects
 # 🎆 Text Effects
 
 {% hint style="warning" %}
-**Requires Minecraft 1.17+ clients**
+* **Requires Minecraft 1.17+ clients**
+* Doesn't work in [Minecraft language files](adding-content/minecraft-language-files.md) (game limitation)
+* Edits the `rendertype_text` shader files
 {% endhint %}
 
 ## What are text effects?
@@ -19,8 +21,9 @@ Make sure also to enable it in the `config.yml`.
 ```yaml
 effects:
   text-effects:
-    enabled: true
-    replace-in-customitems-name-and-lore: true
+    enabled: true # This option requires /iazip when changed.
+    customitem-name-and-lore:
+      enabled: true
     chat:
       enabled: true
     sign:

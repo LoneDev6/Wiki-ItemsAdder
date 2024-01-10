@@ -1,4 +1,4 @@
-# HUDs, GUIs...
+# HUDs, GUIs, images and more
 
 To see how to use HUDs and GUIs API (Font Images) you can check my examples.
 
@@ -23,6 +23,12 @@ if(manaHud.exists())
 else
   System.out.println("Error: mana not found, maybe it's disabled.");
 ```
+
+{% hint style="warning" %}
+### NOTE
+
+Make sure that you don't have the permission `ia.user.hud.bypass.api.*` or `setFloatValue` the code won't do anything.&#x20;
+{% endhint %}
 
 ## FAQ
 

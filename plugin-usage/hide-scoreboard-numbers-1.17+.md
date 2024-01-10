@@ -1,19 +1,5 @@
 # ⬜ Hide Scoreboard background and numbers
 
-## Hide background
-
-### Plugin: AnimatedScoreboard
-
-{% content-ref url="../compatibility-with-other-plugins/compatible/animatedscoreboard.md" %}
-[animatedscoreboard.md](../compatibility-with-other-plugins/compatible/animatedscoreboard.md)
-{% endcontent-ref %}
-
-### Plugin: Scoreboard-revision <mark style="color:orange;">(outdated)</mark>
-
-{% content-ref url="../compatibility-with-other-plugins/compatible/scoreboard.md" %}
-[scoreboard.md](../compatibility-with-other-plugins/compatible/scoreboard.md)
-{% endcontent-ref %}
-
 ## Hide scoreboard numbers
 
 {% tabs %}
@@ -28,6 +14,12 @@
 
 ### 1.20.3 and greater clients
 
+{% hint style="warning" %}
+* Works only on **Minecraft 1.20.3+** clients
+* **Works only on Minecraft 1.20.3+ servers!**
+* Doesn't edit the `rendertype_text` shader files, it doens't any shader
+{% endhint %}
+
 {% code title="config.yml" %}
 ```yaml
 effects:
@@ -40,10 +32,12 @@ This option doesn't require `/iazip` to be toggled on/off.\
 You can change this value and simply run `iareload` to apply.
 {% endhint %}
 
-### 1.20.2 and lower clients
+### Any client version
 
-{% hint style="danger" %}
-**This feature works only on Minecraft 1.17 client, server version doesn't matter.**
+{% hint style="warning" %}
+* This feature works only on **Minecraft 1.17+** clients
+* **Server version doesn't matter**
+* Edits the `rendertype_text` shader files
 {% endhint %}
 
 {% code title="config.yml" %}
@@ -57,5 +51,24 @@ effects:
 ### **Warning**
 
 This option is definitive and cannot be turned on/off in-game.\
-You will have to disable it in the `config.yml` and regenerate the pack again to enable/disable it.
+You have to disable it in the `config.yml` and regenerate the pack again to enable/disable it (using `/iazip`).
 {% endhint %}
+
+## Hide background
+
+{% hint style="success" %}
+* **Works in all Minecraft versions**
+* **Doesn't edit** `rendertype_text` **shader to work.**
+{% endhint %}
+
+### Plugin: AnimatedScoreboard
+
+{% content-ref url="../compatibility-with-other-plugins/compatible/animatedscoreboard.md" %}
+[animatedscoreboard.md](../compatibility-with-other-plugins/compatible/animatedscoreboard.md)
+{% endcontent-ref %}
+
+### Plugin: Scoreboard-revision <mark style="color:orange;">(outdated)</mark>
+
+{% content-ref url="../compatibility-with-other-plugins/compatible/scoreboard.md" %}
+[scoreboard.md](../compatibility-with-other-plugins/compatible/scoreboard.md)
+{% endcontent-ref %}
