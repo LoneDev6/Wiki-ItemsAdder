@@ -32,6 +32,31 @@ Remember to give them permission `ia.user.ia` to let them use `/ia` command
 Remember to create a [category ](../../ia.md)for the `/ia` GUI.
 {% endhint %}
 
+## Recipes permissions
+
+### Example
+
+**Permission**: `ia.user.recipe.iasurvival.cooked_sausage`
+
+```yaml
+info:
+  namespace: iasurvival
+recipes:
+  cooking:
+    cooked_sausage:
+      permission: iasurvival.cooked_sausage
+      ingredient:
+        item: iasurvival:sausage
+      machines:
+        - FURNACE
+        - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: iasurvival:cooked_sausage
+        amount: 1
+```
+
 ## Read more about permissions
 
 {% content-ref url="../../permissions.md" %}
