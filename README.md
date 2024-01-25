@@ -1,8 +1,8 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+description: Bu web sitesi eklentim için özel öğeler yapılandırmanıza ve oluşturmanıza yardımcı olur
 ---
 
-# 👋 Welcome
+# 👋 Hoşgeldin
 
 * [Patreon](http://patreon.com/lonedev)
 * [Ko-fi](http://a.devs.beer/kofi)
