@@ -1,5 +1,5 @@
 ---
-description: Bu web sitesi eklentim için özel öğeler yapılandırmanıza ve oluşturmanıza yardımcı olur
+Açıklama: Bu web sitesi eklentim için özel öğeler yapılandırmanıza ve oluşturmanıza yardımcı olur
 ---
 
 # 👋 Hoşgeldin
