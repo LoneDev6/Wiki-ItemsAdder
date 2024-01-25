@@ -1,31 +1,31 @@
 ---
-description: Disable red scoreboard numbers
+description: Skor tablosunda ki kırmızı sayıları gizleyin
 ---
 
-# Hide Scoreboard numbers (1.17+)
+# Skor tablosunda ki sayılar gizle (1.17+)
 
-## Scoreboard numbers
+## Skor tablosu numaraları
 
-Some servers use the scoreboard to show custom data and they don't use the red numbers, they just look awful in most of the servers.
+Bazı sunucular özel verileri göstermek için puan tablosunu kullanır ve kırmızı sayıları kullanmazlar, çoğu sunucuda berbat görünürler.
 
-![Without ItemsAdder](<../../.gitbook/assets/immagine (131).png>)
+![ItemsAdder'dan Önce](<../../.gitbook/assets/immagine (131).png>)
 
-![With ItemsAdder](<../../.gitbook/assets/immagine (130).png>)
+![ItemsAdder'dan Sonra](<../../.gitbook/assets/immagine (130).png>)
 
-## Limitations
+## Kısıtlamalar
 
 {% hint style="danger" %}
-### This feature works only on **Minecraft 1.17** client, server version doesn't matter.
+### Bu özellik sadece **Minecraft 1.17** sürümünde çalışır, sunucu sürümü önemli değildir.
 {% endhint %}
 
 {% hint style="warning" %}
-### Warning:
+### Uyarı:
 
-Using <mark style="color:red;">**RED**</mark> (<mark style="color:red;">**\&c**</mark>) color on the scoreboard may **cause glitches**.\
-This happens when you have red text near the right part of the scoreboard and you have GUI scale setting set to 1 or 3.\
+Skor tablosunda <mark style="color:red;">**KIRMIZI**</mark> (<mark style="color:red;">**\&c**</mark>) rengin kullanılması bazı **hatalara** sebep olabilir.\
+Bu, puan tablosunun sağ kısmının yakınında kırmızı bir metin olduğunda ve GUI ölçek ayarını 1 veya 3 olarak ayarladığınızda meydana gelir.\
 
 
-### How to use <mark style="color:red;">`&c`</mark> color without issues?
+### <mark style="color:red;">`&c`</mark> rengi sorunsuz nasıl kullanılır?
 
 You can change your text color from <mark style="color:red;">`&c`</mark> to <mark style="color:red;">`{#ff5546}`</mark>, it's the same color but it won't be bugged.
 
