@@ -1,5 +1,5 @@
 ---
-Açıklama: Eşyaları ve assetlerinizi dışa aktarın.
+descreption: Eşyaları ve assetlerinizi dışa aktarın.
 ---
 
 # 💾 Export namespace
