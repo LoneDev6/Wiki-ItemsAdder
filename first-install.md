@@ -1,5 +1,5 @@
 ---
-descreption: Eklenti nasıl kurulur?
+description: Eklenti nasıl kurulur?
 ---
 
 # ⚙ İlk İndirme
