@@ -1,5 +1,5 @@
 ---
-description: Disable the scoreboard background
+description: Skor tablosunun arka planını devre dışı bırakın
 ---
 
 # Hide Scoreboard background
