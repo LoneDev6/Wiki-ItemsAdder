@@ -1,5 +1,5 @@
 ---
-description: Export your items and assets
+Açıklama: Eşyaları ve assetlerinizi dışa aktarın.
 ---
 
 # 💾 Export namespace
