@@ -1,8 +1,8 @@
 ---
-description: How to install the plugin
+Açıklama: Eklenti nasıl kurulur?
 ---
 
-# ⚙ First install
+# ⚙ İlk İndirme
 
 {% hint style="info" %}
 **You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is offline.\
@@ -13,40 +13,40 @@ You can upload files to your real server after you finished here.
 You **should** complete ALL installation steps. Not only the first.
 {% endhint %}
 
-## Step 1 - installing the plugin and APIs
+## Adım 1 - Eklenti ve API'ların kurulumu
 
-* install [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (optional) install **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
-* (optional) install [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) if you plan to create custom mobs in the future.
-* put **ItemsAdder.jar** file inside your plugins folder
-* start the server
-* let ItemsAdder finish loading **everything**
+* [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)'i yükle.
+* [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)'i yükle.
+* (opsiyonel) **LightAPI**'yi yükle. ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
+* (opsiyonel) Eğer gelecekte özel yaratklar oluşturmayı planlııyorsanız [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/)'ı yükleyin.
+* **ItemsAdder.jar** doyasınızı `pluins` dosyasına koyun.
+* Sunucuyu başlatın.
+* Itemsadder'ın **her şeyi** yüklemesini bekle.
 
-First step is done.\
-Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).
+İlk adım tamam.\
+Artık kaynak paketini ayarlamak için **2. adımı** tamamlamanız gerekiyor. (Merak etmeyin, çok zor değil.).
 
-## Step 2 - resourcepack first installation
+## Adım 2 - Kaynak paketinin ilk kurulumu
 
-#### Decide the resourcepack hosting method:
+#### Kaynak paketi barındırma yöntemine karar verin:
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
-[resourcepack-hosting](plugin-usage/resourcepack-hosting/)
+[kaynak-paketi-barındırma](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## Optional steps
+## Opiyonel Adımlar
 
-### Removing default items
+### Varsayılan eşyaları kaldırma
 
 {% hint style="info" %}
-If you don't care about my default stuff and you only want to make your own items, blocks and other things it's easy!
+Eğer benim varsayılan eşyalarımı umursamıyorsan ve sadece kendi eşyalarını, bloklarını ve diğer şeyleri yapmak istiyorsan, bu çok kolay!
 {% endhint %}
 
 {% content-ref url="faq/removing-default-stuff.md" %}
 [removing-default-stuff.md](faq/removing-default-stuff.md)
 {% endcontent-ref %}
 
-### Avoid glitched blocks (if you have Purpur installed)
+### Hatalı bloklardan kaçının (Pupur kullanıyorsanız)
 
 {% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
 [avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
