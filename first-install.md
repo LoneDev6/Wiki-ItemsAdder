@@ -5,12 +5,12 @@ description: Eklenti nasıl kurulur?
 # ⚙ İlk İndirme
 
 {% hint style="info" %}
-**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when server is offline.\
-You can upload files to your real server after you finished here.
+**Hataları** ve çok fazla yeniden başlatmayı önlemek için **bilgisayarınızdaki **test sunucunuzdaki** bu ilk yapılandırmayı **takip etmelisiniz**. Oyuncular sunucunun çevrimdışı olmasından hoşlanmazlar.\
+Burada işiniz bittiğinde dosyaları gerçek sunucunuza yükleyebilirsiniz.
 {% endhint %}
 
 {% hint style="danger" %}
-You **should** complete ALL installation steps. Not only the first.
+TÜM kurulum adımlarını **tamamlamalısınız**. Sadece ilki değil.
 {% endhint %}
 
 ## Adım 1 - Eklenti ve API'ların kurulumu
