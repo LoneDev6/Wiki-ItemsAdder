@@ -1,5 +1,5 @@
-# 🐞 Report a bug
+# 🐞 Hata bildir
 
-## To report a bug please click here:
+## Bir hatayı bildirmek için lütfen burayı tıklayın:
 
 {% embed url="https://github.com/LoneDev6/ItemsAdder/issues" %}
