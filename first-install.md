@@ -31,7 +31,7 @@ Artık kaynak paketini ayarlamak için **2. adımı** tamamlamanız gerekiyor. (
 #### Kaynak paketi barındırma yöntemine karar verin:
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
-[kaynak-paketi-barındırma](plugin-usage/resourcepack-hosting/)
+[resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
 ## Opiyonel Adımlar
