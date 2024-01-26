@@ -31,7 +31,7 @@ Press "Link'i kopyala"
 
 ### Adım 3
 
-Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
+Website'yi ziyaret edin: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
 
 Bağlantıyı yapıştırın ve "Doğrudan bağlantıyı al" seçeneğine basın
 
