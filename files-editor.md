@@ -1,6 +1,6 @@
-# 📄 Files editor
+# 📄 Dosya düzenleyici
 
-## Try out my new files editor for ItemsAdder
+## ItemsAdder için yeni dosya düzenleyicimi deneyin
 
 {% embed url="https://ide.devs.beer/itemsadder/" %}
 

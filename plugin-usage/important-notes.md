@@ -1,19 +1,19 @@
-# ⚠ Important notes
+# ⚠ Önemli Notlar
 
-## Mipmap problem (textures size related)
+## Mipmap sorunu (doku boyutuyla ilgili)
 
 {% hint style="warning" %}
-Minecraft has a bug that disables mipmap if you set textures which their size is not a power of two.
+Minecraft'ta, boyutları ikinin katı olmayan dokular ayarlarsanız mipmap'i devre dışı bırakan bir hata var.
 
-### Read more here on how to avoid this problem:
+### Bu sorunun nasıl önleneceği hakkında daha fazlası için:
 {% endhint %}
 
 {% content-ref url="../faq/i-see-crisp-textures-far-away.md" %}
 [i-see-crisp-textures-far-away.md](../faq/i-see-crisp-textures-far-away.md)
 {% endcontent-ref %}
 
-### File and items names
+### Dosya ve eşya isimleri
 
 {% hint style="danger" %}
-Make sure you're not using **UPPERCASE** or **special characters** in items **names**, **namespaces**, texture files (**png**) and **model** files (**json**)
+Eşya **isimleri**, **isim alanları**, doku dosyaları (**png**) ve **model** dosyalarında **BÜYÜK HARF** veya **özel karakterler** kullanmadığınızdan emin olun (**json**)
 {% endhint %}

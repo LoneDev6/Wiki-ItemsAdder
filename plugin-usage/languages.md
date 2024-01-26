@@ -4,34 +4,34 @@
 
 ```
 GUI: 
-    Chinese zh_cn
-    Czech cz
-    German de
-    English en
-    Spanish es
-    French fr
-    Italian it
-    Japanese jp
-    Korean ko
-    Dutch nl
-    Polish pl
-    Portuguese pt
-    Russian ru
-    Turkish tr
-    Thai th
+    Çince zh_cn
+    Çek cz
+    Almanca de
+    İngilizce en
+    İspanyolca es
+    Fransızca fr
+    İtalyanca it
+    Japonca jp
+    Korece ko
+    Flemenkçe nl
+    Lehçe pl
+    Portekizce pt
+    Rusça ru
+    Türkçe tr
+    Tay th
 
 Items: 
-    Chinese zh_cn
-    Spanish es
-    French fr
-    Italian it
-    Portuguese pt
-    Turkish tr
+    Çince zh_cn
+    İspanyolca es
+    Fransızca fr
+    İtalyanca it
+    Portekizce pt
+    Türkçe tr
 ```
 
-### How to change language?
+### Dil nasıl değiştirilir?
 
-Open config.yml and change the language setting.
+config.yml'yi açın ve dil ayarını değiştirin.
 
 ```yaml
 config_files:
@@ -39,12 +39,12 @@ config_files:
   dictionaries-lang: 'en'
 ```
 
-## How to edit or to create new languages?
+## Yeni diller nasıl düzenlenir veya oluşturulur?
 
-The **plugin** messages **language** files are in **this folder**: `plugins\ItemsAdder\lang\`
+**Eklenti** mesajları **dil** dosyaları **bu klasörde** bulunur: `plugins\ItemsAdder\lang\`
 
-The **default items** and **menus languages** files are inside **this folder**: `plugins\ItemsAdder\data\items_packs\dictionaries\`
+**Varsayılan eşyalar** ve **menü dilleri** dosyaları **bu klasörün** içindedir: `plugins\ItemsAdder\data\items_packs\dictionaries\`
 
 {% hint style="warning" %}
-Some addons may put their dictionary files inside other folders inside items\_packs, you have to search for them.
+Bazı eklentiler sözlük dosyalarını item\_packs içindeki diğer klasörlere koyabilir, onları aramanız gerekir.
 {% endhint %}

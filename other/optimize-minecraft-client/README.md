@@ -1,11 +1,11 @@
-# ⚡ Optimize Minecraft client
+# ⚡ Minecraft istemcisini optimize edin
 
-## Minecraft is slow
+## Minecraft yavaş
 
-**Minecraft** is known to be very heavy, the community had fixed most of its problems.
+**Minecraft**'ın çok ağır olduğu biliniyor, topluluk sorunlarının çoğunu çözmüştü.
 
 {% hint style="success" %}
-ItemsAdder doesn't require Fabric or other mods to run!
+ItemsAdder'ın çalışması için Fabric veya diğer modlara gerek yoktur!
 
-This is an optional tutorial for who wants to optimize their game, because it is slow.
+Bu, yavaş olduğundan oyunlarını optimize etmek isteyenler için isteğe bağlı bir eğitimdir.
 {% endhint %}

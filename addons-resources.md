@@ -1,6 +1,6 @@
-# 💽 Addons/resources
+# 💽 Eklentiler/kaynaklar
 
-## Get the addons here:
+## Eklentileri buradan edinin:
 
 {% embed url="https://addons.devs.beer/itemsadder/" %}
 
