@@ -46,5 +46,5 @@ config_files:
 **Varsaylan eşyalar** ve **menü dilleri** bu klosörün içerisinde bulunur.: `plugins\ItemsAdder\data\items_packs\dictionaries\`
 
 {% hint style="warning" %}
-Some addons may put their dictionary files inside other folders inside items\_packs, you have to search for them.
+Bazı eklentiler sözlük dosyalarını item\_packs içindeki diğer klasörlere koyabilir, onları aramanız gerekir.
 {% endhint %}
