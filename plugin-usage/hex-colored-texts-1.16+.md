@@ -1,10 +1,10 @@
-# Hex colored texts (1.16+)
+# Hex sistemiyle renkli yazılar (1.16+)
 
-## How to use 1.16 hex colored texts
+## 1.16'da hex renk sistemi nasıl kullanılır?
 
-You can change color of text and specify a custom hex color using the special notation: `%#000000%`.
+Özel gösterimi kullanarak metnin rengini değiştirebilir ve özel bir hex rengi belirleyebilirsiniz: `%#000000%`.
 
-For example:
+Örneğin:
 
 **display\_name: "`%#FE5A00%`magic\_fuel"**
 
@@ -14,5 +14,5 @@ For example:
 ```
 
 {% hint style="info" %}
-It works anywhere, also in translation files of the plugin.
+Eklentinin çeviri dosyaları da dahil olmak üzere her yerde çalışır.
 {% endhint %}
