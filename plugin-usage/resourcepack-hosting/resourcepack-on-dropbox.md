@@ -6,28 +6,28 @@ coverY: 0
 
 # 📦 DropBox
 
-## Video tutorial
+## Videolu Anlatım
 
 {% embed url="https://www.youtube.com/embed/GKGnlF4zZVg?start=78&end=189&rel=0&autoplay=0&showinfo=0" %}
 
-## Text tutorial
+## Yazılı Anlatım
 
-* Open [DropBox](https://dropbox.com/), register/login
-* Use the command`/iazip` (**it's important** because `/iazip`reloads the configs and updates the **pack.zip** file)
-* Open folder: `plugins/ItemsAdder/data/resource_pack/`
-* **Drag and drop** on **DropBox** the file **pack.zip**
-* Press **Share**
+* [DropBox](https://dropbox.com/)'ı açın ve kayıt olun/giriş yapın
+* `/iazip` komutunu kullanın (**bu önemlidir** çünkü `/iazip` eklentiyi yeniden yükler ve **pack.zip** dosyasını günceller)
+* Dosyayı açın: `plugins/ItemsAdder/data/resource_pack/`
+* **pack.zip** dosyasını **DropBox** dosyasına **sürükleyip bırakın**
+* **Share**'e basın
 
 ![](<../../.gitbook/assets/immagine (20).png>)
 
-* Press **Create**
+* **Create**'ye basın
 
 ![](<../../.gitbook/assets/immagine (21).png>)
 
-* Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
-* Open `config.yml` of **ItemsAdder**
-* Set it like this (**I used the example URL, please use your own**)
+* **Copy link**'e basın
+* Örneğin bağlantınız [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)&#x20;
+* **ItemsAdder**'in `config.yml`'sini açın
+* Bunu şu şekilde ayarlayın (**I used the example URL, please use your own**)
 
 ```yaml
 resource-pack:
@@ -43,11 +43,11 @@ resource-pack:
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-* **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` (in this case to reload the resourcepack download link)
-* **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
+* **GERÇEKTEN ÖNEMLİ**: **config.yml**'de bir şeyi **değiştirdikten** sonra eklentiyi **yeniden yüklemek** için **`/iareload` komutunu kullanın** (bu durumda kaynak paketi indirme bağlantısını yeniden yüklemek için)
+* Oyun içi mevcut oyun dokunuzu yenilemek için oyununuzda `/iatexture` **komutunu** kullanın veya her oyuncu için yenilemek için `/iatexture all` **komutunu kullanın**
 
 {% hint style="danger" %}
-PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+LÜTFEN **doku**, 3D **model**, **ses** dosyalarını düzenlediğinizde **her seferinde** `/iazip` kullanın... ardından paketi **Dropbox**'a **yeniden yükleyin** * ve **/iareload** kullanın, aksi takdirde hiçbir değişiklik görmezsiniz.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -55,9 +55,9 @@ PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **so
 If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
 {% endhint %}
 
-## But this is so slow! I have to reupload on DropBox too many times!
+## Ama bu çok yavaş! DropBox'a birçok kez yeniden yükleme yapmam gerekiyor!
 
-Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting (cheap ones) don't provide port opening, so you must use **DropBox**.
+Evet öyle, bu yüzden **DropBox** yerine kendi kendine barındırma özelliğini kullanmalısınız. Ancak bazı barındırma (ucuz olanlar) bağlantı noktası açma olanağı sağlamaz, bu nedenle **DropBox** kullanmanız gerekir.
 
 {% content-ref url="resourcepack-self-hosting.md" %}
 [resourcepack-self-hosting.md](resourcepack-self-hosting.md)
