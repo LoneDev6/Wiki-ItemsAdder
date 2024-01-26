@@ -1,7 +1,7 @@
 # OneDrive
 
 {% hint style="warning" %}
-Tavsiye edilmez
+Tavsiye edilmez.
 {% endhint %}
 
 ### Adım 1
