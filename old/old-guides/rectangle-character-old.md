@@ -1,10 +1,6 @@
----
-description: Square character
----
+# ▯ rectangle character - old
 
-# ☐ characters
-
-## I see ☐ character after uninstalling Custom ESC addon
+## I see ▯ character after uninstalling Custom ESC addon
 
 {% hint style="info" %}
 This happens only on ItemsAdder version older than 3.3.0.
@@ -18,21 +14,7 @@ You have to delete this folder lang folder: `data/resource_pack/assets/minecraft
 
 Then run `/iazip` command.
 
-![](<../.gitbook/assets/image\_(140) (1).png>)
-
-## I see ☐ instead of my emojis/ranks
-
-{% hint style="warning" %}
-Make sure to run `/iazip` and reupload the resourcepack if needed.
-
-Read more here: [resourcepack hosting](../plugin-usage/resourcepack-hosting/)
-{% endhint %}
-
-{% hint style="warning" %}
-Make sure `y_position` property is not greater than the image height in pixels or `imagine height * scale_ratio`.
-
-Minecraft doesn't support this, it won't work.
-{% endhint %}
+![](<../../.gitbook/assets/image\_(140) (1).png>)
 
 ## 1.19 clients show ☐ instead of some font images
 
@@ -42,7 +24,7 @@ Reddit thread: [https://www.reddit.com/r/Mojira/comments/vis77z/mc253169\_bug\_r
 
 ### How to fix?
 
-It's very easy: you just have to open your **CLIENT** log (not server log) and find the error about the font shows which what caused other font images to stop loading: [reading client log](identify-why-textures-are-not-shown.md)
+It's very easy: you just have to open your **CLIENT** log (not server log) and find the error about the font shows which what caused other font images to stop loading: [reading client log](../../faq/identify-why-textures-are-not-shown.md)
 
 You have one or more misconfigured images, these are the cause of that problem.
 

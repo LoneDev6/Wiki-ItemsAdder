@@ -23,7 +23,14 @@ You have to change hosting method if you are still using `auto-external-host` be
 [More info here](../old/old-guides/automatic-upload-hosting.md)
 {% endhint %}
 
-## How to read CLIENT logs (not SERVER)
+## How to read the SERVER logs
+
+* run the command `/iazip`
+* wait it to finish
+* read your server console or open the file `logs/latest.log` using any text editor (for example VSCode)
+* check if any error or warning was thrown and read them carefully, they contain useful information most of the times
+
+## How to read the CLIENT logs (not SERVER)
 
 ### Any launcher
 

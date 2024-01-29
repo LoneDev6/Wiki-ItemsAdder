@@ -11,7 +11,7 @@
   * [👁 I see crisp textures far away!](faq/i-see-crisp-textures-far-away.md)
   * [💧 Thirst/mana bar](faq/fill-thirst-mana-bar.md)
   * [👀 I can't see emoji, GUIs, HUDs etc.](faq/i-cant-see-emoji-guis-huds-etc..md)
-  * [☐ characters](faq/characters.md)
+  * [▯ rectangle character](faq/rectangle-character.md)
   * [Recipes book problems](faq/recipes-book-problems.md)
   * [Placed heads texture glitched](faq/placed-heads-texture-glitched.md)
   * [🗑 Removing default stuff](faq/removing-default-stuff/README.md)
@@ -309,3 +309,4 @@
   * [Alternative font file](old/old-guides/alternative-font-file.md)
   * [🐌 Plugin loading very slow](old/old-guides/plugin-loading-very-slow.md)
   * [📤 Automatic external hosting](old/old-guides/automatic-upload-hosting.md)
+  * [▯ rectangle character - old](old/old-guides/rectangle-character-old.md)
