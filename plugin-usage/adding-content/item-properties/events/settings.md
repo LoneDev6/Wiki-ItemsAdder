@@ -19,9 +19,9 @@ Useful to avoid players to spam a special item.&#x20;
     permission: healing_crystals
     ## .... item properties
     events_settings:
-    cooldown:
-      indicator: HUD
-      ticks: 120
+      cooldown:
+        indicator: HUD
+        ticks: 120
     events:
     ## .... your events
 ```
@@ -67,10 +67,10 @@ Shows a custom HUD on-screen.
     permission: healing_crystals
     ## .... item properties
     events_settings:
-    cooldown:
-      indicator: HUD
-      ticks: 120
-      custom_hud: my_items:custom_hud_1
+      cooldown:
+        indicator: HUD
+        ticks: 120
+        custom_hud: my_items:custom_hud_1
     events:
     ## .... your events
 ```
