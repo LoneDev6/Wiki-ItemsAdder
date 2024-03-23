@@ -130,6 +130,7 @@ loots:
   mobs:
     villager:
       type: VILLAGER
+      ignore_spawner: true
       nbt:
         profession:
           path: VillagerData.profession
