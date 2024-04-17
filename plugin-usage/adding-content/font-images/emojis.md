@@ -10,7 +10,7 @@ For example I want to create an emoji pack named "myemojis", so my [namespace ](
 
 ### Creating the textures folder
 
-1. Open folder plugins\ItemsAdder\data\resource\_pack\assets\\
+1. Open folder plugins\ItemsAdder\contents\
 2. Create a folder named `myemojis`
 3. Create a folder named `textures`, then inside create a folder named `font` and then a folder named `emoji`
 4. Now you should have this path: `ItemsAdder/contents/myemojis/textures/font/emoji/`
