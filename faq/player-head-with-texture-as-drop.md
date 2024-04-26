@@ -3,11 +3,11 @@ How to assign PLAYER_HEAD with texture as drop.
 
 ### PREPARE DROP HEAD (only this workaround exists)
 At first we need create player head to drop
-1.) create new file (name of mine is `playerheads.yml`), where we set `nbt` to set texture which can be found on https://minecraft-heads.com
-{% hint style="warning" %}`skull` can be set to what you want{% endhint %}
-2.) material should be PLAYER_HEAD
-{% hint style="warning" %}Don't forget PLAYER_HEAD:XXX... doesn't work due to how is ItemsAdder made{% endhint %}
-3.) generate on true to assign texture which we leave BLANK `""`
+1.) create new file (name of mine is `playerheads.yml`), where we set `nbt` to set texture which can be found on https://minecraft-heads.com</br>
+    {% hint style="warning" %}`skull` can be set to what you want{% endhint %}</br>
+2.) material should be PLAYER_HEAD</br>
+    {% hint style="warning" %}Don't forget PLAYER_HEAD:XXX... doesn't work due to how is ItemsAdder made{% endhint %}</br>
+3.) generate on true to assign texture which we leave BLANK `""`</br>
 ```
 info:
     namespace: playerheads
@@ -25,12 +25,12 @@ items:
 
 
 ### SETTING UP LOOT
-We have to create a new loot config which should look like this
-`OBSIDIAN` is block from which this head will be dropped
-`namespace:blockname` for custom ItemsAdder block
-`head` is custom id which can be set to whatever you want
-To ˙item:` we should place our namespace from prepared head to drop, so `playerheads:skull`
-All of other variables you can find here https://itemsadder.devs.beer/plugin-usage/adding-content/loots
+We have to create a new loot config which should look like this</br>
+`OBSIDIAN` is block from which this head will be dropped</br>
+`namespace:blockname` for custom ItemsAdder block</br>
+`head` is custom id which can be set to whatever you want</br>
+To ˙item:` we should place our namespace from prepared head to drop, so `playerheads:skull`</br>
+All of other variables you can find here https://itemsadder.devs.beer/plugin-usage/adding-content/loots</br>
 ```
 info:
   namespace: my_loots
