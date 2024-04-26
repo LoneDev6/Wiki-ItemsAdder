@@ -27,7 +27,7 @@ items:
 ### SETTING UP LOOT
 We have to create a new loot config which should look like this</br>
 `OBSIDIAN` is block from which this head will be dropped</br>
-`namespace:blockname` for custom ItemsAdder block</br>
+     ↳ `namespace:blockname` for custom ItemsAdder block</br>
 `head` is custom id which can be set to whatever you want</br>
 To ˙item:` we should place our namespace from prepared head to drop, so `playerheads:skull`</br>
 All of other variables you can find here https://itemsadder.devs.beer/plugin-usage/adding-content/loots</br>
