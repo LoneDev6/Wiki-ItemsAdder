@@ -2,7 +2,7 @@
 
 ## Adding custom NBT attributes to the item
 
-You can specify custom **NBT** attributes to be merged into the custom item
+You can specify custom **NBT** attributes to me merged into the custom item
 
 ### Example custom attribute
 
