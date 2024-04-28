@@ -11,7 +11,7 @@ Special item attribute to customize some properties of events.
 ### Cooldown
 
 You can set a cooldown which won't allow the player to trigger any of the actions for this item.\
-Useful to avoid players to spam a special item.&#x20;
+Useful to avoid players to spam a special item.
 
 ```yaml
   healing_crystals:
@@ -51,8 +51,6 @@ Won't show any indicator.
 
 Shows a custom HUD on-screen.
 
-
-
 <figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
@@ -83,7 +81,7 @@ If you want to create a custom HUD, but you don't want to waste time coloring, y
 
 Shows a big on-screen title indicator.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
   healing_crystals:
@@ -123,4 +121,3 @@ Shows a bossbar on-screen.
     events:
     ## .... your events
 ```
-

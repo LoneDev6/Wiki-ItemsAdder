@@ -135,6 +135,7 @@
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
   * [Preview wiki changes](contribute/preview-wiki-changes.md)
+* [⚡ ItemsAdder v4](itemsadder-v4.md)
 
 ## Plugin usage
 
