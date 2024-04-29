@@ -23,7 +23,7 @@ Obviously you have to use your own [font\_image ](../../plugin-usage/adding-cont
 ## Text effects
 
 Normally the ItemsAdder text effects don't work with ChatControl Red.\
-But if you add this to your `rules` folder of ChatControl Red, they will work. (I put this in [`global.rs`](http://global.rs/)).
+But if you add this to your `rules` folder of ChatControl Red, they will work. (I put this in `global.rs`).
 
 ```
 match <r\s([^>]+)>
