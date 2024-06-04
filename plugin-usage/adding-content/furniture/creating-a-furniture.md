@@ -2,7 +2,7 @@
 description: Tutorial on how to create your first furniture
 ---
 
-# Creating a furniture
+# 🧊 Creating a furniture
 
 ## What is a furniture?
 
@@ -12,7 +12,7 @@ A furniture is a decorative object which can be solid, emit light, used as chair
 
 ### Creating the configuration file
 
-The first step is to create a configuration file in your [namespace](broken-reference) folder.\
+The first step is to create a configuration file in your **namespace** folder.\
 In this example I called it `furniture_example.yml`.
 
 {% code title="furniture_example.yml" %}
@@ -31,7 +31,6 @@ items:
       model_path: lamp
     behaviours:
       furniture:
-        small: true
         light_level: 13
 ```
 {% endcode %}
@@ -57,7 +56,6 @@ Let's add some more settings to it:
       furniture:
         light_level: 13
         solid: true
-        small: true
         placeable_on:
           floor: true
           ceiling: false
@@ -109,7 +107,6 @@ items:
       furniture:
         light_level: 13
         solid: true
-        small: true
         placeable_on:
           floor: true
           ceiling: false
@@ -126,7 +123,7 @@ items:
 
 ### Creating the model file
 
-Now open [BlockBench](broken-reference) and create a _"Java Block/Item"_.
+Now open **BlockBench** and create a _"Java Block/Item"_.
 
 ![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
 
@@ -148,7 +145,7 @@ Edit how the model is shown on player hand:
 
 ### Configure how the model is shown ingame
 
-#### Using Armor Stand
+#### Using `armor_stand`
 
 You have to select the **head icon** and then **small armorstand:**
 
@@ -158,10 +155,14 @@ Then you have to shift your model down until it matches the armorstand base:
 
 ![](<../../../.gitbook/assets/image (42) (1).png>)
 
-#### Using Item Frames
+#### Using `item_display`
 
 You have to select the **Image icon** and then set the Z-offset to `-16`.\
 This will display the model slighly of the block the Item Frame is attached to, but will be seamless when an invisible Item Frame is used. This is because of how items in invisible Item Frames are slightly lower than usual.
+
+#### Using `item_frame`
+
+Same thing of `item_display`.
 
 ### Export the model
 

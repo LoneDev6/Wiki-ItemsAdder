@@ -1,4 +1,4 @@
-# Furniture size
+# 📈 Furniture size
 
 {% hint style="warning" %}
 **It's advised to use the small furniture (small Armor Stand)**

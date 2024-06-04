@@ -77,5 +77,5 @@ You can use the command `/iahitbox` to see the hitbox when you pleace a furnitur
 Example: `width: 2`, `length: 2`, `height: 1`.
 
 \
-If you want to have different `width` and `length` use `entity: armor_stand`.
+If you want to have different `width` and `length` use `entity: item_display` or `armor_stand`.
 {% endhint %}

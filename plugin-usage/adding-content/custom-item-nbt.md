@@ -2,12 +2,26 @@
 
 ## Adding custom NBT attributes to the item
 
-You can specify custom **NBT** attributes to be merged into the custom item
+You can specify custom **NBT** attributes to be merged into the custom item.
+
+{% hint style="danger" %}
+Make sure to provide a valid **NBT** (`json`) or it won't work!
+{% endhint %}
+
+{% hint style="warning" %}
+Make sure to escape the `"` character using `\`.
+{% endhint %}
+
+{% hint style="success" %}
+This feature supports legacy NBT and the new 1.20.5+ modern NBT too!\
+It will automatically convert the legacy NBT if needed.
+
+[More info](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-5) on the 1.20.5+ changes (scroll down).
+{% endhint %}
 
 ### Example custom attribute
 
-For example I want to merge these tags into my item.
-
+For example I want to merge these tags into my item:\
 `{my-custom-nbt-tag:"hello this is a custom tag", another-tag:"useless"}`
 
 ```yaml
@@ -24,13 +38,7 @@ items:
       max_custom_durability: 1324
 ```
 
-{% hint style="danger" %}
-**Warning**
-
-Make sure to provide a valid **NBT** (`json`) or it won't work!
-{% endhint %}
-
-### Example custom item name
+### Example item name
 
 ```yml
 items:

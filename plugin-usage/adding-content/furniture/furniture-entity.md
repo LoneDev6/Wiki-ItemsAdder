@@ -1,6 +1,74 @@
-# Furniture entity
+# 🧊 Furniture entity
 
 ## Supported entities
+
+### item\_display
+
+This type of furniture entity is useful for any type of furniture you want to create.
+
+![](<../../../.gitbook/assets/image (47) (1) (1) (1) (2).png>)
+
+```yaml
+behaviours:
+  furniture:
+    entity: item_display
+    solid: true
+    fixed_rotation: true
+    hitbox:
+      length: 1
+      width: 2
+      height: 1
+      width_offset: 0.5
+    placeable_on:
+      walls: false
+      ceiling: false
+      floor: true
+  furniture_sit:
+    sit_height: 0.5
+```
+
+#### Special properties
+
+`item_display` allows you to do some special adjustments to your furniture model using the `display_transformation` property.\
+You can resize it, rotate it and move it freely.\
+This feature uses the native `item_display` feature of **Minecraft**, you can [read more here](https://www.youtube.com/watch?v=bwPWfUbcZxE) and online.\
+You can also use [this tool](https://misode.github.io/transformation/) to preview your changes.
+
+#### Example:
+
+```yaml
+  lava_lamp_new:
+    enabled: true
+    display_name: display-name-lava_lamp
+    permission: iadeco.decorations.lava_lamp
+    lore:
+      - lore-decorative-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: lava_lamp
+    behaviours:
+      furniture:
+        entity: item_display
+        light_level: 7
+        display_transformation:
+          transform: HEAD
+          right_rotation:
+            axis_angle:
+              angle: 180
+              axis:
+                x: 0
+                y: 1
+                z: 0
+          translation:
+            x: 0
+            y: 0.92
+            z: 0
+          scale:
+            x: 0.45
+            y: 0.45
+            z: 0.45
+```
 
 ### armor\_stand
 
