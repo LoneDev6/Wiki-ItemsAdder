@@ -46,7 +46,11 @@ Actions are what will happen when an [event](./) is triggered.
 * `set_block`
 * `place_furniture`
 * `drop_item`
-
+### Available command placeholders
+* `{player}` you
+* `{target-player}` targeted player/victim
+* `{target-x}|{target-y}|{target-z}` x/y/z location of targeted player/victim
+* `{target-world}` targeted world
 ### Delay
 
 {% hint style="info" %}
