@@ -1,59 +1,24 @@
 # Actions
 
-## Use the official files editor to read all the properties
+Actions are what will happen when an [event](./) is triggered.
+
+## List of actions
+
+To read the list of available actions use the official editor.
 
 {% content-ref url="../../../files-editor.md" %}
 [files-editor.md](../../../files-editor.md)
 {% endcontent-ref %}
 
-## What are actions?
-
-Actions are what will happen when an [event](./) is triggered.
-
-### List of actions:
-
-* `play_sound`
-* `stop_sound`
-* `execute_commands`
-* `play_particle`
-* `shoot_particle`
-* `play_effect`
-* `increment_durability`
-* `decrement_durability`
-* `decrement_usages`
-* `increment_amount`
-* `decrement_amount`
-* `drop_exp`
-* `feed`
-* `replace_properties`
-* `give_item`
-* `replace_near_blocks`
-* `replace_block`
-* `glow_near_blocks`
-* `multiple_break`
-* `potion_effect`
-* `remove_potion_effect`
-* `explosion`
-* `damage_near_entities`
-* `damage_entity_in_sight`
-* `damage_entity`
-* `increment_player_stat`
-* `decrement_player_stat`
-* `cancel`
-* `target_potion_effect`
-* `target_remove_potion_effect`
-* `play_totem_animation`
-* `set_block`
-* `place_furniture`
-* `drop_item`
 ### Available command placeholders
+
 * `{player}` you
 * `{target-player}` targeted player/victim
 * `{target-x}|{target-y}|{target-z}` x/y/z location of targeted player/victim
 * `{target-world}` targeted world
+
 ### Delay
 
-{% hint style="info" %}
 Every action has a special attribute **delay**.\
 It's the **delay** in ticks before starting the action.\
 For example:
@@ -96,11 +61,9 @@ items:
             pitch: 1.5
             delay: 40
 ```
-{% endhint %}
 
 ### Multiple actions of the same type
 
-{% hint style="info" %}
 You can set the same action multiple times. You just have to add `_anything` at the end.\
 For example if you want to play two sounds you have to write this:
 
@@ -118,15 +81,14 @@ play_sound_3:
   volume: 1
   pitch: 1
 ```
-{% endhint %}
 
 ### Actions permission
 
-{% hint style="info" %}
 Every action has a special attribute **permission**.\
 It's the **permission** the player must have before starting the **action**.\
 For example the player must have `myitems.usage.secret_items_dispenser` permission to play the sound.\
-In this example you will notice an "issue". The sound is played even if the user has no permission for the give event. That's because... well, permission check is only on the give\_item.
+NOTE: In this example you will notice an issue.\
+The sound is played even if the user has no permission for the give event. That's because permission check is only on the `give_item`.
 
 ```yaml
   test_block:
@@ -185,19 +147,14 @@ For example:
         volume: 1
         pitch: 1
 ```
-{% endhint %}
 
 ### Properties
 
 Use the [official files editor](../../../files-editor.md) to get the complete list while working on your configurations.
 
-### Flow customization
+## Flow customization
 
-{% hint style="warning" %}
-Available on **ItemsAdder** 3.6.0+
-{% endhint %}
-
-ItemsAdder allows you to further customize your actions by avoiding their execution in some specific cases explained in the next lines.\
+The plugin allows you to further customize your actions by avoiding their execution in some specific cases explained in the next lines.\
 This allows further customization of your items logic.
 
 For example you can create a wand which plays specific sound only if a mob was successfully attacked and which plays another sound in case of failed attack.
@@ -206,7 +163,7 @@ For example you can create a wand which plays specific sound only if a mob was s
 
 <details>
 
-<summary>Example code (click to expand)</summary>
+<summary>Magic wand example code (click to expand)</summary>
 
 ```yaml
 info:
@@ -260,6 +217,8 @@ items:
 
 </details>
 
+### Flow rules
+
 #### `stop_if_last_success`
 
 Doesn't execute this and the next actions if the previous action **succeeded**.
@@ -308,3 +267,35 @@ Doesn't execute this action if a specific previous action **succeeded**.
 
 Doesn't execute this action if a specific previous action **failed**.
 
+### Using vanilla `execute if`
+
+In some cases you might want to do some specific checks on scoreboard, blocks and similar using the vanilla `/execute if` command.
+
+For example this item makes the player teleport 2 blocks up only if the `example_score` value is 0.
+
+```yaml
+info:
+  namespace: test
+items:
+  test_flow:
+    enabled: true
+    display_name: test_flow
+    resource:
+      generate: false
+      model_path: minecraft:item/diamond
+      material: DIAMOND
+    events:
+      interact:
+        right:
+          execute_commands_1:
+            cause_command:
+              command: 'execute if score {player} example_score matches 0'
+              as_console: true
+              delay: 0
+          execute_commands_2:
+            effect_command:
+              command: 'tp {player} ~ ~2 ~'
+              as_console: true
+            flow:
+              skip_if_fail: execute_commands_1
+```
