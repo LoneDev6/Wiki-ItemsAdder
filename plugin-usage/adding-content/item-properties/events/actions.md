@@ -267,11 +267,21 @@ Doesn't execute this action if a specific previous action **succeeded**.
 
 Doesn't execute this action if a specific previous action **failed**.
 
+### Special properties
+
+`execute_commands` has a special property called `flow_success_if_message_contains`.\
+This allows you to identify when a console command didn't fail, for example if the player was teleported successfully, if the block was set etc.
+
+The plugin normally can automatically identify success/fail of vanilla commands but not of plugins commands, so you might use this setting to identify if a command of a plugin failed.\
+For example you can set it to `"failed to teleport"` to identify if a teleport command failed (this is just an example).
+
 ### Using vanilla `execute if`
 
 In some cases you might want to do some specific checks on scoreboard, blocks and similar using the vanilla `/execute if` command.
 
-For example this item makes the player teleport 2 blocks up only if the `example_score` value is 0.
+#### Examples
+
+This item makes the player teleport 2 blocks up only if the `example_score` value is 0.
 
 ```yaml
 info:
@@ -298,4 +308,59 @@ items:
               as_console: true
             flow:
               skip_if_fail: execute_commands_1
+```
+
+This item sets the block at `~ ~-1 ~` to stone.\
+"Successfully set block!" message is printed if the command status is success.\
+The message is completely skipped if the command status is fail.
+
+```yaml
+  test_flow_setblock:
+    enabled: true
+    display_name: test_flow_setblock
+    resource:
+      generate: false
+      model_path: minecraft:item/diamond
+      material: DIAMOND
+    events:
+      interact:
+        right:
+          execute_commands:
+            cause_command:
+              command: 'execute at {player} run setblock ~ ~-1 ~ stone'
+              as_console: true
+          execute_commands_2:
+            effect_command:
+              command: 'tellraw {player} {"text": "Successfully set block!"}'
+              as_console: true
+            flow:
+              skip_if_fail: execute_commands
+```
+
+This item will execute a plugin command.\
+The plugin can't automatically identify plugins commands success/fail status, so you have to specify a text that can help the plugin to identify the command status.\
+For example I check if the result text contains `"Given item"` in order to know if the command was executed successfully.
+
+```yaml
+  test_flow_plugin_command:
+    enabled: true
+    display_name: test_flow_plugin_command
+    resource:
+      generate: false
+      model_path: minecraft:item/diamond
+      material: DIAMOND
+    events:
+      interact:
+        right:
+          execute_commands:
+            cause_command:
+              command: 'iagive {player} iasurvival:end_ore'
+              as_console: true
+              flow_success_if_message_contains: "Given item"
+          execute_commands_2:
+            effect_command:
+              command: 'tellraw {player} {"text": "Okay successfully given item!"}'
+              as_console: true
+            flow:
+              skip_if_fail: execute_commands
 ```
