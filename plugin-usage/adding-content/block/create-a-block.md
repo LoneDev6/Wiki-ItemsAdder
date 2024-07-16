@@ -168,9 +168,9 @@ Run `/iaget red_block` to get the item.
 
 ![](../../../.gitbook/assets/image\_\(93\).png)
 
-## Download the complete example&#x20;
+## Download the complete example
 
-{% embed url="https://addon.devs.beer/toolbox/assetsrepository/red_block" %}
+{% embed url="https://addon.devs.beer/toolbox/assets-repository/red_block" %}
 
 ## Block properties
 
