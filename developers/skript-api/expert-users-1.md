@@ -100,7 +100,7 @@ command /healme:
             	set the player's food level to 10
 ```
 
-Iitem menu
+Item menu
 
 ```yaml
 import:
@@ -129,7 +129,7 @@ function item_menu(player: player, pag: number):
     set {_inv} to chest with 6 row named "&6Pag &l%{_pag}%/%{_pags}%"
     wait tick
     set metadata "item_menu" of {_player} to {_inv}
-    rellenarINV({_inv}, (46, 47, 48, 49, 50, 51 and 52))
+    fillInv({_inv}, (46, 47, 48, 49, 50, 51 and 52))
     wait tick
     loop {items::*}:
         (loop-index parsed as integer) > {_pagina_inicio}
@@ -140,11 +140,11 @@ function item_menu(player: player, pag: number):
     if (amount of {items::*}) > {_pagina_inicio} + 45:
         set slot 53 of {_inv} to arrow named "&6next page >>"
     else:
-        rellenarINV({_inv}, 53)
+        fillInv({_inv}, 53)
     if {_pag} > 0:
         set slot 45 of {_inv} to arrow named "&6<< back page"
     else:
-        rellenarINV({_inv}, 45)
+        fillInv({_inv}, 45)
     open {_inv} to {_player}
 
 on inventory click:
@@ -163,7 +163,7 @@ on inventory click:
             cancel event
 
 
-function rellenarINV(inv: inventory, slots: integers):
+function fillInv(inv: inventory, slots: integers):
     loop {_slots::*}:
         set slot loop-value of {_inv} to black stained glass pane named " a
 ```
