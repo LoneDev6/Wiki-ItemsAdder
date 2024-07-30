@@ -65,3 +65,18 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 * equipped\_armor\_item.player\_damaged\_by\_entity
 * bucket\_empty
 * bucket\_fill
+
+### EXAMPLE
+
+Why it's stated like interact (dot) right?
+Small example of how to state it into item config.
+
+```yaml
+...
+events:
+  interact:
+    right:
+      play_sound:
+      ...
+...
+```
