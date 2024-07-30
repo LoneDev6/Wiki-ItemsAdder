@@ -34,7 +34,7 @@
 * `place_furniture`
 * `drop_item`
 
-To show all properties check official files editor.\
+To show all contextual properties check official files editor.\
 {% content-ref url="../../../files-editor.md" %}
 [files-editor.md](../../../files-editor.md)
 {% endcontent-ref %}
