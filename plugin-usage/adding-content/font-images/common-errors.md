@@ -25,3 +25,10 @@ Example:\
 
 If you still have problems try to increase/decrease the size by 2 until the wrong shift disappears.\
 This is an approximation problem I cannot fix.
+
+## My GUI image is colored
+
+You need to specify **GUI image name** in name of the GUI\
+`title: :myimage: My Custom GUI`
+which can be colored by the custom menu plugin automaticaly.
+Be sure to add `&f` before doing :myimage: in GUI.\
