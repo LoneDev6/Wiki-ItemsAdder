@@ -2,7 +2,7 @@
 
 ### Example: two populators
 {% hint style="warning" %}
-<mark style="color:red;">Don't forget the namespace!</mark>
+<mark style="color:red;">Don't forget the namespace!</mark>\
 Don't forget to define a namespace for every of your config!
 {% endhint %}
 
