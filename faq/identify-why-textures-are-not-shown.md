@@ -33,9 +33,9 @@ You have to change hosting method if you are still using `auto-external-host` be
 ## How to read the CLIENT logs (not SERVER)
 
 {% hint style="warning" %}
-Always use Vanilla client when is something broken for debug.\
-This log can be often asked from support and for them is easier\
-to find a solution in not-bloated log.
+Always use the Vanilla client when something is broken.\
+The log provided by the game will often be asked from support when necessary.\
+A non-bloated log is better for supporting you, and finding a solution easily.\
 {% endhint %}
 
 ### Any launcher
