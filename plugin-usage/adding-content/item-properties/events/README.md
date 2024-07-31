@@ -68,8 +68,8 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 
 ### EXAMPLE
 
-Why it's stated like `interact (dot) right`?
-Small example of how to state it into item config.
+Why is it written like `interact (dot) right`?
+Below is a small example of how to correctly write it into your item config.
 
 ```yaml
 ...
