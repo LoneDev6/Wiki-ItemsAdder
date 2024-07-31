@@ -10,7 +10,14 @@ You can decide to create different loot types:
 
 For example this is the loots category of a `.yml` file I created.
 
+{% hint style="warning" %}
+<mark style="color:red;">Don't forget the namespace!</mark>\
+Don't forget to define a namespace for every of your config!
+{% endhint %}
+
 ```yaml
+info:
+  namespace: my_loots
 loots:
   blocks:
     ruby_ore:

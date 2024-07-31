@@ -11,7 +11,7 @@ Another reason is that I can't change hitbox of blocks.. sadly another Minecraft
 ### Tridents
 
 {% hint style="warning" %}
-You can't create custom model for thrown tridents as it's a Minecraft bug I can't fix: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
+You can't create custom model for thrown tridents as it's a Minecraft bug which I can't fix: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
 {% endhint %}
 
 ### Armors

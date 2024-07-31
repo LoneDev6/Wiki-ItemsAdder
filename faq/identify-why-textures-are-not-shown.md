@@ -32,6 +32,12 @@ You have to change hosting method if you are still using `auto-external-host` be
 
 ## How to read the CLIENT logs (not SERVER)
 
+{% hint style="warning" %}
+Always use the Vanilla client when something is broken.\
+The log provided by the game will often be asked from support when necessary.\
+A non-bloated log is better for supporting you, and finding a solution easily.\
+{% endhint %}
+
 ### Any launcher
 
 Join the server and let the pack load.\
@@ -61,7 +67,7 @@ The error tells me that the JSON files are broken, they probably have bad charac
 * Check if you have another plugin that uses **custom resourcepacks**\
   **I**f you have a similar plugins please **disable** its **resourcepack** feature or **ItemsAdder** won't be able to apply the pack correctly. If you want to apply both packs [read here](../plugin-usage/merge-resourcepacks/).
 * Make sure you don't have any resourcepack set in the `server.properties` file.
-* **Minecraft** limits servers resourcepacks **size** to **50MB** on Minecraft **1.14** and **100MB** on **1.15+.**\
+* **Minecraft** limits servers resourcepacks **size** to **50MB** on Minecraft **1.14**, **100MB** on **1.15+** and **250MB** on **1.18+**.\
   Make sure to **compress** your **textures** and your **music** files before creating the zip file.
 * Be sure that your `url` is a **direct** download link to the zip file.\
   If you paste the link on your browser (Firefox/Chrome) you must instantly see the download start.\
