@@ -10,7 +10,7 @@ You have to open the `config.yml` file of **ItemsAdder** and disable **REAL** bl
 
 {% code title="config.yml" %}
 ```yaml
-  disable-REAL: true
+    mushroom: false
 ```
 {% endcode %}
 
