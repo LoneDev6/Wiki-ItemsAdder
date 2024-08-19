@@ -22,8 +22,8 @@ resource-pack:
       enabled: false
     self-host:
       enabled: true # <----- HERE, set true
-      server-ip: '127.0.0.1'
-      pack-port: 8163
+      server-ip: '127.0.0.1' # <----- HERE, type in your server IP address without the port!
+      pack-port: 8163 # <----- HERE, type in one of your free/additional/open port!
     external-host:
       enabled: false
 ```
@@ -39,8 +39,13 @@ So after you finished adding items and configuring them you'll be able to upload
 
 {% hint style="warning" %}
 It's a good practice to not edit ItemsAdder textures and models directly on your online server.\
-Players hate lag on plugins reload, server restarts, having to re-download the pack when they're already player...\
+Players hate lag on plugins reload, server restarts, having to re-download the pack when they're already playing...\
 It's better to do edits and tests on a local test server instead.
+{% endhint %}
+
+{% hint style="warning" %}
+Don't forget! This is the best setting for your server as it's the fastest, and doesn't require\
+any maintenance when uploading the pack.
 {% endhint %}
 
 {% hint style="danger" %}

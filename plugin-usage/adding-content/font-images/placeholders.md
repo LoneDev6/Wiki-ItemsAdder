@@ -13,7 +13,9 @@ This is a special placeholder that allows you to move a font image back and forw
 :offset_25:
 ```
 
-As you can see you have to write `:offset_`**`AMOUNT`**`:` (without spaces).
+As you can see you have to write `:offset_`**`AMOUNT`**`:` (without spaces).\
+If you would like to change the image's height, you will need to change it's 'y' value.\
+This is located in the image's configuration.
 
 ### Actual image
 

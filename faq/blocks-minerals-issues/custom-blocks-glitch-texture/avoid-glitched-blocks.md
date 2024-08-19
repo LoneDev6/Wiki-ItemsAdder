@@ -48,7 +48,10 @@ block-updates:
 ### Note
 
 Setting `disable-tripwire-updates: true` will completely stop tripwire from updating.\
-So it can potentially make tripwires traps not working anymore.
+So it can potentially cause tripwires traps to not work anymore.\
+
+Setting `disable-noteblock-updates: true` will commit into same behaviour.\
+Which means NO UPDATES. So you will be unable to do music redstone circuit.
 {% endhint %}
 
 ## Advanced fix on on Purpur (before 1.20.1)

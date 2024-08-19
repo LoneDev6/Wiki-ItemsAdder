@@ -29,3 +29,6 @@ Enable this option in `server.properties` file:
 allow-flight=true
 ```
 {% endcode %}
+
+This setting will not make your players to be able to fly, just Minecraft server will not kick them on flying without permission.\
+To prevent hacking because of this setting, is good to use an **AntiCheat**.

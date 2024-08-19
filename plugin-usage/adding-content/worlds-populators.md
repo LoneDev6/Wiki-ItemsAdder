@@ -1,8 +1,14 @@
 # 💎 Worlds populators
 
 ### Example: two populators
+{% hint style="warning" %}
+<mark style="color:red;">Don't forget the namespace!</mark>\
+Don't forget to define a namespace for every of your config!
+{% endhint %}
 
 ```yaml
+info:
+  namespace: my_world_populator
 worlds_populators:
   custom_block:
     block: myitems:custom_block

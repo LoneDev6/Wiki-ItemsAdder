@@ -10,7 +10,11 @@ You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-**Make sure** that all of your plugins and server software are up to date!
+**Make sure** that all of your plugins and server software are up to date!\
+
+**Always check** the version of ItemsAdder which you are downloading!\
+<mark style="color:red;">**V3 is only for 1.20.4-(lower)**</mark>
+<mark style="color:red;">**V4 is only for 1.20.6+(higher)**</mark>
 {% endhint %}
 
 ## Step 1 - Installing the plugin and libraries
@@ -23,6 +27,7 @@ You can upload files to your real server after you finished here.
 * let ItemsAdder finish loading **everything**
 
 First step is done.
+
 
 {% hint style="warning" %}
 Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).\
