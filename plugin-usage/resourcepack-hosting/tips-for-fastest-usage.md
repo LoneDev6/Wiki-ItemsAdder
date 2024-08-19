@@ -44,8 +44,8 @@ It's better to do edits and tests on a local test server instead.
 {% endhint %}
 
 {% hint style="warning" %}
-Don't forget! This is the best setting for your server as it's fastest and doesn't require\
-any maintenance with uploading the pack.
+Don't forget! This is the best setting for your server as it's the fastest, and doesn't require\
+any maintenance when uploading the pack.
 {% endhint %}
 
 {% hint style="danger" %}
