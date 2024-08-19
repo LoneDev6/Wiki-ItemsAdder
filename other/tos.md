@@ -11,22 +11,24 @@ Before Buying Remember:
 
 * ⛔ If you have another plugin that uses a custom resource pack you have to know how to merge it with the ItemsAdder resource pack or disable the other plugin. A tutorial is available [here](../plugin-usage/merge-resourcepacks/).
 * ⛔ Before asking for support, please read the tutorials of this wiki.
-* ⛔ You must have some knowledge on how to create/manage/merge vanilla Minecraft resource packs as this plugin uses a custom-made and modified resource pack to show custom textures/models. \
+* ⛔ You must have some knowledge on how to create/manage/merge vanilla Minecraft resource packs as this plugin uses a custom-made and modified resource pack to show custom textures/models.\
   Please if you have no knowledge about resource packs don't buy the plugin!
 * ⛔ It's impossible to write a complete list of compatible/incompatible plugins without testing every single plugin on the planet. If the plugin doesn't work with your server setup don't ask for a refund but [report it](tos.md#how-to-ask-for-support-properly) and I'll try to find a solution.
 * ⛔ [Not compatible with some plugins](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
 {% endhint %}
 
-### No Refunds!
+### No Refunds¹
 
-Refunds are possible only on particular cases and at the seller's discretion.\
+Refunds are typically at the seller's discretion and might be issued on particular cases.\
 Contact the seller using the forum or via email before opening an official dispute on the payment platform (PayPal, Stripe etc.).
+
+¹Except as required by applicable state law.
 
 ### Resource Pack
 
 This plugin **requires** your **users** to **download** a **resource pack** (which is sent automatically on join) one time.\
 This Plugin may not work with plugins that are using server texture packs, [read this to see if your plugin is compatible](../compatibility-with-other-plugins/).\
-There is no Minecraft plugin which allows you to load custom assets without resource packs, it's not an ItemsAdder limitation, that's how the game works.&#x20;
+There is no Minecraft plugin which allows you to load custom assets without resource packs, it's not an ItemsAdder limitation, that's how the game works.
 
 ### Server Software
 
