@@ -10,11 +10,6 @@ To read the list of available actions use the official editor.
 [files-editor.md](../../../files-editor.md)
 {% endcontent-ref %}
 
-Or check actions list.
-{% content-ref url="../../../list-of-actions.md" %}
-[list-of-actions.md](../../../list-of-actions.md)
-{% endcontent-ref %}
-
 ### Available command placeholders
 
 * `{player}` you
