@@ -164,7 +164,6 @@
     * [⚡ Events](plugin-usage/adding-content/item-properties/events/README.md)
       * [Settings](plugin-usage/adding-content/item-properties/events/settings.md)
       * [Actions](plugin-usage/adding-content/item-properties/events/actions.md)
-      * [List of actions](plugin-usage/adding-content/item-properties/events/list-of-actions.md)
     * [Behaviours](plugin-usage/adding-content/item-properties/behaviours.md)
     * [Templates and variants](plugin-usage/adding-content/item-properties/templates-and-variants.md)
   * [⚔️ Sword](plugin-usage/adding-content/sword.md)
