@@ -33,7 +33,7 @@ Some of this website pages may contain affiliate links, meaning I get a commissi
 ## Purchase
 
 {% hint style="warning" %}
-Buy the plugin only from official shops, if you bought it elsewhere you was scammed, ask for a refund.
+Buy the plugin only from official shops, if you bought it elsewhere you were scammed, ask for a refund.
 {% endhint %}
 
 ### With PayPal
