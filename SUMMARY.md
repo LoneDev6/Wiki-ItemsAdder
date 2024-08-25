@@ -145,7 +145,7 @@
   * [iarename](plugin-usage/commands/iarename.md)
   * [iaimage](plugin-usage/commands/iaimage.md)
 * [🆗 Permissions](plugin-usage/permissions.md)
-* [📷 Hébergement de pack de ressources](plugin-usage/resourcepack-hosting/README.md)
+* [📷 Hébergement du pack de ressources](plugin-usage/resourcepack-hosting/README.md)
   * [📥 Auto-hébergement](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
   * [📤 Hébergement LobFile](plugin-usage/resourcepack-hosting/lobfile-hosting.md)
   * [📤 DropBox](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
@@ -273,7 +273,7 @@
 * [🌈 Textes colorés](plugin-usage/hex-colored-texts-1.16+.md)
 * [☑️ Message du serveur pour le pack de ressources](plugin-usage/resourcepack-prompt-message-1.17+.md)
 * [🎆 Effets de texte](plugin-usage/text-effects-1.17+.md)
-* [⬜ Cacher l'arrière plan et les nombres du scoreboard](plugin-usage/hide-scoreboard-numbers-1.17+.md)
+* [⬜ Masquer le fond et les nombres du scoreboard](plugin-usage/hide-scoreboard-numbers-1.17+.md)
 * [🔃 Ecran de chargement](plugin-usage/loading-screen.md)
 
 ## Other

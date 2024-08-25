@@ -1,38 +1,38 @@
 ---
-description: Merge other resourcepacks (also custom plugins resourcepacks)
+description: Fusionner d'autres packs de ressources (y compris les packs de ressources des plugins personnalisés)
 ---
 
-# 🗃 Merge resourcepacks
+# 🗃 Fusionner des packs de ressources
 
 {% hint style="danger" %}
-### ItemsAdder 3.3+ only!
+### ItemsAdder 3.3+ uniquement !
 {% endhint %}
 
-## Why merging?
+## Pourquoi fusionner ?
 
-**Minecraft** supports **only 1 server resourcepack**.\
-**I**f you have more than one resourcepack you need to merge them.
+**Minecraft** ne prend en charge **qu'un seul pack de ressources pour le serveur**.\
+**Si** vous avez plus d'un pack de ressources, vous devez les fusionner.
 
-## How to merge?
+## Comment fusionner ?
 
-### Step 1
+### Étape 1
 
-Copy the `assets` folder of your resourcepack.
+Copiez le dossier `assets` de votre pack de ressources.
 
-### Step 2
+### Étape 2
 
-Paste the `assets` folder of your resourcepack inside a new `contents` sub-folder.\
-For example `merged_pack_1`: `ItemsAdder/contents/merged_pack_1/resourcepack/`
+Collez le dossier `assets` de votre pack de ressources dans un nouveau sous-dossier `contents`.\
+Par exemple `merged_pack_1` : `ItemsAdder/contents/merged_pack_1/resourcepack/`
 
-### Step 3
+### Étape 3
 
-Use the `/iazip` command to compress the ItemsAdder resourcepack.\
-(Make sure to follow the correct [hosting tutorial](../resourcepack-hosting/) based on the hosting method you decided).
+Utilisez la commande `/iazip` pour compresser le pack de ressources d'ItemsAdder.\
+(Veillez à suivre le [tutoriel d'hébergement](../resourcepack-hosting/) approprié en fonction de la méthode d'hébergement choisie).
 
-### Step 4 (advanced users)
+### Étape 4 (utilisateurs avancés)
 
-If you are merging more than 1 pack you might need to decide a merge priority.\
-Open config.yml and write the load priority order of your `contents` sub-folders folders.
+Si vous fusionnez plus d'un pack, vous devrez peut-être définir une priorité de fusion.\
+Ouvrez config.yml et indiquez l'ordre de priorité de chargement de vos dossiers `contents`.
 
 {% code title="config.yml" %}
 ```yaml
@@ -42,13 +42,13 @@ Open config.yml and write the load priority order of your `contents` sub-folders
       - merged_pack_1
       - merged_pack_2
       - merged_pack_3
-      # ... other packs here of which you want to change load order.
+      # ... autres packs ici pour lesquels vous souhaitez modifier l'ordre de chargement.
 ```
 {% endcode %}
 
-### Done
+### C'est fait
 
-## Examples
+## Exemples
 
 {% content-ref url="../../compatibility-with-other-plugins/compatible/modelengine.md" %}
 [modelengine.md](../../compatibility-with-other-plugins/compatible/modelengine.md)

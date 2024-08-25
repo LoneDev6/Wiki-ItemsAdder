@@ -1,103 +1,109 @@
-# 📥 Self hosting
+# 📥 Auto-hébergement
 
-## Video tutorial
+## Tutoriel vidéo
 
 {% embed url="https://www.youtube.com/watch?v=XoTwF4_HztU" %}
 
-## Info about self-hosting
+## Informations sur l'auto-hébergement
 
-With ItemsAdder you can host the resourcepack directly on your server!\
-No need to pay for a website host and **no need to upload the pack every time you make a change!**
+Avec ItemsAdder, vous pouvez héberger le resourcepack directement sur votre serveur !\
+Pas besoin de payer pour un hébergeur de site web et **pas besoin de télécharger le pack à chaque fois que vous effectuez un changement !**
 
 {% hint style="warning" %}
-**Your hosting service must let you get additional ports for your server.**\
-If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./)
+**Votre service d'hébergement doit vous permettre d'obtenir des ports supplémentaires pour votre serveur.**\
+Si votre service d'hébergement ne vous fournit pas de ports supplémentaires, vous devez utiliser l'une des [méthodes d'hébergement alternatives](./).
 {% endhint %}
 
-### What is the difference between self-host and the other methods?
+### Quelle est la différence entre l'auto-hébergement et les autres méthodes ?
 
-Difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
+La différence est qu'avec l'auto-hébergement, vous pouvez télécharger le pack directement depuis votre serveur sans avoir à le télécharger sur un site web à chaque fois que vous apportez un petit changement.
 
 {% hint style="info" %}
-`self-host` is really useful when you are configuring the resourcepack on your test server on your PC. Because you just have to use command `/iazip` and you'll see changes applied ingame almost instantly.
+`self-host` est vraiment utile lorsque vous configurez le resourcepack sur votre serveur de test sur votre PC. Vous n'avez qu'à utiliser la commande `/iazip` et vous verrez les changements appliqués en jeu presque instantanément.
 {% endhint %}
 
 {% content-ref url="tips-for-fastest-usage.md" %}
 [tips-for-fastest-usage.md](tips-for-fastest-usage.md)
 {% endcontent-ref %}
 
-## How can I configure the self host?
+## Comment configurer l'auto-hébergement ?
 
-* Check in your **hosting service panel** if you can get an additional port, if not please ask hosting service support to provide your one.
+* Vérifiez dans le **panel de votre service d'hébergement** si vous pouvez obtenir un port supplémentaire. Sinon, demandez au support de votre service d'hébergement de vous en fournir un.
 
-For example on **Pterodactyl**:
+Par exemple sur **Pterodactyl** :
 
 ![](../../.gitbook/assets/image\_\(104\).png)
 
 ![](../../.gitbook/assets/image\_\(101\).png)
 
-* after you obtained a **new port** you can open `config.yml` and set like this:
+* Après avoir obtenu un **nouveau port**, ouvrez `config.yml` et réglez-le comme ceci :
 
+{% code title="ItemsAdder/config.yml" %}
 ```yaml
   self-host:
     enabled: true
     server-ip: '127.0.0.1'
     pack-port: 8163
 ```
+{% endcode %}
 
-* you have to replace `127.0.0.1` with **your server IP**
-* and replace `8163` with the new port you obtained.
+* Vous devez remplacer `127.0.0.1` par **l'IP de votre serveur**
+* et remplacer `8163` par le nouveau port que vous avez obtenu.
 
-For example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
+Par exemple, si mon IP est `123.456.789.0` et mon port supplémentaire est `8163`, je le configurerai comme ceci :
 
+{% code title="ItemsAdder/config.yml" %}
 ```yaml
   self-host:
     enabled: true
     server-ip: '123.456.789.0'
     pack-port: 8163
 ```
+{% endcode %}
 
 {% hint style="warning" %}
-**pack-port** is not the same as your server port (the one your users use to connect).
+**pack-port** n'est pas le même que le port de votre serveur (celui que vos utilisateurs utilisent pour se connecter).
 {% endhint %}
 
 {% hint style="info" %}
-`127.0.0.1` means "**this pc**".\
-**So if you are testing the plugin on your PC** you can **leave default config** so plugin will look for the resourcepack zip directly in your PC.
+`127.0.0.1` signifie "**ce PC (localhost)**".\
+**Donc si vous testez le plugin sur votre PC**, vous pouvez **laisser la configuration par défaut** afin que le plugin recherche le fichier zip du resourcepack directement sur votre PC.
 {% endhint %}
 
 {% hint style="danger" %}
-Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... or you won't see any change obviously.
+N'oubliez pas d'utiliser `/iazip` **à chaque fois** que vous éditez une **texture**, un **modèle** 3D, un **son**... sinon vous ne verrez évidemment aucun changement.
 {% endhint %}
 
-### Last step
+### Dernière étape
 
-After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
+Après avoir configuré le fichier `config.yml`, vous n'avez plus qu'à exécuter la commande `/iazip` pour rafraîchir le fichier zip et commencer l'hébergement.
 
-## Continue installation if you need
+## Continuez l'installation si nécessaire
 
 {% content-ref url="../../first-install.md" %}
 [first-install.md](../../first-install.md)
 {% endcontent-ref %}
 
-## Cloudflare paid plan
+## Plan payant Cloudflare (ou Proxy inverse)
 
-Read this part if you are using `Cloudflare` to protect your IP + port (paid plan) and you have a special rule to redirect the resourcepack request from a subdomain to the resourcepack port.
+Lisez cette partie si vous utilisez `Cloudflare` pour protéger votre IP + port (plan payant) et que vous avez une règle spéciale pour rediriger la demande de resourcepack depuis un sous-domaine vers le port de resourcepack.
 
-For example:
+Par exemple :
 
-* the server is hosted on `mc.example.com`
-* the resourcepack is on port `8163`
-* you set a **Cloudflare** rule to redirect all traffic from `pack.example.com` to `mc.example.com:8163`
+* le serveur est hébergé sur `mc.example.com`
+* le resourcepack est sur le port `8163`
+* vous avez défini une règle **Cloudflare** pour rediriger tout le trafic de `pack.example.com` vers `mc.example.com:8163`
 
-In order for it to work you have to set your configuration like that:
+Pour que cela fonctionne, vous devez configurer votre fichier comme ceci :
 
-```yml
+{% code title="ItemsAdder/config.yml" %}
+```yaml
     self-host:
       enabled: true
-      server-ip: 'https://pack.example.com' # <-- don't forget https
+      server-ip: 'https://pack.example.com' # <-- n'oubliez pas https
       pack-port: 8163
       append-port: false # <-- important
 ```
+{% endcode %}
 
-This will stop ItemsAdder from adding http in front of your URL and stop adding the port at the end of the URL.
+Cela empêchera ItemsAdder d'ajouter http devant votre URL et d'ajouter le port à la fin de l'URL.

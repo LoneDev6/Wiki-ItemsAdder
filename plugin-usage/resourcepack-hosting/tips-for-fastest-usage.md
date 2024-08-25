@@ -1,18 +1,19 @@
-# ⚡ Tips for fastest usage
+# ⚡ Conseils pour une utilisation plus rapide
 
-## It takes too much time to edit the pack and upload it online!
+## Ça prend trop de temps d'éditer le pack et le télécharger en ligne !
 
-Yes if you do that the wrong way. Read this:
+Oui, si vous faites cela de la mauvaise manière. Lisez ceci :
 
 {% hint style="info" %}
-It's a good practice to create a **test server on your PC** with:
+Il est recommandé de créer un **serveur de test sur votre PC** avec :
 
 * [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-itemsadder%E2%9C%A8textures-3d-models-emojis-ores-blocks-wings-tails-hats-more.73355/)
 * [LoneLib](https://www.spigotmc.org/resources/lonelibs.75974/)
 * [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 
-ItemsAdder with this resourcepack config:
+ItemsAdder avec cette configuration de resourcepack :
 
+{% code title="ItemsAdder/config.yml" %}
 ```yaml
 resource-pack:
   hosting:
@@ -21,35 +22,36 @@ resource-pack:
     auto-external-host:
       enabled: false
     self-host:
-      enabled: true # <----- HERE, set true
-      server-ip: '127.0.0.1' # <----- HERE, type in your server IP address without the port!
-      pack-port: 8163 # <----- HERE, type in one of your free/additional/open port!
+      enabled: true # <----- ICI, mettez true
+      server-ip: '127.0.0.1' # <----- ICI, tapez l'adresse IP de votre serveur sans le port !
+      pack-port: 8163 # <----- ICI, tapez l'un de vos ports libres/additionnels/ouverts !
     external-host:
       enabled: false
 ```
+{% endcode %}
 
-Doing this you'll have a fast and easy to use configuration environment.\
-You can add items and edit the pack on the fly.
+En faisant cela, vous aurez un environnement de configuration rapide et facile à utiliser.\
+Vous pouvez ajouter des objets et éditer le pack en temps réel.
 
-When you edit an item texture/model and you edit its configuration you will use command  `/iazip` .\
-By doing this you'll see changes applied at real-time.
+Lorsque vous éditez une texture/modèle d'objet et que vous modifiez sa configuration, utilisez la commande `/iazip`.\
+En faisant cela, vous verrez les changements appliqués en temps réel.
 
-So after you finished adding items and configuring them you'll be able to upload everything on your online server to mirror the changes.
+Ainsi, après avoir terminé l'ajout et la configuration des objets, vous pourrez tout télécharger sur votre serveur en ligne pour refléter les changements.
 {% endhint %}
 
 {% hint style="warning" %}
-It's a good practice to not edit ItemsAdder textures and models directly on your online server.\
-Players hate lag on plugins reload, server restarts, having to re-download the pack when they're already playing...\
-It's better to do edits and tests on a local test server instead.
+Il est recommandé de ne pas éditer les textures et modèles d'ItemsAdder directement sur votre serveur en ligne.\
+Les joueurs détestent le lag lors des rechargements de plugins, les redémarrages de serveur, devoir re-télécharger le pack lorsqu'ils jouent déjà...\
+Il est préférable de faire des modifications et des tests sur un serveur de test local.
 {% endhint %}
 
 {% hint style="warning" %}
-Don't forget! This is the best setting for your server as it's the fastest, and doesn't require\
-any maintenance when uploading the pack.
+N'oubliez pas ! C'est le meilleur réglage pour votre serveur car il est le plus rapide et ne nécessite\
+aucune maintenance lors du téléchargement du pack.
 {% endhint %}
 
 {% hint style="danger" %}
-It's a good thing not to edit my custom items.\
-In the future I will edit them and you'll go crazy maintaining both your customization and my updates.\
-It's advised to create your own items instead.
+Il est préférable de ne pas modifier mes objets personnalisés.\
+À l'avenir, je les modifierai et vous deviendrez fou à maintenir à la fois vos personnalisations et mes mises à jour.\
+Il est conseillé de créer vos propres objets à la place.
 {% endhint %}

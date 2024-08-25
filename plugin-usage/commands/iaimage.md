@@ -1,16 +1,16 @@
 # iaimage
 
-This command shows you a list of all the font images (for example emojis) that are available to be used in chat/commands/signs/books.
+Cette commande vous permet de voir une liste de toutes les images de police (comme les emojis) disponibles pour être utilisées dans le chat, les commandes, les panneaux et les livres.
 
-## Book customization
+## Personnalisation des livres
 
-You can customize some parts the book shown with that command.
+Vous pouvez personnaliser certaines parties du livre affiché avec cette commande.
 
 {% hint style="warning" %}
-Requires ItemsAdder 3.4.0b or greater.
+Nécessite ItemsAdder 3.4.0b ou version ultérieure.
 {% endhint %}
 
-### Change book font to Minecraft default font (default plugin option)
+### Changer la police du livre en police par défaut de Minecraft (option par défaut du plugin)
 
 ```yaml
   iaimage-book:
@@ -18,11 +18,11 @@ Requires ItemsAdder 3.4.0b or greater.
     placeholder-font: "minecraft:default"
 ```
 
-It's advised to set `max-line-length: 18`, this allows long texts to use the whole available line space.
+Il est conseillé de définir `max-line-length: 18`, ce qui permet aux textes longs d'utiliser tout l'espace disponible sur la ligne.
 
 <figure><img src="../../.gitbook/assets/iaimage_book_1.png" alt=""><figcaption></figcaption></figure>
 
-### Change book font to Minecraft thin font
+### Changer la police du livre en police fine de Minecraft
 
 ```yaml
   iaimage-book:
@@ -30,8 +30,7 @@ It's advised to set `max-line-length: 18`, this allows long texts to use the who
     placeholder-font: "uniform"
 ```
 
-It's advised to set `max-line-length: 22`, this allows long texts to use the whole available line space.\
-The plugin should avoid too long texts to overflow and go to the next line, but if that happens you have to reduce the length value to `20` or lower.
+Il est conseillé de définir `max-line-length: 22`, ce qui permet aux textes longs d'utiliser tout l'espace disponible sur la ligne.\
+Le plugin doit éviter que des textes trop longs ne débordent et ne passent à la ligne suivante, mais si cela se produit, vous devrez réduire la valeur de longueur à `20` ou moins.
 
 <figure><img src="../../.gitbook/assets/iaimage_book_2.png" alt=""><figcaption></figcaption></figure>
-

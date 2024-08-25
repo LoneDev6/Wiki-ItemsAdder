@@ -1,20 +1,20 @@
-# 🌈 Colored texts
+# 🌈 Textes colorés
 
 {% hint style="warning" %}
-* Requires Minecraft 1.16+ (client) and ItemsAdder 3.5.1+
-* Doesn't work in [Minecraft language files](adding-content/minecraft-language-files.md)
+* Nécessite Minecraft 1.16+ (client) et ItemsAdder 3.5.1+
+* Ne fonctionne pas dans les [fichiers de langue de Minecraft](adding-content/minecraft-language-files.md)
 {% endhint %}
 
 {% hint style="info" %}
-It works almost anywhere
+Cela fonctionne presque partout :
 
-* translation files of the plugin
-* item name and lore
+* fichiers de traduction du plugin
+* nom et description des objets
 {% endhint %}
 
-## How to use colored texts
+## Comment utiliser les textes colorés
 
-You can change color of text and specify a custom hex color using the special notation.
+Vous pouvez changer la couleur du texte et spécifier une couleur hexadécimale personnalisée en utilisant la notation spéciale.
 
 <pre><code><strong>&#x3C;#FE5A00>Magic Fuel
 </strong>&#x3C;red>Magic &#x3C;green>Fuel
@@ -25,24 +25,20 @@ You can change color of text and specify a custom hex color using the special no
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
- 
-
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
- 
 
 <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-## Preview text
+## Prévisualiser le texte
 
-You can use this website to preview the texts.
+Vous pouvez utiliser ce site pour prévisualiser les textes.
 
 {% embed url="https://webui.advntr.dev/" %}
 
-## More documentation
+## Plus de documentation
 
-Here you can find the official MiniMessage tutorials.
+Vous pouvez trouver les tutoriels officiels de MiniMessage ici.
 
 {% embed url="https://docs.advntr.dev/minimessage/format.html" %}

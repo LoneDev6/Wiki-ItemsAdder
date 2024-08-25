@@ -1,26 +1,25 @@
----
-description: How to protect your resourcepack from thief
+description: Comment protéger votre pack de ressources des voleurs
 ---
 
-# 🚨 Protect resourcepack from unzip
+# 🚨 Protéger le pack de ressources contre la décompression
 
 {% hint style="warning" %}
-## Disclaimer
+## Avertissement
 
-There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
+Il n'existe pas de méthode 100% efficace pour protéger un pack de ressources, car le jeu doit être capable de le décompresser correctement pour afficher les textures.
 
-This feature is a mitigation to avoid kids and trolls to steal your texture.\
-Some experienced users might be able to find a way to bypass these protections.
+Cette fonctionnalité est une mesure d'atténuation pour éviter que des enfants et des trolls ne volent vos textures.\
+Certains utilisateurs expérimentés pourraient être en mesure de contourner ces protections.
 
-ItemsAdder does its best to prevent this, but keep that eventuality in mind.
+ItemsAdder fait de son mieux pour prévenir cela, mais gardez cette éventualité à l'esprit.
 
-Every other plugin has the same limitations. It's not a limitation of ItemsAdder.
+Tous les autres plugins ont les mêmes limitations. Ce n'est pas une limitation d'ItemsAdder.
 {% endhint %}
 
 {% hint style="info" %}
-With ItemsAdder you can protect your resourcepack from unzip and thieves.\
-You just have to set this option in config.yml and use /iazip again.\
-If you're using Dropbox don't forget to reupload the pack and update the config.yml
+Avec ItemsAdder, vous pouvez protéger votre pack de ressources contre la décompression et les voleurs.\
+Il vous suffit de configurer cette option dans config.yml et d'utiliser à nouveau /iazip.\
+Si vous utilisez Dropbox, n'oubliez pas de re-uploader le pack et de mettre à jour le config.yml.
 
 {% code title="config.yml" %}
 ```yaml
@@ -34,14 +33,14 @@ If you're using Dropbox don't forget to reupload the pack and update the config.
 
 ## protection\_1
 
-The `protection_1` property allows you to protect the resourcepack with a basic method.
+La propriété `protection_1` vous permet de protéger le pack de ressources avec une méthode de base.
 
 ## protection\_2
 
-The `protection_2` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
+La propriété `protection_2` vous permet de protéger le pack avec une autre couche de protection pour bloquer certaines autres méthodes de décompression du pack.
 
 ## Showcase
 
-This is a funny meme showcase of what the user will see when they try to steal your data. But this is actually what the user will see, a group of corrupted files and folders.
+Voici une présentation amusante de ce que l'utilisateur verra lorsqu'il essaie de voler vos données. Mais en réalité, ce que l'utilisateur verra est un groupe de fichiers et de dossiers corrompus.
 
 {% embed url="https://youtu.be/MhtEhoOuWV8" %}

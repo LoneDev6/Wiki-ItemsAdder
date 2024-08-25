@@ -1,10 +1,10 @@
-# 📄 Files editor
+# 📄 Éditeur de fichiers
 
-## VisualStudio Code extension
+## Extension VisualStudio Code
 
-### [> Download the Visual Studio Code (vs-code) here <](https://code.visualstudio.com/download)
+### [> Télécharger VisualStudio Code (vs-code) ici <](https://code.visualstudio.com/download)
 
-### [> Download the vs-code extension here <](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode)&#x20;
+### [> Télécharger l'extension vs-code ici <](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode)&#x20;
 
 <div align="left">
 

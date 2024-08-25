@@ -1,51 +1,51 @@
 # iaconfig
 
-## Features
+## Fonctionnalités
 
-### Delete an item from config
+### Supprimer un item de la config.
 
 `/iaconfig item delete <item>`
 
 Permission: `ia.admin.iaconfig.item.delete`
 
-Deletes an item COMPLETELY from its config file. Please be careful.
+Supprime un item COMPLETEMENT de son fichier de configuration. Veuillez faire preuve de prudence.
 
-### Disable an item in configs
+### Désactiver un item des configs
 
 `/iaconfig item disable <item>`
 
 Permission: `ia.admin.iaconfig.item.disable`
 
-Disables an item from its config file. Please be careful.
+Désactive un item dans son fichier de configuration. Veuillez faire preuve de prudence.
 
-### Delete recipes which use/create an item
+### Supprimer les recettes utilisant/créant un item
 
 `/iaconfig recipes deleteofitem <item>`
 
 Permission `ia.admin.iaconfig.recipes.deleteofitem`
 
-Deletes COMPLETELY all recipes which contain an item from all the config files. Please be careful.
+Supprime COMPLETEMENT toutes les recettes contenant un item de tous les fichiers de configuration. Veuillez faire preuve de prudence.
 
-### Disable recipes which use/create an item
+### Désactiver les recettes utilisant/créant un item
 
 `/iaconfig item disableofitem <item>`
 
 Permission: `ia.admin.iaconfig.recipes.disableofitem`
 
-Disables all recipes which contain an item from all the config files. Please be careful.
+Désactive toutes les recettes contenant un item de tous les fichiers de configuration. Veuillez faire preuve de prudence.
 
-### Delete all items of a namespace and recipes of these items
+### Supprimer tous les items d'un namespace et les recettes de ces items
 
 `/iaconfig namespace delete <namespace>`
 
 Permission: `ia.admin.iaconfig.namespace.delete`
 
-Deletes all items of a namespace and recipes of these items COMPLETELY. Please be careful.
+Supprime COMPLETEMENT tous les items d'un namespace et les recettes de ces items. Veuillez faire preuve de prudence.
 
-### Disable every item of a namespace
+### Désactiver tous les items d'un namespace
 
 `/iaconfig namespace disable <namespace>`
 
 Permission: `ia.admin.iaconfig.namespace.disable`
 
-Disables every item of a namespace and recipes of these items. Please be careful.
+Désactive tous les items d'un namespace et les recettes de ces items. Veuillez faire preuve de prudence.

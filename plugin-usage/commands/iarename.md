@@ -1,10 +1,10 @@
 # iarename
 
-This command can be used to rename items (vanilla and custom).
+Cette commande peut être utilisée pour renommer les items (vanilla et personnalisés).
 
-It supports [font\_images](../adding-content/font-images/) (emojis) and [text effects](../text-effects-1.17+.md).
+Elle supporte mes [font\_images](../adding-content/font-images/) (emojis) et les [effets de texte](../text-effects-1.17+.md).
 
-Usage example: `/iarename test <r qqqqq> :smile: very nice`
+Exemple d'utilisation : `/iarename test <r qqqqq> :smile: very nice`
 
 ![](../../.gitbook/assets/iarename.png)
 

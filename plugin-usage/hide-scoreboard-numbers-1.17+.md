@@ -1,23 +1,23 @@
-# ⬜ Hide Scoreboard background and numbers
+# ⬜ Masquer le fond et les nombres du scoreboard
 
-## Hide scoreboard numbers
+## Masquer les nombres du scoreboard
 
 {% tabs %}
-{% tab title="After" %}
-![With ItemsAdder](../.gitbook/assets/image\_\(130\).png)
+{% tab title="Après" %}
+![Avec ItemsAdder](../.gitbook/assets/image\_\(130\).png)
 {% endtab %}
 
-{% tab title="Before" %}
-![Without ItemsAdder](../.gitbook/assets/image\_\(131\).png)
+{% tab title="Avant" %}
+![Sans ItemsAdder](../.gitbook/assets/image\_\(131\).png)
 {% endtab %}
 {% endtabs %}
 
-### 1.20.3 and greater clients
+### Clients 1.20.3+
 
 {% hint style="warning" %}
-* Works only on **Minecraft 1.20.3+** clients
-* **Works only on Minecraft 1.20.3+ servers!**
-* Doesn't edit the `rendertype_text` shader files, it doens't any shader
+* Fonctionne uniquement sur les clients **Minecraft 1.20.3+**
+* **Fonctionne uniquement sur les serveurs Minecraft 1.20.3+ !**
+* N'édite pas les fichiers shader `rendertype_text`, il ne fait appel à aucun shader
 {% endhint %}
 
 {% code title="config.yml" %}
@@ -28,16 +28,16 @@ effects:
 {% endcode %}
 
 {% hint style="info" %}
-This option doesn't require `/iazip` to be toggled on/off.\
-You can change this value and simply run `iareload` to apply.
+Cette option ne nécessite pas que `/iazip` soit exécuté.\
+Vous pouvez changer cette valeur et simplement exécuter `iareload` pour appliquer les modifications.
 {% endhint %}
 
-### Any client version
+### Toutes les versions de clients
 
 {% hint style="warning" %}
-* This feature works only on **Minecraft 1.17+** clients
-* **Server version doesn't matter**
-* Edits the `rendertype_text` shader files
+* Cette fonctionnalité fonctionne uniquement sur les clients **Minecraft 1.17+**
+* **La version du serveur n'a pas d'importance**
+* Édite les fichiers shader `rendertype_text`
 {% endhint %}
 
 {% code title="config.yml" %}
@@ -48,26 +48,26 @@ effects:
 {% endcode %}
 
 {% hint style="warning" %}
-### **Warning**
+### **Avertissement**
 
-This option is definitive and cannot be turned on/off in-game.\
-You have to disable it in the `config.yml` and regenerate the pack again to enable/disable it (using `/iazip`).
+Cette option est définitive et ne peut pas être activée/désactivée en jeu.\
+Vous devez la désactiver dans `config.yml` et régénérer le pack pour l'activer/désactiver (en utilisant `/iazip`).
 {% endhint %}
 
-## Hide background
+## Masquer le fond
 
 {% hint style="success" %}
-* **Works in all Minecraft versions**
-* **Doesn't edit** `rendertype_text` **shader to work.**
+* **Fonctionne dans toutes les versions de Minecraft**
+* **N'édite pas** le shader `rendertype_text` **pour fonctionner.**
 {% endhint %}
 
-### Plugin: AnimatedScoreboard
+### Plugin : AnimatedScoreboard
 
 {% content-ref url="../compatibility-with-other-plugins/compatible/animatedscoreboard.md" %}
 [animatedscoreboard.md](../compatibility-with-other-plugins/compatible/animatedscoreboard.md)
 {% endcontent-ref %}
 
-### Plugin: Scoreboard-revision <mark style="color:orange;">(outdated)</mark>
+### Plugin : Scoreboard-revision <mark style="color:orange;">(obsolète)</mark>
 
 {% content-ref url="../compatibility-with-other-plugins/compatible/scoreboard.md" %}
 [scoreboard.md](../compatibility-with-other-plugins/compatible/scoreboard.md)

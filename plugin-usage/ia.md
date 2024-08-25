@@ -52,19 +52,19 @@ Cette option est utile si vous souhaitez avoir un arrière-plan différent pour 
 {% endhint %}
 
 {% hint style="success" %}
-**Les catégories** avec le **même nom** and different namespace **will be merged**, this is **helpful** if you have two "swords" categories.\
-This allows you to open **`/ia`** menu and see all swords organized in the same category instead of having 2 swords categories.
+**Les catégories** avec le **même nom** et des namespaces différents **seront fusionnées**, ce qui est **utile** si vous avez deux catégories "épées"..\
+Cela vous permet d'ouvrir le menu **`/ia`** et de voir toutes les épées organisées dans la même catégorie au lieu d'avoir deux catégories d'épées.
 {% endhint %}
 
-## Add bulk items to categories
+## Ajouter des éléments en masse aux catégories
 
 {% hint style="warning" %}
-Requires ItemsAdder 3.5.1 or greater.
+Nécessite ItemsAdder 3.5.1+.
 {% endhint %}
 
 ### Wildcard
 
-Matches any item which has `example` namespace.
+Correspond à tout élément ayant le namespace `example`.
 
 ```yml
 categories:
@@ -78,7 +78,7 @@ categories:
       - example:*
 ```
 
-Matches any namespace which has `some_item` item.
+Correspond à tout namespace ayant l'item `some_item`.
 
 ```yml
 categories:
@@ -90,12 +90,12 @@ categories:
     permission: ia.menu
 ```
 
-### Regex (advanced users)
+### Regex (utilisateurs avancés)
 
-Matches any armor item of the `iasurvival` namespace.
+Correspond à tout élément d'armure du namespace `iasurvival`.
 
 {% hint style="info" %}
-Use [this website](https://regex101.com/) to test your regex.
+Utilisez [ce site web](https://regex101.com/) pour tester votre regex.
 {% endhint %}
 
 ```yml
