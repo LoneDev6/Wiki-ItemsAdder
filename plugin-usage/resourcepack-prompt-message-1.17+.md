@@ -1,26 +1,26 @@
-# ☑ Resourcepack prompt message
+# ☑ Message du serveur pour le pack de ressources
 
 {% hint style="warning" %}
-**Requires Minecraft 1.17+ clients**
+**Nécessite Minecraft 1.17+**
 {% endhint %}
 
-## Custom resourcepack prompt message
+## Message du serveur personnalisé pour le pack de ressources
 
-### Step 1
+### Étape 1
 
-Open `ItemsAdder/lang/en.yml` file (or your language)
+Ouvrez le fichier `ItemsAdder/lang/en.yml` (ou votre langue).
 
 ### Step 2
 
-Customize the message: `resourcepack-popup-message`.
+Personnalisez le message : `resourcepack-popup-message`.
 
 ```yaml
 resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcepack to enjoy all the amazing features of our server.\n
 &aYou need only to download it only once."
 ```
 
-(You can use  as newline)
+(Vous pouvez utiliser `\n` pour revenir à la ligne)
 
-### Done
+### Fini
 
 ![](../.gitbook/assets/image\_\(127\).png)

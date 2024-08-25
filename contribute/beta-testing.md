@@ -1,14 +1,15 @@
 ---
-description: Access beta versions of the plugin
+description: Accéder aux versions bêta du plugin.
 ---
 
-# 🧪 Beta testing
+# 🧪 Bêta testeurs
 
-If you own **ItemsAdder** you can apply to become part of the **beta testing** team.\
-Feel free to apply, but only if you own ItemsAdder (bought from Spigot, BuiltByBit or Polymart).\
-I will approve each issued request if it satisfies the development needs.
+Si vous possédez **ItemsAdder**, vous pouvez postuler pour faire partie de l'équipe des **bêta testeurs**.\
+N'hésitez pas à postuler, mais uniquement si vous possédez ItemsAdder (acheté sur Spigot, BuiltByBit ou Polymart).\
+J'approuverai chaque demande émise si elle répond aux besoins du développement.
 
-Thanks everyone :smile: This will help me to make the plugin more stable and better.
+Merci à tous :smile: Cela m'aidera à rendre le plugin plus stable et meilleur.
+
 
 {% embed url="https://forms.gle/CALtSZJ5v3mtNGPa9" %}
 

@@ -46,3 +46,6 @@ N'achetez ce plugin uniquement sur les plateformes d'achat officielles. Si vous 
 ### Sans PayPal
 
 * [Polymart](https://polymart.org/resource/itemsadder-custom-items-etc.1851)
+
+
+*Traduis par ri1_ avec ❤️*

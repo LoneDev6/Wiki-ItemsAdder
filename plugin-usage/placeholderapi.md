@@ -1,53 +1,53 @@
-# 📎 Special placeholders
+# 📎 Placeholders spéciaux
 
 ## PlaceholderAPI
 
-### FontImage (emoji etc)
+### FontImage (emoji, etc.)
 
-This is the code: `%img_NAME%` instead of `NAME` write the font\_image name.\
-For example: `%img_smile%`
+Voici le code : `%img_NAME%`, remplacez `NAME` par le nom de l'image de police.\
+Par exemple : `%img_smile%`
 
-### Offsets
+### Décalages
 
-You can shift text/font\_images back and forward.\
-For example&#x20;
+Vous pouvez décaler le texte ou les images de police en avant ou en arrière.\
+Par exemple :
 
-* you can shift it back of 16 pixels by writing `%img_offset_-16%`
-* you can shift it forward of 16 pixels by writing `%img_offset_16%`
+* vous pouvez le décaler de 16 pixels en arrière en écrivant `%img_offset_-16%`
+* vous pouvez le décaler de 16 pixels en avant en écrivant `%img_offset_16%`
 
-### ItemsAdder PlayerStats (HUDs values)
+### ItemsAdder PlayerStats (valeurs HUD)
 
-These are stats used by ItemsAdder, they're not vanilla stats.
+Ce sont des statistiques utilisées par ItemsAdder, ce ne sont pas des statistiques vanille.
 
-This is the code: `%iaplayerstat_NAME%` instead of `NAME` write the playerstat name.\
-For example: `%iaplayerstat_mana%` or also `%iaplayerstat_thirst%`
+Voici le code : `%iaplayerstat_NAME%`, remplacez `NAME` par le nom de la statistique du joueur.\
+Par exemple : `%iaplayerstat_mana%` ou `%iaplayerstat_thirst%`
 
-You can use this command to test it out:\
+Vous pouvez utiliser cette commande pour tester :\
 `/papi parse me %iaplayerstat_thirst%`\
 `/papi parse me %iaplayerstat_mana%`
 
 {% hint style="info" %}
-#### Read more about playerstats
+#### En savoir plus sur les playerstats
 {% endhint %}
 
-## ItemsAdder built-in placeholders (without PlaceholderAPI)
+## Placeholders intégrés d'ItemsAdder (sans PlaceholderAPI)
 
-### FontImage (emoji etc.)
+### FontImage (emoji, etc.)
 
-This is the code: `:img_NAME:` instead of `NAME` write the font\_image name.\
-For example: `:img_smile:`
+Voici le code : `:img_NAME:`, remplacez `NAME` par le nom de l'image de police.\
+Par exemple : `:img_smile:`
 
-### Offsets
+### Décalages
 
-You can shift text or font\_images back and forward.\
-For example&#x20;
+Vous pouvez décaler le texte ou les images de police en avant ou en arrière.\
+Par exemple :
 
-* you can shift it back of 16 pixels by writing `:img_offset_-16:`
-* you can shift it forward of 16 pixels by writing `:img_offset_16:`
+* vous pouvez le décaler de 16 pixels en arrière en écrivant `:img_offset_-16:`
+* vous pouvez le décaler de 16 pixels en avant en écrivant `:img_offset_16:`
 
-### ItemsAdder PlayerStats (HUDs values)
+### ItemsAdder PlayerStats (valeurs HUD)
 
-These are stats used by ItemsAdder, they're not vanilla stats.
+Ce sont des statistiques utilisées par ItemsAdder, ce ne sont pas des statistiques vanille.
 
-This is the code: `:iaplayerstat_NAME:` instead of `NAME` write the playerstat name.\
-For example: `:iaplayerstat_mana:` or also `:iaplayerstat_thirst:`
+Voici le code : `:iaplayerstat_NAME:`, remplacez `NAME` par le nom de la statistique du joueur.\
+Par exemple : `:iaplayerstat_mana:` ou `:iaplayerstat_thirst:`

@@ -272,7 +272,7 @@
 * [🔢 Statistiques de joueur personnalisées](plugin-usage/custom-playerstats.md)
 * [🌈 Textes colorés](plugin-usage/hex-colored-texts-1.16+.md)
 * [☑️ Message du serveur pour le pack de ressources](plugin-usage/resourcepack-prompt-message-1.17+.md)
-* [🎆 Effets de text](plugin-usage/text-effects-1.17+.md)
+* [🎆 Effets de texte](plugin-usage/text-effects-1.17+.md)
 * [⬜ Cacher l'arrière plan et les nombres du scoreboard](plugin-usage/hide-scoreboard-numbers-1.17+.md)
 * [🔃 Ecran de chargement](plugin-usage/loading-screen.md)
 

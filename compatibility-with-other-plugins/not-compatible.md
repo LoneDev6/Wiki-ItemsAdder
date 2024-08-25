@@ -1,11 +1,11 @@
-# ⚠ Not compatible
+# ⚠ Non compatible
 
-_**Is it compatible with plugin X?**_
+_**Est-ce compatible avec le plugin X ?**_
 
-I can't answer surely to this question because I can't know how every plugin in the world is coded, but here is a list of plugins that can cause problems:
+Je ne peux pas répondre avec certitude à cette question, car je ne peux pas connaître le code de chaque plugin existant, mais voici une liste de plugins qui peuvent causer des problèmes :
 
-* All plugins that uses **custom resourcepacks** (you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done)
-* [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/), this plugin messes up ItemsAdder custom recipes logic and creates duplication bugs. So please don't use it
-* Plugins that customize crafting table behaviour and recipes
-* [LootChest ](https://www.spigotmc.org/resources/lootchest.61564/)can cause some [problems](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
-* For now it's **not compatible** with **plugins** and world generators that **spawn mushroom** blocks with different faces to create custom textures. In the future I will add compatibility.
+* Tous les plugins qui utilisent des **resourcepacks personnalisés** (vous pouvez les rendre compatibles si vous avez un minimum de connaissances sur la façon de fusionner des resourcepacks manuellement, assurez-vous de ne pas remplacer les fichiers d'ItemsAdder et le tour est joué)
+* [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/), ce plugin perturbe la logique des recettes personnalisées d'ItemsAdder et crée des bugs de duplication. Veuillez donc ne pas l'utiliser
+* Les plugins qui personnalisent le comportement de la table de craft et les recettes
+* [LootChest](https://www.spigotmc.org/resources/lootchest.61564/) peut causer des [problèmes](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
+* Pour l'instant, ce n'est **pas compatible** avec les **plugins** et les générateurs de mondes qui **génèrent des blocs de champignon** avec des faces différentes pour créer des textures personnalisées. À l'avenir, j'ajouterai la compatibilité.

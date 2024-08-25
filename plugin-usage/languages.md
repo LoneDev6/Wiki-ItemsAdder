@@ -1,40 +1,40 @@
-# 📔 Languages
+# 📔 Langues
 
-### Currently available languages
+### Langues actuellement disponibles
 
 ```
 GUI: 
-    Czech cz
-    German de
-    English en
-    Spanish es
-    French fr
-    Italian it
-    Japanese jp
-    Korean ko
-    Dutch nl
-    Portuguese pt
-    Polish pl
-    Russian ru
-    Turkish tr
-    Thai th
-    Chinese zh_cn
+    Tchèque cz
+    Allemand de
+    Anglais en
+    Espagnol es
+    Français fr
+    Italien it
+    Japonais jp
+    Coréen ko
+    Néerlandais nl
+    Portugais pt
+    Polonais pl
+    Russe ru
+    Turc tr
+    Thaïlandais th
+    Chinois zh_cn
 Items: 
-    English en
-    Spanish es
-    French fr
-    Hebrew he
-    Italian it
-    Portuguese pt
-    Russian ru
-    Thai th
-    Turkish tr
-    Chinese zh_cn
+    Anglais en
+    Espagnol es
+    Français fr
+    Hébreu he
+    Italien it
+    Portugais pt
+    Russe ru
+    Thaïlandais th
+    Turc tr
+    Chinois zh_cn
 ```
 
-### How to change language?
+### Comment changer de langue ?
 
-Open `config.yml` and change the `lang` setting.
+Ouvrez `config.yml` et changez le paramètre `lang`.
 
 ```yaml
 config_files:
@@ -42,9 +42,9 @@ config_files:
   dictionaries-lang: 'en'
 ```
 
-## How to edit or to create new languages?
+## Comment modifier ou créer une nouvelle langue ?
 
-The **plugin** messages **language** files are in **this folder**: `plugins/ItemsAdder/lang/`
+Les messages de **langue** du **plugin** sont dans **ce dossier** : `plugins/ItemsAdder/lang/`
 
-**Default** ItemsAdder pack items/menus **languages** are inside `dictionaries` folders on each `namespace` folder.\
-For example: `contents/iasurvival/dictionaries/`
+Les **fichiers de langue** des packs ItemsAdder par **défaut** sont dans les dossiers `dictionaries` dans chaque dossier `namespace`.\
+Par exemple: `contents/iasurvival/dictionaries/`
