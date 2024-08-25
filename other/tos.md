@@ -1,97 +1,99 @@
 ---
-description: Terms and Conditions for IA
+description: Conditions Générales d'Utilisation pour IA
 ---
 
-# ⛔ Legal
+# ⛔ Légal
 
-## 📝Terms Of Service
+*La version anglaise de cette page est disponible [ici](https://itemsadder.devs.beer/other/tos)*
+
+## 📝Conditions Générales d'Utilisation
 
 {% hint style="danger" %}
-Before Buying Remember:
+Avant d'acheter, rappelez-vous :
 
-* ⛔ If you have another plugin that uses a custom resource pack you have to know how to merge it with the ItemsAdder resource pack or disable the other plugin. A tutorial is available [here](../plugin-usage/merge-resourcepacks/).
-* ⛔ Before asking for support, please read the tutorials of this wiki.
-* ⛔ You must have some knowledge on how to create/manage/merge vanilla Minecraft resource packs as this plugin uses a custom-made and modified resource pack to show custom textures/models.\
-  Please if you have no knowledge about resource packs don't buy the plugin!
-* ⛔ It's impossible to write a complete list of compatible/incompatible plugins without testing every single plugin on the planet. If the plugin doesn't work with your server setup don't ask for a refund but [report it](tos.md#how-to-ask-for-support-properly) and I'll try to find a solution.
-* ⛔ [Not compatible with some plugins](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
+* ⛔ Si vous avez un autre plugin qui utilise un pack de ressources personnalisé, vous devez savoir comment le fusionner avec le pack de ressources ItemsAdder ou désactiver l'autre plugin. Un tutoriel est disponible [ici](../plugin-usage/merge-resourcepacks/).
+* ⛔ Avant de demander de l'aide, veuillez lire les tutoriels de ce wiki.
+* ⛔ Vous devez avoir des connaissances sur la création/la gestion/la fusion des packs de ressources Minecraft de base, car ce plugin utilise un pack de ressources personnalisé et modifié pour afficher des textures/des modèles personnalisés.\
+  Si vous n'avez aucune connaissance des packs de ressources, n'achetez pas le plugin !
+* ⛔ Il est impossible de rédiger une liste complète de plugins compatibles/incompatibles sans tester chaque plugin sur la planète. Si le plugin ne fonctionne pas avec la configuration de votre serveur, ne demandez pas de remboursement mais [signalez-le](tos.md#how-to-ask-for-support-properly) et j'essaierai de trouver une solution.
+* ⛔ [Non compatible avec certains plugins](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
 {% endhint %}
 
-### No Refunds¹
+### Pas de Remboursement¹
 
-Refunds are typically at the seller's discretion and might be issued on particular cases.\
-Contact the seller using the forum or via email before opening an official dispute on the payment platform (PayPal, Stripe etc.).
+Les remboursements sont généralement à la discrétion du vendeur et peuvent être accordés dans des cas particuliers.\
+Contactez le vendeur via le forum ou par email avant d'ouvrir un litige officiel sur la plateforme de paiement (PayPal, Stripe, etc.).
 
-¹Except as required by applicable state law.
+¹Sauf si requis par la législation applicable.
 
-### Resource Pack
+### Pack de Ressources
 
-This plugin **requires** your **users** to **download** a **resource pack** (which is sent automatically on join) one time.\
-This Plugin may not work with plugins that are using server texture packs, [read this to see if your plugin is compatible](../compatibility-with-other-plugins/).\
-There is no Minecraft plugin which allows you to load custom assets without resource packs, it's not an ItemsAdder limitation, that's how the game works.
+Ce plugin **nécessite** que vos **utilisateurs** **téléchargent** un **pack de ressources** (qui est envoyé automatiquement à l'arrivée) une fois.\
+Ce plugin peut ne pas fonctionner avec les plugins utilisant des packs de textures serveur, [lisez ceci pour voir si votre plugin est compatible](../compatibility-with-other-plugins/).\
+Il n'existe aucun plugin Minecraft permettant de charger des ressources personnalisées sans packs de ressources, ce n'est pas une limitation d'ItemsAdder, c'est ainsi que le jeu fonctionne.
 
-### Server Software
+### Logiciel de Serveur
 
-This plugin works with Spigot and Paper, I can't guarantee that the plugin will work on other Spigot forks.\
-By using other server software solutions you agree that the plugin may not work correctly.
+Ce plugin fonctionne avec Spigot et Paper, je ne peux pas garantir que le plugin fonctionnera sur d'autres forks de Spigot.\
+En utilisant d'autres solutions logicielles pour serveur, vous acceptez que le plugin puisse ne pas fonctionner correctement.
 
-### **Plugin Ownership**
+### **Propriété du Plugin**
 
-DO NOT DECOMPILE, RESELL, CRACK, OR REDISTRIBUTE THE PLUGIN.
+NE DÉCOMPILEZ PAS, NE REVENTEZ PAS, NE CRAQUEZ PAS, ET NE REDISTRIBUEZ PAS LE PLUGIN.
 
-You may **only use** the **plugin** on a **server** that **you are** an **owner** of.\
-Bungeecord networks are also allowed.\
-You Must ensure that your staff won't leak the plugin and keep your JAR safe.\
+Vous ne pouvez **utiliser** le **plugin** que sur un **serveur** dont vous êtes **propriétaire**.\
+Les réseaux Bungeecord sont également autorisés.\
+Vous devez vous assurer que votre personnel ne divulguera pas le plugin et gardera votre JAR en sécurité.\
 \
-If you want to transfer your account or your license to another account you can do that by opening a ticket on my support [forum](https://forum.devs.beer/t/private-payment-issue).
+Si vous souhaitez transférer votre compte ou votre licence à un autre compte, vous pouvez le faire en ouvrant un ticket sur mon [forum](https://forum.devs.beer/t/private-payment-issue).
 
-### Making Addons
+### Création d'Addons
 
-You can sell **custom packs, textures, and configs...** make sure to read the [addons creation policy](tos.md#addon-creation-policy).
+Vous pouvez vendre des **packs personnalisés, des textures, et des configurations...** assurez-vous de lire la [politique de création d'addons](tos.md#addon-creation-policy).
 
-### Bugs & Issues & Support
+### Bugs & Problèmes & Support
 
-If you have any problems **do not leave one-star review** to gain my attention, it does the opposite.\
-I can fix bugs only if you report them in the right place.\
-Please be sure to read tutorials before asking for help.\
-Check the [FAQ](https://itemsadder.devs.beer/faq) for more info.\
-If you are contacting support please read the support policy.
+Si vous avez des problèmes, **ne laissez pas un avis d'une étoile** pour attirer mon attention, cela a l'effet inverse.\
+Je peux corriger les bugs seulement si vous les signalez au bon endroit.\
+Veuillez lire les tutoriels avant de demander de l'aide.\
+Consultez la [FAQ](https://itemsadder.devs.beer/faq) pour plus d'informations.\
+Si vous contactez le support, veuillez lire la politique de support.
 
-### How to ask for support properly
+### Comment demander de l'aide correctement
 
 {% embed url="https://forum.devs.beer/d/16-getting-support" %}
 
-## 🆘 Support Policy
+## 🆘 Politique de Support
 
-#### No support for unverified accounts
+#### Pas de support pour les comptes non vérifiés
 
-All users must complete the verification process to ask for support.
+Tous les utilisateurs doivent compléter le processus de vérification pour demander du support.
 
-#### No support in case of support abuse
+#### Pas de support en cas d'abus de support
 
-You are not allowed to open tickets or spam threads or tag the support team.\
-Any user that will spam support will be ignored.
+Vous n'êtes pas autorisé à ouvrir des tickets, à spammer les fils de discussion ou à taguer l'équipe de support.\
+Tout utilisateur qui spammera le support sera ignoré.
 
-#### No support if not enough information is provided
+#### Pas de support si les informations fournies ne sont pas suffisantes
 
-It's your responsibility to give us all the information that is related to your issues.\
-We can't provide support if you won't give us any information.\
-You won't get support if your help request doesn't have enough information.
+Il est de votre responsabilité de nous fournir toutes les informations relatives à vos problèmes.\
+Nous ne pouvons pas fournir de support si vous ne nous donnez aucune information.\
+Vous ne recevrez pas de support si votre demande d'aide n'a pas suffisamment d'informations.
 
-## 🖌️Addon Creation Policy
+## 🖌️Politique de Création d'Addons
 
-You can sell **custom packs, textures, and configs...** compatible with this plugin or plugin presets. Thanks.\
-Also [a donation ](http://a.devs.beer/lonedevdonate)is appreciated if you earn a lot from them.
+Vous pouvez vendre des **packs personnalisés, des textures, et des configurations...** compatibles avec ce plugin ou les presets du plugin. Merci.\
+Un [don](http://a.devs.beer/lonedevdonate) est également apprécié si vous gagnez beaucoup grâce à eux.
 
-### Creating unique Addons
+### Création d'Addons Uniques
 
-When creating add-ons you are not allowed to include any items from the default ItemsAdder pack\
-DO NOT INCLUDE MY DEFAULT ITEMS, MODELS, FONT IMAGES etc. IN YOUR ADDONS!\
-**PLEASE DO NOT INCLUDE MY DEFAULT ITEMS IN YOUR PACK!**\
-You can't resell my assets.
+Lors de la création d'addons, vous n'êtes pas autorisé à inclure des éléments du pack ItemsAdder par défaut\
+NE COMPRENEZ PAS MES ÉLÉMENTS, MODÈLES, IMAGES DE POLICE, etc. DANS VOS ADDONS !\
+**VEUILLEZ NE PAS INCLURE MES ÉLÉMENTS PAR DÉFAUT DANS VOTRE PACK !**\
+Vous ne pouvez pas revendre mes ressources.
 
-### Copying Other Addons
+### Copier d'Autres Addons
 
-If your addon contains similar models, items, font images etc. to another addon your addon will be removed.\
-DON'T COPY OTHER CREATIONS.\
-Ask permission if you really want to use them, the creator might allow you.
+Si votre addon contient des modèles, des éléments, des images de police, etc. similaires à un autre addon, votre addon sera supprimé.\
+NE COPIEZ PAS D'AUTRES CRÉATIONS.\
+Demandez la permission si vous voulez vraiment les utiliser, le créateur pourrait vous le permettre.
