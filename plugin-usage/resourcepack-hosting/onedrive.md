@@ -1,24 +1,24 @@
 # 📤 OneDrive
 
 {% hint style="warning" %}
-#### Not recommended.
+#### Non recommandé.
 {% endhint %}
 
-### Step 1
+### Étape 1
 
 ![](<../../.gitbook/assets/image (52) (1) (1) (1) (1).png>)
 
-### Step 2
+### Étape 2
 
 ![](<../../.gitbook/assets/image (43) (1) (1).png>)
 
-### Step 3
+### Étape 3
 
 ![](<../../.gitbook/assets/image (53) (1) (1).png>)
 
-### Step 4
+### Étape 4
 
-Open `config.yml` of **ItemsAdder** and enable the `external-host` option for your new URL.
+Ouvrez le fichier `config.yml` d'**ItemsAdder** et activez l'option `external-host` pour votre nouvelle URL.
 
 {% code title="config.yml" %}
 ```yaml
@@ -29,19 +29,19 @@ Open `config.yml` of **ItemsAdder** and enable the `external-host` option for yo
 ```
 {% endcode %}
 
-This is very important. Set it to true.
+C'est très important. Mettez-le sur true.
 
 ```yaml
 skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
 ```
 
 {% hint style="warning" %}
-Keep in mind that it's a bit "risky" because the server cannot make sure the URL is valid.
+Gardez à l'esprit que c'est un peu "risqué" parce que le serveur ne peut pas s'assurer que l'URL est valide.
 
-This can cause your players to be stuck on login phase if the URL is not valid or if OneDrive doesn't provide the direct download, sometimes it happens.
+Cela peut entraîner le blocage de vos joueurs lors de la phase de connexion si l'URL n'est pas valide ou si OneDrive ne fournit pas le téléchargement direct, ce qui arrive parfois.
 {% endhint %}
 
-## Continue installation if you need
+## Continuez l'installation si nécessaire
 
 {% content-ref url="../../first-install.md" %}
 [first-install.md](../../first-install.md)

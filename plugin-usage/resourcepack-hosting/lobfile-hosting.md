@@ -1,60 +1,60 @@
-# 📤 LobFile hosting
+# 📤 Hébergement LobFile
 
 {% hint style="warning" %}
-This feature requires **ItemsAdder 3.6.3** or greater.
+Cette fonctionnalité nécessite **ItemsAdder 3.6.3** ou une version ultérieure.
 {% endhint %}
 
-## Video tutorial
+## Tutoriel vidéo
 
-Soon
+Bientôt disponible
 
-## What is LobFile?
+## Qu'est-ce que LobFile ?
 
-**ItemsAdder** allows you to automatically upload your resourcepack on a **free online service** with servers all over the world.
+**ItemsAdder** vous permet de télécharger automatiquement votre resourcepack sur un **service en ligne gratuit** avec des serveurs à travers le monde.
 
-Thanks a lot to **LobFile**[ ](https://ploudos.com/it/)which provides us their platform to host files for free!
+Merci beaucoup à **LobFile**[ ](https://ploudos.com/)qui nous fournit leur plateforme pour héberger des fichiers gratuitement !
 
 {% embed url="https://lobfile.com/" %}
 
-## What are the advantages?
+## Quels sont les avantages ?
 
-* download speed
-* availability
-* security: your server IP address is not exposed
-* no high bandwidth usage
+* vitesse de téléchargement
+* disponibilité
+* sécurité : l'adresse IP de votre serveur n'est pas exposée
+* pas de consommation élevée de bande passante
 
-## I already use `self-host`, is this better?
+## J'utilise déjà `self-host`, est-ce mieux ?
 
-Depends.
+Cela dépend.
 
-It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continuously run `/iazip`, to avoid losing time (read more [here](tips-for-fastest-usage.md)).
+Il est préférable d'utiliser [self-host](resourcepack-self-hosting.md) si vous travaillez sur le resourcepack et devez exécuter continuellement `/iazip`, afin d'éviter de perdre du temps (lisez plus [ici](tips-for-fastest-usage.md)).
 
-When you've finished working on the pack you can safely start using this other hosting feature instead of `self-host`.\
-This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.
+Une fois que vous avez terminé de travailler sur le pack, vous pouvez commencer à utiliser cette autre fonctionnalité d'hébergement au lieu de `self-host`.\
+Cela réduira le trafic de votre serveur puisque le resourcepack ne sera plus hébergé sur votre serveur.
 
-If your playerbase is all from the same country you can stick with `self-host`.
+Si votre base de joueurs est principalement dans le même pays, vous pouvez rester avec `self-host`.
 
-## Setup
+## Configuration
 
-#### Step 1
+#### Étape 1
 
-Create an account on [LobFile here](https://lobfile.com/create-account).
+Créez un compte sur [LobFile ici](https://lobfile.com/create-account).
 
-#### Step 2
+#### Étape 2
 
-Open your [account settings here](https://lobfile.com/my-account) and check _**"Continuous uploading"**_
+Ouvrez vos [paramètres de compte ici](https://lobfile.com/my-account) et cochez _**"Téléchargement continu"**_
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 3
+#### Étape 3
 
-Hover the `API Key` text and copy your key.
+Survolez le texte `API Key` et copiez votre clé.
 
 <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 4
+#### Étape 4
 
-Enable `lobfile` in `config.yml` and disable all the other hosting methods.
+Activez `lobfile` dans `config.yml` et désactivez toutes les autres méthodes d'hébergement.
 
 {% code title="ItemsAdder/config.yml" %}
 ```yaml
@@ -63,7 +63,7 @@ lobfile:
 ```
 {% endcode %}
 
-Open `secret.yml` and paste your `API Key`.
+Ouvrez `secret.yml` et collez votre `API Key`.
 
 {% code title="ItemsAdder/secret.yml" %}
 ```yaml
@@ -72,21 +72,20 @@ lobfile:
 ```
 {% endcode %}
 
-#### Step 5
+#### Étape 5
 
-Run `/iazip.`
+Exécutez `/iazip.`
 
-Wait for the Privacy policy message to appear.\
-Run `/acceptprivacy` to accept the policy (will be asked only the first time).
+Attendez que le message de la politique de confidentialité apparaisse.\
+Exécutez `/acceptprivacy` pour accepter la politique (cela sera demandé uniquement la première fois).
 
-### Done
+### Terminé
 
-The **plugin** will **upload it** online **automatically**.\
-Nothing else to do, enjoy your **free automated resourcepack hosting**.
+Le **plugin** **téléversera** le resourcepack en ligne **automatiquement**.\
+Il n'y a rien d'autre à faire, profitez de votre **hébergement gratuit et automatisé de resourcepack**.
 
-## Will my resourcepack be available online to random people?
+## Mon resourcepack sera-t-il disponible en ligne pour des personnes aléatoires ?
 
-2023-12-21:\
-Your resourcepack won't be indexed on Google and won't be published in a list of resourcepacks.\
-Only people who know the link can download the pack.
-
+21-12-2023 :\
+Votre resourcepack ne sera pas indexé sur Google et ne sera pas publié dans une liste de resourcepacks.\
+Seules les personnes connaissant le lien pourront télécharger le pack.

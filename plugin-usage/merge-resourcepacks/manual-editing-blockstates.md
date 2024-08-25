@@ -1,14 +1,14 @@
 ---
-description: How to manually edit blockstates .json files
+description: Comment modifier manuellement les fichiers blockstates .json
 ---
 
-# 🔧 Manual editing blockstates
+# 🔧 Édition manuelle des blockstates
 
 {% hint style="warning" %}
-This breaks the purpose of ItemsAdder which is to avoid editing certain files manually.\
-Do it at your own risk.
+Cela va à l'encontre de l'objectif d'ItemsAdder, qui est d'éviter la modification manuelle de certains fichiers.\
+Faites-le à vos risques et périls.
 {% endhint %}
 
-You can manually edit blockstates json files, in order to do that you can create a custom content folder and put your edited blockstates inside.
+Vous pouvez modifier manuellement les fichiers json des blockstates. Pour ce faire, vous pouvez créer un dossier de contenu personnalisé et y placer vos blockstates modifiés.
 
-**ItemsAdder** will automatically merge any blockstate `.json` file found in the various contents folders with the **ItemsAdder** custom blocks (if you created any).
+**ItemsAdder** fusionnera automatiquement tout fichier `.json` de blockstate trouvé dans les différents dossiers de contenu avec les blocs personnalisés **ItemsAdder** (si vous en avez créé).

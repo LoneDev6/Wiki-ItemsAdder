@@ -1,24 +1,24 @@
 ---
-description: /ia command menu
+description: Menu de la commande /ia
 ---
 
-# 📃 Recipes menu
+# 📃 Menu des recettes
 
-## Menu settings and "All" category
+## Paramètres du menu et catégorie "Tous"
 
-`ia_gui.yml` contains settings about the `/ia` command GUI.\
-It also contains the **"all"** category which shows every ItemsAdder item.
+Le fichier `ia_gui.yml` contient les paramètres pour l'interface graphique de la commande `/ia`.\
+Il contient également la catégorie **"all"** qui affiche tous les articles d'ItemsAdder.
 
 {% hint style="info" %}
-Default ItemsAdder pack categories are inside `categories.yml` files on each `namespace` folder.\
-For example: `contents/iasurvival/configs/categories.yml`
+Les catégories par défaut d'ItemsAdder se trouvent dans les fichiers `categories.yml` dans chaque dossier `namespace`.\
+Par exemple : `contents/iasurvival/configs/categories.yml`
 {% endhint %}
 
-## Creating a custom category
+## Création d'une catégorie personnalisée
 
-If you want to create your own category you have to create and add it to your own `.yml` file in your [namespace](broken-reference).\
-<mark style="color:red;">Do not add your categories into the</mark> <mark style="color:red;"></mark><mark style="color:red;">`ia_gui.yml`</mark> <mark style="color:red;"></mark><mark style="color:red;">file!</mark>\
-This is an example:
+Si vous souhaitez créer votre propre catégorie, vous devez la créer et l'ajouter à votre propre fichier `.yml` dans votre [namespace](broken-reference).\
+<mark style="color:red;">Ne pas ajouter vos catégories dans le fichier</mark> <mark style="color:red;"></mark><mark style="color:red;">`ia_gui.yml`</mark> <mark style="color:red;"></mark><mark style="color:red;">!</mark>\
+Voici un exemple :
 
 ```yaml
 info:
@@ -27,13 +27,13 @@ categories:
   swords:
     enabled: true
     icon: "my_items:custom_item"
-    name: 'Swords'
+    name: 'Épées'
     permission: "ia.menu.seecategory.swords"
-    # THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    # CECI EST OPTIONNEL. Le plugin prendra celui dans ia_gui.yml si non défini.
     font_image:
       name: "mcguis:blank_menu"
       x_position_pixels: -16
-    # THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    # CECI EST OPTIONNEL. Le plugin prendra celui dans ia_gui.yml si non défini.
     title_position_pixels: 0
     items:
       - "my_items:custom_item"
@@ -41,30 +41,30 @@ categories:
       - "my_items:custom_item_3"
 ```
 
-Remember to give your users permission for each category if you want them to see the categories.\
-This example category permission is: `ia.menu.seecategory.swords`
+N'oubliez pas de donner à vos utilisateurs la permission pour chaque catégorie s'ils doivent la voir.\
+La permission de la catégorie exemple est : `ia.menu.seecategory.swords`
 
 {% hint style="info" %}
-**`font_image` and `title_position_pixels` are optional.**\
-Plugin will take the one in `ia_gui.yml` if not set.
+**`font_image` et `title_position_pixels` sont optionnels.**\
+Le plugin prendra ceux définis dans `ia_gui.yml` s'ils ne sont pas définis ici.
 
-This option is good if you want to have a different background for each category.
+Cette option est utile si vous souhaitez avoir un arrière-plan différent pour chaque catégorie.
 {% endhint %}
 
 {% hint style="success" %}
-**Categories** with the **same name** and different namespace **will be merged**, this is **helpful** if you have two "swords" categories.\
-This allows you to open **`/ia`** menu and see all swords organized in the same category instead of having 2 swords categories.
+**Les catégories** avec le **même nom** et des namespaces différents **seront fusionnées**, ce qui est **utile** si vous avez deux catégories "épées"..\
+Cela vous permet d'ouvrir le menu **`/ia`** et de voir toutes les épées organisées dans la même catégorie au lieu d'avoir deux catégories d'épées.
 {% endhint %}
 
-## Add bulk items to categories
+## Ajouter des éléments en masse aux catégories
 
 {% hint style="warning" %}
-Requires ItemsAdder 3.5.1 or greater.
+Nécessite ItemsAdder 3.5.1+.
 {% endhint %}
 
 ### Wildcard
 
-Matches any item which has `example` namespace.
+Correspond à tout élément ayant le namespace `example`.
 
 ```yml
 categories:
@@ -78,7 +78,7 @@ categories:
       - example:*
 ```
 
-Matches any namespace which has `some_item` item.
+Correspond à tout namespace ayant l'item `some_item`.
 
 ```yml
 categories:
@@ -90,12 +90,12 @@ categories:
     permission: ia.menu
 ```
 
-### Regex (advanced users)
+### Regex (utilisateurs avancés)
 
-Matches any armor item of the `iasurvival` namespace.
+Correspond à tout élément d'armure du namespace `iasurvival`.
 
 {% hint style="info" %}
-Use [this website](https://regex101.com/) to test your regex.
+Utilisez [ce site web](https://regex101.com/) pour tester votre regex.
 {% endhint %}
 
 ```yml

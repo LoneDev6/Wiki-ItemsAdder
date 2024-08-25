@@ -1,64 +1,64 @@
-# Translate this wiki
+# Traduire ce wiki
 
-## How to translate this wiki?
+## Comment traduire ce wiki ?
 
-### Getting a new branch for your language
+### Obtenir une nouvelle branche pour votre langue
 
-Contact LoneDev and ask him to create a **new branch** for your language.\
-Feel free to ping **LoneDev** on the Discord or to open a support ticket in the community channel.
+Contactez LoneDev et demandez-lui de créer une **nouvelle branche** pour votre langue.\
+N'hésitez pas à mentionner **LoneDev** sur Discord ou à ouvrir un ticket de support dans le salon de la communauté.
 
-### Setting up your repository
+### Configurer votre dépôt
 
-Then, after the branch creation, open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
+Ensuite, après la création de la branche, ouvrez le [**repo Github**](https://github.com/LoneDev6/Wiki-ItemsAdder) de ce wiki, et cliquez sur **`Fork`**.
 
 ![](<../.gitbook/assets/image (99) (1).png>)
 
-Untick this option!
+Décochez cette option !
 
 <figure><img src="../.gitbook/assets/image (2) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-Click here to change the branch.
+Cliquez ici pour changer la branche.
 
 {% hint style="warning" %}
-DO NOT EDIT THE `master` BRANCH!
+NE MODIFIEZ PAS LA BRANCHE `master` !
 {% endhint %}
 
 ![](<../.gitbook/assets/image (94).png>)
 
-Select a file you want to edit and press the **pen** button
+Sélectionnez un fichier que vous souhaitez éditer et appuyez sur le bouton **stylo**
 
 ![](<../.gitbook/assets/image (63).png>)
 
-Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
+Éditez le fichier, puis appuyez sur <mark style="color:green;">**Commit changes**</mark>
 
 ![](<../.gitbook/assets/image (76) (1).png>)
 
 {% hint style="warning" %}
-## Important notes
+## Notes importantes
 
-* Do not add content or new pages, only translate texts.
-* The only content you can add is a "translated by" text in the welcome page.
-* Do not remove the `#` special characters, translate only the next text, these are titles.
-* Do not remove or edit special texts inside `{ }`, for example `{% hint style="info" %}`, these are used to create the hint message boxes.
-* Do not remove `*` character, these are used to create lists
-* Do not remove emojis
-* Do not translate or remove the `--- description: ---` text on top of some pages, translate only the inner text.
-* Do not remove `\` on some lines end
-* Do not remove `[TEXT](LINK)` part, translate only the text, these are the clickable links.
+* N'ajoutez pas de contenu ni de nouvelles pages, traduisez uniquement les textes.
+* Le seul contenu que vous pouvez ajouter est un texte "traduit par" sur la page d'accueil.
+* Ne supprimez pas les caractères spéciaux `#`, traduisez uniquement le texte qui suit, ce sont des titres.
+* Ne supprimez pas et ne modifiez pas les textes spéciaux à l'intérieur des `{ }`, par exemple `{% hint style="info" %}`, ceux-ci sont utilisés pour créer les boîtes de messages d'astuces.
+* Ne supprimez pas les caractères `*`, ceux-ci sont utilisés pour créer des listes.
+* Ne supprimez pas les emojis.
+* Ne traduisez pas ou ne supprimez pas le texte `--- description: ---` en haut de certaines pages, traduisez uniquement le texte intérieur.
+* Ne supprimez pas les `\` à la fin de certaines lignes.
+* Ne supprimez pas la partie `[TEXT](LIEN)`, traduisez uniquement le texte, ce sont des liens cliquables.
 {% endhint %}
 
-### Example of what you _<mark style="color:red;">must not</mark>_ edit
+### Exemple de ce que vous ne _<mark style="color:red;">devez pas</mark>_ modifier
 
 ![](<../.gitbook/assets/image (80).png>)
 
-### Last step
+### Dernière étape
 
-Contact **LoneDev** in order to get your changes reviewed and added to the wiki.\
-Feel free to ping **LoneDev** on the Discord or to open a support ticket in the community channel.
+Contactez **LoneDev** pour que vos modifications soient examinées et ajoutées au wiki.\
+N'hésitez pas à mentionner **LoneDev** sur Discord ou à ouvrir un ticket de support dans le canal de la communauté.
 
 {% hint style="info" %}
-Would be good if you update your translation each time the main repository (the one in English) gets edited, to reflect changes.\
-You can keep track of changes in the Discord notification channel.
+Il serait bien de mettre à jour votre traduction chaque fois que le repo principal (celui en anglais) est modifié, pour refléter les changements.\
+Vous pouvez suivre les modifications dans le salon de notification Discord.
 
 ![](<../.gitbook/assets/image (73).png>)
 {% endhint %}

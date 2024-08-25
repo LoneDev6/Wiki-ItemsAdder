@@ -1,27 +1,27 @@
 ---
-description: Special text animations and coloring effects
+description: Animations de texte spéciales et effets de couleur
 ---
 
-# 🎆 Text Effects
+# 🎆 Effets de texte
 
 {% hint style="warning" %}
-* **Requires Minecraft 1.17+ clients**
-* Doesn't work in [Minecraft language files](adding-content/minecraft-language-files.md) (game limitation)
-* Edits the `rendertype_text` shader files
+* **Nécessite Minecraft 1.17+**
+* Ne fonctionne pas dans les [fichiers de langue Minecraft](adding-content/minecraft-language-files.md) (limitation du jeu)
+* Modifie les fichiers de shader `rendertype_text`
 {% endhint %}
 
-## What are text effects?
+## Quels sont les effets de texte ?
 
-They are some cool decorative text effects you can use in your server to make it more professional.
+Ce sont des effets décoratifs de texte que vous pouvez utiliser sur votre serveur pour le rendre plus professionnel.
 
 {% hint style="warning" %}
-You have to run `/iazip` in order to enable/disable this feature.\
-Make sure also to enable it in the `config.yml`.
+Vous devez exécuter `/iazip` pour activer/désactiver cette fonctionnalité.\
+Assurez-vous également de l'activer dans le `config.yml`.
 
 ```yaml
 effects:
   text-effects:
-    enabled: true # This option requires /iazip when changed.
+    enabled: true # Cette option nécessite /iazip lors de son changement.
     customitem-name-and-lore:
       enabled: true
     chat:
@@ -37,20 +37,20 @@ effects:
 
 ## Permissions
 
-* Use **text-effects** in **chat**
+* Utiliser les **effets de texte** dans le **chat**
   * `ia.user.text_effect.chat`
-* Use **text-effects** in **signs**
+* Utiliser les **effets de texte** sur les **pancartes**
   * `ia.user.text_effect.sign`
-* Use **text-effects** in **books**
+* Utiliser les **effets de texte** dans les **livres**
   * `ia.user.text_effect.book`
-* Use **text-effects** in **anvil** rename field
+* Utiliser les **effets de texte** dans le champ "renommer" des **enclumes**
   * `ia.user.text_effect.anvil`
-* Use a **text-effect**
+* Utiliser un **effet de texte**
   * `ia.user.text_effect.use.<effect>`
 
-## List of effects
+## Liste des effets
 
-### Rainbow
+### Arc-en-ciel
 
 ![](../.gitbook/assets/rainbow.gif)
 
@@ -61,18 +61,18 @@ effects:
 ![](../.gitbook/assets/rainbow\_item.gif)
 
 Permission: `ia.user.text_effect.use.r`\
-Usage: `<r text>`
+Utilisation: `<r text>`
 
-### Wobble
+### Vague
 
 ![](../.gitbook/assets/wobble.gif)
 
 ![](../.gitbook/assets/wobble\_item.gif)
 
 Permission: `ia.user.text_effect.use.w`\
-Usage: `<w text>`
+Utilisation: `<w text>`
 
-### Jump
+### Saut
 
 ![](../.gitbook/assets/jump\_chat.gif)
 
@@ -81,36 +81,36 @@ Usage: `<w text>`
 ![](../.gitbook/assets/jump\_boss.gif)
 
 Permission: `ia.user.text_effect.use.j`\
-Usage: `<j text>`
+Utilisation: `<j text>`
 
-### Rainbow + Wobble
+### Arc-en-ciel + Vague
 
 ![](../.gitbook/assets/rw\_chat.gif)
 
 Permission: `ia.user.text_effect.use.rw`\
-Usage: `<rw text>`
+Utilisation: `<rw text>`
 
-### Rainbow + Jump
+### Arc-en-ciel + Saut
 
 ![](../.gitbook/assets/rj.gif)
 
 Permission: `ia.user.text_effect.use.rj`\
-Usage: `<rj text>`
+Utilisation: `<rj text>`
 
-## Where can I use these effects?
+## Où puis-je utiliser ces effets ?
 
-* Custom item name (in the .yml file)
-* Custom item lore (in the .yml file)
+* Nom d'objet personnalisé (dans le fichier .yml)
+* Description d'objet personnalisé (dans le fichier .yml)
 * Chat
-* Sign
-* Book
+* Pancarte
+* Livre
 * Bossbar
-* Prefix-Suffix (Luckperms for example)
-* _More soon...._
+* Préfixe/Suffixe (par exemple avec Luckperms)
+* _Bientôt plus...._
 
 ![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
-## How to create animated prefix (Luckperms)
+## Comment créer un préfixe animé (Luckperms)
 
 ![](../.gitbook/assets/image\_\(133\).png)
 
@@ -118,76 +118,76 @@ Usage: `<rj text>`
 
 ![](../.gitbook/assets/prefix.gif)
 
-Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
+Cliquez ici pour lire les [Tutos officiels de LuckPerms](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) si vous ne savez pas comment fonctionne les préfixes.
 
-## Using text effects without the placeholders
+## Utiliser les effets de texte sans les placeholders
 
-For some reason if you want to use text effects on areas which don't support ItemsAdder placeholders (like `<r TEXT>`) you can use another method.
+Si, pour une raison quelconque, vous souhaitez utiliser des effets de texte dans des zones qui ne prennent pas en charge les placeholders d'ItemsAdder (comme `<r TEXT>`), vous pouvez utiliser une autre méthode.
 
-These effects are triggered based on a **special HEX color**.\
-So if the area where you want to show a text effect supports HEX colors you can do that.
+Ces effets sont déclenchés en fonction d'**une couleur HEX spéciale**.\
+Donc, si la zone où vous souhaitez afficher un effet de texte prend en charge les couleurs HEX, vous pouvez le faire.
 
-### Special colors
+### Couleurs spéciales
 
-#### Rainbow
+#### Arc-en-ciel
 
 `#FFFFFE`
 
-#### Wobble
+#### Vague
 
 `#FFFFFD`
 
-#### Jump
+#### Saut
 
 `#FFFFFB`
 
-#### Rainbow + Wobble
+#### Arc-en-ciel + Vague
 
 `#FFFFFC`
 
-#### Rainbow + Jump
+#### Arc-en-ciel + Saut
 
 `#FFFEFE`
 
-### Using them in Minecraft vanilla JSON notation
+### Utilisation dans la notation JSON vanilla de Minecraft
 
-This triggers the rainbow effect:\
-`/tellraw @a {"text":"custom text example", "color":"#FFFFFE"}`
+Cela déclenche l'effet arc-en-ciel :\
+`/tellraw @a {"text":"exemple de texte personnalisé", "color":"#FFFFFE"}`
 
-Replace `FFFFFE` with the effect you want.
+Remplacez `FFFFFE` par l'effet que vous souhaitez.
 
-### Using them in plugins which support _MiniMessage_
+### Utilisation dans les plugins qui supportent _MiniMessage_
 
 {% embed url="https://docs.advntr.dev/minimessage/format.html#color" %}
 
-(for example ItemsAdder itself and [ChatFormatter](https://www.spigotmc.org/resources/102212/))
+(par exemple ItemsAdder lui-même et [ChatFormatter](https://www.spigotmc.org/resources/102212/))
 
-This triggers the rainbow effect: `<#FFFFFE>custom text example`
+Cela déclenche l'effet arc-en-ciel : `<#FFFFFE>exemple de texte personnalisé`
 
-Replace `FFFFFE` with the effect you want.
+Remplacez `FFFFFE` par l'effet que vous souhaitez.
 
-### Using them in plugins which support legacy HEX notation
+### Utilisation dans les plugins qui supportent la notation HEX legacy
 
-#### Rainbow
+#### Arc-en-ciel
 
 `&X&F&F&F&F&F&E`
 
-#### Wobble
+#### Vague
 
 `&X&F&F&F&F&F&D`
 
-#### Jump
+#### Saut
 
 `&X&F&F&F&F&F&B`
 
-#### Rainbow + Wobble
+#### Arc-en-ciel + Vague
 
 `&X&F&F&F&F&F&C`
 
-#### Rainbow + Jump
+#### Arc-en-ciel + Saut
 
 `&X&F&F&F&F&F&E`
 
-This was tested on [EpicRename](https://www.spigotmc.org/resources/epicrename.4341/) and should work in any plugin or place where Spigot handles the colors replacement using its own legacy colors code.
+Cela a été testé sur [EpicRename](https://www.spigotmc.org/resources/epicrename.4341/) et devrait fonctionner dans tout plugin ou endroit où Spigot gère le remplacement des couleurs en utilisant son propre code de couleurs legacy.
 
-Example: `/rename &x&F&F&F&F&F&ETest`
+Exemple: `/rename &x&F&F&F&F&F&ETest`

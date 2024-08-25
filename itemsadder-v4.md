@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Maintaining compatibility for 6 versions of the game became a very hard task which is impacting too much over the quality of the product and its updates release delay.
+Maintenir une compatibilité pour 6 versions du jeu est devenu une tache vraiment compliquée qui impactait trop la qualité du produit et ses delais de mise à jour.
 
-I decided to discard compatibility for 1.15 to 1.20.4 in favor of a better 1.20.5+ experience.
+J'ai décidé d'arrêter la compatibilité pour les versions de la 1.15 à la 1.20.4 en faveur d'une meilleure expérience avec la 1.20.5+
 
-## What the community thinks
+## Ce que la communauté en pense
 
-The Discord community has voted to discard old versions compatibility, so this decision wasn't taken completely out of nowhere.
+La communauté Discord a voté pour arrêter la compatibilité avec les anciennes versions, donc cette décision ne viens pas de nulle part.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -16,37 +16,40 @@ The Discord community has voted to discard old versions compatibility, so this d
 
 ## ViaVersion madness
 
-ViaVersion is a cancer if used incorrectly. The purpose of ViaVersion was to be able to allow clients to connect to a multi-version lobby where players can decide which server they want to join.
+ViaVersion est un cancer s'il est utilisé incorrectement. Le but de ViaVersion était de permettre aux clients de se connecter à un lobby multi-version où les joueurs peuvent décider quel serveur ils souhaitent rejoindre.
 
-Each server has its own version, for example, survival is 1.20.5 and PVP is 1.8. This allows people to connect to the same lobby server which is the main hub of the server community.
+Chaque serveur a sa propre version, par exemple, le serveur de survie est en 1.20.5 et le serveur PVP est en 1.8. Cela permet aux gens de se connecter au même serveur de lobby qui est le hub principal de la communauté du serveur.
 
-Server admins abuse this power to allow players to play on survival servers by joining via 1.8, 1.9, 1.13, 1.18, 1.20 on 1.20.x servers. This causes multiple incompatibilities, instabilities, bugs, glitches to happen.\
-The reason for this to happen is because clients (and servers) had A TON of changes between their versions, most of them are crucial.
+Les administrateurs de serveurs abusent de ce pouvoir en permettant aux joueurs de jouer sur des serveurs survie en se connectant via les versions 1.8, 1.9, 1.13, 1.18, 1.20 sur des serveurs en 1.20.x. Cela cause de multiples incompatibilités, instabilités, bugs, et glitches.
+La raison pour laquelle cela se produit est que les clients (et serveurs) ont subi ÉNORMÉMENT de changements entre leurs versions, dont la plupart sont cruciaux.
 
-Expecting a flawless gameplay is impossible because of how many changes were introduced between versions.
+S'attendre à un gameplay sans faille est impossible en raison du nombre de changements introduits entre les versions.
 
-A clear example of a successful server which allows only one version to join is [OriginRealms](https://originrealms.com) which is one of the most customized Minecraft multiplayer survival experience, no one can tell the opposite.
+Un exemple clair d'un serveur réussi qui permet uniquement une version de se connecter est [OriginRealms](https://originrealms.com/), qui est l'une des expériences de survie multijoueur Minecraft les plus personnalisées, personne ne peut dire le contraire.
 
-I don't see any reason to continue this nonsense of expecting gameplay to be stable while allowing ancient versions of the game to join your server, or worse, keep an old version of the server and allow new client versions to join.
+Je ne vois aucune raison de continuer cette absurdité d'attendre un gameplay stable tout en permettant à d'anciennes versions du jeu de se connecter à votre serveur, ou pire, de maintenir une ancienne version du serveur et de permettre aux nouvelles versions des clients de se connecter.
 
-ItemsAdder has tons of hacks coded to check client version and server version and then enable some special fixes to avoid crashes/glitches (let's say) on 1.18 clients joining 1.20 servers. I want to stop having to maintain this kind of tricks which are unstable and introduce nothing but stress to both me and the customer.
+ItemsAdder a des tonnes d'astuces codées pour vérifier la version du client et la version du serveur, puis activer des correctifs spéciaux pour éviter les crashs/glitches (disons) sur les clients 1.18 qui se connectent à des serveurs 1.20. Je veux arrêter d'avoir à maintenir ce genre de trucs qui sont instables et n'introduisent rien d'autre que du stress pour moi et pour le client.
 
-So please, consider to stop allowing multiple versions to join your survival/gamemode server.
+Alors s'il vous plaît, envisagez d'arrêter de permettre à plusieurs versions de se connecter à votre serveur de survie/gamemode.
 
-## So why dropping old versions compatibility?
 
-* less incline to bugs due to less hacky code
-* faster updates, no need to keep 6 versions implementations updated
-* new features like [item display](https://github.com/PluginBugs/Issues-ItemsAdder/issues/2458) and some other interesting features for [itemstacks](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3536)
-* more reliable resourcepack apply process due to recent [1.20.3+ changes](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3585)
-* lot of old tricks to add old versions compatibility will be removed to make the plugin more stable
+## Donc pourquoi abandonner la compatibilité avec les anciennes versions ?
 
-## Final words
+* moins de bugs grâce à moins de code bancal
+* mises à jour plus rapides, plus besoin de maintenir à jour 6 implémentations de versions
+* nouvelles fonctionnalités comme les [item displays](https://github.com/PluginBugs/Issues-ItemsAdder/issues/2458) et d'autres fonctionnalités intéressantes pour les [itemstacks](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3536)
+* processus d'application des resourcepacks plus fiable grâce aux récents [changements en 1.20.3+](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3585)
+* beaucoup des anciennes astuces pour ajouter la compatibilité avec les vieilles versions seront supprimées pour rendre le plugin plus stable
+
+
+## Derniers mots
 
 {% hint style="info" %}
-You should really consider migrating your ancient server to 1.20.5 and stop **ab-using** ViaVersion. Players, admins and me don't get any advantage over using ViaVersion to allow multiple versions to join your server, it just introduces a ton of stress and frustration.
+Vous devriez vraiment envisager de migrer votre ancien serveur vers la version 1.20.5 et arrêter **d'ab-user** de ViaVersion. Les joueurs, les administrateurs, et moi-même n'obtenons aucun avantage à utiliser ViaVersion pour permettre à plusieurs versions de rejoindre votre serveur, cela ne fait qu'introduire énormément de stress et de frustration.
 {% endhint %}
 
 {% hint style="success" %}
 Old versions will still be downloadable so you can keep using legacy ItemsAdder versions and don't update to the new versions.
+Les anciennes versions seront toujours téléchargeables donc vous pouvez continuer d'utiliser l'"ancien" ItemsAdder et ne pas mettre à jour vers les nouvelles versions.
 {% endhint %}

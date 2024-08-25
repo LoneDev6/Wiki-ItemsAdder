@@ -1,44 +1,44 @@
 # 📤 Google Drive (1.17.1+)
 
-## How to use Google Drive
+## Comment utiliser Google Drive
 
 {% hint style="warning" %}
-This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
+Cette méthode présente des problèmes sur certains PC dans les versions de Minecraft avant 1.17 en raison d'un bug de Minecraft. En savoir plus ici : [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+Cette méthode fonctionne à 100 % avec Minecraft 1.17.1 et les versions les plus récentes.
 {% endhint %}
 
-### Step 1
+### Étape 1
 
-Rightclick on your resourcepack zip file and press "Get link"
+Cliquez avec le bouton droit sur votre fichier zip de pack de ressources et appuyez sur "Obtenir le lien"
 
 ![](<../../.gitbook/assets/image\_(153) (1).png>)
 
-### Step 2
+### Étape 2
 
-Important: set the permission to "Anyone with the link"
+Important : définissez la permission sur "Toute personne ayant le lien"
 
 ![](../../.gitbook/assets/image\_\(145\).png)
 
-Press "Copy link"
+Appuyez sur "Copier le lien"
 
 ![](../../.gitbook/assets/image\_\(149\).png)
 
-### Step 3
+### Étape 3
 
-Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
+Visitez ce site : [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
 
-Paste the link and press on "Get direct link"
+Collez le lien et appuyez sur "Get direct link"
 
 <img src="../../.gitbook/assets/image_(144).png" alt="" data-size="original">
 
-### Step 4
+### Étape 4
 
-The website automatically adds the generated link in your clipboard.
+Le site ajoute automatiquement le lien généré dans votre presse-papiers.
 
 ![](../../.gitbook/assets/image\_\(147\).png)
 
-You can now paste the link inside **ItemsAdder** configuration file `config.yml`, then use `/iareload` command.
+Vous pouvez maintenant coller le lien dans le fichier de configuration **ItemsAdder** : `config.yml`, puis utiliser la commande `/iareload`.
 
 {% code title="config.yml" %}
 ```yaml
@@ -48,27 +48,27 @@ external-host:
 ```
 {% endcode %}
 
-### Done!
+### C'est fait !
 
-You can now see that the pack is correctly loaded by the game.
+Vous pouvez maintenant voir que le pack est correctement chargé par le jeu.
 
-## Common issues
+## Problèmes courants
 
-### Long time on "Making Request... 100%"
+### Longtemps sur "En cours de demande... 100%"
 
 ### ![](../../.gitbook/assets/image\_\(141\).png)
 
-This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
+C'est normal. Cela se produit parce que Google Drive fait certaines opérations avant d'autoriser le téléchargement du pack de ressources.
 
-This happens only when the player downloads the resourcepack for the first time and it will take from 5 to 10 seconds.
+Cela se produit uniquement lorsque le joueur télécharge le pack de ressources pour la première fois et cela prendra de 5 à 10 secondes.
 
-### Resourcepack not loading at all
+### Pack de ressources ne se charge pas du tout
 
-This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
+Cette méthode présente des problèmes sur certains PC dans les versions de Minecraft avant 1.17 en raison d'un bug de Minecraft. En savoir plus ici : [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+Cette méthode fonctionne à 100 % dans Minecraft 1.17.1 et les versions les plus récentes.
 
-## Continue installation if you need
+## Continuez l'installation si nécessaire
 
 {% content-ref url="../../first-install.md" %}
 [first-install.md](../../first-install.md)

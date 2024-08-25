@@ -1,23 +1,23 @@
-# 🔢 Custom player stats
+# 🔢 Statistiques de joueur personnalisées
 
-## What are player stats?
+## Qu'est-ce que les statistiques des joueurs ?
 
-They custom attributes added by ItemsAdder, you can add and read them using a special command: `/iaplayerstat`
+Ce sont des attributs personnalisés ajoutés par ItemsAdder. Vous pouvez les ajouter et les lire en utilisant une commande spéciale : `/iaplayerstat`.
 
-You can then use **PlaceholderAPI** to show them anywhere or bind them to a HUD.\
-I did that to create thirst and mana. Check my [default configs](https://github.com/search?q=repo%3AItemsAdder%2FDefaultPack+player\_stat\_name\&type=code) for examples.
+Vous pouvez ensuite utiliser **PlaceholderAPI** pour les afficher n'importe où ou les lier à un HUD.\
+J'ai utilisé cela pour créer la soif et la mana. Consultez mes [configs par défaut](https://github.com/search?q=repo%3AItemsAdder%2FDefaultPack+player_stat_name&type=code) pour des exemples.
 
-### Example:&#x20;
+### Exemple :
 
 `/iaplayerstat write LoneDev thirst 6`\
 `/iaplayerstat read LoneDev thirst float`
 
-## Saving player stats
+## Sauvegarde des statistiques des joueurs
 
-### Custom NBT file
+### Fichier NBT personnalisé
 
-Saving them into a custom NBT file handled by ItemsAdder which can be later deleted easily.\
-This file is saved into `plugins\ItemsAdder\storage\players\stats\` folder.
+Les statistiques sont sauvegardées dans un fichier NBT personnalisé géré par ItemsAdder, qui peut être supprimé facilement par la suite.\
+Ce fichier est sauvegardé dans le dossier `plugins\ItemsAdder\storage\players\stats\`.
 
 ```yaml
 player_stats:
@@ -26,10 +26,10 @@ player_stats:
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-### player.dat file
+### Fichier player.dat
 
-Saving them into the vanilla `player.dat` file.\
-This is useful if you want to sync your server and you already sync the player dat files.
+Les sauvegarder dans le fichier `player.dat` vanilla.\
+C'est utile si vous voulez synchroniser votre serveur et que vous synchronisez deja ce fichier.
 
 ```yaml
 player_stats:
