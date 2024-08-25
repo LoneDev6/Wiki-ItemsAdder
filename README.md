@@ -1,12 +1,12 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+description: Ce site vous aide à configurer et créer des items personnalisés pour mon plugin
 ---
 
-# 👋 Welcome
+# 👋 Bienvenue
 
-Some of this website pages may contain affiliate links, meaning I get a commission if you decide to make a purchase (at no cost to you).
+Certaines pages de ce site pourraient contenir des liens affiliés, cela veut dire que je gagne une commission si vous décider de faire un achat à partir de ces liens (sans surcoût pour vous).
 
-### 💠Quick Links
+### 💠 Liens Rapides
 
 {% content-ref url="other/tos.md" %}
 [tos.md](other/tos.md)
@@ -20,28 +20,29 @@ Some of this website pages may contain affiliate links, meaning I get a commissi
 [adding-content](plugin-usage/adding-content/)
 {% endcontent-ref %}
 
-### 🌐Social Media
+### 🌐 Réseaux Sociaux
 
 * [Patreon](http://patreon.com/lonedev)
 * [Ko-fi](http://a.devs.beer/kofi)
 * [YouTube](http://youtube.com/lonedev)
 * [SpigotMC](https://www.spigotmc.org/members/lonedev.88296/#resources)
-* [Website](https://www.matteodev.it/)
-* [Steam Developer Page](https://store.steampowered.com/developer/LoneDev/)
+* [Site](https://www.matteodev.it/)
+* [Page de développeur Steam](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-## Purchase
+## Achat
 
 {% hint style="warning" %}
 Buy the plugin only from official shops, if you bought it elsewhere you were scammed, ask for a refund.
+N'achetez ce plugin uniquement sur les plateformes d'achat officielles. Si vous l'avez acheté autre part, vous avez été arnaqué(e), demandez un remboursement.
 {% endhint %}
 
-### With PayPal
+### Avec PayPal
 
 * [SpigotMC](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
 * [Polymart](https://polymart.org/resource/itemsadder-custom-items-etc.1851)
 * [Builtbybit (Mc-market)](https://builtbybit.com/resources/itemsadder-emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.10839/)
 
-### Without PayPal
+### Sans PayPal
 
 * [Polymart](https://polymart.org/resource/itemsadder-custom-items-etc.1851)
