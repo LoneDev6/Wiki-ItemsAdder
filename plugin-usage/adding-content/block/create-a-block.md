@@ -396,6 +396,47 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 To add custom sounds to  your resourcepack you have to [read the sounds tutorial](../sounds/adding-sounds.md).
 {% endhint %}
 
+### `permission_suffix`
+
+This property allows you to enable permissions for the block place and block break events.\
+This setting is not specified by default because we want players to be able to break and place blocks freely.\
+Players would need explicit permissions if you specify these properties:
+
+* `ia.user.block.break.iasurvival.ruby_ore`
+* `ia.user.block.place.iasurvival.ruby_ore`
+
+```yaml
+info:
+  namespace: iasurvival
+items:
+  ruby_ore:
+    enabled: true
+    display_name: display-name-ruby_ore
+    permission: iasurvival.items.ruby_ore
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - block/ores/ruby_ore
+    specific_properties:
+      block:
+        permission_suffix:
+          break: iasurvival.ruby_ore
+          place: iasurvival.ruby_ore
+        hardness: 4
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: REDSTONE_ORE
+        cancel_drop: true
+        break_tools_blacklist:
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+```
+
 ### Use the official files editor to read all the properties
 
 {% content-ref url="../../files-editor.md" %}

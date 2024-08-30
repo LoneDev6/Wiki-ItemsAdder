@@ -183,6 +183,7 @@
     * [📈 Furniture size](plugin-usage/adding-content/furniture/furniture-size.md)
     * [⚡ Furniture execute actions](plugin-usage/adding-content/furniture/furniture-execute-actions.md)
     * [🪟 Transparent furniture](plugin-usage/adding-content/furniture/transparent-furniture.md)
+    * [🆗 Furniture permissions](plugin-usage/adding-content/furniture/furniture-permissions.md)
   * [🛢️ Fuel](plugin-usage/adding-content/fuel.md)
   * [🪖 Armors](plugin-usage/adding-content/armors/README.md)
     * [Custom simple armor](plugin-usage/adding-content/armors/custom-simple-armor.md)
