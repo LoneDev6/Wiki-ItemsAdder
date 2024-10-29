@@ -1,8 +1,12 @@
+---
+icon: faucet-drip
+---
+
 # How to download Spigot
 
 ## How to download Paper
 
-{% embed url="https://papermc.io/downloads" %}
+{% embed url="https://papermc.io/downloads/paper" %}
 
 ## How to download Purpur
 
