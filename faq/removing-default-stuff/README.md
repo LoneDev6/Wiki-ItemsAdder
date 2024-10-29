@@ -1,2 +1,0 @@
-# 🗑 Removing default stuff
-

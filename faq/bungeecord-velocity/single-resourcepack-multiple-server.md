@@ -51,7 +51,7 @@ Also remove unwanted files from `plugins/ItemsAdder/contents/` .
 
 {% hint style="danger" %}
 DONT REMOVE dictionaries, mcemojis, mcguis, mcicons, realcraft, various\_configs FOLDER.\
-Read more here: [Removing default stuff](../removing-default-stuff/)
+Read more here: [Removing default stuff](broken-reference)
 {% endhint %}
 
 You basically have to keep the folders of features you want to keep in this particular server (`lobby` in this example).

@@ -2,7 +2,7 @@
 description: How to install the plugin
 ---
 
-# ⚙ First install
+# ⚙️ First install
 
 {% hint style="info" %}
 **You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when the server is offline.\
@@ -10,11 +10,10 @@ You can upload files to your real server after you finished here.
 {% endhint %}
 
 {% hint style="danger" %}
-**Make sure** that all of your plugins and server software are up to date!\
+**Make sure** that all of your plugins and server software are up to date!\\
 
 **Always check** the version of ItemsAdder which you are downloading!\
-<mark style="color:red;">**V3 is only for 1.20.4-(lower)**</mark>
-<mark style="color:red;">**V4 is only for 1.20.6+(higher)**</mark>
+<mark style="color:red;">**V3 is only for 1.20.4-(lower)**</mark> <mark style="color:red;">**V4 is only for 1.20.6+(higher)**</mark>
 {% endhint %}
 
 ## Step 1 - Installing the plugin and libraries
@@ -28,7 +27,6 @@ You can upload files to your real server after you finished here.
 
 First step is done.
 
-
 {% hint style="warning" %}
 Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).\
 <mark style="color:red;">**DO NOT SKIP!**</mark>
@@ -40,7 +38,7 @@ Now you must complete **step 2** to configure the resourcepack (don't worry it's
 This step is important, the plugin <mark style="color:red;">**WILL NOT WORK**</mark> if you won't complete this step!
 {% endhint %}
 
-Before using the plugin you have to decide the resourcepack hosting method. \
+Before using the plugin you have to decide the resourcepack hosting method.\
 Click down here to decide an hosting method for the resourcepack (best method: `self-host`).
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
@@ -81,6 +79,6 @@ If you're on 1.17 or lower you have to change the ores generation:
 
 ### Removing default items (optional)
 
-{% content-ref url="faq/removing-default-stuff/" %}
-[removing-default-stuff](faq/removing-default-stuff/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

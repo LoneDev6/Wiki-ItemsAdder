@@ -45,10 +45,10 @@ block-updates:
 ```
 
 {% hint style="warning" %}
-### Note
+#### Note
 
 Setting `disable-tripwire-updates: true` will completely stop tripwire from updating.\
-So it can potentially cause tripwires traps to not work anymore.\
+So it can potentially cause tripwires traps to not work anymore.\\
 
 Setting `disable-noteblock-updates: true` will commit into same behaviour.\
 Which means NO UPDATES. So you will be unable to do music redstone circuit.

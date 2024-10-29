@@ -1,7 +1,7 @@
 # 🔍 Resourcepack is not loading correctly
 
 {% hint style="danger" %}
-### Please read this page CAREFULLY before asking for support.
+#### Please read this page CAREFULLY before asking for support.
 
 Most of the times the issue can be easily fixed by reading this page.
 {% endhint %}
@@ -17,7 +17,7 @@ Most of the times the issue can be easily fixed by reading this page.
 * infinite resourcepack loading glitch
 
 {% hint style="warning" %}
-### auto-external-host
+#### auto-external-host
 
 You have to change hosting method if you are still using `auto-external-host` because it doesn't work anymore.\
 [More info here](../old/old-guides/automatic-upload-hosting.md)
@@ -35,14 +35,14 @@ You have to change hosting method if you are still using `auto-external-host` be
 {% hint style="warning" %}
 Always use the Vanilla client when something is broken.\
 The log provided by the game will often be asked from support when necessary.\
-A non-bloated log is better for supporting you, and finding a solution easily.\
+A non-bloated log is better for supporting you, and finding a solution easily.\\
 {% endhint %}
 
 ### Any launcher
 
 Join the server and let the pack load.\
 Open your Minecraft GAME log file, **not server** logs.\
-It is usually located here: `%appdata%\.minecraft\logs\latest.log` \
+It is usually located here: `%appdata%\.minecraft\logs\latest.log`\
 You can clearly see which files failed to load and why, the errors are clear in most of the cases.
 
 ### Original launcher
