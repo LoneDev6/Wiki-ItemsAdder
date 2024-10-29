@@ -1,8 +1,9 @@
 ---
 description: Properties that allows customization of item graphics
+icon: file-image
 ---
 
-# 🖼 Resource
+# Resource
 
 {% hint style="danger" %}
 Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files (png) and model files (json)
@@ -90,14 +91,14 @@ You have to change it to this (`your_namespace` is your [namespace ](broken-refe
 
 ### Furniture&#x20;
 
-{% content-ref url="../furniture/transparent-furniture.md" %}
-[transparent-furniture.md](../furniture/transparent-furniture.md)
+{% content-ref url="../advanced-furniture-properties/transparent-furniture.md" %}
+[transparent-furniture.md](../advanced-furniture-properties/transparent-furniture.md)
 {% endcontent-ref %}
 
 ### Blocks
 
-{% content-ref url="../block/create-a-block.md" %}
-[create-a-block.md](../block/create-a-block.md)
+{% content-ref url="../block.md" %}
+[block.md](../block.md)
 {% endcontent-ref %}
 
 ## Manually specify custom\_model\_data

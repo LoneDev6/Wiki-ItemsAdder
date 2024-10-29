@@ -1,5 +1,9 @@
 # Manually creating font images
 
+{% hint style="warning" %}
+This is a tutorial for advanced users.
+{% endhint %}
+
 ## How to create font images manually without ItemsAdder
 
 Some servers may require font images to be created manually for various reasons, for example:

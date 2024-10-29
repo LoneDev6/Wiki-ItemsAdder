@@ -1,8 +1,9 @@
 ---
 description: Players get kicked while installing the resourcepack
+icon: plane-engines
 ---
 
-# 🥾 Kick flight on join
+# Kick flight on join
 
 ## The kick problem
 

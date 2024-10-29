@@ -1,8 +1,9 @@
 ---
 description: How to protect your resourcepack from thief
+icon: lock-keyhole
 ---
 
-# 🚨 Protect resourcepack from unzip
+# Protect resourcepack from unzip
 
 {% hint style="warning" %}
 ## Disclaimer

@@ -6,6 +6,10 @@ description: >-
 
 # Single resourcepack Bungeecord
 
+{% hint style="danger" %}
+## This tutorial is outdated, will require a rewrite.
+{% endhint %}
+
 ## Network-wide resourcepack
 
 Do you want to install ItemsAdder on multiple Spigot servers of your network?\

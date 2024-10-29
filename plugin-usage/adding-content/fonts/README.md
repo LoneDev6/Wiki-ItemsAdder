@@ -1,2 +1,6 @@
-# ✍ Fonts
+---
+icon: font
+---
+
+# Fonts
 

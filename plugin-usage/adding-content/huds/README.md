@@ -1,4 +1,8 @@
-# 🔋 HUDs
+---
+icon: crosshairs-simple
+---
+
+# HUDs
 
 In order to create custom HUDs you have 2 examples provided in ItemsAdder and they make use of every feature available.
 

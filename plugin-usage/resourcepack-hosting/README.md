@@ -1,2 +1,6 @@
-# 📷 Resourcepack hosting
+---
+icon: file-image
+---
+
+# Resourcepack hosting
 

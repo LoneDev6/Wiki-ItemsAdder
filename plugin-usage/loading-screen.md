@@ -1,4 +1,8 @@
-# 🔃 Loading screen
+---
+icon: spinner
+---
+
+# Loading screen
 
 ## Customization of the loading screen
 
@@ -14,7 +18,7 @@ For now it doesn't allow inserting custom logo but only changing colors and hidi
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-## Customization of the loading screen using Optifine
+## Customization of the loading screen using Optifine (old method)
 
 If you want you can use Optifine and customize the screen with custom images.
 

@@ -1,4 +1,8 @@
-# 📔 Languages
+---
+icon: earth-americas
+---
+
+# Languages
 
 ### Currently available languages
 

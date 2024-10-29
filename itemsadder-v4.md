@@ -1,4 +1,8 @@
-# ⚡ ItemsAdder v4
+---
+icon: bolt-lightning
+---
+
+# ItemsAdder v4
 
 ## Introduction
 

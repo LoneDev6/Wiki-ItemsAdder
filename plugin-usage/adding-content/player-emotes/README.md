@@ -1,8 +1,9 @@
 ---
 description: Adding animated player emotes
+icon: person-walking
 ---
 
-# 💃 Player Emotes
+# Player Emotes
 
 {% hint style="warning" %}
 This method requires **Minecraft 1.17+ clients.**\

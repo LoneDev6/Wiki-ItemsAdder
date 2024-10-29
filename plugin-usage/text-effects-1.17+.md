@@ -1,8 +1,9 @@
 ---
 description: Special text animations and coloring effects
+icon: italic
 ---
 
-# 🎆 Text Effects
+# Text Effects
 
 {% hint style="warning" %}
 * **Requires Minecraft 1.17+ clients**

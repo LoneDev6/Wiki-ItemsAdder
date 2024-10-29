@@ -1,4 +1,8 @@
-# 📎 Custom item NBT
+---
+icon: binary
+---
+
+# Custom item NBT
 
 ## Adding custom NBT attributes to the item
 

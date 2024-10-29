@@ -1,4 +1,8 @@
-# ™ Branding
+---
+icon: trademark
+---
+
+# Branding
 
 ## Download branding assets
 

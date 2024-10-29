@@ -1,3 +1,7 @@
+---
+icon: head-side
+---
+
 # Citizens NPC doesn't rotate head
 
 This is a known issue and seems to happen only on 1.19+ with the latest version of Citizens.\

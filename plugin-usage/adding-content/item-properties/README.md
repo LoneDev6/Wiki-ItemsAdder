@@ -1,2 +1,6 @@
-# 📜 Item properties
+---
+icon: list-check
+---
+
+# Item properties
 

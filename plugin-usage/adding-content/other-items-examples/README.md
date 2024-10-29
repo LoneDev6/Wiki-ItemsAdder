@@ -1,2 +1,6 @@
-# ⛏ Example items
+---
+icon: sword
+---
+
+# Other items examples
 

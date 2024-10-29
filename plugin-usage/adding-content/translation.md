@@ -1,4 +1,8 @@
-# 📚 Translate
+---
+icon: earth-americas
+---
+
+# Translate
 
 ## Translation supports:
 

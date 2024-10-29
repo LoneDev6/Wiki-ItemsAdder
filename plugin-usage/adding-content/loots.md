@@ -1,4 +1,8 @@
-# 🎁 Loots
+---
+icon: tent-arrows-down
+---
+
+# Loots
 
 Loots can be used to specify when to drop a particular item.
 
@@ -313,13 +317,15 @@ How to assign `PLAYER_HEAD` with texture as drop.
 
 Create a new custom item for the player head to drop.
 
-1.  create new file (name of mine is `playerheads.yml`), where we set `nbt` to set texture which can be found on [minecraft-heads.com](https://minecraft-heads.com)
+1. create new file (name of mine is `playerheads.yml`), where we set `nbt` to set texture which can be found on [minecraft-heads.com](https://minecraft-heads.com)
 
-    {% hint style="warning" %}
-    `skull` can be set to what you want
-    {% endhint %}
-2. material must be `PLAYER_HEAD`
-3. set the vanilla `model_path`
+{% hint style="warning" %}
+```
+`skull` can be set to what you want
+```
+{% endhint %}
+
+2\. material must be \`PLAYER\_HEAD\` 3. set the vanilla \`model\_path\`
 
 ```yml
 info:

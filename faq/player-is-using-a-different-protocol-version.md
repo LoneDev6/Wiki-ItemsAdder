@@ -1,3 +1,7 @@
+---
+icon: diamond-exclamation
+---
+
 # Player is using a different protocol version
 
 `'Player' is using a different protocol version of the game (x) than the server (x).`

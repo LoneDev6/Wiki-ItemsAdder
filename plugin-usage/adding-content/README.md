@@ -1,2 +1,6 @@
-# 🎨 Adding content
+---
+icon: file-plus
+---
+
+# Adding content
 

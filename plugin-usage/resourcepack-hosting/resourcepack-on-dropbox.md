@@ -1,4 +1,4 @@
-# 📤 DropBox
+# DropBox
 
 ## Text tutorial
 

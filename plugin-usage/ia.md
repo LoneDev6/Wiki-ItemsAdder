@@ -1,8 +1,9 @@
 ---
 description: /ia command menu
+icon: square-list
 ---
 
-# 📃 Recipes menu
+# Recipes menu
 
 ## Menu settings and "All" category
 

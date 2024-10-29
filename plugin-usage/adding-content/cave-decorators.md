@@ -1,4 +1,8 @@
-# 🪨 Cave decorators
+---
+icon: mountains
+---
+
+# Cave decorators
 
 ## Generate decorations in caves
 
@@ -73,6 +77,6 @@ As you can see I set some properties:
 
 Now you just have to create the block following the tutorial. You can use `REAL_NOTE`, `REAL_WIRE` `REAL_TRANSPARENT` and `REAL` blocks, depends on your needs.
 
-{% content-ref url="block/create-a-block.md" %}
-[create-a-block.md](block/create-a-block.md)
+{% content-ref url="block.md" %}
+[block.md](block.md)
 {% endcontent-ref %}

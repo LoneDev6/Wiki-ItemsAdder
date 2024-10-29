@@ -1,4 +1,4 @@
-# 📥 Self hosting
+# Self hosting
 
 ## Video tutorial
 

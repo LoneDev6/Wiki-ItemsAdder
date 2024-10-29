@@ -1,4 +1,8 @@
-# 👁 I see crisp textures far away!
+---
+icon: braille
+---
+
+# I see crisp textures far away!
 
 {% hint style="warning" %}
 If you see dotted and not smooth textures in far away it's a common mistake of resourcepacks maker.\

@@ -1,4 +1,8 @@
-# 🌈 Colored texts
+---
+icon: fill-drip
+---
+
+# Colored texts
 
 {% hint style="warning" %}
 * Requires Minecraft 1.16+ (client) and ItemsAdder 3.5.1+

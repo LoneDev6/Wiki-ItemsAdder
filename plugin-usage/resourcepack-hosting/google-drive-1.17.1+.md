@@ -1,4 +1,4 @@
-# 📤 Google Drive (1.17.1+)
+# Google Drive (1.17.1+)
 
 ## How to use Google Drive
 

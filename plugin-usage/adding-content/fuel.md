@@ -1,4 +1,8 @@
-# 🛢 Fuel
+---
+icon: gas-pump
+---
+
+# Fuel
 
 ## Creating the item
 

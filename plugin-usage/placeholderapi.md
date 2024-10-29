@@ -1,4 +1,8 @@
-# 📎 Special placeholders
+---
+icon: hashtag
+---
+
+# Special placeholders
 
 ## PlaceholderAPI
 

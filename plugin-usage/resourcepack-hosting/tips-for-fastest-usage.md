@@ -1,4 +1,8 @@
-# ⚡ Tips for fastest usage
+---
+icon: person-running-fast
+---
+
+# Tips for fastest usage
 
 ## It takes too much time to edit the pack and upload it online!
 
@@ -31,7 +35,7 @@ resource-pack:
 Doing this you'll have a fast and easy to use configuration environment.\
 You can add items and edit the pack on the fly.
 
-When you edit an item texture/model and you edit its configuration you will use command  `/iazip` .\
+When you edit an item texture/model and you edit its configuration you will use command `/iazip` .\
 By doing this you'll see changes applied at real-time.
 
 So after you finished adding items and configuring them you'll be able to upload everything on your online server to mirror the changes.

@@ -1,4 +1,8 @@
-# ⚡ Events
+---
+icon: arrow-progress
+---
+
+# Events
 
 ## Use the official files editor to read all the properties
 
@@ -68,8 +72,7 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 
 ### EXAMPLE
 
-Why is it written like `interact (dot) right`?
-Below is a small example of how to correctly write it into your item config.
+Why is it written like `interact (dot) right`? Below is a small example of how to correctly write it into your item config.
 
 ```yaml
 ...

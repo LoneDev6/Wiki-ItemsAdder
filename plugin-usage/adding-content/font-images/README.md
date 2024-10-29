@@ -2,18 +2,19 @@
 description: >-
   Allows you to create images which can be used in texts, also known as glyphs
   and symbols
+icon: icons
 ---
 
-# 🖼 Font Images
+# Font Images
 
 ### What are Font images?
 
-This feature allows you to create images that can be used to make: **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-textures-prefix.md) and anything else you imagine! (you can put these images inside any text).
+This feature allows you to create images that can be used to make: **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-prefixes.md) and anything else you imagine! (you can put these images inside any text).
 
 ## Tutorials
 
-{% content-ref url="../ranks-textures-prefix.md" %}
-[ranks-textures-prefix.md](../ranks-textures-prefix.md)
+{% content-ref url="../ranks-prefixes.md" %}
+[ranks-prefixes.md](../ranks-prefixes.md)
 {% endcontent-ref %}
 
 {% content-ref url="emojis.md" %}

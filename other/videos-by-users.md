@@ -1,4 +1,8 @@
-# 📹 Videos by users
+---
+icon: video
+---
+
+# Videos by users
 
 ## Showcases
 

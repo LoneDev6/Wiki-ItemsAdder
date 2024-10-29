@@ -1,2 +1,6 @@
-# ⚙ Optifine only features
+---
+icon: hexagon-plus
+---
+
+# Optifine only features
 

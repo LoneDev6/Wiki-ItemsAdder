@@ -1,4 +1,8 @@
-# ⬜ Hide Scoreboard background and numbers
+---
+icon: expand-wide
+---
+
+# Hide Scoreboard background and numbers
 
 ## Hide scoreboard numbers
 

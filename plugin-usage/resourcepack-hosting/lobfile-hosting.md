@@ -1,4 +1,4 @@
-# 📤 LobFile hosting
+# LobFile hosting
 
 {% hint style="warning" %}
 This feature requires **ItemsAdder 3.6.3** or greater.

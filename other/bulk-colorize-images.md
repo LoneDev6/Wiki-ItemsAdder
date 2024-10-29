@@ -1,3 +1,7 @@
+---
+icon: fill-drip
+---
+
 # Bulk colorize images
 
 ## Changing color of multiple PNG files in one click
