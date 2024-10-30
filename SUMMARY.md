@@ -261,7 +261,7 @@
 ## Other
 
 * [Ask for help](https://forum.devs.beer/d/16-getting-support)
-* [Legal](other/tos.md)
+* [Terms Of Service](other/tos.md)
 * [Minecraft Server Hosting](other/minecraft-hosting.md)
 * [Optimize Minecraft client](https://blog.devs.beer/blog/optimize-minecraft)
 * [Videos by users](other/videos-by-users.md)

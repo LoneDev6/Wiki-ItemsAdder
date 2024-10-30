@@ -1,11 +1,12 @@
 ---
-description: Terms and Conditions for IA
 icon: circle-info
 ---
 
-# Legal
+# Terms Of Service
 
-## 📝Terms Of Service
+### How to ask for support
+
+{% embed url="https://forum.devs.beer/d/16-getting-support" %}
 
 {% hint style="danger" %}
 Before Buying Remember:
@@ -21,7 +22,7 @@ Before Buying Remember:
 ### No Refunds¹
 
 Refunds are typically at the seller's discretion and might be issued on particular cases.\
-Contact the seller using the forum or via email before opening an official dispute on the payment platform (PayPal, Stripe etc.).
+Contact the seller using the forum or via email before opening an official dispute on the payment platform (PayPal, Stripe, etc.).
 
 ¹Except as required by applicable state law.
 
@@ -44,11 +45,7 @@ You may **only use** the **plugin** on a **server** that **you are** an **owner*
 Bungeecord networks are also allowed.\
 You Must ensure that your staff won't leak the plugin and keep your JAR safe.\
 \
-If you want to transfer your account or your license to another account you can do that by opening a ticket on my support [forum](https://forum.devs.beer/t/private-payment-issue).
-
-### Making Addons
-
-You can sell **custom packs, textures, and configs...** make sure to read the [addons creation policy](tos.md#addon-creation-policy).
+If you want to transfer your account or your license to another account you have to provide a valid explanation about why, by opening a ticket on the Discord server.
 
 ### Bugs & Issues & Support
 
@@ -57,10 +54,6 @@ I can fix bugs only if you report them in the right place.\
 Please be sure to read tutorials before asking for help.\
 Check the [FAQ](https://itemsadder.devs.beer/faq) for more info.\
 If you are contacting support please read the support policy.
-
-### How to ask for support properly
-
-{% embed url="https://forum.devs.beer/d/16-getting-support" %}
 
 ## 🆘 Support Policy
 
@@ -81,17 +74,17 @@ You won't get support if your help request doesn't have enough information.
 
 ## 🖌️Addon Creation Policy
 
-You can sell **custom packs, textures, and configs...** compatible with this plugin or plugin presets. Thanks.\
-Also [a donation ](http://a.devs.beer/lonedevdonate)is appreciated if you earn a lot from them.
+You can sell **custom packs, textures, and configs...** compatible with this plugin or plugin presets.\
+[A donation ](http://a.devs.beer/lonedevdonate)is appreciated if you earn a lot from them.\
+Make sure to read the [addons creation policy](tos.md#addon-creation-policy).
 
 ### Creating unique Addons
 
-When creating add-ons you are not allowed to include any items from the default ItemsAdder pack\
-DO NOT INCLUDE MY DEFAULT ITEMS, MODELS, FONT IMAGES etc. IN YOUR ADDONS!\
-**PLEASE DO NOT INCLUDE MY DEFAULT ITEMS IN YOUR PACK!**\
+When creating add-ons you are not allowed to include any items from the default **ItemsAdder** pack\
+DO NOT INCLUDE MY DEFAULT ITEMS, MODELS, FONT IMAGES etc. IN YOUR ADDONS OR PACKS!\
 You can't resell my assets.
 
-### Copying Other Addons
+### Copying Other's Addons
 
 If your addon contains similar models, items, font images etc. to another addon your addon will be removed.\
 DON'T COPY OTHER CREATIONS.\
