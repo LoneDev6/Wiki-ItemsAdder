@@ -15,7 +15,7 @@ This feature requires **ItemsAdder 3.1.6+**
 Create the 2D icon for the block
 
 {% hint style="info" %}
-Replace `myitems` with your [namespace](broken-reference)!
+Replace `myitems` with your [namespace](../configs-and-resourcepack.md#what-is-a-namespace)!
 {% endhint %}
 
 ```yaml
