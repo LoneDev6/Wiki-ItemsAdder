@@ -4,27 +4,21 @@ icon: message
 
 # Resourcepack prompt message
 
-{% hint style="warning" %}
-**Requires Minecraft 1.17+ clients**
-{% endhint %}
 
-## Custom resourcepack prompt message
 
-### Step 1
-
-Open `ItemsAdder/lang/en.yml` file (or your language)
-
-### Step 2
+Open `ItemsAdder/lang/en.yml` file (or your language).
 
 Customize the message: `resourcepack-popup-message`.
 
+{% hint style="info" %}
+You can use `\n` as newline
+{% endhint %}
+
+{% code title="ItemsAdder/lang/en.yml" %}
 ```yaml
 resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcepack to enjoy all the amazing features of our server.\n
 &aYou need only to download it only once."
 ```
-
-(You can use  as newline)
-
-### Done
+{% endcode %}
 
 ![](../.gitbook/assets/image\_\(127\).png)

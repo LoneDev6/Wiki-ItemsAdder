@@ -1,6 +1,6 @@
 ---
-description: How to protect your resourcepack from thief
 icon: lock-keyhole
+description: How to protect your resourcepack from thief
 ---
 
 # Protect resourcepack from unzip
@@ -35,11 +35,11 @@ If you're using Dropbox don't forget to reupload the pack and update the config.
 
 ## protection\_1
 
-The `protection_1` property allows you to protect the resourcepack with a basic method.
+Protect the resourcepack with a basic method.
 
 ## protection\_2
 
-The `protection_2` property allows you to protect the pack with another layer of protection to block some other methods to unzip the pack.
+Protect the pack with another layer of protection to block some other methods to unzip the pack.
 
 ## Showcase
 

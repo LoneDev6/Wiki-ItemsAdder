@@ -1,6 +1,6 @@
 ---
-description: What is the contents folder and how it's structured
 icon: folder
+description: What is the contents folder and how it's structured
 ---
 
 # Contents folder
@@ -50,7 +50,7 @@ With namespaces you can easily understand where a particular **item**, **sound**
 
 All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 ## How can I define my own namespace?
 
