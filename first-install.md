@@ -1,6 +1,6 @@
 ---
-description: How to install the plugin
 icon: gear
+description: How to install the plugin
 ---
 
 # First install
@@ -80,6 +80,6 @@ If you're on 1.17 or lower you have to change the ores generation:
 
 ### Removing default items (optional)
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="faq/removing-default-stuff/latest-itemsadder.md" %}
+[latest-itemsadder.md](faq/removing-default-stuff/latest-itemsadder.md)
 {% endcontent-ref %}
