@@ -162,6 +162,7 @@
     * [Block 2D icon](plugin-usage/adding-content/advanced-block-properties/block-2d-icon.md)
     * [Transparent block](plugin-usage/adding-content/advanced-block-properties/transparent-block.md)
     * [Enabling custom blocks sounds](plugin-usage/adding-content/advanced-block-properties/enabling-custom-blocks-sounds.md)
+    * [Enable/Disable custom blocks in worlds](plugin-usage/adding-content/advanced-block-properties/enable-disable-custom-blocks-in-worlds.md)
   * [Furniture](plugin-usage/adding-content/furniture.md)
   * [Chair](plugin-usage/adding-content/chair.md)
   * [Advanced furniture properties](plugin-usage/adding-content/advanced-furniture-properties/README.md)
