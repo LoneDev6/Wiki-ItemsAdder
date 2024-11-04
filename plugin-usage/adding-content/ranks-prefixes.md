@@ -11,7 +11,7 @@ icon: hashtag
 {% hint style="warning" %}
 **You have to use** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **and** [**TAB**](https://www.mc-market.org/resources/14009/) **to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.**
 
-**If you're using another prefix plugin you may need to use** [**this method**](font-images/using-font-images-everywhere.md) **to show ranks**
+**If you're using another prefix plugin you may need to use** [**this method**](broken-reference) **to show ranks**
 {% endhint %}
 
 ## How to create my ranks?
@@ -107,7 +107,7 @@ Use this command (change `LoneDev` to your player name) `/lp user LoneDev group 
 ### TAB plugin
 
 {% hint style="warning" %}
-Make sure you installed [PlaceholderAPI](font-images/using-font-images-everywhere.md)
+Make sure you installed [PlaceholderAPI](broken-reference)
 {% endhint %}
 
 #### Editing the config.yml of TAB plugin

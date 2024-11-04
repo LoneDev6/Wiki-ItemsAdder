@@ -1,3 +1,7 @@
+---
+icon: head-side-gear
+---
+
 # Manually creating font images
 
 {% hint style="warning" %}
@@ -26,12 +30,9 @@ Some servers may require font images to be created manually for various reasons,
 }
 ```
 
-As you can see I created a json configuration entry, this is the list of settings for my custom font image.
+Create or edit the file `assets/minecraft/font/default.json` in your resourcepack.
 
-Now you have to add it to the default.json file: `assets/minecraft/font/default.json`.
-
-To do so you have to add it into the `"providers"` attribute.
-
+{% code title="default.json" %}
 ```json
 {
    "providers":[
@@ -47,6 +48,7 @@ To do so you have to add it into the `"providers"` attribute.
    ]
 }
 ```
+{% endcode %}
 
 &#x20;If you have more entries you have to add a `,` after the previous entry, for example:
 
@@ -79,25 +81,14 @@ To do so you have to add it into the `"providers"` attribute.
 
 By using a customized json font file you can separate the default font characters from your custom characters.
 
-To do so you just have to create a new json and call it whatever you want, for example `my_font.json`.
-
+To do so you just have to create a new json and call it whatever you want, for example `my_font.json`.\
 The complete path will be: `assets/minecraft/font/my_font.json`.
-
-{% hint style="warning" %}
-This feature only works on Minecraft 1.16+
-{% endhint %}
 
 ## Using a customized json namespace
 
-If you want to further organize your pack you can use a customized namespace for your font file.
-
-To do so you have to create a folder inside `assets` folder and use it instead of `minecraft` folder.
-
+If you want to further organize your pack you can use a customized namespace for your font file.\
+To do so you have to create a folder inside `assets` folder and use it instead of `minecraft` folder.\
 The complete path will be (for example): `assets/your_namespace/font/my_font.json`.
-
-{% hint style="warning" %}
-This feature only works on Minecraft 1.16+
-{% endhint %}
 
 ### Showing the customized namespace/font name in-game
 

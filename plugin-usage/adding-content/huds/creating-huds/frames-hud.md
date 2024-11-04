@@ -124,6 +124,6 @@ To make the HUD value change you can just use the previous `write` command anywh
 
 ## Read HUD values with PAPI placeholders
 
-{% content-ref url="../../../placeholderapi.md" %}
-[placeholderapi.md](../../../placeholderapi.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
