@@ -13,7 +13,10 @@ Make sure to provide a valid **NBT** (`json`) or it won't work!
 {% endhint %}
 
 {% hint style="warning" %}
-Make sure to escape the `"` character using `\`.
+### NOTE
+
+Make sure to escape the `"` character using `\`.\
+Use my [Escape/Unescape tool](https://escape-mc-components.lonedev.workers.dev/) to escape the string before using it in the YML.
 {% endhint %}
 
 {% hint style="success" %}
@@ -43,6 +46,17 @@ items:
 ```
 
 ### Example item name
+
+```yml
+items:
+  example_item_custom_name:
+    enabled: true
+    display_name: example_item_custom_name
+    permission: custom.example_item_custom_name
+    nbt: "{components:{\"minecraft:custom_name\":'{\"text\":\"Yo This is a test!\"}'},count:1,id:\"minecraft:stone\"}"
+```
+
+### Example item name - old 1.20.4 notation
 
 ```yml
 items:
