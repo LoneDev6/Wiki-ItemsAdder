@@ -102,10 +102,12 @@ Extract the zip into the `contents` folder of ItemsAdder
 ## Custom wear texture
 
 {% hint style="danger" %}
-The `vanilla_1_17` feature requires Minecraft 1.17 or greater.\
+The `vanilla` feature requires Minecraft 1.17 or greater.\
 It can't work on Minecraft 1.16 and previous versions.
 
 To make 1.16 clients see the custom armors you can enable also the `optifine` attribute, this will allow old clients to see the armors anyway.
+
+This is also useful as fallback for people who use custom shaders, which are not compatible with the custom armors vanilla shaders.
 {% endhint %}
 
 {% hint style="warning" %}
