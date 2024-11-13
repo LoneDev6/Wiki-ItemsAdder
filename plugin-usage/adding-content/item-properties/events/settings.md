@@ -81,7 +81,7 @@ If you want to create a custom HUD, but you don't want to waste time coloring, y
 
 Shows a big on-screen title indicator.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
   healing_crystals:

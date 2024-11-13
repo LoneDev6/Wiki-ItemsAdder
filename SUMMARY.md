@@ -5,6 +5,7 @@
 * [First install](first-install.md)
 * [Frequently asked questions](faq/README.md)
   * [How to download Spigot](faq/how-to-download-spigot.md)
+  * [Geyser](faq/geyser.md)
   * [🗿 3.3 vs 3.2](faq/3-3-vs-3-2.md)
   * [Resourcepack is not loading correctly](faq/identify-why-textures-are-not-shown.md)
   * [Removing default stuff](faq/removing-default-stuff/latest-itemsadder.md)
