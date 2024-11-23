@@ -2,22 +2,22 @@
 
 {% embed url="https://www.youtube.com/watch?v=TU2ezGDsoZA" %}
 
-### Spigot
+### Spigot插件页面
 
 {% embed url="https://www.spigotmc.org/resources/cosmeticscore.105324/" %}
 
-### Polymart
+### Polymart插件页面
 
 {% embed url="https://polymart.org/resource/cosmeticscore-launch-discount.2879" %}
 
-### Tutorials
+### 教程
 
 {% embed url="https://cosmeticscore.devs.beer/adding-content" %}
 
-## Adding compatibility
+## 添加兼容性
 
 {% hint style="warning" %}
-Update ItemsAdder to 3.3.0+
+更新 ItemsAdder 版本至 3.3.0+
 {% endhint %}
 
 {% embed url="https://cosmeticscore.devs.beer/first-install/install-base-resourcepack/itemsadder" %}

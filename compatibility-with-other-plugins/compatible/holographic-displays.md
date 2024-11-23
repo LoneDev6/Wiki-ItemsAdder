@@ -1,27 +1,27 @@
 # Holographic Displays
 
-## How to use emojis in hologram
+## 如何在全息中使用表情
 
-* Download [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
-* Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
-* Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
+* 下载 [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
+* 下载 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+* 下载 [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
 
-Now you can use [font\_images ](../../plugin-usage/adding-content/font-images/)(**emojis**) inside holograms texts and everywhere in all plugins which support **PlaceholderAPI**, in this case **Holographic Displays**.\
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.\
-For example: `%img_smile%`
+现在你可以在全息，以及任意支持 **PlaceholderAPI** 的插件中使用 [font\_images](../../plugin-usage/adding-content/font-images/)（**表情**）本例中是 **Holographic Displays**。\
+对应代码: `%img_NAME%` 并非NAME，而是font\_image名称。\
+如: `%img_smile%`
 
-To create an hologram you can use these commands for example:
+你可以使用如下示例来创建一个全息：
 
 `/holo create test_itemsadder Hello! %img_smile%`
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-## How to add a floating custom item?
+## 如何添加一个自定义物品掉落物
 
-* run `/iacustommodeldata <item>` (for example `/iacustommodeldata ruby`)
-* copy the `CustomModelData`, for example `10000`
-* create a new hologram, for example: `/hd create holo_icon Hello!`
-* add the floating item to the hologram by specifying the **vanilla type** and the **CustomModelData**. Example:  `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
+* 运行 `/iacustommodeldata <item>` （如 `/iacustommodeldata ruby`）
+* 复制 `CustomModelData`, 如 `10000`
+* 创建一个新的全息，如：`/hd create holo_icon Hello!`
+* 添加全息掉落物，并指定 **vanilla type** 与 **CustomModelData**。如：`/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
 
 ![](<../../.gitbook/assets/image_(124).png>)
 

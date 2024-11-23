@@ -1,38 +1,38 @@
 # Scoreboard-revision
 
-## ​[Download here](https://www.spigotmc.org/resources/scoreboard.14754/)​ <a href="#download-here" id="download-here"></a>
+## ​[此处下载](https://www.spigotmc.org/resources/scoreboard.14754/)​ <a href="#download-here" id="download-here"></a>
 
 {% hint style="warning" %}
-Seems the plugin was removed from SpigotMC.org for some reason.\
-(I'm not its author).
+似乎由于某些原因，该插件已经从SpigotMC.org移除。\
+(我不是作者).
 
 [Source code](https://github.com/RienBijl/Scoreboard-revision)
 {% endhint %}
 
-## Font images
+## 表情
 
-You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emojis and symbols) in the **scoreboard**.
+你可以在 **scoreboard** 中使用 [font\_images ](../../plugin-usage/adding-content/font-images/)(表情与符号) 。
 
-### Example
+### 示例
 
-`%img_smile%` will show like that:
+`%img_smile%` 会显示如下内容:
 
 ![](../../.gitbook/assets/image\_\(95\).png)
 
-## Hide the scoreboard background
+## 隐藏记分板背景
 
-(works with every scoreboard plugin)
+(适用于所有类似插件)
 
-### Before
+### 隐藏前
 
 ![](../../.gitbook/assets/image\_\(97\).png)
 
-### After
+### 隐藏后
 
 ![](../../.gitbook/assets/image\_\(96\).png)
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.\
-You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>\*\* \*\* of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
+借助 ItemsAdder，你可以如此做以隐藏记分板背景。\
+你只需要在记分板<mark style="color:yellow;">**每行**</mark>前添加 `%img_offset_-500%`，即使是<mark style="color:yellow;">空行！</mark>
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____

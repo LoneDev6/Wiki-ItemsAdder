@@ -2,5 +2,5 @@
 icon: square-check
 ---
 
-# Compatibility with other plugins
+# 与其他插件的兼容性
 

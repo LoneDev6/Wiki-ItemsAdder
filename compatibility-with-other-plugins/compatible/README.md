@@ -2,5 +2,5 @@
 icon: square-check
 ---
 
-# Compatible
+# 兼容
 

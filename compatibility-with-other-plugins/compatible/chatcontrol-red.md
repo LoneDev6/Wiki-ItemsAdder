@@ -1,29 +1,29 @@
 # ChatControl-Red
 
-[Download here](https://www.mc-market.org/resources/18217/)
+[此处下载](https://www.mc-market.org/resources/18217/)
 
-ItemsAdder Emojis compatibility:\
-More info here: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610](https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610)
+ItemsAdder 表情兼容性:\
+查看详情: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610](https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610)
 
-## Adding custom channel prefix in chat
+## 添加自定义频道前缀
 
-If you want to create a graphical prefix for your channels and show it in chat you have to follow this tutorial.
+如果你想设置一个在聊天中显示的图片频道前缀，请跟随此指引.
 
-![An example that shows the ARCADE prefix for the Arcade channel](../../.gitbook/assets/image\_\(94\).png)
+![用于Arcade频道的ARCADE前缀](../../.gitbook/assets/image\_\(94\).png)
 
-You just have to set this in your format configuration, (for example in the `format/arcade.yml` file of ChatControl Red):
+你只需要在格式配置中设置如下内容，(比如在 ChatControl Red 的 `format/arcade.yml` 中)：
 
 ```yaml
   prefix:
     Message: ':arcade:'
 ```
 
-Obviously you have to use your own [font\_image ](../../plugin-usage/adding-content/font-images/)name instead of `arcade`, this is just an example.
+显然你需要使用你自己的 [font\_image ](../../plugin-usage/adding-content/font-images/)名称，而非 `arcade` ，这只是示例。
 
-## Text effects
+## 文本效果
 
-Normally the ItemsAdder text effects don't work with ChatControl Red.\
-But if you add this to your `rules` folder of ChatControl Red, they will work. (I put this in `global.rs`).
+通常 ItemsAdder 的文本效果不会在 ChatControl Red 中生效。\
+但如果你把下方内容添加至 ChatControl Red 的 rules 文件夹中，它们就会生效。（我放到了 `global.rs` 里）。
 
 ```
 match <r\s([^>]+)>

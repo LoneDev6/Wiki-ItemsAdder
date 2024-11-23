@@ -1,15 +1,15 @@
 # CMI
-## Ranks
+## Rank 功能
 
-1. Open the `Settings/Chat.yml` file in your CMI folder and set `GeneralFormat` (I use the `%vault_prefix%` placeholder instead of CMI's `{prefix}`) to:
+1. 打开 CMI 文件夹中的 `Settings/Chat.yml` ，设置 `GeneralFormat` （我使用了 `%vault_prefix%` 占位符，而非 CMI 的 `{prefix}`）为如下内容：
 
 ```yaml
 GeneralFormat: '%vault_prefix% &f{displayName}&7: &r{message}'
 ```
 
-2\. Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) and [Vault](https://github.com/MilkBowl/Vault/releases/latest).\
-3\. Install them and restart your server.\
-4\. Type `/papi ecloud download Vault`.\
-5\. Finally, type `/papi reload`.
+2\. 下载 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) 与 [Vault](https://github.com/MilkBowl/Vault/releases/latest)。\
+3\. 安装它们并重启服务器\
+4\. 输入指令 `/papi ecloud download Vault`。\
+5\. 最后，输入指令 `/papi reload`。
 
-ItemsAdder should now work properly with CMI's chat feature.
+ItemsAdder 现在应该正常与 CMI 的聊天功能工作。

@@ -1,3 +1,3 @@
 # DailyShop
 
-## [Download here](https://www.spigotmc.org/resources/dailyshop-an-advanced-shop-plugin.88768/)
+## [此处下载](https://www.spigotmc.org/resources/dailyshop-an-advanced-shop-plugin.88768/)

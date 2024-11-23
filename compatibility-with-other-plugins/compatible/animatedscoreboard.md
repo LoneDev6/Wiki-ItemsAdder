@@ -1,26 +1,26 @@
 # AnimatedScoreboard
 
-## [Download here](https://www.spigotmc.org/resources/animatedscoreboard.20848/)
+## [点此下载](https://www.spigotmc.org/resources/animatedscoreboard.20848/)
 
 {% hint style="warning" %}
-Please refer to the plugin page tutorials before asking for help, I'm not the developer of this plugin and this info might become outdated at some point.
+请在寻求帮助前查看插件教程, 我不是该插件的开发人员, 因此这些信息可能会在某个时候过时.
 {% endhint %}
 
-## Font images in the scoreboard
+## 计分板中的字体图片
 
-You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emojis and symbols) in the scoreboard if you install **PlaceholderAPI**.
+如果你安装了 **PlaceholderAPI** 你可以在计分板中使用 [font\_images ](../../plugin-usage/adding-content/font-images/)(表情与符号).
 
-### Example
+### 示例
 
-`%img_smile%` will show like that:
+`%img_smile%` 会显示如下表情:
 
 ![](../../.gitbook/assets/animatedscoreboard\_1.png)
 
-## Hide the scoreboard background
+## 隐藏计分板背景
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.
+通过 ItemsAdder 你可以隐藏计分板背景, 只需如此操作.
 
-(works with every scoreboard plugin which supports PlaceholderAPI)
+(适用于任何支持PlaceholderAPI的计分板插件)
 
 {% tabs %}
 {% tab title="Before" %}
@@ -36,14 +36,14 @@ With ItemsAdder you can hide the scoreboard background, just use this trick.
 {% endtab %}
 {% endtabs %}
 
-### How to hide the background
+### 如何隐藏背景
 
-You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark> of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
+你只需要在计分板配置的<mark style="color:yellow;">**每行**</mark>前添加 `%img_offset_-500%` ，<mark style="color:yellow;">即使是空行！</mark>
 
 {% hint style="danger" %}
-#### Warning!
+#### 警告！
 
-Not compatible with special attributes of **AnimatedScoreboard** like these and similar!
+与 **AnimatedScoreboard** 的下述或类似的属性不兼容！
 
 `<health full=&4 half=&c empty=&f update=5>❤</health>`
 
@@ -51,17 +51,17 @@ Not compatible with special attributes of **AnimatedScoreboard** like these and 
 
 `<stay ticks=100>&lAnimated Scoreboard</stay>`
 
-<mark style="color:red;">Please do not ask me for support</mark>, I cannot fix this, I'm not the author of **AnimatedScoreboard**.
+<mark style="color:red;">请勿向我寻求帮助</mark>, 我无法修复该问题, 我并非 **AnimatedScoreboard** 的作者.
 
-If you want to use `<stay>` you have to put the `%img_offset_-500%` after the first `>`.\
-Example:
+如果你想使用 `<stay>` 你需要在第一个 `>` 后面添加 `%img_offset_-500%`。\
+例如：
 
 `<stay ticks=100>%img_offset_-500%&lAnimated Scoreboard</stay>`
 {% endhint %}
 
 <details>
 
-<summary>&#x3C;--- Click here to get the example YML configuration file</summary>
+<summary>&#x3C;--- 点此获取示例YML配置文件</summary>
 
 {% code title="defaultscoreboard.yml" %}
 ```yaml

@@ -1,8 +1,8 @@
 # WorldEdit
 
-## How to add compatibility
+## 如何添加兼容性
 
-Download the official **ItemsAdder-WorldEdit** addon here:
+在此下载官方的 **ItemsAdder-WorldEdit** 附属：
 
 {% embed url="https://www.spigotmc.org/resources/79012/" %}
 

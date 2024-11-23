@@ -1,19 +1,19 @@
 # ExecutableItems
 
-## [Download here](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
+## [此处下载](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
 
-## How to connect an ExecutableItem to an ItemsAdder custom item
+## 如何将 ExecutableItem 物品与 ItemsAdder 物品连接
 
 {% hint style="warning" %}
-UPDATE **ITEMSADDER** TO **2.2.20+**\
-UPDATE **ExecutableItems** to **4.2.3.5+**
+更新 **ITEMSADDER** 版本至 **2.2.20+**\
+更新 **ExecutableItems** 版本至 **4.2.3.5+**
 {% endhint %}
 
-## Create the ItemsAdder item
+## 创建 ItemsAdder 物品
 
-### Create your .yml file as usual and add all the properties for the ItemsAdder item
+### 正常创建.yml文件，并添加 ItemsAdder 物品的所需属性
 
-In this example I will connect an **ItemsAdder** item called `executableitem_test` to the example `spit` item from ExecutableItem example files.
+本例中我会将名为 `executableitem_test` 的 **ItemsAdder** 物品与来自 ExecutableItem 示例文件的 `split` 物品连接。
 
 ```yaml
 info:
@@ -34,12 +34,12 @@ items:
 ```
 
 {% hint style="success" %}
-As you can see I set a new attribute called \*\*`executableitem`\*\*and **`id`**.\
-These are used to **connect** the **two items**.
+如你所见，我设置了叫做 \*\*`executableitem`\*\*与 **`id`** 的新属性。\
+它们用于**连接**这**两个物品**。
 {% endhint %}
 
-### Get the item
+### 获得物品
 
-Run `/iaget executableitem_test` and get the item!
+运行 `/iaget executableitem_test` 以获得目标物品！
 
 ![](<../../.gitbook/assets/image\_(140) (1) (1).png>)

@@ -1,65 +1,65 @@
 ---
-description: Worldguard flags list
+description: Worldguard 标记列表
 ---
 
 # WorldGuard
 
-## Flags list
+## 标记列表
 
 ### ia-furniture-sit
 
-This flags allows your players to sit on furnitures or not (furnitures with `furniture_sit` [behaviour](../../plugin-usage/adding-content/item-properties/behaviours.md))
+这个标记决定是否允许你的玩家坐在家具上(带有 `furniture_sit` 的家具[行为](../../plugin-usage/adding-content/item-properties/behaviours.md))
 
 ### ia-campfire-item-add
 
-Allow user to move item to campfire
+允许玩家将物品移至营火
 
 ### ia-campfire-item-remove
 
-Allow user to remove item from campfire
+允许玩家将物品从营火移除
 
 ### ia-vehicle-place
 
-Allow user to place vehicles in the region
+允许玩家在该区域放置车辆
 
 ### ia-vehicle-remove
 
-Allow user to remove ANY vehicle in the region
+允许玩家在该区域移除车辆
 
 ### ia-vehicle-personal-remove
 
-allow user to remove only their own vehicles in the region
+允许玩家在该区域移除自己的车辆
 
 ### ia-vehicle-sit
 
-Allow user to sit on any vehicle in the region
+允许玩家在该区域坐进车辆
 
 ### ia-vehicle-personal-sit
 
-allow user to sit only on their own vehicles in the region
+允许玩家在该区域坐进自己的车辆
 
 ### ia-trade-machine-use
 
-allow user to use trade machines
+允许玩家使用交易机器
 
 ### ia-placed-block-interact
 
-allow user to trigger placed\_block.interact events
+允许玩家触发 placed\_block.interact 事件
 
 ### ia-placed-armorstand-interact
 
-allow user to trigger placed\_armorstand.interact events
+允许玩家触发 placed\_armorstand.interact 事件
 
 {% hint style="info" %}
-Set **ia-vehicle-sit** to Deny and **ia-vehicle-personal-sit** to Allow to let your players only sit on personal vehicles
+设置 **ia-vehicle-sit** 为拒绝，**ia-vehicle-personal-sit** 为允许以让玩家可以坐进自己的车辆。
 {% endhint %}
 
 ## Common issues
 
 {% hint style="warning" %}
-If your users **cannot sit** on **furnitures** even if you set the correct flag:
+如果你设置了正确的标记，玩家仍 **无法坐到家具上**：
 
-* check if you are using the `__global__ region` as your main region (the one on which you applied the furniture flag). If yes, please create a new region. global region is known to give some issues with some plugins flags.
-* check if you set the `build` or `passthrough` flag. \
-  Remember that these flags must not be changed, you should keep the default value (unselected, gray text)
+* 检查你是否正在使用 `__global__ region` 作为主区域（你设置了家具标记的区域）。如果是，请创建一个新区域。全体区域部分插件的标记会产生问题。
+* 检查你是否设置了 `build` 或 `passthrough` 标记。\
+  这些标记不能进行改动，你需要保持为默认值（未选择状态，灰色文本）
 {% endhint %}

@@ -1,16 +1,16 @@
 # DeluxeMenu
 
-To show an ItemsAdder item with custom texture on **DeluxeMenu** you can add this to your material
+要在 **DeluxeMenu** 中显示 ItemsAdder 物品，你可以添加此内容至 material 中
 
 ```yaml
 material: itemsadder-red_dye
 ```
 
-Instead of `red_dye` you have to set the **ID** of your custom item.
+你需要设置自定义物品的 ID，而非 `red_dye`。
 
-### How to get the ID value?
+### 如何获得 ID？
 
-* run `/iatag` while holding the item you want to use
+* 手持你想使用的物品，运行 `/iatag`
 ![image](https://github.com/LoneDev6/Wiki-ItemsAdder/assets/114158743/9af34ddf-2ad4-40f0-9b14-c77125e57a3b)
-* copy the `id` name, for example `red_dye`
+* 复制 `id` 的名称，例如 `red_dye`
 

@@ -1,10 +1,10 @@
 # TrMenu
 
-### Plugin download
+### 下载插件
 
 {% embed url="https://www.spigotmc.org/resources/trmenu-premium-modern-advanced-menu-plugin-1-8-1-16.83120/" %}
 
-### How to use ItemsAdder items in the GUIs
+### 在 GUI 中使用 ItemsAdder 物品
 
 {% embed url="https://trmenu.trixey.cc/menu/icon/display/cai-zhi#itemsadder" %}
 
@@ -13,20 +13,20 @@ material: 'source:ITEMADDER:itemId'
 material: 'source:IA:anotherItemId'
 ```
 
-### How to retexture the GUI background
+### 如何重绘 GUI
 
 ```yaml
 Title: '%img_offset_-16%%img_blank_menu%'
 ```
 
 {% hint style="warning" %}
-PlaceholderAPI is required!
+需要 PlaceholderAPI！
 {% endhint %}
 
-Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%`by **16** pixels.
+基本来讲，`%img_offset_-16%` 用于将纹理 `%img_blank_menu%`向后移动 **16** 个像素。
 
-Read more here:&#x20;
+阅读更多：&#x20;
 
 {% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+[已损坏的连接](broken-reference)
 {% endcontent-ref %}

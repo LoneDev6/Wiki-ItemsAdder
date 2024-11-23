@@ -1,14 +1,14 @@
 # AdvancedEnchantments
 
-## [Download here](https://www.spigotmc.org/resources/43058/)
+## [点此下载](https://www.spigotmc.org/resources/43058/)
 
-## How to use enchants
+## 如何使用附魔
 
 {% hint style="info" %}
-Requires 4.0.2-beta-9 or greater.
+需要版本 4.0.2-beta-9 或以上.
 {% endhint %}
 
-This is an example configuration for an ItemsAdder custom item enchant.
+这是一个用于 ItemsAdder 自定义物品附魔的示例配置.
 
 ```yaml
 info:
@@ -29,16 +29,16 @@ items:
 
 
 {% hint style="warning" %}
-## Warning
+## 警告
 
-In order to use custom **AdvancedEnchantments** enchants on your **ItemsAdder** items you have to enable it in config.yml of **ItemsAdder**.
+为了在 **ItemsAdder** 物品中启用 **AdvancedEnchantments** 的自定义附魔，你需要在 **ItemsAdder** 的 config.yml 中启用下方设置.
 
 ```yaml
 advanced_enchantments:
   enable_custom_enchants_in_items_configs: true
 ```
 
-This has a downside though.\
-You won't be able to use custom armors texture in the [Armor Set](https://ae.advancedplugins.net/configuration/armor-sets) feature of **AdvancedEnchantments** because of how they hook into my plugin.\
-There is nothing I can do.
+该操作会导致另一个问题.\
+你无法在 **AdvancedEnchantments** 的[Armor Set](https://ae.advancedplugins.net/configuration/armor-sets) 功能中使用自定义盔甲纹理, 这与他们接入我插件的方式有关.\
+对此我无能为力.
 {% endhint %}

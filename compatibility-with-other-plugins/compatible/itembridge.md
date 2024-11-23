@@ -1,14 +1,14 @@
 # ItemBridge
 
-## [Download here](https://www.spigotmc.org/resources/77080/)
+## [此处下载](https://www.spigotmc.org/resources/77080/)
 
 {% hint style="warning" %}
-You need **ItemsAdder** 3.1.0+ and **ItemBridge** 3.1+.
+你需要 **ItemsAdder** 3.1.0+ 与 **ItemBridge** 3.1+。
 {% endhint %}
 
-## How to get an ItemsAdder item using ItemBridge
+## 如何获得一个使用 ItemBridge 的 ItemsAdder 物品
 
-To get a custom item using **Mimic** you have to use this command:
+为得到使用 **ItemBridge** 的自定义物品，你需要使用如下指令：
 
 `/ib get`` `<mark style="color:blue;">`ia:<item namespaced id>`</mark>
 
@@ -16,14 +16,14 @@ To get a custom item using **Mimic** you have to use this command:
 
 `/ib drop <world> <x> <y> <z>`` `<mark style="color:blue;">`ia:<item namespaced id>`</mark>` ``[amount]`
 
-### Example
+### 示例
 
 `/ib give LoneDev ia:itemsadder:ruby_sword`
 
 {% hint style="warning" %}
-It's important to add `ia:` in front of the ItemsAdder custom item name or **ItemBridge** won't recognize it.
+在 ItemsAdder 物品前添加 `ia:` 非常重要，否则 **ItemBridge** 无法识别。
 
-In this case `itemsadder:ruby_sword` must be specified as `ia:itemsadder:ruby_sword`.
+本例中 `itemsadder:ruby_sword` 必须为 `ia:itemsadder:ruby_sword`。
 {% endhint %}
 
 

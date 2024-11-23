@@ -1,9 +1,9 @@
 # BetonQuest
 
-Download the [plugin](https://www.spigotmc.org/resources/betonquest.2117/)\
-Download the [compatibility addon](https://www.spigotmc.org/resources/betonquest-itemsadder-addon.90933/)
+[下载插件](https://www.spigotmc.org/resources/betonquest.2117/)\
+[下载兼容附属](https://www.spigotmc.org/resources/betonquest-itemsadder-addon.90933/)
 
 {% hint style="warning" %}
-**I'm not the developer of this compatibility addon, please don't contact me for support.** \
-**Contact the original author, thanks!**
+**我不是该兼容附属的开发者，请勿向我寻求帮助。** \
+**请直接联系原作者，谢谢！**
 {% endhint %}

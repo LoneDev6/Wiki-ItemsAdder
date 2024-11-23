@@ -1,20 +1,20 @@
 # Slimefun4
 
-## [Download here](https://github.com/Slimefun/Slimefun4#download-slimefun-4)
+## [此处下载](https://github.com/Slimefun/Slimefun4#download-slimefun-4)
 
-## How to install the Slimefun resourcepack
+## 如何安装粘液科技资源包
 
 {% hint style="success" %}
-Optifine is not required!
+不需要Optifine！
 {% endhint %}
 
 {% hint style="info" %}
-Note: this is not the official resourcepack and I'm not its author. Please don't ask for support. Thanks.
+注意：这并非官方资源包，我也不是资源包作者。请勿向我寻求帮助，谢谢。
 {% endhint %}
 
-* Download the resourcepack [here](https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/)
-* Paste the [items-model.yml](https://www.mediafire.com/file/4s42i4b1uk6r05j/file) file inside the Slimefun folder
-* Merge the Slimefun resourcepack with ItemsAdder resourcepack ([read here](../../plugin-usage/merge-resourcepacks.md))
-* Done
+* [下载资源包](https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/)
+* 复制 [items-model.yml](https://www.mediafire.com/file/4s42i4b1uk6r05j/file) 到Slimefun文件夹内
+* 将粘液科技资源包与ItemsAdder资源包合并([教程](../../plugin-usage/merge-resourcepacks.md))
+* 完成
 
 ![](../../.gitbook/assets/13338410.png)

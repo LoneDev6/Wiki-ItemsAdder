@@ -1,13 +1,13 @@
 # EpicBackpacks
 
-## [Download the backpack plugin here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)
+## [此处下载](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)
 
 {% hint style="warning" %}
-You must have the [DefaultPack](../../first-install.md#default-pack-optional) installed!
+你必须安装 [DefaultPack](../../first-install.md#default-pack-optional)！
 {% endhint %}
 
 {% hint style="success" %}
-To create backpacks that will use ItemsAdder texture you have to open backpacks.yml (in EpicBackpacks folder) and add this (one for each backpack you want to create):
+为创建使用 ItemsAdder 材质的背包，你需要打开 backpacks.yml（在EpicBackpacks文件夹中）并添加如下内容（每个背包都需要）：
 {% endhint %}
 
 ```yaml
