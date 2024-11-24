@@ -1,15 +1,15 @@
 ---
-description: How to manually edit blockstates .json files
+description: 如何手动编辑 blockstates.json 文件
 icon: file-pen
 ---
 
-# Manual editing blockstates
+# 手动编辑 blockstates
 
 {% hint style="warning" %}
-This breaks the purpose of ItemsAdder which is to avoid editing certain files manually.\
-Do it at your own risk.
+这违背了 ItemsAdder 避免手动修改特定文件的初衷。\
+后果自负。
 {% endhint %}
 
-You can manually edit blockstates json files, in order to do that you can create a custom content folder and put your edited blockstates inside.
+你可以手动修改方块 blockstates.json ，为此可以创建一个新的文件夹，并将编辑后的方块数据放入其中。
 
-**ItemsAdder** will automatically merge any blockstate `.json` file found in the various contents folders with the **ItemsAdder** custom blocks (if you created any).
+**ItemsAdder** 会自动合并所有内容文件夹中带有 **ItemsAdder** 自定义方块的 blockstate `.json` 文件。

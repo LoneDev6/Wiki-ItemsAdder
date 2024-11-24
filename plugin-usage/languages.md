@@ -2,43 +2,43 @@
 icon: earth-americas
 ---
 
-# Languages
+# 语言
 
-### Currently available languages
+### 当前可用语言
 
 ```
 GUI: 
-    Czech cz
-    German de
-    English en
-    Spanish es
-    French fr
-    Italian it
-    Japanese jp
-    Korean ko
-    Dutch nl
-    Portuguese pt
-    Polish pl
-    Russian ru
-    Turkish tr
-    Thai th
-    Chinese zh_cn
+    捷克语 cz
+    德语 de
+    英语 en
+    西班牙语 es
+    法语 fr
+    意大利语 it
+    日语 jp
+    韩语 ko
+    荷兰语 nl
+    葡萄牙语 pt
+    波兰语 pl
+    俄语 ru
+    土耳其语 tr
+    泰语 th
+    简体中文 zh_cn
 Items: 
-    English en
-    Spanish es
-    French fr
-    Hebrew he
-    Italian it
-    Portuguese pt
-    Russian ru
-    Thai th
-    Turkish tr
-    Chinese zh_cn
+    英语 en
+    西班牙语 es
+    法语 fr
+    希伯来语 he
+    意大利语 it
+    葡萄牙语 pt
+    俄语 ru
+    泰语 th
+    土耳其语 tr
+    简体中文 zh_cn
 ```
 
-### How to change language?
+### 如何更改语言？
 
-Open `config.yml` and change the `lang` setting.
+打开 `config.yml` 并修改 `lang` 设置。
 
 ```yaml
 config_files:
@@ -46,9 +46,9 @@ config_files:
   dictionaries-lang: 'en'
 ```
 
-## How to edit or to create new languages?
+## 如何编辑或创建新语言？
 
-The **plugin** messages **language** files are in **this folder**: `plugins/ItemsAdder/lang/`
+**插件的语言文件在此处**：`plugins/ItemsAdder/lang/`
 
-**Default** ItemsAdder pack items/menus **languages** are inside `dictionaries` folders on each `namespace` folder.\
-For example: `contents/iasurvival/dictionaries/`
+ItemsAdder **默认**包的物品/菜单**语言文件**在 `dictionaries` 文件夹下的各 `namespace` 文件夹。\
+例如：`contents/iasurvival/dictionaries/`

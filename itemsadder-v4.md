@@ -4,53 +4,51 @@ icon: bolt-lightning
 
 # ItemsAdder v4
 
-## Introduction
+## 介绍
 
-Maintaining compatibility for 6 versions of the game became a very hard task which is impacting too much over the quality of the product and its updates release delay.
+维护对6个游戏版本的兼容性变得非常困难，这严重影响了产品质量和更新发布的延迟。
 
-I decided to discard compatibility for 1.15 to 1.20.4 in favor of a better 1.20.5+ experience.
+我决定放弃对1.15到1.20.4版本的兼容性，以提供更好的1.20.5+体验。
 
-## What the community thinks
+## 社区的看法
 
-The Discord community has voted to discard old versions compatibility, so this decision wasn't taken completely out of nowhere.
+Discord社区投票决定放弃旧版本的兼容性，所以这个决定并不是凭空做出的。
 
 <figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
+## ViaVersion的疯狂
 
+ViaVersion如果使用不当就是个灾难。ViaVersion的目的是允许客户端连接到一个多版本的大厅，玩家可以在其中决定要加入哪个服务器。
 
-## ViaVersion madness
+每个服务器都有自己的版本，例如，生存是1.20.5，PVP是1.8。这允许人们连接到同一个大厅服务器，这是服务器社区的主要枢纽。
 
-ViaVersion is a cancer if used incorrectly. The purpose of ViaVersion was to be able to allow clients to connect to a multi-version lobby where players can decide which server they want to join.
+服务器管理员滥用这种功能，允许玩家通过1.8、1.9、1.13、1.18、1.20连接到1.20.x服务器上的生存服务器。这导致了多种不兼容、不稳定、错误和故障的发生。\
+发生这种情况的原因是客户端（和服务器）在各个版本之间进行了大量更改，其中大多数是至关重要的。
 
-Each server has its own version, for example, survival is 1.20.5 and PVP is 1.8. This allows people to connect to the same lobby server which is the main hub of the server community.
+期待无缝游戏是不可能的，因为版本之间引入了太多更改。
 
-Server admins abuse this power to allow players to play on survival servers by joining via 1.8, 1.9, 1.13, 1.18, 1.20 on 1.20.x servers. This causes multiple incompatibilities, instabilities, bugs, glitches to happen.\
-The reason for this to happen is because clients (and servers) had A TON of changes between their versions, most of them are crucial.
+一个成功的服务器的明确例子是[OriginRealms](https://originrealms.com)，这是最定制化的Minecraft多人生存体验之一，没有人能提出反对。
 
-Expecting a flawless gameplay is impossible because of how many changes were introduced between versions.
+我看不出继续这种期望游戏稳定性的无稽之谈有什么理由，同时允许旧版游戏加入你的服务器，或者更糟的是，保持旧版服务器并允许新版客户端加入。
 
-A clear example of a successful server which allows only one version to join is [OriginRealms](https://originrealms.com) which is one of the most customized Minecraft multiplayer survival experience, no one can tell the opposite.
+ItemsAdder编写了大量的代码来检查客户端版本和服务器版本，然后启用一些特殊修复，以避免1.18客户端加入1.20服务器时发生崩溃/故障。我想停止维护这种不稳定的技巧，这只会给我和客户带来压力。
 
-I don't see any reason to continue this nonsense of expecting gameplay to be stable while allowing ancient versions of the game to join your server, or worse, keep an old version of the server and allow new client versions to join.
+所以请考虑停止允许多个版本加入你的生存/游戏模式服务器。
 
-ItemsAdder has tons of hacks coded to check client version and server version and then enable some special fixes to avoid crashes/glitches (let's say) on 1.18 clients joining 1.20 servers. I want to stop having to maintain this kind of tricks which are unstable and introduce nothing but stress to both me and the customer.
+## 为什么要放弃旧版本的兼容性？
 
-So please, consider to stop allowing multiple versions to join your survival/gamemode server.
+* 由于减少了代码，减少了错误的可能性
+* 更新更快，不需要保持6个版本的实现更新
+* 新功能，如[物品展示](https://github.com/PluginBugs/Issues-ItemsAdder/issues/2458)和一些其他有趣的[物品](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3536)功能
+* 由于最近的[1.20.3+更改](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3585)，资源包应用过程更可靠
+* 为了增加旧版本兼容性而添加的许多旧技巧将被移除，使插件更稳定
 
-## So why dropping old versions compatibility?
-
-* less incline to bugs due to less hacky code
-* faster updates, no need to keep 6 versions implementations updated
-* new features like [item display](https://github.com/PluginBugs/Issues-ItemsAdder/issues/2458) and some other interesting features for [itemstacks](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3536)
-* more reliable resourcepack apply process due to recent [1.20.3+ changes](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3585)
-* lot of old tricks to add old versions compatibility will be removed to make the plugin more stable
-
-## Final words
+## 最后
 
 {% hint style="info" %}
-You should really consider migrating your ancient server to 1.20.5 and stop **ab-using** ViaVersion. Players, admins and me don't get any advantage over using ViaVersion to allow multiple versions to join your server, it just introduces a ton of stress and frustration.
+你真的应该考虑将你的古老服务器迁移到1.20.5，并停止**滥用**ViaVersion。玩家、管理员和我都没有任何优势使用ViaVersion来允许多个版本加入你的服务器，这只会带来大量的压力和挫折。
 {% endhint %}
 
 {% hint style="success" %}
-Old versions will still be downloadable so you can keep using legacy ItemsAdder versions and don't update to the new versions.
+旧版本仍然可以下载，因此你可以继续使用旧版ItemsAdder，而不更新到新版本。
 {% endhint %}

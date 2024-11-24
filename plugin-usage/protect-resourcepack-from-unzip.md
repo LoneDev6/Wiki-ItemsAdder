@@ -1,27 +1,27 @@
 ---
 icon: lock-keyhole
-description: How to protect your resourcepack from thief
+description: 如何保护你的资源包不被盗取
 ---
 
-# Protect resourcepack from unzip
+# 保护资源包不被解压
 
 {% hint style="warning" %}
-## Disclaimer
+## 免责声明
 
-There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
+没有100%有效的方法来保护资源包，因为游戏必须能够正确解压它以显示纹理。
 
-This feature is a mitigation to avoid kids and trolls to steal your texture.\
-Some experienced users might be able to find a way to bypass these protections.
+此功能是为了避免小孩和恶意用户盗取你的纹理。
+一些有经验的用户可能会找到绕过这些保护的方法。
 
-ItemsAdder does its best to prevent this, but keep that eventuality in mind.
+ItemsAdder 尽最大努力防止这种情况发生，但请记住这种可能性。
 
-Every other plugin has the same limitations. It's not a limitation of ItemsAdder.
+每个插件都有相同的限制。这不是 ItemsAdder 的限制。
 {% endhint %}
 
 {% hint style="info" %}
-With ItemsAdder you can protect your resourcepack from unzip and thieves.\
-You just have to set this option in config.yml and use /iazip again.\
-If you're using Dropbox don't forget to reupload the pack and update the config.yml
+使用ItemsAdder，你可以保护你的资源包不被解压和盗取。
+你只需在config.yml中设置此选项并再次使用/iazip。
+如果你使用Dropbox，不要忘记重新上传资源包并更新config.yml。
 
 {% code title="config.yml" %}
 ```yaml
@@ -35,14 +35,14 @@ If you're using Dropbox don't forget to reupload the pack and update the config.
 
 ## protection\_1
 
-Protect the resourcepack with a basic method.
+使用基础方法保护资源包。
 
 ## protection\_2
 
-Protect the pack with another layer of protection to block some other methods to unzip the pack.
+另一层保护，以阻止部分其他解压资源包的方法。
 
-## Showcase
+## 展示
 
-This is a funny meme showcase of what the user will see when they try to steal your data. But this is actually what the user will see, a group of corrupted files and folders.
+当用户试图盗取你的资源包时，他们看到的其实是损坏的文件与文件夹。
 
 {% embed url="https://youtu.be/MhtEhoOuWV8" %}

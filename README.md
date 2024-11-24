@@ -1,27 +1,27 @@
 ---
-description: This website helps you configuring and creating custom items for my plugin
+description: 该网页帮助你设置与创建自定义物品
 icon: house-blank
 ---
 
-# Welcome
+# 欢迎
 
-Some of this website pages may contain affiliate links, meaning I get a commission if you decide to make a purchase (at no cost to you).
+部分网页可能包含附属连接，如果你通过此方式完成购买（免费），我会得到一定佣金。
 
-### 💠Quick Links
+### 💠快速访问
 
 {% content-ref url="other/tos.md" %}
-[tos.md](other/tos.md)
+[服务条款](other/tos.md)
 {% endcontent-ref %}
 
 {% content-ref url="first-install.md" %}
-[first-install.md](first-install.md)
+[首次安装](first-install.md)
 {% endcontent-ref %}
 
 {% content-ref url="plugin-usage/adding-content/" %}
-[adding-content](plugin-usage/adding-content/)
+[添加物品](plugin-usage/adding-content/)
 {% endcontent-ref %}
 
-### 🌐Social Media
+### 🌐社交媒体
 
 * [Patreon](http://patreon.com/lonedev)
 * [Ko-fi](http://a.devs.beer/kofi)
@@ -31,18 +31,18 @@ Some of this website pages may contain affiliate links, meaning I get a commissi
 * [Steam Developer Page](https://store.steampowered.com/developer/LoneDev/)
 * [Discord](https://discord.gg/4dfnpUK)
 
-## Purchase
+## 购买插件
 
 {% hint style="warning" %}
-Buy the plugin only from official shops, if you bought it elsewhere you were scammed, ask for a refund.
+请在官方商店购买插件，如果你是在其他地方购得，那么你被骗了，请及时要求退款。
 {% endhint %}
 
-### With PayPal
+### 有 Paypal 账户
 
 * [SpigotMC](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
 * [Polymart](https://polymart.org/resource/itemsadder-custom-items-etc.1851)
 * [Builtbybit (Mc-market)](https://builtbybit.com/resources/itemsadder-emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.10839/)
 
-### Without PayPal
+### 无 PayPal 账户
 
 * [Polymart](https://polymart.org/resource/itemsadder-custom-items-etc.1851)

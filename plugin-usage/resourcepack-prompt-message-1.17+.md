@@ -2,16 +2,14 @@
 icon: message
 ---
 
-# Resourcepack prompt message
+# 资源包提示信息
 
+打开 `ItemsAdder/lang/en.yml` 文件（或你的语言文件）。
 
-
-Open `ItemsAdder/lang/en.yml` file (or your language).
-
-Customize the message: `resourcepack-popup-message`.
+自定义消息：`resourcepack-popup-message`。
 
 {% hint style="info" %}
-You can use `\n` as newline
+你可以使用 `\n` 作为换行符
 {% endhint %}
 
 {% code title="ItemsAdder/lang/en.yml" %}

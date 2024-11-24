@@ -2,26 +2,26 @@
 icon: database
 ---
 
-# Custom player stats
+# 自定义玩家属性
 
-## What are player stats?
+## 什么是玩家属性？
 
-They custom attributes added by ItemsAdder, you can add and read them using a special command: `/iaplayerstat`
+它们是由 ItemsAdder 添加的自定义属性，你可以使用一个特殊命令添加和读取它们：`/iaplayerstat`
 
-You can then use **PlaceholderAPI** to show them anywhere or bind them to a HUD.\
-I did that to create thirst and mana. Check my [default configs](https://github.com/search?q=repo%3AItemsAdder%2FDefaultPack+player\_stat\_name\&type=code) for examples.
+然后你可以使用 **PlaceholderAPI** 在任何地方显示它们或将它们绑定到 HUD。\
+我用它来创建口渴和法力值。查看我的[默认配置](https://github.com/search?q=repo%3AItemsAdder%2FDefaultPack+player\_stat\_name\&type=code)以获取示例。
 
-### Example:&#x20;
+### 示例：
 
 `/iaplayerstat write LoneDev thirst 6`\
 `/iaplayerstat read LoneDev thirst float`
 
-## Saving player stats
+## 保存玩家属性
 
-### Custom NBT file
+### 自定义 NBT 文件
 
-Saving them into a custom NBT file handled by ItemsAdder which can be later deleted easily.\
-This file is saved into `plugins\ItemsAdder\storage\players\stats\` folder.
+将它们保存到由 ItemsAdder 处理的自定义 NBT 文件中，该文件可以稍后轻松删除。\
+此文件保存在 `plugins\ItemsAdder\storage\players\stats\` 文件夹中。
 
 ```yaml
 player_stats:
@@ -30,10 +30,10 @@ player_stats:
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-### player.dat file
+### player.dat 文件
 
-Saving them into the vanilla `player.dat` file.\
-This is useful if you want to sync your server and you already sync the player dat files.
+将它们保存至原版 `player.dat` 文件。\
+如果您想同步服务器，并且已经同步了玩家数据文件，这很有用。
 
 ```yaml
 player_stats:

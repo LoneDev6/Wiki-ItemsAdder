@@ -2,26 +2,26 @@
 icon: spinner
 ---
 
-# Loading screen
+# 加载界面
 
-## Customization of the loading screen
+## 自定义加载界面
 
-You can use this tool to create a custom loading screen: [https://non0reo.github.io/ImgToShader/](https://non0reo.github.io/ImgToShader/)
+你可以使用该工具来创建自定义加载界面：[https://non0reo.github.io/ImgToShader/](https://non0reo.github.io/ImgToShader/)
 
 {% hint style="warning" %}
-For now it doesn't allow inserting custom logo but only changing colors and hiding the Mojang logo.
+目前不允许插入自定义logo，只能更改颜色与隐藏 Mojang logo。
 {% endhint %}
 
-## Examples
+## 示例
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-## Customization of the loading screen using Optifine (old method)
+## 使用Optifine自定义加载界面（旧方法）
 
-If you want you can use Optifine and customize the screen with custom images.
+如果你想你可以借助 Optifine 来使用自定义图片修改加载界面。
 
 {% content-ref url="adding-content/optifine-only-features/loading-screen.md" %}
-[loading-screen.md](adding-content/optifine-only-features/loading-screen.md)
+[教程](adding-content/optifine-only-features/loading-screen.md)
 {% endcontent-ref %}

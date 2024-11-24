@@ -1,23 +1,23 @@
 ---
 icon: italic
-description: Special text animations and coloring effects
+description: 特殊文本动画和着色效果
 ---
 
-# Text Effects
+# 文本效果
 
 {% hint style="warning" %}
-* **Requires Minecraft 1.17+ clients**
-* Doesn't work in [Minecraft language files](adding-content/minecraft-language-files.md) (game limitation)
-* Edits the `rendertype_text` shader files
+* **需要 Minecraft 1.17+ 客户端**
+* 不适用于 [Minecraft 语言文件](adding-content/minecraft-language-files.md)（游戏限制）
+* 编辑 `rendertype_text` 着色器文件
 {% endhint %}
 
-## What are text effects?
+## 什么是文本效果？
 
-They are some cool decorative text effects you can use in your server to make it more professional.
+它们是一些很酷的装饰性文本效果，可以在服务器中使用，使其更加专业。
 
 {% hint style="warning" %}
-You have to run `/iazip` in order to enable/disable this feature.\
-Make sure also to enable it in the `config.yml`.
+你需要运行 `/iazip` 以启用/禁用此功能。\
+还要确保在 `config.yml` 中启用它。
 
 ```yaml
 effects:
@@ -36,35 +36,35 @@ effects:
 ```
 {% endhint %}
 
-## Permissions
+## 权限
 
-* Use **text-effects** in **chat**
+* 在 **聊天** 中使用 **文本效果**
   * `ia.user.text_effect.chat`
-* Use **text-effects** in **signs**
+* 在 **标牌** 中使用 **文本效果**
   * `ia.user.text_effect.sign`
-* Use **text-effects** in **books**
+* 在 **书籍** 中使用 **文本效果**
   * `ia.user.text_effect.book`
-* Use **text-effects** in **anvil** rename field
+* 在 **铁砧** 重命名中使用 **文本效果**
   * `ia.user.text_effect.anvil`
-* Use a **text-effect**
+* 使用 **文本效果**
   * `ia.user.text_effect.use.<effect>`
 
-## List of effects
+## 效果列表
 
-Remove background
+移除背景
 
 {% hint style="info" %}
-### Note
+### 注意
 
-in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON components to hide the shadow.
+在 Minecraft **1.21.4** 中，你可以在 JSON 组件中使用 `"shadow_color":0` 属性来隐藏阴影。
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Permission: `ia.user.text_effect.use.noshadow`\
-Usage: `<noshadow text>`
+权限: `ia.user.text_effect.use.noshadow`\
+用法: `<noshadow text>`
 
-### Rainbow
+### 彩虹
 
 ![](../.gitbook/assets/rainbow.gif)
 
@@ -74,19 +74,19 @@ Usage: `<noshadow text>`
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
-Permission: `ia.user.text_effect.use.r`\
-Usage: `<r text>`
+权限: `ia.user.text_effect.use.r`\
+用法: `<r text>`
 
-### Wobble
+### 摇摆
 
 ![](../.gitbook/assets/wobble.gif)
 
 ![](../.gitbook/assets/wobble\_item.gif)
 
-Permission: `ia.user.text_effect.use.w`\
-Usage: `<w text>`
+权限: `ia.user.text_effect.use.w`\
+用法: `<w text>`
 
-### Jump
+### 跳跃
 
 ![](../.gitbook/assets/jump\_chat.gif)
 
@@ -94,44 +94,44 @@ Usage: `<w text>`
 
 ![](../.gitbook/assets/jump\_boss.gif)
 
-Permission: `ia.user.text_effect.use.j`\
-Usage: `<j text>`
+权限: `ia.user.text_effect.use.j`\
+用法: `<j text>`
 
-### Rainbow + Wobble
+### 彩虹 + 摇摆
 
 ![](../.gitbook/assets/rw\_chat.gif)
 
-Permission: `ia.user.text_effect.use.rw`\
-Usage: `<rw text>`
+权限: `ia.user.text_effect.use.rw`\
+用法: `<rw text>`
 
-### Rainbow + Jump
+### 彩虹 + 跳跃
 
-![](../.gitbook/assets/rj.gif)
+![](../..gitbook/assets/rj.gif)
 
-Permission: `ia.user.text_effect.use.rj`\
-Usage: `<rj text>`
+权限: `ia.user.text_effect.use.rj`\
+用法: `<rj text>`
 
-### Blinking
+### 闪烁
 
 <figure><img src="../.gitbook/assets/blinking.webp" alt=""><figcaption></figcaption></figure>
 
-Permission: `ia.user.text_effect.use.b`\
-Usage: `<b text>`
+权限: `ia.user.text_effect.use.b`\
+用法: `<b text>`
 
-## Where can I use these effects?
+## 这些效果可以在哪里使用？
 
-* Custom item name (in the .yml file)
-* Custom item lore (in the .yml file)
-* Chat
-* Sign
-* Book
+* 自定义物品名称（在 .yml 文件中）
+* 自定义物品描述（在 .yml 文件中）
+* 聊天
+* 告示牌
+* 书
 * Bossbar
-* Prefix-Suffix (Luckperms for example)
-* _More soon...._
+* 前缀-后缀（例如 Luckperms）
+* _更多（即将推出....）_
 
 ![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
-## How to create animated prefix (Luckperms)
+## 如何创建动画前缀（Luckperms）
 
 ![](../.gitbook/assets/image\_\(133\).png)
 
@@ -139,61 +139,61 @@ Usage: `<b text>`
 
 ![](../.gitbook/assets/prefix.gif)
 
-Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
+如果你不知道前缀是如何工作的，点击这里阅读 [Luckperms 官方教程](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta)。
 
-## Using text effects without the placeholders
+## 在没有占位符的情况下使用文本效果
 
-For some reason if you want to use text effects on areas which don't support ItemsAdder placeholders (like `<r TEXT>`) you can use another method.
+如果由于某些原因你想在不支持 ItemsAdder 占位符（如 `<r TEXT>`）的区域使用文本效果，你可以使用另一种方法。
 
-These effects are triggered based on a **special HEX color**.\
-So if the area where you want to show a text effect supports HEX colors you can do that.
+这些效果是基于 **特殊的 HEX 颜色** 触发的。\
+所以如果你想显示文本效果的区域支持 HEX 颜色，你可以这样做。
 
-### Special colors
+### 特殊颜色
 
-#### Rainbow
+#### 彩虹
 
 `e6fffe`
 
-#### Wobble
+#### 摇摆
 
 `e6fffa`
 
-#### Rainbow + Wobble
+#### 彩虹 + 摇摆
 
 `e6fbfe`
 
-#### Jump
+#### 跳跃
 
 `e6fbfa`
 
-#### Rainbow + Jump
+#### 彩虹 + 跳跃
 
 `e6f7fe`
 
-### Using them in Minecraft vanilla JSON notation
+### 在 Minecraft 原生 JSON 表示法中使用它们
 
-This triggers the rainbow effect:\
+这会触发彩虹效果：\
 `/tellraw @a {"text":"custom text example", "color":"#e6fffe"}`
 
-Replace `e6fffe` with the effect you want.
+将 `e6fffe` 替换为你想要的效果。
 
-### Using them in plugins which support _MiniMessage_
+### 在支持 _MiniMessage_ 的插件中使用它们
 
 {% embed url="https://docs.advntr.dev/minimessage/format.html#color" %}
 
-(for example ItemsAdder itself and [ChatFormatter](https://www.spigotmc.org/resources/102212/))
+（例如 ItemsAdder 本身和 [ChatFormatter](https://www.spigotmc.org/resources/102212/)）
 
-This triggers the rainbow effect: `<#e6fffe>custom text example`
+这会触发彩虹效果：`<#e6fffe>custom text example`
 
-Replace `e6fffe` with the effect you want.
+将 `e6fffe` 替换为你想要的效果。
 
-### Using them in plugins which support legacy HEX notation
+### 在支持传统 HEX 表示法的插件中使用它们
 
-#### Rainbow
+#### 彩虹
 
 `&X&E&6&F&F&F&E`\
-etc.
+等等。
 
-This was tested on [EpicRename](https://www.spigotmc.org/resources/epicrename.4341/) and should work in any plugin or place where Spigot handles the colors replacement using its own legacy colors code.
+这在 [EpicRename](https://www.spigotmc.org/resources/epicrename.4341/) 上测试过，应该可以在任何插件或 Spigot 使用其自己的传统颜色代码处理颜色替换的地方工作。
 
-Example: `/rename &x&F&F&F&F&F&ETest`
+示例：`/rename &x&F&F&F&F&F&ETest`
