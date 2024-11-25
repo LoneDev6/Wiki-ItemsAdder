@@ -1,22 +1,22 @@
 ---
-description: Creating your first custom block
+description: 创建你的第一个自定义方块
 icon: cube
 ---
 
-# Block
+# 方块
 
-## Create a simple custom block
+## 创建一个简单的自定义方块
 
-### Creating the blocks file
+### 创建方块文件
 
 {% hint style="warning" %}
-This is an example block (remember to change `myitems` [namespace ](broken-reference)to the one you want).
+这是一个示例方块（记得将 `myitems` [命名空间](broken-reference)更改为你想要的）。
 {% endhint %}
 
-For example I created a **file** which will contain all my **custom blocks.**\
-I created it in the folder: `plugins/ItemsAdder/contents/myitems/configs/`
+例如，我创建了一个**文件**，其中包含我所有的**自定义方块**。\
+我将其创建在文件夹：`plugins/ItemsAdder/contents/myitems/configs/`
 
-In this file (`blocks.yml`) I start creating a simple block called `red_block`.
+在这个文件（`blocks.yml`）中，我开始创建一个名为 `red_block` 的简单方块。
 
 ```yaml
 info:
@@ -30,36 +30,36 @@ items:
 ```
 
 {% hint style="warning" %}
-It's very important to use a **non placeable** vanilla **material**. For example **`PAPER`**.\
-If you use a block (like `STONE` or `DIRT`) it will result a bit glitchy when placed.
+使用一个**不可放置**的**原版材料**非常重要。例如 **PAPER**。\
+如果你使用一个方块（如 **STONE** 或 **DIRT**），放置时会有些卡顿。
 {% endhint %}
 
-### Creating the textures files
+### 创建纹理文件
 
-Now the fun part, let's set the textures!\
-To do that you have to put the `.png` textures file inside the correct folder.
+现在是有趣的部分，让我们来设置纹理！\
+你需要在正确的文件夹中存放 `.png` 纹理文件。
 
-In this case your **namespace** is `myitems` so you have to put them in this folder:\
+本例中**命名空间**是 `myitems`，因此你需要将纹理放入该文件夹：\
 `plugins/ItemsAdder/contents/myitems/textures/block/`
 
 <details>
 
-<summary>Alternative textures location</summary>
+<summary>替代路径</summary>
 
-Alternatively you can put them in this folder too:\
+作为替代，你也可以将其放入如下文件夹：\
 `plugins/ItemsAdder/contents/myitems/resourcepack/assets/myitems/textures/block/`
 
-Read more here: [folders structure](configs-and-resourcepack.md#why-different-folder-structures-choices)
+阅读更多：[文件夹结构](configs-and-resourcepack.md#why-different-folder-structures-choices)
 
 </details>
 
 <figure><img src="../../.gitbook/assets/red_block_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
-### Applying the textures files to your item
+### 将纹理应用至物品
 
-Now open `blocks.yml` file again and add the `resource` part as I did.\
-As you can see I set `generate: true` and I set the textures for the item.\
-This tells the plugin to generate the 3D model automatically using your texture.
+再次打开 `blocks.yml`，并像我一样添加 `resource` 部分。\
+如你所见，我设置了 `generate: true`，同时也设置了纹理。\
+这会告诉插件，使用纹理自动生成 3D 模型。
 
 ```yaml
 info:
@@ -73,10 +73,10 @@ items:
       material: PAPER
 ```
 
-### Using different texture for each face
+### 在不同面使用不同纹理
 
 {% hint style="warning" %}
-**Important**: keep the correct cardinal directions order as shown in the example.
+**重要**：如例所示，必须保持正确的方向顺序
 {% endhint %}
 
 ```yaml
@@ -98,7 +98,7 @@ items:
         - block/red_block_west.png
 ```
 
-### Using the same texture for each face
+### 为每个面使用相同的纹理
 
 ```yaml
 info:
@@ -114,11 +114,11 @@ items:
         - block/red_block.png
 ```
 
-## Final complete configuration
+## 完成最终配置
 
-### Adding the block placing functionality
+### 为方块添加放置功能
 
-You have to add the `specific_properties` attribute.
+你需要添加 `specific_properties` 属性。
 
 ```yaml
 info:
@@ -140,21 +140,21 @@ items:
 ```
 
 {% hint style="info" %}
-Click on the bottom link if you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
+如果你想指定可以破坏该方块的**工具**，添加**硬度**和**其他属性**，请单击底部链接。
 {% endhint %}
 
-### Final part
+### 最后
 
-Now you just need to tell the plugin to load your just added block.\
-Make sure to read the hosting tutorial or you won't see the block correctly.
+现在你只需要告诉插件加载你刚刚添加的方块。\
+请务必阅读托管教程，否则您将无法正确看到该块。
 
 {% content-ref url="../resourcepack-hosting/" %}
-[resourcepack-hosting](../resourcepack-hosting/)
+[资源包托管](../resourcepack-hosting/)
 {% endcontent-ref %}
 
-## Getting the block ingame
+## 在游戏内获得该方块
 
-Run `/iaget red_block` to get the item.
+运行 `/iaget red_block` 获得物品。
 
 ![](../../.gitbook/assets/image\_\(92\).png)
 
@@ -162,11 +162,11 @@ Run `/iaget red_block` to get the item.
 
 ![](../../.gitbook/assets/image\_\(93\).png)
 
-## Download the complete example
+## 下载完整示例
 
 {% embed url="https://addon.devs.beer/toolbox/assets-repository/red_block" %}
 
-## Block properties
+## 方块属性
 
 ```yaml
 specific_properties:
@@ -207,28 +207,28 @@ specific_properties:
 
 ### `type`
 
-this property can have these value:
+该属性含有以下内容：
 
 * `REAL_NOTE`
-  * uses a real block (note\_block), no lag, no entities, 100% real blocks.
-  * downsides:&#x20;
-    * **no** support for **transparency**.&#x20;
-    * **max** of **750 blocks** in total.
+  * 使用真实的方块（音符盒），无延迟，无实体，完全真实。
+  * 缺点：
+    * **不**支持**透明**.
+    * **最多 750 个方块**。
 * `REAL`
-  * uses a real block (mushroom), no lag, no entities, 100% real blocks. (although it's advised to use `REAL_NOTE` which is more stable).
-  * downsides:&#x20;
-    * **max** of **191 blocks** in total
+  * 使用真实的方块（蘑菇块），无延迟，无实体，完全真实。（尽管建议使用更稳定的 `REAL_NOTE`）
+  * 缺点：
+    * **最多 191 个方块**
 * `REAL_TRANSPARENT`
-  * uses a real block (chorus), no lag, no entities, 100% real blocks, also with transparency support!
-  * downsides:&#x20;
-    * **max** of **63 blocks** in total
+  * 使用真实的方块（紫菘植株），无延迟，无实体，完全真实，也支持透明！
+  * 缺点
+    * **最多 63 个方块**
 * `REAL_WIRE`
-  * uses a real block (tripwire), no lag, no entities, 100% real blocks.
-  * downsides:&#x20;
-    * **max** of **127 blocks** in total.
+  * 使用真实的方块（拌线），无延迟，无实体，完全真实。
+  * 缺点
+    * **最多 127 个方块**
 * `TILE`
-  * uses **tile** blocks (modified **spawner** with custom skin). It's **not an entity** but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
-  * downsides:
+  * 使用**空心**方块（具有自定义皮肤的**刷怪笼**）。这并非实体，但有一些缺点。好处是你可以创建**无限的方块**，不像**真实**方块一样有数量限制。
+  * 缺点：
     * not a 100% real block, it's a retextured spawner
     * texture/model vanishes on high distance, so it will reveal the spawner vanilla texture
     * it could cause clientside lag if A LOT of blocks are in the player field of view, but only on lowend PCs.

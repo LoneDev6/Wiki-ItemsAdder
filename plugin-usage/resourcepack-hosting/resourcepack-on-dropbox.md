@@ -1,23 +1,23 @@
 # DropBox
 
-## Text tutorial
+## 文字教程
 
-* Open [DropBox](https://dropbox.com/), register/login
-* Use the command`/iazip` (**it's important** because `/iazip`reloads the configs and updates the **generated.zip** file)
-* Open folder: `plugins/ItemsAdder/output/`
-* **Drag and drop** on **DropBox** the file **generated.zip**
-* Press **Share**
+* 打开 [DropBox](https://dropbox.com/)，注册/登录
+* 使用命令 `/iazip`（**这很重要**，因为 `/iazip` 会重新加载配置并更新 **generated.zip** 文件）
+* 打开文件夹：`plugins/ItemsAdder/output/`
+* **拖放**文件 **generated.zip** 到 **DropBox**
+* 点击 **Share**
 
 ![](../../.gitbook/assets/image\_\(20\).png)
 
-* Press **Create**
+* 点击 **Create**
 
 ![](../../.gitbook/assets/image\_\(21\).png)
 
-* Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)
-* Open `config.yml` of **ItemsAdder**
-* Set it like this (**I used the example URL, please use your own**)
+* 点击 **Copy link**
+* 例如，如果你的链接是 [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)
+* 打开 **ItemsAdder** 的 `config.yml`
+* 设置如下（**我使用了示例 URL，请使用你自己的**）
 
 ```yaml
 resource-pack:
@@ -31,28 +31,28 @@ resource-pack:
     url: 'https://www.dropbox.com/blablabla?dl=0'
 ```
 
-* **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` (in this case to reload the resourcepack download link)
-* **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
+* **这真的很重要**：**使用命令** `/iareload` **重新加载** **插件**，在你**更改** `config.yml` 中的内容后（在这种情况下重新加载资源包下载链接）
+* **在游戏中使用命令** `/iatexture` **刷新当前游戏纹理**，或使用 `/iatexture all` **刷新所有玩家的纹理**
 
 {% hint style="danger" %}
-PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+请在每次编辑**纹理**、3D **模型**、**声音**后使用 `/iazip`，然后重新上传资源包到 **Dropbox** 并使用 **/iareload**，否则你将看不到任何变化。
 {% endhint %}
 
 {% hint style="warning" %}
-**Change** the **file name each time** you **upload** a **new version** of the **resourcepack** to **force** the game to **redownload** the **new version**.\
-If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
+每次上传新版本的资源包时**更改文件名**以**强制游戏重新下载**新版本。\
+如果你使用相同的 URL 重新上传相同的 zip 文件，它不会对每个玩家进行更新。
 {% endhint %}
 
-## But this is so slow! I have to reupload on DropBox too many times!
+## 但是这太慢了！我必须多次重新上传到 DropBox！
 
-Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting (cheap ones) don't provide port opening, so you must use **DropBox**.
+是的，所以你应该使用自托管功能而不是 **DropBox**。但是一些托管（便宜的）不提供端口开放，所以你必须使用 **DropBox**。
 
 {% content-ref url="resourcepack-self-hosting.md" %}
-[resourcepack-self-hosting.md](resourcepack-self-hosting.md)
+[执行托管资源包](resourcepack-self-hosting.md)
 {% endcontent-ref %}
 
-## Continue installation if you need
+## 如果需要，请继续安装
 
 {% content-ref url="../../first-install.md" %}
-[first-install.md](../../first-install.md)
+[首次安装](../../first-install.md)
 {% endcontent-ref %}

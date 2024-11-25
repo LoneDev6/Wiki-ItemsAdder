@@ -2,11 +2,11 @@
 icon: hammer-crash
 ---
 
-# Anvil repair
+# 铁砧修复
 
-## Example
+## 示例
 
-This recipe allows you to let players repair an item in anvil using a material.
+该配方允许你的玩家在铁砧上使用材料修复物品。
 
 ```yaml
 recipes:
@@ -18,4 +18,4 @@ recipes:
       item: iasurvival:emerald_sword
 ```
 
-In this example I created an `anvil_repair` recipe called `emerald_sword`.
+本例中我创建了一个叫做 `emerald_sword` 的 `anvil_repair` 配方。

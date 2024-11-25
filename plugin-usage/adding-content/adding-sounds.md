@@ -2,39 +2,39 @@
 icon: volume-low
 ---
 
-# Sounds
+# 声音
 
-## Convert MP3 to OGG
+## 将 MP3 转换为 OGG
 
-Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert your file (mp3, wav...) to ogg.
+使用[这个网站](https://audio.online-convert.com/convert-to-ogg)将你的文件（mp3, wav 等）转换为 ogg。
 
 {% hint style="warning" %}
-### IMPORTANT
+### 重要
 
-Remember to set "Change audio channels" to MONO or you will experience [audio problems](https://bugs.mojang.com/browse/MC-146721)
+记得将“更改音频通道”设置为单声道，否则你会遇到[音频问题](https://bugs.mojang.com/browse/MC-146721)
 
 <img src="../../.gitbook/assets/audio_mono.png" alt="" data-size="original">
 {% endhint %}
 
-### Step 1
+### 步骤 1
 
-* create a new folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/` \
-  (or use yours if you already have one)
-* put your **.ogg** file in there.\
-  You can also create more folders inside `sounds` to organize your sounds.\
-  For example "effects", "music" etc.
+* 创建一个新文件夹 `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/` \
+  （如果你已经有一个文件夹，可以使用它）
+* 将你的 **.ogg** 文件放在里面。\
+  你也可以在 `sounds` 文件夹内创建更多文件夹来组织你的声音文件。\
+  例如“effects”、“music”等。
 
-For example I have a file named **song\_1.ogg** and I put it into a new `music` folder.\
-So now I have `contents/my_sounds/resourcepack/my_sounds/sounds/music/song_1.ogg`
+例如，我有一个名为 **song\_1.ogg** 的文件，并将其放入一个新的 `music` 文件夹中。\
+所以现在我有 `contents/my_sounds/resourcepack/my_sounds/sounds/music/song_1.ogg`
 
-### Step 2
+### 步骤 2
 
-* open the folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/`
-* create a new file named `sounds.json` (or open it if you already created it)
-* this file is a `.json` file so you MUST write it correctly or it won't work.\
-  If you need info about Json files please search online.
+* 打开文件夹 `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/`
+* 创建一个名为 `sounds.json` 的新文件（如果已经创建则打开它）
+* 这个文件是一个 `.json` 文件，所以你必须正确编写，否则它将无法工作。\
+  如果你需要关于 Json 文件的信息，请在线搜索。
 
-To add your sound into the file you just have to do this:
+要将你的声音添加到文件中，只需这样做：
 
 ```javascript
 {
@@ -46,19 +46,19 @@ To add your sound into the file you just have to do this:
 }
 ```
 
-#### Now I explain each part of the code I wrote.
+#### 现在我解释我写的代码的每一部分。
 
-This is the sound name. You will use it in every part of the plugin and also in Minecraft vanilla [/playsound ](https://www.digminecraft.com/game\_commands/playsound\_command.php)command.
+这是声音名称。你将在插件的每个部分以及 Minecraft 原版的 [/playsound ](https://www.digminecraft.com/game\_commands/playsound\_command.php)命令中使用它。
 
 ```javascript
 "music.song_1":{
 ```
 
-This is the list of sound files Minecraft will play when you call the sound name.\
-Minecraft will play one of these sounds randomly (only if you set more than one sound).
+这是当你调用声音名称时 Minecraft 将播放的声音文件列表。\
+Minecraft 将随机播放其中一个声音（仅当你设置了多个声音时）。
 
 {% hint style="warning" %}
-Keep in mind that you have to change `my_sounds` to your own namespace name if it's different!
+请记住，如果你的命名空间名称不同，你必须将 `my_sounds` 更改为你自己的命名空间名称！
 {% endhint %}
 
 <pre class="language-javascript"><code class="lang-javascript">"sounds":[
@@ -66,7 +66,7 @@ Keep in mind that you have to change `my_sounds` to your own namespace name if i
 </strong>]
 </code></pre>
 
-For example if you want to have random sounds for the same sound name you just have to create multiple `.ogg` files and put them like this:
+例如，如果你想为同一个声音名称设置随机声音，只需创建多个 `.ogg` 文件并像这样放置它们：
 
 ```javascript
 "sounds":[
@@ -76,10 +76,10 @@ For example if you want to have random sounds for the same sound name you just h
 ]
 ```
 
-## How can I add multiple sounds in the `sounds.json` file?
+## 如何在 `sounds.json` 文件中添加多个声音？
 
-It's easy, the next time you want to add a sound you just have to add a comma at the end, like this.\
-(I'm referring to line 6 comma)
+很简单，下次你想添加声音时，只需在末尾添加一个逗号，如下所示。\
+（我指的是第 6 行的逗号）
 
 ```javascript
 {
@@ -97,5 +97,5 @@ It's easy, the next time you want to add a sound you just have to add a comma at
 ```
 
 {% hint style="warning" %}
-If you want to be sure not to make mistakes use this website to check if your Json file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
+如果你想确保不出错，请使用这个网站检查你的 Json 文件是否正确或有错误：[https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 {% endhint %}

@@ -2,15 +2,15 @@
 icon: shirt
 ---
 
-# Simple Armor
+# 简单盔甲
 
-This is a simple armor which is created automatically without textures, ItemsAdder will generate it from the color you decided and will be similar to iron/diamond armors but with different color.
+这是一个自动创建的简单盔甲，没有纹理，ItemsAdder会根据你决定的颜色生成它，它类似于铁/钻石护甲，但颜色不同。
 
-## Complete `yml` configuration
+## 完成 `yml` 配置
 
 <details>
 
-<summary>Click here to read the configuration file</summary>
+<summary>点击阅读配置文件</summary>
 
 ```yaml
 info:
@@ -83,13 +83,13 @@ items:
 </details>
 
 {% file src="../../.gitbook/assets/myarmor_example_simple.zip" %}
-Extract the zip into the `contents` folder of ItemsAdder
+将 zip 解压缩到 ItemsAdder 的 `contents` 文件夹中
 {% endfile %}
 
-### Creating an armor piece
+### 创建盔甲部件
 
-Let's create a chestplate.\
-To create other pieces you just have to repeat the following method and change the `slot`.
+让我们创建一个胸甲\
+要创建其他部件，你只需要重复下述方法，并更改 `slot`。
 
 ```yaml
   my_armor_simple_chestplate:
@@ -109,11 +109,11 @@ To create other pieces you just have to repeat the following method and change t
         armorToughness: 1
 ```
 
-The `color` property is important, it's the color that the armor will have ingame.
+`颜色`属性很重要，它是盔甲在游戏内的颜色。
 
-## Done!
+## 完成
 
-Nothing more to do. You just created a simple armor without drawing any texture!
+没什么可做的。你只是创建了一个简单的盔甲，没有绘制任何纹理！
 
 <figure><img src="../../.gitbook/assets/armor_items_preview_tutorial.png" alt=""><figcaption></figcaption></figure>
 

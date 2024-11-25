@@ -2,25 +2,25 @@
 icon: bow-arrow
 ---
 
-# Fishing rod, shield, bundle
+# 钓鱼竿、盾牌、收纳袋
 
-To use the status textures, you need to add suffixes to your model filename or texture.
+要使用状态纹理，您需要在模型文件名或纹理中添加后缀。
 
-If you plan to use textures (png) you had to set `generate: true`.\
-If you plan to use models (json) you have to set `generate: false`, as you already have the models.&#x20;
+如果您计划使用纹理（png），则必须设置 `generate: true`。\
+如果您计划使用模型（json），则必须设置 `generate: false`，因为您已经有模型了。
 
 * `FISHING_ROD`
-  * `_cast` - Shows a fishing rod when it is cast
-  * No suffix - Shows the fishing rod in the normal state, when it's not cast.
+  * `_cast` - 显示抛竿时的钓鱼竿
+  * 无后缀 - 显示正常状态下的钓鱼竿
 * `SHIELD`
-  * `_blocking` - Shows a shield model when you are blocking with it
+  * `_blocking` - 显示格挡时的盾牌模型
 * `BUNDLE`
-  * `_filled` - Displays a bundle when it is filled
+  * `_filled` - 显示装满时的收纳袋
 
-## Adding item states using suffixes
+## 使用后缀添加物品状态
 
-Refer to the bow tutorial, just add the missing image files.
+请参考弓的教程，只需添加缺少的图像文件。
 
 {% content-ref url="bow.md" %}
-[bow.md](bow.md)
+[弓](bow.md)
 {% endcontent-ref %}

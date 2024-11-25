@@ -1,16 +1,16 @@
 # iaimage
 
-This command shows you a list of all the font images (for example emojis) that are available to be used in chat/commands/signs/books.
+此命令显示所有可用于聊天/命令/标志/书籍的字体图像（例如表情符号）列表。
 
-## Book customization
+## 书籍自定义
 
-You can customize some parts the book shown with that command.
+您可以自定义该命令显示的书籍的某些部分。
 
 {% hint style="warning" %}
-Requires ItemsAdder 3.4.0b or greater.
+需要 ItemsAdder 3.4.0b 或更高版本。
 {% endhint %}
 
-### Change book font to Minecraft default font (default plugin option)
+### 将书籍字体更改为 Minecraft 默认字体（插件默认选项）
 
 ```yaml
   iaimage-book:
@@ -18,11 +18,11 @@ Requires ItemsAdder 3.4.0b or greater.
     placeholder-font: "minecraft:default"
 ```
 
-It's advised to set `max-line-length: 18`, this allows long texts to use the whole available line space.
+建议设置 `max-line-length: 18`，这允许长文本使用整个可用的行空间。
 
 <figure><img src="../../.gitbook/assets/iaimage_book_1.png" alt=""><figcaption></figcaption></figure>
 
-### Change book font to Minecraft thin font
+### 将书籍字体更改为 Minecraft 细字体
 
 ```yaml
   iaimage-book:
@@ -30,8 +30,8 @@ It's advised to set `max-line-length: 18`, this allows long texts to use the who
     placeholder-font: "uniform"
 ```
 
-It's advised to set `max-line-length: 22`, this allows long texts to use the whole available line space.\
-The plugin should avoid too long texts to overflow and go to the next line, but if that happens you have to reduce the length value to `20` or lower.
+建议设置 `max-line-length: 22`，这允许长文本使用整个可用的行空间。\
+插件应避免过长的文本溢出并转到下一行，但如果发生这种情况，您必须将长度值减少到 `20` 或更低。
 
 <figure><img src="../../.gitbook/assets/iaimage_book_2.png" alt=""><figcaption></figcaption></figure>
 

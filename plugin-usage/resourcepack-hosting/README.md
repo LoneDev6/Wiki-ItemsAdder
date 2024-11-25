@@ -2,5 +2,5 @@
 icon: file-image
 ---
 
-# Resourcepack hosting
+# 资源包托管
 

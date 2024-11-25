@@ -2,21 +2,21 @@
 icon: tent-arrows-down
 ---
 
-# Loots
+# 战利品
 
-Loots can be used to specify when to drop a particular item.
+战利品可以用来指定何时掉落特定物品。
 
-You can decide to create different loot types:
+你可以决定创建不同类型的战利品：
 
-* blocks
-* mobs
-* fishing
+* 方块
+* 生物
+* 钓鱼
 
-For example this is the loots category of a `.yml` file I created.
+例如，这是我创建的 `.yml` 文件中的战利品类别。
 
 {% hint style="warning" %}
-<mark style="color:red;">Don't forget the namespace!</mark>\
-Don't forget to define a namespace for every of your config!
+<mark style="color:red;">不要忘记命名空间！</mark>\
+不要忘记为每个配置定义命名空间！
 {% endhint %}
 
 ```yaml
@@ -48,21 +48,21 @@ loots:
           chance: 15
 ```
 
-This example has two loots in **blocks** category.
+实例中在**方块**目录含有两个战利品。
 
-First one is called `ruby_ore` (you can call them as you prefer), this will drop a `itemsadder:ruby` item when you break a custom **block** of type `iasurvival:ruby_ore` with a minimum **amount** of **1** and **maximum** amount of **2** with **100% chance**.
+第一个是 `ruby_ore`（你也可以按喜好命名），这会在你破坏一个类型为 `iasurvival:ruby_ore` 标签的自定义**方块**后以**100%的几率**掉落**最小**数量为**1**，**最大**数量为**2**的 `itemsadder:ruby` 物品。
 
-The second one is a loot from a vanilla **block**. As you imagine it will drop a `crystal` or a `knowledge_fragment` when the player breaks a `NETHER_QUARTZ_ORE`.\
-These **drops** are decided by **ItemsAdder** based on **chance** you set.
+第二个是原版**方块**的战利品。如你所想，当玩家破坏一个 `NETHER_QUARTZ_ORE`时会掉落一个 `crystal` 或 `knowledge_fragment`。\
+这些**掉落物**由 **ItemsAdder** 依据你设定的**几率**决定。
 
 {% hint style="info" %}
-Special property: `drop_only_first`\
-This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.
+特殊属性：`drop_only_first`\
+这允许你阻止插件在成功提取到正确的掉落几率时掉落物品。
 
-<mark style="color:orange;">**WARNING**</mark><mark style="color:orange;">: this would make your items</mark> <mark style="color:orange;">**harder**</mark> <mark style="color:orange;">to be</mark> <mark style="color:orange;">**dropped**</mark><mark style="color:orange;">.</mark>
+<mark style="color:orange;">**警告**</mark><mark style="color:orange;">: 这可能会让物品</mark> <mark style="color:orange;">**更难掉落**</mark><mark style="color:orange;">。</mark>
 {% endhint %}
 
-## Drop only in specific biomes
+## 仅在特定群系掉落
 
 ```yaml
 loots:
@@ -81,9 +81,9 @@ loots:
           chance: 100
 ```
 
-## Ignore fortune enchant
+## 不受时运附魔影响
 
-You can make a loot ignore fortune enchant by adding the `ignore_fortune` property.
+你可以通过添加 `ignore_fortune` 属性来让该战利品不受时运附魔影响
 
 ```yaml
 loots:
@@ -99,12 +99,12 @@ loots:
           ignore_fortune: true # <----- here
 ```
 
-## Other types of loots
+## 其他类型战利品
 
-As I said before there are other types of loots: mobs and fishing.\
-These are some examples:
+如前所述，还有怪物与钓鱼两种掉落物类型。\
+这是一些示例：
 
-### Fishing
+### 钓鱼
 
 ```yaml
 loots:
@@ -134,7 +134,7 @@ loots:
           chance: 5
 ```
 
-### Mobs
+### 怪物
 
 ```yaml
 loots:
@@ -163,9 +163,9 @@ loots:
           chance: 100
 ```
 
-### **Custom mobs loots (**[**old entities method**](mobs/old-method/)**)**
+### **自定义怪物战利品 (**[**旧方法**](mobs/old-method/)**)**
 
-In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
+为了让 ItemsAdder 基于你击杀自定义怪物（通过 ItemsAdder 创建）来掉落战利品，你需要使用 `ItemsAdderMob` 元数据属性。示例：
 
 ```yaml
 loots:
@@ -185,11 +185,11 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderMob` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
+如你所见，我设置了 `ItemsAdderMob` 属性，并设定了自定义怪物的**命名空间:id**（本例中为 **creaturesplus:soul**）
 
-### **Custom entities loots**
+### **自定义实体战利品**
 
-In order to let ItemsAdder drop an item based on when you kill a custom entity (created with ItemsAdder) you have to use the `ItemsAdderEntity` metadata attribute. Example:
+为了让 ItemsAdder 基于你击杀自定义实体（通过 ItemsAdder 创建）来掉落战利品，你需要使用 `ItemsAdderEntity` 元数据属性。示例：
 
 ```yaml
 loots:
@@ -209,9 +209,9 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderEntity` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob)
+如你所见，我设置了 `ItemsAdderEntity` 属性，并设定了自定义实体的**命名空间:id**（本例中为 **custom:ninja\_skeleton**）
 
-### **Villager professions (and any other NBT attribute you want to match)**
+### **村民职业（以及任何你想匹配的 NBT 属性）**
 
 ```yaml
 loots:
@@ -231,14 +231,14 @@ loots:
           chance: 100
 ```
 
-As you can see I set **profession** attribute and specified the **NBT attribute** path, which in this case is **VillagerData.profession**.\
-Then I set value to **minecraft:farmer**, this tells ItemsAdder to match only **villagers** with attribute **VillagerData.profession** set to **minecraft:farmer**.
+如你所见，我设置了职业属性并指定了 NBT 属性路径，在本例中为VillagerData.production。\
+然后我将值设置为 **minecraft:farmor**，这告诉 ItemsAdder 只匹配属性 **VillageData.profession** 为 **minecraft:farmer** 的**村民**。
 
 {% hint style="warning" %}
-The type attribute of **nbt** and **metadata** are really **important**, don't **forget** them or matches could not occur.
+**NBT**和**元数据**非常**重要**，不要**忘记**它们，否则无法进行匹配。
 {% endhint %}
 
-### **Drop based on Tile entity NBT data (for example Spawner)**
+### **基于重复实体 NBT 数据的掉落（如刷怪笼）**
 
 ```yaml
 loots:
@@ -261,7 +261,7 @@ loots:
 ```
 
 {% hint style="warning" %}
-You have to enable this setting if you want to be able to get items from spawners by using an enchanted item with silktouch.
+如果你想通过使用具有精准采集附魔的物品从刷怪笼那里获得物品，你必须启用此设置。
 
 ```yaml
 loots:  
@@ -269,10 +269,10 @@ loots:
 ```
 {% endhint %}
 
-## Per-world loots
+## 多世界战利品
 
 {% hint style="warning" %}
-This requires ItemsAdder 3.2.5+
+这需要 ItemsAdder 3.2.5+
 {% endhint %}
 
 ```yaml
@@ -297,35 +297,36 @@ loots:
           ignore_fortune: false
 ```
 
-Loots will drop in all worlds if you don't specify any world.
+如果你不指定任何世界，所有世界都会掉落战利品。
 
-The special `*` character allows any world starting with a particular text.\
-In this example every world starting with `world_` will match and will drop loots.
+字符 `*` 允许任何以特定文本开头的世界掉落战利品\
+在这个例子中，每个以“world_”开头的世界都会匹配并允许掉落。
 
-The special `!` character denies the loot to be dropped in any world starting with a particular text.\
-In this example every world starting with `private_` will match and won't allow dropping loots.
+字符 `!` 拒绝在任何以特定文本开头的世界中掉落战利品\
+在这个例子中，每个以“private_”开头的世界都会匹配，并且不允许掉落。
 
-You can also specify precise world names, in this example `example2` won't allow loots to be dropped.
+您还可以指定精确的世界名称，在这个例子中，`example2` 不允许掉落战利品。
 
-You can also specify precise world names, in this example `example1` will allow loots to be dropped.
+您还可以指定精确的世界名称，在本例中，`example1` 将允许掉落战利品。
 
-## Loot `PLAYER_HEAD` with specific skin
+## 掉落带有特定皮肤的 `PLAYER_HEAD`
 
-How to assign `PLAYER_HEAD` with texture as drop.
+如何指定带有纹理的 `PLAYER_HEAD` 为掉落物。
 
-### Preparing the head drop (only existing workaround)
+### 准备头颅掉落物（现有解决方法）
 
-Create a new custom item for the player head to drop.
+为玩家头颅创建一个新的自定义物品。
 
-1. create new file (name of mine is `playerheads.yml`), where we set `nbt` to set texture which can be found on [minecraft-heads.com](https://minecraft-heads.com)
+1. 创建一个新文件（我使用的是 `palyerheads.yml`），用于设置我们在 [minecraft-heads.com](https://minecraft-heads.com) 找到的纹理 `NBT`。
 
 {% hint style="warning" %}
 ```
-`skull` can be set to what you want
+`skull` 可以是任意你想要的东西
 ```
 {% endhint %}
 
-2\. material must be \`PLAYER\_HEAD\` 3. set the vanilla \`model\_path\`
+2. 材料必须为 `PLAYER\_HEAD` 
+3. 设置原版 `model\_path`
 
 ```yml
 info:
@@ -341,14 +342,13 @@ items:
       model_path: "minecraft:item/player_head"
 ```
 
-### Setting up the loot
+### 设置战利品
 
-We have to create a new loot config which should look like this\
-`OBSIDIAN` is block from which this head will be dropped\
-↳ `namespace:blockname` for custom ItemsAdder block\
-`head` is custom id which can be set to whatever you want\
-To `item:` we should place our namespace from prepared head to drop, so `playerheads:skull`\
-All of other variables you can find here https://itemsadder.devs.beer/plugin-usage/adding-content/loots.
+我们应该创建一个如下所示的战利品配置。\
+`OBSIDIAN` 是将要掉落头颅的方块，对于 ItemsAdder 方块，应为 `namespace:blockname`\
+`head` 是你想要设置的 ID\
+将准备好的头颅命名空间放于`item: `后，如 `playerheads:skull`\
+你可以在[这里](https://itemsadder.devs.beer/plugin-usage/adding-content/loots)找到所有变量。
 
 ```yml
 info:

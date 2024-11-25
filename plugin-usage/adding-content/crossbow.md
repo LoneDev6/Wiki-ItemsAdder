@@ -2,23 +2,23 @@
 icon: bow-arrow
 ---
 
-# Crossbow
+# 弩
 
-To use the status textures, you need to add suffixes to your model filename or texture.
+要使用状态纹理，您需要在模型文件名或纹理中添加后缀。
 
-If you plan to use textures (png) you had to set `generate: true`.\
-If you plan to use models (json) you have to set `generate: false`, as you already have the models.&#x20;
+如果您计划使用纹理（png），则必须设置 `generate: true`。\
+如果您计划使用模型（json），则必须设置 `generate: false`，因为您已经有了模型。&#x20;
 
-* `_0` - First pulling state
-* `_1` - Second pulling state
-* `_2` - Third pulling state
-* `_charged` - A charged crossbow with an arrow
-* `_firework` - A charged crossbow with a firework
+* `_0` - 第一个拉弓状态
+* `_1` - 第二个拉弓状态
+* `_2` - 第三个拉弓状态
+* `_charged` - 装有箭的已充能弩
+* `_firework` - 装有烟花的已充能弩
 
-## Adding item states using suffixes
+## 使用后缀添加物品状态
 
-Refer to the bow tutorial, just add the missing image files.
+请参考弓的教程，只需添加缺少的图像文件。
 
 {% content-ref url="bow.md" %}
-[bow.md](bow.md)
+[弓](bow.md)
 {% endcontent-ref %}

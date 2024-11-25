@@ -1,6 +1,6 @@
-# Mobs
+# 怪物
 
 {% hint style="danger" %}
-Mobs are still in beta, please don't ask for support nor for tutorials, surely I will rework how they are managed in files and stuff,
+怪物仍处于测试阶段，请不要寻求支持或教程，我肯定会重新设计它们在的管理方式，
 {% endhint %}
 

@@ -2,19 +2,19 @@
 icon: tree
 ---
 
-# Trees and trees populators
+# 树木和树木生成器
 
-## Creating the leaves and wood blocks
+## 创建树叶和木块
 
-In order to create a custom tree you have to create two blocks for each tree: leaves and wood.
+为了创建自定义树木，你需要为每棵树创建两个方块：树叶和木块。
 
-### Follow this tutorial to create blocks&#x20;
+### 按照本教程创建方块
 
 {% content-ref url="block.md" %}
-[block.md](block.md)
+[创建方块](block.md)
 {% endcontent-ref %}
 
-For example I created 2 blocks by following the tutorial: `my_leaves`, `my_log`.
+例如，我按照教程创建了两个方块：`my_leaves`，`my_log`。
 
 ```yaml
 info:
@@ -60,9 +60,9 @@ items:
         - HAND
 ```
 
-## Creating the sapling (optional)
+## 创建树苗（可选）
 
-### The sapling item
+### 树苗物品
 
 ```yaml
 items:
@@ -79,7 +79,7 @@ items:
         tree_populator: orange_tree
 ```
 
-### The custom tree populator
+### 自定义树木生成器
 
 ```yaml
 trees_populators:
@@ -100,29 +100,29 @@ trees_populators:
 
 a
 
-## Generate trees in the world
+## 在世界中生成树木
 
-First read this tutorial on creating the tree blocks (leaved and wood)
+首先阅读本教程，了解如何创建树木方块（树叶和木块）
 
 {% hint style="danger" %}
-**End dimension**
+**末地维度**
 
-It's advised **not** to **spawn** the trees in the **END** dimension because it has _some_ **problems**.
+建议**不要**在**末地**维度生成树木，因为它有一些**问题**。
 
-**Vanilla trees bug**
+**原版树木错误**
 
-Sometimes trees will spawn with vanilla leaves, this is a known issue and I have no solution for this. Seems to be a Minecraft/Spigot bug, seems an event used by IA sometimes is not triggered.
+有时树木会生成带有原版树叶，这是一个已知问题，我没有解决方案。似乎是Minecraft/Spigot的错误，IA使用的某个事件有时不会触发。
 
-**Big trees lag**
+**大树卡顿**
 
-Big trees COULD cause some lag on generation, please use only small tree types.
+大树在生成时可能会导致一些卡顿，请仅使用小型树木类型。
 
-**Other problems**
+**其他问题**
 {% endhint %}
 
-## Make the trees spawn randomly
+## 使树木随机生成
 
-In order to make trees spawn in the world you have to create a `tree_populator`.
+为了使树木在世界中生成，你需要创建一个`tree_populator`。
 
 ```yaml
 info:
@@ -151,48 +151,48 @@ trees_populators:
 
 ### worlds
 
-This property specifies the worlds where the tree can spawn.
+此属性指定树木可以生成的世界。
 
-### bottom\_block
+### bottom_block
 
-This property specifies on which block the tree can spawn.
+此属性指定树木可以生成在哪种方块上。
 
 ### chance
 
-Chance of the tree to spawn in a chunk.
+树木在一个区块中生成的几率。
 
-### min\_height and max\_height
+### min_height 和 max_height
 
-Decide the interval of height where you want the tree to spawn.
+决定树木生成的高度区间。
 
 ### amount
 
-How many trees to spawn per group.
+每组生成的树木数量。
 
 ### iterations
 
-How many groups needs to be spawned in the current chunk if the **chance** is matched.
+如果**几率**匹配，当前区块中需要生成的树木组数。
 
-### tree\_type
+### tree_type
 
-The type of the tree to be spawned. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/TreeType.html).\
-This property is optional, this tree will spawn on every biome if you don't set it.
+要生成的树木类型。完整列表可以在[这里](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/TreeType.html)找到。\
+此属性是可选的，如果不设置，此树木将在每个生物群系中生成。
 
 ### leaves
 
-The block to be used as leaves for this tree.
+用于此树木的树叶方块。
 
 ### log
 
-The block to be used as log for this tree.
+用于此树木的木块。
 
 ### biomes
 
-The list of biomes where the tree can spawn. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html).\
-This property is optional, this tree will spawn on every biome if you don't set it.
+树木可以生成的生物群系列表。完整列表可以在[这里](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html)找到。\
+此属性是可选的，如果不设置，此树木将在每个生物群系中生成。
 
-## Example
+## 示例
 
 {% embed url="https://www.spigotmc.org/resources/trees-newtrees-itemsadder-addon.84604/" %}
 
-![](../../.gitbook/assets/image\_\(125\).png)
+![](../../.gitbook/assets/image_(125).png)

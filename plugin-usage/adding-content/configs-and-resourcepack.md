@@ -1,27 +1,27 @@
 ---
 icon: folder
-description: What is the contents folder and how it's structured
+description: contents 文件夹是什么以及它的结构
 ---
 
-# Contents folder
+# contents 文件夹
 
-## Folders types
+## 文件夹类型
 
 ### contents
 
-Is a folder which contains a set of sub-folders.\
-Each one contains separated pack which contain configurations and models/textures/sounds...
+这是一个包含一组子文件夹的文件夹。\
+每个子文件夹包含一个独立的包，其中包含配置和模型/纹理/声音等。
 
-You can see that each folder name in **contents** is the [namespace](broken-reference) of the assets it contains.
+你可以看到 **contents** 中每个文件夹的名称是它包含的资源的[命名空间](broken-reference)。
 
 ### configs
 
-Each folder inside `contents` contains a sub-folder called `configs`.\
-This is a folder which contains a set of folders and files.\
-It contains organized `.yml` files which contain items behavior, settings, enchant, recipe, loots, items properties, recipes and more.
+每个 `contents` 文件夹内包含一个名为 `configs` 的子文件夹。\
+这是一个包含一组文件夹和文件的文件夹。\
+它包含组织良好的 `.yml` 文件，这些文件包含物品行为、设置、附魔、配方、战利品、物品属性、配方等。
 
 {% hint style="warning" %}
-**Namespace** is also set inside the `.yml` file itself, don't forget to set it in the top part:
+**命名空间** 也在 `.yml` 文件本身中设置，不要忘记在顶部部分设置它：
 
 ```yaml
 info:
@@ -31,86 +31,86 @@ info:
 
 ### resourcepack
 
-You can see this folder and **configs** as a very similar thing, but **resourcepack** folder contains the "**graphical**" part of all **items** (and also sounds, GUIs...).
+你可以将此文件夹和 **configs** 视为非常相似的东西，但 **resourcepack** 文件夹包含所有 **物品** 的“**图形**”部分（以及声音、GUI 等）。
 
 {% hint style="danger" %}
-#### **Important**
+#### **重要**
 
-Remember to always maintain order in **contents** sub-folders!\
-Don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.
+记住始终保持 **contents** 子文件夹的顺序！\
+不要随意粘贴内容，不要创建太多子文件夹，不要留下未使用的纹理/模型，否则将很难发现错误和错误。
 {% endhint %}
 
-## What is a `namespace`?
+## 什么是 `命名空间`？
 
-As you surely noticed ItemsAdder uses **`namespaces`** to identify most of the things it manages.\
-A **`namespace`** is a **group** of elements, in this case a group of **items, blocks, mobs etc**.\
-With namespaces you can easily understand where a particular **item**, **sound**, **block etc.** comes from.
+正如你肯定注意到的，ItemsAdder 使用 **`命名空间`** 来识别它管理的大多数内容。\
+**`命名空间`** 是一 **组** 元素，在这种情况下是一组 **物品、方块、生物等**。\
+使用命名空间，你可以轻松了解特定 **物品**、**声音**、**方块** 等来自哪里。
 
-### Example
+### 示例
 
-All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
+所有 **realcraft** 物品都在 **realcraft** 命名空间下，因此当你使用 `/iaget` 命令时，你可以看到所有物品 ID 都以 `realcraft:` 开头
 
 ![](<../../.gitbook/assets/image (7) (1).png>)
 
-## How can I define my own namespace?
+## 如何定义自己的命名空间？
 
-In order to keep everything organized you have to create **your** own **namespace**.\
-First step is to create a subfolder inside: `plugins/ItemsAdder/contents/`
+为了保持一切井井有条，你必须创建**你自己的**命名空间。\
+第一步是在：`plugins/ItemsAdder/contents/` 中创建一个子文件夹
 
-In this example **namespace** will be `my_items` so create a folder named like the namespace: `contents/my_items/`
+在此示例中，**命名空间** 将是 `my_items`，因此创建一个与命名空间同名的文件夹：`contents/my_items/`
 
 ![](../../.gitbook/assets/my\_items\_namespace.png)
 
-Open the `my_items` folder and create a new file, you can call it like as you prefer.\
-For example: `contents/my_items/myswords.yml`
+打开 `my_items` 文件夹并创建一个新文件，你可以随意命名它。\
+例如：`contents/my_items/myswords.yml`
 
 ![](../../.gitbook/assets/my\_swords\_yml.png)
 
-Open the new `.yml` file and paste this:
+打开新的 `.yml` 文件并粘贴以下内容：
 
 ```yaml
 info:
   namespace: my_items
 ```
 
-As you see I set **namespace** to `my_items`, which is the **namespace** I chose before and it's the same name of the **folder**. \
-Remember to change it based on your **namespace**.
+如你所见，我将 **namespace** 设置为 `my_items`，这是我之前选择的 **namespace**，它与 **文件夹** 的名称相同。\
+记住根据你的 **namespace** 进行更改。
 
 {% hint style="info" %}
-You can create as many **namespaces** you want! \
-This allows you to easily organize your packs of items.
+你可以创建任意数量的 **namespaces**！\
+这使你可以轻松组织你的物品包。
 {% endhint %}
 
 {% hint style="info" %}
-You can create as many as `.yml` files you want in the same namespace!\
-This allows you to organize items/things types better.\
-For example I divided my items in swords, blocks, food, drinks etc...
+你可以在同一命名空间中创建任意数量的 `.yml` 文件！\
+这使你可以更好地组织物品/事物类型。\
+例如，我将我的物品分为剑、方块、食物、饮料等...
 {% endhint %}
 
 {% hint style="warning" %}
-**All this "nesting" could seem boring,** but it reduces errors as much as possible and allows you to find everything easily.
+**所有这些“嵌套”可能看起来很无聊，** 但它尽可能减少错误并使你能够轻松找到所有内容。
 {% endhint %}
 
-## Why different folder structures choices?
+## 为什么选择不同的文件夹结构？
 
-**ItemsAdder** allows you to decide which folders structure to use in order to organize your various packs.
+**ItemsAdder** 允许你决定使用哪种文件夹结构来组织你的各种包。
 
-This is very useful for admins to have the freedom to organize their pack very fast without worrying about useless nesting of folders. \
-The easiest folder structure to use is the [structure 5](configs-and-resourcepack.md#folders-structure-method-5).
+这对于管理员来说非常有用，可以自由地快速组织他们的包，而无需担心不必要的文件夹嵌套。\
+最简单的文件夹结构是[结构 5](configs-and-resourcepack.md#folders-structure-method-5)。
 
 {% hint style="warning" %}
-Each sub-pack must use only one structure at a time.\
-**Do not mix them in the same sub-pack!**
+每个子包一次只能使用一种结构。\
+**不要在同一个子包中混合使用它们！**
 {% endhint %}
 
-### Folders structure method 1 - best and easiest way
+### 文件夹结构方法 1 - 最佳和最简单的方法
 
 {% hint style="success" %}
-This is the easier way to create a simple pack with some items without having to create too many sub-folders.\
-This avoids you to create `resourcepack`, `assets`, `NAMESPACE` folders and makes everything cleaner.
+这是创建一个简单包的最简单方法，其中包含一些物品，而无需创建太多子文件夹。\
+这避免了你创建 `resourcepack`、`assets`、`NAMESPACE` 文件夹，并使一切更清晰。
 {% endhint %}
 
-This is useful if your sub-pack doesn't use multiple namespaces, or you won't be able to specify them.
+如果你的子包不使用多个命名空间，这很有用，否则你将无法指定它们。
 
 ```
 plugins
@@ -128,9 +128,9 @@ plugins
                     └── example_texture.png
 ```
 
-### Folders structure method 2
+### 文件夹结构方法 2
 
-This structure is the default and most complete one.
+此结构是默认的和最完整的。
 
 ```
 plugins
@@ -151,9 +151,9 @@ plugins
                                 └── example_texture.png
 ```
 
-### Folders structure method 3
+### 文件夹结构方法 3
 
-This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
+此结构避免了你创建 `assets` 文件夹，该文件夹是隐含的，只会增加不必要的复杂性。
 
 ```
 plugins
@@ -173,9 +173,9 @@ plugins
                             └── example_texture.png
 ```
 
-### Folders structure method 4
+### 文件夹结构方法 4
 
-This structure avoids you to create the `resource_pack` folder which is implied and would just add unnecessary complexity.
+此结构避免了你创建 `resource_pack` 文件夹，该文件夹是隐含的，只会增加不必要的复杂性。
 
 ```
 plugins
@@ -195,9 +195,9 @@ plugins
                             └── example_texture.png
 ```
 
-### Folders structure method 5
+### 文件夹结构方法 5
 
-This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
+此结构避免了你创建 `assets` 文件夹，该文件夹是隐含的，只会增加不必要的复杂性。
 
 ```
 plugins

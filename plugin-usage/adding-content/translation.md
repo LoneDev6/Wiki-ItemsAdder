@@ -2,32 +2,32 @@
 icon: earth-americas
 ---
 
-# Translate
+# 翻译
 
-## Translation supports:
+## 支持翻译的内容：
 
-* items names
-* items lore
-* `/ia` menu categories names
+* 物品名称
+* 物品描述
+* `/ia` 菜单类别名称
 
-## Translate items
+## 翻译物品
 
-### Translate ItemsAdder default items
+### 翻译 ItemsAdder 默认物品
 
-If you want to translate IA default items you can, you just have to copy my dictionary and create your own.
+如果你想翻译 IA 默认物品，你可以复制我的字典并创建你自己的。
 
-* open folder `plugins/ItemsAdder/contents/` and search for the `dictionaries` folders (on each directory, for example `iasurvival/configs/`)
-* duplicate and rename the file `en.yml`
-* change `dictionary-lang` from `en` to your language identifier (example `fr`)
-* translate everything you want
-* open config.yml and set `dictionaries-lang` to your language identifier (example `fr`)
-* reload the plugin or restart the server
+* 打开文件夹 `plugins/ItemsAdder/contents/` 并搜索 `dictionaries` 文件夹（在每个目录中，例如 `iasurvival/configs/`）
+* 复制并重命名文件 `en.yml`
+* 将 `dictionary-lang` 从 `en` 更改为你的语言标识符（例如 `fr`）
+* 翻译你想要的内容
+* 打开 config.yml 并将 `dictionaries-lang` 设置为你的语言标识符（例如 `fr`）
+* 重新加载插件或重启服务器
 
-### Create your own translation for your new items
+### 为你的新物品创建翻译
 
-To create your own translations for your own items you just have to create new files (one per language) in a new folder inside `ItemsAdder/contents/`, for example `ItemsAdder/contents/myitems/configs/dictionaries/`.
+要为你自己的物品创建翻译，只需在 `ItemsAdder/contents/` 内的新文件夹中创建新文件（每种语言一个文件），例如 `ItemsAdder/contents/myitems/configs/dictionaries/`。
 
-This is how it looks like:
+它看起来像这样：
 
 ```yaml
 info:
@@ -38,7 +38,7 @@ dictionary:
   display-name-my_item: j'aime la baguette
 ```
 
-And this is how my items file looks like:
+这是我的物品文件的样子：
 
 ```yaml
 info:
@@ -57,11 +57,11 @@ items:
 ```
 
 {% hint style="info" %}
-As you can see I set the `display_name`to `display-name-my_sword`, this will tell IA to replace the text with text from the dictionary, so sword would be named `épée de saleté`.
+如你所见，我将 `display_name` 设置为 `display-name-my_sword`，这将告诉 IA 用字典中的文本替换文本，因此剑将被命名为 `épée de saleté`。
 {% endhint %}
 
 {% hint style="warning" %}
-You can **skip** the **translation** part and do this directly, **but** this **won't** allow you to easily **translate** items in the **future** if you need to.
+你可以**跳过**翻译部分，直接这样做，**但是**这**不会**让你在**将来**需要时轻松**翻译**物品。
 
 ```yaml
 info:
@@ -80,6 +80,6 @@ items:
 ```
 {% endhint %}
 
-## Translate commands and messages
+## 翻译命令和消息
 
-You just have to open `lang` folder create a copy of `en.yml`, then translate it and change the `lang` setting in `config.yml` to your file name.
+你只需打开 `lang` 文件夹，复制 `en.yml`，然后翻译它并将 `config.yml` 中的 `lang` 设置更改为你的文件名。

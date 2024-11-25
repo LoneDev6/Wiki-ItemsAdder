@@ -1,6 +1,6 @@
 info:
   namespace: itemsadder_stuff
-  dictionary-lang: "zh_CN"
+  dictionary-lang: "zh_cn"
 dictionary:
   display-name-example_item: 示例物品
   display-name-ruby_head: 红宝石头盔

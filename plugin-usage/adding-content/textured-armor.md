@@ -2,15 +2,15 @@
 icon: shirt
 ---
 
-# Textured Armor
+# 盔甲纹理
 
-Here you can see an example configuration to create a complete armor with custom wear texture (on body).
+这里你可以看到一个创建具有自定义穿戴纹理（在身体上）的完整盔甲的示例配置。
 
-## Complete final `yml` configuration
+## 完整的最终 `yml` 配置
 
 <details>
 
-<summary>Click here to read the configuration file</summary>
+<summary>点击这里查看配置文件</summary>
 
 ```yaml
 info:
@@ -96,31 +96,31 @@ items:
 </details>
 
 {% file src="../../.gitbook/assets/myarmor_example.zip" %}
-Extract the zip into the `contents` folder of ItemsAdder
+将 zip 文件解压到 ItemsAdder 的 `contents` 文件夹中 
 {% endfile %}
 
-## Custom wear texture
+## 自定义装备纹理
 
 {% hint style="danger" %}
-The `vanilla` feature requires Minecraft 1.17 or greater.\
-It can't work on Minecraft 1.16 and previous versions.
+`vanilla` 功能需要 Minecraft 1.17 或更高版本。\
+它不能在 Minecraft 1.16 及之前的版本中工作。
 
-To make 1.16 clients see the custom armors you can enable also the `optifine` attribute, this will allow old clients to see the armors anyway.
+为了让 1.16 客户端看到自定义盔甲，你可以启用 `optifine` 属性，这将允许旧客户端仍然看到盔甲。
 
-This is also useful as fallback for people who use custom shaders, which are not compatible with the custom armors vanilla shaders.
+这对于使用与自定义盔甲原版着色器不兼容的自定义着色器的人来说也是一个有用的备选。
 {% endhint %}
 
 {% hint style="warning" %}
-If you see **bugged** textures and you have **Optifine** installed please [read here](../../faq/armors-textures-not-working-with-shaders-mod.md).
+如果你看到了**错误**纹理，并且使用了 **Optifine**，请[阅读此处](../../faq/armors-textures-not-working-with-shaders-mod.md)。
 {% endhint %}
 
-### Creating the armor renderer
+### 创建盔甲着色器
 
 {% hint style="info" %}
-An armor renderer is a setting which contains the information how to show the armor ingame on the player body.\
-It is a configuration which specified how the game will show the armor ingame.
+盔甲着色器是一种设置，包含了如何在游戏中显示盔甲在玩家身体上的信息。\
+它是一个配置，指定了游戏如何在游戏中显示盔甲。
 
-Note: there can be only one armor renderer with per color.
+注意：每种颜色只能有一个盔甲着色器。
 {% endhint %}
 
 ```yaml
@@ -135,40 +135,40 @@ armors_rendering:
 ```
 
 {% hint style="warning" %}
-You must decide a color! Even if the armor won't be colored. The color is like an ID (identifier) for the custom armor renderer.
+你必须决定一个颜色！即使盔甲不会被着色。颜色就像是自定义盔甲着色器的 ID（标识符）。
 {% endhint %}
 
-* `use_color: false` disables the recoloring of the armor using the specified `color: "#d60000"`. It would have colored the armor texture if were set to `true`.\
-  In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`.\
-  This option will also make the item (in inventory) not colored automatically anymore.
-* `color` is the color attribute of this armor. \
-  It acts like an **unique identifier** for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color) .\
-  Note: ItemsAdder will automatically select a nearest unused color if the selected one is already used by another custom armor.
+* `use_color: false` 禁用了使用指定 `color: "#d60000"` 对盔甲进行重新着色。如果设置为 `true`，它会对盔甲纹理进行着色。
+在某些情况下，你可能希望使用指定的 `color` 对盔甲进行重新着色，所以你需要将其设置为 `true`。
+* `color` 是该盔甲的颜色属性。
+它充当盔甲的唯一标识符（如果 `use_color` 为 `true`，则会对盔甲进行着色）。使用这个[网站](https://minecraftcommand.science/armor-color)获取有效颜色。
+
+注意：如果所选颜色已被另一个自定义盔甲使用，ItemsAdder 将自动选择一个最接近的未使用颜色。
 
 Now I create the two PNG files inside the `contents/my_items/textures/armor/my_armor/` folder.
 
 <figure><img src="../../.gitbook/assets/armor_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**HD armor textures**
+**高清盔甲纹理**
 
-You can create HD high resolution armors too!\
-Just make sure they have the same proportions of the original.\
-For example:\
-64x32, 128x64, 256x128, 512x256... <mark style="color:red;">it's very important! Size must be a power of 2.</mark>
+你也可以创建高清高分辨率盔甲！\
+只需确保它们具有与原始盔甲相同的比例。\
+例如:\
+64x32, 128x64, 256x128, 512x256... <mark style="color:red;">重要！必须为2的幂数。</mark>
 {% endhint %}
 
 {% hint style="danger" %}
-It's not really advised to use HD textures since this is a blocky game.\
-Lot of HD textures can cause issues because there is a different size limit for each Graphical Card.
+不建议使用高清纹理，因为这是一个方块游戏。\
+大量高清纹理可能会导致问题，因为每个显卡的尺寸限制不同。
 
-So it's better to stick with the vanilla texture size if you want to avoid risking issues.
+所以如果你想避免风险，最好坚持使用原版纹理尺寸。
 {% endhint %}
 
-### Creating an armor piece
+### 创建盔甲部件
 
-Let's create a chestplate.\
-To create other pieces you just have to repeat the following method and change the `slot`.
+让我们创建一个胸甲。\
+要创建其他部件，你只需重复以下方法并更改 `slot`。
 
 ```yaml
   my_armor_chest:
@@ -190,35 +190,35 @@ To create other pieces you just have to repeat the following method and change t
         armorToughness: 1
 ```
 
-The `custom_armor` property is important, it makes the plugin apply the previous `armors_renderer` setting to this armor piece.
+`custom_armor` 属性很重要，它使插件将之前的 `armors_renderer` 设置应用于这个盔甲部件。
 
-In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's automatically applied by the `custom_armor` property, inherited from the `armors_renderer`.
+在这种情况下，我没有在盔甲部件的 `specific_properties` 字段中指定任何 `color`，因为它会自动由 `custom_armor` 属性应用，继承自 `armors_renderer`。
 
-Now I create the item texture and I put it inside the folder: \
-`contents/my_items/textures/item/my_armor/`&#x20;
+现在我创建物品纹理并将其放入文件夹中：
+`contents/my_items/textures/item/my_armor/`
 
-In this example I created also a new folder called `my_armor` to better organize the resourcepack since you will have 1 texture for each armor piece, and having them in the same textures folder might cause confusion.
+在这个例子中，我还创建了一个名为 `my_armor` 的新文件夹，以更好地组织资源包，因为你将为每个盔甲部件拥有 1 个纹理，将它们放在同一个纹理文件夹中可能会导致混淆。
 
-`contents/my_items/textures/item/my_armor/chestplate.png`&#x20;
+`contents/my_items/textures/item/my_armor/chestplate.png`
 
 ![](../../.gitbook/assets/chestplate\_item\_red.png)
 
 ![](<../../.gitbook/assets/image (42) (1) (1).png>)
 
-### Animated textures
+### 动画纹理
 
-You can also create animated armors!
+你也可以创建动画盔甲！
 
 ![](<../../.gitbook/assets/ezgif-7-3b3a255fe802 (1) (1).gif>)
 
-To create an animated armor you have to create an image with all the animation frames.\
-Each frame must be under the previous. This is an example this is a 3 frames animation:
+要创建动画盔甲，你需要创建一个包含所有动画帧的图像。\
+每个帧必须在前一个帧的下方。这是示例，一个 3 帧动画：
 
 ![layer\_1](../../.gitbook/assets/layer\_1.png)
 
 ![layer\_2](../../.gitbook/assets/layer\_2.png)
 
-Now let's edit the rendering properties to support the animation.
+现在让我们编辑渲染属性以支持动画。
 
 ```yaml
 info:
@@ -233,9 +233,9 @@ armors_rendering:
       interpolation: true
 ```
 
-In this case I set `interpolation: true` because I want the animation to be smooth.
+在这种情况下，我设置 `interpolation: true`，因为我希望动画是平滑的。
 
-Default speed is 24, but you can customize it until you find the right speed value:
+默认速度是 24，但你可以自定义它，直到找到合适的速度值：
 
 ```yaml
     animation:
@@ -243,9 +243,9 @@ Default speed is 24, but you can customize it until you find the right speed val
       interpolation: true
 ```
 
-### Emissive textures (glowing in the dark)
+### 发光纹理（在黑暗中发光
 
-You can also create emissive textures which glow in the dark. (You can make both animated and emissive textures at the same time!)
+你也可以创建在黑暗中发光的发光纹理。（你可以同时制作动画和发光纹理！）
 
 ```yaml
 info:
@@ -260,8 +260,8 @@ armors_rendering:
     use_color: false
 ```
 
-In this case I want to make the previous animation emissive, I want it to glow in the dark.\
-You have to make 2 textures in order to make the textures glow.\
-The **transparent** part **won't glow** while the colored part will glow.
+在这种情况下，我想让之前的动画发光，在黑暗中发光。
+你需要制作 2 个纹理以使纹理发光。
+**透明**部分**不会发光**，而有色部分会发光。
 
-You basically just have to copy and paste your texture and erase the parts you don't want to glow.
+你基本上只需复制并粘贴你的纹理并擦除你不想发光的部分。

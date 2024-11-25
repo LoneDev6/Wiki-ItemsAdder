@@ -1,19 +1,19 @@
 ---
-description: Glitched blocks in some areas/custom worlds
+description: 某些区域/自定义世界中的方块显示异常
 icon: block-question
 ---
 
-# Glitched blocks
+# 方块显示异常
 
 {% hint style="success" %}
-These are all only graphical glitches, they won't cause duplication bugs or similar.
+这些都只是图形上的问题，不会导致复制漏洞或类似问题。
 {% endhint %}
 
-## `REAL_NOTE` (Noteblocks)
+## `REAL_NOTE`（音符盒）
 
-Noteblocks placed before ItemsAdder installation may be shown with custom blocks textures.
+在安装 ItemsAdder 之前放置的音符盒可能会显示为自定义方块纹理。
 
-### How to fix
+### 如何修复
 
 {% code title="config.yml" %}
 ```yaml
@@ -24,18 +24,18 @@ blocks:
 ```
 {% endcode %}
 
-## `REAL` and `REAL_TRANSPARENT` (Mushroom and Chorus)
+## `REAL` 和 `REAL_TRANSPARENT`（蘑菇和紫颂植物）
 
-This is normal if you use `REAL` , `REAL_TRANSPARENT` types to create custom blocks.\
-ItemsAdder uses Mushroom Blocks and Chorus Plants to create them.
+如果你使用 `REAL` 和 `REAL_TRANSPARENT` 类型来创建自定义方块，这是正常的。
+ItemsAdder 使用蘑菇方块和紫颂植物来创建它们。
 
-This happens because the game generates them during gameplay to create some structures (example: big mushrooms in the over-world and chorus plants in the end), so they might spawn with some specific block data, which interfere with ItemsAdder blocks.
+这是因为游戏在游戏过程中生成它们以创建一些结构（例如：在主世界中的大蘑菇和末地中的紫颂植物），因此它们可能会生成一些特定的方块数据，这些数据会干扰 ItemsAdder 方块。
 
 ![](<../.gitbook/assets/image (50) (1) (1) (1).png>)
 
-Generally you should avoid using `REAL` custom blocks type (mushroom) and use the better `REAL_NOTE` custom blocks type, it uses **Noteblocks** to create custom blocks, so you won't have this issue because they don't naturally generate around the vanilla world.
+通常你应该避免使用 `REAL` 自定义方块类型（蘑菇），而使用更好的 `REAL_NOTE` 自定义方块类型，它使用 **音符盒** 来创建自定义方块，因此你不会遇到这个问题，因为它们不会自然生成在原版世界中。
 
-### How to fix
+### 如何修复
 
 {% code title="config.yml" %}
 ```yaml
@@ -45,7 +45,7 @@ Generally you should avoid using `REAL` custom blocks type (mushroom) and use th
 ```
 {% endcode %}
 
-### Advanced fix on Paper
+### 在 Paper 上的高级修复
 
 {% code title="config/paper-global.yml" %}
 ```yaml
@@ -56,25 +56,25 @@ block-updates:
 {% endcode %}
 
 {% hint style="warning" %}
-#### Note
+#### 注意
 
-Setting `disable-tripwire-updates: true` will completely stop tripwire from updating.\
-So it can potentially cause tripwires traps to not work anymore.\\
+设置 `disable-tripwire-updates: true` 将完全停止绊线钩的更新。
+因此，它可能会导致绊线陷阱不再工作。
 
-Setting `disable-noteblock-updates: true` will commit into same behaviour.\
-Which means NO UPDATES. So you will be unable to do music redstone circuit.
+设置 `disable-noteblock-updates: true` 将导致相同的行为。
+这意味着没有更新。因此，你将无法制作音乐红石电路。
 {% endhint %}
 
-## `REAL_TRANSPARENT` (Chorus)
+## `REAL_TRANSPARENT`（紫颂植物）
 
-### Blocks breaking animation bug
+### 方块破坏动画错误
 
-This is only a graphical glitch and cannot be fixed in **Spigot**.\
-If you want to completely fix it you have to install **Paper**.
+这只是一个图形上的问题，无法在 **Spigot** 中修复。
+如果你想完全修复它，你必须安装 **Paper**。
 
 {% embed url="https://youtu.be/1HPjKn_vmw8" %}
 
-#### How to fix
+#### 如何修复
 
 {% code title="config/paper-global.yml" %}
 ```yaml
@@ -83,21 +83,20 @@ block-updates:
 ```
 {% endcode %}
 
-### Automatic drop pickup duplication issue
+### 自动掉落物品拾取复制问题
 
-If you have an automatic drops pickup plugin you might experience an issue where chorus fruit gets randomly added to your inventory when this kind of Chorus Plant graphical glitches happen.
+如果你有一个自动掉落物品拾取插件，你可能会遇到一个问题，当这种紫颂植物图形错误发生时，紫颂果会随机添加到你的库存中。
 
-To fix this you have to remove the automatic drop pickup plugin or ask its developer to add an option to disable automatic pickup of some items (Chorus Fruit) or from some blocks (Chorus Plant).
+要解决此问题，你必须删除自动掉落物品拾取插件，或要求其开发人员添加一个选项，以禁用某些物品（紫颂果）或某些方块（紫颂植物）的自动拾取。
 
-## **Tree blocks sometimes disappear and become air blocks**
+## **树木方块有时会消失并变成空气方块**
 
-This is a know issue in CREATIVE mode as the client doesn't send some packets to the server.\
-Please try in survival mode.
+这是在创造模式中的已知问题，因为客户端不会向服务器发送某些数据包。
+请尝试在生存模式中进行。
 
-## **`REAL_TRANSPARENT` blocks are dropped when water flows on them**
+## **`REAL_TRANSPARENT` 方块在水流动时会掉落**
 
-I know this bug and I can't fix it without making your server an oven.\
-\
-As you already know some Minecraft features are not customizable out of the box for both you and the plugins developers, so some features require a lot of hacks to be implemented and sometimes are not totally stable. One of these features are custom blocks.
+我知道这个错误，我无法在不让你的服务器变成烤箱的情况下修复它。
+正如你所知，某些 Minecraft 功能对于你和插件开发人员来说都不是开箱即用的，因此某些功能需要大量的黑客手段来实现，有时并不完全稳定。这些功能之一是自定义方块。
 
-To fix this water bug I'd have to listen to the water flowing event and check if every block around the water is a custom block. This event is called thousand of times in mid-sized server and I don't want to make the plugin heavy, which would cause lag.
+要修复此水流错误，我必须监听水流事件并检查水周围的每个方块是否是自定义方块。这个事件在中型服务器中会被调用数千次，我不想让插件变得沉重，这会导致延迟。

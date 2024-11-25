@@ -2,12 +2,12 @@
 icon: hammer
 ---
 
-# Crafting
+# 合成
 
-To create a recipe you have to create a special section in one of your `.yml` files.\
-This section can be added in all and any of your `.yml` files for better organization of recipes.
+要创建配方，您需要在一个 `.yml` 文件中创建一个特殊部分。\
+为了更好地组织配方，这个部分可以添加到所有和任何 `.yml` 文件中。
 
-## 3x3 recipe
+## 3x3 配方
 
 ![](../../.gitbook/assets/image\_\(42\).png)
 
@@ -30,16 +30,16 @@ recipes:
         amount: 1
 ```
 
-As you can see I created the recipes section in the .yml file, this section can contain each type of recipe.\
-In this example I created a `crafting_table` recipe called `deadmau5_hat`.
+如你所见，我在 .yml 文件中创建了配方部分，这个部分可以包含每种类型的配方。\
+本例中我创建了叫做 `deadmau5_hat` 的 `crafting_table` 配方。
 
-## 2x2 recipe
+## 2x2 配方
 
 ![](../../.gitbook/assets/image\_\(41\).png)
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-### Method 1
+### 方法 1
 
 ```yaml
 taco:
@@ -55,7 +55,7 @@ taco:
     S: itemsadder:lettuce
 ```
 
-### Method 2
+### 方法 2
 
 ```yaml
 taco:
@@ -71,10 +71,10 @@ taco:
     S: itemsadder:lettuce
 ```
 
-## Multiple patterns
+## 多种模式
 
 {% hint style="success" %}
-You can create **multiple patterns** per recipe, just make sure that the attribute **starts** with `pattern` text. For example `pattern_2`.
+你可以为每个配方创建**多种模式**，只要保证每个属性以 `pattern` **开头**。例如本例 `pattern_2`。
 
 ```yaml
 turquoise_sword:
@@ -97,7 +97,7 @@ turquoise_sword:
 ```
 {% endhint %}
 
-## Special features
+## 特殊功能
 
 ```yaml
     peeled_potato:
@@ -124,11 +124,11 @@ turquoise_sword:
           pitch: 1
 ```
 
-For example this is the `peeled_potato` recipe. This is a special recipe which uses a knife as ingredient of the crafting (and a potato) and decrements its durability when player crafts one peeled potato without making it disappear.
+例如，这是 `peeled_potato` 配方。这是一个特殊的配方，它使用刀作为合成的材料（还有土豆），并在玩家制作一个去皮土豆时减少其耐久度，而不会使其消失。
 
 ![](<../../.gitbook/assets/image (10) (1).png>)
 
-As you can see you can also play a sound using `play_sound`.
+如您所见，您还可以使用 `play_sound` 播放声音。
 
 ## Shapeless recipes
 

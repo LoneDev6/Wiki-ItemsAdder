@@ -1,42 +1,42 @@
-# Self hosting
+# 自行托管
 
-## Video tutorial
+## 视频教程
 
 {% embed url="https://www.youtube.com/watch?v=XoTwF4_HztU" %}
 
-## Info about self-hosting
+## 关于自行托管的信息
 
-With ItemsAdder you can host the resourcepack directly on your server!\
-No need to pay for a website host and **no need to upload the pack every time you make a change!**
+使用 ItemsAdder，您可以直接在服务器上托管资源包！\
+无需支付网站托管费用，也无需每次更改时上传资源包！
 
 {% hint style="warning" %}
-**Your hosting service must let you get additional ports for your server.**\
-If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./)
+**您的托管服务必须允许您为服务器获取额外的端口。**\
+如果您的托管服务不提供额外端口，您必须使用[替代托管方法](./)
 {% endhint %}
 
-### What is the difference between self-host and the other methods?
+### 自行托管与其他方法有什么区别？
 
-Difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
+区别在于，自行托管可以直接从服务器下载资源包，而无需每次进行小改动时都上传到网站。
 
 {% hint style="info" %}
-`self-host` is really useful when you are configuring the resourcepack on your test server on your PC. Because you just have to use command `/iazip` and you'll see changes applied ingame almost instantly.
+`self-host` 在您在 PC 上的测试服务器上配置资源包时非常有用。因为您只需使用命令 `/iazip`，就能几乎立即在游戏中看到更改。
 {% endhint %}
 
 {% content-ref url="../fast-resourcepack-tips.md" %}
-[fast-resourcepack-tips.md](../fast-resourcepack-tips.md)
+[快捷资源包提示](../fast-resourcepack-tips.md)
 {% endcontent-ref %}
 
-## How can I configure the self host?
+## 如何配置自行托管？
 
-* Check in your **hosting service panel** if you can get an additional port, if not please ask hosting service support to provide your one.
+* 在您的**托管服务面板**中检查是否可以获取额外的端口，如果不能，请联系托管服务支持以获取一个。
 
-For example on **Pterodactyl**:
+例如在 **Pterodactyl** 上：
 
 ![](../../.gitbook/assets/image\_\(104\).png)
 
 ![](../../.gitbook/assets/image\_\(101\).png)
 
-* after you obtained a **new port** you can open `config.yml` and set like this:
+* 获得**新端口**后，您可以打开 `config.yml` 并进行如下设置：
 
 ```yaml
   self-host:
@@ -45,10 +45,10 @@ For example on **Pterodactyl**:
     pack-port: 8163
 ```
 
-* you have to replace `127.0.0.1` with **your server IP**
-* and replace `8163` with the new port you obtained.
+* 您需要将 `127.0.0.1` 替换为**您的服务器 IP**
+* 并将 `8163` 替换为您获得的新端口。
 
-For example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
+例如，如果我的 IP 是 `123.456.789.0`，而我的额外端口是 `8163`，我会将其设置如下：
 
 ```yaml
   self-host:
@@ -58,72 +58,72 @@ For example if my ip is `123.456.789.0` and my additional port is `8163`I will s
 ```
 
 {% hint style="warning" %}
-**pack-port** is not the same as your server port (the one your users use to connect).
+**pack-port** 与您的服务器端口（用户用来连接的端口）不同。
 {% endhint %}
 
 {% hint style="info" %}
-`127.0.0.1` means "**this pc**".\
-**So if you are testing the plugin on your PC** you can **leave default config** so plugin will look for the resourcepack zip directly in your PC.
+`127.0.0.1` 意味着“**这台电脑**”。\
+**所以如果您在 PC 上测试插件**，可以**保留默认配置**，这样插件会直接在您的 PC 上查找资源包 zip。
 {% endhint %}
 
 {% hint style="danger" %}
-Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... or you won't see any change obviously.
+每次编辑**纹理**、3D **模型**、**声音**时，请不要忘记使用 `/iazip`，否则您将看不到任何更改。
 {% endhint %}
 
-### Last step
+### 最后一步
 
-After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
+配置 `config.yml` 文件后，您只需运行 `/iazip` 命令以刷新 zip 文件并开始托管。
 
-### Continue installation if you need
+### 如果需要，继续安装
 
 {% content-ref url="../../first-install.md" %}
-[first-install.md](../../first-install.md)
+[首次安装](../../first-install.md)
 {% endcontent-ref %}
 
-## Cloudflare configuration (optional, not mandatory)
+## Cloudflare 配置（可选，非强制）
 
 {% hint style="info" %}
-This guide won't protect your server IP as you are already exposing it via the SRV rule and Cloudflare free doesn't allow protecting traffic from non-standard ports.
+本指南不会保护您的服务器 IP，因为您已经通过 SRV 规则公开了它，并且 Cloudflare 免费版不允许保护非标准端口的流量。
 {% endhint %}
 
 {% hint style="info" %}
-This guide might make your traffic lower due to how Cloudflare caches requests automatically, so resourcepack requests might be less heavy after applying this method.
+由于 Cloudflare 会自动缓存请求，本指南可能会减少您的流量，因此应用此方法后，资源包请求可能会变得不那么繁重。
 {% endhint %}
 
-### Create a new `DNS record`
+### 创建一个新的 `DNS 记录`
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-* type: `A`
-* name: `pack` (for example)
-* IPv4 address to your server IP, where the pack is hosted (ItemsAdder is running)
-* Proxy status: `Proxied`
-* Click **Save**
+* 类型：`A`
+* 名称：`pack`（例如）
+* IPv4 地址：您的服务器 IP，资源包托管的地方（ItemsAdder 正在运行）
+* 代理状态：`Proxied`
+* 点击 **保存**
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-### Create a new `Origin rule`
+### 创建一个新的 `Origin 规则`
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Select "Change Port" and "Create a Rule".
+选择“更改端口”和“创建规则”。
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-Select "Custom filer expression" and complete as shown in the screenshot changing the values based on your setup.
+选择“自定义过滤表达式”，并根据您的设置完成截图中的内容。
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-### Configure ItemsAdder
+### 配置 ItemsAdder
 
-* set `server-ip` to your new pack address
-* set  `pack-port` to your resourcepack port
-* set `append-port` to false
-* try to access the&#x20;
+* 将 `server-ip` 设置为您的新包地址
+* 将 `pack-port` 设置为您的资源包端口
+* 将 `append-port` 设置为 false
+* 尝试访问
 
 {% code title="config.yml" %}
 ```yml

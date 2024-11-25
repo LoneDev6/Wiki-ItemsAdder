@@ -1,24 +1,24 @@
 # OneDrive
 
 {% hint style="warning" %}
-#### Not recommended.
+#### 不推荐使用。
 {% endhint %}
 
-### Step 1
+### 步骤 1
 
 ![](<../../.gitbook/assets/image (52) (1) (1) (1) (1).png>)
 
-### Step 2
+### 步骤 2
 
 ![](<../../.gitbook/assets/image (43) (1) (1).png>)
 
-### Step 3
+### 步骤 3
 
 ![](<../../.gitbook/assets/image (53) (1) (1).png>)
 
-### Step 4
+### 步骤 4
 
-Open `config.yml` of **ItemsAdder** and enable the `external-host` option for your new URL.
+打开 **ItemsAdder** 的 `config.yml` 文件，并为你的新 URL 启用 `external-host` 选项。
 
 {% code title="config.yml" %}
 ```yaml
@@ -29,20 +29,20 @@ Open `config.yml` of **ItemsAdder** and enable the `external-host` option for yo
 ```
 {% endcode %}
 
-This is very important. Set it to true.
+这非常重要。将其设置为 true。
 
 ```yaml
 skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
 ```
 
 {% hint style="warning" %}
-Keep in mind that it's a bit "risky" because the server cannot make sure the URL is valid.
+请记住，这有点“冒险”，因为服务器无法确保 URL 有效。
 
-This can cause your players to be stuck on login phase if the URL is not valid or if OneDrive doesn't provide the direct download, sometimes it happens.
+如果 URL 无效或 OneDrive 不提供直接下载（有时会发生），这可能会导致您的玩家卡在登录阶段。
 {% endhint %}
 
-## Continue installation if you need
+## 如果需要，继续安装
 
 {% content-ref url="../../first-install.md" %}
-[first-install.md](../../first-install.md)
+[首次安装](../../first-install.md)
 {% endcontent-ref %}

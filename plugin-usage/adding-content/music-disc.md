@@ -2,17 +2,17 @@
 icon: compact-disc
 ---
 
-# Music disc
+# 音乐唱片
 
-### Step 1 - create the sound
+### 第一步 - 创建声音
 
 {% content-ref url="adding-sounds.md" %}
-[adding-sounds.md](adding-sounds.md)
+[添加声音](adding-sounds.md)
 {% endcontent-ref %}
 
-### Step 2 - create the disc
+### 第二步 - 创建唱片
 
-Create a new item in your namespace, this will be your music disc:
+在你的命名空间中创建一个新物品，这将是你的音乐唱片：
 
 ```yaml
   music_disc_cdk_sunday:
@@ -32,6 +32,6 @@ Create a new item in your namespace, this will be your music disc:
           description: Cdk - Sunday
 ```
 
-As you can see I added a special behaviour called `music_disc`.\
-This will tell Spigot server that this item is a custom music disc.\
-**name** is the sound to be played, you added it in the [step 1](music-disc.md#step-1-create-the-sound).
+如你所见，我添加了一种特殊行为，称为 `music_disc`.\
+这将告诉 Spigot 服务器这是一个自定义音乐唱片。\
+**name**是将要播放的声音，是你在[第一步](music-disc.md#step-1-create-the-sound)添加的。

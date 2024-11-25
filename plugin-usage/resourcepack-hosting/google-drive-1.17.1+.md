@@ -1,44 +1,44 @@
 # Google Drive (1.17.1+)
 
-## How to use Google Drive
+## 如何使用 Google Drive
 
 {% hint style="warning" %}
-This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
+由于 Minecraft 的一个 bug，在 1.17 之前的版本中，这种方法在某些 PC 上存在一些问题，详情请阅读：[MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+这种方法在 Minecraft 1.17.1 及更高版本中 100% 有效。
 {% endhint %}
 
-### Step 1
+### 第一步
 
-Rightclick on your resourcepack zip file and press "Get link"
+右键点击你的资源包 zip 文件，然后点击“获取链接”
 
 ![](<../../.gitbook/assets/image\_(153) (1).png>)
 
-### Step 2
+### 第二步
 
-Important: set the permission to "Anyone with the link"
+重要：将权限设置为“拥有链接的任何人”
 
 ![](../../.gitbook/assets/image\_\(145\).png)
 
-Press "Copy link"
+点击“复制链接”
 
 ![](../../.gitbook/assets/image\_\(149\).png)
 
-### Step 3
+### 第三步
 
-Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
+访问这个网站：[http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
 
-Paste the link and press on "Get direct link"
+粘贴链接并点击“获取直接链接”
 
 <img src="../../.gitbook/assets/image_(144).png" alt="" data-size="original">
 
-### Step 4
+### 第四步
 
-The website automatically adds the generated link in your clipboard.
+网站会自动将生成的链接添加到你的剪贴板中。
 
 ![](../../.gitbook/assets/image\_\(147\).png)
 
-You can now paste the link inside **ItemsAdder** configuration file `config.yml`, then use `/iareload` command.
+你现在可以将链接粘贴到 **ItemsAdder** 配置文件 `config.yml` 中，然后使用 `/iareload` 命令。
 
 {% code title="config.yml" %}
 ```yaml
@@ -48,28 +48,28 @@ external-host:
 ```
 {% endcode %}
 
-### Done!
+### 完成！
 
-You can now see that the pack is correctly loaded by the game.
+你现在可以看到资源包已被游戏正确加载。
 
-## Common issues
+## 常见问题
 
-### Long time on "Making Request... 100%"
+### 长时间停留在“正在请求... 100%”
 
 ### ![](../../.gitbook/assets/image\_\(141\).png)
 
-This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
+这是正常现象。因为 Google Drive 在授权下载资源包之前会进行一些操作。
 
-This happens only when the player downloads the resourcepack for the first time and it will take from 5 to 10 seconds.
+这种情况只会在玩家第一次下载资源包时发生，通常需要 5 到 10 秒。
 
-### Resourcepack not loading at all
+### 资源包完全无法加载
 
-This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
+由于 Minecraft 的一个 bug，在 1.17 之前的版本中，这种方法在某些 PC 上存在一些问题，详情请阅读：[MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+这种方法在 Minecraft 1.17.1 及更高版本中 100% 有效。
 
-## Continue installation if you need
+## 如果需要，请继续安装
 
 {% content-ref url="../../first-install.md" %}
-[first-install.md](../../first-install.md)
+[首次安装](../../first-install.md)
 {% endcontent-ref %}

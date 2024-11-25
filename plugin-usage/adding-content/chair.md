@@ -1,11 +1,11 @@
 ---
-description: How to create a chair
+description: 如何创建椅子
 icon: chair
 ---
 
-# Chair
+# 椅子
 
-In order to create a chair you just have to follow the [furniture creation tutorial](furniture.md) and add a simple attribute to the furniture to make it "sittable".
+要创建椅子，只需按照[家具创建教程](furniture.md)并为家具添加一个简单的属性，使其可以“坐下”。
 
 ```yaml
 behaviours:
@@ -15,4 +15,4 @@ behaviours:
     sit_height: 0.5
 ```
 
-As you can see you just have to add the `furniture_sit` behaviour and specify the `sit_height`.
+如你所见，你只需添加 `furniture_sit` 行为并指定 `sit_height`。

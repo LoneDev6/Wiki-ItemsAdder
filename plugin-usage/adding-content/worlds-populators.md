@@ -2,15 +2,15 @@
 icon: cubes-stacked
 ---
 
-# Worlds populators
+# 世界生成器
 
-Worlds populators allow you to spawn custom blocks under the surface of the world. They are mostly used for ores and decoration blocks.
+世界生成器允许你在世界的表面下生成自定义方块。它们主要用于矿石和装饰方块。
 
-### Example: two populators
+### 示例：两个生成器
 
-This code allows you to tell ItemsAdder to generate the block `myitems:custom_block` in the world named `world` and replace only block of types `STONE`, `DIRT`, `ANDESITE`, `GRANITE`, `COBBLESTONE`, `GRAVEL` and only in biome `PLAINS`.
+此代码允许你告诉 ItemsAdder 在名为 `world` 的世界中生成方块 `myitems:custom_block`，并且只替换类型为 `STONE`、`DIRT`、`ANDESITE`、`GRANITE`、`COBBLESTONE`、`GRAVEL` 的方块，并且只在 `PLAINS` 生物群系中。
 
-It will spawn 1 vein made of 3 blocks in each chunk.
+它将在每个区块中生成一个由 3 个方块组成的矿脉。
 
 ```yaml
 info:
@@ -50,17 +50,17 @@ worlds_populators:
 ### `vein_blocks`, `chunk_veins`, `chunk_chance`
 
 {% hint style="warning" %}
-I suggest you to read values from the `blocks.yml` file I created in the **ItemsAdder** folder.\
-Don't put too high values or the server could lag.\
-Take my values as example.
+我建议你从我在 **ItemsAdder** 文件夹中创建的 `blocks.yml` 文件中读取值。\
+不要设置过高的值，否则服务器可能会卡顿。\
+以我的值为例。
 {% endhint %}
 
-**`chunk_veins`**: number of veins to be spawned in the chunk\
-**`vein_blocks`**: number of blocks in each ore vein (or the **vein size**)\
-**`chunk_chance`**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
+**`chunk_veins`**：在区块中生成的矿脉数量\
+**`vein_blocks`**：每个矿脉中的方块数量（或矿脉大小）\
+**`chunk_chance`**：在区块中生成的几率。你应该将其设置为 100 以生成普通矿石，并降低它以生成更稀有的矿石。
 
 {% hint style="warning" %}
-<mark style="color:red;">**Old ItemsAdder**</mark> versions before **3.1.6** used these properties instead:\
+<mark style="color:red;">**旧版 ItemsAdder**</mark> 在 **3.1.6** 之前使用这些属性：\
 `chunk_veins` -> `iterations`
 
 `vein_blocks` -> `amount`
@@ -68,9 +68,9 @@ Take my values as example.
 `chunk_chance` -> `chance`
 {% endhint %}
 
-### Biomes
+### 生物群系
 
-You can remove this option and the plugin will spawn ores in every biome.
+你可以删除此选项，插件将在每个生物群系中生成矿石。
 
 ```yaml
   custom_block:
@@ -91,9 +91,9 @@ You can remove this option and the plugin will spawn ores in every biome.
     chunk_veins: 1
 ```
 
-### Replaceable blocks
+### 可替换方块
 
-You can remove this option and the plugin will spawn ores replacing every block instead of checking if it can be replaced.
+你可以删除此选项，插件将在每个方块中生成矿石，而不是检查它是否可以被替换。
 
 ```yaml
   custom_block:

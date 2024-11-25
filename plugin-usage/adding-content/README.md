@@ -2,5 +2,5 @@
 icon: file-plus
 ---
 
-# Adding content
+# 添加物品
 

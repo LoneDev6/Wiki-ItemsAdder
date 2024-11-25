@@ -2,25 +2,25 @@
 icon: mountains
 ---
 
-# Cave decorators
+# 洞穴装饰器
 
-## Generate decorations in caves
+## 在洞穴中生成装饰
 
 {% hint style="warning" %}
-This feature requires **ItemsAdder** 3.1.6+
+此功能需要 **ItemsAdder** 3.1.6+
 {% endhint %}
 
-With ItemsAdder you can generate decorations in the world caves to make your server more professional and original.
+使用 ItemsAdder，您可以在世界的洞穴中生成装饰，使您的服务器更加专业和独特。
 
-For example you can make new mushrooms, new little plants, rocks and decorations
+例如，您可以制作新的蘑菇、新的小植物、岩石和装饰品。
 
 ![](<../../.gitbook/assets/image (81).png>)
 
-## Creating a Cave Populator
+## 创建洞穴生成器
 
-### Creating the configuration
+### 创建配置
 
-For example let's create a group of small rocks which will spawn around the world.
+例如，让我们创建一组小岩石，它们将在世界各地生成。
 
 ```yaml
 info:
@@ -53,30 +53,30 @@ cave_decorators:
     position: SURFACE
 ```
 
-As you can see I set some properties:
+如您所见，我设置了一些属性：
 
-`block` is the ItemsAdder block to spawn as decoration.
+`block` 是要生成为装饰的 ItemsAdder 方块。
 
-`bottom_blocks` property is used to decide the block types on which the decoration can spawn.
+`bottom_blocks` 属性用于决定装饰可以生成的方块类型。
 
-`biomes` property is used to decide the valid biomes in which the decoration can spawn.
+`biomes` 属性用于决定装饰可以生成的有效生物群系。
 
-`worlds` property decides the worlds in which the decoration can spawn.
+`worlds` 属性决定装饰可以生成的世界。
 
-`chance` is the change of a decoration to spawn in each chunk of the world.
+`chance` 是每个世界区块中生成装饰的几率。
 
-`max_height` is the max world height where the decoration can spawn.
+`max_height` 是装饰可以生成的最大世界高度。
 
-`min_height` is the min world height where the decoration can spawn.
+`min_height` 是装饰可以生成的最小世界高度。
 
-`amount` is the amount of blocks to spawn in the decorations group, for example you can set 5 to make a group of 5 decorations spawn one attached to the other.
+`amount` 是装饰组中生成的方块数量，例如，您可以设置为 5 以使 5 个装饰生成在一起。
 
-`position` is a property used to specify if the block must be on the cave `SURFACE` or `CEILING`.
+`position` 是一个属性，用于指定方块必须在洞穴的 `SURFACE`（表面）还是 `CEILING`（天花板）。
 
-## Creating the block
+## 创建方块
 
-Now you just have to create the block following the tutorial. You can use `REAL_NOTE`, `REAL_WIRE` `REAL_TRANSPARENT` and `REAL` blocks, depends on your needs.
+现在，您只需按照教程创建方块。您可以根据需要使用 `REAL_NOTE`, `REAL_WIRE` `REAL_TRANSPARENT` 与 `REAL` 方块。
 
 {% content-ref url="block.md" %}
-[block.md](block.md)
+[方块](block.md)
 {% endcontent-ref %}
