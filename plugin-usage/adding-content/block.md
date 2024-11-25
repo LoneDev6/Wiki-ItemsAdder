@@ -229,13 +229,13 @@ specific_properties:
 * `TILE`
   * 使用**空心**方块（具有自定义皮肤的**刷怪笼**）。这并非实体，但有一些缺点。好处是你可以创建**无限的方块**，不像**真实**方块一样有数量限制。
   * 缺点：
-    * not a 100% real block, it's a retextured spawner
-    * texture/model vanishes on high distance, so it will reveal the spawner vanilla texture
-    * it could cause clientside lag if A LOT of blocks are in the player field of view, but only on lowend PCs.
+    * 不完全真实，是重新绘制的刷怪笼
+    * 纹理/模型在高处隐形，因此会显现出原版刷怪笼纹理
+    * 如果玩家视野里有大量方块，可能会引起客户端处的延迟，但仅限于较差的电脑。
 * `FIRE`
-  * this is a **special** type of **block**, it's the **fire** block.
-  * downsides:&#x20;
-    * only a **max** of **14** custom **fires** is possible, so be sure to create only the ones you need.
+  * 这是一个**特殊的方块**，是**火焰方块**。
+  * 缺点
+    * 仅支持**最多 14 个方块**，确保只创建你需要的。
 
 {% hint style="warning" %}
 * **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
@@ -473,9 +473,9 @@ This has a downside, you can only set the experience drop to custom blocks, not 
             max_amount: 3
 ```
 
-### 2. Add the exp drop to loots
+### 2. 向战利品添加经验
 
-This is the best way because you can also apply this to vanilla blocks types and you can add as many as exp settings you want. This allows you to add more randomness and dynamicity to your drops.
+这是最好的方法，因为您也可以将其应用于原版方块类型，并且可以添加任意数量的经验设置。这允许您为您的掉落物添加更多的随机性和动态性。
 
 ```yaml
 loots:
