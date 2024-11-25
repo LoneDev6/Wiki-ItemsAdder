@@ -238,27 +238,27 @@ specific_properties:
     * 仅支持**最多 14 个方块**，确保只创建你需要的。
 
 {% hint style="warning" %}
-* **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
-* **`TILE`** blocks for trade machines and machinery/rare decorative blocks.\
-  You should not use **`TILE`** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](trees-and-trees-populators.md) or [decorators](cave-decorators.md).
+* **`REAL`** 与 **`REAL_NOTE`** 用于装饰性方块与矿物。
+* **`TILE`** 用于交易机器与机械/珍稀装饰性方块。\
+  你应该避免使用 **`TILE`** 作为矿物，因为这 _**可能**_ 会在生成区块时导致一定延迟。也不建议用于[树木](trees-and-trees-populators.md)或[洞穴装饰](cave-decorators.md)。
 {% endhint %}
 
 ### `rotx` and `roty`
 
-This allows you to specify a rotation for a particular model. This is an option for expert users.\
-The specified rotation is STATIC, it's not dynamic. This is useful only if you want to create multiple variants of the same block without having to create a separate model manually.
+这允许你指定特定模型进行旋转。这是为专业用户提供的。\
+指定的旋转是**静态的**，不是动态的。只有当您想创建同一块的多个变体而不必手动创建单独的模型时，这才有用。
 
 ### `placeable_on_water`
 
-This allows to make some blocks placeable directly on **water** surface.
+这允许方块被直接放于**水**面。
 
 ### **`placeable_on_lava`**
 
-This allows to make some blocks placeable directly on **lava** surface.
+这允许方块直接放于**熔岩**表面。
 
 ### `shift_up`
 
-This allows to make some blocks placed 1 block up. This is useful for `REAL_WIRE` blocks to create tall plants.
+这允许方块放于上方一格的未知。对于创建大型植物的 `REAL_WIRE` 方块来讲很有用。
 
 ### `custom_variants`
 
@@ -266,10 +266,10 @@ This allows to make some blocks placed 1 block up. This is useful for `REAL_WIRE
 Available on ItemsAdder 3.2.5+
 {% endhint %}
 
-Special property which allows to specify custom variants for that block.\
-Accepts the same properties shown in the Minecraft wiki [models page](https://minecraft.fandom.com/wiki/Tutorials/Models).
+允许指定方块变种的特殊属性。\
+接受在 Minecraft wiki [模型页面](https://minecraft.fandom.com/wiki/Tutorials/Models).展示的相同属性。
 
-Example:
+示例:
 
 ```yaml
           custom_variants:
@@ -289,63 +289,63 @@ Example:
 
 ## `cancel_drop`
 
-Cancel drop when block is broken.\
-Useful if you have any mineral that will drop out of the block (loots), to avoid exploits.
+方块被破坏使取消掉落。\
+当你有从方块以外的途径获取矿物的途径，这可以用来防止过度开采。
 
 {% hint style="info" %}
-If you use silk touch enchanted tool to break the block you will still get the block but it won't drop any item from its loot&#x20;
+如果你使用精准采集附魔的工具来破坏方块，方块本身仍会掉落，但不会掉落任何其他战利品。
 {% endhint %}
 
-## Tools blacklist and whitelist
+## 工具黑白名单
 
-You can set "\_PICKAXE" so every pickaxe will match the list rule, also "\_AXE" as the plugin checks if the material name contains the word you set in the rule.\
-It also works for custom items ids, so for example if you set "ruby\_" every ruby tool will work (ruby\_pickaxe, ruby\_axe...)
+你可以设置为 "\_PICKAXE" 使所有镐子都匹配规则，同时你也可以设置 "\_AXE"，因为插件会检查材料名称是否包含在你设置的单词里。\
+这也适用于自定义物品的 ID，因此如果你设置"ruby\_"，每个红宝石工具都会生效（ruby\_pickaxe，ruby\_axe...）
 
 ### `break_tools_blacklist`
 
-Blacklist of tools that cannot break this block
+黑名单内的工具无法破坏该方块
 
 ### `break_tools_whitelist`
 
-Whitelist of tools that can break this block
+白名单内的工具可以破坏该方块
 
 ### `events_tools_blacklist`
 
-Blacklist of tools that cannot run events on this block[ (`placed_block.interact`)](item-properties/events/#list-of-events)
+黑名单内的工具无法触发该方块的事件[ (`placed_block.interact`)](item-properties/events/#list-of-events)
 
 ### `events_tools_whitelist`
 
-Whitelist of tools that cannot run events on this block [(`placed_block.interact`)](item-properties/events/#list-of-events)
+白名单内的工具无法触发该方块的事件 [(`placed_block.interact`)](item-properties/events/#list-of-events)
 
-## Other options
+## 其他选项
 
 ### `hardness`
 
-Hardness of the block, it makes it more difficult to be mined. \
-Refer to my blocks to get some **examples** (check **blocks.yml** file inside **itemsadder namespace**).
+方块的硬度，使其更难挖掘\
+参考我的方块来获得一些**示例**（检查 **itemsadder namespace** 内的 **blocks.yml** 文件）。
 
 ### `blast_resistance`
 
-Explosion resistance (by default is `hardness * 3`)
+爆炸抗性 (默认为 `hardness` 的 3 倍)
 
 ### `no_explosion`
 
-Totally immune from explosions, ignoring `blast_resistance`
+完全免疫爆炸，忽视 `blast_resistance`
 
 ### `sounds`
 
 {% hint style="warning" %}
-`hit`, `step` and `fall` sounds require **ItemsAdder 3.6.3b** or **greater**.
+`hit`, `step` 与 `fall` 声音需要 **ItemsAdder 3.6.3b** 或 **更高**。
 {% endhint %}
 
-You can specify [custom sound](adding-sounds.md) names instead of vanilla sound.\
-You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound\_list\_pc.php) names.
+你可以指定[自定义声音](adding-sounds.md)的名字，而非原版声音。\
+你也可以指定 [Spigot 声音](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) 或原版 [Minecraft 声音](https://www.digminecraft.com/lists/sound\_list\_pc.php)的名字。
 
 {% hint style="info" %}
-**Stone** block sounds will be used if no sound is specified.
+如果未指定声音，会使用**石头**的声音。
 {% endhint %}
 
-#### Example using vanilla sounds
+#### 使用原版声音的示例
 
 ```yaml
     specific_properties:
@@ -370,7 +370,7 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 
 ```
 
-#### Example using custom sounds
+#### 使用自定义声音的示例
 
 ```yaml
     sound:
@@ -387,14 +387,14 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 ```
 
 {% hint style="info" %}
-To add custom sounds to  your resourcepack you have to [read the sounds tutorial](adding-sounds.md).
+要向资源包添加自定义声音，请[阅读声音教程](adding-sounds.md).
 {% endhint %}
 
 ### `permission_suffix`
 
-This property allows you to enable permissions for the block place and block break events.\
-This setting is not specified by default because we want players to be able to break and place blocks freely.\
-Players would need explicit permissions if you specify these properties:
+该属性允许你为方块放置/破坏事件启用权限。\
+该设置默认并未启用，因为我们想让玩家自由地破坏/放置方块。\
+如果你设定了对应属性，玩家将需要权限进行相关行为：
 
 * `ia.user.block.break.iasurvival.ruby_ore`
 * `ia.user.block.place.iasurvival.ruby_ore`
@@ -431,21 +431,21 @@ items:
           - _hammer
 ```
 
-### Use the official files editor to read all the properties
+### 使用官方文件编辑器来读取所有属性
 
 {% content-ref url="../files-editor.md" %}
-[files-editor.md](../files-editor.md)
+[文件编辑](../files-editor.md)
 {% endcontent-ref %}
 
 ## Drop experience from block
 
 {% hint style="info" %}
-**There are 2 ways to drop** experience **from your custom blocks.**
+有**两种**方法让你的自定义方块掉落经验。
 {% endhint %}
 
-### 1. Add the experience drop directly in the custom block creation
+### 1. 在创建自定义方块时直接添加经验掉落
 
-This has a downside, you can only set the experience drop to custom blocks, not to vanilla blocks.
+这有一个缺点，你只能向自定义方块添加经验掉落，原版方块不行。
 
 ```yaml
   ruby_block:
