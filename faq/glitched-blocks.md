@@ -45,7 +45,7 @@ ItemsAdder 使用蘑菇方块和紫颂植物来创建它们。
 ```
 {% endcode %}
 
-### 在 Paper 上的高级修复
+### Paper 上的高级修复
 
 {% code title="config/paper-global.yml" %}
 ```yaml

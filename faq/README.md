@@ -2,5 +2,5 @@
 icon: circle-question
 ---
 
-# Frequently asked questions
+# 常见问题
 

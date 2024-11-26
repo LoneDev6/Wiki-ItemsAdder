@@ -2,53 +2,53 @@
 icon: circle-exclamation
 ---
 
-# Plugin doesn't work
+# 插件不起作用
 
-## Read the install tutorial again
+## 再次阅读安装教程
 
-Try again to follow the installation tutorial on a clean server.
+尝试在一个干净的服务器上再次按照安装教程进行操作。
 
 {% content-ref url="../first-install.md" %}
-[first-install.md](../first-install.md)
+[首次安装](../first-install.md)
 {% endcontent-ref %}
 
-## Obtain the plugin from an official market
+## 从官方市场获取插件
 
-Do not use JARs obtained from unofficial sources, they contain bugs and are not safe to use.
+不要使用从非官方来源获取的JAR文件，它们包含错误且不安全。
 
-## Remove any recently installed plugin
+## 移除任何最近安装的插件
 
-Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
+尝试移除新插件，从服务器备份中恢复，或降级更新的插件/服务器版本，并检查问题是否仍然存在。
 
-## Update all dependencies
+## 更新所有依赖项
 
-Update all dependencies, sometimes outdated JARs can cause issues.
+更新所有依赖项，有时过时的JAR文件会导致问题。
 
-## Ask on Discord
+## 在 Discord 上询问
 
-Someone might have the same issue. Try also to use the search button.
+可能有人遇到过相同的问题。也可以尝试使用搜索按钮。
 
-## **Report the bug if you still have issues** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+## **如果仍有问题，请报告错误** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
-When you report something be sure to:
+当你报告问题时，请确保：
 
-* follow every single step of my tutorials and make sure to read all the wiki.&#x20;
-* test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering.
-* use the latest version of the plugin, its dependencies and server.
+* 遵循我教程中的每一步，并确保阅读所有wiki内容。
+* 在一个**干净**的服务器上测试插件（仅安装 **ItemsAdder**），因为可能是其他插件干扰。
+* 使用最新版本的插件、其依赖项和服务器。
 
-If the problem persists, and you think it's a bug, send me these information when you report the problem:
+如果问题仍然存在，并且你认为这是一个错误，请在报告问题时提供以下信息：
 
-* Exactly what you did to trigger the problem
-* Server version, use `/version` command and send me the exact text it shows (use it in console to copy and paste)
-* Plugin version
-* Tell me if you edited the .yml files of ItemsAdder
-* Tell me if you edited the resourcepack
-* Zip ItemsAdder .yml files and send me them
-* Specify if the plugin shows error in console or in chat
-* Complete log of your server (not just a small portion of the error you see of **ItemsAdder** or I can't identify the issue)
+* 触发问题的具体操作
+* 服务器版本，使用 `/version` 命令并发送给我它显示的确切文本（在控制台中使用以便复制和粘贴）
+* 插件版本
+* 告诉我你是否编辑了 ItemsAdder 的.yml文件
+* 告诉我你是否编辑了资源包
+* 压缩 ItemsAdder 的 .yml 文件并发送给我
+* 插件是否在控制台或聊天中显示错误
+* 服务器的完整日志（不仅仅是你看到的 **ItemsAdder** 错误的一小部分，否则我无法识别问题）
 
 {% hint style="warning" %}
-Use the search button before submitting a report, people might already have reported it.
+在提交报告之前使用搜索按钮，可能已经有人报告过了。
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues" %}

@@ -2,54 +2,53 @@
 icon: eye-slash
 ---
 
-# I can't see emoji, GUIs, HUDs etc.
+# 我看不到表情符号、GUI、HUD等
 
-## ItemsAdder 3.4.1 and greater
+## ItemsAdder 3.4.1及以上版本
 
-* Open `config.yml` of **ItemsAdder**
-*   Enable this option:&#x20;
+* 打开**ItemsAdder**的`config.yml`
+* 启用此选项：
 
     ```yaml
     fix_force_unicode_font_images: true
     ```
-* Run `/iazip` to regenerate your resourcepack
-* Follow the [hosting method tutorial](../plugin-usage/resourcepack-hosting/) you decided during plugin installation
+* 运行`/iazip`重新生成你的资源包
+* 按照插件安装期间选择的[资源包托管方法教程](../plugin-usage/resourcepack-hosting/)
 
-## ItemsAdder 3.4.0 and lower
+## ItemsAdder 3.4.0及以下版本
 
-If you set **Force Unicode** to **ON** because you don't like Minecraft default font you can't see emojis, custom guis and huds.
+如果你将**强制Unicode**设置为**开启**，因为你不喜欢Minecraft默认字体，你将看不到表情符号、自定义GUI和HUD。
 
-Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"_.
+通常在Minecraft中，你将**强制Unicode字体：开启**以获得 _“细字体”_。
 
 ![](../.gitbook/assets/image\_\(5\).png)
 
-\
-With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft limitation.
+由于 **ItemsAdder** 的原因，这是不可能的，因为这会导致表情符号、GUI、HUD 无法正常工作。这是 Minecraft 的限制。
 
 {% hint style="warning" %}
-You must set **Force Unicode Font: OFF**
+你必须设置**强制Unicode字体：关闭**
 {% endhint %}
 
 ![](../.gitbook/assets/image\_\(6\).png)
 
-and **set this** in `config.yml`
+并在`config.yml`中**设置此项**
 
 ```yaml
   thin-font:
     enabled: true
 ```
 
-This allows you to set **Force Unicode Font: OFF** but still have the thin font enabled.
+这允许你设置**强制Unicode字体：关闭**，但仍然启用细字体。
 
 {% hint style="warning" %}
-Remember, after this change you have to regenerate your `generated.zip` file.\
-Check [Resourcepack tutorials](../plugin-usage/resourcepack-hosting/)
+记住，做出此更改后，你必须重新生成你的`generated.zip`文件。\
+查看[资源包教程](../plugin-usage/resourcepack-hosting/)
 {% endhint %}
 
-### This is the result
+### 这是结果
 
 ![](../.gitbook/assets/image\_\(7\).png)
 
 {% hint style="success" %}
-Now you can see the "thin font" and GUIs, emojis, HUDs won't break (bugged white squares)
+现在你可以看到“细字体”，并且GUI、表情符号、HUD 不会破裂（错误的白色方块）
 {% endhint %}

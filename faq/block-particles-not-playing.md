@@ -2,10 +2,10 @@
 icon: sparkles
 ---
 
-# Block particles not playing
+# 不播放方块粒子效果
 
-* close your game
-* open the game folder (should be in `%appdata%\.minecraft\` )
-* open `options.txt`
-* set `particles:0`
-* start the game
+* 关闭游戏
+* 打开游戏文件夹 (应该在 `%appdata%\.minecraft\` )
+* 打开 `options.txt`
+* 设置 `particles:0`
+* 启动游戏

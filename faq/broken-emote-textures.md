@@ -1,52 +1,52 @@
 ---
-description: Emotes have bugged textures (1.17+)
+description: 表情纹理错误 (1.17+)
 icon: person-walking
 ---
 
-# Broken emote textures
+# 表情纹理损坏
 
-## Shader Mod issues
+## 光影模组问题
 
-Mods that allow the usage of custom shaders will break emotes due to them overriding/replacing the vanilla Shader which ItemsAdder uses for the Emotes feature.
+允许使用自定义光影的模组会破坏表情，因为它们会覆盖/替换 ItemsAdder 用于表情功能的原版光影。
 
-The only way to _"fix"_ this is by disabling the shaders themself or removing the shader mod in question.
+唯一的“修复”方法是禁用光影本身或移除相关的光影模组。
 
 {% tabs %}
-{% tab title="With Shaders on (Bug)" %}
+{% tab title="开启光影时（有错误）" %}
 ![shader bug](<../.gitbook/assets/image (51) (2) (1) (1).png>)
 {% endtab %}
 
-{% tab title="With Shaders off (No Bug)" %}
+{% tab title="关闭光影时（无错误）" %}
 ![no shader bug](<../.gitbook/assets/image (64).png>)
 {% endtab %}
 {% endtabs %}
 
-Known shader mods that cause issues:
+已知会导致问题的光影模组：
 
 ### Optifine
 
-Related issue: [https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
+相关问题：[https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
 
-### IrisShaders
+### Iris Shaders
 
-Related issue: [https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
+相关问题：[https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
 
-## Mods that change the player skins
+## 更改玩家皮肤的模组
 
-A mod may change the default player model/skin and can therefore be affected by ItemsAdder's shader manipulations, or vice-versa.
+某些模组可能会更改默认的玩家模型/皮肤，因此可能会受到 ItemsAdder 光影操作的影响，反之亦然。
 
-Known Mods that cause issues:
+已知会导致问题的模组：
 
-### 3DSkinLayers
+### 3D Skin Layers
 
-The mod alters the outer skin layer to make them appear in 3D, which alters the player model itself.
+该模组改变了外层皮肤，使其以 3D 形式出现，从而改变了玩家模型本身。
 
-A possible fix is to disable `3D Skulls` and `3D Skull Items` in the mod's settings.\
-There is currently no workaround for using 3D layers in Emote animations.
+可能的解决方法是在模组设置中禁用 `3D Skulls` 和 `3D Skull Items`。\
+目前在表情动画中使用 3D 层没有解决方法。
 
-Additional information can be found in the related issue: [https://github.com/tr7zw/3d-Skin-Layers/issues/45](https://github.com/tr7zw/3d-Skin-Layers/issues/45)
+更多信息请参见相关问题：[https://github.com/tr7zw/3d-Skin-Layers/issues/45](https://github.com/tr7zw/3d-Skin-Layers/issues/45)
 
 ### Customizable Player Models
 
-This mod allows the complete customization of the player model including replacing parts of it or the model as a whole.\
-Due to this will Emotes not display properly in ItemsAdder and there is currently no fix available outside of not using the mod or not using the Emote animations.
+该模组允许完全自定义玩家模型，包括替换部分或整个模型。\
+因此，表情在 ItemsAdder 中无法正确显示，目前除了不使用该模组或不使用表情动画外，没有其他解决方法。

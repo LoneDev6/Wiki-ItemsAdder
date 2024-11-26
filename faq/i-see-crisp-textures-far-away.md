@@ -2,22 +2,22 @@
 icon: braille
 ---
 
-# I see crisp textures far away!
+# 我看到远处的纹理不连贯！
 
 {% hint style="warning" %}
-If you see dotted and not smooth textures in far away it's a common mistake of resourcepacks maker.\
-Minecraft has a bug that disables mipmap if you set textures which their size is not a power of 2!
+如果你看到远处的纹理是点状而不是平滑的，这是资源包制作者的一个常见错误。\
+Minecraft 有一个 bug，如果你设置的纹理大小不是 2 的幂，它会禁用 mipmap！
 {% endhint %}
 
-![LEFT: without mipmap. RIGHT: with mipmap](<../.gitbook/assets/image (19).png>)
+![左：没有 mipmap。右：有 mipmap](<../.gitbook/assets/image (19).png>)
 
-## **How to fix?**
+## **如何修复？**
 
-It's easy! Just follow this:
+很简单！只需按照以下步骤操作：
 
-* read this tutorial to know [how to read game logs](identify-why-textures-are-not-shown.md) (not server logs).
-* search for this text `limits mip level`
-* identify the problematic texture, for example `Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1`
-* Fix the texture. \
-  To fix it you have to resize it to a size of: 16x16, 32x32, 64x64, 128x128, 256x256, etc.\
-  You decide one of these.
+* 阅读本教程以了解[如何读取游戏日志](identify-why-textures-are-not-shown.md)（不是服务器日志）。
+* 搜索这个文本 `limits mip level`
+* 识别有问题的纹理，例如 `Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1`
+* 修复纹理。\
+  要修复它，你需要将其大小调整为：16x16、32x32、64x64、128x128、256x256 等。\
+  你可以选择其中之一。

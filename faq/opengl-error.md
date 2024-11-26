@@ -1,14 +1,14 @@
-# OpenGL Error
+# OpenGL 错误
 
-## Hide the OpenGL errors
+## 隐藏 OpenGL 错误
 
-Some GPUs and OpenGL versions can trigger this error if you have Optifine installed.
+如果你安装了 Optifine，一些 GPU 和 OpenGL 版本可能会触发此错误。
 
 ![](<../../.gitbook/assets/image (43).png>)
 
-For example `OpenGL Error: 1280 (Invalid enum)`
+例如 `OpenGL Error: 1280 (Invalid enum)`
 
-## How to fix
+## 如何修复
 
 ![](<../../.gitbook/assets/image (78).png>)
 

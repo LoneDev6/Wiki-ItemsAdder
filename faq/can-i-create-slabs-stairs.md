@@ -1,24 +1,24 @@
-# Can I create slabs, stairs, tridents, armors...
+# 我可以创建台阶、楼梯、三叉戟、盔甲等吗？
 
-### Placeable
+### 可放置的
 
 {% hint style="warning" %}
- You can't create solid custom slabs, stairs and solid placeable items other than blocks. Problem is that Minecraft would show them as transparent blocks because of this bug: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) You'll be able to create custom shaped blocks when Mojang will fix this bug \(adding a special tag that can be turned on or off, now it's always on. **"Opaque"**\).
+你不能创建实心的自定义台阶、楼梯和其他实心可放置物品。问题是 Minecraft 会将它们显示为透明方块，因为这个 bug：[MC-54254](https://bugs.mojang.com/browse/MC-54254) 当 Mojang 修复这个 bug 时（添加一个可以打开或关闭的特殊标签，现在它总是打开的。**"Opaque"**），你将能够创建自定义形状的方块。
 
-Another reason is that I can't change hitbox of blocks.. sadly another Minecraft limitation.
+另一个原因是我不能改变方块的碰撞箱.. 不幸的是，这是 Minecraft 的另一个限制。
 {% endhint %}
 
-### Tridents
+### 三叉戟
 
 {% hint style="warning" %}
-You can't create custom model for thrown tridents as it's a Minecraft bug which I can't fix: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
+你不能为投掷的三叉戟创建自定义模型，因为这是一个我无法修复的 Minecraft bug：[MC-155286](https://bugs.mojang.com/browse/MC-155286)
 {% endhint %}
 
-### Armors
+### 盔甲
 
 {% hint style="warning" %}
-Minecraft doesn't allow you in any way to add custom textures / custom 3D models to armors.  
-You can make them colored but you cannot change the texture.
+Minecraft 不允许你以任何方式添加自定义纹理/自定义 3D 模型到盔甲上。  
+你可以使它们变色，但不能改变纹理。
 {% endhint %}
 
 {% page-ref page="../plugin-usage/adding-content/creating-a-custom-item/armor.md" %}

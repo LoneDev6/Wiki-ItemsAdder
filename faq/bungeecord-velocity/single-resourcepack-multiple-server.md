@@ -65,5 +65,5 @@ description: >-
 为你的网络中的每个服务器重复步骤 5,6,7。
 
 {% hint style="info" %}
-**BungeePackFix** 插件在本教程中不需要。
+本教程不需要 **BungeePackFix** 插件。
 {% endhint %}

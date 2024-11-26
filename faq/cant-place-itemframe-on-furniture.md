@@ -1,13 +1,13 @@
-# Can't place itemframe on furniture
+# 无法在家具上放置物品展示框
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/1913" %}
 
-It's a Minecraft behaviour, the game is forcefully making itemframe removed because it is inside another entity, in this case the furniture itemframe.
+这是一种 Minecraft 行为，游戏强制删除物品展示框，因为它位于另一个实体内，在这种情况下是家具。
 
-### Solution
+### 解决方法
 
-Reduce the furniture itemframe height of `0.1`.\
-For example `1` -> `0.9`, `2` -> `1.9` etc.
+将家具碰撞箱减小降低 `0.1`。\
+例如 `1` -> `0.9`, `2` -> `1.9` 等。
 
 ```yaml
         hitbox:

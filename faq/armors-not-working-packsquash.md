@@ -1,15 +1,15 @@
 ---
-description: Armors not working after using PackSquash
+description: 使用 PackSquash 后盔甲不起作用
 ---
 
-# Armors not working PackSquash
+# 使用 PackSquash 后盔甲不起作用
 
 ## PackSquash
 
-**PackSquash** can cause issues because it compresses files.\
-Armors files MUST NOT be compressed in order to work on the game.
+**PackSquash** 可能会导致问题，因为它会压缩文件。\
+盔甲文件必须不被压缩才能在游戏中正常工作。
 
-Open **PackSquash** configuration and add this:
+打开 **PackSquash** 配置并添加以下内容：
 
 ```ini
 ['**/*?.{fsh,vsh,glsl}']
@@ -21,4 +21,4 @@ skip_alpha_optimizations = true
 color_quantization_target = 'none'
 ```
 
-Thanks to **@Faceguy** for that info!
+感谢 **@Faceguy** 提供此信息！

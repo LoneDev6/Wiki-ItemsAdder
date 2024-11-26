@@ -2,20 +2,20 @@
 icon: faucet-drip
 ---
 
-# How to download Spigot
+# 如何下载 Spigot
 
-## How to download Paper
+## 如何下载 Paper
 
 {% embed url="https://papermc.io/downloads/paper" %}
 
-## How to download Purpur
+## 如何下载 Purpur
 
 {% embed url="http://purpur.pl3x.net" %}
 
-## How to download Spigot
+## 如何下载 Spigot
 
-* download [BuildTools](https://www.spigotmc.org/wiki/buildtools/)
-* launch `BuildTools.exe`
-* select "Version" and "Output Directory"
-* click "Compile"
-* wait it to complete and get the JAR from the "Output directory" you selected
+* 下载 [BuildTools](https://www.spigotmc.org/wiki/buildtools/)
+* 启动 `BuildTools.exe`
+* 选择“Version” 和 “Output Directory”
+* 点击“编译”
+* 等待完成并从您选择的 “Output Directory” 中获取 JAR 文件

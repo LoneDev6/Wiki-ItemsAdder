@@ -1,21 +1,21 @@
-# Leather armor texture overwritten
+# 皮革盔甲纹理被覆盖
 
-## Leather layers keep getting overwritten by ItemsAdder
+## 皮革层不断被 ItemsAdder 覆盖
 
 ![](<../../.gitbook/assets/image (45) (1) (1).png>)
 
-ItemsAdder automatically overwrites leather layers textures in order to create custom armors.\
-Custom armors are created using colored leather, but the default Minecraft leather armor texture doesn't look like a texture made of minerals.
+ItemsAdder 会自动覆盖皮革层纹理以创建自定义盔甲。\
+自定义盔甲是使用彩色皮革创建的，但默认的 Minecraft 皮革盔甲纹理看起来不像矿物质纹理。
 
-In some servers you might not need this feature at all and you could prefer to have the vanilla leather armor layers texture instead, or use your own custom one.
+在某些服务器中，您可能根本不需要此功能，并且您可能更喜欢使用原版的皮革盔甲层纹理，或者使用您自己的自定义纹理。
 
-## How to disable this?
+## 如何禁用此功能？
 
 {% hint style="warning" %}
-This requires ItemsAdder 2.5.2+
+这需要 ItemsAdder 2.5.2 及以上版本
 {% endhint %}
 
-To disable this you just have to set this option in config.yml of ItemsAdder and run `/iazip` again (then [host the pack](../../plugin-usage/resourcepack-hosting/) if needed).
+要禁用此功能，您只需在 ItemsAdder 的 config.yml 中设置此选项，然后再次运行 `/iazip`（如果需要，请[托管资源包](../../plugin-usage/resourcepack-hosting/)）。
 
 {% code title="config.yml" %}
 ```yaml

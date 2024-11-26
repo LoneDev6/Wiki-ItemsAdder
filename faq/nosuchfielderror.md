@@ -5,4 +5,4 @@
 `java.lang.NoSuchFieldError: MC1_18_R1`
 {% endhint %}
 
-If you get a similar error you have to update [LoneLibs](https://www.spigotmc.org/resources/lonelibs.75974/).
+如果你遇到类似的错误，你需要更新 [LoneLibs](https://www.spigotmc.org/resources/lonelibs.75974/)。

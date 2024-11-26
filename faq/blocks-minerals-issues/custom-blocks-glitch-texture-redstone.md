@@ -1,9 +1,9 @@
-# Custom blocks glitch texture \(redstone\)
+# 自定义方块纹理故障（红石）
 
-## Placing Redstone on top of custom blocks can make them update and revert to Mushroom Blocks
+## 在自定义方块上放置红石可能会使它们更新并恢复为蘑菇方块
 
 {% hint style="warning" %}
-This is a known issue and cannot be fixed easily without making the plugin lag the server.
+这是一个已知问题，无法轻易修复，否则会导致插件使服务器卡顿。
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" %}

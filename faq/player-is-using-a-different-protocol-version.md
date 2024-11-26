@@ -2,28 +2,28 @@
 icon: diamond-exclamation
 ---
 
-# Player is using a different protocol version
+# 玩家使用了不同的协议版本
 
 `'Player' is using a different protocol version of the game (x) than the server (x).`
 
 {% hint style="info" %}
-This message is just a warning, you can ignore it.
+此消息只是一个警告，你可以忽略它。
 {% endhint %}
 
-ViaVersion and similar plugins are not reccomended to be used in general, other than when you want to create a lobby server ([source](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3683)).
+一般不推荐使用 ViaVersion 和类似的插件，除非你想创建一个大厅服务器（[来源](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3683)）。
 
-ViaVersion is a cancer if used incorrectly. The purpose of ViaVersion was to be able to allow clients to connect to a multi-version lobby where players can decide which server they want to join.
+如果使用不当，ViaVersion 是一个灾难。ViaVersion 的目的是允许客户端连接到一个多版本大厅，在那里玩家可以决定他们想加入哪个服务器。
 
-Each server has its own version, for example, survival is 1.20.5 and PVP is 1.8. This allows people to connect to the same lobby server which is the main hub of the server community.
+每个服务器都有自己的版本，例如，生存是 1.20.5，PVP 是 1.8。这允许人们连接到同一个大厅服务器，这是服务器社区的主要枢纽。
 
-Server admins abuse this power to allow players to play on survival servers by joining via 1.8, 1.9, 1.13, 1.18, 1.20 on 1.20.x servers. This causes multiple incompatibilities, instabilities, bugs, glitches to happen. The reason for this to happen is because clients (and servers) had A TON of changes between their versions, most of them are crucial.
+服务器管理员滥用这种功能，允许玩家通过 1.8、1.9、1.13、1.18、1.20 版本加入 1.20.x 服务器进行生存游戏。这会导致多种不兼容、不稳定、错误、故障的发生。发生这种情况的原因是客户端（和服务器）在版本之间进行了大量更改，其中大多数是至关重要的。
 
-Expecting a flawless gameplay is impossible because of how many changes were introduced between versions.
+期望无缝游戏是不可能的，因为版本之间引入了太多更改。
 
-A clear example of a successful server which allows only one version to join is [OriginRealms](https://originrealms.com/) which is one of the most customized Minecraft multiplayer survival experience, no one can tell the opposite.
+一个成功的服务器的明显例子是 [OriginRealms](https://originrealms.com/)，它是最定制化的 Minecraft 多人游戏生存体验之一，没有人提出异议。
 
-I don't see any reason to continue this nonsense of expecting gameplay to be stable while allowing ancient versions of the game to join your server, or worse, keep an old version of the server and allow new client versions to join.
+我看不出继续这种期望游戏稳定的无稽之谈有什么理由，同时允许古老版本的游戏加入你的服务器，或者更糟糕的是，保持服务器的旧版本并允许新客户端版本加入。
 
-ItemsAdder has tons of hacks coded to check client version and server version and then enable some special fixes to avoid crashes/glitches (let's say) on 1.18 clients joining 1.20 servers. I want to stop having to maintain this kind of tricks which are unstable and introduce nothing but stress to both me and the customer.
+ItemsAdder 编写了大量黑客代码来检查客户端版本和服务器版本，然后启用一些特殊修复，以避免 1.18 客户端加入 1.20 服务器时发生崩溃/故障。我想停止维护这种不稳定的技巧，它们只会给我和客户带来压力。
 
-So please, consider to stop allowing multiple versions to join your survival/gamemode server.
+所以请考虑停止允许多个版本加入你的生存/游戏模式服务器。

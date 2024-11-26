@@ -2,28 +2,27 @@
 icon: book-blank
 ---
 
-# Recipes book problems
+# 配方书问题
 
 {% hint style="info" %}
-These limitations are valid for EVERY Spigot plugin that creates custom recipes with custom items as ingredients, it's not an ItemsAdder bug and I can't fix it in any way.
+这些限制适用于每个使用自定义物品作为配方材料的 Spigot 插件，这不是 ItemsAdder 的错误，我无法以任何方式修复它。
 
-Please don't report these bugs, I can't really do anything to fix this problem, it's a Minecraft limitation.
+请不要报告这些错误，我真的无法解决这个问题，这是 Minecraft 的限制。
 {% endhint %}
 
-## "Showing Craftable" button not working correctly
+## “显示可制作”按钮无法正常工作
 
-"Showing Craftable" button doesn't work with recipes that use custom items as ingredients.
+“显示可制作”按钮在使用自定义物品作为配方材料时不起作用。
 
 ![](../.gitbook/assets/image\_\(148\).png)
 
-### How to fix?
+### 如何修复？
 
-Set the button like that when you want to find an ItemsAdder recipe in the book.
+当你想在书中找到 ItemsAdder 配方时，将按钮设置为这样。
 
 ![](../.gitbook/assets/image\_\(155\).png)
 
-## Red recipes even if ingredients are in inventory
+## 即使背包中有材料，配方仍然显示为红色
 
-There is no fix for this, it's a Minecraft bug.
+对此没有修复方法，这是 Minecraft 的错误。
 
-##

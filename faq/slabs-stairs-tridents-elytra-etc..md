@@ -1,20 +1,20 @@
-# Slabs, stairs, tridents, elytra etc.
+# 半砖、楼梯、三叉戟、鞘翅等
 
-### Slabs and stairs
-
-{% hint style="warning" %}
-You can't create solid custom slabs and stairs.\
-The problem is that Minecraft doesn't allow custom hitboxes for custom blocks.
-{% endhint %}
-
-### Tridents
+### 半砖和楼梯
 
 {% hint style="warning" %}
-You can't create custom model for thrown tridents as it's a Minecraft bug which I can't fix: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
+你不能创建实心的自定义半砖和楼梯。\
+问题在于 Minecraft 不允许自定义自定义方块的碰撞箱。
 {% endhint %}
 
-### Elytra
+### 三叉戟
+
+{% hint style="warning" %}
+你不能为投掷的三叉戟创建自定义模型，因为这是一个Minecraft的bug，我无法修复：[MC-155286](https://bugs.mojang.com/browse/MC-155286)
+{% endhint %}
+
+### 鞘翅
 
 {% hint style="success" %}
-Will be added in future ItemsAdder versions, but will require 1.21.2 clients.
+将在未来的 ItemsAdder 版本中添加，但需要1.21.2客户端。
 {% endhint %}

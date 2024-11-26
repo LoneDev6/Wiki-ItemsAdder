@@ -1,29 +1,29 @@
 ---
-description: Square / rectangle character
+description: 方形 / 矩形字符
 icon: rectangle-vertical
 ---
 
-# Rectangle character
+# 矩形字符
 
-## I see ▯ instead of my emojis/ranks
+## 我看到的是 ▯ 而不是我的表情符号/等级
 
 {% hint style="warning" %}
-Your pack probably is not synced with the configurations.\
-Make sure to run `/iazip` after you added any new image and reupload the resourcepack if you are using Dropbox or similar hoting method.
+您的资源包可能与配置不同步。\
+在添加任何新图像后，请确保运行 `/iazip` 并重新上传资源包（如果您使用的是 Dropbox 或类似的托管方法）。
 
-More info on how to host the resourcepack correctly: [resourcepack hosting](../plugin-usage/resourcepack-hosting/)
+有关如何正确托管资源包的更多信息：[资源包托管](../plugin-usage/resourcepack-hosting/)
 {% endhint %}
 
 {% hint style="warning" %}
-Make sure `y_position` is not greater than the image height in pixels and that `y_position` is not greater than image height \* `scale_ratio`.
+确保 `y_position` 不大于图像高度（以像素为单位），并且 `y_position` 不大于（图像高度 \* `scale_ratio`）。
 
-Minecraft doesn't support this, it won't work and there is no way for me to fix that, it's a limitation of the game itself.
+Minecraft 不支持这一点，它将无法工作，我也无法修复，这是游戏本身的限制。
 {% endhint %}
 
-Check your client and server logs to identify the cause of the issue if you still didn't fix.
+如果您仍未解决问题，请检查您的客户端和服务器日志以确定问题的原因。
 
-Read here how to:
+阅读此处了解如何操作：
 
 {% content-ref url="identify-why-textures-are-not-shown.md" %}
-[identify-why-textures-are-not-shown.md](identify-why-textures-are-not-shown.md)
+[判断纹理未显示的原因](identify-why-textures-are-not-shown.md)
 {% endcontent-ref %}

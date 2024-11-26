@@ -1,8 +1,8 @@
-# Mohist problems
+# Mohist 问题
 
 {% hint style="warning" %}
-Note: Mohist is an unofficial mod and may break plugins.\
-I didn't code the plugin with official Mohist compatibility just because it's not something that straightforward.
+注意：Mohist 是一个非官方的模组，可能会破坏插件。\
+我没有为插件编写官方的 Mohist 兼容性代码，因为这并不是一件简单的事情。
 {% endhint %}
 
 ```
@@ -27,9 +27,9 @@ at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:315) 
 ... 14 more
 ```
 
-## How to fix this issue
+## 如何解决这个问题
 
-Open **ProtocolLib** `config.yml` file and set this option to false.
+打开 **ProtocolLib** 的 `config.yml` 文件，并将此选项设置为 false。
 
 {% code title="config.yml" %}
 ```yaml

@@ -2,13 +2,13 @@
 icon: block-brick
 ---
 
-# I removed blocks but keep saying that I used all the IDs
+# 我删除了方块，但系统仍然提示我使用了所有的ID
 
-If you're really sure you can use this command to cleanup the plugin cache: `/iacleancache`\
-It will remove all the cached IDs so that you can reuse the old IDs of removed blocks.
+如果你确定可以使用此命令来清理插件缓存：`/iacleancache`\
+它将删除所有缓存的 ID，这样你就可以重新使用已删除方块的旧 ID。
 
 {% hint style="info" %}
-**Why does ItemsAdder have a blocks IDs cache?**
+**为什么ItemsAdder有方块 ID 缓存？**
 
-Cache exists because if you remove a block by mistake and then you want to add it back it will have the same old ID instead of a new one each time.
+缓存的存在是因为如果你不小心删除了一个方块，然后想要重新添加它，它将拥有相同的旧ID，而不是每次一个新的ID。
 {% endhint %}

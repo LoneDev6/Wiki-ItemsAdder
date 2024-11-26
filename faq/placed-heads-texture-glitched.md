@@ -1,23 +1,23 @@
 ---
-description: Some placed player heads have glitched/bugged texture
+description: 一些放置的玩家头颅纹理出现故障/错误
 icon: head-side
 ---
 
-# Placed heads texture glitched
+# 放置的头颅纹理出现故障
 
 ![](<../.gitbook/assets/image (51) (2) (2).png>)
 
 {% embed url="https://youtu.be/Gn7uzcSmjmU" %}
 
-This bug happens if you have more than 1 player head of the same player in front of you.\
-This doesn't happen if you have different player heads in front of you or if you have only 1 head in front of you.
+如果你面前有多个相同玩家的头颅，就会发生这个错误。\
+如果你面前有不同玩家的头颅或者只有一个头颅，就不会发生这个错误。
 
-This bug is also reproducible in **OriginRealms** server and will be reproducible with any other custom emotes system that will be released by other developers.\
-I probably can't fix this bug in any way because it's how the game rendering system works.
+这个错误在 **OriginRealms** 服务器中也可以重现，并且在其他开发者发布的任何自定义表情系统中也会重现。\
+我可能无法以任何方式修复这个错误，因为这是游戏渲染系统的工作方式。
 
-I'll do my best to find a workaround but I doubt this game allows me to identify placed heads in order to fix that.
+我会尽力找到一个解决方法，但我怀疑这个游戏是否允许我识别放置的头颅以修复这个问题。
 
-## How to fix
+## 如何修复
 
-The only way to fix this is to disable emotes system in `config.yml` of **ItemsAdder**.\
-Don't forget to regenerate the resourcepack using `/iazip`.
+唯一的修复方法是从 **ItemsAdder** 的 `config.yml` 禁用表情系统。\
+不要忘记使用 `/iazip` 重新生成资源包。
