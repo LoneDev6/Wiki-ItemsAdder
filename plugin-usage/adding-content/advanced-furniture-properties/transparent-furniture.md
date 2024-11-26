@@ -2,14 +2,14 @@
 icon: sheet-plastic
 ---
 
-# Transparent furniture
+# 透明家具
 
 {% hint style="warning" %}
-If you want to make some transparent or semi-transparent textures you have to make sure you based your item on a vanilla item that accepts transparency.\
-For example **`WHITE_STAINED_GLASS`**
+如果你想制作一些透明或半透明的纹理，你必须确保你的物品基于接受透明度的原版物品。
+例如 **`WHITE_STAINED_GLASS`**
 {% endhint %}
 
-### Example
+### 示例
 
 ```yaml
 resource:
@@ -18,4 +18,4 @@ resource:
   model_path: item/your_model
 ```
 
-![Potion bottles with semi-transparency](<../../../.gitbook/assets/image (11) (1).png>)
+![半透明药水瓶](<../../../.gitbook/assets/image (11) (1).png>)

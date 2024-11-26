@@ -1,15 +1,15 @@
-# Common errors
+# 常见错误
 
-## Strange errors
+## 奇怪的错误
 
-Sometimes you may encounter unknown errors.
+有时你可能会遇到未知的错误。
 
-In order to avoid these issues you should avoid opening many custom projects in Blockbench at the same time, since the ItemsAdder tool is in beta. This will be addressed in the future.
+为了避免这些问题，你应该避免同时在 Blockbench 中打开多个自定义项目，因为 ItemsAdder 工具还处于测试阶段。这个问题将在未来得到解决。
 
-## "Scale out of bounds" error
+## "Scale out of bounds" 错误
 
 ![](<../../../../.gitbook/assets/image (42).png>)
 
-In order to fix this you have to open the **ItemsAdder Entity** settings and set [Max Scaling](creation.md#configuring-the-model).
+要修复此问题，你需要打开 **ItemsAdder 实体** 设置并设置 [最大缩放](creation.md#configuring-the-model)。
 
 ![](<../../../../.gitbook/assets/image (79).png>)

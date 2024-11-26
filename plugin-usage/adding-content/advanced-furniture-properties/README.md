@@ -2,19 +2,19 @@
 icon: list-check
 ---
 
-# Advanced furniture properties
+# 高级家具属性
 
 {% hint style="warning" %}
-**Limitations of itemframes furnitures**
+**物品展示框家具的限制**
 
-* solid itemframe furnitures are possible only on Server version >= 1.16 (client doesn't matter).
-* invisible itemframe furnitures are possible only on Server and Client version >= 1.16.\
-  If a user connects with viaversion using an old mc version they will see the itemframe.
+* 实心物品展示框家具仅在服务器版本 >= 1.16 时可用（客户端版本无关紧要）。
+* 隐形物品展示框家具仅在服务器和客户端版本 >= 1.16 时可用。\
+  如果用户使用 viaversion 连接旧的 mc 版本，他们将看到物品展示框。
 {% endhint %}
 
 {% hint style="warning" %}
-**Limitations of all furnitures**
+**所有家具的限制**
 
-* non solid furnitures can't receive interact events, they can only be removed using mouse left click but cannot be interacted with (only solid furnitures can get interact events)
-* max size of the hitbox is 3x3x3 for performance reasons
+* 非实心家具无法接收交互事件，它们只能通过鼠标左键点击移除，但无法进行交互（只有实心家具可以接收交互事件）
+* 出于性能原因，碰撞箱的最大尺寸为 3x3x3
 {% endhint %}

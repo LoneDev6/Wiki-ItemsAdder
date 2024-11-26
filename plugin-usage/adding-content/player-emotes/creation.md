@@ -1,38 +1,38 @@
-# Creation
+# 创建
 
-## Installing the Blockbench extension
+## 安装 Blockbench 拓展
 
 {% hint style="warning" %}
-**Before continuing:**
+**继续之前：**
 
-* Make sure you're running **Blockbench 4.7.4** or **greater**
-* Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
+* 确保你运行的是 **Blockbench 4.7.4** 或更高版本
+* 确保你运行的是最新的 ItemsAdder 和最新的 ItemsAdder Blockbench 扩展
 {% endhint %}
 
-[Download Blockbench](https://www.blockbench.net/) (don't use the web app).
+[下载 Blockbench](https://www.blockbench.net/)（不要使用网页版）。
 
 ![](<../../../.gitbook/assets/image (98) (1).png>)
 
 \
-[Download](https://github.com/LoneDev6/itemsadder-entity/releases) the extension file.
+[下载](https://github.com/LoneDev6/itemsadder-entity/releases) 扩展文件。
 
 <figure><img src="../../../.gitbook/assets/ia-entities-download-js.png" alt=""><figcaption></figcaption></figure>
 
-Then open **Blockbench** and click on File -> Plugins.
+然后打开 **Blockbench** 并点击 File -> Plugins。
 
 ![](<../../../.gitbook/assets/image (48) (1) (1).png>)
 
-Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
+点击图标从文件加载插件，然后选择文件 `iaentitymodel.js`。
 
 ![](<../../../.gitbook/assets/image (74) (1) (1).png>)
 
-Press OK
+按 OK
 
 ![](<../../../.gitbook/assets/image (71).png>)
 
-## Enabling emotes
+## 启用表情
 
-Open `config.yml` of ItemsAdder and enable these two options, then run `/iazip` command.
+打开 ItemsAdder 的 `config.yml` 并启用这两个选项，然后运行 `/iazip` 命令。
 
 {% code title="config.yml" %}
 ```yaml
@@ -43,122 +43,122 @@ entities:
 ```
 {% endcode %}
 
-## Opening the animations editor
+## 打开动画编辑器
 
-Create a new "`ItemsAdder Entity Model`"
+创建一个新的 "`ItemsAdder Entity Model`"
 
-You can create as many as animations files you want (**ItemsAdder 3.2.1+**).
+你可以创建任意数量的动画文件（**ItemsAdder 3.2.1+**）。
 
 <figure><img src="../../../.gitbook/assets/ia-entities-new.png" alt=""><figcaption></figcaption></figure>
 
-Decide if you want to create an emotes file with examples or a blank emotes file.
+决定是否要创建带有示例的表情文件或空白表情文件。
 
 <figure><img src="../../../.gitbook/assets/ia-entities-new2.png" alt=""><figcaption></figcaption></figure>
 
-Decide a name for your emotes pack.
+为你的表情包决定一个名称。
 
 <figure><img src="../../../.gitbook/assets/ia-entities-new3.png" alt=""><figcaption></figcaption></figure>
 
-You can notice a lot of example animations on the left.
+你可以在左侧看到很多示例动画。
 
 ![](<../../../.gitbook/assets/image (51) (3).png>)
 
-Delete all the emotes and edit/rename the ones you want. \
-They are useful only as base for your new emotes, to have an example to learn from.
+删除所有表情并编辑/重命名你想要的。\
+它们仅作为你新表情的基础，提供一个学习的示例。
 
 ![](<../../../.gitbook/assets/image (68).png>)
 
-Now create a new animation (emote) and save your `.iaentitymodel` project file into this folder (change `my_emotes` to your namespace, this one is an example):\
+现在创建一个新的动画（表情）并将你的 `.iaentitymodel` 项目文件保存到此文件夹中（将 `my_emotes` 更改为你的命名空间，这是一个示例）：\
 `ItemsAdder/contents/my_emotes/resourcepack/`
 
 ![](<../../../.gitbook/assets/image (95).png>)
 
-Then continue following the tutorial to know how to export the emotes into ItemsAdder.
+然后继续按照教程了解如何将表情导出到 ItemsAdder。
 
-### Apply the changes to ItemsAdder
+### 将更改应用到 ItemsAdder
 
-Click on the **ItemsAdder** tab and press **Export**.
+点击 **ItemsAdder** 选项卡并按 **Export**。
 
 ![](<../../../.gitbook/assets/image (100).png>)
 
-You should get a success message.
+你应该会收到成功消息。
 
 ![](<../../../.gitbook/assets/image (81) (1).png>)
 
 {% hint style="success" %}
-If you didn't add any custom model into your emote there is <mark style="color:green;">no need</mark> to use `/iazip`!\
-Use the command `/iareload` to load the new animation in the game.
+如果你没有在表情中添加任何自定义模型，则<mark style="color:green;">不需要</mark>使用 `/iazip`！\
+使用命令 `/iareload` 在游戏中加载新动画。
 {% endhint %}
 
-## Playing the animations
+## 播放动画
 
-Use the emote command: `/iaemote <emote> [player]` or `/emote <emote> [player]`
+使用表情命令：`/iaemote <emote> [player]` 或 `/emote <emote> [player]`
 
-## Emote permission
+## 表情权限
 
-Use the `/iaemote` command: `ia.user.iaemote`
+使用 `/iaemote` 命令：`ia.user.iaemote`
 
-Use an emote: `ia.user.iaemote.use.<emote>`\
-Example: `ia.user.iaemote.use.yes`
+使用表情：`ia.user.iaemote.use.<emote>`\
+示例：`ia.user.iaemote.use.yes`
 
-### More info about permissions
+### 更多权限信息
 
 {% content-ref url="../../permissions.md" %}
-[permissions.md](../../permissions.md)
+[权限列表](../../permissions.md)
 {% endcontent-ref %}
 
-## Adding custom models into emotes
+## 在表情中添加自定义模型
 
-### Showcase of some examples
+### 一些示例的展示
 
 {% embed url="https://youtu.be/VnFNzmhAVIM" %}
 
 {% embed url="https://youtu.be/aP5Jz9OW208" fullWidth="false" %}
 
-### Here you can download an example project:
+### 这里你可以下载一个示例项目：
 
 {% embed url="https://raw.githubusercontent.com/LoneDev6/SpigotUtilities/master/ItemsAdder/various_files/example_advanced_emotes.iaentitymodel" %}
 
-You can add custom models to your emotes, for example: items, monsters, furniture, animated effects.
+你可以向表情添加自定义模型，例如：物品、怪物、家具、动画效果。
 
-### Important
+### 重要
 
 {% hint style="warning" %}
-This requires ItemsAdder 3.5.0 or greater.
+这需要 ItemsAdder 3.5.0 或更高版本。
 
-* DO NOT delete any built-in player bone.
-* DO NOT resize any built-in player bone, it simply won't work ingame.
-* Edit built-in player bones only in the animation view (rotate, move).
-* You can hide the built-in player bones using scale to `0,0,0`. Set to `1,1,1` to show them again.
+* 不要删除任何内置的玩家骨骼。
+* 不要调整任何内置的玩家骨骼的大小，它在游戏中不会起作用。
+* 仅在动画视图中编辑内置的玩家骨骼（旋转、移动）。
+* 你可以使用缩放将内置的玩家骨骼设置为 `0,0,0` 以隐藏。设置为 `1,1,1` 以显示。
 {% endhint %}
 
-### Different type of emotes
+### 不同类型的表情
 
-* `.player_advanced_animations` file format is now used to identify player animations which also add custom models to the emote.
-* `.player_animations` are the player animations which don't add any custom model but will be loaded into the default player model.
+* `.player_advanced_animations` 文件格式现在用于标识也向表情添加自定义模型的玩家动画。
+* `.player_animations` 是不添加任何自定义模型，但会加载到默认玩家模型中的玩家动画。
 
-In order to decide that you have to set this option in the **Blockbench** extension settings.
+为了决定这一点，你需要在 **Blockbench** 扩展设置中设置此选项。
 
 [![image](../../../.gitbook/assets/emotes\_advanced\_1.png)](https://user-images.githubusercontent.com/27242001/244145963-c9ca9a77-bb79-4804-92e4-8708eac41517.png)
 
 <figure><img src="../../../.gitbook/assets/emotes_advanced_2.png" alt=""><figcaption></figcaption></figure>
 
-### Importing elements into the scene
+### 将元素导入场景
 
-You can import any `.bbmodel` into the scene and use it in your animation.\
-You can also import extruded textures to show items dynamically.
+你可以将任何 `.bbmodel` 导入场景并在动画中使用它。\
+你还可以导入特别的纹理以动态显示物品。
 
 <figure><img src="../../../.gitbook/assets/emotes_advanced_3.png" alt=""><figcaption></figcaption></figure>
 
-### Hiding unused elements in other animations of the game `.iaentitymodel` emotes file
+### 在游戏的 `.iaentitymodel` 表情文件中隐藏未使用的元素
 
-1. select the animation
-2. select the element you want to hide for a particular animation
-3. move to the first frame of the animation, using the timeline
-4. create a new scale key, make sure to set it to the first keyframe
-5. set scale to 0
+1. 选择动画
+2. 选择要为特定动画隐藏的元素
+3. 使用时间轴移动到动画的第一帧
+4. 创建一个新的缩放关键帧，确保将其设置为第一个关键帧
+5. 设置缩放为 0
 
-Now your model won't be shown for this particular animation.\
-You can show/hide it in the middle of the animation just by doing the same thing but setting scale to 1.
+现在你的模型不会在这个特定动画中显示。\
+你可以通过执行相同的操作但将缩放设置为 1 来在动画中间显示/隐藏它。
 
 <figure><img src="../../../.gitbook/assets/emotes_advanced_4.png" alt=""><figcaption></figcaption></figure>

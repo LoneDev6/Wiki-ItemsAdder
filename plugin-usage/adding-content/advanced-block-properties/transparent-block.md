@@ -2,11 +2,11 @@
 icon: sheet-plastic
 ---
 
-# Transparent block
+# 透明方块
 
 <figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-To create a transparent block you have to use `REAL_TRANSPARENT` block model type.
+要创建一个透明方块，你需要使用 `REAL_TRANSPARENT` 方块模型类型。
 
 ```yaml
 info:

@@ -2,5 +2,4 @@
 icon: user-alien
 ---
 
-# Entities
-
+# 实体

@@ -2,29 +2,28 @@
 icon: message-exclamation
 ---
 
-# Common errors
+# 常见错误
 
-## I see only a white square
+## 我只看到了白色方块
 
-If you see a **white square** make sure the **height** of your image is not **greater** than the `y_position` value you set.\
-To **bypass** this limitation you have to create an **image** with **higher height**.
+如果你看到了**白色方块**，确保你图像的**高度不高于**你设置的 `y_position`。\
+要**绕过**该限制，你需要创建一个**高度更高**的图像。
 
-Images must also not have **Uppercase** or **Bad Characters** (eg. `*`, `à`, `ù`, `=`, `$`, space etc.) in the filename or in the folders.
+图像文件名与文件夹也不能含有**大写**或者**不合适的字符**（如 `*`, `à`, `ù`, `=`, `$`, 空格等）。
 
 {% hint style="warning" %}
-Keep in mind that the **max size** of a font image is **256x256**.\
-This is a Minecraft limitation.\
-To bypass this (if you're creating a GUI or HUD) you can split your image in multiple font images and merge them shifting them.
+记住字体图像的**最大尺寸**是**256x256**。\
+这是 Minecraft 的限制。\
+要绕过该限制（例如创建 GUI 或 HUD），你可以分割你的图像为多分，而后通过前后移动来合并。
 {% endhint %}
 
-## Imprecise HUD shifting in some cases
+## 某些情况 HUD 移动不准确
 
-Be sure to have each image size set to a multiple of 2 (2x2, 4x4, 6x6, 8x8, 10x10, etc.)&#x20;
+确保将图像大小设置为 2 的倍数（2x2, 4x4, 6x6, 8x8, 10x10, etc.）。
 
-If you still have problems try to increase/decrease the size by 2 until the wrong shift disappears.\
-This is an approximation problem I cannot fix.
+如果仍有问题，尝试以 2 为大小增大/减小图像尺寸至错误位移消失。\
+我无法修复该问题
 
-## GUI image is colored
+## GUI 图像被是彩色的
 
-You need to specify the **GUI image name** in the name of the GUI\
-`title: :myimage: My Custom GUI` which can be colored by the custom menu plugin automatically. Be sure to add `&f` before doing :myimage: in the GUI.\\
+你需要在 GUI 的名称中指定能够被自定义菜单自动染色的 **GUI 图像名称** `title: :myimage: My Custom GUI`。在 GUI 中使用 `:myimage:` 前不要忘记添加 `&f`。

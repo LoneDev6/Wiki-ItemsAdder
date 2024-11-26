@@ -1,61 +1,61 @@
-# Optifine loading screen
+# Optifine 加载屏幕
 
 {% hint style="danger" %}
-**Optifine** is **not officially supported** by **ItemsAdder**, but if you want to get more customization you can read these tutorials.
+**Optifine** 并未被 **ItemsAdder** 官方支持，但如果你想要更多的自定义选项，可以阅读这些教程。
 
-#### Please don't ask support about Optifine features. Thanks!
+#### 请不要就 Optifine 功能寻求支持。谢谢！
 
-If you want you can use the [alternative method](https://itemsadder.devs.beer/plugin-usage/loading-screen) which doesn't require **Optifine**.
+如果你愿意，可以使用[替代方法](https://itemsadder.devs.beer/plugin-usage/loading-screen)，该方法不需要 **Optifine**。
 {% endhint %}
 
-## Vanilla loading screen
+## 原版加载屏幕
 
 ![](../../../.gitbook/assets/image\_\(44\).png)
 
-## Custom loading screen
+## 自定义加载屏幕
 
 ![](../../../.gitbook/assets/image\_\(51\).png)
 
-## How to do that?
+## 如何实现？
 
-### Minecraft 1.15 and lower versions
+### Minecraft 1.15 及以下版本
 
 ![](../../../.gitbook/assets/image\_\(49\).png)
 
-You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf).
+你可以在[这里](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf)获取一个 [GIMP](https://www.gimp.org/downloads/) 模板。
 
-* Edit my file: `contents/loading_screen/resourcepack/minecraft/textures/gui/title/mojang.png`
-* Save the file in the same location
+* 编辑我的文件：`contents/loading_screen/resourcepack/minecraft/textures/gui/title/mojang.png`
+* 将文件保存在相同位置
 
-### Minecraft 1.16+
+### Minecraft 1.16 及以上版本
 
 ![](../../../.gitbook/assets/image\_\(48\).png)
 
 {% hint style="danger" %}
-**Warning**: a known issue is that the logo is bugged when you use `/iazip` or `/iatexture` to apply the texture ingame.\
-The logo will be shown with no issue only on server join for some reason, probably an Optifine bug.
+**警告**：已知问题是当你使用 `/iazip` 或 `/iatexture` 在游戏中应用纹理时，徽标会出现问题。\
+徽标只会在服务器加入时正常显示，可能是 Optifine 的一个 bug。
 {% endhint %}
 
-A little bit difficult:\
-basically you have to split your image in half like I did, so you have to know how to use image editing programs (Photoshop, GIMP or Paint.net).\
-You can get a [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf).
+有点困难：\
+基本上你需要将图像分成两半，所以你需要知道如何使用图像编辑程序（Photoshop、GIMP 或 Paint.net）。\
+你可以在[这里](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf)获取一个 [GIMP](https://www.gimp.org/downloads/) 模板。
 
-* Edit my file: `contents\loading_screen\resourcepack\minecraft\textures\gui\title\mojangstudios.png`
-* Save the file in the same location
+* 编辑我的文件：`contents\loading_screen\resourcepack\minecraft\textures\gui\title\mojangstudios.png`
+* 将文件保存在相同位置
 
 {% hint style="danger" %}
-**IMPORTANT**\
-The position of the parts needs to be precise.\
-The left side of the texture needs to touch the top-right corner of the canvas while the right side needs to touch the center-left side of the canvas.
+**重要**\
+各部分的位置需要精确。\
+纹理的左侧需要接触画布的右上角，而右侧需要接触画布的左中部。
 
-This is **always** the case, no matter the size of the actual texture!
+无论实际纹理的大小如何，这**始终**是正确的！
 {% endhint %}
 
-### How to change the background color (1.16+ only)
+### 如何更改背景颜色（仅限 1.16+）
 
-Create a new file (or edit the already provided one): `contents/loading_screen/resourcepack/minecraft/optifine/color.properties`
+创建一个新文件（或编辑已提供的文件）：`contents/loading_screen/resourcepack/minecraft/optifine/color.properties`
 
-Put this content:
+放入以下内容：
 
 ```yaml
 ###############################################################################
@@ -76,8 +76,8 @@ screen.loading.progress=1f17ce
 screen.loading.blend=DST_COLOR
 ```
 
-You can edit the colors using a [HEX color picker](https://www.w3schools.com/colors/colors\_picker.asp)
+你可以使用 [HEX 颜色选择器](https://www.w3schools.com/colors/colors\_picker.asp)编辑颜色。
 
 {% hint style="danger" %}
-Do not include the `#` at the start of the color code!
+不要在颜色代码的开头包含 `#`！
 {% endhint %}

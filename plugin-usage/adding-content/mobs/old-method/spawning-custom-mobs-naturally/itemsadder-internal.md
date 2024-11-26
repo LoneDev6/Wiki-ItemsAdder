@@ -1,14 +1,14 @@
-# ItemsAdder internal
+# 使用 ItemsAdder
 
-## Spawn the mob naturally using ItemsAdder
+## 使用 ItemsAdder 自然生成怪物
 
-To spawn the mob naturally you have to setup the `replace_mobs_spawn` property.
+要自然生成怪物，你需要设置 `replace_mobs_spawn` 属性。
 
-This is an example for a custom mob names **Soul**.\
-As you can see I set it up like a normal item, but with a special [behaviour ](../../../item-properties/behaviours.md)named **mob**.
+这是一个名为 **Soul** 的自定义怪物的示例。\
+如你所见，我将其设置为一个普通物品，但具有一种特殊的[行为](../../../item-properties/behaviours.md)，名为 **mob**。
 
 \
-This example configuration tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT` and only in caves (`max_sky_light: 0`).
+此示例配置告诉 ItemsAdder 以 20% 的 `几率` 在 `午夜` 并且仅在洞穴中（`max_sky_light: 0`）替换任何自然生成的 `ZOMBIE`。
 
 ```yaml
   soul:
@@ -42,7 +42,7 @@ This example configuration tells ItemsAdder to replace any naturally spawned `ZO
              - DESERT_LAKES
 ```
 
-You can create as much as replace rules as you want, for example if you want to replace both `ZOMBIE` and `SKELETON` you can create a second rule
+你可以创建任意多的替换规则，例如，如果你想同时替换 `ZOMBIE` 和 `SKELETON`，你可以创建第二个规则
 
 ```yaml
         replace_mobs_spawn:
@@ -62,8 +62,8 @@ You can create as much as replace rules as you want, for example if you want to 
               start: NOON
 ```
 
-You can decide if to **replace** the mob **or** to **spawn** the custom **mob without replacing** the **original** one.\
-You have to use the `spawn_another` property.
+你可以决定是**替换**怪物**还是生成**自定义怪物**而不替换原始怪物**。\
+你需要使用 `spawn_another` 属性。
 
 ```yaml
           rule3:

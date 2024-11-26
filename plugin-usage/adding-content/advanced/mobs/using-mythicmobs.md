@@ -1,10 +1,10 @@
-# Using MythicMobs
+# 使用 MythicMobs 创建
 
-## How to make MythicMobs handle my custom mob
+## 如何使用 MythicMobs 处理我的自定义怪物
 
-If you want to make MythicMobs handle your custom mob to have more advanced features and control it's really easy!
+如果你想让 MythicMobs 来处理你的自定义怪物，以获得更高级的功能与控制，也很简单！
 
-For example I have this MythicMobs configuration:
+例如我有这样一个 MythicMobs 配置：
 
 ```yaml
 StaticallyChargedSheep:
@@ -22,7 +22,7 @@ StaticallyChargedSheep:
 ```
 
   
-Open your ItemsAdder .yml file where you created the mob and to edit the **replace rule** like this:
+打开你存放了自定义怪物的 ItemsAdder .yml 文件，添加如下**替换规则**：
 
 ```yaml
         replace_mobs_spawn:
@@ -34,12 +34,12 @@ Open your ItemsAdder .yml file where you created the mob and to edit the **repla
 ```
 
 {% hint style="warning" %}
-It's important to set **replace\_mythicmob** `name` property to your **mythicmob name**.
+将**replace\_mythicmob** `name` 属性设置为你 **mythicmob的名字**很重要.
 {% endhint %}
 
-### Random chance
+### 随机几率
 
-If you want to replace the mythic mob only sometimes \(this allows you to create more skin variations for the name mythicmob\) you just have to set `always: false` and set your spawn rules.  
+如果你只想在某些情况下替换 mythic mob（这允许你为mythicmob设置更多的皮肤样式），你只需要设置 `always:false`。
 Example:
 
 ```yaml
@@ -57,7 +57,7 @@ Example:
 ```
 
 {% hint style="warning" %}
-Remember to set `reason: CUSTOM` or it won't work as MythicMobs sets the spawn reson to `CUSTOM` and not `NATURAL`.
+记住设置 `reason: CUSTOM` 否则它不会工作，因为 MythicMobs 设置了 `reason:CUSTOM` 而非 `reason:NATURAL`。
 {% endhint %}
 
 

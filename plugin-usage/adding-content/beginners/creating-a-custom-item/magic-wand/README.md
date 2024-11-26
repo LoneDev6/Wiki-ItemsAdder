@@ -1,8 +1,8 @@
-# Magic wand
+# 魔杖
 
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
 
-## Example of fire magic wand
+## 示例：火焰魔杖
 
 ```yaml
   advanced_magic_wand:
@@ -103,7 +103,7 @@
           amount: 1
 ```
 
-## Example of mana recover crystals
+## 示例：法力回复水晶
 
 ```yaml
   mana_recover_crystals:

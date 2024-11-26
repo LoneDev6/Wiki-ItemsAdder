@@ -1,4 +1,4 @@
-# Table of contents
+# 内容列表
 
 * [欢迎](README.md)
 * [捐助-支持我的工作](https://donate.devs.beer)
@@ -38,7 +38,7 @@
   * [协议错误](faq/protocol-error.md)
   * [内部异常](faq/internal-exception.md)
   * [OpenGL错误](faq/opengl-error.md)
-  * [Armors textures not working with shaders mod](faq/armors-textures-not-working-with-shaders-mod.md)
+  * [盔甲纹理与光影冲突](faq/armors-textures-not-working-with-shaders-mod.md)
   * [Armors animation and emission not working](faq/armors-animation-and-emission-not-working.md)
   * [Leather armor texture overwritten](faq/leather-armor-texture-overwritten.md)
   * [Armors not working PackSquash](faq/armors-not-working-packsquash.md)

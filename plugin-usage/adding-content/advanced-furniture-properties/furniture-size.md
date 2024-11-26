@@ -2,32 +2,32 @@
 icon: arrows-maximize
 ---
 
-# Furniture size
+# 家具尺寸
 
 {% hint style="warning" %}
-**It's advised to use the small furniture (small Armor Stand)**
+**建议使用小型家具（小型盔甲架）**
 {% endhint %}
 
-## How can I adjust the furniture position when placed?
+## 如何调整家具放置时的位置？
 
-If you want to adjust it you just have to use [Blockbench](broken-reference) as usual and:
+如果你想调整它，只需像往常一样使用 [Blockbench](broken-reference) 并：
 
 ![](../../../.gitbook/assets/image\_\(8\).png)
 
-1. click on **display** on the right
-2. click on the **armorstand icon** on the left
-3. click on the **smile face** (**head**) on the left
-4. **move** your model on the armorstand **bottom** (it's the **ground**)
+1. 点击右侧的 **display**
+2. 点击左侧的 **盔甲架图标**
+3. 点击左侧的 **笑脸**（**头部**）
+4. 将你的模型移动到盔甲架的 **底部**（即 **地面**）
 
-### Too small furniture
+### 太小的家具
 
-If your furniture is **too small** but you want it **bigger** and with bigger **hitbox** just set this to **false**.\
-If you instead want a **small furniture** with small hitbox just set it to true.
+如果你的家具**太小**但你希望它**更大**并且有更大的**碰撞箱**，只需将此设置为 **false**。\
+如果你希望一个**小家具**有小碰撞箱，只需将其设置为 true。
 
 {% hint style="info" %}
-Note: hitbox is not limited, you can set a bigger hitbox which will be unrelated to the entity itself.
+注意：碰撞箱没有限制，你可以设置一个更大的碰撞箱，它将与实体本身无关。
 
-Set the hitbox attributes:
+设置碰撞箱属性:
 
 ```yaml
     hitbox:
@@ -38,7 +38,7 @@ Set the hitbox attributes:
 {% endhint %}
 
 {% tabs %}
-{% tab title="Big furniture" %}
+{% tab title="大家具" %}
 ```yaml
 behaviours:
   furniture:
@@ -46,7 +46,7 @@ behaviours:
 ```
 {% endtab %}
 
-{% tab title="Small furniture" %}
+{% tab title="小家具" %}
 ```yaml
 behaviours:
   furniture:
@@ -55,14 +55,14 @@ behaviours:
 {% endtab %}
 {% endtabs %}
 
-#### and set this is [BlockBench](broken-reference)
+#### 并在 [BlockBench](broken-reference) 中设置此项
 
 {% tabs %}
-{% tab title="Big furniture" %}
+{% tab title="大家具" %}
 ![](../../../.gitbook/assets/image\_\(9\).png)
 {% endtab %}
 
-{% tab title="Small furniture" %}
+{% tab title="小家具" %}
 ![](../../../.gitbook/assets/image\_\(10\).png)
 {% endtab %}
 {% endtabs %}

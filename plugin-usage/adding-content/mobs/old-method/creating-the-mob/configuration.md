@@ -1,18 +1,18 @@
-# Configuration
+# 配置
 
-## Creating your fist mob
+## 创建第一个怪物
 
-### yml configuration
+### 配置
 
-You have to create a .yml file in your [namespace ](broken-reference)folder (check [other tutorials ](broken-reference)for more info).
+你需要在[命名空间](broken-reference)文件夹创建一个 .yml 文件([查看更多](broken-reference))。
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../files-editor.md) to edit ItemsAdder files. \
-It makes you life easier as it has autocomplete (press CRTL+SPACE) which helps you on avoiding mistakes.
+考虑使用[官方在线工具](../../../../files-editor.md)来编辑 ItemsAdder 文件。\
+它具有自动完成功能（CRTL+空格），可以帮助你避免错误，使你更轻松。
 {% endhint %}
 
-This is an example for a custom mob named **Soul**.\
-As you can see I set it up like a normal item, but with a special [behaviour ](../../../item-properties/behaviours.md)named **mob**.
+这是一个名为 **Soul** 的自定义怪物的示例。\
+如你所见，我将其设置为一个普通物品，但具有一个特殊的[行为](../../../item-properties/behaviours.md)，名为 **mob**。
 
 ```yaml
 info:
@@ -38,23 +38,24 @@ items:
           walk: soul_walking
 ```
 
-The mob will have **head rotation locked** (only on Y axis), this will avoid it from looking stupid while looking at player when is at an higher position.
+这个生物的**头部旋转将被锁定**（仅在 Y 轴上），这将避免它在处于更高位置看玩家时看起来很滑稽。
 
-`hit_color` is the color the mob will have when damaged by player. \
-You can get a valid color from these websites:\
+`hit_color` 是该怪物被玩家击伤时显示的颜色。\
+你可以从下述网络获取有效的颜色：\
 [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)\
 [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)\
-[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) (use one of the color pickers and copy the value from the right)
+[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/)\
+(使用其中一个颜色选择器并复制右侧的值)
 
 {% hint style="info" %}
-Note: I **skipped** the `material` property of `resource` because **it's not needed** for **mobs**, ItemsAdder will automatically handle it.
+注意：我**跳过**了 `resource` 的 `material` 属性，因为对于生物来说不需要，ItemsAdder 会自动处理。
 {% endhint %}
 
-### Animations
+### 动画
 
-You probably noticed that there are two other attributes: `attack` and `walk` **animations**.\
-The **mob\_animation** behaviour tells ItemsAdder that the item is a mob animation.\
-These are infact other items you have to create like this:
+你可能注意到还有两个其他属性：`attack` 和 `walk` **动画**。\
+`mob_animation` 行为告诉 ItemsAdder 该物品是一个生物动画。\
+这些实际上是你必须像这样创建的其他物品：
 
 ```yaml
   soul_walking:

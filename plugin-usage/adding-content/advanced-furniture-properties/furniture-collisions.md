@@ -2,11 +2,11 @@
 icon: cube
 ---
 
-# Furniture collisions
+# 家具碰撞
 
-### How can I make a furniture solid?
+### 如何使家具变得坚固？
 
-You can make a furniture solid adding the "solid" attribute and specifying a hitbox (if you want > 1x1x1)
+你可以通过添加 "solid" 属性并指定一个碰撞箱（如果你想要 > 1x1x1）来使家具变得坚固。
 
 ```yaml
   table:
@@ -34,23 +34,23 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
 
 ![](<../../../.gitbook/assets/image (15).png>)
 
-## Hitbox has wrong location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
+## 碰撞箱位置错误<a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
 {% hint style="warning" %}
-Sometimes you need to also specify an "offset" to fix the hitbox location.\
-This can happen if your furniture is 2x1x1 for example.
+有时你需要设置一个补偿来修正碰撞箱位置。\
+例如，你的家具大小为 2x1x1。
 {% endhint %}
 
-### Wrong hitbox location
+### 错误碰撞箱位置
 
 ![](../../../.gitbook/assets/htibox1.png)
 
-### Correct location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
+### 正确位置 <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
 ![](<../../../.gitbook/assets/hitbox2 (1).png>)
 
-I had to set a width `offset` of `0.5`.\
-You can also use negative values if needed.
+我将宽度**补偿**设置为了 **0.5**.\
+你也可以在必要时使用负向补偿。
 
 ```yaml
         hitbox:
@@ -60,10 +60,10 @@ You can also use negative values if needed.
           width_offset: 0.5
 ```
 
-## Preview the hitbox <a href="#show-the-hitbox" id="show-the-hitbox"></a>
+## 预览碰撞箱 <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
 {% hint style="info" %}
-You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
+你可以使用命令 `/iahitbox` 来查看你放置家具时的碰撞箱，这对于检测碰撞箱配置中的错误非常有用。
 {% endhint %}
 
 ![](<../../../.gitbook/assets/hitbox3 (1) (1) (1) (8).png>)
@@ -73,13 +73,13 @@ You can use the command `/iahitbox` to see the hitbox when you pleace a furnitur
 ![](../../../.gitbook/assets/image\_\(88\).png)
 
 {% hint style="warning" %}
-**Hitboxes limitations**
+**碰撞箱限制**
 
-**`item_frame` limitations (doesn't affect `armor_stand`)**
+**`item_frame` 限制(不影响 `armor_stand`)**
 
-**Furnitures** that use `entity: item_frame` **support only hitbox** with `width` and `length` of the **same value**.\
-Example: `width: 2`, `length: 2`, `height: 1`.
+使用 `entity: item_frame` 的**家具**仅支持宽度和长度相同的碰撞箱。\
+例如：`width: 2`, `length: 2`, `height: 1`。
 
 \
-If you want to have different `width` and `length` use `entity: item_display` or `armor_stand`.
+如果你想要不同的宽度和长度，请使用 `entity: item_display` 或 `armor_stand`。
 {% endhint %}

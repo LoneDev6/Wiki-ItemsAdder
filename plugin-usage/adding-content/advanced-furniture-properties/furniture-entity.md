@@ -2,11 +2,11 @@
 icon: list
 ---
 
-# Furniture entity
+# 家具实体
 
 ### `item_display`
 
-This type of furniture entity is useful for any type of furniture you want to create.
+这种类型的家具实体适用于你想要创建的任何类型的家具。
 
 ![](<../../../.gitbook/assets/image (47) (1) (1) (1) (2).png>)
 
@@ -29,12 +29,12 @@ behaviours:
     sit_height: 0.5
 ```
 
-#### Special properties
+#### 特殊属性
 
-`item_display` allows you to do some special adjustments to your furniture model using the `display_transformation` property.\
-You can resize it, rotate it and move it freely.\
-This feature uses the native `item_display` feature of **Minecraft**, you can [read more here](https://www.youtube.com/watch?v=bwPWfUbcZxE) and online.\
-You can also use [this tool](https://misode.github.io/transformation/) to preview your changes.
+`item_display` 允许你使用 `display_transformation` 属性对家具模型进行特殊调整。\
+你可以自由调整其大小、旋转与移动。\
+该功能使用 **Minecraft** 原生的 `item_display` 功能，你可以在此[阅读更多](https://www.youtube.com/watch?v=bwPWfUbcZxE)。\
+你也可以使用[这个工具](https://misode.github.io/transformation/)来预览更改。
 
 #### Example:
 
@@ -74,7 +74,7 @@ You can also use [this tool](https://misode.github.io/transformation/) to previe
 
 ### `armor_stand`
 
-This type of furniture entity is useful when you want to create chairs, plants, columns, lamps and similar environment decorations which don't need to rotate based on the surface on which you place them.
+这种类型的家具实体适用于你想要创建的椅子、植物、柱子、灯具和类似的环境装饰，这些装饰不需要根据放置的表面旋转。
 
 ![](<../../../.gitbook/assets/image (47) (1) (1) (1) (2).png>)
 
@@ -100,9 +100,9 @@ behaviours:
 
 ### `item_frame`
 
-This type of furniture entity is useful when you want to make the furniture rotate based on the surface on which you place it.
+这种类型的家具实体适用于你想要根据放置的表面来旋转家具的情况。
 
-For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.
+例如，如果你有一个灯，你可以使其可以放置在墙壁、天花板和地面上，并根据表面倾斜自动调整方向。
 
 ![](<../../../.gitbook/assets/image (43) (1) (1) (1) (1) (1).png>)
 

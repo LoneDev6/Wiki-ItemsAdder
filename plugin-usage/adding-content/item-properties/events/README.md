@@ -2,20 +2,20 @@
 icon: arrow-progress
 ---
 
-# Events
+# 事件
 
-## Use the official files editor to read all the properties
+## 使用官方文件编辑器查看所有属性
 
 {% content-ref url="../../../files-editor.md" %}
-[files-editor.md](../../../files-editor.md)
+[文件编辑器](../../../files-editor.md)
 {% endcontent-ref %}
 
-## What are events?
+## 什么是事件？
 
-Events describe the time when something happen.\
-You can make things happen ([actions](actions.md)) when an event is triggered (play sound, execute command etc.)
+事件描述了某事发生的时间。\
+当事件被触发时，你可以让事情发生（[动作](actions.md)）（播放声音、执行命令等）
 
-### List of events
+### 事件列表
 
 * block\_break
 * attack
@@ -70,10 +70,9 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 * bucket\_empty
 * bucket\_fill
 
-### EXAMPLE
+### 示例
 
-Why is it written like `interact (dot) right`? Below is a small example of how to correctly write it into your item config.
-
+为什么写成 `interact (.) right`？下面是一个如何正确写入你的物品配置的小例子。
 ```yaml
 ...
 events:
@@ -83,3 +82,4 @@ events:
       ...
 ...
 ```
+

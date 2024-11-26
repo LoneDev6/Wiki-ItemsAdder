@@ -2,37 +2,37 @@
 icon: comment-smile
 ---
 
-# Emojis
+# 表情符号
 
-### Introduction
+### 介绍
 
-For example I want to create an emoji pack named "myemojis", so my namespace would be `myemojis`
+例如，我想创建一个名为“myemojis”的表情符号包，所以我的命名空间将是 `myemojis`
 
-### Example configurations
+### 示例配置
 
 {% embed url="https://github.com/ItemsAdder/DefaultPack/tree/main/contents/twitteremojis" %}
 
-### Creating the textures folder
+### 创建纹理文件夹
 
-1. Open folder plugins\ItemsAdder\contents\\
-2. Create a folder named `myemojis`
-3. Create a folder named `textures`, then inside create a folder named `font` and then a folder named `emoji`
-4. Now you should have this path: `ItemsAdder/contents/myemojis/textures/font/emoji/`
-5. Inside this folder you have to put your emojis, you should make them 72x72 to make sure they're not too big and they're not pixelated. But you can decide the size you want (only important thing is that height and width is not over 256.
-6. In this example I put an image named **smile.png**
+1. 打开文件夹 plugins\ItemsAdder\contents\\
+2. 创建一个名为 `myemojis` 的文件夹
+3. 创建一个名为 `textures` 的文件夹，然后在里面创建一个名为 `font` 的文件夹，然后再创建一个名为 `emoji` 的文件夹
+4. 现在你应该有这个路径：`ItemsAdder/contents/myemojis/textures/font/emoji/`
+5. 将你的表情符号放在这个文件夹中，建议将它们设置为 72x72 以确保它们不会太大且不会像素化。但你可以决定你想要的大小（唯一重要的是高度和宽度不超过 256）。
+6. 在这个例子中，我放了一张名为 **smile.png** 的图片
 
-### Creating ItemsAdder config for your emojis
+### 为你的表情符号创建 ItemsAdder 配置
 
-1. Now you have to create the folders for your emoji configs. In this example you have to create a folder named **myemojis** inside `ItemsAdder/contents/myemojis/configs/`
-2. inside of the `configs` folder create a file named **emoji\_images.yml** (you can call it whatever you want)
-3. Now you have to open the .yml file and
+1. 现在你需要为你的表情符号配置创建文件夹。在这个例子中，你需要在 `ItemsAdder/contents/myemojis/configs/` 中创建一个名为 **myemojis** 的文件夹
+2. 在 `configs` 文件夹中创建一个名为 **emoji\_images.yml** 的文件（你可以随意命名）
+3. 现在你需要打开这个 .yml 文件并添加以下内容
 
 ```yaml
 info:
   namespace: "myemojis"
 ```
 
-Then add your emoji (in this example I made a **smile** emoji) to the list of font\_images, so your file would look like this:
+然后将你的表情符号（在这个例子中，我制作了一个 **smile** 表情符号）添加到 font\_images 列表中，所以你的文件看起来像这样：
 
 ```yaml
 info:
@@ -46,20 +46,20 @@ font_images:
     y_position: 8
 ```
 
-**`scale_ratio`** is the final height in pixels of the emoji because 72x72 pixels is too big, You'd have to scale it but you can set 9 so Minecraft will handle it automatically.\
-**`y_position`** is the y position in pixels, 8 should be good if you keep emoji 72x72 and `scale_ratio` to 9. If you have different size you'll have to tweak the y\_position based on your tests.
+**`scale_ratio`** 是表情符号的最终高度（以像素为单位），因为 72x72 像素太大了，你需要缩放它，但你可以设置为 9，这样 Minecraft 会自动处理它。\
+**`y_position`** 是 y 位置（以像素为单位），如果你将表情符号保持为 72x72 并将 `scale_ratio` 设置为 9，那么 8 应该是合适的。如果你有不同的大小，你需要根据测试调整 y\_position。
 
 {% hint style="danger" %}
-`scale_ratio` must ALWAYS be bigger than `y_position` or Minecraft won't like it. I cannot fix that issue, it's a **Minecraft** limitation.
+`scale_ratio` 必须**始终**大于 `y_position`，否则 Minecraft 不会喜欢它。我无法解决这个问题，这是 **Minecraft** 的限制。
 {% endhint %}
 
-## In-game view
+## 游戏内视图
 
 ![](<../../../.gitbook/assets/image\_(116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
-### Using the /e useful suggestions
+### 使用 /e 有用的建议
 
-Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
+在聊天中输入 `/e`，按 **空格** 并按 **TAB** 开始自动补全。
 
 ![](../../../.gitbook/assets/image\_\(112\).png)
 
@@ -67,8 +67,8 @@ Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
 
 ![](../../../.gitbook/assets/image\_\(113\).png)
 
-### Using the tab autocomplete in chat
+### 在聊天中使用 TAB 自动补全
 
-Write `:` in chat and press **TAB** to start autocompleting.
+在聊天中输入 `:` 并按 **TAB** 开始自动补全。
 
 <figure><img src="../../../.gitbook/assets/emoji_autocomplete_chat.png" alt=""><figcaption></figcaption></figure>

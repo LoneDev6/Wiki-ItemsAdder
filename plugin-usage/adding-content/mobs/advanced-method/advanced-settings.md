@@ -1,10 +1,10 @@
-# Advanced settings
+# 高级设置
 
 {% hint style="warning" %}
-This guide requires **ItemsAdder** 3.6.2+
+本指南需要 **ItemsAdder** 3.6.2+ 版本
 {% endhint %}
 
-In `config.yml` you can find some advanced settings about custom entities.
+在 `config.yml` 中，你可以找到一些关于自定义实体的高级设置。
 
 ```yaml
   custom-entitites:
@@ -20,25 +20,25 @@ In `config.yml` you can find some advanced settings about custom entities.
 
 ### `fast_packets_creation`
 
-Use the optimized packets code instead of **ProtocolLib**.
+使用优化的数据包代码代替 **ProtocolLib**。
 
 ### `bundle_packets`
 
-Use the new 1.19.4+ bundle packets. \
-Cuts down the amount of `rx` shown in the top left corner of the screen.\
-Some detailed benchmarks are done available [this page](../../../../compatibility-with-other-plugins/compatible/modelengine.md#network-traffic-comparison).
+使用新的 1.19.4+ 捆绑包。\
+减少显示在屏幕左上角的 `rx` 数量。\
+一些详细的基准测试可在[此页面](../../../../compatibility-with-other-plugins/compatible/modelengine.md#network-traffic-comparison)找到。
 
 <figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-This doesn't introduce any known performance gain on both the client and the server. \
-I am very sure that the bundle packets are useless but some people requested this feature so I implemented them.
+这不会对客户端和服务器的性能带来任何已知的提升。\
+我非常确定捆绑包是无用的，但有些人要求这个功能，所以我实现了它们。
 
-They actually increase the bandwidth usage due to the fact that 2 more packets are sent per-packet (bundle start and bundle end).\
-More info on the [protocol wiki](https://wiki.vg/Protocol#Bundle\_Delimiter).
+实际上，由于每个包发送时会多出两个包（捆绑开始和捆绑结束），它们增加了带宽使用量。\
+更多信息请参见[协议 wiki](https://wiki.vg/Protocol#Bundle\_Delimiter)。
 {% endhint %}
 
 ### `delay_packets`
 
-This option delays the sending of packets to lower down the CPU processing, but creates stuttering animations on some servers.\
-This is not something you should enable without knowing the side effects.
+此选项会延迟发送包以降低 CPU 处理，但会在某些服务器上产生卡顿的动画。\
+在不了解副作用的情况下，不应启用此选项。

@@ -1,9 +1,9 @@
-# Text formatting
+# 文本格式化
 
-ItemsAdder implements Minimessage support so you can easily customize your texts.
+ItemsAdder 实现了 Minimessage 支持，因此您可以轻松自定义文本。
 
 {% hint style="warning" %}
-This requires ItemsAdder 3.5.1 or greater and LoneLibs 1.0.26 or greater.
+这需要 ItemsAdder 3.5.1 或更高版本和 LoneLibs 1.0.26 或更高版本。
 {% endhint %}
 
 <div>
@@ -16,15 +16,15 @@ This requires ItemsAdder 3.5.1 or greater and LoneLibs 1.0.26 or greater.
 
 </div>
 
-## Online Minimessage text editor
+## 在线 Minimessage 文本编辑器
 
 {% embed url="https://webui.advntr.dev/" %}
 
-## Minimessage tutorials
+## Minimessage 教程
 
 {% embed url="https://docs.advntr.dev/minimessage/format.html" %}
 
-## Examples of text formatting using Minimessage
+## 使用 Minimessage 进行文本格式化的示例
 
 ```yml
 info:

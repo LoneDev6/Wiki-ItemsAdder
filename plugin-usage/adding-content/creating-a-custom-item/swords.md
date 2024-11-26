@@ -1,12 +1,12 @@
-# Swords
+# 剑
 
 {% hint style="danger" %}
-If you didn't create your namespace please follow the [namespace tutorial](../creating-your-namespace.md).
+如果你还没有创建命名空间，请按照[命名空间教程](../creating-your-namespace.md)进行操作。
 {% endhint %}
 
-## My first sword
+## 我的第一把剑
 
-This is an example sword \(remember to change myitems namespace to the one you want\)
+这是一个示例剑（记得将 myitems 命名空间更改为你想要的）
 
 ```yaml
 info:
@@ -25,7 +25,7 @@ items:
   
 ```
 
-### Setting the texture
+### 设置纹理
 
 {% page-ref page="../item-properties/resource/" %}
 

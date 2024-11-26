@@ -1,100 +1,100 @@
-# Creation
+# 创建
 
-## How to import the custom entity model and animations
+## 如何导入自定义实体模型和动画
 
-You can import your custom models very easily, you just have to install the Blockbench extension.
+你可以非常容易地导入自定义模型，只需安装 Blockbench 扩展。
 
-## Installing the Blockbench extension
+## 安装 Blockbench 扩展
 
 {% hint style="warning" %}
-**Before continuing:**
+**继续之前：**
 
-* Make sure you're running **Blockbench 4.1.5** or **greater**
-* Make sure you're running the latest ItemsAdder and latest ItemsAdder Blockbench extension
+* 确保你运行的是 **Blockbench 4.1.5** 或更高版本
+* 确保你运行的是最新的 ItemsAdder 和最新的 ItemsAdder Blockbench 扩展
 {% endhint %}
 
-[Download Blockbench](https://www.blockbench.net/) (don't use the web app).
+[下载 Blockbench](https://www.blockbench.net/)（不要使用网页版）。
 
 ![](<../../../../.gitbook/assets/image (98) (1).png>)
 
 \
-[Download the zip](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
+[下载 zip 文件](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
 
 ![](<../../../../.gitbook/assets/image (61).png>)
 
-Extract it somewhere, then open **Blockbench** and click on File -> Plugins.
+将其解压到某个地方，然后打开 **Blockbench** 并点击 文件 -> 插件。
 
 ![](<../../../../.gitbook/assets/image (48) (1) (1).png>)
 
-Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
+点击图标从文件加载插件，然后选择文件 `iaentitymodel.js`。
 
 ![](<../../../../.gitbook/assets/image (74) (1) (1).png>)
 
-Press OK
+按确定
 
 ![](<../../../../.gitbook/assets/image (71).png>)
 
-## Converting the model
+## 转换模型
 
 {% hint style="danger" %}
-Remember to make a <mark style="color:red;">**backup**</mark> of your `.bbmodel` file before using this tool!
+记得在使用此工具之前对你的 `.bbmodel` 文件进行<mark style="color:red;">**备份**</mark>！
 {% endhint %}
 
-Open your `.bbmodel` project with Blockbench, then click on File -> Convert Project
+用 Blockbench 打开你的 `.bbmodel` 项目，然后点击 File -> Convert Project
 
 ![](<../../../../.gitbook/assets/image (54).png>)
 
 ![](<../../../../.gitbook/assets/image (94) (1).png>)
 
-Select "**ItemsAdder Entity Model**" in the **Format** setting, then press **Confirm**.\
-Now save the new converted model file in a new folder where you will put only this file.
+在 **格式** 设置中选择 "**ItemsAdder 实体模型**"，然后按 **确认**。\
+现在将新转换的模型文件保存到一个新文件夹中，你将只放置这个文件。
 
-You will have something like that
+你将得到如下内容
 
 ![](<../../../../.gitbook/assets/image (60) (1) (1) (1).png>)
 
-### Configuring the model
+### 配置模型
 
-Now you can configure your model based on your preferences. The ItemsAdder extension automatically decided some settings for you but you might need to change them.\
-Click on the **ItemsAdder** tab and press **Settings**.
+现在你可以根据自己的喜好配置模型。ItemsAdder 扩展自动为你决定了一些设置，但你可能需要更改它们。\
+点击 **ItemsAdder** 选项卡并按 **设置**。
 
 ![](<../../../../.gitbook/assets/image (57).png>)
 
-Here you have to decide a namespace for your custom entities.\
-The default one is `custom`, but you should decide your own, for example `my_entities`, `hell_mobs`, `npcs`...
+在这里你需要为你的自定义实体决定一个命名空间。\
+默认的是 `custom`，但你应该决定自己的，例如 `my_entities`，`hell_mobs`，`npcs`...
 
 ![](<../../../../.gitbook/assets/image (99) (1) (1).png>)
 
-The other thing you might need to change is the "**Model Scaling Mode**":
+你可能需要更改的另一件事是 "**模型缩放模式**"：
 
-* Max Model size provides 7x7x7 block wide models but limits scaling to shrinking only.
-* Max Scaling range provides shrinking and growing up to 3.125x in size, but limits the maximum model size to 3x3x3 blocks
+* 最大模型尺寸提供 7x7x7 方块宽的模型，但限制缩放只能缩小。
+* 最大缩放范围提供缩小和放大至 3.125 倍的尺寸，但限制最大模型尺寸为 3x3x3 方块
 
-Change "**Max Model Size**" only if you have animated the size of some bones.
+仅在你动画化了一些骨骼的尺寸时更改 "**最大模型尺寸**"。
 
 ![](<../../../../.gitbook/assets/image (66).png>)
 
-### Export the model
+### 导出模型
 
-Click on the **ItemsAdder** tab and press **Export**.
+点击 **ItemsAdder** 选项卡并按 **Export**。
 
 ![](<../../../../.gitbook/assets/image (56).png>)
 
-You should get a success message.
+你应该会收到成功消息。
 
 ![](<../../../../.gitbook/assets/image (81) (1).png>)
 
-Now open the folder where you have your model and copy/cut the new generated folder `assets`.
+现在打开你有模型的文件夹并复制/剪切新生成的文件夹 `assets`。
 
 ![](<../../../../.gitbook/assets/image (83).png>)
 
-Now create a new folder inside `ItemsAdder/contents/`, it's your namespace folder. For example mine is `custom`, so the path is `ItemsAdder/contents/custom/`.
+现在在 `ItemsAdder/contents/` 中创建一个新文件夹，这是你的命名空间文件夹。例如我的命名空间是 `custom`，所以路径是 `ItemsAdder/contents/custom/`。
 
-Paste the `assets` folder inside the ItemsAdder folder `ItemsAdder/contents/custom/resourcepack/`.
+将 `assets` 文件夹粘贴到 ItemsAdder 文件夹 `ItemsAdder/contents/custom/resourcepack/` 中。
 
-### Creating the ingame entity configuration
+### 创建游戏内实体配置
 
-Create a new `.yml` configuration file inside `ItemsAdder/contents/custom/configs/` and call it as you prefer, in this example I use one file per-entity, to keep things organized.
+在 `ItemsAdder/contents/custom/configs/` 中创建一个新的 `.yml` 配置文件，并根据你的喜好命名它，在这个例子中我为每个实体使用一个文件，以保持组织有序。
 
 {% code title="barman_robot.yml" %}
 ```yaml
@@ -115,15 +115,15 @@ entities:
 ```
 {% endcode %}
 
-In this example my custom entity will use a ZOMBIE as base entity for its AI.\
-You can use any living entity as base entity, depending on your needs.
+在这个例子中，我的自定义实体将使用 ZOMBIE 作为其 AI 的基础实体。\
+你可以根据需要使用任何生物实体作为基础实体。
 
-### Summoning the entity
+### 召唤实体
 
-Use the summon command: `/iaentity summon <entity>`
+使用召唤命令：`/iaentity summon <entity>`
 
-## Notes
+## 注意事项
 
 {% hint style="info" %}
-Do not create too many bones, keep the model simple, remember this is a blocky pixelated game, use [its style](broken-reference).
+不要创建太多骨骼，保持模型简单，记住这是一个方块像素游戏，使用[它的风格](broken-reference)。
 {% endhint %}

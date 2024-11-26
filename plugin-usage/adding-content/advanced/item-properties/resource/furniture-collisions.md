@@ -1,8 +1,8 @@
-# Furniture collisions
+# 家具碰撞
 
-### How can I make a furniture solid?
+### 我如何把家具做的结实一点？
 
-You can make a furniture solid adding the "solid" attribute.
+你可以通过添加 `solid` 属性来使家具无法穿过。
 
 ```yaml
   table:

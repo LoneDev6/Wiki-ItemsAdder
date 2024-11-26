@@ -2,13 +2,13 @@
 icon: ban
 ---
 
-# Enable/Disable custom blocks in worlds
+# 在世界中启用/禁用自定义方块
 
-You can disable custom blocks in some worlds, this will stop the plugin from generating custom region files.
+你可以在某些世界中禁用自定义方块，这将阻止插件生成自定义区域文件。
 
-By default the custom blocks are enabled in all worlds.
+默认情况下，自定义方块在所有世界中启用。
 
-## All Rules
+## 所有规则
 
 {% code title="config.yml" %}
 ```yaml
@@ -21,9 +21,9 @@ blocks:
 ```
 {% endcode %}
 
-## Examples
+## 示例
 
-### Enable in all worlds
+### 在所有世界中启用
 
 {% code title="config.yml" %}
 ```yaml
@@ -33,7 +33,7 @@ blocks:
 ```
 {% endcode %}
 
-### Enable in all worlds but not in nether world
+### 在所有世界中启用但不在地狱世界中启用
 
 {% code title="config.yml" %}
 ```yaml

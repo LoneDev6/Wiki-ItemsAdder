@@ -4,20 +4,20 @@ icon: crosshairs-simple
 
 # HUDs
 
-In order to create custom HUDs you have 2 examples provided in ItemsAdder and they make use of every feature available.
+为了创建自定义 HUDs，ItemsAdder 中提供了两个示例，它们使用了所有可用的功能。
 
-These two HUDs are the mana bar and the thirst bar.\
-You can find them in the **realcraft** and in the **magiccraft** namespaces.
+这两个 HUD 分别是魔法值条和口渴值条。\
+你可以在**realcraft**和**magiccraft**命名空间中找到它们。
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-## Disable/enable huds in worlds
+## 在世界中禁用/启用 HUDs
 
-You can easily disable/enable huds in some worlds, here some examples:
+你可以轻松地在某些世界中禁用/启用 HUDs，以下是一些示例：
 
-### Enable in all worlds
+### 在所有世界中启用
 
-To enable them in all worlds you just have to avoid entering any world in the list, don't write the property at all.
+要在所有世界中启用它们，只需避免在列表中输入任何世界，不要写入该属性。
 
 ```yaml
 huds:
@@ -25,7 +25,7 @@ huds:
     enabled: true
 ```
 
-### Enable in all worlds but not in `world_the_end`
+### 在所有世界中启用，但不在 `world_the_end` 中启用
 
 ```yaml
 huds:
@@ -35,9 +35,9 @@ huds:
     - "!world_the_end"
 ```
 
-Notice the `!` in front of the world name. (It's very important to use the `" "` characters or plugin won't work (`.yml` bug).
+注意世界名称前的`!`。 (由于 `.yml` 问题，使用`" "`字符非常重要，否则插件将无法工作 )
 
-### Enable in all worlds of name which starts with `world_` or `adventure`
+### 在名称以 `world_` 或 `adventure` 开头的所有世界中启用
 
 ```yaml
 huds:
@@ -48,16 +48,16 @@ huds:
     - "adventure*
 ```
 
-Notice the `*` at the end, this means "_**any**_". (keep in mind that this works only at the end of the name)
+注意末尾的`*`，这意味着“_**任何**_”。 (请记住，这仅在名称末尾有效)
 
-## Special setting (expert users only)
+## 特殊设置（仅限专业用户）
 
-In  `config.yml` there is a special setting related to HUDs.\
-This setting allows you to recolor all HUDs to a specific color.\
-This is useful if you have a custom shader which interacts with texts which have a specific color.
+在`config.yml`中有一个与 HUDs 相关的特殊设置。\
+此设置允许你将所有 HUDs 重新着色为特定颜色。\
+如果你有一个与具有特定颜色的文本交互的自定义着色器，这将非常有用。
 
 {% hint style="warning" %}
-Requires Spigot 1.17+ and ItemsAdder 3.5.1+
+需要 Spigot 1.17+ 和 ItemsAdder 3.5.1+
 {% endhint %}
 
 {% code title="config.yml" %}
@@ -70,5 +70,5 @@ huds:
 ```
 {% endcode %}
 
-More info [here](https://github.com/PluginBugs/Issues-ItemsAdder/issues/2931).\
-Color picker [here](https://g.co/kgs/Pvq3jj).
+更多信息[在这里](https://github.com/PluginBugs/Issues-ItemsAdder/issues/2931)。\
+颜色选择器[在这里](https://g.co/kgs/Pvq3jj)。

@@ -2,20 +2,20 @@
 icon: file-png
 ---
 
-# Block 2D icon
+# 2D 方块图标
 
 {% hint style="warning" %}
-This feature requires **ItemsAdder 3.1.6+**
+此功能需要 **ItemsAdder 3.1.6+**
 {% endhint %}
 
 {% embed url="https://youtu.be/FOLoAAjV_oI" %}
 
-### Step 1
+### 步骤 1
 
-Create the 2D icon for the block
+为方块创建 2D 图标
 
 {% hint style="info" %}
-Replace `myitems` with your [namespace](../configs-and-resourcepack.md#what-is-a-namespace)!
+将 `myitems` 替换为你的[命名空间](../configs-and-resourcepack.md#what-is-a-namespace)!
 {% endhint %}
 
 ```yaml
@@ -46,11 +46,11 @@ items:
             decrement_amount: true
 ```
 
-Now create the `rocks.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item`
+在文件夹 `contents\myitems\resourcepack\myitems\textures\item` 中创建 `rocks.png` 文件
 
-### Step 2
+### 步骤 2
 
-Create the item which shows the placed rock model. It is a different item form the one you see in the inventory (the one created in the **step 1**).
+创建用于显示被放置的岩石模型的物品。这与我们在背包中看到的物品(**步骤 1** 创建的物品)不同。
 
 ```yaml
 info:
@@ -100,8 +100,8 @@ items:
             decrement_amount: true
 ```
 
-Now create the `placed_rocks.json` file inside the folder `contents\myitems\resourcepack\myitems\models\block\`
+现在在 `contents\myitems\resourcepack\myitems\models\block\` 中创建 `placed_rocks.json`
 
-### Done!
+### 完成
 
-Now try to right click with the `rocks` item and you will see it places the `rocks_placed` model.
+现在尝试右键放置 `rocks`，你应该能够看到 `rocks_placed` 模型。

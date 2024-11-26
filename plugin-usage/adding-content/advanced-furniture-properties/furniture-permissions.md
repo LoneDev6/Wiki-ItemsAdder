@@ -2,11 +2,11 @@
 icon: user-police
 ---
 
-# Furniture permissions
+# 家具权限
 
-This property allows you to enable permissions for the furniture place and furniture break events.\
-This setting is not specified by default because we want players to be able to break and place furniture freely.\
-Players would need explicit permissions if you specify these properties:
+此属性允许您为家具放置和家具破坏事件启用权限。\
+默认情况下未指定此设置，因为我们希望玩家能够自由地破坏和放置家具。\
+如果您指定这些属性，玩家将需要明确的权限：
 
 * `ia.user.furniture.break.iasurvival.my_furniture`
 * `ia.user.furniture.place.iasurvival.my_furniture`

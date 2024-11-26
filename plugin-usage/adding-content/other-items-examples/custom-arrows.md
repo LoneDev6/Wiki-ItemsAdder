@@ -1,6 +1,6 @@
-# Custom Arrows
+# 自定义箭
 
-## Some examples
+## 一些示例
 
 ```yaml
 items:

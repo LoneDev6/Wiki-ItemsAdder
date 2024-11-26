@@ -1,32 +1,30 @@
-# Hitbox
+# 碰撞箱
 
-## Setup
+## 设置
 
-### Configure the head bone
+### 配置头骨
 
-Open your `.iaentitymodel` model file with **Blockbench**.\
-Create a new bone, it can have any name.
+用 **Blockbench** 打开你的 `.iaentitymodel` 模型文件。\
+创建一个新骨骼，可以任意命名。
 
 ![](<../../../../.gitbook/assets/image (86).png>)
 
-Resize your hitbox.
-
-
+调整你的碰撞箱大小。
 
 ![](<../../../../.gitbook/assets/image (90).png>)
 
 ![](<../../../../.gitbook/assets/image (52) (1).png>)
 
 {% hint style="warning" %}
-* XYZ position doesn't matter.
-* Only XY size matters, Z does not. This is a Minecraft limitation, it's how hitboxes work in the game.
+* XYZ 位置无关紧要。
+* 只有 XY 尺寸重要，Z 尺寸不重要。这是 Minecraft 的限制，是游戏中碰撞箱的工作方式。
 {% endhint %}
 
-Rightclick on the bone and select "**Bone Config**"
+右键点击骨骼并选择“**Bone Config**”
 
 ![](<../../../../.gitbook/assets/image (62) (1) (1).png>)
 
-Check the "**Hitbox**" option and press "**Confirm**".
+勾选“**Hitbox**”选项并按“**Confirm**”。
 
 ![](<../../../../.gitbook/assets/image (49) (1).png>)
 

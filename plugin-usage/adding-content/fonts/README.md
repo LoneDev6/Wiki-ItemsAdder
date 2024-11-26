@@ -2,5 +2,5 @@
 icon: font
 ---
 
-# Fonts
+# 字体
 

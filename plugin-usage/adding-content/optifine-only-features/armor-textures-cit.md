@@ -1,73 +1,73 @@
 ---
-description: Manually creating Optifine custom armors textures
+description: 手动创建 Optifine 自定义盔甲纹理
 ---
 
-# Armor textures CIT
+# 盔甲纹理 CIT
 
 {% hint style="danger" %}
-**Optifine** is **not officially supported** by **ItemsAdder**, but if you want to get more customization you can read these tutorials.
+**Optifine** 并未被 **ItemsAdder** 官方支持，但如果你想要更多的自定义选项，可以阅读这些教程。
 
-#### Please don't ask support about Optifine features. Thanks!
+#### 请不要就 Optifine 功能寻求支持。谢谢！
 {% endhint %}
 
-## Custom textured armors on 1.16 and lower
+## 1.16 及以下版本的自定义纹理盔甲
 
-If you want to add a custom texture and not just a custom color to armors you can use **Optifine**.
+如果你想为盔甲添加自定义纹理而不仅仅是自定义颜色，你可以使用 **Optifine**。
 
 {% hint style="info" %}
-This is an old method for clients with version 1.16 and lower.\
-The [new method for 1.17+](../textured-armor.md) don't need **Optifine** for this.
+这是一个适用于 1.16 及以下版本客户端的旧方法。\
+[1.17+ 的新方法](../textured-armor.md)不需要 **Optifine**。
 {% endhint %}
 
-## Custom textured armor
+## 自定义纹理盔甲
 
-### Download the [example addon here](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
+### 下载[示例插件](https://www.spigotmc.org/resources/optifine-example-custom-textured-armor-itemsadder-addon.87846/)
 
 ![](<../../../.gitbook/assets/image (22).png>)
 
 ![](<../../../.gitbook/assets/image (23).png>)
 
-### Step 1
+### 第一步
 
-Create your **custom namespace** (if you didn't already), follow[ this tutorial](broken-reference/).\
-In this tutorial **my namespace** is named `mystuff`
+创建你的**自定义命名空间**（如果尚未创建），请按照[本教程](broken-reference/)操作。\
+在本教程中，**我的命名空间**名为 `mystuff`
 
-### Step 2
+### 第二步
 
-Create **custom textures** for the **inventory items**. I put them in the folder: `contents/mystuff/resourcepack/mystuff/textures/item/example_1`
+为**物品栏物品**创建**自定义纹理**。我将它们放在文件夹：`contents/mystuff/resourcepack/mystuff/textures/item/example_1` 中
 
 <figure><img src="../../../.gitbook/assets/old_optifine_armor_preview_1.png" alt=""><figcaption></figcaption></figure>
 
-### Step 3
+### 第三步
 
-Create **custom textures** for **on-body armor**. You can get an example here:
+为**穿戴中的盔甲**创建**自定义纹理**。你可以在这里获取示例：
 
 {% file src="../../../.gitbook/assets/layers_example.zip" %}
 
-**Edit** the **textures** as you wish (use Paint.NET, Photoshop, GIMP or similar programs) and **save** them as `layer_1.png` and `layer_2.png`
+**编辑**纹理（使用 Paint.NET、Photoshop、GIMP 或类似程序）并**保存**为 `layer_1.png` 和 `layer_2.png`
 
-### Step 4
+### 第四步
 
-Create the `optifine` folder, this is where we want to put out **custom textures** for the **worn armor**: `contents/mystuff/resourcepack/minecraft/optifine/`
+创建 `optifine` 文件夹，这是我们放置**穿戴中的盔甲**自定义纹理的地方：`contents/mystuff/resourcepack/minecraft/optifine/`
 
 {% hint style="warning" %}
-You **must create** it under the folder `minecraft`, sadly you **cannot** create the `optifine` folder inside your **namespace** folder (in this case `mystuff`).\
-It's an **Optifine limitation**.
+你**必须在** `minecraft` 文件夹下创建它，遗憾的是你**不能**在你的**命名空间**文件夹（在本例中为 `mystuff`）中创建 `optifine` 文件夹。\
+这是 **Optifine 的限制**。
 {% endhint %}
 
-### Step 5
+### 第五步
 
-Now save the **previously created on-body** textures (`layer_1.png` and `layer_2.png` ) inside this folder: `contents/mystuff/resourcepack/minecraft/optifine/cit/mystuff/armors/example_1/entity/`
+现在将**之前创建的穿戴中的盔甲**纹理（`layer_1.png` 和 `layer_2.png`）保存到此文件夹：`contents/mystuff/resourcepack/minecraft/optifine/cit/mystuff/armors/example_1/entity/`
 
-So you have this:
+所以你会有这样的结构：
 
 <figure><img src="../../../.gitbook/assets/old_optifine_armor_path_1.png" alt=""><figcaption></figcaption></figure>
 
-### Step 6
+### 第六步
 
-**Create** these files: `boots.properties`, `chestplate.properties`, `helmet.properties`, `leggings.properties` inside `contents/mystuff/resourcepack/minecraft/optifine/cit/mystuff/armors/example_1/entity/`
+**创建**这些文件：`boots.properties`、`chestplate.properties`、`helmet.properties`、`leggings.properties`，并放在 `contents/mystuff/resourcepack/minecraft/optifine/cit/mystuff/armors/example_1/entity/` 中
 
-Each of the files must contain this:
+每个文件必须包含以下内容：
 
 ```elixir
 nbt.itemsadder.namespace=mystuff
@@ -79,19 +79,19 @@ texture.diamond_layer_1=layer_1
 texture.diamond_layer_2=layer_2
 ```
 
-For each of the `.properties` files you have to **change** the **1th** line setting **your namespace** instead of "mystuff", the **2nd line** to your **item id** and the **5th line** to the **item type** (`diamond_leggings` , `diamond_boots` ....)
+对于每个 `.properties` 文件，你需要**更改第一行**，设置为**你的命名空间**而不是 "mystuff"，**第二行**设置为你的**物品 id**，**第五行**设置为**物品类型**（`diamond_leggings`、`diamond_boots` 等）
 
-Now you should have this:
+现在你应该有这样的结构：
 
 <figure><img src="../../../.gitbook/assets/old_optifine_armor_path_2.png" alt=""><figcaption></figcaption></figure>
 
-### Step 7
+### 第七步
 
-**Create** a **file** to contain this custom armor, to better organize it. Name it **example\_1.yml** and **place it** inside your namespace, in this example: `contents/mystuff/configs/example_1.yml`
+**创建**一个**文件**来包含这个自定义盔甲，以便更好地组织它。将其命名为 **example\_1.yml** 并**放置在**你的命名空间中，在本例中为：`contents/mystuff/configs/example_1.yml`
 
-### Step 8
+### 第八步
 
-**Add content** to the `.yml` file. As you can see I decided to base my items on the Minecraft DIAMOND armor and I didn't specify any color because I don't need to color it, Optifine will apply a texture to it.
+**添加内容**到 `.yml` 文件中。如你所见，我决定基于 Minecraft 的钻石盔甲，并且我没有指定任何颜色，因为我不需要为其着色，Optifine 会为其应用纹理。
 
 ```yaml
 info:
@@ -167,13 +167,13 @@ items:
         armorToughness: 1
 ```
 
-## Done!
+## 完成！
 
-## Notes:
+## 注意事项：
 
 {% hint style="warning" %}
-If you will **create another namespace** which contains **other armors** it's **highly advised** to **maintain** the **same structure** as I did in the tutorial to **avoid mistakes**.
+如果你**创建了另一个包含其他盔甲的命名空间**，强烈建议**保持**与本教程中相同的**结构**以**避免错误**。
 
 \
-For example if you create a new namespace named `space_armors` you will have this **Optifine** folder: `contents/mystuff/resourcepack/minecraft/optifine/cit/space_armors/armors`
+例如，如果你创建了一个名为 `space_armors` 的新命名空间，你将拥有这样的 **Optifine** 文件夹：`contents/mystuff/resourcepack/minecraft/optifine/cit/space_armors/armors`
 {% endhint %}

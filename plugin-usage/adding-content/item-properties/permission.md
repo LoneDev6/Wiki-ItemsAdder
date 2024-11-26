@@ -1,6 +1,6 @@
-# Permission
+# 权限
 
-### Example item permission
+### 示例物品权限
 
 ```yaml
   my_armor_simple_helmet:
@@ -20,23 +20,23 @@
         armorToughness: 1
 ```
 
-## How to make the item visible in the `/ia` gui
+## 如何让物品在 `/ia` 界面显示
 
-To allow your players to **see** this item in `/ia` GUI you have to give them permission: `ia.user.ia.seeitem.my_armor_simple`
+要让你的玩家能够在 `/ia` 界面看到这个物品，你需要给玩家 `ia.user.ia.seeitem.my_armor_simple` 权限。
 
 {% hint style="info" %}
-Remember to give them permission `ia.user.ia` to let them use `/ia` command
+记住给玩家 `ia.user.ia` 权限，以让玩家能够使用 `/ia` 指令。
 {% endhint %}
 
 {% hint style="warning" %}
-Remember to create a [category ](../../ia.md)for the `/ia` GUI.
+记住为 `/ia` 界面创建一个[目录](../../ia.md)。
 {% endhint %}
 
-## Recipes permissions
+## 配方权限
 
-### Example
+### 示例
 
-**Permission**: `ia.user.recipe.iasurvival.cooked_sausage`
+**权限**: `ia.user.recipe.iasurvival.cooked_sausage`
 
 ```yaml
 info:
@@ -57,8 +57,8 @@ recipes:
         amount: 1
 ```
 
-## Read more about permissions
+## 查看更多权限
 
 {% content-ref url="../../permissions.md" %}
-[permissions.md](../../permissions.md)
+[权限](../../permissions.md)
 {% endcontent-ref %}

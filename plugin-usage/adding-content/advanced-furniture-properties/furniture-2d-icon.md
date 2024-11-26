@@ -2,20 +2,20 @@
 icon: file-png
 ---
 
-# Furniture 2D icon
+# 2D 家具图标
 
 {% hint style="warning" %}
-This feature requires **ItemsAdder 3.1.6+**
+此功能需要 **ItemsAdder 3.1.6+**
 {% endhint %}
 
 {% embed url="https://youtu.be/FOLoAAjV_oI" %}
 
-### Step 1
+### 步骤 1
 
-Create the 2D icon for the furniture
+为家具创建 2D 图标
 
 {% hint style="info" %}
-Replace `myitems` with your own [namespace](../configs-and-resourcepack.md#what-is-a-namespace).
+将 `myitems` 替换为你自己的[命名空间](../configs-and-resourcepack.md#what-is-a-namespace)。
 {% endhint %}
 
 ```yaml
@@ -42,11 +42,11 @@ items:
             decrement_amount: true
 ```
 
-Now create the `2d_furniture.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item\`
+现在在文件夹 `contents\myitems\resourcepack\myitems\textures\item\` 中创建 `2d_furniture.png` 文件
 
-### Step 2
+### 步骤 2
 
-Create the item which shows the placed furniture model. It is a different item form the one you see in the inventory (the one created in the **step 1**).
+创建显示已放置家具模型的物品。它是与您在背包中看到的物品（在**步骤 1** 中创建的物品）不同的物品。
 
 ```yaml
 info:
@@ -94,8 +94,8 @@ items:
             decrement_amount: true
 ```
 
-Now create the `furniture.json` file inside the folder `dcontents\myitems\resourcepack\myitems\models\decoration\`
+现在在文件夹 `dcontents\myitems\resourcepack\myitems\models\decoration\` 中创建 `furniture.json` 文件
 
-### Done!
+### 完成！
 
-Now try to right click with the `2d_furniture` item and you will see it places the `furniture` model.
+现在尝试右键单击 `2d_furniture` 项目，您会看到它放置了 `furniture` 模型。

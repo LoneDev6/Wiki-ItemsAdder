@@ -1,16 +1,16 @@
 ---
-description: Tutorial on how to create a FRAMES HUD
+description: 创建 FRAMES HUD 的教程
 ---
 
-# Frames HUD
+# FRAMS HUD
 
-## How to create your first HUD (type FRAMES)
+## 如何创建你的第一个 HUD（类型：FRAMES）
 
-FRAMES HUDs allows you to create HUDs which have a different texture for each of its possible values.
+FRAMS HUD 允许你为每个可能的值创建一个不同纹理。
 
-### Creating the configuration file
+### 创建配置文件
 
-The first step is to create a configuration file in your [namespace](broken-reference) folder. In this example I'll create a file called `hud.yml`.
+第一步是在你的[命名空间](broken-reference)文件夹中创建一个配置文件。在这个例子中，我将创建一个名为`hud.yml`的文件。
 
 {% code title="hud.yml" %}
 ```yaml
@@ -40,27 +40,27 @@ huds:
 ```
 {% endcode %}
 
-As you can see I created a configuration file with some settings for the new HUD.
+正如你所看到的，我创建了一个配置文件，其中包含一些新 HUD 的设置。
 
-`type: FRAMES` is used to create a HUD which has different texture, one for each value it can have.
+`type: FRAMES` 用于创建一个 HUD，每个可能的值都有不同的纹理。
 
-`x_position_pixels: 120` is used to make the HUD positioned 120 pixels on the right (starting from the center of the screen).
+`x_position_pixels: 120` 用于使 HUD 在屏幕中心右侧 120 像素处定位。
 
-`value` attribute is used to decide how many values the HUD can have, in this case from 0 to 5, and the start value is 0.
+`value` 属性用于决定 HUD 可以有多少个值，在这个例子中是从 0 到 5，起始值是 0。
 
-`player_stat_name` is an attribute which attaches the HUD to a custom player attribute which will contain the HUD value between server restarts, it's a custom attribute not a vanilla attribute, name it as you wish.
+`player_stat_name` 是一个属性，它将 HUD 附加到一个自定义玩家属性，该属性将在服务器重启之间包含 HUD 值，这是一个自定义属性，而不是一个原生属性，可以随意命名。
 
-`images frames` is the list of [font\_images](../../font-images/) textures, one for each value the HUD can have.
+`images frames` 是[font\_images](../../font-images/)纹理的列表，每个可能的 HUD 值都有一个纹理。
 
 {% hint style="warning" %}
-Important: make sure each possible value of your HUD has a valid texture. In this case values are from 0 to 5 so I have 6 images, one for each value of the HUD.
+重要提示：确保你的 HUD 的每个可能值都有一个有效的纹理。在这个例子中，值是从 0 到 5，所以我有 6 个图像，每个 HUD 值一个。
 {% endhint %}
 
-### Creating the images
+### 创建图像
 
-Create a new yml file and add this code inside, it's used to let ItemsAdder know where your HUD images are and how to show them on the screen.
+创建一个新的 yml 文件，并在其中添加此代码，用于让 ItemsAdder 知道你的 HUD 图像的位置以及如何在屏幕上显示它们。
 
-As you can see they have the same names as previously declared in the `hud.yml` file.
+正如你所看到的，它们的名称与之前在 `hud.yml` 文件中声明的名称相同。
 
 {% code title="hud_images.yml" %}
 ```yaml
@@ -94,36 +94,36 @@ font_images:
 ```
 {% endcode %}
 
-Now you have to create one image file for each of the ones we have specified in the previous file.
+现在你需要为我们在前一个文件中指定的每个图像创建一个图像文件。
 
-Create them in this path (as set in the configuration) `contents\myitems\resourcepack\myitems\textures\example_hud\`
+在此路径中创建它们（如配置中所设置的）`contents\myitems\resourcepack\myitems\textures\example_hud\`
 
 ![](<../../../../.gitbook/assets/image (50) (1) (1) (1) (1).png>)
 
-Done!
+完成！
 
-### See the HUD in action
+### 查看 HUD 的效果
 
-To see the HUD in action you just have to run `/iazip` (and follow the [hosting tutorial](../../../resourcepack-hosting/) if needed) to start seeing the new HUD ingame.
+要查看 HUD 的效果，你只需运行 `/iazip`（如果需要，请按照[托管教程](../../../resourcepack-hosting/)）以开始在游戏中查看新的 HUD。
 
 ![](<../../../../.gitbook/assets/image (47) (1) (1).png>)
 
-Now try to write this command (change `LoneDev` to your player name) to change the HUD value: `/iaplayerstat write LoneDev example_stat float 2`
+现在尝试编写此命令（将 `LoneDev` 更改为你的玩家名称）以更改 HUD 值：`/iaplayerstat write LoneDev example_stat float 2`
 
 ![](<../../../../.gitbook/assets/image (40) (1).png>)
 
-As you can see the HUD value changed to 2! Very good!
+正如你所看到的，HUD 值已更改为 2！非常好！
 
-### Make the HUD value automatically change during time
+### 使 HUD 值随时间自动变化
 
-To make the HUD automatically increase during time you can just use [the triggers](../trigger-value-change.md).
+要使 HUD 值随时间自动增加，你可以使用[触发器](../trigger-value-change.md)。
 
-### Make the HUD value change
+### 使 HUD 值变化
 
-To make the HUD value change you can just use the previous `write` command anywhere, in items events, in other plugins, everywhere.
+要使 HUD 值变化，你可以在任何地方使用前面的 `write` 命令，在物品事件中，在其他插件中，随处可用。
 
-## Read HUD values with PAPI placeholders
+## 使用 PAPI 占位符读取 HUD 值
 
 {% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+[损坏的链接](broken-reference)
 {% endcontent-ref %}

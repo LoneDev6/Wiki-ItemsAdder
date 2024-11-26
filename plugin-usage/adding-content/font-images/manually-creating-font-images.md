@@ -2,19 +2,19 @@
 icon: head-side-gear
 ---
 
-# Manually creating font images
+# 手动创建字体图像
 
 {% hint style="warning" %}
-This is a tutorial for advanced users.
+这是一个面向高级用户的教程。
 {% endhint %}
 
-## How to create font images manually without ItemsAdder
+## 如何在没有 ItemsAdder 的情况下手动创建字体图像
 
-Some servers may require font images to be created manually for various reasons, for example:
+由于各种原因，一些服务器可能需要手动创建字体图像，例如：
 
-* you don't want ItemsAdder to manage the fonts
-* you want to use a custom namespace and custom font name for some custom characters
-* you want to manage them on your own
+* 你不希望 ItemsAdder 管理字体
+* 你想为一些自定义字符使用自定义命名空间和自定义字体名称
+* 你想自己管理它们
 
 ## Creating a custom character
 
@@ -30,7 +30,7 @@ Some servers may require font images to be created manually for various reasons,
 }
 ```
 
-Create or edit the file `assets/minecraft/font/default.json` in your resourcepack.
+创建或编辑资源包里的 `assets/minecraft/font/default.json` 文件。
 
 {% code title="default.json" %}
 ```json
@@ -50,7 +50,7 @@ Create or edit the file `assets/minecraft/font/default.json` in your resourcepac
 ```
 {% endcode %}
 
-&#x20;If you have more entries you have to add a `,` after the previous entry, for example:
+如果你设置了多个字体图像，你需要在每一部分内容后添加 `,`，例如：
 
 ```json
 {
@@ -77,27 +77,27 @@ Create or edit the file `assets/minecraft/font/default.json` in your resourcepac
 }
 ```
 
-## Using a customized json file name
+## 使用自定义 json 文件名
 
-By using a customized json font file you can separate the default font characters from your custom characters.
+通过使用自定义的 json 字体文件，你可以将默认字体字符与自定义字符分开。
 
-To do so you just have to create a new json and call it whatever you want, for example `my_font.json`.\
-The complete path will be: `assets/minecraft/font/my_font.json`.
+为此，你只需创建一个新的 json 文件并随意命名，例如 `my_font.json`。
+完整路径将是：`assets/minecraft/font/my_font.json`。
 
-## Using a customized json namespace
+## 使用自定义 json 命名空间
 
-If you want to further organize your pack you can use a customized namespace for your font file.\
-To do so you have to create a folder inside `assets` folder and use it instead of `minecraft` folder.\
-The complete path will be (for example): `assets/your_namespace/font/my_font.json`.
+如果你想进一步组织你的资源包，你可以为你的字体文件使用自定义命名空间。\
+为此，你必须在 `assets` 文件夹内创建一个文件夹，并使用它代替 `minecraft` 文件夹。\
+完整路径将是（示例）：`assets/your_namespace/font/my_font.json`。
 
-### Showing the customized namespace/font name in-game
+### 在游戏中显示自定义命名空间/字体
 
-If you customized the font namespace and/or the font name you have to use a special syntax to show your images in-game.
+如果你自定义了字体命名空间和/或字体名称，你必须使用特殊语法在游戏中显示你的图像。
 
-Example if you set both custom namespace and custom font name:
+如果你同时设置了自定义命名空间和自定义字体名称：
 
 `/tellraw @a [{"text":"Test message!","font":"your_namespace:my_font"}]`
 
-Example if you set only custom font name:
+如果你只设置了自定义字体名称：
 
 `/tellraw @a [{"text":"Test message!","font":"my_font"}]`

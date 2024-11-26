@@ -1,10 +1,10 @@
-# Using MythicMobs
+# 使用 MythicMobs
 
-## How to make MythicMobs handle my custom mob
+## 如何让 MythicMobs 处理我的自定义生物
 
-If you want to make **MythicMobs** handle your custom mob to have more advanced features and control it's really easy!
+如果你想让 **MythicMobs** 处理你的自定义生物以获得更高级的功能和控制，这真的很容易！
 
-For example I have this MythicMobs configuration:
+例如，我有以下 MythicMobs 配置：
 
 ```yaml
 StaticallyChargedSheep:
@@ -22,7 +22,7 @@ StaticallyChargedSheep:
 ```
 
 \
-Open your **ItemsAdder** `.yml` file where you created the mob and to edit the **replace rule** like this:
+打开你创建生物的 **ItemsAdder** `.yml` 文件，并像这样编辑 **替换规则**：
 
 ```yaml
         replace_mobs_spawn:
@@ -34,23 +34,23 @@ Open your **ItemsAdder** `.yml` file where you created the mob and to edit the *
 ```
 
 {% hint style="warning" %}
-It's important to set **replace\_mythicmob** `name` property to your **mythicmob name**.
+重要的是将 **replace\_mythicmob** `name` 属性设置为你的 **mythicmob 名称**。
 {% endhint %}
 
-### Random chance
+### 随机几率
 
-If you want to create custom spawn logic for your custom mob you must not use **ItemsAdder** rules, use **Mythicmobs** configuration: [https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
+如果你想为你的自定义生物创建自定义生成逻辑，你不应该使用 **ItemsAdder** 规则，而是使用 **Mythicmobs** 配置：[https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns](https://www.mythicmobs.net/manual/doku.php/tutorials/randomspawns)
 
 {% hint style="warning" %}
-#### Warning:
+#### 警告：
 
-**ItemsAdder** eggs and /iasummon command **won't work** for Mythicmobs custom mobs, you have to spawn them using **Mythicmobs command** if you want to spawn them manually.\
+**ItemsAdder** 刷怪蛋和 /iasummon 命令 **不适用于** Mythicmobs 自定义生物，如果你想手动生成它们，你必须使用 **Mythicmobs 命令** 生成它们。\
 `/mythicmobs mobs spawn StaticallyChargedSheep`
 {% endhint %}
 
-## Complete example
+## 完整示例
 
-### ItemsAdder configuration mobs.yml
+### ItemsAdder 配置 mobs.yml
 
 ```yaml
   glow_squid:
@@ -82,7 +82,7 @@ If you want to create custom spawn logic for your custom mob you must not use **
             type: SHEEP
 ```
 
-### Mythicmobs configuration Mobs\example.yml
+### Mythicmobs 配置 Mobs\example.yml
 
 ```yaml
 StaticallyChargedSheep:
@@ -99,7 +99,7 @@ StaticallyChargedSheep:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
 
-### Mythicmobs configuration RandomSpawns\example.yml
+### Mythicmobs 配置 RandomSpawns\example.yml
 
 ```yaml
 RandomStaticallyChargedSheep:

@@ -1,6 +1,6 @@
-# Bundle
+# 收纳袋
 
-## Configuration
+## 配置
 
 ```yaml
 items:
@@ -20,8 +20,8 @@ items:
 
 </div>
 
-You have to create another file with `_filled` suffix, in this example `bundle_test_filled.png`.
+你需要创建一个带有 `_filled` 后缀的文件，在这个例子中是 `bundle_test_filled.png`。
 
-## Result
+## 结果
 
 ![](<../../../.gitbook/assets/image (34).png>)

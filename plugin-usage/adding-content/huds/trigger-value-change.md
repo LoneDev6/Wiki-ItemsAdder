@@ -1,26 +1,26 @@
 ---
-description: Automatically increase/decrease HUD value during gameplay
+description: 在游戏过程中自动增加/减少 HUD 值
 ---
 
-# Trigger value change
+# 触发数值变化
 
-## Making the HUD value dynamic
+## 使 HUD 值动态化
 
-With ItemsAdder you can easily make your HUD value change automatically during gameplay, for example you can make a HUD value gradually decrease.
+使用 ItemsAdder，您可以轻松地使 HUD 值在游戏过程中自动变化，例如，您可以使 HUD 值逐渐减少。
 
-In this example I will explain how the **thirst** HUD works.
+在这个例子中，我将解释**口渴** HUD 是如何工作的。
 
-## How does the thirst HUD work?
+## 口渴 HUD 是如何工作的？
 
-The thirst HUD automatically decreases based on some factors: biome, if you're inside a home or outside and also generally during gameplay without any particular factor.
+口渴 HUD 会根据一些因素自动减少：生物群系、您在家中或在外面，以及在没有任何特定因素的情况下在游戏过程中一般会减少。
 
 {% hint style="info" %}
-I know this HUDS system lacks some features and it may be a bit confusing, in the future I'll revamp it to add more features and make it better.
+我知道这个 HUD 系统缺乏一些功能，可能有点令人困惑，未来我会对其进行改进，增加更多功能并使其更好。
 
-If you want to have more control over HUDs you should use the [Java API](../../../developers/java-api/).
+如果您想对 HUD 有更多控制，您应该使用[Java API](../../../developers/java-api/)。
 {% endhint %}
 
-This is the HUD configuration file:
+这是 HUD 配置文件：
 
 ```yaml
 info:
@@ -82,21 +82,21 @@ huds:
 
 ```
 
-## The triggers
+## 触发器
 
-In ItemsAdder you can use triggers to decide how to make the HUD value change, and there are two triggers: `decrement`, `increment` and `on_min_value`.
+在 ItemsAdder 中，您可以使用触发器来决定如何使 HUD 值变化，有两种触发器：`decrement`、`increment` 和 `on_min_value`。
 
-The `decrement` triggers makes the HUD value decrease, the `increment` trigger makes it increase.
+`decrement` 触发器使 HUD 值减少，`increment` 触发器使其增加。
 
-`on_min_value` is a special trigger which makes its rules ran when the HUD value reached its min value.
+`on_min_value` 是一个特殊的触发器，当 HUD 值达到最小值时，它会运行其规则。
 
-Each trigger has a list of possible rules which tells the ItemsAdder if it can change the HUD value or not.
+每个触发器都有一个可能的规则列表，告诉 ItemsAdder 是否可以更改 HUD 值。
 
-## The rules
+## 规则
 
-`triggers` have some specific rules and they are not available on each one of the triggers, so please refer to this list:
+`triggers` 有一些特定的规则，并不是每个触发器都可用，请参考此列表：
 
-### `decrement` trigger
+### `decrement` 触发器
 
 ```yaml
       triggers:
@@ -116,11 +116,11 @@ Each trigger has a list of possible rules which tells the ItemsAdder if it can c
             amount: 0.1
 ```
 
-* `generic_over_time` makes the HUD value decrement of 0.5 each 30000 ticks if the sky light is between 0 and 13 (which means the player is inside a structure).
-* `biome_over_time` makes the HUD value decrement of 0.5 each 30000 ticks if the sky light is between 14 and 15 (which means the player is outside, in the wild) and also checks if the biome is `DESERT`.
-* `food_level_change` makes the HUD value decrement of 0.1 when the food level decreases (vanilla).
+* `generic_over_time` 如果天空光线在 0 到 13 之间（这意味着玩家在结构内），使 HUD 值每 30000 刻减少 0.5。
+* `biome_over_time` 如果天空光线在 14 到 15 之间（这意味着玩家在野外），并且生物群系为`DESERT`，使 HUD 值每 30000 刻减少 0.5。
+* `food_level_change` 使 HUD 值在饱食度下降时减少 0.1（原版）。
 
-### `increment` trigger
+### `increment` 触发器
 
 ```yaml
   triggers:
@@ -142,14 +142,14 @@ Each trigger has a list of possible rules which tells the ItemsAdder if it can c
         amount: 10
 ```
 
-* `generic_over_time` makes the HUD value increment of 0.5 each 30000 ticks if the sky light is between 0 and 13 (which means the player is inside a structure).
-* `biome_over_time` makes the HUD value increment of 0.5 each 30000 ticks if the sky light is between 14 and 15 (which means the player is outside, in the wild) and also checks if the biome is `DESERT`.
-* `food_level_change` makes the HUD value decrement of 0.1 when the food level increases (vanilla, when the player eats something).
-* `player_respawn` makes the HUD value increase of 10 when the player respawns after death, in this case this is useful o make the player thirst increase to the max value on respawn.
+* `generic_over_time` 如果天空光线在 0 到 13 之间（这意味着玩家在结构内），使 HUD 值每 30000 刻增加 0.5。
+* `biome_over_time` 如果天空光线在 14 到 15 之间（这意味着玩家在野外），并且生物群系为`DESERT`，使 HUD 值每 30000 刻增加 0.5。
+* `food_level_change` 使 HUD 值在食物水平增加时减少 0.1（原版，当玩家吃东西时）。
+* `player_respawn`使 HUD 值在玩家死亡后重生时增加 10，在这种情况下，这有助于使玩家的口渴值在重生时增加到最大值。
 
-### `on_min_value` trigger
+### `on_min_value`触发器
 
-This is a special trigger which doesn't alter the HUD value, but is used to make something happen when the HUD value reaches the min value.
+这是一个特殊的触发器，它不会改变 HUD 值，但用于在 HUD 值达到最小值时使某些事情发生。
 
 ```yaml
   triggers:
@@ -164,5 +164,5 @@ This is a special trigger which doesn't alter the HUD value, but is used to make
         duration: 100
 ```
 
-* `damage_player` deals a damage of 0.5 to the player each 100 ticks.
-* `potion_effect` gives SLOW effect to the player with amplifier 1 and duration 100, each 100 ticks (in this case it means that the player gets infinite slowness until their HUD value increases somehow).
+* `damage_player` 每 100 刻对玩家造成 0.5 的伤害。
+* `potion_effect` 每 100 刻给予玩家 SLOW 效果，等级增益为 1（缓慢 II），持续时间为 100（在这种情况下，这意味着玩家会无限期地缓慢，直到他们的 HUD 值以某种方式增加）。

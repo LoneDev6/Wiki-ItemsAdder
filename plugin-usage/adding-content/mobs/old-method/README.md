@@ -1,6 +1,6 @@
-# Old method
+# 旧方法
 
 {% hint style="info" %}
-This is the old method to create entities.\
-It still works but this method has some limitations, that's why I implemented a new way to create custom mobs/entities.
+这是创建实体的旧方法。\
+它仍然有效，但这种方法有一些限制，这就是为什么我提出了一种创建自定义怪物/实体的新方法。
 {% endhint %}

@@ -2,5 +2,5 @@
 icon: list-check
 ---
 
-# Item properties
+# 物品属性
 

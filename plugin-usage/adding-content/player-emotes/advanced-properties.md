@@ -1,15 +1,15 @@
-# Advanced properties
+# 高级属性
 
-You can also specify some special properties for your emotes.\
-To do so you have to create a new `.yml` file, which is not mandatory for emotes if you don't need to override these properties.
+你还可以为表情指定一些特殊属性。\
+为此，你需要创建一个新的 `.yml` 文件，如果你不需要覆盖这些属性，则表情不需要此文件。
 
-`hide_equipment`: If an equipment part of the player must be hidden.
+`hide_equipment`: 是否需要隐藏玩家的某个装备部分。
 
-`can_player_mode`: If the player can move during the animation.
+`can_player_move`: 玩家是否可以在动画期间移动。
 
-`cancel_conditions`: The various actions which will make the animation stop.
+`cancel_conditions`: 会使动画停止的各种动作。
 
-## Example
+## 示例
 
 ```yaml
 info:

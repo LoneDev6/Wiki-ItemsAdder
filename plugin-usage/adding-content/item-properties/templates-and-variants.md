@@ -1,26 +1,26 @@
-# Templates and variants
+# 模板和变体
 
-## What are templates?
+## 什么是模板？
 
-Templates are special items that won't appear ingame, they are used as properties holders for other items.  
-They allow you to write common properties in one item and add them automatically to other items without constant copy and paste.
+模板是不会出现在游戏中的特殊物品，它们用于为其他物品保存属性。  
+它们允许您在一个物品中编写常见属性，并自动将它们添加到其他物品中，而无需不断复制和粘贴。
 
-To create a template you have to set `template: true` in your item.
+要创建模板，您必须在物品中设置 `template: true`。
 
 {% hint style="warning" %}
-This is an experimental feature, let me know if something is not working correctly.  
-You can see an usage example in [this addon](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
+这是一个实验性功能，如果有任何问题，请告诉我。  
+您可以在[这个插件](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/)中看到一个使用示例。
 {% endhint %}
 
-## What are variants?
+## 什么是变体？
 
-Variants are items that will appear ingame and will inherit properties of template items.
+变体是会出现在游戏中的物品，并会继承模板物品的属性。
 
-To create a variant you have to set `variant_of: template name` in your item.
+要创建变体，您必须在物品中设置 `variant_of: 模板名称`。
 
-## Example
+## 示例
 
-I want to create multiple furnitures which are equal but with different model.
+我想创建多个相同但模型不同的家具。
 
 ```yaml
   template_wood_park_bench:

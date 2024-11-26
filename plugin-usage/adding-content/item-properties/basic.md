@@ -1,46 +1,46 @@
 ---
-description: Collection of basic item properties
+description: 基础物品属性集合
 ---
 
-# Basic
+# 基础
 
 {% hint style="warning" %}
-<mark style="color:red;">Don't forget the namespace!</mark>\
-Don't forget to define a namespace for all of your configs!
+<mark style="color:red;">不要忘记命名空间！</mark>\
+不要忘记为你所有配置设定一个命名空间！
 {% endhint %}
 
-## Enabled
+## 启用
 
 ```yaml
 enabled: true
 ```
 
-With this setting you can disable an item completely.
+通过该设置，你可以完全禁用一个物品。
 
 {% hint style="warning" %}
-**If a player has the item in inventory it won't be removed.**\
-**Same thing for blocks, but when broken they won't drop anymore.**
+**如果玩家背包中有这个物品，它不会被移除。**\
+**对于方块也一样，但在被破坏时不会掉落任何物品。**
 {% endhint %}
 
-## Display name
+## 物品名
 
 ```yaml
 display_name: "Test"
 ```
 
-This is the name user will see on the item
+这是玩家会看到的物品名。
 
-## Permission
+## 权限
 
 ```yaml
 permission_suffix: myitem
 ```
 
 {% content-ref url="permission.md" %}
-[permission.md](permission.md)
+[权限列表](permission.md)
 {% endcontent-ref %}
 
-## Lore
+## 描述
 
 ```yaml
 lore:
@@ -49,9 +49,9 @@ lore:
 - '&750% of times.'
 ```
 
-Lore lines of the item
+每行都是一行物品描述。
 
-## Enchants
+## 附魔
 
 ```yaml
 enchants:
@@ -60,11 +60,11 @@ enchants:
   - my_custom_plugin:custom_enchant:6
 ```
 
-Enchants of the item.\
-You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins (for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
-Supports also **namespaces** (if you are creating custom enchants using Namespaced keys)
+物品的附魔。\
+你可以设置[原版附魔](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html)以及其他插件的自定义附魔（如 [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...）。\
+也支持**命名空间**（如果你使用了命名空间来创建自定义附魔）
 
-## Attribute modifiers
+## 属性修饰符
 
 ```yaml
 attribute_modifiers:
@@ -88,9 +88,9 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities)
+这些是原版的属性修饰符，你可以在[这里](https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities)查看详情。
 
-## Durability
+## 耐久
 
 ```yaml
 durability:
@@ -101,14 +101,14 @@ durability:
   usages: 5
 ```
 
-There are pretty self explanatory.\
-`usages` are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events (check events tutorial).
+这无需多言。\
+`usages` 是一个特殊的属性，允许你为该物品设定特定的使用次数。记得使用事件来减少它（查看事件教程）。
 
-`custom_durability` is the durability amount which the item has on crafting (if not specified is the same as `max_custom_durability`)
+`custom_durability` 是物品被制作出来时的耐久（如未指定，与 `max_custom_durability` 相同）
 
-`max_custom_durability` is the max durability the item can reach
+`max_custom_durability` 是物品的最大耐久值
 
-## Item flags
+## 物品标记
 
 ```yaml
 item_flags:
@@ -120,12 +120,12 @@ item_flags:
   - HIDE_UNBREAKABLE
 ```
 
-Special item flags that can hide some vanilla info of the item.\
-You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
+特定的物品标记可以隐藏一些原版信息。\
+你可以在此找到详细信息：[https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-## blocked\_enchants
+## 方块附魔（blocked\_enchants）
 
-Special item property that disables enchants for this item, so your users won't be able to enchant it.
+禁止将特定附魔添加至物品的特殊属性，玩家无法将对应附魔添加至该物品。
 
 {% tabs %}
 {% tab title="Disable some enchants" %}
@@ -148,16 +148,16 @@ blocked_enchants:
 {% endtab %}
 {% endtabs %}
 
-## events\_needed\_player\_stats
+## 以玩家状态为基础的事件（events\_needed\_player\_stats）
 
-Special attribute to make events work only if the player stat (ItemsAdder player stat, which are usually shown in HUDs) satisfies the set rule.
+仅当玩家状态（ItemsAdder 状态，通常以 HUD 显示）满足设定条件时才执行事件的特殊属性。
 
-You can set it to `>`, `<` ad `=`
+你可以将其设置为 `>`, `<` 与 `=`
 
-#### Example:
+#### 示例：
 
 {% content-ref url="../other-items-examples/magic-wand.md" %}
-[magic-wand.md](../other-items-examples/magic-wand.md)
+[魔杖](../other-items-examples/magic-wand.md)
 {% endcontent-ref %}
 
 ```yaml
@@ -190,20 +190,20 @@ You can set it to `>`, `<` ad `=`
             amount: 1
 ```
 
-## glow
+## 发光（glow）
 
-You can make an item glowing when dropped on the ground.\
-Very useful for **rare items**.
+当物品掉落到地上时，你可以让其发光。\
+对**珍稀物品**很有用.
 
 {% hint style="warning" %}
-In order to use the glow feature you have to install two APIs.
+为了启用发光功能，你需要安装两个 API。
 
-[GlowAPI](https://www.spigotmc.org/resources/api-glowapi.19422/) and [PacketListenerAPI](https://www.spigotmc.org/resources/api-packetlistenerapi.2930/)
+[GlowAPI](https://www.spigotmc.org/resources/api-glowapi.19422/) 与 [PacketListenerAPI](https://www.spigotmc.org/resources/api-packetlistenerapi.2930/)
 
-They are needed because this feature is impossible to implement without writing an extremely long code, someone already did it and we can use their API.
+之所以需要它们，是因为如果不编写非常长的代码，就不可能实现此功能。有人已经做了，我们可以使用他们的API。
 {% endhint %}
 
-Example
+示例：
 
 ![](../../../.gitbook/assets/image\_\(114\).png)
 
@@ -222,11 +222,11 @@ items:
         color: DARK_RED
 ```
 
-## show\_name
+## 显示名字（show\_name）
 
-You can make a drop show its name.\
-Very useful for **rare items**.\
-Example:
+你可以让掉落物显示名字。\
+对于**珍稀物品**很有用。\
+示例：
 
 ![](<../../../.gitbook/assets/image\_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1).png>)
 
@@ -242,20 +242,20 @@ Example:
       show_name: true
 ```
 
-## template
+## 模板（template）
 
 {% content-ref url="templates-and-variants.md" %}
-[templates-and-variants.md](templates-and-variants.md)
+[模板与变种](templates-and-variants.md)
 {% endcontent-ref %}
 
-## variant\_of
+## 变种（variant\_of）
 
 {% content-ref url="templates-and-variants.md" %}
-[templates-and-variants.md](templates-and-variants.md)
+[模板与变种](templates-and-variants.md)
 {% endcontent-ref %}
 
-## Use the official files editor to read all the properties
+## 使用官方编辑器读取所有属性
 
 {% content-ref url="../../files-editor.md" %}
-[files-editor.md](../../files-editor.md)
+[文件编辑器](../../files-editor.md)
 {% endcontent-ref %}

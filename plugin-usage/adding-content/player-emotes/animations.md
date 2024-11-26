@@ -1,49 +1,49 @@
-# Animations
+# 动画
 
-## How to create an animation
+## 如何创建动画
 
-You can animate your models normally, like you would do with normal Blockbench models.\
-You can find a lot of tutorials on YouTube.
+你可以像对普通 Blockbench 模型一样正常地为你的模型制作动画。\
+你可以在 YouTube 上找到很多教程。
 
 {% embed url="https://www.youtube.com/results?search_query=blockbench+animation+tutorial" %}
 
-## Lock the player movement
+## 锁定玩家移动
 
-You can specify if the player can move while playing one specific animation or not.
+你可以指定玩家在播放某个特定动画时是否可以移动。
 
 ![](<../../../.gitbook/assets/image (76).png>)
 
-## Looping animations
+## 循环动画
 
-You can create animations which would play `start` -> `loop` -> `end` sub-animation.\
-This allows you to create complex looping animations, for example a sleep animation where your player would lay and stay there until the player presses SHIFT.
+你可以创建播放 `start` -> `loop` -> `end` 子动画的动画。\
+这允许你创建复杂的循环动画，例如一个睡觉动画，其中你的玩家会躺下并保持在那里，直到玩家按下 SHIFT 键。
 
-### Step 1
+### 第一步
 
-Create the animation, in this example a death animation.
+创建动画，在本例中是一个死亡动画。
 
 ![](<../../../.gitbook/assets/image (96) (1).png>)
 
-Right click it and mark it as `Loop`.
+右键单击它并将其标记为 `循环`。
 
 ![](<../../../.gitbook/assets/image (92) (1).png>)
 
-### Step 2
+### 第二步
 
-Now place the cursor on the frame where you want the loop to start, in this case when the player is on the ground.
+现在将光标放在你希望循环开始的帧上，在本例中是玩家倒地时。
 
 ![](<../../../.gitbook/assets/image (75).png>)
 
-### Step 3
+### 第三步
 
-Click on the `Add Loop Start/End marker` icon to add a `start loop` marker.
+点击 `添加循环开始/结束标记` 图标以添加 `开始循环` 标记。
 
 ![](<../../../.gitbook/assets/image (60).png>)
 
-Now place the animation cursor on the frame where you want the loop to stop and press again on the `Add Loop Start/End marker` icon.
+现在将动画光标放在你希望循环停止的帧上，再次点击 `添加循环开始/结束标记` 图标。
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
-The result will be like this:
+结果将如下所示：
 
 ![](<../../../.gitbook/assets/image (93).png>)

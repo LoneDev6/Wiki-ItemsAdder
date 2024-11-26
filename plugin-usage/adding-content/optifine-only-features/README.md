@@ -2,5 +2,5 @@
 icon: hexagon-plus
 ---
 
-# Optifine only features
+# Optifine 专属功能
 

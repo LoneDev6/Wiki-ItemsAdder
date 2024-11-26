@@ -1,17 +1,17 @@
-# Settings
+# 设置
 
 {% hint style="warning" %}
-Available on ItemsAdder 3.6.1+
+需要 ItemsAdder 3.6.1+
 {% endhint %}
 
 ## `events_settings`
 
-Special item attribute to customize some properties of events.
+自定义事件属性的特殊物品属性。
 
-### Cooldown
+### 冷却时间
 
-You can set a cooldown which won't allow the player to trigger any of the actions for this item.\
-Useful to avoid players to spam a special item.
+你可以设置玩家触发事件的冷却时间。\
+有助于防止玩家使用特殊物品刷屏。
 
 ```yaml
   healing_crystals:
@@ -26,13 +26,13 @@ Useful to avoid players to spam a special item.
     ## .... your events
 ```
 
-### Cooldown indicator
+### 冷却显示
 
-You can customize the cooldown indicator and decide from some different indicator types:
+你可以自定义冷却指示器，并选择一种指示器类型：
 
 #### HIDDEN
 
-Won't show any indicator.
+不会显示指示器
 
 ```yaml
   healing_crystals:
@@ -49,14 +49,14 @@ Won't show any indicator.
 
 #### HUD
 
-Shows a custom HUD on-screen.
+使用自定义 HUD 指示
 
 <figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-`custom_hud` property is not mandatory, `_iainternal:small_cooldown_bar` will be used instead if not specified, which is the built-in custom hud.
+`custom_hud` 并非强制, 如果未被指定，会自动使用内建的 `_iainternal:small_cooldown_bar`。
 
-<mark style="color:red;">⚠️</mark> Make sure you didn't disable `extract_internal_utility_assets` in `config.yml`!
+<mark style="color:red;">⚠️</mark> 确保你没有在 `config.yml` 中禁用 `extract_internal_utility_assets`！
 {% endhint %}
 
 ```yaml
@@ -74,12 +74,12 @@ Shows a custom HUD on-screen.
 ```
 
 {% hint style="info" %}
-If you want to create a custom HUD, but you don't want to waste time coloring, you can use [this guide](../../../../other/bulk-colorize-images.md) to colorize images in one click.
+如果你想要创建一个自定义 HUD，但不想花时间着色，你可以查看[本教程](../../../../other/bulk-colorize-images.md)来快速着色。
 {% endhint %}
 
 #### TITLE
 
-Shows a big on-screen title indicator.
+使用标题栏指示
 
 <figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -98,12 +98,12 @@ Shows a big on-screen title indicator.
 
 #### BOSSBAR
 
-Shows a bossbar on-screen.
+使用 BOSSBAR 指示
 
 <figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-`color` and `style` properties are not mandatory, the ones from `config.yml` will be used instead if not specified.
+`color` 与 `style` 是非强制性的。若未指定，会使用 `config.yml` 中设定的值。
 {% endhint %}
 
 ```yaml

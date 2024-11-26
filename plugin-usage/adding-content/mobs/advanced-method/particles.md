@@ -1,49 +1,48 @@
-# Particles
+# 粒子效果
 
-## Setup
+## 设置
 
-### Configure the special particle location bone
+### 配置特殊粒子位置骨骼
 
-Open your `.iaentitymodel` model file with **Blockbench**.\
-Create a new bone, it can have any name.
+用 **Blockbench** 打开你的 `.iaentitymodel` 模型文件。\
+创建一个新骨骼，可以任意命名。
 
 ![](<../../../../.gitbook/assets/image (78) (1) (1).png>)
 
-Rightclick on the bone and select "**Bone Config**"
+右键点击骨骼并选择 "**Bone Config**"
 
 ![](<../../../../.gitbook/assets/image (68) (1).png>)
 
-Check the "**Locator**" option and press "**Confirm**".
+勾选 "**Locator**" 选项并按 "**Confirm**"。
 
 ![](<../../../../.gitbook/assets/image (67) (1) (1).png>)
 
-Switch to "**Animate**" view.
+切换到 "**Animate**" 视图。
 
 ![](<../../../../.gitbook/assets/image (85).png>)
 
-Select one of your animations.
+选择一个动画。
 
 ![](<../../../../.gitbook/assets/image (92) (1) (1).png>)
 
-Select the magic wand icon "**Animate Effects**"
+选择魔杖图标 "**Animate Effects**"
 
 ![](<../../../../.gitbook/assets/image (44) (1).png>)
 
-Click on the **+** icon near "**Particle**" effect type to create a new particle keyframe.
+点击 **+** 图标，选择 "**Particle**" 效果类型来创建一个新的粒子关键帧。
 
 ![](<../../../../.gitbook/assets/image (64) (1).png>)
 
-Edit the values on the "**Keyframe**" panel.
+在 "**Keyframe**" 面板上编辑值。
 
-* Name: name of the particle, use the ingame Minecraft particle name.
-* Bone (locator): is the name of the bone created in the first part of this tutorial. It will be the location of the particle.
-* Speed: speed of the particle emission.
-* Count: amount of emitted particles.
-* XYZ delta: specifies the dimensions (in number of blocks) for each dimension of the particle effect, with **x y z** in the center. Each coordinate specifies the number of blocks from the center that the particles will appear. You can set decimal numbers.\
-
+* Name: 粒子的名称，使用游戏内的 Minecraft 粒子名称。
+* Bone (locator): 是在本教程第一部分创建的骨骼的名称。它将是粒子的位置。
+* Speed: 粒子发射的速度。
+* Count: 发射的粒子数量。
+* XYZ delta: 指定粒子效果每个维度的尺寸（以方块数为单位），**x y z** 在中心。每个坐标指定从中心开始粒子出现的方块数。你可以设置小数。\
 
 ![](<../../../../.gitbook/assets/image (69) (1).png>)
 
-## Done
+## 完成
 
 {% embed url="https://youtu.be/EDxXYrdq86M" %}

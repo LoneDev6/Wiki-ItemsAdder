@@ -1,88 +1,88 @@
-# 3D model
+# 3D 模型
 
-## Creating the animated model (idle animation)
+## 创建动画模型（闲置动画）
 
-To create the models I use [BlockBench](https://blockbench.net/), it's very easy to use and fast.\
-BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench+tutorial)are available on YouTube.
+要创建模型，我使用 [BlockBench](https://blockbench.net/)，它非常易于使用且速度快。\
+YouTube 上有 BlockBench [教程](https://www.youtube.com/results?search_query=blockbench+tutorial)。
 
 {% hint style="danger" %}
-You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
+你必须确保将模型创建为 Java Block/Item 模型！不要使用 Bedrock 模型或实体模型！
 
 <img src="../../../../../.gitbook/assets/image_(89) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (9) (1) (1) (1) (19).png" alt="" data-size="original">
 {% endhint %}
 
-### Creating a very simple idle animation
+### 创建一个非常简单的闲置动画
 
-For example I created this model, it's made of some cubes as you can see.
+例如，我创建了这个模型，如你所见，它由一些立方体组成。
 
-![](../../../../../.gitbook/assets/image\_\(52\).png)
+![](../../../../../.gitbook/assets/image_(52).png)
 
-Now we want to animate it!\
-For example I want to make it float up and down.
+现在我们要为它制作动画！\
+例如，我想让它上下浮动。
 
-**1.Save** the **current model** in a temporary folder (anywhere on your PC)
+**1.保存当前模型到一个临时文件夹（电脑上的任意位置）**
 
-![](../../../../../.gitbook/assets/image\_\(53\).png)
+![](../../../../../.gitbook/assets/image_(53).png)
 
-![](../../../../../.gitbook/assets/image\_\(56\).png)
+![](../../../../../.gitbook/assets/image_(56).png)
 
-Ok I saved it as **1.json** inside the **idle** folder. This is the first frame of the **animation**.
+**好了，我将其保存为 idle/1.json 在。这是动画的第一帧。**
 
-\*\*2.\*\*Return to **BlockBench** and select all pressing **CTRL+A**
+**2.返回到 BlockBench 并按 “CTRL+A” 全选**
 
-![](<../../../../../.gitbook/assets/image\_(78) (1).png>)
+![](<../../../../../.gitbook/assets/image_(78) (1).png>)
 
-**Hold left mouse button** while cliking on the **GREEN** arrow, **hold CTRL** and **move** the mouse **up** a little bit
+**左键点击绿色箭头，按住 CTRL 并向上移动一点鼠标**
 
-![](../../../../../.gitbook/assets/image\_\(58\).png)
+![](../../../../../.gitbook/assets/image_(58).png)
 
-**3.Save** the file again but change the name to **2.json**
+**3.再次保存文件，但将名称更改为 2.json**
 
-\*\*4.\*\*Do the same thing 3 times (move the mob a little bit up) and save the file again increasing the number in its file name.
+**4.重复三次相同的操作（将模型稍微向上移动），并再次保存文件，按顺序命名**
 
-\*\*5.\*\*Now we have finished creating the needed frames for our animation. Open [this website](https://lonedev6.github.io/animated-models/)
+**5.现在我们已经完成了动画所需帧的创建。打开[这个网站](https://lonedev6.github.io/animated-models/)**
 
-\*\*6.\*\*Now **click** on the **icon** to load our json frames
+**6.现在点击图标加载我们的 json 帧**
 
-![](../../../../../.gitbook/assets/image\_\(68\).png)
+![](../../../../../.gitbook/assets/image_(68).png)
 
-\*\*7.\*\*Click on "**Choose files...**" and select your json files and the png texture
+**7.点击“选择文件...”并选择你的 json 文件和 png 纹理**
 
-![](../../../../../.gitbook/assets/image\_\(77\).png)
+![](../../../../../.gitbook/assets/image_(77).png)
 
-![](../../../../../.gitbook/assets/image\_\(69\).png)
+![](../../../../../.gitbook/assets/image_(69).png)
 
-\*\*8.\*\*Click on **LOAD**
+**8.点击“加载”**
 
-![](../../../../../.gitbook/assets/image\_\(70\).png)
+![](../../../../../.gitbook/assets/image_(70).png)
 
-**9.Click** the **second icon** and **drag** and **drop** the **4 files** to the bottom line
+**9.点击第二个图标并拖放四个文件到底部行**
 
-![](../../../../../.gitbook/assets/image\_\(71\).png)
+![](../../../../../.gitbook/assets/image_(71).png)
 
-![](../../../../../.gitbook/assets/image\_\(72\).png)
+![](../../../../../.gitbook/assets/image_(72).png)
 
-\*\*10.\*\*You should have them like that
+**10.你应该像这样排列它们**
 
-![](../../../../../.gitbook/assets/image\_\(73\).png)
+![](../../../../../.gitbook/assets/image_(73).png)
 
-**11.Drag and drop them again but in reverse (3-2, I skipped 1 and 4 because they would be useless for the animation**)
+**11.再次拖放它们，但顺序相反（3-2，我跳过了 1 和 4，因为它们对动画没有用）**
 
-![](../../../../../.gitbook/assets/image\_\(75\).png)
+![](../../../../../.gitbook/assets/image_(75).png)
 
-\*\*12.\*\*Press the **play** button (on the **bottom left**) to **preview** the animation
+**12.点击播放按钮（左下角）预览动画**
 
 ![](https://i.imgur.com/zslbD0G.gif)
 
-**13.** Press "**Export**" button (**top right** of the **screen**) and configure it like in the screenshot, then press "**Export**" again.
+**13.按“导出”按钮（在屏幕右上角）并按截图配置，然后再次按“导出”**
 
-![](../../../../../.gitbook/assets/image\_\(76\).png)
+![](../../../../../.gitbook/assets/image_(76).png)
 
-\*\*14.\*\*Now you will have a **zip** file with the animation, **download** it and **open** it.
+**14.现在你将有一个包含动画的 zip 文件，下载并打开它**
 
-**15.Extract** the zip inside your **ItemsAdder** folder `contents\myitems\resourcepack\`
+**15.将 zip 解压到你的 ItemsAdder 文件夹 `contents\myitems\resourcepack\`**
 
-\*\*16.\*\*Set your mob configuration like this, to use the idle animation and not the stuck one: `"mob/soul/idle"`
+**16.将你的怪物配置设置为这样，以使用闲置动画而不是卡住的动画：`"mob/soul/idle"`**
 
 ```yaml
 items:
@@ -95,24 +95,24 @@ items:
       model_path: "mob/soul/idle"
 ```
 
-\*\*17.\*\*Use the command `/iazip` (if you're using external-host please follow the [tutorial](../../../../resourcepack-hosting/)carefully)
+**17.使用命令 `/iazip`（如果你使用外部主机，请仔细按照[教程](../../../../resourcepack-hosting/)）**
 
-\*\*18.\*\*spawn the mob using `/iasummon soul`
+**18.使用命令 `/iasummon soul` 生成怪物**
 
 ![](https://i.imgur.com/1tljgbv.gif)
 
 {% hint style="warning" %}
-Do not open the animated model (exported from the website) with BlockBench or any other editing program or it will probably break and stop working.
+不要使用 BlockBench 或任何其他编辑程序打开从网站导出的动画模型，否则它可能会损坏并停止工作。
 {% endhint %}
 
 {% hint style="info" %}
-You can delete the 1-2-3-4.json files, you don't need them anymore (but you can backup them for future usage), you only need the idle.json file and the png+mcmeta files which are the animated files.
+你可以删除 1-2-3-4.json 文件，你不再需要它们（但你可以备份它们以备将来使用），你只需要 idle.json 文件和 png+mcmeta 文件，它们是动画文件。
 {% endhint %}
 
-## More advanced animations:
+## 更高级的动画：
 
 {% embed url="https://www.youtube.com/watch?v=DflNQjB0Okk" %}
 
-## Full addon download
+## 完整插件下载
 
 {% embed url="https://www.spigotmc.org/resources/mobs-creaturesplus-itemsadder-addon.84384/" %}

@@ -2,13 +2,13 @@
 icon: hashtag
 ---
 
-# Placeholders
+# 占位符
 
-You can use these special placeholders in **chat**, **signs**, **books** and in **GUIs** names.
+你可以在**聊天**、**标志**、**书籍**和**GUI**名称中使用这些特殊占位符。
 
-### Font Image
+### 字体图像
 
-To actually show make your font image show up you just have to write down its name surrounded by `:` character
+要显示你的字体图像，只需写下其名称并用 `:` 字符包围即可
 
 ```
 :my_gui:
@@ -27,39 +27,39 @@ This is a special placeholder that allows you to move a font image back and forw
 :offset_25:
 ```
 
-As you can see you have to write `:offset_`**`AMOUNT`**`:` (without spaces).\
-If you would like to change the image's height, you will need to change it's 'y' value.\
-This is located in the image's configuration.
+如你所见，你必须写 `:offset_`**`数量`**`:`（没有空格）。\
+如果你想改变图像的高度，你需要改变它的 'y' 值。\
+这在图像的配置中设置。
 
-For example:
+例如：
 
-* you can shift a _font image_ back by 16 pixels by writing `:offset_-16::smile:`
-* you can shift a _text_ back by 16 pixels by writing `:offset_-16:hello`
-* you can shift a _font image_ forward by 16 pixels by writing `:offset_16::smile:`
-* you can shift a _text_ forward by 16 pixels by writing `:offset_16:hello`
+* 你可以通过写 `:offset_-16::smile:` 将字体图像向后移动 16 像素
+* 你可以通过写 `:offset_-16:hello` 将文本向后移动 16 像素
+* 你可以通过写 `:offset_16::smile:` 将字体图像向前移动 16 像素
+* 你可以通过写 `:offset_16:hello` 将文本向前移动 16 像素
 
 ## PlaceholderAPI
 
-### Font image
+### 字体图像
 
-This is the code: `%img_NAME%` instead of `NAME` write the font image name.\
-For example: `%img_smile%`
+代码是：`%img_NAME%`，将 `NAME` 替换为字体图像名称。\
+例如：`%img_smile%`
 
-### Offsets
+### 偏移量
 
-You can shift text or font images back and forward.\
-For example&#x20;
+你可以前后移动文本或字体图像。\
+例如：
 
-* you can shift it back of 16 pixels by writing `%img_offset_-16%`
-* you can shift it forward of 16 pixels by writing `%img_offset_16%`
+* 你可以通过写 `%img_offset_-16%` 将其向后移动 16 像素
+* 你可以通过写 `%img_offset_16%` 将其向前移动 16 像素
 
-### ItemsAdder PlayerStats (HUDs values)
+### ItemsAdder 玩家统计（HUD 值）
 
-These are stats used by ItemsAdder, they're not vanilla stats.
+这些是 ItemsAdder 使用的统计数据，它们不是原版统计数据。
 
-This is the code: `%iaplayerstat_NAME%` instead of `NAME` write the playerstat name.\
-For example: `%iaplayerstat_mana%` or also `%iaplayerstat_thirst%`
+代码是：`%iaplayerstat_NAME%`，将 `NAME` 替换为玩家统计名称。\
+例如：`%iaplayerstat_mana%` 或 `%iaplayerstat_thirst%`
 
-You can use this command to test it out:\
+你可以使用此命令进行测试：\
 `/papi parse me %iaplayerstat_thirst%`\
 `/papi parse me %iaplayerstat_mana%`

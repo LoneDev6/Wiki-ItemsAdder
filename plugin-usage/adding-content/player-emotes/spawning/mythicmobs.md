@@ -1,24 +1,24 @@
 ---
-description: Custom 3D models for Mythicmobs mobs
+description: Mythicmobs 怪物的自定义 3D 模型
 ---
 
 # Mythicmobs
 
-## Reskinning a Mythicmob mob
+## 重新设计 Mythicmob 怪物
 
-You can use a custom player skin for any Mythicmob mob.
+你可以为任何 Mythicmob 怪物使用自定义玩家皮肤。
 
 {% hint style="success" %}
-This plugin doesn't require Mythicmobs to work, but some servers might need to use it to create custom bosses and similar.
+这个插件不需要 Mythicmobs 才能工作，但有些服务器可能需要使用它来创建自定义 Boss 和类似的内容。
 {% endhint %}
 
-### Changing the model
+### 更改模型
 
-Create a new Mythicmobs mob configuration file in this path:   `plugins/MythicMobs/Mobs/custom_player.yml`\
-``(you can decide the filename).
+在以下路径创建一个新的 Mythicmobs 怪物配置文件：`plugins/MythicMobs/Mobs/custom_player.yml`\
+（你可以决定文件名）。
 
 {% hint style="warning" %}
-Do not use `PLAYER` as type, it causes issues with head/body rotation.
+不要使用 `PLAYER` 作为类型，它会导致头部/身体旋转问题。
 {% endhint %}
 
 {% code title="custom_player.yml" %}
@@ -36,26 +36,26 @@ custom_player:
 ```
 {% endcode %}
 
-In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
+在这个例子中，我将 Mythicmobs 怪物的皮肤更改为 **Notch** 的皮肤。
 
 ![](<../../../../.gitbook/assets/image (74).png>)
 
-### Custom skin
+### 自定义皮肤
 
 {% content-ref url="../custom-skin.md" %}
-[custom-skin.md](../custom-skin.md)
+[自定义皮肤](../custom-skin.md)
 {% endcontent-ref %}
 
-### Skills
+### 技能
 
-* `customentity{playerskin=SKIN}` Change the player skin
-* `customentity{idle=ANIMATION}` To change the idle animation
-* `customentity{walk=ANIMATION}` To change the walk animation
-* `customentity{attack=ANIMATION}` To change the attack animation
-* `customentity{death=ANIMATION}` To change the death animation
-* `customentity{play=ANIMATION}` To play an animation right now
-* `customentity{stop=ANIMATION}` To stop the current animation
+* `customentity{playerskin=SKIN}` 更改玩家皮肤
+* `customentity{idle=ANIMATION}` 更改空闲动画
+* `customentity{walk=ANIMATION}` 更改行走动画
+* `customentity{attack=ANIMATION}` 更改攻击动画
+* `customentity{death=ANIMATION}` 更改死亡动画
+* `customentity{play=ANIMATION}` 立即播放动画
+* `customentity{stop=ANIMATION}` 停止当前动画
 
-### Done
+### 完成
 
 ![](<../../../../.gitbook/assets/notch_attack.webp>)

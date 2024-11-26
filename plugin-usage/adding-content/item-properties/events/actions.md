@@ -1,27 +1,27 @@
-# Actions
+# 动作
 
-Actions are what will happen when an [event](./) is triggered.
+动作是当你触发[事件](./)时执行的操作
 
-## List of actions
+## 动作列表
 
-To read the list of available actions use the official editor.
+要阅读可用的动作列表，请使用官方编辑器。
 
 {% content-ref url="../../../files-editor.md" %}
-[files-editor.md](../../../files-editor.md)
+[文件编辑器](../../../files-editor.md)
 {% endcontent-ref %}
 
-### Available command placeholders
+### 指令可用的占位符
 
-* `{player}` you
-* `{target-player}` targeted player/victim
-* `{target-x}|{target-y}|{target-z}` x/y/z location of targeted player/victim
-* `{target-world}` targeted world
+* `{player}` 你（触发事件的玩家）
+* `{target-player}` 目标玩家/被害人
+* `{target-x}|{target-y}|{target-z}` 目标玩家/被害人的 x/y/z 坐标
+* `{target-world}` 目标世界
 
-### Delay
+### 延迟（Delay）
 
-Every action has a special attribute **delay**.\
-It's the **delay** in ticks before starting the action.\
-For example:
+每个动作都有一个特殊的属性**延迟**。\
+**延迟**决定了动作执行前经过的时刻数。\
+例如：
 
 ```yaml
 items:
@@ -62,10 +62,10 @@ items:
             delay: 40
 ```
 
-### Multiple actions of the same type
+### 相同类型的多个动作
 
-You can set the same action multiple times. You just have to add `_anything` at the end.\
-For example if you want to play two sounds you have to write this:
+你可以多次设置相同动作，只需要在最后添加 `_(任意值)`。\
+例如你想要播放两次声音，你需要这样写：
 
 ```yaml
 play_sound_first:
@@ -82,13 +82,13 @@ play_sound_3:
   pitch: 1
 ```
 
-### Actions permission
+### 动作权限（permission）
 
-Every action has a special attribute **permission**.\
-It's the **permission** the player must have before starting the **action**.\
-For example the player must have `myitems.usage.secret_items_dispenser` permission to play the sound.\
-NOTE: In this example you will notice an issue.\
-The sound is played even if the user has no permission for the give event. That's because permission check is only on the `give_item`.
+每个动作都有一个特殊属性**权限**\
+玩家必须有对应的**权限**来执行**动作**。\
+例如玩家需要具有 `myitems.usage.secret_items_dispenser` 权限来播放声音。\
+注意：本例中你会发现到一个问题。\
+即使玩家没有权限也能触发给与事件，这是由于只检查了 `give_item` 权限。
 
 ```yaml
   test_block:
@@ -116,11 +116,11 @@ The sound is played even if the user has no permission for the give event. That'
             pitch: 1
 ```
 
-**Setting the same permission to every action**
+**为每个动作设置相同权限**
 
-If you want to set the same permission to every action without copy and paste you can!\
-Use this special attribute `all_actions_permission`.\
-For example:
+如果你想要对每个动作都使用相同权限，而不想复制，\
+使用特殊属性 `all_actions_permission`。\
+例如：
 
 ```yaml
   test_block:
@@ -148,22 +148,22 @@ For example:
         pitch: 1
 ```
 
-### Properties
+### 属性
 
-Use the [official files editor](../../../files-editor.md) to get the complete list while working on your configurations.
+使用[官方文件编辑器](../../../files-editor.md)来在配置时获得完整的列表。
 
-## Flow customization
+## 自定义流程
 
-The plugin allows you to further customize your actions by avoiding their execution in some specific cases explained in the next lines.\
-This allows further customization of your items logic.
+该插件允许你通过避免在某些特定情况下执行操作来进一步自定义你的操作。\
+这允许你进一步自定义物品逻辑。
 
-For example you can create a wand which plays specific sound only if a mob was successfully attacked and which plays another sound in case of failed attack.
+例如你可以创建一个在成功攻击怪物时播放一种声音，在攻击失败时播放另一种声音。
 
 {% embed url="https://youtu.be/xZLln6e3iAU" %}
 
 <details>
 
-<summary>Magic wand example code (click to expand)</summary>
+<summary>示例魔杖的代码（点击展开）</summary>
 
 ```yaml
 info:
@@ -217,71 +217,71 @@ items:
 
 </details>
 
-### Flow rules
+### 流程规则
 
 #### `stop_if_last_success`
 
-Doesn't execute this and the next actions if the previous action **succeeded**.
+如果前方**最后**一个动作**执行成功**，则不执行该动作及以后的动作。
 
 #### `stop_if_last_fail`
 
-Doesn't execute this and the next actions if the previous action **failed**.
+如果前方**最后**一个动作**执行失败**，则不执行该动作及以后的动作。
 
 #### `skip_if_last_success`
 
-Doesn't execute this action if the previous action **succeeded**.
+如果前方**最后**一个动作**执行成功**，则不执行该动作。
 
 #### `skip_if_last_fail`
 
-Doesn't execute this action if the previous action **failed**.
+如果前方**最后**一个动作**执行失败**，则不执行该动作。
 
 #### `stop_if_any_success`
 
-Doesn't execute this and the next actions if **ANY** of the previous actions **succeeded**.
+如果前方**任意**一个动作**执行成功**，则不执行该动作及以后的动作。
 
 #### `stop_if_any_fail`
 
-Doesn't execute this and the next actions if **ANY** of the previous actions **failed**.
+如果前方**任意**一个动作**执行失败**，则不执行该动作及以后的动作。
 
 #### `skip_if_any_success`
 
-Doesn't execute this action if **ANY** of the previous actions **succeeded**.
+如果前方**任意**一个动作**执行成功**，则不执行该动作。
 
 #### `skip_if_any_fail`
 
-Doesn't execute this action if **ANY** of the previous actions **failed**.
+如果前方**任意**一个动作**执行失败**，则不执行该动作。
 
 #### `stop_if_success`
 
-Doesn't execute this and the next actions if a specific previous action **succeeded**.
+如果前方**特定**一个动作**执行成功**，则不执行该动作及以后的动作。
 
 #### `stop_if_fail`
 
-Doesn't execute this and the next actions if a specific previous action **failed**.
+如果前方**特定**一个动作**执行失败**，则不执行该动作及以后的动作。
 
 #### `skip_if_success`
 
-Doesn't execute this action if a specific previous action **succeeded**.
+如果前方**特定**一个动作**执行成功**，则不执行该动作。
 
 #### `skip_if_fail`
 
-Doesn't execute this action if a specific previous action **failed**.
+如果前方**特定**一个动作**执行失败**，则不执行该动作。
 
-### Special properties
+### 特殊属性
 
-`execute_commands` has a special property called `flow_success_if_message_contains`.\
-This allows you to identify when a console command didn't fail, for example if the player was teleported successfully, if the block was set etc.
+`execute_commands` 有一个叫做 `flow_success_if_message_contains` 的特殊属性。\
+这允许你识别控制台命令何时没有失败，例如玩家是否被成功传送，方块是否被设置等。
 
-The plugin normally can automatically identify success/fail of vanilla commands but not of plugins commands, so you might use this setting to identify if a command of a plugin failed.\
-For example you can set it to `"failed to teleport"` to identify if a teleport command failed (this is just an example).
+插件正常可以自动识别原版指令的成功/失败，但不能识别插件的指令。因此你可以使用该设置来判断某个插件的指令是否失败。\
+例如你可以将其设置为 `"failed to teleport"` 来判断传送指令是否失败（仅示例）。
 
-### Using vanilla `execute if`
+### 使用原版的 `execute if`
 
-In some cases you might want to do some specific checks on scoreboard, blocks and similar using the vanilla `/execute if` command.
+在某些情况下你可能需要使用原版 `/execute if` 指令对计分板、方块等做些特定的检查。
 
-#### Examples
+#### 示例
 
-This item makes the player teleport 2 blocks up only if the `example_score` value is 0.
+这个物品会在 `example_score` 值为 0 时将玩家向上传送两格。
 
 ```yaml
 info:
@@ -310,9 +310,9 @@ items:
               skip_if_fail: execute_commands_1
 ```
 
-This item sets the block at `~ ~-1 ~` to stone.\
-"Successfully set block!" message is printed if the command status is success.\
-The message is completely skipped if the command status is fail.
+这个物品会将坐标为 `~ ~-1 ~` 的方块设置为石头。\
+如果指令执行成功，会发送一条 "Successfully set block!" 信息。\
+如果指令执行失败，则会直接跳过信息。
 
 ```yaml
   test_flow_setblock:
@@ -337,9 +337,9 @@ The message is completely skipped if the command status is fail.
               skip_if_fail: execute_commands
 ```
 
-This item will execute a plugin command.\
-The plugin can't automatically identify plugins commands success/fail status, so you have to specify a text that can help the plugin to identify the command status.\
-For example I check if the result text contains `"Given item"` in order to know if the command was executed successfully.
+这个物品会执行一个插件指令。\
+插件无法自动识别插件命令的成功/失败状态，因此你必须指定一个文本来帮助插件识别命令状态。\
+例如我要检查结果文本是否包含 `Given item` 以获知指令是否成功执行。
 
 ```yaml
   test_flow_plugin_command:

@@ -1,43 +1,43 @@
 ---
-description: New advanced method to create custom mobs/entities
+description: 创建自定义怪物/实体的新高级方法
 ---
 
-# Entity creation
+# 实体创建
 
 {% hint style="warning" %}
-Do not abuse the spawning of these mobs.\
-The plugin is very optimized but it can cause lag if you are crazy enough to spawn 600+ entities in front of a player.
+不要滥用这些怪物的生成。\
+插件经过高度优化，但如果你疯狂地在玩家面前生成600多个实体，仍然会导致卡顿。
 {% endhint %}
 
 ![](../../../../.gitbook/assets/ezgif.com-gif-maker.webp)
 
 {% embed url="https://youtu.be/cQpIqExVpR0" %}
-Advanced animation features
+高级动画功能
 {% endembed %}
 
-### Main features
+### 主要功能
 
-* [Blockbench](https://www.blockbench.net/) extension to convert models
-* Completely Async, no TPS drops
-* Optimized for big servers
-* Damage animation
-* Fire animation when entity is on fire
-* Animate size of bones
-* Animate rotation of bones without angles limitations
-* Multiple mount seats
-* Play sounds and particles in animations
-* Show entity hands equipment
-* Custom hitbox
-* MythicMobs compatibility
-* Citizens compatibility
+* [Blockbench](https://www.blockbench.net/) 扩展以转换模型
+* 完全异步，不影响 TPS
+* 为大型服务器优化
+* 伤害动画
+* 实体着火时的火焰动画
+* 动画骨骼大小
+* 动画骨骼旋转无角度限制
+* 多个坐骑座位
+* 在动画中播放声音和粒子效果
+* 显示实体手部装备
+* 自定义碰撞箱
+* MythicMobs 兼容
+* Citizens 兼容
 
-### Limitations
+### 限制
 
-* Head bone rotation works only if the mob head is not too far from the center of the body
-* Pressing SHIFT on flying mobs to move down works only on 1.15, 1.17 and 1.18 clients as 1.16 clients have this bug: [https://bugs.mojang.com/browse/MC-202202](https://bugs.mojang.com/browse/MC-202202) .\
-  1.16 clients will see players flying if they press SHIFT while on a flying entity while they should still be riding the entity.
-* This plugin uses multiple entities to create the animation. \
-  Network delay can cause slight animation glitches. \
-  It can cause a little lag on servers if you spawn too many entities around players and if your models have too many bones.\
-  (NOTE: this plugin is highly optimized so you won't get lag if your server is not a potato)
-* Hitbox of Citizens NPCs can't be changed for now, it's a Citizens limitation &#x20;
+* 头骨旋转仅在怪物头部离身体中心不太远时有效
+* 在飞行怪物上按 SHIFT 向下移动仅在 1.15、1.17 和 1.18 客户端上有效，因为 1.16 客户端有这个 bug：[MC-202202](https://bugs.mojang.com/browse/MC-202202)。\
+  1.16 客户端在玩家按 SHIFT 时会看到玩家在飞行，而实际上他们应该仍然骑在实体上。
+* 该插件使用多个实体来创建动画。\
+  网络延迟可能会导致轻微的动画故障。\
+  如果你在玩家周围生成太多实体，并且你的模型有太多骨骼，可能会导致服务器有些卡顿。\
+  （注意：该插件经过高度优化，所以如果你的服务器不是很差劲，你不会遇到卡顿）
+* 目前无法更改Citizens NPC的碰撞箱，这是Citizens的限制

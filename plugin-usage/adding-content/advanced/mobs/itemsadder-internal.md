@@ -1,15 +1,15 @@
-# ItemsAdder internal
+# ItemsAdder 内创建
 
-## Creating your fist mob
+## 创建你第一个怪物
 
-You have to create a .yml file in your [namespace ](../../beginners/basic-concepts/namespace.md)folder \(check [other tutorials ](../../beginners/creating-your-namespace.md)for more info\).
+你需要在你的[命名空间](../../beginners/basic-concepts/namespace.md)文件夹下创建一个 .yml 文件 \(查看[其他教程](../../beginners/creating-your-namespace.md)\).
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../files-editor.md) to edit ItemsAdder files. It makes you life easier as it has autocomplete \(press CRTL+SPACE\) which helps you on avoiding mistakes.
+考虑使用[官方在线工具](../../../../files-editor.md)来编辑 ItemsAdder 文件。借助自动补全（ctrl+空格），可以避免一些错误以让你更轻松。
 {% endhint %}
 
-This is an example for a custom mob names Soul.  
-As you can see I set it up like a normal item, but with a special [behaviour ](../item-properties/behaviours.md)named **mob**.
+这是一个名为 Soul 的自定义怪物示例。
+如你所见，我像一个正常物品一样进行了设置，只是添加了一个叫做 **mob** 的特殊[行为](../item-properties/behaviours.md)。
 
 ```yaml
 info:
@@ -47,23 +47,24 @@ items:
              - DESERT_LAKES
 ```
 
-This behaviour tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT` and only in caves \(`max_sky_light: 0`\).  
-The mob will also have head rotation locked \(only on Y axis\), this will avoid it from looking stupid while looking at player when is at an higher position.
+该行为让 ItemsAdder 以 20% 的`几率`在`午夜`替换任意在洞穴（`max_sky_light: 0`）中自然生成的 `ZOMBIE`。
+该怪物头颅的旋转也有所限制（仅在 Y 轴），这会避免怪物在高处看见玩家时变得滑稽。
 
-`hit_color` is the color the mob will have when damaged by player.   
-You can get a valid color from these websites:  
+当该怪物被玩家击伤时，会显示 `hit_color` 的颜色。
+你可以在这些网站查看有效颜色：
 [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)  
 [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)  
-[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) \(use one of the color pickers and copy the value from the right\)
+[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/)\
+\(使用其中一个颜色选择器并从右侧复制\)
 
 {% hint style="info" %}
-Note: I **skipped** the `material` property of `resource` because **it's not needed** for **mobs**, ItemsAdder will automatically handle it.
+注意：我**跳过**了 `resource` 的 `material` 属性，因为对**怪物**来说**不需要**，ItemsAdder 会自动解决。
 {% endhint %}
 
-### Animations
+### 动画
 
-You probably noticed that there are two other attributes: `attack` and `walk` **animations**.  
-These are infact other items you have to create like this:
+你可能注意到有两个额外属性：`attack` 与 `walk` **动画**.  
+这些实际上是你必须像这样创建的项目：
 
 ```yaml
   soul_walking:
@@ -86,7 +87,7 @@ These are infact other items you have to create like this:
       mob_animation: true
 ```
 
-## Final result
+## 最终结果
 
 ```yaml
 info:
@@ -139,9 +140,9 @@ items:
 
 ![](../../../../.gitbook/assets/image%20%2816%29.png)
 
-## Spawn the mob naturally
+## 自然生成怪物
 
-To spawn the mob naturally you have to setup the `replace_mobs_spawn` property.
+为了自然生成该怪物，你需要设置 `replace_mobs_spawn` 属性。
 
 ```yaml
   soul:
@@ -171,7 +172,7 @@ To spawn the mob naturally you have to setup the `replace_mobs_spawn` property.
               start: MIDNIGHT
 ```
 
-You can create as much as replace rules as you want, for example if you want to replace both `ZOMBIE` and `SKELETON` you can create a second rule
+你可以创建尽可能多的替换规则，例如你想要同时替换 `ZOMBIE` 与 `SKELETON`，你可以创建第二条规则。
 
 ```yaml
         replace_mobs_spawn:
@@ -191,8 +192,8 @@ You can create as much as replace rules as you want, for example if you want to 
               start: NOON
 ```
 
-You can decide if to **replace** the mob **or** to **spawn** the custom **mob without replacing** the **original** one.  
-You have to use the `spawn_another` property.
+你可以决定是否**替换**怪物或**生成而不替换原有怪物**。\
+你需要使用 `spawn_another` 属性。
 
 ```yaml
           rule3:

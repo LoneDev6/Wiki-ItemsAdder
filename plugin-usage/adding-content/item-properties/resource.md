@@ -1,18 +1,18 @@
 ---
-description: Properties that allows customization of item graphics
+description: 允许自定义物品图像的属性
 icon: file-image
 ---
 
-# Resource
+# 资源
 
 {% hint style="danger" %}
-Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files (png) and model files (json)
+确保你没有在资源的名称、命名空间、纹理文件名称 (png) 以及模型文件 (json) 中使用**大写字母**或**特殊字符**。
 {% endhint %}
 
-## Automatic generation
+## 自动生成
 
-In order to tell ItemsAdder which texture/model use for an item you have to add the `resource` attribute.\
-This is an example:
+为了让 ItemsAdder 知道应该为物品加载哪个纹理/模型，你需要添加 `resource` 属性。\
+示例：
 
 ```yaml
   resource:
@@ -22,27 +22,27 @@ This is an example:
     - item/example_item.png
 ```
 
-`material` is the vanilla material this item will use as base.
+`material` 是该物品对应的原版材料
 
-`generate` tells to IA if it needs to generate the item model automatically based on textures you listed
+`generate` 告诉 ItemsAdder 是否依据你列出的纹理自动生成模型
 
-`textures` is the list of textures IA will use to generate the model automatically.
+`textures` 是 ItemsAdder 用于自动生成模型的纹理
 
-### Where do I put textures?
+### 我应该在哪里放纹理？
 
-Textures you listed in the `textures` attribute must be placed in the right folder.\
-So if you set `textures` like in the example and your **namespace** (is for example) `my_items` you will have to put `example_item.png`  file inside this folder: `contents/my_items/textures/item`
+你在 `textures` 属性中列出的纹理必须放到正确的文件夹。\
+所以如果你像示例一样设置了 `textures`，并且**命名空间**（假如）是 `my_items`，你需要将 `example_item.png` 放到 `contents/my_items/textures/item`。
 
-If the path doesn't exists create all the folders needed.
+如果目录不存在，请创建该目录。
 
 {% hint style="info" %}
-You can avoid setting `.png` in the `textures` attribute, ItemsAdder will recognize the file automatically
+你可以不在 `textures` 属性中添加 `.png` 后缀， ItemsAdder 会自动识别。
 {% endhint %}
 
-## Use your own 3D custom model (`.json` file)
+## 使用 3D 模型 (`.json` file)
 
-If you have a custom modelled sword or item you can tell IA not to generate the model automatically.\
-This is an example:
+如果你有一个自定义了模型的剑或物品，你可以让 ItemsAdder 停止自动生成模型。\
+示例：
 
 ```yaml
   resource:
@@ -51,18 +51,18 @@ This is an example:
     model_path: item/floating_sword
 ```
 
-### Where do I put my model?
+### 我应该在哪里放模型？
 
-Model you set in the `model_path` attribute must be placed in the right folder.\
-So if you set `model_path` like in the example and your **namespace** (is for example) `my_items` you will have to put `floating_sword.json` file inside this folder: `contents/my_items/models/item`
+你在 `model_path` 属性中列出的模型必须放到正确的文件夹。\
+所以如果你像示例一样设置了 `model_path`，并且**命名空间**（假如）是 `my_items`，你需要将 `floating_sword.json` 放到 `contents/my_items/models/item`。
 
-If the path doesn't exists create all the folders needed.
+如果目录不存在，请创建该目录。
 
-### **My textures are not working!**
+### **纹理不生效**
 
 {% hint style="warning" %}
-If your custom model textures are not showing you have to open your model file and fix the textures path.\
-For example if you had this:
+如果你的自定义模型纹理不显示，你需要打开模型文件，修复纹理路径。\
+例如你有：
 
 ```yaml
   {
@@ -74,7 +74,7 @@ For example if you had this:
   },
 ```
 
-You have to change it to this (`your_namespace` is your [namespace ](broken-reference)folder):
+你需要将其改为如下内容 (`your_namespace` 是你的[命名空间](broken-reference))：
 
 ```yaml
 {
@@ -87,23 +87,23 @@ You have to change it to this (`your_namespace` is your [namespace ](broken-refe
 ```
 {% endhint %}
 
-## Transparent textures (glass and similar)
+## 透明纹理（玻璃或相似的物品）
 
-### Furniture&#x20;
+### 家具
 
 {% content-ref url="../advanced-furniture-properties/transparent-furniture.md" %}
-[transparent-furniture.md](../advanced-furniture-properties/transparent-furniture.md)
+[透明家具](../advanced-furniture-properties/transparent-furniture.md)
 {% endcontent-ref %}
 
-### Blocks
+### 方块
 
 {% content-ref url="../block.md" %}
-[block.md](../block.md)
+[方块](../block.md)
 {% endcontent-ref %}
 
-## Manually specify custom\_model\_data
+## 手动指定 custom\_model\_data
 
-If you want to force the usage of a defined `custom_model_data` (`CustomModelData`) you can:
+如果你想强制使用 `custom_model_data` (`CustomModelData`) 你可以：
 
 ```yaml
     resource:
@@ -113,7 +113,7 @@ If you want to force the usage of a defined `custom_model_data` (`CustomModelDat
       model_path: "item/my_custom_item_model"
 ```
 
-You can also tell ItemsAdder to automatically generate the model based on the texture:
+你也可以让 ItemsAdder 以纹理为基础自动生成模型：
 
 ```yaml
 info:
@@ -129,29 +129,29 @@ items:
 ```
 
 {% hint style="warning" %}
-### **IMPORTANT**
+### **重要**
 
-If you previously created this item and already used `/iazip` command and now you change the `model_id` you have to use this command.\
-It's **very important** to run the command `/iacleancache items` to **remove unused IDs** and **update** the **changed ID**.
+如果您之前创建了此物品，并且已经使用了 `/iazip` 命令，现在更改了 `model_id`，则必须使用此命令。\
+运行 `/iacleancache items` 来**移除未使用的 ID** 并**更新改变了的 ID** 很重要。
 {% endhint %}
 
-## Creating 3D models
+## 创建 3D 模型
 
-To create custom models I use [BlockBench ](https://blockbench.net/)which is a free, easy to use and amazing tool to make Minecraft model.
+我使用 [BlockBench](https://blockbench.net/) 来创建 Minecraft 模型。
 
 {% embed url="https://www.youtube.com/watch?v=aaJ8XgMAOno" %}
 
-### Creating 3D model from a texture
+### 从纹理创建 3D 模型
 
 {% embed url="https://www.youtube.com/watch?v=CSWxrAqjrKA" %}
 
 {% hint style="warning" %}
-**Important**
+**重要**
 
-If you're using a **non-vanilla** texture (your **.png** file) you have to open the **.json** file of your model and do a little edit.
+如果你在使用**非原版**纹理（png 文件），你需要打开模型的 .json 文件，进行些许修改。
 
-If your model is using a custom texture you have to make sure to put your namespace in front of the texture name.\
-For example if you have this 3D model and the texture has this path: `contents/my_items/textures/item/custom_item_1.png`
+如果您的模型使用自定义纹理，则必须确保将命名空间放在纹理名称之前。\
+比如你 3D 模型的纹理路径为：`contents/my_items/textures/item/custom_item_1.png`
 
 ```javascript
  "textures":{
@@ -159,7 +159,7 @@ For example if you have this 3D model and the texture has this path: `contents/m
    },
 ```
 
-you have to add the **namespace** in front of it (`myitems` in my example, you have to use your namespace).
+你需要在前面添加**命名空间**（本例为 `myitems`）。
 
 ```javascript
  "textures":{

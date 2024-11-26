@@ -2,5 +2,5 @@
 icon: list-check
 ---
 
-# Advanced block properties
+# 高级方块属性
 

@@ -1,32 +1,31 @@
 ---
 description: >-
-  Allows you to create images which can be used in texts, also known as glyphs
-  and symbols
+  允许你创建可以在文本中使用的图像，也称为字形和符号
 icon: icons
 ---
 
-# Font Images
+# 字体图像
 
-### What are Font images?
+### 什么是字体图像？
 
-This feature allows you to create images that can be used to make: **GUIs**, **HUDs**, **Emojis**, custom characters,[ **custom player prefixes**](../ranks-prefixes.md) and anything else you imagine! (you can put these images inside any text).
+此功能允许你创建可以用于制作：**GUI**、**HUD**、**表情符号**、自定义字符、[**自定义玩家前缀**](../ranks-prefixes.md)和你能想象到的任何其他内容的图像！（你可以将这些图像放在任何文本中）。
 
-## Tutorials
+## 教程
 
 {% content-ref url="../ranks-prefixes.md" %}
-[ranks-prefixes.md](../ranks-prefixes.md)
+[等级前缀](../ranks-prefixes.md)
 {% endcontent-ref %}
 
 {% content-ref url="emojis.md" %}
-[emojis.md](emojis.md)
+[表情符号](emojis.md)
 {% endcontent-ref %}
 
-## Use specific a character
+## 使用特定字符
 
-ItemsAdder will decide the custom character for you if you don't include the `symbol` property at all.\
-You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.
+如果你没有包含 `symbol` 属性，ItemsAdder 将为你决定自定义字符。\
+你不必为每个 `emoji`/`font_image` 担心，但如果你确实需要指定用于自定义 `font_image` 的自定义字符，你可以使用特殊属性 `symbol`。
 
-#### For example:
+#### 例如：
 
 ```yaml
 smile:
@@ -38,17 +37,17 @@ smile:
   y_position: 8
 ```
 
-Minecraft will show the smile emoji every time you write `鄿` in chat.
+Minecraft 将在你每次在聊天中输入 `鄿` 时显示笑脸表情符号。
 
-## I don't care about ItemsAdder font\_image, I want to handle `default.json` by myself
+## 我不关心 ItemsAdder font\_image，我想自己处理 `default.json`
 
-You can do it, you just have to create a `default.json` file and handle it on your own.
+你可以这样做，你只需要创建一个 `default.json` 文件并自行处理。
 
 {% content-ref url="manually-creating-font-images.md" %}
-[manually-creating-font-images.md](manually-creating-font-images.md)
+[手动创建字体图像](manually-creating-font-images.md)
 {% endcontent-ref %}
 
-## Examples of content created with Font images feature
+## 使用字体图像功能创建的内容示例
 
 ![](../../../.gitbook/assets/image\_\(106\).png)
 
