@@ -1,8 +1,8 @@
-# Simple
+# 简单用法
 
-## Examples
+## 示例
 
-### Command: give custom item
+### 资料你个：给予玩家自定义物品
 
 ```yaml
 command /iaskriptgetitem <text> [<number=1>]:
@@ -16,7 +16,7 @@ command /iaskriptgetitem <text> [<number=1>]:
       message "Obtained custom item %arg 1%"
 ```
 
-### Command: is holding custom item
+### 指令：是否手持自定义物品
 
 ```yaml
 command /iaskriptiscustomitem:
@@ -27,7 +27,7 @@ command /iaskriptiscustomitem:
       message "it's not a custom item"
 ```
 
-### FontImage (emojis, GUIs etc.)
+### 字体图像（标签，GUI 等）
 
 ```yaml
 command /emojitest:

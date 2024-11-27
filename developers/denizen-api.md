@@ -5,32 +5,32 @@ icon: terminal
 # Denizen API
 
 {% hint style="warning" %}
-Needs ItemsAdder 3.2.4+
+需要 ItemsAdder 3.2.4+
 {% endhint %}
 
-## Download latest build
+## 下载最新构建
 
 {% embed url="https://ci.citizensnpcs.co/job/Denizen/" %}
 
-## Features
+## 功能
 
-<pre class="language-yaml"><code class="lang-yaml"><strong># Check if item is a custom item
+<pre class="language-yaml"><code class="lang-yaml"><strong># 检查物品是否为自定义物品
 </strong><strong>player.item_in_hand.is_ia_item
-</strong># Check if item is a custom block
+</strong># 检查物品是否为自定义方块
 player.item_in_hand.is_ia_block
-# Get item namespaced id
+# 获取物品命名空间 ID
 player.item_in_hand.ia_namespaced_id
 
-# Place a custom block.
-# Syntax set_custom_block [&#x3C;location>|...] [&#x3C;namespaced_id>]
+# 放置自定义方块。
+# 语法 set_custom_block [&#x3C;location>|...] [&#x3C;namespaced_id>]
 set_custom_block &#x3C;context.location> ruby_block 
-# Check if block is a custom block
+# 检查方块是否为自定义方块
 context.location.is_ia_block
-# Get block namespaced id
+# 获取方块命名空间 ID
 context.location.ia_namespaced_id
 </code></pre>
 
-## Examples
+## 示例
 
 ```yaml
 my_world_script:

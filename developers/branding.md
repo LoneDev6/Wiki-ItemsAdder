@@ -2,16 +2,16 @@
 icon: trademark
 ---
 
-# Branding
+# ItemsAdder 标识
 
-## Download branding assets
+## 下载 ItemsAdder 标识资源
 
-The below ZIP file contains assets that you can use for your resource page or in your own assets related to ItemsAdder.\
-Make sure to read the [Usage terms](branding.md#usage-terms) before doing anything though.
+以下 ZIP 文件包含您可以用于资源页面或与 ItemsAdder 相关的资源。\
+不过，在执行任何操作之前，请务必阅读[使用条款](branding.md#usage-terms)。
 
 {% file src="../.gitbook/assets/itemsadder_branding.zip" %}
 
-### Preview of the zip content
+### ZIP 内容预览
 
 ![logos](<../.gitbook/assets/image (44) (1) (1) (1).png>)
 
@@ -19,22 +19,22 @@ Make sure to read the [Usage terms](branding.md#usage-terms) before doing anythi
 
 ![addon-banner](../.gitbook/assets/ia\_addon\_banner.png)
 
-## Usage terms
+## 使用条款
 
-You **can** use the assets...
+您**可以**在以下情况下使用这些资产：
 
-* on resource pages for Add-ons and/or plugins supporting ItemsAdder that you own.
-* in own images for your resources.
+* 在您拥有的支持 ItemsAdder 的插件和/或附加组件的资源页面上。
+* 在您资源的自定义图片中。
 
-...under the following conditions:
+...但需遵守以下条件：
 
-* You do not claim ownership over the assets. Original ownership stays with LoneDev, the developer of ItemsAdder.
-* You do not claim to have created those assets yourself.
-* You do not use the assets or part of them to create your own resource logo.
-* You do not redistribute the assets. This includes but isn't limited to modified versions of both the ZIP file and the actual files themself.
-* Give credit to the original branding page (This one) by linking to it.
-* The images may only be used to cite ItemsAdder.
+* 您不得声称拥有这些资产的所有权。原始所有权归 ItemsAdder 的开发者 LoneDev 所有。
+* 您不得声称自己创建了这些资产。
+* 您不得使用这些资产或其部分来创建您自己的资源标志。
+* 您不得重新分发这些资产。这包括但不限于修改后的 ZIP 文件和实际文件本身。
+* 请通过链接到此页面来给予原始品牌页面（本页面）以信用。
+* 这些图片只能用于引用 ItemsAdder。
 
-## Credits
+## 致谢
 
-* Thanks to Andre\_601 for the creation of the `ia_addon_banner` file
+* 感谢 Andre\_601 创建 `ia_addon_banner` 文件

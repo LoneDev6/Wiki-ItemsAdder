@@ -1,11 +1,11 @@
-# API Utilities
+# API 实用工具
 
-## API Utilities
+## API 实用工具
 
-These are some static utilities to fast get some information.
+这些是一些静态实用工具，用于快速获取一些信息。
 
 {% hint style="warning" %}
-Note that these static utility methods are for lazy usage, you should use the other API classes instead.
+请注意，这些静态实用方法是为了懒人使用，你应该使用其他 API 类。
 {% endhint %}
 
 ```java
@@ -29,10 +29,10 @@ public static boolean isFurniture(Entity entity)
 public static boolean matchCustomItemName(ItemStack itemStack, String customItemName)
 ```
 
-## Old API methods
+## 旧 API
 
 {% hint style="warning" %}
-This is the old API, it's still available and working fine.
+这是一些旧的 API，但仍能使用，且可以正常工作。
 {% endhint %}
 
 ```java

@@ -1,12 +1,12 @@
-# Usage
+# 用法
 
-## Getting the API
+## 获取 API
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder" %}
 
-## Custom items - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)
+## 自定义物品 - [文档](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)
 
-#### Getting a custom item of any type (block, item, hat, food etc.) by id or namespace:id
+#### 通过 id 或 namespace:id 获取任何类型的自定义物品（方块、物品、帽子、食物等）
 
 ```java
 CustomStack stack = CustomStack.getInstance("your_item")
@@ -20,13 +20,13 @@ else
 }
 ```
 
-#### Checking if a custom item exists
+#### 检查自定义物品是否存在
 
 ```java
 CustomStack.isInRegistry("your_item")
 ```
 
-#### Obtaining the CustomStack from a Bukkit ItemStack
+#### 从 Bukkit ItemStack 获取 CustomStack
 
 ```java
 CustomStack stack = CustomStack.byItemStack(myItemStack);
@@ -42,15 +42,15 @@ else // It's not a custom item!
 }
 ```
 
-## Custom Blocks - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomBlock.java)
+## 自定义方块 - [文档](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomBlock.java)
 
-#### Check if a custom block exists
+#### 检查自定义方块是否存在
 
 ```java
 CustomBlock.isInRegistry("your_item")
 ```
 
-#### Check if world block is a custom blocks
+#### 检查世界上的方块是否为自定义方块
 
 ```java
 CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
@@ -64,7 +64,7 @@ else
 }
 ```
 
-#### Place custom block
+#### 放置自定义方块
 
 ```java
 CustomBlock customBlock = CustomBlock.getInstance("ruby_ore");
@@ -78,9 +78,9 @@ else
 }
 ```
 
-## Custom entity - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomEntity.java)
+## 自定义实体 - [文档](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomEntity.java)
 
-#### Spawn a custom mob by id or namespace:id
+#### 通过 id 或 namespace:id 生成自定义生物
 
 ```java
 CustomEntity customEntity = CustomEntity.spawn("your_item", location)
@@ -97,7 +97,7 @@ else
 }
 ```
 
-### Get custom entity by an already spawned Bukkit entity
+### 通过已生成的 Bukkit 实体获取自定义实体
 
 ```java
 CustomEntity customEntity = CustomEntity.byAlreadySpawned(entity)
@@ -114,9 +114,9 @@ else
 }
 ```
 
-## Liquids API
+## 液体 API
 
-Please also install [IALiquids ](https://www.spigotmc.org/resources/84386)addon to have some test liquids
+请同时安装 [IALiquids ](https://www.spigotmc.org/resources/84386)插件以测试液体
 
 ```java
 @EventHandler
@@ -133,9 +133,9 @@ void interact(PlayerInteractEvent e)
 }
 ```
 
-## Changing HUD values with API
+## 使用 API 更改 HUD 值
 
-### Setting a float value in a Frames Hud
+### 在 Frames Hud 中设置浮点值
 
 ```java
 PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
@@ -143,7 +143,7 @@ PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrap
 hud.setFloatValue(1f);
 ```
 
-### Making a HUD visible.
+### 使 HUD 可见
 
 ```java
 PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
@@ -151,11 +151,11 @@ PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrap
 hud.setVisible(true);
 ```
 
-## Old stuff:
+## 旧内容：
 
-### Custom mobs <mark style="color:orange;">(old)</mark> - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)
+### 自定义生物 <mark style="color:orange;">(旧)</mark> - [文档](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)
 
-#### Spawn a custom mob by id or namespace:id
+#### 通过 id 或 namespace:id 生成自定义生物
 
 ```java
 CustomMob customMob = CustomMob.spawn("your_item", location)
@@ -172,7 +172,7 @@ else
 }
 ```
 
-#### Get custom mob by mob already spawned in the world
+#### 通过已生成的生物获取自定义生物
 
 ```java
 CustomMob customMob = CustomMob.byAlreadySpawned(entity)

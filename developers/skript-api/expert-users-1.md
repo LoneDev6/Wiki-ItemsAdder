@@ -1,24 +1,24 @@
-# Expert users
+# 进阶用法
 
-## Installing the required dependencies
+## 安装所需依赖
 
-* Install [skript](https://github.com/SkriptLang/Skript/releases/latest)
-* Install [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/latest)
+* 安装 [skript](https://github.com/SkriptLang/Skript/releases/latest)
+* 安装 [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/latest)
 
 {% hint style="info" %}
-To get more info about **skript-reflect** please read its [wiki](https://tpgamesnl.gitbook.io/skript-reflect/)
+要了解更多关于 **skript-reflect** 的信息，请阅读其 [wiki](https://tpgamesnl.gitbook.io/skript-reflect/)
 {% endhint %}
 
 {% hint style="danger" %}
-#### Please **do not ask** for **support** for **skript** related issues or questions.
+#### 请**不要**就 **skript** 相关问题或疑问**寻求支持**。
 
-I'm not a skript expert and I'm not the developer of **skript** nor **skript-reflect**.\
-**Every question about skript will be ignored**, I hope you understand.
+我不是 skript 专家，也不是 **skript** 或 **skript-reflect** 的开发者。\
+**所有关于 skript 的问题将被忽略**，希望您能理解。
 {% endhint %}
 
-## Examples
+## 示例
 
-### Getting item on command
+### 在命令中获取物品
 
 ```yaml
 import:
@@ -30,7 +30,7 @@ command /iaskript:
     sender.getInventory().addItem({testItem})
 ```
 
-### Check if clicked block is custom block
+### 检查点击的方块是否为自定义方块
 
 ```yaml
 import:
@@ -52,7 +52,7 @@ on PlayerInteractEvent:
         event.getPlayer().sendMessage("%{_name}%")
 ```
 
-### Custom GUI
+### 自定义 GUI
 
 ```yaml
 import:
@@ -83,7 +83,7 @@ on inventory close:
 	remove player from {players::*}
 ```
 
-### Change HUD value
+### 更改 HUD 值
 
 ```yaml
 import:
@@ -100,7 +100,7 @@ command /healme:
             	set the player's food level to 10
 ```
 
-Item menu
+### 物品菜单
 
 ```yaml
 import:
