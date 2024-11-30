@@ -1,11 +1,11 @@
-# 行为属性（Behaviours）
+# 行为
 
-什么是行为属性?
+什么是行为？
 
-行为属性是使已导入的物品执行特定的操作.\
-这些行为类型已经包含在插件中，向物品添加一些已经写入的功能
+行为是物品将执行的一组**已编辑好**的**动作**，这些动作**不是原版**的。\
+这些**行为**已经包含在插件中，并将允许您为物品添加一些已编码的功能。
 
-### 内置的行为属性列表
+### 插件中包含的行为列表
 
 * `block_trade_machine`
 * `furniture_trade_machine`
@@ -25,17 +25,16 @@
 * `vehicle`
 
 {% hint style="info" %}
-您可以通过官方编辑器获得如何使用这些行为的建议:
+您可以使用官方编辑器获取如何使用这些行为的建议：
 {% endhint %}
 
 ```yaml
-
-# 该行为属性能够允许你在使用下列物品时打开交易界面
-# 例如： black_fishing_rod 、 red_fishing_rod
+# This behaviour allows you to open a trade GUI with the following items
+# For example black_fishing_rod and red_fishing_rod
 block_trade_machine:
   title: "Your title"
-  permission: "mypermission.trade.example" # <--- 可选项
-  gui_texture: ###可选项, 取决于你是否要自定义该界面的UI
+  permission: "mypermission.trade.example" # <--- this is optional
+  gui_texture: ###THIS IS OPTIONAL, use it only to retexture the GUI
     left: customization_table_left
     right: customization_table_right
   trades_list:
@@ -63,18 +62,19 @@ block_trade_machine:
         amount: 1
         
 furniture_trade_machine:
-# ....... 类似于 block_trade_machine 属性
+# ....... it's the same as block_trade_machine
 
    
-# 当你右键放置该物品时，该物品将会与盔甲架一同放置在地上，该物品会装备在盔甲架的头盔上（盔甲架是隐形的）
+# When you rightclick with that item it will be placed on the ground with an
+# armorstand. The armorstand will have the item as helmet and will be invisible.
 furniture:
-  entity: armor_stand # 你也可以设置为 item_frame (在 1.16+ 版本中效果更好)
+  entity: armor_stand # you can also use item_frame (works better on 1.16+)
   small: true
   gravity: true
   fixed_rotation: false
   light_level: 7  
   solid: false
-  opposite_direction: false #在放置模型时进行180°旋转
+  opposite_direction: false #makes the model rotate 180 when placed
   hitbox:
     length: 2
     width: 2.3
@@ -87,33 +87,37 @@ furniture:
     ceiling: false
     floor: true
 
-# 如果你在 "furniture" 属性下添加下列行为属性，将使模型能够以自定义的高度坐在家具模型上
+# If you add this behaviour and "furniture" behaviour you will be able to sit
+# on the furniture at the defined height.
 furniture_sit:
   sit_height: 0.9
   opposite_direction: true #default is true
-  # 坐在每个屏障方块上（用于有多个座位的家具上）
+  # Sit on every BARRIER block of the furniture (for multi-seats chairs)
   sit_all_solid_blocks: false
   
 
-# 使物品作为枪械，你可以定义玩家的左手需要手持什么物品才能够进行射击
+# Allows you to use this item as a gun. You can decide which projectile must
+# be hold on left hand in order to shot.
 gun:
   projectile: itemsadder:clip
   
 
-# 使物品能够作为帽子来佩戴
+# Allows you to use the current item as hat (same vanilla helmet behaviour)
 hat: true
 
-# 允许该物品在玩家死亡时不掉落
+# Allows you to make the item stay in player inventory on death
 keep_on_death: true
 
-# 使物品作为音乐唱片来播放自定义音频
+# Allows you to use the current item as a vanilla music disc.
+# Remember that you will have to create a custom sound to be able
+# to play something.
 music_disc:
   song:
     name: "itemsadder:music_disc.cdk_sunday"
     description: "Cdk - Sunday"
     
 
-# 将当前物品设置为载具
+# Allows you to use the current item as a ridable vehicle
 vehicle:
   fixed_rotation: false
   small: true
@@ -143,7 +147,8 @@ vehicle:
       z: -0.8
 ```
 
+## 使用官方文件编辑器阅读所有属性
 
-
-
-
+{% content-ref url="../../files-editor.md" %}
+[文件编辑器](../../files-editor.md)
+{% endcontent-ref %}

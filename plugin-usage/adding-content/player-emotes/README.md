@@ -1,27 +1,28 @@
 ---
-描述: 为玩家添加表情动作
+description: 添加动画玩家表情
+icon: person-walking
 ---
 
-# 💃 表情动作
+# 玩家表情
 
 {% hint style="warning" %}
-版本需求：**ItemsAdder v3.0.5+** **Minecraft 1.17+**.\
-该特性处于测试阶段.
+此方法需要 **Minecraft 1.17+ 客户端。**\
+**旧客户端无法看到，这是游戏本身的限制！**
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=posxlbudF8I" %}
 
-### 主要特点
+### 主要功能
 
-* 独立开发了为 Minecraft 玩家模型制作动画的 [Blockbench](https://www.blockbench.net/) 扩展
-* 完全使用异步处理，不会造成TPS降低
-* 针对大型服务器进行了优化
-* 在动画中使用声音和粒子
-* 显示玩家的手持装备
+* [Blockbench](https://www.blockbench.net/) 拓展以动画化 Minecraft 玩家模型
+* 完全异步，不影响 TPS
+* 为大型服务器优化
+* 在动画中播放声音和粒子效果
+* 显示玩家的手和头盔装备
 
-## 局限性
+## 限制
 
-* 目前无法显示玩家的盔甲装备
-* 仅使用于 Minecraft 1.17+ 
-* 使用光影mod（Optifine, Iris）时会导致渲染错误, [更多详情](../../../faq/emotes-bugs/textures-broken-by-shaders-mod.md).
-* 某些情况下，放置的头颅无法正常显示, [更多详情](../../../faq/emotes-bugs/placed-heads-texture-glitched.md).
+* 不会显示玩家的盔甲装备，只显示主手、副手和头盔。
+* 仅适用于 Minecraft 1.17+
+* 光影模组（_**Optifine**_, _**Iris**_）可能会导致渲染问题，[在这里阅读更多](../../../faq/broken-emote-textures.md)。
+* 放置的头颅在某些情况下不会正确显示，[在这里阅读更多](../../../faq/placed-heads-texture-glitched.md)。

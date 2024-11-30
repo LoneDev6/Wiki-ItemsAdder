@@ -13,6 +13,10 @@ Then, after the branch creation, open the [**Github** repository](https://github
 
 ![](<../.gitbook/assets/image (99) (1).png>)
 
+Untick this option!
+
+<figure><img src="../.gitbook/assets/image (2) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+
 Click here to change the branch.
 
 {% hint style="warning" %}

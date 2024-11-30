@@ -1,12 +1,12 @@
 # 剑
 
 {% hint style="danger" %}
-如果你不知道该如何创建命名空间 [请阅读该教程](../creating-your-namespace.md).
+如果你还没有创建命名空间，请按照[命名空间教程](../creating-your-namespace.md)进行操作。
 {% endhint %}
 
-## 我的第一把自定义剑
+## 我的第一把剑
 
-示例 自定义的剑\(记得将 myitems 命名空间更改为您想要的命名空间\)
+这是一个示例剑（记得将 myitems 命名空间更改为你想要的）
 
 ```yaml
 info:
@@ -25,7 +25,7 @@ items:
   
 ```
 
-### 设置材质
+### 设置纹理
 
 {% page-ref page="../item-properties/resource/" %}
 

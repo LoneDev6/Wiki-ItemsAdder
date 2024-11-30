@@ -1,6 +1,6 @@
-# 载具异常
+# 载具问题
 
-如果载具出现异常 (例如车辆放置后陷入地面) 请打开 Worldguard 插件的 config.yml 并且将 block-plugin-spawning: 设置为 false
+如果你遇到载具出现问题（如被卡在地下或其他奇怪的问题），请打开WorldGuard的config.yml文件并设置以下内容：
 
 ```text
 block-plugin-spawning: false

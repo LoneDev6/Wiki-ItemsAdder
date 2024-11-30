@@ -1,27 +1,24 @@
-# 能否新增自定义台阶、楼梯、三叉戟、盔甲……
+# 我可以创建台阶、楼梯、三叉戟、盔甲等吗？
 
-### 可放置的自定义台阶、楼梯
+### 可放置的
 
 {% hint style="warning" %}
- 除了方块以外无法创建具有碰撞箱的自定义台阶，楼梯和可放置的物品.
- 问题是Minecraft会因为这个[bug](https://bugs.mojang.com/browse/MC-54254)会将其显示为透明方块（如果想实现自定义台阶、楼梯必须得等mojang修复该bug）
- 还有另一个重要的原因是由于Minecraft的限制 无法更改方块的碰撞箱
+你不能创建实心的自定义台阶、楼梯和其他实心可放置物品。问题是 Minecraft 会将它们显示为透明方块，因为这个 bug：[MC-54254](https://bugs.mojang.com/browse/MC-54254) 当 Mojang 修复这个 bug 时（添加一个可以打开或关闭的特殊标签，现在它总是打开的。**"Opaque"**），你将能够创建自定义形状的方块。
+
+另一个原因是我不能改变方块的碰撞箱.. 不幸的是，这是 Minecraft 的另一个限制。
 {% endhint %}
 
 ### 三叉戟
 
 {% hint style="warning" %}
-无法为投掷的三叉戟使用自定义模型
- [CustomModelData无法应用至投掷出的三叉戟](https://bugs.mojang.com/browse/MC-155286)
+你不能为投掷的三叉戟创建自定义模型，因为这是一个我无法修复的 Minecraft bug：[MC-155286](https://bugs.mojang.com/browse/MC-155286)
 {% endhint %}
 
 ### 盔甲
 
 {% hint style="warning" %}
-~Minecraft 无法以任何方式向盔甲添加自定义材质/自定义 3D 盔甲模型~
-~你可以更改盔甲的颜色，但无法更改其材质~
-<br>
-（雾）（实际上有很多种方法，本wiki中也有实现方法，详情参阅插件用法指南）
+Minecraft 不允许你以任何方式添加自定义纹理/自定义 3D 模型到盔甲上。  
+你可以使它们变色，但不能改变纹理。
 {% endhint %}
 
 {% page-ref page="../plugin-usage/adding-content/creating-a-custom-item/armor.md" %}

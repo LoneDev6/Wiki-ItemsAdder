@@ -1,14 +1,14 @@
-# ItemsAdder 内部
+# 使用 ItemsAdder
 
 ## 使用 ItemsAdder 自然生成怪物
 
-您需要设置 `replace_mobs_spawn` 属性, 让怪物自然地生成.
+要自然生成怪物，你需要设置 `replace_mobs_spawn` 属性。
 
-以下是一个被命名为 **Soul** 的自定义怪物示例.\
-正如您所见, 我将其设置为一个普通物品; 但不同的是, 它还具有一个命名为 **mob** 的 [behaviour（行为） ](../../../item-properties/behaviours.md) .
+这是一个名为 **Soul** 的自定义怪物的示例。\
+如你所见，我将其设置为一个普通物品，但具有一种特殊的[行为](../../../item-properties/behaviours.md)，名为 **mob**。
 
 \
-此示例配置会让 ItemsAdder 在 `MIDNIGHT（午夜）` 时分的洞穴环境 (`max_sky_light: 0`) 内, 以 20% 的 `概率` 替换所有自然生成 `ZOMBIE（僵尸）`.
+此示例配置告诉 ItemsAdder 以 20% 的 `几率` 在 `午夜` 并且仅在洞穴中（`max_sky_light: 0`）替换任何自然生成的 `ZOMBIE`。
 
 ```yaml
   soul:
@@ -42,7 +42,7 @@
              - DESERT_LAKES
 ```
 
-您可以创建任意数量的 replace（替换）规则, 例如: 您想同时 `ZOMBIE（僵尸）` 和 `SKELETON（骷髅）`, 您就可以创建第二条规则
+你可以创建任意多的替换规则，例如，如果你想同时替换 `ZOMBIE` 和 `SKELETON`，你可以创建第二个规则
 
 ```yaml
         replace_mobs_spawn:
@@ -62,8 +62,8 @@
               start: NOON
 ```
 
-您可以自行决定时 **替换** 怪物实体 **或是** 不替换 **原版怪物** 的情况下 **生成** 怪物实体.\
-对此, 您需要使用 `spawn_another` 属性.
+你可以决定是**替换**怪物**还是生成**自定义怪物**而不替换原始怪物**。\
+你需要使用 `spawn_another` 属性。
 
 ```yaml
           rule3:

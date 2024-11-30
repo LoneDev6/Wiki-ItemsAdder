@@ -1,18 +1,18 @@
-# 配置文件
+# 配置
 
-## 创建您的第一个实体
+## 创建第一个怪物
 
-### yml 配置文件
+### 配置
 
-您需要在 [命名空间 ](../../../basic-concepts/namespace/)文件夹下创建一个 .yml 后缀的文件 (查看 [其他教程 ](../../../basic-concepts/namespace/creating-your-namespace.md)了解更多信息).
+你需要在[命名空间](broken-reference)文件夹创建一个 .yml 文件([查看更多](broken-reference))。
 
 {% hint style="info" %}
-考虑使用[ 官方在线工具](../../../../../files-editor.md) 来编辑 ItemsAdder 的文件. \
-它具有自动补齐的功能 (按 CRTL+空格键) 以帮助您避免犯错.
+考虑使用[官方在线工具](../../../../files-editor.md)来编辑 ItemsAdder 文件。\
+它具有自动完成功能（CRTL+空格），可以帮助你避免错误，使你更轻松。
 {% endhint %}
 
-在以下例子中, 我创建了一个名为 **Soul（灵魂）** 的自定义实体.\
-正如您所见, 我将其设置为一个普通物品; 但不同的是, 它还具有一个命名为 **mob** 的 [behaviour（行为） ](../../../item-properties/behaviours.md) .
+这是一个名为 **Soul** 的自定义怪物的示例。\
+如你所见，我将其设置为一个普通物品，但具有一个特殊的[行为](../../../item-properties/behaviours.md)，名为 **mob**。
 
 ```yaml
 info:
@@ -38,23 +38,24 @@ items:
           walk: soul_walking
 ```
 
-这个实体被 **锁定了头部旋转** (仅在 Y 轴上), 以避免当实体在更高处的位置看向玩家时会显得很愚蠢.
+这个生物的**头部旋转将被锁定**（仅在 Y 轴上），这将避免它在处于更高位置看玩家时看起来很滑稽。
 
-`hit_color` 是实体受到玩家攻击时所展现的颜色. \
-您可以在以下网页找到原版颜色表:\
+`hit_color` 是该怪物被玩家击伤时显示的颜色。\
+你可以从下述网络获取有效的颜色：\
 [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html)\
 [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color)\
-[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/) (使用其中一个颜色选择器并复制其右侧的值)
+[https://misode.github.io/worldgen/biome/](https://misode.github.io/worldgen/biome/)\
+(使用其中一个颜色选择器并复制右侧的值)
 
 {% hint style="info" %}
-注意: 我 **跳过了** `resource` 的 `material` 属性, 因为 **mobs** **并不需要这些属性**, ItemsAdder 会自动处理它的.
+注意：我**跳过**了 `resource` 的 `material` 属性，因为对于生物来说不需要，ItemsAdder 会自动处理。
 {% endhint %}
 
-### 实体动画
+### 动画
 
-您可能注意到了, 还有两个我在上面没有提到的属性: `attack（攻击）` 和 `walk（行走）` **动画**.\
-**实体动画** 的 behaviors（行为）会告诉 ItemsAdder 这是一个实体的动画项目.\
-如下所示, 这些应该是您必须创建的项目内容:
+你可能注意到还有两个其他属性：`attack` 和 `walk` **动画**。\
+`mob_animation` 行为告诉 ItemsAdder 该物品是一个生物动画。\
+这些实际上是你必须像这样创建的其他物品：
 
 ```yaml
   soul_walking:

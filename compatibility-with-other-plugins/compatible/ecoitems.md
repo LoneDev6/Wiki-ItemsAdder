@@ -1,4 +1,4 @@
 # EcoItems
 
-## [下载插件](https://www.spigotmc.org/resources/1-16-1-17-%E2%9A%A1-ecoitems-%E2%9C%A8-custom-crafting-and-items-%E2%9C%85-easy-advanced-powerful.94664/)
+## [此处下载](https://www.spigotmc.org/resources/ecoitems-%E2%AD%95-create-custom-items-%E2%9C%85-weapons-armors-tools-charms-%E2%9C%A8-item-levels-rarities.94601/)
 

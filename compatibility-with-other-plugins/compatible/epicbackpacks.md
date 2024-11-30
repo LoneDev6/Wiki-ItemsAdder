@@ -1,9 +1,13 @@
 # EpicBackpacks
 
-## [下载插件](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)
+## [此处下载](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)
+
+{% hint style="warning" %}
+你必须安装 [DefaultPack](../../first-install.md#default-pack-optional)！
+{% endhint %}
 
 {% hint style="success" %}
-要使用 ItemsAdder 贴图的背包，您必须打开packets.yml (在 EpicBackpacks 文件夹中) 填写如下方的属性 (在每一个你想使用自定义贴图的背包中):
+为创建使用 ItemsAdder 材质的背包，你需要打开 backpacks.yml（在EpicBackpacks文件夹中）并添加如下内容（每个背包都需要）：
 {% endhint %}
 
 ```yaml
@@ -11,7 +15,7 @@
     display_name: '&fCool Backpack'
     item:
       type: ITEMSADDER_ITEM
-      name: "itemsadder:plastic_bag"
+      name: "iageneric:plastic_bag"
     size: 3
     craft_recipe:
       pattern:
@@ -22,4 +26,3 @@
         L: LEATHER
         C: CHEST
 ```
-

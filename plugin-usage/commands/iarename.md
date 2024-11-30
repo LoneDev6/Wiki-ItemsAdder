@@ -1,14 +1,13 @@
 # iarename
 
-该命令可以重命名物品 (原版物品与自定义物品).
+此命令可用于重命名物品（原版和自定义）。
 
-支持 [font\_images](../adding-content/font-images/) (表情符号) 以及 [文字效果](../text-effects-1.17+.md).
+它支持[字体图像](../adding-content/font-images/)（表情符号）和[文本效果](../text-effects-1.17+.md)。
 
-使用示例: `/iarename test <r qqqqq> :smile: very nice`
+使用示例：`/iarename test <r qqqqq> :smile: very nice`
 
-![](../../.gitbook/assets/143230790-515c74db-b7f6-4c1d-8a03-7bba80ac83cd.png)
+![](../../.gitbook/assets/iarename.png)
 
 ### 权限
 
 `ia.admin.iarename`
-

@@ -2,45 +2,44 @@
 
 ## 设置
 
-### 为骨骼配置粒子效果
+### 配置特殊粒子位置骨骼
 
-在 Blockbench 中打开 `.iaentitymodel` 模型文件.\
-创建一个任意名称的新骨骼
+用 **Blockbench** 打开你的 `.iaentitymodel` 模型文件。\
+创建一个新骨骼，可以任意命名。
 
 ![](<../../../.gitbook/assets/image (78) (1) (1).png>)
 
-右键骨骼并选择 "**Bone Config**"
+右键点击骨骼并选择 "**Bone Config**"
 
 ![](<../../../.gitbook/assets/image (68) (1).png>)
 
-检查 "**Locator**" 选项 并点击 "**Confirm（确认）**".
+勾选 "**Locator**" 选项并按 "**Confirm**"。
 
 ![](<../../../.gitbook/assets/image (67) (1) (1).png>)
 
-切换至 "**Animate（动画模式）**" 界面.
+切换到 "**Animate**" 视图。
 
 ![](<../../../.gitbook/assets/image (75) (1).png>)
 
-选择一个动画.
+选择一个动画。
 
 ![](<../../../.gitbook/assets/image (92) (1) (1).png>)
 
-选择 "**Animate Effects（动画效果）**"
+选择魔杖图标 "**Animate Effects**"
 
 ![](<../../../.gitbook/assets/image (44) (1).png>)
 
-点击 "**Particle（粒子）**" 旁边的 **+** 来创建新的效果关键帧.
+点击 **+** 图标，选择 "**Particle**" 效果类型以创建一个新的粒子关键帧。
 
 ![](<../../../.gitbook/assets/image (64) (1).png>)
 
-编辑 "**Keyframe（关键帧）**" 界面上的值
+在 "**Keyframe**" 面板上编辑值。
 
-* Name: 粒子名称（原版的粒子效果名称）
-* Bone (locator): 使用粒子效果的骨骼
-* Speed: 粒子消失的速度(数值越大粒子消散的越快).
-* Count: 粒子的数量.
-* XYZ delta: 指定粒子生成的区域.（你可以在[此处](https://wiki.biligame.com/mc/%E5%91%BD%E4%BB%A4/particle)阅读对此项更加详细的信息）
-
+* Name: 粒子的名称，使用游戏内的 Minecraft 粒子名称。
+* Bone (locator): 是在本教程第一部分创建的骨骼的名称。它将是粒子的位置。
+* Speed: 粒子发射的速度。
+* Count: 发射的粒子数量。
+* XYZ delta: 指定粒子效果每个维度的尺寸（以方块数为单位），**x y z** 在中心。每个坐标指定从中心开始粒子出现的方块数。你可以设置小数。\
 
 ![](<../../../.gitbook/assets/image (69) (1).png>)
 

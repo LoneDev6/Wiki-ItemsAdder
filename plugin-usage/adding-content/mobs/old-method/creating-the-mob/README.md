@@ -1,14 +1,18 @@
 ---
-描述： 如何为您的实体创建配置和 3D 模型
+description: 如何为你的怪物创建配置和3D模型
 ---
 
-# 创建一个实体
+# 创建怪物
 
-{% page-ref page="configuration.md" %}
+{% content-ref url="configuration.md" %}
+[配置](configuration.md)
+{% endcontent-ref %}
 
-{% page-ref page="3d-model.md" %}
+{% content-ref url="3d-model.md" %}
+[3D 模型](3d-model.md)
+{% endcontent-ref %}
 
-## 最终效果
+## 最终结果
 
 ```yaml
 info:
@@ -51,5 +55,4 @@ items:
       mob_animation: true
 ```
 
-![](../../../../../.gitbook/assets/image%20%2816%29.png)
-
+![](broken-reference)

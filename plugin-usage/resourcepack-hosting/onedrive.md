@@ -1,7 +1,7 @@
 # OneDrive
 
 {% hint style="warning" %}
-## 不建议使用
+#### 不推荐使用。
 {% endhint %}
 
 ### 步骤 1
@@ -18,7 +18,7 @@
 
 ### 步骤 4
 
-打开 **ItemsAdder** 的 `config.yml` 将 url 填写至 external-host 属性中，记得将 external-host 设置为 `enabled: true`
+打开 **ItemsAdder** 的 `config.yml` 文件，并为你的新 URL 启用 `external-host` 选项。
 
 {% code title="config.yml" %}
 ```yaml
@@ -29,12 +29,20 @@
 ```
 {% endcode %}
 
-此步骤非常重要，请将该属性设置为 `true`
+这非常重要。将其设置为 true。
 
 ```yaml
 skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
 ```
 
 {% hint style="warning" %}
-有时候资源包链接会失效，当链接失效或 Onedrive 不提供直连链接，将会导致玩家卡在登录阶段，无法应用资源包
+请记住，这有点“冒险”，因为服务器无法确保 URL 有效。
+
+如果 URL 无效或 OneDrive 不提供直接下载（有时会发生），这可能会导致您的玩家卡在登录阶段。
 {% endhint %}
+
+## 如果需要，继续安装
+
+{% content-ref url="../../first-install.md" %}
+[首次安装](../../first-install.md)
+{% endcontent-ref %}

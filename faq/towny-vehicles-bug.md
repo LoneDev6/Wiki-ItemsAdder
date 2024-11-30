@@ -1,7 +1,7 @@
-# Towny 中的载具bug
+# Towny 载具问题
 
 {% hint style="warning" %}
-如果你使用了 **Towny** 插件并且 载具功能出现问题，请打开 **Towny** 的 `config.yml` 并且进行如下设置：
+如果你在使用 Towny 插件时遇到载具问题，请打开 Towny 的 config.yml 文件，并从中移除 Slime：
 {% endhint %}
 
 ```yaml
