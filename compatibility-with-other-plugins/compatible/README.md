@@ -1,2 +1,6 @@
-#  已兼容
+---
+icon: square-check
+---
+
+# 兼容
 

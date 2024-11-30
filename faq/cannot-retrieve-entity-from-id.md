@@ -1,8 +1,8 @@
-# Cannot retrieve entity from ID
+### 无法从 ID 检索实体
 
-修复该问题只需要安装最新版本的 [ProtocolLib](http://ci.dmulloy2.net/job/ProtocolLib%20Gradle/lastStableBuild/artifact/build/libs/ProtocolLib.jar)​
+请下载[最新版 ProtocolLib](http://ci.dmulloy2.net/job/ProtocolLib%20Gradle/lastStableBuild/artifact/build/libs/ProtocolLib.jar)​
 
-```text
+```
 [ItemsAdder] Unhandled exception occured in onPacketReceiving(PacketEvent) for ItemsAdder
 java.lang.RuntimeException: Cannot retrieve entity from ID.
 	at com.comphenix.protocol.wrappers.BukkitConverters$9.getSpecific(BukkitConverters.java:646) ~[?:?]
@@ -18,4 +18,3 @@ java.lang.RuntimeException: Cannot retrieve entity from ID.
 	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketReceiving(ProtocolInjector.java:317) ~[?:?]
 ​
 ```
-

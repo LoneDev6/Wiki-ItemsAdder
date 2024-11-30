@@ -1,17 +1,15 @@
 # DecentHolograms
 
-## [下载插件](https://www.spigotmc.org/resources/96927/)
+## [此处下载](https://www.spigotmc.org/resources/96927/)
 
-## 如何显示一个自定义物物品.
+## 如何展示自定义物品？
 
-- 使用 `/iacustommodeldata <item>` (f.e. `/iacustommodeldata ruby`)
-- 记住基础物品和自定义物品使用的 `CustomModelData` (i.e. `IRON_INGOT` 和 `10000`)
-- 创建一个Holograms,使用 `/dh create <name> [Line]` (You can skip this if you already have a hologram)
-- 将物品添加到Holograms中,并使用 `/dh l add <name> <page> #ICON: <item> {CustomModelData: <cmd>}` (i.e. `/dh l add example 1 #ICON: IRON_INGOT {CustomModelData: 10000}`)
-- 注 i.e 跟 f.e 都是例子的意思
-
+- 运行 `/iacustommodeldata <item>` （例如 `/iacustommodeldata ruby`）
+- 记下物品 ID 以及该物品的 `CustomModelData` （即 `IRON_INGOT` 与 `10000`）
+- 使用 `/dh create <name> [Line]` 创建一个新的全息（如果你已经有了，可以跳过该步骤）
+- 使用 `/dh l add <name> <page> #ICON: <item> {CustomModelData: <cmd>}` 将物品添加至全息 （即 `/dh l add example 1 #ICON: IRON_INGOT {CustomModelData: 10000}`）
 
 {% hint style="success" %}
-在创建Holograms时,你能否提供 `#ICON: <item> {CustomModelData: <cmd>}` 作为 `/dh create` 的第一行.  
-比如: `/dh create example #ICON: IRON_INGOT {CustomModelData: 10000}`
+创建全息时，你可以将 `#ICON: <item> {CustomModelData: <cmd>}` 作为 `/dh create` 的第一行。
+例如：`/dh create example #ICON: IRON_INGOT {CustomModelData: 10000}`
 {% endhint %}

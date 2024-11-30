@@ -1,22 +1,22 @@
 # RealisticWorldGenerator
 
-## [下载](https://www.spigotmc.org/resources/realisticworldgenerator-1-8-8-1-16-x.15905/)
+## [此处下载](https://www.spigotmc.org/resources/realisticworldgenerator-1-8-8-1-16-x.15905/)
 
-## 已兼容
+## 兼容性
 
-* 生物群系（biomes）
-* 矿石（ores）
-* schematics (RWG schematics)
+* 生物群系
+* 矿物
+* 蓝图 (RWG 蓝图)
 
 {% hint style="warning" %}
-仅适用于 ItemsAdder 2.5.2+ 和 RealisticWorldGenerator 4.30+
+仅在 ItemsAdder 2.5.2+ 与 RealisticWorldGenerator 4.30+ 生效
 {% endhint %}
 
 ## 警告
 
 {% hint style="danger" %}
-请不要使用自定义方块来作为基础矿石生成，会产生大量延迟.\
-因此，尽量使用原版方块.
+请勿将自定义方块作为基础矿物。这会导致极高的延迟。\
+请使用原版方块。
 {% endhint %}
 
 {% code title="ores.yml" %}
@@ -28,25 +28,25 @@ ores:
     type: 1
     enabled: true
   base:
-    block: ia:itemsadder:ruby_block # <---- 错误的示例
+    block: ia:itemsadder:ruby_block # <---- DO NOT DO THIS!
 ```
 {% endcode %}
 
 {% hint style="success" %}
-建议将自定义方块生成在下列情景中：
+请尽在以下方面使用自定义方块：
 
-* 表层（surface）
-* 矿物（ores）
-* 结构建筑 (schematics)
+* 地表
+* 矿物
+* 结构 (蓝图)
 {% endhint %}
 
-## 如何生成自定义方块
+## 如何使用自定义方块
 
-举个栗子：让我们创建一个以 ruby\_block 方块为的表层的生物群系
+让我们创建一个以 ruby\_block 作为地表的生物群系作为例子。
 
-打开 **RealisticWorldGenerator** 世界配置文件夹中的 `biomes.yml` 文件
+打开 **RealisticWorldGenerator** 世界配置文件夹中的 `biomes.yml`。
 
-选择一个生物群系 (例如： `plains`（平原）) 将 ruby\_block 设为表层
+确定一个群系（如 `plains`）并将下方内容作为首层。
 
 {% code title="biomes.yml" %}
 ```yaml
@@ -61,7 +61,7 @@ plains:
 ```
 {% endcode %}
 
-在该例子中，我还修改了该世界的 `settings.yml` 文件，确保只生成一个生物群系，以便更容易地找到设置的自定义方块.
+此例中我也修改了该世界的 `settings.yml` 文件来确保只生成一种群系，以更快找到自定义方块。
 
 {% code title="settings.yml" %}
 ```yaml
@@ -72,9 +72,9 @@ one_biome:
 ```
 {% endcode %}
 
-### 最终效果
+### 最终结果
 
-这是一个地表为自定义方块的世界
+这是一个带有自定义地表的世界
 
 ![](<../../.gitbook/assets/image (41) (1).png>)
 

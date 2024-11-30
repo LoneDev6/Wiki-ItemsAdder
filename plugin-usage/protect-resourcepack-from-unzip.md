@@ -1,45 +1,48 @@
 ---
-描述: 如何保护自己的资源包
+icon: lock-keyhole
+description: 如何保护你的资源包不被盗取
 ---
 
-# 🚨 防止资源包被暴力解压
+# 保护资源包不被解压
+
+{% hint style="warning" %}
+## 免责声明
+
+没有100%有效的方法来保护资源包，因为游戏必须能够正确解压它以显示纹理。
+
+此功能是为了避免小孩和恶意用户盗取你的纹理。
+一些有经验的用户可能会找到绕过这些保护的方法。
+
+ItemsAdder 尽最大努力防止这种情况发生，但请记住这种可能性。
+
+每个插件都有相同的限制。这不是 ItemsAdder 的限制。
+{% endhint %}
 
 {% hint style="info" %}
-通过ItemsAdder的一系列措施.它可以保护你的资源包不被解压和盗取
-你只需在config.yml中打开这个选项,并再次使用/iazip指令.
-如果你使用的是Dropbox的话,别忘了重新上传材质包并更新config.yml的内容
-
-设置如下:
+使用ItemsAdder，你可以保护你的资源包不被解压和盗取。
+你只需在config.yml中设置此选项并再次使用/iazip。
+如果你使用Dropbox，不要忘记重新上传资源包并更新config.yml。
 
 {% code title="config.yml" %}
 ```yaml
   zip:
     protect-file-from-unzip:
-      enabled: true
-      extreme: true
+      protection_1: true
+      protection_2: true
 ```
 {% endcode %}
 {% endhint %}
 
-### enabled
+## protection\_1
 
-`enabled` 是否开启资源包保护
+使用基础方法保护资源包。
 
-### extreme
+## protection\_2
 
-`extreme` 为你的资源包添加额外的保护，来阻止一些解压资源包的方法
+另一层保护，以阻止部分其他解压资源包的方法。
 
-## 保护效果
+## 展示
 
-开启了资源包保护，在其他人在窃取你的资源包时，解压会得到已损坏的文件夹以及数据文件
+当用户试图盗取你的资源包时，他们看到的其实是损坏的文件与文件夹。
 
 {% embed url="https://youtu.be/MhtEhoOuWV8" %}
-
-{% hint style="warning" %}
-因为游戏需要能够正确读取资源文件才能正确显示材质，所以该方案无法100%阻止盗窃
-
-该功能只能防止一些愣头青盗取您的资源包 一些用户仍可以通过某些手段来获取你资源包的内容
-
-ItemsAdder 已尽最大的可能保护您的资源包.
-{% endhint %}
-

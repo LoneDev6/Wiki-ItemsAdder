@@ -1,48 +1,44 @@
----
-cover: ../../.gitbook/assets/Google-Drive.jpg
-coverY: 0
----
-
-# 🗂 Google Drive (1.17.1+)
+# Google Drive (1.17.1+)
 
 ## 如何使用 Google Drive
 
 {% hint style="warning" %}
-该方法在 Minecraft 1.17+ 版本中完全适用.
-<br>但由于 Minecraft 的bug，某些电脑使用 1.17 版本之前的客户端会出现一些问题[请在此处阅读更多信息](https://bugs.mojang.com/browse/MC-143768)
+由于 Minecraft 的一个 bug，在 1.17 之前的版本中，这种方法在某些 PC 上存在一些问题，详情请阅读：[MC-143768](https://bugs.mojang.com/browse/MC-143768)
+
+这种方法在 Minecraft 1.17.1 及更高版本中 100% 有效。
 {% endhint %}
 
-### 步骤 1
+### 第一步
 
-右键资源包文件，然后点击 "Get link"
+右键点击你的资源包 zip 文件，然后点击“获取链接”
 
-![](<../../.gitbook/assets/immagine (153) (1).png>)
+![](<../../.gitbook/assets/image\_(153) (1).png>)
 
-### 步骤 2
+### 第二步
 
-重要提示：将权限设置为 "Anyone with the link"
+重要：将权限设置为“拥有链接的任何人”
 
-![](<../../.gitbook/assets/immagine (145).png>)
+![](../../.gitbook/assets/image\_\(145\).png)
 
-点击 "Copy link"
+点击“复制链接”
 
-![](<../../.gitbook/assets/immagine (149).png>)
+![](../../.gitbook/assets/image\_\(149\).png)
 
-### 步骤 3
+### 第三步
 
-查看此页面: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
+访问这个网站：[http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
 
-粘贴链接并点击 "Get direct link"
+粘贴链接并点击“获取直接链接”
 
-<img src="../../.gitbook/assets/immagine (144).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image_(144).png" alt="" data-size="original">
 
-### 步骤 4
+### 第四步
 
-该网站会自动将生成的链接进行复制
+网站会自动将生成的链接添加到你的剪贴板中。
 
-![](<../../.gitbook/assets/immagine (147).png>)
+![](../../.gitbook/assets/image\_\(147\).png)
 
-现在将链接粘贴到 **ItemsAdder** 的 `config.yml` 中，并使用指令 `/iareload` 进行重载
+你现在可以将链接粘贴到 **ItemsAdder** 配置文件 `config.yml` 中，然后使用 `/iareload` 命令。
 
 {% code title="config.yml" %}
 ```yaml
@@ -52,19 +48,28 @@ external-host:
 ```
 {% endcode %}
 
-### 完成!
+### 完成！
 
-现在资源包能够在游戏中进行加载了.
+你现在可以看到资源包已被游戏正确加载。
 
 ## 常见问题
 
-### 卡在 "Making Request... 100%"
+### 长时间停留在“正在请求... 100%”
 
-### ![](<../../.gitbook/assets/immagine (146).png>)
+### ![](../../.gitbook/assets/image\_\(141\).png)
 
-该问题为正常状况，只在玩家第一次下载资源包时出现，通常会花费5-10秒钟的时间，这是因为在 Google Drive 在授权下载资源包之前会进行一些验证.
+这是正常现象。因为 Google Drive 在授权下载资源包之前会进行一些操作。
 
-### 资源包无法加载
+这种情况只会在玩家第一次下载资源包时发生，通常需要 5 到 10 秒。
 
-该方法在 Minecraft 1.17+ 版本中完全适用.
-<br>但由于 Minecraft 的bug，某些电脑使用 1.17 版本之前的客户端会出现一些问题[请在此处阅读更多信息](https://bugs.mojang.com/browse/MC-143768)
+### 资源包完全无法加载
+
+由于 Minecraft 的一个 bug，在 1.17 之前的版本中，这种方法在某些 PC 上存在一些问题，详情请阅读：[MC-143768](https://bugs.mojang.com/browse/MC-143768)
+
+这种方法在 Minecraft 1.17.1 及更高版本中 100% 有效。
+
+## 如果需要，请继续安装
+
+{% content-ref url="../../first-install.md" %}
+[首次安装](../../first-install.md)
+{% endcontent-ref %}

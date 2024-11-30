@@ -2,11 +2,10 @@
 
 ## 获取自定义皮肤
 
-你可以从 [该页面](https://mineskin.org/gallery)  获取自定义皮肤，或者你也可以 [上传自己的皮肤](https://mineskin.org/)!
+你可以从[这里](https://mineskin.org/gallery)获取可能的皮肤列表，甚至可以上传[你自己的皮肤](https://mineskin.org/)！
 
 ![](<../../../.gitbook/assets/image (89) (1).png>)
 
 {% hint style="success" %}
-不需要使用指令 `/iazip` .\
-这些皮肤会在运行时自动加载，不需要下载任何资源包.
+你不需要运行 `/iazip`！这些皮肤在运行时加载，无需下载资源包。
 {% endhint %}

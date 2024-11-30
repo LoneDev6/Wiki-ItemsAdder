@@ -1,18 +1,16 @@
 # Mythicmobs
 
-### [下载](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
+### [此处下载](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
 
-## 如何在 Mythicmobs 中使用 ItemsAdder 物品&#x20;
+## 在 MythicMobs 中使用 ItemsAdder 物品
 
 {% hint style="warning" %}
-版本需求：
-**ItemsAdder 3.0.4** +
-**MythicMobs 5.0.1** +
+更新至 **ItemsAdder 3.0.4** 与 **MythicMobs 5.0.1** 或更新
 {% endhint %}
 
 ### 掉落物
 
-栗子：有30%的几率掉落1-5个自定义物品
+例：以 30% 的几率掉落 1-5 个自定义物品。
 
 ```yaml
 ninja_skeleton:
@@ -21,7 +19,7 @@ ninja_skeleton:
   Health: 10
   Damage: 2
   Drops:
-    - my_items:special_sword 1-5 30%
+    - myitems:special_sword 1-5 30%
   Options:
     MovementSpeed: 0
     Silent: true
@@ -40,12 +38,12 @@ SkeletalKnight:
   Health: 40
   Damage: 8
   Equipment:
-  - my_items:special_helmet HEAD
-  - my_items:special_chestplate CHEST
-  - my_items:special_leggings LEGS
-  - my_items:special_boots FEET
-  - my_items:special_sword HAND
-  - my_items:special_shield OFFHAND
+  - myitems:special_helmet HEAD
+  - myitems:special_chestplate CHEST
+  - myitems:special_leggings LEGS
+  - myitems:special_boots FEET
+  - myitems:special_sword HAND
+  - myitems:special_shield OFFHAND
 ```
 
 ## 自定义怪物模型

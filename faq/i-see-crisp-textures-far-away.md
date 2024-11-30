@@ -1,19 +1,23 @@
-# 无法看清远处材质（模糊、锯齿）
+---
+icon: braille
+---
+
+# 我看到远处的纹理不连贯！
 
 {% hint style="warning" %}
-如果你看远处时出现点状且不平滑的材质，问题出在资源包制作上
-当材质尺寸大小不为2的倍数，Minecraft 将会自动关闭 mipmap
+如果你看到远处的纹理是点状而不是平滑的，这是资源包制作者的一个常见错误。\
+Minecraft 有一个 bug，如果你设置的纹理大小不是 2 的幂，它会禁用 mipmap！
 {% endhint %}
 
-![左：没有 mipmap 右：使用 mipmap](<../.gitbook/assets/image (19).png>)
+![左：没有 mipmap。右：有 mipmap](<../.gitbook/assets/image (19).png>)
 
-## **如何修复?**
+## **如何修复？**
 
-根据下列步骤进行操作:
+很简单！只需按照以下步骤操作：
 
-* 打开Minecraft 客户端的日志（logs）文件  **不是服务器的日志文件！** 
-* ctrl+f 查找 `limits mip level`
-* 检查有问题的材质，例如：`Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1` 中的 `mcicons:item/icon_toggle_off`
-* 修复材质，将材质尺寸调整为以下大小：16x16、32x32、64x64、128x128、256x256 ...
-
-完成!
+* 阅读本教程以了解[如何读取游戏日志](identify-why-textures-are-not-shown.md)（不是服务器日志）。
+* 搜索这个文本 `limits mip level`
+* 识别有问题的纹理，例如 `Texture mcicons:item/icon_toggle_off with size 30x30 limits mip level from 3 to 1`
+* 修复纹理。\
+  要修复它，你需要将其大小调整为：16x16、32x32、64x64、128x128、256x256 等。\
+  你可以选择其中之一。

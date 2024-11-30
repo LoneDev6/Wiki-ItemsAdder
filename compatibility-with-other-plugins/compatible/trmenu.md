@@ -4,7 +4,7 @@
 
 {% embed url="https://www.spigotmc.org/resources/trmenu-premium-modern-advanced-menu-plugin-1-8-1-16.83120/" %}
 
-### 如何在菜单中使用Itemsadder自定义的物品
+### 在 GUI 中使用 ItemsAdder 物品
 
 {% embed url="https://trmenu.trixey.cc/menu/icon/display/cai-zhi#itemsadder" %}
 
@@ -13,20 +13,20 @@ material: 'source:ITEMADDER:itemId'
 material: 'source:IA:anotherItemId'
 ```
 
-### 如何在菜单中使用自定义背景（fontimage）
+### 如何重绘 GUI
 
 ```yaml
 Title: '%img_offset_-16%%img_blank_menu%'
 ```
 
 {% hint style="warning" %}
-PlaceholderAPI 为必要前置
+需要 PlaceholderAPI！
 {% endhint %}
 
-`%img_offset_-16%` 的含义为：将图像 `%img_blank_menu%` 向后偏移 **16** 个像素.
+基本来讲，`%img_offset_-16%` 用于将纹理 `%img_blank_menu%`向后移动 **16** 个像素。
 
-更多详情参阅:&#x20;
+阅读更多：&#x20;
 
-{% content-ref url="../../plugin-usage/placeholderapi.md" %}
-[placeholderapi.md](../../plugin-usage/placeholderapi.md)
+{% content-ref url="broken-reference" %}
+[已损坏的连接](broken-reference)
 {% endcontent-ref %}

@@ -1,8 +1,20 @@
-# 💎 世界生成器
+---
+icon: cubes-stacked
+---
 
-### 两个生成器栗子
+# 世界生成器
+
+世界生成器允许你在世界的表面下生成自定义方块。它们主要用于矿石和装饰方块。
+
+### 示例：两个生成器
+
+此代码允许你告诉 ItemsAdder 在名为 `world` 的世界中生成方块 `myitems:custom_block`，并且只替换类型为 `STONE`、`DIRT`、`ANDESITE`、`GRANITE`、`COBBLESTONE`、`GRAVEL` 的方块，并且只在 `PLAINS` 生物群系中。
+
+它将在每个区块中生成一个由 3 个方块组成的矿脉。
 
 ```yaml
+info:
+  namespace: my_world_populator
 worlds_populators:
   custom_block:
     block: myitems:custom_block
@@ -35,23 +47,20 @@ worlds_populators:
     chunk_veins: 1
 ```
 
-该示例配置指定世界生成器，在 **world** 世界中生成自定义方块 **"myitems:custom\_block"** 并只在生物群系 `PLAINS（平原）` 中对类型为 STONE, DIRT, ANDESITE, GRANITE, COBBLESTONE, GRAVEL 的方块进行替换.
-且将在每个区块中生成 1 个由 3 个自定义方块组成的矿脉.
-
-
-### vein\_blocks, chunk\_veins, chunk\_chance
+### `vein_blocks`, `chunk_veins`, `chunk_chance`
 
 {% hint style="warning" %}
-不要设置过高的数值，否则会导致服务器滞后产生大量延迟.\
-你可以参考 Itemsadder 文件夹下 `blocks.yml` 文件内的数值.
+我建议你从我在 **ItemsAdder** 文件夹中创建的 `blocks.yml` 文件中读取值。\
+不要设置过高的值，否则服务器可能会卡顿。\
+以我的值为例。
 {% endhint %}
 
-**chunk\_veins**: 区块中生成的矿脉数量\
-**vein\_blocks**: 每个矿脉中的自定义方块数量（或**矿脉大小**）\
-**chunk\_chance**: 区块中生成自定义矿物的几率. （越稀有的矿石设置的数值越低）\
+**`chunk_veins`**：在区块中生成的矿脉数量\
+**`vein_blocks`**：每个矿脉中的方块数量（或矿脉大小）\
+**`chunk_chance`**：在区块中生成的几率。你应该将其设置为 100 以生成普通矿石，并降低它以生成更稀有的矿石。
 
 {% hint style="warning" %}
-<mark style="color:red;">**旧版 ItemsAdder**</mark> **3.1.6** 之前的版本使用下列属性代替：\
+<mark style="color:red;">**旧版 ItemsAdder**</mark> 在 **3.1.6** 之前使用这些属性：\
 `chunk_veins` -> `iterations`
 
 `vein_blocks` -> `amount`
@@ -59,9 +68,9 @@ worlds_populators:
 `chunk_chance` -> `chance`
 {% endhint %}
 
-### Biomes
+### 生物群系
 
-你可以移除该选项，插件会在每个群系都生成自定义方块
+你可以删除此选项，插件将在每个生物群系中生成矿石。
 
 ```yaml
   custom_block:
@@ -82,9 +91,9 @@ worlds_populators:
     chunk_veins: 1
 ```
 
-### 可替换的方块（replaceable_blocks）
+### 可替换方块
 
-你可以移除该选项，插件会生成矿石来替换每个自定义方块，而不是检查是否可以替换
+你可以删除此选项，插件将在每个方块中生成矿石，而不是检查它是否可以被替换。
 
 ```yaml
   custom_block:
@@ -97,4 +106,3 @@ worlds_populators:
     vein_blocks: 6
     chunk_veins: 1
 ```
-

@@ -1,8 +1,8 @@
 # ShopGUI+
 
-## [下载](https://www.spigotmc.org/resources/shopgui-1-7-1-17.6515)
+## [此处下载](https://www.spigotmc.org/resources/shopgui-1-7-1-17.6515)
 
-## 如何在插件中使用 Itemsadder 的自定义物品
+## 如何在此插件内使用 ItemsAdder 物品
 
 {% embed url="https://docs.brcdev.net/#/shopgui/shops-items-setup?id=itemsadder" %}
 

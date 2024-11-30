@@ -1,26 +1,30 @@
 ---
-描述: 文本动画
+icon: italic
+description: 特殊文本动画和着色效果
 ---
 
-# 文字效果 (1.17+)
-
-## 什么是文字效果？
-
-在 ItemsAdder **2.4.19** 版本后，提供了一些非常炫酷的文字效果，使用这些效果可以使服务器显得更加高大上
-
-{% hint style="danger" %}
-## 该特性适用于 **Minecraft 1.17** 及以上客户端, 与服务端核心版本无联系
-{% endhint %}
+# 文本效果
 
 {% hint style="warning" %}
-你必须先使用 `/iazip` 才能够 开启/关闭 该特性.\
-并确保在 `config.yml`中启用该功能.
-（如下）
+* **需要 Minecraft 1.17+ 客户端**
+* 不适用于 [Minecraft 语言文件](adding-content/minecraft-language-files.md)（游戏限制）
+* 编辑 `rendertype_text` 着色器文件
+{% endhint %}
+
+## 什么是文本效果？
+
+它们是一些很酷的装饰性文本效果，可以在服务器中使用，使其更加专业。
+
+{% hint style="warning" %}
+你需要运行 `/iazip` 以启用/禁用此功能。\
+还要确保在 `config.yml` 中启用它。
+
 ```yaml
 effects:
   text-effects:
-    enabled: true
-    replace-in-customitems-name-and-lore: true
+    enabled: true # This option requires /iazip when changed.
+    customitem-name-and-lore:
+      enabled: true
     chat:
       enabled: true
     sign:
@@ -32,46 +36,57 @@ effects:
 ```
 {% endhint %}
 
+## 权限
 
-
-## 效果
-
-*  在 **聊天中** 使用 **文字效果**
+* 在 **聊天** 中使用 **文本效果**
   * `ia.user.text_effect.chat`
-* 在 **告示牌中** 使用 **文字效果**
+* 在 **标牌** 中使用 **文本效果**
   * `ia.user.text_effect.sign`
-* 在 **书中** 使用 **文字效果**
+* 在 **书籍** 中使用 **文本效果**
   * `ia.user.text_effect.book`
-* 在 **铁砧中** 使用 **文字效果**
+* 在 **铁砧** 重命名中使用 **文本效果**
   * `ia.user.text_effect.anvil`
-* 使用某种 **文字效果**
+* 使用 **文本效果**
   * `ia.user.text_effect.use.<effect>`
 
 ## 效果列表
 
-### Rainbow
+移除背景
+
+{% hint style="info" %}
+### 注意
+
+在 Minecraft **1.21.4** 中，你可以在 JSON 组件中使用 `"shadow_color":0` 属性来隐藏阴影。
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+权限: `ia.user.text_effect.use.noshadow`\
+用法: `<noshadow text>`
+
+### 彩虹
 
 ![](../.gitbook/assets/rainbow.gif)
 
-![](<../.gitbook/assets/immagine (128).png>)
+![](../.gitbook/assets/image\_\(128\).png)
 
-![](<../.gitbook/assets/immagine (129).png>)
+![](../.gitbook/assets/image\_\(129\).png)
 
 ![](../.gitbook/assets/rainbow\_item.gif)
 
-效果: `ia.user.text_effect.use.r`\
-用法: `<r 文本>`
+权限: `ia.user.text_effect.use.r`\
+用法: `<r text>`
 
-### Wobble
+### 摇摆
 
 ![](../.gitbook/assets/wobble.gif)
 
 ![](../.gitbook/assets/wobble\_item.gif)
 
-效果: `ia.user.text_effect.use.w`\
-用法: `<w 文本>`
+权限: `ia.user.text_effect.use.w`\
+用法: `<w text>`
 
-### Jump
+### 跳跃
 
 ![](../.gitbook/assets/jump\_chat.gif)
 
@@ -79,42 +94,106 @@ effects:
 
 ![](../.gitbook/assets/jump\_boss.gif)
 
-效果: `ia.user.text_effect.use.j`\
-用法: `<j 文本>`
+权限: `ia.user.text_effect.use.j`\
+用法: `<j text>`
 
-### Rainbow + Wobble
+### 彩虹 + 摇摆
 
 ![](../.gitbook/assets/rw\_chat.gif)
 
-效果: `ia.user.text_effect.use.rw`\
-用法: `<rw 文本>`
+权限: `ia.user.text_effect.use.rw`\
+用法: `<rw text>`
 
-### Rainbow + Jump
+### 彩虹 + 跳跃
 
-![](../.gitbook/assets/rj.gif)
+![](../..gitbook/assets/rj.gif)
 
-效果: `ia.user.text_effect.use.rj`\
-用法: `<rj 文本>`
+权限: `ia.user.text_effect.use.rj`\
+用法: `<rj text>`
 
-## 文字效果使用范围
+### 闪烁
 
-* 自定义物品的 名称 (在 .yml 中编辑)
-* 自定义物拼的 lore (在 .yml 中编辑)
+<figure><img src="../.gitbook/assets/blinking.webp" alt=""><figcaption></figcaption></figure>
+
+权限: `ia.user.text_effect.use.b`\
+用法: `<b text>`
+
+## 这些效果可以在哪里使用？
+
+* 自定义物品名称（在 .yml 文件中）
+* 自定义物品描述（在 .yml 文件中）
 * 聊天
 * 告示牌
 * 书
 * Bossbar
-* 前缀&后缀 (例如Luckperms)
-* _等等...._
+* 前缀-后缀（例如 Luckperms）
+* _更多（即将推出....）_
 
 ![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
 
-## 如何创建动态文字前缀 (Luckperms)
+## 如何创建动画前缀（Luckperms）
 
-![](<../.gitbook/assets/immagine (133).png>)
+![](../.gitbook/assets/image\_\(133\).png)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 
 ![](../.gitbook/assets/prefix.gif)
 
-如果你不了解该插件 点击阅读[ Luckperms 官方指南](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) 
+如果你不知道前缀是如何工作的，点击这里阅读 [Luckperms 官方教程](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta)。
+
+## 在没有占位符的情况下使用文本效果
+
+如果由于某些原因你想在不支持 ItemsAdder 占位符（如 `<r TEXT>`）的区域使用文本效果，你可以使用另一种方法。
+
+这些效果是基于 **特殊的 HEX 颜色** 触发的。\
+所以如果你想显示文本效果的区域支持 HEX 颜色，你可以这样做。
+
+### 特殊颜色
+
+#### 彩虹
+
+`e6fffe`
+
+#### 摇摆
+
+`e6fffa`
+
+#### 彩虹 + 摇摆
+
+`e6fbfe`
+
+#### 跳跃
+
+`e6fbfa`
+
+#### 彩虹 + 跳跃
+
+`e6f7fe`
+
+### 在 Minecraft 原生 JSON 表示法中使用它们
+
+这会触发彩虹效果：\
+`/tellraw @a {"text":"custom text example", "color":"#e6fffe"}`
+
+将 `e6fffe` 替换为你想要的效果。
+
+### 在支持 _MiniMessage_ 的插件中使用它们
+
+{% embed url="https://docs.advntr.dev/minimessage/format.html#color" %}
+
+（例如 ItemsAdder 本身和 [ChatFormatter](https://www.spigotmc.org/resources/102212/)）
+
+这会触发彩虹效果：`<#e6fffe>custom text example`
+
+将 `e6fffe` 替换为你想要的效果。
+
+### 在支持传统 HEX 表示法的插件中使用它们
+
+#### 彩虹
+
+`&X&E&6&F&F&F&E`\
+等等。
+
+这在 [EpicRename](https://www.spigotmc.org/resources/epicrename.4341/) 上测试过，应该可以在任何插件或 Spigot 使用其自己的传统颜色代码处理颜色替换的地方工作。
+
+示例：`/rename &x&F&F&F&F&F&ETest`

@@ -1,19 +1,19 @@
 # ExcellentEnchants
 
-[下载插件](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)
+[此处下载](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)
 
-(前身为 **GoldenEnchants**)
+（曾用名 **GoldenEnchants**）
 
-## 如何添加附魔
+## 如何使用附魔
 
-这是一个可以让Ia进行插件扩展附魔的栗子
+这是一个用于 ItemsAdder 物品附魔的示例配置。
 
 {% hint style="warning" %}
-注意: 附魔并不会显示在物品lore上,这是插件的一个"特性".
+警告：附魔不会显示在物品描述中，这是另一个插件的“问题”。
 
-<mark style="color:green;">但是附魔效果仍有效!</mark>
+<mark style="color:green;">附魔仍会生效！</mark>
 
-所以可以自行注释在lore上
+因此你可以自行填写附魔描述。
 {% endhint %}
 
 ```yaml
@@ -29,5 +29,5 @@
     - tunnel:1
 ```
 
-上方栗子中,我设置了1级的 `tunnel` 附魔效果
+在本例中，我设置了等级为一的 `tunnel` 附魔为
 

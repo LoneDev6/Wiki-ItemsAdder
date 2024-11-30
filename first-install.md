@@ -1,82 +1,85 @@
---
-描述: 如何正确安装该插件
+---
+icon: gear
+description: 如何安装插件
 ---
 
-# ⚙ 首次安装
-
-{% hint style="info" %}
-你应该在 **测试服务器** 上进行各种配置，编辑操作.\
-当你测试过后没有任何问题，再将其上传至正式服务器
-{% endhint %}
+# 首次安装
 
 {% hint style="danger" %}
-你 **必须** 根据教程完成所有安装步骤
+**确保**所有插件和服务器软件都是最新的！\
+**始终检查**你下载的ItemsAdder版本！
+
+* <mark style="color:red;">**v3仅适用于1.20.4及以下版本**</mark>
+* <mark style="color:red;">**v4仅适用于1.20.6及以上版本**</mark>
 {% endhint %}
 
-## 步骤 1 —— 安装插件和API
+## 安装引导
 
-* 下载并安装 [**ProtocolLib**](https://www.spigotmc.org/resources/protocollib.1997/)
-* 下载并安装 [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* (可选) 下载并安装 **LightAPI** ([1.14, 1.15, 1.16](http://a.devs.beer/lightapi-old) | [1.17, 1.18](http://a.devs.beer/lightapi-new))
-* (可选) 下载并安装 [**Lib's Disguises**](https://www.spigotmc.org/resources/libs-disguises-free.81/) 如果你计划创建自定义怪物
-* 将 **ItemsAdder.jar** 放到服务端的插件目录
-* 开启服务器
-* 使Itemsadder完成 **初始化**
+{% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/qkqgg70u1p" fullWidth="true" %}
 
-步骤 1 就完成啦！.\
-接下来你必须跟随 **步骤 2** 来正确的配置资源包（不要担心！so ez的！）
+***
 
-## 第 2 步 - 安装资源包
+## 步骤1 - 安装插件和库
 
-#### 资源包的托管
+* 关闭服务器
+* 将[**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/) JAR文件放入`plugins`文件夹
+* 将[**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/) JAR文件放入`plugins`文件夹
+* 将**ItemsAdder** JAR文件放入`plugins`文件夹
+* 启动服务器
+* 让ItemsAdder完成加载**所有内容**
+
+## 步骤2 - 首次安装资源包
+
+{% hint style="warning" %}
+这一步很重要，如果不完成这一步，插件<mark style="color:red;">**将无法工作**</mark>！
+{% endhint %}
+
+在使用插件之前，你需要决定资源包的托管方式。\
+点击这里选择资源包的托管方式（最佳方式：`自托管`）。
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
-[resourcepack-hosting](plugin-usage/resourcepack-hosting/)
+[资源包托管](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## 可选步骤
+***
 
-### 添加官方 ItemsAdder 自定义内容
+## 步骤3 - （可选）添加官方ItemsAdder自定义内容
 
 ![](.gitbook/assets/items\_showcase\_gif.apng)
 
-**ItemsAdder** 预置了许多的新的自定义项目.\
+**ItemsAdder**自带大量已创建的自定义内容。\
+这些内容不会自动包含在下载的插件中，因为有些人可能不希望每个物品/功能自动添加到他们的服务器中。
 
-预置的项目不会包含在下载的插件中，（某些服主可能并不需要这些内容）因此你需要另外下载
+### 在[这里下载“默认包”](https://github.com/ItemsAdder/DefaultPack/releases/latest)（可选）
 
-#### 默认预置包
+<div align="left">
 
-![](<.gitbook/assets/image (47).png>)
+<img src=".gitbook/assets/image (47).png" alt="">
 
-* 最新默认预置包 [点击下载](https://github.com/ItemsAdder/DefaultPack/releases/latest)&#x20;
-* 将压缩包中的文件解压至 **ItemAdder** 文件夹并在询问时选择覆盖文件
-* 使用 `/iazip` 命令 (如果您未使用**self-host**托管方式请按照你资源包托管方式进行更新） [托管方式](plugin-usage/resourcepack-hosting/).
+</div>
 
-#### 其他预置包 (可选)
+* 将内容解压到`ItemAdder`文件夹中，如果提示覆盖文件，请选择覆盖
+* 运行`/iazip`命令
+* 如果你没有使用**自托管**，请按照你的[托管方式](plugin-usage/resourcepack-hosting/)进行操作
 
-![](<.gitbook/assets/image (50).png>)
+***
 
-* 如果你需要下载其他预置包以此来增加更多的内容 [点击下载](https://github.com/ItemsAdder/OtherPacks/releases/latest) 
-* 将压缩包中的文件解压至 **ItemAdder** 文件夹并在询问时选择覆盖文件
-* 使用 `/iazip` 命令 (如果您未使用**self-host**托管方式请按照你资源包托管方式进行更新） [托管方式](plugin-usage/resourcepack-hosting/).
+## 步骤4 - （可选）添加其他ItemsAdder自定义内容
 
-如果您的版本为 1.17 或更低版本，则需要更改矿物的生成：
+### 在[这里下载“其他包”](https://github.com/ItemsAdder/OtherPacks/releases/latest)（可选）
 
-* 打开下列位置文件并设置 `enabled: true`.\
-  `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_old.yml`\
-  `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_old.yml`
-* 打开下列位置文件并设置 `enabled: false`.\
-  `ItemsAdder\data\items_packs\iaalchemy\worlds_populators_1_18.yml`\
-  `ItemsAdder\data\items_packs\iasurvival\ores\worlds_populators_1_18.yml`
+<div align="left">
 
-### 移除预置物品
+<img src=".gitbook/assets/image (50).png" alt="">
 
-{% content-ref url="faq/removing-default-stuff/" %}
-[removing-default-stuff](faq/removing-default-stuff/)
-{% endcontent-ref %}
+</div>
 
-### 避免方块错误 (使用 Purpur 核心 的腐竹需要阅读)
+* 将内容解压到`ItemAdder`文件夹中，如果提示覆盖文件，请选择覆盖
+* 运行`/iazip`命令
+* 如果你没有使用**自托管**，请按照你的[托管方式](plugin-usage/resourcepack-hosting/)进行操作
 
-{% content-ref url="faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md" %}
-[avoid-glitched-blocks.md](faq/blocks-minerals-issues/custom-blocks-glitch-texture/avoid-glitched-blocks.md)
+## 步骤5 - （可选）移除默认物品
+
+{% content-ref url="faq/removing-default-stuff/latest-itemsadder.md" %}
+[latest-itemsadder.md](faq/removing-default-stuff/latest-itemsadder.md)
 {% endcontent-ref %}

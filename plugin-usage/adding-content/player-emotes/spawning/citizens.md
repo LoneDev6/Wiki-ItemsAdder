@@ -1,23 +1,22 @@
 ---
-描述: 为 NPC 使用自定义模型
+description: Citizens NPCs 的自定义模型
 ---
 
-# Citizens（NPC）
+# Citizens
 
-## 为 NPC 制作动画
+## 动画化 Citizens 玩家 NPC
 
-你可以将动画应用至 任何NPC中，详情请继续阅读该教程
+现在你可以为任何 Citizens 玩家 NPC 添加动画了！
 
 {% hint style="success" %}
-_Itemsadder 本身就可以创建自定义实体.所以该功能不需要 Citizens 也能够正常使用._\
-Citizens 为可选前置，因为有的服务器可能需要用它来创建 NPC
+这个插件不需要 Citizens 也能工作，但有些服务器可能需要使用它来创建 NPC。
 {% endhint %}
 
-### 为 NPC 更换皮肤并使用自定义动画
+### 使 NPC 可动画化并更改皮肤
 
-使用 **ItemsAdder** 指令来更改皮肤:\
+然后使用 **ItemsAdder** 命令更改皮肤：\
 `/iaentity citizens playerskin <playerName|skinUrl>`\
-``示例:
+示例：
 
 * `/iaentity citizens playerskin LoneDev`
 * `/iaentity citizens playerskin` [`https://minesk.in/8b4bf861ea544edd8529707276d24853`](https://minesk.in/8b4bf861ea544edd8529707276d24853)
@@ -25,13 +24,13 @@ Citizens 为可选前置，因为有的服务器可能需要用它来创建 NPC
 ### 可选：获取/上传自定义皮肤
 
 {% content-ref url="../creation.md" %}
-[creation.md](../creation.md)
+[创建](../creation.md)
 {% endcontent-ref %}
 
-### 使 NPC 注视玩家
+### 使头部旋转
 
-你可以使用 `/npc look` 指令让NPC始终注视玩家，更多信息请参阅 [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
-
+你可以使用此命令使 NPC 看向附近的玩家，更多信息请参见 [Citizens wiki](https://wiki.citizensnpcs.co/Commands)。\
+`/npc look`
 
 ### 完成
 
@@ -39,5 +38,5 @@ Citizens 为可选前置，因为有的服务器可能需要用它来创建 NPC
 
 ## 播放动画
 
-你可以使用指令来播放动画: `/iaentity citizens anim play <animation>`
+你可以使用此命令播放动画：`/iaentity citizens anim play <animation>`
 

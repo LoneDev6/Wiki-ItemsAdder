@@ -1,21 +1,21 @@
-# 在游戏中转换旧物品/方块
+# 游戏内转换旧版物品/方块
 
 {% hint style="danger" %}
-**建议重新创建一个世界，并且不要使用旧的世界来进行转换.转换器仍处于测试阶段.**
+**建议使用全新世界，因为转换器为实验性。**
 {% endhint %}
 
 {% hint style="danger" %}
-该功能会产生较大延迟，只需要启用一段时间即可关闭该功能，避免造成无意义的性能损耗
+这些功能可能导致延迟，请在开启的几天后关闭以避免无用延迟。
 {% endhint %}
 
-## 如何自动转换您世界中的旧物品
+## How to auto convert old items in your worlds
 
-当你将 ItemsAdder 从 1.0 升级至 2.0 你会发现所有的物品都发生了改变，因此这些物品与1.0不同.\
-于是自动转换功能诞生了，每当玩家在世界中打开物品栏（包括箱子，漏斗，等等容器时..）都会自动转换旧版本物品
+当您从ItemsAdder 1.0更新到2.0时，大多数物品都已更改，因此它们与更新前的旧物品不同。\
+这就是为什么我必须编写一个功能，自动用新物品替换旧物品。每当玩家打开世界上的存储（箱子、容器……但不是他们自己的存储）时，都会运行此过程。
 
-为了启用该功能，您必须在 **ItemsAdder 2.0** 的 `converter.yml ` 文件中将属性设置为 true
+为了启用此功能，您必须在 **ItemsAdder 2.0** 的`converter.yml`中将此属性设置为true
 
-#### 确保已设置 inventory-open: true
+#### 确保设置 inventory-open: true
 
 ```
 items-auto-update:
@@ -23,14 +23,11 @@ items-auto-update:
   inventory-open: true
 ```
 
-## 如何自动转换在世界中放置的旧方块
+## 如何自动转换已放置方块
 
-你需要打开 `converter.yml ` 并且将旧的 **model_id** 映射至 新的 **命名空间:物品名称**
+您必须打开`converter.yml`，并将旧方块的**model_id**映射到IA 2.0的新**命名空间**块。例如，我已经添加了旧的ItemsAdder 1.0方块块映射，将其转换为2.0命名空间方块。
 
-具体格式为： `"id": "命名空间:物品名称"`
-
-栗子如下：
-#### 确保已设置 enabled: true
+#### 确保设置 enabled: true
 
 ```
 blocks:
@@ -65,5 +62,4 @@ blocks:
     "26": "itemsadder:coal_dirt_ore"
     "27": "itemsadder:blaze_powder_ore"
     "28": "itemsadder:nether_alchemy_ore"
-    "id": "命名空间:物品名称"
 ```

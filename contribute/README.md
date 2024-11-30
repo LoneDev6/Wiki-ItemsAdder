@@ -1,2 +1,6 @@
-# ✏ Contribute
+---
+icon: pen-to-square
+---
+
+# Contribute
 

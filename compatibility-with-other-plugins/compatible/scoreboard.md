@@ -1,31 +1,38 @@
-# Scoreboard
+# Scoreboard-revision
 
-## [下载](https://www.spigotmc.org/resources/scoreboard.14754/)
+## ​[此处下载](https://www.spigotmc.org/resources/scoreboard.14754/)​ <a href="#download-here" id="download-here"></a>
 
-## Font image
+{% hint style="warning" %}
+似乎由于某些原因，该插件已经从SpigotMC.org移除。\
+(我不是作者).
 
-你可以在 **scoreboard** 中使用 [Font image ](../../plugin-usage/adding-content/font-images/)(例如：表情、特殊符号)
+[Source code](https://github.com/RienBijl/Scoreboard-revision)
+{% endhint %}
 
-### 栗子
+## 表情
 
-`%img_smile%` 将会显示为:
+你可以在 **scoreboard** 中使用 [font\_images ](../../plugin-usage/adding-content/font-images/)(表情与符号) 。
 
-![](<../../.gitbook/assets/immagine (95).png>)
+### 示例
 
-## 隐藏计分板背景
+`%img_smile%` 会显示如下内容:
 
-(适用于所有计分板插件)
+![](../../.gitbook/assets/image\_\(95\).png)
+
+## 隐藏记分板背景
+
+(适用于所有类似插件)
 
 ### 隐藏前
 
-![](<../../.gitbook/assets/immagine (97).png>)
+![](../../.gitbook/assets/image\_\(97\).png)
 
 ### 隐藏后
 
-![](<../../.gitbook/assets/immagine (96).png>)
+![](../../.gitbook/assets/image\_\(96\).png)
 
-使用Itemsadder的技巧隐藏计分板背景
-只需要在计分板配置的 **每一行** 前面添加 `%img_offset_-500%`即可.
+借助 ItemsAdder，你可以如此做以隐藏记分板背景。\
+你只需要在记分板<mark style="color:yellow;">**每行**</mark>前添加 `%img_offset_-500%`，即使是<mark style="color:yellow;">空行！</mark>
 
 ```yaml
 #  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
@@ -118,9 +125,3 @@ board:
         - '%img_offset_-500%&c------------------------'
         - '%img_offset_-500%&4------------------------'
 ```
-
-## 如何隐藏计分板旁的数字
-
-{% content-ref url="../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md" %}
-[hide-scoreboard-numbers-1.17+.md](../../plugin-usage/scoreboard/hide-scoreboard-numbers-1.17+.md)
-{% endcontent-ref %}

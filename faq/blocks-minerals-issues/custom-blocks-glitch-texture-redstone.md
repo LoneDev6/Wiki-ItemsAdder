@@ -1,9 +1,9 @@
-# 自定义方块材质错误 \(红石块redstone\)
+# 自定义方块纹理故障（红石）
 
-## 将红石块放置在自定义方块上方会使其更新变回蘑菇块
+## 在自定义方块上放置红石可能会使它们更新并恢复为蘑菇方块
 
 {% hint style="warning" %}
-该错误为已知问题，但是修复该问题会占用服务器大量资源，造成延迟.
+这是一个已知问题，无法轻易修复，否则会导致插件使服务器卡顿。
 {% endhint %}
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/616" %}

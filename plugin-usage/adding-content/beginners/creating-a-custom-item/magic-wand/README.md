@@ -2,7 +2,7 @@
 
 {% embed url="https://www.spigotmc.org/resources/addon-magiccraft-itemsadder-addon.88551/" %}
 
-## 栗子：火魔杖
+## 示例：火焰魔杖
 
 ```yaml
   advanced_magic_wand:
@@ -103,7 +103,7 @@
           amount: 1
 ```
 
-## 使用愈合结晶恢复法力值的栗子
+## 示例：法力回复水晶
 
 ```yaml
   mana_recover_crystals:

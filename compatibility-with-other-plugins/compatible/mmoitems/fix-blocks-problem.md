@@ -1,21 +1,25 @@
-# 修复与MMOItems方块的问题
+# 修复方块问题
 
 {% hint style="warning" %}
-**MMOItems** 与 **ItemsAdder** 二者的方块无法互相兼容.
+**MMOItems** 方块与 **ItemsAdder** 不兼容，反之亦然。
 {% endhint %}
 
-## 如何使用MMOitem方块
+## 如何使用MMOItems方块？
 
-在这之前请打开**ItemsAdder**中的`config.yml`.<br>然后禁用 **REAL** 方块(蘑菇块).
+你需要打开 **ItemsAdder** 的 `config.yml` 并禁用 **REAL** 方块（蘑菇块）。
 
 {% code title="config.yml" %}
 ```yaml
-  disable-REAL: true [把该项改为true. =w=]
+blocks:
+  # ....
+  custom:
+    # ....
+    mushroom: false
 ```
 {% endcode %}
 
 {% hint style="info" %}
-若你启用了该项,你将无法创建类型为: **REAL** 的自定义方块.
+应用该改变后，你将无法创建带有 type：REAL 的 ItemsAdder 方块。
 
-其他自定义方块类型将可以继续使用.(举个栗子:REAL\_NOTE).
+其他的 ItemsAdder 自定义方块类型仍然会生效(如 REAL\_NOTE)。
 {% endhint %}

@@ -1,15 +1,12 @@
 # CustomCrafting
 
-## [下载插件](https://www.spigotmc.org/resources/55883/)
+## [此处下载](https://www.spigotmc.org/resources/55883/)
 
 {% hint style="warning" %}
-版本需求：
-ItemsAdder 2.5.3+ 
-CustomCrafting 3.16.0.0-f +
+你需要 **ItemsAdder** 2.5.3+ 与 **CustomCrafting** 3.16.0.0-f 或更新版本。
 {% endhint %}
 
 ## 如何使用
 
-你只需要使用CustomCrafting Gui创建合成配方
-当你将Itemsadder自定义物品放入工作台（十个槽位都可以），插件会自动识别为自定义物品并正确处理.
-
+你只需要在 CustomCrafting 配方创建界面来创建配方。\
+拖动 ItemsAdder 物品至原料/产物格，插件会将其识别为自定义物品，并正确处理。

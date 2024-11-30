@@ -1,4 +1,4 @@
-# Events
+# 事件
 
 ### ItemsAdderLoadDataEvent
 
@@ -7,21 +7,14 @@ package dev.lone.itemsadder.api.Events;
 public class ItemsAdderLoadDataEvent extends Event
 ```
 
-当 ItemsAdder 已完全加载其所有内容 \（包括插件重载 `/iareload` ）时调用此事件 监听该事件以等待所有物品/图像加载..
+当 ItemsAdder 已正确加载其所有内容时（包括 `/iareload` 时）会调用此事件。\
+监听此事件以确保所有物品、图像等都可供您的插件使用。
 
-### CustomBlockInteractEvent
+### ResourcePackSendEvent - [文档](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/Events/ResourcePackSendEvent.java)
 
-自定义方块交互时触发的事件
+服务器向客户端发送资源包时触发的事件。\
+此事件包括 **URL**、**哈希值**，并且还包含是否为 **ItemsAdder 资源包**或**其他插件**资源包的信息。
 
-### CustomBlockBreakEvent
+## 其他事件
 
-破坏自定义方块时事件
-
-### CustomEntityDeathEvent
-
-自定义实体死亡事件
-
-### ResourcePackSendEvent
-
-资源包发送事件 此事件包括**url**、**hash**，以及 **ItemsAdder 资源包** 或 **其他插件** 的资源包信息
-
+{% embed url="https://github.com/LoneDev6/API-ItemsAdder/tree/master/src/main/java/dev/lone/itemsadder/api/Events" %}

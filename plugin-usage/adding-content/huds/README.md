@@ -1,19 +1,23 @@
-# 🔋 HUDs
+---
+icon: crosshairs-simple
+---
 
-为了创建自定义 HUDs, ItemsAdder 提供了两个示例配置，它们使用了所有可用的功能.
+# HUDs
 
-这两个 HUDs 分别是 `法力值` 和 `口渴值`.\
-你可以分别在 **realcraft** **magiccraft** 命名空间文件夹中找到其配置
+为了创建自定义 HUDs，ItemsAdder 中提供了两个示例，它们使用了所有可用的功能。
+
+这两个 HUD 分别是魔法值条和口渴值条。\
+你可以在**realcraft**和**magiccraft**命名空间中找到它们。
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-## 在世界中 启用/禁用 HUD
+## 在世界中禁用/启用 HUDs
 
-您可以在某些世界中启用或禁用 HUDs, 以下是一些示例:
+你可以轻松地在某些世界中禁用/启用 HUDs，以下是一些示例：
 
 ### 在所有世界中启用
 
-要想在所有世界中启用, 您只需避免在列表中填写任何世界, 相当于无需填写该配置.
+要在所有世界中启用它们，只需避免在列表中输入任何世界，不要写入该属性。
 
 ```yaml
 huds:
@@ -21,7 +25,7 @@ huds:
     enabled: true
 ```
 
-### 在除了世界 world\_the\_end 之外的所有世界启用口渴值 HUDs
+### 在所有世界中启用，但不在 `world_the_end` 中启用
 
 ```yaml
 huds:
@@ -31,9 +35,9 @@ huds:
     - "!world_the_end"
 ```
 
-注意: 英文符号 `!` 在世界名之前. (请记得使用 `" "` 包含世界名, 否则插件将无法工作 (yml 的问题).
+注意世界名称前的`!`。 (由于 `.yml` 问题，使用`" "`字符非常重要，否则插件将无法工作 )
 
-### 在所有以 `world_` 、 `adventure` 为开头的世界中启用口渴值 HUDs
+### 在名称以 `world_` 或 `adventure` 开头的所有世界中启用
 
 ```yaml
 huds:
@@ -44,4 +48,27 @@ huds:
     - "adventure*
 ```
 
-注意：在末尾的 `*`，代表"全部".（该含义仅适用于名称的末尾.）
+注意末尾的`*`，这意味着“_**任何**_”。 (请记住，这仅在名称末尾有效)
+
+## 特殊设置（仅限专业用户）
+
+在`config.yml`中有一个与 HUDs 相关的特殊设置。\
+此设置允许你将所有 HUDs 重新着色为特定颜色。\
+如果你有一个与具有特定颜色的文本交互的自定义着色器，这将非常有用。
+
+{% hint style="warning" %}
+需要 Spigot 1.17+ 和 ItemsAdder 3.5.1+
+{% endhint %}
+
+{% code title="config.yml" %}
+```yaml
+huds:
+  enabled: true
+  force_color:
+    enabled: true
+    color: '#FFFFFF'
+```
+{% endcode %}
+
+更多信息[在这里](https://github.com/PluginBugs/Issues-ItemsAdder/issues/2931)。\
+颜色选择器[在这里](https://g.co/kgs/Pvq3jj)。

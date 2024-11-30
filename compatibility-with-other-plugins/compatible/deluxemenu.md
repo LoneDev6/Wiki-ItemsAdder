@@ -1,14 +1,16 @@
 # DeluxeMenu
 
-要在 **DeluxeMenu** 上显示具有自定义材质的 ItemsAdder 物品，需要将此特殊属性添加到菜单的图标中：
+要在 **DeluxeMenu** 中显示 ItemsAdder 物品，你可以添加此内容至 material 中
 
 ```yaml
-nbt_int: CustomModelData: 1
+material: itemsadder-red_dye
 ```
 
-其中的 1 请填写你自定义物品的 **CustomModelData** 
+你需要设置自定义物品的 ID，而非 `red_dye`。
 
-### 如何获取 CustomModelData 值？
+### 如何获得 ID？
 
-手持ia物品的同时使用命令 `/iatag` ，然后搜索 `CustomModelData` 值.
+* 手持你想使用的物品，运行 `/iatag`
+![image](https://github.com/LoneDev6/Wiki-ItemsAdder/assets/114158743/9af34ddf-2ad4-40f0-9b14-c77125e57a3b)
+* 复制 `id` 的名称，例如 `red_dye`
 

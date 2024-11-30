@@ -1,18 +1,16 @@
 ---
-描述: 如何创建一个动态HUD
+description: 创建 FRAMES HUD 的教程
 ---
 
-# 动态 HUD
+# FRAMS HUD
 
-## 如何创建您的第一个动态 HUD (type FRAMES)
+## 如何创建你的第一个 HUD（类型：FRAMES）
 
-动态 HUD 的原理就是为每个值创建对应的贴图.\
-（通过将每个值作为一个序列帧，将其组合便成为动态HUD）
+FRAMS HUD 允许你为每个可能的值创建一个不同纹理。
 
 ### 创建配置文件
 
-第一步, 请在您的对应 [namespace（命名空间）](../../basic-concepts/namespace/) 文件夹中创建配置文件.\
-如下所示, 我创建了一个 `hud.yml` 文件.
+第一步是在你的[命名空间](broken-reference)文件夹中创建一个配置文件。在这个例子中，我将创建一个名为`hud.yml`的文件。
 
 {% code title="hud.yml" %}
 ```yaml
@@ -42,28 +40,27 @@ huds:
 ```
 {% endcode %}
 
-我创建了一个配置文件, 其中包含一些关于新 HUD 的设置.
+正如你所看到的，我创建了一个配置文件，其中包含一些新 HUD 的设置。
 
-`type: FRAMES` 用于创建具有不同材质纹理的 HUD, 每个材质纹理对应一个值.
+`type: FRAMES` 用于创建一个 HUD，每个可能的值都有不同的纹理。
 
-`x_position_pixels: 120` 使 HUD 位于距离屏幕中心, 右侧的 120 像素处（偏移是以屏幕中心为起点）
+`x_position_pixels: 120` 用于使 HUD 在屏幕中心右侧 120 像素处定位。
 
-`value` 属性是决定 HUD 的上限值是多少, 在本示例中是 0 到 5, 并且数值是从 0 开始的.
+`value` 属性用于决定 HUD 可以有多少个值，在这个例子中是从 0 到 5，起始值是 0。
 
-`player_stat_name` 是将 自定义玩家数据 应用至 HUD 的数值
+`player_stat_name` 是一个属性，它将 HUD 附加到一个自定义玩家属性，该属性将在服务器重启之间包含 HUD 值，这是一个自定义属性，而不是一个原生属性，可以随意命名。
 
-`images frames` 是 [字符图像](../../font-images/) 的材质列表, HUD 的每个数值可对应一个材质.
+`images frames` 是[font\_images](../../font-images/)纹理的列表，每个可能的 HUD 值都有一个纹理。
 
 {% hint style="warning" %}
-重要提示: 请确保 HUD 的每个值都有一个相对应的材质. 在本例中, HUD 值的范围在 0 到 5 之间, 所以我创建了 6 个图像, 以确保每个值都有一个对应图像.&#x20;
+重要提示：确保你的 HUD 的每个可能值都有一个有效的纹理。在这个例子中，值是从 0 到 5，所以我有 6 个图像，每个 HUD 值一个。
 {% endhint %}
 
 ### 创建图像
 
-创建一个新的 `.yml` 文件并在其中添加此代码.\
-它用于让 ItemsAdder 知道您的 HUD 图像位置, 以及如何在屏幕上显示.
+创建一个新的 yml 文件，并在其中添加此代码，用于让 ItemsAdder 知道你的 HUD 图像的位置以及如何在屏幕上显示它们。
 
-如下所示, 它们的图像名称与先前在 `hud.yml` 文件中设置的材质名称相同.
+正如你所看到的，它们的名称与之前在 `hud.yml` 文件中声明的名称相同。
 
 {% code title="hud_images.yml" %}
 ```yaml
@@ -97,38 +94,36 @@ font_images:
 ```
 {% endcode %}
 
-现在，您需要为上一个文件中指定的每个图像配置创建一个图形文件.
+现在你需要为我们在前一个文件中指定的每个图像创建一个图像文件。
 
-在此路径中创建它们 (如上方配置中所示) `ItemsAdder\data\resource_pack\assets\myitems\textures\example_hud\`
+在此路径中创建它们（如配置中所设置的）`contents\myitems\resourcepack\myitems\textures\example_hud\`
 
 ![](<../../../../.gitbook/assets/image (50) (1) (1) (1) (1).png>)
 
-一切完成!
+完成！
 
-### 查看 HUD 是否正常运行
+### 查看 HUD 的效果
 
-想查看 HUD 的作情况, 只需要使用命令 `/iazip` (如需要, 请遵循 [资源包托管](../../../resourcepack-hosting/) 的内容).\
-即可在游戏内查看新的 HUD.
+要查看 HUD 的效果，你只需运行 `/iazip`（如果需要，请按照[托管教程](../../../resourcepack-hosting/)）以开始在游戏中查看新的 HUD。
 
 ![](<../../../../.gitbook/assets/image (47) (1) (1).png>)
 
-现在, 尝试输入命令 (请将 `LoneDev` 更改为您的玩家名) 来改变 HUD 的数值:\
- `/iaplayerstat write LoneDev example_stat float 2`
+现在尝试编写此命令（将 `LoneDev` 更改为你的玩家名称）以更改 HUD 值：`/iaplayerstat write LoneDev example_stat float 2`
 
 ![](<../../../../.gitbook/assets/image (40) (1).png>)
 
-如图所示, HUD 的数值被更改成了 2, 这代表一切正常
+正如你所看到的，HUD 值已更改为 2！非常好！
 
-### 让 HUD 的数值随时间自动更改
+### 使 HUD 值随时间自动变化
 
-想要让 HUD 的数值在随时间内自动增加, 请使用 [触发器](../trigger-value-change.md).
+要使 HUD 值随时间自动增加，你可以使用[触发器](../trigger-value-change.md)。
 
-### 更改 HUD 的数值
+### 使 HUD 值变化
 
-想要更改 HUD 的数值, 您可以在任何地方、任何事件和插件中使用更改数值的 `write` 命令.
+要使 HUD 值变化，你可以在任何地方使用前面的 `write` 命令，在物品事件中，在其他插件中，随处可用。
 
-## 使用 PAPI 占位符读取 HUD 数值
+## 使用 PAPI 占位符读取 HUD 值
 
-{% content-ref url="../../../placeholderapi.md" %}
-[placeholderapi.md](../../../placeholderapi.md)
+{% content-ref url="broken-reference" %}
+[损坏的链接](broken-reference)
 {% endcontent-ref %}

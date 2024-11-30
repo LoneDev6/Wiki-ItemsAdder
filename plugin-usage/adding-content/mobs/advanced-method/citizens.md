@@ -1,39 +1,39 @@
 ---
-描述: 为 NPC 使用自定义模型
+description: Citizens NPCs 的自定义模型
 ---
 
 # Citizens
 
-## 为 NPC 应用自定义模型
+## 重新设置 Citizens NPC 的外观
 
-该教程将指导你如何为 NPC 应用自定义模型
+你可以使用自定义模型作为任何 Citizens NPC 的皮肤。
 
 {% hint style="success" %}
-_Itemsadder 本身就可以创建自定义实体.所以该功能不需要 Citizens 也能够正常使用._\
-Citizens 为可选前置，因为有的服务器可能需要用它来创建 NPC
+这个插件不需要 Citizens 才能工作，但有些服务器可能需要使用它来创建 NPC。
 {% endhint %}
 
-### 更改 NPC 模型
+### 更改模型
 
-将 npc 的类型设置为`ZOMBIE`: \
+将 NPC 类型设置为 `ZOMBIE`：\
 `/npc type ZOMBIE`
 
 {% hint style="warning" %}
-不要使用 `PLAYER` 类型，否则会导致 头部/身体 旋转出现问题
+不要使用 `PLAYER` 作为类型，它会导致头部/身体旋转问题。
 {% endhint %}
 
-使用 **ItemsAdder** 指令来更改模型:\
-`/iaentity citizens model <model>`\
-``示例: `/iaentity citizens model custom:barman_robot`
+然后使用 **ItemsAdder** 命令更改皮肤：\
+`/iaentity citizens <id|selected> model <model>`\
+在这个例子中：`/iaentity citizens <id|selected> model custom:barman_robot`
 
-### 禁用音效
+### 静音
 
-你可以使用 `/npc sound -n` 来禁用NPC音效, 更多信息请参阅 [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
+你可以使用此命令静音 NPC，更多信息请参见 [Citizens wiki](https://wiki.citizensnpcs.co/Commands)。\
 `/npc sound -n`
 
-### 使 NPC 注视玩家
+### 使头部旋转
 
-你可以使用 `/npc look` 指令让NPC始终注视玩家，更多信息请参阅 [Citizens wiki](https://wiki.citizensnpcs.co/Commands).\
+你可以使用此命令让 NPC 看向附近的玩家，更多信息请参见 [Citizens wiki](https://wiki.citizensnpcs.co/Commands)。\
+`/npc look`
 
 ### 完成
 
@@ -41,6 +41,6 @@ Citizens 为可选前置，因为有的服务器可能需要用它来创建 NPC
 
 ## 播放动画
 
-你可以使用指令来播放动画: `/iaentity citizens anim play <animation>`
+你可以使用此命令播放动画：`/iaentity citizens <id|selected> anim play <animation>`
 
 ![](../../../../.gitbook/assets/ezgif.com-gif-maker.webp)

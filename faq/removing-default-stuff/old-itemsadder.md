@@ -1,70 +1,70 @@
 ---
-描述: ItemsAdder 3.2.0 之前的版本
+description: ItemsAdder 3.3.0 之前的版本
 ---
 
-# 🗑 旧版本 ItemsAdder
+# 🗑️ 移除默认内容 v3.2
+
+## ItemsAdder 3.3.0 之前的版本
 
 {% hint style="warning" %}
-仅当使用 ItemsAdder 旧资源包时阅读该教程.\
-如果你使用的版本为3.2.0之前的版本请阅读该教程
+仅当您使用的是 ItemsAdder 旧版资源包时阅读此处。\
+如果您是在 v3.2.0 或之后购买的插件，可以忽略此内容。
 {% endhint %}
 
-## 如何删除所有物品和预置内容
+## 我如何移除所有物品和默认内容？
 
 {% hint style="info" %}
-如果你不想使用预置的内容，想要自己制作.
-<br>遵循该教程的步骤与即可：
+如果您不关心我的默认内容，只想制作自己的物品、方块和其他东西，这很简单！\
+请按照本教程操作。
 {% endhint %}
 
 ### 1. Config.yml
 
-打开 `config.yml` 文件并将其设置为 **false**
+打开插件的 `config.yml` 文件，并将以下内容设置为 **false**。
 
 ```yaml
   extract-default-items: false
   extract-default-resources: false
 ```
 
-### 2. 在下列列表中选择不需要的文件夹删除
+### 2. 删除您不需要的文件夹。从以下列表中选择。
 
-#### Twitter emojis
+#### Twitter 表情符号
 
 `plugins\ItemsAdder\data\items_packs\twitteremojis`\
 `plugins\ItemsAdder\data\resource_pack\assets\twitteremojis`
 
-#### Magic craft example
+#### 魔法工艺示例
 
 `plugins\ItemsAdder\data\items_packs\magiccraft`\
 `plugins\ItemsAdder\data\resource_pack\assets\magiccraft`
 
-#### Minecraft Emojis
+#### Minecraft 表情符号
 
 `plugins\ItemsAdder\data\items_packs\mcemojis`\
 `plugins\ItemsAdder\data\resource_pack\assets\mcemojis`
 
-#### ItemsAdder items
+#### ItemsAdder 物品
 
 `plugins\ItemsAdder\data\items_packs\itemsadder`\
 `plugins\ItemsAdder\data\resource_pack\assets\itemsadder`
 
-#### &#x20;Example items
+#### 示例物品
 
 `plugins\ItemsAdder\data\items_packs\example`\
 `plugins\ItemsAdder\data\resource_pack\assets\example`
 
-### 3. 完成
+### 3. 完成更改
 
-使用指令: `/iacleancache items`
+运行此命令：`/iacleancache items`
 
-删除下列文件夹：\
-<BR>`ItemsAdder\storage\cache\tmp\` 
-<BR>`ItemsAdder\data\resource_pack\assets\minecraft\models\item\` 
-<BR>`ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
-<BR>使用指令 `/iazip`
+删除这些文件夹：\
+`ItemsAdder\storage\cache\tmp\` `ItemsAdder\data\resource_pack\assets\minecraft\models\item\` `ItemsAdder\data\resource_pack\assets\minecraft\blockstates\`
+
+然后运行 `/iazip`
 
 {% hint style="danger" %}
-## 请勿删除列表中未列出的文件夹
+#### 不要删除前面列表中未列出的其他文件夹。
 
-如果删除 minecraft、mcguis 、 mcicons 文件夹，插件的某些功能将会失效
+如果删除 minecraft、mcguis 或 mcicons 文件夹，插件的某些部分可能会停止工作。
 {% endhint %}
-

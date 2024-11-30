@@ -1,6 +1,6 @@
-# 自定义箭矢
+# 自定义箭
 
-## 一些栗子 \(ItemsAdder 2.2.8+\)
+## 一些示例 \(ItemsAdder 2.2.8+\)
 
 ```yaml
 items:
