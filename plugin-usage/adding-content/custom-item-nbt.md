@@ -29,42 +29,90 @@ icon: binary
 ### 示例自定义属性
 
 例如，我想将这些标签合并到我的物品中：\
-`{my-custom-nbt-tag:"hello this is a custom tag", another-tag:"useless"}`
+`nbt: '{my-custom-nbt-tag:"hello this is a custom tag", another-tag:"useless"}'`
 
 ```yaml
 items:
-  custom_nbt_item:
-    display_name: "Just an example"
-    permission: examples.custom_nbt_item
+  custom_nbt_item_data:
+    display_name: "Injected nbt data into this item"
+    lore:
+    - 'test item: custom_nbt_item_data'
+    - 'test line from IA config 1'
+    - 'test line from IA config 2'
+    - 'test line from IA config 3'
+    permission: examples.test
     nbt: '{my-custom-nbt-tag:"hello this is a custom tag", another-tag:"useless"}'
     resource:
       material: DIAMOND_SWORD
-      generate: true
+      generate: false
       model_path: "minecraft:item/diamond"
     durability:
-      max_custom_durability: 1324
+      durability: 650
+      max_durability: 1324
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 30
+        attackSpeed: 25
 ```
 
-### 示例物品名称
+### 示例 NBT 与物品名称组件
+
+`nbt: "{components:{"minecraft:custom_name":'{"text":"TEST", "font": "alt", "italic":false}', "minecraft:custom_data": {"bro":'asd'}}}"`
+
+```yaml
+  custom_nbt_item_custom_name:
+    enabled: true
+    display_name: example_item_custom_name
+    lore:
+    - 'test item: custom_nbt_item_custom_name'
+    - 'test line from IA config 1'
+    - 'test line from IA config 2'
+    - 'test line from IA config 3'
+    permission: custom.test
+    nbt: "{components:{\"minecraft:custom_name\":'{\"text\":\"TEST\", \"font\": \"alt\", \"italic\":false}', \"minecraft:custom_data\": {\"bro\":'asd'}}}"
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: "minecraft:item/diamond"
+    durability:
+      durability: 650
+      max_durability: 1324
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 30
+        attackSpeed: 25
+```
+
+### 1.20.4 组件 - 请勿使用
+
+{% hint style="warning" %}
+这是旧版方式，请勿使用。
+{% endhint %}
+
+`nbt: "{display:{Name:'{"text":"TEST", "font": "alt", "italic":false}'}}"`
 
 ```yml
 items:
-  example_item_custom_name:
+  custom_nbt_item_custom_name_legacy_nbt:
     enabled: true
-    display_name: example_item_custom_name
-    permission: custom.example_item_custom_name
-    nbt: "{components:{\"minecraft:custom_name\":'{\"text\":\"Yo This is a test!\"}'},count:1,id:\"minecraft:stone\"}"
+    display_name: custom_nbt_item_custom_name_legacy_nbt
+    lore:
+    - 'test item: custom_nbt_item_custom_name_legacy_nbt'
+    - 'test line from IA config 1'
+    - 'test line from IA config 2'
+    - 'test line from IA config 3'
+    permission: custom.test
+    nbt: "{display:{Name:'{\"text\":\"TEST\", \"font\": \"alt\", \"italic\":false}'}}"
+    resource:
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: "minecraft:item/diamond"
+    durability:
+      durability: 650
+      max_durability: 1324
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 30
+        attackSpeed: 25
 ```
 
-### 示例物品名称 - 1.20.4 表示方法
-
-```yml
-items:
-  example_item_custom_name:
-    enabled: true
-    display_name: example_item_custom_name
-    permission: custom.example_item_custom_name
-    nbt: "{display:{Name:'{\"text\":\"TEST\", \"font\": \"alt\"}'}}"
-```
-
-<figure><img src="../../.gitbook/assets/nbt_custom_item_name_example.png" alt=""><figcaption></figcaption></figure>
