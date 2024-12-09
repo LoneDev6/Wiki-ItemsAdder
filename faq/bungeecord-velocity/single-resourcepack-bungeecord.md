@@ -3,7 +3,7 @@ description: >-
   使用网络范围资源包，避免玩家每次加入时重新下载不同的资源包
 ---
 
-# 单一资源包 Bungeecord
+# Bungeecord 单一资源包
 
 {% hint style="danger" %}
 ## 本教程已过时，需要重写。

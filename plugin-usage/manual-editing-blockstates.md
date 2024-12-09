@@ -3,7 +3,7 @@ description: 如何手动编辑 blockstates.json 文件
 icon: file-pen
 ---
 
-# 手动编辑 blockstates
+# 手动编辑方块状态
 
 {% hint style="warning" %}
 这违背了 ItemsAdder 避免手动修改特定文件的初衷。\
