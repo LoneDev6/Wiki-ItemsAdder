@@ -1,20 +1,24 @@
-# 🍄 地表生成器
+---
+icon: flower-daffodil
+---
 
-## 在世界地标生成装饰物
+# 表面生成器
 
-使用 ItemsAdder 的 **地表生成器**，你可以在世界的地表上生成装饰物，使得服务器看起来更加专业，更有特色.\
+## 在世界表面生成装饰
 
-例如：可以制作新的蘑菇、小植物、小石块和任何装饰
+使用 ItemsAdder，您可以在世界各地生成装饰，使您的服务器更加专业和独特。
+
+例如，您可以制作新的蘑菇、小植物、岩石和装饰品。
 
 ![](../../.gitbook/assets/leaves.png)
 
 ![](../../.gitbook/assets/desert\_rose.png)
 
-## 创建一个地表生成器
+## 创建表面生成器
 
-### 创建配置文件
+### 创建配置
 
-现在让我们来制作一朵将在世界各处生成的玫瑰
+例如，让我们创建一个将在世界各地生成的玫瑰。
 
 ```yaml
 info:
@@ -43,37 +47,35 @@ surface_decorators:
     amount: 1
 ```
 
-属性详情：
+正如您所看到的，我设置了一些属性：
 
-`block` 为 生成的自定义方块
+`block` 是要生成为装饰的 ItemsAdder 方块。
 
-`bottom_blocks` 为 决定是否能生成自定义方块的方块类型（自定义方块将会在该属性设置的方块类型上生成）
+`bottom_blocks` 属性用于决定装饰可以生成的方块类型。
 
-`biomes` 为 允许生成的生物群系
+`biomes` 属性用于决定装饰可以生成的有效生物群系。
 
-`worlds` 为 允许生成的世界
+`worlds` 属性决定装饰可以生成的世界。
 
-`chance` 为 每个区块中生成的几率
+`chance` 是每个世界区块中生成装饰的几率。
 
-`max_height` 为 允许生成的最大高度
+`max_height` 是装饰可以生成的最大世界高度。
 
-`min_height` 为 允许生成的最小高度
+`min_height` 是装饰可以生成的最小世界高度。
 
-`amount` 为 从装饰组（surface_decorators）中生成的自定义方块数量,（例如：你将该属性设置为 5,在生成该自定义方块时会生成 5 个连在一起的自定义方块）
+`amount` 是装饰组中要生成的方块的数量，例如，您可以设置为 5 以使一组 5 个装饰生成在一起。
 
-## 创建自定义方块
+## 创建方块
 
-现在你只需要根据下列教程创建自定义方块.\
-并决定使用下列某一个类型来创建自定义方块： 
-<br>`REAL_NOTE`, `REAL_WIRE`， `REAL_TRANSPARENT` ，`REAL` （根据具体需求来选择类型）
+现在，您只需按照教程创建方块。您可以根据需要使用 `REAL_NOTE`、`REAL_WIRE`、`REAL_TRANSPARENT` 和 `REAL` 方块。
 
-{% content-ref url="creating-a-custom-item/blocks/block.md" %}
-[block.md](creating-a-custom-item/blocks/block.md)
+{% content-ref url="block.md" %}
+[创建方块](block.md)
 {% endcontent-ref %}
 
 ## 示例
 
-你可以在该链接中下载到完整的附属:
+您可以在此处下载完整的工作插件：
 
 {% embed url="https://www.spigotmc.org/resources/deco-worlddeco-add-autogenerating-decorations-on-your-world-surface.95207" %}
 

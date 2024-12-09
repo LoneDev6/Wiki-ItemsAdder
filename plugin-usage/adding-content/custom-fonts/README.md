@@ -1,13 +1,13 @@
 # 自定义字体
 
-## 打开 强制 UNICODE 字体
+## 示例自定义字体
 
 ![](../../../.gitbook/assets/immagine%20%285%29.png)
 
-根据如下步骤进行自定义字体的设置：
+要实现这个，你需要：
 
-* 下载你想要应用的字体 [示例为日语字体](http://matteodev.it/spigot/itemsadder/res/v2/font.zip)
-* 将内容复制到 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\font`
-* 打开 config.yml 并设置 `custom-font enabled: true`,并将 `font` 设置为字体的文件名
-* 使用 `/iazip` 生成资源包，并将其上传至云端托管.
+* [这里](http://matteodev.it/spigot/itemsadder/res/v2/font.zip)下载日文字体
+* 将内容解压到 `plugins\ItemsAdder\contents\japanese_font\resourcepack\assets\minecraft\font`
+* 打开 config.yml 并设置 `custom-font enabled: true`
+* 当然，如果你使用 [Dropbox 托管](../../resourcepack-hosting/resourcepack-on-dropbox.md)，你需要在服务器重启后重新上传 `generated.zip`
 

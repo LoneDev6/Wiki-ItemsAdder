@@ -1,9 +1,10 @@
-# 使用 MythicMobs
+# 使用 MythicMobs 创建
 
-## 如何将自定义怪物与MythicMobs进行关联
+## 如何使用 MythicMobs 处理我的自定义怪物
 
-本教程将介绍如何将自定义怪物与MythicMobs进行关联，使MythicMobs赋予自定义怪物更多的功能
-<br>例如：下方是MythicMobs中的一个配置
+如果你想让 MythicMobs 来处理你的自定义怪物，以获得更高级的功能与控制，也很简单！
+
+例如我有这样一个 MythicMobs 配置：
 
 ```yaml
 StaticallyChargedSheep:
@@ -19,8 +20,9 @@ StaticallyChargedSheep:
   Skills:
   - lightning @LivingInRadius{r=10} ~onTimer:100
 ```
-要将二者进行关联
-你需要打开自定义怪物的.yml文件，并且如下方配置中编辑 **replace rule（替换规则）**
+
+  
+打开你存放了自定义怪物的 ItemsAdder .yml 文件，添加如下**替换规则**：
 
 ```yaml
         replace_mobs_spawn:
@@ -32,15 +34,13 @@ StaticallyChargedSheep:
 ```
 
 {% hint style="warning" %}
-注意：**replace\_mythicmob** 属性下的 `name` 必须将其设置为 **mythicmob** 中怪物的名字.
+将**replace\_mythicmob** `name` 属性设置为你 **mythicmob的名字**很重要.
 {% endhint %}
 
-### 随机生成
+### 随机几率
 
-如果你只需要偶尔生成与 mythicmob 关联的怪物.
-你只需要设置 `always: false` 属性，并设置生成规则
-\(（这样可以帮助你为 mythicmob 设置更多的皮肤\）
-例如：
+如果你只想在某些情况下替换 mythic mob（这允许你为mythicmob设置更多的皮肤样式），你只需要设置 `always:false`。
+Example:
 
 ```yaml
     replace_mobs_spawn:
@@ -57,7 +57,7 @@ StaticallyChargedSheep:
 ```
 
 {% hint style="warning" %}
-由于 MythicMobs 将 spawn reson 设置为 `CUSTOM` 而不是 `NATURAL`所以你需要将 `reason:` 设置为 `reason: CUSTOM` 否则将无法随机生成
+记住设置 `reason: CUSTOM` 否则它不会工作，因为 MythicMobs 设置了 `reason:CUSTOM` 而非 `reason:NATURAL`。
 {% endhint %}
 
 

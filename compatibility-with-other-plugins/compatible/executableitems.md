@@ -1,20 +1,19 @@
 # ExecutableItems
 
-## [下载插件](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
+## [此处下载](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
 
-## 如何将 ExecutableItems 的物品与 Itemsadder 关联
+## 如何将 ExecutableItem 物品与 ItemsAdder 物品连接
 
 {% hint style="warning" %}
-将 **ITEMSADDER** 更新到 **2.2.20+**
-将 **ExecutableItems** 更新到 **4.2.3.5+**
+更新 **ITEMSADDER** 版本至 **2.2.20+**\
+更新 **ExecutableItems** 版本至 **4.2.3.5+**
 {% endhint %}
 
-## 创建一个新的 Itemsadder 物品
+## 创建 ItemsAdder 物品
 
-### 创建.yml文件并配置 ItemsAdder 物品
+### 正常创建.yml文件，并添加 ItemsAdder 物品的所需属性
 
-在该示例中，我创建了一个名为 `executableitem_test` 的 **ItemsAdder** 物品 并且将其与 **ExecutableItem** 示例文件中的 `spit`物品进行关联
-
+本例中我会将名为 `executableitem_test` 的 **ItemsAdder** 物品与来自 ExecutableItem 示例文件的 `split` 物品连接。
 
 ```yaml
 info:
@@ -23,7 +22,6 @@ items:
   executableitem_test:
     display_name: executableitem_test
     permission: executableitem_test
-    # ↓ ↓ ↓ 关键属性
     executableitem:
       id: Free_Spit
     resource:
@@ -36,11 +34,12 @@ items:
 ```
 
 {% hint style="success" %}
-如配置所见，我设置了一个新的属性 **`executableitem`** 其中包括其 **`id`** 将新建的物品与 **ExecutableItem** 中的 `spit`进行了关联.\
+如你所见，我设置了叫做 \*\*`executableitem`\*\*与 **`id`** 的新属性。\
+它们用于**连接**这**两个物品**。
 {% endhint %}
 
-### 获取物品
+### 获得物品
 
-使用 `/iaget executableitem_test` 获取该物品
+运行 `/iaget executableitem_test` 以获得目标物品！
 
-![](<../../.gitbook/assets/immagine (152).png>)
+![](<../../.gitbook/assets/image\_(140) (1) (1).png>)

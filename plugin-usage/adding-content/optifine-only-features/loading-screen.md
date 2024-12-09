@@ -1,72 +1,83 @@
-# 自定义资源包加载界面
+# Optifine 加载屏幕
 
-## 原版加载页面
+{% hint style="danger" %}
+**Optifine** 并未被 **ItemsAdder** 官方支持，但如果你想要更多的自定义选项，可以阅读这些教程。
 
-![](<../../../.gitbook/assets/immagine (44).png>)
+#### 请不要就 Optifine 功能寻求支持。谢谢！
 
-## 自定义加载界面
+如果你愿意，可以使用[替代方法](https://itemsadder.devs.beer/plugin-usage/loading-screen)，该方法不需要 **Optifine**。
+{% endhint %}
 
-![](<../../../.gitbook/assets/immagine (51).png>)
+## 原版加载屏幕
+
+![](../../../.gitbook/assets/image\_\(44\).png)
+
+## 自定义加载屏幕
+
+![](../../../.gitbook/assets/image\_\(51\).png)
 
 ## 如何实现？
 
-### Minecraft 1.16 之前的版本
+### Minecraft 1.15 及以下版本
 
-![](<../../../.gitbook/assets/immagine (49).png>)
+![](../../../.gitbook/assets/image\_\(49\).png)
 
-你可以在 [该页面](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf) 获取 [GIMP ](https://www.gimp.org/downloads/) [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf)模板.
+你可以在[这里](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojang\_template.xcf)获取一个 [GIMP](https://www.gimp.org/downloads/) 模板。
 
-* 编辑文件:`plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojang.png`
-* 保存文件在相同的位置
+* 编辑我的文件：`contents/loading_screen/resourcepack/minecraft/textures/gui/title/mojang.png`
+* 将文件保存在相同位置
 
-### Minecraft 1.16 之后的版本
+### Minecraft 1.16 及以上版本
 
-![](<../../../.gitbook/assets/immagine (48).png>)
+![](../../../.gitbook/assets/image\_\(48\).png)
 
-{% hint style="warning" %}
-**提醒**: 该功能有一个已知的问题，在你使用指令 `/iazip` 或 `/iatexture` 进行重载资源包时，将不会显示LOGO.\
-只有在从服务器列表进入服务器时才会正常显示LOGO.
+{% hint style="danger" %}
+**警告**：已知问题是当你使用 `/iazip` 或 `/iatexture` 在游戏中应用纹理时，徽标会出现问题。\
+徽标只会在服务器加入时正常显示，可能是 Optifine 的一个 bug。
 {% endhint %}
 
-你需要像示例图片中一样将图片分成两半，所以你需要能够熟练的使用图像编辑软件 (Photoshop, GIMP or Paint.net).\
-你可以在 [该页面](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf) 获取 [GIMP ](https://www.gimp.org/downloads/)template [here](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf)模板.
+有点困难：\
+基本上你需要将图像分成两半，所以你需要知道如何使用图像编辑程序（Photoshop、GIMP 或 Paint.net）。\
+你可以在[这里](https://github.com/LoneDev6/SpigotUtilities/blob/master/ItemsAdder/various\_files/mojangstudios\_template.xcf)获取一个 [GIMP](https://www.gimp.org/downloads/) 模板。
 
-* 编辑文件 `plugins\ItemsAdder\data\resource_pack\assets\minecraft\textures\gui\title\mojangstudios.png`
-* 保存文件（不要改变文件的位置）
+* 编辑我的文件：`contents\loading_screen\resourcepack\minecraft\textures\gui\title\mojangstudios.png`
+* 将文件保存在相同位置
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **重要**\
-无论材质的大小为多少，你都要保证材质的左侧需要接触画布的右上角，材质的右侧需要接触画布中线的左侧（如图所示），两个部分的位置必须十分精确!
+各部分的位置需要精确。\
+纹理的左侧需要接触画布的右上角，而右侧需要接触画布的左中部。
 
+无论实际纹理的大小如何，这**始终**是正确的！
 {% endhint %}
 
-### 如何修改加载页面的背景颜色(仅适用于)
+### 如何更改背景颜色（仅限 1.16+）
 
-创建一个新文件(或修改已存在的文件):: `plugins\ItemsAdder\data\resource_pack\assets\minecraft\optifine\color.properties`
+创建一个新文件（或编辑已提供的文件）：`contents/loading_screen/resourcepack/minecraft/optifine/color.properties`
 
-把该内容复制进去:
+放入以下内容：
 
 ```yaml
 ###############################################################################
-# 自定义资源包加载界面
+# Resource loading screen
 ###############################################################################
-# 背景颜色 Background color
+# Background color
 screen.loading=14181c
-# 加载条背景 Loading bar background color
+# Loading bar background color
 screen.loading.bar=14181c
-# 加载条边框 Loading bar outline
+# Loading bar outline
 screen.loading.outline=303336
-# 加载条前景色 Loading bar foreground color
+# Loading bar foreground color
 screen.loading.progress=1f17ce
-# Logo 混合 模式
+# Logo blend mode
 # Where src, dst, srcA and dstA are one of: 
 #   ZERO, ONE, SRC_COLOR, ONE_MINUS_SRC_COLOR, DST_COLOR, ONE_MINUS_DST_COLOR, 
 #   SRC_ALPHA, ONE_MINUS_SRC_ALPHA, DST_ALPHA, ONE_MINUS_DST_ALPHA, SRC_ALPHA_SATURATE
 screen.loading.blend=DST_COLOR
 ```
 
-你可以使用 [HEX color picker](https://www.w3schools.com/colors/colors\_picker.asp) 修改颜色
+你可以使用 [HEX 颜色选择器](https://www.w3schools.com/colors/colors\_picker.asp)编辑颜色。
 
-{% hint style="warning" %}
-不要在颜色代码的前面加上 `#`!
+{% hint style="danger" %}
+不要在颜色代码的开头包含 `#`！
 {% endhint %}

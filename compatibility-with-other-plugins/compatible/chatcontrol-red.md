@@ -1,23 +1,53 @@
 # ChatControl-Red
 
-[下载插件](https://www.mc-market.org/resources/18217/)
+[此处下载](https://www.mc-market.org/resources/18217/)
 
-关于该插件与Itemsadder的更多详情内容，参阅下方链接：
-<br>[https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610](https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610)
+ItemsAdder 表情兼容性:\
+查看详情: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610](https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610)
 
-## 为聊天频道添加图形前缀
+## 添加自定义频道前缀
 
-如果你想为聊天频道增加图形前缀,并在聊天频道中显示出来,请遵循本教程步骤：
+如果你想设置一个在聊天中显示的图片频道前缀，请跟随此指引.
 
-![一个显示 ARCADE 前缀的 Arcade 频道](<../../.gitbook/assets/immagine (94).png>)
+![用于Arcade频道的ARCADE前缀](../../.gitbook/assets/image\_\(94\).png)
 
-你需要先使用 **Itemsadder** 导入 fontimage 接着在 **ChatControl-Red** 中应用
-举个例子,在 ChatControl Red 的 `format/arcade.yml`中进行如下设置:
+你只需要在格式配置中设置如下内容，(比如在 ChatControl Red 的 `format/arcade.yml` 中)：
 
 ```yaml
   prefix:
     Message: ':arcade:'
 ```
 
-当然你可以设置为任何自行导入的[font\_image](../../plugin-usage/adding-content/font-images/)
-<br>`arcade` 在此只是作为一个例子
+显然你需要使用你自己的 [font\_image ](../../plugin-usage/adding-content/font-images/)名称，而非 `arcade` ，这只是示例。
+
+## 文本效果
+
+通常 ItemsAdder 的文本效果不会在 ChatControl Red 中生效。\
+但如果你把下方内容添加至 ChatControl Red 的 rules 文件夹中，它们就会生效。（我放到了 `global.rs` 里）。
+
+```
+match <r\s([^>]+)>
+require perm ia.user.text_effect.use.r
+strip colors false
+then replace #FFFFFE$1&r
+    
+match <w\s([^>]+)>
+require perm ia.user.text_effect.use.w
+strip colors false
+then replace #FFFFFD$1&r
+    
+match <j\s([^>]+)>
+require perm ia.user.text_effect.use.j
+strip colors false
+then replace #FFFFFB$1&r
+    
+match <rw\s([^>]+)>
+require perm ia.user.text_effect.use.rw
+strip colors false
+then replace #FFFFFC$1&r
+    
+match <rj\s([^>]+)>
+require perm ia.user.text_effect.use.rj
+strip colors false
+then replace #FFFEFE$1&r
+```

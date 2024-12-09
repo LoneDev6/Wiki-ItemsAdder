@@ -1,27 +1,22 @@
-# ☑ 资源包提示信息 (1.17+)
+---
+icon: message
+---
 
-{% hint style="warning" %}
-## 仅适用于 Minecraft 1.17 以上客户端
+# 资源包提示信息
+
+打开 `ItemsAdder/lang/en.yml` 文件（或你的语言文件）。
+
+自定义消息：`resourcepack-popup-message`。
+
+{% hint style="info" %}
+你可以使用 `\n` 作为换行符
 {% endhint %}
 
-## 自定义资源包提示信息
-
-### 步骤 1
-
-打开 `ItemsAdde\lang\cn.yml` 文件 (选择你的语言文件)
-
-### 步骤 2
-
-找到该属性： `resourcepack-popup-message`.
-
+{% code title="ItemsAdder/lang/en.yml" %}
 ```yaml
-resourcepack-popup-message: "&6欢迎 &b{player}, &6请接受资源包获得完整的游戏体验.\n
-&a你只需要下载一次资源包即可."
+resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcepack to enjoy all the amazing features of our server.\n
+&aYou need only to download it only once."
 ```
+{% endcode %}
 
-(你可以使用 `\n` 来进行换行)
-
-### 效果
-
-![](<../.gitbook/assets/immagine (127).png>)
-
+![](../.gitbook/assets/image\_\(127\).png)

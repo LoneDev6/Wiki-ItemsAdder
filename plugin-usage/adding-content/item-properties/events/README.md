@@ -1,9 +1,19 @@
-# ⚡ 事件（Events）
+---
+icon: arrow-progress
+---
+
+# 事件
+
+## 使用官方文件编辑器查看所有属性
+
+{% content-ref url="../../../files-editor.md" %}
+[文件编辑器](../../../files-editor.md)
+{% endcontent-ref %}
 
 ## 什么是事件？
 
-Event 对象代表事件的状态，比如事件在其中发生的元素.\
-当触发事件（比如：播放声音，执行命令...）时，你可以设置一些操作（[actions]（actions.md））
+事件描述了某事发生的时间。\
+当事件被触发时，你可以让事情发生（[动作](actions.md)）（播放声音、执行命令等）
 
 ### 事件列表
 
@@ -15,6 +25,14 @@ Event 对象代表事件的状态，比如事件在其中发生的元素.\
 * interact.left\_shift
 * interact.right
 * interact.right\_shift
+* interact\_mainhand.left
+* interact\_mainhand.left\_shift
+* interact\_mainhand.right
+* interact\_mainhand.right\_shift
+* interact\_offhand.left
+* interact\_offhand.left\_shift
+* interact\_offhand.right
+* interact\_offhand.right\_shift
 * drop
 * pickup
 * eat
@@ -34,7 +52,9 @@ Event 对象代表事件的状态，比如事件在其中发生的元素.\
 * wear
 * unwear
 * held
+* held\_offhand
 * unheld
+* unheld\_offhand
 * item\_throw
 * item\_hit\_ground
 * item\_hit\_entity
@@ -44,5 +64,22 @@ Event 对象代表事件的状态，比如事件在其中发生的元素.\
 * placed\_armorstand.break
 * placed\_itemframe.interact
 * placed\_itemframe.break
+* holding\_item.player\_damaged\_by\_entity
+* holding\_item\_offhand.player\_damaged\_by\_entity
+* equipped\_armor\_item.player\_damaged\_by\_entity
 * bucket\_empty
 * bucket\_fill
+
+### 示例
+
+为什么写成 `interact (.) right`？下面是一个如何正确写入你的物品配置的小例子。
+```yaml
+...
+events:
+  interact:
+    right:
+      play_sound:
+      ...
+...
+```
+

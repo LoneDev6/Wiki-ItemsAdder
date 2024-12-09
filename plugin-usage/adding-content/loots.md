@@ -1,22 +1,34 @@
-# 🎁 战利品
+---
+icon: tent-arrows-down
+---
 
-Loots（战利品）可以在特定的情况下指定掉落特定物品.
-可以创建的战利品类型:&#x20;
+# 战利品
 
-* blocks（挖掘方块）
-* mobs （击杀怪物）
-* fishing （钓鱼）
+战利品可以用来指定何时掉落特定物品。
 
-例如：这是我在 .yml 中创建的战利品属性
+你可以决定创建不同类型的战利品：
+
+* 方块
+* 生物
+* 钓鱼
+
+例如，这是我创建的 `.yml` 文件中的战利品类别。
+
+{% hint style="warning" %}
+<mark style="color:red;">不要忘记命名空间！</mark>\
+不要忘记为每个配置定义命名空间！
+{% endhint %}
 
 ```yaml
+info:
+  namespace: my_loots
 loots:
   blocks:
     ruby_ore:
-      type: itemsadder:ruby_ore
+      type: iasurvival:ruby_ore
       items:
         ruby:
-          item: itemsadder:ruby
+          item: iasurvival:ruby
           min_amount: 1
           max_amount: 2
           chance: 100
@@ -25,73 +37,74 @@ loots:
       drop_only_first: true
       items:
         crystal:
-          item: itemsadder:crystal
+          item: iasurvival:crystal
           min_amount: 1
           max_amount: 2
           chance: 10
         knowledge_fragment:
-          item: itemsadder:knowledge_fragment
+          item: iasurvival:knowledge_fragment
           min_amount: 1
           max_amount: 2
           chance: 15
 ```
 
-该示例在 **blocks** 分类中有两个战利品配置 
+实例中在**方块**目录含有两个战利品。
 
-第一个战利品为 **ruby_ore**（你可以在任何地方对其进行调用），当你挖掘自定义方块 **itemsadder:ruby_ore** 后将会 **100%** 掉落 1-2个 **itemsadder:ruby**
+第一个是 `ruby_ore`（你也可以按喜好命名），这会在你破坏一个类型为 `iasurvival:ruby_ore` 标签的自定义**方块**后以**100%的几率**掉落**最小**数量为**1**，**最大**数量为**2**的 `itemsadder:ruby` 物品。
 
-第二个战利品为 **原版方块** ，如配置所示，当你在挖掘 **下界石英矿石（nether_quartz_ore）** 时 有几率会掉落 **水晶（crystal）** 与 **知识碎片（knowledge_fragment）**.\
-掉落的几率由配置中的 `chance` 属性决定.&#x20;
+第二个是原版**方块**的战利品。如你所想，当玩家破坏一个 `NETHER_QUARTZ_ORE`时会掉落一个 `crystal` 或 `knowledge_fragment`。\
+这些**掉落物**由 **ItemsAdder** 依据你设定的**几率**决定。
 
 {% hint style="info" %}
-特殊属性：**drop\_only\_first**\
-该属性只会 **掉落** **items** 属性下的战利品中的 **其中一个**，并不会**同时**掉落两种战利品（根据战利品的 `chance` 来决定掉落哪个战利品的可能性更大）
-**提醒**: 该属性会导致某些战利品 **更难掉落** ..
+特殊属性：`drop_only_first`\
+这允许你阻止插件在成功提取到正确的掉落几率时掉落物品。
+
+<mark style="color:orange;">**警告**</mark><mark style="color:orange;">: 这可能会让物品</mark> <mark style="color:orange;">**更难掉落**</mark><mark style="color:orange;">。</mark>
 {% endhint %}
 
-## 仅在特定的生物群系中掉落
+## 仅在特定群系掉落
 
 ```yaml
 loots:
   blocks:
     ruby_ore:
-      type: itemsadder:ruby_ore
+      type: iasurvival:ruby_ore
       biomes:
         - PLAINS
         - SUNFLOWER_PLAINS
         - MOUNTAINS
       items:
         ruby:
-          item: itemsadder:ruby
+          item: iasurvival:ruby
           min_amount: 1
           max_amount: 2
           chance: 100
 ```
 
-## 忽略时运附魔效果
+## 不受时运附魔影响
 
-通过添加 **ignore\_fortune** 属性来使战利品忽略时运的附魔效果
+你可以通过添加 `ignore_fortune` 属性来让该战利品不受时运附魔影响
 
 ```yaml
 loots:
   blocks:
     ruby_ore:
-      type: itemsadder:ruby_ore
+      type: iasurvival:ruby_ore
       items:
         ruby:
-          item: itemsadder:ruby
+          item: iasurvival:ruby
           min_amount: 1
           max_amount: 2
           chance: 100
           ignore_fortune: true # <----- here
 ```
 
-## 其他类型的战利品
+## 其他类型战利品
 
-除了方块掉落的战利品，还有其他类型的战利品.\
-比如：击杀怪物或钓鱼. 下面是一些示例:
+如前所述，还有怪物与钓鱼两种掉落物类型。\
+这是一些示例：
 
-### 钓鱼（fishing）
+### 钓鱼
 
 ```yaml
 loots:
@@ -101,21 +114,21 @@ loots:
         - WARM_OCEAN
       items:
         item_1:
-          item: itemsadder:blue_parrotfish
+          item: iasurvival:blue_parrotfish
           min_amount: 1
           max_amount: 1
           chance: 5
     loot_green_sunfish:
       items:
         item_1:
-          item: itemsadder:green_sunfish
+          item: iasurvival:green_sunfish
           min_amount: 1
           max_amount: 1
           chance: 5
     loot_goldfish:
       items:
         item_1:
-          item: itemsadder:goldfish
+          item: iasurvival:goldfish
           min_amount: 1
           max_amount: 1
           chance: 5
@@ -128,6 +141,7 @@ loots:
   mobs:
     villager:
       type: VILLAGER
+      ignore_spawner: true
       nbt:
         profession:
           path: VillagerData.profession
@@ -135,7 +149,7 @@ loots:
           type: string
       items:
         item_1:
-          item: itemsadder:straw_hat
+          item: iawearables:straw_hat
           min_amount: 1
           max_amount: 1
           chance: 100
@@ -143,17 +157,15 @@ loots:
       type: ENDER_DRAGON
       items:
         item_1:
-          item: itemsadder:ender_dragon_wings
+          item: iawearables:ender_dragon_wings
           min_amount: 1
           max_amount: 1
           chance: 100
 ```
 
-{% hint style="info" %}
-### 自定义怪物掉落物 ([旧实体方法](mobs/old-method/))
-{% endhint %}
+### **自定义怪物战利品 (**[**旧方法**](mobs/old-method/)**)**
 
-为了使 Itemsadder 能在你击杀了自定义怪物（基于Itemsadder创建）后掉落指定的物品，你需要使用 `ItemsAdderMob` 属性，配置如下：
+为了让 ItemsAdder 基于你击杀自定义怪物（通过 ItemsAdder 创建）来掉落战利品，你需要使用 `ItemsAdderMob` 元数据属性。示例：
 
 ```yaml
 loots:
@@ -173,14 +185,11 @@ loots:
           chance: 100
 ```
 
-在该示例中，我设置了 `ItemsAdderMob`  属性并指定了自定义怪物 **命名空间:id**
-（在该示例中的自定义怪物为 `creaturesplus:soul` ）
+如你所见，我设置了 `ItemsAdderMob` 属性，并设定了自定义怪物的**命名空间:id**（本例中为 **creaturesplus:soul**）
 
-{% hint style="info" %}
-### 自定义实体战利品
-{% endhint %}
+### **自定义实体战利品**
 
-为了使 Itemsadder 能在你击杀了自定义怪物（基于Itemsadder创建）后掉落指定的物品，你需要使用 `ItemsAdderEntity` 属性，配置如下：
+为了让 ItemsAdder 基于你击杀自定义实体（通过 ItemsAdder 创建）来掉落战利品，你需要使用 `ItemsAdderEntity` 元数据属性。示例：
 
 ```yaml
 loots:
@@ -200,12 +209,9 @@ loots:
           chance: 100
 ```
 
-在该示例中，我设置了 `ItemsAdderEntity` 属性并指定了自定义怪物 **命名空间:id**
-（在该示例中的自定义怪物为 `custom:ninja_skeleto` ）
+如你所见，我设置了 `ItemsAdderEntity` 属性，并设定了自定义实体的**命名空间:id**（本例中为 **custom:ninja\_skeleton**）
 
-{% hint style="info" %}
-### 村民职业（以及想要匹配的任何其他 NBT 属性）
-{% endhint %}
+### **村民职业（以及任何你想匹配的 NBT 属性）**
 
 ```yaml
 loots:
@@ -225,17 +231,14 @@ loots:
           chance: 100
 ```
 
-
-在该示例中，设置了村民的职业并指定了 **NBT 属性** path 数值为 **VillagerData.profession**.\
-并将 value 数值设置为 **minecraft:farmer**，这样子 Itemsadder 只会匹配属性 **VillagerData.profession** 设置为 **minecraft:farmer** 的村民
+如你所见，我设置了职业属性并指定了 NBT 属性路径，在本例中为VillagerData.production。\
+然后我将值设置为 **minecraft:farmor**，这告诉 ItemsAdder 只匹配属性 **VillageData.profession** 为 **minecraft:farmer** 的**村民**。
 
 {% hint style="warning" %}
-`nbt` 的 `type` 属性和 `metadata（对应Value）` 属性非常重要，不要忘记配置！否则将无法匹配!
+**NBT**和**元数据**非常**重要**，不要**忘记**它们，否则无法进行匹配。
 {% endhint %}
 
-{% hint style="info" %}
-### 基于 Tile 实体的 NBT数据 掉落（例如 刷怪笼（Spawner））
-{% endhint %}
+### **基于重复实体 NBT 数据的掉落（如刷怪笼）**
 
 ```yaml
 loots:
@@ -258,10 +261,106 @@ loots:
 ```
 
 {% hint style="warning" %}
-如果你希望能够通过使用具有 **精准采集** 的附魔物品，从刷怪笼中获取物品，请启用该选项
+如果你想通过使用具有精准采集附魔的物品从刷怪笼那里获得物品，你必须启用此设置。
 
 ```yaml
 loots:  
     allow-loots-drop-from-spawners-using-silk-touch: true
 ```
 {% endhint %}
+
+## 多世界战利品
+
+{% hint style="warning" %}
+这需要 ItemsAdder 3.2.5+
+{% endhint %}
+
+```yaml
+loots:
+  blocks:
+    change_me:
+      enabled: true
+      type: SAND
+      biomes:
+        - BEACH
+      worlds:
+        - "world_*"
+        - "!private_*"
+        - "example1"
+        - "!example2"
+      items:
+        change_me:
+          item: STONE
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+          ignore_fortune: false
+```
+
+如果你不指定任何世界，所有世界都会掉落战利品。
+
+字符 `*` 允许任何以特定文本开头的世界掉落战利品\
+在这个例子中，每个以“world_”开头的世界都会匹配并允许掉落。
+
+字符 `!` 拒绝在任何以特定文本开头的世界中掉落战利品\
+在这个例子中，每个以“private_”开头的世界都会匹配，并且不允许掉落。
+
+您还可以指定精确的世界名称，在这个例子中，`example2` 不允许掉落战利品。
+
+您还可以指定精确的世界名称，在本例中，`example1` 将允许掉落战利品。
+
+## 掉落带有特定皮肤的 `PLAYER_HEAD`
+
+如何指定带有纹理的 `PLAYER_HEAD` 为掉落物。
+
+### 准备头颅掉落物（现有解决方法）
+
+为玩家头颅创建一个新的自定义物品。
+
+1. 创建一个新文件（我使用的是 `palyerheads.yml`），用于设置我们在 [minecraft-heads.com](https://minecraft-heads.com) 找到的纹理 `NBT`。
+
+{% hint style="warning" %}
+```
+`skull` 可以是任意你想要的东西
+```
+{% endhint %}
+
+2. 材料必须为 `PLAYER\_HEAD` 
+3. 设置原版 `model\_path`
+
+```yml
+info:
+    namespace: playerheads
+items:
+  skull:
+    enabled: true
+    display_name: "SKULL"
+    nbt: "{display:{Name:'{\"text\":\"Mossy Skull\"}'},SkullOwner:{Id:[I;-178232365,-1961341643,-1329297047,2014436438],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk4NWQzOTY0NDhmM2NlMWQ0YWRhZGVjMjg2N2U5OGU4N2QxNTVhMjU2YmVmNmY0NjQxMDA1MzNiMjQ3YWMwYSJ9fX0=\"}]}}}"
+    resource:
+      material: PLAYER_HEAD
+      generate: false
+      model_path: "minecraft:item/player_head"
+```
+
+### 设置战利品
+
+我们应该创建一个如下所示的战利品配置。\
+`OBSIDIAN` 是将要掉落头颅的方块，对于 ItemsAdder 方块，应为 `namespace:blockname`\
+`head` 是你想要设置的 ID\
+将准备好的头颅命名空间放于`item: `后，如 `playerheads:skull`\
+你可以在[这里](https://itemsadder.devs.beer/plugin-usage/adding-content/loots)找到所有变量。
+
+```yml
+info:
+  namespace: my_loots
+loots:
+  blocks:
+    obsidian:
+      type: OBSIDIAN
+      items:
+        head:
+          item: playerheads:skull
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+```
