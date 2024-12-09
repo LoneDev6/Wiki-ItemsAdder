@@ -10,7 +10,7 @@
   * [资源包未正确加载](faq/identify-why-textures-are-not-shown.md)
   * [移除默认内容](faq/removing-default-stuff/latest-itemsadder.md)
   * [插件不工作](faq/plugin-doesnt-work.md)
-  * [🇹🇷土耳其语电脑问题](faq/turkish-computer-errors.md)
+  * [🇹🇷 土耳其语电脑问题](faq/turkish-computer-errors.md)
   * [远方纹理不连贯](faq/i-see-crisp-textures-far-away.md)
   * [口渴/法力条](faq/fill-thirst-mana-bar.md)
   * [我看不到表情、自定义界面、HUD等](faq/i-cant-see-emoji-guis-huds-etc..md)
