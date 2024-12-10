@@ -121,7 +121,7 @@
 * [贡献](contribute/README.md)
   * [修改英文wiki](contribute/edit-the-english-wiki.md)
   * [翻译wiki](contribute/translate-this-wiki.md)
-  * [预览wiki更改](contribute/preview-wiki-changes.md)
+  * [预览更改](contribute/preview-wiki-changes.md)
 * [ItemsAdder v4](itemsadder-v4.md)
 
 ## 插件使用方法
