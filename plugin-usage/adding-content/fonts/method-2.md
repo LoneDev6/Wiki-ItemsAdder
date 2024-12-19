@@ -9,11 +9,13 @@
 ![](<../../../.gitbook/assets/image_(13).png>)
 
 {% hint style="info" %}
-This font is made by Faithful team, please check their work: [https://faithful.team/](https://faithful.team/)
+This font is made by Faithful team.
 {% endhint %}
 
 To this you have to:
 
 * download the Faithful font [here](https://www.dropbox.com/s/06et55587zvcmr7/FaithfulFont.zip?dl=0)
 * extract contents into `plugins\ItemsAdder\contents\faithful_font\resourcepack\`
-* and obviously if you're using [dropbox host](../../resourcepack-hosting/resourcepack-on-dropbox.md) you have to reupload the `generated.zip` after server restart
+* run `/iazip` and follow the hosting tutorial to apply the pack.
+
+{% content-ref url="../resourcepack-hosting/" %} resourcepack-hosting {% endcontent-ref %}
