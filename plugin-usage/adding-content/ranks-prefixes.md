@@ -9,7 +9,7 @@ icon: hashtag
 ![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (3).png>)
 
 {% hint style="warning" %}
-**你必须使用** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **和** [**TAB**](https://www.mc-market.org/resources/14009/) **来完成本教程，如果你使用其他权限和TAB插件，方法可能会有所不同。**
+**你必须使用** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **和** [**TAB**](https://www.spigotmc.org/resources/tab-1-5-1-21-4.57806/) **来完成本教程，如果你使用其他权限和TAB插件，方法可能会有所不同。**
 
 **如果你使用其他前缀插件，你可能需要使用** [**此方法**](broken-reference) **来显示等级**
 {% endhint %}
