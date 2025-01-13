@@ -1,4 +1,4 @@
-# Optifine 加载屏幕
+# Optifine 加载页面
 
 {% hint style="danger" %}
 **Optifine** 并未被 **ItemsAdder** 官方支持，但如果你想要更多的自定义选项，可以阅读这些教程。

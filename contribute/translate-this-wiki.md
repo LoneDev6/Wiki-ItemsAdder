@@ -1,64 +1,64 @@
-# Translate this wiki
+# 翻译此 wiki
 
-## How to translate this wiki?
+## 如何翻译此 wiki？
 
-### Getting a new branch for your language
+### 为您的语言获取一个新分支
 
-Contact LoneDev and ask him to create a **new branch** for your language.\
-Feel free to ping **LoneDev** on the Discord or to open a support ticket in the community channel.
+联系 LoneDev 并请求他为您的语言创建一个**新分支**。\
+可以在 Discord 上联系 **LoneDev** 或在社区频道中打开支持工单。
 
-### Setting up your repository
+### 设置您的仓库
 
-Then, after the branch creation, open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
+然后，在分支创建后，打开此 wiki 的 [**Github** 仓库](https://github.com/LoneDev6/Wiki-ItemsAdder)，点击 **`Fork`**。
 
 ![](<../.gitbook/assets/image (99) (1).png>)
 
-Untick this option!
+取消勾选此选项！
 
 <figure><img src="../.gitbook/assets/image (2) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-Click here to change the branch.
+点击这里更改分支。
 
 {% hint style="warning" %}
-DO NOT EDIT THE `master` BRANCH!
+不要编辑 `master` 分支！
 {% endhint %}
 
 ![](<../.gitbook/assets/image (94).png>)
 
-Select a file you want to edit and press the **pen** button
+选择您想编辑的文件并点击 **铅笔** 按钮
 
 ![](<../.gitbook/assets/image (63).png>)
 
-Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
+编辑文件然后点击 <mark style="color:green;">**提交更改**</mark>
 
 ![](<../.gitbook/assets/image (76) (1).png>)
 
 {% hint style="warning" %}
-## Important notes
+## 重要提示
 
-* Do not add content or new pages, only translate texts.
-* The only content you can add is a "translated by" text in the welcome page.
-* Do not remove the `#` special characters, translate only the next text, these are titles.
-* Do not remove or edit special texts inside `{ }`, for example `{% hint style="info" %}`, these are used to create the hint message boxes.
-* Do not remove `*` character, these are used to create lists
-* Do not remove emojis
-* Do not translate or remove the `--- description: ---` text on top of some pages, translate only the inner text.
-* Do not remove `\` on some lines end
-* Do not remove `[TEXT](LINK)` part, translate only the text, these are the clickable links.
+* 不要添加内容或新页面，只翻译文本。
+* 您可以添加的唯一内容是在欢迎页面中的“翻译者”文本。
+* 不要删除 `#` 特殊字符，只翻译后面的文本，这些是标题。
+* 不要删除或编辑 `{ }` 内的特殊文本，例如 `{% hint style="info" %}`，这些用于创建提示消息框。
+* 不要删除 `*` 字符，这些用于创建列表。
+* 不要删除表情符号。
+* 不要翻译或删除某些页面顶部的 `--- description: ---` 文本，只翻译内部文本。
+* 不要删除某些行末的 `\`。
+* 不要删除 `[文本](链接)` 部分，只翻译文本，这些是可点击的链接。
 {% endhint %}
 
-### Example of what you _<mark style="color:red;">must not</mark>_ edit
+### 您_<mark style="color:red;">不得</mark>_编辑的示例
 
 ![](<../.gitbook/assets/image (80).png>)
 
-### Last step
+### 最后一步
 
-Contact **LoneDev** in order to get your changes reviewed and added to the wiki.\
-Feel free to ping **LoneDev** on the Discord or to open a support ticket in the community channel.
+联系 **LoneDev** 以便审核并将您的更改添加到维基中。\
+可以在 Discord 上联系 **LoneDev** 或在社区频道中打开支持工单。
 
 {% hint style="info" %}
-Would be good if you update your translation each time the main repository (the one in English) gets edited, to reflect changes.\
-You can keep track of changes in the Discord notification channel.
+最好在主仓库（英文版）每次编辑时更新您的翻译，以反映更改。\
+您可以在 Discord 通知频道中跟踪更改。
 
 ![](<../.gitbook/assets/image (73).png>)
 {% endhint %}

@@ -2,9 +2,9 @@
 icon: flower-daffodil
 ---
 
-# 表面生成器
+# 地表生成器
 
-## 在世界表面生成装饰
+## 在世界地表生成装饰
 
 使用 ItemsAdder，您可以在世界各地生成装饰，使您的服务器更加专业和独特。
 
@@ -14,7 +14,7 @@ icon: flower-daffodil
 
 ![](../../.gitbook/assets/desert\_rose.png)
 
-## 创建表面生成器
+## 创建地表生成器
 
 ### 创建配置
 

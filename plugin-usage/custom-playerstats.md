@@ -2,9 +2,9 @@
 icon: database
 ---
 
-# 自定义玩家属性
+# 自定义玩家状态
 
-## 什么是玩家属性？
+## 什么是玩家状态？
 
 它们是由 ItemsAdder 添加的自定义属性，你可以使用一个特殊命令添加和读取它们：`/iaplayerstat`
 
@@ -16,7 +16,7 @@ icon: database
 `/iaplayerstat write LoneDev thirst 6`\
 `/iaplayerstat read LoneDev thirst float`
 
-## 保存玩家属性
+## 保存玩家状态
 
 ### 自定义 NBT 文件
 
