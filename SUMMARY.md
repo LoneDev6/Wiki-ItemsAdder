@@ -265,7 +265,7 @@
 * [Minecraft 服务器租赁](other/minecraft-hosting.md)
 * [优化 Minecraft 客户端](https://blog.devs.beer/blog/optimize-minecraft)
 * [用户视频](other/videos-by-users.md)
-* [批量着色图片](other/bulk-colori  ze-images.md)
+* [批量着色图片](other/bulk-colorize-images.md)
 
 ## 开发者
 
