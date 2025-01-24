@@ -6,7 +6,7 @@
 ## How to add compatibility?
 
 > [!NOTE]
-> Graves configuration is located in ``/plugins/Graves`` while GravesX configuration is located in ``/plugins/GravesX`` while both plugins retain the same file structure besides plugin name differences.
+> Graves configuration is located in `/plugins/Graves` while GravesX configuration is located in `/plugins/GravesX` while both plugins retain the same file structure besides plugin name differences.
 
 Enable the compatibility in config/config.yml
 
