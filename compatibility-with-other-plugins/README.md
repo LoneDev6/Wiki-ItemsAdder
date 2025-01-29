@@ -1,2 +1,6 @@
-# ✅ Compatibility with other plugins
+---
+icon: square-check
+---
+
+# Compatibility with other plugins
 

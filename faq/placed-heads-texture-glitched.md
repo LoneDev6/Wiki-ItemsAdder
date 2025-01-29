@@ -1,10 +1,11 @@
 ---
 description: Some placed player heads have glitched/bugged texture
+icon: head-side
 ---
 
 # Placed heads texture glitched
 
-![](<../../.gitbook/assets/image (51) (2) (2).png>)
+![](<../.gitbook/assets/image (51) (2) (2).png>)
 
 {% embed url="https://youtu.be/Gn7uzcSmjmU" %}
 

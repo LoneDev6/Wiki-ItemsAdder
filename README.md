@@ -1,8 +1,9 @@
 ---
 description: This website helps you configuring and creating custom items for my plugin
+icon: house-blank
 ---
 
-# 👋 Welcome
+# Welcome
 
 Some of this website pages may contain affiliate links, meaning I get a commission if you decide to make a purchase (at no cost to you).
 
@@ -33,7 +34,7 @@ Some of this website pages may contain affiliate links, meaning I get a commissi
 ## Purchase
 
 {% hint style="warning" %}
-Buy the plugin only from official shops, if you bought it elsewhere you was scammed, ask for a refund.
+Buy the plugin only from official shops, if you bought it elsewhere you were scammed, ask for a refund.
 {% endhint %}
 
 ### With PayPal

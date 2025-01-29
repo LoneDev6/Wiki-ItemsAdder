@@ -1,4 +1,4 @@
-# 📤 OneDrive
+# OneDrive
 
 {% hint style="warning" %}
 #### Not recommended.

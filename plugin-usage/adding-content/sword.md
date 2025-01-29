@@ -1,4 +1,8 @@
-# ⚔ Sword
+---
+icon: sword
+---
+
+# Sword
 
 {% hint style="danger" %}
 **Resourcepack hosting**

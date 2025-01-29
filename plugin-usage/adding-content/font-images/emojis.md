@@ -1,16 +1,20 @@
-# 😁 Emojis
+---
+icon: comment-smile
+---
+
+# Emojis
 
 ### Introduction
 
-For example I want to create an emoji pack named "myemojis", so my [namespace ](broken-reference)would be `myemojis`
+For example I want to create an emoji pack named "myemojis", so my namespace would be `myemojis`
 
 ### Example configurations
 
-[https://github.com/ItemsAdder/DefaultPack/tree/main/contents/twitteremojis](https://github.com/ItemsAdder/DefaultPack/tree/main/contents/twitteremojis)
+{% embed url="https://github.com/ItemsAdder/DefaultPack/tree/main/contents/twitteremojis" %}
 
 ### Creating the textures folder
 
-1. Open folder plugins\ItemsAdder\contents\
+1. Open folder plugins\ItemsAdder\contents\\
 2. Create a folder named `myemojis`
 3. Create a folder named `textures`, then inside create a folder named `font` and then a folder named `emoji`
 4. Now you should have this path: `ItemsAdder/contents/myemojis/textures/font/emoji/`
@@ -42,8 +46,8 @@ font_images:
     y_position: 8
 ```
 
-**scale\_ratio** is the final height in pixels of the emoji because 72x72 pixels is too big, You'd have to scale it but you can set 9 so Minecraft will handle it automatically.\
-**y\_position** is the y position in pixels, 8 should be good if you keep emoji 72x72 and scale\_ratio to 9. If you have different size you'll have to tweak the y\_position based on your tests.
+**`scale_ratio`** is the final height in pixels of the emoji because 72x72 pixels is too big, You'd have to scale it but you can set 9 so Minecraft will handle it automatically.\
+&#xNAN;**`y_position`** is the y position in pixels, 8 should be good if you keep emoji 72x72 and `scale_ratio` to 9. If you have different size you'll have to tweak the y\_position based on your tests.
 
 {% hint style="danger" %}
 `scale_ratio` must ALWAYS be bigger than `y_position` or Minecraft won't like it. I cannot fix that issue, it's a **Minecraft** limitation.
@@ -51,17 +55,17 @@ font_images:
 
 ## In-game view
 
-![](<../../../.gitbook/assets/image\_(116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image_(116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### Using the /e useful suggestions
 
 Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
 
-![](../../../.gitbook/assets/image\_\(112\).png)
+![](../../../.gitbook/assets/image_\(112\).png)
 
-![](../../../.gitbook/assets/image\_\(111\).png)
+![](../../../.gitbook/assets/image_\(111\).png)
 
-![](../../../.gitbook/assets/image\_\(113\).png)
+![](../../../.gitbook/assets/image_\(113\).png)
 
 ### Using the tab autocomplete in chat
 

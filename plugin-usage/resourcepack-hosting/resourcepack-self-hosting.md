@@ -1,4 +1,4 @@
-# 📥 Self hosting
+# Self hosting
 
 ## Video tutorial
 
@@ -22,8 +22,8 @@ Difference is that with self-host you can download the pack directly from your s
 `self-host` is really useful when you are configuring the resourcepack on your test server on your PC. Because you just have to use command `/iazip` and you'll see changes applied ingame almost instantly.
 {% endhint %}
 
-{% content-ref url="tips-for-fastest-usage.md" %}
-[tips-for-fastest-usage.md](tips-for-fastest-usage.md)
+{% content-ref url="../fast-resourcepack-tips.md" %}
+[fast-resourcepack-tips.md](../fast-resourcepack-tips.md)
 {% endcontent-ref %}
 
 ## How can I configure the self host?
@@ -32,9 +32,9 @@ Difference is that with self-host you can download the pack directly from your s
 
 For example on **Pterodactyl**:
 
-![](../../.gitbook/assets/image\_\(104\).png)
+![](../../.gitbook/assets/image_\(104\).png)
 
-![](../../.gitbook/assets/image\_\(101\).png)
+![](../../.gitbook/assets/image_\(101\).png)
 
 * after you obtained a **new port** you can open `config.yml` and set like this:
 
@@ -74,30 +74,63 @@ Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model
 
 After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
 
-## Continue installation if you need
+### Continue installation if you need
 
 {% content-ref url="../../first-install.md" %}
 [first-install.md](../../first-install.md)
 {% endcontent-ref %}
 
-## Cloudflare paid plan
+## Cloudflare configuration (optional, not mandatory)
 
-Read this part if you are using `Cloudflare` to protect your IP + port (paid plan) and you have a special rule to redirect the resourcepack request from a subdomain to the resourcepack port.
+{% hint style="info" %}
+This guide won't protect your server IP as you are already exposing it via the SRV rule and Cloudflare free doesn't allow protecting traffic from non-standard ports.
+{% endhint %}
 
-For example:
+{% hint style="info" %}
+This guide might make your traffic lower due to how Cloudflare caches requests automatically, so resourcepack requests might be less heavy after applying this method.
+{% endhint %}
 
-* the server is hosted on `mc.example.com`
-* the resourcepack is on port `8163`
-* you set a **Cloudflare** rule to redirect all traffic from `pack.example.com` to `mc.example.com:8163`
+### Create a new `DNS record`
 
-In order for it to work you have to set your configuration like that:
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+* type: `A`
+* name: `pack` (for example)
+* IPv4 address to your server IP, where the pack is hosted (ItemsAdder is running)
+* Proxy status: `Proxied`
+* Click **Save**
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+### Create a new `Origin rule`
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+Select "Change Port" and "Create a Rule".
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Select "Custom filer expression" and complete as shown in the screenshot changing the values based on your setup.
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+### Configure ItemsAdder
+
+* set `server-ip` to your new pack address
+* set  `pack-port` to your resourcepack port
+* set `append-port` to false
+* try to access the&#x20;
+
+{% code title="config.yml" %}
 ```yml
-    self-host:
-      enabled: true
-      server-ip: 'https://pack.example.com' # <-- don't forget https
-      pack-port: 8163
-      append-port: false # <-- important
+self-host:
+  enabled: true
+  server-ip: 'https://pack.devs.beer'
+  pack-port: 25650
+  append-port: false
 ```
-
-This will stop ItemsAdder from adding http in front of your URL and stop adding the port at the end of the URL.
+{% endcode %}

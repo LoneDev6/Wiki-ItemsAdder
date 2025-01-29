@@ -32,7 +32,7 @@ This service allows your players to download the resourcepack very fast despite 
 ## I already use self-host, is this better?
 
 Depends.\
-It's better to use [self-host](../../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continously run `/iazip`, to avoid losing time (read more [here](../../plugin-usage/resourcepack-hosting/tips-for-fastest-usage.md)).
+It's better to use [self-host](../../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continously run `/iazip`, to avoid losing time (read more [here](../../plugin-usage/fast-resourcepack-tips.md)).
 
 When you've finished working on the pack you can safely start using the `auto-external-host` feature.\
 This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.

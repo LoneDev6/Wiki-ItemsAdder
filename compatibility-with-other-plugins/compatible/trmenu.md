@@ -27,6 +27,6 @@ Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%
 
 Read more here:&#x20;
 
-{% content-ref url="../../plugin-usage/placeholderapi.md" %}
-[placeholderapi.md](../../plugin-usage/placeholderapi.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

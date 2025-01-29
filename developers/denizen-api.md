@@ -1,4 +1,8 @@
-# 📓 Denizen API
+---
+icon: terminal
+---
+
+# Denizen API
 
 {% hint style="warning" %}
 Needs ItemsAdder 3.2.4+
@@ -23,7 +27,8 @@ set_custom_block &#x3C;context.location> ruby_block
 # Check if block is a custom block
 context.location.is_ia_block
 # Get block namespaced id
-context.location.ia_namespaced_id</code></pre>
+context.location.ia_namespaced_id
+</code></pre>
 
 ## Examples
 

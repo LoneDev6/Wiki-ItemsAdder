@@ -1,4 +1,8 @@
-# 🔢 Custom player stats
+---
+icon: database
+---
+
+# Custom player stats
 
 ## What are player stats?
 

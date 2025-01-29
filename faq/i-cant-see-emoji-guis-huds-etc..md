@@ -1,4 +1,8 @@
-# 👀 I can't see emoji, GUIs, HUDs etc.
+---
+icon: eye-slash
+---
+
+# I can't see emoji, GUIs, HUDs etc.
 
 ## ItemsAdder 3.4.1 and greater
 

@@ -14,7 +14,7 @@ Note: this is not the official resourcepack and I'm not its author. Please don't
 
 * Download the resourcepack [here](https://www.planetminecraft.com/texture-pack/slimefun-texture-by-raulh22/)
 * Paste the [items-model.yml](https://www.mediafire.com/file/4s42i4b1uk6r05j/file) file inside the Slimefun folder
-* Merge the Slimefun resourcepack with ItemsAdder resourcepack ([read here](../../plugin-usage/merge-resourcepacks/))
+* Merge the Slimefun resourcepack with ItemsAdder resourcepack ([read here](../../plugin-usage/merge-resourcepacks.md))
 * Done
 
 ![](../../.gitbook/assets/13338410.png)

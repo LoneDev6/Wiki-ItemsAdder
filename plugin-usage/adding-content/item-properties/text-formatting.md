@@ -6,25 +6,29 @@ ItemsAdder implements Minimessage support so you can easily customize your texts
 This requires ItemsAdder 3.5.1 or greater and LoneLibs 1.0.26 or greater.
 {% endhint %}
 
-<div>
+<div><figure><img src="../../../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure>
+### Basic item name
 
- 
+`display_name: '&6TEST'`
 
-<figure><img src="../../../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure>
+```yml
+items:
+  custom_nbt_item_display_name_classic:
+    enabled: true
+    display_name: '&6TEST'
+    resource:
+      generate: false
+      model_path: minecraft:item/emerald
+      material: PAPER
 
-</div>
+```
 
-## Online Minimessage text editor
+### Minimessage
 
 {% embed url="https://webui.advntr.dev/" %}
 
-## Minimessage tutorials
-
 {% embed url="https://docs.advntr.dev/minimessage/format.html" %}
-
-## Examples of text formatting using Minimessage
 
 ```yml
 info:
@@ -50,5 +54,19 @@ items:
     resource:
       generate: false
       model_path: minecraft:item/emerald
-      material: PAPER   
+      material: PAPER
+```
+
+### Component
+
+{% embed url="https://minecraft.tools/en/json_text.php" %}
+
+```yaml
+items:  
+  custom_nbt_item_display_name_component:
+    display_name: '{"text\":"TEST", "font": "alt"}'
+    resource:
+      generate: false
+      model_path: minecraft:item/emerald
+      material: PAPER
 ```

@@ -1,8 +1,9 @@
 ---
 description: Square / rectangle character
+icon: rectangle-vertical
 ---
 
-# ▯ rectangle character
+# Rectangle character
 
 ## I see ▯ instead of my emojis/ranks
 

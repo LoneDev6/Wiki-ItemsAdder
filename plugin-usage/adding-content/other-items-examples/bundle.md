@@ -1,9 +1,5 @@
 # Bundle
 
-{% hint style="warning" %}
-Requires Minecraft 1.17+
-{% endhint %}
-
 ## Configuration
 
 ```yaml
@@ -18,11 +14,13 @@ items:
       - item/bundle_test.png
 ```
 
-## Image files
+<div align="left">
 
-![](<../../../.gitbook/assets/image (33).png>)
+<img src="../../../.gitbook/assets/image (33).png" alt="">
 
-You have to create another file with `_filled` suffix.
+</div>
+
+You have to create another file with `_filled` suffix, in this example `bundle_test_filled.png`.
 
 ## Result
 

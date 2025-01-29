@@ -1,32 +1,36 @@
 ---
-description: Terms and Conditions for IA
+icon: circle-info
 ---
 
-# ⛔ Legal
+# Terms Of Service
 
-## 📝Terms Of Service
+### How to ask for support
+
+{% embed url="https://forum.devs.beer/d/16-getting-support" %}
 
 {% hint style="danger" %}
 Before Buying Remember:
 
-* ⛔ If you have another plugin that uses a custom resource pack you have to know how to merge it with the ItemsAdder resource pack or disable the other plugin. A tutorial is available [here](../plugin-usage/merge-resourcepacks/).
+* ⛔ If you have another plugin that uses a custom resource pack you have to know how to merge it with the ItemsAdder resource pack or disable the other plugin. A tutorial is available [here](../plugin-usage/merge-resourcepacks.md).
 * ⛔ Before asking for support, please read the tutorials of this wiki.
-* ⛔ You must have some knowledge on how to create/manage/merge vanilla Minecraft resource packs as this plugin uses a custom-made and modified resource pack to show custom textures/models. \
+* ⛔ You must have some knowledge on how to create/manage/merge vanilla Minecraft resource packs as this plugin uses a custom-made and modified resource pack to show custom textures/models.\
   Please if you have no knowledge about resource packs don't buy the plugin!
 * ⛔ It's impossible to write a complete list of compatible/incompatible plugins without testing every single plugin on the planet. If the plugin doesn't work with your server setup don't ask for a refund but [report it](tos.md#how-to-ask-for-support-properly) and I'll try to find a solution.
 * ⛔ [Not compatible with some plugins](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
 {% endhint %}
 
-### No Refunds!
+### No Refunds¹
 
-Refunds are possible only on particular cases and at the seller's discretion.\
-Contact the seller using the forum or via email before opening an official dispute on the payment platform (PayPal, Stripe etc.).
+Refunds are typically at the seller's discretion and might be issued on particular cases.\
+Contact the seller using the forum or via email before opening an official dispute on the payment platform (PayPal, Stripe, etc.).
+
+¹Except as required by applicable state law.
 
 ### Resource Pack
 
 This plugin **requires** your **users** to **download** a **resource pack** (which is sent automatically on join) one time.\
 This Plugin may not work with plugins that are using server texture packs, [read this to see if your plugin is compatible](../compatibility-with-other-plugins/).\
-There is no Minecraft plugin which allows you to load custom assets without resource packs, it's not an ItemsAdder limitation, that's how the game works.&#x20;
+There is no Minecraft plugin which allows you to load custom assets without resource packs, it's not an ItemsAdder limitation, that's how the game works.
 
 ### Server Software
 
@@ -41,11 +45,7 @@ You may **only use** the **plugin** on a **server** that **you are** an **owner*
 Bungeecord networks are also allowed.\
 You Must ensure that your staff won't leak the plugin and keep your JAR safe.\
 \
-If you want to transfer your account or your license to another account you can do that by opening a ticket on my support [forum](https://forum.devs.beer/t/private-payment-issue).
-
-### Making Addons
-
-You can sell **custom packs, textures, and configs...** make sure to read the [addons creation policy](tos.md#addon-creation-policy).
+If you want to transfer your account or your license to another account you have to provide a valid explanation about why, by opening a ticket on the Discord server.
 
 ### Bugs & Issues & Support
 
@@ -54,10 +54,6 @@ I can fix bugs only if you report them in the right place.\
 Please be sure to read tutorials before asking for help.\
 Check the [FAQ](https://itemsadder.devs.beer/faq) for more info.\
 If you are contacting support please read the support policy.
-
-### How to ask for support properly
-
-{% embed url="https://forum.devs.beer/d/16-getting-support" %}
 
 ## 🆘 Support Policy
 
@@ -78,17 +74,17 @@ You won't get support if your help request doesn't have enough information.
 
 ## 🖌️Addon Creation Policy
 
-You can sell **custom packs, textures, and configs...** compatible with this plugin or plugin presets. Thanks.\
-Also [a donation ](http://a.devs.beer/lonedevdonate)is appreciated if you earn a lot from them.
+You can sell **custom packs, textures, and configs...** compatible with this plugin or plugin presets.\
+[A donation ](http://a.devs.beer/lonedevdonate)is appreciated if you earn a lot from them.\
+Make sure to read the [addons creation policy](tos.md#addon-creation-policy).
 
 ### Creating unique Addons
 
-When creating add-ons you are not allowed to include any items from the default ItemsAdder pack\
-DO NOT INCLUDE MY DEFAULT ITEMS, MODELS, FONT IMAGES etc. IN YOUR ADDONS!\
-**PLEASE DO NOT INCLUDE MY DEFAULT ITEMS IN YOUR PACK!**\
+When creating add-ons you are not allowed to include any items from the default **ItemsAdder** pack\
+DO NOT INCLUDE MY DEFAULT ITEMS, MODELS, FONT IMAGES etc. IN YOUR ADDONS OR PACKS!\
 You can't resell my assets.
 
-### Copying Other Addons
+### Copying Other's Addons
 
 If your addon contains similar models, items, font images etc. to another addon your addon will be removed.\
 DON'T COPY OTHER CREATIONS.\

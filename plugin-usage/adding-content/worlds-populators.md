@@ -1,10 +1,16 @@
-# 💎 Worlds populators
+---
+icon: cubes-stacked
+---
+
+# Worlds populators
+
+Worlds populators allow you to spawn custom blocks under the surface of the world. They are mostly used for ores and decoration blocks.
 
 ### Example: two populators
-{% hint style="warning" %}
-<mark style="color:red;">Don't forget the namespace!</mark>\
-Don't forget to define a namespace for every of your config!
-{% endhint %}
+
+This code allows you to tell ItemsAdder to generate the block `myitems:custom_block` in the world named `world` and replace only block of types `STONE`, `DIRT`, `ANDESITE`, `GRANITE`, `COBBLESTONE`, `GRAVEL` and only in biome `PLAINS`.
+
+It will spawn 1 vein made of 3 blocks in each chunk.
 
 ```yaml
 info:
@@ -41,9 +47,6 @@ worlds_populators:
     chunk_veins: 1
 ```
 
-This code allows you to tell ItemsAdder to generate the block `myitems:custom_block` in the world named `world` and replace only block of types `STONE`, `DIRT`, `ANDESITE`, `GRANITE`, `COBBLESTONE`, `GRAVEL` and only in biome `PLAINS`.\
-It will spawn 1 vein made of 3 blocks in each chunk.
-
 ### `vein_blocks`, `chunk_veins`, `chunk_chance`
 
 {% hint style="warning" %}
@@ -53,8 +56,8 @@ Take my values as example.
 {% endhint %}
 
 **`chunk_veins`**: number of veins to be spawned in the chunk\
-**`vein_blocks`**: number of blocks in each ore vein (or the **vein size**)\
-**`chunk_chance`**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
+&#xNAN;**`vein_blocks`**: number of blocks in each ore vein (or the **vein size**)\
+&#xNAN;**`chunk_chance`**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
 
 {% hint style="warning" %}
 <mark style="color:red;">**Old ItemsAdder**</mark> versions before **3.1.6** used these properties instead:\
@@ -103,4 +106,3 @@ You can remove this option and the plugin will spawn ores replacing every block 
     vein_blocks: 6
     chunk_veins: 1
 ```
-

@@ -1,8 +1,9 @@
 ---
 description: Emotes have bugged textures (1.17+)
+icon: person-walking
 ---
 
-# 💃 Broken emote textures
+# Broken emote textures
 
 ## Shader Mod issues
 

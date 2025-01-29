@@ -1,3 +1,7 @@
+---
+icon: heading
+---
+
 # Animated titles
 
 You can create animated titles (using totem animation), this is useful for custom gamemodes and to notify players.\

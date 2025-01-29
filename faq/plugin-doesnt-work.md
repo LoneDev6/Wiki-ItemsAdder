@@ -1,10 +1,34 @@
-# ⚠ Plugin doesn't work!
+---
+icon: circle-exclamation
+---
 
-## Did you recently update your server/plugin or installed a new plugin?
+# Plugin doesn't work
+
+## Read the install tutorial again
+
+Try again to follow the installation tutorial on a clean server.
+
+{% content-ref url="../first-install.md" %}
+[first-install.md](../first-install.md)
+{% endcontent-ref %}
+
+## Obtain the plugin from an official market
+
+Do not use JARs obtained from unofficial sources, they contain bugs and are not safe to use.
+
+## Remove any recently installed plugin
 
 Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
 
-### **Please read this if you still have problems** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+## Update all dependencies
+
+Update all dependencies, sometimes outdated JARs can cause issues.
+
+## Ask on Discord
+
+Someone might have the same issue. Try also to use the search button.
+
+## **Report the bug if you still have issues** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
 
 When you report something be sure to:
 

@@ -1,4 +1,8 @@
-# 📑 Minecraft language files
+---
+icon: earth-africa
+---
+
+# Minecraft language files
 
 With ItemsAdder you can easily overwrite Minecraft default translation files.
 

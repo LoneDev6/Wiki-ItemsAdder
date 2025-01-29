@@ -1,2 +1,6 @@
-# 📓 Skript API
+---
+icon: square-terminal
+---
+
+# Skript API
 

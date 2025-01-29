@@ -1,4 +1,8 @@
-# ⚠ Not compatible
+---
+icon: triangle-exclamation
+---
+
+# Not compatible
 
 _**Is it compatible with plugin X?**_
 

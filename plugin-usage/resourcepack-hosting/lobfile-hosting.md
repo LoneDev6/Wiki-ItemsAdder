@@ -1,12 +1,8 @@
-# 📤 LobFile hosting
+# LobFile hosting
 
 {% hint style="warning" %}
 This feature requires **ItemsAdder 3.6.3** or greater.
 {% endhint %}
-
-## Video tutorial
-
-Soon
 
 ## What is LobFile?
 
@@ -15,6 +11,12 @@ Soon
 Thanks a lot to **LobFile**[ ](https://ploudos.com/it/)which provides us their platform to host files for free!
 
 {% embed url="https://lobfile.com/" %}
+
+{% hint style="warning" %}
+### Warning
+
+File size limit is 100MB for this hosting method.
+{% endhint %}
 
 ## What are the advantages?
 
@@ -27,12 +29,11 @@ Thanks a lot to **LobFile**[ ](https://ploudos.com/it/)which provides us their p
 
 Depends.
 
-It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continuously run `/iazip`, to avoid losing time (read more [here](tips-for-fastest-usage.md)).
+It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continuously run `/iazip`, to avoid losing time (read more [here](../fast-resourcepack-tips.md)).
 
-When you've finished working on the pack you can safely start using this other hosting feature instead of `self-host`.\
-This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.
-
-If your playerbase is all from the same country you can stick with `self-host`.
+When you've finished working on the pack you can safely start using this other hosting feature instead of `self-host`, in this case **LobFile**.\
+This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.\
+Anyway your playerbase is all from the same country you can stick with `self-host`.
 
 ## Setup
 

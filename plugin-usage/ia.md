@@ -1,8 +1,9 @@
 ---
+icon: square-list
 description: /ia command menu
 ---
 
-# 📃 Recipes menu
+# Recipes menu
 
 ## Menu settings and "All" category
 
@@ -16,7 +17,7 @@ For example: `contents/iasurvival/configs/categories.yml`
 
 ## Creating a custom category
 
-If you want to create your own category you have to create and add it to your own `.yml` file in your [namespace](broken-reference).\
+If you want to create your own category you have to create and add it to your own `.yml` file in your [namespace](adding-content/configs-and-resourcepack.md#what-is-a-namespace).\
 <mark style="color:red;">Do not add your categories into the</mark> <mark style="color:red;"></mark><mark style="color:red;">`ia_gui.yml`</mark> <mark style="color:red;"></mark><mark style="color:red;">file!</mark>\
 This is an example:
 
@@ -58,10 +59,6 @@ This allows you to open **`/ia`** menu and see all swords organized in the same 
 
 ## Add bulk items to categories
 
-{% hint style="warning" %}
-Requires ItemsAdder 3.5.1 or greater.
-{% endhint %}
-
 ### Wildcard
 
 Matches any item which has `example` namespace.
@@ -75,7 +72,7 @@ categories:
     name: TEST
     permission: ia.menu.seecategory.test
     items:
-      - example:*
+      - "example:*"
 ```
 
 Matches any namespace which has `some_item` item.
@@ -106,8 +103,8 @@ Use [this website](https://regex101.com/) to test your regex.
     name: display-category-armors
     permission: ia.menu.seecategory.armors
     items:
-      - iasurvival\:(.*)_helmet
-      - iasurvival\:(.*)_chestplate
-      - iasurvival\:(.*)_leggings
-      - iasurvival\:(.*)_boots
+      - "iasurvival\:(.*)_helmet"
+      - "iasurvival\:(.*)_chestplate"
+      - "iasurvival\:(.*)_leggings"
+      - "iasurvival\:(.*)_boots"
 ```

@@ -4,6 +4,6 @@
 
 ## Tutorials
 
-{% content-ref url="../../plugin-usage/adding-content/ranks-textures-prefix.md" %}
-[ranks-textures-prefix.md](../../plugin-usage/adding-content/ranks-textures-prefix.md)
+{% content-ref url="../../plugin-usage/adding-content/ranks-prefixes.md" %}
+[ranks-prefixes.md](../../plugin-usage/adding-content/ranks-prefixes.md)
 {% endcontent-ref %}

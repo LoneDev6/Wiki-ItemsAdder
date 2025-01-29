@@ -4,21 +4,41 @@
 
 ## How to use enchants
 
-This is an example configuration for an ItemsAdder custom item enchant.
-
-{% hint style="warning" %}
-This requires **ItemsAdder** 2.5.2+
+{% hint style="info" %}
+Requires 4.0.2-beta-9 or greater.
 {% endhint %}
 
+This is an example configuration for an ItemsAdder custom item enchant.
+
 ```yaml
-  ruby_pickaxe:
-    display_name: display-name-ruby_pickaxe
-    permission: ruby_pickaxe
+info:
+  namespace: test
+items:
+  advanced_enchants_test:
+    display_name: advanced_enchants_test
     resource:
-      material: DIAMOND_PICKAXE
-      generate: true
-      textures:
-      - item/ruby_pickaxe.png
+      material: DIAMOND_SWORD
+      generate: false
+      model_path: minecraft:item/emerald
     enchants:
-    - ambit:7
+      - Beastslayer
+      - Epicness
+      - Immolation
 ```
+
+
+
+{% hint style="warning" %}
+## Warning
+
+In order to use custom **AdvancedEnchantments** enchants on your **ItemsAdder** items you have to enable it in config.yml of **ItemsAdder**.
+
+```yaml
+advanced_enchantments:
+  enable_custom_enchants_in_items_configs: true
+```
+
+This has a downside though.\
+You won't be able to use custom armors texture in the [Armor Set](https://ae.advancedplugins.net/configuration/armor-sets) feature of **AdvancedEnchantments** because of how they hook into my plugin.\
+There is nothing I can do.
+{% endhint %}

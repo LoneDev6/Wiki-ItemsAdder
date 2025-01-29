@@ -1,2 +1,6 @@
-# ✅ Compatible
+---
+icon: square-check
+---
+
+# Compatible
 

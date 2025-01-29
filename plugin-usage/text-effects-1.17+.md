@@ -1,8 +1,9 @@
 ---
+icon: italic
 description: Special text animations and coloring effects
 ---
 
-# 🎆 Text Effects
+# Text Effects
 
 {% hint style="warning" %}
 * **Requires Minecraft 1.17+ clients**
@@ -50,15 +51,28 @@ effects:
 
 ## List of effects
 
+Remove background
+
+{% hint style="info" %}
+### Note
+
+in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON components to hide the shadow.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Permission: `ia.user.text_effect.use.noshadow`\
+Usage: `<noshadow text>`
+
 ### Rainbow
 
 ![](../.gitbook/assets/rainbow.gif)
 
-![](../.gitbook/assets/image\_\(128\).png)
+![](../.gitbook/assets/image_\(128\).png)
 
-![](../.gitbook/assets/image\_\(129\).png)
+![](../.gitbook/assets/image_\(129\).png)
 
-![](../.gitbook/assets/rainbow\_item.gif)
+![](../.gitbook/assets/rainbow_item.gif)
 
 Permission: `ia.user.text_effect.use.r`\
 Usage: `<r text>`
@@ -67,25 +81,25 @@ Usage: `<r text>`
 
 ![](../.gitbook/assets/wobble.gif)
 
-![](../.gitbook/assets/wobble\_item.gif)
+![](../.gitbook/assets/wobble_item.gif)
 
 Permission: `ia.user.text_effect.use.w`\
 Usage: `<w text>`
 
 ### Jump
 
-![](../.gitbook/assets/jump\_chat.gif)
+![](../.gitbook/assets/jump_chat.gif)
 
 ![](../.gitbook/assets/jump.gif)
 
-![](../.gitbook/assets/jump\_boss.gif)
+![](../.gitbook/assets/jump_boss.gif)
 
 Permission: `ia.user.text_effect.use.j`\
 Usage: `<j text>`
 
 ### Rainbow + Wobble
 
-![](../.gitbook/assets/rw\_chat.gif)
+![](../.gitbook/assets/rw_chat.gif)
 
 Permission: `ia.user.text_effect.use.rw`\
 Usage: `<rw text>`
@@ -96,6 +110,13 @@ Usage: `<rw text>`
 
 Permission: `ia.user.text_effect.use.rj`\
 Usage: `<rj text>`
+
+### Blinking
+
+<figure><img src="../.gitbook/assets/blinking.webp" alt=""><figcaption></figcaption></figure>
+
+Permission: `ia.user.text_effect.use.b`\
+Usage: `<b text>`
 
 ## Where can I use these effects?
 
@@ -108,11 +129,11 @@ Usage: `<rj text>`
 * Prefix-Suffix (Luckperms for example)
 * _More soon...._
 
-![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
+![](../.gitbook/assets/rainbow_wobble_lore.gif)
 
 ## How to create animated prefix (Luckperms)
 
-![](../.gitbook/assets/image\_\(133\).png)
+![](../.gitbook/assets/image_\(133\).png)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 
@@ -131,30 +152,30 @@ So if the area where you want to show a text effect supports HEX colors you can 
 
 #### Rainbow
 
-`#FFFFFE`
+`e6fffe`
 
 #### Wobble
 
-`#FFFFFD`
-
-#### Jump
-
-`#FFFFFB`
+`e6fffa`
 
 #### Rainbow + Wobble
 
-`#FFFFFC`
+`e6fbfe`
+
+#### Jump
+
+`e6fbfa`
 
 #### Rainbow + Jump
 
-`#FFFEFE`
+`e6f7fe`
 
 ### Using them in Minecraft vanilla JSON notation
 
 This triggers the rainbow effect:\
-`/tellraw @a {"text":"custom text example", "color":"#FFFFFE"}`
+`/tellraw @a {"text":"custom text example", "color":"#e6fffe"}`
 
-Replace `FFFFFE` with the effect you want.
+Replace `e6fffe` with the effect you want.
 
 ### Using them in plugins which support _MiniMessage_
 
@@ -162,31 +183,16 @@ Replace `FFFFFE` with the effect you want.
 
 (for example ItemsAdder itself and [ChatFormatter](https://www.spigotmc.org/resources/102212/))
 
-This triggers the rainbow effect: `<#FFFFFE>custom text example`
+This triggers the rainbow effect: `<#e6fffe>custom text example`
 
-Replace `FFFFFE` with the effect you want.
+Replace `e6fffe` with the effect you want.
 
 ### Using them in plugins which support legacy HEX notation
 
 #### Rainbow
 
-`&X&F&F&F&F&F&E`
-
-#### Wobble
-
-`&X&F&F&F&F&F&D`
-
-#### Jump
-
-`&X&F&F&F&F&F&B`
-
-#### Rainbow + Wobble
-
-`&X&F&F&F&F&F&C`
-
-#### Rainbow + Jump
-
-`&X&F&F&F&F&F&E`
+`&X&E&6&F&F&F&E`\
+etc.
 
 This was tested on [EpicRename](https://www.spigotmc.org/resources/epicrename.4341/) and should work in any plugin or place where Spigot handles the colors replacement using its own legacy colors code.
 

@@ -1,2 +1,6 @@
-# ☕ Java API
+---
+icon: terminal
+---
+
+# Java API
 

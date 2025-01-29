@@ -1,7 +1,11 @@
-# 🔍 Resourcepack is not loading correctly
+---
+icon: spinner-scale
+---
+
+# Resourcepack is not loading correctly
 
 {% hint style="danger" %}
-### Please read this page CAREFULLY before asking for support.
+#### Please read this page CAREFULLY before asking for support.
 
 Most of the times the issue can be easily fixed by reading this page.
 {% endhint %}
@@ -17,17 +21,17 @@ Most of the times the issue can be easily fixed by reading this page.
 * infinite resourcepack loading glitch
 
 {% hint style="warning" %}
-### auto-external-host
+#### auto-external-host
 
-You have to change hosting method if you are still using `auto-external-host` because it doesn't work anymore.\
-[More info here](../old/old-guides/automatic-upload-hosting.md)
+Auto external host is not available anymore since v3.6.0.\
+You have to change hosting method, [more info here](../old/old-guides/automatic-upload-hosting.md).
 {% endhint %}
 
 ## How to read the SERVER logs
 
 * run the command `/iazip`
 * wait it to finish
-* read your server console or open the file `logs/latest.log` using any text editor (for example VSCode)
+* read your server console or open the file `logs/latest.log` using any text editor (for example [VSCode](https://code.visualstudio.com/))
 * check if any error or warning was thrown and read them carefully, they contain useful information most of the times
 
 ## How to read the CLIENT logs (not SERVER)
@@ -35,14 +39,14 @@ You have to change hosting method if you are still using `auto-external-host` be
 {% hint style="warning" %}
 Always use the Vanilla client when something is broken.\
 The log provided by the game will often be asked from support when necessary.\
-A non-bloated log is better for supporting you, and finding a solution easily.\
+A non-bloated log is better for supporting you, and finding a solution easily.\\
 {% endhint %}
 
 ### Any launcher
 
 Join the server and let the pack load.\
 Open your Minecraft GAME log file, **not server** logs.\
-It is usually located here: `%appdata%\.minecraft\logs\latest.log` \
+It is usually located here: `%appdata%\.minecraft\logs\latest.log`\
 You can clearly see which files failed to load and why, the errors are clear in most of the cases.
 
 ### Original launcher
@@ -61,11 +65,11 @@ You can clearly see which files failed to load and why, the errors are clear in 
 In this example I had two broken files `gem_vending_machine` and `whitebathroom_sink`.\
 The error tells me that the JSON files are broken, they probably have bad characters inside or they are corrupted.
 
-## _Resourcepack not loading, I get an error_ <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+## "_Resourcepack not loading, I get an error_" <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
 * If you have **SkinsRestorer** please [read here](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
-* Check if you have another plugin that uses **custom resourcepacks**\
-  **I**f you have a similar plugins please **disable** its **resourcepack** feature or **ItemsAdder** won't be able to apply the pack correctly. If you want to apply both packs [read here](../plugin-usage/merge-resourcepacks/).
+* Check if you have another plugin that uses **custom resourcepacks**.\
+  **I**f you have a similar plugins please **disable** its **resourcepack** feature or **ItemsAdder** won't be able to apply the pack correctly. If you want to apply both packs [read here](../plugin-usage/merge-resourcepacks.md).
 * Make sure you don't have any resourcepack set in the `server.properties` file.
 * **Minecraft** limits servers resourcepacks **size** to **50MB** on Minecraft **1.14**, **100MB** on **1.15+** and **250MB** on **1.18+**.\
   Make sure to **compress** your **textures** and your **music** files before creating the zip file.
@@ -79,7 +83,7 @@ The error tells me that the JSON files are broken, they probably have bad charac
 * Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (png) and **model** files (json).\
   For example an ID for a custom item: `CustomSword` is wrong, use `custom_sword`.
 
-### _My players can't load the resourcepack! I've followed the whole tutorial_ <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+### "_My players can't load the resourcepack! I've followed the whole tutorial_" <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
 * Enable the resourcepack in the server list settings: [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)
 * Make sure you don't have any inventory (GUI) or book opening on join.\

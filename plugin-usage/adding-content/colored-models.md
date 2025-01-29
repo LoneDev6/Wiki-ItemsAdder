@@ -1,4 +1,8 @@
-# 🎨 Colored models
+---
+icon: fill-drip
+---
+
+# Colored models
 
 {% hint style="info" %}
 If you want to make a colored element (for example a custom colored furniture) or a colored vehicle you don't have to make a separate model for each item with different color.

@@ -1,8 +1,9 @@
 ---
 description: Cheap and powerful servers hosting
+icon: server
 ---
 
-# 🖥 Minecraft Server Hosting
+# Minecraft Server Hosting
 
 ![](../.gitbook/assets/MMICa0s.gif)
 

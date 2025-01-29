@@ -1,8 +1,9 @@
 ---
+icon: folder
 description: What is the contents folder and how it's structured
 ---
 
-# 🗂 Contents folder
+# Contents folder
 
 ## Folders types
 
@@ -49,7 +50,7 @@ With namespaces you can easily understand where a particular **item**, **sound**
 
 All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 ## How can I define my own namespace?
 
@@ -102,95 +103,7 @@ Each sub-pack must use only one structure at a time.\
 **Do not mix them in the same sub-pack!**
 {% endhint %}
 
-### Folders structure method 1
-
-This structure is the default and most complete one.
-
-```
-plugins
-└── ItemsAdder
-    └── contents
-        └── my_items
-            ├── configs
-            │   ├── example.yml
-            │   └── example_1.yml
-            └── resourcepack
-                └── assets
-                    └── my_items
-                        ├── models
-                        │   └── items
-                        │       └── example_item.json
-                        └── textures
-                            └── items
-                                └── example_texture.png
-```
-
-### Folders structure method 2
-
-This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
-
-```
-plugins
-└── ItemsAdder
-    └── contents
-        └── my_items
-            ├── configs
-            │   ├── example.yml
-            │   └── example_1.yml
-            └── resourcepack
-                └── my_items
-                    ├── models
-                    │   └── items
-                    │       └── example_item.json
-                    └── textures
-                        └── items
-                            └── example_texture.png
-```
-
-### Folders structure method 3
-
-This structure avoids you to create the `resource_pack` folder which is implied and would just add unnecessary complexity.
-
-```
-plugins
-└── ItemsAdder
-    └── contents
-        └── my_items
-            ├── configs
-            │   ├── example.yml
-            │   └── example_1.yml
-            └── assets
-                └── my_items
-                    ├── models
-                    │   └── items
-                    │       └── example_item.json
-                    └── textures
-                        └── items
-                            └── example_texture.png
-```
-
-### Folders structure method 4
-
-This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
-
-```
-plugins
-└── ItemsAdder
-    └── contents
-        └── my_items
-            ├── configs
-            │   ├── example.yml
-            │   └── example_1.yml
-            └── my_items
-                ├── models
-                │   └── items
-                │       └── example_item.json
-                └── textures
-                    └── items
-                        └── example_texture.png
-```
-
-### Folders structure method 5
+### Folders structure method 1 - best and easiest way
 
 {% hint style="success" %}
 This is the easier way to create a simple pack with some items without having to create too many sub-folders.\
@@ -213,4 +126,92 @@ plugins
             └── textures
                 └── items
                     └── example_texture.png
+```
+
+### Folders structure method 2
+
+This structure is the default and most complete one.
+
+```
+plugins
+└── ItemsAdder
+    └── contents
+        └── my_items
+            ├── configs
+            │   ├── example.yml
+            │   └── example_1.yml
+            └── resourcepack
+                └── assets
+                    └── my_items
+                        ├── models
+                        │   └── items
+                        │       └── example_item.json
+                        └── textures
+                            └── items
+                                └── example_texture.png
+```
+
+### Folders structure method 3
+
+This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
+
+```
+plugins
+└── ItemsAdder
+    └── contents
+        └── my_items
+            ├── configs
+            │   ├── example.yml
+            │   └── example_1.yml
+            └── resourcepack
+                └── my_items
+                    ├── models
+                    │   └── items
+                    │       └── example_item.json
+                    └── textures
+                        └── items
+                            └── example_texture.png
+```
+
+### Folders structure method 4
+
+This structure avoids you to create the `resource_pack` folder which is implied and would just add unnecessary complexity.
+
+```
+plugins
+└── ItemsAdder
+    └── contents
+        └── my_items
+            ├── configs
+            │   ├── example.yml
+            │   └── example_1.yml
+            └── assets
+                └── my_items
+                    ├── models
+                    │   └── items
+                    │       └── example_item.json
+                    └── textures
+                        └── items
+                            └── example_texture.png
+```
+
+### Folders structure method 5
+
+This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
+
+```
+plugins
+└── ItemsAdder
+    └── contents
+        └── my_items
+            ├── configs
+            │   ├── example.yml
+            │   └── example_1.yml
+            └── my_items
+                ├── models
+                │   └── items
+                │       └── example_item.json
+                └── textures
+                    └── items
+                        └── example_texture.png
 ```

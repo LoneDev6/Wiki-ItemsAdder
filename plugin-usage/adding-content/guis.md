@@ -1,4 +1,8 @@
-# 🔘 GUIs
+---
+icon: list-dropdown
+---
+
+# GUIs
 
 In order to make GUIs you can copy and paste my pack named `_iainternal` and edit it on your likings:\
 `contents/_iainternal/resourcepack/assets/_iainternal/textures/gui/`
@@ -35,4 +39,4 @@ Here you can get an addon example\
 **I'm not the owner of this resource**
 {% endhint %}
 
-{% embed url="https://www.mc-market.org/resources/21017/" %}
+{% embed url="https://builtbybit.com/resources/hologram-guis-13-logo-menu-graphics.21017/" %}

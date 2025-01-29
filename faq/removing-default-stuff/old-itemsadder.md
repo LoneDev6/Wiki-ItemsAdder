@@ -2,7 +2,7 @@
 description: ItemsAdder before 3.3.0
 ---
 
-# 🗑 Old ItemsAdder
+# 🗑️ Remove default content v3.2
 
 ## ItemsAdder before 3.3.0
 
