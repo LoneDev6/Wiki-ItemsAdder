@@ -1,17 +1,21 @@
 ---
 icon: file
+description: VisualStudio Code extension
 ---
 
 # Files editor
 
-## VisualStudio Code extension
+## How to install
 
-### [> Download the Visual Studio Code (vs-code) here <](https://code.visualstudio.com/download)
+* [Download Visual Studio Code (vs-code)](https://code.visualstudio.com/download)
+* [Download the extension here](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode)
 
-### [> Download the vs-code extension here <](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode)
+### Preview
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/image (12) (1).png" alt="" width="397"><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+## Important notes
 
-</div>
+### How to enable the descriptions on fields/suggestions
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

@@ -32,9 +32,9 @@ Difference is that with self-host you can download the pack directly from your s
 
 For example on **Pterodactyl**:
 
-![](../../.gitbook/assets/image\_\(104\).png)
+![](../../.gitbook/assets/image_\(104\).png)
 
-![](../../.gitbook/assets/image\_\(101\).png)
+![](../../.gitbook/assets/image_\(101\).png)
 
 * after you obtained a **new port** you can open `config.yml` and set like this:
 
@@ -92,7 +92,7 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 
 ### Create a new `DNS record`
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -108,7 +108,7 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select "Change Port" and "Create a Rule".
 

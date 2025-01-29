@@ -59,7 +59,7 @@ Remove background
 in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON components to hide the shadow.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Permission: `ia.user.text_effect.use.noshadow`\
 Usage: `<noshadow text>`
@@ -68,11 +68,11 @@ Usage: `<noshadow text>`
 
 ![](../.gitbook/assets/rainbow.gif)
 
-![](../.gitbook/assets/image\_\(128\).png)
+![](../.gitbook/assets/image_\(128\).png)
 
-![](../.gitbook/assets/image\_\(129\).png)
+![](../.gitbook/assets/image_\(129\).png)
 
-![](../.gitbook/assets/rainbow\_item.gif)
+![](../.gitbook/assets/rainbow_item.gif)
 
 Permission: `ia.user.text_effect.use.r`\
 Usage: `<r text>`
@@ -81,25 +81,25 @@ Usage: `<r text>`
 
 ![](../.gitbook/assets/wobble.gif)
 
-![](../.gitbook/assets/wobble\_item.gif)
+![](../.gitbook/assets/wobble_item.gif)
 
 Permission: `ia.user.text_effect.use.w`\
 Usage: `<w text>`
 
 ### Jump
 
-![](../.gitbook/assets/jump\_chat.gif)
+![](../.gitbook/assets/jump_chat.gif)
 
 ![](../.gitbook/assets/jump.gif)
 
-![](../.gitbook/assets/jump\_boss.gif)
+![](../.gitbook/assets/jump_boss.gif)
 
 Permission: `ia.user.text_effect.use.j`\
 Usage: `<j text>`
 
 ### Rainbow + Wobble
 
-![](../.gitbook/assets/rw\_chat.gif)
+![](../.gitbook/assets/rw_chat.gif)
 
 Permission: `ia.user.text_effect.use.rw`\
 Usage: `<rw text>`
@@ -129,11 +129,11 @@ Usage: `<b text>`
 * Prefix-Suffix (Luckperms for example)
 * _More soon...._
 
-![](../.gitbook/assets/rainbow\_wobble\_lore.gif)
+![](../.gitbook/assets/rainbow_wobble_lore.gif)
 
 ## How to create animated prefix (Luckperms)
 
-![](../.gitbook/assets/image\_\(133\).png)
+![](../.gitbook/assets/image_\(133\).png)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 

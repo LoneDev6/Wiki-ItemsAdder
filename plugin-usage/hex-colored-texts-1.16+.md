@@ -25,19 +25,7 @@ You can change color of text and specify a custom hex color using the special no
 &#x3C;gradient:#ff00ee:#f79459>Here is a gradient example text!
 </code></pre>
 
-<div>
-
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Preview text
 

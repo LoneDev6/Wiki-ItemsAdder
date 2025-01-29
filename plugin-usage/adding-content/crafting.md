@@ -9,7 +9,7 @@ This section can be added in all and any of your `.yml` files for better organiz
 
 ## 3x3 recipe
 
-![](../../.gitbook/assets/image\_\(42\).png)
+![](../../.gitbook/assets/image_\(42\).png)
 
 ```yaml
 info:
@@ -35,9 +35,9 @@ In this example I created a `crafting_table` recipe called `deadmau5_hat`.
 
 ## 2x2 recipe
 
-![](../../.gitbook/assets/image\_\(41\).png)
+![](../../.gitbook/assets/image_\(41\).png)
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Method 1
 

@@ -47,7 +47,7 @@ font_images:
 ```
 
 **`scale_ratio`** is the final height in pixels of the emoji because 72x72 pixels is too big, You'd have to scale it but you can set 9 so Minecraft will handle it automatically.\
-**`y_position`** is the y position in pixels, 8 should be good if you keep emoji 72x72 and `scale_ratio` to 9. If you have different size you'll have to tweak the y\_position based on your tests.
+&#xNAN;**`y_position`** is the y position in pixels, 8 should be good if you keep emoji 72x72 and `scale_ratio` to 9. If you have different size you'll have to tweak the y\_position based on your tests.
 
 {% hint style="danger" %}
 `scale_ratio` must ALWAYS be bigger than `y_position` or Minecraft won't like it. I cannot fix that issue, it's a **Minecraft** limitation.
@@ -55,17 +55,17 @@ font_images:
 
 ## In-game view
 
-![](<../../../.gitbook/assets/image\_(116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image_(116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### Using the /e useful suggestions
 
 Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
 
-![](../../../.gitbook/assets/image\_\(112\).png)
+![](../../../.gitbook/assets/image_\(112\).png)
 
-![](../../../.gitbook/assets/image\_\(111\).png)
+![](../../../.gitbook/assets/image_\(111\).png)
 
-![](../../../.gitbook/assets/image\_\(113\).png)
+![](../../../.gitbook/assets/image_\(113\).png)
 
 ### Using the tab autocomplete in chat
 
