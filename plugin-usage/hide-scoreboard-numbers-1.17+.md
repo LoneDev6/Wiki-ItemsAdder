@@ -21,7 +21,7 @@ icon: expand-wide
 {% hint style="warning" %}
 * Works only on **Minecraft 1.20.3+** clients
 * **Works only on Minecraft 1.20.3+ servers!**
-* Doesn't edit the `rendertype_text` shader files, it doens't any shader
+* Doesn't edit the `rendertype_text` shader files and doesn't use any shader
 {% endhint %}
 
 {% code title="config.yml" %}
@@ -33,7 +33,7 @@ effects:
 
 {% hint style="info" %}
 This option doesn't require `/iazip` to be toggled on/off.\
-You can change this value and simply run `iareload` to apply.
+You can change this value and simply run `/iareload` to apply.
 {% endhint %}
 
 ### Any client version
@@ -54,7 +54,7 @@ effects:
 {% hint style="warning" %}
 ### **Warning**
 
-This option is definitive and cannot be turned on/off in-game.\
+This option is permanent and cannot be turned on/off in-game.\
 You have to disable it in the `config.yml` and regenerate the pack again to enable/disable it (using `/iazip`).
 {% endhint %}
 
@@ -71,7 +71,7 @@ You have to disable it in the `config.yml` and regenerate the pack again to enab
 [animatedscoreboard.md](../compatibility-with-other-plugins/compatible/animatedscoreboard.md)
 {% endcontent-ref %}
 
-### Plugin: Scoreboard-revision <mark style="color:orange;">(outdated)</mark>
+### Plugin: Scoreboard-revision <mark style="color:orange;">(Outdated)</mark>
 
 {% content-ref url="../compatibility-with-other-plugins/compatible/scoreboard.md" %}
 [scoreboard.md](../compatibility-with-other-plugins/compatible/scoreboard.md)
