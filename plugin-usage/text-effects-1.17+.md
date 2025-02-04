@@ -15,9 +15,33 @@ description: Special text animations and coloring effects
 
 They are some cool decorative text effects you can use in your server to make it more professional.
 
+### How to enable them
+
 {% hint style="warning" %}
 You have to run `/iazip` in order to enable/disable this feature.\
 Make sure also to enable it in the `config.yml`.
+{% endhint %}
+
+{% code title="config.yml" %}
+```yaml
+text_effects:
+  enabled: true
+  chat:
+    enabled: true
+  customitem_name_and_lore:
+    enabled: true
+  sign:
+    enabled: true
+  book:
+    enabled: true
+  anvil:
+    enabled: true
+```
+{% endcode %}
+
+<details>
+
+<summary>(click to see old <code>config.yml</code> properties from 4.0.7 and lower)</summary>
 
 ```yaml
 effects:
@@ -34,9 +58,10 @@ effects:
     anvil:
       enabled: true
 ```
-{% endhint %}
 
-## Permissions
+</details>
+
+You also have to give the permissions to each player.
 
 * Use **text-effects** in **chat**
   * `ia.user.text_effect.chat`
@@ -53,16 +78,16 @@ effects:
 
 Remove background
 
-{% hint style="info" %}
-### Note
-
-in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON components to hide the shadow.
-{% endhint %}
-
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Permission: `ia.user.text_effect.use.noshadow`\
 Usage: `<noshadow text>`
+
+{% hint style="info" %}
+### Note
+
+in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON components to hide the shadow. But this requires you to have knowledge about JSON components.
+{% endhint %}
 
 ### Rainbow
 
@@ -150,6 +175,10 @@ So if the area where you want to show a text effect supports HEX colors you can 
 
 ### Special colors
 
+#### No Shadow
+
+`4e5c24`
+
 #### Rainbow
 
 `e6fffe`
@@ -169,6 +198,10 @@ So if the area where you want to show a text effect supports HEX colors you can 
 #### Rainbow + Jump
 
 `e6f7fe`
+
+#### Blinking
+
+`e6f7fa`
 
 ### Using them in Minecraft vanilla JSON notation
 
