@@ -247,7 +247,7 @@
     * [Optifine loading screen](plugin-usage/adding-content/optifine-only-features/loading-screen.md)
     * [Armor textures CIT](plugin-usage/adding-content/optifine-only-features/armor-textures-cit.md)
 * [Merge resourcepacks](plugin-usage/merge-resourcepacks.md)
-* [Protect resourcepack from unzip](plugin-usage/protect-resourcepack-from-unzip.md)
+* [Resourcepack Protection](plugin-usage/resourcepack-protection.md)
 * [Fast resourcepack tips](plugin-usage/fast-resourcepack-tips.md)
 * [Recipes menu](plugin-usage/ia.md)
 * [Resourcepack prompt message](plugin-usage/resourcepack-prompt-message-1.17+.md)
