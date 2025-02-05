@@ -1,7 +1,7 @@
 # Graves/GravesX
 
 ## [Graves Legacy Download here](https://www.spigotmc.org/resources/graves.74208/)
-## [GravesX Download here](https://www.spigotmc.org/resources/graves.74208/)
+## [GravesX Download here](https://www.spigotmc.org/resources/gravesx.118271/)
 
 ## How to add compatibility?
 
