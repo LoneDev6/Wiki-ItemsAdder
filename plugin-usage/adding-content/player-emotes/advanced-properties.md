@@ -5,7 +5,7 @@ To do so you have to create a new `.yml` file, which is not mandatory for emotes
 
 `hide_equipment`: If an equipment part of the player must be hidden.
 
-`can_player_mode`: If the player can move during the animation.
+`can_player_move`: If the player can move during the animation.
 
 `cancel_conditions`: The various actions which will make the animation stop.
 
