@@ -95,6 +95,7 @@
     * [AdvancedEnchantments](compatibility-with-other-plugins/compatible/advancedenchantments.md)
     * [BetonQuest](compatibility-with-other-plugins/compatible/betonquest.md)
     * [ChatControl-Red](compatibility-with-other-plugins/compatible/chatcontrol-red.md)
+    * [InteractiveChat](compatibility-with-other-plugins/compatible/interactivechat.md)
     * [BanItem](compatibility-with-other-plugins/compatible/banitem.md)
     * [AnimatedScoreboard](compatibility-with-other-plugins/compatible/animatedscoreboard.md)
     * [Scoreboard-revision](compatibility-with-other-plugins/compatible/scoreboard.md)
