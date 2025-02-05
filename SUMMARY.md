@@ -153,6 +153,7 @@
     * [Behaviours](plugin-usage/adding-content/item-properties/behaviours.md)
     * [Templates and variants](plugin-usage/adding-content/item-properties/templates-and-variants.md)
   * [Sword](plugin-usage/adding-content/sword.md)
+  * [Consumable](plugin-usage/adding-content/consumable.md)
   * [Bow](plugin-usage/adding-content/bow.md)
   * [Crossbow](plugin-usage/adding-content/crossbow.md)
   * [Fishing rod, shield, bundle](plugin-usage/adding-content/fishing-rod-shield-bundle.md)
