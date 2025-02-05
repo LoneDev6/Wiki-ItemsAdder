@@ -91,8 +91,6 @@ items:
         armorToughness: 1
 ```
 
-
-
 </details>
 
 {% file src="../../.gitbook/assets/myarmor_example.zip" %}
@@ -141,7 +139,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
 * `use_color: false` disables the recoloring of the armor using the specified `color: "#d60000"`. It would have colored the armor texture if were set to `true`.\
   In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`.\
   This option will also make the item (in inventory) not colored automatically anymore.
-* `color` is the color attribute of this armor. \
+* `color` is the color attribute of this armor.\
   It acts like an **unique identifier** for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color) .\
   Note: ItemsAdder will automatically select a nearest unused color if the selected one is already used by another custom armor.
 
@@ -198,14 +196,14 @@ The `custom_armor` property is important, it makes the plugin apply the previous
 
 In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's automatically applied by the `custom_armor` property, inherited from the `armors_renderer`.
 
-Now I create the item texture and I put it inside the folder: \
-`contents/my_items/textures/item/my_armor/`&#x20;
+Now I create the item texture and I put it inside the folder:\
+`contents/my_items/textures/item/my_armor/`
 
 In this example I created also a new folder called `my_armor` to better organize the resourcepack since you will have 1 texture for each armor piece, and having them in the same textures folder might cause confusion.
 
-`contents/my_items/textures/item/my_armor/chestplate.png`&#x20;
+`contents/my_items/textures/item/my_armor/chestplate.png`
 
-![](../../.gitbook/assets/chestplate\_item\_red.png)
+![](../../.gitbook/assets/chestplate_item_red.png)
 
 ![](<../../.gitbook/assets/image (42) (1) (1).png>)
 
@@ -218,9 +216,9 @@ You can also create animated armors!
 To create an animated armor you have to create an image with all the animation frames.\
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](../../.gitbook/assets/layer\_1.png)
+![layer\_1](../../.gitbook/assets/layer_1.png)
 
-![layer\_2](../../.gitbook/assets/layer\_2.png)
+![layer\_2](../../.gitbook/assets/layer_2.png)
 
 Now let's edit the rendering properties to support the animation.
 
@@ -269,3 +267,33 @@ You have to make 2 textures in order to make the textures glow.\
 The **transparent** part **won't glow** while the colored part will glow.
 
 You basically just have to copy and paste your texture and erase the parts you don't want to glow.
+
+## Custom 3D helmet
+
+Currently only items equipped on the head support 3D due to Minecraft limitations.
+
+This is an example on how to create a custom helmet that has a 3D model and not just a texture.
+
+```yaml
+info:
+  namespace: my_items
+items:
+  test_3d_helmet:
+    display_name: Test 3D Helmet
+    resource:
+      generate: false
+      model_path: item/test_3d_helmet
+      material: PAPER
+    durability:
+      max_durability: 1562
+    behaviours:
+      hat: true
+```
+
+{% hint style="warning" %}
+Make sure to use a `material` like `PAPER` and not an helmet, otherwise the 3D model would not be visible when equipped.
+{% endhint %}
+
+{% hint style="warning" %}
+Custom helmets support durability only on ItemsAdder 4.0.8+.
+{% endhint %}
