@@ -191,7 +191,7 @@ To create other pieces you just have to repeat the following method and change t
 ```
 
 {% hint style="warning" %}
-Make sure that no material is set. It won't work if a material has been set.
+Make sure that no `material` property is set. This is handled automatically by the plugin for custom textured armors. Armor won't work if a `material` has been set.
 {% endhint %}
 
 The `custom_armor` property is important, it makes the plugin apply the previous `armors_renderer` setting to this armor piece.
