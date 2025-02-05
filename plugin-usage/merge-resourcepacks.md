@@ -11,7 +11,7 @@ icon: merge
 
 ## Why merging?
 
-**Minecraft before 1.xx** supports **only 1 server resourcepack**.\
+**Minecraft before 1.20.3** supports **only 1 server resourcepack**.\
 Even the support for multiple resource packs is flawed as **custom model data won't be merged**.\
 **If** you have more than one resourcepack you need to merge them.
 
