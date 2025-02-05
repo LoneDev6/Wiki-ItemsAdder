@@ -73,12 +73,12 @@ self-host:
     block_non_game_requests: false
     rate_limit:
       enabled: true
-      threshold: 3
+      max_requests: 3
       period_seconds: 2
-      ban:
+      cooldown:
         enabled: true
         duration_minutes: 30
-        fail_threshold: 5
+        trigger_on_failed_times: 5
 ```
 {% endcode %}
 
