@@ -99,15 +99,20 @@ Blocks requests made by visiting the resource pack URL from a browser or an auto
 
 This setting helps prevent frequent requests that are likely automated, such as a DDoS attack.
 
-**`threshold`**
+**`enabled`**
+
+**Default:** `true`\
+Determines whether request rate limiting is active.
+
+**`max_requests`**
 
 **Default:** `3`\
-The maximum number of requests considered legitimate within the `period_seconds` interval before triggering a cooldown.
+The maximum number of allowed requests within the `period_seconds` timeframe before triggering restrictions.
 
 **`period_seconds`**
 
 **Default:** `2`\
-The time window (in seconds) used to evaluate the request rate. If the number of requests exceeds `threshold` within this period, further requests may be blocked.
+The time window (in seconds) in which requests are counted. If a client exceeds `max_requests` within this period, it counts as a **failed attempt**.
 
 ***
 
@@ -126,9 +131,9 @@ Determines whether clients exceeding the request limit should be temporarily ign
 **`duration_minutes`**
 
 **Default:** `30`\
-The duration (in minutes) for which the client’s requests will be ignored after exceeding the `fail_threshold`.
+The duration (in minutes) for which the client’s requests will be ignored after exceeding the `trigger_on_failed_times` limit.
 
-**`fail_threshold`**
+**`trigger_on_failed_times`**
 
 **Default:** `5`\
-The number of times a client can exceed the request limit before triggering a cooldown.
+The number of times a client can exceed the request limit within a short period before triggering the cooldown.
