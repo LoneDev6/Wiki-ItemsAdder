@@ -81,7 +81,7 @@
 
 使用标题栏指示
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
   healing_crystals:
@@ -100,7 +100,7 @@
 
 使用 BOSSBAR 指示
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 `color` 与 `style` 是非强制性的。若未指定，会使用 `config.yml` 中设定的值。

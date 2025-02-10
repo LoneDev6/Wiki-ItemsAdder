@@ -32,9 +32,9 @@
 
 例如在 **Pterodactyl** 上：
 
-![](../../.gitbook/assets/image\_\(104\).png)
+![](../../.gitbook/assets/image_\(104\).png)
 
-![](../../.gitbook/assets/image\_\(101\).png)
+![](../../.gitbook/assets/image_\(101\).png)
 
 * 获得**新端口**后，您可以打开 `config.yml` 并进行如下设置：
 
@@ -92,7 +92,7 @@
 
 ### 创建一个新的 `DNS 记录`
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -108,7 +108,7 @@
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 选择“更改端口”和“创建规则”。
 

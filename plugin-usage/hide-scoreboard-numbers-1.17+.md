@@ -33,7 +33,7 @@ effects:
 
 {% hint style="info" %}
 此选项不需要开启/关闭 `/iazip`。\
-您可以更改此值并简单地运行 `iareload` 以应用更改。
+您可以更改此值并简单地运行 `/iareload` 以应用更改。
 {% endhint %}
 
 ### 任何客户端版本
@@ -54,7 +54,7 @@ effects:
 {% hint style="warning" %}
 ### **警告**
 
-此选项是最终选项，无法在游戏中开启/关闭。\
+此选项是持续性选项，无法在游戏中开启/关闭。\
 您必须在 `config.yml` 中禁用它并重新生成包以启用/禁用它（使用 `/iazip`）。
 {% endhint %}
 

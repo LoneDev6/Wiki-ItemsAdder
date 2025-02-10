@@ -15,6 +15,6 @@ icon: fill-drip
 
 使用这个工具，我成功地自动为我的自定义HUD着色，而无需手动打开每个文件进行编辑。
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

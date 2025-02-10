@@ -91,8 +91,6 @@ items:
         armorToughness: 1
 ```
 
-
-
 </details>
 
 {% file src="../../.gitbook/assets/myarmor_example.zip" %}
@@ -190,6 +188,10 @@ Now I create the two PNG files inside the `contents/my_items/textures/armor/my_a
         armorToughness: 1
 ```
 
+{% hint style="warning" %}
+确保未设置`material` 属性。这是由插件自动处理的。如果设置了该属性，则该防具不会生效。
+{% endhint %}
+
 `custom_armor` 属性很重要，它使插件将之前的 `armors_renderer` 设置应用于这个盔甲部件。
 
 在这种情况下，我没有在盔甲部件的 `specific_properties` 字段中指定任何 `color`，因为它会自动由 `custom_armor` 属性应用，继承自 `armors_renderer`。
@@ -201,7 +203,7 @@ Now I create the two PNG files inside the `contents/my_items/textures/armor/my_a
 
 `contents/my_items/textures/item/my_armor/chestplate.png`
 
-![](../../.gitbook/assets/chestplate\_item\_red.png)
+![](../../.gitbook/assets/chestplate_item_red.png)
 
 ![](<../../.gitbook/assets/image (42) (1) (1).png>)
 
@@ -214,9 +216,9 @@ Now I create the two PNG files inside the `contents/my_items/textures/armor/my_a
 要创建动画盔甲，你需要创建一个包含所有动画帧的图像。\
 每个帧必须在前一个帧的下方。这是示例，一个 3 帧动画：
 
-![layer\_1](../../.gitbook/assets/layer\_1.png)
+![layer\_1](../../.gitbook/assets/layer_1.png)
 
-![layer\_2](../../.gitbook/assets/layer\_2.png)
+![layer\_2](../../.gitbook/assets/layer_2.png)
 
 现在让我们编辑渲染属性以支持动画。
 
@@ -265,3 +267,33 @@ armors_rendering:
 **透明**部分**不会发光**，而有色部分会发光。
 
 你基本上只需复制并粘贴你的纹理并擦除你不想发光的部分。
+
+## 自定义 3D 头盔
+
+由于 Minecraft 的限制，当前仅物品装备至头部时支持 3D。
+
+这是一个如何创建带有 3D 模型而非仅纹理的头盔示例。
+
+```yaml
+info:
+  namespace: my_items
+items:
+  test_3d_helmet:
+    display_name: Test 3D Helmet
+    resource:
+      generate: false
+      model_path: item/test_3d_helmet
+      material: PAPER
+    durability:
+      max_durability: 1562
+    behaviours:
+      hat: true
+```
+
+{% hint style="warning" %}
+确保使用诸如`PAPER` 的`material`，而非一个真正的头盔，否则模型会在装备时不可见。
+{% endhint %}
+
+{% hint style="warning" %}
+自定义头盔的耐久设置，仅在 ItemsAdder 4.0.8+ 支持。
+{% endhint %}
