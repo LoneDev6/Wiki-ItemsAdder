@@ -102,7 +102,7 @@ items:
 {% hint style="warning" %}
 Minecraft 1.21.4+ and ItemsAdder 4.0.8+.
 
-Use this method only if your server accepts 1.21.2 clients and nothing below!
+Use this method only if your server accepts 1.21.2 clients and nothing below! Otherwise it won't work.
 {% endhint %}
 
 ### Food

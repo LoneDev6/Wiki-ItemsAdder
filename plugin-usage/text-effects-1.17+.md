@@ -7,7 +7,7 @@ description: Special text animations and coloring effects
 
 {% hint style="warning" %}
 * **Requires Minecraft 1.17+ clients**
-* Doesn't work in [Minecraft language files](adding-content/minecraft-language-files.md) (game limitation)
+* Doesn't work in [Minecraft language files](minecraft-language-files.md) (game limitation)
 * Edits the `rendertype_text` shader files
 {% endhint %}
 

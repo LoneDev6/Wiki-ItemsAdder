@@ -8,11 +8,11 @@ icon: expand-wide
 
 {% tabs %}
 {% tab title="After" %}
-![With ItemsAdder](../.gitbook/assets/image\_\(130\).png)
+![With ItemsAdder](../.gitbook/assets/image_\(130\).png)
 {% endtab %}
 
 {% tab title="Before" %}
-![Without ItemsAdder](../.gitbook/assets/image\_\(131\).png)
+![Without ItemsAdder](../.gitbook/assets/image_\(131\).png)
 {% endtab %}
 {% endtabs %}
 
@@ -52,7 +52,7 @@ effects:
 {% endcode %}
 
 {% hint style="warning" %}
-### **Warning**
+#### **Warning**
 
 This option is permanent and cannot be turned on/off in-game.\
 You have to disable it in the `config.yml` and regenerate the pack again to enable/disable it (using `/iazip`).

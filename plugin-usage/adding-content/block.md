@@ -1,22 +1,20 @@
 ---
-description: Creating your first custom block
 icon: cube
+description: Creating your first custom block
 ---
 
 # Block
 
-## Create a simple custom block
-
 ### Creating the blocks file
 
 {% hint style="warning" %}
-This is an example block (remember to change `myitems` [namespace ](broken-reference)to the one you want).
+This is an example block (remember to change `myitems` namespace to the one you want).
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom blocks.**\
 I created it in the folder: `plugins/ItemsAdder/contents/myitems/configs/`
 
-In this file (`blocks.yml`) I start creating a simple block called `red_block`.
+I start creating a simple block called `red_block` in the file `blocks.yml`**`.`**&#x20;
 
 ```yaml
 info:
@@ -36,7 +34,6 @@ If you use a block (like `STONE` or `DIRT`) it will result a bit glitchy when pl
 
 ### Creating the textures files
 
-Now the fun part, let's set the textures!\
 To do that you have to put the `.png` textures file inside the correct folder.
 
 In this case your **namespace** is `myitems` so you have to put them in this folder:\
@@ -114,8 +111,6 @@ items:
         - block/red_block.png
 ```
 
-## Final complete configuration
-
 ### Adding the block placing functionality
 
 You have to add the `specific_properties` attribute.
@@ -143,24 +138,15 @@ items:
 Click on the bottom link if you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
 {% endhint %}
 
-### Final part
-
-Now you just need to tell the plugin to load your just added block.\
-Make sure to read the hosting tutorial or you won't see the block correctly.
-
-{% content-ref url="../resourcepack-hosting/" %}
-[resourcepack-hosting](../resourcepack-hosting/)
-{% endcontent-ref %}
-
 ## Getting the block ingame
 
 Run `/iaget red_block` to get the item.
 
-![](../../.gitbook/assets/image\_\(92\).png)
+![](../../.gitbook/assets/image_\(92\).png)
 
-![](../../.gitbook/assets/image\_\(91\).png)
+![](../../.gitbook/assets/image_\(91\).png)
 
-![](../../.gitbook/assets/image\_\(93\).png)
+![](../../.gitbook/assets/image_\(93\).png)
 
 ## Download the complete example
 
@@ -238,8 +224,8 @@ this property can have these value:
     * only a **max** of **14** custom **fires** is possible, so be sure to create only the ones you need.
 
 {% hint style="warning" %}
-* **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
-* **`TILE`** blocks for trade machines and machinery/rare decorative blocks.\
+- **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
+- **`TILE`** blocks for trade machines and machinery/rare decorative blocks.\
   You should not use **`TILE`** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](trees-and-trees-populators.md) or [decorators](cave-decorators.md).
 {% endhint %}
 
@@ -287,10 +273,31 @@ Example:
               model: "minecraft:block/cobblestone"
 ```
 
-## `cancel_drop`
+### `drop_when_mined`
 
-Cancel drop when block is broken.\
-Useful if you have any mineral that will drop out of the block (loots), to avoid exploits.
+{% hint style="warning" %}
+Available since ItemsAdder 4.0.9
+
+Older versions use `cancel_drop` with inverted `true/false`.
+{% endhint %}
+
+Controls if the block is dropped when mined. Useful if you have any mineral that will drop out of the block (loots), to avoid exploits.
+
+### `drop_on_shears`
+
+{% hint style="warning" %}
+Available since ItemsAdder 4.0.9
+{% endhint %}
+
+Controls if the block is dropped when using shears.
+
+### `drop_on_silk_touch`
+
+{% hint style="warning" %}
+Available since ItemsAdder 4.0.9
+{% endhint %}
+
+Controls if the block is dropped when using silk touch enchanted tools.
 
 {% hint style="info" %}
 If you use silk touch enchanted tool to break the block you will still get the block but it won't drop any item from its loot&#x20;
@@ -339,7 +346,7 @@ Totally immune from explosions, ignoring `blast_resistance`
 {% endhint %}
 
 You can specify [custom sound](adding-sounds.md) names instead of vanilla sound.\
-You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound\_list\_pc.php) names.
+You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
 
 {% hint style="info" %}
 **Stone** block sounds will be used if no sound is specified.

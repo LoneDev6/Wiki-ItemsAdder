@@ -16,7 +16,7 @@ If you want to add a custom texture and not just a custom color to armors you ca
 
 {% hint style="info" %}
 This is an old method for clients with version 1.16 and lower.\
-The [new method for 1.17+](../textured-armor.md) don't need **Optifine** for this.
+The [new method for 1.17+](../armors-old/textured-armor.md) don't need **Optifine** for this.
 {% endhint %}
 
 ## Custom textured armor

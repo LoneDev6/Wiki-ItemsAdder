@@ -6,7 +6,7 @@ icon: fill-drip
 
 {% hint style="warning" %}
 * Requires Minecraft 1.16+ (client) and ItemsAdder 3.5.1+
-* Doesn't work in [Minecraft language files](adding-content/minecraft-language-files.md)
+* Doesn't work in [Minecraft language files](minecraft-language-files.md)
 {% endhint %}
 
 {% hint style="info" %}

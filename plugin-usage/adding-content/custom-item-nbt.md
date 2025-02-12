@@ -8,22 +8,75 @@ icon: binary
 
 You can specify custom **NBT** attributes to be merged into the custom item.
 
+{% hint style="success" %}
+This feature supports legacy NBT and the new 1.20.5+ modern NBT too!\
+It will automatically convert the legacy NBT if needed.
+
+More info on the 1.20.5+ changes [here](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-5) (scroll down).
+{% endhint %}
+
 {% hint style="danger" %}
 Make sure to provide a valid **NBT** (`json`) or it won't work!
 {% endhint %}
+
+## Inject NBT properties from file
+
+{% hint style="warning" %}
+### This is a new feature of ItemsAdder 4.0.8
+{% endhint %}
+
+{% code title="my_item_file.yml" %}
+```yaml
+info:
+  namespace: test
+items:
+  test_inject_nbt_from_file:
+    display_name: "Test inject NBT from file"
+    components_nbt_file: "test_inject_nbt_from_file.json"
+    resource:
+      material: IRON_CHESTPLATE
+      generate: false
+      model_path: minecraft:item/diamond
+```
+{% endcode %}
+
+{% code title="test_inject_nbt_from_file.json" %}
+```json
+{
+  "components":{
+     "minecraft:item_name":"'Черепаший нагрудник'",
+     "minecraft:max_damage":440,
+     "minecraft:attribute_modifiers":[
+        {
+           "id":"turtle_chestplate",
+           "type":"minecraft:armor",
+           "amount":6,
+           "operation":"add_value",
+           "slot":"chest"
+        },
+        {
+           "id":"turtle_chestplate",
+           "type":"minecraft:oxygen_bonus",
+           "amount":1,
+           "operation":"add_value",
+           "slot":"chest"
+        },
+     ],
+     "minecraft:repairable":{
+        "items":"minecraft:turtle_scute"
+     }
+  }
+}
+```
+{% endcode %}
+
+## Old method, inject from NBT string
 
 {% hint style="warning" %}
 ### NOTE
 
 Make sure to escape the `"` character using `\`.\
 Use my [Escape/Unescape tool](https://escape-mc-components.lonedev.workers.dev/) to escape the string before using it in the YML.
-{% endhint %}
-
-{% hint style="success" %}
-This feature supports legacy NBT and the new 1.20.5+ modern NBT too!\
-It will automatically convert the legacy NBT if needed.
-
-[More info](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-5) on the 1.20.5+ changes (scroll down).
 {% endhint %}
 
 ### Example custom attribute

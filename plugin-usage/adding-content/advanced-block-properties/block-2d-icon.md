@@ -4,10 +4,6 @@ icon: file-png
 
 # Block 2D icon
 
-{% hint style="warning" %}
-This feature requires **ItemsAdder 3.1.6+**
-{% endhint %}
-
 {% embed url="https://youtu.be/FOLoAAjV_oI" %}
 
 ### Step 1
