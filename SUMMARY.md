@@ -282,7 +282,7 @@
 * [Denizen API](developers/denizen-api.md)
 * [ItemsAdder 标识](developers/branding.md)
 
-## 旧版指南（未翻译）
+## 旧版指南
 
 * [旧版指南](old/old-guides/README.md)
   * [v1 wiki](https://lonedev.gitbook.io/itemsadder)
@@ -295,6 +295,6 @@
   * [📤 自动外部托管](old/old-guides/automatic-upload-hosting.md)
   * [▯ 矩形字符 - old](old/old-guides/rectangle-character-old.md)
   * [🗑️ 移除默认内容 v3.2](faq/removing-default-stuff/old-itemsadder.md)
-  * [车辆拆卸问题](old/old-guides/vehicle-dismount-issues.md)
+  * [离开载具问题](old/old-guides/vehicle-dismount-issues.md)
   * [(Purpur) 地图周围方块异常](old/old-guides/purpur-old-glitched-blocks-around-the-map.md)
   * [💧 旧版液体问题](old/old-guides/old-liquids-bugs.md)
