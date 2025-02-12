@@ -95,6 +95,7 @@
     * [AdvancedEnchantments](compatibility-with-other-plugins/compatible/advancedenchantments.md)
     * [BetonQuest](compatibility-with-other-plugins/compatible/betonquest.md)
     * [ChatControl-Red](compatibility-with-other-plugins/compatible/chatcontrol-red.md)
+    * [InteractiveChat](compatibility-with-other-plugins/compatible/interactivechat.md)
     * [BanItem](compatibility-with-other-plugins/compatible/banitem.md)
     * [AnimatedScoreboard](compatibility-with-other-plugins/compatible/animatedscoreboard.md)
     * [Scoreboard-revision](compatibility-with-other-plugins/compatible/scoreboard.md)
@@ -153,6 +154,7 @@
     * [行为](plugin-usage/adding-content/item-properties/behaviours.md)
     * [模板和变体](plugin-usage/adding-content/item-properties/templates-and-variants.md)
   * [剑](plugin-usage/adding-content/sword.md)
+  * [可消耗物品](plugin-usage/adding-content/consumable.md)
   * [弓](plugin-usage/adding-content/bow.md)
   * [弩](plugin-usage/adding-content/crossbow.md)
   * [钓鱼竿、盾牌、收纳袋](plugin-usage/adding-content/fishing-rod-shield-bundle.md)
@@ -247,7 +249,7 @@
     * [Optifine 加载页面](plugin-usage/adding-content/optifine-only-features/loading-screen.md)
     * [CIT 盔甲纹理](plugin-usage/adding-content/optifine-only-features/armor-textures-cit.md)
 * [合并资源包](plugin-usage/merge-resourcepacks.md)
-* [保护资源包不被解压](plugin-usage/protect-resourcepack-from-unzip.md)
+* [保护资源包](plugin-usage/resourcepack-protection.md)
 * [快捷资源包提示](plugin-usage/fast-resourcepack-tips.md)
 * [配方菜单](plugin-usage/ia.md)
 * [资源包提示信息](plugin-usage/resourcepack-prompt-message-1.17+.md)
@@ -265,7 +267,7 @@
 * [Minecraft 服务器租赁](other/minecraft-hosting.md)
 * [优化 Minecraft 客户端](https://blog.devs.beer/blog/optimize-minecraft)
 * [用户视频](other/videos-by-users.md)
-* [批量着色图片](other/bulk-colori  ze-images.md)
+* [批量着色图片](other/bulk-colorize-images.md)
 
 ## 开发者
 
@@ -280,7 +282,7 @@
 * [Denizen API](developers/denizen-api.md)
 * [ItemsAdder 标识](developers/branding.md)
 
-## 旧版指南（未翻译）
+## 旧版指南
 
 * [旧版指南](old/old-guides/README.md)
   * [v1 wiki](https://lonedev.gitbook.io/itemsadder)
@@ -293,6 +295,6 @@
   * [📤 自动外部托管](old/old-guides/automatic-upload-hosting.md)
   * [▯ 矩形字符 - old](old/old-guides/rectangle-character-old.md)
   * [🗑️ 移除默认内容 v3.2](faq/removing-default-stuff/old-itemsadder.md)
-  * [车辆拆卸问题](old/old-guides/vehicle-dismount-issues.md)
+  * [离开载具问题](old/old-guides/vehicle-dismount-issues.md)
   * [(Purpur) 地图周围方块异常](old/old-guides/purpur-old-glitched-blocks-around-the-map.md)
   * [💧 旧版液体问题](old/old-guides/old-liquids-bugs.md)

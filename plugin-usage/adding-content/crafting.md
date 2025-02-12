@@ -9,7 +9,7 @@ icon: hammer
 
 ## 3x3 配方
 
-![](../../.gitbook/assets/image\_\(42\).png)
+![](../../.gitbook/assets/image_\(42\).png)
 
 ```yaml
 info:
@@ -35,9 +35,9 @@ recipes:
 
 ## 2x2 配方
 
-![](../../.gitbook/assets/image\_\(41\).png)
+![](../../.gitbook/assets/image_\(41\).png)
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 方法 1
 

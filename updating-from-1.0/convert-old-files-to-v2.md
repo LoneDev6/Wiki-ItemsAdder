@@ -37,7 +37,7 @@ ItemsAdder v2 是对之前 ItemsAdder 版本的完全重写。它改变了每一
 * 打开服务器**插件**文件夹并创建一个**新**文件夹，命名为 **ItemsAdder_old**
 * 打开你的**旧** ItemsAdder 文件夹并从物品文件夹中复制文件**（见截图）**
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 * 将**物品**文件夹粘贴到 **ItemsAdder_old** 中
 
@@ -48,7 +48,7 @@ ItemsAdder v2 是对之前 ItemsAdder 版本的完全重写。它改变了每一
 * 在 **ItemsAdder_old** 中创建一个**新**文件夹，命名为 **pack**
 * 将旧资源包 **.zip** 文件的确切**内容**提取到新文件夹 **pack** 中
 
-![](../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 ## 第四步 - 准备 ItemsAdder 2.0
 

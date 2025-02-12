@@ -1,17 +1,20 @@
 ---
 icon: file
+description: VisualStudio Code extension
 ---
 
 # 文件编辑器
 
-## VisualStudio Code 扩展
+## 如何安装
 
-### [> 在此处下载 Visual Studio Code (vs-code) <](https://code.visualstudio.com/download)
+* [下载 Visual Studio Code (vs-code)](https://code.visualstudio.com/download)
+* [下载扩展](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode)
 
-### [> 在此处下载 vs-code 扩展 <](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode)
+### 预览
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/image (12) (1).png" alt="" width="397"><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+## 重要提示
 
-</div>
+### 如何启用提示描述
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
