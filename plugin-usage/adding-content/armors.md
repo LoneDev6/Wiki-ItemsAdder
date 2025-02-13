@@ -5,18 +5,13 @@ icon: helmet-battle
 # Armors
 
 {% hint style="danger" %}
-Available on ItemsAdder 4.0.9 or greater only.
-
-This method requires Minecraft client and server 1.21.2 or  greater.
+Available on ItemsAdder 4.0.9 or greater only.\
+Requires Minecraft client and server 1.21.2 or  greater.
 
 For older versions tutorials read here: [simple armor](armors-old/simple-armor.md) or [textured armor](armors-old/textured-armor.md).
 {% endhint %}
 
 ## Wear texture configuration
-
-{% hint style="info" %}
-The `equipment` is a property  which contains the information how to show the armor in-game on the player body.
-{% endhint %}
 
 ```yaml
 equipments:
@@ -26,27 +21,15 @@ equipments:
     layer_2: armor/my_armor_1/layer_2
 ```
 
-Now I create the two PNG files inside the folder: `contents/my_armor_tutorial/textures/armor/my_armor_1` .
+The `equipment` is a property  which contains the information how to show the armor in-game on the player body.
+
+Create the layers files inside the folder: `contents/my_armor_tutorial/textures/armor/my_armor_1` .
 
 <figure><img src="../../.gitbook/assets/armor_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-**HD armor textures**
-
-You can create HD high resolution armors too!\
-Just make sure they have the same proportions of the original.
-
-For example:\
-64x32, 128x64, 256x128, 512x256... <mark style="color:red;">it's very important! Size must be a power of 2.</mark>
-{% endhint %}
-
-{% hint style="danger" %}
-It's not advised to use HD textures since this is a blocky game.
-{% endhint %}
-
 ## Item configuration
 
-Let's create a **chestplate**.
+In this example I will show how to create a **chestplate**, the same can be done to create other armor pieces.
 
 ```yaml
   my_armor_1_chestplate:
@@ -63,13 +46,14 @@ Let's create a **chestplate**.
         armor: 1
 ```
 
-As you can see I set the `material` to `IRON_CHESTPLATE`. ItemsAdder automatically understands that you want to create a **chestplate**.
+As you can see I set the `material` to `IRON_CHESTPLATE`.
 
-I also set the `equipment.id` property to `my_armor_tutorial:my_armor_1`. This tells ItemsAdder to load our previously created equipment settings.
+I also set the `equipment.id` property to `my_armor_tutorial:my_armor_1`.\
+This loads our previously created equipment settings.
 
 ## Inventory item textures
 
-Now I create the item texture and I put it inside the folder:\
+Create the item texture and put it inside the folder:\
 `contents/my_armor_tutorial/textures/item`.
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
@@ -173,9 +157,9 @@ items:
 ## Multi-version compatibility
 
 {% hint style="warning" %}
-This custom armors feature is only available on 1.21.2 and greater clients.
+This custom armors feature is only available on 1.21.2 and greater clients and servers.
 
-There is a simple solution if your server uses **ViaVersion** or similar, but has some downsides and it should be considered as a legacy feature.
+There is a simple solution if your server uses **ViaVersion** or similar, but has some downsides and it should be considered as a legacy feature. I discourage using that feature.
 {% endhint %}
 
 You have to create both properties `equipments` and `armors_rendering`.
@@ -311,7 +295,11 @@ items:
 
 ## Animated/emissive armors
 
-{% hint style="warning" %}
-The previous method doesn't support animated and emissive textures.\
-To create animated or/and emissive textures you have to use [the old method shown here](armors-old/textured-armor.md).
-{% endhint %}
+The current custom armors method doesn't support animated and emissive textures.\
+To create animated or/and emissive textures you have to use [the old method shown here](armors-old/textured-armor.md) (uses shaders).
+
+## **HD armor textures**
+
+I do not advice to use HD textures since this is a blocky game, but can create HD high resolution, but make sure they have the same proportions of the original vanilla armors layers textures.
+
+<mark style="color:red;">Size must be a power of 2</mark>, for example: 64x32, 128x64, 256x128, 512x256.&#x20;
