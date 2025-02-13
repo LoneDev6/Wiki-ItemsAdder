@@ -3,7 +3,7 @@ icon: folder
 description: What is the contents folder and how it's structured
 ---
 
-# Contents folder
+# Contents Folder
 
 ## Folders types
 
@@ -12,22 +12,7 @@ description: What is the contents folder and how it's structured
 Is a folder which contains a set of sub-folders.\
 Each one contains separated pack which contain configurations and models/textures/sounds...
 
-You can see that each folder name in **contents** is the [namespace](broken-reference) of the assets it contains.
-
-### configs
-
-Each folder inside `contents` contains a sub-folder called `configs`.\
-This is a folder which contains a set of folders and files.\
-It contains organized `.yml` files which contain items behavior, settings, enchant, recipe, loots, items properties, recipes and more.
-
-{% hint style="warning" %}
-**Namespace** is also set inside the `.yml` file itself, don't forget to set it in the top part:
-
-```yaml
-info:
-  namespace: example
-```
-{% endhint %}
+You can see that each folder name in **contents** is the **namespace** of the assets it contains.
 
 ### resourcepack
 
@@ -40,66 +25,60 @@ Remember to always maintain order in **contents** sub-folders!\
 Don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.
 {% endhint %}
 
+### Configurations
+
+To create custom items, recipes, etc. ItemsAdder uses `.yml` files. You can have multiple configuration files to organize your work.
+
 ## What is a `namespace`?
 
-As you surely noticed ItemsAdder uses **`namespaces`** to identify most of the things it manages.\
+ItemsAdder uses **`namespaces`** to identify most of the things it manages.\
 A **`namespace`** is a **group** of elements, in this case a group of **items, blocks, mobs etc**.\
 With namespaces you can easily understand where a particular **item**, **sound**, **block etc.** comes from.
 
 ### Example
 
-All **realcraft** items are under the **realcraft** namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
+All **realcraft** items are under the `realcraft` namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 
 ![](<../../.gitbook/assets/image (7) (1).png>)
 
 ## How can I define my own namespace?
 
-In order to keep everything organized you have to create **your** own **namespace**.\
-First step is to create a subfolder inside: `plugins/ItemsAdder/contents/`
+Create a subfolder inside: `plugins/ItemsAdder/contents/`
 
-In this example **namespace** will be `my_items` so create a folder named like the namespace: `contents/my_items/`
-
-![](../../.gitbook/assets/my\_items\_namespace.png)
+In this example I will create a **namespace** and call it `my_items`.
 
 Open the `my_items` folder and create a new file, you can call it like as you prefer.\
 For example: `contents/my_items/myswords.yml`
 
-![](../../.gitbook/assets/my\_swords\_yml.png)
+![](../../.gitbook/assets/my_swords_yml.png)
 
-Open the new `.yml` file and paste this:
+The **namespace** must be also specified in the file, so open the new `myswords.yml` file and paste this:
 
 ```yaml
 info:
   namespace: my_items
 ```
 
-As you see I set **namespace** to `my_items`, which is the **namespace** I chose before and it's the same name of the **folder**. \
 Remember to change it based on your **namespace**.
 
-{% hint style="info" %}
-You can create as many **namespaces** you want! \
-This allows you to easily organize your packs of items.
-{% endhint %}
+You can create as many **namespaces** you want! This allows you to easily organize your packs of items.
 
-{% hint style="info" %}
-You can create as many as `.yml` files you want in the same namespace!\
-This allows you to organize items/things types better.\
-For example I divided my items in swords, blocks, food, drinks etc...
-{% endhint %}
+You can create as many as `.yml` files you want in the same namespace! This is useful to organize content better.\
+For example I divided swords, blocks, food, drinks in differnent `.yml` files.
 
 {% hint style="warning" %}
-**All this "nesting" could seem boring,** but it reduces errors as much as possible and allows you to find everything easily.
+**All this "nesting" could seem boring,** but it reduces errors and makes finding content easier.
 {% endhint %}
 
 ## Why different folder structures choices?
 
 **ItemsAdder** allows you to decide which folders structure to use in order to organize your various packs.
 
-This is very useful for admins to have the freedom to organize their pack very fast without worrying about useless nesting of folders. \
-The easiest folder structure to use is the [structure 5](configs-and-resourcepack.md#folders-structure-method-5).
+This is very useful for admins as they have freedom to organize their pack without worrying about much folders nesting.\
+The easiest folder structure to use is the **structure method 1**.
 
 {% hint style="warning" %}
-Each sub-pack must use only one structure at a time.\
+Each **namespace** must use only one structure at a time.\
 **Do not mix them in the same sub-pack!**
 {% endhint %}
 
@@ -107,10 +86,8 @@ Each sub-pack must use only one structure at a time.\
 
 {% hint style="success" %}
 This is the easier way to create a simple pack with some items without having to create too many sub-folders.\
-This avoids you to create `resourcepack`, `assets`, `NAMESPACE` folders and makes everything cleaner.
+This avoids you to create `resourcepack`, `assets`, `<namespace>` folders and makes everything cleaner.
 {% endhint %}
-
-This is useful if your sub-pack doesn't use multiple namespaces, or you won't be able to specify them.
 
 ```
 plugins
@@ -127,6 +104,12 @@ plugins
                 └── items
                     └── example_texture.png
 ```
+
+{% hint style="warning" %}
+### Expert users
+
+If you plan to use multiple namespaces in the content folder, for example `minecraft` and `my_items`, do not use this structure as you won't be able to specify that. Use one other other structures as they do not auto-detect the namespace for texture/models folders.
+{% endhint %}
 
 ### Folders structure method 2
 
@@ -175,7 +158,7 @@ plugins
 
 ### Folders structure method 4
 
-This structure avoids you to create the `resource_pack` folder which is implied and would just add unnecessary complexity.
+This structure avoids you to create the `resourcepack` folder which is implied and would just add unnecessary complexity.
 
 ```
 plugins

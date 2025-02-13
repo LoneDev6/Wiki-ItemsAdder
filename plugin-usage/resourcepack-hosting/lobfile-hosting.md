@@ -1,22 +1,15 @@
-# LobFile hosting
-
-{% hint style="warning" %}
-This feature requires **ItemsAdder 3.6.3** or greater.
-{% endhint %}
-
-## What is LobFile?
-
-**ItemsAdder** allows you to automatically upload your resourcepack on a **free online service** with servers all over the world.
-
-Thanks a lot to **LobFile**[ ](https://ploudos.com/it/)which provides us their platform to host files for free!
-
-{% embed url="https://lobfile.com/" %}
+# LobFile Hosting
 
 {% hint style="warning" %}
 ### Warning
 
 File size limit is 100MB for this hosting method.
 {% endhint %}
+
+Automatically upload your resourcepack on a **free online service** with servers all over the world.\
+Thanks a lot to **LobFile**[ ](https://ploudos.com/it/)which provides us their platform to host files for free!
+
+{% embed url="https://lobfile.com/" %}
 
 ## What are the advantages?
 
@@ -90,4 +83,6 @@ Nothing else to do, enjoy your **free automated resourcepack hosting**.
 2023-12-21:\
 Your resourcepack won't be indexed on Google and won't be published in a list of resourcepacks.\
 Only people who know the link can download the pack.
+
+I take no responsibility, the product is provided as is and I am not the owner of LobFile.
 

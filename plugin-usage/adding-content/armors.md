@@ -154,6 +154,17 @@ items:
 
 {% file src="../../.gitbook/assets/my_armor_tutorial (1).zip" %}
 
+## Animated/emissive armors
+
+The current custom armors method doesn't support animated and emissive textures.\
+To create animated or/and emissive textures you have to use [the old method shown here](armors-old/textured-armor.md) (uses shaders).
+
+## **HD armor textures**
+
+I do not advice to use HD textures since this is a blocky game, but can create HD high resolution, but make sure they have the same proportions of the original vanilla armors layers textures.
+
+<mark style="color:red;">Size must be a power of 2</mark>, for example: 64x32, 128x64, 256x128, 512x256.&#x20;
+
 ## Multi-version compatibility
 
 {% hint style="warning" %}
@@ -200,6 +211,26 @@ You then have to set the `equipment.legacy_armor_rendering_id` and `equipment.id
       legacy_armor_rendering_id: my_armor_legacy_fix_1_shader
       slot_attribute_modifiers:
         armor: 1
+```
+
+### Extra: Custom 3D helmet
+
+Currently on Minecraft 1.21.1 and lower only normal items (not helmets) support 3D models due to a Minecraft limitation I cannot fix.
+
+In this case, to support legacy clients too you must use the `hat` `behaviour` instead.
+
+```yaml
+  my_armor_1_helmet_3d:
+    name: My Armor 1 Helmet 3D
+    resource:
+      generate: false
+      model_path: armor/my_armor_1_helmet_3d
+      material: IRON_HELMET
+    durability:
+      max_durability: 165
+    equipment:
+      slot_attribute_modifiers:
+        armor: 2.5
 ```
 
 ### Full configuration from the previous example
@@ -286,20 +317,22 @@ items:
       armor:
         slot: feet
         custom_armor: my_armor_legacy_fix_1_shader
+  my_armor_legacy_fix_1_helmet_3d:
+    name: My Armor Legacy Fix 1 Helmet 3d
+    resource:
+      generate: false
+      model_path: armor/my_armor_legacy_fix_1_helmet_3d
+      material: PAPER
+    durability:
+      max_durability: 165
+    behaviours:
+      hat: true
+    attribute_modifiers:
+      head:
+        armor: 2.5
 
 ```
 
 </details>
 
 {% file src="../../.gitbook/assets/my_armor_tutorial_legacy_fix.zip" %}
-
-## Animated/emissive armors
-
-The current custom armors method doesn't support animated and emissive textures.\
-To create animated or/and emissive textures you have to use [the old method shown here](armors-old/textured-armor.md) (uses shaders).
-
-## **HD armor textures**
-
-I do not advice to use HD textures since this is a blocky game, but can create HD high resolution, but make sure they have the same proportions of the original vanilla armors layers textures.
-
-<mark style="color:red;">Size must be a power of 2</mark>, for example: 64x32, 128x64, 256x128, 512x256.&#x20;

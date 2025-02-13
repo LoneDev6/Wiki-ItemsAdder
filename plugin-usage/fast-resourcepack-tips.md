@@ -2,7 +2,7 @@
 icon: bolt-lightning
 ---
 
-# Fast resourcepack tips
+# Good Resourcepack Tips
 
 ## Fast workflow
 
@@ -24,11 +24,9 @@ Doing this you'll have a fast and easy to use configuration environment.\
 You can add items and edit the pack on the fly.
 
 {% hint style="warning" %}
-Players hate lag on plugins reload, server restarts, having to re-download the pack when they're already playing...\
+Players hate lag on plugins reload, server restarts, having to re-download the pack when they're already playing.\
 It's better to do edits and tests on a local test server instead.
-{% endhint %}
 
-{% hint style="warning" %}
 This is the best setting for your server as it's the fastest and doesn't require\
 any manual operation when uploading the pack.
 {% endhint %}

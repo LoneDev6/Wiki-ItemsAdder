@@ -1,6 +1,4 @@
-# Google Drive (1.17.1+)
-
-## How to use Google Drive
+# Google Drive
 
 {% hint style="warning" %}
 This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
@@ -12,17 +10,17 @@ This method works 100% of the times on Minecraft 1.17.1 and most recent versions
 
 Rightclick on your resourcepack zip file and press "Get link"
 
-![](<../../.gitbook/assets/image\_(153) (1).png>)
+![](<../../.gitbook/assets/image_(153) (1).png>)
 
 ### Step 2
 
 Important: set the permission to "Anyone with the link"
 
-![](../../.gitbook/assets/image\_\(145\).png)
+![](../../.gitbook/assets/image_\(145\).png)
 
 Press "Copy link"
 
-![](../../.gitbook/assets/image\_\(149\).png)
+![](../../.gitbook/assets/image_\(149\).png)
 
 ### Step 3
 
@@ -36,7 +34,7 @@ Paste the link and press on "Get direct link"
 
 The website automatically adds the generated link in your clipboard.
 
-![](../../.gitbook/assets/image\_\(147\).png)
+![](../../.gitbook/assets/image_\(147\).png)
 
 You can now paste the link inside **ItemsAdder** configuration file `config.yml`, then use `/iareload` command.
 
@@ -56,7 +54,7 @@ You can now see that the pack is correctly loaded by the game.
 
 ### Long time on "Making Request... 100%"
 
-### ![](../../.gitbook/assets/image\_\(141\).png)
+### ![](../../.gitbook/assets/image_\(141\).png)
 
 This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
 

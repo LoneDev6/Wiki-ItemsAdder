@@ -1,14 +1,18 @@
-# Text formatting
+---
+icon: text-size
+---
 
-ItemsAdder implements Minimessage support so you can easily customize your texts.
+# Text Formatting
 
 {% hint style="warning" %}
-This requires ItemsAdder 3.5.1 or greater and LoneLibs 1.0.26 or greater.
+Doesn't work in [Minecraft language files](minecraft-language-files.md) due to a Minecraft limitation.
 {% endhint %}
 
-<div><figure><img src="../../../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
+## How to use colored texts
 
-### Basic item name
+You can change color of text and specify a custom hex color using the special notation.
+
+### Basic
 
 `display_name: '&6TEST'`
 
@@ -56,6 +60,16 @@ items:
       model_path: minecraft:item/emerald
       material: PAPER
 ```
+
+```
+<#FE5A00>Magic Fuel
+<red>Magic <green>Fuel
+<gradient:#ff00ee:#f79459>Here is a gradient example text!
+```
+
+<div><figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure></div>
+
+<div><figure><img src="../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Component
 

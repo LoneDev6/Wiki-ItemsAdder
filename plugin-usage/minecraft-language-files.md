@@ -2,9 +2,9 @@
 icon: earth-africa
 ---
 
-# Minecraft language files
+# Minecraft Language Files
 
-With ItemsAdder you can easily overwrite Minecraft default translation files.
+You can easily overwrite Minecraft default translation files.
 
 ### Example of usage: custom esc menu
 
@@ -21,14 +21,11 @@ minecraft_lang_overwrite:
       - ALL
 ```
 
-### languages
+### `languages`
 
 The languages property is used to list all the languages where you want to change the text.\
 You should set it to only the languages of your playerbase, but I decided to set it to ALL so you will be sure that everyone can see the custom text despite their decided clientside language.
 
-### entries
+### `entries`
 
-It's the list of translated texts. \
-You can find the complete list here (change `1.19.3` to your version):
-
-[https://github.com/InventivetalentDev/minecraft-assets/blob/1.19.3/assets/minecraft/lang/en\_us.json](https://github.com/InventivetalentDev/minecraft-assets/blob/1.19.3/assets/minecraft/lang/en\_us.json)
+It's the list of translated texts. You can find the complete list [here](https://github.com/InventivetalentDev/minecraft-assets/blob/1.21.4/assets/minecraft/lang/en_us.json).

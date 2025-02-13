@@ -3,11 +3,7 @@ icon: merge
 description: Merge other resourcepacks (also custom plugins resourcepacks)
 ---
 
-# Merge resourcepacks
-
-{% hint style="danger" %}
-#### ItemsAdder 3.3+ only!
-{% endhint %}
+# Merge Resourcepacks
 
 ## Why merging?
 
@@ -47,8 +43,6 @@ Open config.yml and write the load priority order of your `contents` sub-folders
       # ... other packs here of which you want to change load order.
 ```
 {% endcode %}
-
-### Done
 
 ## Examples
 

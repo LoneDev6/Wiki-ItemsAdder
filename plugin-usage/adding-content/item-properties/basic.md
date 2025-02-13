@@ -4,12 +4,7 @@ description: Collection of basic item properties
 
 # Basic
 
-{% hint style="warning" %}
-<mark style="color:red;">Don't forget the namespace!</mark>\
-Don't forget to define a namespace for all of your configs!
-{% endhint %}
-
-## Enabled
+## `enabled`
 
 ```yaml
 enabled: true
@@ -18,29 +13,37 @@ enabled: true
 With this setting you can disable an item completely.
 
 {% hint style="warning" %}
-**If a player has the item in inventory it won't be removed.**\
-**Same thing for blocks, but when broken they won't drop anymore.**
+Items won't be deleted from the world or inventories if you disable them.
 {% endhint %}
 
-## Display name
+## `name`
 
 ```yaml
-display_name: "Test"
+name: "Test"
 ```
 
-This is the name user will see on the item
+Item name shown in the tooltip.
 
-## Permission
+{% hint style="warning" %}
+ItemsAdder 4.0.8 and lower use the `display_name` property instead.
+{% endhint %}
+
+## `permission_suffix`
 
 ```yaml
 permission_suffix: myitem
 ```
 
+This property is used to identify if a user has permission to see an item in the `/ia` GUI.\
+For example the full permission will be `ia.user.ia.seeitem.myitem`.
+
+For now this is the only use of this permission.
+
 {% content-ref url="permission.md" %}
 [permission.md](permission.md)
 {% endcontent-ref %}
 
-## Lore
+## `lore`
 
 ```yaml
 lore:
@@ -49,9 +52,9 @@ lore:
 - '&750% of times.'
 ```
 
-Lore lines of the item
+Lore lines of the item.
 
-## Enchants
+## `enchants`
 
 ```yaml
 enchants:
@@ -61,10 +64,10 @@ enchants:
 ```
 
 Enchants of the item.\
-You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins (for example [EcoEnchants](https://www.spigotmc.org/resources/%E2%9A%A1-1-16-1-16-5-ecoenchants-%E2%9C%A8-220-custom-enchantments-%E2%9C%85-essentials-cmi-support.79573/), [GoldenEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
-Supports also **namespaces** (if you are creating custom enchants using Namespaced keys)
+You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins (for example [EcoEnchants](../../../compatibility-with-other-plugins/compatible/ecoenchants.md), [ExcellentEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
+Supports also **namespaces** (if you are creating custom enchants using Namespaced keys).
 
-## Attribute modifiers
+## `attribute_modifiers`
 
 ```yaml
 attribute_modifiers:
@@ -88,9 +91,9 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities)
+These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
 
-## Durability
+## `durability`
 
 ```yaml
 durability:
@@ -101,14 +104,13 @@ durability:
   usages: 5
 ```
 
-There are pretty self explanatory.\
-`usages` are a special propery which allows you to set a number of usages for the current item. Remember to decrement it using events (check events tutorial).
+`usages` : number of usages for the current item. Remember to decrement it using [events](events/).
 
-`custom_durability` is the durability amount which the item has on crafting (if not specified is the same as `max_custom_durability`)
+`custom_durability` : initial durability which the item has (if not specified is the same as `max_custom_durability`).
 
-`max_custom_durability` is the max durability the item can reach
+`max_custom_durability` : max durability of the item.
 
-## Item flags
+## `item_flags`
 
 ```yaml
 item_flags:
@@ -123,89 +125,51 @@ item_flags:
 Special item flags that can hide some vanilla info of the item.\
 You can find a detailed info list here: [https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/ItemFlag.html)
 
-## blocked\_enchants
+{% hint style="info" %}
+This option is old and might not working as it did on previous game versions due to changes in Minecraft 1.20.4.
+{% endhint %}
 
-Special item property that disables enchants for this item, so your users won't be able to enchant it.
+## `blocked_enchants`
+
+Disables enchants for this item.
 
 {% tabs %}
 {% tab title="Disable some enchants" %}
 ```yaml
 blocked_enchants:
-      - DAMAGE_UNDEAD
-      - DAMAGE_ALL
-      - DAMAGE_ARTHROPODS
-      - KNOCKBACK
-      - DURABILITY
-      - SWEEPING_EDGE
+- DAMAGE_UNDEAD
+- DAMAGE_ALL
+- DAMAGE_ARTHROPODS
+- KNOCKBACK
+- DURABILITY
+- SWEEPING_EDGE
 ```
 {% endtab %}
 
 {% tab title="Disable all enchants" %}
 ```yaml
 blocked_enchants:
-      - ALL
+- ALL
 ```
 {% endtab %}
 {% endtabs %}
 
-## events\_needed\_player\_stats
+## `events_needed_player_stats`
 
-Special attribute to make events work only if the player stat (ItemsAdder player stat, which are usually shown in HUDs) satisfies the set rule.
+Special attribute to make events work only if the player stat (ItemsAdder player stat, which are usually shown in HUDs) satisfies the set rule. You can set it to `>`, `<` ad `=`.
 
-You can set it to `>`, `<` ad `=`
+Example: [magic wand example item](../other-items-examples/magic-wand.md).
 
-#### Example:
-
-{% content-ref url="../other-items-examples/magic-wand.md" %}
-[magic-wand.md](../other-items-examples/magic-wand.md)
-{% endcontent-ref %}
-
-```yaml
-  magic_wand:
-    display_name: "Magic wand"
-    permission: magic_wand
-    resource:
-      material: DIAMOND_SWORD
-      generate: true
-      textures:
-      - item/example_item.png
-    durability:
-      max_custom_durability: 512
-    attribute_modifiers:
-      mainhand:
-        attackDamage: 0.1
-    blocked_enchants:
-    - ALL
-    events_needed_player_stats:
-      mana: ">0" ### <---- for example. You could also set it to <5 or =1 for example.
-    events:
-      interact:
-        entity:
-          target_potion_effect:
-            type: GLOWING
-            duration: 70
-            amplifier: 15
-          decrement_player_stat:
-            name: mana
-            amount: 1
-```
-
-## glow
+## `glow`
 
 You can make an item glowing when dropped on the ground.\
 Very useful for **rare items**.
 
 {% hint style="warning" %}
-In order to use the glow feature you have to install two APIs.
-
-[GlowAPI](https://www.spigotmc.org/resources/api-glowapi.19422/) and [PacketListenerAPI](https://www.spigotmc.org/resources/api-packetlistenerapi.2930/)
-
-They are needed because this feature is impossible to implement without writing an extremely long code, someone already did it and we can use their API.
+Available on ItemsAdder 4.0.9 or greater.
 {% endhint %}
 
-Example
-
-![](../../../.gitbook/assets/image\_\(114\).png)
+![](../../../.gitbook/assets/image_\(114\).png)
 
 ```yaml
 items:
@@ -222,13 +186,12 @@ items:
         color: DARK_RED
 ```
 
-## show\_name
+## `show_name`
 
 You can make a drop show its name.\
-Very useful for **rare items**.\
-Example:
+Very useful for **rare items**.
 
-![](<../../../.gitbook/assets/image\_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1).png>)
 
 ```yaml
   glowing_item:
@@ -242,13 +205,7 @@ Example:
       show_name: true
 ```
 
-## template
-
-{% content-ref url="templates-and-variants.md" %}
-[templates-and-variants.md](templates-and-variants.md)
-{% endcontent-ref %}
-
-## variant\_of
+## `template` and `variant_of`
 
 {% content-ref url="templates-and-variants.md" %}
 [templates-and-variants.md](templates-and-variants.md)

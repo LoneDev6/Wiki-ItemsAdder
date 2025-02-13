@@ -5,8 +5,6 @@ description: How to protect your resourcepack
 
 # Resourcepack Protection
 
-## Protect your resourcepack from thief
-
 {% hint style="danger" %}
 ## Disclaimer
 
@@ -20,8 +18,8 @@ ItemsAdder does its best to prevent this, but keep that eventuality in mind.
 Every other plugin has the same limitations. It's not a limitation of ItemsAdder.
 {% endhint %}
 
-With ItemsAdder you can protect your resourcepack from unzip and thieves.\
-You just have to set this option in `config.yml` and use `/iazip` again.\
+You can protect your resourcepack from unzip and thieves by setting this option in `config.yml` and using `/iazip` again.
+
 If you're using an [external host](resourcepack-hosting/) (like [Dropbox](resourcepack-hosting/resourcepack-on-dropbox.md)) don't forget to reupload the pack and update the `config.yml`.
 
 {% code title="config.yml" %}
@@ -49,18 +47,11 @@ This is a funny meme showcase of what the user will see when they try to steal y
 
 ## Protect self-host resourcepack from DDoS attacks
 
-{% hint style="danger" %}
-## Disclaimer
-
-There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
-
-This feature is a mitigation to avoid kids and trolls to try to slowdown your server.\
-ItemsAdder does its best to prevent this, but keep that eventuality in mind.
-{% endhint %}
-
 {% hint style="warning" %}
-This feature is available only on ItemsAdder 4.0.8
+Available only on ItemsAdder 4.0.8
 {% endhint %}
+
+This feature is a mitigation to avoid kids and trolls to try to slowdown your server.
 
 {% code title="config.yml" %}
 ```yaml

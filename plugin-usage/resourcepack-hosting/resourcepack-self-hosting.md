@@ -1,14 +1,5 @@
 # Self hosting
 
-## Video tutorial
-
-{% embed url="https://www.youtube.com/watch?v=XoTwF4_HztU" %}
-
-## Info about self-hosting
-
-With ItemsAdder you can host the resourcepack directly on your server!\
-No need to pay for a website host and **no need to upload the pack every time you make a change!**
-
 {% hint style="warning" %}
 **Your hosting service must let you get additional ports for your server.**\
 If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./)
@@ -19,7 +10,8 @@ If your hosting service doesn't provide you additional ports you have to use one
 Difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
 
 {% hint style="info" %}
-`self-host` is really useful when you are configuring the resourcepack on your test server on your PC. Because you just have to use command `/iazip` and you'll see changes applied ingame almost instantly.
+`self-host` is really useful when you are configuring the resourcepack on your test server on your PC.\
+You just have to use command `/iazip` and you'll see changes applied in-game almost instantly.
 {% endhint %}
 
 {% content-ref url="../fast-resourcepack-tips.md" %}
@@ -27,6 +19,8 @@ Difference is that with self-host you can download the pack directly from your s
 {% endcontent-ref %}
 
 ## How can I configure the self host?
+
+{% embed url="https://www.youtube.com/watch?v=XoTwF4_HztU" %}
 
 * Check in your **hosting service panel** if you can get an additional port, if not please ask hosting service support to provide your one.
 
@@ -58,7 +52,7 @@ For example if my ip is `123.456.789.0` and my additional port is `8163`I will s
 ```
 
 {% hint style="warning" %}
-**pack-port** is not the same as your server port (the one your users use to connect).
+**`pack-port`** is not the same as your server port (the one your users use to connect).
 {% endhint %}
 
 {% hint style="info" %}
@@ -82,11 +76,11 @@ After you configured the `config.yml` file you just have to run `/iazip` command
 
 ## Cloudflare configuration (optional, not mandatory)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 This guide won't protect your server IP as you are already exposing it via the SRV rule and Cloudflare free doesn't allow protecting traffic from non-standard ports.
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 This guide might make your traffic lower due to how Cloudflare caches requests automatically, so resourcepack requests might be less heavy after applying this method.
 {% endhint %}
 
