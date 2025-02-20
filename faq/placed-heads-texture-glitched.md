@@ -1,9 +1,13 @@
 ---
-description: Some placed player heads have glitched/bugged texture
 icon: head-side
+description: Some placed player heads have glitched/bugged texture
 ---
 
 # Placed heads texture glitched
+
+{% hint style="info" %}
+This is caused by the emotes feature of ItemsAdder and currently there is no fix other than disabling them.
+{% endhint %}
 
 ![](<../.gitbook/assets/image (51) (2) (2).png>)
 

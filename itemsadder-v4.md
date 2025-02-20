@@ -48,9 +48,17 @@ So please, consider to stop allowing multiple versions to join your survival/gam
 ## Final words
 
 {% hint style="info" %}
-You should really consider migrating your ancient server to 1.20.5 and stop **ab-using** ViaVersion. Players, admins and me don't get any advantage over using ViaVersion to allow multiple versions to join your server, it just introduces a ton of stress and frustration.
+You should really consider migrating your ancient server to 1.20.5 and stop **abusing** ViaVersion. Players, admins and me don't get any advantage over using ViaVersion to allow multiple versions to join your server, it just introduces a ton of stress and frustration.
 {% endhint %}
 
 {% hint style="success" %}
 Old versions will still be downloadable so you can keep using legacy ItemsAdder versions and don't update to the new versions.
 {% endhint %}
+
+{% hint style="info" %}
+I will continue fixing compatibility issues with multi-version environments only if:
+
+* the issue is a game breaking issue and causes damage to the gameplay
+* the issue is actually fixable. I cannot guarantee it is because I have no control over to the client code changes, I don't work for Mojang
+{% endhint %}
+

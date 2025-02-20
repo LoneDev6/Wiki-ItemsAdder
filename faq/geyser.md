@@ -1,3 +1,7 @@
+---
+icon: volcano
+---
+
 # Geyser
 
 {% hint style="warning" %}

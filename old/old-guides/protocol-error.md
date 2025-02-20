@@ -2,7 +2,7 @@
 
 ### NoClassDefFoundError
 
-If you get an error about Protocol please install [latest ProtocolLib](../first-install.md).
+If you get an error about Protocol please install [latest ProtocolLib](../../first-install.md).
 
 ```
 Error occurred while enabling ItemsAdder v1.1.16 (Is it up to date?)
@@ -11,7 +11,7 @@ java.lang.NoClassDefFoundError: com/comphenix/protocol/events/PacketListener
 
 ### Cannot retrieve entity from ID
 
-To fix this please install [latest ProtocolLib](../first-install.md).​
+To fix this please install [latest ProtocolLib](../../first-install.md).​
 
 ```
 [ItemsAdder] Unhandled exception occured in onPacketReceiving(PacketEvent) for ItemsAdder

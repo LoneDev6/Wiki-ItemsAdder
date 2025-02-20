@@ -38,17 +38,59 @@ Items:
 
 ### How to change language?
 
-Open `config.yml` and change the `lang` setting.
-
+{% code title="config.yml" %}
 ```yaml
 config_files:
   lang: 'en'
   dictionaries-lang: 'en'
 ```
+{% endcode %}
 
-## How to edit or to create new languages?
+## Edit or to create new messages languages
 
 The **plugin** messages **language** files are in **this folder**: `plugins/ItemsAdder/lang/`
 
-**Default** ItemsAdder pack items/menus **languages** are inside `dictionaries` folders on each `namespace` folder.\
-For example: `contents/iasurvival/dictionaries/`
+You can edit your language file or create a new language file.
+
+## Edit or create items / assets language files
+
+ItemsAdder uses "dictionaries" to translate items name and lore.\
+You can create dictionaries in your namespace folder adding your keys there.\
+In my case: `contents/iasurvival/dictionaries/`
+
+### Example
+
+In this example I created two dictionaries: English and Italian.\
+Then I reference the key in the item name.
+
+{% code title="dictionary_en.yml" %}
+```yaml
+info:
+  namespace: test
+  dictionary-lang: en
+dictionary:
+  name-my-custom-item: This is my custom item
+```
+{% endcode %}
+
+{% code title="dictionary_it.yml" %}
+```yaml
+info:
+  namespace: test
+  dictionary-lang: it
+dictionary:
+  name-my-custom-item: Il Mio Oggetto Modificato
+```
+{% endcode %}
+
+{% code title="items.yml" %}
+```yaml
+items:
+  my_custom_item:
+    name: name-my-custom-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: minecraft:item/diamond
+```
+{% endcode %}
