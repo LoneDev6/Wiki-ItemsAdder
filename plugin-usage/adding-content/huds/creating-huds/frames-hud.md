@@ -10,7 +10,7 @@ FRAMES HUDs allows you to create HUDs which have a different texture for each of
 
 ### Creating the configuration file
 
-The first step is to create a configuration file in your [namespace](broken-reference) folder. In this example I'll create a file called `hud.yml`.
+The first step is to create a configuration file in your **namespace** folder. In this example I'll create a file called `hud.yml`.
 
 {% code title="hud.yml" %}
 ```yaml
