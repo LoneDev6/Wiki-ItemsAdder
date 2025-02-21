@@ -336,3 +336,31 @@ items:
 </details>
 
 {% file src="../../.gitbook/assets/my_armor_tutorial_legacy_fix.zip" %}
+
+## Converting old armors to the new equipment tag
+
+### Mode 1
+
+This setting allows you to append the new equipment setting and use the old shader method + the new method at the same time, so old clients will still see armors even if they are not on 1.21.2+.
+
+{% code title="config.yml" %}
+```yml
+advanced:
+  legacy_shader_armor_conversion:
+    append_new_equipment_tag:
+      enabled: true
+```
+{% endcode %}
+
+### Mode 2
+
+This option will convert the armors completely to use the new equipment tag. Note that old clients won't see the armor anymore (older than 1.21.2).
+
+{% code title="config.yml" %}
+```yml
+advanced:
+    completely_convert_to_new_equipment_tag:
+      enabled: true
+      new_armor_material: IRON
+```
+{% endcode %}
