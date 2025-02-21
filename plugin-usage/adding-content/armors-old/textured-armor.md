@@ -40,7 +40,7 @@ Note: there can be only one armor renderer with per color.
 info:
   namespace: my_items
 armors_rendering:
-  custom_armor:
+  my_armor:
     color: "#d60000"
     layer_1: armor/my_armor/layer_1
     layer_2: armor/my_armor/layer_2
