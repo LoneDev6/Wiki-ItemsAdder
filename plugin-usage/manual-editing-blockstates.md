@@ -1,6 +1,6 @@
 ---
-description: 如何手动编辑 blockstates.json 文件
 icon: file-pen
+description: 如何手动编辑 blockstates.json 文件
 ---
 
 # 手动编辑方块状态
@@ -13,3 +13,5 @@ icon: file-pen
 你可以手动修改方块 blockstates.json ，为此可以创建一个新的文件夹，并将编辑后的方块数据放入其中。
 
 **ItemsAdder** 会自动合并所有内容文件夹中带有 **ItemsAdder** 自定义方块的 blockstate `.json` 文件。
+
+例如 `contents/my_custom_blockstates/assets/minecraft/blockstates/note_block.json`

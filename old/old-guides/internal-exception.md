@@ -8,7 +8,7 @@
 
 `Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: index: 5, length: 13632 (expected: range(0,30))`
 
-![](<../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
 打开 **ItemsAdder** 的 `config.yml` 文件，并将此值更改为 `false`：`optimized-packets: false`
 

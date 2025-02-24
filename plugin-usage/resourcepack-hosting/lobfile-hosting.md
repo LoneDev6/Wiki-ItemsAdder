@@ -1,22 +1,15 @@
 # LobFile 托管
 
 {% hint style="warning" %}
-此功能需要 **ItemsAdder 3.6.3** 或更高版本。
+### 警告
+
+该托管方法的文件大小限制是 100MB
 {% endhint %}
 
-## 什么是 LobFile？
-
-**ItemsAdder** 允许您自动将资源包上传到一个**免费的在线服务**，该服务在全球各地都有服务器。
-
+通过**免费的在线服务**自动上传您的资源包，且服务器遍布世界各地。\
 非常感谢 **LobFile**[ ](https://ploudos.com/it/) 提供他们的平台来免费托管文件！
 
 {% embed url="https://lobfile.com/" %}
-
-{% hint style="warning" %}
-### 警告
-
-此托管方法的文件大小限制为 100MB。
-{% endhint %}
 
 ## 有什么优势？
 
@@ -91,3 +84,4 @@ lobfile:
 您的资源包不会被 Google 索引，也不会发布在资源包列表中。\
 只有知道链接的人才能下载该包。
 
+我不为此负责，产品原描述提供。我也不是 LobFile 的所有者。

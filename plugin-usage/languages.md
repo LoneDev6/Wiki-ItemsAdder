@@ -38,17 +38,59 @@ Items:
 
 ### 如何更改语言？
 
-打开 `config.yml` 并修改 `lang` 设置。
-
+{% code title="config.yml" %}
 ```yaml
 config_files:
   lang: 'en'
   dictionaries-lang: 'en'
 ```
+{% endcode %}
 
-## 如何编辑或创建新语言？
+## 编辑或创建新语言
 
 **插件的语言文件在此处**：`plugins/ItemsAdder/lang/`
 
-ItemsAdder **默认**包的物品/菜单**语言文件**在 `dictionaries` 文件夹下的各 `namespace` 文件夹。\
-例如：`contents/iasurvival/dictionaries/`
+你可以编辑你的语言文件，或者创建一个新的语言文件。
+
+## 编辑或创建物品/资源语言文件
+
+ItemsAdder 使用“字典”来翻译物品名称与描述。\
+你可以在你的命名空间中创建字典，并添加相应的键。\
+本例中为：`contents/iasurvival/dictionaries/`
+
+### 示例
+
+本例中我创建了两个字典：English 与 Italian。\
+然后我在物品名中引用了该键。
+
+{% code title="dictionary_en.yml" %}
+```yaml
+info:
+  namespace: test
+  dictionary-lang: en
+dictionary:
+  name-my-custom-item: This is my custom item
+```
+{% endcode %}
+
+{% code title="dictionary_it.yml" %}
+```yaml
+info:
+  namespace: test
+  dictionary-lang: it
+dictionary:
+  name-my-custom-item: Il Mio Oggetto Modificato
+```
+{% endcode %}
+
+{% code title="items.yml" %}
+```yaml
+items:
+  my_custom_item:
+    name: name-my-custom-item
+    resource:
+      material: PAPER
+      generate: false
+      model_path: minecraft:item/diamond
+```
+{% endcode %}

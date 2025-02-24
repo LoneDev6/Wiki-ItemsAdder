@@ -4,10 +4,6 @@ icon: file-png
 
 # 2D 方块图标
 
-{% hint style="warning" %}
-此功能需要 **ItemsAdder 3.1.6+**
-{% endhint %}
-
 {% embed url="https://youtu.be/FOLoAAjV_oI" %}
 
 ### 步骤 1

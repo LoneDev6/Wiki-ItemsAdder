@@ -1,9 +1,13 @@
 ---
-description: 一些放置的玩家头颅纹理出现故障/错误
 icon: head-side
+description: 一些放置的玩家头颅纹理出现故障/错误
 ---
 
 # 放置的头颅纹理出现故障
+
+{% hint style="info" %}
+这是由 ItemsAdder 的表情功能引发的，并且目前没有修复的方法，只能禁用。
+{% endhint %}
 
 ![](<../.gitbook/assets/image (51) (2) (2).png>)
 

@@ -1,14 +1,18 @@
-# 文本格式化
+---
+icon: text-size
+---
 
-ItemsAdder 实现了 Minimessage 支持，因此您可以轻松自定义文本。
+# 文本格式
 
 {% hint style="warning" %}
-这需要 ItemsAdder 3.5.1 或更高版本和 LoneLibs 1.0.26 或更高版本。
+由于 Minecract 限制，在 [Minecraft 语言文件](minecraft-language-files.md)中无效。
 {% endhint %}
 
-<div><figure><img src="../../../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
+## 如何使用多彩文本
 
-### 基本名称
+您可以更改文本的颜色，并使用特殊符号指定自定义十六进制颜色。
+
+### 基础
 
 `display_name: '&6TEST'`
 
@@ -56,6 +60,16 @@ items:
       model_path: minecraft:item/emerald
       material: PAPER
 ```
+
+```
+<#FE5A00>Magic Fuel
+<red>Magic <green>Fuel
+<gradient:#ff00ee:#f79459>Here is a gradient example text!
+```
+
+<div><figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure></div>
+
+<div><figure><img src="../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
 
 ### 组件
 

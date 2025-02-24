@@ -1,6 +1,4 @@
-# Google Drive (1.17.1+)
-
-## 如何使用 Google Drive
+# Google Drive
 
 {% hint style="warning" %}
 由于 Minecraft 的一个 bug，在 1.17 之前的版本中，这种方法在某些 PC 上存在一些问题，详情请阅读：[MC-143768](https://bugs.mojang.com/browse/MC-143768)
@@ -12,17 +10,17 @@
 
 右键点击你的资源包 zip 文件，然后点击“获取链接”
 
-![](<../../.gitbook/assets/image\_(153) (1).png>)
+![](<../../.gitbook/assets/image_(153) (1).png>)
 
 ### 第二步
 
 重要：将权限设置为“拥有链接的任何人”
 
-![](../../.gitbook/assets/image\_\(145\).png)
+![](../../.gitbook/assets/image_\(145\).png)
 
 点击“复制链接”
 
-![](../../.gitbook/assets/image\_\(149\).png)
+![](../../.gitbook/assets/image_\(149\).png)
 
 ### 第三步
 
@@ -36,7 +34,7 @@
 
 网站会自动将生成的链接添加到你的剪贴板中。
 
-![](../../.gitbook/assets/image\_\(147\).png)
+![](../../.gitbook/assets/image_\(147\).png)
 
 你现在可以将链接粘贴到 **ItemsAdder** 配置文件 `config.yml` 中，然后使用 `/iareload` 命令。
 
@@ -56,7 +54,7 @@ external-host:
 
 ### 长时间停留在“正在请求... 100%”
 
-### ![](../../.gitbook/assets/image\_\(141\).png)
+### ![](../../.gitbook/assets/image_\(141\).png)
 
 这是正常现象。因为 Google Drive 在授权下载资源包之前会进行一些操作。
 
