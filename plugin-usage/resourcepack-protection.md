@@ -5,8 +5,6 @@ description: 如何保护你的资源包。
 
 # 资源包保护
 
-## 防止你的资源包被盗窃
-
 {% hint style="danger" %}
 ## 免责声明
 
@@ -20,8 +18,8 @@ ItemsAdder 尽最大努力防止该情况，但仍请记住这并非完全有效
 其他插件也有相同限制，并非 ItemsAdder独有。
 {% endhint %}
 
-借助 ItemsAdder 你可以防止你的资源包被解压、盗窃。\
-你只需要在 `config.yml` 中启用该设置，并再次使用 `/iazip`。\
+要借助 ItemsAdder 你可以防止你的资源包被解压、盗窃。你只需要在 `config.yml` 中启用该设置，并再次使用 `/iazip`。
+
 如果你在使用[外部托管](resourcepack-hosting/) (如 [Dropbox](resourcepack-hosting/resourcepack-on-dropbox.md))，不要忘记重新上传资源包并更新 `config.yml`。
 
 {% code title="config.yml" %}
@@ -49,18 +47,11 @@ ItemsAdder 尽最大努力防止该情况，但仍请记住这并非完全有效
 
 ## 从 DDoS 攻击中保护自行托管的资源包
 
-{% hint style="danger" %}
-## 免责声明
-
-没有完全有效的方式来保护资源包，因为游戏必须能够正确提取资源来显示纹理。
-
-这个功能是预防措施，防止小朋友或其他不怀好意的人偷取你的纹理。\
-ItemsAdder 尽最大努力防止该情况，但仍请记住这并非完全有效。
-{% endhint %}
-
 {% hint style="warning" %}
-该功能仅在 ItemsAdder 4.0.8 生效
+仅在 ItemsAdder 4.0.8 生效
 {% endhint %}
+
+该功能可以缓解熊孩子等卡服、崩服的尝试。
 
 {% code title="config.yml" %}
 ```yaml

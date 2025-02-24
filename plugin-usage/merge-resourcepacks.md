@@ -5,10 +5,6 @@ icon: merge
 
 # 合并资源包
 
-{% hint style="danger" %}
-### 仅适用于 ItemsAdder 3.3+ 版本！
-{% endhint %}
-
 ## 为什么要合并？
 
 **Minecraft 版本 1.20.3 之前** 仅**支持 1 个服务器资源包**。\
@@ -47,8 +43,6 @@ icon: merge
       # ... other packs here of which you want to change load order.
 ```
 {% endcode %}
-
-### 完成
 
 ## 示例
 
