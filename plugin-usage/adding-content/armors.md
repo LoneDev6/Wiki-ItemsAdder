@@ -2,13 +2,13 @@
 icon: helmet-battle
 ---
 
-# Armors
+# 盔甲
 
 {% hint style="danger" %}
 ItemsAdder 4.0.9 或更高版本可用。\
 需要 Minecraft 1.21.2 或更高（客户端及服务端）。
 
-旧版教程见此：[普通盔甲](armors-old/simple-armor.md) 或 [带纹理的盔甲](armors-old/textured-armor.md).
+旧版教程见此：[普通盔甲](armors-old/simple-armor.md) 或 [纹理盔甲](armors-old/textured-armor.md).
 {% endhint %}
 
 ## 纹理配置

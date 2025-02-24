@@ -7,7 +7,7 @@ description: 特殊文本动画和着色效果
 
 {% hint style="warning" %}
 * **需要 Minecraft 1.17+ 客户端**
-* 不适用于 [Minecraft 语言文件](adding-content/minecraft-language-files.md)（游戏限制）
+* 不适用于 [Minecraft 语言文件](minecraft-language-files.md)（游戏限制）
 * 编辑 `rendertype_text` 着色器文件
 {% endhint %}
 

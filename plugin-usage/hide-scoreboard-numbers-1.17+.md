@@ -8,11 +8,11 @@ icon: expand-wide
 
 {% tabs %}
 {% tab title="After" %}
-![使用 ItemsAdder](../.gitbook/assets/image\_\(130\).png)
+![使用 ItemsAdder](../.gitbook/assets/image_\(130\).png)
 {% endtab %}
 
 {% tab title="Before" %}
-![未使用 ItemsAdder](../.gitbook/assets/image\_\(131\).png)
+![未使用 ItemsAdder](../.gitbook/assets/image_\(131\).png)
 {% endtab %}
 {% endtabs %}
 
@@ -52,7 +52,7 @@ effects:
 {% endcode %}
 
 {% hint style="warning" %}
-### **警告**
+#### **警告**
 
 此选项是持续性选项，无法在游戏中开启/关闭。\
 您必须在 `config.yml` 中禁用它并重新生成包以启用/禁用它（使用 `/iazip`）。

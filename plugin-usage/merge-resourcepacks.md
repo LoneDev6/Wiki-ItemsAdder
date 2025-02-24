@@ -1,9 +1,13 @@
 ---
-description: 合并其他资源包（包括自定义插件资源包）
 icon: merge
+description: 合并其他资源包（包括自定义插件资源包）
 ---
 
 # 合并资源包
+
+{% hint style="danger" %}
+#### 仅 ItemsAdder 3.3+ !
+{% endhint %}
 
 ## 为什么要合并？
 
@@ -43,6 +47,8 @@ icon: merge
       # ... other packs here of which you want to change load order.
 ```
 {% endcode %}
+
+## 完成
 
 ## 示例
 

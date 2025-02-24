@@ -4,11 +4,11 @@ icon: earth-africa
 
 # Minecraft 语言文件
 
-你可以轻松覆写 Minecraft 的默认翻译文件。
+使用 ItemsAdder，您可以轻松覆盖 Minecraft 默认的翻译文件。
 
-### 示例用法：自定义esc菜单
+### 使用示例：自定义 ESC 菜单
 
-在这个例子中，我将更改ESC菜单的“回到游戏”文本。
+在这个示例中，我将更改 ESC 菜单中的返回游戏文本。
 
 ```yaml
 info:
@@ -21,11 +21,14 @@ minecraft_lang_overwrite:
       - ALL
 ```
 
-### `languages`
+### languages
 
-`languages` 属性用于列出要更改文本的所有语言。\
-你应该只将其设置为玩家基础的语言，但我决定将其设置成 ALL，这样你就可以确保每个人都能看到自定义文本，尽管他们决定使用客户端语言。
+languages 属性用于列出您希望更改文本的所有语言。\
+您应该将其设置为仅包含您的玩家群体使用的语言，但我决定将其设置为 ALL，这样您可以确保每个人都能看到自定义文本，无论他们选择的客户端语言是什么。
 
-### `entries`
+### entries
 
-这是所有的翻译文本。您可以在[此处](https://github.com/InventivetalentDev/minecraft-assets/blob/1.21.4/assets/minecraft/lang/en_us.json)找到完整列表。
+这是翻译文本的列表。\
+您可以在此处找到完整列表（将 `1.19.3` 更改为您的版本）：
+
+[https://github.com/InventivetalentDev/minecraft-assets/blob/1.19.3/assets/minecraft/lang/en\_us.json](https://github.com/InventivetalentDev/minecraft-assets/blob/1.19.3/assets/minecraft/lang/en\_us.json)
