@@ -170,7 +170,7 @@
   * [燃料](plugin-usage/adding-content/fuel.md)
   * [盔甲](plugin-usage/adding-content/armors.md)
   * [盔甲(旧)](plugin-usage/adding-content/armors-old/README.md)
-    * [(旧)普通盔甲](plugin-usage/adding-content/armors-old/simple-armor.md)
+    * [(旧)简单盔甲](plugin-usage/adding-content/armors-old/simple-armor.md)
     * [(旧)纹理盔甲](plugin-usage/adding-content/armors-old/textured-armor.md)
   * [合成](plugin-usage/adding-content/crafting.md)
   * [烹饪](plugin-usage/adding-content/cooking.md)
