@@ -11,7 +11,7 @@ ItemsAdder allows to add custom furnace recipes for your items, to turn them int
 When adding a cooking recipe, will you need to add the `cooking` section under `recipes`. The name shouldn't matter that much, but it is recommended to use the one of the result.
 
 ```yaml
-recipes
+recipes:
   cooking:
     cooked_sausage:
       permission: itemsadder.cooked_sausage
