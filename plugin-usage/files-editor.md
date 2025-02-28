@@ -18,4 +18,4 @@ description: VisualStudio Code extension
 
 ### How to enable the descriptions on fields/suggestions
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -1,9 +1,9 @@
 ---
-description: Tutorial on how to create your first furniture
 icon: lamp-floor
+description: Tutorial on how to create your first furniture
 ---
 
-# Furniture
+# Furniture - simple
 
 A furniture is a decorative object which can be solid, emit light, used as chair and can have other features.
 
@@ -69,7 +69,7 @@ Let's add some more settings to it:
 ```
 {% endcode %}
 
-I added some properties, in this case I specified where the furniture can be placed (only on the `floor`), the [`hitbox`](advanced-furniture-properties/furniture-collisions.md) size and `place`/`break` sounds.
+I added some properties, in this case I specified where the furniture can be placed (only on the `floor`), the [`hitbox`](furniture-collisions.md) size and `place`/`break` sounds.
 
 {% hint style="info" %}
 By default the hitbox is 1x1x1, so it's not really needed to specify these options.
@@ -124,11 +124,11 @@ items:
 
 Now open **BlockBench** and create a _"Java Block/Item"_.
 
-![](<../../.gitbook/assets/image (49) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
 
 Now create you model, in this example I'm modelling an ugly minimal modern lamp.
 
-![](<../../.gitbook/assets/image (47) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (47) (1) (1) (1).png>)
 
 {% hint style="warning" %}
 Important: make sure the north is opposite of where you want the model to face.
@@ -138,9 +138,9 @@ Or add the property to the YML configuration `opposite_direction: true`
 
 Edit how the model is shown on player hand:
 
-![](<../../.gitbook/assets/image (46) (1) (1).png>)
+![](<../../../.gitbook/assets/image (46) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (48) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (48) (1) (1) (1).png>)
 
 ### Configure how the model is shown ingame
 
@@ -148,11 +148,11 @@ Edit how the model is shown on player hand:
 
 You have to select the **head icon** and then **small armorstand:**
 
-![](<../../.gitbook/assets/image (41) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (41) (1) (1) (1).png>)
 
 Then you have to shift your model down until it matches the armorstand base:
 
-![](<../../.gitbook/assets/image (42) (1).png>)
+![](<../../../.gitbook/assets/image (42) (1).png>)
 
 #### Using `item_display`
 
@@ -171,11 +171,11 @@ To achieve this, click on "File" followed by "Export Model" and finally "Export 
 
 ### Saving changes
 
-Now run `/iazip` (and follow the [hosting tutorial](../resourcepack-hosting/) if needed).
+Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/) if needed).
 
 To obtain the item use this command: `/iaget myitems:lamp`.
 
-![](<../../.gitbook/assets/image (50) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (50) (1) (1) (1) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (44) (1) (1).png>)
+![](<../../../.gitbook/assets/image (44) (1) (1).png>)
 

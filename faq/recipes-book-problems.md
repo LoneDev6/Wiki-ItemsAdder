@@ -14,16 +14,14 @@ Please don't report these bugs, I can't really do anything to fix this problem, 
 
 "Showing Craftable" button doesn't work with recipes that use custom items as ingredients.
 
-![](../.gitbook/assets/image\_\(148\).png)
+![](../.gitbook/assets/image_\(148\).png)
 
 ### How to fix?
 
 Set the button like that when you want to find an ItemsAdder recipe in the book.
 
-![](../.gitbook/assets/image\_\(155\).png)
+![](../.gitbook/assets/image_\(155\).png)
 
 ## Red recipes even if ingredients are in inventory
 
 There is no fix for this, it's a Minecraft bug.
-
-##

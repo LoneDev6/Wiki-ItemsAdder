@@ -1,10 +1,11 @@
 ---
 icon: gem
+description: Can't find any ore or mineral
 ---
 
-# I can't find any mineral/ore
+# Can't find any ore
 
-## Common causes of this can be:
+## Common causes
 
 * you are searching ores in a **pregenerated world**.\
   Ores will spawn only on new generated chunks (generated after ItemsAdder installation).\

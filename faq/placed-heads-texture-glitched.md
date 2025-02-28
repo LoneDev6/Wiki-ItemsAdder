@@ -9,10 +9,6 @@ description: Some placed player heads have glitched/bugged texture
 This is caused by the emotes feature of ItemsAdder and currently there is no fix other than disabling them.
 {% endhint %}
 
-![](<../.gitbook/assets/image (51) (2) (2).png>)
-
-{% embed url="https://youtu.be/Gn7uzcSmjmU" %}
-
 This bug happens if you have more than 1 player head of the same player in front of you.\
 This doesn't happen if you have different player heads in front of you or if you have only 1 head in front of you.
 
@@ -25,3 +21,7 @@ I'll do my best to find a workaround but I doubt this game allows me to identify
 
 The only way to fix this is to disable emotes system in `config.yml` of **ItemsAdder**.\
 Don't forget to regenerate the resourcepack using `/iazip`.
+
+![](<../.gitbook/assets/image (51) (2) (2).png>)
+
+{% embed url="https://youtu.be/Gn7uzcSmjmU" %}

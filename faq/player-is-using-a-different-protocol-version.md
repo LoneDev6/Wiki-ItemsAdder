@@ -10,7 +10,9 @@ icon: diamond-exclamation
 This message is just a warning, you can ignore it.
 {% endhint %}
 
-ViaVersion and similar plugins are not reccomended to be used in general, other than when you want to create a lobby server ([source](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3683)).
+## Why?
+
+ViaVersion and similar plugins are not recommended to be used in general, other than when you want to create a lobby server ([source](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3683)).
 
 ViaVersion is a cancer if used incorrectly. The purpose of ViaVersion was to be able to allow clients to connect to a multi-version lobby where players can decide which server they want to join.
 

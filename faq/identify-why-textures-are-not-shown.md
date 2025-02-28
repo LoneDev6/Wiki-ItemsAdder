@@ -10,8 +10,6 @@ icon: spinner-scale
 Most of the times the issue can be easily fixed by reading this page.
 {% endhint %}
 
-## When to read this page
-
 * resourcepack not loaded at all
 * an error shown fullscreen when the player joins
 * black and purple texture is shown
@@ -53,11 +51,11 @@ You can clearly see which files failed to load and why, the errors are clear in 
 
 #### Enable output log
 
-![](../.gitbook/assets/image\_\(135\).png)
+![](../.gitbook/assets/image_\(135\).png)
 
 #### Join the server and read the log
 
-![](<../.gitbook/assets/json\_errors (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/json_errors (1) (1) (1) (1).png>)
 
 #### Find out which file is broken
 

@@ -45,18 +45,14 @@ Click down here to decide an hosting method for the resourcepack (best method: `
 
 ## Step 3 - (optional) Add official ItemsAdder custom content
 
-![](.gitbook/assets/items\_showcase\_gif.apng)
+![](.gitbook/assets/items_showcase_gif.apng)
 
 **ItemsAdder** comes with a lot of custom content already created for you.\
 It's not automatically included in the downloaded plugin because some people might not want every item/feature automatically added into their server.
 
 ### Download the ["Default pack" here](https://github.com/ItemsAdder/DefaultPack/releases/latest) (optional)
 
-<div align="left">
-
-<img src=".gitbook/assets/image (47).png" alt="">
-
-</div>
+<div align="left"><img src=".gitbook/assets/image (47).png" alt=""></div>
 
 * Extract the content into the `ItemAdder` folder and overwrite the files if asked
 * Run the `/iazip` command
@@ -68,11 +64,7 @@ It's not automatically included in the downloaded plugin because some people mig
 
 ### Download ["Other pack" here](https://github.com/ItemsAdder/OtherPacks/releases/latest) (optional)
 
-<div align="left">
-
-<img src=".gitbook/assets/image (50).png" alt="">
-
-</div>
+<div align="left"><img src=".gitbook/assets/image (50).png" alt=""></div>
 
 * Extract the content into the `ItemAdder` folder and overwrite the files if asked
 * Run the `/iazip` command
@@ -80,6 +72,6 @@ It's not automatically included in the downloaded plugin because some people mig
 
 ## Step 5 - (optional) Removing default items
 
-{% content-ref url="faq/removing-default-stuff/latest-itemsadder.md" %}
-[latest-itemsadder.md](faq/removing-default-stuff/latest-itemsadder.md)
+{% content-ref url="faq/removing-default-content.md" %}
+[removing-default-content.md](faq/removing-default-content.md)
 {% endcontent-ref %}

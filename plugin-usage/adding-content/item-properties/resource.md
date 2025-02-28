@@ -1,6 +1,6 @@
 ---
-description: Properties that allows customization of item graphics
 icon: file-image
+description: Properties that allows customization of item graphics
 ---
 
 # Resource
@@ -91,8 +91,8 @@ You have to change it to this (`your_namespace` is your [namespace ](broken-refe
 
 ### Furniture&#x20;
 
-{% content-ref url="../advanced-furniture-properties/transparent-furniture.md" %}
-[transparent-furniture.md](../advanced-furniture-properties/transparent-furniture.md)
+{% content-ref url="../furniture/transparent-furniture.md" %}
+[transparent-furniture.md](../furniture/transparent-furniture.md)
 {% endcontent-ref %}
 
 ### Blocks

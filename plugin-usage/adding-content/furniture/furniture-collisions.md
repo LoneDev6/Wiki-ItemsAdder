@@ -32,7 +32,7 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
           height_offset: 0
 ```
 
-![](<../../../.gitbook/assets/image (15).png>)
+![](<../../../.gitbook/assets/image (15) (1).png>)
 
 ## Hitbox has wrong location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
@@ -68,9 +68,9 @@ You can use the command `/iahitbox` to see the hitbox when you pleace a furnitur
 
 ![](<../../../.gitbook/assets/hitbox3 (1) (1) (1) (8).png>)
 
-![](../../../.gitbook/assets/image\_\(87\).png)
+![](../../../.gitbook/assets/image_\(87\).png)
 
-![](../../../.gitbook/assets/image\_\(88\).png)
+![](../../../.gitbook/assets/image_\(88\).png)
 
 {% hint style="warning" %}
 **Hitboxes limitations**

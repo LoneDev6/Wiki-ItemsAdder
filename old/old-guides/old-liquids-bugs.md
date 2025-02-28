@@ -21,7 +21,7 @@ Source: [https://www.spigotmc.org/threads/how-to-create-custom-biomes.512105/pag
 
 </details>
 
-![](<../../.gitbook/assets/image\_(14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (13) (1) (1) (1) (11).png>)
+![](<../../.gitbook/assets/image_(14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (13) (1) (1) (1) (11).png>)
 
 ### I cannot see liquid color at all, even by placing it in a different location
 
@@ -29,11 +29,11 @@ You have to set the biome blend to `5x5` or lower.
 
 #### Bad
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Good
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Liquids on top of each other show the same color
 

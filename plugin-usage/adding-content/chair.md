@@ -1,11 +1,11 @@
 ---
-description: How to create a chair
 icon: chair
+description: How to create a chair
 ---
 
 # Chair
 
-In order to create a chair you just have to follow the [furniture creation tutorial](furniture.md) and add a simple attribute to the furniture to make it "sittable".
+In order to create a chair you just have to follow the [furniture creation tutorial](furniture/) and add a simple attribute to the furniture to make it "sittable".
 
 ```yaml
 behaviours:

@@ -5,34 +5,38 @@ icon: fill-drip
 # Colored models
 
 {% hint style="info" %}
-If you want to make a colored element (for example a custom colored furniture) or a colored vehicle you don't have to make a separate model for each item with different color.
+### Why?
+
+To make a colored element or a colored vehicle you don't have to make a separate model for each item with a different color.
+
+For example a custom colored furniture.
 {% endhint %}
 
 ## How can I do this?
 
 ### 1. open your model with Blockbench
 
-![](../../.gitbook/assets/image\_\(79\).png)
+![](../../.gitbook/assets/image_\(79\).png)
 
 ### 2. select the face you want to be colored
 
-![](../../.gitbook/assets/image\_\(80\).png)
+![](../../.gitbook/assets/image_\(80\).png)
 
 ### 3. use a white/gray texture, for better coloring
 
 ### 4. enable the hidden "Tint" feature
 
-![](../../.gitbook/assets/image\_\(81\).png)
+![](../../.gitbook/assets/image_\(81\).png)
 
-![](../../.gitbook/assets/image\_\(83\).png)
+![](../../.gitbook/assets/image_\(83\).png)
 
 ### 5. enable the coloring for each face you want to be colored
 
-![](../../.gitbook/assets/image\_\(85\).png)
+![](../../.gitbook/assets/image_\(85\).png)
 
 ### 6. set the specific color attribute in your .yml file.
 
-In this example I used `leather_horse_armor`but you can also use `potion`.
+In this example I used `leather_horse_armor` but you can also use `potion`.
 
 ```yaml
   orange_modern_lamp:
@@ -46,11 +50,28 @@ In this example I used `leather_horse_armor`but you can also use `potion`.
       model_path: item/template_modern_lamp
 ```
 
-{% hint style="info" %}
-If you want to use a specific color you can use[ this color picker](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).\
-Copy the **decimal** color (hex).
-{% endhint %}
+#### Getting colors
+
+* **Decimal** colors using [this tool](https://www.mathsisfun.com/hexadecimal-decimal-colors.html)
+* Colors from this list
+  * `WHITE`
+  * `SILVER`
+  * `GRAY`
+  * `BLACK`
+  * `RED`
+  * `MAROON`
+  * `YELLOW`
+  * `OLIVE`
+  * `LIME`
+  * `GREEN`
+  * `AQUA`
+  * `TEAL`
+  * `BLUE`
+  * `NAVY`
+  * `FUCHSIA`
+  * `PURPLE`
+  * `ORANGE`
 
 ### 7. now you can create as many as furnitures you want, just change the color and it will be automatically colored by the game
 
-![](../../.gitbook/assets/image\_\(86\).png)
+![](../../.gitbook/assets/image_\(86\).png)
