@@ -45,8 +45,8 @@ icon: bolt-lightning
 
 {% embed url="https://www.blockbench.net/wiki/guides/minecraft-style-guide/" %}
 
-## 声音大小
+## 音频大小
 
-不要忘记压缩你的声音文件。不要在你的资源包中放置大的音乐和音效文件。这会使资源包下载变慢。考虑使用一些工具压缩你的资源包。
+不要忘记压缩你的音频文件。不要在你的资源包中放置大的音乐和音效文件。这会使资源包下载变慢。考虑使用一些工具压缩你的资源包。
 
 {% embed url="https://www.google.com/search?q=ogg+compress+online" %}
