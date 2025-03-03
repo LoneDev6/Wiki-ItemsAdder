@@ -9,7 +9,7 @@ More info here: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecom
 
 If you want to create a graphical prefix for your channels and show it in chat you have to follow this tutorial.
 
-![An example that shows the ARCADE prefix for the Arcade channel](../../.gitbook/assets/image\_\(94\).png)
+![An example that shows the ARCADE prefix for the Arcade channel](../../.gitbook/assets/image_\(94\).png)
 
 You just have to set this in your format configuration, (for example in the `format/arcade.yml` file of ChatControl Red):
 
@@ -18,7 +18,7 @@ You just have to set this in your format configuration, (for example in the `for
     Message: ':arcade:'
 ```
 
-Obviously you have to use your own [font\_image ](../../plugin-usage/adding-content/font-images/)name instead of `arcade`, this is just an example.
+Obviously you have to use your own [font\_image ](../../plugin-usage/adding-content/font-images.md)name instead of `arcade`, this is just an example.
 
 ## Text effects
 

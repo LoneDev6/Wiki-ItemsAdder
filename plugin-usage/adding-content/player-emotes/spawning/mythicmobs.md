@@ -14,8 +14,8 @@ This plugin doesn't require Mythicmobs to work, but some servers might need to u
 
 ### Changing the model
 
-Create a new Mythicmobs mob configuration file in this path:   `plugins/MythicMobs/Mobs/custom_player.yml`\
-``(you can decide the filename).
+Create a new Mythicmobs mob configuration file in this path: `plugins/MythicMobs/Mobs/custom_player.yml`\
+\`\`(you can decide the filename).
 
 {% hint style="warning" %}
 Do not use `PLAYER` as type, it causes issues with head/body rotation.
@@ -42,8 +42,8 @@ In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
 
 ### Custom skin
 
-{% content-ref url="../custom-skin.md" %}
-[custom-skin.md](../custom-skin.md)
+{% content-ref url="../../mobs/custom-skin.md" %}
+[custom-skin.md](../../mobs/custom-skin.md)
 {% endcontent-ref %}
 
 ### Skills
@@ -58,4 +58,4 @@ In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
 
 ### Done
 
-![](<../../../../.gitbook/assets/notch_attack.webp>)
+![](../../../../.gitbook/assets/notch_attack.webp)

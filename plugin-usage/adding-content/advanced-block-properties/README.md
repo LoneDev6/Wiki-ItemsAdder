@@ -1,6 +1,6 @@
 ---
-icon: list-check
+icon: cube
 ---
 
-# Advanced block properties
+# Block - advanced
 

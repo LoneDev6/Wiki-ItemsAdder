@@ -50,7 +50,7 @@ As you can see I created a configuration file with some settings for the new HUD
 
 `player_stat_name` is an attribute which attaches the HUD to a custom player attribute which will contain the HUD value between server restarts, it's a custom attribute not a vanilla attribute, name it as you wish.
 
-`images frames` is the list of [font\_images](../../font-images/) textures, one for each value the HUD can have.
+`images frames` is the list of [font\_images](../../font-images.md) textures, one for each value the HUD can have.
 
 {% hint style="warning" %}
 Important: make sure each possible value of your HUD has a valid texture. In this case values are from 0 to 5 so I have 6 images, one for each value of the HUD.
@@ -124,6 +124,6 @@ To make the HUD value change you can just use the previous `write` command anywh
 
 ## Read HUD values with PAPI placeholders
 
-{% content-ref url="../../font-images/placeholders.md" %}
-[placeholders.md](../../font-images/placeholders.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

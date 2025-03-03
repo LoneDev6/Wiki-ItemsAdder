@@ -31,12 +31,12 @@ Examples:
 * `/iaentity playerskin LoneDev`
 * `/iaentity playerskin https://minesk.in/8b4bf861ea544edd8529707276d24853`
 
-{% content-ref url="../custom-skin.md" %}
-[custom-skin.md](../custom-skin.md)
+{% content-ref url="../../mobs/custom-skin.md" %}
+[custom-skin.md](../../mobs/custom-skin.md)
 {% endcontent-ref %}
 
 ## Creating custom animations
 
-{% content-ref url="../creation.md" %}
-[creation.md](../creation.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

@@ -3,7 +3,7 @@ icon: square-list
 description: /ia command menu
 ---
 
-# Recipes menu
+# Recipes Menu
 
 ## Menu settings and "All" category
 
@@ -17,7 +17,7 @@ For example: `contents/iasurvival/configs/categories.yml`
 
 ## Creating a custom category
 
-If you want to create your own category you have to create and add it to your own `.yml` file in your [namespace](adding-content/configs-and-resourcepack.md#what-is-a-namespace).\
+If you want to create your own category you have to create and add it to your own `.yml` file in your [namespace](configs-and-resourcepack.md#what-is-a-namespace).\
 <mark style="color:red;">Do not add your categories into the</mark> <mark style="color:red;"></mark><mark style="color:red;">`ia_gui.yml`</mark> <mark style="color:red;"></mark><mark style="color:red;">file!</mark>\
 This is an example:
 

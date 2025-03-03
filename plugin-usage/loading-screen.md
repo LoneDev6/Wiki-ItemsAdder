@@ -17,11 +17,3 @@ For now it doesn't allow inserting custom logo but only changing colors and hidi
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
-
-## Customization of the loading screen using Optifine (old method)
-
-If you want you can use Optifine and customize the screen with custom images.
-
-{% content-ref url="adding-content/optifine-only-features/loading-screen.md" %}
-[loading-screen.md](adding-content/optifine-only-features/loading-screen.md)
-{% endcontent-ref %}

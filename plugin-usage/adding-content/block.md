@@ -5,6 +5,13 @@ description: Creating your first custom block
 
 # Block
 
+{% hint style="warning" %}
+**Resourcepack hosting**
+
+Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\
+I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar\\
+{% endhint %}
+
 ### Creating the blocks file
 
 {% hint style="warning" %}
@@ -12,10 +19,11 @@ This is an example block (remember to change `myitems` namespace to the one you 
 {% endhint %}
 
 For example I created a **file** which will contain all my **custom blocks.**\
-I created it in the folder: `plugins/ItemsAdder/contents/myitems/configs/`
+I created it in the folder: `contents/myitems/configs/`
 
-I start creating a simple block called `red_block` in the file `blocks.yml`**`.`**&#x20;
+I start creating a simple block called `red_block` in the file `blocks.yml`**.**&#x20;
 
+{% code title="ItemsAdder/contents/myitems/configs/blocks.yml" %}
 ```yaml
 info:
   namespace: myitems
@@ -26,6 +34,7 @@ items:
     resource:
       material: PAPER
 ```
+{% endcode %}
 
 {% hint style="warning" %}
 It's very important to use a **non placeable** vanilla **material**. For example **`PAPER`**.\
@@ -37,16 +46,16 @@ If you use a block (like `STONE` or `DIRT`) it will result a bit glitchy when pl
 To do that you have to put the `.png` textures file inside the correct folder.
 
 In this case your **namespace** is `myitems` so you have to put them in this folder:\
-`plugins/ItemsAdder/contents/myitems/textures/block/`
+`contents/myitems/textures/block/`
 
 <details>
 
 <summary>Alternative textures location</summary>
 
 Alternatively you can put them in this folder too:\
-`plugins/ItemsAdder/contents/myitems/resourcepack/assets/myitems/textures/block/`
+`contents/myitems/resourcepack/assets/myitems/textures/block/`
 
-Read more here: [folders structure](configs-and-resourcepack.md#why-different-folder-structures-choices)
+Read more here: [folders structure](../configs-and-resourcepack.md#why-different-folder-structures-choices)
 
 </details>
 
@@ -107,8 +116,7 @@ items:
     resource:
       generate: true
       material: PAPER
-      textures:
-        - block/red_block.png
+      texture: block/red_block.png
 ```
 
 ### Adding the block placing functionality
@@ -125,18 +133,13 @@ items:
     resource:
       generate: true
       material: PAPER
-      textures:
-        - block/red_block.png
+      texture: block/red_block.png
     specific_properties:
       block:
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
 ```
-
-{% hint style="info" %}
-Click on the bottom link if you want to specify **tools** which can break the block, add **hardness** and **other attributes**.
-{% endhint %}
 
 ## Getting the block ingame
 
@@ -162,23 +165,22 @@ specific_properties:
       break_particles: BLOCK
       rotx: 0
       roty: 0
-    cancel_drop: true #default is false. if true the custom block won't be dropped when
-                      #player mines it
-    light_level: 12 #make block emit light
-    #tools you can't use to break block(accepts partial name of material/customitem)
+    drop_when_mined: true
+    light_level: 12 # make block emit light
+    # tools you can't use to break block (accepts partial name of material/customitem)
     break_tools_blacklist:
     - WOODEN_PICKAXE
     - STONE_PICKAXE
     - IRON_PICKAXE
-    #tools you can use to break block(accepts partial name of material/customitem)
+    # tools you can use to break block (accepts partial name of material/customitem)
     break_tools_whitelist:
     - DIAMOND_PICKAXE
     - PICKAXE
     - pickaxe
-    hardness: 2 #hardness of the block
-    blast_resistance: 1 #explosion resistance (by default is hardness*3)
-    no_explosion: false #totally immune from explosions, ignoring blast_resistance
-    sound: #customizable sounds of the block
+    hardness: 2
+    blast_resistance: 1 # explosion resistance (by default is hardness * 3)
+    no_explosion: false # totally immune from explosions, ignoring blast_resistance
+    sound: # customizable sounds of the block
       break:
         name: BLOCK_WOOD_BREAK
         volume: 1
@@ -247,10 +249,6 @@ This allows to make some blocks placeable directly on **lava** surface.
 This allows to make some blocks placed 1 block up. This is useful for `REAL_WIRE` blocks to create tall plants.
 
 ### `custom_variants`
-
-{% hint style="warning" %}
-Available on ItemsAdder 3.2.5+
-{% endhint %}
 
 Special property which allows to specify custom variants for that block.\
 Accepts the same properties shown in the Minecraft wiki [models page](https://minecraft.fandom.com/wiki/Tutorials/Models).

@@ -6,7 +6,7 @@
 * Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 * Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
 
-Now you can use [font\_images ](../../plugin-usage/adding-content/font-images/)(**emojis**) inside holograms texts and everywhere in all plugins which support **PlaceholderAPI**, in this case **Holographic Displays**.\
+Now you can use [font\_images ](../../plugin-usage/adding-content/font-images.md)(**emojis**) inside holograms texts and everywhere in all plugins which support **PlaceholderAPI**, in this case **Holographic Displays**.\
 This is the code: `%img_NAME%` instead of NAME write the font\_image name.\
 For example: `%img_smile%`
 
@@ -21,10 +21,8 @@ To create an hologram you can use these commands for example:
 * run `/iacustommodeldata <item>` (for example `/iacustommodeldata ruby`)
 * copy the `CustomModelData`, for example `10000`
 * create a new hologram, for example: `/hd create holo_icon Hello!`
-* add the floating item to the hologram by specifying the **vanilla type** and the **CustomModelData**. Example:  `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
+* add the floating item to the hologram by specifying the **vanilla type** and the **CustomModelData**. Example: `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
 
-![](<../../.gitbook/assets/image_(124).png>)
+![](../../.gitbook/assets/image_\(124\).png)
 
-
-
-``
+\`\`

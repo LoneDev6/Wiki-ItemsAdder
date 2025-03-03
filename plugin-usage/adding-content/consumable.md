@@ -4,7 +4,7 @@ icon: burger-cheese
 
 # Consumable
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **Resourcepack hosting**
 
 Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\

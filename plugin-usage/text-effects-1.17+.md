@@ -7,7 +7,7 @@ description: Special text animations and coloring effects
 
 {% hint style="warning" %}
 * **Requires Minecraft 1.17+ clients**
-* Doesn't work in [Minecraft language files](minecraft-language-files.md) (game limitation)
+* Doesn't work in [Minecraft language files](broken-reference) (game limitation)
 * Edits the `rendertype_text` shader files
 {% endhint %}
 
@@ -78,7 +78,7 @@ You also have to give the permissions to each player.
 
 Remove background
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Permission: `ia.user.text_effect.use.noshadow`\
 Usage: `<noshadow text>`

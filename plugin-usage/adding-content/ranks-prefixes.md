@@ -4,26 +4,22 @@ icon: hashtag
 
 # Ranks / prefixes
 
-## Custom ranks textures
-
 ![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (3).png>)
 
 {% hint style="warning" %}
 **You have to use** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **and** [**TAB**](https://www.spigotmc.org/resources/tab-1-5-1-21-4.57806/) **to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.**
-
-**If you're using another prefix plugin you may need to use** [**this method**](broken-reference) **to show ranks**
 {% endhint %}
-
-## How to create my ranks?
 
 ### Download the example ranks here
 
 {% embed url="https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-for-itemsadder.84852/" %}
 
-### Create a new rank configuration
+## Create a rank
 
-Open `ItemsAdder/contents/betterranks/configs/ranks.yml` file and **copy** and **paste** one of them.\
-Then rename it to your rank, also decide a new **.png** file name, for example `custom`
+Open `contents/betterranks/configs/ranks.yml` file and **copy** and **paste** one of them.\
+Then rename it to your rank, also decide a new **.png** file name, for example `custom`.
+
+### Configuration
 
 ```yaml
   custom:
@@ -39,7 +35,7 @@ Then rename it to your rank, also decide a new **.png** file name, for example `
 Don't change `scale_ratio` and `y_position`. It would make the ranks look pixelated.
 {% endhint %}
 
-### Creating the png image
+### Image
 
 **Copy** one of my ranks **.png** files and edit it from folder `contents/betterranks/textures/`\
 \
@@ -47,11 +43,11 @@ You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editin
 For example copy `admin.png`, name it `custom.png` and edit it.
 
 {% hint style="danger" %}
-**Don't change the rank image height!** \
+**Don't change the rank image height!**\
 **Change only the width or the image will look pixelated!**
 {% endhint %}
 
-### Example:
+### Example
 
 For example in order to make a similar rank to my **BetterRanks** addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
 
@@ -102,12 +98,12 @@ Now save your changes
 
 Use this command (change `LoneDev` to your player name) `/lp user LoneDev group add admin`
 
-![](../../.gitbook/assets/image\_\(40\).png)
+![](../../.gitbook/assets/image_\(40\).png)
 
 ### TAB plugin
 
 {% hint style="warning" %}
-Make sure you installed [PlaceholderAPI](broken-reference)
+Make sure you installed [PlaceholderAPI](broken-reference/)
 {% endhint %}
 
 #### Editing the config.yml of TAB plugin
@@ -123,6 +119,6 @@ Make sure you installed [PlaceholderAPI](broken-reference)
 
 Then use the command `/tab reload`
 
-![](../../.gitbook/assets/image\_\(38\).png)
+![](../../.gitbook/assets/image_\(38\).png)
 
-![](../../.gitbook/assets/image\_\(39\).png)
+![](../../.gitbook/assets/image_\(39\).png)

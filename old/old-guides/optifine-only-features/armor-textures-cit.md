@@ -16,7 +16,7 @@ If you want to add a custom texture and not just a custom color to armors you ca
 
 {% hint style="info" %}
 This is an old method for clients with version 1.16 and lower.\
-The [new method for 1.17+](../armors-old/textured-armor.md) don't need **Optifine** for this.
+The [new method for 1.17+](../../../plugin-usage/adding-content/armors-old/textured-armor.md) don't need **Optifine** for this.
 {% endhint %}
 
 ## Custom textured armor
@@ -29,7 +29,7 @@ The [new method for 1.17+](../armors-old/textured-armor.md) don't need **Optifin
 
 ### Step 1
 
-Create your **custom namespace** (if you didn't already), follow[ this tutorial](broken-reference/).\
+Create your **custom namespace** (if you didn't already), follow[ this tutorial](../../../plugin-usage/adding-content/optifine-only-features/broken-reference/).\
 In this tutorial **my namespace** is named `mystuff`
 
 ### Step 2

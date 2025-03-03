@@ -4,9 +4,9 @@ icon: volume-low
 
 # Sounds
 
-## Convert MP3 to OGG
+## Convert `MP3` to `OGG`
 
-Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert your file (mp3, wav...) to ogg.
+Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert your file (`mp3`, `wav`...) to `ogg`.
 
 {% hint style="warning" %}
 ### IMPORTANT
@@ -20,22 +20,22 @@ Remember to set "Change audio channels" to MONO or you will experience [audio pr
 
 * create a new folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/` \
   (or use yours if you already have one)
-* put your **.ogg** file in there.\
+* put your **`.ogg`** file in there.\
   You can also create more folders inside `sounds` to organize your sounds.\
-  For example "effects", "music" etc.
+  For example `effects`, `music` etc...
 
-For example I have a file named **song\_1.ogg** and I put it into a new `music` folder.\
+I have a file named **`song_1.ogg`** and I put it into a new `music` folder.\
 So now I have `contents/my_sounds/resourcepack/my_sounds/sounds/music/song_1.ogg`
 
 ### Step 2
 
-* open the folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/`
+* open the folder `contents/my_sounds/resourcepack/my_sounds/`
 * create a new file named `sounds.json` (or open it if you already created it)
-* this file is a `.json` file so you MUST write it correctly or it won't work.\
-  If you need info about Json files please search online.
+* this file is a `.json` file so you MUST write it correctly or it won't work.
 
 To add your sound into the file you just have to do this:
 
+{% code title="contents/my_sounds/resourcepack/my_sounds/sounds.json" %}
 ```javascript
 {
 	"music.song_1":{
@@ -45,10 +45,11 @@ To add your sound into the file you just have to do this:
 	}
 }
 ```
+{% endcode %}
 
 #### Now I explain each part of the code I wrote.
 
-This is the sound name. You will use it in every part of the plugin and also in Minecraft vanilla [/playsound ](https://www.digminecraft.com/game\_commands/playsound\_command.php)command.
+This is the sound name. You will use it in every part of the plugin and also in Minecraft vanilla [/playsound ](https://www.digminecraft.com/game_commands/playsound_command.php)command.
 
 ```javascript
 "music.song_1":{
@@ -97,5 +98,5 @@ It's easy, the next time you want to add a sound you just have to add a comma at
 ```
 
 {% hint style="warning" %}
-If you want to be sure not to make mistakes use this website to check if your Json file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
+If you want to be sure not to make mistakes use this website to check if your `sounds.json` file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 {% endhint %}

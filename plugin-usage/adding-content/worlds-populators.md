@@ -2,7 +2,7 @@
 icon: cubes-stacked
 ---
 
-# Worlds populators
+# Worlds populators (ores)
 
 Worlds populators allow you to spawn custom blocks under the surface of the world. They are mostly used for ores and decoration blocks.
 
@@ -58,15 +58,6 @@ Take my values as example.
 **`chunk_veins`**: number of veins to be spawned in the chunk\
 &#xNAN;**`vein_blocks`**: number of blocks in each ore vein (or the **vein size**)\
 &#xNAN;**`chunk_chance`**: chance of that generation to happen in the chunk. You should set it to 100 to normal ores and lower it down for more rare ores.
-
-{% hint style="warning" %}
-<mark style="color:red;">**Old ItemsAdder**</mark> versions before **3.1.6** used these properties instead:\
-`chunk_veins` -> `iterations`
-
-`vein_blocks` -> `amount`
-
-`chunk_chance` -> `chance`
-{% endhint %}
 
 ### Biomes
 

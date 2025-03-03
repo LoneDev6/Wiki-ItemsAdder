@@ -98,8 +98,6 @@ trees_populators:
     - MOUNTAINS
 ```
 
-a
-
 ## Generate trees in the world
 
 First read this tutorial on creating the tree blocks (leaved and wood)
@@ -149,44 +147,44 @@ trees_populators:
     - MOUNTAINS
 ```
 
-### worlds
+### `worlds`
 
 This property specifies the worlds where the tree can spawn.
 
-### bottom\_block
+### `bottom_block`
 
 This property specifies on which block the tree can spawn.
 
-### chance
+### `chance`
 
 Chance of the tree to spawn in a chunk.
 
-### min\_height and max\_height
+### `min_height` and `max_height`
 
 Decide the interval of height where you want the tree to spawn.
 
-### amount
+### `amount`
 
 How many trees to spawn per group.
 
-### iterations
+### `iterations`
 
 How many groups needs to be spawned in the current chunk if the **chance** is matched.
 
-### tree\_type
+### `tree_type`
 
 The type of the tree to be spawned. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/TreeType.html).\
 This property is optional, this tree will spawn on every biome if you don't set it.
 
-### leaves
+### `leaves`
 
 The block to be used as leaves for this tree.
 
-### log
+### `log`
 
 The block to be used as log for this tree.
 
-### biomes
+### `biomes`
 
 The list of biomes where the tree can spawn. A full list can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html).\
 This property is optional, this tree will spawn on every biome if you don't set it.
@@ -195,4 +193,4 @@ This property is optional, this tree will spawn on every biome if you don't set 
 
 {% embed url="https://www.spigotmc.org/resources/trees-newtrees-itemsadder-addon.84604/" %}
 
-![](../../.gitbook/assets/image\_\(125\).png)
+![](../../.gitbook/assets/image_\(125\).png)

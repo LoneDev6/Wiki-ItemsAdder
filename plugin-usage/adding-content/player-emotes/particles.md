@@ -1,7 +1,5 @@
 # Particles
 
-## Setup
-
 ### Configure the special particle location bone
 
 Open your `.iaentitymodel` model file with **Blockbench**.\

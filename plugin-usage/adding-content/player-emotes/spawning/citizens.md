@@ -23,8 +23,8 @@ Examples:
 
 ### Optional: getting/uploading custom skins
 
-{% content-ref url="../creation.md" %}
-[creation.md](../creation.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### Make head rotate

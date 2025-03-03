@@ -56,7 +56,7 @@ Rightclick on the bone and select "**Bone Config**", then select "Eyes height".
 
 Now you have to export the model as usual.
 
-{% content-ref url="creation.md" %}
-[creation.md](creation.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 

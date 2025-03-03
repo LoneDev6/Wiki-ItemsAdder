@@ -1,7 +1,5 @@
 # Sounds
 
-## Playing a sound
-
 Switch to "**Animate**" view.
 
 ![](<../../../.gitbook/assets/image (75) (1).png>)
@@ -26,5 +24,3 @@ Edit the values on the "**Keyframe**" panel.
 
 
 ![](<../../../.gitbook/assets/image (87).png>)
-
-## Done

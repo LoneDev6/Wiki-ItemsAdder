@@ -5,7 +5,7 @@ icon: text-size
 # Text Formatting
 
 {% hint style="warning" %}
-Doesn't work in [Minecraft language files](minecraft-language-files.md) due to a Minecraft limitation.
+Doesn't work in [Minecraft language files](broken-reference) due to a Minecraft limitation.
 {% endhint %}
 
 ## How to use colored texts
@@ -67,7 +67,7 @@ items:
 <gradient:#ff00ee:#f79459>Here is a gradient example text!
 ```
 
-<div><figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure></div>
 
 <div><figure><img src="../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
 

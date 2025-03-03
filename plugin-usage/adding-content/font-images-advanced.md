@@ -1,14 +1,36 @@
 ---
-icon: head-side-gear
+icon: icons
 ---
 
-# Manually creating font images
+# Font Images (advanced)
 
 {% hint style="warning" %}
-This is a tutorial for advanced users.
+## This is a tutorial for advanced users
 {% endhint %}
 
-## How to create font images manually without ItemsAdder
+## Using specific a character
+
+ItemsAdder will automatically decide the custom character for you if you don't include the `symbol` property at all.
+
+You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.
+
+### Example
+
+```yaml
+smile:
+  permission: smile
+  show_in_gui: true
+  path: "font/emoji/smile.png"
+  symbol: "鄿"
+  scale_ratio: 9
+  y_position: 8
+```
+
+Minecraft will show the smile emoji every time you write `鄿` in chat.
+
+## Creating font images manually
+
+Create a `default.json` file and handle it on your own.
 
 Some servers may require font images to be created manually for various reasons, for example:
 
@@ -77,14 +99,14 @@ Create or edit the file `assets/minecraft/font/default.json` in your resourcepac
 }
 ```
 
-## Using a customized json file name
+### Using a customized json file name
 
 By using a customized json font file you can separate the default font characters from your custom characters.
 
 To do so you just have to create a new json and call it whatever you want, for example `my_font.json`.\
 The complete path will be: `assets/minecraft/font/my_font.json`.
 
-## Using a customized json namespace
+### Using a customized json namespace
 
 If you want to further organize your pack you can use a customized namespace for your font file.\
 To do so you have to create a folder inside `assets` folder and use it instead of `minecraft` folder.\

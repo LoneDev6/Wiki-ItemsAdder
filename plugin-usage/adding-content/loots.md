@@ -14,11 +14,6 @@ You can decide to create different loot types:
 
 For example this is the loots category of a `.yml` file I created.
 
-{% hint style="warning" %}
-<mark style="color:red;">Don't forget the namespace!</mark>\
-Don't forget to define a namespace for every of your config!
-{% endhint %}
-
 ```yaml
 info:
   namespace: my_loots
@@ -271,10 +266,6 @@ loots:
 
 ## Per-world loots
 
-{% hint style="warning" %}
-This requires ItemsAdder 3.2.5+
-{% endhint %}
-
 ```yaml
 loots:
   blocks:
@@ -308,59 +299,3 @@ In this example every world starting with `private_` will match and won't allow 
 You can also specify precise world names, in this example `example2` won't allow loots to be dropped.
 
 You can also specify precise world names, in this example `example1` will allow loots to be dropped.
-
-## Loot `PLAYER_HEAD` with specific skin
-
-How to assign `PLAYER_HEAD` with texture as drop.
-
-### Preparing the head drop (only existing workaround)
-
-Create a new custom item for the player head to drop.
-
-1. create new file (name of mine is `playerheads.yml`), where we set `nbt` to set texture which can be found on [minecraft-heads.com](https://minecraft-heads.com)
-
-{% hint style="warning" %}
-```
-`skull` can be set to what you want
-```
-{% endhint %}
-
-2\. material must be \`PLAYER\_HEAD\` 3. set the vanilla \`model\_path\`
-
-```yml
-info:
-    namespace: playerheads
-items:
-  skull:
-    enabled: true
-    display_name: "SKULL"
-    nbt: "{display:{Name:'{\"text\":\"Mossy Skull\"}'},SkullOwner:{Id:[I;-178232365,-1961341643,-1329297047,2014436438],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk4NWQzOTY0NDhmM2NlMWQ0YWRhZGVjMjg2N2U5OGU4N2QxNTVhMjU2YmVmNmY0NjQxMDA1MzNiMjQ3YWMwYSJ9fX0=\"}]}}}"
-    resource:
-      material: PLAYER_HEAD
-      generate: false
-      model_path: "minecraft:item/player_head"
-```
-
-### Setting up the loot
-
-We have to create a new loot config which should look like this\
-`OBSIDIAN` is block from which this head will be dropped\
-↳ `namespace:blockname` for custom ItemsAdder block\
-`head` is custom id which can be set to whatever you want\
-To `item:` we should place our namespace from prepared head to drop, so `playerheads:skull`\
-All of other variables you can find here https://itemsadder.devs.beer/plugin-usage/adding-content/loots.
-
-```yml
-info:
-  namespace: my_loots
-loots:
-  blocks:
-    obsidian:
-      type: OBSIDIAN
-      items:
-        head:
-          item: playerheads:skull
-          min_amount: 1
-          max_amount: 1
-          chance: 100
-```

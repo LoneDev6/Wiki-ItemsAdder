@@ -1,4 +1,4 @@
-# Common errors
+# Blockbench Errors
 
 ## Strange errors
 
@@ -8,8 +8,8 @@ In order to avoid these issues you should avoid opening many custom projects in 
 
 ## "Scale out of bounds" error
 
-![](<../../../../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (42).png>)
 
-In order to fix this you have to open the **ItemsAdder Entity** settings and set [Max Scaling](creation.md#configuring-the-model).
+In order to fix this you have to open the **ItemsAdder Entity** settings and set [Max Scaling](broken-reference).
 
-![](<../../../../.gitbook/assets/image (79).png>)
+![](<../.gitbook/assets/image (79).png>)
