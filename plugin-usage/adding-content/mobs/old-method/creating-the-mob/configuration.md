@@ -7,7 +7,7 @@
 You have to create a `.yml` file in your `namespace` folder.
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../files-editor.md) to edit ItemsAdder files. \
+Consider using the[ official online tool](../../../../beginners/files-editor.md) to edit ItemsAdder files. \
 It makes you life easier as it has autocomplete (press `CTRL+SPACE`) which helps you on avoiding mistakes.
 {% endhint %}
 

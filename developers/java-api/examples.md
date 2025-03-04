@@ -4,6 +4,12 @@
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder" %}
 
+{% hint style="warning" %}
+## Important
+
+Listen to the `ItemsAdderLoadDataEvent` event in order to wait the plugin to load and detect `/iareload` or `/iazip` which can cause items and content to be changed (removed/added).
+{% endhint %}
+
 ## Custom items - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)
 
 #### Getting a custom item of any type (block, item, hat, food etc.) by id or namespace:id

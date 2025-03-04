@@ -1,8 +1,9 @@
 # Self hosting
 
 {% hint style="warning" %}
-**Your hosting service must let you get additional ports for your server.**\
-If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./)
+## **Your hosting service must let you get additional ports for your server.**
+
+If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./).
 {% endhint %}
 
 ### What is the difference between self-host and the other methods?
@@ -14,8 +15,8 @@ Difference is that with self-host you can download the pack directly from your s
 You just have to use command `/iazip` and you'll see changes applied in-game almost instantly.
 {% endhint %}
 
-{% content-ref url="../fast-resourcepack-tips.md" %}
-[fast-resourcepack-tips.md](../fast-resourcepack-tips.md)
+{% content-ref url="../beginners/fast-resourcepack-tips.md" %}
+[fast-resourcepack-tips.md](../beginners/fast-resourcepack-tips.md)
 {% endcontent-ref %}
 
 ## How can I configure the self host?
@@ -86,7 +87,7 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 
 ### Create a new `DNS record`
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -96,17 +97,17 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 * Proxy status: `Proxied`
 * Click **Save**
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Create a new `Origin rule`
 
 <figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select "Change Port" and "Create a Rule".
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select "Custom filer expression" and complete as shown in the screenshot changing the values based on your setup.
 

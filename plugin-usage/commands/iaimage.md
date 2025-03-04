@@ -6,10 +6,6 @@ This command shows you a list of all the font images (for example emojis) that a
 
 You can customize some parts the book shown with that command.
 
-{% hint style="warning" %}
-Requires ItemsAdder 3.4.0b or greater.
-{% endhint %}
-
 ### Change book font to Minecraft default font (default plugin option)
 
 ```yaml

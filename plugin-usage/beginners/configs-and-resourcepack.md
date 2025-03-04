@@ -14,9 +14,11 @@ Each one contains separated pack which contain configurations and models/texture
 
 You can see that each folder name in **contents** is the **namespace** of the assets it contains.
 
-### resourcepack
+### resourcepack (optional)
 
 You can see this folder and **configs** as a very similar thing, but **resourcepack** folder contains the "**graphical**" part of all **items** (and also sounds, GUIs...).
+
+This folder is optional and depends of which folders structure you decide (scroll down).
 
 {% hint style="danger" %}
 #### **Important**
@@ -35,6 +37,12 @@ ItemsAdder uses **`namespaces`** to identify most of the things it manages.\
 A **`namespace`** is a **group** of elements, in this case a group of **items, blocks, mobs etc**.\
 With namespaces you can easily understand where a particular **item**, **sound**, **block etc.** comes from.
 
+{% hint style="warning" %}
+You should not abuse of namespaces amount. Usually you will need 1-2 namespaces for your server project.
+
+On the other hand you will need more namespaces if you are a contents creator and you plan to share your creations.
+{% endhint %}
+
 ### Example
 
 All **realcraft** items are under the `realcraft` namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
@@ -45,10 +53,10 @@ All **realcraft** items are under the `realcraft` namespace, so when you use the
 
 Create a subfolder inside: `plugins/ItemsAdder/contents/`
 
-In this example I will create a **namespace** and call it `my_items`.
+In this example I will create a **namespace** and call it `myitems`.
 
-Open the `my_items` folder and create a new file, you can call it like as you prefer.\
-For example: `contents/my_items/myswords.yml`
+Open the `myitems` folder and create a new file, you can call it like as you prefer.\
+For example: `contents/myitems/myswords.yml`
 
 ![](../../.gitbook/assets/my_swords_yml.png)
 
@@ -56,7 +64,7 @@ The **namespace** must be also specified in the file, so open the new `myswords.
 
 ```yaml
 info:
-  namespace: my_items
+  namespace: myitems
 ```
 
 Remember to change it based on your **namespace**.
@@ -85,15 +93,17 @@ Each **namespace** must use only one structure at a time.\
 ### Folders structure method 1 - best and easiest way
 
 {% hint style="success" %}
-This is the easier way to create a simple pack with some items without having to create too many sub-folders.\
-This avoids you to create `resourcepack`, `assets`, `<namespace>` folders and makes everything cleaner.
+This is the easier way to create a simple pack with some items without having to create too many sub-folders.
+
+This structure auto-detects the current namespace, in this case `myitems`.\
+It avoids you to create `resourcepack`, `assets`, `<namespace>` folders and makes everything cleaner.
 {% endhint %}
 
 ```
 plugins
 └── ItemsAdder
     └── contents
-        └── my_items
+        └── myitems
             ├── configs
             │   ├── example.yml
             │   └── example_1.yml
@@ -108,7 +118,7 @@ plugins
 {% hint style="warning" %}
 ### Expert users
 
-If you plan to use multiple namespaces in the content folder, for example `minecraft` and `my_items`, do not use this structure as you won't be able to specify that. Use one other other structures as they do not auto-detect the namespace for texture/models folders.
+If you plan to use multiple namespaces in the content folder, for example `minecraft` and `myitems`, do not use this structure as you won't be able to specify the other namespaces. Use one other other structures as they do not auto-detect the namespace for texture/models folders.
 {% endhint %}
 
 ### Folders structure method 2
@@ -119,13 +129,13 @@ This structure is the default and most complete one.
 plugins
 └── ItemsAdder
     └── contents
-        └── my_items
+        └── myitems
             ├── configs
             │   ├── example.yml
             │   └── example_1.yml
             └── resourcepack
                 └── assets
-                    └── my_items
+                    └── myitems
                         ├── models
                         │   └── items
                         │       └── example_item.json
@@ -142,12 +152,12 @@ This structure avoids you to create the `assets` folder which is implied and wou
 plugins
 └── ItemsAdder
     └── contents
-        └── my_items
+        └── myitems
             ├── configs
             │   ├── example.yml
             │   └── example_1.yml
             └── resourcepack
-                └── my_items
+                └── myitems
                     ├── models
                     │   └── items
                     │       └── example_item.json
@@ -164,12 +174,12 @@ This structure avoids you to create the `resourcepack` folder which is implied a
 plugins
 └── ItemsAdder
     └── contents
-        └── my_items
+        └── myitems
             ├── configs
             │   ├── example.yml
             │   └── example_1.yml
             └── assets
-                └── my_items
+                └── myitems
                     ├── models
                     │   └── items
                     │       └── example_item.json
@@ -186,11 +196,11 @@ This structure avoids you to create the `assets` folder which is implied and wou
 plugins
 └── ItemsAdder
     └── contents
-        └── my_items
+        └── myitems
             ├── configs
             │   ├── example.yml
             │   └── example_1.yml
-            └── my_items
+            └── myitems
                 ├── models
                 │   └── items
                 │       └── example_item.json

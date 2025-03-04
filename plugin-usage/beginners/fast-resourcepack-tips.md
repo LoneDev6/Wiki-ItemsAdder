@@ -8,7 +8,7 @@ icon: bolt-lightning
 
 It's a good practice to create a **test server on your PC** and do your resourcepack changes there. This allows you to experiment with the pack without having to upload files every time you want to add something to see how it looks ingame.
 
-You can setup a test server on your local machine by installing ItemsAdder and the minimal dependencies (LoneLibs and ProtocolLib). Make sure to read the [install tutorial](../first-install.md).
+You can setup a test server on your local machine by installing ItemsAdder and the minimal dependencies (LoneLibs and ProtocolLib). Make sure to read the [install tutorial](../../first-install.md).
 
 You can leave the IP `127.0.0.1` as it's the local PC IP, also the port doesn't matter as soon as it's not used by another process.
 

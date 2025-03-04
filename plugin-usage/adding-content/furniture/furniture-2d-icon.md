@@ -15,7 +15,7 @@ This feature requires **ItemsAdder 3.1.6+**
 Create the 2D icon for the furniture
 
 {% hint style="info" %}
-Replace `myitems` with your own [namespace](../../configs-and-resourcepack.md#what-is-a-namespace).
+Replace `myitems` with your own [namespace](../../beginners/configs-and-resourcepack.md#what-is-a-namespace).
 {% endhint %}
 
 ```yaml

@@ -4,7 +4,7 @@ icon: bow-arrow
 
 # Bow
 
-The bow animates as you pull it, this allows you to have a single texture for each of these states.
+The bow animates as you pull it, this allows you to have a single texture/model for each of these states.
 
 {% hint style="warning" %}
 It is very important to set the textures to your bow item that should have set them to avoid problem with missing texture:
@@ -34,17 +34,13 @@ If you plan to use models (json) you have to set `generate: false`, as you alrea
 
 Firstly you need to create three pulling states for our bow
 
-![](../../.gitbook/assets/bow\_pulling\_states.gif)
+![](../../.gitbook/assets/bow_pulling_states.gif)
 
 Save them, drop to the directory where is your original bow texture and add suffixes to your textures like this:
 
 I put them into `contents/myitems/textures/item/` folder of my resourcepack.
 
-<div align="left">
-
-<img src="../../.gitbook/assets/bow_suffixes_textures.png" alt="">
-
-</div>
+<div align="left"><img src="../../.gitbook/assets/bow_suffixes_textures.png" alt=""></div>
 
 {% hint style="info" %}
 Suffixes also work on model names (json).\
@@ -70,4 +66,4 @@ items:
 
 You have working bow with item states
 
-![](../../.gitbook/assets/bow\_with\_item\_states.gif)
+![](../../.gitbook/assets/bow_with_item_states.gif)

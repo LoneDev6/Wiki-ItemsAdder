@@ -22,7 +22,7 @@ Thanks a lot to **LobFile**[ ](https://ploudos.com/it/)which provides us their p
 
 Depends.
 
-It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continuously run `/iazip`, to avoid losing time (read more [here](../fast-resourcepack-tips.md)).
+It's better to use [self-host](resourcepack-self-hosting.md) if you're working on the resourcepack and you have to continuously run `/iazip`, to avoid losing time (read more [here](../beginners/fast-resourcepack-tips.md)).
 
 When you've finished working on the pack you can safely start using this other hosting feature instead of `self-host`, in this case **LobFile**.\
 This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.\

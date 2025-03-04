@@ -6,8 +6,8 @@ Actions are what will happen when an [event](./) is triggered.
 
 To read the list of available actions use the official editor.
 
-{% content-ref url="../../../files-editor.md" %}
-[files-editor.md](../../../files-editor.md)
+{% content-ref url="../../../beginners/files-editor.md" %}
+[files-editor.md](../../../beginners/files-editor.md)
 {% endcontent-ref %}
 
 ### Available command placeholders
@@ -150,7 +150,7 @@ For example:
 
 ### Properties
 
-Use the [official files editor](../../../files-editor.md) to get the complete list while working on your configurations.
+Use the [official files editor](../../../beginners/files-editor.md) to get the complete list while working on your configurations.
 
 ## Flow customization
 

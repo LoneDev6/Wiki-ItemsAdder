@@ -12,10 +12,10 @@ description: VisualStudio Code extension
 
 ### Preview
 
-<div align="left"><figure><img src="../.gitbook/assets/image (12) (1).png" alt="" width="397"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (12) (1).png" alt="" width="397"><figcaption></figcaption></figure></div>
 
 ## Important notes
 
 ### How to enable the descriptions on fields/suggestions
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

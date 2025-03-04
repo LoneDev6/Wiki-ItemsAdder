@@ -19,9 +19,9 @@ Before Buying Remember:
 * ⛔ [Not compatible with some plugins](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
 {% endhint %}
 
-### No Refunds¹
+### Refund policy
 
-Refunds are typically at the seller's discretion and might be issued on particular cases.\
+Refunds are typically at the seller's discretion¹ and might be issued on particular cases.\
 Contact the seller using the forum or via email before opening an official dispute on the payment platform (PayPal, Stripe, etc.).
 
 ¹Except as required by applicable state law.
@@ -54,6 +54,10 @@ I can fix bugs only if you report them in the right place.\
 Please be sure to read tutorials before asking for help.\
 Check the [FAQ](https://itemsadder.devs.beer/faq) for more info.\
 If you are contacting support please read the support policy.
+
+### Updates
+
+Once your purchase has been approved, you will be able to download this resource. You are only guaranteed to be able to download this resource, as is, once. No additional downloads or updates are guaranteed.
 
 ## 🆘 Support Policy
 

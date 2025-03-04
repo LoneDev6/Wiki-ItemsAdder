@@ -37,18 +37,18 @@ Do this operation only on a local test server on your PC so you won't make mista
 * Open server **plugins** folder and create a **new** folder named **ItemsAdder\_old**
 * Open your **OLD** ItemsAdder folder and copy files from items folder **(see screenshot)**
 
-![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 * Paste the **items** folder into **ItemsAdder\_old**
 
-![](<../../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
 
 ## Step 3 - copy resourcepack
 
 * Create a **new** folder named **pack** inside **ItemsAdder\_old**
 * Extract the exact **CONTENT** of your old resourcepack **.zip** file inside the new folder **pack**
 
-![](<../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## Step 4 - Prepare new ItemsAdder 2.0
 
