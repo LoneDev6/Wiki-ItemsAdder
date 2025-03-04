@@ -124,6 +124,7 @@
 ## Plugin usage
 
 * [Beginners](plugin-usage/beginners/README.md)
+  * [Video Tutorials](plugin-usage/beginners/video-tutorials.md)
   * [Files editor](plugin-usage/beginners/files-editor.md)
   * [Contents Folder](plugin-usage/beginners/configs-and-resourcepack.md)
   * [Good Resourcepack Tips](plugin-usage/beginners/fast-resourcepack-tips.md)
@@ -253,7 +254,7 @@
 * [Hide Scoreboard Background and Numbers](other/hide-scoreboard-numbers-1.17+.md)
 * [Loading screen](other/loading-screen.md)
 * [Bulk colorize images](other/bulk-colorize-images.md)
-* [Videos by users](other/videos-by-users.md)
+* [Showcases](other/showcases.md)
 
 ## Developers
 
