@@ -4,12 +4,12 @@
 * [Donation - Support my work](https://donate.devs.beer)
 * [First install](first-install.md)
 * [Frequently asked questions](faq/README.md)
+  * [Plugin doesn't work](faq/plugin-doesnt-work.md)
+  * [Resourcepack is not loading correctly](faq/identify-why-textures-are-not-shown.md)
   * [ItemsAdder v4](faq/itemsadder-v4.md)
   * [How to download Spigot](faq/how-to-download-spigot.md)
   * [Geyser](faq/geyser.md)
-  * [Resourcepack is not loading correctly](faq/identify-why-textures-are-not-shown.md)
   * [Removing default content](faq/removing-default-content.md)
-  * [Plugin doesn't work](faq/plugin-doesnt-work.md)
   * [🇹🇷 Turkish computer errors](faq/turkish-computer-errors.md)
   * [Thirst/mana bar](faq/fill-thirst-mana-bar.md)
   * [I can't see emoji, GUIs, HUDs etc.](faq/i-cant-see-emoji-guis-huds-etc..md)
@@ -42,7 +42,6 @@
   * [Can't write in chat and can't move](faq/cant-write-in-chat-and-cant-move.md)
   * [Can't place itemframe on furniture](faq/cant-place-itemframe-on-furniture.md)
   * [I can't remove furnitures and vehicles](faq/i-cant-remove-furnitures-and-vehicles.md)
-  * [Mohist issues](faq/mohist-issues.md)
   * [Blockbench Errors](faq/common-errors.md)
 * [Compatibility with other plugins](compatibility-with-other-plugins/README.md)
   * [Not compatible](compatibility-with-other-plugins/not-compatible.md)
@@ -245,9 +244,8 @@
 
 ## Other
 
-* [Ask for help](https://forum.devs.beer/d/16-getting-support)
 * [Terms Of Service](other/tos.md)
-* [Minecraft Server Hosting](other/minecraft-hosting.md)
+* [Ask for help](https://forum.devs.beer/d/16-getting-support)
 * [Optimize Minecraft client](https://blog.devs.beer/blog/optimize-minecraft)
 * [Resourcepack Protection](other/resourcepack-protection.md)
 * [Custom Player Stats](other/custom-player-stats.md)
@@ -255,6 +253,10 @@
 * [Loading screen](other/loading-screen.md)
 * [Bulk colorize images](other/bulk-colorize-images.md)
 * [Showcases](other/videos-by-users.md)
+
+***
+
+* [Minecraft Server Hosting](minecraft-hosting.md)
 
 ## Developers
 
@@ -295,3 +297,4 @@
   * [Optifine only features](old/old-guides/optifine-only-features/README.md)
     * [Optifine loading screen](old/old-guides/optifine-only-features/loading-screen.md)
     * [Armor textures CIT](old/old-guides/optifine-only-features/armor-textures-cit.md)
+  * [Mohist issues](old/old-guides/mohist-issues.md)

@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+This method should work fine on Minecraft 1.17.1 and most recent versions as Mojang fixed the issue.
 {% endhint %}
 
 ### Step 1

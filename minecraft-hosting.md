@@ -1,11 +1,11 @@
 ---
-description: Cheap and powerful servers hosting
 icon: server
+description: Cheap and powerful servers hosting
 ---
 
 # Minecraft Server Hosting
 
-![](../.gitbook/assets/MMICa0s.gif)
+![](.gitbook/assets/MMICa0s.gif)
 
 {% hint style="info" %}
 ### <mark style="color:green;">Use the code</mark> <mark style="color:blue;">`LONEDEV`</mark> <mark style="color:green;">and get 20% discount!</mark>
@@ -20,11 +20,7 @@ If you need a **good** and **cheap hosting** to open your **Minecraft server** o
 * **Custom Control Panel**(Pterodactyl)
 * **sFTP** & **MySQL** Database Access
 * **SSD** & **NVME** Storage
-* Supports **port opening** for **ItemsAdder** [self host](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
+* Supports **port opening** for **ItemsAdder** [self host](plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
 {% endhint %}
 
 {% embed url="http://bit.ly/humble-itemsadderwiki" %}
-
-## Here you can test it yourself - on my server
-
-![](http://www.matteodev.it/spigot/test\_server\_banner.php)

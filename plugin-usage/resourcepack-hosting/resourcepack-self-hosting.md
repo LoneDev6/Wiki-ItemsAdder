@@ -10,16 +10,10 @@ If your hosting service doesn't provide you additional ports you have to use one
 
 Difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
 
-{% hint style="info" %}
 `self-host` is really useful when you are configuring the resourcepack on your test server on your PC.\
 You just have to use command `/iazip` and you'll see changes applied in-game almost instantly.
-{% endhint %}
 
-{% content-ref url="../beginners/fast-resourcepack-tips.md" %}
-[fast-resourcepack-tips.md](../beginners/fast-resourcepack-tips.md)
-{% endcontent-ref %}
-
-## How can I configure the self host?
+## Configuration
 
 {% embed url="https://www.youtube.com/watch?v=XoTwF4_HztU" %}
 
@@ -75,7 +69,7 @@ After you configured the `config.yml` file you just have to run `/iazip` command
 [first-install.md](../../first-install.md)
 {% endcontent-ref %}
 
-## Cloudflare configuration (optional, not mandatory)
+## (optional) Cloudflare configuration
 
 {% hint style="warning" %}
 This guide won't protect your server IP as you are already exposing it via the SRV rule and Cloudflare free doesn't allow protecting traffic from non-standard ports.
