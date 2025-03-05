@@ -254,7 +254,7 @@
 * [Hide Scoreboard Background and Numbers](other/hide-scoreboard-numbers-1.17+.md)
 * [Loading screen](other/loading-screen.md)
 * [Bulk colorize images](other/bulk-colorize-images.md)
-* [Showcases](other/showcases.md)
+* [Showcases](other/videos-by-users.md)
 
 ## Developers
 
