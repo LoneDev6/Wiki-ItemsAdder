@@ -245,7 +245,7 @@
 ## Other
 
 * [Terms Of Service](other/tos.md)
-* [Ask for help](https://forum.devs.beer/d/16-getting-support)
+* [Ask For Help](https://forum.devs.beer/d/16-getting-support)
 * [Optimize Minecraft client](https://blog.devs.beer/blog/optimize-minecraft)
 * [Resourcepack Protection](other/resourcepack-protection.md)
 * [Custom Player Stats](other/custom-player-stats.md)
