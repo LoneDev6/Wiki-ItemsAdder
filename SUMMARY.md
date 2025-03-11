@@ -2,7 +2,6 @@
 
 * [Welcome](README.md)
 * [Donation - Support my work](https://donate.devs.beer)
-* [First install](first-install.md)
 * [Frequently asked questions](faq/README.md)
   * [Plugin doesn't work](faq/plugin-doesnt-work.md)
   * [Resourcepack is not loading correctly](faq/identify-why-textures-are-not-shown.md)
@@ -122,6 +121,7 @@
 
 ## Plugin usage
 
+* [First Install](plugin-usage/first-install.md)
 * [Beginners](plugin-usage/beginners/README.md)
   * [Video Tutorials](plugin-usage/beginners/video-tutorials.md)
   * [Files editor](plugin-usage/beginners/files-editor.md)

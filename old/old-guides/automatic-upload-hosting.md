@@ -66,7 +66,7 @@ Only people who know the link can download the pack.
 
 ## Continue installation if you need
 
-{% content-ref url="../../first-install.md" %}
-[first-install.md](../../first-install.md)
+{% content-ref url="../../plugin-usage/first-install.md" %}
+[first-install.md](../../plugin-usage/first-install.md)
 {% endcontent-ref %}
 

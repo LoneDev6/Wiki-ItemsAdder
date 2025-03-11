@@ -65,8 +65,8 @@ After you configured the `config.yml` file you just have to run `/iazip` command
 
 ### Continue installation if you need
 
-{% content-ref url="../../first-install.md" %}
-[first-install.md](../../first-install.md)
+{% content-ref url="../first-install.md" %}
+[first-install.md](../first-install.md)
 {% endcontent-ref %}
 
 ## (optional) Cloudflare configuration

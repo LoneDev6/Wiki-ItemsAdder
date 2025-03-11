@@ -43,6 +43,6 @@ This can cause your players to be stuck on login phase if the URL is not valid o
 
 ## Continue installation if you need
 
-{% content-ref url="../../first-install.md" %}
-[first-install.md](../../first-install.md)
+{% content-ref url="../first-install.md" %}
+[first-install.md](../first-install.md)
 {% endcontent-ref %}

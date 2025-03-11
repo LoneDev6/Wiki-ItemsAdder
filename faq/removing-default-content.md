@@ -2,10 +2,10 @@
 icon: trash-can
 ---
 
-# Removing default stuff
+# Removing default content
 
 {% hint style="info" %}
-You shouldn't have any default asset if you didn't follow the optional steps of the [first install](../../first-install.md) tutorial.
+You shouldn't have any default asset if you didn't follow the optional steps of the [first install](../plugin-usage/first-install.md) tutorial.
 {% endhint %}
 
 Follow this tutorial to keep you only your own items, blocks and other things without any of the ItemsAdder content.

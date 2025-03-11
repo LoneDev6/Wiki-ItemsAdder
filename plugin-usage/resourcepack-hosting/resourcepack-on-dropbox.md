@@ -8,11 +8,11 @@
 * **Drag and drop** on **DropBox** the file **generated.zip**
 * Press **Share**
 
-![](../../.gitbook/assets/image\_\(20\).png)
+![](../../.gitbook/assets/image_\(20\).png)
 
 * Press **Create**
 
-![](../../.gitbook/assets/image\_\(21\).png)
+![](../../.gitbook/assets/image_\(21\).png)
 
 * Press **Copy link**
 * For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)
@@ -53,6 +53,6 @@ Yea it is, that's why you should use the self host feature instead of **DropBox*
 
 ## Continue installation if you need
 
-{% content-ref url="../../first-install.md" %}
-[first-install.md](../../first-install.md)
+{% content-ref url="../first-install.md" %}
+[first-install.md](../first-install.md)
 {% endcontent-ref %}
