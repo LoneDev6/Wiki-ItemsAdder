@@ -1,24 +1,15 @@
 ---
-icon: folder
 description: What is the contents folder and how it's structured
+icon: folder
 ---
 
 # Contents Folder
 
-## Folders types
+## The `contents` folder
 
-### contents
+It's a main folder containing sub-folders inside.
 
-Is a folder which contains a set of sub-folders.\
-Each one contains separated pack which contain configurations and models/textures/sounds...
-
-You can see that each folder name in **contents** is the **namespace** of the assets it contains.
-
-### resourcepack (optional)
-
-You can see this folder and **configs** as a very similar thing, but **resourcepack** folder contains the "**graphical**" part of all **items** (and also sounds, GUIs...).
-
-This folder is optional and depends of which folders structure you decide (scroll down).
+Each sub-folder has a pack of files, like settings, models, textures, or sounds. The name of each sub-folder tells you what **namespace** (category or group) those files belong to.
 
 {% hint style="danger" %}
 #### **Important**
