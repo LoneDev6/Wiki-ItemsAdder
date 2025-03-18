@@ -10,7 +10,7 @@ FRAMS HUD 允许你为每个可能的值创建一个不同纹理。
 
 ### 创建配置文件
 
-第一步是在你的[命名空间](broken-reference)文件夹中创建一个配置文件。在这个例子中，我将创建一个名为`hud.yml`的文件。
+第一步是在你的**命名空间**文件夹中创建一个配置文件。在这个例子中，我将创建一个名为`hud.yml`的文件。
 
 {% code title="hud.yml" %}
 ```yaml
@@ -124,6 +124,6 @@ font_images:
 
 ## 使用 PAPI 占位符读取 HUD 值
 
-{% content-ref url="broken-reference" %}
-[损坏的链接](broken-reference)
+{% content-ref url="../../font-images/placeholders.md" %}
+[placeholders.md](../../font-images/placeholders.md)
 {% endcontent-ref %}

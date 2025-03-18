@@ -33,7 +33,7 @@ description: >-
 **步骤 3**
 
 运行 `/iazip` 并将生成的资源包上传到一个文件托管服务，并确保它提供直接下载链接。\
-例如 [**MCPACKS**](https://mc-packs.net/)**,** [**DropBox**](../../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)**,** [**GoogleDrive**](../../plugin-usage/resourcepack-hosting/google-drive-1.17.1+.md)**.**
+例如 [**MCPACKS**](https://mc-packs.net/)**,** [**DropBox**](../../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)**,** [**GoogleDrive**](../../plugin-usage/resourcepack-hosting/google-drive.md)**.**
 
 **步骤 4**
 

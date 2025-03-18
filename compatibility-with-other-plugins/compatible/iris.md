@@ -6,7 +6,7 @@
 
 ### 第一步
 
-下载 [ItemsAdderBlocksInjector](https://www.spigotmc.org/resources/itemsadderblocksinjector.102078/) 与 <mark style="color:red;">安装后请勿删除！</mark>
+下载 [ItemsAdderBlocksInjector](https://www.spigotmc.org/resources/itemsadderblocksinjector.102078/), <mark style="color:red;">安装后请勿删除！</mark>
 
 ### 第二步
 

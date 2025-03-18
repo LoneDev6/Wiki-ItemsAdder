@@ -16,7 +16,7 @@ description: 手动创建 Optifine 自定义盔甲纹理
 
 {% hint style="info" %}
 这是一个适用于 1.16 及以下版本客户端的旧方法。\
-[1.17+ 的新方法](../textured-armor.md)不需要 **Optifine**。
+[1.17+ 的新方法](../armors-old/textured-armor.md)不需要 **Optifine**。
 {% endhint %}
 
 ## 自定义纹理盔甲

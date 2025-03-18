@@ -1,16 +1,14 @@
 ---
-description: 创建你的第一个自定义方块
 icon: cube
+description: 创建你的第一个自定义方块
 ---
 
 # 方块
 
-## 创建一个简单的自定义方块
-
 ### 创建方块文件
 
 {% hint style="warning" %}
-这是一个示例方块（记得将 `myitems` [命名空间](broken-reference)更改为你想要的）。
+这是一个示例方块（记得将 `myitems` 更改为你想要的命名空间）。
 {% endhint %}
 
 例如，我创建了一个**文件**，其中包含我所有的**自定义方块**。\
@@ -36,7 +34,6 @@ items:
 
 ### 创建纹理文件
 
-现在是有趣的部分，让我们来设置纹理！\
 你需要在正确的文件夹中存放 `.png` 纹理文件。
 
 本例中**命名空间**是 `myitems`，因此你需要将纹理放入该文件夹：\
@@ -114,8 +111,6 @@ items:
         - block/red_block.png
 ```
 
-## 完成最终配置
-
 ### 为方块添加放置功能
 
 你需要添加 `specific_properties` 属性。
@@ -143,24 +138,15 @@ items:
 如果你想指定可以破坏该方块的**工具**，添加**硬度**和**其他属性**，请单击底部链接。
 {% endhint %}
 
-### 最后
-
-现在你只需要告诉插件加载你刚刚添加的方块。\
-请务必阅读托管教程，否则您将无法正确看到该块。
-
-{% content-ref url="../resourcepack-hosting/" %}
-[资源包托管](../resourcepack-hosting/)
-{% endcontent-ref %}
-
 ## 在游戏内获得该方块
 
 运行 `/iaget red_block` 获得物品。
 
-![](../../.gitbook/assets/image\_\(92\).png)
+![](../../.gitbook/assets/image_\(92\).png)
 
-![](../../.gitbook/assets/image\_\(91\).png)
+![](../../.gitbook/assets/image_\(91\).png)
 
-![](../../.gitbook/assets/image\_\(93\).png)
+![](../../.gitbook/assets/image_\(93\).png)
 
 ## 下载完整示例
 
@@ -238,8 +224,8 @@ specific_properties:
     * 仅支持**最多 14 个方块**，确保只创建你需要的。
 
 {% hint style="warning" %}
-* **`REAL`** 与 **`REAL_NOTE`** 用于装饰性方块与矿物。
-* **`TILE`** 用于交易机器与机械/珍稀装饰性方块。\
+- **`REAL`** 与 **`REAL_NOTE`** 用于装饰性方块与矿物。
+- **`TILE`** 用于交易机器与机械/珍稀装饰性方块。\
   你应该避免使用 **`TILE`** 作为矿物，因为这 _**可能**_ 会在生成区块时导致一定延迟。也不建议用于[树木](trees-and-trees-populators.md)或[洞穴装饰](cave-decorators.md)。
 {% endhint %}
 
@@ -287,10 +273,31 @@ Available on ItemsAdder 3.2.5+
               model: "minecraft:block/cobblestone"
 ```
 
-## `cancel_drop`
+### `drop_when_mined`
 
-方块被破坏使取消掉落。\
-当你有从方块以外的途径获取矿物的途径，这可以用来防止过度开采。
+{% hint style="warning" %}
+ItemsAdder 4.0.9 及以上可用
+
+旧版本使用 `cancel_drop`，且 `true/false` 设置应当反转。
+{% endhint %}
+
+控制是否在被挖掘后掉落。当有其他方法来获取对应的矿物（如战利品）时，用来控制产量很有用。
+
+### `drop_on_shears`
+
+{% hint style="warning" %}
+ItemsAdder 4.0.9 及以上可用
+{% endhint %}
+
+控制使用剪刀时方块是否掉落。
+
+### `drop_on_silk_touch`
+
+{% hint style="warning" %}
+ItemsAdder 4.0.9 及以上可用
+{% endhint %}
+
+控制使用精准采集附魔工具时，方块是否掉落。
 
 {% hint style="info" %}
 如果你使用精准采集附魔的工具来破坏方块，方块本身仍会掉落，但不会掉落任何其他战利品。
@@ -339,7 +346,7 @@ Available on ItemsAdder 3.2.5+
 {% endhint %}
 
 你可以指定[自定义声音](adding-sounds.md)的名字，而非原版声音。\
-你也可以指定 [Spigot 声音](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) 或原版 [Minecraft 声音](https://www.digminecraft.com/lists/sound\_list\_pc.php)的名字。
+你也可以指定 [Spigot 声音](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) 或原版 [Minecraft 声音](https://www.digminecraft.com/lists/sound_list_pc.php)的名字。
 
 {% hint style="info" %}
 如果未指定声音，会使用**石头**的声音。
