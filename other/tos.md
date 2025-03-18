@@ -15,7 +15,7 @@ Before Buying Remember:
 * ⛔ Before asking for support, please read the tutorials of this wiki.
 * ⛔ You must have some knowledge on how to create/manage/merge vanilla Minecraft resource packs as this plugin uses a custom-made and modified resource pack to show custom textures/models.\
   Please if you have no knowledge about resource packs don't buy the plugin!
-* ⛔ It's impossible to write a complete list of compatible/incompatible plugins without testing every single plugin on the planet. If the plugin doesn't work with your server setup don't ask for a refund but [report it](tos.md#how-to-ask-for-support-properly) and I'll try to find a solution.
+* ⛔ It's impossible to write a complete list of compatible/incompatible plugins without testing every single plugin on the planet. If the plugin doesn't work with your server setup don't ask for a refund but [report it](tos.md#bugs-and-issues-and-support) and I'll try to find a solution.
 * ⛔ [Not compatible with some plugins](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
 {% endhint %}
 
