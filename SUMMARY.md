@@ -246,7 +246,7 @@
 
 * [Terms Of Service](other/tos.md)
 * [Ask For Help](https://forum.devs.beer/d/16-getting-support)
-* [Optimize Minecraft client](https://blog.devs.beer/blog/optimize-minecraft)
+* [Optimize Minecraft client](https://blog.devs.beer/optimize-minecraft)
 * [Resourcepack Protection](other/resourcepack-protection.md)
 * [Custom Player Stats](other/custom-player-stats.md)
 * [Hide Scoreboard Background and Numbers](other/hide-scoreboard-numbers-1.17+.md)
