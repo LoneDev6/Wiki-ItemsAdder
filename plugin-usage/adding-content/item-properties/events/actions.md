@@ -269,11 +269,12 @@ Doesn't execute this action if a specific previous action **failed**.
 
 ### Special properties
 
-`execute_commands` has a special property called `flow_success_if_message_contains`.\
-This allows you to identify when a console command didn't fail, for example if the player was teleported successfully, if the block was set etc.
+`execute_commands` has a special property called `flow_success_if_message_contains`. and it works only if you have `as_console: true`.
 
-The plugin normally can automatically identify success/fail of vanilla commands but not of plugins commands, so you might use this setting to identify if a command of a plugin failed.\
-For example you can set it to `"failed to teleport"` to identify if a teleport command failed (this is just an example).
+It allows you to identify when a console command didn't fail, for example if the player was teleported successfully, if the block was set etc.
+
+The plugin can automatically identify success/fail of vanilla commands but not of plugins commands because they have dynamic messages, so you might use this setting to identify if a plugin command failed or not.\
+For example you can set it to `"failed to teleport"` to identify if plugin teleport command failed (this is just an example).
 
 ### Using vanilla `execute if`
 
@@ -308,6 +309,15 @@ items:
               as_console: true
             flow:
               skip_if_fail: execute_commands_1
+```
+
+This checks if the player is in the nether or not.
+
+```yaml
+execute_commands_1:
+  cmd1:
+    command: "execute at {player} if dimension minecraft:the_nether"
+    as_console: true
 ```
 
 This item sets the block at `~ ~-1 ~` to stone.\
