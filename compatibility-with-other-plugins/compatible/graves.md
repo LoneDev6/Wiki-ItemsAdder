@@ -1,12 +1,12 @@
-# Graves/GravesX
+# Graves
 
 ## [Graves Legacy Download here](https://www.spigotmc.org/resources/graves.74208/)
+
 ## [GravesX Download here](https://www.spigotmc.org/resources/gravesx.118271/)
 
 ## How to add compatibility?
 
-> [!NOTE]
-> Graves configuration is located in `/plugins/Graves` while GravesX configuration is located in `/plugins/GravesX` while both plugins retain the same file structure besides plugin name differences.
+> \[!NOTE] Graves configuration is located in `/plugins/Graves` while GravesX configuration is located in `/plugins/GravesX` while both plugins retain the same file structure besides plugin name differences.
 
 Enable the compatibility in config/config.yml
 
