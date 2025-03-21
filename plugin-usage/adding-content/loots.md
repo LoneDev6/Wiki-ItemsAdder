@@ -158,7 +158,7 @@ loots:
           chance: 100
 ```
 
-### **Custom mobs loots (**[**old entities method**](mobs/old-method/)**)**
+### **Custom mobs loots (**[**old entities method**](../../old/old-guides/old-method/)**)**
 
 In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
 

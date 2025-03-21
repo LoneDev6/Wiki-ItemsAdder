@@ -7,12 +7,12 @@
 You have to create a `.yml` file in your `namespace` folder.
 
 {% hint style="info" %}
-Consider using the[ official online tool](../../../../beginners/files-editor.md) to edit ItemsAdder files. \
+Consider using the[ official online tool](../../../../plugin-usage/beginners/files-editor.md) to edit ItemsAdder files. \
 It makes you life easier as it has autocomplete (press `CTRL+SPACE`) which helps you on avoiding mistakes.
 {% endhint %}
 
 This is an example for a custom mob named **Soul**.\
-As you can see I set it up like a normal item, but with a special [behaviour ](../../../item-properties/behaviours.md)named **mob**.
+As you can see I set it up like a normal item, but with a special [behaviour ](../../../../plugin-usage/adding-content/item-properties/behaviours.md)named **mob**.
 
 ```yaml
 info:

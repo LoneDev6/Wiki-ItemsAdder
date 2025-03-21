@@ -3,38 +3,38 @@
 ## Creating the animated model (idle animation)
 
 To create the models I use [BlockBench](https://blockbench.net/), it's very easy to use and fast.\
-BlockBench [tutorials ](https://www.youtube.com/results?search\_query=blockbench+tutorial)are available on YouTube.
+BlockBench [tutorials ](https://www.youtube.com/results?search_query=blockbench+tutorial)are available on YouTube.
 
 {% hint style="danger" %}
 You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
 
-<img src="../../../../../.gitbook/assets/image_(89) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (9) (1) (1) (1) (19).png" alt="" data-size="original">
+<img src="../../../../.gitbook/assets/image_(89) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (9) (1) (1) (1) (19).png" alt="" data-size="original">
 {% endhint %}
 
 ### Creating a very simple idle animation
 
 For example I created this model, it's made of some cubes as you can see.
 
-![](../../../../../.gitbook/assets/image\_\(52\).png)
+![](../../../../.gitbook/assets/image_\(52\).png)
 
 Now we want to animate it!\
 For example I want to make it float up and down.
 
 **1.Save** the **current model** in a temporary folder (anywhere on your PC)
 
-![](../../../../../.gitbook/assets/image\_\(53\).png)
+![](../../../../.gitbook/assets/image_\(53\).png)
 
-![](../../../../../.gitbook/assets/image\_\(56\).png)
+![](../../../../.gitbook/assets/image_\(56\).png)
 
 Ok I saved it as **1.json** inside the **idle** folder. This is the first frame of the **animation**.
 
 \*\*2.\*\*Return to **BlockBench** and select all pressing **CTRL+A**
 
-![](<../../../../../.gitbook/assets/image\_(78) (1).png>)
+![](<../../../../.gitbook/assets/image_(78) (1).png>)
 
 **Hold left mouse button** while cliking on the **GREEN** arrow, **hold CTRL** and **move** the mouse **up** a little bit
 
-![](../../../../../.gitbook/assets/image\_\(58\).png)
+![](../../../../.gitbook/assets/image_\(58\).png)
 
 **3.Save** the file again but change the name to **2.json**
 
@@ -44,31 +44,31 @@ Ok I saved it as **1.json** inside the **idle** folder. This is the first frame 
 
 \*\*6.\*\*Now **click** on the **icon** to load our json frames
 
-![](../../../../../.gitbook/assets/image\_\(68\).png)
+![](../../../../.gitbook/assets/image_\(68\).png)
 
 \*\*7.\*\*Click on "**Choose files...**" and select your json files and the png texture
 
-![](../../../../../.gitbook/assets/image\_\(77\).png)
+![](../../../../.gitbook/assets/image_\(77\).png)
 
-![](../../../../../.gitbook/assets/image\_\(69\).png)
+![](../../../../.gitbook/assets/image_\(69\).png)
 
 \*\*8.\*\*Click on **LOAD**
 
-![](../../../../../.gitbook/assets/image\_\(70\).png)
+![](../../../../.gitbook/assets/image_\(70\).png)
 
 **9.Click** the **second icon** and **drag** and **drop** the **4 files** to the bottom line
 
-![](../../../../../.gitbook/assets/image\_\(71\).png)
+![](../../../../.gitbook/assets/image_\(71\).png)
 
-![](../../../../../.gitbook/assets/image\_\(72\).png)
+![](../../../../.gitbook/assets/image_\(72\).png)
 
 \*\*10.\*\*You should have them like that
 
-![](../../../../../.gitbook/assets/image\_\(73\).png)
+![](../../../../.gitbook/assets/image_\(73\).png)
 
 **11.Drag and drop them again but in reverse (3-2, I skipped 1 and 4 because they would be useless for the animation**)
 
-![](../../../../../.gitbook/assets/image\_\(75\).png)
+![](../../../../.gitbook/assets/image_\(75\).png)
 
 \*\*12.\*\*Press the **play** button (on the **bottom left**) to **preview** the animation
 
@@ -76,7 +76,7 @@ Ok I saved it as **1.json** inside the **idle** folder. This is the first frame 
 
 **13.** Press "**Export**" button (**top right** of the **screen**) and configure it like in the screenshot, then press "**Export**" again.
 
-![](../../../../../.gitbook/assets/image\_\(76\).png)
+![](../../../../.gitbook/assets/image_\(76\).png)
 
 \*\*14.\*\*Now you will have a **zip** file with the animation, **download** it and **open** it.
 
@@ -95,7 +95,7 @@ items:
       model_path: "mob/soul/idle"
 ```
 
-\*\*17.\*\*Use the command `/iazip` (if you're using external-host please follow the [tutorial](../../../../resourcepack-hosting/)carefully)
+\*\*17.\*\*Use the command `/iazip` (if you're using external-host please follow the [tutorial](../../../../plugin-usage/resourcepack-hosting/)carefully)
 
 \*\*18.\*\*spawn the mob using `/iasummon soul`
 

@@ -5,7 +5,7 @@
 To spawn the mob naturally you have to setup the `replace_mobs_spawn` property.
 
 This is an example for a custom mob names **Soul**.\
-As you can see I set it up like a normal item, but with a special [behaviour ](../../../item-properties/behaviours.md)named **mob**.
+As you can see I set it up like a normal item, but with a special [behaviour ](../../../../plugin-usage/adding-content/item-properties/behaviours.md)named **mob**.
 
 \
 This example configuration tells ItemsAdder to replace any naturally spawned `ZOMBIE`with 20% `chance`, at `MIDNIGHT` and only in caves (`max_sky_light: 0`).

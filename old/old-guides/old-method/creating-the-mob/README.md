@@ -4,6 +4,10 @@ description: How to create configuration and 3D models for your mob
 
 # Creating the mob
 
+{% hint style="danger" %}
+## This feature was removed in 4.0.10
+{% endhint %}
+
 {% content-ref url="configuration.md" %}
 [configuration.md](configuration.md)
 {% endcontent-ref %}
