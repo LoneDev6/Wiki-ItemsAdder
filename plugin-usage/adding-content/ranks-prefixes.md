@@ -49,7 +49,7 @@ For example copy `admin.png`, name it `custom.png` and edit it.
 
 ### Example
 
-For example in order to make a similar rank to my **BetterRanks** addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
+For example in order to make a similar rank to my **BetterRanks** addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels. **Remember to add shadow to further copy look of BetterRanks. **
 
 ![](<../../.gitbook/assets/image (36).png>)
 
