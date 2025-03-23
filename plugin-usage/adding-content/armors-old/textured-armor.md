@@ -55,7 +55,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
   In some cases you may want to recolor the armor using the specified `color`, so you will have to set it to `true`.\
   This option will also make the item (in inventory) not colored automatically anymore.
 * `color` is the color attribute of this armor.\
-  It acts like an **unique identifier** for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color) .\
+  It acts like an **unique identifier** for the armor (and will tint the armor if `use_color` is `true`). Use this website to get a valid color: [https://minecraftcommand.science/armor-color](https://minecraftcommand.science/armor-color).\
   Note: ItemsAdder will automatically select a nearest unused color if the selected one is already used by another custom armor.
 
 Now I create the two PNG files inside the `contents/my_items/textures/armor/my_armor/` folder.
@@ -112,7 +112,7 @@ The `custom_armor` property is important, it makes the plugin apply the previous
 In this case I didn't specify any `color` in the `specific_properties` field of the armor piece because it's automatically applied by the `custom_armor` property, inherited from the `armors_renderer`.
 
 Now I create the item texture and I put it inside the folder:\
-`contents/my_items/textures/item/my_armor/`
+`contents/my_items/textures/item/my_armor/`.
 
 In this example I created also a new folder called `my_armor` to better organize the resourcepack since you will have 1 texture for each armor piece, and having them in the same textures folder might cause confusion.
 
