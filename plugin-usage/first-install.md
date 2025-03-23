@@ -7,7 +7,7 @@ icon: gear
 
 {% hint style="danger" %}
 **Make sure** that all of your plugins and server software are up to date!\
-**Always check** the version of ItemsAdder which you are downloading!
+**Always check** the version of ItemsAdder you are downloading!
 
 * <mark style="color:red;">**v3 is only for 1.20.4 and lower**</mark>
 * <mark style="color:red;">**v4 is only for 1.20.6 and greater**</mark>
@@ -21,12 +21,12 @@ icon: gear
 
 ## Step 1 - Installing the plugin and libraries
 
-* stop the server
-* put [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/) JAR inside the `plugins` folder
-* put [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/) JAR inside the `plugins` folder (not required on 4.0.9 and greater)
-* put **ItemsAdder** JAR file inside your plugins folder
-* start the server
-* let **ItemsAdder** finish loading **everything**
+* Stop the server.
+* Put [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/).JAR inside the `plugins` folder
+* Put [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/).JAR inside the `plugins` folder (not required on 4.0.9 and greater)
+* Put the **ItemsAdder**.JAR file inside your plugins folder
+* Start the server
+* Let **ItemsAdder** finish loading **everything**
 
 ## Step 2 - Resourcepack first installation
 
@@ -37,7 +37,7 @@ The content <mark style="color:red;">**WILL NOT SHOW CORRECTLY**</mark> if you w
 {% endhint %}
 
 Before using the plugin you have to decide the resourcepack hosting method.\
-Click down here to decide an hosting method for the resourcepack (best method: `self-host`).
+Click down here to decide a hosting method for the resourcepack (best method: `self-host`).
 
 {% content-ref url="resourcepack-hosting/" %}
 [resourcepack-hosting](resourcepack-hosting/)
@@ -56,9 +56,9 @@ It's not automatically included in the downloaded plugin because some people mig
 
 <div align="left"><img src="../.gitbook/assets/image (47).png" alt=""></div>
 
-* Extract the content into the `ItemAdder` folder and overwrite the files if asked
-* Run the `/iazip` command
-* Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**
+* Extract the content into the `ItemAdder` folder and overwrite the files if asked.
+* Run the `/iazip` command.
+* Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**.
 
 ***
 
@@ -68,6 +68,6 @@ It's not automatically included in the downloaded plugin because some people mig
 
 <div align="left"><img src="../.gitbook/assets/image (50).png" alt=""></div>
 
-* Extract the content into the `ItemAdder` folder and overwrite the files if asked
-* Run the `/iazip` command
-* Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**
+* Extract the content into the `ItemAdder` folder and overwrite the files if asked.
+* Run the `/iazip` command.
+* Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**.
