@@ -2,7 +2,7 @@
 icon: volume-low
 ---
 
-# Enabling custom blocks sounds
+# Enabling custom block's sounds
 
 {% hint style="warning" %}
 You have to run `/iazip` each time you change any of these settings to regenerate the resourcepack.
@@ -54,6 +54,6 @@ This enables the whole module.
 * `true`
   * This option will enable playing the custom `step` sound for any non-player entity.\
     You should disable this if you are afraid of server performance drops due to the high frequency of which this code is called.\
-    The feature was benchmarked and coded with performance in mind but some servers might have issues or admins might be paranoid, so I coded this option.
+    The feature was benchmarked and coded with performance in mind but some servers might have paranoid admins, so I coded this option.
 * `false`
   * This option won't enable playing the custom `step` sound for any non-player entity.
