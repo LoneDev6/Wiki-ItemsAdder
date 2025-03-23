@@ -2,19 +2,19 @@
 icon: burger-cheese
 ---
 
-# Consumable
+# Consumables
 
 {% hint style="danger" %}
 **Resourcepack hosting**
 
 Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\
-I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
+I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar methods.
 {% endhint %}
 
 ## Classic methods
 
 {% hint style="warning" %}
-Minecraft 1.21.1 and lower, ItemsAdder 4.0.7 and lower
+Minecraft 1.21.1 and lower; ItemsAdder 4.0.7 and lower
 {% endhint %}
 
 ### Food
@@ -67,7 +67,7 @@ items:
 
 #### Optional (thirst)
 
-if you are using the thirst bar from he default assets, you can also add a drink event to increase the thirst bar.
+If you are using the thirst bar from the default assets, you can also add a drink event to increase the thirst bar.
 
 ```yaml
 info:
@@ -145,7 +145,7 @@ items:
 
 #### Optional (thirst)
 
-if you are using the thirst bar from he default assets, you can also add a drink event to increase the thirst bar.
+If you are using the thirst bar from the default assets, you can also add a drink event to increase the thirst bar.
 
 ```yaml
 info:
