@@ -269,7 +269,7 @@ Doesn't execute this action if a specific previous action **failed**.
 
 ### Special properties
 
-`execute_commands` has a special property called `flow_success_if_message_contains`. and it works only if you have `as_console: true`.
+`execute_commands` has a special property called `flow_success_if_message_contains` and it works only if you have `as_console: true`.
 
 It allows you to identify when a console command didn't fail, for example if the player was teleported successfully, if the block was set etc.
 
