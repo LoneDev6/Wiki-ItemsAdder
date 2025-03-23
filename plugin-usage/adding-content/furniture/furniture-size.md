@@ -14,10 +14,10 @@ If you want to adjust it you just have to use Blockbench as usual and:
 
 ![](../../../.gitbook/assets/image_\(8\).png)
 
-1. click on **display** on the right
-2. click on the **armorstand icon** on the left
-3. click on the **smile face** (**head**) on the left
-4. **move** your model on the armorstand **bottom** (it's the **ground**)
+1. Click on **display** on the right.
+2. Click on the **armorstand icon** on the left.
+3. Click on the **smile face** (**head**) on the left.
+4. **Move** your model on the armorstand **bottom** (it's the **ground**).
 
 ### Too small furniture
 
@@ -55,7 +55,7 @@ behaviours:
 {% endtab %}
 {% endtabs %}
 
-#### and set this is BlockBench
+#### And set this in BlockBench
 
 {% tabs %}
 {% tab title="Big furniture" %}
