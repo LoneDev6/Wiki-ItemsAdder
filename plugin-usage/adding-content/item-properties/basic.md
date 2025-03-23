@@ -91,7 +91,7 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
+These are the vanilla attribute modifiers, you can get more info here: [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
 
 ## `durability`
 
@@ -104,11 +104,11 @@ durability:
   usages: 5
 ```
 
-`usages` : number of usages for the current item. Remember to decrement it using [events](events/).
+`usages` : Number of usages for the current item. Remember to decrement it using [events](events/).
 
-`custom_durability` : initial durability which the item has (if not specified is the same as `max_custom_durability`).
+`custom_durability` : Initial durability which the item has (if not specified is the same as `max_custom_durability`).
 
-`max_custom_durability` : max durability of the item.
+`max_custom_durability` : Max durability of the item.
 
 ## `item_flags`
 
