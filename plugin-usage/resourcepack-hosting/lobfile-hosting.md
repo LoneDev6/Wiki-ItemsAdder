@@ -7,16 +7,16 @@ File size limit is 100MB for this hosting method.
 {% endhint %}
 
 Automatically upload your resourcepack on a **free online service** with servers all over the world.\
-Thanks a lot to **LobFile**[ ](https://ploudos.com/it/)which provides us their platform to host files for free!
+Thanks a lot to **LobFile**[ ](https://ploudos.com/it/), which provides us their platform to host files for free!
 
 {% embed url="https://lobfile.com/" %}
 
 ## What are the advantages?
 
-* download speed
-* availability
-* security: your server IP address is not exposed
-* no high bandwidth usage
+* Download speed.
+* Availability.
+* Security: Your server IP address is not exposed.
+* No high bandwidth usage.
 
 ## I already use `self-host`, is this better?
 
@@ -26,7 +26,7 @@ It's better to use [self-host](resourcepack-self-hosting.md) if you're working o
 
 When you've finished working on the pack you can safely start using this other hosting feature instead of `self-host`, in this case **LobFile**.\
 This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.\
-Anyway your playerbase is all from the same country you can stick with `self-host`.
+If your playerbase is all from the same country, you can stick with `self-host`.
 
 ## Setup
 
