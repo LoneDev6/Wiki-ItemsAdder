@@ -37,7 +37,7 @@ Don't change `scale_ratio` and `y_position`. It would make the ranks look pixela
 
 ### Image
 
-**Copy** one of my ranks **.png** files and edit it from folder `contents/betterranks/textures/`\
+**Copy** one of my ranks **.png** files and edit it from folder `contents/betterranks/textures/`.\
 \
 You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.\
 For example copy `admin.png`, name it `custom.png` and edit it.
@@ -65,18 +65,18 @@ For example in order to make a similar rank to my **BetterRanks** addon you just
 
 #### Creating a group, example (admin)
 
-Use this command `/lp creategroup admin`
+Use this command `/lp creategroup admin`.
 
 #### Add the prefix
 
-Use this command to get the editor: `/lp editor`\
+Use this command to get the editor: `/lp editor`.\
 Now click on the link and open the web editor.
 
 Select the role, in this case `admin`.
 
 ![](<../../.gitbook/assets/image (77).png>)
 
-Write `prefix.100.` followed by the prefix placeholder in the bottom input box, in this example I will use `:admin:`
+Write `prefix.100.` followed by the prefix placeholder in the bottom input box, in this example I will use `:admin:`.
 
 `prefix.100.:admin:` (make sure you write it correctly).
 
@@ -90,7 +90,7 @@ As you can see you have a new line in the permissions list, this is the prefix s
 
 ![](<../../.gitbook/assets/image (70).png>)
 
-Now save your changes
+Now save your changes.
 
 ![](<../../.gitbook/assets/image (44).png>)
 
@@ -117,7 +117,7 @@ Make sure you installed [PlaceholderAPI](broken-reference/)
     tagprefix: '%img_admin%  '
 ```
 
-Then use the command `/tab reload`
+Then use the command `/tab reload`.
 
 ![](../../.gitbook/assets/image_\(38\).png)
 
