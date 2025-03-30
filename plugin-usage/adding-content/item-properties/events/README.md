@@ -60,10 +60,8 @@ You can make things happen ([actions](actions.md)) when an event is triggered (p
 * item\_hit\_entity
 * placed\_block.interact
 * placed\_block.break
-* placed\_armorstand.interact
-* placed\_armorstand.break
-* placed\_itemframe.interact
-* placed\_itemframe.break
+* placed\_furniture.interact
+* placed\_furniture.break
 * holding\_item.player\_damaged\_by\_entity
 * holding\_item\_offhand.player\_damaged\_by\_entity
 * equipped\_armor\_item.player\_damaged\_by\_entity
