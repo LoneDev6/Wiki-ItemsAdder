@@ -42,7 +42,7 @@ items:
             decrement_amount: true
 ```
 
-Now create the `2d_furniture.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item\`
+Now create the `2d_furniture.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item\`.
 
 ### Step 2
 
@@ -94,7 +94,7 @@ items:
             decrement_amount: true
 ```
 
-Now create the `furniture.json` file inside the folder `dcontents\myitems\resourcepack\myitems\models\decoration\`
+Now create the `furniture.json` file inside the folder `dcontents\myitems\resourcepack\myitems\models\decoration\`.
 
 ### Done!
 

@@ -8,9 +8,9 @@ Loots can be used to specify when to drop a particular item.
 
 You can decide to create different loot types:
 
-* blocks
-* mobs
-* fishing
+* Blocks.
+* Mobs.
+* Fishing.
 
 For example this is the loots category of a `.yml` file I created.
 
@@ -180,7 +180,7 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderMob` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob)
+As you can see I set `ItemsAdderMob` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob).
 
 ### **Custom entities loots**
 
@@ -204,7 +204,7 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderEntity` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob)
+As you can see I set `ItemsAdderEntity` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob).
 
 ### **Villager professions (and any other NBT attribute you want to match)**
 

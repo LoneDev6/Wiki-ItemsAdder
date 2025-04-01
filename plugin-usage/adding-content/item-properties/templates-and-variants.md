@@ -2,8 +2,8 @@
 
 ## What are templates?
 
-Templates are special items that won't appear ingame, they are used as properties holders for other items.  
-They allow you to write common properties in one item and add them automatically to other items without constant copy and paste.
+Templates are special items that won't appear ingame, they are used as property holders for other items.  
+They allow you to write common properties in one item and add them automatically to other items without constantantly copy and pasting.
 
 To create a template you have to set `template: true` in your item.
 

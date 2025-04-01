@@ -8,7 +8,7 @@ icon: flower-daffodil
 
 With ItemsAdder you can generate decorations around the world to make your server more professional and original.
 
-For example you can make new mushrooms, new little plants, rocks and decorations
+For example you can make new mushrooms, new little plants, rocks and decorations.
 
 ![](../../.gitbook/assets/leaves.png)
 

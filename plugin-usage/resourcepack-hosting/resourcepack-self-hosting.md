@@ -8,7 +8,7 @@ If your hosting service doesn't provide you additional ports you have to use one
 
 ### What is the difference between self-host and the other methods?
 
-Difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
+The difference is that with self-host you can download the pack directly from your server without having to upload it to a website each time you make a small change.
 
 `self-host` is really useful when you are configuring the resourcepack on your test server on your PC.\
 You just have to use command `/iazip` and you'll see changes applied in-game almost instantly.
@@ -17,7 +17,7 @@ You just have to use command `/iazip` and you'll see changes applied in-game alm
 
 {% embed url="https://www.youtube.com/watch?v=XoTwF4_HztU" %}
 
-* Check in your **hosting service panel** if you can get an additional port, if not please ask hosting service support to provide your one.
+* Check in your **hosting service panel** if you can get an additional port; if not, please ask your hosting service support to provide you with one.
 
 For example on **Pterodactyl**:
 
@@ -25,7 +25,7 @@ For example on **Pterodactyl**:
 
 ![](../../.gitbook/assets/image_\(101\).png)
 
-* after you obtained a **new port** you can open `config.yml` and set like this:
+* After you obtained a **new port** you can open `config.yml` and set it like this:
 
 ```yaml
   self-host:
@@ -34,10 +34,10 @@ For example on **Pterodactyl**:
     pack-port: 8163
 ```
 
-* you have to replace `127.0.0.1` with **your server IP**
-* and replace `8163` with the new port you obtained.
+* You have to replace `127.0.0.1` with **your server IP**
+* And replace `8163` with the new port you obtained.
 
-For example if my ip is `123.456.789.0` and my additional port is `8163`I will set it like this:
+For example if my IP is `123.456.789.0` and my additional port is `8163` I will set it like this:
 
 ```yaml
   self-host:
@@ -56,12 +56,12 @@ For example if my ip is `123.456.789.0` and my additional port is `8163`I will s
 {% endhint %}
 
 {% hint style="danger" %}
-Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... or you won't see any change obviously.
+Do not forget to use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound** or you won't see any change obviously.
 {% endhint %}
 
 ### Last step
 
-After you configured the `config.yml` file you just have to run `/iazip` command to refresh the zip file and start the hosting.
+After you configured the `config.yml` file you just have to run the `/iazip` command to refresh the zip file and start the hosting.
 
 ### Continue installation if you need
 

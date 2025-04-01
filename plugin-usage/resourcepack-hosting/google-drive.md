@@ -3,22 +3,22 @@
 {% hint style="warning" %}
 This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method should work fine on Minecraft 1.17.1 and most recent versions as Mojang fixed the issue.
+This method should work fine on Minecraft 1.17.1 and most recent versions as has Mojang fixed the issue.
 {% endhint %}
 
 ### Step 1
 
-Rightclick on your resourcepack zip file and press "Get link"
+Right-click on your resourcepack zip file and press "Get link".
 
 ![](<../../.gitbook/assets/image_(153) (1).png>)
 
 ### Step 2
 
-Important: set the permission to "Anyone with the link"
+Important: Set the permission to "Anyone with the link".
 
 ![](../../.gitbook/assets/image_\(145\).png)
 
-Press "Copy link"
+Press "Copy link".
 
 ![](../../.gitbook/assets/image_\(149\).png)
 
@@ -26,7 +26,7 @@ Press "Copy link"
 
 Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive-direct)
 
-Paste the link and press on "Get direct link"
+Paste the link and click "Get direct link".
 
 <img src="../../.gitbook/assets/image_(144).png" alt="" data-size="original">
 
@@ -64,7 +64,7 @@ This happens only when the player downloads the resourcepack for the first time 
 
 This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 
-This method works 100% of the times on Minecraft 1.17.1 and most recent versions.
+This method works 100% of the time on Minecraft 1.17.1+.
 
 ## Continue installation if you need
 
