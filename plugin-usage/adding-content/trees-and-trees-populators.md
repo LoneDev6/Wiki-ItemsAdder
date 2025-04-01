@@ -100,7 +100,7 @@ trees_populators:
 
 ## Generate trees in the world
 
-First read this tutorial on creating the tree blocks (leaved and wood)
+First read this tutorial on creating the tree blocks (leaves and wood)
 
 {% hint style="danger" %}
 **End dimension**
