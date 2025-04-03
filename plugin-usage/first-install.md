@@ -13,12 +13,6 @@ icon: gear
 * <mark style="color:red;">**v4 is only for 1.20.6 and greater**</mark>
 {% endhint %}
 
-## Guided installation
-
-{% @guideflow/guideflow-embed requestedUrl="https://app.guideflow.com/player/qkqgg70u1p" fullWidth="true" %}
-
-***
-
 ## Step 1 - Installing the plugin and libraries
 
 * stop the server
