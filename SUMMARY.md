@@ -136,6 +136,7 @@
   * [DropBox](plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)
   * [Google Drive](plugin-usage/resourcepack-hosting/google-drive.md)
   * [OneDrive](plugin-usage/resourcepack-hosting/onedrive.md)
+  * [No Host](plugin-usage/resourcepack-hosting/no-host.md)
 * [Adding Content](plugin-usage/adding-content/README.md)
   * [Item properties](plugin-usage/adding-content/item-properties/README.md)
     * [Basic](plugin-usage/adding-content/item-properties/basic.md)
