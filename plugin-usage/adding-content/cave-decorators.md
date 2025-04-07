@@ -8,7 +8,7 @@ icon: mountains
 
 With ItemsAdder you can generate decorations in the world caves to make your server more professional and original.
 
-For example you can make new mushrooms, new little plants, rocks and decorations
+For example you can make new mushrooms, new little plants, rocks and decorations.
 
 ![](<../../.gitbook/assets/image (81).png>)
 

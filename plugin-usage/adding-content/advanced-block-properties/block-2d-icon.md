@@ -8,7 +8,7 @@ icon: file-png
 
 ### Step 1
 
-Create the 2D icon for the block
+Create the 2D icon for the block.
 
 {% hint style="info" %}
 Replace `myitems` with your [namespace](../../beginners/configs-and-resourcepack.md#what-is-a-namespace)!
@@ -42,7 +42,7 @@ items:
             decrement_amount: true
 ```
 
-Now create the `rocks.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item`
+Now create the `rocks.png` file inside the folder `contents\myitems\resourcepack\myitems\textures\item`.
 
 ### Step 2
 
@@ -96,7 +96,7 @@ items:
             decrement_amount: true
 ```
 
-Now create the `placed_rocks.json` file inside the folder `contents\myitems\resourcepack\myitems\models\block\`
+Now create the `placed_rocks.json` file inside the folder `contents\myitems\resourcepack\myitems\models\block\`.
 
 ### Done!
 

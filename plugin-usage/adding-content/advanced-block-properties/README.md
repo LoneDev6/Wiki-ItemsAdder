@@ -2,5 +2,5 @@
 icon: cube
 ---
 
-# Block - advanced
+# Blocks - advanced
 

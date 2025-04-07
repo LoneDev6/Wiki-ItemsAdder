@@ -34,9 +34,9 @@ Create a `default.json` file and handle it on your own.
 
 Some servers may require font images to be created manually for various reasons, for example:
 
-* you don't want ItemsAdder to manage the fonts
-* you want to use a custom namespace and custom font name for some custom characters
-* you want to manage them on your own
+* You don't want ItemsAdder to manage the fonts.
+* You want to use a custom namespace and custom font name for some custom characters.
+* You want to manage them on your own.
 
 ## Creating a custom character
 

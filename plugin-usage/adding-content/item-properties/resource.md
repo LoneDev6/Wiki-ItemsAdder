@@ -6,7 +6,7 @@ description: Properties that allows customization of item graphics
 # Resource
 
 {% hint style="danger" %}
-Make sure you're not using UPPERCASE or special characters in items names, namespaces, texture files (png) and model files (json)
+Make sure you're not using UPPERCASE or special characters in items names, namespaces or texture files (.png) and model files (.json)
 {% endhint %}
 
 ## Automatic generation
@@ -24,16 +24,16 @@ This is an example:
 
 `material` is the vanilla material this item will use as base.
 
-`generate` tells to IA if it needs to generate the item model automatically based on textures you listed
+`generate` tells to IA if it needs to generate the item model automatically based on textures you listed.
 
 `textures` is the list of textures IA will use to generate the model automatically.
 
 ### Where do I put textures?
 
 Textures you listed in the `textures` attribute must be placed in the right folder.\
-So if you set `textures` like in the example and your **namespace** (is for example) `my_items` you will have to put `example_item.png`  file inside this folder: `contents/my_items/textures/item`
+Therefore, if you set `textures` like in the example and your **namespace** is (for example) `my_items` you will have to put `example_item.png`  file inside this folder: `contents/my_items/textures/item`
 
-If the path doesn't exists create all the folders needed.
+If the path doesn't exist create all the folders needed.
 
 {% hint style="info" %}
 You can avoid setting `.png` in the `textures` attribute, ItemsAdder will recognize the file automatically
@@ -54,7 +54,7 @@ This is an example:
 ### Where do I put my model?
 
 Model you set in the `model_path` attribute must be placed in the right folder.\
-So if you set `model_path` like in the example and your **namespace** (is for example) `my_items` you will have to put `floating_sword.json` file inside this folder: `contents/my_items/models/item`
+Therefore, if you set `model_path` like in the example and your **namespace** is (for example) `my_items` you will have to put `floating_sword.json` file inside this folder: `contents/my_items/models/item`
 
 If the path doesn't exists create all the folders needed.
 
@@ -137,7 +137,7 @@ It's **very important** to run the command `/iacleancache items` to **remove unu
 
 ## Creating 3D models
 
-To create custom models I use [BlockBench ](https://blockbench.net/)which is a free, easy to use and amazing tool to make Minecraft model.
+To create custom models I use [BlockBench ](https://blockbench.net/)which is a free, easy to use and amazing tool to make Minecraft models.
 
 {% embed url="https://www.youtube.com/watch?v=aaJ8XgMAOno" %}
 
@@ -148,7 +148,7 @@ To create custom models I use [BlockBench ](https://blockbench.net/)which is a f
 {% hint style="warning" %}
 **Important**
 
-If you're using a **non-vanilla** texture (your **.png** file) you have to open the **.json** file of your model and do a little edit.
+If you're using a **non-vanilla** texture (your **.png** file) you have to open the **.json** file of your model and do a little editing.
 
 If your model is using a custom texture you have to make sure to put your namespace in front of the texture name.\
 For example if you have this 3D model and the texture has this path: `contents/my_items/textures/item/custom_item_1.png`

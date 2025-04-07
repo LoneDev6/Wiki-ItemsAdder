@@ -36,9 +36,9 @@ skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
 ```
 
 {% hint style="warning" %}
-Keep in mind that it's a bit "risky" because the server cannot make sure the URL is valid.
+Keep in mind that it's a bit 'risky', because the server cannot make sure the URL is valid.
 
-This can cause your players to be stuck on login phase if the URL is not valid or if OneDrive doesn't provide the direct download, sometimes it happens.
+This can cause your players to be stuck on login phase if the URL is not valid or if OneDrive doesn't provide the direct download; sometimes it happens.
 {% endhint %}
 
 ## Continue installation if you need

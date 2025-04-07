@@ -43,7 +43,7 @@ Run `/iazip` and then get the item ingame.
 ## Old method
 
 You can add custom textured tooltips for your items, please refer to this example addon:\
-[https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/)
+[https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/).
 
 
 
@@ -52,6 +52,6 @@ You can add custom textured tooltips for your items, please refer to this exampl
 ## Limitations
 
 {% hint style="warning" %}
-* you cannot show custom enchants as they will go out of the window if the image is too small
-* you have to write everything in the tooltip image, text would go out of the window if the image is too small
+* You cannot show custom enchants as they will go out of the window if the image is too small.
+* You have to write everything in the tooltip image, text would go out of the window if the image is too small.
 {% endhint %}

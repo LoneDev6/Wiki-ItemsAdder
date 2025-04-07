@@ -32,7 +32,7 @@ items:
 
 In this case you can see a furniture which will make the player execute the command `/help` when they interact the furniture.&#x20;
 
-You can obviously also add more [actions](../item-properties/events/actions.md) to the [placed\_armorstand](../item-properties/events/).interaction event, not only `execute_commands`.
+You can obviously also add more [actions](../item-properties/events/actions.md) to the [placed\_armorstand](../item-properties/events/) interaction event, not only `execute_commands`.
 
 ## Open a trading menu on interact
 

@@ -27,7 +27,7 @@ recipes:
         amount: 1
 ```
 
-In this example I created a `cooking` recipe called `cooked_sausage`
+In this example I created a `cooking` recipe called `cooked_sausage`.
 
 * `item` is the item that should be cooked. Both Vanilla Minecraft and custom items can be used through their respective namespaces.
 * `machines` is a list of allowed furnace types that can smelt/cook the item. Supported are `FURNACE`, `BLAST_FURNACE` and `SMOKER`

@@ -79,10 +79,10 @@ This is located in the image's configuration.
 
 For example:
 
-* you can shift a _font image_ back by 16 pixels by writing `:offset_-16::smile:`
-* you can shift a _text_ back by 16 pixels by writing `:offset_-16:hello`
-* you can shift a _font image_ forward by 16 pixels by writing `:offset_16::smile:`
-* you can shift a _text_ forward by 16 pixels by writing `:offset_16:hello`
+* You can shift a _font image_ back by 16 pixels by writing `:offset_-16::smile:`.
+* You can shift a _text_ back by 16 pixels by writing `:offset_-16:hello`.
+* You can shift a _font image_ forward by 16 pixels by writing `:offset_16::smile:`.
+* You can shift a _text_ forward by 16 pixels by writing `:offset_16:hello`.
 
 ## PlaceholderAPI Placeholders
 
@@ -96,8 +96,8 @@ For example: `%img_smile%`
 You can shift text or font images back and forward.\
 For example&#x20;
 
-* you can shift it back of 16 pixels by writing `%img_offset_-16%`
-* you can shift it forward of 16 pixels by writing `%img_offset_16%`
+* You can shift it back of 16 pixels by writing `%img_offset_-16%`.
+* You can shift it forward of 16 pixels by writing `%img_offset_16%`.
 
 ## More tutorials
 
