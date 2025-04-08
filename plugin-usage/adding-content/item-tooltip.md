@@ -30,7 +30,7 @@ items:
 
 Create the required files into `contents/test_tooltip/textures/tooltip/`.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Tooltip support animated textures (`.png.mcmeta` files).
@@ -38,7 +38,7 @@ Tooltip support animated textures (`.png.mcmeta` files).
 
 Run `/iazip` and then get the item ingame.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Old method
 

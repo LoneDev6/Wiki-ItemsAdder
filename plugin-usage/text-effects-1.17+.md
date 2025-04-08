@@ -1,6 +1,6 @@
 ---
-icon: italic
 description: Special text animations and coloring effects
+icon: italic
 ---
 
 # Text Effects
@@ -78,7 +78,7 @@ You also have to give the permissions to each player.
 
 Remove background
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Permission: `ia.user.text_effect.use.noshadow`\
 Usage: `<noshadow text>`

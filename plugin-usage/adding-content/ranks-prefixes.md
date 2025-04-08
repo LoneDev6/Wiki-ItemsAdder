@@ -4,81 +4,56 @@ icon: hashtag
 
 # Ranks / prefixes
 
-![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (3).png>)
-
 {% hint style="warning" %}
 **You have to use** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **and** [**TAB**](https://www.spigotmc.org/resources/tab-1-5-1-21-4.57806/) **to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.**
 {% endhint %}
 
-### Download the example ranks here
+![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (3).png>)
 
-{% embed url="https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-for-itemsadder.84852/" %}
+Download the example ranks [here](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-for-itemsadder.84852/).
 
 ## Create a rank
 
-Open `contents/betterranks/configs/ranks.yml` file and **copy** and **paste** one of them.\
-Then rename it to your rank, also decide a new **.png** file name, for example `custom`.
-
-### Configuration
+Create a new file `contents/myranks/config.yml`.
 
 ```yaml
-  custom:
-    permission: "ranks.custom"
+font_images:  
+  admin:
+    permission: "ranks"
     show_in_gui: true
     suggest_in_command: false
-    path: "custom.png"
+    path: "font/admin.png"
     scale_ratio: 9
     y_position: 8
 ```
 
 {% hint style="warning" %}
-Don't change `scale_ratio` and `y_position`. It would make the ranks look pixelated.
+Don't change the PNG image height (keep it 8px), do not change `scale_ratio` and `y_position`.\
+It would make the ranks look pixelated.
 {% endhint %}
 
-### Image
+### Official tool to create custom ranks
 
-**Copy** one of my ranks **.png** files and edit it from folder `contents/betterranks/textures/`\
-\
-You can edit it using **Photoshop**, **GIMP**, **Paint.NET** or any other editing software you use.\
-For example copy `admin.png`, name it `custom.png` and edit it.
+{% embed url="https://itemsadder.github.io/minecraft-rank-generator/" %}
 
-{% hint style="danger" %}
-**Don't change the rank image height!**\
-**Change only the width or the image will look pixelated!**
-{% endhint %}
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://itemsadder.github.io/minecraft-rank-generator/">https://itemsadder.github.io/minecraft-rank-generator/</a></p></figcaption></figure>
 
-### Example
+Put the image into `contents/myranks/textures/font/admin.png`.
 
-For example in order to make a similar rank to my **BetterRanks** addon you just have to use the [Minecraftia ](https://www.dafont.com/andrew-tyler.d2526)font and cut some pixels.
+#### Create a group (for example `admin`)
 
-![](<../../.gitbook/assets/image (36).png>)
-
-![](<../../.gitbook/assets/image (37).png>)
-
-![](<../../.gitbook/assets/image (38).png>)
-
-![](<../../.gitbook/assets/image (39).png>)
-
-## Using the rank ingame
-
-### Luckperms
-
-#### Creating a group, example (admin)
-
-Use this command `/lp creategroup admin`
+Command `/lp creategroup admin`
 
 #### Add the prefix
 
-Use this command to get the editor: `/lp editor`\
-Now click on the link and open the web editor.
+Open the editor `/lp editor`.
 
-Select the role, in this case `admin`.
+Click on the link and open the web editor.\
+Select the role. In this case `admin`.
 
 ![](<../../.gitbook/assets/image (77).png>)
 
-Write `prefix.100.` followed by the prefix placeholder in the bottom input box, in this example I will use `:admin:`
-
-`prefix.100.:admin:` (make sure you write it correctly).
+Add a new permission:`prefix.100.:admin:` . Change `:admin:` based on your rank name.
 
 ![](<../../.gitbook/assets/image (80) (1).png>)
 
@@ -86,11 +61,11 @@ Press <mark style="color:green;">**`+Add`**</mark>
 
 ![](<../../.gitbook/assets/image (74) (1).png>)
 
-As you can see you have a new line in the permissions list, this is the prefix setting.
+You now have a new line in the permissions list, this is the prefix setting.
 
 ![](<../../.gitbook/assets/image (70).png>)
 
-Now save your changes
+Save your changes.
 
 ![](<../../.gitbook/assets/image (44).png>)
 
@@ -100,7 +75,7 @@ Use this command (change `LoneDev` to your player name) `/lp user LoneDev group 
 
 ![](../../.gitbook/assets/image_\(40\).png)
 
-### TAB plugin
+## TAB plugin
 
 {% hint style="warning" %}
 Make sure you installed [PlaceholderAPI](broken-reference/)
