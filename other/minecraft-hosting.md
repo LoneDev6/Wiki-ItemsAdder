@@ -8,7 +8,7 @@ icon: server
 ![](../.gitbook/assets/MMICa0s.gif)
 
 {% hint style="info" %}
-### <mark style="color:green;">使用代码</mark> <mark style="color:blue;">`LONEDEV`</mark> <mark style="color:green;">获得 20% 的折扣！</mark>
+#### <mark style="color:green;">使用代码</mark> <mark style="color:blue;">`LONEDEV`</mark> <mark style="color:green;">获得 20% 的折扣！</mark>
 
 [http://bit.ly/humble-itemsadderwiki](http://bit.ly/humble-itemsadderwiki)
 
@@ -27,4 +27,4 @@ icon: server
 
 ## 你可以在我的服务器上自行测试
 
-![](http://www.matteodev.it/spigot/test\_server\_banner.php)
+![](http://www.matteodev.it/spigot/test_server_banner.php)

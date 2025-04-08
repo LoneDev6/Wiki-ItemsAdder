@@ -92,19 +92,7 @@ MythicCraft 在其[公告](https://web.archive.org/web/20231020161618/https://my
 在 MythicCraft 的 Discord 中有部分讨论发包（发送给客户端的数据）有多低（相比于 MEG 3）。有部分用户也联系了我，引起了我的好奇。\
 但是他们的描述含有误导性。
 
-<div>
-
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
 
 我决定通过客户端 F3 界面数据，并为此制作了一个自定义 Spigot [插件](https://github.com/LoneDev6/IAMEGBenchmark)。\
 由于客户端计算发包量的方式，用户们展示的发包量并不正确。\
@@ -134,7 +122,7 @@ MEG v4 使用捆绑包，允许客户端在一定间隔内接收的数据解析�
 ### 结论
 
 ✅ 当实体静止不动且不四处走动（但显然仍在运行其当前动画）时，IA 发送的数据包较少。\
-❌ 当涉及到在世界中四处游荡的实体时，IA（目前）会发送比 MEG v3 [更多的数据包](#user-content-fn-1)[^1]\
+❌ 当涉及到在世界中四处游荡的实体时，IA（目前）会发送比 MEG v3 更多的数据包[^1]\
 ❌ 与 MEG v3 相比，IA 缺少一些功能，但这些功能不会给创建逼真的自定义实体带来任何困难。请参阅前面的比较。
 
 ✅ 相比于IA，MEG v3 会对移动实体使用更少的包（33%）。\
@@ -148,7 +136,5 @@ ModelEngine v4 引入了显示实体的使用，由于这些实体的工作方�
 
 总结：你需要决定到底哪个更适合你的服务器。
 {% endhint %}
-
-
 
 [^1]: 原因并不是很明确，可能与 IA 处理自定义实体头颅/身体朝向的逻辑（与原版Minecraft接近）有关。

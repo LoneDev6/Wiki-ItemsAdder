@@ -5,8 +5,7 @@ icon: sheet-plastic
 # 透明家具
 
 {% hint style="warning" %}
-如果你想制作一些透明或半透明的纹理，你必须确保你的物品基于接受透明度的原版物品。
-例如 **`WHITE_STAINED_GLASS`**
+如果你想制作一些透明或半透明的纹理，你必须确保你的物品基于接受透明度的原版物品。 例如 **`WHITE_STAINED_GLASS`**
 {% endhint %}
 
 ### 示例

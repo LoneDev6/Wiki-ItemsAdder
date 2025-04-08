@@ -5,7 +5,7 @@ icon: spinner-scale
 # 资源包未正确加载
 
 {% hint style="danger" %}
-#### 在寻求支持之前，请仔细阅读此页面。
+**在寻求支持之前，请仔细阅读此页面。**
 
 大多数情况下，通过阅读此页面可以轻松解决问题。
 {% endhint %}
@@ -21,10 +21,10 @@ icon: spinner-scale
 * 无限资源包加载故障
 
 {% hint style="warning" %}
-#### 自动外部托管
+**自动外部托管**
 
 自v3.6.0起，自动外部托管不再可用。\
-您需要更改托管方法，[更多信息请点击这里](../old/old-guides/automatic-upload-hosting.md)。
+您需要更改托管方法，[更多信息请点击这里](broken-reference)。
 {% endhint %}
 
 ## 如何读取服务器日志
@@ -53,11 +53,11 @@ icon: spinner-scale
 
 #### 启用输出日志
 
-![](../.gitbook/assets/image\_\(135\).png)
+![](../.gitbook/assets/image_\(135\).png)
 
 #### 加入服务器并阅读日志
 
-![](<../.gitbook/assets/json\_errors (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/json_errors (1) (1) (1) (1) (4).png>)
 
 #### 找出哪个文件损坏
 

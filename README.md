@@ -3,22 +3,22 @@ description: 该网页帮助你设置与创建自定义物品
 icon: house-blank
 ---
 
-# 欢迎
+# 欢迎界面
 
 部分网页可能包含附属连接，如果你通过此方式完成购买（免费），我会得到一定佣金。
 
 ### 💠快速访问
 
-{% content-ref url="other/tos.md" %}
-[服务条款](other/tos.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="first-install.md" %}
-[首次安装](first-install.md)
+[first-install.md](first-install.md)
 {% endcontent-ref %}
 
 {% content-ref url="plugin-usage/adding-content/" %}
-[添加物品](plugin-usage/adding-content/)
+[adding-content](plugin-usage/adding-content/)
 {% endcontent-ref %}
 
 ### 🌐社交媒体

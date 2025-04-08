@@ -4,6 +4,6 @@
 
 ## 教程
 
-{% content-ref url="../../plugin-usage/adding-content/ranks-prefixes.md" %}
-[ranks-prefixes.md](../../plugin-usage/adding-content/ranks-prefixes.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

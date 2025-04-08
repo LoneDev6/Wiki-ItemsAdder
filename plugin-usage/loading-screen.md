@@ -2,7 +2,7 @@
 icon: spinner
 ---
 
-# 加载界面
+# 加载页面
 
 ## 自定义加载界面
 
@@ -22,6 +22,6 @@ icon: spinner
 
 如果你想你可以借助 Optifine 来使用自定义图片修改加载界面。
 
-{% content-ref url="adding-content/optifine-only-features/loading-screen.md" %}
-[教程](adding-content/optifine-only-features/loading-screen.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

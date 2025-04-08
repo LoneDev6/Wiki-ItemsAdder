@@ -2,12 +2,12 @@
 icon: eye-slash
 ---
 
-# 我看不到表情符号、GUI、HUD等
+# 我看不到表情、自定义界面、HUD等
 
 ## ItemsAdder 3.4.1及以上版本
 
 * 打开**ItemsAdder**的`config.yml`
-* 启用此选项：
+*   启用此选项：
 
     ```yaml
     fix_force_unicode_font_images: true
@@ -44,7 +44,7 @@ icon: eye-slash
 记住，做出此更改后，你必须重新生成你的`generated.zip`文件。\
 查看[资源包教程](../plugin-usage/resourcepack-hosting/)
 
-### 这是结果
+#### 这是结果
 
 <img src="../.gitbook/assets/image_(7).png" alt="" data-size="original">
 

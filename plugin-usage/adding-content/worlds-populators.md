@@ -56,8 +56,8 @@ worlds_populators:
 {% endhint %}
 
 **`chunk_veins`**：在区块中生成的矿脉数量\
-**`vein_blocks`**：每个矿脉中的方块数量（或矿脉大小）\
-**`chunk_chance`**：在区块中生成的几率。你应该将其设置为 100 以生成普通矿石，并降低它以生成更稀有的矿石。
+&#xNAN;**`vein_blocks`**：每个矿脉中的方块数量（或矿脉大小）\
+&#xNAN;**`chunk_chance`**：在区块中生成的几率。你应该将其设置为 100 以生成普通矿石，并降低它以生成更稀有的矿石。
 
 {% hint style="warning" %}
 <mark style="color:red;">**旧版 ItemsAdder**</mark> 在 **3.1.6** 之前使用这些属性：\

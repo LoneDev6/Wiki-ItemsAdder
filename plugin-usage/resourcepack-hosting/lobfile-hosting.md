@@ -1,13 +1,13 @@
 # LobFile 托管
 
 {% hint style="warning" %}
-### 警告
+#### 警告
 
 该托管方法的文件大小限制是 100MB
 {% endhint %}
 
 通过**免费的在线服务**自动上传您的资源包，且服务器遍布世界各地。\
-非常感谢 **LobFile**[ ](https://ploudos.com/it/) 提供他们的平台来免费托管文件！
+非常感谢 **LobFile**[ ](https://ploudos.com/it/)提供他们的平台来免费托管文件！
 
 {% embed url="https://lobfile.com/" %}
 

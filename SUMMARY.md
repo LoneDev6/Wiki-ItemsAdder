@@ -1,4 +1,4 @@
-# 目录
+# Table of contents
 
 * [欢迎界面](README.md)
 * [捐赠 - 支持我的工作](https://donate.devs.beer)
@@ -112,7 +112,7 @@
     * [Iris](compatibility-with-other-plugins/compatible/iris.md)
     * [DimensionsAddons](compatibility-with-other-plugins/compatible/dimensionsaddons.md)
     * [Ore Regenerator](compatibility-with-other-plugins/compatible/ore-regenerator.md)
-    * [JetsPrisonMines](compatibility-with-other-plugins/compatible/ore-regenerator-1.md)
+    * [JetsPrisonMines](compatibility-with-other-plugins/compatible/jetsprisonmines.md)
     * [AlixAnimations](https://alixanimations.gitbook.io/alixanimations/fundamentals/getting-set-up/actions/compatible-plugins/itemsadder)
 * [贡献](contribute/README.md)
   * [修改英文wiki](contribute/edit-the-english-wiki.md)
@@ -124,7 +124,7 @@
 
 * [文件编辑器](plugin-usage/files-editor.md)
 * [语言](plugin-usage/languages.md)
-* [命令](plugin-usage/commands/README.md)R
+* [命令](plugin-usage/commands/README.md)
   * [iaconfig](plugin-usage/commands/iaconfig.md)
   * [iarename](plugin-usage/commands/iarename.md)
   * [iaimage](plugin-usage/commands/iaimage.md)
@@ -276,26 +276,3 @@
   * [进阶](developers/skript-api/expert-users-1.md)
 * [Denizen API](developers/denizen-api.md)
 * [ItemsAdder 标识](developers/branding.md)
-
-## 旧版指南
-
-* [旧版指南](old/old-guides/README.md)
-  * [v1 wiki](https://lonedev.gitbook.io/itemsadder)
-  * [从 1.0 升级](old/old-guides/updating-from-1.0/README.md)
-    * [转换旧版文件至 v2](old/old-guides/updating-from-1.0/convert-old-files-to-v2.md)
-    * [再游戏内转换旧版物品/方块](old/old-guides/updating-from-1.0/convert-old-items-ingame.md)
-  * ["Duplicate recipe ignored" 错误](old/old-guides/duplicate-recipe-ignored-error.md)
-  * [可替换字体文件](old/old-guides/alternative-font-file.md)
-  * [🐌 插件加载过慢](old/old-guides/plugin-loading-very-slow.md)
-  * [📤 自动外部托管](old/old-guides/automatic-upload-hosting.md)
-  * [▯ 矩形字符 - old](old/old-guides/rectangle-character-old.md)
-  * [🗑️ 移除默认内容 v3.2](faq/removing-default-stuff/old-itemsadder.md)
-  * [离开载具问题](old/old-guides/vehicle-dismount-issues.md)
-  * [(Purpur) 地图周围方块异常](old/old-guides/purpur-old-glitched-blocks-around-the-map.md)
-  * [💧 旧版液体问题](old/old-guides/old-liquids-bugs.md)
-  * [彩色文本 (旧)](old/old-guides/hex-colored-texts-1.16+.md)
-  * [Optifine CIT 不工作](faq/optifine-armor-cit-not-working.md)
-  * [OpenGL 问题](old/old-guides/opengl-error.md)
-  * [内部异常](old/old-guides/internal-exception.md)
-  * [java.lang.NoSuchFieldError: MC1\_18\_R1](old/old-guides/nosuchfielderror.md)
-  * [协议问题](old/old-guides/protocol-error.md)

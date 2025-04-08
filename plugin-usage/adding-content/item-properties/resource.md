@@ -74,7 +74,7 @@ icon: file-image
   },
 ```
 
-你需要将其改为如下内容 (`your_namespace` 是你的[命名空间](broken-reference))：
+你需要将其改为如下内容 (`your_namespace` 是你的[命名空间](broken-reference/))：
 
 ```yaml
 {
@@ -92,13 +92,13 @@ icon: file-image
 ### 家具
 
 {% content-ref url="../advanced-furniture-properties/transparent-furniture.md" %}
-[透明家具](../advanced-furniture-properties/transparent-furniture.md)
+[transparent-furniture.md](../advanced-furniture-properties/transparent-furniture.md)
 {% endcontent-ref %}
 
 ### 方块
 
 {% content-ref url="../block.md" %}
-[方块](../block.md)
+[block.md](../block.md)
 {% endcontent-ref %}
 
 ## 手动指定 custom\_model\_data
@@ -129,7 +129,7 @@ items:
 ```
 
 {% hint style="warning" %}
-### **重要**
+#### **重要**
 
 如果您之前创建了此物品，并且已经使用了 `/iazip` 命令，现在更改了 `model_id`，则必须使用此命令。\
 运行 `/iacleancache items` 来**移除未使用的 ID** 并**更新改变了的 ID** 很重要。

@@ -40,7 +40,7 @@ permission_suffix: myitem
 目前这是该权限的唯一用法。
 
 {% content-ref url="permission.md" %}
-[权限列表](permission.md)
+[permission.md](permission.md)
 {% endcontent-ref %}
 
 ## `lore`
@@ -189,9 +189,9 @@ items:
 ## `show_name`
 
 你可以让掉落物显示名字。\
-对于**珍稀物品**很有用。\
+对于**珍稀物品**很有用。\\
 
-![](<../../../.gitbook/assets/image_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image_(118) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (4) (1) (1) (1) (1) (6).png>)
 
 ```yaml
   glowing_item:
@@ -208,11 +208,11 @@ items:
 ## `template` 与 `variant_of`
 
 {% content-ref url="templates-and-variants.md" %}
-[模板与变种](templates-and-variants.md)
+[templates-and-variants.md](templates-and-variants.md)
 {% endcontent-ref %}
 
 ## 使用官方编辑器读取所有属性
 
 {% content-ref url="../../files-editor.md" %}
-[文件编辑器](../../files-editor.md)
+[files-editor.md](../../files-editor.md)
 {% endcontent-ref %}

@@ -1,6 +1,6 @@
 ---
-icon: italic
 description: 特殊文本动画和着色效果
+icon: italic
 ---
 
 # 文本效果
@@ -84,7 +84,7 @@ effects:
 用法: `<noshadow text>`
 
 {% hint style="info" %}
-### Note
+#### Note
 
 在Minecraft **1.21.4**中，你可以在 JSON 组件中使用 `"shadow_color":0` 属性来隐藏阴影。但这需要你具有 JSON 组件的相关知识。
 {% endhint %}

@@ -1,4 +1,4 @@
-# HUD、GUI、图像及更多
+# HUD、界面、图像及更多
 
 要了解如何使用 HUD 和 GUI API（字体图像），您可以查看我的示例。
 
@@ -25,7 +25,7 @@ else
 ```
 
 {% hint style="warning" %}
-### 注意
+#### 注意
 
 确保您没有权限 `ia.user.hud.bypass.api.*` 否则 `setFloatValue` 代码将不会执行任何操作。
 {% endhint %}

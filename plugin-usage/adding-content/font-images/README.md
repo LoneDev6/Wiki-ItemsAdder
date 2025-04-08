@@ -1,6 +1,5 @@
 ---
-description: >-
-  允许你创建可以在文本中使用的图像，也称为字形和符号
+description: 允许你创建可以在文本中使用的图像，也称为字形和符号
 icon: icons
 ---
 
@@ -8,16 +7,16 @@ icon: icons
 
 ### 什么是字体图像？
 
-此功能允许你创建可以用于制作：**GUI**、**HUD**、**表情符号**、自定义字符、[**自定义玩家前缀**](../ranks-prefixes.md)和你能想象到的任何其他内容的图像！（你可以将这些图像放在任何文本中）。
+此功能允许你创建可以用于制作：**GUI**、**HUD**、**表情符号**、自定义字符、[**自定义玩家前缀**](broken-reference)和你能想象到的任何其他内容的图像！（你可以将这些图像放在任何文本中）。
 
 ## 教程
 
-{% content-ref url="../ranks-prefixes.md" %}
-[等级前缀](../ranks-prefixes.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="emojis.md" %}
-[表情符号](emojis.md)
+[emojis.md](emojis.md)
 {% endcontent-ref %}
 
 ## 使用特定字符
@@ -44,17 +43,17 @@ Minecraft 将在你每次在聊天中输入 `鄿` 时显示笑脸表情符号。
 你可以这样做，你只需要创建一个 `default.json` 文件并自行处理。
 
 {% content-ref url="manually-creating-font-images.md" %}
-[手动创建字体图像](manually-creating-font-images.md)
+[manually-creating-font-images.md](manually-creating-font-images.md)
 {% endcontent-ref %}
 
 ## 使用字体图像功能创建的内容示例
 
-![](../../../.gitbook/assets/image\_\(106\).png)
+![](../../../.gitbook/assets/image_\(106\).png)
 
 ![](<../../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (6).png>)
 
-![](../../../.gitbook/assets/image\_\(107\).png)
+![](../../../.gitbook/assets/image_\(107\).png)
 
-![](../../../.gitbook/assets/image\_\(108\).png)
+![](../../../.gitbook/assets/image_\(108\).png)
 
-![](../../../.gitbook/assets/image\_\(109\).png)
+![](../../../.gitbook/assets/image_\(109\).png)

@@ -9,7 +9,7 @@ icon: volume-low
 使用[这个网站](https://audio.online-convert.com/convert-to-ogg)将你的文件（mp3, wav 等）转换为 ogg。
 
 {% hint style="warning" %}
-### 重要
+#### 重要
 
 记得将“更改音频通道”设置为单声道，否则你会遇到[音频问题](https://bugs.mojang.com/browse/MC-146721)
 
@@ -18,7 +18,7 @@ icon: volume-low
 
 ### 步骤 1
 
-* 创建一个新文件夹 `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/` \
+* 创建一个新文件夹 `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/`\
   （如果你已经有一个文件夹，可以使用它）
 * 将你的 **.ogg** 文件放在里面。\
   你也可以在 `sounds` 文件夹内创建更多文件夹来组织你的声音文件。\
@@ -48,7 +48,7 @@ icon: volume-low
 
 #### 现在我解释我写的代码的每一部分。
 
-这是声音名称。你将在插件的每个部分以及 Minecraft 原版的 [/playsound ](https://www.digminecraft.com/game\_commands/playsound\_command.php)命令中使用它。
+这是声音名称。你将在插件的每个部分以及 Minecraft 原版的 [/playsound ](https://www.digminecraft.com/game_commands/playsound_command.php)命令中使用它。
 
 ```javascript
 "music.song_1":{

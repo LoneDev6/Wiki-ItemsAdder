@@ -81,8 +81,7 @@ icon: head-side-gear
 
 通过使用自定义的 json 字体文件，你可以将默认字体字符与自定义字符分开。
 
-为此，你只需创建一个新的 json 文件并随意命名，例如 `my_font.json`。
-完整路径将是：`assets/minecraft/font/my_font.json`。
+为此，你只需创建一个新的 json 文件并随意命名，例如 `my_font.json`。 完整路径将是：`assets/minecraft/font/my_font.json`。
 
 ## 使用自定义 json 命名空间
 

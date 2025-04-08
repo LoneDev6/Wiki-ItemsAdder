@@ -1,12 +1,12 @@
 ---
-icon: lock-keyhole
 description: 如何保护你的资源包。
+icon: lock-keyhole
 ---
 
-# 资源包保护
+# 保护资源包
 
 {% hint style="danger" %}
-## 免责声明
+### 免责声明
 
 没有完全有效的方式来保护资源包，因为游戏必须能够正确提取资源来显示纹理。
 

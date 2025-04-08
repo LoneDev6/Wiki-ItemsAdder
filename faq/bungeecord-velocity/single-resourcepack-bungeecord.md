@@ -1,12 +1,11 @@
 ---
-description: >-
-  使用网络范围资源包，避免玩家每次加入时重新下载不同的资源包
+description: 使用网络范围资源包，避免玩家每次加入时重新下载不同的资源包
 ---
 
 # Bungeecord 单一资源包
 
 {% hint style="danger" %}
-## 本教程已过时，需要重写。
+### 本教程已过时，需要重写。
 {% endhint %}
 
 ## 网络范围资源包
@@ -37,7 +36,7 @@ description: >-
 打开 `lobby` 服务器中 ItemsAdder 的 `config.yml` 并设置托管。
 
 {% content-ref url="../../plugin-usage/resourcepack-hosting/" %}
-[资源包托管](../../plugin-usage/resourcepack-hosting/)
+[resourcepack-hosting](../../plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
 {% hint style="info" %}

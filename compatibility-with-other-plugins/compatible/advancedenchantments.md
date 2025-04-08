@@ -26,10 +26,8 @@ items:
       - Immolation
 ```
 
-
-
 {% hint style="warning" %}
-## 警告
+### 警告
 
 为了在 **ItemsAdder** 物品中启用 **AdvancedEnchantments** 的自定义附魔，你需要在 **ItemsAdder** 的 config.yml 中启用下方设置.
 

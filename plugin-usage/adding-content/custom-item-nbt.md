@@ -22,7 +22,7 @@ icon: binary
 ## 从文件中注入 NBT 属性
 
 {% hint style="warning" %}
-### 这是 ItemsAdder 4.0.8 的新功能
+#### 这是 ItemsAdder 4.0.8 的新功能
 {% endhint %}
 
 {% code title="my_item_file.yml" %}
@@ -73,7 +73,7 @@ items:
 ## 旧方法，从 NBT 字符串注入
 
 {% hint style="warning" %}
-### 注意
+#### 注意
 
 确保使用 `\` 转义 `"` 字符。\
 在将字符串用于 YML 之前，请使用我的 [转义/取消转义工具](https://escape-mc-components.lonedev.workers.dev/) 来转义字符串。
@@ -168,4 +168,3 @@ items:
         attackDamage: 30
         attackSpeed: 25
 ```
-
