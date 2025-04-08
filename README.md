@@ -9,8 +9,8 @@ Some of this website pages may contain affiliate links, meaning I get a commissi
 
 ### 💠Quick Links
 
-{% content-ref url="other/tos.md" %}
-[tos.md](other/tos.md)
+{% content-ref url="help/tos.md" %}
+[tos.md](help/tos.md)
 {% endcontent-ref %}
 
 {% content-ref url="plugin-usage/first-install.md" %}

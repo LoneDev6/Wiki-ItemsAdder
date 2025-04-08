@@ -239,19 +239,22 @@
 
 ## Other
 
-* [Terms Of Service](other/tos.md)
-* [Ask For Help](https://forum.devs.beer/d/16-getting-support)
-* [Optimize Minecraft client](https://blog.devs.beer/optimize-minecraft)
 * [Resourcepack Protection](other/resourcepack-protection.md)
 * [Custom Player Stats](other/custom-player-stats.md)
 * [Hide Scoreboard Background and Numbers](other/hide-scoreboard-numbers-1.17+.md)
 * [Loading screen](other/loading-screen.md)
 * [Bulk colorize images](other/bulk-colorize-images.md)
 * [Showcases](other/videos-by-users.md)
+* [Minecraft Server Hosting](other/minecraft-hosting.md)
 
 ***
 
-* [Minecraft Server Hosting](minecraft-hosting.md)
+* [Optimize Minecraft client](https://blog.devs.beer/optimize-minecraft)
+
+## HELP
+
+* [Terms Of Service](help/tos.md)
+* [Ask For Help](https://forum.devs.beer/d/16-getting-support)
 
 ## Developers
 
@@ -265,38 +268,4 @@
   * [Expert users](developers/skript-api/expert-users-1.md)
 * [Denizen API](developers/denizen-api.md)
 * [Branding](developers/branding.md)
-
-## OLD
-
-* [Old guides](old/old-guides/README.md)
-  * [v1 wiki](https://lonedev.gitbook.io/itemsadder)
-  * [Updating from 1.0](old/old-guides/updating-from-1.0/README.md)
-    * [Convert old files to v2](old/old-guides/updating-from-1.0/convert-old-files-to-v2.md)
-    * [Convert old items/blocks ingame](old/old-guides/updating-from-1.0/convert-old-items-ingame.md)
-  * ["Duplicate recipe ignored" error](old/old-guides/duplicate-recipe-ignored-error.md)
-  * [Alternative font file](old/old-guides/alternative-font-file.md)
-  * [🐌 Plugin loading very slow](old/old-guides/plugin-loading-very-slow.md)
-  * [📤 Automatic external hosting](old/old-guides/automatic-upload-hosting.md)
-  * [▯ rectangle character - old](old/old-guides/rectangle-character-old.md)
-  * [🗑️ Remove default content v3.2](faq/removing-default-stuff/old-itemsadder.md)
-  * [Vehicle dismount issues](old/old-guides/vehicle-dismount-issues.md)
-  * [(Purpur) old Glitched blocks around the map](old/old-guides/purpur-old-glitched-blocks-around-the-map.md)
-  * [💧 Old Liquids bugs](old/old-guides/old-liquids-bugs.md)
-  * [Colored texts (old)](old/old-guides/hex-colored-texts-1.16+.md)
-  * [Optifine armor CIT not working](old/old-guides/optifine-armor-cit-not-working.md)
-  * [OpenGL Error](old/old-guides/opengl-error.md)
-  * [Internal Exception](old/old-guides/internal-exception.md)
-  * [java.lang.NoSuchFieldError: MC1\_18\_R1](old/old-guides/nosuchfielderror.md)
-  * [Protocol error](old/old-guides/protocol-error.md)
-  * [🗿 3.3 vs 3.2](old/old-guides/3-3-vs-3-2.md)
-  * [Optifine only features](old/old-guides/optifine-only-features/README.md)
-    * [Optifine loading screen](old/old-guides/optifine-only-features/loading-screen.md)
-    * [Armor textures CIT](old/old-guides/optifine-only-features/armor-textures-cit.md)
-  * [Mohist issues](old/old-guides/mohist-issues.md)
-  * [Custom Mobs (old method)](old/old-guides/old-method/README.md)
-    * [Creating the mob](old/old-guides/old-method/creating-the-mob/README.md)
-      * [Configuration](old/old-guides/old-method/creating-the-mob/configuration.md)
-      * [3D model](old/old-guides/old-method/creating-the-mob/3d-model.md)
-    * [Spawning custom mobs naturally](old/old-guides/old-method/spawning-custom-mobs-naturally/README.md)
-      * [Using MythicMobs](old/old-guides/old-method/spawning-custom-mobs-naturally/using-mythicmobs.md)
-      * [ItemsAdder internal](old/old-guides/old-method/spawning-custom-mobs-naturally/itemsadder-internal.md)
+* [Scripting (WIP)](developers/scripting-wip.md)
