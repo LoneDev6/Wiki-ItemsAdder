@@ -9,6 +9,10 @@ To do so you have to create a new `.yml` file, which is not mandatory for emotes
 
 `cancel_conditions`: The various actions which will make the animation stop.
 
+`stop_sounds`: Stops all played sound on emote cancel.
+
+`skip_emote_end`: Interrupts the emote on cancel.
+
 ## Example
 
 ```yaml
@@ -35,4 +39,7 @@ emotes:
       mainhand: false
       offhand: false
     can_player_move: true
+    on_stop:
+      stop_sounds: true
+      skip_emote_end: true
 ```
