@@ -2,63 +2,113 @@
 icon: bolt-lightning
 ---
 
-# ItemsAdder v4
+# ItemsAdder v4: Version Guide
 
-## Introduction
+## Version Compatibility Overview
 
-Maintaining compatibility for 6 versions of the game became a very hard task which is impacting too much over the quality of the product and its updates release delay.
+ItemsAdder now has two main version branches:
 
-I decided to discard compatibility for 1.15 to 1.20.4 in favor of a better 1.20.5+ experience.
+- **ItemsAdder v3**: Supports Minecraft 1.15 through 1.20.4
+- **ItemsAdder v4**: Supports Minecraft 1.20.6 and newer versions
 
-## What the community thinks
+{% hint style="danger" %}
+**Important:** Always use the correct ItemsAdder version for your Minecraft server version:
 
-The Discord community has voted to discard old versions compatibility, so this decision wasn't taken completely out of nowhere.
+- For MC 1.15 - 1.20.4: Use ItemsAdder v3.x
+- For MC 1.20.6+: Use ItemsAdder v4.x
+  {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+## Key Differences in v4
 
+### New Features and Improvements
 
+The v4 branch includes several significant improvements:
 
-## ViaVersion madness
+| Feature                    | v3 (1.15-1.20.4)                | v4 (1.20.6+)                                          |
+| -------------------------- | ------------------------------- | ----------------------------------------------------- |
+| Resource Pack System       | Legacy format                   | Optimized format with improved performance            |
+| Item Display Support       | Limited                         | Full support for the new entity type                  |
+| Resourcepack Apply Process | Standard                        | Enhanced reliability with 1.20.6+ improvements        |
+| Dependencies               | Requires ProtocolLib + LoneLibs | Only requires ProtocolLib (LoneLibs no longer needed) |
+| Compatibility Layer        | Complex multi-version support   | Streamlined single-version support                    |
 
-ViaVersion is a cancer if used incorrectly. The purpose of ViaVersion was to be able to allow clients to connect to a multi-version lobby where players can decide which server they want to join.
+### Technical Changes
 
-Each server has its own version, for example, survival is 1.20.5 and PVP is 1.8. This allows people to connect to the same lobby server which is the main hub of the server community.
+- Removed legacy compatibility code for better stability
+- Improved resourcepack application process
+- Optimized internal systems for better performance
+- Enhanced furniture placement and rendering
+- Streamlined API for developers
 
-Server admins abuse this power to allow players to play on survival servers by joining via 1.8, 1.9, 1.13, 1.18, 1.20 on 1.20.x servers. This causes multiple incompatibilities, instabilities, bugs, glitches to happen.\
-The reason for this to happen is because clients (and servers) had A TON of changes between their versions, most of them are crucial.
+## Migration Guide: v3 to v4
 
-Expecting a flawless gameplay is impossible because of how many changes were introduced between versions.
+If you're upgrading your server to Minecraft 1.20.6+, follow these steps to migrate from ItemsAdder v3 to v4:
 
-A clear example of a successful server which allows only one version to join is [OriginRealms](https://originrealms.com) which is one of the most customized Minecraft multiplayer survival experience, no one can tell the opposite.
+1. **Backup Everything**
 
-I don't see any reason to continue this nonsense of expecting gameplay to be stable while allowing ancient versions of the game to join your server, or worse, keep an old version of the server and allow new client versions to join.
+   - Create a complete backup of your server
+   - Save a copy of your `plugins/ItemsAdder` folder
 
-ItemsAdder has tons of hacks coded to check client version and server version and then enable some special fixes to avoid crashes/glitches (let's say) on 1.18 clients joining 1.20 servers. I want to stop having to maintain this kind of tricks which are unstable and introduce nothing but stress to both me and the customer.
+2. **Update Your Server**
 
-So please, consider to stop allowing multiple versions to join your survival/gamemode server.
+   - Update your server software to 1.20.6 or newer
+   - Remove the LoneLibs plugin (no longer required for v4.0.9+)
+   - Ensure ProtocolLib is updated to the latest version
 
-## So why dropping old versions compatibility?
+3. **Install ItemsAdder v4**
 
-* less incline to bugs due to less hacky code
-* faster updates, no need to keep 6 versions implementations updated
-* new features like [item display](https://github.com/PluginBugs/Issues-ItemsAdder/issues/2458) and some other interesting features for [itemstacks](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3536)
-* more reliable resourcepack apply process due to recent [1.20.3+ changes](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3585)
-* lot of old tricks to add old versions compatibility will be removed to make the plugin more stable
+   - Remove the old ItemsAdder v3 JAR file
+   - Add the new ItemsAdder v4 JAR file to your plugins folder
 
-## Final words
+4. **Configuration Compatibility**
+
+   - Most configurations remain compatible between versions
+   - Run `/iazip` after the update to regenerate the resourcepack
+   - Test all custom content to ensure proper functionality
+
+5. **Check for Issues**
+   - Some custom models may need adjustments for the new version
+   - Review the [troubleshooting guide](identify-why-textures-are-not-shown.md) if you encounter any issues
+
+## Technical Rationale
+
+### Why v4 Dropped Older Version Support
+
+The decision to create a version-specific branch was made to:
+
+1. **Reduce Bugs**: Remove complex compatibility code that caused instability
+2. **Enable New Features**: Take advantage of Minecraft 1.20.6+ improvements
+3. **Improve Performance**: Optimize internal systems without legacy constraints
+4. **Speed Development**: Allow faster updates and new feature implementation
+5. **Enhance Stability**: Focus on quality rather than backward compatibility
+
+### About Multi-Version Support
+
+Running a server with ViaVersion to support multiple client versions can cause various issues:
+
+- Inconsistent behavior between client versions
+- Visual glitches in custom content
+- Compatibility problems with new features
+- Performance impacts from version translation
 
 {% hint style="info" %}
-You should really consider migrating your ancient server to 1.20.5 and stop **abusing** ViaVersion. Players, admins and me don't get any advantage over using ViaVersion to allow multiple versions to join your server, it just introduces a ton of stress and frustration.
+**Best Practice Recommendation**: For optimal performance and reliability, configure your server to require the same Minecraft version as your server software, rather than using ViaVersion to allow multiple client versions.
 {% endhint %}
 
-{% hint style="success" %}
-Old versions will still be downloadable so you can keep using legacy ItemsAdder versions and don't update to the new versions.
-{% endhint %}
+## Frequently Asked Questions
 
-{% hint style="info" %}
-I will continue fixing compatibility issues with multi-version environments only if:
+### Can I keep using v3 if I don't want to update my server?
 
-* the issue is a game breaking issue and causes damage to the gameplay
-* the issue is actually fixable. I cannot guarantee it is because I have no control over to the client code changes, I don't work for Mojang
-{% endhint %}
+Yes, ItemsAdder v3 will remain available for download and will continue to work on Minecraft servers running versions 1.15 through 1.20.4.
 
+### Will my custom content work after upgrading to v4?
+
+Most custom content will work without changes. However, you should thoroughly test everything after upgrading, as some advanced customizations might require adjustments.
+
+### Do I need to remake my resourcepack for v4?
+
+No, you don't need to remake your resourcepack. Running `/iazip` after the update will automatically regenerate the resourcepack in the correct format for v4.
+
+### Will v3 receive updates in the future?
+
+v3 will receive critical bugfix updates but will not receive new features. The development focus is now primarily on v4 and future versions.

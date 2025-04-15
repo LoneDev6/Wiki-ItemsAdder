@@ -4,7 +4,114 @@ icon: square-terminal
 
 # Commands
 
-<table><thead><tr><th width="159">Command</th><th>Permission</th><th width="256">Usage</th><th>Description</th></tr></thead><tbody><tr><td>iatexture</td><td><code>ia.user.iatexture</code></td><td><code>/iatexture</code></td><td>Force the client to reload resourcepack</td></tr><tr><td>iatexture</td><td><code>ia.user.iatexture.all</code></td><td><code>/iatexture [all|player]</code></td><td>Force the client to reload resourcepack (a player or everyone)</td></tr><tr><td>iaget</td><td><code>ia.admin.iaget</code></td><td><code>/iaget &#x3C;item> [amount]</code></td><td>Get custom item by namespaced id or by id</td></tr><tr><td>iagive</td><td><code>ia.admin.iagive</code></td><td><code>/iagive &#x3C;item> [amount] [silent]</code></td><td>Give custom item to player</td></tr><tr><td>iadrop</td><td><code>ia.admin.iadrop</code></td><td><code>/iadrop &#x3C;item> [amount]</code></td><td>Drop custom item at coords or at player location</td></tr><tr><td>iaremove</td><td><code>ia.admin.iaremove</code></td><td><code>/iaremove &#x3C;item> [amount] [silent]</code></td><td>Remove custom item from player inventory</td></tr><tr><td>iatag</td><td><code>ia.admin.iatag</code></td><td><code>/iatag</code></td><td>Shows custom item debug info</td></tr><tr><td>iacustommodeldata</td><td><code>ia.admin.custommodeldata</code></td><td><code>/iacustommodeldata</code></td><td>Shows custom item CustomModelData</td></tr><tr><td>iaplayerstat</td><td><code>ia.admin.iaplayerstat</code></td><td><code>/iaplayerstat &#x3C;read|write|increment|decrement> &#x3C;player> &#x3C;attribute> [value] [silent]</code></td><td>Access the command</td></tr><tr><td>iaplayerstat</td><td><code>ia.admin.iaplayerstat.read</code></td><td><code>/iaplayerstat &#x3C;read> &#x3C;player> &#x3C;attribute></code></td><td>Reads a custom player stat value</td></tr><tr><td>iaplayerstat</td><td><code>ia.admin.iaplayerstat.write</code></td><td><code>/iaplayerstat write &#x3C;player> &#x3C;attribute> &#x3C;value> [silent]</code></td><td>Set a custom player stat (and update HUD) value</td></tr><tr><td>iaplayerstat</td><td><code>ia.admin.iaplayerstat.write</code></td><td><code>/iaplayerstat increment &#x3C;player> &#x3C;attribute> &#x3C;amount> [silent]</code></td><td>Increment a custom player stat (and update HUD) value</td></tr><tr><td>iaplayerstat</td><td><code>ia.admin.iaplayerstat.write</code></td><td><code>/iaplayerstat decrement &#x3C;player> &#x3C;attribute> &#x3C;amount> [silent]</code></td><td>Decrement a custom player stat (and update HUD) value</td></tr><tr><td>ia</td><td><code>ia.user.ia</code></td><td><code>/ia</code></td><td>Opens items list GUI</td></tr><tr><td>ia</td><td><code>ia.user.ia.categories</code></td><td><code>/ia &#x3C;category></code></td><td>Opens an items category GUI</td></tr><tr><td>ia</td><td><code>ia.user.ia.categories.others</code></td><td><code>/ia &#x3C;category> [player]</code></td><td>Opens an items category GUI to other users</td></tr><tr><td>iarepair</td><td><code>ia.admin.iarepair</code></td><td><code>/iarepair</code></td><td>Repairs current item (vanilla or custom)</td></tr><tr><td><a href="iarename.md">iarename</a></td><td><code>ia.admin.iarename</code></td><td><code>/iarename &#x3C;name></code></td><td>Rename current item (vanilla or custom). Supports emojis (font_images) and ItemsAdder text-effects.</td></tr><tr><td>iadurability</td><td><code>ia.admin.iadurability</code></td><td><code>/iadurability</code></td><td>Modify durability of current item (vanilla or custom)</td></tr><tr><td>iareload</td><td><code>ia.admin.iareload</code></td><td><code>/iareload</code></td><td>Reloads configuration files</td></tr><tr><td>iazip</td><td><code>ia.admin.iazip</code></td><td><code>/iazip</code></td><td>Executes /iareload and generates pack file</td></tr><tr><td>iablock</td><td><code>ia.admin.iablock</code></td><td><code>/iablock</code></td><td>Show info about block you're looking at</td></tr><tr><td>ialiquid</td><td><code>ia.admin.ialiquid</code></td><td><code>/ialiquid [x] [y] [z]</code></td><td>Show info about liquid you're looking at</td></tr><tr><td><a href="iaimage.md">e</a></td><td><code>ia.user.image.gui</code></td><td><code>/iaimage</code></td><td>Show list of font images (emojis, huds...). Can also be used to send messages with emojis autocomplete.</td></tr><tr><td>iarecipe</td><td><code>ia.user.iarecipe</code></td><td><code>/iarecipe [item]</code></td><td>Show item recipe GUI</td></tr><tr><td>iahud</td><td><code>ia.admin.iahud</code></td><td><code>/iahud [name]</code></td><td>Force show/hide a HUD manually by namespaced id</td></tr><tr><td>iainfo</td><td><code>ia.admin.iainfo</code></td><td><code>/iainfo</code></td><td>Shows info about the plugin</td></tr><tr><td>iakill</td><td><code>ia.admin.iakill</code></td><td><code>/iakill</code></td><td>Kills custom mobs</td></tr><tr><td>iasummon</td><td><code>ia.admin.iasummon</code></td><td><code>/iasummon [amount]</code></td><td>Summons custom mobs</td></tr><tr><td>iaspawntree</td><td><code>ia.admin.iaspawntree</code></td><td><code>/iaspawntree</code> &#x3C;tree></td><td>Spawns a custom tree</td></tr><tr><td>iaplaytotemanimation</td><td><code>ia.admin.iatotemanimation</code></td><td><code>/iaplaytotemanimation &#x3C;totem> &#x3C;player></code></td><td>Shows a Totem Of Undying animation</td></tr><tr><td>iaplaysound</td><td><code>ia.admin.iaplaysound</code></td><td><code>/iaplaysound &#x3C;sound> &#x3C;player></code></td><td>Play itemsadder sounds. <br>Useful in console since vanilla /playsound is bugged in console.</td></tr><tr><td>iacleancache</td><td><code>ia.admin.iacleancache</code></td><td><code>/iacleancache</code></td><td>Cleans unused IDs from cache to allow them to be used by future added blocks / items.</td></tr><tr><td>iasha1</td><td><code>ia.user.iasha1</code></td><td><code>/iasha1</code></td><td>Calculates sha1 of the current resourcepack.</td></tr><tr><td>iahitbox</td><td><code>ia.admin.iahitbox</code></td><td><code>/iahitbox</code></td><td>Shows the hitbox of placed furnitures.</td></tr><tr><td><a href="iaconfig.md">iaconfig</a></td><td><code>ia.admin.iaconfig</code></td><td><code>/iaconfig</code></td><td>Main command to execute some operations on the plugin configurations.<br>Read <a href="iaconfig.md">here</a> for more info.</td></tr><tr><td>iaentity</td><td><code>ia.admin.iaentity</code></td><td><code>/iaentity</code></td><td>Main command to manage custom entities.</td></tr><tr><td>iaemote</td><td><ul><li><code>ia.user.iaemote</code></li><li><code>ia.user.iaemote.others</code></li></ul></td><td><code>/iaemote &#x3C;emote> [player]</code></td><td>Play custom player animation.</td></tr></tbody></table>
+This page lists all available ItemsAdder commands. Commands are organized by category to help you find what you need more easily. For each command, you'll find its permission node, usage syntax, and a description of what it does.
+
+## Resource Pack Management
+
+| Command | Permission | Usage | Description |
+|---------|------------|-------|-------------|
+| iatexture | `ia.user.iatexture` | `/iatexture` | Force your client to reload the resourcepack |
+| iatexture | `ia.user.iatexture.all` | `/iatexture [all\|player]` | Force a player or all players to reload the resourcepack |
+| iazip | `ia.admin.iazip` | `/iazip` | Reloads configuration files and generates a new resourcepack |
+| iasha1 | `ia.user.iasha1` | `/iasha1` | Calculates SHA1 hash of the current resourcepack (useful for troubleshooting) |
+
+## Item Management
+
+| Command | Permission | Usage | Description |
+|---------|------------|-------|-------------|
+| iaget | `ia.admin.iaget` | `/iaget <item> [amount]` | Get a custom item by its namespaced ID or simple ID |
+| iagive | `ia.admin.iagive` | `/iagive <item> [amount] [silent]` | Give a custom item to a player |
+| iadrop | `ia.admin.iadrop` | `/iadrop <item> [amount]` | Drop a custom item at coordinates or at player location |
+| iaremove | `ia.admin.iaremove` | `/iaremove <item> [amount] [silent]` | Remove a custom item from player inventory |
+| iatag | `ia.admin.iatag` | `/iatag` | Shows debug information about the custom item you're holding |
+| iacustommodeldata | `ia.admin.custommodeldata` | `/iacustommodeldata` | Shows the CustomModelData value of the item you're holding |
+| iarepair | `ia.admin.iarepair` | `/iarepair` | Repairs the item you're currently holding (works with vanilla or custom items) |
+| [iarename](iarename.md) | `ia.admin.iarename` | `/iarename <name>` | Rename the item you're holding (supports emojis and text effects) |
+| iadurability | `ia.admin.iadurability` | `/iadurability` | Modify durability of the item you're holding |
+
+## Block and World Management
+
+| Command | Permission | Usage | Description |
+|---------|------------|-------|-------------|
+| iablock | `ia.admin.iablock` | `/iablock` | Show information about the block you're looking at |
+| ialiquid | `ia.admin.ialiquid` | `/ialiquid [x] [y] [z]` | Show information about the liquid you're looking at or at coordinates |
+| iaspawntree | `ia.admin.iaspawntree` | `/iaspawntree <tree>` | Spawn a custom tree at your location |
+| iahitbox | `ia.admin.iahitbox` | `/iahitbox` | Shows the hitbox of placed furniture |
+| iacleancache | `ia.admin.iacleancache` | `/iacleancache` | Cleans unused IDs from cache to free them up for future items/blocks |
+
+## Entity Management
+
+| Command | Permission | Usage | Description |
+|---------|------------|-------|-------------|
+| iakill | `ia.admin.iakill` | `/iakill` | Kills custom mobs in your vicinity |
+| iasummon | `ia.admin.iasummon` | `/iasummon [amount]` | Summons custom mobs at your location |
+| iaentity | `ia.admin.iaentity` | `/iaentity` | Main command to manage custom entities |
+
+## UI and Visual Effects
+
+| Command | Permission | Usage | Description |
+|---------|------------|-------|-------------|
+| ia | `ia.user.ia` | `/ia` | Opens the items list GUI |
+| ia | `ia.user.ia.categories` | `/ia <category>` | Opens a specific items category GUI |
+| ia | `ia.user.ia.categories.others` | `/ia <category> [player]` | Opens an items category GUI for another player |
+| iarecipe | `ia.user.iarecipe` | `/iarecipe [item]` | Shows the recipe GUI for an item |
+| iahud | `ia.admin.iahud` | `/iahud [name]` | Manually show/hide a specific HUD by namespaced ID |
+| [iaimage](iaimage.md) | `ia.user.image.gui` | `/iaimage` | Shows list of font images (emojis, HUDs) with autocomplete for chat |
+| iaplaytotemanimation | `ia.admin.iatotemanimation` | `/iaplaytotemanimation <totem> <player>` | Shows a custom Totem Of Undying animation |
+| iaemote | `ia.user.iaemote` | `/iaemote <emote> [player]` | Play a custom player animation/emote |
+
+## Player Stats and Audio
+
+| Command | Permission | Usage | Description |
+|---------|------------|-------|-------------|
+| iaplayerstat | `ia.admin.iaplayerstat` | `/iaplayerstat <read\|write\|increment\|decrement> <player> <attribute> [value] [silent]` | Main command to manage custom player stats |
+| iaplayerstat | `ia.admin.iaplayerstat.read` | `/iaplayerstat read <player> <attribute>` | Read a custom player stat value |
+| iaplayerstat | `ia.admin.iaplayerstat.write` | `/iaplayerstat write <player> <attribute> <value> [silent]` | Set a custom player stat value (and update HUD) |
+| iaplayerstat | `ia.admin.iaplayerstat.write` | `/iaplayerstat increment <player> <attribute> <amount> [silent]` | Increase a custom player stat by specified amount |
+| iaplayerstat | `ia.admin.iaplayerstat.write` | `/iaplayerstat decrement <player> <attribute> <amount> [silent]` | Decrease a custom player stat by specified amount |
+| iaplaysound | `ia.admin.iaplaysound` | `/iaplaysound <sound> <player>` | Play ItemsAdder custom sounds (useful in console) |
+
+## Configuration and System
+
+| Command | Permission | Usage | Description |
+|---------|------------|-------|-------------|
+| iareload | `ia.admin.iareload` | `/iareload` | Reload all configuration files without regenerating the resourcepack |
+| iainfo | `ia.admin.iainfo` | `/iainfo` | Show information about the plugin, including version and resourcepack URL |
+| [iaconfig](iaconfig.md) | `ia.admin.iaconfig` | `/iaconfig` | Configure various plugin settings (see [detailed documentation](iaconfig.md)) |
+
+## Command Parameters Explained
+
+- **`<required>`**: These parameters must be specified for the command to work
+- **`[optional]`**: These parameters can be omitted and will use default values
+- **`<player>`**: A player username or target selector (like @p, @a, etc.)
+- **`[silent]`**: When included, prevents showing notification messages to players
+- **`<item>`**: Can be either a namespaced ID (`namespace:item_id`) or just the item ID
+
+## Examples
+
+Here are some examples of common command usage:
+
+```
+# Get 5 ruby items from the default ItemsAdder pack
+/iaget ia:ruby 5
+
+# Give 1 amethyst sword to player Steve silently
+/iagive steve my_items:amethyst_sword 1 true
+
+# Show information about the plugin
+/iainfo
+
+# Update a player's custom thirst stat
+/iaplayerstat write Steve thirst 80
+
+# Create a new resourcepack after making configuration changes
+/iazip
+
+# Play a custom emote animation
+/iaemote dance
+```
+
+For more detailed information about specific commands, click on the linked command names or check the relevant sections of this documentation.
 
 
 

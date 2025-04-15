@@ -3,410 +3,288 @@ icon: lamp-floor
 description: Tutorial on how to create your first furniture
 ---
 
-# Furniture - simple
+# Furniture Creation Guide
 
-A furniture is a decorative object which can be solid, emit light, used as chair and can have other features.
+Furniture items allow you to add decorative and functional 3D objects to your Minecraft world. These objects can be solid, emit light, function as chairs, and feature various other interactive elements.
 
-## Creating a simple furniture
+## Understanding Furniture Types
 
-### Configuration file
+ItemsAdder supports three main types of furniture entities, each with different placement capabilities:
 
-The first step is to create a configuration file in your **namespace** folder.\
-In this example I called it `furniture_example.yml`.
+| Entity Type | Best For | Rotation | Placement Options |
+|------------|----------|----------|-------------------|
+| `item_display` | Any furniture, most flexible | Fixed or dynamic | All surfaces with precise control |
+| `armor_stand` | Chairs, plants, columns, fixed objects | Fixed | Mainly floor placement |
+| `item_frame` | Wall decorations, ceiling fixtures | Adapts to surface | All surfaces with automatic orientation |
 
-{% code title="furniture_example.yml" %}
+## Creating Your First Furniture
+
+### Step 1: Create the Configuration File
+
+Create a YAML configuration file in your namespace folder. In this example, we'll create a simple lamp named `lamp`:
+
+{% code title="contents/my_items/configs/furniture_example.yml" %}
 ```yaml
 info:
-  namespace: myitems
+  namespace: my_items
 items:
   lamp:
-    display_name: "Lamp"
-    permission: myitems.decorative.lamp
+    display_name: "Modern Lamp"
+    permission: my_items.decorative.lamp
     lore:
-    - lore-decorative-item
+      - "A sleek modern lamp"
+      - "Provides ambient lighting"
     resource:
       material: PAPER
       generate: false
       model_path: lamp
     behaviours:
       furniture:
-        light_level: 13
-```
-{% endcode %}
-
-As you can see I created the item with some special properties.
-
-`behaviours` attribute has a special sub-attribute called `furniture`, this attribute tells ItemsAdder that this item is a placeable furniture model.
-
-Let's add some more settings to it:
-
-{% code title="furniture_example.yml" %}
-```yaml
-  lamp:
-    display_name: "Lamp"
-    permission: myitems.decorative.lamp
-    lore:
-    - lore-decorative-item
-    resource:
-      material: PAPER
-      generate: false
-      model_path: lamp
-    behaviours:
-      furniture:
-        light_level: 13
-        solid: true
+        entity: item_display  # Using the most flexible entity type
+        light_level: 13       # Light level (0-15, where 15 is brightest)
+        solid: true           # Players can't walk through it
         placeable_on:
-          floor: true
-          ceiling: false
-          walls: false
+          floor: true         # Can be placed on the floor
+          ceiling: false      # Cannot be placed on the ceiling
+          walls: false        # Cannot be placed on walls
         hitbox:
-          height: 1
+          height: 1           # Standard 1-block hitbox
+          length: 1
+          width: 1
         sound:
           place:
-            name: block.metal.fall
+            name: block.metal.place
           break:
             name: block.metal.break
 ```
 {% endcode %}
 
-I added some properties, in this case I specified where the furniture can be placed (only on the `floor`), the `hitbox` size and `place`/`break` sounds.
+### Key Configuration Properties
 
-{% hint style="info" %}
-By default the hitbox is 1x1x1, so it's not really needed to specify these options.
+| Property | Description | Example Values |
+|----------|-------------|----------------|
+| `entity` | The type of entity used for the furniture | `item_display`, `armor_stand`, `item_frame` |
+| `light_level` | Brightness of light emitted (0-15) | `0` (no light), `15` (maximum brightness) |
+| `solid` | Whether players can walk through the furniture | `true`, `false` |
+| `placeable_on` | Where the furniture can be placed | `floor`, `ceiling`, `walls` |
+| `hitbox` | Physical dimensions of the furniture | Height, width, length (and offsets) |
+| `sound` | Sounds played when placing or breaking | Any Minecraft sound ID |
 
-Specify them only if the model is bigger than 1x1x1.
+### Step 2: Create the 3D Model in BlockBench
 
-For example if you have a furniture which is 1x2x1 you can set it like that:
+1. Open **BlockBench** and create a new "Java Block/Item" model
+2. Design your furniture model (remember that 1 BlockBench unit = 1/16 of a block)
+3. Set up display settings for how the item appears in hand
+
+{% hint style="warning" %}
+**Important orientation tip:** Make sure the north side of your model faces opposite to where you want the model to face when placed. Alternatively, add `opposite_direction: true` to your configuration.
+{% endhint %}
+
+![Create a Java Block/Item in BlockBench](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
+
+### Step 3: Configure Model Display Settings
+
+Depending on your chosen entity type, follow these guidelines:
+
+#### For `item_display` (Recommended)
+
+The most flexible option with precise control over position, rotation, and scale:
+
+```yaml
+furniture:
+  entity: item_display
+  display_transformation:
+    transform: HEAD
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+    translation:
+      x: 0
+      y: 0
+      z: 0
+```
+
+#### For `armor_stand`
+
+1. In BlockBench, select the **head icon** and then **small armorstand**
+2. Shift your model down until it aligns with the armorstand base
+3. In your configuration, specify:
+
+```yaml
+furniture:
+  entity: armor_stand
+  small: true  # Use a small armorstand (recommended for most furniture)
+```
+
+#### For `item_frame`
+
+1. In BlockBench, select the **Image icon** 
+2. Set the Z-offset to `-16`
+3. In your configuration, specify:
+
+```yaml
+furniture:
+  entity: item_frame
+```
+
+### Step 4: Export and Save the Model
+
+1. In BlockBench, go to File → Export → Export Block/Item Model
+2. Save the JSON file to: `contents/my_items/models/lamp.json` (matching your `model_path` value)
+3. Make sure any textures are saved to the appropriate textures folder
+
+### Step 5: Deploy Your Furniture
+
+1. Run `/iazip` to update the resourcepack
+2. Follow your [hosting method's instructions](../../resourcepack-hosting/) if needed
+3. Get your new furniture item with `/iaget my_items:lamp`
+
+## Creating Interactive Furniture
+
+### Making a Chair
+
+To create a chair that players can sit on, add the `furniture_sit` behavior:
+
+```yaml
+behaviours:
+  furniture:
+    # Your existing furniture settings...
+  furniture_sit:
+    sit_height: 0.5  # Adjust this value to control where players sit
+```
+
+### Creating Light Sources
+
+To make a furniture item emit light:
+
+```yaml
+behaviours:
+  furniture:
+    light_level: 15  # 15 is the brightest, equivalent to a torch
+```
+
+## Advanced Furniture Properties
+
+### Hitbox Configuration
+
+The hitbox determines the physical space your furniture occupies. You can create furniture of different sizes:
 
 ```yaml
 hitbox:
-  height: 2
-  length: 1
-  width: 1
+  length: 2       # Length in blocks (X-axis)
+  width: 1        # Width in blocks (Z-axis)
+  height: 1.5     # Height in blocks (Y-axis)
+  length_offset: 0.5  # Shift hitbox on X-axis
+  width_offset: 0     # Shift hitbox on Z-axis
+  height_offset: 0    # Shift hitbox on Y-axis
 ```
+
+{% hint style="info" %}
+Use the `/iahitbox` command to visualize the hitbox of placed furniture. This helps identify and fix positioning issues.
 {% endhint %}
 
-{% code title="furniture_example.yml" %}
+### Item Display Transformations
+
+For `item_display` furniture, you can precisely control positioning and scaling:
+
 ```yaml
-info:
-  namespace: myitems
-items:
-  lamp:
-    display_name: "Lamp"
-    permission: myitems.decorative.lamp
-    lore:
-    - lore-decorative-item
-    resource:
-      material: PAPER
-      generate: false
-      model_path: lamp
-    behaviours:
-      furniture:
-        light_level: 13
-        solid: true
-        placeable_on:
-          floor: true
-          ceiling: false
-          walls: false
-        hitbox:
-          height: 1
-        sound:
-          place:
-            name: block.metal.fall
-          break:
-            name: block.metal.break
+display_transformation:
+  transform: HEAD  # Display preset (HEAD, THIRDPERSON, etc.)
+  right_rotation:
+    axis_angle:
+      angle: 180
+      axis:
+        x: 0
+        y: 1
+        z: 0
+  translation:
+    x: 0
+    y: 0.92
+    z: 0
+  scale:
+    x: 0.45
+    y: 0.45
+    z: 0.45
 ```
-{% endcode %}
 
-### Model file
+You can use [this online tool](https://misode.github.io/transformation/) to preview transformations.
 
-Now open **BlockBench** and create a _"Java Block/Item"_.
-
-![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
-
-Now create your model, in this example I'm modelling an ugly minimal modern lamp.
-
-![](<../../../.gitbook/assets/image (47) (1) (1) (1).png>)
+## Limitations and Troubleshooting
 
 {% hint style="warning" %}
-Important: make sure the north is opposite of where you want the model to face.
+### Entity-Specific Limitations
 
-Or add the property to the YML configuration `opposite_direction: true`
+- **Item Frame Furniture:**
+  - Only supports hitboxes where width and length are equal
+  - Solid functionality requires server version ≥ 1.16
+  - Invisible item frames require both server and client version ≥ 1.16
+
+- **All Furniture Types:**
+  - Maximum hitbox size is 3x3x3 for performance reasons
+  - Non-solid furniture cannot receive interact events (only break events)
 {% endhint %}
 
-Edit how the model is shown on player hand:
+### Common Issues and Solutions
 
-![](<../../../.gitbook/assets/image (46) (1) (1).png>)
+| Issue | Solution |
+|-------|----------|
+| Furniture facing the wrong direction | Add `opposite_direction: true` to your furniture configuration |
+| Hitbox not aligned with the model | Adjust the offset values for length, width, and height |
+| Model appears too large or small | Use `display_transformation` with `scale` values to resize (for `item_display`) |
+| Unable to interact with furniture | Make sure `solid: true` is set if you need interaction events |
 
-![](<../../../.gitbook/assets/image (48) (1) (1) (1).png>)
+## Complete Example: Modern Table
 
-### Configure how the model is shown ingame
-
-#### Using `armor_stand`
-
-You have to select the **head icon** and then **small armorstand:**
-
-![](<../../../.gitbook/assets/image (41) (1) (1) (1).png>)
-
-Then you have to shift your model down until it matches the armorstand base:
-
-![](<../../../.gitbook/assets/image (42) (1).png>)
-
-#### Using `item_display`
-
-You have to select the **Image icon** and then set the Z-offset to `-16`.\
-This will display the model slighly of the block the Item Frame is attached to, but will be seamless when an invisible Item Frame is used. This is because of how items in invisible Item Frames are slightly lower than usual.
-
-#### Using `item_frame`
-
-Same thing of `item_display`.
-
-### Export the model
-
-Now let's save the model file into the correct folder, in this case I set this property in the yml configuration file: `model_path: lamp`, so you have to save the .json file inside this path: `contents/myitems/models/lamp.json`.
-
-To achieve this, click on "File" followed by "Export Model" and finally "Export Block/Item Model". In the new window, head over to the path you want to save your model under, give it the right name and confirm the changes.
-
-### Saving changes
-
-Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/) if needed).
-
-To obtain the item use this command: `/iaget myitems:lamp`.
-
-![](<../../../.gitbook/assets/image (50) (1) (1) (1) (1) (1).png>)
-
-![](<../../../.gitbook/assets/image (44) (1) (1).png>)
-
-## Chair
-
-To create a chair you just have to follow the furniture creation tutorial and add a simple attribute to the furniture to make it "sittable".
-
-Just add the `furniture_sit` behaviour and specify the `sit_height`.
+Here's a complete example of a modern table configuration:
 
 ```yaml
-behaviours:
-  furniture:
-    # .....
-  furniture_sit:
-    sit_height: 0.5
-```
-
-## Furniture entity types
-
-### `item_display`
-
-This type of furniture entity is useful for any type of furniture you want to create.
-
-![](<../../../.gitbook/assets/image (47) (1) (1) (1) (2).png>)
-
-```yaml
-behaviours:
-  furniture:
-    entity: item_display
-    solid: true
-    fixed_rotation: true
-    hitbox:
-      length: 1
-      width: 2
-      height: 1
-      width_offset: 0.5
-    placeable_on:
-      walls: false
-      ceiling: false
-      floor: true
-  furniture_sit:
-    sit_height: 0.5
-```
-
-#### Special properties
-
-`item_display` allows you to do some special adjustments to your furniture model using the `display_transformation` property.\
-You can resize it, rotate it and move it freely.\
-This feature uses the native `item_display` feature of **Minecraft**, you can [read more here](https://www.youtube.com/watch?v=bwPWfUbcZxE) and online.\
-You can also use [this tool](https://misode.github.io/transformation/) to preview your changes.
-
-#### Example
-
-```yaml
-  lava_lamp_new:
-    enabled: true
-    display_name: display-name-lava_lamp
-    permission: iadeco.decorations.lava_lamp
+info:
+  namespace: my_items
+items:
+  modern_table:
+    display_name: "Modern Table"
+    permission: my_items.furniture.modern_table
     lore:
-      - lore-decorative-item
+      - "Sleek modern design"
+      - "Perfect for dining areas"
     resource:
       material: PAPER
       generate: false
-      model_path: lava_lamp
+      model_path: furniture/modern_table
     behaviours:
       furniture:
         entity: item_display
-        light_level: 7
-        display_transformation:
-          transform: HEAD
-          right_rotation:
-            axis_angle:
-              angle: 180
-              axis:
-                x: 0
-                y: 1
-                z: 0
-          translation:
-            x: 0
-            y: 0.92
-            z: 0
-          scale:
-            x: 0.45
-            y: 0.45
-            z: 0.45
-```
-
-### `armor_stand`
-
-This type of furniture entity is useful when you want to create chairs, plants, columns, lamps and similar environment decorations which don't need to rotate based on the surface on which you place them.
-
-![](<../../../.gitbook/assets/image (47) (1) (1) (1) (2).png>)
-
-```yaml
-behaviours:
-  furniture:
-    entity: armor_stand
-    small: true
-    solid: true
-    fixed_rotation: true
-    hitbox:
-      length: 1
-      width: 2
-      height: 1
-      width_offset: 0.5
-    placeable_on:
-      walls: false
-      ceiling: false
-      floor: true
-  furniture_sit:
-    sit_height: 0.5
-```
-
-### `item_frame`
-
-This type of furniture entity is useful when you want to make the furniture rotate based on the surface on which you place it.
-
-For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.
-
-![](<../../../.gitbook/assets/image (43) (1) (1) (1) (1) (1).png>)
-
-```yaml
-behaviours:
-  furniture:
-    entity: item_frame
-    light_level: 15
-    solid: false
-    hitbox:
-      length: 1
-      width: 1
-      height: 1.5
-    placeable_on:
-      walls: true
-      ceiling: true
-      floor: true
-```
-
-## Hitbox
-
-You can make a furniture solid adding the "solid" attribute and specifying a hitbox (if you want > 1x1x1)
-
-```yaml
-  table:
-    display_name: display-name-table
-    permission: table
-    lore:
-      - 'lore-decorative-item'
-    resource:
-      material: OAK_WOOD
-      generate: false
-      model_path: item/table
-    behaviours:
-      furniture:
-        small: true
         solid: true
-        entity: armor_stand
+        fixed_rotation: true
         hitbox:
-          length: 1
+          length: 2
           width: 1
           height: 1
-          length_offset: 0
-          width_offset: 0
-          height_offset: 0
+          length_offset: 0.5
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        display_transformation:
+          scale:
+            x: 1.0
+            y: 1.0
+            z: 1.0
+        sound:
+          place:
+            name: block.wood.place
+          break:
+            name: block.wood.break
 ```
 
-![](<../../../.gitbook/assets/image (15) (1).png>)
+## Next Steps
 
-### Hitbox has wrong location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
+After creating your basic furniture, consider these advanced options:
 
-{% hint style="warning" %}
-Sometimes you need to also specify an "offset" to fix the hitbox location.\
-This can happen if your furniture is 2x1x1 for example.
-{% endhint %}
+- [Add a 2D icon](furniture-2d-icon.md) for your furniture in the inventory
+- [Configure furniture permissions](furniture-permissions.md) for placement/removal
+- [Make transparent furniture](transparent-furniture.md) for glass or other see-through objects
+- [Add interaction events](furniture-execute-actions.md) to create interactive furniture
 
-{% tabs %}
-{% tab title="Wrong" %}
-![](../../../.gitbook/assets/htibox1.png)
-
-
-{% endtab %}
-
-{% tab title="Correct" %}
-![](<../../../.gitbook/assets/hitbox2 (1).png>)
-{% endtab %}
-{% endtabs %}
-
-### Correct location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
-
-I had to set a width `offset` of `0.5`.\
-You can also use negative values if needed.
-
-```yaml
-        hitbox:
-          length: 1
-          width: 2
-          height: 1
-          width_offset: 0.5
-```
-
-## Preview the hitbox <a href="#show-the-hitbox" id="show-the-hitbox"></a>
-
-{% hint style="info" %}
-You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
-{% endhint %}
-
-![](<../../../.gitbook/assets/hitbox3 (1) (1) (1) (8).png>)
-
-![](../../../.gitbook/assets/image_\(87\).png)
-
-{% hint style="warning" %}
-## **Hitboxes limitations**
-
-**`item_frame` limitations (doesn't affect `armor_stand`)**
-
-**Furnitures** that use `entity` `item_frame` **only support hitboxes** with `width` and `length` of the **same value**.\
-Example: `width: 2`, `length: 2`, `height: 1`.
-
-If you want to have different `width` and `length` use `entity` `item_display` or `armor_stand`.
-{% endhint %}
-
-## Limitations
-
-{% hint style="warning" %}
-**Limitations of itemframes furnitures**
-
-* solid itemframe furnitures are possible only on Server version >= 1.16 (client doesn't matter).
-* invisible itemframe furnitures are possible only on Server and Client version >= 1.16.\
-  If a user connects with viaversion using an old mc version they will see the itemframe.
-{% endhint %}
-
-{% hint style="warning" %}
-**Limitations of all furnitures**
-
-* non solid furnitures can't receive interact events, they can only be removed using mouse left click but cannot be interacted with (only solid furnitures can get interact events)
-* max size of the hitbox is 3x3x3 for performance reasons
-{% endhint %}
+For more complex multi-part furniture, check out the [Furniture - Complex](../furniture-complex.md) guide.
