@@ -151,6 +151,7 @@
   * [Block](plugin-usage/adding-content/block.md)
   * [Block - advanced](plugin-usage/adding-content/advanced-block-properties/README.md)
     * [Block 2D icon](plugin-usage/adding-content/advanced-block-properties/block-2d-icon.md)
+    * [Directional Blocks](plugin-usage/adding-content/advanced-block-properties/directional-blocks.md)
     * [Transparent block](plugin-usage/adding-content/advanced-block-properties/transparent-block.md)
     * [Enabling custom blocks sounds](plugin-usage/adding-content/advanced-block-properties/enabling-custom-blocks-sounds.md)
     * [Enable/Disable custom blocks in worlds](plugin-usage/adding-content/advanced-block-properties/enable-disable-custom-blocks-in-worlds.md)
