@@ -2,61 +2,61 @@
 icon: circle-exclamation
 ---
 
-# Plugin doesn't work
+# Plugin Doesn't Work
 
 {% hint style="danger" %}
-#### Please read this page CAREFULLY before asking for support.
+#### Please read this page carefully before asking for support.
 
-Most of the times the issue can be easily fixed by reading this page.
+Most issues can be resolved by following the steps outlined here.
 {% endhint %}
 
-## Read the install tutorial again
+## Step 1: Revisit the Installation Tutorial
 
-Try again to follow the installation tutorial on a clean server.
+Ensure you have followed the installation tutorial on a clean server setup.
 
 {% content-ref url="../plugin-usage/first-install.md" %}
-[first-install.md](../plugin-usage/first-install.md)
+[First Installation Guide](../plugin-usage/first-install.md)
 {% endcontent-ref %}
 
-## Remove any recently installed plugin
+## Step 2: Remove Recently Installed Plugins
 
-Try to remove the new plugin, restore from a server backup, or downgrade the updated plugin/server version and check if the issue persists.
+If the issue started after adding a new plugin, try removing it, restoring from a server backup, or downgrading the updated plugin/server version to see if the problem persists.
 
-## Update all dependencies
+## Step 3: Update Dependencies
 
-Update all dependencies, sometimes outdated JARs can cause issues.
+Ensure all dependencies are up-to-date. Outdated JAR files can often cause compatibility issues.
 
-## Follow the resourcepack troubleshooting tutorial
+## Step 4: Troubleshoot Resourcepack Issues
+
+Follow the resourcepack troubleshooting guide to resolve texture-related problems.
 
 {% content-ref url="identify-why-textures-are-not-shown.md" %}
-[identify-why-textures-are-not-shown.md](identify-why-textures-are-not-shown.md)
+[Resourcepack Troubleshooting Guide](identify-why-textures-are-not-shown.md)
 {% endcontent-ref %}
 
-## Ask on Discord
+## Step 5: Seek Help on Discord
 
-Someone might have the same issue. Try also to use the search button.
+Check the Discord community for similar issues. Use the search function to see if your problem has already been addressed.
 
-## **Report the bug if you still have issues** <a href="#if-you-still-have-problems-please-read-this-and-then-contact-me" id="if-you-still-have-problems-please-read-this-and-then-contact-me"></a>
+## Step 6: Report the Bug
+
+If the problem persists and you believe it is a bug, follow these steps to report it:
 
 {% hint style="warning" %}
-Use the search button before submitting a report, people might already have reported it.
+Use the search function before submitting a report. Your issue may already have been reported.
 {% endhint %}
 
-When you report something be sure to:
+### Information to Include in Your Bug Report
 
-* follow every single step of my tutorials and make sure to read all the wiki.&#x20;
-* test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering.
-* use the latest version of the plugin, its dependencies and server.
+* Steps to reproduce the issue.
+* Server version (use the `/version` command and provide the exact output).
+* Plugin version.
+* Details of any edits made to ItemsAdder `.yml` files.
+* Details of any edits made to the resourcepack.
+* A zipped copy of the ItemsAdder `.yml` files.
+* Whether the plugin shows errors in the console or chat.
+* A complete server log (not just a snippet of the error).
 
-If the problem persists, and you think it's a bug, send me these information when you report the problem:
-
-* Exactly what you did to trigger the problem
-* Server version, use `/version` command and send me the exact text it shows (use it in console to copy and paste)
-* Plugin version
-* Tell me if you edited the `.yml` files of ItemsAdder
-* Tell me if you edited the resourcepack
-* Zip ItemsAdder `.yml` files and send me them
-* Specify if the plugin shows error in console or in chat
-* Complete log of your server (not just a small portion of the error you see of **ItemsAdder** or I can't identify the issue)
+Submit your report here:
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues" %}
