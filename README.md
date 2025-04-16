@@ -1,5 +1,5 @@
 ---
-description: This website helps you configure and creat custom items for my plugin.
+description: This website helps you configure and create custom items for my plugin.
 icon: house-blank
 ---
 
