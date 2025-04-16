@@ -24,6 +24,32 @@ You should not abuse directional blocks because they quickly will saturate your 
 
 ### Directional mode
 
+### Mode `ALL`
+
+Act like a vanilla log and a dropper at the same time.
+
+![](https://github.com/user-attachments/assets/db9c84da-c30c-40c4-a53d-7850ebd3ad8b)
+
+```yml
+  directional_block_all:
+    name: directional_block_all
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - block/furnace/directional_block_test_down.png
+      - block/furnace/directional_block_test_east.png
+      - block/furnace/directional_block_test_north.png
+      - block/furnace/directional_block_test_south.png
+      - block/furnace/directional_block_test_up.png
+      - block/furnace/directional_block_test_west.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          directional_mode: ALL
+```
+
 ### Mode `FURNACE`
 
 Act like vanilla furnace.
