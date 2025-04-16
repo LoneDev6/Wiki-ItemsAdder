@@ -11,7 +11,7 @@ Special item attribute to customize some properties of events.
 ### Cooldown
 
 You can set a cooldown which won't allow the player to trigger any of the actions for this item.\
-Useful to avoid players to spam a special item.
+Useful to avoid players spamming a special item.
 
 ```yaml
   healing_crystals:

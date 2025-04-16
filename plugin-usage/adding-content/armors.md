@@ -175,8 +175,8 @@ There is a simple solution if your server uses **ViaVersion** or similar, but ha
 
 You have to create both properties `equipments` and `armors_rendering`.
 
-* `armors_rendering` is the old method (uses a custom shader)
-* `equipments` is the new method (uses the vanilla equipment attribute)
+* `armors_rendering` is the old method (uses a custom shader).
+* `equipments` is the new method (uses the vanilla equipment attribute).
 
 ```yaml
 info:

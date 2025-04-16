@@ -12,7 +12,7 @@ icon: arrow-progress
 
 ## What are events?
 
-Events describe the time when something happen.\
+Events describe the time when something happens.\
 You can make things happen ([actions](actions.md)) when an event is triggered (play sound, execute command etc.)
 
 ### List of events

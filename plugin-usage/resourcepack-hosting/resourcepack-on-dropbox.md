@@ -2,22 +2,22 @@
 
 ## Text tutorial
 
-* Open [DropBox](https://dropbox.com/), register/login
+* Open [DropBox](https://dropbox.com/), register/login.
 * Use the command`/iazip` (**it's important** because `/iazip`reloads the configs and updates the **generated.zip** file)
-* Open folder: `plugins/ItemsAdder/output/`
-* **Drag and drop** on **DropBox** the file **generated.zip**
-* Press **Share**
+* Open folder: `plugins/ItemsAdder/output/`.
+* **Drag and drop** **generated.zip** onto **DropBox** or copy paste the file to it from your server host.
+* Press **Share**.
 
 ![](../../.gitbook/assets/image_\(20\).png)
 
-* Press **Create**
+* Press **Create**.
 
 ![](../../.gitbook/assets/image_\(21\).png)
 
-* Press **Copy link**
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0)
-* Open `config.yml` of **ItemsAdder**
-* Set it like this (**I used the example URL, please use your own**)
+* Press **Copy link**.
+* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0):
+* Open `config.yml` of **ItemsAdder**.
+* Set it like this: (**I used the example URL, please use your own**).
 
 ```yaml
 resource-pack:
@@ -35,7 +35,7 @@ resource-pack:
 * **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
 
 {% hint style="danger" %}
-PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**... then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any change obviously.
+PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **sound**, ect. then **reupload** the pack on **Dropbox** and use **/iareload** or you won't see any changes made.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -45,7 +45,7 @@ If you **reupload** the **zip** file with the same and keep the **same URL** it 
 
 ## But this is so slow! I have to reupload on DropBox too many times!
 
-Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting (cheap ones) don't provide port opening, so you must use **DropBox**.
+Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting methods (cheap ones) don't provide port opening, so you must use **DropBox**.
 
 {% content-ref url="resourcepack-self-hosting.md" %}
 [resourcepack-self-hosting.md](resourcepack-self-hosting.md)

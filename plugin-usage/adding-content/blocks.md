@@ -2,7 +2,7 @@
 icon: cube
 ---
 
-# Block
+# Blocks
 
 ## Block properties
 
@@ -44,35 +44,35 @@ specific_properties:
 
 ### `type`
 
-this property can have these value:
+This property can have these value:
 
 * `REAL_NOTE`
-  * uses a real block (note\_block), no lag, no entities, 100% real blocks.
-  * downsides:&#x20;
+  * Uses a real block (note\_block), no lag, no entities, 100% real blocks.
+  * Downsides:&#x20;
     * **no** support for **transparency**.&#x20;
-    * **max** of **750 blocks** in total.
+    * **Max** of **750 blocks** in total.
 * `REAL`
-  * uses a real block (mushroom), no lag, no entities, 100% real blocks. (although it's advised to use `REAL_NOTE` which is more stable).
-  * downsides:&#x20;
-    * **max** of **191 blocks** in total
+  * Uses a real block (mushroom), no lag, no entities, 100% real blocks. (although it's advised to use `REAL_NOTE` which is more stable).
+  * Downsides:&#x20;
+    * **Max** of **191 blocks** in total
 * `REAL_TRANSPARENT`
-  * uses a real block (chorus), no lag, no entities, 100% real blocks, also with transparency support!
-  * downsides:&#x20;
-    * **max** of **63 blocks** in total
+  * Uses a real block (chorus), no lag, no entities, 100% real blocks, also with transparency support!
+  * Downsides:&#x20;
+    * **Max** of **63 blocks** in total.
 * `REAL_WIRE`
-  * uses a real block (tripwire), no lag, no entities, 100% real blocks.
-  * downsides:&#x20;
-    * **max** of **127 blocks** in total.
+  * Uses a real block (tripwire), no lag, no entities, 100% real blocks.
+  * Downsides:&#x20;
+    * **Max** of **127 blocks** in total.
 * `TILE`
-  * uses **tile** blocks (modified **spawner** with custom skin). It's **not an entity** but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
-  * downsides:
-    * not a 100% real block, it's a retextured spawner
-    * texture/model vanishes on high distance, so it will reveal the spawner vanilla texture
-    * it could cause clientside lag if A LOT of blocks are in the player field of view, but only on lowend PCs.
+  * Uses **tile** blocks (modified **spawner** with custom skin). It's **not an entity** but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
+  * Downsides:
+    * Not a 100% real block, it's a retextured spawner.
+    * Texture/model vanishes on high distance, so it will reveal the spawner vanilla texture.
+    * It could cause clientside lag if A LOT of blocks are in the player field of view, but only on lowend PCs.
 * `FIRE`
-  * this is a **special** type of **block**, it's the **fire** block.
-  * downsides:&#x20;
-    * only a **max** of **14** custom **fires** is possible, so be sure to create only the ones you need.
+  * This is a **special** type of **block**, it's the **fire** block.
+  * Downsides:&#x20;
+    * Only a **max** of **14** custom **fires** are possible, so be sure to create only the ones you need.
 
 {% hint style="warning" %}
 - **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
@@ -123,7 +123,7 @@ Example:
 ### `drop_when_mined`
 
 {% hint style="warning" %}
-Available since ItemsAdder 4.0.9
+Available since ItemsAdder 4.0.9.
 
 Older versions use `cancel_drop` with inverted `true/false`.
 {% endhint %}
@@ -133,7 +133,7 @@ Controls if the block is dropped when mined. Useful if you have any mineral that
 ### `drop_on_shears`
 
 {% hint style="warning" %}
-Available since ItemsAdder 4.0.9
+Available since ItemsAdder 4.0.9.
 {% endhint %}
 
 Controls if the block is dropped when using shears.
@@ -141,7 +141,7 @@ Controls if the block is dropped when using shears.
 ### `drop_on_silk_touch`
 
 {% hint style="warning" %}
-Available since ItemsAdder 4.0.9
+Available since ItemsAdder 4.0.9.
 {% endhint %}
 
 Controls if the block is dropped when using silk touch enchanted tools.
@@ -157,11 +157,11 @@ It also works for custom items ids, so for example if you set "ruby\_" every rub
 
 ### `break_tools_blacklist`
 
-Blacklist of tools that cannot break this block
+Blacklist of tools that cannot break this block.
 
 ### `break_tools_whitelist`
 
-Whitelist of tools that can break this block
+Whitelist of tools that can break this block.
 
 ### `events_tools_blacklist`
 
@@ -180,11 +180,11 @@ Refer to my blocks to get some **examples** (check **blocks.yml** file inside **
 
 ### `blast_resistance`
 
-Explosion resistance (by default is `hardness * 3`)
+Explosion resistance (by default is `hardness * 3`).
 
 ### `no_explosion`
 
-Totally immune from explosions, ignoring `blast_resistance`
+Totally immune from explosions, ignoring `blast_resistance`.
 
 ### `sounds`
 

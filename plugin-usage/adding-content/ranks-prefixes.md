@@ -92,7 +92,7 @@ Make sure you installed [PlaceholderAPI](broken-reference/)
     tagprefix: '%img_admin%  '
 ```
 
-Then use the command `/tab reload`
+Then use the command `/tab reload`.
 
 ![](../../.gitbook/assets/image_\(38\).png)
 
