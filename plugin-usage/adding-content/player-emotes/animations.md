@@ -11,7 +11,7 @@ You can find a lot of tutorials on YouTube.
 
 You can specify if the player can move while playing one specific animation or not.
 
-![](<../../../.gitbook/assets/image (76).png>)
+![](<../../../.gitbook/assets/image (201).png>)
 
 ## Looping animations
 
@@ -22,28 +22,28 @@ This allows you to create complex looping animations, for example a sleep animat
 
 Create the animation, in this example a death animation.
 
-![](<../../../.gitbook/assets/image (96) (1).png>)
+![](<../../../.gitbook/assets/image (82).png>)
 
 Right click it and mark it as `Loop`.
 
-![](<../../../.gitbook/assets/image (92) (1).png>)
+![](<../../../.gitbook/assets/image (80).png>)
 
 ### Step 2
 
 Now place the cursor on the frame where you want the loop to start, in this case when the player is on the ground.
 
-![](<../../../.gitbook/assets/image (75).png>)
+![](<../../../.gitbook/assets/image (191).png>)
 
 ### Step 3
 
 Click on the `Add Loop Start/End marker` icon to add a `start loop` marker.
 
-![](<../../../.gitbook/assets/image (60).png>)
+![](<../../../.gitbook/assets/image (140).png>)
 
 Now place the animation cursor on the frame where you want the loop to stop and press again on the `Add Loop Start/End marker` icon.
 
-![](<../../../.gitbook/assets/image (46).png>)
+![](<../../../.gitbook/assets/image (103).png>)
 
 The result will be like this:
 
-![](<../../../.gitbook/assets/image (93).png>)
+![](<../../../.gitbook/assets/image (119).png>)

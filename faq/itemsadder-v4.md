@@ -14,7 +14,7 @@ I decided to discard compatibility for 1.15 to 1.20.4 in favor of a better 1.20.
 
 The Discord community has voted to discard old versions compatibility, so this decision wasn't taken completely out of nowhere.
 
-<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -6,7 +6,7 @@ It supports [font\_images](../adding-content/font-images.md) (emojis) and [text 
 
 Usage example: `/iarename test <r qqqqq> :smile: very nice`
 
-![](../../.gitbook/assets/iarename.png)
+![](../../.gitbook/assets/143230790-515c74db-b7f6-4c1d-8a03-7bba80ac83cd.png)
 
 ### Permission
 

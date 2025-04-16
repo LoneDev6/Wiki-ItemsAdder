@@ -9,6 +9,6 @@ Check this example addon to create your own animated title:
 
 {% embed url="https://www.spigotmc.org/resources/animatedtitles-some-example-animations-itemsadder-addon.84865/" %}
 
-![](<../../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (168).png>)
 
 {% embed url="https://www.youtube.com/watch?v=RlgfggheNAE" %}

@@ -1,6 +1,6 @@
 ---
-icon: head-side
 description: Some placed player heads have glitched/bugged texture
+icon: head-side
 ---
 
 # Placed heads texture glitched
@@ -22,6 +22,6 @@ I'll do my best to find a workaround but I doubt this game allows me to identify
 The only way to fix this is to disable emotes system in `config.yml` of **ItemsAdder**.\
 Don't forget to regenerate the resourcepack using `/iazip`.
 
-![](<../.gitbook/assets/image (51) (2) (2).png>)
+![](<../.gitbook/assets/image (52).png>)
 
 {% embed url="https://youtu.be/Gn7uzcSmjmU" %}

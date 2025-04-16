@@ -10,17 +10,17 @@ This method should work fine on Minecraft 1.17.1 and most recent versions as has
 
 Right-click on your resourcepack zip file and press "Get link".
 
-![](<../../.gitbook/assets/image_(153) (1).png>)
+![](<../../.gitbook/assets/immagine (19).png>)
 
 ### Step 2
 
 Important: Set the permission to "Anyone with the link".
 
-![](../../.gitbook/assets/image_\(145\).png)
+![](<../../.gitbook/assets/immagine (7).png>)
 
 Press "Copy link".
 
-![](../../.gitbook/assets/image_\(149\).png)
+![](<../../.gitbook/assets/immagine (5).png>)
 
 ### Step 3
 
@@ -28,13 +28,13 @@ Visit this website: [http://a.devs.beer/gdrive-direct](http://a.devs.beer/gdrive
 
 Paste the link and click "Get direct link".
 
-<img src="../../.gitbook/assets/image_(144).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/immagine (20).png" alt="" data-size="original">
 
 ### Step 4
 
 The website automatically adds the generated link in your clipboard.
 
-![](../../.gitbook/assets/image_\(147\).png)
+![](<../../.gitbook/assets/immagine (72).png>)
 
 You can now paste the link inside **ItemsAdder** configuration file `config.yml`, then use `/iareload` command.
 
@@ -54,7 +54,7 @@ You can now see that the pack is correctly loaded by the game.
 
 ### Long time on "Making Request... 100%"
 
-### ![](../../.gitbook/assets/image_\(141\).png)
+### ![](<../../.gitbook/assets/immagine (3).png>)
 
 This is normal. This happens because Google Drive is doing some stuff before authorizing the download of the resourcepack.
 

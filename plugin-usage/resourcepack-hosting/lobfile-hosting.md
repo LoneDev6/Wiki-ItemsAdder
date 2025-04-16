@@ -1,7 +1,7 @@
 # LobFile Hosting
 
 {% hint style="warning" %}
-### Warning
+#### Warning
 
 File size limit is 100MB for this hosting method.
 {% endhint %}
@@ -38,13 +38,13 @@ Create an account on [LobFile here](https://lobfile.com/create-account).
 
 Open your [account settings here](https://lobfile.com/my-account) and check _**"Continuous uploading"**_
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3
 
 Hover the `API Key` text and copy your key.
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4
 
@@ -85,4 +85,3 @@ Your resourcepack won't be indexed on Google and won't be published in a list of
 Only people who know the link can download the pack.
 
 I take no responsibility, the product is provided as is and I am not the owner of LobFile.
-

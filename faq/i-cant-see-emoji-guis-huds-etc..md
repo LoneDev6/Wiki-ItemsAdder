@@ -23,14 +23,14 @@ If you set **Force Unicode** to **ON** because you don't like Minecraft default 
 
 Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"_.
 
-<img src="../.gitbook/assets/image_(5).png" alt="" data-size="original">
+<img src="../.gitbook/assets/immagine (33).png" alt="" data-size="original">
 
 \
 With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft limitation.
 
 You must set **Force Unicode Font: OFF**
 
-<img src="../.gitbook/assets/image_(6).png" alt="" data-size="original">
+<img src="../.gitbook/assets/immagine (44).png" alt="" data-size="original">
 
 and **set this** in `config.yml`
 
@@ -46,7 +46,7 @@ Check [Resourcepack tutorials](../plugin-usage/resourcepack-hosting/)
 
 ### This is the result
 
-<img src="../.gitbook/assets/image_(7).png" alt="" data-size="original">
+<img src="../.gitbook/assets/immagine (88).png" alt="" data-size="original">
 
 Now you can see the "thin font" and GUIs, emojis, HUDs won't break (bugged white squares)
 

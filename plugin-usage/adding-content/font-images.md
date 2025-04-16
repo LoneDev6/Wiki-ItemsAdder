@@ -1,6 +1,6 @@
 ---
-icon: icons
 description: Create images which can be used in texts, also known as glyphs and symbols
+icon: icons
 ---
 
 # Font Images
@@ -27,7 +27,7 @@ font_images:
 ```
 {% endcode %}
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Access it ingame using `:image_1:` placeholder. If you have **PlaceholderAPI** you can access it using `%img_image_1%` in various places and other plugins.
 
@@ -94,7 +94,7 @@ For example: `%img_smile%`
 ### Offsets
 
 You can shift text or font images back and forward.\
-For example&#x20;
+For example
 
 * You can shift it back of 16 pixels by writing `%img_offset_-16%`.
 * You can shift it forward of 16 pixels by writing `%img_offset_16%`.
@@ -126,7 +126,7 @@ To bypass this (if you're creating a GUI or HUD) you can split your image in mul
 
 ### Imprecise HUD shifting
 
-Be sure to have each image size set to a multiple of 2 (2x2, 4x4, 6x6, 8x8, 10x10, etc.)&#x20;
+Be sure to have each image size set to a multiple of 2 (2x2, 4x4, 6x6, 8x8, 10x10, etc.)
 
 If you still have problems try to increase/decrease the size by 2 until the wrong shift disappears.\
 This is an approximation problem I cannot fix.

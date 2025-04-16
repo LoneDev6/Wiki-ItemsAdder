@@ -8,7 +8,7 @@ You must have the [DefaultPack](../../plugin-usage/first-install.md#default-pack
 
 You can change GUI icons and use ItemsAdder icons to achieve this:
 
-![](<../../.gitbook/assets/image (13) (1).png>)
+![](<../../.gitbook/assets/image (110).png>)
 
 {% tabs %}
 {% tab title="config.yml" %}

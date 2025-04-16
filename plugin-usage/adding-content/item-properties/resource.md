@@ -1,6 +1,6 @@
 ---
-icon: file-image
 description: Properties that allows customization of item graphics
+icon: file-image
 ---
 
 # Resource
@@ -31,7 +31,7 @@ This is an example:
 ### Where do I put textures?
 
 Textures you listed in the `textures` attribute must be placed in the right folder.\
-Therefore, if you set `textures` like in the example and your **namespace** is (for example) `my_items` you will have to put `example_item.png`  file inside this folder: `contents/my_items/textures/item`
+Therefore, if you set `textures` like in the example and your **namespace** is (for example) `my_items` you will have to put `example_item.png` file inside this folder: `contents/my_items/textures/item`
 
 If the path doesn't exist create all the folders needed.
 
@@ -74,7 +74,7 @@ For example if you had this:
   },
 ```
 
-You have to change it to this (`your_namespace` is your [namespace ](broken-reference)folder):
+You have to change it to this (`your_namespace` is your [namespace ](broken-reference/)folder):
 
 ```yaml
 {
@@ -89,7 +89,7 @@ You have to change it to this (`your_namespace` is your [namespace ](broken-refe
 
 ## Transparent textures (glass and similar)
 
-### Furniture&#x20;
+### Furniture
 
 {% content-ref url="../furniture/transparent-furniture.md" %}
 [transparent-furniture.md](../furniture/transparent-furniture.md)
@@ -129,7 +129,7 @@ items:
 ```
 
 {% hint style="warning" %}
-### **IMPORTANT**
+#### **IMPORTANT**
 
 If you previously created this item and already used `/iazip` command and now you change the `model_id` you have to use this command.\
 It's **very important** to run the command `/iacleancache items` to **remove unused IDs** and **update** the **changed ID**.

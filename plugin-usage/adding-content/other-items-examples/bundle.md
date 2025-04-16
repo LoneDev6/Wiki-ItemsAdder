@@ -14,14 +14,10 @@ items:
       - item/bundle_test.png
 ```
 
-<div align="left">
-
-<img src="../../../.gitbook/assets/image (33).png" alt="">
-
-</div>
+<div align="left"><img src="../../../.gitbook/assets/image (203).png" alt=""></div>
 
 You have to create another file with `_filled` suffix, in this example `bundle_test_filled.png`.
 
 ## Result
 
-![](<../../../.gitbook/assets/image (34).png>)
+![](<../../../.gitbook/assets/image (200).png>)

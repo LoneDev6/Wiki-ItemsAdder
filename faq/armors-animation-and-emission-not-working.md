@@ -1,4 +1,4 @@
-# Animation and emission not working
+# Armors animation and emission not working
 
 {% hint style="warning" %}
 Animation and emission won't be shown if the client uses:
@@ -18,4 +18,4 @@ Read more here: [https://github.com/SHsuperCM/CITResewn/issues/87](https://githu
 
 Enable smooth lighting to fix emission
 
-![](<../../.gitbook/assets/image (48) (1).png>)
+![](<../.gitbook/assets/image (197).png>)

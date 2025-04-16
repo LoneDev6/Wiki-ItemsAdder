@@ -31,7 +31,7 @@ ItemsAdder uses Mushroom Blocks and Chorus Plants to create them.
 
 This happens because the game generates them during gameplay to create some structures (example: big mushrooms in the over-world and chorus plants in the end), so they might spawn with some specific block data, which interfere with ItemsAdder blocks.
 
-![](<../.gitbook/assets/image (50) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (50).png>)
 
 Generally you should avoid using `REAL` custom blocks type (mushroom) and use the better `REAL_NOTE` custom blocks type, it uses **Noteblocks** to create custom blocks, so you won't have this issue because they don't naturally generate around the vanilla world.
 

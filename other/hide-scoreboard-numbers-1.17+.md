@@ -2,17 +2,17 @@
 icon: expand-wide
 ---
 
-# Hide Scoreboard background and numbers
+# Hide Scoreboard Background and Numbers
 
 ## Hide scoreboard numbers
 
 {% tabs %}
 {% tab title="After" %}
-![With ItemsAdder](../.gitbook/assets/image_\(130\).png)
+![With ItemsAdder](<../.gitbook/assets/immagine (54).png>)
 {% endtab %}
 
 {% tab title="Before" %}
-![Without ItemsAdder](../.gitbook/assets/image_\(131\).png)
+![Without ItemsAdder](<../.gitbook/assets/immagine (93).png>)
 {% endtab %}
 {% endtabs %}
 

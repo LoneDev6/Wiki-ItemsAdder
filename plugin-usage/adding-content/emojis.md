@@ -51,17 +51,17 @@ I cannot fix that issue, it's a **Minecraft** limitation.
 
 ## In-game view
 
-![](<../../.gitbook/assets/image_(116) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/immagine (116) (3) (2).png>)
 
 ### Using the /e useful suggestions
 
 Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
 
-![](../../.gitbook/assets/image_\(112\).png)
+![](<../../.gitbook/assets/immagine (49).png>)
 
-![](../../.gitbook/assets/image_\(111\).png)
+![](<../../.gitbook/assets/immagine (46).png>)
 
-![](../../.gitbook/assets/image_\(113\).png)
+![](<../../.gitbook/assets/immagine (68).png>)
 
 ### Using the tab autocomplete in chat
 

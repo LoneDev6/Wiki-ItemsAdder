@@ -76,7 +76,7 @@ one_biome:
 
 This is a world with a custom surface
 
-![](<../../.gitbook/assets/image (41) (1).png>)
+![](<../../.gitbook/assets/image (192).png>)
 
 
 

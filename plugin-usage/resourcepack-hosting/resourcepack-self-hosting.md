@@ -1,7 +1,7 @@
 # Self hosting
 
 {% hint style="warning" %}
-## **Your hosting service must let you get additional ports for your server.**
+### **Your hosting service must let you get additional ports for your server.**
 
 If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./).
 {% endhint %}
@@ -21,9 +21,9 @@ You just have to use command `/iazip` and you'll see changes applied in-game alm
 
 For example on **Pterodactyl**:
 
-![](../../.gitbook/assets/image_\(104\).png)
+![](<../../.gitbook/assets/immagine (51).png>)
 
-![](../../.gitbook/assets/image_\(101\).png)
+![](<../../.gitbook/assets/immagine (15).png>)
 
 * After you obtained a **new port** you can open `config.yml` and set it like this:
 
@@ -81,9 +81,9 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 
 ### Create a new `DNS record`
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 * type: `A`
 * name: `pack` (for example)
@@ -91,28 +91,28 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 * Proxy status: `Proxied`
 * Click **Save**
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 ### Create a new `Origin rule`
 
-<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
 
 Select "Change Port" and "Create a Rule".
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 Select "Custom filer expression" and complete as shown in the screenshot changing the values based on your setup.
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 ### Configure ItemsAdder
 
 * set `server-ip` to your new pack address
-* set  `pack-port` to your resourcepack port
+* set `pack-port` to your resourcepack port
 * set `append-port` to false
-* try to access the&#x20;
+* try to access the
 
 {% code title="config.yml" %}
 ```yml

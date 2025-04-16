@@ -145,11 +145,11 @@ items:
 
 Run `/iaget red_block` to get the item.
 
-![](../../.gitbook/assets/image_\(92\).png)
+![](<../../.gitbook/assets/immagine (48).png>)
 
-![](../../.gitbook/assets/image_\(91\).png)
+![](<../../.gitbook/assets/immagine (87).png>)
 
-![](../../.gitbook/assets/image_\(93\).png)
+![](<../../.gitbook/assets/immagine (12).png>)
 
 ## Download the complete example
 

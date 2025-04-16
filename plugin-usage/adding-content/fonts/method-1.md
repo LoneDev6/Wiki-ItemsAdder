@@ -4,7 +4,7 @@ This method allows you to add fonts using .ttf font files
 
 ## Example custom font
 
-![](<../../../.gitbook/assets/image_(1).png>)
+![](<../../../.gitbook/assets/immagine (96).png>)
 
 To this you have to:
 
@@ -16,5 +16,5 @@ To this you have to:
 {% hint style="warning" %}
 Minecraft has a bug that will make the game crash when using custom TTF fonts.
 
-This happens only on some Intel integrated GPUs and old versions of the game, I can't fix this bug, [read more here](https://bugs.mojang.com/browse/MC-180529?jql=text%20\~%20%22ttf%20crash%22).
+This happens only on some Intel integrated GPUs and old versions of the game, I can't fix this bug, [read more here](https://bugs.mojang.com/browse/MC-180529?jql=text%20~%20%22ttf%20crash%22).
 {% endhint %}

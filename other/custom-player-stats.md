@@ -2,14 +2,14 @@
 icon: database
 ---
 
-# Custom player stats
+# Custom Player Stats
 
 ## What are player stats?
 
 They custom attributes added by ItemsAdder, you can add and read them using a special command: `/iaplayerstat`
 
 You can then use **PlaceholderAPI** to show them anywhere or bind them to a HUD.\
-I did that to create thirst and mana. Check my [default configs](https://github.com/search?q=repo%3AItemsAdder%2FDefaultPack+player\_stat\_name\&type=code) for examples.
+I did that to create thirst and mana. Check my [default configs](https://github.com/search?q=repo%3AItemsAdder%2FDefaultPack+player_stat_name\&type=code) for examples.
 
 ### Example:&#x20;
 
@@ -28,7 +28,7 @@ player_stats:
   save_type: CUSTOM_NBT
 ```
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
 
 ### player.dat file
 
@@ -40,4 +40,4 @@ player_stats:
   save_type: PLAYER_DAT
 ```
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>

@@ -26,7 +26,7 @@
       - "ModelEngine/resource pack"
 ```
 
-* run `/meg reload`  to generate the **ModelEngine** resourcepack.
+* run `/meg reload` to generate the **ModelEngine** resourcepack.
 * `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
 
 ## Differences between ItemsAdder and ModelEngine
@@ -92,7 +92,7 @@ MythicCraft [announcement](https://web.archive.org/web/20231020161618/https://my
 There is some chat going on on the MythicCraft Discord server about how rx (packets sent to the client) are extremely lower compared to MEG 3. I also got contacted by some users about this fact and this caught my curiosity.\
 However these users statements are misleading.
 
-<div><figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure></div>
 
 I decided to make some analysis using the client F3 screen data and I made a custom Spigot [plugin](https://github.com/LoneDev6/IAMEGBenchmark) for the occasion.\
 The rx values showcased by these users are not correct because of how the client calculates this value.\
@@ -136,7 +136,5 @@ ModelEngine v4 introduces the display entities usage which cuts down the packets
 
 In conclusion: you have to decide which one fits your server project the most.
 {% endhint %}
-
-
 
 [^1]: The cause is not very clear, it might be related to how ItemsAdder handles custom entities head/body orientation logic, which is close to vanilla Minecraft.

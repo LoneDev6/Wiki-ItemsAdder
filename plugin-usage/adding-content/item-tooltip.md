@@ -5,7 +5,7 @@ icon: list-dropdown
 # Item Tooltip
 
 {% hint style="warning" %}
-### Requires **ItemsAdder 4.0.9** or greater.
+#### Requires **ItemsAdder 4.0.9** or greater.
 {% endhint %}
 
 ## Configuration
@@ -30,7 +30,7 @@ items:
 
 Create the required files into `contents/test_tooltip/textures/tooltip/`.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Tooltip support animated textures (`.png.mcmeta` files).
@@ -38,14 +38,12 @@ Tooltip support animated textures (`.png.mcmeta` files).
 
 Run `/iazip` and then get the item ingame.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## Old method
 
 You can add custom textured tooltips for your items, please refer to this example addon:\
 [https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/).
-
-
 
 ![https://i.imgur.com/eA7iz50.gif](https://i.imgur.com/eA7iz50.gif)
 

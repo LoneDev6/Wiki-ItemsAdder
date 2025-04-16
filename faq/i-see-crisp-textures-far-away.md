@@ -2,14 +2,14 @@
 icon: braille
 ---
 
-# I see crisp textures far away!
+# Crisp textures far away
 
 {% hint style="warning" %}
 If you see dotted and not smooth textures in far away it's a common mistake of resourcepacks maker.\
 Minecraft has a bug that disables mipmap if you set textures which their size is not a power of 2!
 {% endhint %}
 
-![LEFT: without mipmap. RIGHT: with mipmap](<../.gitbook/assets/image (19).png>)
+![LEFT: without mipmap. RIGHT: with mipmap](<../.gitbook/assets/image (129).png>)
 
 ## **How to fix?**
 

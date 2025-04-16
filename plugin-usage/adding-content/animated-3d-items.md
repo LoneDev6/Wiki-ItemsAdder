@@ -12,33 +12,33 @@ BlockBench [tutorials ](https://www.youtube.com/results?search_query=blockbench+
 {% hint style="danger" %}
 You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
 
-<img src="../../.gitbook/assets/image_(89) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (9) (1) (1) (1) (19).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/immagine (89) (18).png" alt="" data-size="original">
 {% endhint %}
 
 ## Creating a very simple animation
 
 For example I created this model, it's made of some cubes as you can see.
 
-![](../../.gitbook/assets/image_\(52\).png)
+![](<../../.gitbook/assets/immagine (32).png>)
 
 Now we want to animate it!\
 For example I want to make it float up and down.
 
 ### **Save** the **current model** in a temporary folder (anywhere on your PC)
 
-![](../../.gitbook/assets/image_\(53\).png)
+![](<../../.gitbook/assets/immagine (85).png>)
 
-![](../../.gitbook/assets/image_\(56\).png)
+![](<../../.gitbook/assets/immagine (18).png>)
 
 I saved it as **1.json** inside the temporary folder. This is the first frame of the **animation**.
 
 ### Return to **BlockBench** and select all pressing **`CTRL+A`**
 
-![](<../../.gitbook/assets/image_(78) (1).png>)
+![](<../../.gitbook/assets/immagine (78).png>)
 
 **Hold left mouse button** while clicking on the <mark style="color:green;">**GREEN**</mark> arrow, **hold `CTRL`** and **move** the mouse **up** a little bit.
 
-![](../../.gitbook/assets/image_\(58\).png)
+![](<../../.gitbook/assets/immagine (62).png>)
 
 **Save** the file again but change the name to `2.json`.\
 Do the same thing for each frame you want. Each model holds a single frame of your animation.
@@ -48,31 +48,31 @@ Do the same thing for each frame you want. Each model holds a single frame of yo
 Now we have finished creating the needed frames for our animation. Open [this website](https://lonedev6.github.io/animated-models/).\
 **Click** on the **icon** to load our `json` frames.
 
-![](../../.gitbook/assets/image_\(68\).png)
+![](<../../.gitbook/assets/immagine (94).png>)
 
 Click on **`Choose files...`** and select your `json` files (the frames) and the `png` texture.
 
-![](../../.gitbook/assets/image_\(77\).png)
+![](<../../.gitbook/assets/immagine (29).png>)
 
-![](../../.gitbook/assets/image_\(69\).png)
+![](<../../.gitbook/assets/immagine (63).png>)
 
 Click on **`LOAD`.**
 
-![](../../.gitbook/assets/image_\(70\).png)
+![](<../../.gitbook/assets/immagine (82).png>)
 
 **Click** the **copy** icon (second icon) and **drag** and **drop** the **4 files** to the bottom line.
 
-![](../../.gitbook/assets/image_\(71\).png)
+![](<../../.gitbook/assets/immagine (59).png>)
 
-![](../../.gitbook/assets/image_\(72\).png)
+![](<../../.gitbook/assets/immagine (1).png>)
 
 You should have them like that.
 
-![](../../.gitbook/assets/image_\(73\).png)
+![](<../../.gitbook/assets/immagine (84).png>)
 
 Drag and drop them again but in reverse (3-2, I skipped 1 and 4 because they would be useless for the animation).
 
-![](../../.gitbook/assets/image_\(75\).png)
+![](<../../.gitbook/assets/immagine (100).png>)
 
 Press the **play** button (on the **bottom left**) to **preview** the animation
 
@@ -80,7 +80,7 @@ Press the **play** button (on the **bottom left**) to **preview** the animation
 
 Press **`Export`** button (**top right** of the **screen**) and provide a model path, you will use it later to reference the model, then press **`Export`** again.
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 Now you will have a **`zip`** file with the animation, **download** it and **open** it.
 

@@ -8,11 +8,11 @@
 * **Drag and drop** **generated.zip** onto **DropBox** or copy paste the file to it from your server host.
 * Press **Share**.
 
-![](../../.gitbook/assets/image_\(20\).png)
+![](<../../.gitbook/assets/immagine (99).png>)
 
 * Press **Create**.
 
-![](../../.gitbook/assets/image_\(21\).png)
+![](<../../.gitbook/assets/immagine (41).png>)
 
 * Press **Copy link**.
 * For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0):

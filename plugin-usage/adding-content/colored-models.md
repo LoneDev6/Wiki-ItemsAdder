@@ -16,23 +16,23 @@ For example a custom colored furniture.
 
 ### 1. open your model with Blockbench
 
-![](../../.gitbook/assets/image_\(79\).png)
+![](<../../.gitbook/assets/immagine (37).png>)
 
 ### 2. select the face you want to be colored
 
-![](../../.gitbook/assets/image_\(80\).png)
+![](<../../.gitbook/assets/immagine (76).png>)
 
 ### 3. use a white/gray texture, for better coloring
 
 ### 4. enable the hidden "Tint" feature
 
-![](../../.gitbook/assets/image_\(81\).png)
+![](<../../.gitbook/assets/immagine (34).png>)
 
-![](../../.gitbook/assets/image_\(83\).png)
+![](<../../.gitbook/assets/immagine (91).png>)
 
 ### 5. enable the coloring for each face you want to be colored
 
-![](../../.gitbook/assets/image_\(85\).png)
+![](<../../.gitbook/assets/immagine (108).png>)
 
 ### 6. set the specific color attribute in your .yml file.
 
@@ -74,4 +74,4 @@ In this example I used `leather_horse_armor` but you can also use `potion`.
 
 ### 7. now you can create as many as furnitures you want, just change the color and it will be automatically colored by the game
 
-![](../../.gitbook/assets/image_\(86\).png)
+![](<../../.gitbook/assets/immagine (105).png>)

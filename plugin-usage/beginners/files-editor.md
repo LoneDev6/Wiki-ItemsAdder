@@ -12,11 +12,11 @@ icon: file
 
 ### Preview
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (12) (1).png" alt="" width="397"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (93).png" alt="" width="397"><figcaption></figcaption></figure></div>
 
 ### How to enable the descriptions on fields/suggestions
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 ## FTP
 
@@ -28,7 +28,7 @@ For example `remote_itemsadder_contents`.
 
 Press `CTRL+SHIFT+P` and run **Config**.
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
 
 Change `host`, `port`, `username` and `password` (and `protocol` if needed).\
 `uploadOnSave` allows you to automatically upload the files on saving.
@@ -50,4 +50,4 @@ Change `host`, `port`, `username` and `password` (and `protocol` if needed).\
 
 Press `CTRL+SHIFT+P` and run **Download Project**.
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>

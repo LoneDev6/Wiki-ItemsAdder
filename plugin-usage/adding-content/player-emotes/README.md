@@ -1,6 +1,6 @@
 ---
-icon: person-walking
 description: Adding animated player emotes
+icon: person-walking
 ---
 
 # Player Emotes
@@ -38,7 +38,7 @@ This method requires **Minecraft 1.17+ clients.**\
 
 [Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
-![](<../../../.gitbook/assets/image (98) (1).png>)
+![](<../../../.gitbook/assets/image (131).png>)
 
 \
 [Download](https://github.com/LoneDev6/itemsadder-entity/releases) the extension file.
@@ -47,15 +47,15 @@ This method requires **Minecraft 1.17+ clients.**\
 
 Then open **Blockbench** and click on File -> Plugins.
 
-![](<../../../.gitbook/assets/image (48) (1) (1).png>)
+![](<../../../.gitbook/assets/image (183).png>)
 
 Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
 
-![](<../../../.gitbook/assets/image (74) (1) (1).png>)
+![](<../../../.gitbook/assets/image (184).png>)
 
 Press OK
 
-![](<../../../.gitbook/assets/image (71).png>)
+![](<../../../.gitbook/assets/image (152).png>)
 
 ## Enabling emotes
 
@@ -88,17 +88,17 @@ Decide a name for your emotes pack.
 
 You can notice a lot of example animations on the left.
 
-![](<../../../.gitbook/assets/image (51) (3).png>)
+![](<../../../.gitbook/assets/image (180).png>)
 
 Delete all the emotes and edit/rename the ones you want. \
 They are useful only as base for your new emotes, to have an example to learn from.
 
-![](<../../../.gitbook/assets/image (68).png>)
+![](<../../../.gitbook/assets/image (161).png>)
 
 Now create a new animation (emote) and save your `.iaentitymodel` project file into this folder (change `my_emotes` to your namespace, this one is an example):\
 `ItemsAdder/contents/my_emotes/resourcepack/`
 
-![](<../../../.gitbook/assets/image (95).png>)
+![](<../../../.gitbook/assets/image (205).png>)
 
 Then continue following the tutorial to know how to export the emotes into ItemsAdder.
 
@@ -106,11 +106,11 @@ Then continue following the tutorial to know how to export the emotes into Items
 
 Click on the **ItemsAdder** tab and press **Export**.
 
-![](<../../../.gitbook/assets/image (100).png>)
+![](<../../../.gitbook/assets/image (60).png>)
 
 You should get a success message.
 
-![](<../../../.gitbook/assets/image (81) (1).png>)
+![](<../../../.gitbook/assets/image (66).png>)
 
 {% hint style="success" %}
 If you didn't add any custom model into your emote there is <mark style="color:green;">no need</mark> to use `/iazip`!\

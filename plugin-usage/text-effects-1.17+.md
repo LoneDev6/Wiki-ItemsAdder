@@ -78,7 +78,7 @@ You also have to give the permissions to each player.
 
 Remove background
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 Permission: `ia.user.text_effect.use.noshadow`\
 Usage: `<noshadow text>`
@@ -93,9 +93,9 @@ in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON compone
 
 ![](../.gitbook/assets/rainbow.gif)
 
-![](../.gitbook/assets/image_\(128\).png)
+![](<../.gitbook/assets/immagine (4).png>)
 
-![](../.gitbook/assets/image_\(129\).png)
+![](<../.gitbook/assets/immagine (14).png>)
 
 ![](../.gitbook/assets/rainbow_item.gif)
 
@@ -158,7 +158,7 @@ Usage: `<b text>`
 
 ## How to create animated prefix (Luckperms)
 
-![](../.gitbook/assets/image_\(133\).png)
+![](<../.gitbook/assets/immagine (53).png>)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 

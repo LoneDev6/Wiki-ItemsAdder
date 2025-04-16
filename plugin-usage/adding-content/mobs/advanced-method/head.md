@@ -23,11 +23,11 @@ Open your `.iaentitymodel` model file with **Blockbench**.
 
 Select the base bone of the head.
 
-![](<../../../../.gitbook/assets/image (93) (1).png>)
+![](<../../../../.gitbook/assets/image (92).png>)
 
 Rightclick on the bone and select "**Bone Config**"
 
-![](<../../../../.gitbook/assets/image (63) (1).png>)
+![](<../../../../.gitbook/assets/image (181).png>)
 
 Check the "**Head**" option and press "**Confirm**".\
 You can also decide max angles for X and Y rotation.
@@ -36,21 +36,21 @@ You can also decide max angles for X and Y rotation.
 
 The head bone is now marked as head, as you can see (the smiley face is the head bone).
 
-![](<../../../../.gitbook/assets/image (51) (1).png>)
+![](<../../../../.gitbook/assets/image (79).png>)
 
 ### Configure eyes height (optional)
 
 Create a new bone, you can call it like you prefer, for example `eyes_height`.
 
-![](<../../../../.gitbook/assets/image (59) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (71).png>)
 
 Place the bone between the entity eyes.
 
-![](<../../../../.gitbook/assets/image (45) (1).png>)
+![](<../../../../.gitbook/assets/image (156).png>)
 
 Rightclick on the bone and select "**Bone Config**", then select "Eyes height".
 
-![](<../../../../.gitbook/assets/image (88) (1).png>)
+![](<../../../../.gitbook/assets/image (158).png>)
 
 ### Done
 

@@ -9,7 +9,7 @@ This method is suggested for ItemsAdder 4.0.8 and lower.\
 This is made for clients with version lower than 1.21.2.
 
 ItemsAdder 4.0.9+ and Minecraft 1.21.2+ support a new way of making armors.\
-[Read more here](../armors.md).&#x20;
+[Read more here](../armors.md).
 {% endhint %}
 
 ## Custom wear texture
@@ -120,13 +120,13 @@ In this example I created also a new folder called `my_armor` to better organize
 
 ![](../../../.gitbook/assets/chestplate_item_red.png)
 
-![](<../../../.gitbook/assets/image (42) (1) (1).png>)
+![](<../../../.gitbook/assets/image (211).png>)
 
 ### Animated textures
 
 You can also create animated armors!
 
-![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1) (1).gif>)
+![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1).gif>)
 
 To create an animated armor you have to create an image with all the animation frames.\
 Each frame must be under the previous. This is an example this is a 3 frames animation:
@@ -302,7 +302,7 @@ items:
 
 </details>
 
-{% file src="../../../.gitbook/assets/myarmor_example.zip" %}
+{% file src="../../../.gitbook/assets/myarmor_example (1).zip" %}
 Extract the zip into the `contents` folder of ItemsAdder
 {% endfile %}
 
@@ -312,4 +312,3 @@ Extract the zip into the `contents` folder of ItemsAdder
 `armors_rendering` was renamed to `legacy_armor_renderings` in ItemAdder 4.0.9.\
 The old property still works to maintain compatibility.
 {% endhint %}
-

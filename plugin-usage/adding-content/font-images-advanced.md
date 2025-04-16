@@ -5,7 +5,7 @@ icon: icons
 # Font Images (advanced)
 
 {% hint style="warning" %}
-## This is a tutorial for advanced users
+### This is a tutorial for advanced users
 {% endhint %}
 
 ## Using specific a character
@@ -72,7 +72,7 @@ Create or edit the file `assets/minecraft/font/default.json` in your resourcepac
 ```
 {% endcode %}
 
-&#x20;If you have more entries you have to add a `,` after the previous entry, for example:
+If you have more entries you have to add a `,` after the previous entry, for example:
 
 ```json
 {

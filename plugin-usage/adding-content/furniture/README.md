@@ -1,6 +1,6 @@
 ---
-icon: lamp-floor
 description: Tutorial on how to create your first furniture
+icon: lamp-floor
 ---
 
 # Furniture - simple
@@ -122,11 +122,11 @@ items:
 
 Now open **BlockBench** and create a _"Java Block/Item"_.
 
-![](<../../../.gitbook/assets/image (49) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (91).png>)
 
 Now create your model, in this example I'm modelling an ugly minimal modern lamp.
 
-![](<../../../.gitbook/assets/image (47) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (76).png>)
 
 {% hint style="warning" %}
 Important: make sure the north is opposite of where you want the model to face.
@@ -136,9 +136,9 @@ Or add the property to the YML configuration `opposite_direction: true`
 
 Edit how the model is shown on player hand:
 
-![](<../../../.gitbook/assets/image (46) (1) (1).png>)
+![](<../../../.gitbook/assets/image (221).png>)
 
-![](<../../../.gitbook/assets/image (48) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (224).png>)
 
 ### Configure how the model is shown ingame
 
@@ -146,11 +146,11 @@ Edit how the model is shown on player hand:
 
 You have to select the **head icon** and then **small armorstand:**
 
-![](<../../../.gitbook/assets/image (41) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (204).png>)
 
 Then you have to shift your model down until it matches the armorstand base:
 
-![](<../../../.gitbook/assets/image (42) (1).png>)
+![](<../../../.gitbook/assets/image (126).png>)
 
 #### Using `item_display`
 
@@ -173,9 +173,9 @@ Now run `/iazip` (and follow the [hosting tutorial](../../resourcepack-hosting/)
 
 To obtain the item use this command: `/iaget myitems:lamp`.
 
-![](<../../../.gitbook/assets/image (50) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (177).png>)
 
-![](<../../../.gitbook/assets/image (44) (1) (1).png>)
+![](<../../../.gitbook/assets/image (153).png>)
 
 ## Chair
 
@@ -197,7 +197,7 @@ behaviours:
 
 This type of furniture entity is useful for any type of furniture you want to create.
 
-![](<../../../.gitbook/assets/image (47) (1) (1) (1) (2).png>)
+![](<../../../.gitbook/assets/image (51).png>)
 
 ```yaml
 behaviours:
@@ -265,7 +265,7 @@ You can also use [this tool](https://misode.github.io/transformation/) to previe
 
 This type of furniture entity is useful when you want to create chairs, plants, columns, lamps and similar environment decorations which don't need to rotate based on the surface on which you place them.
 
-![](<../../../.gitbook/assets/image (47) (1) (1) (1) (2).png>)
+![](<../../../.gitbook/assets/image (51).png>)
 
 ```yaml
 behaviours:
@@ -293,7 +293,7 @@ This type of furniture entity is useful when you want to make the furniture rota
 
 For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.
 
-![](<../../../.gitbook/assets/image (43) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (121).png>)
 
 ```yaml
 behaviours:
@@ -339,7 +339,7 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
           height_offset: 0
 ```
 
-![](<../../../.gitbook/assets/image (15) (1).png>)
+![](<../../../.gitbook/assets/image (169).png>)
 
 ### Hitbox has wrong location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
@@ -350,7 +350,7 @@ This can happen if your furniture is 2x1x1 for example.
 
 {% tabs %}
 {% tab title="Wrong" %}
-![](../../../.gitbook/assets/htibox1.png)
+![](../../../.gitbook/assets/143050888-2efd90f5-a462-459b-b71b-0e63beaa7620.png)
 
 
 {% endtab %}
@@ -379,9 +379,9 @@ You can also use negative values if needed.
 You can use the command `/iahitbox` to see the hitbox when you pleace a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}
 
-![](<../../../.gitbook/assets/hitbox3 (1) (1) (1) (8).png>)
+![](<../../../.gitbook/assets/immagine (63) (2) (3) (2) (1) (8).png>)
 
-![](../../../.gitbook/assets/image_\(87\).png)
+![](<../../../.gitbook/assets/immagine (17).png>)
 
 {% hint style="warning" %}
 ## **Hitboxes limitations**

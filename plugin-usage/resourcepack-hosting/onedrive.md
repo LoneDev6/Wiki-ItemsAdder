@@ -1,20 +1,20 @@
 # OneDrive
 
 {% hint style="warning" %}
-#### Not recommended.
+**Not recommended.**
 {% endhint %}
 
 ### Step 1
 
-![](<../../.gitbook/assets/image (52) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (65).png>)
 
 ### Step 2
 
-![](<../../.gitbook/assets/image (43) (1) (1).png>)
+![](<../../.gitbook/assets/image (208).png>)
 
 ### Step 3
 
-![](<../../.gitbook/assets/image (53) (1) (1).png>)
+![](<../../.gitbook/assets/image (116).png>)
 
 ### Step 4
 

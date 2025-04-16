@@ -25,7 +25,7 @@ icon: gear
 ## Step 2 - Resourcepack first installation
 
 {% hint style="warning" %}
-## Important Step
+### Important Step
 
 The content <mark style="color:red;">**WILL NOT SHOW CORRECTLY**</mark> if you won't complete this step!
 {% endhint %}
@@ -48,7 +48,7 @@ It's not automatically included in the downloaded plugin because some people mig
 
 ### Download the ["Default pack" here](https://github.com/ItemsAdder/DefaultPack/releases/latest)
 
-<div align="left"><img src="../.gitbook/assets/image (47).png" alt=""></div>
+<div align="left"><img src="../.gitbook/assets/image (63).png" alt=""></div>
 
 * Extract the content into the `ItemAdder` folder and overwrite the files if asked.
 * Run the `/iazip` command.
@@ -60,7 +60,7 @@ It's not automatically included in the downloaded plugin because some people mig
 
 ### Download ["Other pack" here](https://github.com/ItemsAdder/OtherPacks/releases/latest)
 
-<div align="left"><img src="../.gitbook/assets/image (50).png" alt=""></div>
+<div align="left"><img src="../.gitbook/assets/image (94).png" alt=""></div>
 
 * Extract the content into the `ItemAdder` folder and overwrite the files if asked.
 * Run the `/iazip` command.

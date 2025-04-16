@@ -9,7 +9,7 @@ More info here: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecom
 
 If you want to create a graphical prefix for your channels and show it in chat you have to follow this tutorial.
 
-![An example that shows the ARCADE prefix for the Arcade channel](../../.gitbook/assets/image_\(94\).png)
+![An example that shows the ARCADE prefix for the Arcade channel](<../../.gitbook/assets/immagine (10).png>)
 
 You just have to set this in your format configuration, (for example in the `format/arcade.yml` file of ChatControl Red):
 

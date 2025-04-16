@@ -6,7 +6,7 @@ icon: helmet-battle
 
 {% hint style="danger" %}
 Available on ItemsAdder 4.0.9 or greater only.\
-Requires Minecraft client and server 1.21.2 or  greater.
+Requires Minecraft client and server 1.21.2 or greater.
 
 For older versions tutorials read here: [simple armor](armors-old/simple-armor.md) or [textured armor](armors-old/textured-armor.md).
 {% endhint %}
@@ -21,7 +21,7 @@ equipments:
     layer_2: armor/my_armor_1/layer_2
 ```
 
-The `equipment` is a property  which contains the information how to show the armor in-game on the player body.
+The `equipment` is a property which contains the information how to show the armor in-game on the player body.
 
 Create the layers files inside the folder: `contents/my_armor_tutorial/textures/armor/my_armor_1` .
 
@@ -56,9 +56,9 @@ This loads our previously created equipment settings.
 Create the item texture and put it inside the folder:\
 `contents/my_armor_tutorial/textures/item`.
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (42) (1) (1).png>)
+![](<../../.gitbook/assets/image (211).png>)
 
 ## Extra: Custom 3D helmet
 
@@ -82,7 +82,7 @@ Currently only helmets support 3D models due to a Minecraft limitation I cannot 
 Do not put any `id` in the `equipment`, otherwise the previous layer texture would be used instead of the custom `model_path`.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
 
 ### Full configuration from the previous example
 
@@ -163,7 +163,7 @@ To create animated or/and emissive textures you have to use [the old method show
 
 I do not advice to use HD textures since this is a blocky game, but can create HD high resolution, but make sure they have the same proportions of the original vanilla armors layers textures.
 
-<mark style="color:red;">Size must be a power of 2</mark>, for example: 64x32, 128x64, 256x128, 512x256.&#x20;
+<mark style="color:red;">Size must be a power of 2</mark>, for example: 64x32, 128x64, 256x128, 512x256.
 
 ## Multi-version compatibility
 

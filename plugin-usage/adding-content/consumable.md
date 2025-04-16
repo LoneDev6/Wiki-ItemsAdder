@@ -1,0 +1,6 @@
+---
+icon: burger-cheese
+---
+
+# Consumable
+

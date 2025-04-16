@@ -49,7 +49,7 @@ After you finished configuring the hosting (follow the linked tutorial carefully
 
 For example:
 
-![](<../../.gitbook/assets/image (60) (1).png>)
+![](<../../.gitbook/assets/image (87).png>)
 
 {% hint style="warning" %}
 You must remove the URL part after `#`, it's not needed.\

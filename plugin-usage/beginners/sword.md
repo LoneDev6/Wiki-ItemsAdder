@@ -83,9 +83,9 @@ To do that you have to:
 * (if you're using **external-host** (**DropBox**) scroll down and follow the instructions)
 * &#x20;get the item using `/iaget mysword`
 
-![](../../.gitbook/assets/image_\(18\).png)
+![](<../../.gitbook/assets/immagine (21).png>)
 
-![](../../.gitbook/assets/image_\(19\).png)
+![](<../../.gitbook/assets/immagine (58).png>)
 
 ## Resourcepack Hosting Tutorials
 

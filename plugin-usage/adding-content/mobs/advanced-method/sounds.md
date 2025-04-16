@@ -4,19 +4,19 @@
 
 Switch to "**Animate**" view.
 
-![](<../../../../.gitbook/assets/image (50) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (72).png>)
 
 Select one of your animations.
 
-![](<../../../../.gitbook/assets/image (92) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (120).png>)
 
 Select the magic wand icon "**Animate Effects**"
 
-![](<../../../../.gitbook/assets/image (44) (1).png>)
+![](<../../../../.gitbook/assets/image (195).png>)
 
 Click on the **+** icon near "**Sound**" effect type to create a new particle keyframe.
 
-![](<../../../../.gitbook/assets/image (76) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (114).png>)
 
 Edit the values on the "**Keyframe**" panel.
 
@@ -25,7 +25,7 @@ Edit the values on the "**Keyframe**" panel.
 * Pitch: the pitch of the sound.\
 
 
-![](<../../../../.gitbook/assets/image (87).png>)
+![](<../../../../.gitbook/assets/image (53).png>)
 
 ## Done
 

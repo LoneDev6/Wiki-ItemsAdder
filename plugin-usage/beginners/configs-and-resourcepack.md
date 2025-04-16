@@ -38,7 +38,7 @@ On the other hand you will need more namespaces if you are a contents creator an
 
 All **realcraft** items are under the `realcraft` namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 
-![](<../../.gitbook/assets/image (7) (1) (1).png>)
+![](<../../.gitbook/assets/image (223).png>)
 
 ## How can I define my own namespace?
 

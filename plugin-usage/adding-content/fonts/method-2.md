@@ -1,12 +1,12 @@
 # PNG font (easier)
 
 {% hint style="info" %}
-#### This method allows you to add fonts using .png files
+**This method allows you to add fonts using .png files**
 {% endhint %}
 
 ## Example font
 
-![](<../../../.gitbook/assets/image_(13).png>)
+![](<../../../.gitbook/assets/immagine (23).png>)
 
 {% hint style="info" %}
 This font is made by Faithful team.
@@ -18,4 +18,6 @@ To this you have to:
 * extract contents into `plugins\ItemsAdder\contents\faithful_font\resourcepack\`
 * run `/iazip` and follow the hosting tutorial to apply the pack.
 
-{% content-ref url="../resourcepack-hosting/" %} resourcepack-hosting {% endcontent-ref %}
+{% content-ref url="../resourcepack-hosting/" %}
+[resourcepack-hosting](../resourcepack-hosting/)
+{% endcontent-ref %}

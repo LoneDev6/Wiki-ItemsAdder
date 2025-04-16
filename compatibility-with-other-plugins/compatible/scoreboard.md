@@ -17,7 +17,7 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images.md)(em
 
 `%img_smile%` will show like that:
 
-![](../../.gitbook/assets/image_\(95\).png)
+![](<../../.gitbook/assets/immagine (22).png>)
 
 ## Hide the scoreboard background
 
@@ -25,11 +25,11 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images.md)(em
 
 ### Before
 
-![](../../.gitbook/assets/image_\(97\).png)
+![](<../../.gitbook/assets/immagine (101).png>)
 
 ### After
 
-![](../../.gitbook/assets/image_\(96\).png)
+![](<../../.gitbook/assets/immagine (27).png>)
 
 With ItemsAdder you can hide the scoreboard background, just use this trick.\
 You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>\*\* \*\* of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
