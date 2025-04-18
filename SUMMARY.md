@@ -259,6 +259,9 @@
 
 ## Developers
 
+* [Scripting](developers/scripting/README.md)
+  * [Constructs](developers/scripting/constructs.md)
+  * [Examples](developers/scripting/examples.md)
 * [Java API](developers/java-api/README.md)
   * [Usage](developers/java-api/examples.md)
   * [Events](developers/java-api/events.md)
@@ -269,4 +272,3 @@
   * [Expert users](developers/skript-api/expert-users-1.md)
 * [Denizen API](developers/denizen-api.md)
 * [Branding](developers/branding.md)
-* [Scripting (WIP)](developers/scripting-wip.md)
