@@ -16,9 +16,11 @@ icon: gear
 ## Step 1 - Installing the plugin and libraries
 
 * Stop the server.
-* Put [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/).JAR inside the `plugins` folder
-* Put [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/).JAR inside the `plugins` folder (not required on 4.0.9 and greater)
-* Put the **ItemsAdder**.JAR file inside your plugins folder
+* Put **ProtocolLib** JAR inside the `plugins` folder
+  * Download the 1.21.5 version [here](https://ci.dmulloy2.net/job/ProtocolLib/745/artifact/build/libs/ProtocolLib.jar)
+  * Download 1.21.4 and older versions [here](https://ci.dmulloy2.net/job/ProtocolLib/)
+* Put [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/) JAR inside the `plugins` folder (not required on 4.0.9 and greater)
+* Put the **ItemsAdder** JAR file inside your plugins folder
 * Start the server
 * Let **ItemsAdder** finish loading **everything**
 
