@@ -215,10 +215,6 @@ You then have to set the `equipment.legacy_armor_rendering_id` and `equipment.id
 
 ### Extra: Custom 3D helmet
 
-Currently on Minecraft 1.21.1 and lower only normal items (not helmets) support 3D models due to a Minecraft limitation I cannot fix.
-
-In this case, to support legacy clients too you must use the `hat` `behaviour` instead.
-
 ```yaml
   my_armor_1_helmet_3d:
     name: My Armor 1 Helmet 3D
@@ -231,6 +227,23 @@ In this case, to support legacy clients too you must use the `hat` `behaviour` i
     equipment:
       slot_attribute_modifiers:
         armor: 2.5
+```
+
+Minecraft 1.21.1 and lower do not support helmets (`DIAMOND_HELMET`, `LEATHER_HELMET` etc.) to create 3D hats due to a Minecraft limitation I cannot fix.
+
+In this case, to support legacy clients too, you must use a different material like `PAPER` and use the `hat` `behaviour` instead.
+
+```yaml
+  my_armor_1_helmet_3d:
+    name: My Armor 1 Helmet 3D
+    resource:
+      generate: false
+      model_path: armor/my_armor_1_helmet_3d
+      material: PAPER
+    durability:
+      max_durability: 165
+    behaviours:
+      hat: true
 ```
 
 ### Full configuration from the previous example
