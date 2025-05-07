@@ -122,7 +122,7 @@ items:
     - 'test line from IA config 2'
     - 'test line from IA config 3'
     permission: custom.test
-    nbt: "{components:{\"minecraft:custom_name\":'{\"text\":\"TEST\", \"font\": \"alt\", \"italic\":false}', \"minecraft:custom_data\": {\"bro\":'asd'}}}"
+    nbt: "{components:{\"minecraft:custom_name\":{\"text\":\"TEST\", \"font\": \"alt\", \"italic\":false}, \"minecraft:custom_data\": {\"bro\":'asd'}}}"
     resource:
       material: DIAMOND_SWORD
       generate: false
