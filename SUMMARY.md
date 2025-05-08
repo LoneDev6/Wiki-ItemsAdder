@@ -28,6 +28,7 @@
   * [Can't extract the resourcepack file](faq/cant-extract-the-resourcepack-file.md)
   * [Slabs, stairs, tridents, elytra etc.](faq/slabs-stairs-tridents-elytra-etc..md)
   * [Failed to load required shader programs](faq/failed-to-load-required-shader-programs.md)
+  * [Emotes graphical bug](faq/emotes-graphical-bug.md)
   * [Armors textures not working with shaders mod](faq/armors-textures-not-working-with-shaders-mod.md)
   * [Armors animation and emission not working](faq/armors-animation-and-emission-not-working.md)
   * [Armor leather texture looks like metal](faq/leather-armor-texture-overwritten.md)
