@@ -2,7 +2,7 @@
 icon: cube
 ---
 
-# Blocks
+# Block
 
 ## Block properties
 
@@ -40,7 +40,7 @@ specific_properties:
         pitch: 0.9
 ```
 
-## `placed_model`&#x20;
+## `placed_model`
 
 ### `type`
 
@@ -48,20 +48,20 @@ This property can have these value:
 
 * `REAL_NOTE`
   * Uses a real block (note\_block), no lag, no entities, 100% real blocks.
-  * Downsides:&#x20;
-    * **no** support for **transparency**.&#x20;
+  * Downsides:
+    * **no** support for **transparency**.
     * **Max** of **750 blocks** in total.
 * `REAL`
   * Uses a real block (mushroom), no lag, no entities, 100% real blocks. (although it's advised to use `REAL_NOTE` which is more stable).
-  * Downsides:&#x20;
+  * Downsides:
     * **Max** of **191 blocks** in total
 * `REAL_TRANSPARENT`
   * Uses a real block (chorus), no lag, no entities, 100% real blocks, also with transparency support!
-  * Downsides:&#x20;
+  * Downsides:
     * **Max** of **63 blocks** in total.
 * `REAL_WIRE`
   * Uses a real block (tripwire), no lag, no entities, 100% real blocks.
-  * Downsides:&#x20;
+  * Downsides:
     * **Max** of **127 blocks** in total.
 * `TILE`
   * Uses **tile** blocks (modified **spawner** with custom skin). It's **not an entity** but it have some downsides. Good thing is that you can create **infinite blocks**, there is no amount limit like **REAL** blocks.
@@ -71,7 +71,7 @@ This property can have these value:
     * It could cause clientside lag if A LOT of blocks are in the player field of view, but only on lowend PCs.
 * `FIRE`
   * This is a **special** type of **block**, it's the **fire** block.
-  * Downsides:&#x20;
+  * Downsides:
     * Only a **max** of **14** custom **fires** are possible, so be sure to create only the ones you need.
 
 {% hint style="warning" %}
@@ -147,7 +147,7 @@ Available since ItemsAdder 4.0.9.
 Controls if the block is dropped when using silk touch enchanted tools.
 
 {% hint style="info" %}
-If you use silk touch enchanted tool to break the block you will still get the block but it won't drop any item from its loot&#x20;
+If you use silk touch enchanted tool to break the block you will still get the block but it won't drop any item from its loot
 {% endhint %}
 
 ## Tools blacklist and whitelist
@@ -175,8 +175,10 @@ Whitelist of tools that cannot run events on this block [(`placed_block.interact
 
 ### `hardness`
 
-Hardness of the block, it makes it more difficult to be mined. \
+Hardness of the block, it makes it more difficult to be mined.\
 Refer to my blocks to get some **examples** (check **blocks.yml** file inside **itemsadder namespace**).
+
+You can set `hardness` to `-1` to make the block break instantly.
 
 ### `blast_resistance`
 
@@ -241,7 +243,7 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 ```
 
 {% hint style="info" %}
-To add custom sounds to  your resourcepack you have to [read the sounds tutorial](adding-sounds.md).
+To add custom sounds to your resourcepack you have to [read the sounds tutorial](adding-sounds.md).
 {% endhint %}
 
 ### `permission_suffix`
