@@ -21,4 +21,4 @@ This is a know issue due to a AMD GPU bug.
           1_21_5_plus: false # here, set to false
 ```
 
-<figure><img src="../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (248).png" alt=""><figcaption><p>Many thanks to Dnalor for the testing!</p></figcaption></figure>
