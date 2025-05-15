@@ -4,7 +4,7 @@ Armors and other entities shown on the wrong location on screen.\
 This happens only on 1.21.5.
 
 {% hint style="info" %}
-This is a know issue due to a AMD GPU bug.
+This is a know issue due to a AMD GPU compatibility bug I currently cannot fix. I didn't find a way to mitigate that issue sadly. Only Mojang can fix that at this point.
 {% endhint %}
 
 ## Possible solutions
