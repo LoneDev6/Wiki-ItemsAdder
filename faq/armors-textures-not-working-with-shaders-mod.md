@@ -4,6 +4,16 @@ description: Armors textures look broken when using custom shaders mods (1.17+)
 
 # Armors textures not working with shaders mod
 
+{% hint style="success" %}
+If you are on 1.21.2 and greater (both server and clients) you can use the new armors creation method that doesn't use any vanilla shader to create custom armors, so it is compatible with the shaders mods.
+
+More info [here](../plugin-usage/adding-content/armors.md).
+{% endhint %}
+
+<details>
+
+<summary>Old Fix Information</summary>
+
 {% hint style="warning" %}
 **This bug has a workaround fix in ItemsAdder 3.0.3**
 
@@ -20,6 +30,8 @@ We have to wait the developer of **Optifine** to fix that issue.
 
 This is not my fault.
 {% endhint %}
+
+</details>
 
 ![](../.gitbook/assets/armor_shader_bug_1.png)
 
