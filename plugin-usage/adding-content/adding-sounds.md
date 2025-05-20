@@ -4,7 +4,7 @@ icon: volume-low
 
 # Sounds
 
-## Convert `MP3` to `OGG`
+## Converting files from `MP3` to `OGG`
 
 Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert your file (`mp3`, `wav`...) to `ogg`.
 
@@ -16,7 +16,47 @@ Remember to set "Change audio channels" to MONO or you will experience [audio pr
 <img src="../../.gitbook/assets/audio_mono.png" alt="" data-size="original">
 {% endhint %}
 
-### Step 1
+## Creating the sound
+
+### New Method
+
+{% hint style="warning" %}
+## This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.
+{% endhint %}
+
+#### Simple sound
+
+Put the sound file in `contents/my_sounds/sounds/sound_1.ogg`.
+
+```yaml
+info:
+  namespace: my_sounds
+minecraft_lang_overwrite:
+  my_lang_overwrite:
+    entries:
+      sound.sound_1: "Sound 1"
+    languages:
+    - ALL
+sounds:
+  sound_1:
+    path: bruh
+    settings:
+      subtitle: sound.sound_1
+```
+
+#### Jukebox song (Minecraft 1.21.1 and greater)
+
+{% content-ref url="jukebox-disc.md" %}
+[jukebox-disc.md](jukebox-disc.md)
+{% endcontent-ref %}
+
+### Old Method (ItemsAdder 4.0.10 and lower)
+
+<details>
+
+<summary>Click to read the old method</summary>
+
+#### Step 1
 
 * create a new folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/` \
   (or use yours if you already have one)
@@ -27,7 +67,7 @@ Remember to set "Change audio channels" to MONO or you will experience [audio pr
 I have a file named **`song_1.ogg`** and I put it into a new `music` folder.\
 So now I have `contents/my_sounds/resourcepack/my_sounds/sounds/music/song_1.ogg`
 
-### Step 2
+#### Step 2
 
 * open the folder `contents/my_sounds/resourcepack/my_sounds/`
 * create a new file named `sounds.json` (or open it if you already created it)
@@ -47,7 +87,7 @@ To add your sound into the file you just have to do this:
 ```
 {% endcode %}
 
-#### Now I explain each part of the code I wrote.
+#### Now I explain each part of the code I wrote
 
 This is the sound name. You will use it in every part of the plugin and also in Minecraft vanilla [/playsound ](https://www.digminecraft.com/game_commands/playsound_command.php)command.
 
@@ -77,7 +117,7 @@ For example if you want to have random sounds for the same sound name you just h
 ]
 ```
 
-## How can I add multiple sounds in the `sounds.json` file?
+#### How can I add multiple sounds in the `sounds.json` file?
 
 It's easy, the next time you want to add a sound you just have to add a comma at the end, like this.\
 (I'm referring to line 6 comma)
@@ -100,3 +140,7 @@ It's easy, the next time you want to add a sound you just have to add a comma at
 {% hint style="warning" %}
 If you want to be sure not to make mistakes use this website to check if your `sounds.json` file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 {% endhint %}
+
+
+
+</details>

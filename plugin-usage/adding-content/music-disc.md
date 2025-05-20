@@ -2,7 +2,12 @@
 icon: compact-disc
 ---
 
-# Music Disc
+# Music Disc (old)
+
+{% hint style="warning" %}
+This tutorial is suitable for servers that accept clients below 1.21.1.\
+If your server accepts 1.21.1 and greater only, you can follow the [new tutorial here](jukebox-disc.md).
+{% endhint %}
 
 ## Create the sound
 
