@@ -44,6 +44,7 @@
   * [Blockbench Errors](faq/common-errors.md)
   * [Liquids issues](faq/liquids-issues.md)
   * [Citizens NPC doesn't rotate head](faq/citizens-npc-doesnt-rotate-head.md)
+  * [Jukeboxes do not play on join or teleport](faq/jukeboxes-do-not-play-on-join-or-teleport.md)
 * [Compatibility with other plugins](compatibility-with-other-plugins/README.md)
   * [Not compatible](compatibility-with-other-plugins/not-compatible.md)
   * [Compatible](compatibility-with-other-plugins/compatible/README.md)
