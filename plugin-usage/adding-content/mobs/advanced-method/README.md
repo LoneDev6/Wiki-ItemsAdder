@@ -55,22 +55,9 @@ Advanced animation features
 
 ![](<../../../../.gitbook/assets/image (131).png>)
 
-\
-[Download the zip](https://github.com/LoneDev6/itemsadder-entity/releases) `iaentitymodel.zip`
+Install the official extension [from here](https://github.com/LoneDev6/itemsadder-entity/releases/tag/1.2.6).
 
-![](<../../../../.gitbook/assets/image (218).png>)
-
-Extract it somewhere, then open **Blockbench** and click on File -> Plugins.
-
-![](<../../../../.gitbook/assets/image (183).png>)
-
-Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
-
-![](<../../../../.gitbook/assets/image (184).png>)
-
-Press OK
-
-![](<../../../../.gitbook/assets/image (152).png>)
+<figure><img src="../../../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
 
 ## Converting the model
 
@@ -90,6 +77,12 @@ Now save the new converted model file in a new folder where you will put only th
 You will have something like that
 
 ![](<../../../../.gitbook/assets/image (182).png>)
+
+### Saving the project
+
+Now create a new folder inside `ItemsAdder/contents/`, it's your namespace folder. For example mine is `custom`, so the path is `ItemsAdder/contents/custom/`.
+
+Save the project file `.iaentitymodel` into your ItemsAdder namespace folder, in this example into `contents/custom/`.
 
 ### Configuring the model
 
@@ -122,17 +115,11 @@ You should get a success message.
 
 ![](<../../../../.gitbook/assets/image (66).png>)
 
-Now open the folder where you have your model and copy/cut the new generated folder `assets`.
-
-![](<../../../../.gitbook/assets/image (86).png>)
-
-Now create a new folder inside `ItemsAdder/contents/`, it's your namespace folder. For example mine is `custom`, so the path is `ItemsAdder/contents/custom/`.
-
-Paste the `assets` folder inside the ItemsAdder folder `ItemsAdder/contents/custom/resourcepack/`.
-
 ### Creating the ingame entity configuration
 
-Create a new `.yml` configuration file inside `ItemsAdder/contents/custom/configs/` and call it as you prefer, in this example I use one file per-entity, to keep things organized.
+As you can see the extension created a file automatically, called `custom_entity_NAME.yml`. It will create it only on the first export.
+
+You can customize it with more properties if needed.
 
 {% code title="barman_robot.yml" %}
 ```yaml

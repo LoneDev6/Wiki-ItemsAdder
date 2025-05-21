@@ -227,6 +227,7 @@
       * [Mythicmobs](plugin-usage/adding-content/mobs/advanced-method/mythicmobs.md)
       * [Advanced settings](plugin-usage/adding-content/mobs/advanced-method/advanced-settings.md)
     * [Summon Custom Player With Skin](plugin-usage/adding-content/mobs/custom-skin.md)
+    * [Entity Random Spawn](plugin-usage/adding-content/mobs/entity-random-spawn.md)
   * [Animated titles](plugin-usage/adding-content/animated-titles.md)
   * [Custom item NBT](plugin-usage/adding-content/custom-item-nbt.md)
   * [Animated 3D Items](plugin-usage/adding-content/animated-3d-items.md)
