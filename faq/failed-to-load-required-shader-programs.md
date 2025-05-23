@@ -1,3 +1,7 @@
+---
+icon: exclamation
+---
+
 # Failed to load required shader programs
 
 `Caught error loading resourcepacks, removing all selected resourcepacks java.util.concurrent.CompletionException: java.lang.RuntimeException: Failed to load required shader programs:`

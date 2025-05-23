@@ -1,3 +1,7 @@
+---
+icon: question
+---
+
 # Slabs, stairs, tridents, elytra etc.
 
 ### Slabs and stairs

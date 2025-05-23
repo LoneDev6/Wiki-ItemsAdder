@@ -5,6 +5,12 @@ icon: person-walking
 
 # Broken emote textures
 
+## Resourcepack issues
+
+Make sure you accepted the resourcepack and that you enabled emotes in `config.yml` of ItemsAdder. Try also to regenerate the pack using `/iazip`.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ## Shader Mod issues
 
 Mods that allow the usage of custom shaders will break emotes due to them overriding/replacing the vanilla Shader which ItemsAdder uses for the Emotes feature.
@@ -21,13 +27,13 @@ The only way to _"fix"_ this is by disabling the shaders themself or removing th
 {% endtab %}
 {% endtabs %}
 
-Known shader mods that cause issues:
+### Known shader mods that cause issues
 
-### Optifine
+#### Optifine
 
 Related issue: [https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
 
-### IrisShaders
+#### IrisShaders
 
 Related issue: [https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
 
@@ -35,9 +41,9 @@ Related issue: [https://github.com/IrisShaders/Iris/issues/1042](https://github.
 
 A mod may change the default player model/skin and can therefore be affected by ItemsAdder's shader manipulations, or vice-versa.
 
-Known Mods that cause issues:
+### Known Mods that cause issues
 
-### 3DSkinLayers
+#### 3DSkinLayers
 
 The mod alters the outer skin layer to make them appear in 3D, which alters the player model itself.
 
@@ -46,7 +52,7 @@ There is currently no workaround for using 3D layers in Emote animations.
 
 Additional information can be found in the related issue: [https://github.com/tr7zw/3d-Skin-Layers/issues/45](https://github.com/tr7zw/3d-Skin-Layers/issues/45)
 
-### Customizable Player Models
+#### Customizable Player Models
 
 This mod allows the complete customization of the player model including replacing parts of it or the model as a whole.\
 Due to this will Emotes not display properly in ItemsAdder and there is currently no fix available outside of not using the mod or not using the Emote animations.

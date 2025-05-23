@@ -2,9 +2,11 @@
 
 ## Glow outline is strange on players when they wear armor
 
-<figure><img src="../../.gitbook/assets/armor-glow-outline-bug.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/armor-glow-outline-bug.png" alt=""><figcaption></figcaption></figure>
 
 ### This is a known issue
 
 There is no fix for this, it probably is a limitation of the custom armors method.\
 Anyway this is a minor graphical issue, I doubt anyone on your server will suffer from it.
+
+To fix that you have to disable the custom armors shader in `config.yml`. You can do it if you do not use them.
