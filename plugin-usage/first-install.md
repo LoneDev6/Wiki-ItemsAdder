@@ -15,12 +15,27 @@ icon: gear
 
 ## Step 1 - Installing the plugin and libraries
 
+<details>
+
+<summary>Click here to read v3 installation</summary>
+
 * Stop the server.
-* Put **ProtocolLib** JAR inside the `plugins` folder
-  * Download the 1.21.5 version [here](https://ci.dmulloy2.net/job/ProtocolLib/745/artifact/build/libs/ProtocolLib.jar)
+
+- Put **ProtocolLib** JAR inside the `plugins` folder
   * Download 1.21.4 and older versions [here](https://ci.dmulloy2.net/job/ProtocolLib/)
+
 * Put [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/) JAR inside the `plugins` folder (not required on 4.0.9 and greater)
-* Put the **ItemsAdder** JAR file inside your plugins folder
+
+- Put the **ItemsAdder** JAR file inside your plugins folder
+
+* Start the server
+
+- Let **ItemsAdder** finish loading **everything**
+
+</details>
+
+* Put `ProtocolLib.jar` inside the `plugins` folder (Download the [here](https://ci.dmulloy2.net/job/ProtocolLib/lastBuild/artifact/build/libs/ProtocolLib.jar) )
+* Put the `ItemsAdder.jar` file inside the `plugins` folder
 * Start the server
 * Let **ItemsAdder** finish loading **everything**
 
@@ -29,15 +44,11 @@ icon: gear
 {% hint style="warning" %}
 ### Important Step
 
-The content <mark style="color:red;">**WILL NOT SHOW CORRECTLY**</mark> if you won't complete this step!
+Content <mark style="color:red;">**WILL NOT SHOW CORRECTLY**</mark> if you won't complete this step!
 {% endhint %}
 
 Before using the plugin you have to decide the resourcepack hosting method.\
-Click down here to decide a hosting method for the resourcepack (best method: `self-host`).
-
-{% content-ref url="resourcepack-hosting/" %}
-[resourcepack-hosting](resourcepack-hosting/)
-{% endcontent-ref %}
+Read [this tutorial](resourcepack-hosting/) to decide the hosting method for the resourcepack (best method: `self-host`).
 
 ***
 
@@ -52,7 +63,7 @@ It's not automatically included in the downloaded plugin because some people mig
 
 <div align="left"><img src="../.gitbook/assets/image (63).png" alt=""></div>
 
-* Extract the content into the `ItemAdder` folder and overwrite the files if asked.
+* Extract the content into the `ItemsAdder` folder and overwrite the files if asked.
 * Run the `/iazip` command.
 * Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**.
 
@@ -64,6 +75,6 @@ It's not automatically included in the downloaded plugin because some people mig
 
 <div align="left"><img src="../.gitbook/assets/image (94).png" alt=""></div>
 
-* Extract the content into the `ItemAdder` folder and overwrite the files if asked.
+* Extract the content into the `ItemAsdder` folder and overwrite the files if asked.
 * Run the `/iazip` command.
 * Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**.
