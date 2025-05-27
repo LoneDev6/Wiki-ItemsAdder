@@ -14,12 +14,7 @@ This plugin doesn't require Citizens to work, but some servers might need to use
 
 ### Changing the model
 
-Set the NPC type to `ZOMBIE`: \
-`/npc type ZOMBIE`
-
-{% hint style="warning" %}
-Do not use `PLAYER` as type, it causes issues with head/body rotation.
-{% endhint %}
+Spawn a new NPC or use an already existing one (`/npc create test`).
 
 Then change the skin using the **ItemsAdder** command:\
 `/iaentity citizens <id|selected> model <model>`\
@@ -37,10 +32,10 @@ You can make the NPC look at nearby players by using this command, more info on 
 
 ### Done
 
-![](../../../../.gitbook/assets/ezgif-2-31a4557026.webp)
+![](../../../.gitbook/assets/ezgif-2-31a4557026.webp)
 
 ## Playing animation
 
 You can play an animation using this command: `/iaentity citizens <id|selected> anim play <animation>`
 
-![](../../../../.gitbook/assets/ezgif.com-gif-maker.webp)
+![](../../../.gitbook/assets/ezgif.com-gif-maker.webp)

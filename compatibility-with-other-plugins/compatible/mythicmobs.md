@@ -2,7 +2,7 @@
 
 ### [Download here](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
 
-## Using an ItemsAdder items in MythicMobs&#x20;
+## Using an ItemsAdder items in MythicMobs
 
 {% hint style="warning" %}
 Update to **ItemsAdder 3.0.4** or greater and **MythicMobs 5.0.1** or greater
@@ -48,6 +48,6 @@ SkeletalKnight:
 
 ## Custom mobs models
 
-{% content-ref url="../../plugin-usage/adding-content/mobs/advanced-method/" %}
-[advanced-method](../../plugin-usage/adding-content/mobs/advanced-method/)
+{% content-ref url="../../plugin-usage/adding-content/mobs/advanced-method.md" %}
+[advanced-method.md](../../plugin-usage/adding-content/mobs/advanced-method.md)
 {% endcontent-ref %}

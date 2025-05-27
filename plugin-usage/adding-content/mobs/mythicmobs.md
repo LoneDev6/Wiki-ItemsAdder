@@ -198,7 +198,3 @@ Example: play a particle each 3 ticks on the bone center.
 ```
 
 {% embed url="https://youtu.be/LYCWCtmCzLc" %}
-
-### Final result
-
-![](broken-reference)
