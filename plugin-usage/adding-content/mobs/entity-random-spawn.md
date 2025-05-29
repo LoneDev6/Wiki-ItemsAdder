@@ -52,7 +52,6 @@ entities_populator:
   red_zombie:
     entity: test:red_zombie
     # This sets how to actually spawn the entity. 
-    # By default uses REPLACE and types to all monsters and friendly
     # You can replace a vanilla mob when it's spawned or spawn your mob near it.
     # Note: This uses the Minecraft spawn logic, so gemerule `doMobSpawning false` 
     # will make this stop working.
