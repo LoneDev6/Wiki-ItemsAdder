@@ -42,7 +42,7 @@ entities:
     model_folder: entity/happy_creeper
     type: WOLF
     can_sun_burn: false
-    eyes_height: 1.62
+    eyes_height: 0.25
 ```
 
 ### Done
