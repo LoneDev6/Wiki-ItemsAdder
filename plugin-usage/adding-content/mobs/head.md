@@ -27,6 +27,24 @@ The head bone is now marked as head, as you can see (the smiley face is the head
 
 ![](<../../../.gitbook/assets/image (79).png>)
 
+### Eyes height
+
+Height of the eyes of the entity, used for head look calculations. Default: `1.62`.\
+You can set it in the `.yml` configuration file of the entity once exported.
+
+Example:
+
+```yaml
+info:
+  namespace: vanillaex
+entities:
+  happy_creeper:
+    model_folder: entity/happy_creeper
+    type: WOLF
+    can_sun_burn: false
+    eyes_height: 1.62
+```
+
 ### Done
 
 Now you have to export the model as usual.
