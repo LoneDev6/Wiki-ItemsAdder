@@ -14,7 +14,7 @@ Emotes with multiple joints animations look <mark style="color:red;">**awful**</
 
 The current emotes have the same style of Bedrock edition emotes, which follows the Mojang style guidelines.
 
-{% embed url="https://minecraft.fandom.com/wiki/Emotes" %}
+{% embed url="https://ja.minecraft.wiki/w/%E3%82%A8%E3%83%A2%E3%83%BC%E3%83%88" %}
 
 ### Reason 3
 
