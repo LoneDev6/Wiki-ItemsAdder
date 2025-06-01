@@ -14,7 +14,7 @@
 
 当前的表情动作与基岩版的表情动作风格相同，遵循 Mojang 的风格指南。
 
-{% embed url="https://minecraft.fandom.com/wiki/Emotes" %}
+{% embed url="https://zh.minecraft.wiki/w/%E8%A1%A8%E6%83%85" %}
 
 ### 原因 3
 
