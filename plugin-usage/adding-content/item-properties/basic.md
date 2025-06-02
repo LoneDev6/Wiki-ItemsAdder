@@ -91,7 +91,7 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-These are the vanilla attribute modifiers, you can get more info here: [https://minecraft.gamepedia.com/Attribute#Attributes\_available\_on\_all\_living\_entities](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)
+These are the vanilla attribute modifiers, you can get more info here: [https://minecraft.wiki/w/Attribute](https://minecraft.wiki/w/Attribute)
 
 ## `durability`
 
