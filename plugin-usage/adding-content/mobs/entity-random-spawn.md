@@ -20,7 +20,7 @@ entities:
     model_folder: entity/red_zombie
     can_sun_burn: false
     type: ZOMBIE
-entities_populator:
+entities_populators:
   red_zombie_1:
     entity: test:red_zombie
     spawn_logic:
@@ -48,7 +48,7 @@ entities_populator:
 ## All properties
 
 ```yaml
-entities_populator:
+entities_populators:
   red_zombie:
     entity: test:red_zombie
     # This sets how to actually spawn the entity. 
