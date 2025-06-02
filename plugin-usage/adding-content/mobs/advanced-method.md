@@ -1,5 +1,40 @@
 # Entity creation
 
+## Creating a new model
+
+Create a new ItemsAdder entity model.
+
+<figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+
+Set project type `Custom Entity` and decide a `namespace` + `id`.
+
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+
+Immediately save the project into the **ItemsAdder** `contents` folder, under the **namespace** folder (in this example `mymobs`).
+
+<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+
+Start modelling.
+
+<figure><img src="../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
+
+Create some animations.\
+You should follow some tutorials and learn to use Blockbench, there are a [lot of tutorial on Youtube](https://www.youtube.com/results?search_query=blockbench+animation+tutorial).
+
+<figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
+
+Before exporting make sure that the settings are correct.
+
+<figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+
+Export the model.
+
+<figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
+
 ## Converting an existing model
 
 {% hint style="danger" %}
@@ -12,7 +47,7 @@ Open your `.bbmodel` project with Blockbench, then click on File -> Convert Proj
 
 ![](<../../../.gitbook/assets/image (58).png>)
 
-Select "**ItemsAdder Entity Model**" in the **Format** setting, then press **Confirm**.
+Select **`ItemsAdder Entity Model`** in the **Format** setting, then press **Confirm**.
 
 Now save the new converted model file in a new folder where you will put only this file.
 
