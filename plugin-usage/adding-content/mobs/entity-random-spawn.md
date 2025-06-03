@@ -94,3 +94,9 @@ entities_populators:
       min: 0
       max: 5
 ```
+
+## Example pack
+
+{% embed url="https://www.spigotmc.org/resources/vanillaex-custom-mobs-pack.125684/" %}
+
+{% embed url="https://www.youtube.com/watch?v=CdcK4cSlBgg" %}

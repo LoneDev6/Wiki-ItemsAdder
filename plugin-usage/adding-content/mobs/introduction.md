@@ -1,10 +1,10 @@
 # Introduction
 
-![](../../../.gitbook/assets/ezgif.com-gif-maker.webp)
-
 {% embed url="https://youtu.be/cQpIqExVpR0" %}
 Advanced animation features
 {% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=CdcK4cSlBgg" %}
 
 ### Main features
 
