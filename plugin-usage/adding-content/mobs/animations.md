@@ -24,6 +24,7 @@ Rename your animations to this.
 * `idle_angry`
 * `walk`
 * `walk_angry`
+* `jump` (used by Slime for example)&#x20;
 * `attack`
 * `death`
 * `fly`
