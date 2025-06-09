@@ -116,6 +116,7 @@
     * [Ore Regenerator](compatibility-with-other-plugins/compatible/ore-regenerator.md)
     * [JetsPrisonMines](compatibility-with-other-plugins/compatible/ore-regenerator-1.md)
     * [AlixAnimations](https://alixanimations.gitbook.io/alixanimations/fundamentals/getting-set-up/actions/compatible-plugins/itemsadder)
+    * [HopperSorter](https://slowtomato-1.gitbook.io/hoppersorter-wiki/compatability/itemsadder)
 * [Contribute](contribute/README.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
