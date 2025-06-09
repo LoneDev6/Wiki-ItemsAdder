@@ -162,3 +162,23 @@ In the screenshot you can see the face texture is different.
         placed_model:
           type: REAL_NOTE
 ```
+
+## Manually create models
+
+ItemsAdder automatically rotates your base block model, but you can provide your custom variants of the models for each rotation, to enhance the customization.
+
+In my example I did that to customize the model of the `DROPPER` example when placed `down` or `up`.
+
+To do that you have to append the `_<face>` text after the id of your custom block.
+
+Accepted faces are:
+
+* `north`
+* `east`
+* `south`
+* `west`
+* `up`
+* `down`
+
+In my example I used `directional_block_dropper_up` (`_up`) and `directional_block_dropper_down` (`_down`)  for the block `directional_block_dropper`.
+
