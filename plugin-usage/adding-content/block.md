@@ -93,6 +93,10 @@ This allows to make some blocks placeable directly on **water** surface.
 
 This allows to make some blocks placeable directly on **lava** surface.
 
+### `placeable_on_other_real_wire`
+
+Set if the `REAL_WIRE` block can be placed on other `REAL_WIRE` blocks or not.
+
 ### `shift_up`
 
 This allows to make some blocks placed 1 block up. This is useful for `REAL_WIRE` blocks to create tall plants.
