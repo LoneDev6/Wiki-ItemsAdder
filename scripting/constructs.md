@@ -4,13 +4,17 @@ icon: text-size
 
 # Constructs
 
+{% hint style="warning" %}
+## Warning
+
+This scripting feature is a work-in-progress (WIP) and subject to change in future updates. Always check the latest documentation for updates and compatibility.
+{% endhint %}
+
 ## ✅ Syntax Basics
 
 * **Semicolons (`;`) are mandatory** at the end of each statement, like in Java.
 * You can use `const`, `let`, or `var` to declare variables.
 * Supports **lambda expressions** and **Java class imports**.
-
-> ⚠️ **Warning**: This scripting feature is a work-in-progress (WIP) and subject to change in future updates. Always check the latest documentation for updates and compatibility.
 
 ## 🌟 Script Variables
 
@@ -21,11 +25,18 @@ Scripts inherit several predefined variables from the event that triggered the s
 * `$player`: The player involved in the event (if applicable).
 * `$customStack`: The custom item stack involved (if applicable).
 * `$itemStack`: The standard item stack involved (if applicable).
+* `$customEntity`: The standard custom entity involved (if applicable).
 
 The generated Java class for the script includes a `main` function with the following signature:
 
 ```java
 public static void main(Plugin $plugin, Event $event, Player $player, CustomStack $customStack, ItemStack $itemStack)
+```
+
+Or the following signature if a custom entity script:
+
+```java
+public static void main(Plugin $plugin, Event $event, Player $player, CustomEntity $customEntity)
 ```
 
 > 📝 **Note**: This structure is currently fixed and cannot be modified. Ensure your scripts are designed to work within this framework.

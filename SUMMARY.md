@@ -245,6 +245,12 @@
 * [Text Effects](plugin-usage/text-effects-1.17+.md)
 * [Text Formatting](plugin-usage/text-formatting.md)
 
+***
+
+* [Scripting](scripting/README.md)
+  * [Constructs](scripting/constructs.md)
+  * [Examples](scripting/examples.md)
+
 ## Other
 
 * [Resourcepack Protection](other/resourcepack-protection.md)
@@ -266,9 +272,6 @@
 
 ## Developers
 
-* [Scripting](developers/scripting/README.md)
-  * [Constructs](developers/scripting/constructs.md)
-  * [Examples](developers/scripting/examples.md)
 * [Java API](developers/java-api/README.md)
   * [Usage](developers/java-api/examples.md)
   * [Events](developers/java-api/events.md)
