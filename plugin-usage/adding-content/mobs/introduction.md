@@ -21,6 +21,7 @@ Advanced animation features
 * Play sounds and particles in animations
 * Show entity hands equipment
 * Custom hitbox
+* Smooth movements
 * [MythicMobs](mythicmobs.md) compatibility
 * [Citizens](citizens.md) compatibility
 

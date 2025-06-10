@@ -50,54 +50,7 @@ First one is called `ruby_ore` (you can call them as you prefer), this will drop
 The second one is a loot from a vanilla **block**. As you imagine it will drop a `crystal` or a `knowledge_fragment` when the player breaks a `NETHER_QUARTZ_ORE`.\
 These **drops** are decided by **ItemsAdder** based on **chance** you set.
 
-{% hint style="info" %}
-Special property: `drop_only_first`\
-This allows you to **stop** the **plugin** from **dropping each** of the **items** that succeed into extracting a **correct** chance to be **dropped**.
-
-<mark style="color:orange;">**WARNING**</mark><mark style="color:orange;">: this would make your items</mark> <mark style="color:orange;">**harder**</mark> <mark style="color:orange;">to be</mark> <mark style="color:orange;">**dropped**</mark><mark style="color:orange;">.</mark>
-{% endhint %}
-
-## Drop only in specific biomes
-
-```yaml
-loots:
-  blocks:
-    ruby_ore:
-      type: iasurvival:ruby_ore
-      biomes:
-        - PLAINS
-        - SUNFLOWER_PLAINS
-        - MOUNTAINS
-      items:
-        ruby:
-          item: iasurvival:ruby
-          min_amount: 1
-          max_amount: 2
-          chance: 100
-```
-
-## Ignore fortune enchant
-
-You can make a loot ignore fortune enchant by adding the `ignore_fortune` property.
-
-```yaml
-loots:
-  blocks:
-    ruby_ore:
-      type: iasurvival:ruby_ore
-      items:
-        ruby:
-          item: iasurvival:ruby
-          min_amount: 1
-          max_amount: 2
-          chance: 100
-          ignore_fortune: true # <----- here
-```
-
-## Other types of loots
-
-As I said before there are other types of loots: mobs and fishing.\
-These are some examples:
+## Loots Types
 
 ### Fishing
 
@@ -135,13 +88,7 @@ loots:
 loots:
   mobs:
     villager:
-      type: VILLAGER
-      ignore_spawner: true
-      nbt:
-        profession:
-          path: VillagerData.profession
-          value: minecraft:farmer
-          type: string
+      type: ZOMBIE
       items:
         item_1:
           item: iawearables:straw_hat
@@ -158,44 +105,15 @@ loots:
           chance: 100
 ```
 
-### **Custom mobs loots (**[**old entities method**](broken-reference)**)**
-
-In order to let ItemsAdder drop an item based on when you kill a custom mob (created with ItemsAdder) you have to use the `ItemsAdderMob` metadata attribute. Example:
-
-```yaml
-loots:
-  mobs:
-    soul:
-      type: HUSK
-      metadata:
-        ItemsAdderMob:
-          name: "ItemsAdderMob"
-          value: "creaturesplus:soul"
-          type: "string"
-      items:
-        ruby:
-          item: ruby
-          min_amount: 1
-          max_amount: 1
-          chance: 100
-```
-
-As you can see I set `ItemsAdderMob` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **creaturesplus:soul** mob).
-
 ### **Custom entities loots**
 
-In order to let ItemsAdder drop an item based on when you kill a custom entity (created with ItemsAdder) you have to use the `ItemsAdderEntity` metadata attribute. Example:
+In order to let ItemsAdder drop an item based on when you kill a custom entity you just have to set `type` to the custom entity namespaced-id.
 
 ```yaml
 loots:
   mobs:
     soul:
-      type: HUSK
-      metadata:
-        ItemsAdderEntity:
-          name: "ItemsAdderEntity"
-          value: "custom:ninja_skeleton"
-          type: "string"
+      type: custom:ninja_skeleton
       items:
         ruby:
           item: ruby
@@ -204,36 +122,125 @@ loots:
           chance: 100
 ```
 
-As you can see I set `ItemsAdderEntity` \*\*\*\* attribute and specified my custom mob **namespace:id** (in this example I used the **custom:ninja\_skeleton** mob).
+## **Loots Rules**
 
-### **Villager professions (and any other NBT attribute you want to match)**
+### &#x20;(Blocks) `drop_only_first`
+
+This special properties allows you to stop drops chance calculation when the first item is successfully dropped.\
+<mark style="color:orange;">**WARNING**</mark><mark style="color:orange;">: this makes your items</mark> <mark style="color:orange;">**harder**</mark> <mark style="color:orange;">to be</mark> <mark style="color:orange;">**dropped**</mark><mark style="color:orange;">.</mark>
+
+```yaml
+loots:
+  blocks:
+    nether_quartz_ore:
+      type: NETHER_QUARTZ_ORE
+      drop_only_first: true
+      items:
+        crystal:
+          item: iasurvival:crystal
+          min_amount: 1
+          max_amount: 2
+          chance: 10
+        knowledge_fragment:
+          item: iasurvival:knowledge_fragment
+          min_amount: 1
+          max_amount: 2
+          chance: 15
+```
+
+### Biomes
+
+```yaml
+loots:
+  blocks:
+    ruby_ore:
+      type: iasurvival:ruby_ore
+      biomes:
+        - PLAINS
+        - SUNFLOWER_PLAINS
+        - MOUNTAINS
+      items:
+        ruby:
+          item: iasurvival:ruby
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+```
+
+### Ignore fortune enchant
+
+You can make a loot ignore fortune enchant by adding the `ignore_fortune` property.
+
+```yaml
+loots:
+  blocks:
+    ruby_ore:
+      type: iasurvival:ruby_ore
+      items:
+        ruby:
+          item: iasurvival:ruby
+          ignore_fortune: true # <----- here
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+```
+
+### Ignore mobs spawned from spawners
+
+You can make a loot ignore fortune enchant by adding the `ignore_fortune` property.
 
 ```yaml
 loots:
   mobs:
     villager:
-      type: VILLAGER
-      nbt:
-        profession:
-          path: VillagerData.profession
-          value: minecraft:farmer
-          type: string
+      type: ZOMBIE
+      ignore_spawner: true # <----- here
       items:
         item_1:
-          item: itemsadder:straw_hat
+          item: iawearables:straw_hat
           min_amount: 1
           max_amount: 1
           chance: 100
 ```
 
-As you can see I set **profession** attribute and specified the **NBT attribute** path, which in this case is **VillagerData.profession**.\
-Then I set value to **minecraft:farmer**, this tells ItemsAdder to match only **villagers** with attribute **VillagerData.profession** set to **minecraft:farmer**.
+### Worlds
 
-{% hint style="warning" %}
-The type attribute of **nbt** and **metadata** are really **important**, don't **forget** them or matches could not occur.
-{% endhint %}
+```yaml
+loots:
+  blocks:
+    change_me:
+      enabled: true
+      type: SAND
+      biomes:
+        - BEACH
+      worlds:  # <----- here
+        - "world_*"
+        - "!private_*"
+        - "example1"
+        - "!example2"
+      items:
+        change_me:
+          item: STONE
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+```
 
-### **Drop based on Tile entity NBT data (for example Spawner)**
+Loots will drop in all worlds if you don't specify any world.
+
+The special `*` character allows any world starting with a particular text.\
+In this example every world starting with `world_` will match and will drop loots.
+
+The special `!` character denies the loot to be dropped in any world starting with a particular text.\
+In this example every world starting with `private_` will match and won't allow dropping loots.
+
+You can also specify precise world names, in this example `example2` won't allow loots to be dropped.
+
+You can also specify precise world names, in this example `example1` will allow loots to be dropped.
+
+### **Tile entity NBT data**
+
+**In this example I will check the NBT data of a spawner.**
 
 ```yaml
 loots:
@@ -264,38 +271,53 @@ loots:
 ```
 {% endhint %}
 
-## Per-world loots
+### **NBT**
+
+In this example I will check the NBT data of a Villager (profession).
+
+As you can see I set **profession** attribute and specified the **NBT attribute** path, which in this case is `VillagerData.profession`.\
+Then I set value to `minecraft:farmer`, this tells ItemsAdder to match only **villagers** with attribute `VillagerData.profession` set to `minecraft:farmer`.
 
 ```yaml
 loots:
-  blocks:
-    change_me:
-      enabled: true
-      type: SAND
-      biomes:
-        - BEACH
-      worlds:
-        - "world_*"
-        - "!private_*"
-        - "example1"
-        - "!example2"
+  mobs:
+    villager:
+      type: VILLAGER
+      nbt:
+        profession:
+          path: VillagerData.profession
+          value: minecraft:farmer
+          type: string
       items:
-        change_me:
-          item: STONE
+        item_1:
+          item: itemsadder:straw_hat
           min_amount: 1
           max_amount: 1
           chance: 100
-          ignore_fortune: false
 ```
 
-Loots will drop in all worlds if you don't specify any world.
+### Metadata
 
-The special `*` character allows any world starting with a particular text.\
-In this example every world starting with `world_` will match and will drop loots.
+You can even match metadata, in case some plugin is setting that temporary information.
 
-The special `!` character denies the loot to be dropped in any world starting with a particular text.\
-In this example every world starting with `private_` will match and won't allow dropping loots.
+```yaml
+loots:
+  mobs:
+    soul:
+      type: HUSK
+      metadata:
+        my_rule_1:
+          name: "YourCustomKey"
+          value: "ExampleValue"
+          type: "string"
+      items:
+        ruby:
+          item: ruby
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+```
 
-You can also specify precise world names, in this example `example2` won't allow loots to be dropped.
-
-You can also specify precise world names, in this example `example1` will allow loots to be dropped.
+{% hint style="warning" %}
+The type attribute of **nbt** and **metadata** are really **important**, don't **forget** them or matches could not occur.
+{% endhint %}
