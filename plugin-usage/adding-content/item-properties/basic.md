@@ -91,7 +91,7 @@ attribute_modifiers:
     luck: 1.1
 ```
 
-这些是原版的属性修饰符，你可以在[这里](https://minecraft.gamepedia.com/Attribute#Attributes_available_on_all_living_entities)查看详情。
+这些是原版的属性修饰符，你可以在[这里](https://zh.minecraft.wiki/w/%E5%B1%9E%E6%80%A7)查看详情。
 
 ## `durability`
 
