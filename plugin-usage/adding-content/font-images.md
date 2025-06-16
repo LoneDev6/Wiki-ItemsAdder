@@ -12,7 +12,7 @@ You can use font images to create emojis, ranks, GUI and more.
 
 In this example my namespace is `my_content` (you can decide your own).
 
-* Create a `.png` file `contents/my_content/textures/image_1.png` .
+* Create a `.png` file `contents/my_content/textures/font/image_1.png` .
 * Create a `.yml` file `contents/my_content/my_config.yml`.
 
 {% code title="contents/my_content/my_config.yml" %}
