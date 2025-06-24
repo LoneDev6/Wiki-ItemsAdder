@@ -1,7 +1,3 @@
----
-icon: shirt
----
-
 # (old) Textured Armor
 
 {% hint style="warning" %}

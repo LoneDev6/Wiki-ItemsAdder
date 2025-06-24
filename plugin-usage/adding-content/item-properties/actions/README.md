@@ -1,23 +1,134 @@
+---
+icon: bolt
+---
+
 # Actions
 
-Actions are what will happen when an [event](./) is triggered.
+## What are actions?
 
-## List of actions
+Actions are what happens when an [event](../events/) is triggered.
 
-To read the list of available actions use the official editor.
+To read the list of available actions use the [official editor](../../../beginners/files-editor.md).
 
-{% content-ref url="../../../beginners/files-editor.md" %}
-[files-editor.md](../../../beginners/files-editor.md)
-{% endcontent-ref %}
+## `events_settings`
 
-### Available command placeholders
+Special item attribute to customize some properties of events.
 
-* `{player}` you
-* `{target-player}` targeted player/victim
-* `{target-x}|{target-y}|{target-z}` x/y/z location of targeted player/victim
-* `{target-world}` targeted world
+### Cooldown
 
-### Delay
+You can set a cooldown which won't allow the player to trigger any of the actions for this item.\
+Useful to avoid players spamming a special item.
+
+```yaml
+  healing_crystals:
+    display_name: display-name-healing_crystals
+    permission: healing_crystals
+    ## .... item properties
+    events_settings:
+      cooldown:
+        indicator: HUD
+        ticks: 120
+    events:
+    ## .... your events
+```
+
+### Cooldown indicator
+
+You can customize the cooldown indicator and decide from some different indicator types:
+
+#### HIDDEN
+
+Won't show any indicator.
+
+```yaml
+  healing_crystals:
+    display_name: display-name-healing_crystals
+    permission: healing_crystals
+    ## .... item properties
+    events_settings:
+      cooldown:
+        indicator: HIDDEN
+        ticks: 120
+    events:
+    ## .... your events
+```
+
+#### HUD
+
+Shows a custom HUD on-screen.
+
+<figure><img src="../../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+`custom_hud` property is not mandatory, `_iainternal:small_cooldown_bar` will be used instead if not specified, which is the built-in custom hud.
+
+<mark style="color:red;">⚠️</mark> Make sure you didn't disable `extract_internal_utility_assets` in `config.yml`!
+{% endhint %}
+
+```yaml
+  healing_crystals:
+    display_name: display-name-healing_crystals
+    permission: healing_crystals
+    ## .... item properties
+    events_settings:
+      cooldown:
+        indicator: HUD
+        ticks: 120
+        custom_hud: my_items:custom_hud_1
+    events:
+    ## .... your events
+```
+
+{% hint style="info" %}
+If you want to create a custom HUD, but you don't want to waste time coloring, you can use [this guide](../../../../other/bulk-colorize-images.md) to colorize images in one click.
+{% endhint %}
+
+#### TITLE
+
+Shows a big on-screen title indicator.
+
+<figure><img src="../../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+
+```yaml
+  healing_crystals:
+    display_name: display-name-healing_crystals
+    permission: healing_crystals
+    ## .... item properties
+    events_settings:
+      cooldown:
+        indicator: TITLE
+        ticks: 120
+    events:
+    ## .... your events
+```
+
+#### BOSSBAR
+
+Shows a bossbar on-screen.
+
+<figure><img src="../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+`color` and `style` properties are not mandatory, the ones from `config.yml` will be used instead if not specified.
+{% endhint %}
+
+```yaml
+  healing_crystals:
+    display_name: display-name-healing_crystals
+    permission: healing_crystals
+    ## .... item properties
+    events_settings:
+      cooldown:
+        indicator: BOSSBAR
+        ticks: 120
+        bossbar:
+          color: WHITE
+          style: SOLID
+    events:
+    ## .... your events
+```
+
+## Delay
 
 Every action has a special attribute **delay**.\
 It's the **delay** in ticks before starting the action.\
@@ -62,7 +173,7 @@ items:
             delay: 40
 ```
 
-### Multiple actions of the same type
+## Multiple actions of the same type
 
 You can set the same action multiple times. You just have to add `_anything` at the end.\
 For example if you want to play two sounds you have to write this:
@@ -82,7 +193,7 @@ play_sound_3:
   pitch: 1
 ```
 
-### Actions permission
+## Actions permission
 
 Every action has a special attribute **permission**.\
 It's the **permission** the player must have before starting the **action**.\
@@ -147,10 +258,6 @@ For example:
         volume: 1
         pitch: 1
 ```
-
-### Properties
-
-Use the [official files editor](../../../beginners/files-editor.md) to get the complete list while working on your configurations.
 
 ## Flow customization
 

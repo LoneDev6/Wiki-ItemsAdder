@@ -1,7 +1,3 @@
----
-icon: shirt
----
-
 # (old) Simple Armor
 
 {% hint style="warning" %}

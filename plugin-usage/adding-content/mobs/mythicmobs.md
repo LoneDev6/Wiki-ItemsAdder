@@ -1,19 +1,16 @@
 ---
 description: Custom 3D models for Mythicmobs mobs
+icon: up-right-from-square
 ---
 
-# Mythicmobs
+# MythicMobs
 
 ## Reskinning a Mythicmob mob
 
 You can use a custom model as skin for any Mythicmob mob.
 
 {% hint style="success" %}
-This plugin doesn't require Mythicmobs to work, but some servers might need to use it to create custom bosses and similar.
-{% endhint %}
-
-{% hint style="danger" %}
-This requires **ItemsAdder 3.2.1-beta1** or greater
+This plugin doesn't require Mythicmobs to work, but some servers might want to use it.
 {% endhint %}
 
 ## Changing the model

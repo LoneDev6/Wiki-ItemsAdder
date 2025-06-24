@@ -1,3 +1,7 @@
+---
+icon: location-plus
+---
+
 # Entity Random Spawn
 
 {% hint style="warning" %}

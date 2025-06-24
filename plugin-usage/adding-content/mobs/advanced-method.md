@@ -1,4 +1,8 @@
-# Entity creation
+---
+icon: file-plus
+---
+
+# Entity Creation
 
 ## Creating a new model
 

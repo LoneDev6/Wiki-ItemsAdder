@@ -1,32 +1,17 @@
+---
+icon: person-running-fast
+---
+
 # Behaviours
 
-What are behaviours?
+## What are behaviours?
+
+To read the list of available behaviours use the [official editor](../../../beginners/files-editor.md).
 
 Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.\
 These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.
 
-### List of behaviours included in the plugin
-
-* `block_trade_machine`
-* `furniture_trade_machine`
-* `fuel`
-* `furniture`
-* `furniture_sit`
-* `gun`
-* `hat`
-* `keep_on_death`
-* `liquid_analyzer`
-* `liquid_bucket`
-* `mob_animation`
-* `mob`
-* `music_disc`
-* `sapling`
-* `spawn_egg`
-* `vehicle`
-
-{% hint style="info" %}
-You can get suggestions how how to use the behaviours using the official editor:
-{% endhint %}
+## Examples
 
 ```yaml
 # This behaviour allows you to open a trade GUI with the following items
@@ -146,9 +131,3 @@ vehicle:
       y: 0
       z: -0.8
 ```
-
-## Use the official files editor to read all the properties
-
-{% content-ref url="../../beginners/files-editor.md" %}
-[files-editor.md](../../beginners/files-editor.md)
-{% endcontent-ref %}

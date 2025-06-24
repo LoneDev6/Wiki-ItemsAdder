@@ -1,5 +1,6 @@
 ---
 description: Collection of basic item properties
+icon: sliders-simple
 ---
 
 # Basic

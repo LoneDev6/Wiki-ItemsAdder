@@ -1,3 +1,7 @@
+---
+icon: person-running
+---
+
 # Custom Animated Player
 
 ## Getting custom skins

@@ -1,3 +1,7 @@
+---
+icon: user-police
+---
+
 # Permission
 
 ### Example item permission

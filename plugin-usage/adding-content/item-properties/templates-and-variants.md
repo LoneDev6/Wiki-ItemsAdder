@@ -1,16 +1,17 @@
+---
+icon: file
+---
+
 # Templates and variants
+
+You can see an example in [this free addon](https://www.spigotmc.org/resources/furniture-more-furniture-for-itemsadder.93193/).
 
 ## What are templates?
 
-Templates are special items that won't appear ingame, they are used as property holders for other items.  
+Templates are special items that won't appear ingame, they are used as property holders for other items.\
 They allow you to write common properties in one item and add them automatically to other items without constantantly copy and pasting.
 
 To create a template you have to set `template: true` in your item.
-
-{% hint style="warning" %}
-This is an experimental feature, let me know if something is not working correctly.  
-You can see an usage example in [this addon](https://www.spigotmc.org/resources/furniture-itemsadder-more-furniture.93193/).
-{% endhint %}
 
 ## What are variants?
 
@@ -87,6 +88,3 @@ I want to create multiple furnitures which are equal but with different model.
       generate: false
       model_path: item/birch_wood_park_bench
 ```
-
-
-

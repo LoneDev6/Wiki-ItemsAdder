@@ -1,4 +1,8 @@
-# Hands equipment
+---
+icon: hand-wave
+---
+
+# Hands Equipment
 
 ## Show custom entity hands equipment
 

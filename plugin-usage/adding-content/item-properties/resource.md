@@ -6,7 +6,7 @@ icon: file-image
 # Resource
 
 {% hint style="danger" %}
-Make sure you're not using UPPERCASE or special characters in items names, namespaces or texture files (.png) and model files (.json)
+Make sure you're not using UPPERCASE or special characters in items names, namespaces or texture files (`.png`) and model files (`.json`)
 {% endhint %}
 
 ## Automatic generation
@@ -97,8 +97,8 @@ You have to change it to this (`your_namespace` is your [namespace ](broken-refe
 
 ### Blocks
 
-{% content-ref url="../block.md" %}
-[block.md](../block.md)
+{% content-ref url="../advanced-block-properties/transparent-block.md" %}
+[transparent-block.md](../advanced-block-properties/transparent-block.md)
 {% endcontent-ref %}
 
 ## Manually specify custom\_model\_data

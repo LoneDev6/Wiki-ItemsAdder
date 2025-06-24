@@ -1,3 +1,7 @@
+---
+icon: bolt
+---
+
 # Events and Actions
 
 Make your entities more interactive by performing actions when specific events occur. This is similar to the custom items events and actions.

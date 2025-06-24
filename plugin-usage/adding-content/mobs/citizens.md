@@ -1,5 +1,6 @@
 ---
 description: Custom models for Citizens NPCs
+icon: up-right-from-square
 ---
 
 # Citizens

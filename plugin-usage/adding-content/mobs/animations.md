@@ -1,3 +1,7 @@
+---
+icon: person-running
+---
+
 # Animations
 
 ## How to create an animation

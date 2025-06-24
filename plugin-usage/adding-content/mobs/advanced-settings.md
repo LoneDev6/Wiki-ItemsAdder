@@ -1,4 +1,8 @@
-# Advanced settings
+---
+icon: sliders-up
+---
+
+# Advanced Settings
 
 In `config.yml` you can find some advanced settings about custom entities.
 

@@ -1,3 +1,7 @@
+---
+icon: head-side
+---
+
 # Head
 
 {% embed url="http://youtu.be/A20y3lo3Aic" %}

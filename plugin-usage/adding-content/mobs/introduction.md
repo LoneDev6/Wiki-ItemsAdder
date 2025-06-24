@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Introduction
 
 {% embed url="https://youtu.be/cQpIqExVpR0" %}
