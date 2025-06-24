@@ -193,7 +193,7 @@ Entity goal to make the entity look around randomly
 
 ### `ranged_bow_attack`
 
-Entity goal to make the entity attack with a bow
+Entity goal to make the entity attack with a bow. Note: This goal will only work with vanilla base entity types: `BOGGED`, `DROWNED`, `ILLUSIONER`, `LLAMA`, `PIGLIN`, `PILLAGER`, `SKELETON`, `SNOW_GOLEM`, `STRAY`, `TRADER_LLAMA`, `WITCH`, `WITHER`, `WITHER_SKELETON`.
 
 #### Properties:
 
