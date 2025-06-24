@@ -226,6 +226,8 @@
     * [Spawn Egg](plugin-usage/adding-content/mobs/spawn-egg.md)
     * [Entity Random Spawn](plugin-usage/adding-content/mobs/entity-random-spawn.md)
     * [Events and Actions](plugin-usage/adding-content/mobs/events-and-actions.md)
+    * [Entity Goals](plugin-usage/adding-content/mobs/entity-goals/README.md)
+      * [Entity Goals List](plugin-usage/adding-content/mobs/entity-goals/entity-goals-list.md)
     * [Custom Animated Player](plugin-usage/adding-content/mobs/custom-skin.md)
     * [Citizens](plugin-usage/adding-content/mobs/citizens.md)
     * [MythicMobs](plugin-usage/adding-content/mobs/mythicmobs.md)
