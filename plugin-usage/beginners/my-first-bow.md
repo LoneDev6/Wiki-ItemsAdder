@@ -42,7 +42,7 @@ The bow animates as you pull it, this allows you to have a single texture for ea
 
 `contents/myitems/textures/item/`
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * `_0` - First pulling state
 * `_1` - Second pulling state

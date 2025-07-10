@@ -36,7 +36,7 @@ It would make the ranks look pixelated.
 
 {% embed url="https://itemsadder.github.io/minecraft-rank-generator/" %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p><a href="https://itemsadder.github.io/minecraft-rank-generator/">https://itemsadder.github.io/minecraft-rank-generator/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://itemsadder.github.io/minecraft-rank-generator/">https://itemsadder.github.io/minecraft-rank-generator/</a></p></figcaption></figure>
 
 Put the image into `contents/myranks/textures/font/admin.png`.
 

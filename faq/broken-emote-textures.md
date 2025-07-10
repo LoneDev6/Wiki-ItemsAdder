@@ -9,7 +9,7 @@ icon: person-walking
 
 Make sure you accepted the resourcepack and that you enabled emotes in `config.yml` of ItemsAdder. Try also to regenerate the pack using `/iazip`.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Shader Mod issues
 

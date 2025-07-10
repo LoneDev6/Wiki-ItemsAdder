@@ -5,7 +5,10 @@ icon: file-png
 # Furniture 2D icon
 
 {% hint style="warning" %}
-This feature requires **ItemsAdder 3.1.6+**
+This is to support clients older than 1.21.2.\
+Minecraft 1.21.2 now supports 2D icons directly.
+
+Refer to the [modern tutorial here](../item-properties/2d-icon.md).
 {% endhint %}
 
 {% embed url="https://youtu.be/FOLoAAjV_oI" %}
