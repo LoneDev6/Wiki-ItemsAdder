@@ -274,7 +274,7 @@
 
 ***
 
-* [Optimize Minecraft client](https://blog.devs.beer/optimize-minecraft)
+* [Overlay](overlay.md)
 
 ## HELP
 
