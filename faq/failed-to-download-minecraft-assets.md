@@ -18,7 +18,7 @@ Delete the folder `ItemsAdder/storage/cache/vanilla_assets`
 {% step %}
 ### Download the assets
 
-{% embed url="https://github.com/ItemsAdder/VanillaAssets/releases/tag/itemsadder-required-vanilla-assets" %}
+{% embed url="https://mc-assets-downloader.lonedev.workers.dev/itemsadder-required-vanilla-assets/vanilla_assets.zip" %}
 
 <div align="left"><figure><img src="../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
