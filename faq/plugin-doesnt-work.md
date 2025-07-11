@@ -42,6 +42,10 @@ Someone might have the same issue. Try also to use the search button.
 Use the search button before submitting a report, people might already have reported it.
 {% endhint %}
 
+{% hint style="danger" %}
+## Invalid support requests will be ignored
+{% endhint %}
+
 When you report something be sure to:
 
 * follow every single step of my tutorials and make sure to read all the wiki.&#x20;

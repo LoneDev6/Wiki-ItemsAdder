@@ -56,9 +56,11 @@ You can clearly see which files failed to load and why. The errors are clear in 
 In this example I had two broken files `gem_vending_machine` and `whitebathroom_sink`.\
 The error tells me that the JSON files are broken, they probably have bad characters inside or they are corrupted.
 
-## "_Resourcepack not loading, I get an error_" <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
+## Common issues <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
-* Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (png) and **model** files (json).\
+* Be sure to follow all resourcepack hosting [tutorial ](../plugin-usage/resourcepack-hosting/)steps.
+* If you use [`self-host`](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md) make sure the **port** is opened. Ask your hosting about it.
+* Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (`png`) and **model** files (`json`).\
   For example an ID for a custom item: `CustomSword` is wrong, use `custom_sword`.
 * If you have **SkinsRestorer** please [read here](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
 * Check if you have another plugin that uses **custom resourcepacks**.\
@@ -70,10 +72,8 @@ The error tells me that the JSON files are broken, they probably have bad charac
   If you paste the link on your browser (Firefox/Chrome) you must instantly see the download start.\
   If you see a download page with buttons it is an invalid URL.\
   Read the resourcepack [hosting tutorials](../plugin-usage/resourcepack-hosting/).
-* Be sure to follow all resourcepack hosting [tutorial ](../plugin-usage/resourcepack-hosting/)steps.
-* If you use [`self-host`](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md) make sure the **port** is opened. Ask your hosting about it.
 
-### "_My players can't load the resourcepack! I've followed the whole tutorial_" <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
+### Resourcepack not sent at all <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 
 * Enable the resourcepack in the server list settings: [http://imgur.com/a/SG0AU](http://imgur.com/a/SG0AU)
 * Make sure you don't have any inventory (GUI) or book opening on join.\
@@ -82,3 +82,11 @@ The error tells me that the JSON files are broken, they probably have bad charac
   This allows you to run commands as soon as the resourcepack is accepted (and various other features).
 * Increasing the `delay-ticks` in `config.yml` of **ItemsAdder** to `10` or greater.
 * Leave the server, go to `%appdata%/.minecraft/server-resource-packs` and delete everything. Then join the server again.
+
+### Errors about downloading vanilla assets
+
+Please read the tutorial here.
+
+{% content-ref url="failed-to-download-minecraft-assets.md" %}
+[failed-to-download-minecraft-assets.md](failed-to-download-minecraft-assets.md)
+{% endcontent-ref %}
