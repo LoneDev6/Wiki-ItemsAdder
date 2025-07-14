@@ -7,7 +7,7 @@ description: Armors textures look broken when using custom shaders mods (1.17+)
 {% hint style="success" %}
 If you are on 1.21.2 and greater (both server and clients) you can use the new armors creation method that doesn't use any vanilla shader to create custom armors, so it is compatible with the shaders mods.
 
-More info [here](../plugin-usage/adding-content/armors.md).
+More info [here](../../plugin-usage/adding-content/armors.md).
 {% endhint %}
 
 <details>
@@ -20,7 +20,7 @@ More info [here](../plugin-usage/adding-content/armors.md).
 **Note:** this fix requires you to have **Optifine** or a **CIT mod** equivalent (like **CIT Resewn**) installed in your game.
 
 If you see broken textures make sure you are using ItemsAdder 3.0.3 or a more recent version.\
-Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../plugin-usage/resourcepack-hosting/) if needed).
+Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
 {% endhint %}
 
 {% hint style="danger" %}
@@ -33,9 +33,9 @@ This is not my fault.
 
 </details>
 
-![](../.gitbook/assets/armor_shader_bug_1.png)
+![](../../.gitbook/assets/armor_shader_bug_1.png)
 
-![](../.gitbook/assets/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)
+![](../../.gitbook/assets/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)
 
 {% embed url="https://youtu.be/cb8OAuQE6V0" %}
 

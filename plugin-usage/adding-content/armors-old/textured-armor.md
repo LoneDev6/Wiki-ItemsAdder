@@ -20,7 +20,7 @@ This is also useful as fallback for people who use custom shaders, which are not
 {% endhint %}
 
 {% hint style="warning" %}
-If you see **bugged** textures and you have **Optifine** installed please [read here](../../../faq/armors-textures-not-working-with-shaders-mod.md).
+If you see **bugged** textures and you have **Optifine** installed please [read here](../../../faq/armors-issues/armors-textures-not-working-with-shaders-mod.md).
 {% endhint %}
 
 ### Creating the armor renderer

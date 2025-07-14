@@ -2,7 +2,7 @@
 
 ## Leather layers keep getting overwritten by ItemsAdder
 
-![](<../.gitbook/assets/image (196).png>)
+![](<../../.gitbook/assets/image (196).png>)
 
 ItemsAdder automatically overwrites leather layers textures in order to create custom armors.\
 Custom armors are created using colored leather, but the default Minecraft leather armor texture doesn't look like a texture made of minerals.
@@ -11,7 +11,7 @@ In some servers you might not need this feature at all and you could prefer to h
 
 ## How to disable this?
 
-To disable this you just have to set this option in config.yml of ItemsAdder and run `/iazip` again (then [host the pack](../plugin-usage/resourcepack-hosting/) if needed).
+To disable this you just have to set this option in config.yml of ItemsAdder and run `/iazip` again (then [host the pack](../../plugin-usage/resourcepack-hosting/) if needed).
 
 {% tabs %}
 {% tab title="ItemsAdder 4.0.10+" %}
