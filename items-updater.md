@@ -14,7 +14,7 @@ This is useful to avoid having to give updated items manually to your players.
 ## Disabling update for a single ItemStack instance
 
 To disable the auto update for a single item in the inventory, you have to use this command:\
-`/iaitem toggle-itemstack-auto-update`
+`/iaitem set-itemstack-auto-update <true|false>`
 
 ## Disable update for a certain custom item completely
 
