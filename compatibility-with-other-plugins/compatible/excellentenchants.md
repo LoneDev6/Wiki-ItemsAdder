@@ -29,5 +29,12 @@ So you should write the lore on your own.
     - tunnel:1
 ```
 
-In this case I set `tunnel` enchant with level 1
+In this case I set `tunnel` enchant with level 1.
+
+You might have to also specify the namespace of the enchant. It should be `excellentenchants`.\
+So for example: `excellentenchants:tunnel:1`.
+
+Refer to the plugin tutorials:
+
+{% embed url="https://nightexpressdev.com/excellentenchants/" %}
 
