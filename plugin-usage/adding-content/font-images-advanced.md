@@ -2,7 +2,7 @@
 icon: icons
 ---
 
-# Font Images (advanced)
+# Font Images - Advanced
 
 {% hint style="warning" %}
 ### This is a tutorial for advanced users
@@ -123,3 +123,46 @@ Example if you set both custom namespace and custom font name:
 Example if you set only custom font name:
 
 `/tellraw @a [{"text":"Test message!","font":"my_font"}]`
+
+## Customize / remove shadow
+
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.12 and Minecraft client 1.21.4 or greater
+{% endhint %}
+
+(does not require regenerating the pack)
+
+### Example
+
+Custom shadow color
+
+<figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
+
+```yml
+  smile:
+    permission: twitteremojis.smile
+    show_in_gui: true
+    path: font/emoji/smile
+    scale_ratio: 9
+    y_position: 8
+    shadow: # new property
+      enabled: true
+      color: AA4A44
+```
+
+### Example
+
+Remove shadow completely
+
+<figure><img src="../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
+
+```yml
+  smile:
+    permission: twitteremojis.smile
+    show_in_gui: true
+    path: font/emoji/smile
+    scale_ratio: 9
+    y_position: 8
+    shadow: # new property
+      enabled: false
+```
