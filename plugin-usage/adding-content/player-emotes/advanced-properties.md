@@ -13,6 +13,8 @@ To do so you have to create a new `.yml` file, which is not mandatory for emotes
 
 `skip_emote_end`: Interrupts the emote on cancel.
 
+`background_music`: Play a song during the emote. Optionally make it loop.
+
 ## Example
 
 ```yaml
@@ -42,4 +44,9 @@ emotes:
     on_stop:
       stop_sounds: true
       skip_emote_end: true
+    background_music:
+      sound:
+        name: test_emotes:my_song
+      repeat_interval_seconds: 5
+
 ```
