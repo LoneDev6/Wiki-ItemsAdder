@@ -243,6 +243,23 @@ Example: `width: 2`, `length: 2`, `height: 1`.
 If you want to have different `width` and `length` use `entity` `item_display` or `armor_stand`.
 {% endhint %}
 
+## Optimization of `item_display` furniture
+
+{% hint style="warning" %}
+This requires ItemsAdder 4.0.12 or greater.
+{% endhint %}
+
+By default the plugin uses `width` and `height` of the `hitbox` to tell the game the size of the furniture render area. This is used to allow the game to hide the entity when the player is not directly looking at it and avoid overhead.
+
+If you want you can customize this value separately using the `render_size` property.
+
+```yaml
+display_transformation:
+   render_size:
+      width: 3
+      height: 3
+```
+
 ## Creating a simple furniture
 
 ### Configuration file
