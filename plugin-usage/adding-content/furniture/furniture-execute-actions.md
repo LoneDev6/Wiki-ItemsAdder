@@ -2,9 +2,11 @@
 icon: terminal
 ---
 
-# Furniture execute actions
+# Execute actions
 
 ## Execute commands on interact
+
+You can do it by using the `placed_armorstand` -> `interact` event.
 
 ```yaml
 items:
@@ -32,7 +34,7 @@ items:
 
 In this case you can see a furniture which will make the player execute the command `/help` when they interact the furniture.
 
-You can obviously also add more [actions](../item-properties/actions/actions.md) to the [placed\_armorstand](../item-properties/events/) interaction event, not only `execute_commands`.
+You can add more [actions](../item-properties/actions/actions.md) to the [placed\_armorstand](../item-properties/events/) interaction event, not only `execute_commands`.
 
 ## Open a trading menu on interact
 

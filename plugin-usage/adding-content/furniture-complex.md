@@ -2,14 +2,14 @@
 icon: wand-magic-sparkles
 ---
 
-# Furniture - complex
+# Furniture - Complex
 
 {% hint style="warning" %}
 ### Requires **ItemsAdder 4.0.9** or greater.
 {% endhint %}
 
 To create advanced furniture you have to use the custom entities feature of ItemsAdder.\
-Please read the tutorial on how to create custom entities before:
+Please read the tutorial on how to create custom entities before continuing.
 
 {% content-ref url="mobs/" %}
 [mobs](mobs/)
