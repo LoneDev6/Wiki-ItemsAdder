@@ -92,8 +92,12 @@ Change the port `55213` to your own debug port, which is different from the serv
 {% step %}
 ### Step 5
 
-Done!
+Create a new file .vscode\settings.json (do not forget the dot at the very start!).
 
-
+```yaml
+{
+  "java.autobuild.enabled": false
+}
+```
 {% endstep %}
 {% endstepper %}
