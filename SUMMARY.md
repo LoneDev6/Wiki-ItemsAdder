@@ -260,13 +260,14 @@
 * [Resourcepack Prompt Message](plugin-usage/resourcepack-prompt-message-1.17+.md)
 * [Text Effects](plugin-usage/text-effects-1.17+.md)
 * [Text Formatting](plugin-usage/text-formatting.md)
-
-***
-
-* [Scripting](scripting/README.md)
-  * [Constructs](scripting/constructs.md)
-  * [Examples](scripting/examples.md)
-* [Items Updater](items-updater.md)
+* [Scripting](plugin-usage/scripting/README.md)
+  * [Language](plugin-usage/scripting/language.md)
+  * [Autocompletion](plugin-usage/scripting/autocompletion.md)
+  * [Debug](plugin-usage/scripting/debug.md)
+  * [Examples](plugin-usage/scripting/examples/README.md)
+    * [Java](plugin-usage/scripting/examples/java.md)
+    * [Jspp](plugin-usage/scripting/examples/examples.md)
+* [Items Updater](plugin-usage/items-updater.md)
 
 ## Other
 

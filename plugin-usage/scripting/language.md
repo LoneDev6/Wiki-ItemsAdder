@@ -1,8 +1,8 @@
 ---
-icon: text-size
+icon: scroll
 ---
 
-# Constructs
+# Language
 
 {% hint style="warning" %}
 ## Warning
@@ -10,13 +10,92 @@ icon: text-size
 This scripting feature is a work-in-progress (WIP) and subject to change in future updates. Always check the latest documentation for updates and compatibility.
 {% endhint %}
 
-## ✅ Syntax Basics
+## `.java`
+
+These are pure Java code classes.
+
+Advantages:
+
+* Pure Java, nothing new to learn for developers.
+* Compatible with VSCode debugger. You can attach the debugger easily.
+* Autocomplete of libraries methods, fields etc.
+* Easy to identify and fix bugs in your code.
+
+Disadvantages:
+
+* Requires Java knowledge.
+* Requires writing package, imports, and logic methods manually.
+
+### Item Scripts
+
+This script is called by item events.\
+To create an item script you have to extend the ItemScript class that offers the `handleEvent` method.
+
+```java
+package iascript;
+
+import org.bukkit.event.Event;
+import org.bukkit.plugin.Plugin;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+import dev.lone.itemsadder.api.*;
+import dev.lone.itemsadder.api.scriptinginternal.*;
+
+public class example extends ItemScript {
+  public void handleEvent(Plugin plugin, Event event, Player player, CustomStack $customStack, ItemStack $itemStack) {
+    // Your code...    
+  }
+}
+```
+
+### Entity Scripts
+
+This script is called by entity events.\
+To create an entity script you have to extend the ItemScript class that offers the `handleEvent` method.
+
+```java
+package iascript;
+
+import org.bukkit.event.Event;
+import org.bukkit.plugin.Plugin;
+import org.bukkit.entity.Player;
+import dev.lone.itemsadder.api.*;
+import dev.lone.itemsadder.api.scriptinginternal.*;
+
+public class example extends EntityScript {
+  public void handleEvent(Plugin plugin, Event event, Player player, CustomEntity customEntity) {
+    // Your code...    
+  }
+}
+```
+
+## `.jspp`
+
+{% hint style="info" %}
+Remember to update the [vscode extension](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode) to get autocompletion and common errors checking of the new preview `.jspp` format.
+{% endhint %}
+
+This scripting mode uses Java under the hood but allows some JavaScript-inspired syntax for convenience.
+
+Advantages:
+
+* Requires less code: common imports are automatically resolved.
+* Faster to write.
+
+Disadvantages:
+
+* No debugger.
+* Autocomplete is not precise and mostly missing.
+* The intellisense is not always reliable on errors.
+* Hard to identify and fix bugs in your code.
+
+### ✅ Syntax Basics
 
 * **Semicolons (`;`) are mandatory** at the end of each statement, like in Java.
 * You can use `const`, `let`, or `var` to declare variables.
 * Supports **lambda expressions** and **Java class imports**.
 
-## 🌟 Script Variables
+### 🌟 Script Variables
 
 Scripts inherit several predefined variables from the event that triggered the script. These variables are automatically available in your script and are prefixed with a `$` to avoid name conflicts:
 
@@ -41,7 +120,7 @@ public static void main(Plugin $plugin, Event $event, Player $player, CustomEnti
 
 > 📝 **Note**: This structure is currently fixed and cannot be modified. Ensure your scripts are designed to work within this framework.
 
-## ⏳ Delays
+### ⏳ Delays
 
 Use the `delay(ticks, () -> { ... })` function to delay execution.
 
@@ -55,7 +134,7 @@ delay(40, () => {
 
 ***
 
-## 📦 Importing Java Classes
+### 📦 Importing Java Classes
 
 You can import external classes using the `import` keyword with quotes:
 
@@ -68,7 +147,7 @@ import "com.comphenix.protocol.ProtocolLibrary";
 
 ***
 
-## ❌ Cancelling The Event
+### ❌ Cancelling The Event
 
 You can cancel the current event using:
 
@@ -78,9 +157,9 @@ cancelEvent();
 
 ***
 
-## 🔧 Utility Functions
+### 🔧 Utility Functions
 
-### 🧱 ItemStack Utilities
+#### 🧱 ItemStack Utilities
 
 ```java
 isCustom(ItemStack itemStack);
@@ -89,7 +168,7 @@ newCustomStack(String namespacedId, int amount);
 newStack(Material material);
 ```
 
-### 🧍 Player Held Item
+#### 🧍 Player Held Item
 
 ```java
 isHeld(Player player, String namespacedId);
@@ -98,7 +177,7 @@ isHeld(Player player, Material material);
 setHeld(Player player, String namespacedId);
 ```
 
-### 🧱 Block Utilities
+#### 🧱 Block Utilities
 
 ```java
 isCustom(Block block);
@@ -117,7 +196,7 @@ placeBlock(Block block, CustomBlock customBlock);
 placeBlock(Block block, String identifier);
 ```
 
-### 💬 Messaging and Logging
+#### 💬 Messaging and Logging
 
 ```java
 msg(Player player, String message);

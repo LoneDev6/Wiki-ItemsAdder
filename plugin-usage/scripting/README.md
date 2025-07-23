@@ -10,15 +10,13 @@ icon: code
 This feature is a work in progress and may change, potentially affecting existing configurations and scripts. While I will strive to maintain compatibility, some disruptions are inevitable.
 {% endhint %}
 
-ItemsAdder introduces a powerful scripting feature that lets you define advanced item behaviors beyond the built-in events and actions. With scripting, you can create dynamic and complex functionalities using a Java-like syntax.
-
-Remember to update the [vscode extension](https://marketplace.visualstudio.com/items?itemName=LoneDev.ia-vscode) to get autocompletion and common errors checking of the new preview `.jspp` format.
+ItemsAdder introduces a powerful scripting feature that lets you define advanced item behaviors beyond the built-in events and actions. With scripting, you can create dynamic and complex functionalities.
 
 ***
 
 ### 🧫 Overview
 
-The scripting engine uses Java under the hood but allows some JavaScript-inspired syntax for convenience.
+The scripting engine uses Java or a Java-like language (JSPP) under the hood.
 
 > 📝 **Note**: Scripts written in ItemsAdder are compiled into Java code, ensuring performance equivalent to native server code. Unlike interpreted languages like Skript, there is no runtime interpretation overhead.
 
