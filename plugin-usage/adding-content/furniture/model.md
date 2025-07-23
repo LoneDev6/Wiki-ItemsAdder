@@ -40,14 +40,22 @@ Then you have to shift your model down until it matches the **ArmorStand** base:
 
 #### Using `item_display`
 
+{% hint style="success" %}
+This mode has the best performance
+{% endhint %}
+
+You have to select the **head icon** and then normal **ArmorStand**.
+
+Then move the model until it's approximately like that. It will be close to the ground. You can later regenerate your pack to preview it in-game and move the model until it's in the correct position.
+
+<figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
+
+#### Using `item_frame`
+
 Select _Frame_ and _Invisible Top_.\
 Adjust the model Z _Translation_ (the blue arrow) until it matches the bottom of the white block perfectly.
 
 <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-#### Using `item_frame`
-
-Same thing of `item_display`.
 
 ### Export the model
 
