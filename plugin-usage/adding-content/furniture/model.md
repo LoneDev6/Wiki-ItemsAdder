@@ -44,6 +44,18 @@ Then you have to shift your model down until it matches the **ArmorStand** base:
 This mode has the best performance
 {% endhint %}
 
+Make sure to specify `HEAD` in your configuration.
+
+```yaml
+    behaviours:
+      furniture:
+        entity: item_display
+        display_transformation:
+          transform: HEAD
+        gravity: false
+        fixed_rotation: false
+```
+
 You have to select the **head icon** and then normal **ArmorStand**.
 
 Then move the model until it's approximately like that. It will be close to the ground. You can later regenerate your pack to preview it in-game and move the model until it's in the correct position.
