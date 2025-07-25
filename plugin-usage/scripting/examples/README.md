@@ -1,6 +1,0 @@
----
-icon: circle-question
----
-
-# Examples
-

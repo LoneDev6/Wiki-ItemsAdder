@@ -1,8 +1,8 @@
 ---
-icon: mug-hot
+icon: circle-info
 ---
 
-# Java
+# Examples
 
 {% hint style="warning" %}
 This requires ItemsAdder 4.0.13 or greater.

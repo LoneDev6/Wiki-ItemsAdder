@@ -139,7 +139,7 @@ Change the port `55213` to your own debug port, which is different from the serv
 
 Press F5 while editing a file and then place your breakpoints, use the debug console etc.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}

@@ -1,5 +1,5 @@
 ---
-icon: memo
+icon: circle-info
 ---
 
 # Examples
