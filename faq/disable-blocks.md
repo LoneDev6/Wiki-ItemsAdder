@@ -24,3 +24,5 @@ blocks:
   worlds: []
 ```
 {% endcode %}
+
+Also delete the `itemsadder` folder from each of your worlds (<mark style="color:orange;">make a backup</mark> before doing that, just in case).
