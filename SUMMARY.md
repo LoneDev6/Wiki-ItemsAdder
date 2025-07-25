@@ -11,6 +11,7 @@
   * [Geyser](faq/geyser.md)
   * [Removing default content](faq/removing-default-content.md)
   * [Failed to download Minecraft assets](faq/failed-to-download-minecraft-assets.md)
+  * [Disable Blocks](faq/disable-blocks.md)
   * [🇹🇷 Turkish computer errors](faq/turkish-computer-errors.md)
   * [Thirst/mana bar](faq/fill-thirst-mana-bar.md)
   * [I can't see emoji, GUIs, HUDs etc.](faq/i-cant-see-emoji-guis-huds-etc..md)
