@@ -271,6 +271,7 @@
     * [Autocompletion](plugin-usage/scripting/jspp/autocompletion.md)
     * [Examples](plugin-usage/scripting/jspp/examples.md)
 * [Items Updater](plugin-usage/items-updater.md)
+* [Draft - Modern items creation](plugin-usage/draft-modern-items-creation.md)
 
 ## Other
 
