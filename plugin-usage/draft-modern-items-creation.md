@@ -161,6 +161,8 @@ You can even just set `texture` instead, since the vanilla `block/cross` model h
 
 ### Crossbow from textures
 
+You can create as many `pulling_` states as you want.
+
 ```yaml
   modern_crossbow:
     name: Modern Crossbow
@@ -176,6 +178,8 @@ You can even just set `texture` instead, since the vanilla `block/cross` model h
 ```
 
 ### Crossbow from models
+
+You can create as many `pulling_` states as you want.
 
 ```yaml
   modern_crossbow_model:
