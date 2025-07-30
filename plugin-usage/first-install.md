@@ -36,7 +36,7 @@ icon: gear
 
 </details>
 
-* Put `ProtocolLib.jar` inside the `plugins` folder (Download the [here](https://ci.dmulloy2.net/job/ProtocolLib/lastBuild/artifact/build/libs/ProtocolLib.jar) )
+* Put `ProtocolLib.jar` inside the `plugins` folder (Download [here](https://ci.dmulloy2.net/job/ProtocolLib/lastBuild/artifact/build/libs/ProtocolLib.jar) )
 * Put the `ItemsAdder.jar` file inside the `plugins` folder
 * Start the server
 * Let **ItemsAdder** finish loading **everything**
