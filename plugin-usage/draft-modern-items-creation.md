@@ -268,3 +268,64 @@ Manually handling the item model on your own using the new 1.21.4 format.
     material: paper
     item_model: test:modern_item
 ```
+
+## Templates and variants
+
+You can make variants of an item pretty easily.\
+Variants inherit everything from a template item (that won't be available ingame).
+
+```yaml
+info:
+  namespace: test_template_furniture
+items:
+  chair_template:
+    template: true # Here
+    name: ""
+    graphics:
+      model: furniture/chair
+    behaviours:
+      furniture:
+        entity: item_display
+        solid: true
+        fixed_rotation: true
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.75
+  black_acacia_chair:
+    variant_of: chair_template
+    name: "Black Acacia Chair"
+    graphics:
+      parent: furniture/chair
+      textures:
+        wood: minecraft:block/acacia_planks
+        wool: minecraft:block/black_wool
+  red_chair:
+    variant_of: chair_template # Here
+    name: "Black Acacia Chair"
+    graphics:
+      parent: furniture/chair
+      textures:
+        wood: minecraft:block/red_wool
+        wool: minecraft:block/red_wool
+
+```
+
+{% code title="contents/example/models/furniture/chair.json" %}
+```json
+{
+  "textures": {
+    "wool": "block/white_wool",
+    "particle": "block/oak_planks",
+    "wood": "block/oak_planks"
+  },
+  "elements": [
+  //.....
+```
+{% endcode %}
