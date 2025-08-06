@@ -12,6 +12,7 @@
   * [Removing default content](faq/removing-default-content.md)
   * [Failed to download Minecraft assets](faq/failed-to-download-minecraft-assets.md)
   * [graphics and item\_model on 1.21.3 and lower](faq/graphics-and-item_model-on-1.21.3-and-lower.md)
+  * [1.21.5+ remove inventory highlight slot](faq/1.21.5+-remove-inventory-highlight-slot.md)
   * [Disable Blocks](faq/disable-blocks.md)
   * [🇹🇷 Turkish computer errors](faq/turkish-computer-errors.md)
   * [Thirst/mana bar](faq/fill-thirst-mana-bar.md)
