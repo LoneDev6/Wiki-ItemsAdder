@@ -24,7 +24,7 @@ icon: gear
 * Stop the server.
 
 - Put **ProtocolLib** JAR inside the `plugins` folder
-  * Download 1.21.4 and older versions [here](https://ci.dmulloy2.net/job/ProtocolLib/)
+  * Download 1.21.4 and older versions [here](https://github.com/dmulloy2/ProtocolLib/releases/)
 
 * Put [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/) JAR inside the `plugins` folder (not required on 4.0.9 and greater)
 
@@ -36,7 +36,7 @@ icon: gear
 
 </details>
 
-* Put `ProtocolLib.jar` inside the `plugins` folder (Download [here](https://ci.dmulloy2.net/job/ProtocolLib/lastBuild/artifact/build/libs/ProtocolLib.jar) )
+* Put `ProtocolLib.jar` inside the `plugins` folder (Download [here](https://github.com/dmulloy2/ProtocolLib/releases/download/dev-build/ProtocolLib.jar) )
 * Put the `ItemsAdder.jar` file inside the `plugins` folder
 * Start the server
 * Let **ItemsAdder** finish loading **everything**
