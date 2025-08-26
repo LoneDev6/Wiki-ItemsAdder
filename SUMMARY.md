@@ -124,6 +124,7 @@
     * [AlixAnimations](https://alixanimations.gitbook.io/alixanimations/fundamentals/getting-set-up/actions/compatible-plugins/itemsadder)
     * [HopperSorter](https://slowtomato-1.gitbook.io/hoppersorter-wiki/compatability/itemsadder)
     * [HeadsAnywhere](compatibility-with-other-plugins/compatible/headsanywhere.md)
+    * [LootChest](compatibility-with-other-plugins/compatible/lootchest.md)
 * [Contribute](contribute/README.md)
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
