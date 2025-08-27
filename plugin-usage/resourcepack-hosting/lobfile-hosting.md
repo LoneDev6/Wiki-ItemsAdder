@@ -3,11 +3,11 @@
 {% hint style="warning" %}
 #### Warning
 
-File size limit is 100MB for this hosting method.
+File size limit is 100MB for this hosting method. Higher limits are available with a LobFile subscription.
 {% endhint %}
 
 Automatically upload your resourcepack on a **free online service** with servers all over the world.\
-Thanks a lot to **LobFile**[ ](https://ploudos.com/it/), which provides us their platform to host files for free!
+Thanks a lot to [LobFile](https://lobfile.com/), which provides us their platform to host files for free!
 
 {% embed url="https://lobfile.com/" %}
 
@@ -32,17 +32,17 @@ If your playerbase is all from the same country, you can stick with `self-host`.
 
 #### Step 1
 
-Create an account on [LobFile here](https://lobfile.com/create-account).
+Create an account on [LobFile here](https://lobfile.com/sign-up).
 
 #### Step 2
 
-Open your [account settings here](https://lobfile.com/my-account) and check _**"Continuous uploading"**_
+Open your [account settings](https://lobfile.com/dashboard/general) and enable _**"Continuous Uploading"**_
 
 <figure><img src="../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3
 
-Hover the `API Key` text and copy your key.
+On the [Account Info](https://lobfile.com/dashboard/account-info) dashboard, click on your API key to copy it to your clipboard.
 
 <figure><img src="../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 
