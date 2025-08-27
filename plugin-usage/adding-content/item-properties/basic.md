@@ -68,6 +68,14 @@ Enchants of the item.\
 You can set [vanilla enchants](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html) and custom enchants of other plugins (for example [EcoEnchants](../../../compatibility-with-other-plugins/compatible/ecoenchants.md), [ExcellentEnchants](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)...).\
 Supports also **namespaces** (if you are creating custom enchants using Namespaced keys).
 
+## `glint`
+
+Set visibility of enchantment glint on item.
+
+```yaml
+glint: false
+```
+
 ## `attribute_modifiers`
 
 ```yaml
