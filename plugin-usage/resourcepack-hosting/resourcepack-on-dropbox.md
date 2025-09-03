@@ -14,10 +14,8 @@
 
 ![](<../../.gitbook/assets/immagine (41).png>)
 
-* Press **Copy link**.
-* For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0):
+* Press **Copy link** (for example you will get `https://www.dropbox.com/blablabla?dl=1`)
 * Open `config.yml` of **ItemsAdder**.
-* Set it like this: (**I used the example URL, please use your own**).
 
 ```yaml
 resource-pack:
@@ -28,7 +26,7 @@ resource-pack:
     enabled: false
   external-host:
     enabled: true
-    url: 'https://www.dropbox.com/blablabla?dl=0'
+    url: 'https://www.dropbox.com/blablabla?dl=1'
 ```
 
 * **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` (in this case to reload the resourcepack download link)
