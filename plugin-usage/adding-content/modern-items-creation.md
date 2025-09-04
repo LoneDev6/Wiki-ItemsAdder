@@ -2,17 +2,27 @@
 icon: file-plus
 ---
 
-# Draft - Modern items creation
+# 1.21.4+ - Modern Items Creation
 
 {% hint style="warning" %}
-This requires ItemsAdder 4.0.13 and Minecraft 1.21.4+ (client must be 1.21.4+, server must be 1.21.2+).
+This requires ItemsAdder 4.0.13 and Minecraft 1.21.4+ (both client and server).
+{% endhint %}
+
+## What is the modern item method?
+
+This is a new way to create items graphics. The old `resource` property is replaced by the new property `graphics` which is easier to use and has more features.
+
+{% hint style="warning" %}
+`resource` property for now will stay and will still work fine.
+
+You should and must continue using it if your server accepts 1.21.3 and lower clients, otherwise they won't see the graphics of the item!
 {% endhint %}
 
 ## Generating items automatically
 
 `material` property is not mandatory anymore. `paper` will be used by default.
 
-### From texture
+### From a texture
 
 Automatically generate the modern item + model from a texture.
 
@@ -23,7 +33,7 @@ Automatically generate the modern item + model from a texture.
       texture: item/modern_texture
 ```
 
-### From model
+### From a model
 
 Automatically generate the modern item and use a specific model file.
 
@@ -57,7 +67,7 @@ If you do not specify the block behaviour, it would use the `paper` parent which
           type: REAL_NOTE
 ```
 
-### Block from single texture
+### Block from a single texture
 
 Automatically generate the modern item and use a specific model file (in this case it generates a multi face block).
 
@@ -72,7 +82,7 @@ Automatically generate the modern item and use a specific model file (in this ca
           type: REAL_NOTE
 ```
 
-### Block from specific parent (`cross` for example)
+### Block from a specific parent (`cross` for example)
 
 Automatically generate the modern item + model from textures (in this case it generates a multi face block).
 
@@ -195,7 +205,7 @@ You can create as many `pulling_` states as you want.
         arrow: minecraft:item/emerald
 ```
 
-### Trident from model
+### Trident from a model
 
 ```yaml
   modern_trident_model:
@@ -208,7 +218,7 @@ You can create as many `pulling_` states as you want.
         throwing: item/modern_bow_2
 ```
 
-### Shield from model
+### Shield from a model
 
 ```yaml
   modern_shield_model:

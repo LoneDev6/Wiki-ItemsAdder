@@ -161,6 +161,7 @@
       * [Behaviours List](plugin-usage/adding-content/item-properties/behaviours/behaviours-list.md)
     * [Templates and variants](plugin-usage/adding-content/item-properties/templates-and-variants.md)
     * [2D Icon](plugin-usage/adding-content/item-properties/2d-icon.md)
+  * [1.21.4+ - Modern Items Creation](plugin-usage/adding-content/modern-items-creation.md)
   * [Consumable](plugin-usage/adding-content/consumable.md)
   * [Block](plugin-usage/adding-content/block.md)
   * [Block - Advanced](plugin-usage/adding-content/advanced-block-properties/README.md)
@@ -253,6 +254,7 @@
     * [Magic wand](plugin-usage/adding-content/other-items-examples/magic-wand.md)
     * [Bundle](plugin-usage/adding-content/other-items-examples/bundle.md)
     * [Custom Arrows](plugin-usage/adding-content/other-items-examples/custom-arrows.md)
+  * [Colored Items](plugin-usage/adding-content/colored-items.md)
 * [Languages](plugin-usage/languages.md)
 * [Commands](plugin-usage/commands/README.md)
   * [iaconfig](plugin-usage/commands/iaconfig.md)
@@ -273,7 +275,6 @@
     * [Autocompletion](plugin-usage/scripting/jspp/autocompletion.md)
     * [Examples](plugin-usage/scripting/jspp/examples.md)
 * [Items Updater](plugin-usage/items-updater.md)
-* [Draft - Modern items creation](plugin-usage/draft-modern-items-creation.md)
 
 ## Other
 
