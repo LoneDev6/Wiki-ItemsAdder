@@ -156,7 +156,7 @@ Blacklist of tools that cannot run events on this block[ (`placed_block.interact
 
 ### `events_tools_whitelist`
 
-Whitelist of tools that cannot run events on this block [(`placed_block.interact`)](item-properties/events/#list-of-events)
+Whitelist of tools that can run events on this block [(`placed_block.interact`)](item-properties/events/#list-of-events)
 
 ## Other options
 
