@@ -258,6 +258,7 @@
     * [Custom Arrows](plugin-usage/adding-content/other-items-examples/custom-arrows.md)
   * [Colored Items](plugin-usage/adding-content/colored-items.md)
   * [Liquids](plugin-usage/adding-content/liquids.md)
+  * [Writable Book](plugin-usage/adding-content/writable-book.md)
 * [Languages](plugin-usage/languages.md)
 * [Commands](plugin-usage/commands/README.md)
   * [iaconfig](plugin-usage/commands/iaconfig.md)
