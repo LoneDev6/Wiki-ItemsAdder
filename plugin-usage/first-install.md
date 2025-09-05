@@ -15,7 +15,7 @@ icon: gear
 
 {% stepper %}
 {% step %}
-### Installing the plugin and libraries
+#### Installing the plugin and libraries
 
 <details>
 
@@ -43,10 +43,10 @@ icon: gear
 {% endstep %}
 
 {% step %}
-### Resourcepack first installation
+#### Resourcepack first installation
 
 {% hint style="warning" %}
-#### Important Step
+**Important Step**
 
 Content <mark style="color:red;">**WILL NOT SHOW CORRECTLY**</mark> if you won't complete this step!
 {% endhint %}
@@ -57,7 +57,7 @@ The best method is `self-host`.
 {% endstep %}
 
 {% step %}
-### (optional) Add official ItemsAdder custom content
+#### (optional) Add official ItemsAdder custom content
 
 ![](../.gitbook/assets/items_showcase_gif.apng)
 
@@ -66,7 +66,7 @@ It's not automatically included in the downloaded plugin because some people mig
 {% endstep %}
 
 {% step %}
-### (optional) Add other ItemsAdder custom content
+#### (optional) Add other ItemsAdder custom content
 
 **Download the Other Packs here:**
 

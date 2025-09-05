@@ -106,8 +106,8 @@ These are the vanilla attribute modifiers, you can get more info here: [https://
 
 ```yaml
 durability:
-  max_custom_durability: 200
-  custom_durability: 32
+  max_durability: 200
+  durability: 32
   disappear_when_broken: false
   unbreakable: false
   usages: 5
@@ -115,9 +115,13 @@ durability:
 
 `usages` : Number of usages for the current item. Remember to decrement it using [events](events/).
 
-`custom_durability` : Initial durability which the item has (if not specified is the same as `max_custom_durability`).
+`durability` : Initial durability which the item has (if not specified is the same as `max_durability`).
 
-`max_custom_durability` : Max durability of the item.
+`max_durability` : Max durability of the item.
+
+## `max_stack_size`
+
+Sets the max amount of items allowed to be merged. Default value is inherited by the vanilla material.
 
 ## `item_flags`
 

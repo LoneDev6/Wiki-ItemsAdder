@@ -103,26 +103,9 @@ This allows to make some blocks placed 1 block up. This is useful for `REAL_WIRE
 
 ### `custom_variants`
 
-Special property which allows to specify custom variants for that block.\
-Accepts the same properties shown in the Minecraft wiki [models page](https://minecraft.fandom.com/wiki/Tutorials/Models).
-
-Example:
-
-```yaml
-          custom_variants:
-            variant1:
-              model: "minecraft:block/end_stone_bricks"
-              y: 90
-            variant2:
-              model: "minecraft:block/end_stone_bricks"
-              y: 180
-              x: 90
-            variant3:
-              model: "minecraft:block/diamond_block"
-              uvlock: true
-            variant4:
-              model: "minecraft:block/cobblestone"
-```
+{% content-ref url="advanced-block-properties/variants.md" %}
+[variants.md](advanced-block-properties/variants.md)
+{% endcontent-ref %}
 
 ### `drop_when_mined`
 

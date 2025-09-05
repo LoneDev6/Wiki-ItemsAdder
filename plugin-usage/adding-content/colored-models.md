@@ -36,6 +36,10 @@ For example a custom colored furniture.
 
 ### 6. set the specific color attribute in your .yml file.
 
+<details>
+
+<summary>Click here to read the old way</summary>
+
 In this example I used `leather_horse_armor` but you can also use `potion`.
 
 ```yaml
@@ -53,7 +57,8 @@ In this example I used `leather_horse_armor` but you can also use `potion`.
 #### Getting colors
 
 * **Decimal** colors using [this tool](https://www.mathsisfun.com/hexadecimal-decimal-colors.html)
-* Colors from this list
+
+- Colors from this list
   * `WHITE`
   * `SILVER`
   * `GRAY`
@@ -72,6 +77,28 @@ In this example I used `leather_horse_armor` but you can also use `potion`.
   * `PURPLE`
   * `ORANGE`
 
-### 7. now you can create as many as furnitures you want, just change the color and it will be automatically colored by the game
+</details>
+
+<details>
+
+<summary>Click here to read the modern way (1.21.4+)</summary>
+
+{% hint style="warning" %}
+This requires ItemsAdder 4.0.13 and Minecraft 1.21.4+ (both client and server).
+{% endhint %}
+
+```yaml
+  orange_modern_lamp:
+    name: Orange Modern Lamp
+    graphics:
+      color: ORANGE
+      model: item/template_modern_lamp
+```
+
+Read more on the [modern coloring tutorial](colored-items.md).
+
+</details>
+
+### 7. now you can create as many as models you want, just change the color and it will be automatically colored by the game
 
 ![](<../../.gitbook/assets/immagine (105).png>)

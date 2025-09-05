@@ -10,7 +10,9 @@ Create a folder `contents/myemojis/textures/font/emoji/`
 
 ### Image
 
-Inside this folder you have to put your emojis, you should make them 72x72 to make sure they're not too big and they're not pixelated. But you can decide the size you want (only important thing is that height and width is not over 256.
+Inside this folder you have to put your emojis, you should make them `72x72` to make sure they're not too big and they're not pixelated.
+
+You can decide the size you want but make sure that height and width is not over `256`.
 
 In this example I put an image named `contents/myemojis/textures/font/emoji/smile.png`.
 
@@ -69,6 +71,56 @@ Write `:` in chat and press **TAB** to start autocompleting.
 
 <figure><img src="../../.gitbook/assets/emoji_autocomplete_chat.png" alt=""><figcaption></figcaption></figure>
 
-### Example
+### Download examples:
 
 {% @github-files/github-code-block %}
+
+## Create big preview on hover
+
+You have to create a new font image for the big emoji (you can use the same `.png` image) and set `scale_ratio` to a big value, usually 64 is good.
+
+```yaml
+info:
+  namespace: myemojis
+font_images:
+  test_hover_new_big:
+    path: font/test_hover_new.png
+    suggest_in_command: false
+    show_in_gui: false
+    scale_ratio: 64
+```
+
+Edit your small emoji by adding the `chat` `hover` property with the custom `override_text`.\
+The `override_text` is used to show the big emoji in the hover description text.&#x20;
+
+```yaml
+info:
+  namespace: myemojis
+font_images:
+  test_hover_new:
+    path: font/test_hover_new.png
+    chat:
+      hover:
+        enabled: true
+        override_text: ":test_hover_new_big:\n\n\n\n\n\n"
+    suggest_in_command: true
+    show_in_gui: true
+    scale_ratio: 9
+    y_position: 8
+```
+
+{% hint style="info" %}
+Note: the `\n` part is important in order to match the big emoji image height, otherwise the tooltip will be too short.
+
+![](<../../.gitbook/assets/image (274).png>)
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (272).png" alt=""><figcaption></figcaption></figure>
+
+### Adding a title
+
+You can add a title, just write your text and add a `\n` character to start a new line.
+
+`override_text: "Emoji preview:\n:test_hover_new_big:\n\n\n\n\n\n"`
+
+<figure><img src="../../.gitbook/assets/image (273).png" alt=""><figcaption></figcaption></figure>
