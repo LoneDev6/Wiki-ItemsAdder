@@ -196,6 +196,7 @@
   * [Crafting](plugin-usage/adding-content/crafting.md)
   * [Cooking](plugin-usage/adding-content/cooking.md)
   * [Anvil Repair](plugin-usage/adding-content/anvil-repair.md)
+  * [Smithing](plugin-usage/adding-content/smithing.md)
   * [Loots](plugin-usage/adding-content/loots.md)
   * [Worlds populators (ores)](plugin-usage/adding-content/worlds-populators.md)
   * [Trees and trees populators](plugin-usage/adding-content/trees-and-trees-populators.md)
