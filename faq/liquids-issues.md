@@ -9,6 +9,15 @@ These are all Minecraft bugs I cannot fix. This is how the game works.\
 Please do not report these issues.
 {% endhint %}
 
+## Liquids do not spread like water!
+
+{% hint style="success" %}
+It's working as intended to avoid lag and glitches.\
+Use multiple liquid buckets to create a larger liquid area.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/water_bug_3.png" alt=""><figcaption></figcaption></figure>
+
 ### Custom liquid color mixed with water and vice versa
 
 Custom liquids are not totally colored sometimes, some parts still have vanilla water color.\
@@ -37,12 +46,3 @@ You have to set the biome blend to `5x5` or lower.
 #### Good
 
 <figure><img src="../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
-
-## Liquids do not spread like water!
-
-{% hint style="success" %}
-It's working as intended to avoid lag and glitches.\
-Use multiple liquid buckets to create a larger liquid area.
-{% endhint %}
-
-<figure><img src="../.gitbook/assets/water_bug_3.png" alt=""><figcaption></figcaption></figure>
