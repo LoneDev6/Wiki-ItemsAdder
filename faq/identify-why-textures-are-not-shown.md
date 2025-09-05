@@ -90,3 +90,7 @@ Please read the tutorial here.
 {% content-ref url="failed-to-download-minecraft-assets.md" %}
 [failed-to-download-minecraft-assets.md](failed-to-download-minecraft-assets.md)
 {% endcontent-ref %}
+
+## Resourcepack not updating after `/iazip`
+
+If you are on **Cloudflare** make sure to use Cache Bypass, clean the cache or implement a custom rule that force no cache on the resourcepack file. Source [here](https://github.com/PluginBugs/Issues-ItemsAdder/issues/3894#issuecomment-2817017486).
