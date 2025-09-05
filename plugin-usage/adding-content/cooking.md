@@ -6,6 +6,13 @@ icon: grill-hot
 
 ItemsAdder allows to add custom furnace recipes for your items, to turn them into something else.
 
+{% hint style="warning" %}
+**Note:** Smelting permissions cannot be reliably enforced, since it is not possible to precisely determine which player placed the item.\
+For example, if a machine pulls items from inventories, there is no way to track which player originally inserted the item into the first hopper.
+
+If you need to enforce permission you should implement it in a crafting recipe.
+{% endhint %}
+
 ## Example
 
 When adding a cooking recipe, will you need to add the `cooking` section under `recipes`. The name shouldn't matter that much, but it is recommended to use the one of the result.
