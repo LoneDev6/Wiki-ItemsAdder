@@ -265,6 +265,7 @@
   * [iaconfig](plugin-usage/commands/iaconfig.md)
   * [iarename](plugin-usage/commands/iarename.md)
   * [iaimage](plugin-usage/commands/iaimage.md)
+  * [Use Vanilla Selectors In Commands](plugin-usage/commands/use-vanilla-selectors-in-commands.md)
 * [Permissions](plugin-usage/permissions.md)
 * [Merge Resourcepacks](plugin-usage/merge-resourcepacks.md)
 * [Recipes Menu](plugin-usage/ia.md)
