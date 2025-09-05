@@ -171,6 +171,7 @@
     * [Enabling Custom Blocks Sounds](plugin-usage/adding-content/advanced-block-properties/enabling-custom-blocks-sounds.md)
     * [Enable/Disable Custom Blocks in Worlds](plugin-usage/adding-content/advanced-block-properties/enable-disable-custom-blocks-in-worlds.md)
     * [Manual Editing Blockstates](plugin-usage/adding-content/advanced-block-properties/manual-editing-blockstates.md)
+    * [Variants](plugin-usage/adding-content/advanced-block-properties/variants.md)
   * [Bow](plugin-usage/adding-content/bow.md)
   * [Crossbow](plugin-usage/adding-content/crossbow.md)
   * [Fishing rod, shield, bundle](plugin-usage/adding-content/fishing-rod-shield-bundle.md)
