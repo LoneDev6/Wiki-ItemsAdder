@@ -253,6 +253,7 @@
     * [Magic wand](plugin-usage/adding-content/other-items-examples/magic-wand.md)
     * [Bundle](plugin-usage/adding-content/other-items-examples/bundle.md)
     * [Custom Arrows](plugin-usage/adding-content/other-items-examples/custom-arrows.md)
+    * [Custom Seeds](plugin-usage/adding-content/other-items-examples/custom-seeds.md)
 * [Languages](plugin-usage/languages.md)
 * [Commands](plugin-usage/commands/README.md)
   * [iaconfig](plugin-usage/commands/iaconfig.md)
