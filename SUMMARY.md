@@ -260,6 +260,7 @@
   * [Colored Items](plugin-usage/adding-content/colored-items.md)
   * [Liquids](plugin-usage/adding-content/liquids.md)
   * [Writable Book](plugin-usage/adding-content/writable-book.md)
+  * [Vehicles](plugin-usage/adding-content/vehicles.md)
 * [Languages](plugin-usage/languages.md)
 * [Commands](plugin-usage/commands/README.md)
   * [iaconfig](plugin-usage/commands/iaconfig.md)
