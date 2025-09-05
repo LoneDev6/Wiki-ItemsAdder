@@ -257,6 +257,7 @@
     * [Magic wand](plugin-usage/adding-content/other-items-examples/magic-wand.md)
     * [Bundle](plugin-usage/adding-content/other-items-examples/bundle.md)
     * [Custom Arrows](plugin-usage/adding-content/other-items-examples/custom-arrows.md)
+    * [Custom Seeds](plugin-usage/adding-content/other-items-examples/custom-seeds.md)
   * [Colored Items](plugin-usage/adding-content/colored-items.md)
   * [Liquids](plugin-usage/adding-content/liquids.md)
   * [Writable Book](plugin-usage/adding-content/writable-book.md)
