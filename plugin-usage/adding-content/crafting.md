@@ -147,3 +147,34 @@ shapeless_emerald_example:
 <figure><img src="../../.gitbook/assets/emerald_shapeless_2.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/emerald_shapeless_1.png" alt=""><figcaption></figcaption></figure>
+
+## Potion type in ingredient
+
+You can require a specific potion type in the ingredient by using the `potion_type` property, for example:
+
+```yaml
+info:
+  namespace: myitems
+recipes:
+  crafting_table:
+    infested_cobblestone:
+      permission: myitems.infested_cobblestone
+      enabled: true
+      pattern:
+        - CCC
+        - CAC
+        - CCC
+      ingredients:
+        C: COBBLESTONE
+        A:
+          item: POTION
+          potion_type: minecraft:infested
+      result:
+        item: INFESTED_COBBLESTONE
+        amount: 8
+      return_items:
+        - item: GLASS_BOTTLE
+          amount: 1
+
+```
+
