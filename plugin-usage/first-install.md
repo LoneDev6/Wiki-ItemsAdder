@@ -63,6 +63,14 @@ The best method is `self-host`.
 
 **ItemsAdder** comes with a lot of custom content already created for you.\
 It's not automatically included in the downloaded plugin because some people might not want every item/feature automatically added into their server.
+
+{% embed url="https://github.com/ItemsAdder/DefaultPack/releases" %}
+
+<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+* Extract the content into the `ItemsAdder` folder and overwrite the files if asked.
+* Run the `/iazip` command.
+* Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**.
 {% endstep %}
 
 {% step %}
@@ -73,9 +81,5 @@ It's not automatically included in the downloaded plugin because some people mig
 {% embed url="https://github.com/ItemsAdder/OtherPacks/releases/latest" %}
 
 <div align="left"><img src="../.gitbook/assets/image (94).png" alt=""></div>
-
-* Extract the content into the `ItemAsdder` folder and overwrite the files if asked.
-* Run the `/iazip` command.
-* Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**.
 {% endstep %}
 {% endstepper %}
