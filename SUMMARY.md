@@ -23,6 +23,7 @@
   * [Kick flight on join](faq/kick-flight-on-join.md)
   * [Glitched blocks](faq/glitched-blocks.md)
   * [I removed blocks but keep saying that I used all the IDs](faq/i-removed-blocks-but-keep-saying-that-i-used-all-the-ids.md)
+  * [Can't change Noteblock note](faq/cant-change-noteblock-note.md)
   * [Can't find any ore](faq/i-cant-find-any-mineral-ore.md)
   * [Block particles not playing](faq/block-particles-not-playing.md)
   * [Bungeecord / Velocity](faq/bungeecord-velocity/README.md)
