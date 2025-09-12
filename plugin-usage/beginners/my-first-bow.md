@@ -42,7 +42,7 @@ The bow animates as you pull it, this allows you to have a single texture for ea
 
 `contents/myitems/textures/item/`
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * `_0` - First pulling state
 * `_1` - Second pulling state
@@ -75,7 +75,7 @@ items:
 
 
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * `_0` - First pulling state
 * `_1` - Second pulling state
@@ -83,12 +83,12 @@ items:
 
 Open your models files and update the textures paths. As you can see I updated the namespace.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Move your textures into the correct namespace, in this case `myitems`.
 
 `contents/myitems/textures/item/`
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/bow2 (1).webp" alt=""><figcaption></figcaption></figure>

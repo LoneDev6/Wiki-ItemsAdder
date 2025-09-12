@@ -66,7 +66,7 @@ It's not automatically included in the downloaded plugin because some people mig
 
 {% embed url="https://github.com/ItemsAdder/DefaultPack/releases" %}
 
-<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
 
 * Extract the content into the `ItemsAdder` folder and overwrite the files if asked.
 * Run the `/iazip` command.
