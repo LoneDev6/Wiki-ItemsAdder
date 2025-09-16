@@ -11,7 +11,7 @@ Use [this website](https://misieur.me/audio-converter/) to convert your file (`m
 {% hint style="warning" %}
 ### IMPORTANT
 Remember to set "Channels" to `Mono` or you will experience [audio problems](https://bugs.mojang.com/browse/MC-146721)
-<!-- The website already explain that stereo audio has some audio problems but we can still write it -->
+<!-- The website already explains that stereo audio has some audio problems but we can still write it -->
 {% endhint %}
 
 ## Creating the sound
