@@ -6,7 +6,7 @@ icon: volume-low
 
 ## Converting files from `MP3` to `OGG`
 
-Use [this website](https://misieur.me/audio-converter/) to convert your file (`mp3`, `wav`...) to `ogg`.
+Use [this website](https://misieur.me/audio-converter/) to convert your file (`mp3`, `wav`...) to `ogg` (alternative [here](https://audio.online-convert.com/convert-to-ogg)).
 
 {% hint style="warning" %}
 ### IMPORTANT
