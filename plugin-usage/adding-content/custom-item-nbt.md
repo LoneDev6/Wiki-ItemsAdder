@@ -12,6 +12,8 @@ You can specify custom **NBT** attributes to be merged into the custom item.
 This feature supports legacy NBT and the new 1.20.5+ modern NBT too!\
 It will automatically convert the legacy NBT if needed.
 
+This is not guaranteed to work on every game version, so please consider manually updating your NBT configurations.
+
 More info on the 1.20.5+ changes [here](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-5) (scroll down).
 {% endhint %}
 
@@ -22,7 +24,7 @@ Make sure to provide a valid **NBT** (`json`) or it won't work!
 ## Inject NBT properties from file
 
 {% hint style="warning" %}
-### This is a new feature of ItemsAdder 4.0.8
+### This feature requires at least ItemsAdder 4.0.8
 {% endhint %}
 
 {% code title="my_item_file.yml" %}
@@ -44,7 +46,8 @@ items:
 ```json
 {
   "components":{
-     "minecraft:item_name":"'Черепаший нагрудник'",
+     "minecraft:custom_name": {"text":"Черепаший нагрудник", "italic":false},
+     "minecraft:item_name": {"text":"Черепаший нагрудник", "italic":false},
      "minecraft:max_damage":440,
      "minecraft:attribute_modifiers":[
         {
@@ -110,7 +113,7 @@ items:
 
 ### Custom NBT + name Component
 
-`nbt: "{components:{"minecraft:custom_name":'{"text":"TEST", "font": "alt", "italic":false}', "minecraft:custom_data": {"bro":'asd'}}}"`
+`nbt: '{components:{"minecraft:custom_name":{"text":"TEST", "font": "alt", "italic":false}, "minecraft:custom_data": {"bro":"asd"}}}'`
 
 ```yaml
   custom_nbt_item_custom_name:
@@ -122,7 +125,7 @@ items:
     - 'test line from IA config 2'
     - 'test line from IA config 3'
     permission: custom.test
-    nbt: "{components:{\"minecraft:custom_name\":{\"text\":\"TEST\", \"font\": \"alt\", \"italic\":false}, \"minecraft:custom_data\": {\"bro\":'asd'}}}"
+    nbt: '{components:{"minecraft:custom_name":{"text":"TEST", "font": "alt", "italic":false}, "minecraft:custom_data": {"bro":"asd"}}}'
     resource:
       material: DIAMOND_SWORD
       generate: false
@@ -155,7 +158,7 @@ items:
     - 'test line from IA config 2'
     - 'test line from IA config 3'
     permission: custom.test
-    nbt: "{display:{Name:'{\"text\":\"TEST\", \"font\": \"alt\", \"italic\":false}'}}"
+    nbt: "{display:{Name:'{"text":"TEST", "font": "alt", "italic":false}'}}"
     resource:
       material: DIAMOND_SWORD
       generate: false
