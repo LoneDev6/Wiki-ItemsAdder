@@ -16,20 +16,22 @@ A vanilla example are flowers and **Lily Pad** that have different rotations but
 Example:
 
 ```yaml
-          custom_variants:
-            variant1:
-              model: "minecraft:block/end_stone_bricks"
-              y: 90
-            variant2:
-              model: "minecraft:block/end_stone_bricks"
-              y: 180
-              x: 90
-            variant3:
-              model: "minecraft:block/diamond_block"
-              uvlock: true
-              weight: 1
-            variant4:
-              model: "minecraft:block/cobblestone"
+specific_properties:
+  block:
+    custom_variants:
+      variant1:
+        model: "minecraft:block/end_stone_bricks"
+        y: 90
+      variant2:
+        model: "minecraft:block/end_stone_bricks"
+        y: 180
+        x: 90
+      variant3:
+        model: "minecraft:block/diamond_block"
+        uvlock: true
+        weight: 1
+      variant4:
+        model: "minecraft:block/cobblestone"
 ```
 
 ## Properties
