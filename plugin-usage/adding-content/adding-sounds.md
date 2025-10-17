@@ -9,9 +9,9 @@ icon: volume-low
 Use [this website](https://misieur.me/audio-converter/) to convert your file (`mp3`, `wav`...) to `ogg` (alternative [here](https://audio.online-convert.com/convert-to-ogg)).
 
 {% hint style="warning" %}
-### IMPORTANT
+#### IMPORTANT
+
 Remember to set "Channels" to `Mono` or you will experience [audio problems](https://bugs.mojang.com/browse/MC-146721)
-<!-- The website already explains that stereo audio has some audio problems but we can still write it -->
 {% endhint %}
 
 ## Creating the sound
@@ -19,7 +19,7 @@ Remember to set "Channels" to `Mono` or you will experience [audio problems](htt
 ### New Method
 
 {% hint style="warning" %}
-## This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.
+### This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.
 {% endhint %}
 
 #### Simple sound
@@ -54,9 +54,9 @@ sounds:
 
 <summary>Click to read the old method</summary>
 
-#### Step 1
+**Step 1**
 
-* create a new folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/` \
+* create a new folder `ItemsAdder/contents/my_sounds/resourcepack/my_sounds/sounds/`\
   (or use yours if you already have one)
 * put your **`.ogg`** file in there.\
   You can also create more folders inside `sounds` to organize your sounds.\
@@ -65,7 +65,7 @@ sounds:
 I have a file named **`song_1.ogg`** and I put it into a new `music` folder.\
 So now I have `contents/my_sounds/resourcepack/my_sounds/sounds/music/song_1.ogg`
 
-#### Step 2
+**Step 2**
 
 * open the folder `contents/my_sounds/resourcepack/my_sounds/`
 * create a new file named `sounds.json` (or open it if you already created it)
@@ -85,7 +85,7 @@ To add your sound into the file you just have to do this:
 ```
 {% endcode %}
 
-#### Now I explain each part of the code I wrote
+**Now I explain each part of the code I wrote**
 
 This is the sound name. You will use it in every part of the plugin and also in Minecraft vanilla [/playsound ](https://www.digminecraft.com/game_commands/playsound_command.php)command.
 
@@ -115,7 +115,7 @@ For example if you want to have random sounds for the same sound name you just h
 ]
 ```
 
-#### How can I add multiple sounds in the `sounds.json` file?
+**How can I add multiple sounds in the `sounds.json` file?**
 
 It's easy, the next time you want to add a sound you just have to add a comma at the end, like this.\
 (I'm referring to line 6 comma)
@@ -138,7 +138,5 @@ It's easy, the next time you want to add a sound you just have to add a comma at
 {% hint style="warning" %}
 If you want to be sure not to make mistakes use this website to check if your `sounds.json` file is good or has errors: [https://jsonformatter.curiousconcept.com/](https://jsonformatter.curiousconcept.com/)
 {% endhint %}
-
-
 
 </details>

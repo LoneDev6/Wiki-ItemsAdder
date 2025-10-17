@@ -1,3 +1,7 @@
+---
+icon: cube
+---
+
 # Blockbench Errors
 
 ## Strange errors

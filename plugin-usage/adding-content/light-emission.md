@@ -114,7 +114,7 @@ Separate the glowing layer from the base layer into two images.
 
 `contents/test/textures/block/test_light_emission.png`
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 `contents/test/textures/block/test_light_emission2.png`
 

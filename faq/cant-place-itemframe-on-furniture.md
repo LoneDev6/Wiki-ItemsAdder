@@ -1,3 +1,7 @@
+---
+icon: crop-simple
+---
+
 # Can't place itemframe on furniture
 
 {% embed url="https://github.com/PluginBugs/Issues-ItemsAdder/issues/1913" %}

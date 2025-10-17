@@ -26,6 +26,6 @@ A clear example of a successful server which allows only one version to join is 
 
 I don't see any reason to continue this nonsense of expecting gameplay to be stable while allowing ancient versions of the game to join your server, or worse, keep an old version of the server and allow new client versions to join.
 
-ItemsAdder has tons of hacks coded to check client version and server version and then enable some special fixes to avoid crashes/glitches (let's say) on 1.18 clients joining 1.20 servers. I want to stop having to maintain this kind of tricks which are unstable and introduce nothing but stress to both me and the customer.
+ItemsAdder has lot of hacks coded to check client version and server version and then enable some special fixes to avoid crashes/glitches (let's say) on 1.18 clients joining 1.20 servers. I would like to stop having to maintain this kind of tricks which are unstable and introduce nothing but stress to both me and the customer, in order to concentrate on delivering good and modern features instead of having to support very old clients.
 
 So please, consider to stop allowing multiple versions to join your survival/gamemode server.
