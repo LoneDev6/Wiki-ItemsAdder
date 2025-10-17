@@ -13,6 +13,13 @@ They integrate perfectly with the game and look like an official update.
 Thanks so much to **Misieur** (**Thomas**) which helped me to implement this new method with his ideas 🩷
 {% endhint %}
 
+{% code title="config.yml" %}
+```yaml
+emotes:
+  1_21_4_plus_modern_method: true
+```
+{% endcode %}
+
 ### Main features
 
 * [Blockbench](https://www.blockbench.net/) extension to animate the Minecraft player model
@@ -31,6 +38,14 @@ Thanks so much to **Misieur** (**Thomas**) which helped me to implement this new
 * More info about emotes issues [here](../../../faq/emotes-issues.md)
 
 ## Method for 1.17 to 1.21.3 clients (old)
+
+{% code title="config.yml" %}
+```yaml
+emotes:
+  legacy_shaders: true
+  1_21_5_to_1_21_9_shaders: true
+```
+{% endcode %}
 
 ### Main features
 
