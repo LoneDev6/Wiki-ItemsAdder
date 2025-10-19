@@ -100,7 +100,7 @@ items:
       model_path: "item/cosmetic_mob_soul"
 ```
 
-Use the command `/iazip` (if you're using external-host please follow the [tutorial](../resourcepack-hosting/)carefully).
+Use the command `/iazip` (if you're using external-host please follow the [tutorial](../resourcepack-hosting/) carefully).
 
 {% hint style="warning" %}
 Do not open the animated model (exported from the website) with BlockBench or any other editing program or it will probably break and stop working.
