@@ -60,6 +60,6 @@ Advanced animation features
 
 ![](<../../../.gitbook/assets/image (131).png>)
 
-Download the [official extension](https://github.com/LoneDev6/itemsadder-entity/releases/tag/1.2.6).
+Download the [official extension](https://github.com/LoneDev6/itemsadder-entity/releases).
 
 <figure><img src="../../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
