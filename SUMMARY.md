@@ -174,6 +174,7 @@
     * [Manual Editing Blockstates](plugin-usage/adding-content/advanced-block-properties/manual-editing-blockstates.md)
     * [Variants](plugin-usage/adding-content/advanced-block-properties/variants.md)
     * [Turn Block ON-OFF](plugin-usage/adding-content/advanced-block-properties/turn-block-on-off.md)
+    * [TNT](plugin-usage/adding-content/advanced-block-properties/tnt.md)
   * [Bow](plugin-usage/adding-content/bow.md)
   * [Crossbow](plugin-usage/adding-content/crossbow.md)
   * [Fishing rod, shield, bundle](plugin-usage/adding-content/fishing-rod-shield-bundle.md)
