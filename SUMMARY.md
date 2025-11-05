@@ -215,7 +215,7 @@
   * [Sounds](plugin-usage/adding-content/adding-sounds.md)
   * [Jukebox Disc](plugin-usage/adding-content/jukebox-disc.md)
   * [Music Disc (old)](plugin-usage/adding-content/music-disc.md)
-  * [Crops](plugin-usage/adding-content/other-items-examples/custom-seeds.md)
+  * [Crops](plugin-usage/adding-content/crops.md)
   * [HUDs](plugin-usage/adding-content/huds/README.md)
     * [Creating HUDs](plugin-usage/adding-content/huds/creating-huds/README.md)
       * [Frames HUD](plugin-usage/adding-content/huds/creating-huds/frames-hud.md)
