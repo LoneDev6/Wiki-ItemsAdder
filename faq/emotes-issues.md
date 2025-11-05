@@ -9,7 +9,7 @@ Make sure you accepted the resourcepack and that you enabled emotes in `config.y
 
 ## Case 1
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ```yaml
 emotes:
@@ -22,13 +22,13 @@ If you want to support 1.21.4 and greater clients, you must use `1_21_4_plus_mod
 
 ## Case 2
 
-<div><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If you're on a _1.21.3_ or older client, you can't use `1_21_4_plus_modern_method`. You must keep using `1_21_5_plus_emotes_shaders`.
 
 ## Case 3
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you are using `1_21_5_plus_emotes_shaders` or `legacy_shaders`, you might have a plugin or another pack that is overwriting the shaders (only _1.21.8_ and lower clients can have this issue).
 

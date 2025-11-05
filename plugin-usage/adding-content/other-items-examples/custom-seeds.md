@@ -4,17 +4,15 @@ icon: seedling
 
 # Crops
 
-## Advanced method
+## Crops
 
 {% hint style="warning" %}
 This feature requires ItemsAdder 4.0.15+ and Minecraft 1.21.4+ (both client and server).
 {% endhint %}
 
-{% stepper %}
-{% step %}
 ### Seed
 
-Create a new yml file for your crop.
+Create a new `yml` file for your crop.
 
 This is a simple seed item.
 
@@ -29,9 +27,7 @@ items:
 ```
 
 Put the texture into `ItemsAdder/contents/my_crops/textures/item/red_crop_seed.png`.
-{% endstep %}
 
-{% step %}
 ### Model
 
 ItemsAdder can auto generate the models for you. In this example I want to create a model based on the vanilla crop model, but with custom texture.
@@ -44,28 +40,40 @@ crops:
       textures_prefix: block/red_crop_stage_
       model_texture_key: crop
     max_age: 7
+    seed: red_crop_seed
 ```
 
-```yaml
-crops:
-  red_crop:
-    models_by_textures:
-      parent: minecraft:block/crop
-      textures_prefix: block/red_crop_stage_
-      model_texture_key: crop
-    max_age: 7
-```
+Set `seed` to the seed item id (`red_crop_seed`).
 
 Set `parent` to `minecraft:block/crop` in order to use it as base model.
 
 Set `textures_prefix` to `block/red_crop_stage_` to find any texture that starts by that text, so it automatically gets them based on the `max_age` (`7`).
 
+`model_texture_key` is used to replace the texture key inside the json model, in this example `crop`.
+
+<details>
+
+<summary>More info about <code>model_texture_key</code></summary>
+
+Here you can see a preview of the original parent model, with the `#crop` text that will be replaced by the `model_texture_key`.
+
+{% code title="minecraft:block/crop" %}
+```json
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#crop"
+    },
+    .....
+```
+{% endcode %}
+
+</details>
+
 Put all the textures inside `ItemsAdder/contents/my_crops/textures/block/`.
 
-<figure><img src="../../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
+<figure><img src="../../../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
 
-{% step %}
 ### Hitbox
 
 You can automatically increase the hitbox based on the crop age by using the property `hitbox_auto_height_step`.
@@ -110,9 +118,7 @@ All options are optional, you can override a single one or all.
       width: 0.8
       length: 0.2
 ```
-{% endstep %}
 
-{% step %}
 ### Growing settings
 
 #### `avg_seconds_per_stage`&#x20;
@@ -126,9 +132,13 @@ Lower values make crops grow faster, higher values make them grow slower.
 
 Minimum light level above the crop for growth to occur.
 
-#### `place_sound` and `break_sound`
+#### Sounds
 
 Sounds settings.
+
+* `place_sound`
+* `break_sound`
+* `interact_sound`
 
 #### `multipliers`
 
@@ -160,9 +170,7 @@ crops:
       thunderstorm: -0.5
       snow: -0.7
 ```
-{% endstep %}
 
-{% step %}
 ### Loots
 
 #### `drop_seed_if_immature`
@@ -212,7 +220,7 @@ crops:
          - BREAK
 ```
 
-#### decrease\_age
+#### `decrease_age`
 
 This is used to make the crop lose age instead of being broken.
 
@@ -223,8 +231,6 @@ Age when the loot will be satisfied.
 #### `age_range`
 
 Alternative to `age` which allows for further customization of the age range when the loot should be dropped.
-
-#### `biomes`
 
 ```yaml
 crops:
@@ -283,6 +289,8 @@ Each command has a set of properties:
 
 #### `exp_drop`
 
+Drops some experience.
+
 <pre class="language-yaml"><code class="lang-yaml"><strong>        exp_drop:
 </strong>          min_amount: 1
           max_amount: 1
@@ -291,11 +299,9 @@ Each command has a set of properties:
 
 #### `exp_drops`
 
-Alternative to exp\_drop that allows more than `1` entry to be set.
+Alternative to `exp_drop` that allows more than `1` entry to be set.
 
 **Example**
-
-item\_drop
 
 <pre class="language-yaml"><code class="lang-yaml"><strong>        exp_drops:
 </strong>          exp1:
@@ -306,7 +312,7 @@ item\_drop
 
 #### `item_drop`
 
-Drop an item.
+Drops an item.
 
 ```yaml
         item_drop:
@@ -331,11 +337,21 @@ Alternative to `item_drop` to drop more than `1` item.
             ignore_fortune: false
 ```
 
+### Done!
 
-{% endstep %}
-{% endstepper %}
+Your custom crop is ready.
 
-## More information
+Just generate your resourcepack using `/iazip`.
+
+<div><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+
+## More Properties
+
+#### `bottom_block`
+
+Allow only this particular block to be a valid placement base for the crop. Usually set to `farmland`.
+
+
 
 {% hint style="warning" %}
 UNDER CONSTRUCTION!
@@ -343,11 +359,39 @@ UNDER CONSTRUCTION!
 
 ### `models_by_items`
 
-### Billboard
+### Performance optimization
 
-{% hint style="warning" %}
-UNDER CONSTRUCTION!
-{% endhint %}
+The plugin uses a method to optimize the crops rendering, called `billboard`.\
+A billboard is basically a simpler model used to show crops that are far away.
+
+By default the plugin already creates billboard for your models, but if you want to use different models you can do that with some properties.
+
+#### Auto generate billboard based on custom parent and custom textures
+
+```yaml
+crops:
+  red_crop:
+    models_by_textures:
+      # Let it auto generate the models
+      parent: minecraft:block/crop
+      textures_prefix: block/red_crop_stage_
+      model_texture_key: crop
+      billboard_parent: minecraft:block/crop_billboard
+      billboard_textures_prefix: block/red_crop_stage_
+```
+
+#### Auto genereate billboard based on custom models
+
+```yaml
+crops:
+  red_crop:
+    models_by_textures:
+      # Let it auto generate the models
+      parent: minecraft:block/crop
+      textures_prefix: block/red_crop_stage_
+      model_texture_key: crop
+      billboard_textures_prefix: block/red_crop_stage_
+```
 
 ## Simple method
 

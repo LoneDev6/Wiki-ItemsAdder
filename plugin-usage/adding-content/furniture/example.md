@@ -154,7 +154,7 @@ Then you have to shift your model down until it matches the armorstand base:
 Select _Frame_ and _Invisible Top_.\
 Adjust the model Z _Translation_ (the blue arrow) until it matches the bottom of the white block perfectly.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Using `item_frame`
 
