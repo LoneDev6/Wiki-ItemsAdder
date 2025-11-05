@@ -99,10 +99,10 @@ plugins
             │   ├── example.yml
             │   └── example_1.yml
             ├── models
-            │   └── items
+            │   └── item
             │       └── example_item.json
             └── textures
-                └── items
+                └── item
                     └── example_texture.png
 ```
 
@@ -128,10 +128,10 @@ plugins
                 └── assets
                     └── myitems
                         ├── models
-                        │   └── items
+                        │   └── item
                         │       └── example_item.json
                         └── textures
-                            └── items
+                            └── item
                                 └── example_texture.png
 ```
 
@@ -150,10 +150,10 @@ plugins
             └── resourcepack
                 └── myitems
                     ├── models
-                    │   └── items
+                    │   └── item
                     │       └── example_item.json
                     └── textures
-                        └── items
+                        └── item
                             └── example_texture.png
 ```
 
@@ -172,10 +172,10 @@ plugins
             └── assets
                 └── myitems
                     ├── models
-                    │   └── items
+                    │   └── item
                     │       └── example_item.json
                     └── textures
-                        └── items
+                        └── item
                             └── example_texture.png
 ```
 
@@ -193,9 +193,9 @@ plugins
             │   └── example_1.yml
             └── myitems
                 ├── models
-                │   └── items
+                │   └── item
                 │       └── example_item.json
                 └── textures
-                    └── items
+                    └── item
                         └── example_texture.png
 ```
