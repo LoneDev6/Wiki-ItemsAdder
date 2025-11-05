@@ -22,7 +22,7 @@ If you want to support 1.21.4 and greater clients, you must use `1_21_4_plus_mod
 
 ## Case 2
 
-<div><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If you're on a _1.21.3_ or older client, you can't use `1_21_4_plus_modern_method`. You must keep using `1_21_5_plus_emotes_shaders`.
 

@@ -10,6 +10,10 @@ icon: seedling
 This feature requires ItemsAdder 4.0.15+ and Minecraft 1.21.4+ (both client and server).
 {% endhint %}
 
+{% hint style="warning" %}
+### This page is under construction...
+{% endhint %}
+
 ### Seed
 
 Create a new `yml` file for your crop.
@@ -337,34 +341,27 @@ Alternative to `item_drop` to drop more than `1` item.
             ignore_fortune: false
 ```
 
+### `bottom_block`
+
+Allow only this particular block to be a valid placement base for the crop. Usually set to `farmland`.
+
 ### Done!
 
 Your custom crop is ready.
 
 Just generate your resourcepack using `/iazip`.
 
-<div><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
-
-## More Properties
-
-#### `bottom_block`
-
-Allow only this particular block to be a valid placement base for the crop. Usually set to `farmland`.
-
-
-
-{% hint style="warning" %}
-UNDER CONSTRUCTION!
-{% endhint %}
-
-### `models_by_items`
+<div><figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Performance optimization
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 The plugin uses a method to optimize the crops rendering, called `billboard`.\
 A billboard is basically a simpler model used to show crops that are far away.
 
-By default the plugin already creates billboard for your models, but if you want to use different models you can do that with some properties.
+By default the plugin already creates billboard for your models, but if you want to use different models you can do that with some properties.\
+By default the billboard model is just a flat surface, which is the same logic used by many videogames.
 
 #### Auto generate billboard based on custom parent and custom textures
 
@@ -391,6 +388,133 @@ crops:
       textures_prefix: block/red_crop_stage_
       model_texture_key: crop
       billboard_textures_prefix: block/red_crop_stage_
+```
+
+### Custom crops models
+
+{% hint style="warning" %}
+DO NOT USE TOO DETAILED MODELS FOR YOUR CROPS, OR YOU WILL GET PERFORMACE ISSUES!
+
+2-4 cubes is more than enough for custom plants.
+{% endhint %}
+
+You can use some custom models for your crops.
+
+Instead of using `models_by_textures` you have to use `models_by_items`.
+
+You have to create a single model for each one of your crops stages + billboards.
+
+<details>
+
+<summary>Items creation</summary>
+
+You have to create a single model for each one of your crops stages + billboards.
+
+```yaml
+info:
+  namespace: my_crops
+items:
+  blue_crop_stage_template:
+    template: true
+    graphics:
+      parent: minecraft:block/crop
+  blue_crop_stage_0:
+    variant_of: blue_crop_stage_template
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_0
+  blue_crop_stage_1:
+    variant_of: blue_crop_stage_template
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_1
+  blue_crop_stage_2:
+    variant_of: blue_crop_stage_template
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_2
+  blue_crop_stage_3:
+    variant_of: blue_crop_stage_template
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_3
+  blue_crop_stage_4:
+    variant_of: blue_crop_stage_template
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_4
+  blue_crop_stage_5:
+    variant_of: blue_crop_stage_template
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_5
+  blue_crop_stage_6:
+    variant_of: blue_crop_stage_template
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_6
+  blue_crop_stage_7:
+    variant_of: blue_crop_stage_template
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_7
+
+  # Billboard model is used when far from crops, to get higher FPS
+  blue_crop_stage_template_billboard:
+    template: true
+    graphics:
+      parent: minecraft:block/crop_billboard
+  blue_crop_stage_0_billboard:
+    variant_of: blue_crop_stage_template_billboard
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_0
+  blue_crop_stage_1_billboard:
+    variant_of: blue_crop_stage_template_billboard
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_1
+  blue_crop_stage_2_billboard:
+    variant_of: blue_crop_stage_template_billboard
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_2
+  blue_crop_stage_3_billboard:
+    variant_of: blue_crop_stage_template_billboard
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_3
+  blue_crop_stage_4_billboard:
+    variant_of: blue_crop_stage_template_billboard
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_4
+  blue_crop_stage_5_billboard:
+    variant_of: blue_crop_stage_template_billboard
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_5
+  blue_crop_stage_6_billboard:
+    variant_of: blue_crop_stage_template_billboard
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_6
+  blue_crop_stage_7_billboard:
+    variant_of: blue_crop_stage_template_billboard
+    graphics:
+      textures:
+        crop: block/blue_crop_stage_7
+```
+
+</details>
+
+`blue_crop_stage_`: is the prefix that will be used to find the items used for the stages and for the billboard.
+
+```yaml
+crops:
+  blue_crop:
+    models_by_items:
+      items_id_prefix: blue_crop_stage_
 ```
 
 ## Simple method
