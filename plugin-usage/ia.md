@@ -1,6 +1,6 @@
 ---
-icon: square-list
 description: /ia command menu
+icon: square-list
 ---
 
 # Recipes Menu
@@ -108,3 +108,64 @@ Use [this website](https://regex101.com/) to test your regex.
       - "iasurvival\:(.*)_leggings"
       - "iasurvival\:(.*)_boots"
 ```
+
+## Reorder categories
+
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.15+
+{% endhint %}
+
+In `ItemsAdder/ia_gui.yml` you can set a custom order for the categories of your plugin.\
+This is a global setting that applies to all the namespaces.
+
+### Automatic alphabetical order
+
+Set `alphabetical: true`.
+
+{% code title="ItemsAdder/ia_gui.yml" %}
+```yaml
+order:
+  alphabetical: true
+  force_override:
+    enabled: false
+```
+{% endcode %}
+
+### Force custom ordering
+
+Set `alphabetical: false` and customize `force_override`.
+
+Categories that are not in the list will be appended to the end of the listed categories, in alphabetical order (if `alphabetical: true`).
+
+{% code title="ItemsAdder/ia_gui.yml" %}
+```yaml
+order:
+  alphabetical: true
+  force_override:
+    enabled: true
+    list:
+      - armors
+      - swords
+      - blocks
+      - minerals
+```
+{% endcode %}
+
+### Customize `all` category position
+
+You can make the `all` category the first category by just adding it to the list
+
+{% code title="ItemsAdder/ia_gui.yml" %}
+```yaml
+order:
+  alphabetical: true
+  force_override:
+    enabled: true
+    list:
+      - all
+      - armors
+      - swords
+      - blocks
+      - minerals
+```
+{% endcode %}
