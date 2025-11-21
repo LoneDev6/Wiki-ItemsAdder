@@ -74,6 +74,10 @@ In this example you can see how to attach a trading GUI to your furniture. This 
 
 ## Make furniture consumable
 
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.16+
+{% endhint %}
+
 ```yaml
 items:
   strawberry_pie_template:
