@@ -6,7 +6,7 @@ icon: terminal
 
 ## Execute commands on interact
 
-You can do it by using the `placed_armorstand` -> `interact` event.
+You can do it by using the `placed_furniture` -> `interact` event.
 
 ```yaml
 items:
@@ -24,7 +24,7 @@ items:
         light_level: 13
         solid: true
     events:
-      placed_armorstand:
+      placed_furniture:
         interact:
           execute_commands:
             the_first_command:
@@ -32,9 +32,9 @@ items:
               as_console: false
 ```
 
-In this case you can see a furniture which will make the player execute the command `/help` when they interact the furniture.
+In this example you can see a furniture which will make the player execute the command `/help` when they interact with the furniture.
 
-You can add more [actions](../item-properties/actions/actions.md) to the [placed\_armorstand](../item-properties/events/) interaction event, not only `execute_commands`.
+You can add more [actions](../item-properties/actions/actions.md) to the [placed\_furniture](../item-properties/events/) interaction event, not only `execute_commands`.
 
 ## Open a trading menu on interact
 
@@ -71,3 +71,71 @@ You can add more [actions](../item-properties/actions/actions.md) to the [placed
 ```
 
 In this example you can see how to attach a trading GUI to your furniture. This is useful to create custom machinery.
+
+## Make furniture consumable
+
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.16+
+{% endhint %}
+
+```yaml
+items:
+  strawberry_pie_template:
+    template: true
+    name: Strawberry Pie
+    graphics:
+      model: block/strawberry_pie
+      icon: item/strawberry_pie
+    behaviours:
+      furniture:
+        enabled: true
+        entity: item_display
+        fixed_rotation: true
+        display_transformation:
+          transform: HEAD
+          translation:
+            y: 0.5
+  strawberry_pie:
+    variant_of: strawberry_pie_template
+    behaviours:
+      furniture_consumable:
+        hunger: 3
+        saturation: 0.6
+        furniture_list:
+        - strawberry_pie_slice1
+        - strawberry_pie_slice2
+        - strawberry_pie_slice3
+        - strawberry_pie_slice4
+        - strawberry_pie_slice5
+        - strawberry_pie_slice6
+  strawberry_pie_slice1:
+    variant_of: strawberry_pie_template
+    graphics:
+      model: block/strawberry_pie_slice1
+  strawberry_pie_slice2:
+    variant_of: strawberry_pie_template
+    graphics:
+      model: block/strawberry_pie_slice2
+  strawberry_pie_slice3:
+    variant_of: strawberry_pie_template
+    graphics:
+      model: block/strawberry_pie_slice3
+  strawberry_pie_slice4:
+    variant_of: strawberry_pie_template
+    graphics:
+      model: block/strawberry_pie_slice4
+  strawberry_pie_slice5:
+    variant_of: strawberry_pie_template
+    graphics:
+      model: block/strawberry_pie_slice5
+  strawberry_pie_slice6:
+    variant_of: strawberry_pie_template
+    graphics:
+      model: block/strawberry_pie_slice6
+```
+
+In this example you can see how to make furniture go through a list of models, and fill the players hunger bar.
+
+With this behaviour you can immitate things such as the vanilla cake.
+
+When it has gone through the whole list, the furniture will disappear, so it's fully consumed.

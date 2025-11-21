@@ -414,3 +414,26 @@ Places a furniture. Useful on interact events to place a custom furniture.
 * `delay` (integer): Delay in ticks before starting this action
 * `flow` (object): Advanced options to change the flow of actions for this event section.
 * `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+
+### `remove_furniture`
+
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.16+
+{% endhint %}
+
+Removes a furniture. Useful on interact events to remove a custom furniture.
+
+### `replace_furniture`
+
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.16+
+{% endhint %}
+
+Replaces a furniture. Useful on interact events to change out furniture for a different furniture.
+
+#### Properties
+
+* `furniture` (string): unknown
+* `delay` (integer): Delay in ticks before starting this action
+* `flow` (object): Advanced options to change the flow of actions for this event section.
+* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
