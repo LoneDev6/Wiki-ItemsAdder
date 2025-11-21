@@ -417,9 +417,17 @@ Places a furniture. Useful on interact events to place a custom furniture.
 
 ### `remove_furniture`
 
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.16+
+{% endhint %}
+
 Removes a furniture. Useful on interact events to remove a custom furniture.
 
 ### `replace_furniture`
+
+{% hint style="warning" %}
+Requires ItemsAdder 4.0.16+
+{% endhint %}
 
 Replaces a furniture. Useful on interact events to change out furniture for a different furniture.
 
