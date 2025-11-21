@@ -80,9 +80,20 @@ Requires ItemsAdder 4.0.16+
 
 ```yaml
 items:
+  strawberry_pie:
+    name: Strawberry Pie
+    graphics:
+      texture: block/strawberry_pie
+    events:
+      interact:
+        right:
+          place_furniture:
+            furniture: strawberry_pie_full
+            decrement_amount: true
   strawberry_pie_template:
     template: true
     name: Strawberry Pie
+    show_in_ia_gui: false
     graphics:
       model: block/strawberry_pie
       icon: item/strawberry_pie
@@ -91,11 +102,21 @@ items:
         enabled: true
         entity: item_display
         fixed_rotation: true
+        drop_when_mined: false
+        sound:
+          break:
+            name: block.wool.break
+            pitch: 0.8
+            volume: 0.6
+          place:
+            name: block.wool.place
+            pitch: 0.8
+            volume: 0.6
         display_transformation:
           transform: HEAD
           translation:
             y: 0.5
-  strawberry_pie:
+  strawberry_pie_full:
     variant_of: strawberry_pie_template
     behaviours:
       furniture_consumable:
@@ -139,3 +160,7 @@ In this example you can see how to make furniture go through a list of models, a
 With this behaviour you can immitate things such as the vanilla cake.
 
 When it has gone through the whole list, the furniture will disappear, so it's fully consumed.
+
+`strawberry_pie` is used to show the 2D icon both in hand and in the inventory.
+
+If you want to show the 3D model in hand and the 2D icon in the inventory, you can just use `strawberry_pie_full` to place your furniture.
