@@ -10,7 +10,7 @@ icon: faucet-drip
 
 ## How to download Purpur
 
-{% embed url="http://purpur.pl3x.net" %}
+{% embed url="https://purpurmc.org/download/purpur" %}
 
 ## How to download Spigot
 
