@@ -26,7 +26,7 @@ behaviours:
 {% endtab %}
 
 {% tab title="Small furniture" %}
-```
+```yaml
 behaviours:
   furniture:
     small_hitbox: true
