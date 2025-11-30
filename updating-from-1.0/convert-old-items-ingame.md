@@ -17,7 +17,7 @@ In order to enable this you have to set this property to true in `converter.yml 
 
 #### Be sure to set inventory-open: true
 
-```
+```yaml
 items-auto-update:
   debug: false
   inventory-open: true
@@ -29,7 +29,7 @@ You have to open `converter.yml `and map your own old blocks **model_id **with t
 
 #### Be sure to set enabled: true
 
-```
+```yaml
 blocks:
   enabled: true
   debug: false

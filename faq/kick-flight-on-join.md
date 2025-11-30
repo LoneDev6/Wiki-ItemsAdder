@@ -26,7 +26,7 @@ Disable the `hide-hud` feature in the `config.yml` file of **ItemsAdder**.
 Enable this option in `server.properties` file:
 
 {% code title="server.properties" %}
-```
+```properties
 allow-flight=true
 ```
 {% endcode %}
