@@ -110,7 +110,7 @@ This type of furniture entity is useful when you want to make the furniture rota
 
 For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.
 
-![](<../../../.gitbook/assets/image (121).png>)
+![](<../../../.gitbook/assets/image (1).png>)
 
 ```yaml
 behaviours:
@@ -197,7 +197,7 @@ You can also use negative values if needed.
 You can use the command `/iahitbox` to see the hitbox when you place a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}
 
-![](<../../../.gitbook/assets/immagine (63) (2) (3) (2) (1) (8).png>)
+![](<../../../.gitbook/assets/immagine (63) (2) (3) (2) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/immagine (17).png>)
 

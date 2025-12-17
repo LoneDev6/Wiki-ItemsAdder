@@ -32,8 +32,8 @@ Make sure that you don't have the permission `ia.user.hud.bypass.api.*` or `setF
 
 ## FAQ
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/pages/-M6_byfVMLpPVrMLKgY5" %}
+[Broken link](/broken/pages/-M6_byfVMLpPVrMLKgY5)
 {% endcontent-ref %}
 
 ## Get Emoji or GUI character

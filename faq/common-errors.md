@@ -14,6 +14,6 @@ In order to avoid these issues you should avoid opening many custom projects in 
 
 ![](<../.gitbook/assets/image (104).png>)
 
-In order to fix this you have to open the **ItemsAdder Entity** settings and set [Max Scaling](broken-reference).
+In order to fix this you have to open the **ItemsAdder Entity** settings and set [Max Scaling](/broken/pages/eI0FcLKJ0p1NneVSVeDP#configuring-the-model).
 
 ![](<../.gitbook/assets/image (83).png>)

@@ -33,7 +33,7 @@ Source: [https://www.spigotmc.org/threads/how-to-create-custom-biomes.512105/pag
 
 </details>
 
-![](<../.gitbook/assets/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (2).png>)
+![](<../.gitbook/assets/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (1).png>)
 
 ### I cannot see liquid color at all, even by placing it in a different location
 

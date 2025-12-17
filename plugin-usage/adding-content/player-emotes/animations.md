@@ -32,7 +32,7 @@ You can find a lot of tutorials on YouTube.
 When you are finished, save your `.iaentitymodel` project file into this folder (change `my_emotes` to your namespace, this one is an example):\
 `ItemsAdder/contents/my_emotes/`
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then continue following the tutorial to know how to export the emotes into ItemsAdder.
 

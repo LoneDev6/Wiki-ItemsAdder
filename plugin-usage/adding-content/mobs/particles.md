@@ -43,8 +43,7 @@ Edit the values on the "**Keyframe**" panel.
 * Bone (locator): is the name of the bone created in the first part of this tutorial. It will be the location of the particle.
 * Speed: speed of the particle emission.
 * Count: amount of emitted particles.
-* XYZ delta: specifies the dimensions (in number of blocks) for each dimension of the particle effect, with **x y z** in the center. Each coordinate specifies the number of blocks from the center that the particles will appear. You can set decimal numbers.\
-
+* XYZ delta: specifies the dimensions (in number of blocks) for each dimension of the particle effect, with **x y z** in the center. Each coordinate specifies the number of blocks from the center that the particles will appear. You can set decimal numbers.<br>
 
 ![](<../../../.gitbook/assets/image (74).png>)
 

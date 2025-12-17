@@ -37,5 +37,5 @@ Rename your animations to this.
 
 {% hint style="info" %}
 * This extension supports animated scale of bones. Make sure to avoid scaling when it's not needed. Check your keyframes.
-* Avoid adding too many rotation, details and movements, don't forget this is a blocky pixelated game, use [its style](broken-reference).
+* Avoid adding too many rotation, details and movements, don't forget this is a blocky pixelated game, use [its style](/broken/pages/-MkbQK27OupnQhySFrki).
 {% endhint %}

@@ -41,7 +41,7 @@ Run `/iazip` to regenerate the resourcepack.
 
 Use the bucket to place the custom water.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Features
 
