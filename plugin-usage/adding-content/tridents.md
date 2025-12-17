@@ -37,7 +37,7 @@ Create a json file in `contents/test/models/item/obsidian_trident.json`
 
 Here is the complete display:
 
-```
+```json
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 60, 0],
