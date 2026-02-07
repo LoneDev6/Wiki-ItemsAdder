@@ -4,7 +4,8 @@
 
 ### `block_trade_machine`
 
-Tells ItemsAdder that this item is a trade machine.\
+Tells ItemsAdder that this item is a trade machine.
+\
 You will be able to trade item with this machine like a villager
 
 #### Properties:
@@ -81,7 +82,8 @@ Spawn a specific vanilla entity or custom entity on interaction. Similar to the 
 
 ### `fuel`
 
-Tells ItemsAdder that this item is a custom fuel.\
+Tells ItemsAdder that this item is a custom fuel.
+\
 You will be able to place a this item in furnaces. PLEASE MAKE SURE TO USE ONLY MATERAILS THAT ARE ALREADY FUEL IN MINECRAFT! For example COAL, COAL\_BLOCK, LAVA\_BUCKET...
 
 #### Properties:
@@ -93,7 +95,8 @@ You will be able to place a this item in furnaces. PLEASE MAKE SURE TO USE ONLY 
 
 ### `furniture`
 
-Tells ItemsAdder that this item is a furniture.\
+Tells ItemsAdder that this item is a furniture.
+\
 You will be able to place it on rightclick and remove it attacking the placed entity.
 
 Limitations of furnitures:
@@ -142,7 +145,8 @@ Limitations of furnitures:
 
 ### `furniture_sit`
 
-Tells ItemsAdder that this item is a chair.\
+Tells ItemsAdder that this item is a chair.
+\
 You will be able to sit on it rightclicking the furniture hitbox.
 
 #### Properties:
@@ -156,7 +160,8 @@ You will be able to sit on it rightclicking the furniture hitbox.
 
 ### `furniture_trade_machine`
 
-Tells ItemsAdder that this item is a trade machine.\
+Tells ItemsAdder that this item is a trade machine.
+\
 You will be able to trade item with this machine like a villager
 
 #### Properties:
@@ -201,7 +206,8 @@ You will be able to trade item with this machine like a villager
 
 ### `gun`
 
-Tells ItemsAdder that this item is a gun.\
+Tells ItemsAdder that this item is a gun.
+\
 You will be able to shot and reload it.
 
 #### Properties:
@@ -211,7 +217,8 @@ You will be able to shot and reload it.
 
 ### `liquid_bucket`
 
-Tells ItemsAdder that this item is a liquid bucket.\
+Tells ItemsAdder that this item is a liquid bucket.
+\
 You will be able to place a custom liquid and get it back.
 
 #### Properties:
@@ -221,8 +228,10 @@ You will be able to place a custom liquid and get it back.
 
 ### `music_disc`
 
-(**Deprecated**) Tells ItemsAdder that this item is a music disc.\
-You will be able to put it inside a jukebox and make it play a song.**NOTE**: This should be considered old and you should use the new `jukebox_disc` property instead.
+(**Deprecated**) Tells ItemsAdder that this item is a music disc.
+\
+You will be able to put it inside a jukebox and make it play a song.
+**NOTE**: This should be considered old and you should use the new `jukebox_disc` property instead.
 
 #### Properties:
 
@@ -233,7 +242,8 @@ You will be able to put it inside a jukebox and make it play a song.**NOTE**: T
 
 ### `vehicle`
 
-Tells ItemsAdder that this item is a vehicle.\
+Tells ItemsAdder that this item is a vehicle.
+\
 You will be able to sit on it and move around / in air. You can also set fuel settings.
 
 #### Properties:
