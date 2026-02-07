@@ -63,7 +63,7 @@ This allows you to open **`/ia`** menu and see all swords organized in the same 
 
 Matches any item which has `example` namespace.
 
-```yml
+```yaml
 categories:
   test:
     enabled: true
@@ -77,7 +77,7 @@ categories:
 
 Matches any namespace which has `some_item` item.
 
-```yml
+```yaml
 categories:
   test:
     enabled: true
@@ -95,7 +95,7 @@ Matches any armor item of the `iasurvival` namespace.
 Use [this website](https://regex101.com/) to test your regex.
 {% endhint %}
 
-```yml
+```yaml
   armors:
     enabled: true
     skip_if_already: false

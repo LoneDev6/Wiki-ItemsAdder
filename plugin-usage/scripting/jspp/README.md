@@ -67,7 +67,7 @@ Use the `delay(ticks, () -> { ... })` function to delay execution.
 
 * **1 second = 20 ticks**
 
-```js
+```java
 delay(40, () => {
   msg($player, "This message appears after a 2 seconds delay.");
 });

@@ -147,7 +147,7 @@ This is an old way, don't use it.
 
 `nbt: "{display:{Name:'{"text":"TEST", "font": "alt", "italic":false}'}}"`
 
-```yml
+```yaml
 items:
   custom_nbt_item_custom_name_legacy_nbt:
     enabled: true

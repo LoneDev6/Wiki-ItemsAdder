@@ -115,7 +115,7 @@ Select "Custom filer expression" and complete as shown in the screenshot changin
 * try to access the
 
 {% code title="config.yml" %}
-```yml
+```yaml
 self-host:
   enabled: true
   server-ip: 'https://pack.devs.beer'

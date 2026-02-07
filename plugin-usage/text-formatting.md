@@ -18,7 +18,7 @@ You can change color of text and specify a custom hex color using the special no
 
 {% embed url="https://docs.advntr.dev/minimessage/format.html" %}
 
-```yml
+```yaml
 info:
   namespace: git_2224
   dictionary-lang: en
@@ -73,7 +73,7 @@ items:
 
 `display_name: '&6TEST'`
 
-```yml
+```yaml
 items:
   custom_nbt_item_display_name_classic:
     enabled: true

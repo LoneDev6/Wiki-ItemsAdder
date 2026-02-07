@@ -26,7 +26,7 @@ So the already crafted swords will still keep the old attack damage.
 
 #### Example
 
-```yml
+```yaml
   test_item2:
     name: Test Item 2
     resource:
@@ -48,7 +48,7 @@ So the already crafted swords will still keep the old attack damage.
 
 It can also be globally disabled in `config.yml` for every item in your configurations.
 
-```yml
+```yaml
 items:
 # ....
   auto_update:
@@ -59,7 +59,7 @@ items:
 
 ### `enchantment_mode`
 
-```yml
+```yaml
     auto_update:
       enchantment_mode: MERGE # MERGE or REPLACE (MERGE by default)
 ```

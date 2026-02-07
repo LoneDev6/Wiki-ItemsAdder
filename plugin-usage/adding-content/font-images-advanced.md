@@ -138,7 +138,7 @@ Custom shadow color
 
 <figure><img src="../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
-```yml
+```yaml
   smile:
     permission: twitteremojis.smile
     show_in_gui: true
@@ -156,7 +156,7 @@ Remove shadow completely
 
 <figure><img src="../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
 
-```yml
+```yaml
   smile:
     permission: twitteremojis.smile
     show_in_gui: true

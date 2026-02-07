@@ -14,7 +14,8 @@ icon: arrow-rotate-left
 Creating directional blocks will occupy 4 or 6 slots per block.\
 This happens because each direction is a different block.
 
-There is no way to bypass that. It's a limitation of the game and any other content creation plugin would have this limitation.\
+There is no way to bypass that. It's a limitation of the game and any other content creation plugin would have this limitation.
+\
 You should not abuse directional blocks because they quickly will saturate your custom blocks usages.
 {% endhint %}
 
@@ -30,7 +31,7 @@ Act like a vanilla log and a dropper at the same time.
 
 ![](https://github.com/user-attachments/assets/db9c84da-c30c-40c4-a53d-7850ebd3ad8b)
 
-```yml
+```yaml
   directional_block_all:
     name: directional_block_all
     resource:
@@ -56,7 +57,7 @@ Act like vanilla furnace.
 
 ![](https://github.com/user-attachments/assets/c4c6c501-a1fa-4cd1-a2de-67c3ad5d626a)
 
-```yml
+```yaml
   directional_block_furnace:
     name: directional_block_furnace
     resource:
@@ -82,7 +83,7 @@ Act like vanilla logs.
 
 ![](https://github.com/user-attachments/assets/db9c84da-c30c-40c4-a53d-7850ebd3ad8b)
 
-```yml
+```yaml
   directional_block_log:
     name: directional_block_log
     resource:
@@ -108,10 +109,11 @@ Acts like the vanilla dropper.
 
 ![](https://github.com/user-attachments/assets/c097ac52-80ba-4daf-865b-7726ad3e8b87)
 
-In this particular case I decided to overwrite the automatically generated directional blocks `up` and `down` to customize the appearance of the block in this particular case, setting a different texture for the `north` face (front).\
+In this particular case I decided to overwrite the automatically generated directional blocks `up` and `down` to customize the appearance of the block in this particular case, setting a different texture for the `north` face (front).
+\
 In the screenshot you can see the face texture is different.
 
-```yml
+```yaml
   directional_block_dropper:
     name: directional_block_dropper
     resource:

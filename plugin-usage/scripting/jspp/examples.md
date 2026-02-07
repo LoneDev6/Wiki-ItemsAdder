@@ -6,7 +6,7 @@ icon: circle-info
 
 ## Example configuration
 
-```yml
+```yaml
 info:
   namespace: test
 items:
@@ -35,7 +35,7 @@ Use the `delay(ticks, () -> { ... })` function to delay execution.
 
 * **1 second = 20 ticks**
 
-```js
+```java
 delay(40, () => {
   msg($player, "This message appears after a 2 seconds delay.");
 });
@@ -147,7 +147,7 @@ setDataString(var param, String namespace, String key, String value)
 
 <summary>Example: Teleporter Script</summary>
 
-```javascript
+```java
 // Test: Save or use player coordinates and orientation in held item, with usage count
 let item = $itemStack;
 let ns = "myplugin";
@@ -246,7 +246,7 @@ Type1 item = (Type2) item2;
 
 ## Example: Replace near custom blocks
 
-```js
+```java
 cancelEvent(); // Cancel the event to prevent further processing
 
 var location = $player.getLocation();

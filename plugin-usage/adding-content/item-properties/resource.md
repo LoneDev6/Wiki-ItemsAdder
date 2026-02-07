@@ -160,7 +160,7 @@ If you're using a **non-vanilla** texture (your **.png** file) you have to open 
 If your model is using a custom texture you have to make sure to put your namespace in front of the texture name.\
 For example if you have this 3D model and the texture has this path: `contents/my_items/textures/item/custom_item_1.png`
 
-```javascript
+```json
  "textures":{
       "0":"item/custom_item_1"
    },
@@ -168,7 +168,7 @@ For example if you have this 3D model and the texture has this path: `contents/m
 
 you have to add the **namespace** in front of it (`myitems` in my example, you have to use your namespace).
 
-```javascript
+```json
  "textures":{
       "0":"myitems:item/custom_item_1"
    },
