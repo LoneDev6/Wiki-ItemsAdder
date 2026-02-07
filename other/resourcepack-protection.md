@@ -28,6 +28,7 @@ If you're using an [external host](../plugin-usage/resourcepack-hosting/) (like 
     protect-file-from-unzip:
       protection_1: true
       protection_2: true
+      protection_3: true
 ```
 {% endcode %}
 
@@ -38,6 +39,10 @@ Protect the resourcepack with a basic method.
 #### `protection_2`
 
 Protect the pack with another layer of protection to block some other methods to unzip the pack.
+
+#### `protection_3`
+
+Not known.
 
 ## Showcase
 

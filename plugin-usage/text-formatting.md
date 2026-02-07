@@ -12,22 +12,6 @@ Doesn't work in [Minecraft language files](broken-reference) due to a Minecraft 
 
 You can change color of text and specify a custom hex color using the special notation.
 
-### Basic
-
-`display_name: '&6TEST'`
-
-```yml
-items:
-  custom_nbt_item_display_name_classic:
-    enabled: true
-    display_name: '&6TEST'
-    resource:
-      generate: false
-      model_path: minecraft:item/emerald
-      material: PAPER
-
-```
-
 ### Minimessage
 
 {% embed url="https://webui.advntr.dev/" %}
@@ -39,22 +23,22 @@ info:
   namespace: git_2224
   dictionary-lang: en
 dictionary:
-  display-name-test_gradient_dictionary: <b><color:#57ff5c>test</color></b><gradient:#ff00ee:#f79459>Amogus</gradient>
+  display-name-test_gradient_dictionary: <#57ff5c><bold>test</bold><gradient:#ff00ee:#f79459>Amogus
 items:
   test_gradient_dictionary:
     display_name: display-name-test_gradient_dictionary
     lore:
-      - "&6yo0"
-      - "&2yo1"
+      - "<gold>yo0"
+      - "<dark_green>yo1"
     resource:
       generate: false
       model_path: minecraft:item/emerald
       material: PAPER
   test_font:
-    display_name: <gradient:#ff00ee:#f79459><font:alt>Alt font used for this item</font></gradient>
+    display_name: <gradient:#ff00ee:#f79459><font:alt>Alt font used for this item
     lore:
-      - "<gradient:#ff00ee:#f79459><font:alt>Alt font used for this item</font></gradient>"
-      - "<gradient:#ff00ee:#f79459><font:alt>Alt font used for this item</font></gradient>"
+      - "<gradient:#ff00ee:#f79459><font:alt>Alt font used for this item"
+      - "<gradient:#ff00ee:#f79459><font:alt>Alt font used for this item<"
     resource:
       generate: false
       model_path: minecraft:item/emerald
@@ -83,4 +67,20 @@ items:
       generate: false
       model_path: minecraft:item/emerald
       material: PAPER
+```
+
+### Legacy
+
+`display_name: '&6TEST'`
+
+```yml
+items:
+  custom_nbt_item_display_name_classic:
+    enabled: true
+    display_name: '&6TEST'
+    resource:
+      generate: false
+      model_path: minecraft:item/emerald
+      material: PAPER
+
 ```

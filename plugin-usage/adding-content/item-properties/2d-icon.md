@@ -5,6 +5,13 @@ icon: file-png
 # 2D Icon
 
 {% hint style="warning" %}
+This is made for clients with version lower than 1.21.4.
+
+ItemsAdder 4.0.13+ and Minecraft 1.21.4+ support a new way of making 2D icons.\
+[Read more here](../modern-items-creation.md#icon).
+{% endhint %}
+
+{% hint style="warning" %}
 This feature requires Minecraft 1.21.2 clients or greater (server version is not important).
 
 To support older clients refer to the other tutorials:

@@ -5,6 +5,13 @@ icon: file-image
 
 # Resource
 
+{% hint style="warning" %}
+This is made for clients with version lower than 1.21.4.
+
+ItemsAdder 4.0.13+ and Minecraft 1.21.4+ support a new way of making item graphics.\
+[Read more here](../modern-items-creation.md).
+{% endhint %}
+
 {% hint style="danger" %}
 Make sure you're not using UPPERCASE or special characters in items names, namespaces or texture files (`.png`) and model files (`.json`)
 {% endhint %}
@@ -74,7 +81,7 @@ For example if you had this:
   },
 ```
 
-You have to change it to this (`your_namespace` is your [namespace ](broken-reference/)folder):
+You have to change it to this (`your_namespace` is your [namespace](broken-reference/) folder):
 
 ```yaml
 {
