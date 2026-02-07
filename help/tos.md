@@ -22,7 +22,7 @@ Before Buying Remember:
 ### Refund policy
 
 Refunds are typically at the seller's discretion¹ and might be issued on particular cases.\
-Contact the seller using the forum or via email before opening an official dispute on the payment platform (PayPal, Stripe, etc.).
+Contact the seller using the discord or via email before opening an official dispute on the payment platform (PayPal, Stripe, etc.).
 
 ¹Except as required by applicable state law.
 
