@@ -44,8 +44,8 @@ huds:
   thirst_bar:
     enabled: true
     worlds:
-    - "world_*
-    - "adventure*
+    - "world_*"
+    - "adventure*"
 ```
 
 Notice the `*` at the end, this means "_**any**_". (keep in mind that this works only at the end of the name)

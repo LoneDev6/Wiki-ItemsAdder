@@ -16,8 +16,7 @@ To see how to use HUDs and GUIs API (Font Images) you can check my examples.
 
 ```java
 PlayerHudsHolderWrapper huds = new PlayerHudsHolderWrapper(player);
-PlayerQuantityHudWrapper manaHud = 
-                new PlayerQuantityHudWrapper(huds, "magiccraft:mana_bar");
+PlayerQuantityHudWrapper manaHud = new PlayerQuantityHudWrapper(huds, "magiccraft:mana_bar");
 if(manaHud.exists())
   manaHud.setFloatValue(2.0f);
 else
@@ -39,5 +38,5 @@ Make sure that you don't have the permission `ia.user.hud.bypass.api.*` or `setF
 ## Get Emoji or GUI character
 
 ```java
-new FontImageWrapper("twitteremojis:confirm").getString()
+new FontImageWrapper("twitteremojis:confirm").getString();
 ```
