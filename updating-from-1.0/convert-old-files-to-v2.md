@@ -119,8 +119,8 @@ To start the conversion:
 
 Please follow this fast tutorial to activate resourcepack:
 
-{% content-ref url="../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md" %}
-[resourcepack-self-hosting.md](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)
+{% content-ref url="../plugin-usage/resourcepack-hosting/self-hosting.md" %}
+[self-hosting.md](../plugin-usage/resourcepack-hosting/self-hosting.md)
 {% endcontent-ref %}
 
 

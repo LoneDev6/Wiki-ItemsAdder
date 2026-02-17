@@ -49,8 +49,8 @@ If you **reupload** the **zip** file with the same and keep the **same URL** it 
 
 Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting methods (cheap ones) don't provide port opening, so you must use **DropBox**.
 
-{% content-ref url="resourcepack-self-hosting.md" %}
-[resourcepack-self-hosting.md](resourcepack-self-hosting.md)
+{% content-ref url="self-hosting.md" %}
+[self-hosting.md](self-hosting.md)
 {% endcontent-ref %}
 
 ## Continue installation if you need

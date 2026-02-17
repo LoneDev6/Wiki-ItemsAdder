@@ -59,7 +59,7 @@ The error tells me that the JSON files are broken, they probably have bad charac
 ## Common issues <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
 * Be sure to follow all resourcepack hosting [tutorial ](../plugin-usage/resourcepack-hosting/)steps.
-* If you use [`self-host`](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md) make sure the **port** is opened. Ask your hosting about it.
+* If you use [`self-host`](../plugin-usage/resourcepack-hosting/self-hosting.md) make sure the **port** is opened. Ask your hosting about it.
 * Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (`png`) and **model** files (`json`).\
   For example an ID for a custom item: `CustomSword` is wrong, use `custom_sword`.
 * If you have **SkinsRestorer** please [read here](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
