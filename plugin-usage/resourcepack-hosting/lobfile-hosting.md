@@ -1,5 +1,9 @@
 # LobFile Hosting
 
+{% hint style="success" %}
+**Recommanded.**
+{% endhint %}
+
 {% hint style="warning" %}
 #### Warning
 

@@ -1,6 +1,6 @@
 # OneDrive
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 **Not recommended.**
 {% endhint %}
 

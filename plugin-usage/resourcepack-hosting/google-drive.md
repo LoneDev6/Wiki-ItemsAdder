@@ -1,5 +1,9 @@
 # Google Drive
 
+{% hint style="danger" %}
+**Not recommended.**
+{% endhint %}
+
 {% hint style="warning" %}
 This method has some problems on some PCs in Minecraft versions before 1.17 because of a Minecraft bug, read more here: [https://bugs.mojang.com/browse/MC-143768](https://bugs.mojang.com/browse/MC-143768)
 

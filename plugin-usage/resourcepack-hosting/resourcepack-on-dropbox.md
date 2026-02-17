@@ -1,5 +1,9 @@
 # DropBox
 
+{% hint style="danger" %}
+**Not recommended.**
+{% endhint %}
+
 ## Text tutorial
 
 * Open [DropBox](https://dropbox.com/), register/login.
