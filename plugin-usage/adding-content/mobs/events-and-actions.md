@@ -12,10 +12,6 @@ New actions and events will be implemented in the future. This is a new feature 
 
 ## Events
 
-### `interact`
-
-Actions executed when a player interacts with a custom entity.
-
 ### `attack`
 
 Actions executed when a custom entity attacks another entity.
@@ -32,14 +28,11 @@ Actions executed when a custom entity takes damage.
 
 Actions executed when a custom entity dies.
 
+### `interact`
+
+Actions executed when a player interacts with a custom entity.
+
 ## Actions
-
-### `summon_entity`
-
-Summon a custom entity.
-
-* `entity` the entity ID
-* `max_per_chunk` the max amount of entities of this type to be allowed to spawn in the current chunk
 
 ### `execute_command`
 
@@ -49,6 +42,13 @@ Execute a command.
 * `as_console` if the command must be executed as console (true by default)
 * `silent` if the command must send a message or not on execution
 * `flow_success_if_message_contains` The plugin can't automatically identify plugins commands success/fail status, so you have to specify a text that can help the plugin to identify the command status.
+
+### `summon_entity`
+
+Summon a custom entity.
+
+* `entity` the entity ID
+* `max_per_chunk` the max amount of entities of this type to be allowed to spawn in the current chunk
 
 ### Common action properties
 
