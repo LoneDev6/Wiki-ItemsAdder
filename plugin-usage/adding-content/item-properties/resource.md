@@ -8,7 +8,7 @@ icon: file-image
 {% hint style="warning" %}
 This is made for clients with version lower than 1.21.4.
 
-ItemsAdder 4.0.13+ and Minecraft 1.21.4+ support a new way of making item graphics.\
+ItemsAdder 4.0.13+ and Minecraft 1.21.4+ support a new and better way of making item graphics.\
 [Read more here](../modern-items-creation.md).
 {% endhint %}
 

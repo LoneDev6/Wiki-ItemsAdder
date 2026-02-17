@@ -214,8 +214,8 @@ You can create as many `pulling_` states as you want.
     graphics:
       icon: minecraft:item/diamond
       models:
-        normal: item/modern_bow
-        throwing: item/modern_bow_2
+        normal: item/modern_trident
+        throwing: item/modern_trident_2
 ```
 
 ### Shield from a model
