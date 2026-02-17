@@ -39,28 +39,6 @@ text_effects:
 ```
 {% endcode %}
 
-<details>
-
-<summary>(click to see old <code>config.yml</code> properties from 4.0.7 and lower)</summary>
-
-```yaml
-effects:
-  text-effects:
-    enabled: true # This option requires /iazip when changed.
-    customitem-name-and-lore:
-      enabled: true
-    chat:
-      enabled: true
-    sign:
-      enabled: true
-    book:
-      enabled: true
-    anvil:
-      enabled: true
-```
-
-</details>
-
 You also have to give the permissions to each player.
 
 * Use **text-effects** in **chat**
