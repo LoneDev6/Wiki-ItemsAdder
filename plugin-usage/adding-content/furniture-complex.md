@@ -73,7 +73,7 @@ Create your model.
 
 
 
-Switch to the animation panel.&#x20;
+Switch to the animation panel.
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 

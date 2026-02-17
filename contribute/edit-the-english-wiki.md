@@ -4,7 +4,7 @@
 
 ### Setting up your repository
 
-Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.&#x20;
+Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
 
 ![](<../.gitbook/assets/image (214).png>)
 

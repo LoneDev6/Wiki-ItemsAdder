@@ -91,7 +91,7 @@ font_images:
 ```
 
 Edit your small emoji by adding the `chat` `hover` property with the custom `override_text`.\
-The `override_text` is used to show the big emoji in the hover description text.&#x20;
+The `override_text` is used to show the big emoji in the hover description text.
 
 ```yaml
 info:

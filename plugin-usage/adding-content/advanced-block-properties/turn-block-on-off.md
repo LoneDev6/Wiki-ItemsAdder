@@ -61,7 +61,7 @@ This requires ItemsAdder 4.0.13 or greater.
 
 First create your block template. This is the base block that will be used to create the on and off blocks.
 
-In this example I use built-in Minecraft models to avoid creating new models just for this example.&#x20;
+In this example I use built-in Minecraft models to avoid creating new models just for this example.
 
 ```yaml
 info:

@@ -31,7 +31,7 @@ Advanced animation features
 
 ### Limitations
 
-* Hitbox of Citizens NPCs can't be changed for now, it's a Citizens limitation &#x20;
+* Hitbox of Citizens NPCs can't be changed for now, it's a Citizens limitation 
 
 <details>
 

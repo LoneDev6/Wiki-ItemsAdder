@@ -44,7 +44,7 @@ You can change colors using the command `/iacolor <color>`.
 
 You can create variants of the base item to make various variants of the same item but with different color.
 
-Mark the base item as `template: true` then reference it using `variant_of: xxx` in the other items.&#x20;
+Mark the base item as `template: true` then reference it using `variant_of: xxx` in the other items.
 
 #### Example
 

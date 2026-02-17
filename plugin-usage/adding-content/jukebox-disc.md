@@ -36,7 +36,7 @@ items:
 As you can see I added a special property called `jukebox_disc`.\
 This allows putting the item into the Jukebox.
 
-### **`name`**&#x20;
+### **`name`**
 
 The sound to be played, in this example `my_sounds:song_1`.
 

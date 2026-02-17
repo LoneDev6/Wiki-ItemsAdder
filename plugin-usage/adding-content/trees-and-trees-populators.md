@@ -8,7 +8,7 @@ icon: tree
 
 In order to create a custom tree you have to create two blocks for each tree: leaves and wood.
 
-### Follow this tutorial to create blocks&#x20;
+### Follow this tutorial to create blocks
 
 {% content-ref url="block.md" %}
 [block.md](block.md)

@@ -41,7 +41,7 @@ items:
 ```
 
 {% hint style="info" %}
-NOTE:&#x20;
+NOTE:
 
 Both the model `item/obsidian_trident` and the texture `item/obsidian_trident` have the same name, but they are a different file.
 

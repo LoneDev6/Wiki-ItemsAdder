@@ -7,7 +7,7 @@ icon: eye-slash
 ## ItemsAdder 3.4.1 and greater
 
 * Open `config.yml` of **ItemsAdder**
-*   Enable this option:&#x20;
+*   Enable this option:
 
     ```yaml
     fix_force_unicode_font_images: true

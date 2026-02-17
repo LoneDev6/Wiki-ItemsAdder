@@ -131,11 +131,13 @@ All options are optional, you can override a single one or all.
 
 ### Growing settings
 
-#### `avg_seconds_per_stage`&#x20;
+#### `avg_seconds_per_stage`
 
 It uses the value set in `config.yml` by default.\
-Average time in seconds for a plant to grow one stage under optimal conditions.\
-Used to calculate growth probability at each check (p = checkInterval / avgSecondsPerStage).\
+Average time in seconds for a plant to grow one stage under optimal conditions.
+\
+Used to calculate growth probability at each check (p = checkInterval / avgSecondsPerStage).
+\
 Lower values make crops grow faster, higher values make them grow slower.
 
 #### `min_light`

@@ -124,7 +124,7 @@ loots:
 
 ## **Loots Rules**
 
-### &#x20;(Blocks) `drop_only_first`
+### (Blocks) `drop_only_first`
 
 This special properties allows you to stop drops chance calculation when the first item is successfully dropped.\
 <mark style="color:orange;">**WARNING**</mark><mark style="color:orange;">: this makes your items</mark> <mark style="color:orange;">**harder**</mark> <mark style="color:orange;">to be</mark> <mark style="color:orange;">**dropped**</mark><mark style="color:orange;">.</mark>

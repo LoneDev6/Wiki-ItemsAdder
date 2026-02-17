@@ -6,7 +6,7 @@ This method is in beta and it's available only on **ItemsAdder v3.0.5+** and req
 
 ## Spawning a custom player entity in the world
 
-With **ItemsAdder** you can also spawn custom players in the world, you can also animate them.&#x20;
+With **ItemsAdder** you can also spawn custom players in the world, you can also animate them.
 
 ## Summon a custom player entity
 

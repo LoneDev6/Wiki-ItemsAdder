@@ -77,11 +77,11 @@ items:
 Now you just need to tell the plugin to load your just added item.\
 To do that you have to:
 
-* &#x20;join the server
-* &#x20;make sure you accepted the resourcepacks
-* &#x20;use the command `/iazip`
+* join the server
+* make sure you accepted the resourcepacks
+* use the command `/iazip`
 * (if you're using **external-host** (**DropBox**) scroll down and follow the instructions)
-* &#x20;get the item using `/iaget mysword`
+* get the item using `/iaget mysword`
 
 ![](<../../.gitbook/assets/immagine (21).png>)
 

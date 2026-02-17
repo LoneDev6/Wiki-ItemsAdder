@@ -21,7 +21,7 @@ This is an example block (remember to change `myitems` namespace to the one you 
 For example I created a **file** which will contain all my **custom blocks.**\
 I created it in the folder: `contents/myitems/configs/`
 
-I start creating a simple block called `red_block` in the file `blocks.yml`**.**&#x20;
+I start creating a simple block called `red_block` in the file `blocks.yml`**.**
 
 {% code title="ItemsAdder/contents/myitems/configs/blocks.yml" %}
 ```yaml

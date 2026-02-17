@@ -11,7 +11,7 @@ You must use a material which can already be smelted in vanilla Minecraft or it 
 For example: `STICK`, `COAL`, `CHARCOAL` etc.
 {% endhint %}
 
-For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** (**1 second**).&#x20;
+For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** (**1 second**).
 
 ```yaml
   magic_fuel:

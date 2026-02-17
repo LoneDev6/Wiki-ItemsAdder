@@ -7,7 +7,7 @@ icon: bow-arrow
 To use the status textures, you need to add suffixes to your model filename or texture.
 
 If you plan to use textures (png) you had to set `generate: true`.\
-If you plan to use models (json) you have to set `generate: false`, as you already have the models.&#x20;
+If you plan to use models (json) you have to set `generate: false`, as you already have the models.
 
 * `FISHING_ROD`
   * `_cast` - Shows a fishing rod when it is cast.

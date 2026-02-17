@@ -39,6 +39,6 @@ Create a new item in your config.
 
 As you can see I added a special behaviour called `music_disc`.
 
-### **`name`**&#x20;
+### **`name`**
 
 The sound to be played, in this example `my_sounds:music_disc.cdk_sunday`.

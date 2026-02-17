@@ -26,7 +26,7 @@ else
 {% hint style="warning" %}
 ### NOTE
 
-Make sure that you don't have the permission `ia.user.hud.bypass.api.*` or `setFloatValue` the code won't do anything.&#x20;
+Make sure that you don't have the permission `ia.user.hud.bypass.api.*` or `setFloatValue` the code won't do anything.
 {% endhint %}
 
 ## FAQ

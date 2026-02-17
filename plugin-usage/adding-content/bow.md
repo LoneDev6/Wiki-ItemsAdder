@@ -15,7 +15,7 @@ It is very important to set the textures to your bow item that should have set t
 To use the status textures, you need to add suffixes to your model filename or texture.
 
 If you plan to use textures (png) you had to set `generate: true`.\
-If you plan to use models (json) you have to set `generate: false`, as you already have the models.&#x20;
+If you plan to use models (json) you have to set `generate: false`, as you already have the models.
 
 ## Suffixes for items
 

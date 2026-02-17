@@ -102,7 +102,7 @@ behaviours:
     solid: true
 ```
 
-`small` allows to set the armor stand small. It will have a smaller hitbox by default and the model will look smaller.&#x20;
+`small` allows to set the armor stand small. It will have a smaller hitbox by default and the model will look smaller.
 
 ### `item_frame`
 
