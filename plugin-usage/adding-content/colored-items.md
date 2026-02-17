@@ -18,8 +18,8 @@ Then specify the `color` attribute in the `graphics` properties. In this case I 
 It accepts the following format:
 
 * `RED` (Bukkit `Color` enum)
-* `#FFFFF` hex (`#` is optional)
-* `13083194`
+* `#FFFFF` (Hexadecimal) (`#` is optional)
+* `13083194` (Decimal)
 * `255, 255, 255` (RGB)
 
 ```yaml
