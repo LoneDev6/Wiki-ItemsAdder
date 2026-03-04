@@ -21,8 +21,6 @@ Some pages in this website may contain affiliate links, meaning I get a commissi
 [adding-content](plugin-usage/adding-content/)
 {% endcontent-ref %}
 
-{% embed url="https://lonedev.gitbook.io/old-wiki" %}
-
 ### 🌐Social Media
 
 * [Patreon](http://patreon.com/lonedev)
