@@ -131,5 +131,5 @@ Use the summon command: `/iaentity summon <entity>`
 ## Notes
 
 {% hint style="info" %}
-Do not create too many bones, keep the model simple, remember this is a blocky pixelated game, use [its style](advanced-method/broken-reference/).
+Do not create too many bones, keep the model simple, remember this is a blocky pixelated game, use [its style](https://www.blockbench.net/wiki/guides/minecraft-style-guide/).
 {% endhint %}
