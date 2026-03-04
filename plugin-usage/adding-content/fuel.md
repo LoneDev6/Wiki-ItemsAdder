@@ -13,17 +13,36 @@ For example: `STICK`, `COAL`, `CHARCOAL` etc.
 
 For example this configuration will make this item usable in **BLAST\_FURNACE** and will burn in **20 ticks** (**1 second**).
 
+{% tabs %}
+{% tab title="Modern (Recommended)" %}
 ```yaml
   magic_fuel:
-    display_name: "%#FE5A00%magic_fuel"
-    permission: fuel.magic_fuel
-    resource:
-      material: COAL
-      generate: false
-      model_path: item/diamond
+    display_name: Fuel
+    material: coal
+    graphics:
+      texture: item/diamond
     behaviours:
       fuel: 
         burn_ticks: 20
         machines:
           - BLAST_FURNACE
 ```
+{% endtab %}
+
+{% tab title="Old (1.21.3 and lower)" %}
+```yaml
+  magic_fuel:
+    display_name: Fuel
+    resource:
+      material: COAL
+      generate: true
+      textures:
+      - item/diamond
+    behaviours:
+      fuel: 
+        burn_ticks: 20
+        machines:
+          - BLAST_FURNACE
+```
+{% endtab %}
+{% endtabs %}
