@@ -53,7 +53,7 @@ I cannot fix that issue, it's a **Minecraft** limitation.
 
 ## In-game view
 
-![](<../../.gitbook/assets/immagine (116) (3) (2).png>)
+![](<../../.gitbook/assets/immagine (116) (3).png>)
 
 ### Using the /e useful suggestions
 

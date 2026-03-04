@@ -32,4 +32,4 @@ Hold a `Ruby Sword` in hand and run this command.
 
 `/mimic items compare ia:itemsadder:ruby_sword`
 
-![](<../../.gitbook/assets/image (96).png>)
+![](../../.gitbook/assets/image.png)

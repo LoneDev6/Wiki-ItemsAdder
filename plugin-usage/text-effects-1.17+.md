@@ -7,7 +7,7 @@ icon: italic
 
 {% hint style="warning" %}
 * **Requires Minecraft 1.17+ clients**
-* Doesn't work in [Minecraft language files](broken-reference) (game limitation)
+* Doesn't work in [Minecraft language files](/broken/pages/-MT1a_gTKtJE5YCsGgBM) (game limitation)
 * Edits the `rendertype_text` shader files
 {% endhint %}
 

@@ -5,7 +5,7 @@ icon: text-size
 # Text Formatting
 
 {% hint style="warning" %}
-Doesn't work in [Minecraft language files](broken-reference) due to a Minecraft limitation.
+Doesn't work in [Minecraft language files](/broken/pages/-MT1a_gTKtJE5YCsGgBM) due to a Minecraft limitation.
 {% endhint %}
 
 ## How to use colored texts
