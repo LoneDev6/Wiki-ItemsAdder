@@ -4,21 +4,12 @@ icon: burger-cheese
 
 # Consumables
 
-{% hint style="danger" %}
-**Resourcepack hosting**
-
-Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\
-I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar methods.
-{% endhint %}
-
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
 ## Modern method
 
 {% hint style="warning" %}
 Minecraft 1.21.4+ and ItemsAdder 4.0.8+.
-
-Use this method only if your server accepts 1.21.2 clients and nothing below! Otherwise it won't work.
 {% endhint %}
 
 ### Food
@@ -78,7 +69,7 @@ items:
 ## Classic methods
 
 {% hint style="warning" %}
-Minecraft 1.21.1 and lower; ItemsAdder 4.0.7 and lower
+Minecraft 1.21.3 and lower.
 {% endhint %}
 
 ### Food
