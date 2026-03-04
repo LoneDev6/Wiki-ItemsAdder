@@ -157,7 +157,7 @@ items:
 ## Animated/emissive armors
 
 The current custom armors method doesn't support animated and emissive textures.\
-To create animated or/and emissive textures you have to use [the old method shown here](armors-old/textured-armor.md) (uses shaders).
+To create animated or/and emissive textures you have to use the Old Textured method (uses shaders).
 
 ## **HD armor textures**
 
@@ -173,9 +173,9 @@ This custom armors feature is only available on 1.21.2 and greater clients and s
 There is a simple solution if your server uses **ViaVersion** or similar, but has some downsides and it should be considered as a legacy feature. I discourage using that feature.
 {% endhint %}
 
-You have to create both properties `equipments` and `armors_rendering`.
+You have to create both properties `equipments` and `legacy_armor_renderings`.
 
-* `armors_rendering` is the old method (uses a custom shader).
+* `legacy_armor_renderings` is the old method (uses a custom shader).
 * `equipments` is the new method (uses the vanilla equipment attribute).
 
 ```yaml
