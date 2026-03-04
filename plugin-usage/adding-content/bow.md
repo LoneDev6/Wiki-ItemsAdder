@@ -49,18 +49,35 @@ I put them into `contents/myitems/models/item/` folder of my resourcepack.
 <img src="../../.gitbook/assets/bow_suffixes_models.png" alt="" data-size="original">
 {% endhint %}
 
+{% tabs %}
+{% tab title="Modern (Recommended)" %}
 ```yaml
 items:
   ruby_bow:
-    enabled: true
+    name: Example Ruby Bow
+    material: BOW
+    graphics:
+      textures:
+        normal: item/bows/ruby_bow
+        pulling_0: item/bows/ruby_bow_0
+        pulling_1: item/bows/ruby_bow_1
+        pulling_2: item/bows/ruby_bow_2
+```
+{% endtab %}
+
+{% tab title="Old (1.21.3 and lower)" %}
+```yaml
+items:
+  ruby_bow:
     display_name: Example Ruby Bow
-    permission: myitems.bows.ruby_bow
     resource:
       material: BOW
       generate: true
       textures:
         - item/bows/ruby_bow
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Done
 

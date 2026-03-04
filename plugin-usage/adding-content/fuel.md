@@ -18,7 +18,7 @@ For example this configuration will make this item usable in **BLAST\_FURNACE** 
 ```yaml
   magic_fuel:
     display_name: Fuel
-    material: coal
+    material: COAL
     graphics:
       texture: item/diamond
     behaviours:
