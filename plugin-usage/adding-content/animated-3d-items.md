@@ -12,7 +12,7 @@ BlockBench [tutorials ](https://www.youtube.com/results?search_query=blockbench+
 {% hint style="danger" %}
 You have to make sure to create your model as Java Block/Item model! Don't use Bedrock Model or Entity model!
 
-<img src="../../.gitbook/assets/immagine (89) (18).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/immagine (89) (1).png" alt="" data-size="original">
 {% endhint %}
 
 ## Creating a very simple animation

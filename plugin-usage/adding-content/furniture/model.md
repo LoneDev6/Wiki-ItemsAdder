@@ -22,7 +22,7 @@ Or add the property to the YML configuration `opposite_direction: true`
 
 Edit how the model is shown on player hand:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ![](<../../../.gitbook/assets/image (224).png>)
 
@@ -67,7 +67,7 @@ Then move the model until it's approximately like that. It will be close to the 
 Select _Frame_ and _Invisible Top_.\
 Adjust the model Z _Translation_ (the blue arrow) until it matches the bottom of the white block perfectly.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Export the model
 

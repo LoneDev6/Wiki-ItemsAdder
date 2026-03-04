@@ -26,8 +26,7 @@ Edit the values on the "**Keyframe**" panel.
 
 * Name: name of the sound, use the ingame Minecraft particle name. You can also use custom sounds from your resourcepack.
 * Volume: the volume of the sound.
-* Pitch: the pitch of the sound.\
-
+* Pitch: the pitch of the sound.<br>
 
 ![](<../../../.gitbook/assets/image (53).png>)
 
