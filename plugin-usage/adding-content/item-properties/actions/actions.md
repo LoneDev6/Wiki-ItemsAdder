@@ -256,18 +256,17 @@ potion_effect_1:
   particles: false
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.3/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
 
 ### `remove_potion_effect`
 
 Remove potion effect
 
-#### Properties:
+```yaml
+type: RESISTANCE
+```
 
-* `type` (string): Bukkit potion effect type
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
 
 ### `explosion`
 
@@ -322,28 +321,33 @@ Damage the entity of this event. For example on interact or attack or on event i
 
 Apply potion effect to target entity
 
-#### Properties:
+```yaml
+target_potion_effect:
+  type: REGENERATION
+  amplifier: 0 # Amplifier 0 = Level 1 - Optional (Default value: 1)
+  duration: 200 # Value in ticks (20 ticks = 1 second) - Optional (Default value: 40)
+  ambient: true # Whether to make the particles more translucent - Optional (Default value: false)
+  particles: false # Whether to show the particles - Optional (Default value: true)
+  icon: false # Whether to show the icon on screen - Optional (Default value: true)
+# Add another effect
+target_potion_effect_1:
+  type: FIRE_RESISTANCE
+  amplifier: 0
+  duration: 1200
+  particles: false
+```
 
-* `type` (string): Bukkit potion effect type
-* `amplifier` (integer): Amplifier level
-* `duration` (integer): unknown
-* `ambient` (boolean): unknown
-* `particles` (boolean): unknown
-* `icon` (boolean): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
 
 ### `target_remove_potion_effect`
 
 Remove potion effect from target entity
 
-#### Properties:
+```yaml
+type: RESISTANCE
+```
 
-* `type` (string): Bukkit potion effect type
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
 
 ### `increment_player_stat`
 
