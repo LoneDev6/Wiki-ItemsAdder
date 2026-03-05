@@ -2,51 +2,62 @@
 
 ## Actions
 
+### `cancel`
+
+Cancel the event that triggered this action
+
 ### `play_sound`
 
 Play a Vanilla sound or Custom sound
 
-#### Properties:
+```yaml
+play_sound:
+  name: entity.villager.ambient # or a custom sound
+  volume: 1.0 # Optional (Default value: 1.0)
+  pitch: 1.0 # Optional (Default value: 1.0)
+  category: MASTER # Optional (Default value: MASTER)
+  stop_previous: false # Whether to stop this sound if it was playing before playing it again - Optional (Default value: true)
+```
 
-* `name` (string): Vanilla and custom sounds
-* `volume` (number): unknown
-* `pitch` (number): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `category` (string): Category of the sound.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
-* `stop_previous` (boolean): unknown
+* `name`: Refer to [this link](https://minecraft.wiki/w/Sounds.json#Sound_events) for the value or a custom sound with `namespace:value`
+* `category`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/SoundCategory.html#enum-constant-summary) for the value
 
 ### `stop_sound`
 
 Stop a Vanilla sound or Custom sound
 
-#### Properties:
+```yaml
+stop_sound:
+  name: entity.villager.ambient # or a custom sound
+```
 
-* `name` (string): Vanilla and custom sounds
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
-
-### `cancel`
-
-Cancel the event that triggered this action
+* `name`: Refer to [this link](https://minecraft.wiki/w/Sounds.json#Sound_events) for the value or a custom sound with `namespace:value`
 
 ### `execute_commands`
 
 Execute these commands
 
-#### Properties:
-
-* `change_me_1` (object): unknown
-* `change_me_2` (object): unknown
-* `change_me_3` (object): unknown
-* `change_me_4` (object): unknown
-* `change_me_xx` (object): unknown
+```yaml
+execute_commands:
+  cmd1:
+    command: 'tellraw {player} {"text":"Action 1","color":"gold"}'
+    as_console: true # Optional (Default value: false)
+  # Execute another command
+  cmd2:
+    command: 'tellraw {player} {"text":"Action 2","color":"gold"}'
+    as_console: true
+```
 
 ### `play_particle`
 
 Play this particle
+
+```yaml
+play_particle:
+  name: heart
+```
+
+* `name`: Refer to [this link](https://minecraft.wiki/w/Particles_(Java_Edition)#Types_of_particles) for the value
 
 #### Properties:
 
@@ -256,7 +267,7 @@ potion_effect_1:
   particles: false
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
 
 ### `remove_potion_effect`
 
@@ -266,7 +277,7 @@ Remove potion effect
 type: RESISTANCE
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
 
 ### `explosion`
 
@@ -337,7 +348,7 @@ target_potion_effect_1:
   particles: false
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
 
 ### `target_remove_potion_effect`
 
@@ -347,7 +358,7 @@ Remove potion effect from target entity
 type: RESISTANCE
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
 
 ### `increment_player_stat`
 
