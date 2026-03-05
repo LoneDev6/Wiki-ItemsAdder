@@ -258,16 +258,6 @@ potion_effect_1:
 
 * `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.3/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
 
-#### Properties:
-
-* `every_ticks` (integer): unknown
-* `type` (string): Bukkit potion effect type (Refer to [this link](https://jd.papermc.io/paper/1.21.3/org/bukkit/potion/PotionEffectType.html#field-summary) for the name)
-* `amplifier` (integer): Amplifier level
-* `duration` (integer): Duration of the effect
-* `ambient` (boolean): unknown
-* `particles` (boolean): Wether to show particles or not
-* `icon` (boolean): unknown
-
 ### `remove_potion_effect`
 
 Remove potion effect
