@@ -240,14 +240,25 @@ Break multiple blocks around the center of broken block
 
 Apply potion effect to player
 
+```yaml
+type: REGENERATION
+amplifier: 0 # Amplifier 0 = Level 1 - Optional (Default value: 1)
+duration: 200 # Value in ticks (20 ticks = 1 second) - Optional (Default value: 40)
+ambient: true # Whether to make the particles more translucent - Optional (Default value: false)
+particles: false # Whether to show the particles - Optional (Default value: true)
+icon: false # Whether to show the icon on screen - Optional (Default value: true)
+```
+
+* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.3/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
+
 #### Properties:
 
 * `every_ticks` (integer): unknown
-* `type` (string): Bukkit potion effect type
+* `type` (string): Bukkit potion effect type (Refer to [this link](https://jd.papermc.io/paper/1.21.3/org/bukkit/potion/PotionEffectType.html#field-summary) for the name)
 * `amplifier` (integer): Amplifier level
-* `duration` (integer): unknown
+* `duration` (integer): Duration of the effect
 * `ambient` (boolean): unknown
-* `particles` (boolean): unknown
+* `particles` (boolean): Wether to show particles or not
 * `icon` (boolean): unknown
 
 ### `remove_potion_effect`
