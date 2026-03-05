@@ -59,13 +59,6 @@ play_particle:
 
 * `name`: Refer to [this link](https://minecraft.wiki/w/Particles_(Java_Edition)#Types_of_particles) for the value
 
-#### Properties:
-
-* `name` (string): Vanilla particles
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
-
 ### `shoot_particle`
 
 Shoot this particle
