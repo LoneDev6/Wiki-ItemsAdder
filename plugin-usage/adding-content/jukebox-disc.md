@@ -57,10 +57,17 @@ sounds:
   song_1:
     path: song_1
     settings:
-      subtitle: sound.song_1
+      subtitle: sound.song_1 # Optional (No default value)
+      volume: 1.0 # Optional (Default value: 1.0)
+      pitch: 1.0 # Optional (Default value: 1.0)
+      weight: 1 # Optional (Default value: 1)
+      stream: true # Optional (Default value: false)
+      attenuation_distance: 10 # Optional (Default value: 16)
+      preload: true # Optional (Default value: false)
     jukebox:
       enabled: true
       description: "Love Song"
+      comparator_output: 15 # Optional (Default value: 15)
 ```
 
 As you can see I set the `jukebox` property. This enables this sound to be used in the new Minecraft 1.21.1+ jukebox component.
