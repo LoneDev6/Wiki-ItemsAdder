@@ -241,12 +241,19 @@ Break multiple blocks around the center of broken block
 Apply potion effect to player
 
 ```yaml
-type: REGENERATION
-amplifier: 0 # Amplifier 0 = Level 1 - Optional (Default value: 1)
-duration: 200 # Value in ticks (20 ticks = 1 second) - Optional (Default value: 40)
-ambient: true # Whether to make the particles more translucent - Optional (Default value: false)
-particles: false # Whether to show the particles - Optional (Default value: true)
-icon: false # Whether to show the icon on screen - Optional (Default value: true)
+potion_effect:
+  type: REGENERATION
+  amplifier: 0 # Amplifier 0 = Level 1 - Optional (Default value: 1)
+  duration: 200 # Value in ticks (20 ticks = 1 second) - Optional (Default value: 40)
+  ambient: true # Whether to make the particles more translucent - Optional (Default value: false)
+  particles: false # Whether to show the particles - Optional (Default value: true)
+  icon: false # Whether to show the icon on screen - Optional (Default value: true)
+# Add another effect
+potion_effect_1:
+  type: FIRE_RESISTANCE
+  amplifier: 0
+  duration: 1200
+  particles: false
 ```
 
 * `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.3/org/bukkit/potion/PotionEffectType.html#field-summary) for the name
