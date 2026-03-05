@@ -267,7 +267,8 @@ potion_effect_1:
 Remove potion effect
 
 ```yaml
-type: RESISTANCE
+remove_potion_effect:
+  type: RESISTANCE
 ```
 
 * `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
@@ -348,7 +349,8 @@ target_potion_effect_1:
 Remove potion effect from target entity
 
 ```yaml
-type: RESISTANCE
+target_remove_potion_effect:
+  type: RESISTANCE
 ```
 
 * `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
