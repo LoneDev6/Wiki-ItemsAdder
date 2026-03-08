@@ -16,7 +16,7 @@ play_sound:
   volume: 1.0 # Optional (Default value: 1.0)
   pitch: 1.0 # Optional (Default value: 1.0)
   category: MASTER # Optional (Default value: MASTER)
-  stop_previous: false # Whether to stop this sound if it was playing before playing it again - Optional (Default value: true)
+  stop_previous: false # Optional (Default value: true) - Whether to stop this sound if it was playing before playing it again
 ```
 
 * `name`: Refer to [this link](https://minecraft.wiki/w/Sounds.json#Sound_events) for the value or a custom sound with `namespace:value`
@@ -39,12 +39,12 @@ Execute these commands
 
 ```yaml
 execute_commands:
-  cmd1:
+  action_1:
     command: 'tellraw {player} {"text":"Action 1","color":"gold"}'
     as_console: true # Optional (Default value: false)
   # Execute another command
-  cmd2:
-    command: 'tellraw {player} {"text":"Action 2","color":"gold"}'
+  give_gold:
+    command: 'give {player} gold_ingot 16'
     as_console: true
 ```
 
@@ -247,11 +247,11 @@ Apply potion effect to player
 ```yaml
 potion_effect:
   type: REGENERATION
-  amplifier: 0 # Amplifier 0 = Level 1 - Optional (Default value: 1)
-  duration: 200 # Value in ticks (20 ticks = 1 second) - Optional (Default value: 40)
-  ambient: true # Whether to make the particles more translucent - Optional (Default value: false)
-  particles: false # Whether to show the particles - Optional (Default value: true)
-  icon: false # Whether to show the icon on screen - Optional (Default value: true)
+  amplifier: 0 # Optional (Default value: 1) - Amplifier 0 = Level 1
+  duration: 200 # Optional (Default value: 40) - Value in ticks (20 ticks = 1 second)
+  ambient: true # Optional (Default value: false) - Whether to make the particles more translucent
+  particles: false # Optional (Default value: true) - Whether to show the particles
+  icon: false # Optional (Default value: true) - Whether to show the icon on screen
 # Add another effect
 potion_effect_1:
   type: FIRE_RESISTANCE
@@ -329,11 +329,11 @@ Apply potion effect to target entity
 ```yaml
 target_potion_effect:
   type: REGENERATION
-  amplifier: 0 # Amplifier 0 = Level 1 - Optional (Default value: 1)
-  duration: 200 # Value in ticks (20 ticks = 1 second) - Optional (Default value: 40)
-  ambient: true # Whether to make the particles more translucent - Optional (Default value: false)
-  particles: false # Whether to show the particles - Optional (Default value: true)
-  icon: false # Whether to show the icon on screen - Optional (Default value: true)
+  amplifier: 0 # Optional (Default value: 1) - Amplifier 0 = Level 1
+  duration: 200 # Optional (Default value: 40) - Value in ticks (20 ticks = 1 second)
+  ambient: true # Optional (Default value: false) - Whether to make the particles more translucent
+  particles: false # Optional (Default value: true) - Whether to show the particles
+  icon: false # Optional (Default value: true) - Whether to show the icon on screen
 # Add another effect
 target_potion_effect_1:
   type: FIRE_RESISTANCE
