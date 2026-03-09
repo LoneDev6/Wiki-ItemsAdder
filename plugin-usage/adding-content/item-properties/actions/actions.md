@@ -19,7 +19,7 @@ play_sound:
   stop_previous: false # Optional (Default value: true) - Whether to stop this sound if it was playing before playing it again
 ```
 
-* `name`: Refer to [this link](https://minecraft.wiki/w/Sounds.json#Sound_events) for the value or a custom sound with `namespace:value`
+* `name`: Refer to [this link](https://minecraft.wiki/w/Sounds.json/Java_Edition_values) for the value or a custom sound with `namespace:value`
 * `category`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/SoundCategory.html#enum-constant-summary) for the value
 
 ### `stop_sound`
@@ -31,7 +31,7 @@ stop_sound:
   name: entity.villager.ambient # or a custom sound
 ```
 
-* `name`: Refer to [this link](https://minecraft.wiki/w/Sounds.json#Sound_events) for the value or a custom sound with `namespace:value`
+* `name`: Refer to [this link](https://minecraft.wiki/w/Sounds.json/Java_Edition_values) for the value or a custom sound with `namespace:value`
 
 ### `execute_commands`
 
