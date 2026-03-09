@@ -20,7 +20,7 @@ play_sound:
 ```
 
 * `name`: Refer to [this link](https://minecraft.wiki/w/Sounds.json/Java_Edition_values) for the value or a custom sound with `namespace:value`
-* `category`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/SoundCategory.html#enum-constant-summary) for the value
+* `category`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/SoundCategory.html#enum-constant-summary) for the value
 
 ### `stop_sound`
 
@@ -39,7 +39,7 @@ Execute these commands
 
 ```yaml
 execute_commands:
-  action_1:
+  tellraw_action: # Use any name you want
     command: 'tellraw {player} {"text":"Action 1","color":"gold"}'
     as_console: true # Optional (Default value: false)
   # Execute another command
@@ -63,104 +63,93 @@ play_particle:
 
 Shoot this particle
 
-#### Properties:
+```yaml
+shoot_particle:
+  name: spit
+  distance: 5 # Optional (Default value: 7)
+```
 
-* `name` (string): Vanilla particles
-* `distance` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `name`: Refer to [this link](https://minecraft.wiki/w/Particles_(Java_Edition)#Types_of_particles) for the value
 
 ### `play_effect`
 
 Play this effect
 
-#### Properties:
+```yaml
+play_effect:
+  name: SPAWN_COBWEB
+```
 
-* `name` (string): Bukkit effect
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `name`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/Effect.html#enum-constant-summary) for the value
 
 ### `increment_durability`
 
 Decrement/increment this item durability
 
-#### Properties:
-
-* `amount` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+increment_durability:
+  amount: 5
+```
 
 ### `decrement_durability`
 
 Decrement/increment this item durability
 
-#### Properties:
-
-* `amount` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+decrement_durability:
+  amount: 5
+```
 
 ### `decrement_usages`
 
 Decrement this item usages
 
-#### Properties:
-
-* `amount` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+decrement_usages:
+  amount: 1
+```
 
 ### `increment_amount`
 
 Increment this item amount
 
-#### Properties:
-
-* `amount` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+increment_amount:
+  amount: 3
+```
 
 ### `decrement_amount`
 
 Decrement this item amount
 
-#### Properties:
-
-* `amount` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+decrement_amount:
+  amount: 1
+```
 
 ### `drop_exp`
 
 Drop exp
 
-#### Properties:
-
-* `chance` (number): unknown
-* `min_amount` (integer): unknown
-* `max_amount` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+drop_exp:
+  chance: 1.0 # Optional (Default value: 0.0) - Chance 1.0 = 100%
+  min_amount: 4
+  max_amount: 8
+```
 
 ### `feed`
 
 Feed player
 
-#### Properties:
+```yaml
+feed:
+  amount: 6
+  saturation: 8 # Optional (Default value: 0)
+```
 
-* `amount` (integer): Vanilla saturation and feed values: https://minecraft.gamepedia.com/Hunger#Food\_level\_and\_saturation\_level\_restoration
-* `saturation` (number): Vanilla saturation and feed values: https://minecraft.gamepedia.com/Hunger#Food\_level\_and\_saturation\_level\_restoration
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `amount`: Refer to [this link](https://minecraft.wiki/w/Food#Hunger) for explanation
+* `saturation`: Refer to [this link](https://minecraft.wiki/w/Food#Hunger) for explanation
 
 ### `replace_properties`
 
@@ -260,7 +249,7 @@ potion_effect_1:
   particles: false
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
+* `type`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
 
 ### `remove_potion_effect`
 
@@ -271,7 +260,7 @@ remove_potion_effect:
   type: RESISTANCE
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
+* `type`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
 
 ### `explosion`
 
@@ -303,24 +292,20 @@ Damage near entities
 
 Damage entity you're looking at
 
-#### Properties:
-
-* `damage` (number): unknown
-* `distance` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+damage_entity_in_sight:
+  damage: 5.0 # Optional (Default value: 1.0)
+  distance: 4 # Optional (Default value: 3)
+```
 
 ### `damage_entity`
 
 Damage the entity of this event. For example on interact or attack or on event item\_hit\_entity
 
-#### Properties:
-
-* `damage` (number): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+damage_entity:
+  damage: 5.0 # Optional (Default value: 1.0)
+```
 
 ### `target_potion_effect`
 
@@ -342,7 +327,7 @@ target_potion_effect_1:
   particles: false
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
+* `type`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
 
 ### `target_remove_potion_effect`
 
@@ -353,7 +338,7 @@ target_remove_potion_effect:
   type: RESISTANCE
 ```
 
-* `type`: Refer to [this link](https://jd.papermc.io/paper/1.21.11/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
+* `type`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/potion/PotionEffectType.html#field-summary) for the value
 
 ### `increment_player_stat`
 
