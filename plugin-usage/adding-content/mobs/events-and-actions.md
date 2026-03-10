@@ -50,6 +50,12 @@ Execute a command.
 * `silent` if the command must send a message or not on execution
 * `flow_success_if_message_contains` The plugin can't automatically identify plugins commands success/fail status, so you have to specify a text that can help the plugin to identify the command status.
 
+### `script`
+
+Run a [script](https://itemsadder.devs.beer/plugin-usage/scripting).
+
+* `name` the name of the script to execute. Example: `example:my_script`
+
 ### Common action properties
 
 #### `delay`
