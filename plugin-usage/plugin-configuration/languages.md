@@ -124,7 +124,7 @@ items:
       max_custom_durability: 1324
 ```
 
-Use the special property `<lang:NAME>` to specify the translation entry (uses [Minimessage](text-formatting.md)).
+Use the special property `<lang:NAME>` to specify the translation entry (uses [Minimessage](../beginners/text-formatting.md)).
 
 ## ItemsAdder dictionary
 

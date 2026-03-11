@@ -64,7 +64,7 @@ The error tells me that the JSON files are broken, they probably have bad charac
   For example an ID for a custom item: `CustomSword` is wrong, use `custom_sword`.
 * If you have **SkinsRestorer** please [read here](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
 * Check if you have another plugin that uses **custom resourcepacks**.\
-  **I**f you have a similar plugins please **disable** its **resourcepack** feature or **ItemsAdder** won't be able to apply the pack correctly. If you want to apply both packs [read here](../plugin-usage/merge-resourcepacks.md).
+  **I**f you have a similar plugins please **disable** its **resourcepack** feature or **ItemsAdder** won't be able to apply the pack correctly. If you want to apply both packs [read here](../adding-content/merge-resourcepacks.md).
 * Make sure you don't have any resourcepack set in the `server.properties` file.
 * **Minecraft** limits servers resourcepacks **size** to **50MB** on Minecraft **1.14**, **100MB** on **1.15+** and **250MB** on **1.18+**.\
   Make sure to **compress** your **textures** and your **music** files before creating the zip file.

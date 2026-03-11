@@ -16,7 +16,7 @@ You can customize some parts the book shown with that command.
 
 It's advised to set `max-line-length: 18`, this allows long texts to use the whole available line space.
 
-<figure><img src="../../.gitbook/assets/iaimage_book_1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/iaimage_book_1.png" alt=""><figcaption></figcaption></figure>
 
 ### Change book font to Minecraft thin font
 
@@ -29,5 +29,5 @@ It's advised to set `max-line-length: 18`, this allows long texts to use the who
 It's advised to set `max-line-length: 22`, this allows long texts to use the whole available line space.\
 The plugin should avoid too long texts to overflow and go to the next line, but if that happens you have to reduce the length value to `20` or lower.
 
-<figure><img src="../../.gitbook/assets/iaimage_book_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/iaimage_book_2.png" alt=""><figcaption></figcaption></figure>
 

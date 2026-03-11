@@ -51,9 +51,9 @@ items:
 <gradient:#ff00ee:#f79459>Here is a gradient example text!
 ```
 
-<div><figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image%20(46).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image%20(45).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image%20(235).png" alt=""><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Component
 

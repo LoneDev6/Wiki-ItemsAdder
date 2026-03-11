@@ -16,7 +16,7 @@ Bukkit doesn't support this notation by default!
 | Allow using recipe, [more info](adding-content/item-properties/permission.md#recipes-permissions).       | <p><code>ia.user.recipe.PERMISSION</code> <br><br>(or to give all crafting permissions just use <code>ia.user.recipe.*</code>)</p>                                                                                                                                                                                                                                                               |
 | See item in `/ia` GUI, [more info](adding-content/item-properties/permission.md).                        | <p><code>ia.user.ia.seeitem.PERMISSION</code><br><br>(or to give all /ia permissions just use <code>ia.user.ia.seeitem.*</code>)</p>                                                                                                                                                                                                                                                             |
 | Search permission in `/ia` GUI.                                                                          | `ia.user.ia.search`                                                                                                                                                                                                                                                                                                                                                                              |
-| See category in GUI.                                                                                     | Use the category permission, please check [/ia GUI ](ia.md)page.                                                                                                                                                                                                                                                                                                                                 |
+| See category in GUI.                                                                                     | Use the category permission, please check [/ia GUI ](../recipes-menu.md)page.                                                                                                                                                                                                                                                                                                                              |
 | Show `/e` book when using `/e` without arguments.                                                        | `ia.user.image.gui`                                                                                                                                                                                                                                                                                                                                                                              |
 | Shows a tab list with emojis based on search term.                                                       | `ia.user.image.hints`                                                                                                                                                                                                                                                                                                                                                                            |
 | Use **emojis** in **chat.**                                                                              | `ia.user.image.chat`                                                                                                                                                                                                                                                                                                                                                                             |
@@ -47,7 +47,7 @@ Bukkit doesn't support this notation by default!
 ## WorldGuard flags
 
 {% content-ref url="../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
-[worldguard-flags.md](../compatibility-with-other-plugins/compatible/worldguard-flags.md)
+[worldguard-flags.md](../../compatibility-with-other-plugins/compatible/worldguard-flags.md)
 {% endcontent-ref %}
 
 ## Example permissions setup
@@ -90,5 +90,5 @@ If you're installing an [addon](https://addons.plugin.ga/itemsadder/) you may se
 To create your categories just read the tutorial
 
 {% content-ref url="ia.md" %}
-[ia.md](ia.md)
+[ia.md](../recipes-menu.md)
 {% endcontent-ref %}

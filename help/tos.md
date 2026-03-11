@@ -11,7 +11,7 @@ icon: circle-info
 {% hint style="danger" %}
 Before Buying Remember:
 
-* ⛔ If you have another plugin that uses a custom resource pack you have to know how to merge it with the ItemsAdder resource pack or disable the other plugin. A tutorial is available [here](../plugin-usage/merge-resourcepacks.md).
+* ⛔ If you have another plugin that uses a custom resource pack you have to know how to merge it with the ItemsAdder resource pack or disable the other plugin. A tutorial is available [here](../adding-content/merge-resourcepacks.md).
 * ⛔ Before asking for support, please read the tutorials of this wiki.
 * ⛔ You must have some knowledge on how to create/manage/merge vanilla Minecraft resource packs as this plugin uses a custom-made and modified resource pack to show custom textures/models.\
   Please if you have no knowledge about resource packs don't buy the plugin!
