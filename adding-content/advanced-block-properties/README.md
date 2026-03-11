@@ -1,6 +1,0 @@
----
-icon: cube
----
-
-# Blocks - advanced
-

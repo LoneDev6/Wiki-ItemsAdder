@@ -15,7 +15,7 @@ This plugin doesn't require Mythicmobs to work, but some servers might want to u
 
 ## Changing the model
 
-Create a new **Mythicmobs** mob configuration file in this path:   `plugins/MythicMobs/Mobs/ninja_skeleton.yml`\
+Create a new **Mythicmobs** mob configuration file in this path:   `plugins/MythicMobs/entities/ninja_skeleton.yml`\
 (you can decide the filename).
 
 {% hint style="warning" %}

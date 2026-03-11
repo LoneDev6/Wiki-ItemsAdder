@@ -14,7 +14,7 @@ This plugin doesn't require Mythicmobs to work, but some servers might need to u
 
 ### Changing the model
 
-Create a new Mythicmobs mob configuration file in this path: `plugins/MythicMobs/Mobs/custom_player.yml`\
+Create a new Mythicmobs mob configuration file in this path: `plugins/MythicMobs/entities/custom_player.yml`\
 \`\`(you can decide the filename).
 
 {% hint style="warning" %}
@@ -42,8 +42,8 @@ In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
 
 ### Custom skin
 
-{% content-ref url="../../mobs/custom-skin.md" %}
-[custom-skin.md](../../mobs/custom-skin.md)
+{% content-ref url="../../entities/custom-skin.md" %}
+[custom-skin.md](../../entities/custom-skin.md)
 {% endcontent-ref %}
 
 ### Skills

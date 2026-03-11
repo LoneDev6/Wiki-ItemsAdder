@@ -76,7 +76,7 @@ You can create some advanced vehicles using the new entities system, like multip
 Read more here:
 
 {% content-ref url="mobs/" %}
-[mobs](mobs/)
+[mobs](entities/)
 {% endcontent-ref %}
 
 ### Example advanced vehicles pack

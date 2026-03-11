@@ -104,8 +104,8 @@ You have to change it to this (`your_namespace` is your [namespace](broken-refer
 
 ### Blocks
 
-{% content-ref url="../advanced-block-properties/transparent-block.md" %}
-[transparent-block.md](../advanced-block-properties/transparent-block.md)
+{% content-ref url="../blocks/transparent-block.md" %}
+[transparent-block.md](../blocks/transparent-block.md)
 {% endcontent-ref %}
 
 ## Manually specify custom\_model\_data

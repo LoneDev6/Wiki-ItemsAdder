@@ -77,7 +77,7 @@ This property can have these value:
 {% hint style="warning" %}
 - **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
 - **`TILE`** blocks for trade machines and machinery/rare decorative blocks.\
-  You should not use **`TILE`** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](trees-and-trees-populators.md) or [decorators](cave-decorators.md).
+  You should not use **`TILE`** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](../trees-and-trees-populators.md) or [decorators](../cave-decorators.md).
 {% endhint %}
 
 ### `rotx` and `roty`
@@ -103,8 +103,8 @@ This allows to make some blocks placed 1 block up. This is useful for `REAL_WIRE
 
 ### `custom_variants`
 
-{% content-ref url="advanced-block-properties/variants.md" %}
-[variants.md](advanced-block-properties/variants.md)
+{% content-ref url="variants.md" %}
+[variants.md](variants.md)
 {% endcontent-ref %}
 
 ### `drop_when_mined`
@@ -181,7 +181,7 @@ Totally immune from explosions, ignoring `blast_resistance`.
 `hit`, `step` and `fall` sounds require **ItemsAdder 3.6.3b** or **greater**.
 {% endhint %}
 
-You can specify [custom sound](adding-sounds.md) names instead of vanilla sound.\
+You can specify [custom sound](../adding-sounds.md) names instead of vanilla sound.\
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
 
 {% hint style="info" %}
@@ -230,7 +230,7 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 ```
 
 {% hint style="info" %}
-To add custom sounds to your resourcepack you have to [read the sounds tutorial](adding-sounds.md).
+To add custom sounds to your resourcepack you have to [read the sounds tutorial](../adding-sounds.md).
 {% endhint %}
 
 ### `permission_suffix`

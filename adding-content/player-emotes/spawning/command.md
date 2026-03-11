@@ -31,8 +31,8 @@ Examples:
 * `/iaentity playerskin LoneDev`
 * `/iaentity playerskin https://minesk.in/8b4bf861ea544edd8529707276d24853`
 
-{% content-ref url="../../mobs/custom-skin.md" %}
-[custom-skin.md](../../mobs/custom-skin.md)
+{% content-ref url="../../entities/custom-skin.md" %}
+[custom-skin.md](../../entities/custom-skin.md)
 {% endcontent-ref %}
 
 ## Creating custom animations
