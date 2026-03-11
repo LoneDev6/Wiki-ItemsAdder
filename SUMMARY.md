@@ -248,15 +248,13 @@
     * [MythicMobs](adding-content/entities/mythicmobs.md)
 
 * [Font Images / Glyphs](adding-content/font-images/README.md)
-    * [GUIs](adding-content/font-images/guis.md)
     * [Font Images](adding-content/font-images/font-images.md)
-    * [Font Images - Advanced](adding-content/font-images/font-images-advanced.md)
     * [Ranks / prefixes](adding-content/font-images/ranks-prefixes.md)
     * [Emojis](adding-content/font-images/emojis.md)
+    * [GUIs](adding-content/font-images/guis.md)
     * [Font](adding-content/font-images/font.md)
 
 * [Player Emotes](adding-content/player-emotes/README.md)
-    * [Introduction](adding-content/player-emotes/README.md)
     * [Animations](adding-content/player-emotes/animations.md)
     * [Advanced properties](adding-content/player-emotes/advanced-properties.md)
     * [Particles](adding-content/player-emotes/particles.md)
