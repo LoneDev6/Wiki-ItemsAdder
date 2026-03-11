@@ -237,7 +237,7 @@ You will be able to put it inside a jukebox and make it play a song.
 
 * `enabled` (boolean)
 * `song` (object): Song properties
-  * `name` (string): Specify a song name you defined in the songs.json file. Please refer to the tutorial here: https://itemsadder.devs.beer/plugin-usage/adding-content/sounds
+  * `name` (string): Specify a song name you defined in the songs.json file. Please refer to the tutorial here: https://itemsadder.devs.beer/adding-content/sounds
   * `description` (string): Description of the song. This will be shown in Actionbar when you put the disc inside a jukebox
 
 ### `vehicle`

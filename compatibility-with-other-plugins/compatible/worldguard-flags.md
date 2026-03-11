@@ -8,7 +8,7 @@ description: Worldguard flags list
 
 ### ia-furniture-sit
 
-This flags allows your players to sit on furnitures or not (furnitures with `furniture_sit` [behaviour](../../plugin-usage/adding-content/item-properties/behaviours/))
+This flags allows your players to sit on furnitures or not (furnitures with `furniture_sit` [behaviour](../../adding-content/item-properties/behaviours/))
 
 ### ia-campfire-item-add
 

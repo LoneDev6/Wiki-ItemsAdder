@@ -17,8 +17,8 @@ Some pages in this website may contain affiliate links, meaning I get a commissi
 [first-install.md](plugin-usage/first-install.md)
 {% endcontent-ref %}
 
-{% content-ref url="plugin-usage/adding-content/" %}
-[adding-content](plugin-usage/adding-content/)
+{% content-ref url="adding-content/" %}
+[adding-content](adding-content/)
 {% endcontent-ref %}
 
 ### 🌐Social Media
