@@ -213,7 +213,7 @@
     * [Complex](adding-content/furnitures/furniture-complex.md)
     * [Example](adding-content/furnitures/example.md)
 * [Player Emotes](adding-content/player-emotes/README.md)
-    * [Introduction](adding-content/player-emotes/introduction.md)
+    * [Introduction](adding-content/player-emotes/README.md)
     * [Animations](adding-content/player-emotes/animations.md)
     * [Advanced properties](adding-content/player-emotes/advanced-properties.md)
     * [Particles](adding-content/player-emotes/particles.md)

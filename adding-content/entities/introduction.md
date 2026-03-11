@@ -1,14 +1,8 @@
 ---
-icon: info
+icon: user-alien
 ---
 
 # Introduction
-
-{% embed url="https://youtu.be/cQpIqExVpR0" %}
-Advanced animation features
-{% endembed %}
-
-{% embed url="https://www.youtube.com/watch?v=CdcK4cSlBgg" %}
 
 ### Main features
 
@@ -63,3 +57,9 @@ Advanced animation features
 Download the [official extension](https://github.com/LoneDev6/itemsadder-entity/releases).
 
 <figure><img src="../../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://youtu.be/cQpIqExVpR0" %}
+Advanced animation features
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=CdcK4cSlBgg" %}
