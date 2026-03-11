@@ -7,7 +7,7 @@ description: Armors textures look broken when using custom shaders mods (1.17+)
 {% hint style="success" %}
 If you are on 1.21.2 and greater (both server and clients) you can use the new armors creation method that doesn't use any vanilla shader to create custom armors, so it is compatible with the shaders mods.
 
-More info [here](../../adding-content/armors.md).
+More info [here](../../adding-content/items/armors.md).
 {% endhint %}
 
 <details>

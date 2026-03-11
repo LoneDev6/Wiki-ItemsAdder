@@ -7,7 +7,7 @@ This is a limitation of the game, I currently cannot do anything about that. Eve
 {% endhint %}
 
 {% hint style="success" %}
-If you are on 1.21.2 or greater (both client and server) you can use [the new method](../../adding-content/armors.md) to create armors. The new method doesn't have this issue.
+If you are on 1.21.2 or greater (both client and server) you can use [the new method](../../adding-content/items/armors.md) to create armors. The new method doesn't have this issue.
 {% endhint %}
 
 ```
