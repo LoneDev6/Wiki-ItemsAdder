@@ -76,7 +76,7 @@ It's your responsibility to give us all the information that is related to your 
 We can't provide support if you won't give us any information.\
 You won't get support if your help request doesn't have enough information.
 
-## 🖌️Addon Creation Policy
+## 🖌 ️Addon Creation Policy
 
 You can sell **custom packs, textures, and configs...** compatible with this plugin or plugin presets.\
 [A donation ](http://a.devs.beer/lonedevdonate)is appreciated if you earn a lot from them.\
