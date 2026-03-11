@@ -45,7 +45,7 @@ sounds:
 #### Jukebox song (Minecraft 1.21.1 and greater)
 
 {% content-ref url="jukebox-disc.md" %}
-[jukebox-disc.md](sounds/jukebox-disc.md)
+[jukebox-disc.md](jukebox-disc.md)
 {% endcontent-ref %}
 
 ### Old Method (ItemsAdder 4.0.10 and lower)
@@ -74,7 +74,7 @@ So now I have `contents/my_sounds/resourcepack/my_sounds/sounds/music/song_1.ogg
 To add your sound into the file you just have to do this:
 
 {% code title="contents/my_sounds/resourcepack/my_sounds/sounds.json" %}
-```json
+```javascript
 {
 	"music.song_1":{
 		"sounds":[
@@ -89,7 +89,7 @@ To add your sound into the file you just have to do this:
 
 This is the sound name. You will use it in every part of the plugin and also in Minecraft vanilla [/playsound ](https://www.digminecraft.com/game_commands/playsound_command.php)command.
 
-```
+```javascript
 "music.song_1":{
 ```
 
@@ -107,7 +107,7 @@ Keep in mind that you have to change `my_sounds` to your own namespace name if i
 
 For example if you want to have random sounds for the same sound name you just have to create multiple `.ogg` files and put them like this:
 
-```
+```javascript
 "sounds":[
     "my_sounds:music/song_1_variant_1",
     "my_sounds:music/song_1_variant_2",
@@ -120,7 +120,7 @@ For example if you want to have random sounds for the same sound name you just h
 It's easy, the next time you want to add a sound you just have to add a comma at the end, like this.\
 (I'm referring to line 6 comma)
 
-```json
+```javascript
 {
     "music.song_1":{
         "sounds":[

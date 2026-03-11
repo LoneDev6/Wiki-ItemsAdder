@@ -2,7 +2,7 @@
 icon: tree
 ---
 
-# Trees and tree populators
+# Trees populators
 
 ## Creating the leaves and wood blocks
 
@@ -11,7 +11,7 @@ In order to create a custom tree you have to create two blocks for each tree: le
 ### Follow this tutorial to create blocks
 
 {% content-ref url="block.md" %}
-[block.md](blocks/README.md)
+[block.md](../blocks/README.md)
 {% endcontent-ref %}
 
 For example I created 2 blocks by following the tutorial: `my_leaves`, `my_log`.
@@ -114,8 +114,6 @@ Sometimes trees will spawn with vanilla leaves, this is a known issue and I have
 **Big trees lag**
 
 Big trees COULD cause some lag on generation, please use only small tree types.
-
-**Other problems**
 {% endhint %}
 
 ## Make the trees spawn randomly

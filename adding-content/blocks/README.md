@@ -77,7 +77,7 @@ This property can have these value:
 {% hint style="warning" %}
 - **`REAL`** and **`REAL_NOTE`** are meant to be used for decorative blocks and ores.
 - **`TILE`** blocks for trade machines and machinery/rare decorative blocks.\
-  You should not use **`TILE`** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](../trees-and-trees-populators.md) or [decorators](../cave-decorators.md).
+  You should not use **`TILE`** blocks for ores because _**it may**_ cause a bit of lag on chunk generation. They are not adviced to be used for [populators](../world-generation/trees-populators.md) or [decorators](../world-generation/cave-decorators.md).
 {% endhint %}
 
 ### `rotx` and `roty`
