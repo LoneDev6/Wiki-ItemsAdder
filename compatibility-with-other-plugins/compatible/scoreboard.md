@@ -11,7 +11,7 @@ Seems the plugin was removed from SpigotMC.org for some reason.\
 
 ## Font images
 
-You can use [font\_images ](../../adding-content/font-images.md)(emojis and symbols) in the **scoreboard**.
+You can use [font\_images ](../../adding-content/font-images/font-images.md)(emojis and symbols) in the **scoreboard**.
 
 ### Example
 

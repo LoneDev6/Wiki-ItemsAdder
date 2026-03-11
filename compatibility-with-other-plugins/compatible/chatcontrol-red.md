@@ -18,7 +18,7 @@ You just have to set this in your format configuration, (for example in the `for
     Message: ':arcade:'
 ```
 
-Obviously you have to use your own [font\_image ](../../adding-content/font-images.md)name instead of `arcade`, this is just an example.
+Obviously you have to use your own [font\_image ](../../adding-content/font-images/font-images.md)name instead of `arcade`, this is just an example.
 
 ## Text effects
 
