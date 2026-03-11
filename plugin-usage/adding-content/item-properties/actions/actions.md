@@ -295,7 +295,7 @@ Damage the entity of this event. For example on interact or attack or on event i
 
 ```yaml
 damage_entity:
-  damage: 5.0 # Optional (Default value: 1.0)
+  damage: 5.0
 ```
 
 ### `target_potion_effect`
