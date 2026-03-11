@@ -2,7 +2,7 @@
 icon: hammer
 ---
 
-# Crafting
+# Crafting Table
 
 To create a recipe you have to create a special section in one of your `.yml` files.\
 This section can be added in all and any of your `.yml` files for better organization of recipes.

@@ -2,7 +2,7 @@
 icon: grill-hot
 ---
 
-# Cooking
+# Furnace
 
 ItemsAdder allows to add custom furnace recipes for your items, to turn them into something else.
 

@@ -2,7 +2,7 @@
 icon: gavel
 ---
 
-# Smithing
+# Smithing Table
 
 <figure><img src="../../.gitbook/assets/image (275).png" alt=""><figcaption></figcaption></figure>
 
