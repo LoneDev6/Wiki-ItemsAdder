@@ -151,25 +151,17 @@ feed:
 * `amount`: Refer to [this link](https://minecraft.wiki/w/Food#Hunger) for explanation
 * `saturation`: Refer to [this link](https://minecraft.wiki/w/Food#Hunger) for explanation
 
-### `replace_properties`
-
-Replace this item properties
-
-#### Properties:
-
-* `custom_model_data` (object): unknown
-
 ### `give_item`
 
 Give this player an item
 
-#### Properties:
+```yaml
+give_item:
+  item: 'minecraft:gold_ingot'
+  amount: 6 # Optional (Default value: 1)
+```
 
-* `item` (string): Vanilla / ItemsAdder custom item
-* `amount` (integer): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `item`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/inventory/ItemType.html#field-summary) for the value or a custom item with `namespace:value`
 
 ### `replace_near_blocks`
 
@@ -219,15 +211,16 @@ Replace vanilla/custom blocks in interact location (or on the player location if
 
 Break multiple blocks around the center of broken block
 
-#### Properties:
-
-* `size` (integer): unknown
-* `depth` (integer): unknown
-* `keep_ores` (boolean): unknown
-* `drop_all_blocks` (object): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+multiple_break:
+  size: 3
+  depth: 3 # Optional (Default value: 1)
+  vertical: true # Optional (Default value: false)
+  keep_ores: true # Whether to break ores
+  drop_all_blocks: # Optional
+    enabled: true
+    need_silk_touch: true
+```
 
 ### `potion_effect`
 
@@ -266,14 +259,12 @@ remove_potion_effect:
 
 Spawn explosion
 
-#### Properties:
-
-* `power` (integer): unknown
-* `fire` (boolean): unknown
-* `break_blocks` (boolean): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+```yaml
+explosion:
+  power: 1
+  fire: true # Optional (Default value: false) - Whether the TNT spreads fire when exploding
+  break_blocks: false # Optional (Default value: true)
+```
 
 ### `damage_near_entities`
 
@@ -344,25 +335,25 @@ target_remove_potion_effect:
 
 Increment player stat (ItemsAdder stats, used by HUDs)
 
-#### Properties:
+```yaml
+increment_player_stat:
+  name: 'my_hud:power'
+  amount: 10.0
+```
 
-* `name` (string): unknown
-* `amount` (number): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `name`: Use a custom stat with `namespace:value`
 
 ### `decrement_player_stat`
 
 Decrement player stat (ItemsAdder stats, used by HUDs)
 
-#### Properties:
+```yaml
+decrement_player_stat:
+  name: 'my_hud:power'
+  amount: 5.0
+```
 
-* `name` (string): unknown
-* `amount` (number): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `name`: Use a custom stat with `namespace:value`
 
 ### `play_totem_animation`
 
@@ -372,26 +363,26 @@ Play the totem animation with a particular item texture.
 
 Script that run custom code on that specific events.
 
-#### Properties:
+```yaml
+script:
+  name: 'some_script'
+```
 
-* `name` (string): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `name`: Use a custom script with `value`
 
 ### `drop_item`
 
 Drops a vanilla/custom item.
 
-#### Properties:
+```yaml
+drop_item:
+  item: 'minecraft:apple'
+  chance: 50.0 # Optional (Default value: 100.0) - Chance 100.0 = 100%
+  min_amount: 2 # Optional (Default value: 1)
+  max_amount: 5 # Optional (Default value: 1)
+```
 
-* `item` (string): Vanilla / ItemsAdder custom item
-* `min_amount` (integer): unknown
-* `max_amount` (integer): unknown
-* `chance` (number): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `item`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/inventory/ItemType.html#field-summary) for the value or a custom item with `namespace:value`
 
 ### `set_block`
 
@@ -410,13 +401,13 @@ Sets a block. Useful on interact events to place a custom/vanilla block.
 
 Places a furniture. Useful on interact events to place a custom furniture.
 
-#### Properties:
+```yaml
+place_furniture:
+  furniture: 'my_furniture:chair'
+  decrement_amount: true # Optional (Default value: false)
+```
 
-* `furniture` (string): unknown
-* `decrement_amount` (boolean): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `furniture`: Use a custom furniture with `namespace:value`
 
 ### `remove_furniture`
 
@@ -434,9 +425,17 @@ Requires ItemsAdder 4.0.16+
 
 Replaces a furniture. Useful on interact events to change out furniture for a different furniture.
 
-#### Properties
+```yaml
+replace_furniture:
+  furniture: 'my_furniture:table'
+```
 
-* `furniture` (string): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `furniture`: Use a custom furniture with `namespace:value`
+
+### `replace_properties`
+
+Replace this item properties
+
+#### Properties:
+
+* `custom_model_data` (object): unknown
