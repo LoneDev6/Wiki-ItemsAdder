@@ -17,7 +17,7 @@ This feature requires Minecraft 1.21.2 clients or greater (server version is not
 To support older clients refer to the other tutorials:
 
 * [block 2d icon](../advanced-block-properties/block-2d-icon.md)
-* [furniture 2d icon ](../furniture/furniture-2d-icon.md)
+* [furniture 2d icon ](../furnitures/furniture-2d-icon.md)
 {% endhint %}
 
 ## The `icon` property

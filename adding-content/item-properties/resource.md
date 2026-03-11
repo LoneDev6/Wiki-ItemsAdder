@@ -98,8 +98,8 @@ You have to change it to this (`your_namespace` is your [namespace](broken-refer
 
 ### Furniture
 
-{% content-ref url="../furniture/transparent-furniture.md" %}
-[transparent-furniture.md](../furniture/transparent-furniture.md)
+{% content-ref url="../furnitures/transparent-furniture.md" %}
+[transparent-furniture.md](../furnitures/transparent-furniture.md)
 {% endcontent-ref %}
 
 ### Blocks
