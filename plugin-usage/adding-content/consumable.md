@@ -6,8 +6,6 @@ icon: burger-cheese
 
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
-## Modern method
-
 ### Food
 
 ```yaml
@@ -62,8 +60,6 @@ items:
 {% endtab %}
 
 {% tab title="Old (1.21.3 and lower)" %}
-## Classic methods
-
 ### Food
 
 ```yaml
