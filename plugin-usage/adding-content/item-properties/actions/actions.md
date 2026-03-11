@@ -285,7 +285,7 @@ Damage entity you're looking at
 
 ```yaml
 damage_entity_in_sight:
-  damage: 5.0 # Optional (Default value: 1.0)
+  damage: 5.0
   distance: 4 # Optional (Default value: 3)
 ```
 
