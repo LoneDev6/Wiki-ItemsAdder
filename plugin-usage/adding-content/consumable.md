@@ -8,10 +8,6 @@ icon: burger-cheese
 {% tab title="Modern (Recommended)" %}
 ## Modern method
 
-{% hint style="warning" %}
-Minecraft 1.21.4+ and ItemsAdder 4.0.8+.
-{% endhint %}
-
 ### Food
 
 ```yaml
@@ -67,10 +63,6 @@ items:
 
 {% tab title="Old (1.21.3 and lower)" %}
 ## Classic methods
-
-{% hint style="warning" %}
-Minecraft 1.21.3 and lower.
-{% endhint %}
 
 ### Food
 
