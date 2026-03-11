@@ -202,16 +202,13 @@
     * [Custom Animated Player](adding-content/entities/custom-skin.md)
     * [Citizens](adding-content/entities/citizens.md)
     * [MythicMobs](adding-content/entities/mythicmobs.md)
-
 * [Font Images / Glyphs](adding-content/font-images/README.md)
     * [GUIs](adding-content/font-images/guis.md)
-    * [PNG font (easier)](adding-content/font-images/method-2.md)
-    * [TTF font](adding-content/font-images/method-1.md)
     * [Font Images](adding-content/font-images/font-images.md)
     * [Font Images - Advanced](adding-content/font-images/font-images-advanced.md)
     * [Ranks / prefixes](adding-content/font-images/ranks-prefixes.md)
     * [Emojis](adding-content/font-images/emojis.md)
-
+    * [Font](adding-content/font-images/font.md)
 * [Furnitures](adding-content/furnitures/README.md)
     * [Model](adding-content/furnitures/model.md)
     * [Size](adding-content/furnitures/furniture-size.md)

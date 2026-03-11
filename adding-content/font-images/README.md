@@ -1,5 +1,5 @@
 ---
-icon: font
+icon: icons
 ---
 
 # Fonts Images
