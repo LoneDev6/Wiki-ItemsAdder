@@ -287,12 +287,12 @@
     * [Cave decorators](adding-content/world-generation/cave-decorators.md)
     * [Worlds populators (ores)](adding-content/world-generation/worlds-populators.md)
 
-* [Animated titles](adding-content/animated-titles.md)
 * [Crops](adding-content/crops.md)
-* [Colored Items](adding-content/colored-items.md)
-* [Colored Models](adding-content/colored-models.md)
 * [Loots](adding-content/loots.md)
 * [Vehicles](adding-content/vehicles.md)
+* [Colored Items](adding-content/colored-items.md)
+* [Colored Models](adding-content/colored-models.md)
+* [Animated titles](adding-content/animated-titles.md)
 
 ## Other
 
