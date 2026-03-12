@@ -177,10 +177,6 @@ Totally immune from explosions, ignoring `blast_resistance`.
 
 ### `sounds`
 
-{% hint style="warning" %}
-`hit`, `step` and `fall` sounds require **ItemsAdder 3.6.3b** or **greater**.
-{% endhint %}
-
 You can specify [custom sound](../adding-sounds.md) names instead of vanilla sound.\
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
 

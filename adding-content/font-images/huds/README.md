@@ -57,7 +57,7 @@ This setting allows you to recolor all HUDs to a specific color.\
 This is useful if you have a custom shader which interacts with texts which have a specific color.
 
 {% hint style="warning" %}
-Requires Spigot 1.17+ and ItemsAdder 3.5.1+
+Requires Minecraft 1.17+
 {% endhint %}
 
 {% code title="config.yml" %}
