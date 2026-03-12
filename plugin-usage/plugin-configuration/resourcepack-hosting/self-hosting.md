@@ -1,5 +1,9 @@
 # Self hosting
 
+{% hint style="success" %}
+**Recommanded.**
+{% endhint %}
+
 {% hint style="warning" %}
 ### **Your hosting service must let you get additional ports for your server.**
 

@@ -5,8 +5,6 @@ icon: icons
 
 {% tabs %}
 {% tab title="Simple" %}
-# Font Images
-
 Font images are custom characters that have a custom texture.\
 You can use font images to create emojis, ranks, GUI and more.
 

@@ -221,7 +221,6 @@
     * [Example](adding-content/furnitures/example.md)
 
 * [Entities](adding-content/entities/README.md)
-    * [Introduction](adding-content/entities/README.md)
     * [Entity Creation](adding-content/entities/advanced-method.md)
     * [Animations](adding-content/entities/animations.md)
     * [Mount](adding-content/entities/mount.md)
