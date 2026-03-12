@@ -309,7 +309,7 @@
 ## HELP
 
 * [Terms Of Service](help/tos.md)
-* [Ask For Help](https://forum.devs.beer/d/16-getting-support)
+* [Ask For Help](https://discord.gg/4dfnpUK)
 
 ## Developers
 

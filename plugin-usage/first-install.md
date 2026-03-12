@@ -1,6 +1,6 @@
 ---
 description: How to install the plugin
-icon: warning
+icon: circle-info
 ---
 
 # First Install
