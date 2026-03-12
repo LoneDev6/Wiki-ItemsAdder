@@ -8,7 +8,7 @@ icon: hashtag
 **You have to use** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **and** [**TAB**](https://www.spigotmc.org/resources/tab-1-5-1-21-4.57806/) **to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.**
 {% endhint %}
 
-![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image%20(27)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1)%20(1).png>)
 
 Download the example ranks [here](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-for-itemsadder.84852/).
 
@@ -51,34 +51,34 @@ Open the editor `/lp editor`.
 Click on the link and open the web editor.\
 Select the role. In this case `admin`.
 
-![](<../../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image%20(67).png>)
 
 Add a new permission:`prefix.100.:admin:` . Change `:admin:` based on your rank name.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image%20(2).png>)
 
 Press <mark style="color:green;">**`+Add`**</mark>
 
-![](<../../.gitbook/assets/image (165).png>)
+![](<../../.gitbook/assets/image%20(165).png>)
 
 You now have a new line in the permissions list, this is the prefix setting.
 
-![](<../../.gitbook/assets/image (105).png>)
+![](<../../.gitbook/assets/image%20(105).png>)
 
 Save your changes.
 
-![](<../../.gitbook/assets/image (202).png>)
+![](<../../.gitbook/assets/image%20(202).png>)
 
 #### Assign the group to a player
 
 Use this command (change `LoneDev` to your player name) `/lp user LoneDev group add admin`
 
-![](<../../.gitbook/assets/immagine (30).png>)
+![](<../../.gitbook/assets/immagine%20(30).png>)
 
 ## TAB plugin
 
 {% hint style="warning" %}
-Make sure you installed [PlaceholderAPI](broken-reference/)
+Make sure you installed [PlaceholderAPI](https://modrinth.com/plugin/placeholderapi)
 {% endhint %}
 
 #### Editing the config.yml of TAB plugin
@@ -94,6 +94,6 @@ Make sure you installed [PlaceholderAPI](broken-reference/)
 
 Then use the command `/tab reload`.
 
-![](<../../.gitbook/assets/immagine (40).png>)
+![](<../../.gitbook/assets/immagine%20(40).png>)
 
-![](<../../.gitbook/assets/immagine (98).png>)
+![](<../../.gitbook/assets/immagine%20(98).png>)

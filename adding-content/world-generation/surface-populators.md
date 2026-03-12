@@ -12,7 +12,7 @@ For example you can make new mushrooms, new little plants, rocks and decorations
 
 ![](../../.gitbook/assets/leaves.png)
 
-![](../../.gitbook/assets/desert\_rose.png)
+![](../../.gitbook/assets/desert_rose.png)
 
 ## Creating a Surface Populator
 
@@ -79,4 +79,4 @@ You can download the fully working addon here:
 
 {% embed url="https://www.spigotmc.org/resources/deco-worlddeco-add-autogenerating-decorations-on-your-world-surface.95207" %}
 
-![](../../.gitbook/assets/worlddeco\_ia.png)
+![](../../.gitbook/assets/worlddeco_ia.png)

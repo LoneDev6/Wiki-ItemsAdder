@@ -33,7 +33,7 @@ Remember to give them permission `ia.user.ia` to let them use `/ia` command
 {% endhint %}
 
 {% hint style="warning" %}
-Remember to create a [category ](../../ia.md)for the `/ia` GUI.
+Remember to create a [category](../../../plugin-usage/plugin-configuration/recipes-menu.md) for the `/ia` GUI.
 {% endhint %}
 
 ## Recipes permissions
@@ -64,5 +64,5 @@ recipes:
 ## Read more about permissions
 
 {% content-ref url="../../permissions.md" %}
-[permissions.md](../../permissions.md)
+[permissions.md](../../../plugin-usage/plugin-configuration/permissions.md)
 {% endcontent-ref %}

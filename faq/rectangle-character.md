@@ -11,7 +11,7 @@ icon: rectangle-vertical
 Your pack probably is not synced with the configurations.\
 Make sure to run `/iazip` after you added any new image and reupload the resourcepack if you are using Dropbox or similar hoting method.
 
-More info on how to host the resourcepack correctly: [resourcepack hosting](../plugin-usage/resourcepack-hosting/)
+More info on how to host the resourcepack correctly: [resourcepack hosting](../plugin-usage/plugin-configuration/resourcepack-hosting)
 {% endhint %}
 
 {% hint style="warning" %}

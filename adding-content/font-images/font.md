@@ -8,7 +8,7 @@ icon: font
 {% tab title="PNG (Simpler)" %}
 ## Example font
 
-![](<../../../.gitbook/assets/immagine (23).png>)
+![](<../../.gitbook/assets/immagine%20(23).png>)
 
 {% hint style="info" %}
 This font is made by Faithful team.
@@ -24,7 +24,7 @@ To this you have to:
 {% tab title="TTF" %}
 ## Example custom font
 
-![](<../../../.gitbook/assets/immagine (96).png>)
+![](<../../.gitbook/assets/immagine%20(96).png>)
 
 To this you have to:
 

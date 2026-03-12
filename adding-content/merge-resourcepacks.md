@@ -24,7 +24,7 @@ For example `merged_pack_1`: `ItemsAdder/contents/merged_pack_1/resourcepack/`
 ### Step 3
 
 Use the `/iazip` command to compress the ItemsAdder resourcepack.\
-(Make sure to follow the correct [hosting tutorial](resourcepack-hosting/) based on the hosting method you decided).
+(Make sure to follow the correct [hosting tutorial](../plugin-usage/plugin-configuration/resourcepack-hosting) based on the hosting method you decided).
 
 ### Step 4 (advanced users)
 

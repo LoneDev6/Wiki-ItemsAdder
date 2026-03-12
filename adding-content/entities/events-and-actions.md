@@ -59,7 +59,7 @@ Delay before executing this action.
 #### `flow`
 
 Advanced options to change the flow of actions for this event section.\
-Refer to the [VSCode extension](../../beginners/files-editor.md) to get more info.
+Refer to the [VSCode extension](../../plugin-usage/beginners/files-editor.md) to get more info.
 
 #### `permission`
 

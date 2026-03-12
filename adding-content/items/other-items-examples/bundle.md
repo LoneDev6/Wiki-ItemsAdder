@@ -20,4 +20,4 @@ You have to create another file with `_filled` suffix, in this example `bundle_t
 
 ## Result
 
-![](<../../../.gitbook/assets/image (200).png>)
+![](<../../../.gitbook/assets/image%20(200).png>)

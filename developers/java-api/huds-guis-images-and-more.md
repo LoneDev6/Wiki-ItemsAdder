@@ -31,8 +31,8 @@ Make sure that you don't have the permission `ia.user.hud.bypass.api.*` or `setF
 
 ## FAQ
 
-{% content-ref url="/broken/pages/-M6_byfVMLpPVrMLKgY5" %}
-[Broken link](/broken/pages/-M6_byfVMLpPVrMLKgY5)
+{% content-ref url="../../faq/i-cant-see-emoji-guis-huds-etc..md" %}
+[i-cant-see-emoji-guis-huds-etc..md](../../faq/i-cant-see-emoji-guis-huds-etc..md)
 {% endcontent-ref %}
 
 ## Get Emoji or GUI character

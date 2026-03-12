@@ -39,7 +39,7 @@ emotes:
 ### Limitations
 
 * Requires Minecraft 1.21.4 or greater
-* More info about emotes issues [here](../../../faq/emotes-issues.md)
+* More info about emotes issues [here](../../faq/emotes-issues.md)
 
 ## Method for 1.17 to 1.21.3 clients (old)
 
@@ -63,7 +63,7 @@ emotes:
 
 * Won't show the player armor equipment, only mainhand, offhand and helmet.
 * Works only on 1.17 to 1.21.3 clients
-* More info about emotes issues [here](../../../faq/emotes-issues.md)
+* More info about emotes issues [here](../../faq/emotes-issues.md)
 
 ## Installing the Blockbench extension
 
@@ -76,24 +76,24 @@ emotes:
 
 [Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
-![](<../../../.gitbook/assets/image (131).png>)
+![](<../../.gitbook/assets/image%20(131).png>)
 
 \
 [Download](https://github.com/LoneDev6/itemsadder-entity/releases) the extension file.
 
-<figure><img src="../../../.gitbook/assets/ia-entities-download-js.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ia-entities-download-js.png" alt=""><figcaption></figcaption></figure>
 
 Then open **Blockbench** and click on File -> Plugins.
 
-![](<../../../.gitbook/assets/image (183).png>)
+![](<../../.gitbook/assets/image%20(183).png>)
 
 Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
 
-![](<../../../.gitbook/assets/image (184).png>)
+![](<../../.gitbook/assets/image%20(184).png>)
 
 Press OK
 
-![](<../../../.gitbook/assets/image (152).png>)
+![](<../../.gitbook/assets/image%20(152).png>)
 
 ## Enabling emotes
 

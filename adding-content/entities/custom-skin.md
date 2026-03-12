@@ -8,7 +8,7 @@ icon: person-running
 
 You can get a [list](https://mineskin.org/gallery) of possible skins and even upload [your own](https://mineskin.org/)!
 
-![](<../../../.gitbook/assets/image (54).png>)
+![](<../../.gitbook/assets/image%20(54).png>)
 
 {% hint style="success" %}
 You don't need to run `/iazip`! These skins are loaded at runtime without any resourcepack download.

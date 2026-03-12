@@ -53,11 +53,11 @@ The only way to _"fix"_ this is by disabling the shaders themself or removing th
 
 {% tabs %}
 {% tab title="With Shaders on (Bug)" %}
-![shader bug](<../.gitbook/assets/image (75).png>)
+![shader bug](<../.gitbook/assets/image%20(75).png>)
 {% endtab %}
 
 {% tab title="With Shaders off (No Bug)" %}
-![no shader bug](<../.gitbook/assets/image (127).png>)
+![no shader bug](<../.gitbook/assets/image%20(127).png>)
 {% endtab %}
 {% endtabs %}
 

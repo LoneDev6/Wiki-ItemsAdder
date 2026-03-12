@@ -37,6 +37,6 @@ Examples:
 
 ## Creating custom animations
 
-{% content-ref url="/broken/pages/DygqxENHNHIU8sPlbpZS" %}
-[Broken link](/broken/pages/DygqxENHNHIU8sPlbpZS)
+{% content-ref url="../animations.md" %}
+[animations.md](../animations.md)
 {% endcontent-ref %}

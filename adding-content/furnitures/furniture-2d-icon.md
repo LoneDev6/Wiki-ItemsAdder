@@ -18,7 +18,7 @@ Refer to the [modern tutorial here](../items/item-properties/2d-icon.md).
 Create the 2D icon for the furniture
 
 {% hint style="info" %}
-Replace `myitems` with your own [namespace](../../beginners/configs-and-resourcepack.md#what-is-a-namespace).
+Replace `myitems` with your own [namespace](../../plugin-usage/beginners/configs-and-resourcepack.md#what-is-a-namespace).
 {% endhint %}
 
 ```yaml

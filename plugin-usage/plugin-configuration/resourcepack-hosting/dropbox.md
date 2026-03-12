@@ -12,11 +12,11 @@
 * **Drag and drop** **generated.zip** onto **DropBox** or copy paste the file to it from your server host.
 * Press **Share**.
 
-![](<../../.gitbook/assets/immagine (99).png>)
+![](<../../../.gitbook/assets/immagine%20(99).png>)
 
 * Press **Create**.
 
-![](<../../.gitbook/assets/immagine (41).png>)
+![](<../../../.gitbook/assets/immagine%20(41).png>)
 
 * Press **Copy link** (for example you will get `https://www.dropbox.com/blablabla?dl=1`)
 * Open `config.yml` of **ItemsAdder**.
@@ -56,5 +56,5 @@ Yea it is, that's why you should use the self host feature instead of **DropBox*
 ## Continue installation if you need
 
 {% content-ref url="../first-install.md" %}
-[first-install.md](../first-install.md)
+[first-install.md](../../../plugin-usage/first-install.md)
 {% endcontent-ref %}

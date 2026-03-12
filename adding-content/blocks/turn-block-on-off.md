@@ -95,7 +95,7 @@ Now create the off block. This block has an event listener on interaction that r
             decrement_durability: 0
 ```
 
-<figure><img src="../../../.gitbook/assets/image (278).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption></figcaption></figure>
 
 Now create the on block. This block has an event listener on interaction that replaces itself with the off block (that we created before).
 
@@ -119,4 +119,4 @@ As you can see I specified the `light_level: 15` property, to turn the light on.
             decrement_durability: 0
 ```
 
-<figure><img src="../../../.gitbook/assets/image (279).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (279).png" alt=""><figcaption></figcaption></figure>

@@ -19,13 +19,11 @@ Then change the skin using the **ItemsAdder** command:\
 Examples:
 
 * `/iaentity citizens playerskin LoneDev`
-* `/iaentity citizens playerskin` [`https://minesk.in/8b4bf861ea544edd8529707276d24853`](https://minesk.in/8b4bf861ea544edd8529707276d24853)
+* `/iaentity citizens playerskin https://minesk.in/8b4bf861ea544edd8529707276d24853`
 
 ### Optional: getting/uploading custom skins
 
-{% content-ref url="/broken/pages/DygqxENHNHIU8sPlbpZS" %}
-[Broken link](/broken/pages/DygqxENHNHIU8sPlbpZS)
-{% endcontent-ref %}
+You can get a [list](https://www.minecraftskins.com/) of possible skins and even upload [your own](https://mineskin.org)!
 
 ### Make head rotate
 

@@ -7,7 +7,7 @@ icon: sword
 {% hint style="danger" %}
 ### **Resourcepack hosting**
 
-Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\
+Remember to **decide** a [**resourcepack hosting**](../plugin-configuration/resourcepack-hosting) method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 {% endhint %}
 
@@ -47,7 +47,7 @@ In this case your **namespace** is `my_items` so you have to put it here:
 
 `contents/my_items/textures/item/mysword.png`
 
-![](../../.gitbook/assets/image_\(14\).png)
+![](../../.gitbook/assets/image_(14).png)
 
 ### Applying the texture file to your item
 
@@ -83,13 +83,13 @@ To do that you have to:
 * (if you're using **external-host** (**DropBox**) scroll down and follow the instructions)
 * get the item using `/iaget mysword`
 
-![](<../../.gitbook/assets/immagine (21).png>)
+![](<../../.gitbook/assets/immagine%20(21).png>)
 
-![](<../../.gitbook/assets/immagine (58).png>)
+![](<../../.gitbook/assets/immagine%20(58).png>)
 
 ## Resourcepack Hosting Tutorials
 
-{% content-ref url="../resourcepack-hosting/" %}
-[resourcepack-hosting](../resourcepack-hosting/)
+{% content-ref url="../plugin-configuration/resourcepack-hosting/" %}
+[resourcepack-hosting](../plugin-configuration/resourcepack-hosting)
 {% endcontent-ref %}
 

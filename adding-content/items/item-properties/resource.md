@@ -81,7 +81,7 @@ For example if you had this:
   },
 ```
 
-You have to change it to this (`your_namespace` is your [namespace](broken-reference/) folder):
+You have to change it to this (`your_namespace` is your namespace folder):
 
 ```yaml
 {

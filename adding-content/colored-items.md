@@ -11,7 +11,7 @@ This requires ItemsAdder 4.0.13 and Minecraft 1.21.4+ (both client and server).
 To create a colored item you have to use a base texture, for example something like the quartz texture: `minecraft:item/quartz`.\
 You can use any texture you want, in this case I use the quartz texture as it's white and already included in the game files.
 
-<figure><img src="../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
 
 Then specify the `color` attribute in the `graphics` properties. In this case I use `RED`.
 
@@ -34,7 +34,7 @@ items:
       hand_animation_on_swap: true
 ```
 
-<figure><img src="../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
 
 ### Chaging color during gameplay
 

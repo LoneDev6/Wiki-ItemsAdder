@@ -6,9 +6,9 @@ icon: bolt
 
 ## What are actions?
 
-Actions are what happens when an [event](../events/) is triggered.
+Actions are what happens when an [event](../events) is triggered.
 
-To read the list of available actions use the [official editor](../../../beginners/files-editor.md).
+To read the list of available actions use the [official editor](../../../../plugin-usage/beginners/files-editor.md).
 
 ## `events_settings`
 

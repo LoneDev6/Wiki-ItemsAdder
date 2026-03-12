@@ -11,7 +11,7 @@ This will make the game randomly decide a model variation for a particular block
 
 A vanilla example are flowers and **Lily Pad** that have different rotations but are the same block.
 
-<figure><img src="../../../.gitbook/assets/image (271).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (271).png" alt=""><figcaption></figcaption></figure>
 
 Example:
 

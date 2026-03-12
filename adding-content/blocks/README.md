@@ -152,11 +152,11 @@ Whitelist of tools that can break this block.
 
 ### `events_tools_blacklist`
 
-Blacklist of tools that cannot run events on this block[ (`placed_block.interact`)](item-properties/events/#list-of-events)
+Blacklist of tools that cannot run events on this block[ (`placed_block.interact`)](../items/item-properties/events/events-list.md)
 
 ### `events_tools_whitelist`
 
-Whitelist of tools that can run events on this block [(`placed_block.interact`)](item-properties/events/#list-of-events)
+Whitelist of tools that can run events on this block [(`placed_block.interact`)](../items/item-properties/events/events-list.md)
 
 ## Other options
 
@@ -277,7 +277,7 @@ items:
 ### Use the official files editor to read all the properties
 
 {% content-ref url="../beginners/files-editor.md" %}
-[files-editor.md](../beginners/files-editor.md)
+[files-editor.md](../../plugin-usage/beginners/files-editor.md)
 {% endcontent-ref %}
 
 ## Drop experience from block

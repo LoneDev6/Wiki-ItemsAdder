@@ -33,10 +33,10 @@ You can make the NPC look at nearby players by using this command, more info on 
 
 ### Done
 
-![](../../../.gitbook/assets/ezgif-2-31a4557026.webp)
+![](../../.gitbook/assets/ezgif-2-31a4557026.webp)
 
 ## Playing animation
 
 You can play an animation using this command: `/iaentity citizens <id|selected> anim play <animation>`
 
-![](../../../.gitbook/assets/ezgif.com-gif-maker.webp)
+![](../../.gitbook/assets/ezgif.com-gif-maker.webp)

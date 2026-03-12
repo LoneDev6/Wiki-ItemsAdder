@@ -4,8 +4,7 @@
 
 ### `block_trade_machine`
 
-Tells ItemsAdder that this item is a trade machine.
-\
+Tells ItemsAdder that this item is a trade machine.\
 You will be able to trade item with this machine like a villager
 
 #### Properties:

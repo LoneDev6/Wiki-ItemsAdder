@@ -58,7 +58,7 @@ Create the item texture and put it inside the folder:\
 
 <figure><img src="../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (211).png>)
+![](<../../.gitbook/assets/image%20(211).png>)
 
 ## Extra: Custom 3D helmet
 
@@ -152,7 +152,7 @@ items:
 
 </details>
 
-{% file src="../../.gitbook/assets/my_armor_tutorial (1).zip" %}
+{% file src="../.gitbook/assets/my_armor_tutorial (1).zip" %}
 
 ## Animated/emissive armors
 
@@ -348,7 +348,7 @@ items:
 
 </details>
 
-{% file src="../../.gitbook/assets/my_armor_tutorial_legacy_fix.zip" %}
+{% file src="../.gitbook/assets/my_armor_tutorial_legacy_fix.zip" %}
 
 ## Converting old armors to the new equipment tag
 
@@ -392,7 +392,7 @@ This is also useful as fallback for people who use custom shaders, which are not
 {% endhint %}
 
 {% hint style="warning" %}
-If you see **bugged** textures and you have **Optifine** installed please [read here](../../../faq/armors-issues/armors-textures-not-working-with-shaders-mod.md).
+If you see **bugged** textures and you have **Optifine** installed please [read here](../../faq/armors-issues/armors-textures-not-working-with-shaders-mod.md).
 {% endhint %}
 
 ### Creating the armor renderer
@@ -428,7 +428,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
 
 Now I create the two PNG files inside the `contents/my_items/textures/armor/my_armor/` folder.
 
-<figure><img src="../../../.gitbook/assets/armor_textures_preview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armor_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **HD armor textures**
@@ -486,22 +486,22 @@ In this example I created also a new folder called `my_armor` to better organize
 
 `contents/my_items/textures/item/my_armor/chestplate.png`
 
-![](../../../.gitbook/assets/chestplate_item_red.png)
+![](../../.gitbook/assets/chestplate_item_red.png)
 
-![](<../../../.gitbook/assets/image (211).png>)
+![](<../../.gitbook/assets/image%20(211).png>)
 
 ### Animated textures
 
 You can also create animated armors!
 
-![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1).gif>)
+![](<../../.gitbook/assets/ezgif-7-3b3a255fe802%20(1).gif>)
 
 To create an animated armor you have to create an image with all the animation frames.\
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](../../../.gitbook/assets/layer_1.png)
+![layer\_1](../../.gitbook/assets/layer_1.png)
 
-![layer\_2](../../../.gitbook/assets/layer_2.png)
+![layer\_2](../../.gitbook/assets/layer_2.png)
 
 Now let's edit the rendering properties to support the animation.
 
@@ -670,7 +670,7 @@ items:
 
 </details>
 
-{% file src="../../../.gitbook/assets/myarmor_example (1).zip" %}
+{% file src="../../.gitbook/assets/myarmor_example (1).zip" %}
 Extract the zip into the `contents` folder of ItemsAdder
 {% endfile %}
 
@@ -714,9 +714,9 @@ The `color` property is important, it's the color that the armor will have ingam
 
 Nothing more to do. You just created a simple armor without drawing any texture!
 
-<figure><img src="../../../.gitbook/assets/armor_items_preview_tutorial.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armor_items_preview_tutorial.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/armor_items_preview_tutorial_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/armor_items_preview_tutorial_2.png" alt=""><figcaption></figcaption></figure>
 
 ## Full configuration from the previous example
 
@@ -794,7 +794,7 @@ items:
 
 </details>
 
-{% file src="../../../.gitbook/assets/myarmor_example_simple.zip" %}
+{% file src="../../.gitbook/assets/myarmor_example_simple.zip" %}
 Extract the zip into the `contents` folder of ItemsAdder
 {% endfile %}
 {% endtab %}

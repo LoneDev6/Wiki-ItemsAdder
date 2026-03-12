@@ -6,15 +6,15 @@
 
 ### Step 1
 
-![](<../../.gitbook/assets/image (65).png>)
+![](<../../../.gitbook/assets/image%20(65).png>)
 
 ### Step 2
 
-![](<../../.gitbook/assets/image (208).png>)
+![](<../../../.gitbook/assets/image%20(208).png>)
 
 ### Step 3
 
-![](<../../.gitbook/assets/image (116).png>)
+![](<../../../.gitbook/assets/image%20(116).png>)
 
 ### Step 4
 
@@ -44,5 +44,5 @@ This can cause your players to be stuck on login phase if the URL is not valid o
 ## Continue installation if you need
 
 {% content-ref url="../first-install.md" %}
-[first-install.md](../first-install.md)
+[first-install.md](../../first-install.md)
 {% endcontent-ref %}

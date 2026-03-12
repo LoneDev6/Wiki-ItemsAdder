@@ -121,24 +121,24 @@ Utility methods to save persistent data and read it later.
 These methods support `ItemStack`, `CustomItem`, `Entity` and `Block`.
 
 ```java
-hasData(var param, String namespace, String key)
-removeData(var param, String namespace, String key)
-getDataByte(var param, String namespace, String key, byte def)
-setDataByte(var param, String namespace, String key, byte value)
-getDataShort(var param, String namespace, String key, short def)
-setDataShort(var param, String namespace, String key, short value)
-getDataInt(var param, String namespace, String key, int def)
-setDataInt(var param, String namespace, String key, int value)
-getDataLong(var param, String namespace, String key, long def)
-setDataLong(var param, String namespace, String key, long value)
-getDataFloat(var param, String namespace, String key, float def)
-setDataFloat(var param, String namespace, String key, float value)
-getDataDouble(var param, String namespace, String key, double def)
-setDataDouble(var param, String namespace, String key, double value)
-getDataBool(var param, String namespace, String key, boolean def)
-setDataBool(var param, String namespace, String key, boolean value)
-getDataString(var param, String namespace, String key, String def)
-setDataString(var param, String namespace, String key, String value)
+hasData(var param, String namespace, String key);
+removeData(var param, String namespace, String key);
+getDataByte(var param, String namespace, String key, byte def);
+setDataByte(var param, String namespace, String key, byte value);
+getDataShort(var param, String namespace, String key, short def);
+setDataShort(var param, String namespace, String key, short value);
+getDataInt(var param, String namespace, String key, int def);
+setDataInt(var param, String namespace, String key, int value);
+getDataLong(var param, String namespace, String key, long def);
+setDataLong(var param, String namespace, String key, long value);
+getDataFloat(var param, String namespace, String key, float def);
+setDataFloat(var param, String namespace, String key, float value);
+getDataDouble(var param, String namespace, String key, double def);
+setDataDouble(var param, String namespace, String key, double value);
+getDataBool(var param, String namespace, String key, boolean def);
+setDataBool(var param, String namespace, String key, boolean value);
+getDataString(var param, String namespace, String key, String def);
+setDataString(var param, String namespace, String key, String value);
 ```
 
 #### Examples

@@ -21,6 +21,6 @@ This doesn't happen if you have different player heads in front of you or if you
 The only way to fix this is to disable emotes system in `config.yml` of **ItemsAdder**.\
 Don't forget to regenerate the resourcepack using `/iazip`.
 
-![](<../.gitbook/assets/image (52).png>)
+![](<../.gitbook/assets/image%20(52).png>)
 
 {% embed url="https://youtu.be/Gn7uzcSmjmU" %}

@@ -12,8 +12,8 @@ In order to avoid these issues you should avoid opening many custom projects in 
 
 ## "Scale out of bounds" error
 
-![](<../.gitbook/assets/image (104).png>)
+![](<../.gitbook/assets/image%20(104).png>)
 
-In order to fix this you have to open the **ItemsAdder Entity** settings and set [Max Scaling](/broken/pages/eI0FcLKJ0p1NneVSVeDP#configuring-the-model).
+In order to fix this you have to open the **ItemsAdder Entity** settings and set [Max Scaling](../adding-content/entities/advanced-method.md#configuring-the-model).
 
-![](<../.gitbook/assets/image (83).png>)
+![](<../.gitbook/assets/image%20(83).png>)

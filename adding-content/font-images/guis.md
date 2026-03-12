@@ -16,7 +16,7 @@ If you are using a plugin like ChestCommands you have to name the GUI like this:
 
 This tells ItemsAdder to replace the GUI name with a `-16` offset special character that will shift the `blank_menu` texture of 16 pixels back.
 
-![](<../../.gitbook/assets/immagine (107).png>)
+![](<../../.gitbook/assets/immagine%20(107).png>)
 
 ## Example addon
 
@@ -27,7 +27,7 @@ Here you can get an addon example\
 
 ## Example content created by users (Copyright by Gust)
 
-![](<../../.gitbook/assets/immagine (102).png>)
+![](<../../.gitbook/assets/immagine%20(102).png>)
 
 {% hint style="warning" %}
 **I'm not the owner of this resource**

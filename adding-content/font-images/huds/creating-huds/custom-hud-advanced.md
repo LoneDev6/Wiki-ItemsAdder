@@ -13,7 +13,7 @@ This special type gives you total control over how the HUD will work. No image i
 {% hint style="warning" %}
 Warning:
 
-This type of HUD requires you to use the [Java API](../../../../developers/java-api/) and know how to code in Java.
+This type of HUD requires you to use the [Java API](../../../../developers/java-api) and know how to code in Java.
 {% endhint %}
 
 {% content-ref url="../../../../developers/java-api/huds-guis-images-and-more.md" %}

@@ -13,7 +13,7 @@ icon: eye-slash
     fix_force_unicode_font_images: true
     ```
 * Run `/iazip` to regenerate your resourcepack
-* Follow the [hosting method tutorial](../plugin-usage/resourcepack-hosting/) you decided during plugin installation
+* Follow the [hosting method tutorial](../plugin-usage/plugin-configuration/resourcepack-hosting) you decided during plugin installation
 
 <details>
 
@@ -42,7 +42,7 @@ and **set this** in `config.yml`
 This allows you to set **Force Unicode Font: OFF** but still have the thin font enabled.
 
 Remember, after this change you have to regenerate your `generated.zip` file.\
-Check [Resourcepack tutorials](../plugin-usage/resourcepack-hosting/)
+Check [Resourcepack tutorials](../plugin-usage/plugin-configuration/resourcepack-hosting)
 
 ### This is the result
 

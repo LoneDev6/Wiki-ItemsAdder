@@ -11,8 +11,8 @@ icon: wand-magic-sparkles
 To create advanced furniture you have to use the custom entities feature of ItemsAdder.\
 Please read the tutorial on how to create custom entities before continuing.
 
-{% content-ref url="mobs/" %}
-[mobs](mobs/)
+{% content-ref url="../entities/" %}
+[entities](../entities)
 {% endcontent-ref %}
 
 {% hint style="danger" %}

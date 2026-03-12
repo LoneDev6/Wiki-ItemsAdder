@@ -9,7 +9,7 @@ If you see dotted and not smooth textures in far away it's a common mistake of r
 Minecraft has a bug that disables mipmap if you set textures which their size is not a power of 2!
 {% endhint %}
 
-![LEFT: without mipmap. RIGHT: with mipmap](<../.gitbook/assets/image (129).png>)
+![LEFT: without mipmap. RIGHT: with mipmap](<../.gitbook/assets/image%20(129).png>)
 
 ## **How to fix?**
 

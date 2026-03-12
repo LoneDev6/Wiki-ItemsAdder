@@ -52,7 +52,7 @@ Content <mark style="color:red;">**WILL NOT SHOW CORRECTLY**</mark> if you won't
 {% endhint %}
 
 Before using the plugin you have to decide the resourcepack hosting method.\
-Read [this tutorial](resourcepack-hosting/) to decide the hosting method for the resourcepack.\
+Read [this tutorial](plugin-configuration/resourcepack-hosting) to decide the hosting method for the resourcepack.\
 The best method is `self-host`.
 {% endstep %}
 
@@ -70,7 +70,7 @@ It's not automatically included in the downloaded plugin because some people mig
 
 * Extract the content into the `ItemsAdder` folder and overwrite the files if asked.
 * Run the `/iazip` command.
-* Follow your [hosting method](resourcepack-hosting/) if you're not using **self-host**.
+* Follow your [hosting method](plugin-configuration/resourcepack-hosting) if you're not using **self-host**.
 {% endstep %}
 
 {% step %}

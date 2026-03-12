@@ -38,7 +38,7 @@ custom_player:
 
 In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
 
-![](<../../../../.gitbook/assets/image (111).png>)
+![](<../../../.gitbook/assets/image%20(111).png>)
 
 ### Custom skin
 
@@ -58,4 +58,4 @@ In this example I'm changing the Mythicmobs mob skin to **Notch**'s skin.
 
 ### Done
 
-![](<../../../../.gitbook/assets/ezgif.com-gif-maker (1).webp>)
+![](<../../../.gitbook/assets/ezgif.com-gif-maker%20(1).webp>)

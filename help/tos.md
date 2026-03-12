@@ -15,7 +15,7 @@ Before Buying Remember:
 * ⛔ Before asking for support, please read the tutorials of this wiki.
 * ⛔ You must have some knowledge on how to create/manage/merge vanilla Minecraft resource packs as this plugin uses a custom-made and modified resource pack to show custom textures/models.\
   Please if you have no knowledge about resource packs don't buy the plugin!
-* ⛔ It's impossible to write a complete list of compatible/incompatible plugins without testing every single plugin on the planet. If the plugin doesn't work with your server setup don't ask for a refund but [report it](tos.md#bugs-and-issues-and-support) and I'll try to find a solution.
+* ⛔ It's impossible to write a complete list of compatible/incompatible plugins without testing every single plugin on the planet. If the plugin doesn't work with your server setup don't ask for a refund but [report it](tos.md#bugs--issues--support) and I'll try to find a solution.
 * ⛔ [Not compatible with some plugins](https://itemsadder.devs.beer/compatibility-with-other-plugins/not-compatible)
 {% endhint %}
 
@@ -29,7 +29,7 @@ Contact the seller using the Discord or via email before opening an official dis
 ### Resource Pack
 
 This plugin **requires** your **users** to **download** a **resource pack** (which is sent automatically on join) one time.\
-This Plugin may not work with plugins that are using server texture packs, [read this to see if your plugin is compatible](../compatibility-with-other-plugins/).\
+This Plugin may not work with plugins that are using server texture packs, [read this to see if your plugin is compatible](../compatibility-with-other-plugins).\
 There is no Minecraft plugin which allows you to load custom assets without resource packs, it's not an ItemsAdder limitation, that's how the game works.
 
 ### Server Software
@@ -80,7 +80,7 @@ You won't get support if your help request doesn't have enough information.
 
 You can sell **custom packs, textures, and configs...** compatible with this plugin or plugin presets.\
 [A donation ](http://a.devs.beer/lonedevdonate)is appreciated if you earn a lot from them.\
-Make sure to read the [addons creation policy](tos.md#addon-creation-policy).
+Make sure to read the [addons creation policy](tos.md#-addon-creation-policy).
 
 ### Creating unique Addons
 

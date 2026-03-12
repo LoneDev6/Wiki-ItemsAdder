@@ -7,7 +7,7 @@ icon: italic
 
 {% hint style="warning" %}
 * **Requires Minecraft 1.17+ clients**
-* Doesn't work in [Minecraft language files](/broken/pages/-MT1a_gTKtJE5YCsGgBM) (game limitation)
+* Doesn't work in [Minecraft language files](../plugin-usage/plugin-configuration/languages.md) (game limitation)
 * Edits the `rendertype_text` shader files
 {% endhint %}
 
@@ -71,9 +71,9 @@ in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON compone
 
 ![](../.gitbook/assets/rainbow.gif)
 
-![](<../.gitbook/assets/immagine (4).png>)
+![](<../.gitbook/assets/immagine%20(4).png>)
 
-![](<../.gitbook/assets/immagine (14).png>)
+![](<../.gitbook/assets/immagine%20(14).png>)
 
 ![](../.gitbook/assets/rainbow_item.gif)
 
@@ -136,7 +136,7 @@ Usage: `<b text>`
 
 ## How to create animated prefix (Luckperms)
 
-![](<../.gitbook/assets/immagine (53).png>)
+![](<../.gitbook/assets/immagine%20(53).png>)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 

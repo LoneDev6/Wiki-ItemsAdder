@@ -20,7 +20,7 @@ More info [here](../../adding-content/items/armors.md).
 **Note:** this fix requires you to have **Optifine** or a **CIT mod** equivalent (like **CIT Resewn**) installed in your game.
 
 If you see broken textures make sure you are using ItemsAdder 3.0.3 or a more recent version.\
-Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
+Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../../plugin-usage/plugin-configuration/resourcepack-hosting) if needed).
 {% endhint %}
 
 {% hint style="danger" %}

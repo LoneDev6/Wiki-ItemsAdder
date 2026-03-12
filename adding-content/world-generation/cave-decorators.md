@@ -10,7 +10,7 @@ With ItemsAdder you can generate decorations in the world caves to make your ser
 
 For example you can make new mushrooms, new little plants, rocks and decorations.
 
-![](<../../.gitbook/assets/image (81).png>)
+![](<../../.gitbook/assets/image%20(81).png>)
 
 ## Creating a Cave Populator
 
@@ -73,6 +73,6 @@ As you can see I set some properties:
 
 Now you just have to create the block following the tutorial. You can use `REAL_NOTE`, `REAL_WIRE` `REAL_TRANSPARENT` and `REAL` blocks, depends on your needs.
 
-{% content-ref url="../beginners/my-first-block.md" %}
-[my-first-block.md](../beginners/my-first-block.md)
+{% content-ref url="../../plugin-usage/beginners/my-first-block.md" %}
+[my-first-block.md](../../plugin-usage/beginners/my-first-block.md)
 {% endcontent-ref %}

@@ -14,7 +14,7 @@
 * run `/meg reload` to generate the **ModelEngine** resourcepack
 * open the `plugins/ModelEngine/resource_pack/assets/` folder
 * copy `assets` folder inside `plugins/ItemsAdder/contents/modelengine/resourcepack/` folder
-* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed)
+* Run `/iazip` (and follow the [hosting tutorial](../../plugin-usage/plugin-configuration/resourcepack-hosting) if needed)
 
 </details>
 
@@ -27,7 +27,7 @@
 ```
 
 * run `/meg reload` to generate the **ModelEngine** resourcepack.
-* `/iazip` (and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/) if needed).
+* `/iazip` (and follow the [hosting tutorial](../../plugin-usage/plugin-configuration/resourcepack-hosting) if needed).
 
 ## Differences between ItemsAdder and ModelEngine
 

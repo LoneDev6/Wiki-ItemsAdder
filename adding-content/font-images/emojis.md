@@ -53,17 +53,17 @@ I cannot fix that issue, it's a **Minecraft** limitation.
 
 ## In-game view
 
-![](<../../.gitbook/assets/immagine (116) (3).png>)
+![](<../../.gitbook/assets/immagine%20(116)%20(3).png>)
 
 ### Using the /e useful suggestions
 
 Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
 
-![](<../../.gitbook/assets/immagine (49).png>)
+![](<../../.gitbook/assets/immagine%20(49).png>)
 
-![](<../../.gitbook/assets/immagine (46).png>)
+![](<../../.gitbook/assets/immagine%20(46).png>)
 
-![](<../../.gitbook/assets/immagine (68).png>)
+![](<../../.gitbook/assets/immagine%20(68).png>)
 
 ### Using the tab autocomplete in chat
 
@@ -112,7 +112,7 @@ font_images:
 {% hint style="info" %}
 Note: the `\n` part is important in order to match the big emoji image height, otherwise the tooltip will be too short.
 
-![](<../../.gitbook/assets/image (274).png>)
+![](<../../.gitbook/assets/image%20(274).png>)
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (272).png" alt=""><figcaption></figcaption></figure>

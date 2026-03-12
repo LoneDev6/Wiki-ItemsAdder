@@ -6,7 +6,7 @@ icon: person-running-fast
 
 ## What are behaviours?
 
-To read the list of available behaviours use the [official editor](../../../beginners/files-editor.md).
+To read the list of available behaviours use the [official editor](../../../../plugin-usage/beginners/files-editor.md).
 
 Behaviours are an **already coded** set of **actions** the item will do and which are **not vanilla**.\
 These **behaviours** are already included in the plugin and will allow you to add some already coded functionality to your item.

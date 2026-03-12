@@ -26,7 +26,7 @@ Thanks a lot to [LobFile](https://lobfile.com/), which provides us their platfor
 
 Depends.
 
-It's better to use [self-host](self-hosting.md) if you're working on the resourcepack and you have to continuously run `/iazip`, to avoid losing time (read more [here](../beginners/fast-resourcepack-tips.md)).
+It's better to use [self-host](self-hosting.md) if you're working on the resourcepack and you have to continuously run `/iazip`, to avoid losing time (read more [here](../../beginners/fast-resourcepack-tips.md)).
 
 When you've finished working on the pack you can safely start using this other hosting feature instead of `self-host`, in this case **LobFile**.\
 This will make your server traffic lower as the resourcepack won't be hosted on your server anymore.\
@@ -42,13 +42,13 @@ Create an account on [LobFile here](https://lobfile.com/sign-up).
 
 Open your [account settings](https://lobfile.com/dashboard/general) and enable _**"Continuous Uploading"**_
 
-<figure><img src="../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3
 
 On the [Account Info](https://lobfile.com/dashboard/account-info) dashboard, click on your API key to copy it to your clipboard.
 
-<figure><img src="../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4
 

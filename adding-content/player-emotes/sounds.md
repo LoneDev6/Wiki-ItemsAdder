@@ -2,19 +2,19 @@
 
 Switch to "**Animate**" view.
 
-![](<../../../.gitbook/assets/image (173).png>)
+![](<../../.gitbook/assets/image%20(173).png>)
 
 Select one of your animations.
 
-![](<../../../.gitbook/assets/image (120).png>)
+![](<../../.gitbook/assets/image%20(120).png>)
 
 Select the magic wand icon "**Animate Effects**"
 
-![](<../../../.gitbook/assets/image (195).png>)
+![](<../../.gitbook/assets/image%20(195).png>)
 
 Click on the **+** icon near "**Sound**" effect type to create a new particle keyframe.
 
-![](<../../../.gitbook/assets/image (114).png>)
+![](<../../.gitbook/assets/image%20(114).png>)
 
 Edit the values on the "**Keyframe**" panel.
 
@@ -22,4 +22,4 @@ Edit the values on the "**Keyframe**" panel.
 * Volume: the volume of the sound.
 * Pitch: the pitch of the sound.<br>
 
-![](<../../../.gitbook/assets/image (53).png>)
+![](<../../.gitbook/assets/image%20(53).png>)

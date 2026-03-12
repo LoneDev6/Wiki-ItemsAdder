@@ -8,11 +8,11 @@ icon: expand-wide
 
 {% tabs %}
 {% tab title="After" %}
-![With ItemsAdder](<../.gitbook/assets/immagine (54).png>)
+![With ItemsAdder](<../.gitbook/assets/immagine%20(54).png>)
 {% endtab %}
 
 {% tab title="Before" %}
-![Without ItemsAdder](<../.gitbook/assets/immagine (93).png>)
+![Without ItemsAdder](<../.gitbook/assets/immagine%20(93).png>)
 {% endtab %}
 {% endtabs %}
 
