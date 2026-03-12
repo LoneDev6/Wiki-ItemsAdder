@@ -1,6 +1,6 @@
 ---
 description: How to install the plugin
-icon: gear
+icon: warning
 ---
 
 # First Install

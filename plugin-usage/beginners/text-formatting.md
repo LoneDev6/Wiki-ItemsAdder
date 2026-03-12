@@ -58,10 +58,11 @@ items:
 ### Component
 
 {% embed url="https://minecraft.tools/en/json_text.php" %}
+{% embed url="https://www.gamergeeks.net/apps/minecraft/raw-json-text-format-generator" %}
 
 ```yaml
-items:  
-  custom_nbt_item_display_name_component:
+items:
+  test_emerald:
     display_name: '{"text\":"TEST", "font": "alt"}'
     resource:
       generate: false
@@ -75,12 +76,11 @@ items:
 
 ```yaml
 items:
-  custom_nbt_item_display_name_classic:
+  test_emerald:
     enabled: true
     display_name: '&6TEST'
     resource:
       generate: false
       model_path: minecraft:item/emerald
       material: PAPER
-
 ```
