@@ -136,7 +136,7 @@ This is an approximation problem I cannot fix.
 You need to specify the **GUI image name** in the name of the GUI\
 `title: :myimage: My Custom GUI` which can be colored by the custom menu plugin automatically. Be sure to add `&f` before doing :myimage: in the GUI.
 {% endtab %}
-{% tab title="Advanced (Experts Users Only)" %}
+{% tab title="Advanced (Expert Users Only)" %}
 # Font Images - Advanced
 
 {% hint style="warning" %}
