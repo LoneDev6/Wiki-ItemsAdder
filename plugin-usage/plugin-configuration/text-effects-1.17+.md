@@ -7,7 +7,7 @@ icon: italic
 
 {% hint style="warning" %}
 * **Requires Minecraft 1.17+ clients**
-* Doesn't work in [Minecraft language files](../plugin-usage/plugin-configuration/languages.md) (game limitation)
+* Doesn't work in [Minecraft language files](languages.md) (game limitation)
 * Edits the `rendertype_text` shader files
 {% endhint %}
 
@@ -56,7 +56,7 @@ You also have to give the permissions to each player.
 
 Remove background
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 Permission: `ia.user.text_effect.use.noshadow`\
 Usage: `<noshadow text>`
@@ -69,54 +69,54 @@ in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON compone
 
 ### Rainbow
 
-![](../.gitbook/assets/rainbow.gif)
+![](../../.gitbook/assets/rainbow.gif)
 
-![](<../.gitbook/assets/immagine%20(4).png>)
+![](<../../.gitbook/assets/immagine%20(4).png>)
 
-![](<../.gitbook/assets/immagine%20(14).png>)
+![](<../../.gitbook/assets/immagine%20(14).png>)
 
-![](../.gitbook/assets/rainbow_item.gif)
+![](../../.gitbook/assets/rainbow_item.gif)
 
 Permission: `ia.user.text_effect.use.r`\
 Usage: `<r text>`
 
 ### Wobble
 
-![](../.gitbook/assets/wobble.gif)
+![](../../.gitbook/assets/wobble.gif)
 
-![](../.gitbook/assets/wobble_item.gif)
+![](../../.gitbook/assets/wobble_item.gif)
 
 Permission: `ia.user.text_effect.use.w`\
 Usage: `<w text>`
 
 ### Jump
 
-![](../.gitbook/assets/jump_chat.gif)
+![](../../.gitbook/assets/jump_chat.gif)
 
-![](../.gitbook/assets/jump.gif)
+![](../../.gitbook/assets/jump.gif)
 
-![](../.gitbook/assets/jump_boss.gif)
+![](../../.gitbook/assets/jump_boss.gif)
 
 Permission: `ia.user.text_effect.use.j`\
 Usage: `<j text>`
 
 ### Rainbow + Wobble
 
-![](../.gitbook/assets/rw_chat.gif)
+![](../../.gitbook/assets/rw_chat.gif)
 
 Permission: `ia.user.text_effect.use.rw`\
 Usage: `<rw text>`
 
 ### Rainbow + Jump
 
-![](../.gitbook/assets/rj.gif)
+![](../../.gitbook/assets/rj.gif)
 
 Permission: `ia.user.text_effect.use.rj`\
 Usage: `<rj text>`
 
 ### Blinking
 
-<figure><img src="../.gitbook/assets/blinking.webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/blinking.webp" alt=""><figcaption></figcaption></figure>
 
 Permission: `ia.user.text_effect.use.b`\
 Usage: `<b text>`
@@ -132,15 +132,15 @@ Usage: `<b text>`
 * Prefix-Suffix (Luckperms for example)
 * _More soon...._
 
-![](../.gitbook/assets/rainbow_wobble_lore.gif)
+![](../../.gitbook/assets/rainbow_wobble_lore.gif)
 
 ## How to create animated prefix (Luckperms)
 
-![](<../.gitbook/assets/immagine%20(53).png>)
+![](<../../.gitbook/assets/immagine%20(53).png>)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 
-![](../.gitbook/assets/prefix.gif)
+![](../../.gitbook/assets/prefix.gif)
 
 Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
 

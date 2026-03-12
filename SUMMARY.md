@@ -160,8 +160,8 @@
   * [Languages](plugin-usage/plugin-configuration/languages.md)
   * [Recipes Menu](plugin-usage/plugin-configuration/recipes-menu.md)
   * [Resourcepack Prompt Message](plugin-usage/plugin-configuration/resourcepack-prompt-message-1.17+.md)
-* [Text Effects](plugin-usage/text-effects-1.17+.md)
-* [Items Updater](plugin-usage/items-updater.md)
+  * [Text Effects](plugin-usage/plugin-configuration/text-effects-1.17+.md)
+  * [Items Updater](plugin-usage/plugin-configuration/items-updater.md)
 
 ## Adding Content
 
