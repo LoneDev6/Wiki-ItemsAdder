@@ -17,10 +17,6 @@ Some pages in this website may contain affiliate links, meaning I get a commissi
 [first-install.md](plugin-usage/first-install.md)
 {% endcontent-ref %}
 
-{% content-ref url="adding-content/" %}
-[adding-content](adding-content)
-{% endcontent-ref %}
-
 ### 🌐Social Media
 
 * [Patreon](http://patreon.com/lonedev)
