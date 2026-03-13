@@ -4,10 +4,6 @@ icon: terminal
 
 # Denizen API
 
-{% hint style="warning" %}
-Needs ItemsAdder 3.2.4+
-{% endhint %}
-
 ## Download latest build
 
 {% embed url="https://ci.citizensnpcs.co/job/Denizen/" %}

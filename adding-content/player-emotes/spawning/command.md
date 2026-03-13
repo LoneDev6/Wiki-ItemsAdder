@@ -1,7 +1,7 @@
 # Command
 
 {% hint style="warning" %}
-This method is in beta and it's available only on **ItemsAdder v3.0.5+** and requires **Minecraft 1.17+**
+This method is in beta and it's available only on **Minecraft 1.17+**
 {% endhint %}
 
 ## Spawning a custom player entity in the world

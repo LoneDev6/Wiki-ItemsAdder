@@ -10,29 +10,6 @@ If you are on 1.21.2 and greater (both server and clients) you can use the new a
 More info [here](../../adding-content/items/armors.md).
 {% endhint %}
 
-<details>
-
-<summary>Old Fix Information</summary>
-
-{% hint style="warning" %}
-**This bug has a workaround fix in ItemsAdder 3.0.3**
-
-**Note:** this fix requires you to have **Optifine** or a **CIT mod** equivalent (like **CIT Resewn**) installed in your game.
-
-If you see broken textures make sure you are using ItemsAdder 3.0.3 or a more recent version.\
-Also make sure you regenerated your resourcepack using `/iazip` (and read the [hosting tutorial](../../plugin-usage/plugin-configuration/resourcepack-hosting) if needed).
-{% endhint %}
-
-{% hint style="danger" %}
-**Optifine** 1.19.3 and 1.19.4 are currently bugged and I cannot do anything about that.\
-They don't support my fix.\
-We have to wait the developer of **Optifine** to fix that issue.
-
-This is not my fault.
-{% endhint %}
-
-</details>
-
 ![](../../.gitbook/assets/armor_shader_bug_1.png)
 
 ![](../../.gitbook/assets/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)

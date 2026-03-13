@@ -4,10 +4,6 @@
 
 ## Adding compatibility
 
-{% hint style="warning" %}
-Update ItemsAdder to 3.3.0+
-{% endhint %}
-
 Create a new folder: `ItemsAdder/contents/space/resourcepack/`
 
 Extract the Space plugin resourcepack in the previous folder so that you have something like that:\

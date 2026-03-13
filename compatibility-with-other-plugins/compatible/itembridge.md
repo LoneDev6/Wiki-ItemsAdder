@@ -2,10 +2,6 @@
 
 ## [Download here](https://www.spigotmc.org/resources/77080/)
 
-{% hint style="warning" %}
-You need **ItemsAdder** 3.1.0+ and **ItemBridge** 3.1+.
-{% endhint %}
-
 ## How to get an ItemsAdder item using ItemBridge
 
 To get a custom item using **Mimic** you have to use this command:
