@@ -17,7 +17,7 @@ Create a new bone.
 
 ![](<../../../.gitbook/assets/image (207).png>)
 
-Rightclick on the bone and select "**Bone Config**"
+Right click on the bone and select "**Bone Config**"
 
 ![](<../../../.gitbook/assets/image (188).png>)
 
@@ -25,7 +25,7 @@ Check the "**Mount**" option and press "**Confirm**".
 
 ![](<../../../.gitbook/assets/image (157).png>)
 
-Do this for each sit you want to create.
+Do this for each seat you want to create.
 
 ![](<../../../.gitbook/assets/image (68).png>)
 
@@ -35,7 +35,7 @@ Do this for each sit you want to create.
 
 ![](<../../../.gitbook/assets/image (99).png>)
 
-Now you have to export the model as usual.
+Now you have to export your model as usual.
 
 {% content-ref url="advanced-method.md" %}
 [advanced-method.md](advanced-method.md)
@@ -43,8 +43,8 @@ Now you have to export the model as usual.
 
 ## How to mount
 
-Just right-click the entity and drive it.
+Just right-click the entity and control it.
 
 {% hint style="warning" %}
-Only the first player who sits on the vehicle can drive it.
+Only the first player who sits on the entity can control it.
 {% endhint %}
