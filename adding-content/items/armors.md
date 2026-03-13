@@ -6,11 +6,6 @@ icon: helmet-battle
 
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
-{% hint style="danger" %}
-Available on ItemsAdder 4.0.9 or greater only.\
-Requires Minecraft client and server 1.21.2 or greater.
-{% endhint %}
-
 ## Wear texture configuration
 
 ```yaml
@@ -34,10 +29,9 @@ In this example I will show how to create a **chestplate**, the same can be done
 ```yaml
   my_armor_1_chestplate:
     name: My Armor 1 Chestplate
-    resource:
-      generate: true
+    material: IRON_CHESTPLATE
+    graphics:
       texture: item/my_armor_1_chestplate
-      material: IRON_CHESTPLATE
     durability:
       max_durability: 165
     equipment:
@@ -67,10 +61,9 @@ Currently only helmets support 3D models due to a Minecraft limitation I cannot 
 ```yaml
   my_armor_1_helmet_3d:
     name: My Armor 1 Helmet 3D
-    resource:
-      generate: false
-      model_path: armor/my_armor_1_helmet_3d
-      material: IRON_HELMET
+    material: IRON_HELMET
+    graphics:
+      model: armor/my_armor_1_helmet_3d
     durability:
       max_durability: 165
     equipment:
@@ -101,10 +94,9 @@ equipments:
 items:
   my_armor_1_helmet:
     name: My Armor 1 Helmet
-    resource:
-      generate: true
+    material: IRON_HELMET
+    graphics:
       texture: item/my_armor_1_helmet
-      material: IRON_HELMET
     durability:
       max_durability: 165
     equipment:
@@ -113,10 +105,9 @@ items:
         armor: 2.5
   my_armor_1_chestplate:
     name: My Armor 1 Chestplate
-    resource:
-      generate: true
+    material: IRON_CHESTPLATE
+    graphics:
       texture: item/my_armor_1_chestplate
-      material: IRON_CHESTPLATE
     durability:
       max_durability: 165
     equipment:
@@ -125,10 +116,9 @@ items:
         armor: 1
   my_armor_1_leggings:
     name: My Armor 1 Leggings
-    resource:
-      generate: true
+    material: IRON_LEGGINGS
+    graphics:
       texture: item/my_armor_1_leggings
-      material: IRON_LEGGINGS
     durability:
       max_durability: 165
     equipment:
@@ -137,10 +127,9 @@ items:
         armor: 2.5
   my_armor_1_boots:
     name: My Armor 1 Boots
-    resource:
-      generate: true
+    material: IRON_BOOTS
+    graphics:
       texture: item/my_armor_1_boots
-      material: IRON_BOOTS
     durability:
       max_durability: 165
     equipment:
@@ -163,209 +152,9 @@ To create animated or/and emissive textures you have to use the Old Textured met
 
 I do not advice to use HD textures since this is a blocky game, but can create HD high resolution, but make sure they have the same proportions of the original vanilla armors layers textures.
 
-<mark style="color:red;">Size must be a power of 2</mark>, for example: 64x32, 128x64, 256x128, 512x256.
-
-## Multi-version compatibility
-
-{% hint style="warning" %}
-This custom armors feature is only available on 1.21.2 and greater clients and servers.
-
-There is a simple solution if your server uses **ViaVersion** or similar, but has some downsides and it should be considered as a legacy feature. I discourage using that feature.
-{% endhint %}
-
-You have to create both properties `equipments` and `legacy_armor_renderings`.
-
-* `legacy_armor_renderings` is the old method (uses a custom shader).
-* `equipments` is the new method (uses the vanilla equipment attribute).
-
-```yaml
-info:
-  namespace: my_armor_tutorial_legacy_fix
-equipments:
-  my_armor_legacy_fix_1:
-    type: armor
-    layer_1: armor/my_armor_legacy_fix_1/layer_1
-    layer_2: armor/my_armor_legacy_fix_1/layer_2
-legacy_armor_renderings:
-  my_armor_legacy_fix_1_shader:
-    layer_1: armor/my_armor_legacy_fix_1/layer_1
-    layer_2: armor/my_armor_legacy_fix_1/layer_2
-    color: "570e11"
-```
-
-You have to set material to `LEATHER`, for each piece, in this case `LEATHER_CHESTPLATE`.
-
-You then have to set the `equipment.legacy_armor_rendering_id` and `equipment.id` to the previously created properties.
-
-```yaml
-  my_armor_legacy_fix_1_chestplate:
-    name: My Armor 1 Chestplate Legacy Fix
-    resource:
-      generate: true
-      texture: item/my_armor_legacy_fix_1_chestplate
-      material: LEATHER_CHESTPLATE
-    durability:
-      max_durability: 165
-    equipment:
-      id: my_armor_legacy_fix_1
-      legacy_armor_rendering_id: my_armor_legacy_fix_1_shader
-      slot_attribute_modifiers:
-        armor: 1
-```
-
-### Extra: Custom 3D helmet
-
-```yaml
-  my_armor_1_helmet_3d:
-    name: My Armor 1 Helmet 3D
-    resource:
-      generate: false
-      model_path: armor/my_armor_1_helmet_3d
-      material: IRON_HELMET
-    durability:
-      max_durability: 165
-    equipment:
-      slot_attribute_modifiers:
-        armor: 2.5
-```
-
-Minecraft 1.21.1 and lower do not support helmets (`DIAMOND_HELMET`, `LEATHER_HELMET` etc.) to create 3D hats due to a Minecraft limitation I cannot fix.
-
-In this case, to support legacy clients too, you must use a different material like `PAPER` and use the `hat` `behaviour` instead.
-
-```yaml
-  my_armor_1_helmet_3d:
-    name: My Armor 1 Helmet 3D
-    resource:
-      generate: false
-      model_path: armor/my_armor_1_helmet_3d
-      material: PAPER
-    durability:
-      max_durability: 165
-    behaviours:
-      hat: true
-```
-
-### Full configuration from the previous example
-
-<details>
-
-<summary>Click here to read the configuration file</summary>
-
-```yaml
-info:
-  namespace: my_armor_tutorial_legacy_fix
-equipments:
-  my_armor_legacy_fix_1:
-    type: armor
-    layer_1: armor/my_armor_legacy_fix_1/layer_1
-    layer_2: armor/my_armor_legacy_fix_1/layer_2
-armors_rendering:
-  my_armor_legacy_fix_1_shader:
-    layer_1: armor/my_armor_legacy_fix_1/layer_1
-    layer_2: armor/my_armor_legacy_fix_1/layer_2
-    color: "570e11"
-items:
-  my_armor_legacy_fix_1_helmet:
-    name: My Armor 1 Helmet Legacy Fix
-    resource:
-      generate: true
-      texture: item/my_armor_legacy_fix_1_helmet
-      material: LEATHER_HELMET
-    durability:
-      max_durability: 165
-    equipment:
-      id: my_armor_tutorial_legacy_fix:my_armor_legacy_fix_1
-      slot_attribute_modifiers:
-        armor: 2.5
-    specific_properties:
-      armor:
-        slot: head
-        custom_armor: my_armor_legacy_fix_1_shader
-  my_armor_legacy_fix_1_chestplate:
-    name: My Armor 1 Chestplate Legacy Fix
-    resource:
-      generate: true
-      texture: item/my_armor_legacy_fix_1_chestplate
-      material: LEATHER_CHESTPLATE
-    durability:
-      max_durability: 165
-    equipment:
-      id: my_armor_tutorial_legacy_fix:my_armor_legacy_fix_1
-      slot_attribute_modifiers:
-        armor: 1
-    specific_properties:
-      armor:
-        slot: chest
-        custom_armor: my_armor_legacy_fix_1_shader
-  my_armor_legacy_fix_1_leggings:
-    name: My Armor 1 Leggings Legacy Fix
-    resource:
-      generate: true
-      texture: item/my_armor_legacy_fix_1_leggings
-      material: LEATHER_LEGGINGS
-    durability:
-      max_durability: 165
-    equipment:
-      id: my_armor_tutorial_legacy_fix:my_armor_legacy_fix_1
-      slot_attribute_modifiers:
-        armor: 2.5
-    specific_properties:
-      armor:
-        slot: legs
-        custom_armor: my_armor_legacy_fix_1_shader
-  my_armor_legacy_fix_1_boots:
-    name: My Armor 1 Boots Legacy Fix
-    resource:
-      generate: true
-      texture: item/my_armor_legacy_fix_1_boots
-      material: LEATHER_BOOTS
-    durability:
-      max_durability: 165
-    equipment:
-      id: my_armor_tutorial_legacy_fix:my_armor_legacy_fix_1
-      slot_attribute_modifiers:
-        armor: 2.5
-    specific_properties:
-      armor:
-        slot: feet
-        custom_armor: my_armor_legacy_fix_1_shader
-  my_armor_legacy_fix_1_helmet_3d:
-    name: My Armor Legacy Fix 1 Helmet 3d
-    resource:
-      generate: false
-      model_path: armor/my_armor_legacy_fix_1_helmet_3d
-      material: PAPER
-    durability:
-      max_durability: 165
-    behaviours:
-      hat: true
-    attribute_modifiers:
-      head:
-        armor: 2.5
-
-```
-
-</details>
-
-{% file src="../.gitbook/assets/my_armor_tutorial_legacy_fix.zip" %}
+<mark style="color:red;">**Size must be a power of 2**</mark>, for example: 64x32, 128x64, 256x128, 512x256.
 
 ## Converting old armors to the new equipment tag
-
-### Mode 1
-
-This setting allows you to append the new equipment setting and use the old shader method + the new method at the same time, so old clients will still see armors even if they are not on 1.21.2+.
-
-{% code title="config.yml" %}
-```yaml
-advanced:
-  legacy_shader_armor_conversion:
-    append_new_equipment_tag:
-      enabled: true
-```
-{% endcode %}
-
-### Mode 2
 
 This option will convert the armors completely to use the new equipment tag. Note that old clients won't see the armor anymore (older than 1.21.2).
 
@@ -379,7 +168,7 @@ advanced:
 {% endcode %}
 {% endtab %}
 
-{% tab title="Old Textured (1.21.2 and lower)" %}
+{% tab title="Old Textured (1.21.3 and lower)" %}
 ## Custom wear texture
 
 {% hint style="danger" %}
@@ -682,7 +471,7 @@ The old property still works to maintain compatibility.
 {% endhint %}
 {% endtab %}
 
-{% tab title="Old Colored (1.21.2 and lower)" %}
+{% tab title="Old Colored (1.21.3 and lower)" %}
 This is a simple armor which is created automatically without textures, ItemsAdder will generate it from the color you decided and will be similar to iron/diamond armors but with different color.
 
 ### Creating an armor piece
