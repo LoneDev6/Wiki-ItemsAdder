@@ -5,9 +5,9 @@ icon: up-right-from-square
 
 # MythicMobs
 
-## Reskinning a Mythicmob mob
+## Reskinning a Mythicmobs mob
 
-You can use a custom model as skin for any Mythicmob mob.
+You can use a custom model as a skin for any Mythicmobs mob.
 
 {% hint style="success" %}
 This plugin doesn't require Mythicmobs to work, but some servers might want to use it.
@@ -48,7 +48,7 @@ customentity{model=MODEL NAME} @self ~onSpawn
 ## Animations
 
 As you can see I also added some Skills to replace the mob animation dynamically.\
-`{play=attack}` is used to make the attack animation play, in this case when the entity attacks.
+`{play=attack}` is used to play the attack animation, in this case when the entity attacks.
 
 \
 `{walk=b_walk}` is used to replace the mob walk animation `b_walk` which is an "angry" walk animation, because the mob has just attacked another entity and has a target.
