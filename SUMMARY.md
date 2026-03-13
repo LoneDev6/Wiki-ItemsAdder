@@ -297,14 +297,13 @@
 
 ## Other
 
-* [Resourcepack Protection](other/resourcepack-protection.md)
+* [Bulk colorize images](other/bulk-colorize-images.md)
+* [Pack Overlays](pack-overlays.md)
+* [Minecraft Server Hosting](other/minecraft-hosting.md)
 * [Custom Player Stats](other/custom-player-stats.md)
 * [Hide Scoreboard Background and Numbers](other/hide-scoreboard-numbers-1.17+.md)
-* [Loading screen](other/loading-screen.md)
-* [Bulk colorize images](other/bulk-colorize-images.md)
-* [Showcases](other/videos-by-users.md)
-* [Minecraft Server Hosting](other/minecraft-hosting.md)
-* [Overlay](overlay.md)
+* [Resourcepack Protection](other/resourcepack-protection.md)
+* [Showcases & Tutorials](other/videos-by-users.md)
 
 ## HELP
 
