@@ -20,12 +20,13 @@ Advanced animation features
 * Damage animation
 * Fire animation when entity is on fire
 * Animate size of bones
-* Animate rotation of bones without angles limitations
+* Animate rotation of bones without angle limitations
 * Multiple mount seats
 * Play sounds and particles in animations
 * Show entity hands equipment
 * Custom hitbox
 * Smooth movements
+* Execute actions on events
 * [MythicMobs](mythicmobs.md) compatibility
 * [Citizens](citizens.md) compatibility
 
@@ -40,7 +41,7 @@ Advanced animation features
 * Head bone rotation works only if the mob head is not too far from the center of the body
 * Pressing SHIFT on flying mobs to move down works only on 1.15, 1.17 and 1.18 clients as 1.16 clients have this bug: [https://bugs.mojang.com/browse/MC-202202](https://bugs.mojang.com/browse/MC-202202) .\
   1.16 clients will see players flying if they press SHIFT while on a flying entity while they should still be riding the entity.
-* This plugin uses multiple entities to create the animation. \
+* This plugin uses multiple entities to create animations. \
   Network delay can cause slight animation glitches. \
   It can cause a little lag on servers if you spawn too many entities around players and if your models have too many bones.\
   (NOTE: this plugin is highly optimized so you won't get lag if your server is not a potato)
