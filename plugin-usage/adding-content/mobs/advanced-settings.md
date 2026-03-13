@@ -4,7 +4,7 @@ icon: sliders-up
 
 # Advanced Settings
 
-In `config.yml` you can find some advanced settings about custom entities.
+In `ItemsAdder/config.yml` you can find some advanced settings about custom entities.
 
 ```yaml
 entities:
