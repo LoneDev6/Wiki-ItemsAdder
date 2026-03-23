@@ -50,6 +50,12 @@ Summon a custom entity.
 * `entity` the entity ID
 * `max_per_chunk` the max amount of entities of this type to be allowed to spawn in the current chunk
 
+### `script`
+
+Run a [script](https://itemsadder.devs.beer/plugin-usage/scripting).
+
+* `name` the name of the script to execute. Example: `example:my_script`
+
 ### Common action properties
 
 #### `delay`

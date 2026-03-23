@@ -20,7 +20,7 @@ Create a new group which will be a child of the hand bone.
 
 ![](<../../.gitbook/assets/image%20(64).png>)
 
-Rightclick on the bone and select "**Bone Config**", in this case `left_hand_slot`
+Right click on the bone and select "**Bone Config**", in this case `left_hand_slot`
 
 ![](<../../.gitbook/assets/image%20(171).png>)
 
@@ -36,7 +36,7 @@ The hand pivot bone has a new icon now, as you can see.
 
 ![](<../../.gitbook/assets/image%20(147).png>)
 
-Follow the same steps to specify the the right hand, then you have to export the model as usual.
+Follow the same steps to specify the right hand, then you have to export the model as usual.
 
 {% content-ref url="advanced-method.md" %}
 [advanced-method.md](advanced-method.md)

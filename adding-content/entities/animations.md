@@ -6,7 +6,7 @@ icon: person-running
 
 ## How to create an animation
 
-You can animate your models normally, like you would do with normal Blockbench models.\
+You can animate your models normally, like you would with normal Blockbench models.\
 You can find a lot of tutorials on YouTube.
 
 {% embed url="https://www.youtube.com/results?search_query=blockbench+animation+tutorial" %}
@@ -20,7 +20,7 @@ Right click an animation and make sure the animation type is correct.
 
 ![](<../../.gitbook/assets/image%20(101).png>)
 
-You can set some special animations by settings their name instead, as some new features are not avilable in the dropdown menu.
+You can set some special animations by changing their names instead, as some new features are not avilable in the dropdown menu.
 
 Rename your animations to this.
 
@@ -31,7 +31,7 @@ Rename your animations to this.
 * `jump` (used by Slime for example)
 * `attack`
 * `death`
-* `fly`
+* `fly` (also used by swimming entities)
 
 ## Notes
 

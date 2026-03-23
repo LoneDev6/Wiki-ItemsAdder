@@ -13,7 +13,7 @@ Create a new bone, it can have any name.
 
 ![](<../../.gitbook/assets/image%20(106).png>)
 
-Rightclick on the bone and select "**Bone Config**"
+Right click on the bone and select "**Bone Config**"
 
 ![](<../../.gitbook/assets/image%20(88).png>)
 
