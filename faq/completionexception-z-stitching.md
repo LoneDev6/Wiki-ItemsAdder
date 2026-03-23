@@ -31,8 +31,12 @@ This error (and similar) is caused by the fact that you have too many textures i
 
 This limitation depends on your GPU (graphical card), for example Intel integrated GPUs have this issue.
 
-In order to fix that you can limit the usage of HD textures in your pack.
-
 {% hint style="warning" %}
 You will have the same issues with any content manager or even by manually creating resourcepacks, if you reach this limitation of the game and GPU.
 {% endhint %}
+
+## How to fix?
+
+1. Limit the usage of HD textures
+2. Avoid using duplicate PNG files
+3. Make sure you are connecting your HDMI cable into the dedicated GPU port and not into the integrated GPU port
