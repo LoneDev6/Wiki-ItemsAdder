@@ -18,6 +18,7 @@
   * [Thirst/Mana bar](faq/fill-thirst-mana-bar.md)
   * [I can't see emoji, GUIs, HUDs etc.](faq/i-cant-see-emoji-guis-huds-etc..md)
   * [Rectangle character](faq/rectangle-character.md)
+  * [CompletionException: z: Stitching](faq/completionexception-z-stitching.md)
   * [Recipes book problems](faq/recipes-book-problems.md)
   * [Player is using a different protocol version](faq/player-is-using-a-different-protocol-version.md)
   * [Kick flight on join](faq/kick-flight-on-join.md)
