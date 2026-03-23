@@ -24,7 +24,7 @@ Click on the **+** icon near "**Sound**" effect type to create a new particle ke
 
 Edit the values on the "**Keyframe**" panel.
 
-* Name: name of the sound, use the ingame Minecraft particle name. You can also use custom sounds from your resourcepack.
+* Name: name of the sound. Use the ingame Minecraft sound name. You can also use custom sounds from your resourcepack.
 * Volume: the volume of the sound.
 * Pitch: the pitch of the sound.<br>
 

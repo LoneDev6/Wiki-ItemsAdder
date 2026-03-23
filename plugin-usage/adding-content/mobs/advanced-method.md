@@ -10,7 +10,7 @@ Create a new ItemsAdder entity model.
 
 <figure><img src="../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 
-Set project type `Custom Entity` and decide a `namespace` + `id`.
+Set project type to `Custom Entity` and decide a `namespace` + `id`.
 
 <figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
@@ -20,12 +20,12 @@ Immediately save the project into the **ItemsAdder** `contents` folder, under th
 
 <figure><img src="../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
 
-Start modelling.
+Start modelling!
 
 <figure><img src="../../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
 
 Create some animations.\
-You should follow some tutorials and learn to use Blockbench, there are a [lot of tutorial on Youtube](https://www.youtube.com/results?search_query=blockbench+animation+tutorial).
+You could follow some tutorials and learn to animate in Blockbench, there are a [lot of tutorials on Youtube](https://www.youtube.com/results?search_query=blockbench+animation+tutorial).
 
 <figure><img src="../../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
 
@@ -61,13 +61,13 @@ You will have something like that:
 
 ### Saving the project
 
-Now create a new folder inside `ItemsAdder/contents/`, it's your namespace folder. For example mine is `custom`, so the path is `ItemsAdder/contents/custom/`.
+Now create a new folder inside `ItemsAdder/contents/`, which will be your namespace folder. For example mine is `custom`, so the path is `ItemsAdder/contents/custom/`.
 
-Save the project file `.iaentitymodel` into your ItemsAdder namespace folder, in this example into `contents/custom/`.
+Save the project file `.iaentitymodel` into your ItemsAdder namespace folder, in this example into `ItemsAdder/contents/custom/`.
 
 ### Configuring the model
 
-Now you can configure your model based on your preferences. The ItemsAdder extension automatically decided some settings for you but you might need to change them.\
+Now you can configure your model based on your preferences. The ItemsAdder extension automatically decides some settings for you but you might need to change them.\
 Click on the **ItemsAdder** tab and press **Settings**.
 
 ![](<../../../.gitbook/assets/image (220).png>)
@@ -80,7 +80,7 @@ The default one is `custom`, but you should decide your own, for example `my_ent
 The other thing you might need to change is the "**Model Scaling Mode**":
 
 * Max Model size provides 7x7x7 block wide models but limits scaling to shrinking only.
-* Max Scaling range provides shrinking and growing up to 3.125x in size, but limits the maximum model size to 3x3x3 blocks
+* Max Scaling range provides shrinking and growing up to 3.125x in size, but limits the maximum model size to 3x3x3 blocks.
 
 Change "**Max Model Size**" only if you have animated the size of some bones.
 
