@@ -14,7 +14,7 @@ Please don't report these bugs, I can't really do anything to fix this problem, 
 
 "Showing Craftable" button doesn't work with recipes that use custom items as ingredients.
 
-![](<../.gitbook/assets/immagine (6).png>)
+![](<../.gitbook/assets/immagine%20(6).png>)
 
 ### How to fix?
 

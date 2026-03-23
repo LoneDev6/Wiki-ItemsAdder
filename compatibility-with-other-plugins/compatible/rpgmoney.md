@@ -6,7 +6,7 @@
 * set `item_icon` like this:
 
 {% hint style="warning" %}
-You must have the [DefaultPack](../../plugin-usage/first-install.md#default-pack-optional) installed!
+You must have the [DefaultPack](../../plugin-usage/first-install.md#optional-add-official-itemsadder-custom-content) installed!
 {% endhint %}
 
 ```yaml

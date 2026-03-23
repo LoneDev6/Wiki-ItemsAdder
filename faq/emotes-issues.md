@@ -53,11 +53,11 @@ The only way to _"fix"_ this is by disabling the shaders themself or removing th
 
 {% tabs %}
 {% tab title="With Shaders on (Bug)" %}
-![shader bug](<../.gitbook/assets/image (75).png>)
+![shader bug](<../.gitbook/assets/image%20(75).png>)
 {% endtab %}
 
 {% tab title="With Shaders off (No Bug)" %}
-![no shader bug](<../.gitbook/assets/image (127).png>)
+![no shader bug](<../.gitbook/assets/image%20(127).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -65,7 +65,7 @@ The only way to _"fix"_ this is by disabling the shaders themself or removing th
 
 * Optifine: [https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
 * IrisShaders: [https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
-* Mods that change the player skins:&#x20;
+* Mods that change the player skins:
   * A mod may change the default player model/skin and can therefore be affected by ItemsAdder's shader manipulations, or vice-versa.
 * 3DSkinLayers
   * The mod alters the outer skin layer to make them appear in 3D, which alters the player model itself.\

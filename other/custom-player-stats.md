@@ -11,7 +11,7 @@ They custom attributes added by ItemsAdder, you can add and read them using a sp
 You can then use **PlaceholderAPI** to show them anywhere or bind them to a HUD.\
 I did that to create thirst and mana. Check my [default configs](https://github.com/search?q=repo%3AItemsAdder%2FDefaultPack+player_stat_name\&type=code) for examples.
 
-### Example:&#x20;
+### Example:
 
 `/iaplayerstat write LoneDev thirst 6`\
 `/iaplayerstat read LoneDev thirst float`

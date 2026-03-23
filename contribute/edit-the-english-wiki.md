@@ -4,21 +4,21 @@
 
 ### Setting up your repository
 
-Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.&#x20;
+Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.
 
-![](<../.gitbook/assets/image (214).png>)
+![](<../.gitbook/assets/image%20(214).png>)
 
 Make sure you're on the `master` branch.
 
-![](<../.gitbook/assets/image (141).png>)
+![](<../.gitbook/assets/image%20(141).png>)
 
 Select a file you want to edit and press the **pen** button
 
-![](<../.gitbook/assets/image (189).png>)
+![](<../.gitbook/assets/image%20(189).png>)
 
 Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
 
-![](<../.gitbook/assets/image (190).png>)
+![](<../.gitbook/assets/image%20(190).png>)
 
 {% hint style="warning" %}
 ## Important notes
@@ -33,7 +33,7 @@ Edit the file and then press <mark style="color:green;">**Commit changes**</mark
 
 ### Example of what you _<mark style="color:red;">must not</mark>_ edit
 
-![](<../.gitbook/assets/image (125).png>)
+![](<../.gitbook/assets/image%20(125).png>)
 
 ### Last step
 
@@ -46,10 +46,10 @@ Would be good if you update your repository each time the main repository (the o
 To sync it you have to press **Fetch Upstream**.\
 [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
-![](<../.gitbook/assets/image (212).png>)
+![](<../.gitbook/assets/image%20(212).png>)
 
 \
 You can keep track of changes in the Discord notification channel.
 
-![](<../.gitbook/assets/image (185).png>)
+![](<../.gitbook/assets/image%20(185).png>)
 {% endhint %}

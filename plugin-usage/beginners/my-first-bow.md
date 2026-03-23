@@ -7,7 +7,7 @@ icon: bow-arrow
 {% hint style="danger" %}
 ### **Resourcepack hosting**
 
-Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\
+Remember to **decide** a [**resourcepack hosting**](../plugin-configuration/resourcepack-hosting) method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 {% endhint %}
 

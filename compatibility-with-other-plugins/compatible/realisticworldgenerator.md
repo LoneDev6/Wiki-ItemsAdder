@@ -8,10 +8,6 @@
 * ores
 * schematics (RWG schematics)
 
-{% hint style="warning" %}
-This works only on ItemsAdder 2.5.2+ and RealisticWorldGenerator 4.30+
-{% endhint %}
-
 ## Warnings
 
 {% hint style="danger" %}
@@ -76,7 +72,7 @@ one_biome:
 
 This is a world with a custom surface
 
-![](<../../.gitbook/assets/image (192).png>)
+![](<../../.gitbook/assets/image%20(192).png>)
 
 
 

@@ -38,7 +38,7 @@ On the other hand you will need more namespaces if you are a contents creator an
 
 All **realcraft** items are under the `realcraft` namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 
-![](<../../.gitbook/assets/image (223).png>)
+![](<../../.gitbook/assets/image%20(223).png>)
 
 ## How can I define my own namespace?
 
@@ -90,7 +90,7 @@ This structure auto-detects the current namespace, in this case `myitems`.\
 It avoids you to create `resourcepack`, `assets`, `<namespace>` folders and makes everything cleaner.
 {% endhint %}
 
-```
+```bash
 plugins
 └── ItemsAdder
     └── contents
@@ -116,7 +116,7 @@ If you plan to use multiple namespaces in the content folder, for example `minec
 
 This structure is the default and most complete one.
 
-```
+```bash
 plugins
 └── ItemsAdder
     └── contents
@@ -139,7 +139,7 @@ plugins
 
 This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
 
-```
+```bash
 plugins
 └── ItemsAdder
     └── contents
@@ -161,7 +161,7 @@ plugins
 
 This structure avoids you to create the `resourcepack` folder which is implied and would just add unnecessary complexity.
 
-```
+```bash
 plugins
 └── ItemsAdder
     └── contents
@@ -183,7 +183,7 @@ plugins
 
 This structure avoids you to create the `assets` folder which is implied and would just add unnecessary complexity.
 
-```
+```bash
 plugins
 └── ItemsAdder
     └── contents

@@ -3,12 +3,12 @@
 ## [Download here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgbank-store-your-items-exp-and-money-using-villagers-npcs-and-custom-gui.29139/)
 
 {% hint style="warning" %}
-You must have the [DefaultPack](../../plugin-usage/first-install.md#default-pack-optional) installed!
+You must have the [DefaultPack](../../plugin-usage/first-install.md#optional-add-official-itemsadder-custom-content) installed!
 {% endhint %}
 
 You can change GUI icons and use ItemsAdder icons to achieve this:
 
-![](<../../.gitbook/assets/image (110).png>)
+![](<../../.gitbook/assets/image%20(110).png>)
 
 {% tabs %}
 {% tab title="config.yml" %}

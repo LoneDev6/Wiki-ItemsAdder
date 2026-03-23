@@ -13,7 +13,7 @@ Make sure to read the [Usage terms](branding.md#usage-terms) before doing anythi
 
 ### Preview of the zip content
 
-![logos](<../.gitbook/assets/image (142).png>)
+![logos](<../.gitbook/assets/image%20(142).png>)
 
 ![palette](../.gitbook/assets/color_palette.jpg)
 

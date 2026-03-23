@@ -48,7 +48,7 @@ Use the search button before submitting a report, people might already have repo
 
 When you report something be sure to:
 
-* follow every single step of my tutorials and make sure to read all the wiki.&#x20;
+* follow every single step of my tutorials and make sure to read all the wiki.
 * test the plugin on a **CLEAN** server (with only **ItemsAdder** installed) since it could be a plugin interfering.
 * use the latest version of the plugin, its dependencies and server.
 

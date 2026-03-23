@@ -20,7 +20,7 @@ If you need a **good** and **cheap hosting** to open your **Minecraft server** o
 * **Custom Control Panel**(Pterodactyl)
 * **sFTP** & **MySQL** Database Access
 * **SSD** & **NVME** Storage
-* Supports **port opening** for **ItemsAdder** [self host](../plugin-usage/resourcepack-hosting/resourcepack-self-hosting.md)!
+* Supports **port opening** for **ItemsAdder** [self host](../plugin-usage/plugin-configuration/resourcepack-hosting/self-hosting.md)!
 {% endhint %}
 
 {% embed url="http://bit.ly/humble-itemsadderwiki" %}

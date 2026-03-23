@@ -10,7 +10,7 @@ I tested them at the time of this edit and they worked fine, but future updates 
 {% endhint %}
 
 {% content-ref url="compatible/" %}
-[compatible](compatible/)
+[compatible](compatible)
 {% endcontent-ref %}
 
 {% content-ref url="not-compatible.md" %}

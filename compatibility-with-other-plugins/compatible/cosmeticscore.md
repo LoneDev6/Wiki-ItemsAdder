@@ -16,8 +16,4 @@
 
 ## Adding compatibility
 
-{% hint style="warning" %}
-Update ItemsAdder to 3.3.0+
-{% endhint %}
-
 {% embed url="https://cosmeticscore.devs.beer/first-install/install-base-resourcepack/itemsadder" %}

@@ -1,6 +1,0 @@
----
-icon: user-alien
----
-
-# Entities
-

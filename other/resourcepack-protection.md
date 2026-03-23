@@ -20,7 +20,7 @@ Every other plugin has the same limitations. It's not a limitation of ItemsAdder
 
 You can protect your resourcepack from unzip and thieves by setting this option in `config.yml` and using `/iazip` again.
 
-If you're using an [external host](../plugin-usage/resourcepack-hosting/) (like [Dropbox](../plugin-usage/resourcepack-hosting/resourcepack-on-dropbox.md)) don't forget to reupload the pack and update the `config.yml`.
+If you're using an [external host](../plugin-usage/plugin-configuration/resourcepack-hosting) (like [Dropbox](../plugin-usage/plugin-configuration/resourcepack-hosting/dropbox.md)) don't forget to reupload the pack and update the `config.yml`.
 
 {% code title="config.yml" %}
 ```yaml
@@ -28,6 +28,7 @@ If you're using an [external host](../plugin-usage/resourcepack-hosting/) (like 
     protect-file-from-unzip:
       protection_1: true
       protection_2: true
+      protection_3: true
 ```
 {% endcode %}
 
@@ -38,6 +39,10 @@ Protect the resourcepack with a basic method.
 #### `protection_2`
 
 Protect the pack with another layer of protection to block some other methods to unzip the pack.
+
+#### `protection_3`
+
+Not known.
 
 ## Showcase
 

@@ -4,11 +4,6 @@
 
 ## How to connect an ExecutableItem to an ItemsAdder custom item
 
-{% hint style="warning" %}
-UPDATE **ITEMSADDER** TO **2.2.20+**\
-UPDATE **ExecutableItems** to **4.2.3.5+**
-{% endhint %}
-
 ## Create the ItemsAdder item
 
 ### Create your .yml file as usual and add all the properties for the ItemsAdder item
@@ -42,4 +37,4 @@ These are used to **connect** the **two items**.
 
 Run `/iaget executableitem_test` and get the item!
 
-![](<../../.gitbook/assets/immagine (8).png>)
+![](<../../.gitbook/assets/immagine%20(8).png>)

@@ -8,7 +8,7 @@ icon: cube
 {% hint style="danger" %}
 ### **Resourcepack hosting**
 
-Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\
+Remember to **decide** a [**resourcepack hosting**](../plugin-configuration/resourcepack-hosting) method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar\\
 {% endhint %}
 
@@ -21,7 +21,7 @@ This is an example block (remember to change `myitems` namespace to the one you 
 For example I created a **file** which will contain all my **custom blocks.**\
 I created it in the folder: `contents/myitems/configs/`
 
-I start creating a simple block called `red_block` in the file `blocks.yml`**.**&#x20;
+I start creating a simple block called `red_block` in the file `blocks.yml`**.**
 
 {% code title="ItemsAdder/contents/myitems/configs/blocks.yml" %}
 ```yaml
@@ -145,11 +145,11 @@ items:
 
 Run `/iaget red_block` to get the item.
 
-![](<../../.gitbook/assets/immagine (48).png>)
+![](<../../.gitbook/assets/immagine%20(48).png>)
 
-![](<../../.gitbook/assets/immagine (87).png>)
+![](<../../.gitbook/assets/immagine%20(87).png>)
 
-![](<../../.gitbook/assets/immagine (12).png>)
+![](<../../.gitbook/assets/immagine%20(12).png>)
 
 ## Download the complete example
 

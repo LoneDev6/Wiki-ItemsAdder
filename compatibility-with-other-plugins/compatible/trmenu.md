@@ -24,9 +24,3 @@ PlaceholderAPI is required!
 {% endhint %}
 
 Basically `%img_offset_-16%` is used to shift back the texture `%img_blank_menu%`by **16** pixels.
-
-Read more here:&#x20;
-
-{% content-ref url="/broken/pages/-MSmcT5Kdr5MgNu88bN3" %}
-[Broken link](/broken/pages/-MSmcT5Kdr5MgNu88bN3)
-{% endcontent-ref %}

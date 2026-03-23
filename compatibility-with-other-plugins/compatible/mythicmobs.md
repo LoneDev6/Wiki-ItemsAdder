@@ -4,10 +4,6 @@
 
 ## Using an ItemsAdder items in MythicMobs
 
-{% hint style="warning" %}
-Update to **ItemsAdder 3.0.4** or greater and **MythicMobs 5.0.1** or greater
-{% endhint %}
-
 ### Drops
 
 Example: drop a custom item by 30% chance and 1 to 5 amount.
@@ -48,6 +44,6 @@ SkeletalKnight:
 
 ## Custom mobs models
 
-{% content-ref url="../../plugin-usage/adding-content/mobs/advanced-method.md" %}
-[advanced-method.md](../../plugin-usage/adding-content/mobs/advanced-method.md)
+{% content-ref url="../../adding-content/entities/advanced-method.md" %}
+[advanced-method.md](../../adding-content/entities/advanced-method.md)
 {% endcontent-ref %}

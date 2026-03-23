@@ -37,8 +37,8 @@ This is very crucial for this task or everything won't work.
 Decide a main server, for example `lobby`.\
 Open the `config.yml` of ItemsAdder in the `lobby` server and set up the hosting.
 
-{% content-ref url="../../plugin-usage/resourcepack-hosting/" %}
-[resourcepack-hosting](../../plugin-usage/resourcepack-hosting/)
+{% content-ref url="../../plugin-usage/plugin-configuration/resourcepack-hosting/" %}
+[resourcepack-hosting](../../plugin-usage/plugin-configuration/resourcepack-hosting)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -49,7 +49,7 @@ After you finished configuring the hosting (follow the linked tutorial carefully
 
 For example:
 
-![](<../../.gitbook/assets/image (87).png>)
+![](<../../.gitbook/assets/image%20(87).png>)
 
 {% hint style="warning" %}
 You must remove the URL part after `#`, it's not needed.\

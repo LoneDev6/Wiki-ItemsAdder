@@ -11,13 +11,13 @@ Seems the plugin was removed from SpigotMC.org for some reason.\
 
 ## Font images
 
-You can use [font\_images ](../../plugin-usage/adding-content/font-images.md)(emojis and symbols) in the **scoreboard**.
+You can use [font\_images ](../../adding-content/font-images/font-images.md)(emojis and symbols) in the **scoreboard**.
 
 ### Example
 
 `%img_smile%` will show like that:
 
-![](<../../.gitbook/assets/immagine (22).png>)
+![](<../../.gitbook/assets/immagine%20(22).png>)
 
 ## Hide the scoreboard background
 
@@ -25,11 +25,11 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images.md)(em
 
 ### Before
 
-![](<../../.gitbook/assets/immagine (101).png>)
+![](<../../.gitbook/assets/immagine%20(101).png>)
 
 ### After
 
-![](<../../.gitbook/assets/immagine (27).png>)
+![](<../../.gitbook/assets/immagine%20(27).png>)
 
 With ItemsAdder you can hide the scoreboard background, just use this trick.\
 You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>\*\* \*\* of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>

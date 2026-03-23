@@ -2,10 +2,6 @@
 
 ## [Download here](https://github.com/EndlessCodeGroup/Mimic)
 
-{% hint style="warning" %}
-You need **ItemsAdder** 2.5.3+ and **Mimic** 0.6.3+.
-{% endhint %}
-
 ## How to get an ItemsAdder item using Mimic
 
 To get a custom item using **Mimic** you have to use this command:

@@ -8,7 +8,7 @@ Please refer to the plugin page tutorials before asking for help, I'm not the de
 
 ## Font images in the scoreboard
 
-You can use [font\_images ](../../plugin-usage/adding-content/font-images.md)(emojis and symbols) in the scoreboard if you install **PlaceholderAPI**.
+You can use [font\_images ](../../adding-content/font-images/font-images.md)(emojis and symbols) in the scoreboard if you install **PlaceholderAPI**.
 
 ### Example
 
