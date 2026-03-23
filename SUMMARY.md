@@ -19,7 +19,7 @@
   * [I can't see emoji, GUIs, HUDs etc.](faq/i-cant-see-emoji-guis-huds-etc..md)
   * [Rectangle character](faq/rectangle-character.md)
   * [CompletionException: z: Stitching](faq/completionexception-z-stitching.md)
-  * [Multiple atlases used in model](faq/multiple-atlases-used-in-model.md)
+  * [1.21.11 - Multiple atlases used in model](faq/multiple-atlases-used-in-model.md)
   * [Recipes book problems](faq/recipes-book-problems.md)
   * [Player is using a different protocol version](faq/player-is-using-a-different-protocol-version.md)
   * [Kick flight on join](faq/kick-flight-on-join.md)

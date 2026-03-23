@@ -2,7 +2,11 @@
 icon: circle-exclamation
 ---
 
-# Multiple atlases used in model
+# 1.21.11 - Multiple atlases used in model
+
+{% hint style="info" %}
+This happens in 1.21.11+ clients
+{% endhint %}
 
 `[Worker-Main-108/WARN]: Unable to bake item model: 'minecraft:netherite_sword'`
 
