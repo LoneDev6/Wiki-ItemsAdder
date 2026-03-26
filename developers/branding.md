@@ -15,7 +15,7 @@ Make sure to read the [Usage terms](branding.md#usage-terms) before doing anythi
 
 ![logos](<../.gitbook/assets/image%20(142).png>)
 
-![palette](../.gitbook/assets/color_palette.jpg)
+![palette](../.gitbook/assets/color_palette.png)
 
 ![addon-banner](../.gitbook/assets/ia_addon_banner.png)
 
