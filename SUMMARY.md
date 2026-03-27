@@ -218,6 +218,7 @@
     * [2D Icon](adding-content/furnitures/furniture-2d-icon.md)
     * [Transparency](adding-content/furnitures/transparent-furniture.md)
     * [Chair](adding-content/furnitures/chair.md)
+    * [Connectable](adding-content/furnitures/connectable.md)
     * [Execute actions](adding-content/furnitures/furniture-execute-actions.md)
     * [Permissions](adding-content/furnitures/furniture-permissions.md)
     * [Complex](adding-content/furnitures/furniture-complex.md)
