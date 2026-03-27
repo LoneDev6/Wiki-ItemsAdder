@@ -36,7 +36,7 @@ Dictionaries (items):
     Chinese zh_cn
 ```
 
-## Translate commands and messages
+## Commands and messages
 
 You just have to open `lang` folder create a copy of `en.yml`, then translate it and change the `lang` setting in `config.yml` to your file name.
 
@@ -48,7 +48,11 @@ config_files:
 ```
 {% endcode %}
 
-## Minecraft language files
+## Items etc.
+
+{% hint style="info" %}
+All translations depend on the client language.
+{% endhint %}
 
 You can easily overwrite Minecraft default translation files.
 
@@ -60,21 +64,6 @@ This supports:
 * chat messages
 
 The main difference between ItemsAdder dictionaries and Minecraft language files is how they adapt to player settings. Minecraft language files dynamically adjust based on each player's selected language. In contrast, ItemsAdder dictionaries are static, meaning all players see the same language text, as defined in the `config.yml` file (e.g., `en`).
-
-### Example: custom esc menu return button text
-
-In this example I will change the Return to game text of ESC menu.
-
-```yaml
-info:
-  namespace: ia_various_configs
-minecraft_lang_overwrite:
-  esc_menu_texts:
-    entries:
-      "menu.returnToGame": "Return to &aSurvival &fGamemode"
-    languages:
-      - ALL
-```
 
 #### `languages`
 
@@ -126,7 +115,30 @@ items:
 
 Use the special property `<lang:NAME>` to specify the translation entry (uses [Minimessage](../beginners/text-formatting.md)).
 
+### Example: custom esc menu return button text
+
+In this example I will change the Return to game text of ESC menu.
+
+```yaml
+info:
+  namespace: ia_various_configs
+minecraft_lang_overwrite:
+  esc_menu_texts:
+    entries:
+      "menu.returnToGame": "Return to &aSurvival &fGamemode"
+    languages:
+      - ALL
+```
+
 ## ItemsAdder dictionary
+
+{% hint style="info" %}
+This is the old method to translate items. All translations are not dependent to the client language.
+{% endhint %}
+
+<details>
+
+<summary>Click to expand</summary>
 
 This supports:
 
@@ -171,6 +183,10 @@ items:
 As you can see I set the `name`to `display-name-my_sword`, this will tell IA to replace the text with text from the dictionary, so sword would be named `épée de saleté`.
 {% endhint %}
 
+</details>
+
+## Final notes
+
 {% hint style="warning" %}
 You can **skip** the **translation** part and do this directly, **but** this **won't** allow you to easily **translate** items in the **future** if you need to.
 
@@ -190,4 +206,3 @@ items:
       max_custom_durability: 1324
 ```
 {% endhint %}
-
