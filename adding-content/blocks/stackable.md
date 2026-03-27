@@ -2,8 +2,8 @@
 icon: flower
 ---
 
-# Stackable block
+# Stackable
 
-This feature isn't in ItemsAdder for now.
+The Stackable feature is not currently supported in ItemsAdder.
 
-Use [ItemsAdderAdditions](https://itemsadderadditions.gitbook.io/wiki) for now.
+As an alternative, you can use [ItemsAdderAdditions](https://itemsadderadditions.gitbook.io/wiki).

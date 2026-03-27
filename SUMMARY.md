@@ -210,7 +210,7 @@
     * [Turn Block ON-OFF](adding-content/blocks/turn-block-on-off.md)
     * [TNT](adding-content/blocks/tnt.md)
     * [Liquids](adding-content/blocks/liquids.md)
-    * [Stackale](adding-content/blocks/stackable.md)
+    * [Stackable](adding-content/blocks/stackable.md)
 
 * [Furnitures](adding-content/furnitures/README.md)
     * [Model](adding-content/furnitures/model.md)
