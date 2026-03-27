@@ -12,7 +12,7 @@ info:
 items:
   obsidian_trident:
     name: Obsidian Trident
-    material: trident
+    material: TRIDENT
     graphics:
       icon: item/obsidian_trident
       models:
