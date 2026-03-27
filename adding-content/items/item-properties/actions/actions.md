@@ -439,3 +439,35 @@ Replace this item properties
 #### Properties:
 
 * `custom_model_data` (object): unknown
+
+## ItemsAdderAdditions Actions
+
+### `actionbar`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/actionbar).
+
+### `clear_item`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/clear-item).
+
+### `message`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/message).
+
+### `open_inventory`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/open-inventory).
+
+### `play_animation`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/play-animation).
+
+### `swing_hand`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/swing-hand).
+
+### `teleport`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/teleport).
+
+### `title`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/title).
+
+### `toast`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/toast).
+
+### `veinminer`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/veinminer).
