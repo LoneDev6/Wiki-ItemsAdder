@@ -23,7 +23,7 @@ items:
       texture: item/other/written_letter
 ```
 
-Then declare the writable book and specify which properties to copy from the written book, in this case the `custom_model_data`, so that it inherits the texture on write.
+Then declare the writable book and specify which properties to copy from the written book, in this case the `item_model`, so that it inherits the texture on write.
 
 ```yaml
   letter:

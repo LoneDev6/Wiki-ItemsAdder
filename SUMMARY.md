@@ -190,7 +190,7 @@
     * [Fishing rod, shield, bundle](adding-content/items/fishing-rod-shield-bundle.md)
     * [Fuel](adding-content/items/fuel.md)
     * [Armors](adding-content/items/armors.md)
-    * [🔱 Tridents](adding-content/items/tridents.md)
+    * [Tridents](adding-content/items/tridents.md)
     * [Elytra](adding-content/items/elytra.md)
     * [Animated 3D Items](adding-content/items/animated-3d-items.md)
     * [Writable Book](adding-content/items/writable-book.md)

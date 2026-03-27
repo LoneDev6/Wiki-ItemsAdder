@@ -1,5 +1,5 @@
 ---
-icon: chain
+icon: link-simple
 ---
 
 # Connectable

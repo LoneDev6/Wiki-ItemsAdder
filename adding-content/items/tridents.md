@@ -1,4 +1,8 @@
-# 🔱 Tridents
+---
+icon: fork
+---
+
+# Tridents
 
 {% hint style="warning" %}
 Requires Minecraft 1.21.4+ clients. Server version is not important.
