@@ -16,9 +16,9 @@ This font is made by Faithful team.
 
 To this you have to:
 
-* download the Faithful font [here](https://www.dropbox.com/s/06et55587zvcmr7/FaithfulFont.zip?dl=0)
-* extract contents into `plugins/ItemsAdder/contents/my_font/font/`
-* open config.yml and set `custom-font enabled: true`
+* Download the Faithful font [here](https://www.dropbox.com/s/06et55587zvcmr7/FaithfulFont.zip?dl=0)
+* Extract contents into `plugins/ItemsAdder/contents/my_font/resourcepack/`
+* This will merge the Faithful font.
 {% endtab %}
 
 {% tab title="TTF" %}
