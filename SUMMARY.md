@@ -302,7 +302,7 @@
 ## Other
 
 * [Bulk colorize images](other/bulk-colorize-images.md)
-* [Pack Overlays](pack-overlays.md)
+* [Pack Overlays](other/pack-overlays.md)
 * [Minecraft Server Hosting](other/minecraft-hosting.md)
 * [Custom Player Stats](other/custom-player-stats.md)
 * [Hide Scoreboard Background and Numbers](other/hide-scoreboard-numbers-1.17+.md)
