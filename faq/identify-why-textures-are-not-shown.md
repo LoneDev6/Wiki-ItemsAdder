@@ -5,7 +5,7 @@ icon: spinner-scale
 # Resourcepack is not loading correctly
 
 {% hint style="danger" %}
-#### Please read this page CAREFULLY before asking for support.
+**Please read this page CAREFULLY before asking for support.**
 
 Most of the times the issue can be easily fixed by reading this page.
 {% endhint %}
@@ -28,7 +28,7 @@ Most of the times the issue can be easily fixed by reading this page.
 ## How to read the CLIENT logs (not SERVER)
 
 {% hint style="warning" %}
-## Always use the Vanilla client when something is broken!
+### Always use the Vanilla client when something is broken!
 
 The log provided by the game will often be asked from support when necessary.\
 A non-bloated log is better for supporting you, and finding a solution easily.
@@ -45,11 +45,11 @@ You can clearly see which files failed to load and why, the errors are clear in 
 
 Enable output log
 
-![](<../.gitbook/assets/immagine%20(52).png>)
+![](<../.gitbook/assets/immagine (52).png>)
 
 Join the server and read the log
 
-![](<../.gitbook/assets/immagine%20(24).png>)
+![](<../.gitbook/assets/immagine (24).png>)
 
 You can clearly see which files failed to load and why. The errors are clear in most of the cases.
 
@@ -58,7 +58,7 @@ The error tells me that the JSON files are broken, they probably have bad charac
 
 ## Common issues <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
-* Be sure to follow all resourcepack hosting [tutorial ](../plugin-usage/plugin-configuration/resourcepack-hosting)steps.
+* Be sure to follow all resourcepack hosting [tutorial ](../plugin-usage/plugin-configuration/resourcepack-hosting/)steps.
 * If you use [`self-host`](../plugin-usage/plugin-configuration/resourcepack-hosting/self-hosting.md) make sure the **port** is opened. Ask your hosting about it.
 * Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (`png`) and **model** files (`json`).\
   For example an ID for a custom item: `CustomSword` is wrong, use `custom_sword`.
@@ -71,7 +71,7 @@ The error tells me that the JSON files are broken, they probably have bad charac
 * Run `/iainfo` command and make sure the resourcepack **URL** is reachable from your browser and it directly downloads the resourcepack `.zip` file.\
   If you paste the link on your browser (Firefox/Chrome) you must instantly see the download start.\
   If you see a download page with buttons it is an invalid URL.\
-  Read the resourcepack [hosting tutorials](../plugin-usage/plugin-configuration/resourcepack-hosting).
+  Read the resourcepack [hosting tutorials](../plugin-usage/plugin-configuration/resourcepack-hosting/).
 
 ### Resourcepack not sent at all <a href="#my-players-cant-see-textures-but-ive-followed-the-whole-tutorial" id="my-players-cant-see-textures-but-ive-followed-the-whole-tutorial"></a>
 

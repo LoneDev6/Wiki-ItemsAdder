@@ -7,7 +7,7 @@ description: >-
 # Single resourcepack Bungeecord
 
 {% hint style="danger" %}
-## This tutorial is outdated, will require a rewrite.
+### This tutorial is outdated, will require a rewrite.
 {% endhint %}
 
 ## Network-wide resourcepack
@@ -38,7 +38,7 @@ Decide a main server, for example `lobby`.\
 Open the `config.yml` of ItemsAdder in the `lobby` server and set up the hosting.
 
 {% content-ref url="../../plugin-usage/plugin-configuration/resourcepack-hosting/" %}
-[resourcepack-hosting](../../plugin-usage/plugin-configuration/resourcepack-hosting)
+[resourcepack-hosting](../../plugin-usage/plugin-configuration/resourcepack-hosting/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -49,7 +49,7 @@ After you finished configuring the hosting (follow the linked tutorial carefully
 
 For example:
 
-![](<../../.gitbook/assets/image%20(87).png>)
+![](<../../.gitbook/assets/image (87).png>)
 
 {% hint style="warning" %}
 You must remove the URL part after `#`, it's not needed.\

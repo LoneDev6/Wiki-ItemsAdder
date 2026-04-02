@@ -5,9 +5,9 @@
 {% endhint %}
 
 {% hint style="warning" %}
-### **Your hosting service must let you get additional ports for your server.**
+#### **Your hosting service must let you get additional ports for your server.**
 
-If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](.).
+If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./).
 {% endhint %}
 
 ### What is the difference between self-host and the other methods?
@@ -25,9 +25,9 @@ You just have to use command `/iazip` and you'll see changes applied in-game alm
 
 For example on **Pterodactyl**:
 
-![](<../../../.gitbook/assets/immagine%20(51).png>)
+![](<../../../.gitbook/assets/immagine (51).png>)
 
-![](<../../../.gitbook/assets/immagine%20(15).png>)
+![](<../../../.gitbook/assets/immagine (15).png>)
 
 * After you obtained a **new port** you can open `config.yml` and set it like this:
 
@@ -70,7 +70,7 @@ After you configured the `config.yml` file you just have to run the `/iazip` com
 ### Continue installation if you need
 
 {% content-ref url="../first-install.md" %}
-[first-install.md](../../first-install.md)
+[first-install.md](../first-install.md)
 {% endcontent-ref %}
 
 ## (optional) Cloudflare configuration

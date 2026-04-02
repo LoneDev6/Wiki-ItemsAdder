@@ -24,7 +24,7 @@ Make sure to provide a valid **NBT** (`json`) or it won't work!
 ## Inject NBT properties from file
 
 {% hint style="warning" %}
-### This feature requires at least ItemsAdder 4.0.8
+#### This feature requires at least ItemsAdder 4.0.8
 {% endhint %}
 
 {% code title="my_item_file.yml" %}
@@ -76,7 +76,7 @@ items:
 ## Old method, inject from NBT string
 
 {% hint style="warning" %}
-### NOTE
+#### NOTE
 
 Make sure to escape the `"` character using `\`.\
 Use my [Escape/Unescape tool](https://escape-mc-components.lonedev.workers.dev/) to escape the string before using it in the YML.
@@ -171,4 +171,3 @@ items:
         attackDamage: 30
         attackSpeed: 25
 ```
-

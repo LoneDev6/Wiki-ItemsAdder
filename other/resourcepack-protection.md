@@ -1,12 +1,12 @@
 ---
-icon: lock-keyhole
 description: How to protect your resourcepack
+icon: lock-keyhole
 ---
 
 # Resourcepack Protection
 
 {% hint style="danger" %}
-## Disclaimer
+### Disclaimer
 
 There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
 
@@ -20,7 +20,7 @@ Every other plugin has the same limitations. It's not a limitation of ItemsAdder
 
 You can protect your resourcepack from unzip and thieves by setting this option in `config.yml` and using `/iazip` again.
 
-If you're using an [external host](../plugin-usage/plugin-configuration/resourcepack-hosting) (like [Dropbox](../plugin-usage/plugin-configuration/resourcepack-hosting/dropbox.md)) don't forget to reupload the pack and update the `config.yml`.
+If you're using an [external host](../plugin-usage/plugin-configuration/resourcepack-hosting/) (like [Dropbox](../plugin-usage/plugin-configuration/resourcepack-hosting/dropbox.md)) don't forget to reupload the pack and update the `config.yml`.
 
 {% code title="config.yml" %}
 ```yaml

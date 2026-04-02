@@ -2,7 +2,7 @@
 icon: person-walking
 ---
 
-# Introduction
+# Player Emotes
 
 ## Emotes / Gestures
 
@@ -11,8 +11,8 @@ They integrate perfectly with the game and look like an official update.
 
 {% embed url="https://www.youtube.com/watch?v=posxlbudF8I" %}
 
-## Method for 1.21.4+ clients
-
+{% tabs %}
+{% tab title="Method for 1.21.4+ clients" %}
 {% hint style="success" %}
 Thanks so much to **Misieur** (**Thomas**) which helped me to implement this new method with his ideas 🩷
 {% endhint %}
@@ -40,9 +40,9 @@ emotes:
 
 * Requires Minecraft 1.21.4 or greater
 * More info about emotes issues [here](../../faq/emotes-issues.md)
+{% endtab %}
 
-## Method for 1.17 to 1.21.3 clients (old)
-
+{% tab title="(OLD) Method for 1.17 to 1.21.3 clients" %}
 {% code title="config.yml" %}
 ```yaml
 emotes:
@@ -64,6 +64,8 @@ emotes:
 * Won't show the player armor equipment, only mainhand, offhand and helmet.
 * Works only on 1.17 to 1.21.3 clients
 * More info about emotes issues [here](../../faq/emotes-issues.md)
+{% endtab %}
+{% endtabs %}
 
 ## Installing the Blockbench extension
 
@@ -76,7 +78,7 @@ emotes:
 
 [Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
-![](<../../.gitbook/assets/image%20(131).png>)
+![](<../../.gitbook/assets/image (131).png>)
 
 \
 [Download](https://github.com/LoneDev6/itemsadder-entity/releases) the extension file.
@@ -85,15 +87,15 @@ emotes:
 
 Then open **Blockbench** and click on File -> Plugins.
 
-![](<../../.gitbook/assets/image%20(183).png>)
+![](<../../.gitbook/assets/image (183).png>)
 
 Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
 
-![](<../../.gitbook/assets/image%20(184).png>)
+![](<../../.gitbook/assets/image (184).png>)
 
 Press OK
 
-![](<../../.gitbook/assets/image%20(152).png>)
+![](<../../.gitbook/assets/image (152).png>)
 
 ## Enabling emotes
 
