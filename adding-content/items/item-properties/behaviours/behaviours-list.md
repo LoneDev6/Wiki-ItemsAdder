@@ -270,3 +270,14 @@ You will be able to sit on it and move around / in air. You can also set fuel se
   * `x` (number)
   * `y` (number)
   * `z` (number)
+
+## ItemsAdderAdditions Behaviours
+
+### `connectable`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/behaviours/connectable).
+
+### `contact_damage`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/behaviours/contact-damage).
+
+### `stackable`
+Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/behaviours/stackable).

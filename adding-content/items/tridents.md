@@ -1,8 +1,10 @@
-# 🔱 Tridents
+---
+icon: fork
+---
+
+# Tridents
 
 {% hint style="warning" %}
-Available since ItemsAdder 4.0.11.
-
 Requires Minecraft 1.21.4+ clients. Server version is not important.
 {% endhint %}
 
@@ -14,11 +16,12 @@ info:
 items:
   obsidian_trident:
     name: Obsidian Trident
-    resource:
-      generate: false
-      model_path: item/obsidian_trident
-      material: TRIDENT
+    material: TRIDENT
+    graphics:
       icon: item/obsidian_trident
+      models:
+        normal: item/obsidian_trident
+        throwing: item/obsidian_trident_throwing
 ```
 
 ### Creating the trident
@@ -82,8 +85,8 @@ You should not edit the firstperson view, only edit the thirdperson. The game wi
 
 You can set a 2D icon in inventory.
 
-{% content-ref url="item-properties/2d-icon.md" %}
-[2d-icon.md](item-properties/2d-icon.md)
+{% content-ref url="modern-items-creation.md#icon" %}
+[modern-items-creation.md](modern-items-creation.md#icon)
 {% endcontent-ref %}
 
 ## Done
