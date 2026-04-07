@@ -23,9 +23,10 @@ items:
 
 ### Creating the trident
 
-Create a json file in `contents/test/models/item/obsidian_trident.json`
+Create a json file in `contents/test/models/item/obsidian_trident.json`\
 Or create a model inside of blockbench like usual:
 <figure><img src="../../.gitbook/assets/trident_create_showcase.png" alt=""><figcaption></figcaption></figure>
+
 #### Set the item held locations
 
 <figure><img src="../../.gitbook/assets/trident_display_showcase.png" alt=""><figcaption></figcaption></figure>
@@ -42,15 +43,23 @@ Here is the complete display:
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [0, 60, 0],
-			"translation": [0, 0, 1]
+			"translation": [0, -10, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 60, 0],
+			"translation": [0, -8, 1]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 90, -25],
-			"translation": [2.75, -0.75, 2.25]
+			"translation": [5.05, -10.7, 5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [6.25, -11, 3.5]
 		},
 		"head": {
 			"rotation": [90, 90, 0],
-			"translation": [0, 0, -21]
+			"translation": [0, 0, -20]
 		}
 	}
 ```
