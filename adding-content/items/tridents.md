@@ -24,16 +24,17 @@ items:
 ### Creating the trident
 
 Create a json file in `contents/test/models/item/obsidian_trident.json`
-
+Or create a model inside of blockbench like usual:
+<figure><img src="../../.gitbook/assets/trident_create_showcase.png" alt=""><figcaption></figcaption></figure>
 #### Set the item held locations
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/trident_display_showcase.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/trident_display_firstperson_showcase.png" alt=""><figcaption></figcaption></figure>
 
 #### Set the hit model location
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/trident_display_hitlocation_showcase.png" alt=""><figcaption></figcaption></figure>
 
 Here is the complete display:
 
@@ -68,8 +69,8 @@ You can create a totally different model using Blockbench or simply create a cop
 	"parent": "test:item/obsidian_trident",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 90, 180],
-			"translation": [0, 0, 1]
+			"rotation": [0, 90, -180],
+			"translation": [0, 11, 1]
 		}
 	}
 }
@@ -89,3 +90,9 @@ You can set a 2D icon in inventory.
 ## Done
 
 {% embed url="https://youtu.be/XvAIg-Lw2xs" %}
+
+## Example pack
+{% content-ref url="https://github.com/bruhhhwarrior/tridents/releases" %}
+[Example pack](https://github.com/bruhhhwarrior/tridents/releases)
+{% endcontent-ref %}
+
