@@ -10,20 +10,21 @@ Requires Minecraft 1.21.4+ clients. Server version is not important.
 
 ```yaml
 info:
-  namespace: test
+  namespace: tridents
 items:
   obsidian_trident:
-    name: Obsidian Trident
-    resource:
-      generate: false
-      model_path: item/obsidian_trident
-      material: TRIDENT
-      icon: item/obsidian_trident
+    name: <aqua>Obsidian Trident
+    material: TRIDENT
+    graphics:
+      icon: item/obsidian_trident_icon
+      models: 
+        normal: item/obsidian_trident
+        throwing: item/obsidian_trident_throwing
 ```
 
 ### Creating the trident
 
-Create a json file in `contents/test/models/item/obsidian_trident.json`\
+Create a json file in `contents\tridents\models\item\obsidian_trident.json`\
 Or create a model inside of blockbench like usual:
 <figure><img src="../../.gitbook/assets/trident_create_showcase.png" alt=""><figcaption></figcaption></figure>
 
@@ -67,7 +68,7 @@ Here is the complete display:
 ### Create the throwing model (`_throwing.json` model)
 
 This is the model shown when you are holding the right click button.\
-Create a json file in `contents/test/models/item/obsidian_trident_throwing.json`
+Create a json file in `contents\tridents\models\item\obsidian_trident_throwing.json`
 
 It's the same model as before, the only difference is the rotation when hold in hand.
 
