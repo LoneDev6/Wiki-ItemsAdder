@@ -439,3 +439,47 @@ Replace this item properties
 #### Properties:
 
 * `custom_model_data` (object): unknown
+
+## ItemsAdderAdditions Actions
+
+### `actionbar`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/actionbar).
+
+### `clear_item`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/clear-item).
+
+### `ignite`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/ignite).
+
+### `message`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/message).
+
+### `mythic_mobs_skill`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/mythic-mobs-skill).
+
+### `open_inventory`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/open-inventory).
+
+### `play_animation`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/play-animation).
+
+### `play_emote`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/play-emote).
+
+### `shoot_fireball`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/shoot-fireball).
+
+### `swing_hand`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/swing-hand).
+
+### `teleport`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/teleport).
+
+### `title`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/title).
+
+### `toast`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/toast).
+
+### `veinminer`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/veinminer).

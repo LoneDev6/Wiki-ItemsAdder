@@ -190,7 +190,7 @@
     * [Fishing rod, shield, bundle](adding-content/items/fishing-rod-shield-bundle.md)
     * [Fuel](adding-content/items/fuel.md)
     * [Armors](adding-content/items/armors.md)
-    * [🔱 Tridents](adding-content/items/tridents.md)
+    * [Tridents](adding-content/items/tridents.md)
     * [Elytra](adding-content/items/elytra.md)
     * [Animated 3D Items](adding-content/items/animated-3d-items.md)
     * [Writable Book](adding-content/items/writable-book.md)
@@ -210,6 +210,8 @@
     * [Turn Block ON-OFF](adding-content/blocks/turn-block-on-off.md)
     * [TNT](adding-content/blocks/tnt.md)
     * [Liquids](adding-content/blocks/liquids.md)
+    * [Stackable](adding-content/blocks/stackable.md)
+    * [Storage](adding-content/blocks/storage.md)
 
 * [Furnitures](adding-content/furnitures/README.md)
     * [Model](adding-content/furnitures/model.md)
@@ -217,6 +219,8 @@
     * [2D Icon](adding-content/furnitures/furniture-2d-icon.md)
     * [Transparency](adding-content/furnitures/transparent-furniture.md)
     * [Chair](adding-content/furnitures/chair.md)
+    * [Connectable](adding-content/furnitures/connectable.md)
+    * [Storage](adding-content/furnitures/storage.md)
     * [Execute actions](adding-content/furnitures/furniture-execute-actions.md)
     * [Permissions](adding-content/furnitures/furniture-permissions.md)
     * [Complex](adding-content/furnitures/furniture-complex.md)
@@ -261,6 +265,8 @@
 * [Recipes](adding-content/recipes/README.md)
     * [Crafting](adding-content/recipes/crafting.md)
     * [Cooking](adding-content/recipes/cooking.md)
+    * [Campfire Cooking](adding-content/recipes/campfire-cooking.md)
+    * [Stonecutter](adding-content/recipes/stonecutter.md)
     * [Anvil Repair](adding-content/recipes/anvil-repair.md)
     * [Smithing](adding-content/recipes/smithing.md)
 
@@ -300,7 +306,7 @@
 ## Other
 
 * [Bulk colorize images](other/bulk-colorize-images.md)
-* [Pack Overlays](pack-overlays.md)
+* [Pack Overlays](other/pack-overlays.md)
 * [Minecraft Server Hosting](other/minecraft-hosting.md)
 * [Custom Player Stats](other/custom-player-stats.md)
 * [Hide Scoreboard Background and Numbers](other/hide-scoreboard-numbers-1.17+.md)
