@@ -1,5 +1,5 @@
 ---
-icon: package
+icon: folder
 ---
 
 # Storage
