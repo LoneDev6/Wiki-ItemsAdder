@@ -265,6 +265,8 @@
 * [Recipes](adding-content/recipes/README.md)
     * [Crafting](adding-content/recipes/crafting.md)
     * [Cooking](adding-content/recipes/cooking.md)
+    * [Campfire Cooking](adding-content/recipes/campfire-cooking.md)
+    * [Stonecutter](adding-content/recipes/stonecutter.md)
     * [Anvil Repair](adding-content/recipes/anvil-repair.md)
     * [Smithing](adding-content/recipes/smithing.md)
 
