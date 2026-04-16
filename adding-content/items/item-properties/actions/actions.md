@@ -443,31 +443,43 @@ Replace this item properties
 ## ItemsAdderAdditions Actions
 
 ### `actionbar`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/actionbar).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/actionbar).
 
 ### `clear_item`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/clear-item).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/clear-item).
+
+### `ignite`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/ignite).
 
 ### `message`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/message).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/message).
+
+### `mythic_mobs_skill`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/mythic-mobs-skill).
 
 ### `open_inventory`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/open-inventory).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/open-inventory).
 
 ### `play_animation`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/play-animation).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/play-animation).
+
+### `play_emote`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/play-emote).
+
+### `shoot_fireball`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/shoot-fireball).
 
 ### `swing_hand`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/swing-hand).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/swing-hand).
 
 ### `teleport`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/teleport).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/teleport).
 
 ### `title`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/title).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/title).
 
 ### `toast`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/toast).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/toast).
 
 ### `veinminer`
-Check the documentation [here](https://itemsadderadditions.gitbook.io/wiki/actions/veinminer).
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/veinminer).

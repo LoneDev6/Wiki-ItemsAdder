@@ -4,4 +4,4 @@ icon: flower
 
 # Stackable
 
-Stackable blocks are available through [ItemsAdderAdditions](https://itemsadderadditions.gitbook.io/wiki/behaviours/stackable).
+Stackable blocks are available through [ItemsAdderAdditions](https://itemsadderadditions.com/docs/behaviours/stackable).
