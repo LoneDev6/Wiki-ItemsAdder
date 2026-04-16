@@ -211,6 +211,7 @@
     * [TNT](adding-content/blocks/tnt.md)
     * [Liquids](adding-content/blocks/liquids.md)
     * [Stackable](adding-content/blocks/stackable.md)
+    * [Storage](adding-content/blocks/storage.md)
 
 * [Furnitures](adding-content/furnitures/README.md)
     * [Model](adding-content/furnitures/model.md)
@@ -219,6 +220,7 @@
     * [Transparency](adding-content/furnitures/transparent-furniture.md)
     * [Chair](adding-content/furnitures/chair.md)
     * [Connectable](adding-content/furnitures/connectable.md)
+    * [Storage](adding-content/furnitures/storage.md)
     * [Execute actions](adding-content/furnitures/furniture-execute-actions.md)
     * [Permissions](adding-content/furnitures/furniture-permissions.md)
     * [Complex](adding-content/furnitures/furniture-complex.md)
