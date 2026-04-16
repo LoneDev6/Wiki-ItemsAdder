@@ -2,7 +2,7 @@
 icon: lamp-floor
 ---
 
-# Introduction
+# Furnitures
 
 A furniture is a decorative object which can be solid, emit light, used as chair and can have other features.
 
@@ -110,7 +110,7 @@ This type of furniture entity is useful when you want to make the furniture rota
 
 For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.
 
-![](<../../.gitbook/assets/image%20(1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 ```yaml
 behaviours:
@@ -159,7 +159,7 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
           height_offset: 0
 ```
 
-![](<../../.gitbook/assets/image%20(169).png>)
+![](<../../.gitbook/assets/image (169).png>)
 
 ### Hitbox has wrong location <a href="#show-the-hitbox" id="show-the-hitbox"></a>
 
@@ -174,7 +174,7 @@ This can happen if your furniture is 2x1x1 for example.
 {% endtab %}
 
 {% tab title="Correct" %}
-![](<../../.gitbook/assets/hitbox2%20(1).png>)
+![](<../../.gitbook/assets/hitbox2 (1).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -197,12 +197,12 @@ You can also use negative values if needed.
 You can use the command `/iahitbox` to see the hitbox when you place a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}
 
-![](<../../.gitbook/assets/immagine%20(63)%20(2)%20(3)%20(2)%20(1)%20(1).png>)
+![](<../../.gitbook/assets/immagine (63) (2) (3) (2) (1) (1).png>)
 
-![](<../../.gitbook/assets/immagine%20(17).png>)
+![](<../../.gitbook/assets/immagine (17).png>)
 
 {% hint style="warning" %}
-## **Hitboxes limitations**
+### **Hitboxes limitations**
 
 **`item_frame` limitations (doesn't affect `armor_stand`)**
 

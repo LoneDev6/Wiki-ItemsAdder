@@ -9,7 +9,7 @@ icon: volume-low
 Use [this website](https://misieur.me/audio-converter/) to convert your file (`mp3`, `wav`...) to `ogg` (alternative [here](https://audio.online-convert.com/convert-to-ogg)).
 
 {% hint style="warning" %}
-#### IMPORTANT
+**IMPORTANT**
 
 Remember to set "Channels" to `Mono` or you will experience [audio problems](https://bugs.mojang.com/browse/MC-146721)
 {% endhint %}
@@ -19,7 +19,7 @@ Remember to set "Channels" to `Mono` or you will experience [audio problems](htt
 ### New Method
 
 {% hint style="warning" %}
-### This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.
+#### This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.
 {% endhint %}
 
 #### Simple sound
@@ -45,7 +45,7 @@ sounds:
 #### Jukebox song (Minecraft 1.21.1 and greater)
 
 {% content-ref url="jukebox-disc.md" %}
-[jukebox-disc.md](sounds/jukebox-disc.md)
+[jukebox-disc.md](jukebox-disc.md)
 {% endcontent-ref %}
 
 ### Old Method (ItemsAdder 4.0.10 and lower)

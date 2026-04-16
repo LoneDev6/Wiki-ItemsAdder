@@ -62,7 +62,7 @@ Permission: `ia.user.text_effect.use.noshadow`\
 Usage: `<noshadow text>`
 
 {% hint style="info" %}
-### Note
+#### Note
 
 in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON components to hide the shadow. But this requires you to have knowledge about JSON components.
 {% endhint %}
@@ -71,9 +71,9 @@ in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON compone
 
 ![](../../.gitbook/assets/rainbow.gif)
 
-![](<../../.gitbook/assets/immagine%20(4).png>)
+![](<../../.gitbook/assets/immagine (4).png>)
 
-![](<../../.gitbook/assets/immagine%20(14).png>)
+![](<../../.gitbook/assets/immagine (14).png>)
 
 ![](../../.gitbook/assets/rainbow_item.gif)
 
@@ -136,7 +136,7 @@ Usage: `<b text>`
 
 ## How to create animated prefix (Luckperms)
 
-![](<../../.gitbook/assets/immagine%20(53).png>)
+![](<../../.gitbook/assets/immagine (53).png>)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 

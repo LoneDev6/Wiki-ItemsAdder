@@ -9,13 +9,13 @@ icon: seedling
 {% hint style="warning" %}
 This feature requires ItemsAdder 4.0.15+ and Minecraft 1.21.4+ (both client and server).
 
-### Performance
+#### Performance
 
 Minecraft 1.21.10 clients introduced a fix that makes custom entities have better performance, so it's adviced to use that version, but the feature works fine on 1.21.4+
 {% endhint %}
 
 {% hint style="warning" %}
-### This page is under construction...
+#### This page is under construction...
 {% endhint %}
 
 ### Seed
@@ -134,10 +134,8 @@ All options are optional, you can override a single one or all.
 #### `avg_seconds_per_stage`
 
 It uses the value set in `config.yml` by default.\
-Average time in seconds for a plant to grow one stage under optimal conditions.
-\
-Used to calculate growth probability at each check (p = checkInterval / avgSecondsPerStage).
-\
+Average time in seconds for a plant to grow one stage under optimal conditions.\
+Used to calculate growth probability at each check (p = checkInterval / avgSecondsPerStage).\
 Lower values make crops grow faster, higher values make them grow slower.
 
 #### `min_light`
@@ -359,7 +357,7 @@ Your custom crop is ready.
 
 Just generate your resourcepack using `/iazip`.
 
-<div><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Performance optimization
 

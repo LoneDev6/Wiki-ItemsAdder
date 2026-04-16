@@ -1,5 +1,4 @@
 ---
-description: Emotes have bugged textures (1.17+)
 icon: person-walking
 ---
 
@@ -22,7 +21,7 @@ If you want to support 1.21.4 and greater clients, you must use `1_21_4_plus_mod
 
 ## Case 2
 
-<div><figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If you're on a _1.21.3_ or older client, you can't use `1_21_4_plus_modern_method`. You must keep using `1_21_5_plus_emotes_shaders`.
 
@@ -43,6 +42,17 @@ merge_other_plugins_resourcepacks_folders:
 
 Also check your `ItemsAdder/contents` folders for any shader that can interfere.
 
+## Case 4
+
+{% hint style="info" %}
+Minecraft 26.1
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+
+Make sure to use `1_21_4_plus_modern_method: true` and regenerate your pack, because `1_21_5_to_1_21_9_shaders` and `legacy_shaders` are no longer supported on Minecraft _**26.1**_.\
+(regenerate your pack after this change).
+
 ## Mods issues (only related to vanilla shader method)
 
 If you are using `1_21_5_plus_emotes_shaders` or `legacy_shaders`, you will have this issue using shader mods (only _1.21.8_ and lower clients can have this issue).
@@ -53,11 +63,11 @@ The only way to _"fix"_ this is by disabling the shaders themself or removing th
 
 {% tabs %}
 {% tab title="With Shaders on (Bug)" %}
-![shader bug](<../.gitbook/assets/image%20(75).png>)
+![shader bug](<../.gitbook/assets/image (75).png>)
 {% endtab %}
 
 {% tab title="With Shaders off (No Bug)" %}
-![no shader bug](<../.gitbook/assets/image%20(127).png>)
+![no shader bug](<../.gitbook/assets/image (127).png>)
 {% endtab %}
 {% endtabs %}
 

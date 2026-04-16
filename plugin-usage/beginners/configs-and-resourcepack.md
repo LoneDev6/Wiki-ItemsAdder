@@ -12,7 +12,7 @@ It's a main folder containing sub-folders inside.
 Each sub-folder has a pack of files, like settings, models, textures, or sounds. The name of each sub-folder tells you what **namespace** (category or group) those files belong to.
 
 {% hint style="danger" %}
-#### **Important**
+**Important**
 
 Remember to always maintain order in **contents** sub-folders!\
 Don't paste things randomly, don't create too many subfolders, don't leave unused textures/models or it will be difficult to find out errors and mistakes.
@@ -38,7 +38,7 @@ On the other hand you will need more namespaces if you are a contents creator an
 
 All **realcraft** items are under the `realcraft` namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 
-![](<../../.gitbook/assets/image%20(223).png>)
+![](<../../.gitbook/assets/image (223).png>)
 
 ## How can I define my own namespace?
 
@@ -107,7 +107,7 @@ plugins
 ```
 
 {% hint style="warning" %}
-### Expert users
+#### Expert users
 
 If you plan to use multiple namespaces in the content folder, for example `minecraft` and `myitems`, do not use this structure as you won't be able to specify the other namespaces. Use one other other structures as they do not auto-detect the namespace for texture/models folders.
 {% endhint %}

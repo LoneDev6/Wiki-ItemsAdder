@@ -5,7 +5,7 @@ icon: circle-exclamation
 # Plugin doesn't work
 
 {% hint style="danger" %}
-#### Please read this page CAREFULLY before asking for support.
+**Please read this page CAREFULLY before asking for support.**
 
 Most of the times the issue can be easily fixed by reading this page.
 {% endhint %}
@@ -43,7 +43,7 @@ Use the search button before submitting a report, people might already have repo
 {% endhint %}
 
 {% hint style="danger" %}
-## Invalid support requests will be ignored
+### Invalid support requests will be ignored
 {% endhint %}
 
 When you report something be sure to:

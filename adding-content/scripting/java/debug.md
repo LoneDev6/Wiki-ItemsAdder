@@ -12,7 +12,7 @@ This is only compatible with `.java` scripting type.
 
 {% stepper %}
 {% step %}
-### Step 1
+#### Step 1
 
 {% hint style="warning" %}
 Follow the [autocompletion setup tutorial](autocompletion.md) before continuing!
@@ -20,13 +20,13 @@ Follow the [autocompletion setup tutorial](autocompletion.md) before continuing!
 {% endstep %}
 
 {% step %}
-### Step 2
+#### Step 2
 
 Install the VSCode extension [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug).
 {% endstep %}
 
 {% step %}
-### Step 3
+#### Step 3
 
 Create your script file into a folder `iascript`.\
 For example `ItemsAdder/contents/test/iascript/example.java`.
@@ -73,7 +73,7 @@ public class example extends ItemScript {
 Create a `.yml` file that holds the configurations.
 
 Specify the script under the `scripts` category.\
-In this example I specified the `example` script, which was created in  `contents/test/iascript/example.java`.
+In this example I specified the `example` script, which was created in `contents/test/iascript/example.java`.
 
 ```yaml
 info:
@@ -103,7 +103,7 @@ items:
 {% endstep %}
 
 {% step %}
-### Step 4
+#### Step 4
 
 Change your server launch arguments and add `-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=55213`.
 
@@ -113,7 +113,7 @@ Example: `java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_soc
 {% endstep %}
 
 {% step %}
-### Step 5
+#### Step 5
 
 Create a new file `.vscode\launch.json` (do not forget the dot at the very start!).\
 Change the port `55213` to your own debug port, which is different from the server port.
@@ -135,12 +135,10 @@ Change the port `55213` to your own debug port, which is different from the serv
 {% endstep %}
 
 {% step %}
-### Step 6 - Done!
+#### Step 6 - Done!
 
 Press F5 while editing a file and then place your breakpoints, use the debug console etc.
 
-<figure><img src="../../../.gitbook/assets/image%20(2)%20(1)%20(1)%20(1)%20(1).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}

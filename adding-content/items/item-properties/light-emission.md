@@ -41,8 +41,6 @@ Create your model. For example you can extrude the texture like I did.
 Adjust the model in the center.
 
 <figure><img src="../../../.gitbook/assets/image (289).png" alt=""><figcaption></figcaption></figure>
-
-
 {% endstep %}
 
 {% step %}
@@ -58,7 +56,7 @@ Save the file: `contents/test/models/block/test_light_emission_item.json`
 {% step %}
 Create the configuration.
 
-### Old method
+#### Old method
 
 ```yaml
 info:
@@ -72,7 +70,7 @@ items:
       model_path: item/test_light_emission_item
 ```
 
-### New modern method (1.21.4+)
+#### New modern method (1.21.4+)
 
 ```yaml
 info:
@@ -99,8 +97,6 @@ This happens because the game doesn't support transparency in `REAL` blocks.
 {% hint style="info" %}
 If you do not want to use `REAL_TRANSPARENT` you can create a block with a single layer which will all be glowing.
 {% endhint %}
-
-
 
 {% stepper %}
 {% step %}
@@ -148,7 +144,7 @@ Save the file: `contents/test/models/block/test_light_emission.json`
 {% step %}
 Create the configuration.
 
-### Old method
+#### Old method
 
 ```yaml
 info:
@@ -168,7 +164,7 @@ items:
 
 ```
 
-### New modern method (1.21.4+)
+#### New modern method (1.21.4+)
 
 ```yaml
 info:

@@ -8,7 +8,7 @@ icon: server
 ![](../.gitbook/assets/MMICa0s.gif)
 
 {% hint style="info" %}
-### <mark style="color:green;">Use the code</mark> <mark style="color:blue;">`LONEDEV`</mark> <mark style="color:green;">and get 20% discount!</mark>
+#### <mark style="color:green;">Use the code</mark> <mark style="color:blue;">`LONEDEV`</mark> <mark style="color:green;">and get 20% discount!</mark>
 
 [http://bit.ly/humble-itemsadderwiki](http://bit.ly/humble-itemsadderwiki)
 

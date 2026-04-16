@@ -5,17 +5,16 @@ icon: arrow-rotate-left
 # Directional Blocks
 
 {% hint style="info" %}
-## Requires ItemsAdder 4.0.10 or greater
+### Requires ItemsAdder 4.0.10 or greater
 {% endhint %}
 
 {% hint style="warning" %}
-## Warning
+### Warning
 
 Creating directional blocks will occupy 4 or 6 slots per block.\
 This happens because each direction is a different block.
 
-There is no way to bypass that. It's a limitation of the game and any other content creation plugin would have this limitation.
-\
+There is no way to bypass that. It's a limitation of the game and any other content creation plugin would have this limitation.\
 You should not abuse directional blocks because they quickly will saturate your custom blocks usages.
 {% endhint %}
 
@@ -109,8 +108,7 @@ Acts like the vanilla dropper.
 
 ![](https://github.com/user-attachments/assets/c097ac52-80ba-4daf-865b-7726ad3e8b87)
 
-In this particular case I decided to overwrite the automatically generated directional blocks `up` and `down` to customize the appearance of the block in this particular case, setting a different texture for the `north` face (front).
-\
+In this particular case I decided to overwrite the automatically generated directional blocks `up` and `down` to customize the appearance of the block in this particular case, setting a different texture for the `north` face (front).\
 In the screenshot you can see the face texture is different.
 
 ```yaml
@@ -182,5 +180,4 @@ Accepted faces are:
 * `up`
 * `down`
 
-In my example I used `directional_block_dropper_up` (`_up`) and `directional_block_dropper_down` (`_down`)  for the block `directional_block_dropper`.
-
+In my example I used `directional_block_dropper_up` (`_up`) and `directional_block_dropper_down` (`_down`) for the block `directional_block_dropper`.

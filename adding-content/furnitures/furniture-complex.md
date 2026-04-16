@@ -2,17 +2,17 @@
 icon: wand-magic-sparkles
 ---
 
-# Furniture - Complex
+# Complex
 
 {% hint style="warning" %}
-### Requires **ItemsAdder 4.0.9** or greater.
+#### Requires **ItemsAdder 4.0.9** or greater.
 {% endhint %}
 
 To create advanced furniture you have to use the custom entities feature of ItemsAdder.\
 Please read the tutorial on how to create custom entities before continuing.
 
 {% content-ref url="../entities/" %}
-[entities](../entities)
+[entities](../entities/)
 {% endcontent-ref %}
 
 {% hint style="danger" %}
@@ -71,8 +71,6 @@ Create your model.
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-
-
 Switch to the animation panel.
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
@@ -93,10 +91,8 @@ Open the entity settings and set the correct namespace. In my example I use `my_
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-Save the project as `ceiling_fan.iaentity`  (for example) inside your namespace folder root.\
+Save the project as `ceiling_fan.iaentity` (for example) inside your namespace folder root.\
 You will be able to edit it anytime you want in the future.
-
-
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
@@ -109,4 +105,3 @@ Export the model. This is the model file that will be loaded by ItemsAdder.
 Get the item ingame using `/iaget my_furniture:ceiling_fan`.
 
 <figure><img src="../../.gitbook/assets/ezgif-4f55fae1f8968a (1).gif" alt=""><figcaption></figcaption></figure>
-

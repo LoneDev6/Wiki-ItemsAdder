@@ -5,9 +5,9 @@ icon: bow-arrow
 # My First Bow
 
 {% hint style="danger" %}
-### **Resourcepack hosting**
+#### **Resourcepack hosting**
 
-Remember to **decide** a [**resourcepack hosting**](../plugin-configuration/resourcepack-hosting) method **before** you **start**.\
+Remember to **decide** a [**resourcepack hosting**](../plugin-configuration/resourcepack-hosting/) method **before** you **start**.\
 I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
 {% endhint %}
 
@@ -72,8 +72,6 @@ items:
 ### Models files
 
 `contents/myitems/models/item/`
-
-
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
 

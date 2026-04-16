@@ -2,10 +2,10 @@
 icon: fill-drip
 ---
 
-# Colored models
+# Colored Models
 
 {% hint style="info" %}
-### Why?
+#### Why?
 
 To make a colored element or a colored vehicle you don't have to make a separate model for each item with a different color.
 
@@ -16,23 +16,23 @@ For example a custom colored furniture.
 
 ### 1. open your model with Blockbench
 
-![](<../.gitbook/assets/immagine%20(37).png>)
+![](<../.gitbook/assets/immagine (37).png>)
 
 ### 2. select the face you want to be colored
 
-![](<../.gitbook/assets/immagine%20(76).png>)
+![](<../.gitbook/assets/immagine (76).png>)
 
 ### 3. use a white/gray texture, for better coloring
 
 ### 4. enable the hidden "Tint" feature
 
-![](<../.gitbook/assets/immagine%20(34).png>)
+![](<../.gitbook/assets/immagine (34).png>)
 
-![](<../.gitbook/assets/immagine%20(91).png>)
+![](<../.gitbook/assets/immagine (91).png>)
 
 ### 5. enable the coloring for each face you want to be colored
 
-![](<../.gitbook/assets/immagine%20(108).png>)
+![](<../.gitbook/assets/immagine (108).png>)
 
 ### 6. set the specific color attribute in your .yml file.
 
@@ -54,11 +54,10 @@ In this example I used `leather_horse_armor` but you can also use `potion`.
       model_path: item/template_modern_lamp
 ```
 
-#### Getting colors
+**Getting colors**
 
 * **Decimal** colors using [this tool](https://www.mathsisfun.com/hexadecimal-decimal-colors.html)
-
-- Colors from this list
+* Colors from this list
   * `WHITE`
   * `SILVER`
   * `GRAY`
@@ -101,4 +100,4 @@ Read more on the [modern coloring tutorial](colored-items.md).
 
 ### 7. now you can create as many as models you want, just change the color and it will be automatically colored by the game
 
-![](<../.gitbook/assets/immagine%20(105).png>)
+![](<../.gitbook/assets/immagine (105).png>)
