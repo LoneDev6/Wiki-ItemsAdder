@@ -90,6 +90,26 @@ You can also use [this tool](https://misode.github.io/transformation/) to previe
 
 </details>
 
+`auto_update_in_world`: automatically apply config changes to entities already placed in the world. Default value is in `config.yml` as `auto_update_transformations`, which can be used to globally disable or enable this feature.
+
+{% hint style="info" %}
+Requires ItemsAdder 4.0.16+
+{% endhint %}
+
+<details>
+
+<summary>Example</summary>
+
+```yaml
+behaviours:
+  furniture:
+    entity: item_display
+    display_transformation:
+      auto_update_in_world: true # <--- here
+```
+
+</details>
+
 ### `armor_stand`
 
 This type of furniture entity is useful when you want to create chairs, plants, columns, lamps and similar environment decorations which don't need to rotate based on the surface on which you place them.
@@ -110,12 +130,12 @@ This type of furniture entity is useful when you want to make the furniture rota
 
 For example if you have a decorative lamp you can make it placeable on walls, ceiling and ground and and make it oriented automatically based on the surface inclination.
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (59).png>)
 
 ```yaml
 behaviours:
   furniture:
-    entity: item_frame # <--- (by default, not mandatory)
+    entity: item_frame
     light_level: 15
     solid: false
 ```
@@ -197,12 +217,12 @@ You can also use negative values if needed.
 You can use the command `/iahitbox` to see the hitbox when you place a furniture, it's very useful to detect mistakes in the hitbox configuration
 {% endhint %}
 
-![](<../../.gitbook/assets/immagine (63) (2) (3) (2) (1) (1).png>)
+![](<../../.gitbook/assets/immagine (63) (2) (3) (2) (1).png>)
 
 ![](<../../.gitbook/assets/immagine (17).png>)
 
 {% hint style="warning" %}
-### **Hitboxes limitations**
+#### **Hitboxes limitations**
 
 **`item_frame` limitations (doesn't affect `armor_stand`)**
 
