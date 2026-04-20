@@ -12,7 +12,7 @@ This is only compatible with `.java` scripting type.
 
 {% stepper %}
 {% step %}
-### Step 1
+#### Step 1
 
 Create a new file in your namespace folder called `build.gradle.kts`.\
 For example `ItemsAdder/contents/test/build.gradle.kts`.
@@ -50,14 +50,14 @@ dependencies {
 {% endstep %}
 
 {% step %}
-### Step 2
+#### Step 2
 
 Make sure to install [VSCode](https://code.visualstudio.com/).\
 Install also the [Gradle for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle) extension.
 {% endstep %}
 
 {% step %}
-### Step 3
+#### Step 3
 
 Change your server launch arguments and add `-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=55213`.
 
@@ -67,7 +67,7 @@ Example: `java -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_soc
 {% endstep %}
 
 {% step %}
-### Step 4
+#### Step 4
 
 Create a new file `.vscode\launch.json` (do not forget the dot at the very start!).
 
@@ -90,7 +90,7 @@ Change the port `55213` to your own debug port, which is different from the serv
 {% endstep %}
 
 {% step %}
-### Step 5
+#### Step 5
 
 Create a new file .vscode\settings.json (do not forget the dot at the very start!).
 

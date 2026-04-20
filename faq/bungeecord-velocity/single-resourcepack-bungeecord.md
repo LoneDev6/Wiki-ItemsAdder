@@ -7,7 +7,7 @@ description: >-
 # Single resourcepack Bungeecord
 
 {% hint style="danger" %}
-### This tutorial is outdated, will require a rewrite.
+#### This tutorial is outdated, will require a rewrite.
 {% endhint %}
 
 ## Network-wide resourcepack

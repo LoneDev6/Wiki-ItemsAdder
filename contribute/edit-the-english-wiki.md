@@ -21,7 +21,7 @@ Edit the file and then press <mark style="color:green;">**Commit changes**</mark
 ![](<../.gitbook/assets/image (190).png>)
 
 {% hint style="warning" %}
-### Important notes
+#### Important notes
 
 * Do not remove the `#` special characters, edit only the next text, these are titles.
 * Do not remove or edit special texts inside `{ }`, for example `{% hint style="info" %}`, these are used to create the hint message boxes.

@@ -113,7 +113,7 @@ durability:
   usages: 5
 ```
 
-`usages` : Number of usages for the current item. Remember to decrement it using [events](events).
+`usages` : Number of usages for the current item. Remember to decrement it using [events](events/).
 
 `durability` : Initial durability which the item has (if not specified is the same as `max_durability`).
 
@@ -182,7 +182,7 @@ Very useful for **rare items**.
 Available on ItemsAdder 4.0.9 or greater.
 {% endhint %}
 
-![](<../../../.gitbook/assets/immagine%20(16).png>)
+![](<../../../.gitbook/assets/immagine (16).png>)
 
 ```yaml
 items:
@@ -204,7 +204,7 @@ items:
 You can make a drop show its name.\
 Very useful for **rare items**.
 
-![](<../../../.gitbook/assets/immagine%20(118)%20(2).png>)
+![](<../../../.gitbook/assets/immagine (118).png>)
 
 ```yaml
   glowing_item:
@@ -227,5 +227,5 @@ Very useful for **rare items**.
 ## Use the official files editor to read all the properties
 
 {% content-ref url="../../beginners/files-editor.md" %}
-[files-editor.md](../../../plugin-usage/beginners/files-editor.md)
+[files-editor.md](../../beginners/files-editor.md)
 {% endcontent-ref %}

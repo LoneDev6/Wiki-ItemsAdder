@@ -10,13 +10,13 @@ You can manually download the assets to fix this.
 
 {% stepper %}
 {% step %}
-### Delete the folder
+#### Delete the folder
 
 Delete the folder `ItemsAdder/storage/cache/vanilla_assets`
 {% endstep %}
 
 {% step %}
-### Download the assets
+#### Download the assets
 
 {% embed url="https://mc-assets-downloader.lonedev.workers.dev/itemsadder-required-vanilla-assets/vanilla_assets.zip" %}
 
@@ -24,7 +24,7 @@ Delete the folder `ItemsAdder/storage/cache/vanilla_assets`
 {% endstep %}
 
 {% step %}
-### Extract the `vanilla_assets` folder
+#### Extract the `vanilla_assets` folder
 
 Extract the `vanilla_assets` folder into `ItemsAdder/storage/`
 
@@ -32,7 +32,7 @@ Extract the `vanilla_assets` folder into `ItemsAdder/storage/`
 {% endstep %}
 
 {% step %}
-### Done
+#### Done
 
 Start the server and run `/iazip` to regenerate your pack.
 {% endstep %}

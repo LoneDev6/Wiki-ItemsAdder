@@ -6,7 +6,7 @@ icon: helmet-battle
 
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
-### Wear texture configuration
+#### Wear texture configuration
 
 ```yaml
 equipments:
@@ -22,7 +22,7 @@ Create the layers files inside the folder: `contents/my_armor_tutorial/textures/
 
 <figure><img src="../../.gitbook/assets/armor_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
-### Item configuration
+#### Item configuration
 
 In this example I will show how to create a **chestplate**, the same can be done to create other armor pieces.
 
@@ -45,7 +45,7 @@ As you can see I set the `material` to `IRON_CHESTPLATE`.
 I also set the `equipment.id` property to `my_armor_tutorial:my_armor_1`.\
 This loads our previously created equipment settings.
 
-### Inventory item textures
+#### Inventory item textures
 
 Create the item texture and put it inside the folder:\
 `contents/my_armor_tutorial/textures/item`.
@@ -54,7 +54,7 @@ Create the item texture and put it inside the folder:\
 
 ![](<../../.gitbook/assets/image (211).png>)
 
-### Extra: Custom 3D helmet
+#### Extra: Custom 3D helmet
 
 Currently only helmets support 3D models due to a Minecraft limitation I cannot fix.
 
@@ -77,7 +77,7 @@ Do not put any `id` in the `equipment`, otherwise the previous layer texture wou
 
 <figure><img src="../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
 
-#### Full configuration from the previous example
+**Full configuration from the previous example**
 
 <details>
 
@@ -141,18 +141,18 @@ items:
 
 </details>
 
-### Animated/emissive armors
+#### Animated/emissive armors
 
 The current custom armors method doesn't support animated and emissive textures.\
 To create animated or/and emissive textures you have to use the Old Textured method (uses shaders).
 
-### **HD armor textures**
+#### **HD armor textures**
 
 I do not advice to use HD textures since this is a blocky game, but can create HD high resolution, but make sure they have the same proportions of the original vanilla armors layers textures.
 
 <mark style="color:red;">**Size must be a power of 2**</mark>, for example: 64x32, 128x64, 256x128, 512x256.
 
-### Converting old armors to the new equipment tag
+#### Converting old armors to the new equipment tag
 
 This option will convert the armors completely to use the new equipment tag. Note that old clients won't see the armor anymore (older than 1.21.2).
 
@@ -167,7 +167,7 @@ advanced:
 {% endtab %}
 
 {% tab title="Old Textured (1.21.3 and lower)" %}
-### Custom wear texture
+#### Custom wear texture
 
 {% hint style="danger" %}
 The `vanilla` feature requires Minecraft 1.17 or greater.\
@@ -182,7 +182,7 @@ This is also useful as fallback for people who use custom shaders, which are not
 If you see **bugged** textures and you have **Optifine** installed please [read here](../../faq/armors-issues/armors-textures-not-working-with-shaders-mod.md).
 {% endhint %}
 
-#### Creating the armor renderer
+**Creating the armor renderer**
 
 {% hint style="info" %}
 An armor renderer is a setting which contains the information how to show the armor ingame on the player body.\
@@ -233,7 +233,7 @@ Lot of HD textures can cause issues because there is a different size limit for 
 So it's better to stick with the vanilla texture size if you want to avoid risking issues.
 {% endhint %}
 
-#### Creating an armor piece
+**Creating an armor piece**
 
 Let's create a chestplate.\
 To create other pieces you just have to repeat the following method and change the `slot`.
@@ -277,11 +277,11 @@ In this example I created also a new folder called `my_armor` to better organize
 
 ![](<../../.gitbook/assets/image (211).png>)
 
-#### Animated textures
+**Animated textures**
 
 You can also create animated armors!
 
-![](<../../.gitbook/assets/ezgif-7-3b3a255fe802 (1).gif>)
+![](../../.gitbook/assets/ezgif-7-3b3a255fe802.gif)
 
 To create an animated armor you have to create an image with all the animation frames.\
 Each frame must be under the previous. This is an example this is a 3 frames animation:
@@ -315,7 +315,7 @@ Default speed is 24, but you can customize it until you find the right speed val
       interpolation: true
 ```
 
-#### Emissive textures (glowing in the dark)
+**Emissive textures (glowing in the dark)**
 
 You can also create emissive textures which glow in the dark. (You can make both animated and emissive textures at the same time!)
 
@@ -338,7 +338,7 @@ The **transparent** part **won't glow** while the colored part will glow.
 
 You basically just have to copy and paste your texture and erase the parts you don't want to glow.
 
-### Extra: Custom 3D helmet
+#### Extra: Custom 3D helmet
 
 {% hint style="warning" %}
 Currently only items equipped on the head support 3D due to Minecraft limitations.
@@ -370,7 +370,7 @@ Make sure to use a `material` like `PAPER` and not an helmet, otherwise the 3D m
 Custom helmets support durability only on ItemsAdder 4.0.8+.
 {% endhint %}
 
-### Full configuration from the previous example
+#### Full configuration from the previous example
 
 <details>
 
@@ -461,7 +461,7 @@ items:
 Extract the zip into the `contents` folder of ItemsAdder
 {% endfile %}
 
-### FAQ
+#### FAQ
 
 {% hint style="warning" %}
 `armors_rendering` was renamed to `legacy_armor_renderings` in ItemAdder 4.0.9.\
@@ -472,7 +472,7 @@ The old property still works to maintain compatibility.
 {% tab title="Old Colored (1.21.3 and lower)" %}
 This is a simple armor which is created automatically without textures, ItemsAdder will generate it from the color you decided and will be similar to iron/diamond armors but with different color.
 
-#### Creating an armor piece
+**Creating an armor piece**
 
 Let's create a chestplate.\
 To create other pieces you just have to repeat the following method and change the `slot`.
@@ -497,7 +497,7 @@ To create other pieces you just have to repeat the following method and change t
 
 The `color` property is important, it's the color that the armor will have ingame.
 
-### Done!
+#### Done!
 
 Nothing more to do. You just created a simple armor without drawing any texture!
 
@@ -505,7 +505,7 @@ Nothing more to do. You just created a simple armor without drawing any texture!
 
 <figure><img src="../../.gitbook/assets/armor_items_preview_tutorial_2.png" alt=""><figcaption></figcaption></figure>
 
-### Full configuration from the previous example
+#### Full configuration from the previous example
 
 <details>
 

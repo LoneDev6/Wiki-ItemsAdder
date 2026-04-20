@@ -5,7 +5,7 @@ icon: code
 # Scripting
 
 {% hint style="warning" %}
-## Requires ItemsAdder 4.0.10 or greater
+### Requires ItemsAdder 4.0.10 or greater
 
 This feature is a work in progress and may change, potentially affecting existing configurations and scripts. While I will strive to maintain compatibility, some disruptions are inevitable.
 {% endhint %}

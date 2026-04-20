@@ -146,7 +146,7 @@ This supports:
 * items lore
 * `/ia` menu categories names
 
-### Create your own translation for your new items
+#### Create your own translation for your new items
 
 To create your own translations for your own items you just have to create new files (one per language) in a new folder inside `ItemsAdder/contents/`, for example `ItemsAdder/contents/myitems/configs/dictionaries/`.
 

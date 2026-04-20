@@ -50,14 +50,14 @@ Example download here:
 
 <summary>Old method (before 1.21.2)</summary>
 
-### Old method
+#### Old method
 
 You can add custom textured tooltips for your items, please refer to this example addon:\
 [https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/).
 
 ![https://i.imgur.com/eA7iz50.gif](https://i.imgur.com/eA7iz50.gif)
 
-### Limitations
+#### Limitations
 
 {% hint style="warning" %}
 * You cannot show custom enchants as they will go out of the window if the image is too small.

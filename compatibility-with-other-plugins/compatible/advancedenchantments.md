@@ -26,10 +26,8 @@ items:
       - Immolation
 ```
 
-
-
 {% hint style="warning" %}
-## Warning
+### Warning
 
 In order to use custom **AdvancedEnchantments** enchants on your **ItemsAdder** items you have to enable it in config.yml of **ItemsAdder**.
 

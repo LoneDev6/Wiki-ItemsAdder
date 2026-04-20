@@ -6,7 +6,7 @@ icon: lock-keyhole
 # Resourcepack Protection
 
 {% hint style="danger" %}
-### Disclaimer
+#### Disclaimer
 
 There is no 100% effective way to protect resourcepack because the game must need to be able to extract it correctly to show textures.
 

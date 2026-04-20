@@ -5,7 +5,7 @@
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder" %}
 
 {% hint style="warning" %}
-## Important
+### Important
 
 Listen to the `ItemsAdderLoadDataEvent` event in order to wait the plugin to load and detect `/iareload` or `/iazip` which can cause items and content to be changed (removed/added).
 {% endhint %}

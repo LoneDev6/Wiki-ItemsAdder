@@ -6,7 +6,7 @@ icon: compact-disc
 
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
-### Create the disc item
+#### Create the disc item
 
 Create a new item in your config
 
@@ -25,11 +25,11 @@ items:
 As you can see I added a special property called `jukebox_disc`.\
 This allows putting the item into the Jukebox.
 
-#### **`name`**
+**`name`**
 
 The sound to be played, in this example `my_sounds:song_1`.
 
-#### Jukebox song sound
+**Jukebox song sound**
 
 In this case put the sound file in `contents/my_sounds/sounds/song_1.ogg`.
 
@@ -55,7 +55,7 @@ sounds:
 
 As you can see I set the `jukebox` property. This enables this sound to be used in the new Minecraft 1.21.1+ jukebox component.
 
-#### `description`
+**`description`**
 
 This property is used to show the music disc name into the player hotbar.
 {% endtab %}
@@ -83,7 +83,7 @@ Create a new item in your config.
 
 As you can see I added a special behaviour called `music_disc`.
 
-#### **`name`**
+**`name`**
 
 The sound to be played, in this example `my_sounds:music_disc.cdk_sunday`.
 {% endtab %}

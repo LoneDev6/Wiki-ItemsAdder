@@ -5,7 +5,7 @@ icon: location-plus
 # Entity Random Spawn
 
 {% hint style="warning" %}
-## Requires ItemsAdder 4.0.11 or greater!
+### Requires ItemsAdder 4.0.11 or greater!
 {% endhint %}
 
 You can make custom entities randomly spawn in your world, exactly how vanilla mobs do.

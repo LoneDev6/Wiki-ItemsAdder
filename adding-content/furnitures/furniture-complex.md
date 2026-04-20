@@ -5,7 +5,7 @@ icon: wand-magic-sparkles
 # Complex
 
 {% hint style="warning" %}
-#### Requires **ItemsAdder 4.0.9** or greater.
+**Requires ItemsAdder 4.0.9 or greater.**
 {% endhint %}
 
 To create advanced furniture you have to use the custom entities feature of ItemsAdder.\
@@ -104,4 +104,4 @@ Export the model. This is the model file that will be loaded by ItemsAdder.
 
 Get the item ingame using `/iaget my_furniture:ceiling_fan`.
 
-<figure><img src="../../.gitbook/assets/ezgif-4f55fae1f8968a (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ezgif-4f55fae1f8968a.gif" alt=""><figcaption></figcaption></figure>

@@ -34,7 +34,7 @@ Edit the file and then press <mark style="color:green;">**Commit changes**</mark
 ![](<../.gitbook/assets/image (159).png>)
 
 {% hint style="warning" %}
-### Important notes
+#### Important notes
 
 * Do not add content or new pages, only translate texts.
 * The only content you can add is a "translated by" text in the welcome page.

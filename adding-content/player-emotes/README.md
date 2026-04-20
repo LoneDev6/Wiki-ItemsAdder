@@ -24,7 +24,7 @@ emotes:
 ```
 {% endcode %}
 
-### Main features
+#### Main features
 
 * [Blockbench](https://www.blockbench.net/) extension to animate the Minecraft player model
 * Completely Async, no TPS drops
@@ -36,7 +36,7 @@ emotes:
 * Supports slim arms
 * Doesn't cause any issue with placed player heads (skulls)
 
-### Limitations
+#### Limitations
 
 * Requires Minecraft 1.21.4 or greater
 * More info about emotes issues [here](../../faq/emotes-issues.md)
@@ -51,7 +51,7 @@ emotes:
 ```
 {% endcode %}
 
-### Main features
+#### Main features
 
 * [Blockbench](https://www.blockbench.net/) extension to animate the Minecraft player model
 * Completely Async, no TPS drops
@@ -59,7 +59,7 @@ emotes:
 * Play sounds and particles in animations
 * Shows items in player hands and helmet
 
-### Limitations
+#### Limitations
 
 * Won't show the player armor equipment, only mainhand, offhand and helmet.
 * Works only on 1.17 to 1.21.3 clients

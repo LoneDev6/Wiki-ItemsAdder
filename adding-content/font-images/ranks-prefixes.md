@@ -8,7 +8,7 @@ icon: hashtag
 **You have to use** [**LuckPerms**](https://www.spigotmc.org/resources/luckperms.28140/) **and** [**TAB**](https://www.spigotmc.org/resources/tab-1-5-1-21-4.57806/) **to follow this tutorial, the method may differ if you're using other permissions and TABs plugins.**
 {% endhint %}
 
-![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (27) (1).png>)
 
 Download the example ranks [here](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-for-itemsadder.84852/).
 

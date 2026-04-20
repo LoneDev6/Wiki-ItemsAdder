@@ -43,7 +43,7 @@ Use the search button before submitting a report, people might already have repo
 {% endhint %}
 
 {% hint style="danger" %}
-### Invalid support requests will be ignored
+#### Invalid support requests will be ignored
 {% endhint %}
 
 When you report something be sure to:

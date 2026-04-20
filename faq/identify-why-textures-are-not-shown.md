@@ -28,20 +28,17 @@ Most of the times the issue can be easily fixed by reading this page.
 ## How to read the CLIENT logs (not SERVER)
 
 {% hint style="warning" %}
-### Always use the Vanilla client when something is broken!
+#### Always use the Vanilla client when something is broken!
 
 The log provided by the game will often be asked from support when necessary.\
 A non-bloated log is better for supporting you, and finding a solution easily.
 {% endhint %}
 
-#### Any launcher:
+#### Original launcher
 
-Join the server and let the pack load.\
-Open your Minecraft GAME log file, **not server** logs.\
-It is usually located here: `%appdata%\.minecraft\logs\latest.log`\
-You can clearly see which files failed to load and why, the errors are clear in most of the cases.
+<details>
 
-#### Original launcher:
+<summary>Click to expand</summary>
 
 Enable output log
 
@@ -49,12 +46,27 @@ Enable output log
 
 Join the server and read the log
 
-![](<../.gitbook/assets/immagine (24).png>)
+![](<../.gitbook/assets/immagine (9).png>)
 
 You can clearly see which files failed to load and why. The errors are clear in most of the cases.
 
 In this example I had two broken files `gem_vending_machine` and `whitebathroom_sink`.\
 The error tells me that the JSON files are broken, they probably have bad characters inside or they are corrupted.
+
+</details>
+
+#### Any launcher
+
+<details>
+
+<summary>Click to expand</summary>
+
+Join the server and let the pack load.\
+Open your Minecraft GAME log file, **not server** logs.\
+It is usually located here: `%appdata%\.minecraft\logs\latest.log`\
+You can clearly see which files failed to load and why, the errors are clear in most of the cases.
+
+</details>
 
 ## Common issues <a href="#resourcepack-not-loading-i-get-an-error-in-chat" id="resourcepack-not-loading-i-get-an-error-in-chat"></a>
 
@@ -63,6 +75,7 @@ The error tells me that the JSON files are broken, they probably have bad charac
 * Make sure you're not using **UPPERCASE**, **space** or **special characters** in items **names**, **namespaces**, **texture** files (`png`) and **model** files (`json`).\
   For example an ID for a custom item: `CustomSword` is wrong, use `custom_sword`.
 * If you have **SkinsRestorer** please [read here](../compatibility-with-other-plugins/compatible/skinsrestorer.md).
+* If get black and purple textures and you are on 1.21.11 or greater [read here](multiple-atlases-used-in-model.md).
 * Check if you have another plugin that uses **custom resourcepacks**.\
   **I**f you have a similar plugins please **disable** its **resourcepack** feature or **ItemsAdder** won't be able to apply the pack correctly. If you want to apply both packs [read here](../adding-content/merge-resourcepacks.md).
 * Make sure you don't have any resourcepack set in the `server.properties` file.

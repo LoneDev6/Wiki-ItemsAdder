@@ -5,7 +5,7 @@ icon: mug-hot
 # Java
 
 {% hint style="warning" %}
-## Warning
+### Warning
 
 This scripting feature is a work-in-progress (WIP) and subject to change in future updates. Always check the latest documentation for updates and compatibility.
 {% endhint %}

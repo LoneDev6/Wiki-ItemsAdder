@@ -10,7 +10,7 @@ icon: icons
 Font images are custom characters that have a custom texture.\
 You can use font images to create emojis, ranks, GUI and more.
 
-### Creating a generic font image
+#### Creating a generic font image
 
 In this example my namespace is `my_content` (you can decide your own).
 
@@ -33,13 +33,13 @@ font_images:
 
 Access it ingame using `:image_1:` placeholder. If you have **PlaceholderAPI** you can access it using `%img_image_1%` in various places and other plugins.
 
-### Properties
+#### Properties
 
-#### `scale_ratio`
+**`scale_ratio`**
 
 Resize the image to a specific height and width. Default value is the PNG file height.
 
-#### `y_position`
+**`y_position`**
 
 Move the image on the Y axist. Accepts positive and negative.
 
@@ -50,11 +50,11 @@ This is a limitation of the game and I cannot fix it.
 To bypass this limitation you have to create an image with higher height, you can do it by adding some blank pixels on the bottom or on the top of the image.
 {% endhint %}
 
-### Built-in Placeholders
+#### Built-in Placeholders
 
 You can use these special placeholders in **chat**, **signs**, **books** and in **GUIs** names.
 
-#### Image
+**Image**
 
 To show the image in-game you have to write down its name surrounded by `:` character.
 
@@ -64,7 +64,7 @@ To show the image in-game you have to write down its name surrounded by `:` char
 :my_emoji:
 ```
 
-#### Offset
+**Offset**
 
 This is a special placeholder that allows you to move a font image back and forward specifying pixels number.
 
@@ -86,14 +86,14 @@ For example:
 * You can shift a _font image_ forward by 16 pixels by writing `:offset_16::smile:`.
 * You can shift a _text_ forward by 16 pixels by writing `:offset_16:hello`.
 
-### PlaceholderAPI Placeholders
+#### PlaceholderAPI Placeholders
 
-#### Font image
+**Font image**
 
 This is the code: `%img_NAME%` instead of `NAME` write the font image name.\
 For example: `%img_smile%`
 
-#### Offsets
+**Offsets**
 
 You can shift text or font images back and forward.\
 For example
@@ -103,19 +103,19 @@ For example
 {% endtab %}
 
 {% tab title="Advanced (Expert Users Only)" %}
-## Font Images - Advanced
+### Font Images - Advanced
 
 {% hint style="warning" %}
-#### This is a tutorial for advanced users
+**This is a tutorial for advanced users**
 {% endhint %}
 
-### Using specific a character
+#### Using specific a character
 
 ItemsAdder will automatically decide the custom character for you if you don't include the `symbol` property at all.
 
 You don't have to worry about it for each `emoji`/`font_image`, but if you really need to specify a custom character to be used for the custom `font_image` you can use the special property `symbol`.
 
-#### Example
+**Example**
 
 ```yaml
 smile:
@@ -129,7 +129,7 @@ smile:
 
 Minecraft will show the smile emoji every time you write `鄿` in chat.
 
-### Creating font images manually
+#### Creating font images manually
 
 Create a `default.json` file and handle it on your own.
 
@@ -139,7 +139,7 @@ Some servers may require font images to be created manually for various reasons,
 * You want to use a custom namespace and custom font name for some custom characters.
 * You want to manage them on your own.
 
-### Creating a custom character
+#### Creating a custom character
 
 ```json
 {
@@ -200,20 +200,20 @@ If you have more entries you have to add a `,` after the previous entry, for exa
 }
 ```
 
-#### Using a customized json file name
+**Using a customized json file name**
 
 By using a customized json font file you can separate the default font characters from your custom characters.
 
 To do so you just have to create a new json and call it whatever you want, for example `my_font.json`.\
 The complete path will be: `assets/minecraft/font/my_font.json`.
 
-#### Using a customized json namespace
+**Using a customized json namespace**
 
 If you want to further organize your pack you can use a customized namespace for your font file.\
 To do so you have to create a folder inside `assets` folder and use it instead of `minecraft` folder.\
 The complete path will be (for example): `assets/your_namespace/font/my_font.json`.
 
-#### Showing the customized namespace/font name in-game
+**Showing the customized namespace/font name in-game**
 
 If you customized the font namespace and/or the font name you have to use a special syntax to show your images in-game.
 
@@ -225,7 +225,7 @@ Example if you set only custom font name:
 
 `/tellraw @a [{"text":"Test message!","font":"my_font"}]`
 
-### Customize / remove shadow
+#### Customize / remove shadow
 
 {% hint style="warning" %}
 Requires ItemsAdder 4.0.12 and Minecraft client 1.21.4 or greater
@@ -233,7 +233,7 @@ Requires ItemsAdder 4.0.12 and Minecraft client 1.21.4 or greater
 
 (does not require regenerating the pack)
 
-#### Example
+**Example**
 
 Custom shadow color
 
@@ -251,7 +251,7 @@ Custom shadow color
       color: AA4A44
 ```
 
-#### Example
+**Example**
 
 Remove shadow completely
 

@@ -1,7 +1,7 @@
 # No Host
 
 {% hint style="warning" %}
-## Expert users only!
+### Expert users only!
 {% endhint %}
 
 Enable this if you want to handle the resourcepack upload and hosting on your own.

@@ -6,7 +6,7 @@ icon: font
 
 {% tabs %}
 {% tab title="PNG (Simpler)" %}
-### Example font
+#### Example font
 
 ![](<../../.gitbook/assets/immagine (23).png>)
 
@@ -22,7 +22,7 @@ To this you have to:
 {% endtab %}
 
 {% tab title="TTF" %}
-### Example custom font
+#### Example custom font
 
 ![](<../../.gitbook/assets/immagine (96).png>)
 

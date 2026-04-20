@@ -5,11 +5,11 @@ icon: arrow-rotate-left
 # Directional Blocks
 
 {% hint style="info" %}
-### Requires ItemsAdder 4.0.10 or greater
+#### Requires ItemsAdder 4.0.10 or greater
 {% endhint %}
 
 {% hint style="warning" %}
-### Warning
+#### Warning
 
 Creating directional blocks will occupy 4 or 6 slots per block.\
 This happens because each direction is a different block.
