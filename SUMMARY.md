@@ -252,7 +252,7 @@
       * [Status HUD](adding-content/font-images/huds/creating-huds/status-hud.md)
       * [Custom HUD (advanced)](adding-content/font-images/huds/creating-huds/custom-hud-advanced.md)
     * [Trigger value change](adding-content/font-images/huds/trigger-value-change.md)
-* [Musics & Sounds](adding-content/sounds/README.md)
+* [Music & Sounds](adding-content/sounds/README.md)
   * [Music/Jukebox Disc](adding-content/sounds/jukebox-disc.md)
   * [Sounds](adding-content/adding-sounds.md)
 * [Recipes](adding-content/recipes/README.md)
