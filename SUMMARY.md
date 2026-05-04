@@ -161,7 +161,6 @@
   * [Languages](plugin-usage/plugin-configuration/languages.md)
   * [Recipes Menu](plugin-usage/plugin-configuration/recipes-menu.md)
   * [Resourcepack Prompt Message](plugin-usage/plugin-configuration/resourcepack-prompt-message-1.17+.md)
-  * [Text Effects](plugin-usage/plugin-configuration/text-effects-1.17+.md)
   * [Items Updater](plugin-usage/plugin-configuration/items-updater.md)
 
 ## Adding Content
@@ -290,6 +289,7 @@
 * [Colored Items](adding-content/colored-items.md)
 * [Colored Models](adding-content/colored-models.md)
 * [Animated titles](adding-content/animated-titles.md)
+* [Text Effects](adding-content/text-effects-1.17+.md)
 * [Merge Resourcepacks](adding-content/merge-resourcepacks.md)
 
 ## Other
