@@ -23,7 +23,7 @@ items:
       generate: false
       model_path: minecraft:block/diamond_block
       material: PAPER
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -53,7 +53,7 @@ As you can see I specified the `light_level: 15` property, to turn the light on.
 ```yaml
   my_light_block_on:
     variant_of: my_light_block_template
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -82,7 +82,7 @@ items:
       generate: false
       model_path: minecraft:block/diamond_block
       material: PAPER
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -100,7 +100,7 @@ items:
       generate: false
       model_path: minecraft:block/emerald_block
       material: PAPER
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE

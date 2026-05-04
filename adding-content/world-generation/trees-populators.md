@@ -28,7 +28,7 @@ items:
       generate: true
       textures:
       - block/my_leaves.png
-    specific_properties:
+    behaviours:
       block:
         hardness: 0.2
         cancel_drop: true
@@ -48,7 +48,7 @@ items:
       - block/my_log/log.png
       - block/my_log/log_top.png
       - block/my_log/log.png
-    specific_properties:
+    behaviours:
       block:
         hardness: 1.7
         placed_model:

@@ -75,7 +75,7 @@ items:
         north: block/tnt_side
         east: block/tnt_side
         west: block/tnt_side
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE

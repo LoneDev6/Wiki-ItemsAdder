@@ -20,7 +20,7 @@ items:
       textures:
         - test
       material: PAPER
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_TRANSPARENT

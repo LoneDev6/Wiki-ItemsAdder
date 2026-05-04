@@ -123,7 +123,7 @@ Limitations of furnitures:
 * `opposite_direction` (boolean): Makes the model rotate 180 degrees automatically when placed
 * `permission_suffix` (unknown)
 * `sound` (unknown)
-* `placeable_on` (object): You can decide the valid placement locations of the furniture. THIS IS VALID ONLY FOR item\_frame FURNITURE!
+* `placeable_on` (object): You can decide the valid placement locations of the furniture.
   * `walls` (boolean)
   * `ceiling` (boolean)
   * `floor` (boolean)
@@ -272,6 +272,9 @@ You will be able to sit on it and move around / in air. You can also set fuel se
   * `z` (number)
 
 ## ItemsAdderAdditions Behaviours
+
+### `bed`
+Check the documentation [here](https://itemsadderadditions.com/docs/behaviours/bed).
 
 ### `connectable`
 Check the documentation [here](https://itemsadderadditions.com/docs/behaviours/connectable).

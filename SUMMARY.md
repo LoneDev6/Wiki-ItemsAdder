@@ -161,7 +161,6 @@
   * [Languages](plugin-usage/plugin-configuration/languages.md)
   * [Recipes Menu](plugin-usage/plugin-configuration/recipes-menu.md)
   * [Resourcepack Prompt Message](plugin-usage/plugin-configuration/resourcepack-prompt-message-1.17+.md)
-  * [Text Effects](plugin-usage/plugin-configuration/text-effects-1.17+.md)
   * [Items Updater](plugin-usage/plugin-configuration/items-updater.md)
 
 ## Adding Content
@@ -252,7 +251,7 @@
       * [Status HUD](adding-content/font-images/huds/creating-huds/status-hud.md)
       * [Custom HUD (advanced)](adding-content/font-images/huds/creating-huds/custom-hud-advanced.md)
     * [Trigger value change](adding-content/font-images/huds/trigger-value-change.md)
-* [Musics & Sounds](adding-content/sounds/README.md)
+* [Music & Sounds](adding-content/sounds/README.md)
   * [Music/Jukebox Disc](adding-content/sounds/jukebox-disc.md)
   * [Sounds](adding-content/adding-sounds.md)
 * [Recipes](adding-content/recipes/README.md)
@@ -290,6 +289,7 @@
 * [Colored Items](adding-content/colored-items.md)
 * [Colored Models](adding-content/colored-models.md)
 * [Animated titles](adding-content/animated-titles.md)
+* [Text Effects](adding-content/text-effects-1.17+.md)
 * [Merge Resourcepacks](adding-content/merge-resourcepacks.md)
 
 ## Other
