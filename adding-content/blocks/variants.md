@@ -16,7 +16,7 @@ A vanilla example are flowers and **Lily Pad** that have different rotations but
 Example:
 
 ```yaml
-specific_properties:
+behaviours:
   block:
     custom_variants:
       variant1:

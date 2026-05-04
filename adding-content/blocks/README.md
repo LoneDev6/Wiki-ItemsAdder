@@ -7,7 +7,7 @@ icon: cube
 ## Block properties
 
 ```yaml
-specific_properties:
+behaviours:
   block:
     placed_model:
       type: REAL_NOTE
@@ -187,7 +187,7 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 #### Example using vanilla sounds
 
 ```yaml
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -251,7 +251,7 @@ items:
       generate: true
       textures:
         - block/ores/ruby_ore
-    specific_properties:
+    behaviours:
       block:
         permission_suffix:
           break: iasurvival.ruby_ore
@@ -295,7 +295,7 @@ This has a downside, you can only set the experience drop to custom blocks, not 
       generate: true
       textures:
       - block/ruby_block.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE

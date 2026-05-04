@@ -156,7 +156,7 @@ items:
       material: PAPER
       generate: false
       model_path: block/test_light_emission
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -174,7 +174,7 @@ items:
     name: test_light_emission
     graphics:
       model: block/test_light_emission
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_TRANSPARENT

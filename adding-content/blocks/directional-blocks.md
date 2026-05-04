@@ -43,7 +43,7 @@ Act like a vanilla log and a dropper at the same time.
       - block/furnace/directional_block_test_south.png
       - block/furnace/directional_block_test_up.png
       - block/furnace/directional_block_test_west.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -69,7 +69,7 @@ Act like vanilla furnace.
       - block/furnace/directional_block_test_south.png
       - block/furnace/directional_block_test_up.png
       - block/furnace/directional_block_test_west.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -95,7 +95,7 @@ Act like vanilla logs.
       - block/log/directional_block_test_south.png
       - block/log/directional_block_test_up.png
       - block/log/directional_block_test_west.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -124,7 +124,7 @@ In the screenshot you can see the face texture is different.
       - block/dropper/directional_block_test_south.png
       - block/dropper/directional_block_test_up.png
       - block/dropper/directional_block_test_west.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -141,7 +141,7 @@ In the screenshot you can see the face texture is different.
       - block/dropper/directional_block_test_south.png
       - block/dropper/directional_block_test_up.png
       - block/dropper/directional_block_test_west.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -157,7 +157,7 @@ In the screenshot you can see the face texture is different.
       - block/dropper/directional_block_test_south.png
       - block/dropper/directional_block_test_up.png
       - block/dropper/directional_block_test_west.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE

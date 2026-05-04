@@ -210,7 +210,7 @@ The sound is played even if the user has no permission for the give event. That'
       generate: true
       textures:
       - block/test_block.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -242,7 +242,7 @@ For example:
       generate: true
       textures:
       - block/test_block.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
