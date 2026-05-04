@@ -466,6 +466,9 @@ Check the documentation [here](https://itemsadderadditions.com/docs/actions/play
 ### `play_emote`
 Check the documentation [here](https://itemsadderadditions.com/docs/actions/play-emote).
 
+### `replace_biome`
+Check the documentation [here](https://itemsadderadditions.com/docs/actions/replace-biome).
+
 ### `shoot_fireball`
 Check the documentation [here](https://itemsadderadditions.com/docs/actions/shoot-fireball).
 
