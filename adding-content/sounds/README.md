@@ -2,4 +2,4 @@
 icon: volume-low
 ---
 
-# Musics & Sounds
+# Music & Sounds

@@ -153,8 +153,8 @@ You can even just set `texture` instead, since the vanilla `block/cross` model h
     material: fishing_rod
     graphics:
       textures:
-        normal: item/modern_bow
-        cast: item/modern_bow_2
+        normal: item/modern_fishing_rod
+        cast: item/modern_fishing_rod_2
 ```
 
 ### Fishing rod from models
@@ -165,8 +165,8 @@ You can even just set `texture` instead, since the vanilla `block/cross` model h
     material: fishing_rod
     graphics:
       models:
-        normal: item/modern_bow
-        cast: item/modern_bow_2
+        normal: item/modern_fishing_rod
+        cast: item/modern_fishing_rod_2
 ```
 
 ### Crossbow from textures
@@ -179,10 +179,10 @@ You can create as many `pulling_` states as you want.
     material: crossbow
     graphics:
       textures:
-        normal: item/modern_bow
-        pulling_0: item/modern_bow_0
-        pulling_1: item/modern_bow_1
-        pulling_2: item/modern_bow_2
+        normal: item/modern_crossbow
+        pulling_0: item/modern_crossbow_0
+        pulling_1: item/modern_crossbow_1
+        pulling_2: item/modern_crossbow_2
         rocket: minecraft:item/diamond
         arrow: minecraft:item/emerald
 ```
@@ -198,9 +198,9 @@ You can create as many `pulling_` states as you want.
     graphics:
       models:
         normal: item/modern_bow
-        pulling_0: item/modern_bow_0
-        pulling_1: item/modern_bow_1
-        pulling_2: item/modern_bow_2
+        pulling_0: item/modern_crossbow_0
+        pulling_1: item/modern_crossbow_1
+        pulling_2: item/modern_crossbow_2
         rocket: minecraft:item/diamond
         arrow: minecraft:item/emerald
 ```
@@ -222,12 +222,12 @@ You can create as many `pulling_` states as you want.
 
 ```yaml
   modern_shield_model:
-    name: Modern Crossbow Model
+    name: Modern Shield Model
     material: shield
     graphics:
       models:
-        normal: item/modern_bow
-        blocking: item/modern_bow_2
+        normal: item/modern_shield
+        blocking: item/modern_shield_2
 ```
 
 ## Other optional properties

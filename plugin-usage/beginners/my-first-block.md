@@ -121,7 +121,7 @@ items:
 
 ### Adding the block placing functionality
 
-You have to add the `specific_properties` attribute.
+You have to add the `behaviours` attribute.
 
 ```yaml
 info:
@@ -134,7 +134,7 @@ items:
       generate: true
       material: PAPER
       texture: block/red_block.png
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_NOTE
@@ -168,7 +168,7 @@ items:
       generate: true
       material: PAPER
       texture: block/red_block.png
-    specific_properties:
+    behaviours:
       block:
         drop_when_mined: false # IMPORTANT! To avoid duplication
         placed_model:

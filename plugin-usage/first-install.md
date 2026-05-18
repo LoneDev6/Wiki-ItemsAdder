@@ -57,6 +57,14 @@ The best method is `self-host`.
 {% endstep %}
 
 {% step %}
+#### (recommended) Install ItemsAdderAdditions
+
+**ItemsAdderAdditions** is a plugin that adds new features, actions, behaviours.
+You can download on [Modrinth](https://modrinth.com/plugin/itemsadderadditions) or [SpigotMC](https://www.spigotmc.org/resources/itemsadderadditions.133918/)
+
+{% endstep %}
+
+{% step %}
 #### (optional) Add official ItemsAdder custom content
 
 ![](../.gitbook/assets/items_showcase_gif.apng)

@@ -66,7 +66,7 @@ items:
       material: PAPER
       generate: false
       model_path: block/rocks_placed
-    specific_properties:
+    behaviours:
       block:
         placed_model:
           type: REAL_WIRE

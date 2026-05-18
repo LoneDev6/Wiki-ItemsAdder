@@ -1,7 +1,7 @@
 # LobFile Hosting
 
 {% hint style="success" %}
-**Recommanded.**
+**Recommended.**
 {% endhint %}
 
 {% hint style="warning" %}
