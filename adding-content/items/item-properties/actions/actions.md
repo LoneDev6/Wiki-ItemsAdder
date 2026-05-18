@@ -443,46 +443,49 @@ Replace this item properties
 ## ItemsAdderAdditions Actions
 
 ### `actionbar`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/actionbar).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/actionbar).
 
 ### `clear_item`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/clear-item).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/clear-item).
 
 ### `ignite`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/ignite).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/ignite).
 
 ### `message`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/message).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/message).
 
 ### `mythic_mobs_skill`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/mythic-mobs-skill).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/mythic-mobs-skill).
 
 ### `open_inventory`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/open-inventory).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/open-inventory).
 
 ### `play_animation`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/play-animation).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/play-animation).
 
 ### `play_emote`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/play-emote).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/play-emote).
 
 ### `replace_biome`
 Check the documentation [here](https://itemsadderadditions.com/docs/actions/replace-biome).
 
 ### `shoot_fireball`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/shoot-fireball).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/shoot-fireball).
 
 ### `swing_hand`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/swing-hand).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/swing-hand).
 
 ### `teleport`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/teleport).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/teleport).
 
 ### `title`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/title).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/title).
 
 ### `toast`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/toast).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/toast).
+
+### `replace_biome`
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/replace-biome).
 
 ### `veinminer`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/veinminer).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/veinminer).

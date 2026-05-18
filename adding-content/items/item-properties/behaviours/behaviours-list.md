@@ -277,13 +277,16 @@ You will be able to sit on it and move around / in air. You can also set fuel se
 Check the documentation [here](https://itemsadderadditions.com/docs/behaviours/bed).
 
 ### `connectable`
-Check the documentation [here](https://itemsadderadditions.com/docs/behaviours/connectable).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/behaviours/connectable).
 
 ### `contact_damage`
-Check the documentation [here](https://itemsadderadditions.com/docs/behaviours/contact-damage).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/behaviours/contact-damage).
 
 ### `stackable`
-Check the documentation [here](https://itemsadderadditions.com/docs/behaviours/stackable).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/behaviours/stackable).
 
 ### `storage`
-Check the documentation [here](https://itemsadderadditions.com/docs/behaviours/storage).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/behaviours/storage).
+
+### `text_display`
+Check the documentation [here](https://itemsadderadditions.com/en/docs/behaviours/text-display).
