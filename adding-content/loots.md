@@ -187,7 +187,7 @@ loots:
 
 ### Ignore mobs spawned from spawners
 
-You can make a loot ignore fortune enchant by adding the `ignore_fortune` property.
+You can make a loot ignore drops from mobs spawned by spawners by adding the `ignore_spawner` property.
 
 ```yaml
 loots:
