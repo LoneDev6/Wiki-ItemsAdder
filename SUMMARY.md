@@ -146,6 +146,7 @@
   * [My First Bow](plugin-usage/beginners/my-first-bow.md)
 * [Plugin Configuration](plugin-usage/plugin-configuration/README.md)
   * [Resourcepack Hosting](plugin-usage/plugin-configuration/resourcepack-hosting/README.md)
+    * [Simple Self Host](plugin-usage/plugin-configuration/resourcepack-hosting/simple-self-host.md)
     * [LobFile Hosting](plugin-usage/plugin-configuration/resourcepack-hosting/lobfile.md)
     * [Self hosting](plugin-usage/plugin-configuration/resourcepack-hosting/self-hosting.md)
     * [Google Drive](plugin-usage/plugin-configuration/resourcepack-hosting/google-drive.md)
