@@ -63,6 +63,6 @@ recipes:
 
 ## Read more about permissions
 
-{% content-ref url="../../permissions.md" %}
+{% content-ref url="../../../plugin-usage/plugin-configuration/permissions.md" %}
 [permissions.md](../../../plugin-usage/plugin-configuration/permissions.md)
 {% endcontent-ref %}

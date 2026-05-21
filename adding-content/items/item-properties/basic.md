@@ -226,6 +226,6 @@ Very useful for **rare items**.
 
 ## Use the official files editor to read all the properties
 
-{% content-ref url="../../beginners/files-editor.md" %}
-[files-editor.md](../../beginners/files-editor.md)
+{% content-ref url="../../../plugin-usage/beginners/files-editor.md" %}
+[files-editor.md](../../../plugin-usage/beginners/files-editor.md)
 {% endcontent-ref %}

@@ -2,7 +2,7 @@
 icon: circles-overlap
 ---
 
-# Overlay
+# Pack Overlays
 
 {% hint style="warning" %}
 This is for expert resourcepacks artists.

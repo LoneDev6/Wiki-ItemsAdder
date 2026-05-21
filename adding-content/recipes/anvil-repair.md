@@ -2,7 +2,7 @@
 icon: hammer-crash
 ---
 
-# Anvil repair
+# Anvil Repair
 
 ## Example
 

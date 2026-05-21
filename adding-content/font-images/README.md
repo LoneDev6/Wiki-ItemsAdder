@@ -2,5 +2,5 @@
 icon: icons
 ---
 
-# Fonts Images
+# Font Images / Glyphs
 

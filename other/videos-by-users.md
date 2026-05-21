@@ -2,7 +2,7 @@
 icon: video
 ---
 
-# Showcases
+# Showcases & Tutorials
 
 ## Showcases
 

@@ -34,30 +34,32 @@ If your playerbase is all from the same country, you can stick with `self-host`.
 
 ## Setup
 
-#### Step 1
+### Step 1
 
 Create an account on [LobFile here](https://lobfile.com/sign-up).
 
-#### Step 2
+### Step 2
 
 Open your [account settings](https://lobfile.com/dashboard/general) and enable _**"Continuous Uploading"**_
 
 <figure><img src="../../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 3
+### Step 3
 
 On the [Account Info](https://lobfile.com/dashboard/account-info) dashboard, click on your API key to copy it to your clipboard.
 
 <figure><img src="../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 
-#### Step 4
+### Step 4
 
 Enable `lobfile` in `config.yml` and disable all the other hosting methods.
 
 {% code title="ItemsAdder/config.yml" %}
 ```yaml
-lobfile:
-  enabled: true
+resource-pack:
+  hosting:
+    lobfile:
+      enabled: true
 ```
 {% endcode %}
 
@@ -70,7 +72,7 @@ lobfile:
 ```
 {% endcode %}
 
-#### Step 5
+### Step 5
 
 Run `/iazip.`
 

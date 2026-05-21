@@ -98,13 +98,13 @@ You have to change it to this (`your_namespace` is your namespace folder):
 
 ### Furniture
 
-{% content-ref url="../furnitures/transparent-furniture.md" %}
+{% content-ref url="../../furnitures/transparent-furniture.md" %}
 [transparent-furniture.md](../../furnitures/transparent-furniture.md)
 {% endcontent-ref %}
 
 ### Blocks
 
-{% content-ref url="../blocks/transparent-block.md" %}
+{% content-ref url="../../blocks/transparent-block.md" %}
 [transparent-block.md](../../blocks/transparent-block.md)
 {% endcontent-ref %}
 

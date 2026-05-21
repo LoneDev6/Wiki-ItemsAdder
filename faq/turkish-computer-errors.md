@@ -1,4 +1,4 @@
-# 🇹🇷 🇹🇷 Turkish computer errors
+# 🇹🇷 Turkish computer errors
 
 If you get random errors like this:
 

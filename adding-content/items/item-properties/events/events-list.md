@@ -104,6 +104,26 @@ Triggered when you interact...
 
 **(only offhand triggers this event)**
 
+### `interact_entity`
+
+Triggered when you right-click an entity while holding this item.
+
+### `armor_stand_put_item`
+
+Triggered when this item is placed on an armor stand.
+
+### `armor_stand_remove_item`
+
+Triggered when this item is removed from an armor stand.
+
+### `item_frame_put_item`
+
+Triggered when this item is placed inside an item frame.
+
+### `item_frame_remove_item`
+
+Triggered when this item is removed from an item frame.
+
 ### `item_break`
 
 Triggered when an item is broken (has 0 durability and disappears)

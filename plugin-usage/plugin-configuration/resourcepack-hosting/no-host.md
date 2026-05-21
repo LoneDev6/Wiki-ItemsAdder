@@ -14,9 +14,8 @@ Reasons to do that:
 {% code title="config.yml" %}
 ```yaml
 resource-pack:
-# ...
   hosting:
     no-host:
-      enabled: false
+      enabled: true
 ```
 {% endcode %}

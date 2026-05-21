@@ -2,7 +2,7 @@
 icon: droplet
 ---
 
-# Thirst/mana bar
+# Thirst/Mana bar
 
 ## Fill the bars
 

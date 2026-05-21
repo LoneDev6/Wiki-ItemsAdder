@@ -3,7 +3,7 @@ icon: file-pen
 description: How to manually edit blockstates .json files
 ---
 
-# Manual editing blockstates
+# Manual Editing Blockstates
 
 {% hint style="warning" %}
 This breaks the purpose of ItemsAdder which is to avoid editing certain files manually.\

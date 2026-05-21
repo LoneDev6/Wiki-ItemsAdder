@@ -2,7 +2,7 @@
 icon: sheet-plastic
 ---
 
-# Transparent block
+# Transparent Block
 
 <figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 

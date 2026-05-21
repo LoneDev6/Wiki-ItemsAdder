@@ -4,6 +4,8 @@ icon: list-dropdown
 
 # Item Tooltip
 
+{% tabs %}
+{% tab title="Modern (Recommended)" %}
 {% hint style="warning" %}
 Requires ItemsAdder 4.0.9 or greater and at least Minecraft 1.21.2 (both client and server).
 {% endhint %}
@@ -22,7 +24,6 @@ items:
       model_path: minecraft:item/emerald
       material: PAPER
     tooltip_style: test_tooltip:tooltip/rainbow
-
 ```
 {% endcode %}
 
@@ -43,17 +44,11 @@ Tooltip support animated textures (`.png.mcmeta` files).
 Run `/iazip` and then get the item ingame.
 
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
-Example download here:
-
-<details>
-
-<summary>Old method (before 1.21.2)</summary>
-
-#### Old method
-
+{% tab title="Old (before 1.21.2)" %}
 You can add custom textured tooltips for your items, please refer to this example addon:\
-[https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/).
+[https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/)
 
 ![https://i.imgur.com/eA7iz50.gif](https://i.imgur.com/eA7iz50.gif)
 
@@ -63,5 +58,5 @@ You can add custom textured tooltips for your items, please refer to this exampl
 * You cannot show custom enchants as they will go out of the window if the image is too small.
 * You have to write everything in the tooltip image, text would go out of the window if the image is too small.
 {% endhint %}
-
-</details>
+{% endtab %}
+{% endtabs %}

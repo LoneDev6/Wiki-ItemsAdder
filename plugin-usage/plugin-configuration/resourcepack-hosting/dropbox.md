@@ -1,4 +1,4 @@
-# DropBox
+# Dropbox
 
 {% hint style="danger" %}
 **Not recommended.**
@@ -6,10 +6,10 @@
 
 ## Text tutorial
 
-* Open [DropBox](https://dropbox.com/), register/login.
+* Open [Dropbox](https://dropbox.com/), register/login.
 * Use the command`/iazip` (**it's important** because `/iazip`reloads the configs and updates the **generated.zip** file)
 * Open folder: `plugins/ItemsAdder/output/`.
-* **Drag and drop** **generated.zip** onto **DropBox** or copy paste the file to it from your server host.
+* **Drag and drop** **generated.zip** onto **Dropbox** or copy paste the file to it from your server host.
 * Press **Share**.
 
 ![](<../../../.gitbook/assets/immagine%20(99).png>)
@@ -19,19 +19,17 @@
 ![](<../../../.gitbook/assets/immagine%20(41).png>)
 
 * Press **Copy link** (for example you will get `https://www.dropbox.com/blablabla?dl=1`)
-* Open `config.yml` of **ItemsAdder**.
+* Open `config.yml` of **ItemsAdder** and enable the `external-host` option for your new URL.
 
+{% code title="config.yml" %}
 ```yaml
 resource-pack:
-  apply-on-join: true
-  kick-player-on-decline: false
-  delay-ticks: 1
-  self-host:
-    enabled: false
-  external-host:
-    enabled: true
-    url: 'https://www.dropbox.com/blablabla?dl=1'
+  hosting:
+    external-host:
+      enabled: true
+      url: 'https://www.dropbox.com/blablabla?dl=1'
 ```
+{% endcode %}
 
 * **THIS IS REALLY IMPORTANT**: **Use command** `/iareload` to **reload** the **plugin after** you **change** something in `config.yml` (in this case to reload the resourcepack download link)
 * **Use command** `/iatexture` on your game to refresh your current game texture ingame or use `/iatexture all` to refresh it for every player
@@ -45,9 +43,9 @@ PLEASE use `/iazip` **everytime** you edit a **texture**, a 3D **model**, a **so
 If you **reupload** the **zip** file with the same and keep the **same URL** it **won't update** to each player.
 {% endhint %}
 
-## But this is so slow! I have to reupload on DropBox too many times!
+## But this is so slow! I have to reupload on Dropbox too many times!
 
-Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting methods (cheap ones) don't provide port opening, so you must use **DropBox**.
+Yea it is, that's why you should use the self host feature instead of **Dropbox**. But some hosting methods (cheap ones) don't provide port opening, so you must use **Dropbox**.
 
 {% content-ref url="self-hosting.md" %}
 [self-hosting.md](self-hosting.md)
@@ -55,6 +53,6 @@ Yea it is, that's why you should use the self host feature instead of **DropBox*
 
 ## Continue installation if you need
 
-{% content-ref url="../first-install.md" %}
-[first-install.md](../../../plugin-usage/first-install.md)
+{% content-ref url="../../first-install.md" %}
+[first-install.md](../../first-install.md)
 {% endcontent-ref %}

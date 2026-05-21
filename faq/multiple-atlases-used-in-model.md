@@ -16,7 +16,7 @@ This happens in 1.21.11+ clients
 
 Add the model name (in this case `netherite_sword` ) in `config.yml` and regenerate your pack.
 
-```yml
+```yaml
       fix_1_21_11_plus_atlas_items_models:
         enabled: true
         models:

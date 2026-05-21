@@ -12,8 +12,8 @@ Doesn't work in [Minecraft language files](../../plugin-usage/plugin-configurati
 
 You can change color of text and specify a custom hex color using the special notation.
 
-### Minimessage
-
+{% tabs %}
+{% tab title="MiniMessage (Recommended)" %}
 {% embed url="https://webui.advntr.dev/" %}
 
 {% embed url="https://docs.advntr.dev/minimessage/format.html" %}
@@ -54,10 +54,11 @@ items:
 <div><figure><img src="../../.gitbook/assets/image%20(46).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image%20(45).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image%20(235).png" alt=""><figcaption></figcaption></figure></div>
 
 <div><figure><img src="../../.gitbook/assets/example_minimessage_2.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/example_minimessage_1.png" alt=""><figcaption></figcaption></figure></div>
+{% endtab %}
 
-### Component
-
+{% tab title="Component" %}
 {% embed url="https://minecraft.tools/en/json_text.php" %}
+
 {% embed url="https://www.gamergeeks.net/apps/minecraft/raw-json-text-format-generator" %}
 
 ```yaml
@@ -69,9 +70,9 @@ items:
       model_path: minecraft:item/emerald
       material: PAPER
 ```
+{% endtab %}
 
-### Legacy
-
+{% tab title="Legacy" %}
 `display_name: '&6TEST'`
 
 ```yaml
@@ -84,3 +85,5 @@ items:
       model_path: minecraft:item/emerald
       material: PAPER
 ```
+{% endtab %}
+{% endtabs %}
