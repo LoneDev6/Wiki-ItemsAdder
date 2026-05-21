@@ -4,7 +4,7 @@
 
 ### Reason 1
 
-Emotes with multiple joints animations look <mark style="color:red;">**awful**</mark>, they ruin the Minecraft feel and remind of the cringe YouTube Minecraft animations like this:
+Emotes with multiple joints animations look <mark style="color:red;">**awful**</mark>, they ruin the Minecraft feel and reminds me of the cringe YouTube Minecraft animations like this:
 
 <figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
 
