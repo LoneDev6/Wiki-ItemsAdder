@@ -159,7 +159,7 @@ items:
     behaviours:
       block:
         placed_model:
-          type: REAL_TRANSPARENT
+          type: REAL_NOTE
           hardness: 1
 ```
 {% endtab %}
