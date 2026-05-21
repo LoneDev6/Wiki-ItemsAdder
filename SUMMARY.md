@@ -258,7 +258,7 @@
     * [Trigger value change](adding-content/font-images/huds/trigger-value-change.md)
 * [Music & Sounds](adding-content/sounds/README.md)
   * [Music/Jukebox Disc](adding-content/sounds/jukebox-disc.md)
-  * [Sounds](adding-content/adding-sounds.md)
+  * [Sounds](adding-content/sounds/sounds.md)
 * [Recipes](adding-content/recipes/README.md)
   * [Crafting](adding-content/recipes/crafting.md)
   * [Cooking](adding-content/recipes/cooking.md)

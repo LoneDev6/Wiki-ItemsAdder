@@ -9,7 +9,7 @@ This page walks through creating a custom music disc: an item that plays a song 
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
 {% hint style="warning" %}
-This method requires ItemsAdder **4.0.12** or greater and a Minecraft client on **1.21.1** or newer.
+This method requires ItemsAdder **4.0.13** or greater and a Minecraft client on **1.21.4** or newer.
 {% endhint %}
 
 ## What you'll end up with
@@ -20,7 +20,7 @@ This method requires ItemsAdder **4.0.12** or greater and a Minecraft client on 
 
 ## Step 1: Add the song
 
-The disc plays a sound that you register through ItemsAdder. If you haven't done this yet, follow the [Sounds tutorial](../adding-sounds.md) to set up your folder and add the `.ogg` file.
+The disc plays a sound that you register through ItemsAdder. If you haven't done this yet, follow the [Sounds tutorial](sounds.md) to set up your folder and add the `.ogg` file.
 
 When you register the sound, add a `jukebox` block so it can be used as a disc song:
 
@@ -153,6 +153,6 @@ items:
           description: Cdk - Sunday
 ```
 
-`song.name` is the registered sound key. Set it up using the old `sounds.json` method on the [Sounds page](../adding-sounds.md).
+`song.name` is the registered sound key. Set it up using the old `sounds.json` method on the [Sounds page](sounds.md).
 {% endtab %}
 {% endtabs %}

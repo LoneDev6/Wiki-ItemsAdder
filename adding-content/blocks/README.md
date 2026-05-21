@@ -177,7 +177,7 @@ Totally immune from explosions, ignoring `blast_resistance`.
 
 ### `sounds`
 
-You can specify [custom sound](../adding-sounds.md) names instead of vanilla sound.\
+You can specify [custom sound](../sounds/sounds.md) names instead of vanilla sound.\
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
 
 {% hint style="info" %}
@@ -226,7 +226,7 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 ```
 
 {% hint style="info" %}
-To add custom sounds to your resourcepack you have to [read the sounds tutorial](../adding-sounds.md).
+To add custom sounds to your resourcepack you have to [read the sounds tutorial](../sounds/sounds.md).
 {% endhint %}
 
 ### `permission_suffix`

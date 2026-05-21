@@ -266,7 +266,7 @@ music_disc:
     description: 'Artist - Title' # Description of the song. This will be shown in Actionbar when you put the disc inside a jukebox
 ```
 
-* `song.name`: Please refer to the [sounds tutorial](../../../adding-sounds.md)
+* `song.name`: Please refer to the [sounds tutorial](../../../sounds/sounds.md)
 
 ### `vehicle`
 
