@@ -1,3 +1,7 @@
+---
+icon: film
+---
+
 # Animations
 
 ## Opening the animations editor

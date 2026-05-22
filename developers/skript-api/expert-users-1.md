@@ -1,3 +1,7 @@
+---
+icon: square-terminal
+---
+
 # Expert users
 
 ## Installing the required dependencies

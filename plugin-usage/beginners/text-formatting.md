@@ -30,19 +30,15 @@ items:
     lore:
       - "<gold>yo0"
       - "<dark_green>yo1"
-    resource:
-      generate: false
-      model_path: minecraft:item/emerald
-      material: PAPER
+    graphics:
+      model: minecraft:item/emerald
   test_font:
     display_name: <gradient:#ff00ee:#f79459><font:alt>Alt font used for this item
     lore:
       - "<gradient:#ff00ee:#f79459><font:alt>Alt font used for this item"
       - "<gradient:#ff00ee:#f79459><font:alt>Alt font used for this item<"
-    resource:
-      generate: false
-      model_path: minecraft:item/emerald
-      material: PAPER
+    graphics:
+      model: minecraft:item/emerald
 ```
 
 ```
@@ -65,10 +61,8 @@ items:
 items:
   test_emerald:
     display_name: '{"text\":"TEST", "font": "alt"}'
-    resource:
-      generate: false
-      model_path: minecraft:item/emerald
-      material: PAPER
+    graphics:
+      model: minecraft:item/emerald
 ```
 {% endtab %}
 
@@ -80,10 +74,8 @@ items:
   test_emerald:
     enabled: true
     display_name: '&6TEST'
-    resource:
-      generate: false
-      model_path: minecraft:item/emerald
-      material: PAPER
+    graphics:
+      model: minecraft:item/emerald
 ```
 {% endtab %}
 {% endtabs %}

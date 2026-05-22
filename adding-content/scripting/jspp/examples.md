@@ -12,10 +12,8 @@ info:
 items:
   script_executor:
     name: script_executor
-    resource:
-      material: PAPER
-      generate: false
-      model_path: minecraft:item/diamond
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         left:

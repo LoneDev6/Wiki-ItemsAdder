@@ -1,4 +1,8 @@
-# 🦴 Emotes with more joins
+---
+icon: bone
+---
+
+# Emotes with more joins
 
 ## Why can't emotes have more joints?
 

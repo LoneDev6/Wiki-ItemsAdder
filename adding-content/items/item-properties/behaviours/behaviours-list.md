@@ -1,3 +1,7 @@
+---
+icon: person-running-fast
+---
+
 # Behaviours List
 
 ## Behaviours

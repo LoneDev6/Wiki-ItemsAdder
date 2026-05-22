@@ -37,10 +37,9 @@ items:
   test_inject_nbt_from_file:
     display_name: "Test inject NBT from file"
     components_nbt_file: "test_inject_nbt_from_file.json"
-    resource:
-      material: IRON_CHESTPLATE
-      generate: false
-      model_path: minecraft:item/diamond
+    material: IRON_CHESTPLATE
+    graphics:
+      model: minecraft:item/diamond
 ```
 {% endcode %}
 

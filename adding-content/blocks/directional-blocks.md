@@ -30,6 +30,28 @@ Act like a vanilla log and a dropper at the same time.
 
 ![](https://github.com/user-attachments/assets/db9c84da-c30c-40c4-a53d-7850ebd3ad8b)
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  directional_block_all:
+    name: directional_block_all
+    graphics:
+      textures:
+        down: block/furnace/directional_block_test_down
+        east: block/furnace/directional_block_test_east
+        north: block/furnace/directional_block_test_north
+        south: block/furnace/directional_block_test_south
+        up: block/furnace/directional_block_test_up
+        west: block/furnace/directional_block_test_west
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          directional_mode: ALL
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   directional_block_all:
     name: directional_block_all
@@ -49,6 +71,8 @@ Act like a vanilla log and a dropper at the same time.
           type: REAL_NOTE
           directional_mode: ALL
 ```
+{% endtab %}
+{% endtabs %}
 
 ### Mode `FURNACE`
 
@@ -56,6 +80,28 @@ Act like vanilla furnace.
 
 ![](https://github.com/user-attachments/assets/c4c6c501-a1fa-4cd1-a2de-67c3ad5d626a)
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  directional_block_furnace:
+    name: directional_block_furnace
+    graphics:
+      textures:
+        down: block/furnace/directional_block_test_down
+        east: block/furnace/directional_block_test_east
+        north: block/furnace/directional_block_test_north
+        south: block/furnace/directional_block_test_south
+        up: block/furnace/directional_block_test_up
+        west: block/furnace/directional_block_test_west
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          directional_mode: FURNACE
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   directional_block_furnace:
     name: directional_block_furnace
@@ -75,6 +121,8 @@ Act like vanilla furnace.
           type: REAL_NOTE
           directional_mode: FURNACE
 ```
+{% endtab %}
+{% endtabs %}
 
 ### Mode `LOG`
 
@@ -82,6 +130,28 @@ Act like vanilla logs.
 
 ![](https://github.com/user-attachments/assets/db9c84da-c30c-40c4-a53d-7850ebd3ad8b)
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  directional_block_log:
+    name: directional_block_log
+    graphics:
+      textures:
+        down: block/log/directional_block_test_down
+        east: block/log/directional_block_test_east
+        north: block/log/directional_block_test_north
+        south: block/log/directional_block_test_south
+        up: block/log/directional_block_test_up
+        west: block/log/directional_block_test_west
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          directional_mode: LOG
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   directional_block_log:
     name: directional_block_log
@@ -101,6 +171,8 @@ Act like vanilla logs.
           type: REAL_NOTE
           directional_mode: LOG
 ```
+{% endtab %}
+{% endtabs %}
 
 ### Mode `DROPPER`
 
@@ -111,6 +183,56 @@ Acts like the vanilla dropper.
 In this particular case I decided to overwrite the automatically generated directional blocks `up` and `down` to customize the appearance of the block in this particular case, setting a different texture for the `north` face (front).\
 In the screenshot you can see the face texture is different.
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  directional_block_dropper:
+    name: directional_block_dropper
+    graphics:
+      textures:
+        down: block/dropper/directional_block_test_down
+        east: block/dropper/directional_block_test_east
+        north: block/dropper/directional_block_test_north
+        south: block/dropper/directional_block_test_south
+        up: block/dropper/directional_block_test_up
+        west: block/dropper/directional_block_test_west
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          directional_mode: DROPPER
+  directional_block_dropper_up:
+    name: directional_block_dropper_up
+    graphics:
+      textures:
+        down: block/dropper/directional_block_test_down
+        east: block/dropper/directional_block_test_east
+        north: block/dropper/directional_block_test_north_variant
+        south: block/dropper/directional_block_test_south
+        up: block/dropper/directional_block_test_up
+        west: block/dropper/directional_block_test_west
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+  directional_block_dropper_down:
+    name: directional_block_dropper_down
+    graphics:
+      textures:
+        down: block/dropper/directional_block_test_down
+        east: block/dropper/directional_block_test_east
+        north: block/dropper/directional_block_test_north_variant
+        south: block/dropper/directional_block_test_south
+        up: block/dropper/directional_block_test_up
+        west: block/dropper/directional_block_test_west
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   directional_block_dropper:
     name: directional_block_dropper
@@ -162,6 +284,8 @@ In the screenshot you can see the face texture is different.
         placed_model:
           type: REAL_NOTE
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Manually create models
 

@@ -1,5 +1,6 @@
 ---
 description: Armors not working after using PackSquash
+icon: helmet-battle
 ---
 
 # Armors not working PackSquash

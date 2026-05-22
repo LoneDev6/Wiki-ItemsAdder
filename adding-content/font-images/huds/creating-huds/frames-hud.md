@@ -1,5 +1,6 @@
 ---
 description: Tutorial on how to create a FRAMES HUD
+icon: crosshairs-simple
 ---
 
 # Frames HUD

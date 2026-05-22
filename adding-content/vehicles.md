@@ -6,6 +6,24 @@ icon: car
 
 You can create simple limited vehicles to enhance the gameplay. These are pretty simple vehicles.
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: my_vehicles
+items:
+  shopping_cart:
+    enabled: true
+    display_name: Shopping Cart
+    permission: my_vehicles.ground.shopping_cart
+    graphics:
+      model: item/shopping_cart
+    behaviours:
+      vehicle:
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: my_vehicles
@@ -38,6 +56,8 @@ items:
         smoke:
           amount: 1
 ```
+{% endtab %}
+{% endtabs %}
 
 The default example pack contains some example vehicles, [download it here](https://github.com/ItemsAdder/OtherPacks/releases).
 

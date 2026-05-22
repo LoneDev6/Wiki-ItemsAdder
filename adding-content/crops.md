@@ -549,6 +549,80 @@ It's a lightweight method to add some simple crops into the game.
 To show custom crops you can decide a vanilla model to be re-used, for example `SWEET_BERRY_BUSH`, `CARROTS` etc.
 {% endhint %}
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: iasurvival
+items:
+  tomato_seeds:
+    enabled: true
+    display_name: display-name-tomato_seeds
+    permission: iasurvival.crops.tomato_seeds
+    material: WHEAT_SEEDS
+    graphics:
+      texture: item/crops/tomato_seeds
+    specific_properties:
+      seed:
+        crop_block: SWEET_BERRY_BUSH
+        results: 
+          result_1: 
+            item: iasurvival:tomato
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+  garlic_seeds:
+    enabled: true
+    display_name: display-name-garlic_seeds
+    permission: iasurvival.crops.garlic_seeds
+    material: WHEAT_SEEDS
+    graphics:
+      texture: item/crops/garlic_seeds
+    specific_properties:
+      seed:
+        crop_block: CARROTS
+        results:
+          result_1:
+            item: iasurvival:garlic
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+  chili_pepper_seeds:
+    enabled: true
+    display_name: display-name-chili_pepper_seeds
+    permission: iasurvival.crops.chili_pepper_seeds
+    material: WHEAT_SEEDS
+    graphics:
+      texture: item/crops/chili_pepper_seeds
+    specific_properties:
+      seed:
+        crop_block: BEETROOTS
+        results:
+          result_1:
+            item: iasurvival:chili_pepper
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+  rice_seeds:
+    enabled: true
+    display_name: display-name-rice_seeds
+    permission: iasurvival.crops.rice_seeds
+    material: WHEAT_SEEDS
+    graphics:
+      texture: item/crops/rice_seeds
+    specific_properties:
+      seed:
+        crop_block: WHEAT
+        results:
+          result_1:
+            item: iasurvival:rice
+            min_amount: 1
+            max_amount: 2
+            chance: 100
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: iasurvival
@@ -626,3 +700,5 @@ items:
             max_amount: 2
             chance: 100
 ```
+{% endtab %}
+{% endtabs %}

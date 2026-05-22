@@ -53,11 +53,9 @@ items:
     mmoitem:
       type: SWORD
       id: TEST
-    resource:
-      material: DIAMOND_SWORD
-      generate: true
-      textures:
-      - item/test.png
+    material: DIAMOND_SWORD
+    graphics:
+      texture: item/test
     durability:
       max_custom_durability: 1324
 ```

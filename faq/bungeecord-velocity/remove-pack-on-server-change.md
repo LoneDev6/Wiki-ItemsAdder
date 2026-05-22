@@ -1,3 +1,7 @@
+---
+icon: network-wired
+---
+
 # Remove pack on server change
 
 ## Remove the resourcepack when the player changes server

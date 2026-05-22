@@ -1,3 +1,7 @@
+---
+icon: bolt
+---
+
 # Events List
 
 ## Events

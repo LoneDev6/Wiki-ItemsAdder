@@ -1,4 +1,8 @@
-# 🇹🇷 Turkish computer errors
+---
+icon: keyboard
+---
+
+# Turkish computer errors
 
 If you get random errors like this:
 

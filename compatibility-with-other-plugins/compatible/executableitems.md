@@ -19,11 +19,9 @@ items:
     permission: executableitem_test
     executableitem:
       id: Free_Spit
-    resource:
-      material: IRON_INGOT
-      generate: true
-      textures:
-      - item/executableitem_test.png
+    material: IRON_INGOT
+    graphics:
+      texture: item/executableitem_test
     durability:
       max_custom_durability: 1324
 ```

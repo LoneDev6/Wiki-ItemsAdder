@@ -1,80 +1,77 @@
-# API Utilities
+---
+icon: clock-rotate-left
+---
 
-## API Utilities
-
-These are some static utilities to fast get some information.
+# Legacy API (pre-4.0.x)
 
 {% hint style="warning" %}
-Note that these static utility methods are for lazy usage, you should use the other API classes instead.
+These are the legacy static methods from the `ItemsAdder` class.\
+They are still functional but the modern wrapper classes (`CustomStack`, `CustomBlock`, `CustomEntity`, `CustomFurniture`, `CustomCrop`) are preferred for new code.\
+See the [Usage](examples.md) page for the modern API.
 {% endhint %}
 
 ```java
-// Check if itemsadder finished loading its items and if they are available
-// Normally you should use ItemsAdderFirstLoadEvent instead.
-// but sometimes you might also need to check this programmatically.
+// Check if ItemsAdder has finished loading its items
+// Prefer listening to ItemsAdderLoadDataEvent instead
 public static boolean areItemsLoaded()
 
-//Checks if an item is a custom item made with ItemsAdder
+// Check if an ItemStack is a custom item
 public static boolean isCustomItem(ItemStack itemStack)
 public static boolean isCustomItem(String customItemName)
 
-//returns the ItemStack of a custom block in world
-public static ItemStack getCustomBlock(Block block)
+// Get a custom item's ItemStack by namespaced ID
+public static ItemStack getCustomItem(String namespacedId)
 
-//check if an entity in world is a furniture
-public static boolean isFurniture(Entity entity)
+// Get the namespaced ID from an ItemStack
+public static String getCustomItemName(ItemStack itemStack)
 
-//check if an ItemStack is a specific custom item 
-//(example: check if a pickaxe is 'amethyst_pickaxe')
+// Check if a specific ItemStack matches a custom item ID
 public static boolean matchCustomItemName(ItemStack itemStack, String customItemName)
-```
 
-## Old API methods
+// Custom durability
+public static int  getCustomItemDurability(ItemStack itemStack)
+public static int  getCustomItemMaxDurability(ItemStack itemStack)
+public static ItemStack setCustomItemDurability(ItemStack item, int durability)
+public static ItemStack setCustomItemMaxDurability(ItemStack item, int maxDurability)
 
-{% hint style="warning" %}
-This is the old API, it's still available and working fine.
-{% endhint %}
+// Usages
+public static int getCustomItemUsages(ItemStack itemStack)
 
-```java
-//Get an ItemsAdder custom item by its name in config
-public static ItemStack getCustomItem(String nameInConfig)
-
-//Spawns a block made with ItemsAdder specifying the itemstack 
-//(obtain it with getCustomItem)
+// Place a custom block using its ItemStack (obtained from getCustomItem)
 public static void placeCustomBlock(Location location, ItemStack customBlock)
 public static void placeCustomBlock(Location location, ItemStack customBlock, boolean lightweight)
 
-//get custom block loots
-public static List<ItemStack> getCustomBlockLoot(Block block, ItemStack tool, boolean includeSelfBlock)
+// Remove a custom block
+public static void removeCustomBlock(Location location)
 
-//Check if a block in the world is a custom block made with ItemsAdder
+// Get the ItemStack for a custom block in the world
+public static ItemStack getCustomBlock(Block block)
+
+// Check if a block is a custom block
 public static boolean isCustomBlock(Block block)
 
-//plants custom seed like a normal player would do
-public static void placeCustomCrop(Location location, ItemStack seed)
+// Get loot from a custom block
+public static List<ItemStack> getCustomBlockLoot(Block block, ItemStack tool, boolean includeSelfBlock)
 
-//check if block is custom planted crop with custom seed
+// Custom crops
+public static void    placeCustomCrop(Location location, ItemStack seed)
 public static boolean isCustomCrop(Block block)
+public static String  getCustomSeedNameFromCrop(Block block)
 
-//get custom seed of custom crop
-public static String getCustomSeedNameFromCrop(Block block)
+// Furniture
+public static boolean isFurniture(Entity entity)
+```
 
-//get name of the item in config (ex: 'ruby_pickaxe')
-public static String getCustomItemName(ItemStack itemStack)
+## CustomMob (removed in 4.0.10)
 
-//get name of config where the item is declared (ex: 'items/swords')
-public static String getCustomItemFileName(ItemStack itemStack)
+{% hint style="danger" %}
+`CustomMob` was removed in ItemsAdder 4.0.10. Use `CustomEntity` instead.
+{% endhint %}
 
-//gets usages remaining of this item (-999 if it has no usages specified = infinite)
-public static int getCustomItemUsages(ItemStack itemStack)
+```java
+// Old way — DO NOT USE
+CustomMob mob = CustomMob.spawn("namespace:mob_id", location);
 
-//set custom item durability (also works with vanilla items and with
-//custom items with default vanilla durability)
-public static ItemStack setCustomItemDurability(ItemStack item, int durability)
-
-//get custom durability
-public static int getCustomItemDurability(ItemStack itemStack)
-
-//get max custom durability 
-public static int getCustomItemMaxDurability(ItemStack itemStack)
+// New way
+CustomEntity entity = CustomEntity.spawn("namespace:entity_id", location);
 ```

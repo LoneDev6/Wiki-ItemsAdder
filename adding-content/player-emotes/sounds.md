@@ -1,3 +1,7 @@
+---
+icon: volume-high
+---
+
 # Sounds
 
 Switch to "**Animate**" view.

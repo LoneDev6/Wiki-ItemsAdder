@@ -1,3 +1,7 @@
+---
+icon: helmet-battle
+---
+
 # Armor leather texture looks like metal
 
 ## Leather layers keep getting overwritten by ItemsAdder

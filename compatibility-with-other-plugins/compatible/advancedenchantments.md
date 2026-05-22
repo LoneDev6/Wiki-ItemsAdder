@@ -16,10 +16,9 @@ info:
 items:
   advanced_enchants_test:
     display_name: advanced_enchants_test
-    resource:
-      material: DIAMOND_SWORD
-      generate: false
-      model_path: minecraft:item/emerald
+    material: DIAMOND_SWORD
+    graphics:
+      model: minecraft:item/emerald
     enchants:
       - Beastslayer
       - Epicness

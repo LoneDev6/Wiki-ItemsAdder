@@ -19,10 +19,8 @@ items:
   my_light_block_template:
     name: Test Change State Block Interact
     template: true
-    resource:
-      generate: false
-      model_path: minecraft:block/diamond_block
-      material: PAPER
+    graphics:
+      model: minecraft:block/diamond_block
     behaviours:
       block:
         placed_model:

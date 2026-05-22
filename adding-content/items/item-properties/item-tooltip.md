@@ -19,10 +19,8 @@ info:
 items:
   tooltip_rainbow_item:
     display_name: tooltip_rainbow_item
-    resource:
-      generate: false
-      model_path: minecraft:item/emerald
-      material: PAPER
+    graphics:
+      model: minecraft:item/emerald
     tooltip_style: test_tooltip:tooltip/rainbow
 ```
 {% endcode %}

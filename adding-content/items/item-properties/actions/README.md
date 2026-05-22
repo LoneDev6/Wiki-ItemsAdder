@@ -139,11 +139,8 @@ items:
   chain_events:
     display_name: "%#FE5A00%chain_events"
     permission: test.chain_events
-    resource:
-      material: COAL
-      generate: true
-      textures:
-      - "minecraft:item/diamond.png"
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:
@@ -205,11 +202,8 @@ The sound is played even if the user has no permission for the give event. That'
   test_block:
     display_name: display-name-test_block
     permission: test_block
-    resource:
-      material: PAPER
-      generate: true
-      textures:
-      - block/test_block.png
+    graphics:
+      texture: block/test_block
     behaviours:
       block:
         placed_model:
@@ -237,11 +231,8 @@ For example:
   test_block:
     display_name: display-name-test_block
     permission: test_block
-    resource:
-      material: PAPER
-      generate: true
-      textures:
-      - block/test_block.png
+    graphics:
+      texture: block/test_block
     behaviours:
       block:
         placed_model:
@@ -278,10 +269,9 @@ info:
 items:
   magic_wand:
     display_name: Test Magic Wand
-    resource:
-      generate: false
-      model_path: minecraft:item/stick
-      material: STONE_SWORD
+    material: STONE_SWORD
+    graphics:
+      model: minecraft:item/stick
     events:
       interact_mainhand:
         left:
@@ -398,10 +388,8 @@ items:
   test_flow:
     enabled: true
     display_name: test_flow
-    resource:
-      generate: false
-      model_path: minecraft:item/diamond
-      material: DIAMOND
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:
@@ -435,10 +423,8 @@ The message is completely skipped if the command status is fail.
   test_flow_setblock:
     enabled: true
     display_name: test_flow_setblock
-    resource:
-      generate: false
-      model_path: minecraft:item/diamond
-      material: DIAMOND
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:
@@ -462,10 +448,8 @@ For example I check if the result text contains `"Given item"` in order to know 
   test_flow_plugin_command:
     enabled: true
     display_name: test_flow_plugin_command
-    resource:
-      generate: false
-      model_path: minecraft:item/diamond
-      material: DIAMOND
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:

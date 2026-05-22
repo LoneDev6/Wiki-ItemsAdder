@@ -1,5 +1,6 @@
 ---
 description: Creating a totally customizable HUD
+icon: crosshairs-simple
 ---
 
 # Custom HUD (advanced)

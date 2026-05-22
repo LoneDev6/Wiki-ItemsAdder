@@ -1,3 +1,7 @@
+---
+icon: square-terminal
+---
+
 # Simple
 
 ## Examples

@@ -238,6 +238,39 @@ Players would need explicit permissions if you specify these properties:
 * `ia.user.block.break.iasurvival.ruby_ore`
 * `ia.user.block.place.iasurvival.ruby_ore`
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: iasurvival
+items:
+  ruby_ore:
+    enabled: true
+    display_name: display-name-ruby_ore
+    permission: iasurvival.items.ruby_ore
+    graphics:
+      texture: block/ores/ruby_ore
+    behaviours:
+      block:
+        permission_suffix:
+          break: iasurvival.ruby_ore
+          place: iasurvival.ruby_ore
+        hardness: 4
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: REDSTONE_ORE
+        cancel_drop: true
+        break_tools_blacklist:
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: iasurvival
@@ -269,6 +302,8 @@ items:
           - pickaxe
           - _hammer
 ```
+{% endtab %}
+{% endtabs %}
 
 ### Use the official files editor to read all the properties
 
@@ -286,6 +321,33 @@ items:
 
 This has a downside, you can only set the experience drop to custom blocks, not to vanilla blocks.
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  ruby_block:
+    display_name: display-name-ruby_block
+    permission: ruby_block
+    graphics:
+      texture: block/ruby_block
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: REDSTONE_BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+    events:
+      placed_block:
+        break:
+          drop_exp:
+            chance: 100
+            min_amount: 0
+            max_amount: 3
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   ruby_block:
     display_name: display-name-ruby_block
@@ -311,6 +373,8 @@ This has a downside, you can only set the experience drop to custom blocks, not 
             min_amount: 0
             max_amount: 3
 ```
+{% endtab %}
+{% endtabs %}
 
 ### 2. Add the exp drop to loots
 

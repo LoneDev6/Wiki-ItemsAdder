@@ -23,24 +23,6 @@ I created it in the folder: `contents/myitems/configs/`
 
 I start creating a simple block called `red_block` in the file `blocks.yml`**.**
 
-{% code title="ItemsAdder/contents/myitems/configs/blocks.yml" %}
-```yaml
-info:
-  namespace: myitems
-items:
-  red_block:
-    display_name: Red Block
-    permission: red_block
-    resource:
-      material: PAPER
-```
-{% endcode %}
-
-{% hint style="warning" %}
-It's very important to use a **non placeable** vanilla **material**. For example **`PAPER`**.\
-If you use a block (like `STONE` or `DIRT`) it will result a bit glitchy when placed.
-{% endhint %}
-
 ### Creating the textures files
 
 To do that you have to put the `.png` textures file inside the correct folder.
@@ -61,28 +43,12 @@ Read more here: [folders structure](configs-and-resourcepack.md#why-different-fo
 
 <figure><img src="../../.gitbook/assets/red_block_textures_preview.png" alt=""><figcaption></figcaption></figure>
 
-### Applying the textures files to your item
+### Using the same texture for each face
 
-Now open `blocks.yml` file again and add the `resource` part as I did.\
-As you can see I set `generate: true` and I set the textures for the item.\
-This tells the plugin to generate the 3D model automatically using your texture.
-
-```yaml
-info:
-  namespace: myitems
-items:
-  red_block:
-    display_name: Red Block
-    permission: red_block
-    resource:
-      generate: true
-      material: PAPER
-```
-
-### Using different texture for each face
-
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
 {% hint style="warning" %}
-**Important**: keep the correct cardinal directions order as shown in the example.
+Requires ItemsAdder **4.0.13** and Minecraft **1.21.4+**.
 {% endhint %}
 
 ```yaml
@@ -92,36 +58,21 @@ items:
   red_block:
     display_name: Red Block
     permission: red_block
-    resource:
-      generate: true
-      material: PAPER
-      textures:
-        - block/red_block_down.png
-        - block/red_block_east.png
-        - block/red_block_north.png
-        - block/red_block_south.png
-        - block/red_block_up.png
-        - block/red_block_west.png
+    graphics:
+      texture: block/red_block
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
 ```
+{% endtab %}
 
-### Using the same texture for each face
-
-```yaml
-info:
-  namespace: myitems
-items:
-  red_block:
-    display_name: Red Block
-    permission: red_block
-    resource:
-      generate: true
-      material: PAPER
-      texture: block/red_block.png
-```
-
-### Adding the block placing functionality
-
-You have to add the `behaviours` attribute.
+{% tab title="Legacy (1.21.3 and lower)" %}
+{% hint style="info" %}
+It's very important to use a **non placeable** vanilla **material**. For example **`PAPER`**.\
+If you use a block (like `STONE` or `DIRT`) it will result a bit glitchy when placed.
+{% endhint %}
 
 ```yaml
 info:
@@ -140,6 +91,66 @@ items:
           type: REAL_NOTE
           break_particles: ITEM
 ```
+{% endtab %}
+{% endtabs %}
+
+### Using different textures for each face
+
+{% hint style="warning" %}
+**Important**: keep the correct cardinal directions order as shown in the example.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: myitems
+items:
+  red_block:
+    display_name: Red Block
+    permission: red_block
+    graphics:
+      textures:
+        north: block/red_block_north
+        south: block/red_block_south
+        east: block/red_block_east
+        west: block/red_block_west
+        up: block/red_block_up
+        down: block/red_block_down
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
+```yaml
+info:
+  namespace: myitems
+items:
+  red_block:
+    display_name: Red Block
+    permission: red_block
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - block/red_block_down.png
+        - block/red_block_east.png
+        - block/red_block_north.png
+        - block/red_block_south.png
+        - block/red_block_up.png
+        - block/red_block_west.png
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+```
+{% endtab %}
+{% endtabs %}
 
 ## Getting the block ingame
 
@@ -157,6 +168,43 @@ Run `/iaget red_block` to get the item.
 
 ## Block loot
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: myitems
+items:
+  red_block:
+    display_name: Red Block
+    permission: red_block
+    graphics:
+      texture: block/red_block
+    behaviours:
+      block:
+        drop_when_mined: false # IMPORTANT! To avoid duplication
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+          
+
+loots: # Here the custom loots list
+  blocks:
+    ruby_ore: # Here your custom block loot
+      type: myitems:red_block
+      biomes:
+        - PLAINS
+        - SUNFLOWER_PLAINS
+        - MOUNTAINS
+      items:
+        drop1: # Here the dropped item
+          item: DIAMOND
+          min_amount: 1
+          max_amount: 2
+          chance: 100 # Percentage
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: myitems
@@ -191,3 +239,5 @@ loots: # Here the custom loots list
           max_amount: 2
           chance: 100 # Percentage
 ```
+{% endtab %}
+{% endtabs %}

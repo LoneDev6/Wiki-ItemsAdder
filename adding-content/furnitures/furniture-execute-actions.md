@@ -15,10 +15,8 @@ items:
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item
-    resource:
-      material: PAPER
-      generate: false
-      model_path: lamp
+    graphics:
+      model: lamp
     behaviours:
       furniture:
         light_level: 13
@@ -42,10 +40,8 @@ You can add more [actions](../items/item-properties/actions/actions.md) to the [
   energy_extractor:
     display_name: display-name-energy_extractor
     permission: energy_extractor
-    resource:
-      material: PAPER
-      generate: false
-      model_path: item/energy_extractor
+    graphics:
+      model: item/energy_extractor
     behaviours:
       furniture:
         solid: true

@@ -1,3 +1,7 @@
+---
+icon: helmet-battle
+---
+
 # Armor - Unable to fit - try a lower resolution resourcepack
 
 This error is caused by the fact that you have too many custom armors or/and that their texture is too large (HD textures, for example).

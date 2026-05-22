@@ -2,6 +2,7 @@
 description: >-
   Using a network-wide resourcepack to avoid players from redownloading a
   different one on each join
+icon: network-wired
 ---
 
 # Single resourcepack Bungeecord

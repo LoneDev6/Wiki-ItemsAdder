@@ -54,6 +54,42 @@ You can also use [this tool](https://misode.github.io/transformation/) to previe
 
 <summary>Example</summary>
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  lava_lamp_new:
+    enabled: true
+    display_name: display-name-lava_lamp
+    permission: iadeco.decorations.lava_lamp
+    lore:
+      - lore-decorative-item
+    graphics:
+      model: lava_lamp
+    behaviours:
+      furniture:
+        entity: item_display # <---
+        light_level: 7
+        display_transformation:
+          transform: HEAD
+          right_rotation:
+            axis_angle:
+              angle: 180
+              axis:
+                x: 0
+                y: 1
+                z: 0
+          translation:
+            x: 0
+            y: 0.92
+            z: 0
+          scale:
+            x: 0.45
+            y: 0.45
+            z: 0.45
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   lava_lamp_new:
     enabled: true
@@ -87,6 +123,8 @@ You can also use [this tool](https://misode.github.io/transformation/) to previe
             y: 0.45
             z: 0.45
 ```
+{% endtab %}
+{% endtabs %}
 
 </details>
 
@@ -155,6 +193,32 @@ You can limit the placement of the furniture using the `placeable_on` property.
 
 You can make a furniture solid adding the "solid" attribute and specifying a hitbox (if you want > 1x1x1)
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  table:
+    display_name: display-name-table
+    permission: table
+    lore:
+      - 'lore-decorative-item'
+    graphics:
+      model: item/table
+    behaviours:
+      furniture:
+        small: true
+        solid: true
+        entity: armor_stand
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   table:
     display_name: display-name-table
@@ -178,6 +242,8 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
           width_offset: 0
           height_offset: 0
 ```
+{% endtab %}
+{% endtabs %}
 
 ![](<../../.gitbook/assets/image (169).png>)
 

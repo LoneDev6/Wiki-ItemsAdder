@@ -6,6 +6,25 @@ icon: user-police
 
 ### Example item permission
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  my_armor_simple_helmet:
+    display_name: my_armor_simple helmet
+    permission_suffix: my_armor_simple
+    material: IRON_HELMET
+    graphics:
+      texture: item/my_armor_simple_helmet
+    durability:
+      max_custom_durability: 275
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 1
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   my_armor_simple_helmet:
     display_name: my_armor_simple helmet
@@ -23,6 +42,8 @@ icon: user-police
         armor: 9
         armorToughness: 1
 ```
+{% endtab %}
+{% endtabs %}
 
 ## How to make the item visible in the `/ia` gui
 

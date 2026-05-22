@@ -88,6 +88,21 @@ Now you will have a **`zip`** file with the animation, **download** it and **ope
 
 Set your item configuration like this, to use the idle animation and not the stuck one: `item/cosmetic_mob_soul`
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: myitems
+items:
+  cosmetic_mob_soul:
+    display_name: Cosmetic Mob Soul
+    permission: my_items
+    graphics:
+      model: "item/cosmetic_mob_soul"
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: myitems
@@ -99,6 +114,8 @@ items:
       generate: false
       model_path: "item/cosmetic_mob_soul"
 ```
+{% endtab %}
+{% endtabs %}
 
 Use the command `/iazip` (if you're using external-host please follow the [tutorial](../../plugin-usage/plugin-configuration/resourcepack-hosting/) carefully).
 

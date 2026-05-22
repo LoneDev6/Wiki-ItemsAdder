@@ -1,2 +1,6 @@
+---
+icon: location-dot
+---
+
 # Spawning
 

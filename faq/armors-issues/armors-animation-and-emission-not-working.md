@@ -1,3 +1,7 @@
+---
+icon: helmet-battle
+---
+
 # Armors animation and emission not working
 
 {% hint style="warning" %}

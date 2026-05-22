@@ -28,9 +28,7 @@ This will be used to spawn the furniture on interaction.
 ```yaml
   ceiling_fan:
     name: Ceiling Fan
-    resource:
-      material: PAPER
-      generate: true
+    graphics:
       texture: item/ceiling_fan
     behaviours:
       complex_furniture:

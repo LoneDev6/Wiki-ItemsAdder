@@ -97,6 +97,24 @@ minecraft_lang_overwrite:
       - it_it
 ```
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: special_items
+items:
+  my_sword:
+    name: <lang:my_custom_items.my_sword.name>
+    permission: my_sword
+    material: DIAMOND_SWORD
+    graphics:
+      texture: item/my_sword
+    durability:
+      max_custom_durability: 1324
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: special_items
@@ -112,6 +130,8 @@ items:
     durability:
       max_custom_durability: 1324
 ```
+{% endtab %}
+{% endtabs %}
 
 Use the special property `<lang:NAME>` to specify the translation entry (uses [Minimessage](../beginners/text-formatting.md)).
 
@@ -197,11 +217,9 @@ items:
   my_sword:
     display_name: "épée de saleté"
     permission: my_sword
-    resource:
-      material: DIAMOND_SWORD
-      generate: true
-      textures:
-      - item/my_sword.png
+    material: DIAMOND_SWORD
+    graphics:
+      texture: item/my_sword
     durability:
       max_custom_durability: 1324
 ```

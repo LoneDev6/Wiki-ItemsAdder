@@ -1,5 +1,6 @@
 ---
 description: Armors textures look broken when using custom shaders mods (1.17+)
+icon: helmet-battle
 ---
 
 # Armors textures not working with shaders mod

@@ -1,3 +1,7 @@
+---
+icon: wand-magic-sparkles
+---
+
 # Magic wand
 
 ## Example addon
@@ -16,11 +20,9 @@
       - "  &f- &7Creases an &cexposion &7on &fattack"
       - "  &f- &7Consumes &b1 mana when used"
     permission: magic_wand
-    resource:
-      material: DIAMOND_SWORD
-      generate: true
-      textures:
-      - item/magic_wand.png
+    material: DIAMOND_SWORD
+    graphics:
+      texture: item/magic_wand
     durability:
       max_custom_durability: 512
     attribute_modifiers:
@@ -111,11 +113,9 @@
   mana_recover_crystals:
     display_name: "Mana Recover Crystals"
     permission: mana_recover_crystals
-    resource:
-      material: IRON_SWORD
-      generate: true
-      textures:
-      - item/mana_recover_crystals.png
+    material: IRON_SWORD
+    graphics:
+      texture: item/mana_recover_crystals
     durability:
       max_custom_durability: 5
       custom_durability: 5
@@ -143,11 +143,9 @@
   advanced_mana_recover_crystals:
     display_name: "Advanced Mana Recover Crystals"
     permission: mana_recover_crystals
-    resource:
-      material: IRON_SWORD
-      generate: true
-      textures:
-      - item/mana_recover_crystals.png
+    material: IRON_SWORD
+    graphics:
+      texture: item/mana_recover_crystals
     durability:
       max_custom_durability: 1
       custom_durability: 1

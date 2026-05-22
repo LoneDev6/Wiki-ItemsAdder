@@ -21,10 +21,8 @@ items:
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item
-    resource:
-      material: PAPER
-      generate: false
-      model_path: lamp
+    graphics:
+      model: lamp
     behaviours:
       furniture:
         light_level: 13
@@ -44,10 +42,8 @@ Let's add some more settings to it:
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item
-    resource:
-      material: PAPER
-      generate: false
-      model_path: lamp
+    graphics:
+      model: lamp
     behaviours:
       furniture:
         light_level: 13
@@ -93,10 +89,8 @@ items:
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item
-    resource:
-      material: PAPER
-      generate: false
-      model_path: lamp
+    graphics:
+      model: lamp
     behaviours:
       furniture:
         light_level: 13

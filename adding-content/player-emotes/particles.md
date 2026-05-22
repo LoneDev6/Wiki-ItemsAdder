@@ -1,3 +1,7 @@
+---
+icon: sparkles
+---
+
 # Particles
 
 ### Configure the special particle location bone
