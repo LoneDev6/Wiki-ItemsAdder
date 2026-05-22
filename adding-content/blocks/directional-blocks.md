@@ -5,7 +5,7 @@ icon: arrow-rotate-left
 # Directional Blocks
 
 {% hint style="info" %}
-#### Requires ItemsAdder 4.0.10 or greater
+#### Requires ItemsAdder 4.0.13 or greater
 {% endhint %}
 
 {% hint style="warning" %}

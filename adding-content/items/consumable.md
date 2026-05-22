@@ -7,7 +7,7 @@ icon: burger-cheese
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
 {% hint style="success" %}
-The `consumable` property replaces the old `events.eat` / `events.drink` events on 1.21.2+.
+The `consumable` property replaces the old `events.eat` / `events.drink` events on 1.21.4+.
 {% endhint %}
 
 ## Basic examples
@@ -106,7 +106,7 @@ Use animation played while consuming. One of:
 * `toot_horn`
 
 {% hint style="warning" %}
-Requires Minecraft 1.21.2 or newer.
+Requires Minecraft 1.21.4 or newer.
 {% endhint %}
 
 ### `sound`
@@ -119,7 +119,7 @@ consumable:
 Sound played while consuming. Accepts any vanilla sound key or a custom ItemsAdder sound.
 
 {% hint style="warning" %}
-Requires Minecraft 1.21.2 or newer.
+Requires Minecraft 1.21.4 or newer.
 {% endhint %}
 
 ### `particles`
@@ -132,7 +132,7 @@ consumable:
 Show food particles while consuming. Default: `true`.
 
 {% hint style="warning" %}
-Requires Minecraft 1.21.2 or newer.
+Requires Minecraft 1.21.4 or newer.
 {% endhint %}
 
 ### `effects`

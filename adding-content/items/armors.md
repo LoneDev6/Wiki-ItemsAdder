@@ -170,7 +170,7 @@ equipment:
 * `allowed_entities` accepts vanilla entity IDs or custom ItemsAdder entities.
 
 {% hint style="warning" %}
-Most sub-properties require Minecraft 1.21.2 or newer.
+Most sub-properties require Minecraft 1.21.4 or newer.
 {% endhint %}
 
 #### Animated/emissive armors
@@ -186,7 +186,7 @@ I do not advice to use HD textures since this is a blocky game, but can create H
 
 #### Converting old armors to the new equipment tag
 
-This option will convert the armors completely to use the new equipment tag. Note that old clients won't see the armor anymore (older than 1.21.2).
+This option will convert the armors completely to use the new equipment tag. Note that old clients won't see the armor anymore (older than 1.21.4).
 
 {% code title="config.yml" %}
 ```yaml

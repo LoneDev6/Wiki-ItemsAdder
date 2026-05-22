@@ -7,7 +7,7 @@ icon: list-dropdown
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
 {% hint style="warning" %}
-Requires ItemsAdder 4.0.9 or greater and at least Minecraft 1.21.2 (both client and server).
+Requires ItemsAdder 4.0.13 or greater and at least Minecraft 1.21.4 (both client and server).
 {% endhint %}
 
 ## Configuration
@@ -44,7 +44,7 @@ Run `/iazip` and then get the item ingame.
 <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Old (before 1.21.2)" %}
+{% tab title="Old (before 1.21.4)" %}
 You can add custom textured tooltips for your items, please refer to this example addon:\
 [https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/](https://www.spigotmc.org/resources/items-custom-tooltip-texture-example-itemsadder-addon.87883/)
 

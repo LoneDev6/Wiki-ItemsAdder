@@ -228,7 +228,7 @@ Example if you set only custom font name:
 #### Customize / remove shadow
 
 {% hint style="warning" %}
-Requires ItemsAdder 4.0.12 and Minecraft client 1.21.4 or greater
+Requires ItemsAdder 4.0.13 and Minecraft client 1.21.4 or greater
 {% endhint %}
 
 (does not require regenerating the pack)

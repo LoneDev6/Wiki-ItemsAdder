@@ -5,7 +5,7 @@ icon: brightness
 # Light Emission
 
 {% hint style="warning" %}
-This feature requires Minecraft client 1.21.2 or greater.
+This feature requires Minecraft client 1.21.4 or greater.
 {% endhint %}
 
 ## Items
