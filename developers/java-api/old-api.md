@@ -69,7 +69,7 @@ public static boolean isFurniture(Entity entity)
 {% endhint %}
 
 ```java
-// Old way — DO NOT USE
+// Old way - DO NOT USE
 CustomMob mob = CustomMob.spawn("namespace:mob_id", location);
 
 // New way

@@ -22,7 +22,7 @@ PlayerQuantityHudWrapper manaHud = new PlayerQuantityHudWrapper(huds, "magiccraf
 if (manaHud.exists()) {
     manaHud.setFloatValue(2.0f);
 } else {
-    System.out.println("Mana HUD not found — check that the HUD is enabled.");
+    System.out.println("Mana HUD not found, check that the HUD is enabled.");
 }
 ```
 

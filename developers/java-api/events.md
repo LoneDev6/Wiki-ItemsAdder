@@ -70,7 +70,7 @@ Called when a player interacts with an ItemsAdder custom block.
 
 ### FurniturePrePlaceEvent
 
-Called before a simple furniture is placed — cancel here to avoid unnecessary processing.
+Called before a simple furniture is placed. Cancel to avoid unnecessary processing.
 
 ### FurniturePlacedEvent
 

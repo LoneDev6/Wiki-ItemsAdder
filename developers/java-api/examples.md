@@ -4,7 +4,7 @@ icon: code
 
 # Usage
 
-## CustomStack — Custom Items
+## CustomStack - Custom Items
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomStack.html" %}
 
@@ -72,7 +72,7 @@ long remainingMs = CustomStack.getCooldownMs(player, item);
 
 ---
 
-## CustomBlock — Custom Blocks
+## CustomBlock - Custom Blocks
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomBlock.html" %}
 
@@ -134,7 +134,7 @@ if (customBlock != null) {
 
 ---
 
-## CustomEntity — Custom Entities
+## CustomEntity - Custom Entities
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomEntity.html" %}
 
@@ -193,7 +193,7 @@ if (customEntity != null) {
 
 ---
 
-## CustomFurniture — Furniture
+## CustomFurniture - Furniture
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomFurniture.html" %}
 
@@ -237,7 +237,7 @@ furniture.setCurrentLightLevel(10);
 
 ---
 
-## CustomCrop — Custom Crops
+## CustomCrop - Custom Crops
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomCrop.html" %}
 
@@ -267,7 +267,7 @@ boolean isSeed = CustomCrop.isSeed(itemStack);
 
 ---
 
-## CustomPlayer — Custom Player Entities & Emotes
+## CustomPlayer - Custom Player Entities & Emotes
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomPlayer.html" %}
 
@@ -304,7 +304,7 @@ String liquidName = ItemsAdder.getLiquidName(location);
 
 ---
 
-## ItemsAdder — General Utilities
+## ItemsAdder - General Utilities
 
 {% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/ItemsAdder.html" %}
 
