@@ -35,7 +35,7 @@ info:
   namespace: test
 items:
   test_inject_nbt_from_file:
-    display_name: "Test inject NBT from file"
+    name: Test inject NBT from file
     components_nbt_file: "test_inject_nbt_from_file.json"
     material: IRON_CHESTPLATE
     graphics:

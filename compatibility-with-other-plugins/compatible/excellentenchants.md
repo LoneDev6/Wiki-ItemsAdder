@@ -18,7 +18,7 @@ So you should write the lore on your own.
 
 ```yaml
   ruby_pickaxe:
-    display_name: display-name-ruby_pickaxe
+    name: display-name-ruby_pickaxe
     permission: ruby_pickaxe
     material: DIAMOND_PICKAXE
     graphics:

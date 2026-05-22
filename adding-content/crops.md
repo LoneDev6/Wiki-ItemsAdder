@@ -557,7 +557,7 @@ info:
 items:
   tomato_seeds:
     enabled: true
-    display_name: display-name-tomato_seeds
+    name: display-name-tomato_seeds
     permission: iasurvival.crops.tomato_seeds
     material: WHEAT_SEEDS
     graphics:
@@ -573,7 +573,7 @@ items:
             chance: 100
   garlic_seeds:
     enabled: true
-    display_name: display-name-garlic_seeds
+    name: display-name-garlic_seeds
     permission: iasurvival.crops.garlic_seeds
     material: WHEAT_SEEDS
     graphics:
@@ -589,7 +589,7 @@ items:
             chance: 100
   chili_pepper_seeds:
     enabled: true
-    display_name: display-name-chili_pepper_seeds
+    name: display-name-chili_pepper_seeds
     permission: iasurvival.crops.chili_pepper_seeds
     material: WHEAT_SEEDS
     graphics:
@@ -605,7 +605,7 @@ items:
             chance: 100
   rice_seeds:
     enabled: true
-    display_name: display-name-rice_seeds
+    name: display-name-rice_seeds
     permission: iasurvival.crops.rice_seeds
     material: WHEAT_SEEDS
     graphics:

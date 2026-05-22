@@ -28,7 +28,7 @@ I want to create multiple furnitures which are equal but with different model.
 ```yaml
   template_wood_park_bench:
     template: true  # <---- HERE you can see I set this item as "template"
-    display_name: ""
+    name: "<!i>"
     lore:
     - 'lore-decorative-item'
     graphics:
@@ -55,7 +55,7 @@ I want to create multiple furnitures which are equal but with different model.
         
   oak_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
-    display_name: "Oak wood Park Bench"
+    name: Oak wood Park Bench
     permission: oak_wood_park_bench
     lore:
     - 'lore-decorative-item'
@@ -65,7 +65,7 @@ I want to create multiple furnitures which are equal but with different model.
       
   spruce_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
-    display_name: "Spruce wood Park Bench"
+    name: Spruce wood Park Bench
     permission: spruce_wood_park_bench
     lore:
     - 'lore-decorative-item'
@@ -75,7 +75,7 @@ I want to create multiple furnitures which are equal but with different model.
       
   birch_wood_park_bench:
     variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
-    display_name: "Birch wood Park Bench"
+    name: Birch wood Park Bench
     permission: birch_wood_park_bench
     lore:
     - 'lore-decorative-item'

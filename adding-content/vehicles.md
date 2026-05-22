@@ -14,7 +14,7 @@ info:
 items:
   shopping_cart:
     enabled: true
-    display_name: Shopping Cart
+    name: Shopping Cart
     permission: my_vehicles.ground.shopping_cart
     graphics:
       model: item/shopping_cart

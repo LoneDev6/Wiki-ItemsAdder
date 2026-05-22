@@ -215,7 +215,7 @@ info:
   namespace: special_items
 items:
   my_sword:
-    display_name: "épée de saleté"
+    name: épée de saleté
     permission: my_sword
     material: DIAMOND_SWORD
     graphics:

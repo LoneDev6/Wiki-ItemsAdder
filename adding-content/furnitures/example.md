@@ -17,7 +17,7 @@ info:
   namespace: myitems
 items:
   lamp:
-    display_name: "Lamp"
+    name: Lamp
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item
@@ -38,7 +38,7 @@ Let's add some more settings to it:
 {% code title="furniture_example.yml" %}
 ```yaml
   lamp:
-    display_name: "Lamp"
+    name: Lamp
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item
@@ -85,7 +85,7 @@ info:
   namespace: myitems
 items:
   lamp:
-    display_name: "Lamp"
+    name: Lamp
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item

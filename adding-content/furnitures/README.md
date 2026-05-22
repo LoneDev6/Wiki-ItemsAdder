@@ -59,7 +59,7 @@ You can also use [this tool](https://misode.github.io/transformation/) to previe
 ```yaml
   lava_lamp_new:
     enabled: true
-    display_name: display-name-lava_lamp
+    name: display-name-lava_lamp
     permission: iadeco.decorations.lava_lamp
     lore:
       - lore-decorative-item
@@ -197,7 +197,7 @@ You can make a furniture solid adding the "solid" attribute and specifying a hit
 {% tab title="Modern (1.21.4+)" %}
 ```yaml
   table:
-    display_name: display-name-table
+    name: display-name-table
     permission: table
     lore:
       - 'lore-decorative-item'

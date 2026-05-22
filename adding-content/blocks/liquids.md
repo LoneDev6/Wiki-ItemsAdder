@@ -28,7 +28,7 @@ In this example I created the `red_water_bucket`.
 {% tab title="Modern (1.21.4+)" %}
 ```yaml
   red_water_bucket:
-    display_name: display-name-red_water_bucket
+    name: display-name-red_water_bucket
     permission: red_water_bucket
     material: POTION
     graphics:

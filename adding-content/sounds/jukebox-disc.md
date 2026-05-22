@@ -60,7 +60,7 @@ Add an `items:` section to the same `config.yml`:
 ```yaml
 items:
   faint_disc:
-    display_name: "<yellow>Faint Disc"
+    name: "<yellow>Faint Disc"
     permission: my_music.faint
     graphics:
       texture: minecraft:item/music_disc_13
@@ -109,7 +109,7 @@ contents/
 ```yaml
 items:
   faint_disc:
-    display_name: "<yellow>Faint Disc"
+    name: "<yellow>Faint Disc"
     permission: my_music.faint
     graphics:
       texture: item/faint_linkin_park

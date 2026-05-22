@@ -18,7 +18,7 @@ info:
   namespace: test_tooltip
 items:
   tooltip_rainbow_item:
-    display_name: tooltip_rainbow_item
+    name: tooltip_rainbow_item
     graphics:
       model: minecraft:item/emerald
     tooltip_style: test_tooltip:tooltip/rainbow

@@ -137,7 +137,7 @@ For example:
 ```yaml
 items:
   chain_events:
-    display_name: "%#FE5A00%chain_events"
+    name: "%#FE5A00%chain_events"
     permission: test.chain_events
     graphics:
       model: minecraft:item/diamond
@@ -200,7 +200,7 @@ The sound is played even if the user has no permission for the give event. That'
 
 ```yaml
   test_block:
-    display_name: display-name-test_block
+    name: display-name-test_block
     permission: test_block
     graphics:
       texture: block/test_block
@@ -229,7 +229,7 @@ For example:
 
 ```yaml
   test_block:
-    display_name: display-name-test_block
+    name: display-name-test_block
     permission: test_block
     graphics:
       texture: block/test_block
@@ -268,7 +268,7 @@ info:
   namespace: actions_flow_test
 items:
   magic_wand:
-    display_name: Test Magic Wand
+    name: Test Magic Wand
     material: STONE_SWORD
     graphics:
       model: minecraft:item/stick
@@ -387,7 +387,7 @@ info:
 items:
   test_flow:
     enabled: true
-    display_name: test_flow
+    name: test_flow
     graphics:
       model: minecraft:item/diamond
     events:
@@ -422,7 +422,7 @@ The message is completely skipped if the command status is fail.
 ```yaml
   test_flow_setblock:
     enabled: true
-    display_name: test_flow_setblock
+    name: test_flow_setblock
     graphics:
       model: minecraft:item/diamond
     events:
@@ -447,7 +447,7 @@ For example I check if the result text contains `"Given item"` in order to know 
 ```yaml
   test_flow_plugin_command:
     enabled: true
-    display_name: test_flow_plugin_command
+    name: test_flow_plugin_command
     graphics:
       model: minecraft:item/diamond
     events:

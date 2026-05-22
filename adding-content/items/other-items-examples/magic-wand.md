@@ -12,7 +12,7 @@ icon: wand-magic-sparkles
 
 ```yaml
   advanced_magic_wand:
-    display_name: "Advanced Magic wand"
+    name: Advanced Magic wand
     lore: 
       - "&6[ &eSpecial effects &6]"
       - "  &f- &7Adds &6Fire Resistance &7for 10 seconds on &fheld"
@@ -111,7 +111,7 @@ icon: wand-magic-sparkles
 
 ```yaml
   mana_recover_crystals:
-    display_name: "Mana Recover Crystals"
+    name: Mana Recover Crystals
     permission: mana_recover_crystals
     material: IRON_SWORD
     graphics:
@@ -141,7 +141,7 @@ icon: wand-magic-sparkles
 
 ```yaml
   advanced_mana_recover_crystals:
-    display_name: "Advanced Mana Recover Crystals"
+    name: Advanced Mana Recover Crystals
     permission: mana_recover_crystals
     material: IRON_SWORD
     graphics:

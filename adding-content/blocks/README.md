@@ -246,7 +246,7 @@ info:
 items:
   ruby_ore:
     enabled: true
-    display_name: display-name-ruby_ore
+    name: display-name-ruby_ore
     permission: iasurvival.items.ruby_ore
     graphics:
       texture: block/ores/ruby_ore
@@ -325,7 +325,7 @@ This has a downside, you can only set the experience drop to custom blocks, not 
 {% tab title="Modern (1.21.4+)" %}
 ```yaml
   ruby_block:
-    display_name: display-name-ruby_block
+    name: display-name-ruby_block
     permission: ruby_block
     graphics:
       texture: block/ruby_block

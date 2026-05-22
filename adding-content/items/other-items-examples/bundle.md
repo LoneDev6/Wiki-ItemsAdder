@@ -11,7 +11,7 @@ icon: bag-shopping
 ```yaml
 items:
   example_bundle:
-    display_name: "&6&lExample Bundle"
+    name: "<gold><bold>Example Bundle"
     permission: example_bundle
     material: BUNDLE
     graphics:

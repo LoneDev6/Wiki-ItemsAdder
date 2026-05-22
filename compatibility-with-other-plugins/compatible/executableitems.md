@@ -15,7 +15,7 @@ info:
   namespace: example
 items:
   executableitem_test:
-    display_name: executableitem_test
+    name: executableitem_test
     permission: executableitem_test
     executableitem:
       id: Free_Spit

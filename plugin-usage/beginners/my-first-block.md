@@ -56,7 +56,7 @@ info:
   namespace: myitems
 items:
   red_block:
-    display_name: Red Block
+    name: Red Block
     permission: red_block
     graphics:
       texture: block/red_block
@@ -107,7 +107,7 @@ info:
   namespace: myitems
 items:
   red_block:
-    display_name: Red Block
+    name: Red Block
     permission: red_block
     graphics:
       textures:
@@ -175,7 +175,7 @@ info:
   namespace: myitems
 items:
   red_block:
-    display_name: Red Block
+    name: Red Block
     permission: red_block
     graphics:
       texture: block/red_block

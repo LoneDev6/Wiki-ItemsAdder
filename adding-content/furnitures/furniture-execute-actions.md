@@ -11,7 +11,7 @@ You can do it by using the `placed_furniture` -> `interact` event.
 ```yaml
 items:
   lamp:
-    display_name: "Lamp"
+    name: Lamp
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item
@@ -38,7 +38,7 @@ You can add more [actions](../items/item-properties/actions/actions.md) to the [
 
 ```yaml
   energy_extractor:
-    display_name: display-name-energy_extractor
+    name: display-name-energy_extractor
     permission: energy_extractor
     graphics:
       model: item/energy_extractor

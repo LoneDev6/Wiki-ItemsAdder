@@ -26,14 +26,14 @@ dictionary:
   display-name-test_gradient_dictionary: <#57ff5c><bold>test</bold><gradient:#ff00ee:#f79459>Amogus
 items:
   test_gradient_dictionary:
-    display_name: display-name-test_gradient_dictionary
+    name: display-name-test_gradient_dictionary
     lore:
       - "<gold>yo0"
       - "<dark_green>yo1"
     graphics:
       model: minecraft:item/emerald
   test_font:
-    display_name: <gradient:#ff00ee:#f79459><font:alt>Alt font used for this item
+    name: <gradient:#ff00ee:#f79459><font:alt>Alt font used for this item
     lore:
       - "<gradient:#ff00ee:#f79459><font:alt>Alt font used for this item"
       - "<gradient:#ff00ee:#f79459><font:alt>Alt font used for this item<"
@@ -60,7 +60,7 @@ items:
 ```yaml
 items:
   test_emerald:
-    display_name: '{"text\":"TEST", "font": "alt"}'
+    name: '{"text\":"TEST", "font": "alt"}'
     graphics:
       model: minecraft:item/emerald
 ```
@@ -73,7 +73,7 @@ items:
 items:
   test_emerald:
     enabled: true
-    display_name: '&6TEST'
+    name: "<gold>TEST"
     graphics:
       model: minecraft:item/emerald
 ```

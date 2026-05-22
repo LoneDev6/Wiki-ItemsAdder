@@ -10,7 +10,7 @@ icon: user-police
 {% tab title="Modern (1.21.4+)" %}
 ```yaml
   my_armor_simple_helmet:
-    display_name: my_armor_simple helmet
+    name: my_armor_simple helmet
     permission_suffix: my_armor_simple
     material: IRON_HELMET
     graphics:

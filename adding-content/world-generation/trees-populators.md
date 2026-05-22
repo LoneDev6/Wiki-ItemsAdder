@@ -23,7 +23,7 @@ info:
   namespace: myitems
 items:
   my_leaves:
-    display_name: "My Leaves"
+    name: My Leaves
     permission: myitems.my_leaves
     graphics:
       texture: block/my_leaves
@@ -35,7 +35,7 @@ items:
           type: REAL_TRANSPARENT
           break_particles: ITEM
   my_log:
-    display_name: "My Log"
+    name: My Log
     permission: myitems.my_log
     graphics:
       textures:
@@ -114,7 +114,7 @@ items:
 ```yaml
 items:
   orange_tree_sapling:
-    display_name: Sapling
+    name: Sapling
     permission: orange_tree_sapling
     graphics:
       texture: block/orange/sapling

@@ -11,7 +11,7 @@ icon: arrow-up
 ```yaml
 items:
   iron_arrow:
-    display_name: "Iron Arrow"
+    name: Iron Arrow
     permission: arrows.iron_arrow
     material: ARROW
     graphics:
@@ -21,7 +21,7 @@ items:
           damage_entity:
             damage: 3
   area_damage_arrow:
-    display_name: "Area Damage Arrow"
+    name: Area Damage Arrow
     permission: arrows.area_damage_arrow
     material: ARROW
     graphics:
@@ -44,7 +44,7 @@ items:
           play_particle:
             name: EXPLOSION_HUGE
   explosive_arrow:
-    display_name: "Explosive Arrow"
+    name: Explosive Arrow
     permission: arrows.explosive_arrow
     material: ARROW
     graphics:
@@ -68,7 +68,7 @@ items:
         play_effect:
           name: SMOKE
   reveal_invisible_entity_arrow:
-    display_name: "Reveal Invisible Entity Arrow"
+    name: Reveal Invisible Entity Arrow
     permission: arrows.reveal_invisible_entity_arrow
     material: ARROW
     graphics:

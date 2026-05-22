@@ -15,7 +15,7 @@ info:
   namespace: test
 items:
   advanced_enchants_test:
-    display_name: advanced_enchants_test
+    name: advanced_enchants_test
     material: DIAMOND_SWORD
     graphics:
       model: minecraft:item/emerald

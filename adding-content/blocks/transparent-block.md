@@ -16,7 +16,7 @@ info:
 items:
   test_block_transparent:
     enabled: true
-    display_name: test_block_transparent
+    name: test_block_transparent
     graphics:
       texture: test
     behaviours:

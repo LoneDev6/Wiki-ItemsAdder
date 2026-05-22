@@ -95,7 +95,7 @@ info:
   namespace: myitems
 items:
   cosmetic_mob_soul:
-    display_name: Cosmetic Mob Soul
+    name: Cosmetic Mob Soul
     permission: my_items
     graphics:
       model: "item/cosmetic_mob_soul"

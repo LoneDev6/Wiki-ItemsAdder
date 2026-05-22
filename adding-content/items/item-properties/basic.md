@@ -189,7 +189,7 @@ Available on ItemsAdder 4.0.9 or greater.
 ```yaml
 items:
   glowing_item:
-    display_name: Glowing Item
+    name: Glowing Item
     graphics:
       texture: item/glowing_item
     drop:
@@ -228,7 +228,7 @@ Very useful for **rare items**.
 {% tab title="Modern (1.21.4+)" %}
 ```yaml
   glowing_item:
-    display_name: Glowing Item
+    name: Glowing Item
     graphics:
       texture: item/glowing_item
     drop:

@@ -48,7 +48,7 @@ info:
   namespace: mmoitems_example
 items:
   test:
-    display_name: ""
+    name: "<!i>"
     permission: example_item
     mmoitem:
       type: SWORD
