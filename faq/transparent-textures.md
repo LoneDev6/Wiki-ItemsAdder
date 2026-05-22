@@ -1,3 +1,7 @@
+---
+icon: sheet-plastic
+---
+
 # Create transparent textured furnitures
 
 {% hint style="warning" %}

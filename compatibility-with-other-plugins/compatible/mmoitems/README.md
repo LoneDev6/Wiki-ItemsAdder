@@ -1,4 +1,5 @@
 ---
+icon: up-right-from-square
 description: ItemsAdder is compatible with MMOItems and it's very easy to integrate.
 ---
 

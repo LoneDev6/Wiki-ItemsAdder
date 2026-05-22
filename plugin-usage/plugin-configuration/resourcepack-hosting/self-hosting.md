@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # Self Hosting
 
 {% hint style="success" %}

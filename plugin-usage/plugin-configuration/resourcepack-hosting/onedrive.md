@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # OneDrive
 
 {% hint style="danger" %}

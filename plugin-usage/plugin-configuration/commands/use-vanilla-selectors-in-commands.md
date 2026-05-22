@@ -1,3 +1,7 @@
+---
+icon: terminal
+---
+
 # Use Vanilla Selectors In Commands
 
 {% hint style="info" %}

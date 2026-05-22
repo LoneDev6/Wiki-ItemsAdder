@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # LobFile Hosting
 
 {% hint style="success" %}

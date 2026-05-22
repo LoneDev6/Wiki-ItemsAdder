@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # No Host
 
 {% hint style="warning" %}

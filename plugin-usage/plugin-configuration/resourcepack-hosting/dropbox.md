@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # Dropbox
 
 {% hint style="danger" %}
