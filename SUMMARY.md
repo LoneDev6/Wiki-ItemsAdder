@@ -131,6 +131,7 @@
   * [Edit the English wiki](contribute/edit-the-english-wiki.md)
   * [Translate this wiki](contribute/translate-this-wiki.md)
   * [Preview wiki changes](contribute/preview-wiki-changes.md)
+* [Publish Content](https://addon.devs.beer/)
 
 ## Plugin usage
 
