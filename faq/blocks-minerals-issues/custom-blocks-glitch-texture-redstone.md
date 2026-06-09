@@ -1,3 +1,7 @@
+---
+icon: cube
+---
+
 # Custom blocks glitch texture \(redstone\)
 
 ## Placing Redstone on top of custom blocks can make them update and revert to Mushroom Blocks

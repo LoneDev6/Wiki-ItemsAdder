@@ -18,13 +18,11 @@ So you should write the lore on your own.
 
 ```yaml
   ruby_pickaxe:
-    display_name: display-name-ruby_pickaxe
+    name: display-name-ruby_pickaxe
     permission: ruby_pickaxe
-    resource:
-      material: DIAMOND_PICKAXE
-      generate: true
-      textures:
-      - item/ruby_pickaxe.png
+    material: DIAMOND_PICKAXE
+    graphics:
+      texture: item/ruby_pickaxe
     enchants:
     - tunnel:1
 ```

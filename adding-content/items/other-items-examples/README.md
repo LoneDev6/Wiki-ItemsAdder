@@ -2,5 +2,5 @@
 icon: sword
 ---
 
-# Other items examples
+# Other Items Examples
 

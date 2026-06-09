@@ -137,13 +137,10 @@ For example:
 ```yaml
 items:
   chain_events:
-    display_name: "%#FE5A00%chain_events"
+    name: "%#FE5A00%chain_events"
     permission: test.chain_events
-    resource:
-      material: COAL
-      generate: true
-      textures:
-      - "minecraft:item/diamond.png"
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:
@@ -203,13 +200,10 @@ The sound is played even if the user has no permission for the give event. That'
 
 ```yaml
   test_block:
-    display_name: display-name-test_block
+    name: display-name-test_block
     permission: test_block
-    resource:
-      material: PAPER
-      generate: true
-      textures:
-      - block/test_block.png
+    graphics:
+      texture: block/test_block
     behaviours:
       block:
         placed_model:
@@ -235,13 +229,10 @@ For example:
 
 ```yaml
   test_block:
-    display_name: display-name-test_block
+    name: display-name-test_block
     permission: test_block
-    resource:
-      material: PAPER
-      generate: true
-      textures:
-      - block/test_block.png
+    graphics:
+      texture: block/test_block
     behaviours:
       block:
         placed_model:
@@ -277,11 +268,10 @@ info:
   namespace: actions_flow_test
 items:
   magic_wand:
-    display_name: Test Magic Wand
-    resource:
-      generate: false
-      model_path: minecraft:item/stick
-      material: STONE_SWORD
+    name: Test Magic Wand
+    material: STONE_SWORD
+    graphics:
+      model: minecraft:item/stick
     events:
       interact_mainhand:
         left:
@@ -397,11 +387,9 @@ info:
 items:
   test_flow:
     enabled: true
-    display_name: test_flow
-    resource:
-      generate: false
-      model_path: minecraft:item/diamond
-      material: DIAMOND
+    name: test_flow
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:
@@ -434,11 +422,9 @@ The message is completely skipped if the command status is fail.
 ```yaml
   test_flow_setblock:
     enabled: true
-    display_name: test_flow_setblock
-    resource:
-      generate: false
-      model_path: minecraft:item/diamond
-      material: DIAMOND
+    name: test_flow_setblock
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:
@@ -461,11 +447,9 @@ For example I check if the result text contains `"Given item"` in order to know 
 ```yaml
   test_flow_plugin_command:
     enabled: true
-    display_name: test_flow_plugin_command
-    resource:
-      generate: false
-      model_path: minecraft:item/diamond
-      material: DIAMOND
+    name: test_flow_plugin_command
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:

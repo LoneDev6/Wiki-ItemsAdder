@@ -21,6 +21,32 @@ It is very important to set the textures/models to your bow item correctly, or y
 
 ### Configuration file
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+{% hint style="warning" %}
+Requires ItemsAdder **4.0.13** and Minecraft **1.21.4+**.
+{% endhint %}
+
+{% code title="contents/myitems/example_bows.yml" %}
+```yaml
+info:
+  namespace: myitems
+items:
+  my_bow:
+    enabled: true
+    name: My Bow
+    material: bow
+    graphics:
+      textures:
+        normal: item/my_bow
+        pulling_0: item/my_bow_0
+        pulling_1: item/my_bow_1
+        pulling_2: item/my_bow_2
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 {% code title="contents/myitems/example_bows.yml" %}
 ```yaml
 info:
@@ -35,6 +61,8 @@ items:
       texture: item/my_bow.png
 ```
 {% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ### Texture files
 
@@ -54,6 +82,32 @@ The bow animates as you pull it, this allows you to have a single texture for ea
 
 ### Configuration file
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+{% hint style="warning" %}
+Requires ItemsAdder **4.0.13** and Minecraft **1.21.4+**.
+{% endhint %}
+
+{% code title="contents/myitems/example_bows.yml" %}
+```yaml
+info:
+  namespace: myitems
+items:
+  my_3dbow:
+    enabled: true
+    name: My 3D Bow
+    material: bow
+    graphics:
+      models:
+        normal: item/my_3dbow
+        pulling_0: item/my_3dbow_0
+        pulling_1: item/my_3dbow_1
+        pulling_2: item/my_3dbow_2
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 {% code title="contents/myitems/example_bows.yml" %}
 ```yaml
 info:
@@ -68,6 +122,8 @@ items:
       model_path: item/my_3dbow
 ```
 {% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ### Models files
 

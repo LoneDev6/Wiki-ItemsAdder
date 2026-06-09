@@ -47,7 +47,7 @@ Bukkit doesn't support this notation by default!
 
 ## WorldGuard flags
 
-{% content-ref url="../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
+{% content-ref url="../../compatibility-with-other-plugins/compatible/worldguard-flags.md" %}
 [worldguard-flags.md](../../compatibility-with-other-plugins/compatible/worldguard-flags.md)
 {% endcontent-ref %}
 
@@ -92,6 +92,6 @@ If you're installing an [addon](https://addons.plugin.ga/itemsadder/) you may se
 
 To create your categories just read the tutorial
 
-{% content-ref url="ia.md" %}
-[ia.md](recipes-menu.md)
+{% content-ref url="recipes-menu.md" %}
+[recipes-menu.md](recipes-menu.md)
 {% endcontent-ref %}

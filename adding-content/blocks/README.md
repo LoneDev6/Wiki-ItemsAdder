@@ -2,7 +2,7 @@
 icon: cube
 ---
 
-# Block
+# Blocks
 
 ## Block properties
 
@@ -177,7 +177,7 @@ Totally immune from explosions, ignoring `blast_resistance`.
 
 ### `sounds`
 
-You can specify [custom sound](../adding-sounds.md) names instead of vanilla sound.\
+You can specify [custom sound](../sounds/sounds.md) names instead of vanilla sound.\
 You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html) or vanilla [Minecraft sounds](https://www.digminecraft.com/lists/sound_list_pc.php) names.
 
 {% hint style="info" %}
@@ -226,7 +226,7 @@ You can specify both [Spigot sounds](https://hub.spigotmc.org/javadocs/spigot/or
 ```
 
 {% hint style="info" %}
-To add custom sounds to your resourcepack you have to [read the sounds tutorial](../adding-sounds.md).
+To add custom sounds to your resourcepack you have to [read the sounds tutorial](../sounds/sounds.md).
 {% endhint %}
 
 ### `permission_suffix`
@@ -238,6 +238,39 @@ Players would need explicit permissions if you specify these properties:
 * `ia.user.block.break.iasurvival.ruby_ore`
 * `ia.user.block.place.iasurvival.ruby_ore`
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: iasurvival
+items:
+  ruby_ore:
+    enabled: true
+    name: display-name-ruby_ore
+    permission: iasurvival.items.ruby_ore
+    graphics:
+      texture: block/ores/ruby_ore
+    behaviours:
+      block:
+        permission_suffix:
+          break: iasurvival.ruby_ore
+          place: iasurvival.ruby_ore
+        hardness: 4
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: REDSTONE_ORE
+        cancel_drop: true
+        break_tools_blacklist:
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: iasurvival
@@ -269,10 +302,12 @@ items:
           - pickaxe
           - _hammer
 ```
+{% endtab %}
+{% endtabs %}
 
 ### Use the official files editor to read all the properties
 
-{% content-ref url="../beginners/files-editor.md" %}
+{% content-ref url="../../plugin-usage/beginners/files-editor.md" %}
 [files-editor.md](../../plugin-usage/beginners/files-editor.md)
 {% endcontent-ref %}
 
@@ -286,6 +321,33 @@ items:
 
 This has a downside, you can only set the experience drop to custom blocks, not to vanilla blocks.
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  ruby_block:
+    name: display-name-ruby_block
+    permission: ruby_block
+    graphics:
+      texture: block/ruby_block
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles_material: REDSTONE_BLOCK
+        break_tools_whitelist:
+        - PICKAXE
+        - pickaxe
+    events:
+      placed_block:
+        break:
+          drop_exp:
+            chance: 100
+            min_amount: 0
+            max_amount: 3
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   ruby_block:
     display_name: display-name-ruby_block
@@ -311,6 +373,8 @@ This has a downside, you can only set the experience drop to custom blocks, not 
             min_amount: 0
             max_amount: 3
 ```
+{% endtab %}
+{% endtabs %}
 
 ### 2. Add the exp drop to loots
 

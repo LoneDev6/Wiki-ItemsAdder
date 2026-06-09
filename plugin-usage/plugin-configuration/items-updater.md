@@ -26,6 +26,29 @@ So the already crafted swords will still keep the old attack damage.
 
 #### Example
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  test_item2:
+    name: Test Item 2
+    material: IRON_SWORD
+    graphics:
+      model: minecraft:item/diamond
+    max_stack_size: 16
+    lore:
+    - lol
+    - lol
+    enchants:
+    - BREACH
+    attribute_modifiers:
+      head:
+        armor_toughness: 8
+    auto_update:
+      enabled: false # <--- here
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   test_item2:
     name: Test Item 2
@@ -45,6 +68,8 @@ So the already crafted swords will still keep the old attack damage.
     auto_update:
       enabled: false # <--- here
 ```
+{% endtab %}
+{% endtabs %}
 
 It can also be globally disabled in `config.yml` for every item in your configurations.
 

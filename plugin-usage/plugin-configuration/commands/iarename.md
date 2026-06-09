@@ -1,3 +1,7 @@
+---
+icon: terminal
+---
+
 # iarename
 
 This command can be used to rename items (vanilla and custom).

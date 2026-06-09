@@ -184,6 +184,22 @@ Available on ItemsAdder 4.0.9 or greater.
 
 ![](<../../../.gitbook/assets/immagine (16).png>)
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+items:
+  glowing_item:
+    name: Glowing Item
+    graphics:
+      texture: item/glowing_item
+    drop:
+      glow:
+        enabled: true
+        color: DARK_RED
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 items:
   glowing_item:
@@ -198,6 +214,8 @@ items:
         enabled: true
         color: DARK_RED
 ```
+{% endtab %}
+{% endtabs %}
 
 ## `show_name`
 
@@ -206,6 +224,19 @@ Very useful for **rare items**.
 
 ![](<../../../.gitbook/assets/immagine (118).png>)
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  glowing_item:
+    name: Glowing Item
+    graphics:
+      texture: item/glowing_item
+    drop:
+      show_name: true
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   glowing_item:
     display_name: Glowing Item
@@ -217,6 +248,8 @@ Very useful for **rare items**.
     drop:
       show_name: true
 ```
+{% endtab %}
+{% endtabs %}
 
 ## `template` and `variant_of`
 
@@ -226,6 +259,6 @@ Very useful for **rare items**.
 
 ## Use the official files editor to read all the properties
 
-{% content-ref url="../../beginners/files-editor.md" %}
-[files-editor.md](../../beginners/files-editor.md)
+{% content-ref url="../../../plugin-usage/beginners/files-editor.md" %}
+[files-editor.md](../../../plugin-usage/beginners/files-editor.md)
 {% endcontent-ref %}

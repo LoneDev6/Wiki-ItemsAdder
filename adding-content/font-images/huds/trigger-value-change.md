@@ -1,5 +1,6 @@
 ---
 description: Automatically increase/decrease HUD value during gameplay
+icon: crosshairs-simple
 ---
 
 # Trigger value change

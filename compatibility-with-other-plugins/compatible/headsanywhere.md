@@ -1,4 +1,4 @@
-# HeadsAnywhere Compatibility
+# HeadsAnywhere
 
 How to show head of players in chat, signs, books, and more using HeadsAnywhere plugin.
 

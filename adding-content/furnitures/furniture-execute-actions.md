@@ -11,14 +11,12 @@ You can do it by using the `placed_furniture` -> `interact` event.
 ```yaml
 items:
   lamp:
-    display_name: "Lamp"
+    name: Lamp
     permission: myitems.decorative.lamp
     lore:
     - lore-decorative-item
-    resource:
-      material: PAPER
-      generate: false
-      model_path: lamp
+    graphics:
+      model: lamp
     behaviours:
       furniture:
         light_level: 13
@@ -40,12 +38,10 @@ You can add more [actions](../items/item-properties/actions/actions.md) to the [
 
 ```yaml
   energy_extractor:
-    display_name: display-name-energy_extractor
+    name: display-name-energy_extractor
     permission: energy_extractor
-    resource:
-      material: PAPER
-      generate: false
-      model_path: item/energy_extractor
+    graphics:
+      model: item/energy_extractor
     behaviours:
       furniture:
         solid: true

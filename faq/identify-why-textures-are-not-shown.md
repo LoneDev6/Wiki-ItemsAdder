@@ -93,7 +93,7 @@ You can clearly see which files failed to load and why, the errors are clear in 
   This can cause the resourcepack prompt to disappear and the player won't be able to click on it.\
   In order to fix this you can use the free plugin [ResourcePackBroadcast](https://www.spigotmc.org/resources/resourcepackbroadcast.88318/).\
   This allows you to run commands as soon as the resourcepack is accepted (and various other features).
-* Increasing the `delay-ticks` in `config.yml` of **ItemsAdder** to `10` or greater.
+* Increasing the `auto_apply.delay_ticks` in `config.yml` of **ItemsAdder** to `10` or greater.
 * Leave the server, go to `%appdata%/.minecraft/server-resource-packs` and delete everything. Then join the server again.
 
 ### Errors about downloading vanilla assets

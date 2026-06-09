@@ -2,7 +2,7 @@
 icon: user-alien
 ---
 
-# Introduction
+# Entities
 
 ### Main features
 

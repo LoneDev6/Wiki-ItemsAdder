@@ -23,6 +23,68 @@ To create a variant you have to set `variant_of: template name` in your item.
 
 I want to create multiple furnitures which are equal but with different model.
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  template_wood_park_bench:
+    template: true  # <---- HERE you can see I set this item as "template"
+    name: "<!i>"
+    lore:
+    - 'lore-decorative-item'
+    graphics:
+      model: item/oak_wood_park_bench
+    behaviours:
+      furniture:
+        entity: armor_stand
+        small: true
+        solid: true
+        fixed_rotation: true
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          width_offset: 0.5
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.5
+        sit_all_solid_blocks: true
+        
+        
+  oak_wood_park_bench:
+    variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
+    name: Oak wood Park Bench
+    permission: oak_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    graphics:
+      model: item/oak_wood_park_bench
+      
+      
+  spruce_wood_park_bench:
+    variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
+    name: Spruce wood Park Bench
+    permission: spruce_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    graphics:
+      model: item/spruce_wood_park_bench
+      
+      
+  birch_wood_park_bench:
+    variant_of: template_wood_park_bench # <-- HERE I specify the template to inherit
+    name: Birch wood Park Bench
+    permission: birch_wood_park_bench
+    lore:
+    - 'lore-decorative-item'
+    graphics:
+      model: item/birch_wood_park_bench
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   template_wood_park_bench:
     template: true  # <---- HERE you can see I set this item as "template"
@@ -88,3 +150,5 @@ I want to create multiple furnitures which are equal but with different model.
       generate: false
       model_path: item/birch_wood_park_bench
 ```
+{% endtab %}
+{% endtabs %}

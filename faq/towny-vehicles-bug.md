@@ -1,3 +1,7 @@
+---
+icon: car-burst
+---
+
 # Towny vehicles bug
 
 {% hint style="warning" %}

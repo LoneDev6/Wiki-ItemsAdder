@@ -1,4 +1,12 @@
+---
+icon: server
+---
+
 # Simple Self Host
+
+{% hint style="success" %}
+**Recommended.**
+{% endhint %}
 
 {% hint style="warning" %}
 This feature requires ItemsAdder 4.0.17 or greater
@@ -12,13 +20,14 @@ If you want you can specify your server address + port, in the `server_address` 
 
 {% code title="config.yml" %}
 ```yaml
-hosting:
-  simple_self_host:
-    enabled: true
-    server_address: auto
-    optimization:
-      block_non_game_requests: true
-      max_downloads_per_ip: 5
-      max_speed_in_megabyte_ps: 30
+resource-pack:
+  hosting:
+    simple_self_host:
+      enabled: true
+      server_address: 'auto'
+      optimization:
+        block_non_game_requests: true
+        max_downloads_per_ip: 5
+        max_speed_in_megabyte_ps: 30
 ```
 {% endcode %}

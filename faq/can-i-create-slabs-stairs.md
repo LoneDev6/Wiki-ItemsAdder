@@ -1,3 +1,7 @@
+---
+icon: circle-question
+---
+
 # Can I create slabs, stairs, tridents, armors...
 
 ### Placeable

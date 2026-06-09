@@ -1,196 +1,348 @@
+---
+icon: code
+---
+
 # Usage
 
-## Getting the API
+## CustomStack - Custom Items
 
-{% embed url="https://github.com/LoneDev6/API-ItemsAdder" %}
+{% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomStack.html" %}
 
-{% hint style="warning" %}
-### Important
-
-Listen to the `ItemsAdderLoadDataEvent` event in order to wait the plugin to load and detect `/iareload` or `/iazip` which can cause items and content to be changed (removed/added).
-{% endhint %}
-
-## Custom items - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)
-
-#### Getting a custom item of any type (block, item, hat, food etc.) by id or namespace:id
+### Get an item from the registry
 
 ```java
-CustomStack stack = CustomStack.getInstance("your_item")
-if(stack != null)
-{
+CustomStack stack = CustomStack.getInstance("namespace:item_id");
+if (stack != null) {
     ItemStack itemStack = stack.getItemStack();
-}
-else
-{
-    //no custom item found with that id
+    // Give it to a player, drop it in the world, etc.
+} else {
+    // Item not found in registry
 }
 ```
 
-#### Checking if a custom item exists
+### Check if an item is registered
 
 ```java
-CustomStack.isInRegistry("your_item")
+boolean exists = CustomStack.isInRegistry("namespace:item_id");
 ```
 
-#### Obtaining the CustomStack from a Bukkit ItemStack
+### Get all registered item IDs
 
 ```java
-CustomStack stack = CustomStack.byItemStack(myItemStack);
-
-if(stack != null) // It's a custom item!
-{
-    stack.setUsages(5) // For example set usages
-    // ...
-}
-else // It's not a custom item!
-{
-     // ...
-}
+Set<String> ids = CustomStack.getNamespacedIdsInRegistry();
 ```
 
-## Custom Blocks - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomBlock.java)
-
-#### Check if a custom block exists
+### Wrap a Bukkit ItemStack
 
 ```java
-CustomBlock.isInRegistry("your_item")
+CustomStack stack = CustomStack.byItemStack(playerItem);
+if (stack != null) {
+    // It's a custom item
+    String id = stack.getNamespacedID();
+    stack.setUsages(5);
+} else {
+    // Not a custom item
+}
 ```
 
-#### Check if world block is a custom blocks
+### Durability and usages
+
+```java
+CustomStack stack = CustomStack.byItemStack(item);
+if (stack != null) {
+    if (stack.hasCustomDurability()) {
+        int current = stack.getDurability();
+        int max     = stack.getMaxDurability();
+        stack.setDurability(current - 1);
+    }
+    if (stack.hasUsagesAttribute()) {
+        stack.reduceUsages(1);
+    }
+}
+```
+
+### Check item cooldown
+
+```java
+if (!CustomStack.hasCooldown(player, item)) {
+    // Player can use the item
+}
+long remainingMs = CustomStack.getCooldownMs(player, item);
+```
+
+---
+
+## CustomBlock - Custom Blocks
+
+{% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomBlock.html" %}
+
+### Check if a block ID is registered
+
+```java
+boolean exists = CustomBlock.isInRegistry("namespace:block_id");
+```
+
+### Place a custom block
+
+```java
+CustomBlock placed = CustomBlock.place("namespace:block_id", location);
+if (placed != null) {
+    // Block was placed successfully
+}
+```
+
+### Get a wrapper for an already placed block
 
 ```java
 CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
-if(customBlock != null)
-{
-    // Custom block, do your own stuff here
-}
-else
-{
-    // Not a custom block
+if (customBlock != null) {
+    // It's a custom block
+    String id = customBlock.getNamespacedID();
 }
 ```
 
-#### Place custom block
+### Remove a custom block
 
 ```java
-CustomBlock customBlock = CustomBlock.getInstance("ruby_ore");
-if(customBlock != null) //not needed if you're sure the blocks exists.
-{
-    customBlock.place(location);
-}
-else
-{
-    // Custom block not found in ItemsAdder configurations!
+CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
+if (customBlock != null) {
+    customBlock.remove();
 }
 ```
 
-## Custom entity - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomEntity.java)
-
-#### Spawn a custom mob by id or namespace:id
+### Get loot from a custom block
 
 ```java
-CustomEntity customEntity = CustomEntity.spawn("your_item", location)
-if(customEntity != null)
-{
-    // Custom entity spawned
-    
-    // Example: print the namespaced id in console
-    System.out.println(customEntity.getNamespacedID());
-}
-else
-{
-    // Custom entity not found in ItemsAdder configurations!
+CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
+if (customBlock != null) {
+    List<ItemStack> loot = customBlock.getLoot(tool, true);
+    for (ItemStack drop : loot) {
+        block.getWorld().dropItemNaturally(block.getLocation(), drop);
+    }
 }
 ```
 
-### Get custom entity by an already spawned Bukkit entity
+### Play block sounds and effects
 
 ```java
-CustomEntity customEntity = CustomEntity.byAlreadySpawned(entity)
-if(customEntity != null)
-{
+CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
+if (customBlock != null) {
+    customBlock.playBreakEffect();  // particles + sound
+    customBlock.playPlaceSound();
+}
+```
+
+---
+
+## CustomEntity - Custom Entities
+
+{% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomEntity.html" %}
+
+### Spawn a custom entity
+
+```java
+CustomEntity entity = CustomEntity.spawn("namespace:entity_id", location);
+if (entity != null) {
+    System.out.println("Spawned: " + entity.getNamespacedID());
+}
+```
+
+### Get a wrapper for an already spawned entity
+
+```java
+CustomEntity customEntity = CustomEntity.byAlreadySpawned(entity);
+if (customEntity != null) {
     // It's a custom entity
-    
-    // Example: print the namespaced id in console
-    System.out.println(customEntity.getNamespacedID());
-}
-else
-{
-    // This Bukkit entity is not a custom entity!
 }
 ```
+
+### Play an animation
+
+```java
+CustomEntity customEntity = CustomEntity.byAlreadySpawned(entity);
+if (customEntity != null) {
+    customEntity.playAnimation("walk", () -> {
+        // Called when the animation finishes
+    });
+}
+```
+
+### Mount passengers
+
+```java
+CustomEntity customEntity = CustomEntity.byAlreadySpawned(entity);
+if (customEntity != null && customEntity.hasMountBones()) {
+    customEntity.addPassenger(playerEntity);
+}
+```
+
+### Convert an existing entity
+
+```java
+CustomEntity converted = CustomEntity.convert("namespace:entity_id", livingEntity);
+```
+
+### Get loot
+
+```java
+CustomEntity customEntity = CustomEntity.byAlreadySpawned(entity);
+if (customEntity != null) {
+    List<ItemStack> loot = customEntity.getLoot(tool);
+}
+```
+
+---
+
+## CustomFurniture - Furniture
+
+{% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomFurniture.html" %}
+
+### Spawn furniture
+
+```java
+CustomFurniture furniture = CustomFurniture.spawn("namespace:furniture_id", targetBlock);
+if (furniture != null) {
+    // Furniture placed
+}
+```
+
+### Get furniture at a location
+
+```java
+CustomFurniture furniture = CustomFurniture.byAlreadySpawned(entity);
+// or by block:
+CustomFurniture furniture = CustomFurniture.byAlreadySpawned(block);
+```
+
+### Remove furniture
+
+```java
+CustomFurniture furniture = CustomFurniture.byAlreadySpawned(entity);
+if (furniture != null) {
+    furniture.remove(true); // true = drop the item
+}
+```
+
+### Replace furniture
+
+```java
+furniture.replaceFurniture("namespace:new_furniture_id");
+```
+
+### Adjust light level
+
+```java
+furniture.setCurrentLightLevel(10);
+```
+
+---
+
+## CustomCrop - Custom Crops
+
+{% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomCrop.html" %}
+
+### Place a custom crop
+
+```java
+CustomCrop crop = CustomCrop.place("namespace:seed_id", location);
+```
+
+### Get a wrapper for an already placed crop
+
+```java
+CustomCrop crop = CustomCrop.byAlreadyPlaced(block);
+if (crop != null) {
+    if (crop.isFullyGrown()) {
+        List<ItemStack> loot = crop.getLoot();
+    }
+    crop.setAge(crop.getMaxAge()); // Force fully grown
+}
+```
+
+### Check if an item is a seed
+
+```java
+boolean isSeed = CustomCrop.isSeed(itemStack);
+```
+
+---
+
+## CustomPlayer - Custom Player Entities & Emotes
+
+{% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/CustomPlayer.html" %}
+
+### Play an emote on a real player
+
+```java
+CustomPlayer.playEmote(player, "namespace:emote_id");
+```
+
+### Stop an emote on a real player
+
+```java
+CustomPlayer.stopEmote(player);
+```
+
+### Spawn a fake player entity (NPC-like)
+
+```java
+CustomPlayer customPlayer = CustomPlayer.spawn("SomePlayerName", location);
+customPlayer.playAnimation("wave");
+```
+
+---
 
 ## Liquids API
 
-Please also install [IALiquids ](https://www.spigotmc.org/resources/84386)addon to have some test liquids
-
 ```java
-@EventHandler
-void interact(PlayerInteractEvent e)
-{
-    if(e.getAction() == Action.LEFT_CLICK_BLOCK)
-    {
-        ItemsAdder.setLiquid("ialiquids:red_water", e.getClickedBlock().getLocation());
-    }
-    else if(e.getAction() == Action.RIGHT_CLICK_BLOCK)
-    {
-        System.out.println(ItemsAdder.getLiquidName(e.getClickedBlock().getRelative(e.getBlockFace()).getLocation()));
-    }
-}
+// Place a custom liquid
+ItemsAdder.setLiquid("ialiquids:red_water", location);
+
+// Get the liquid name at a location (null if none)
+String liquidName = ItemsAdder.getLiquidName(location);
 ```
 
-## Changing HUD values with API
+---
 
-### Setting a float value in a Frames Hud
+## ItemsAdder - General Utilities
+
+{% embed url="https://lonedev6.github.io/API-ItemsAdder/dev/lone/itemsadder/api/ItemsAdder.html" %}
 
 ```java
-PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
-PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
-hud.setFloatValue(1f);
+// Get all registered custom items
+List<CustomStack> all = ItemsAdder.getAllItems();
+
+// Get all items in a namespace
+List<CustomStack> myItems = ItemsAdder.getAllItems("my_namespace");
+
+// Check if an ItemStack is a custom item
+boolean custom = ItemsAdder.isCustomItem(itemStack);
+
+// Get the namespaced ID from an ItemStack
+String id = ItemsAdder.getCustomItemName(itemStack);
+
+// Send resourcepack to a player
+ItemsAdder.applyResourcepack(player);
+
+// Play totem animation with a custom item
+ItemsAdder.playTotemAnimation(player, "namespace:totem_item");
+
+// Check if an item has keep-on-death behavior
+boolean keeps = ItemsAdder.hasKeepOnDeath(itemStack);
 ```
 
-### Making a HUD visible.
+### Advanced API
 
 ```java
-PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
-PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
-hud.setVisible(true);
-```
+// Get Bukkit BlockData from an ItemsAdder internal block id
+BlockData data = ItemsAdder.Advanced.getBlockDataByInternalId(internalId);
 
-## Old stuff:
+// Get the item_model resource location for a custom item
+String resourceLocation = ItemsAdder.Advanced.getItemModelResourceLocation("namespace:item_id");
 
-### Custom mobs <mark style="color:orange;">(old)</mark> - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)
-
-#### Spawn a custom mob by id or namespace:id
-
-```java
-CustomMob customMob = CustomMob.spawn("your_item", location)
-if(customMob != null)
-{
-    //spawned the custom mob
-    
-    //example, print the display name in console
-    System.out.println(customMob.getName());
-}
-else
-{
-    //no custom mob found with that id
-}
-```
-
-#### Get custom mob by mob already spawned in the world
-
-```java
-CustomMob customMob = CustomMob.byAlreadySpawned(entity)
-if(customMob != null)
-{
-    //it's a custom mob
-    
-    //example, print the display name in console
-    System.out.println(customMob.getName());
-}
-else
-{
-    //this mob is not a custom mob
-}
+// Inject a modifier that runs on every use of a specific item
+ItemsAdder.Advanced.injectItemModifier(plugin, "namespace:item_id", (player, itemStack) -> {
+    // Modify itemStack here
+    return itemStack;
+});
 ```

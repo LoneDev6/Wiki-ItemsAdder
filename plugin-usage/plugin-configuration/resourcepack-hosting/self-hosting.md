@@ -1,4 +1,8 @@
-# Self hosting
+---
+icon: server
+---
+
+# Self Hosting
 
 {% hint style="success" %}
 **Recommended.**
@@ -31,24 +35,32 @@ For example on **Pterodactyl**:
 
 * After you obtained a **new port** you can open `config.yml` and set it like this:
 
+{% code title="config.yml" %}
 ```yaml
-  self-host:
-    enabled: true
-    server-ip: '127.0.0.1'
-    pack-port: 8163
+resource-pack:
+  hosting:
+    self-host:
+      enabled: true
+      server-ip: '127.0.0.1'
+      pack-port: 8163
 ```
+{% endcode %}
 
 * You have to replace `127.0.0.1` with **your server IP**
 * And replace `8163` with the new port you obtained.
 
 For example if my IP is `123.456.789.0` and my additional port is `8163` I will set it like this:
 
+{% code title="config.yml" %}
 ```yaml
-  self-host:
-    enabled: true
-    server-ip: '123.456.789.0'
-    pack-port: 8163
+resource-pack:
+  hosting:
+    self-host:
+      enabled: true
+      server-ip: '123.456.789.0'
+      pack-port: 8163
 ```
+{% endcode %}
 
 {% hint style="warning" %}
 **`pack-port`** is not the same as your server port (the one your users use to connect).
@@ -69,8 +81,8 @@ After you configured the `config.yml` file you just have to run the `/iazip` com
 
 ### Continue installation if you need
 
-{% content-ref url="../first-install.md" %}
-[first-install.md](../first-install.md)
+{% content-ref url="../../first-install.md" %}
+[first-install.md](../../first-install.md)
 {% endcontent-ref %}
 
 ## (optional) Cloudflare configuration
@@ -120,10 +132,12 @@ Select "Custom filer expression" and complete as shown in the screenshot changin
 
 {% code title="config.yml" %}
 ```yaml
-self-host:
-  enabled: true
-  server-ip: 'https://pack.devs.beer'
-  pack-port: 25650
-  append-port: false
+resource-pack:
+  hosting:
+    self-host:
+      enabled: true
+      server-ip: 'https://pack.devs.beer'
+      pack-port: 25650
+      append-port: false
 ```
 {% endcode %}

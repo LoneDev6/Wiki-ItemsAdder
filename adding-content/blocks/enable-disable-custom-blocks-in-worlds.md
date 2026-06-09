@@ -2,7 +2,7 @@
 icon: ban
 ---
 
-# Enable/Disable custom blocks in worlds
+# Enable/Disable Custom Blocks in Worlds
 
 You can disable custom blocks in some worlds, this will stop the plugin from generating custom region files.
 

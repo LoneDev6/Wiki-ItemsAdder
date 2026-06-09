@@ -51,10 +51,33 @@ In this case your **namespace** is `my_items` so you have to put it here:
 
 ### Applying the texture file to your item
 
-Now open `myswords.yml` file again and add the `resource` part as I did.\
-As you can see I set `generate: true` and I set the textures for the item.\
+Now open `myswords.yml` file again and add the graphics section.\
 This tells the plugin to generate the 3D model automatically using your texture.
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+{% hint style="warning" %}
+Requires ItemsAdder **4.0.13** and Minecraft **1.21.4+**.
+{% endhint %}
+
+{% code title="contents/my_items/configs/myswords.yml" %}
+```yaml
+info:
+  namespace: myitems
+items:
+  mysword:
+    name: My Sword
+    permission: myitems.mysword
+    material: DIAMOND_SWORD
+    graphics:
+      texture: item/example_item
+    durability:
+      max_custom_durability: 1324
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 {% code title="contents/my_items/configs/myswords.yml" %}
 ```yaml
 info:
@@ -71,6 +94,8 @@ items:
       max_custom_durability: 1324
 ```
 {% endcode %}
+{% endtab %}
+{% endtabs %}
 
 ## Final part
 

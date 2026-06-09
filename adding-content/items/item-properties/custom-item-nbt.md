@@ -21,10 +21,12 @@ More info on the 1.20.5+ changes [here](https://www.minecraft.net/en-us/article/
 Make sure to provide a valid **NBT** (`json`) or it won't work!
 {% endhint %}
 
+{% tabs %}
+{% tab title="Modern (Recommended)" %}
 ## Inject NBT properties from file
 
 {% hint style="warning" %}
-#### This feature requires at least ItemsAdder 4.0.8
+This feature requires at least ItemsAdder 4.0.8.
 {% endhint %}
 
 {% code title="my_item_file.yml" %}
@@ -33,12 +35,11 @@ info:
   namespace: test
 items:
   test_inject_nbt_from_file:
-    display_name: "Test inject NBT from file"
+    name: Test inject NBT from file
     components_nbt_file: "test_inject_nbt_from_file.json"
-    resource:
-      material: IRON_CHESTPLATE
-      generate: false
-      model_path: minecraft:item/diamond
+    material: IRON_CHESTPLATE
+    graphics:
+      model: minecraft:item/diamond
 ```
 {% endcode %}
 
@@ -72,12 +73,12 @@ items:
 }
 ```
 {% endcode %}
+{% endtab %}
 
-## Old method, inject from NBT string
+{% tab title="Old (NBT string)" %}
+## Inject from NBT string
 
 {% hint style="warning" %}
-#### NOTE
-
 Make sure to escape the `"` character using `\`.\
 Use my [Escape/Unescape tool](https://escape-mc-components.lonedev.workers.dev/) to escape the string before using it in the YML.
 {% endhint %}
@@ -139,7 +140,7 @@ items:
         attackSpeed: 25
 ```
 
-### Old 1.20.4 Component - don't use this
+### Old 1.20.4 Component (don't use this)
 
 {% hint style="warning" %}
 This is an old way, don't use it.
@@ -171,3 +172,5 @@ items:
         attackDamage: 30
         attackSpeed: 25
 ```
+{% endtab %}
+{% endtabs %}

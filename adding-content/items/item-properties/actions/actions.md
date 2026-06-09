@@ -1,3 +1,7 @@
+---
+icon: person-running-fast
+---
+
 # Actions List
 
 ## Actions
@@ -5,6 +9,10 @@
 ### `cancel`
 
 Cancel the event that triggered this action
+
+```yaml
+cancel: true
+```
 
 ### `play_sound`
 
@@ -167,45 +175,55 @@ give_item:
 
 Replace vanilla/custom blocks near interact location (or near the player if this event is not an interact one)
 
-#### Properties:
+```yaml
+replace_near_blocks:
+  from: minecraft:stone # Single vanilla/custom block to replace
+  # Or use 'from_multiple' to replace several blocks at once:
+  # from_multiple:
+  #   - minecraft:dirt
+  #   - minecraft:grass_block
+  to: minecraft:diamond_block # Vanilla/custom block to place
+  radius:
+    x: 2
+    y: 2
+    z: 2
+  decrement_durability: 1 # Optional - Decrement durability amount
+  decrement_amount: 0 # Optional - Decrement item amount
+  no_physics: false # Optional (Default value: false) - Whether to skip physics updates on the replaced blocks
+```
 
-* `from` (unknown): unknown
-* `from_multiple` (array): List of vanilla/custom blocks to replace
-* `to` (unknown): unknown
-* `radius` (object): unknown
-* `decrement_durability` (integer): Decrement durability amount
-* `decrement_amount` (integer): Decrement item amount
-* `no_physics` (boolean): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `from` / `from_multiple`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/Material.html#enum-constant-summary) for vanilla blocks or use `namespace:value` for custom blocks
 
 ### `glow_near_blocks`
 
 Glow blocks near interact location (or near the player if this event is not an interact one)
 
-#### Properties:
+```yaml
+glow_near_blocks:
+  material: DIAMOND_ORE # Vanilla block to highlight
+  radius:
+    x: 5
+    y: 5
+    z: 5
+  ticks: 40 # Optional (Default value: 40) - Duration of the glow effect in ticks (20 ticks = 1 second)
+```
 
-* `material` (string): Vanilla blocks
-* `radius` (object): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `material`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/Material.html#enum-constant-summary) for the value
 
 ### `replace_block`
 
 Replace vanilla/custom blocks in interact location (or on the player location if this event is not an interact one)
 
-#### Properties:
+```yaml
+replace_block:
+  from: minecraft:stone # Vanilla/custom block to replace
+  to: minecraft:diamond_block # Vanilla/custom block to place
+  decrement_durability: 1 # Optional - Decrement durability amount
+  decrement_amount: 0 # Optional - Decrement item amount
+  no_physics: false # Optional (Default value: false) - Whether to skip physics updates on the replaced block
+```
 
-* `from` (unknown): unknown
-* `to` (unknown): unknown
-* `decrement_durability` (integer): Decrement durability amount
-* `decrement_amount` (integer): Decrement item amount
-* `no_physics` (boolean): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `from` / `to`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/Material.html#enum-constant-summary) for vanilla blocks or use `namespace:value` for custom blocks
 
 ### `multiple_break`
 
@@ -270,14 +288,17 @@ explosion:
 
 Damage near entities
 
-#### Properties:
+```yaml
+damage_near_entities:
+  damage: 5.0 # Optional (Default value: 1.0)
+  radius: 3 # Optional (Default value: 3)
+  entity_groups: # List of entity groups to damage
+    - HOSTILE
+    - PLAYERS
+    - PASSIVE
+```
 
-* `damage` (number): unknown
-* `radius` (integer): unknown
-* `entity_groups` (array): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `entity_groups`: Available values are `HOSTILE`, `PLAYERS`, `PASSIVE`
 
 ### `damage_entity_in_sight`
 
@@ -359,6 +380,12 @@ decrement_player_stat:
 
 Play the totem animation with a particular item texture.
 
+```yaml
+play_totem_animation: 'my_namespace:my_totem_item'
+```
+
+* The value is a custom item with `namespace:value`
+
 ### `script`
 
 Script that run custom code on that specific events.
@@ -388,14 +415,15 @@ drop_item:
 
 Sets a block. Useful on interact events to place a custom/vanilla block.
 
-#### Properties:
+```yaml
+set_block:
+  block: minecraft:diamond_block # Vanilla material or custom block (namespace:value)
+  target: RELATIVE # Optional (Default value: RELATIVE) - Where to place the block
+  decrement_amount: false # Optional (Default value: false) - Whether to decrement this item amount
+```
 
-* `block` (unknown): unknown
-* `target` (string): unknown
-* `decrement_amount` (boolean): unknown
-* `delay` (integer): Delay in ticks before starting this action
-* `flow` (object): Advanced options to change the flow of actions for this event section.
-* `permission` (string): Permission needed to execute this action. You can negate it by putting a `!` at the beginning of the permission. Example: `!example.permission` will not execute this action if the player has the `example.permission` permission.
+* `block`: Refer to [this link](https://jd.papermc.io/paper/org/bukkit/Material.html#enum-constant-summary) for vanilla blocks or use `namespace:value` for custom blocks
+* `target`: Possible values are `RELATIVE` (place on the face the player clicked) or `SELF` (replace the clicked block)
 
 ### `place_furniture`
 
@@ -417,6 +445,10 @@ Requires ItemsAdder 4.0.16+
 
 Removes a furniture. Useful on interact events to remove a custom furniture.
 
+```yaml
+remove_furniture: true
+```
+
 ### `replace_furniture`
 
 {% hint style="warning" %}
@@ -436,9 +468,14 @@ replace_furniture:
 
 Replace this item properties
 
-#### Properties:
+```yaml
+replace_properties:
+  custom_model_data:
+    copy_from_item: 'my_namespace:my_other_item' # Custom item to copy the CustomModelData from
+    restorable: false # Optional (Default value: false) - Whether the original CustomModelData can be restored later
+```
 
-* `custom_model_data` (object): unknown
+* `custom_model_data.copy_from_item`: Use a custom item with `namespace:value`
 
 ## ItemsAdderAdditions Actions
 
@@ -467,7 +504,7 @@ Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/p
 Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/play-emote).
 
 ### `replace_biome`
-Check the documentation [here](https://itemsadderadditions.com/docs/actions/replace-biome).
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/replace-biome).
 
 ### `shoot_fireball`
 Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/shoot-fireball).
@@ -483,9 +520,6 @@ Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/t
 
 ### `toast`
 Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/toast).
-
-### `replace_biome`
-Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/replace-biome).
 
 ### `veinminer`
 Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/veinminer).

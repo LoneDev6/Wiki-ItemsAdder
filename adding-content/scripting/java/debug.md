@@ -90,10 +90,8 @@ Create a simple item to trigger the example script.
 items:
   example_execute_script:
     name: Example Execute Script
-    resource:
-      material: DIAMOND
-      generate: false
-      model_path: minecraft:item/diamond.png
+    graphics:
+      model: minecraft:item/diamond
     events:
       interact:
         right:

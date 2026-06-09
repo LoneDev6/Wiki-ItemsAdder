@@ -2,6 +2,7 @@
 description: >-
   Single resourcepack in Bungeecord network and disable individual features per
   server
+icon: network-wired
 ---
 
 # Single resourcepack Bungeecord different features

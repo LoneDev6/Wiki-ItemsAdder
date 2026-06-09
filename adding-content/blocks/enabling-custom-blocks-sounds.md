@@ -2,7 +2,7 @@
 icon: volume-low
 ---
 
-# Enabling custom block's sounds
+# Enabling Custom Blocks Sounds
 
 {% hint style="warning" %}
 You have to run `/iazip` each time you change any of these settings to regenerate the resourcepack.

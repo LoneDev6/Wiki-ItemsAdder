@@ -264,6 +264,34 @@ Show a different texture on the inventory slots compared to the in-game appearan
       hand_animation_on_swap: false
 ```
 
+### Oversized in GUI
+
+Render the item bigger than a normal slot in inventories and GUIs.
+
+```yaml
+  modern_texture:
+    name: Modern Texture
+    graphics:
+      texture: item/modern_texture
+      oversized_in_gui: true
+```
+
+### Tint colors (`color` and `color2`)
+
+`graphics.color` tints model faces with the Blockbench "Tint" feature enabled on tindex `0`.\
+For models with two tint layers, `graphics.color2` tints tindex `1`.
+
+```yaml
+  two_tone_lamp:
+    name: Two-Tone Lamp
+    graphics:
+      model: item/template_two_tone_lamp
+      color: ORANGE
+      color2: "#326da8"
+```
+
+Both fields accept the same formats as `color` (named, hex, decimal, RGB). See [Colored Items](../colored-items.md).
+
 ## Experts configuration
 
 ### `item_model`

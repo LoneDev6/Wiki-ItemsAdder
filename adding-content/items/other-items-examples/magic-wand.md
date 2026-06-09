@@ -1,3 +1,7 @@
+---
+icon: wand-magic-sparkles
+---
+
 # Magic wand
 
 ## Example addon
@@ -8,7 +12,7 @@
 
 ```yaml
   advanced_magic_wand:
-    display_name: "Advanced Magic wand"
+    name: Advanced Magic wand
     lore: 
       - "&6[ &eSpecial effects &6]"
       - "  &f- &7Adds &6Fire Resistance &7for 10 seconds on &fheld"
@@ -16,11 +20,9 @@
       - "  &f- &7Creases an &cexposion &7on &fattack"
       - "  &f- &7Consumes &b1 mana when used"
     permission: magic_wand
-    resource:
-      material: DIAMOND_SWORD
-      generate: true
-      textures:
-      - item/magic_wand.png
+    material: DIAMOND_SWORD
+    graphics:
+      texture: item/magic_wand
     durability:
       max_custom_durability: 512
     attribute_modifiers:
@@ -109,13 +111,11 @@
 
 ```yaml
   mana_recover_crystals:
-    display_name: "Mana Recover Crystals"
+    name: Mana Recover Crystals
     permission: mana_recover_crystals
-    resource:
-      material: IRON_SWORD
-      generate: true
-      textures:
-      - item/mana_recover_crystals.png
+    material: IRON_SWORD
+    graphics:
+      texture: item/mana_recover_crystals
     durability:
       max_custom_durability: 5
       custom_durability: 5
@@ -141,13 +141,11 @@
 
 ```yaml
   advanced_mana_recover_crystals:
-    display_name: "Advanced Mana Recover Crystals"
+    name: Advanced Mana Recover Crystals
     permission: mana_recover_crystals
-    resource:
-      material: IRON_SWORD
-      generate: true
-      textures:
-      - item/mana_recover_crystals.png
+    material: IRON_SWORD
+    graphics:
+      texture: item/mana_recover_crystals
     durability:
       max_custom_durability: 1
       custom_durability: 1

@@ -24,6 +24,22 @@ liquids:
 To place the liquids you have to create a custom bucket.\
 In this example I created the `red_water_bucket`.
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+  red_water_bucket:
+    name: display-name-red_water_bucket
+    permission: red_water_bucket
+    material: POTION
+    graphics:
+      texture: "item/red_water_bucket"
+    behaviours:
+      liquid_bucket:
+        name: "my_liquids:red_water"
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
   red_water_bucket:
     display_name: display-name-red_water_bucket
@@ -36,6 +52,8 @@ In this example I created the `red_water_bucket`.
       liquid_bucket:
         name: "my_liquids:red_water"
 ```
+{% endtab %}
+{% endtabs %}
 
 Run `/iazip` to regenerate the resourcepack.
 

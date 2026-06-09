@@ -1,3 +1,7 @@
+---
+icon: bullseye
+---
+
 # Entity Goals List
 
 ## Entity Goals

@@ -1,4 +1,5 @@
 ---
+icon: person-running
 description: Emotes textures look broken when using custom shaders mods (1.17+)
 ---
 

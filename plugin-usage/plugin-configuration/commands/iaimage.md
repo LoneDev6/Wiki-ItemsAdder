@@ -1,3 +1,7 @@
+---
+icon: terminal
+---
+
 # iaimage
 
 This command shows you a list of all the font images (for example emojis) that are available to be used in chat/commands/signs/books.

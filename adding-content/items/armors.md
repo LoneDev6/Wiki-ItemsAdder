@@ -141,6 +141,38 @@ items:
 
 </details>
 
+#### Equipment property reference
+
+All `equipment` fields are optional.
+
+```yaml
+equipment:
+  id: my_namespace:my_armor_1   # ID of the entry in 'equipments:' that defines the layers
+  slot: chest                   # head / chest / legs / feet / mainhand / offhand / body / saddle
+  sound: item.armor.equip_iron  # Sound played when equipped
+  damage_on_hurt: true          # Lose durability when the wearer takes damage (default: true)
+  dispensable: true             # Dispensers can equip this item (default: true)
+  swappable: true               # Right-click swaps with the matching armor slot (default: true)
+  glider: false                 # Item acts as an elytra-like glider (default: false)
+  camera_overlay_id: minecraft:misc/pumpkinblur  # Overlay drawn on the player's screen while worn
+  allowed_entities:             # Restrict which entities can equip this item
+    - player
+    - zombie
+  slot_attribute_modifiers:     # Vanilla attribute modifiers applied while worn
+    armor: 2.5
+    armor_toughness: 1.0
+```
+
+* `id`: points to an entry under `equipments:`. Omit when using a custom 3D model instead of layer textures.
+* `slot`: defaults to the slot of the `material` (e.g. `IRON_CHESTPLATE` becomes `chest`). Set it manually when using a non-armor `material`.
+* `glider: true` makes a non-elytra item behave like an elytra.
+* `camera_overlay_id` works like the pumpkin overlay. The path points to a texture inside `textures/`, without the `.png` extension.
+* `allowed_entities` accepts vanilla entity IDs or custom ItemsAdder entities.
+
+{% hint style="warning" %}
+Most sub-properties require Minecraft 1.21.4 or newer.
+{% endhint %}
+
 #### Animated/emissive armors
 
 The current custom armors method doesn't support animated and emissive textures.\
@@ -154,7 +186,7 @@ I do not advice to use HD textures since this is a blocky game, but can create H
 
 #### Converting old armors to the new equipment tag
 
-This option will convert the armors completely to use the new equipment tag. Note that old clients won't see the armor anymore (older than 1.21.2).
+This option will convert the armors completely to use the new equipment tag. Note that old clients won't see the armor anymore (older than 1.21.4).
 
 {% code title="config.yml" %}
 ```yaml

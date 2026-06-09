@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # OneDrive
 
 {% hint style="danger" %}
@@ -22,17 +26,19 @@ Open `config.yml` of **ItemsAdder** and enable the `external-host` option for yo
 
 {% code title="config.yml" %}
 ```yaml
+resource-pack:
+  hosting:
     external-host:
       enabled: true
       url: 'https://onedrive.live.com/yoururl.....'
-      skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
+      skip_url_file_type_check: true
 ```
 {% endcode %}
 
 This is very important. Set it to true.
 
 ```yaml
-skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: true
+skip_url_file_type_check: true
 ```
 
 {% hint style="warning" %}
@@ -43,6 +49,6 @@ This can cause your players to be stuck on login phase if the URL is not valid o
 
 ## Continue installation if you need
 
-{% content-ref url="../first-install.md" %}
+{% content-ref url="../../first-install.md" %}
 [first-install.md](../../first-install.md)
 {% endcontent-ref %}

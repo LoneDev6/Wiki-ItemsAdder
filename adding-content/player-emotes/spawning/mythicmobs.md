@@ -1,5 +1,6 @@
 ---
 description: Custom 3D models for Mythicmobs mobs
+icon: up-right-from-square
 ---
 
 # Mythicmobs

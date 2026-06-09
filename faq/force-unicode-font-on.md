@@ -1,3 +1,7 @@
+---
+icon: font
+---
+
 # Force Unicode Font: ON
 
 ## Read here:

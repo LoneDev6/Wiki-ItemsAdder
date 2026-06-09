@@ -5,7 +5,7 @@ icon: brightness
 # Light Emission
 
 {% hint style="warning" %}
-This feature requires Minecraft client 1.21.2 or greater.
+This feature requires Minecraft client 1.21.4 or greater.
 {% endhint %}
 
 ## Items
@@ -56,8 +56,20 @@ Save the file: `contents/test/models/block/test_light_emission_item.json`
 {% step %}
 Create the configuration.
 
-#### Old method
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: test
+items:
+  test_light_emission_item:
+    name: test_light_emission_item
+    graphics:
+      model: item/test_light_emission_item
+```
+{% endtab %}
 
+{% tab title="Old (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: test
@@ -69,18 +81,8 @@ items:
       generate: false
       model_path: item/test_light_emission_item
 ```
-
-#### New modern method (1.21.4+)
-
-```yaml
-info:
-  namespace: test
-items:
-  test_light_emission_item:
-    name: test_light_emission_item
-    graphics:
-      model: item/test_light_emission_item
-```
+{% endtab %}
+{% endtabs %}
 {% endstep %}
 {% endstepper %}
 
@@ -144,8 +146,25 @@ Save the file: `contents/test/models/block/test_light_emission.json`
 {% step %}
 Create the configuration.
 
-#### Old method
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: test
+items:
+  test_light_emission:
+    name: test_light_emission
+    graphics:
+      model: block/test_light_emission
+    behaviours:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          hardness: 1
+```
+{% endtab %}
 
+{% tab title="Old (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: test
@@ -161,26 +180,9 @@ items:
         placed_model:
           type: REAL_NOTE
           hardness: 1
-
 ```
-
-#### New modern method (1.21.4+)
-
-```yaml
-info:
-  namespace: test
-items:
-  test_light_emission:
-    name: test_light_emission
-    graphics:
-      model: block/test_light_emission
-    behaviours:
-      block:
-        placed_model:
-          type: REAL_TRANSPARENT
-          hardness: 1
-
-```
+{% endtab %}
+{% endtabs %}
 {% endstep %}
 {% endstepper %}
 

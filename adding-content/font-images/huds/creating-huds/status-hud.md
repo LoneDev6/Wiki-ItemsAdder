@@ -1,5 +1,6 @@
 ---
 description: Tutorial on how to create a STATUS HUD
+icon: crosshairs-simple
 ---
 
 # Status HUD

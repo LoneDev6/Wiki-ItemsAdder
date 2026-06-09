@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # Google Drive
 
 {% hint style="danger" %}
@@ -44,9 +48,11 @@ You can now paste the link inside **ItemsAdder** configuration file `config.yml`
 
 {% code title="config.yml" %}
 ```yaml
-external-host:
-  enabled: true
-  url: 'http://drive.google.com/uc?export=view&id=10g3whim95Hab40KZNjUkwY9FUuqKMGh5'
+resource-pack:
+  hosting:
+    external-host:
+      enabled: true
+      url: 'http://drive.google.com/uc?export=view&id=10g3whim95Hab40KZNjUkwY9FUuqKMGh5'
 ```
 {% endcode %}
 
@@ -72,6 +78,6 @@ This method works 100% of the time on Minecraft 1.17.1+.
 
 ## Continue installation if you need
 
-{% content-ref url="../first-install.md" %}
-[first-install.md](../../../plugin-usage/first-install.md)
+{% content-ref url="../../first-install.md" %}
+[first-install.md](../../first-install.md)
 {% endcontent-ref %}

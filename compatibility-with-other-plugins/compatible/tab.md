@@ -4,6 +4,6 @@
 
 ## Tutorials
 
-{% content-ref url="../../adding-content/ranks-prefixes.md" %}
+{% content-ref url="../../adding-content/font-images/ranks-prefixes.md" %}
 [ranks-prefixes.md](../../adding-content/font-images/ranks-prefixes.md)
 {% endcontent-ref %}

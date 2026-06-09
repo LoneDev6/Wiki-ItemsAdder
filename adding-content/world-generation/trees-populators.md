@@ -2,7 +2,7 @@
 icon: tree
 ---
 
-# Trees populators
+# Trees Populators
 
 ## Creating the leaves and wood blocks
 
@@ -10,12 +10,55 @@ In order to create a custom tree you have to create two blocks for each tree: le
 
 ### Follow this tutorial to create blocks
 
-{% content-ref url="block.md" %}
-[block.md](../blocks/README.md)
+{% content-ref url="../blocks/README.md" %}
+[README.md](../blocks/README.md)
 {% endcontent-ref %}
 
 For example I created 2 blocks by following the tutorial: `my_leaves`, `my_log`.
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+info:
+  namespace: myitems
+items:
+  my_leaves:
+    name: My Leaves
+    permission: myitems.my_leaves
+    graphics:
+      texture: block/my_leaves
+    behaviours:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+  my_log:
+    name: My Log
+    permission: myitems.my_log
+    graphics:
+      textures:
+        up: block/my_log/log_top
+        down: block/my_log/log_top
+        north: block/my_log/log
+        south: block/my_log/log
+        east: block/my_log/log
+        west: block/my_log/log
+    behaviours:
+      block:
+        hardness: 1.7
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 info:
   namespace: myitems
@@ -59,11 +102,29 @@ items:
         - _axe
         - HAND
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Creating the sapling (optional)
 
 ### The sapling item
 
+{% tabs %}
+{% tab title="Modern (1.21.4+)" %}
+```yaml
+items:
+  orange_tree_sapling:
+    name: Sapling
+    permission: orange_tree_sapling
+    graphics:
+      texture: block/orange/sapling
+    behaviours:
+      sapling:
+        tree_populator: orange_tree
+```
+{% endtab %}
+
+{% tab title="Legacy (1.21.3 and lower)" %}
 ```yaml
 items:
   orange_tree_sapling:
@@ -78,6 +139,8 @@ items:
       sapling:
         tree_populator: orange_tree
 ```
+{% endtab %}
+{% endtabs %}
 
 ### The custom tree populator
 

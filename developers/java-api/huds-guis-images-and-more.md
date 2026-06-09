@@ -1,42 +1,51 @@
-# HUDs, GUIs, images and more
+---
+icon: chart-bar
+---
 
-To see how to use HUDs and GUIs API (Font Images) you can check my examples.
+# HUDs, GUIs, images and more
 
 ## GUIs
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-GUI" %}
 
-## Huds
+## HUDs
 
 {% embed url="https://github.com/LoneDev6/RPGhuds" %}
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-ServerMonitor" %}
 
-### Access mana bar value example
+### Set a HUD value
 
 ```java
 PlayerHudsHolderWrapper huds = new PlayerHudsHolderWrapper(player);
 PlayerQuantityHudWrapper manaHud = new PlayerQuantityHudWrapper(huds, "magiccraft:mana_bar");
-if(manaHud.exists())
-  manaHud.setFloatValue(2.0f);
-else
-  System.out.println("Error: mana not found, maybe it's disabled.");
+if (manaHud.exists()) {
+    manaHud.setFloatValue(2.0f);
+} else {
+    System.out.println("Mana HUD not found, check that the HUD is enabled.");
+}
+```
+
+### Show or hide a HUD
+
+```java
+PlayerHudsHolderWrapper huds = new PlayerHudsHolderWrapper(player);
+PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(huds, "namespace:hud_name");
+hud.setVisible(true);
 ```
 
 {% hint style="warning" %}
-#### NOTE
-
-Make sure that you don't have the permission `ia.user.hud.bypass.api.*` or `setFloatValue` the code won't do anything.
+Make sure the player does **not** have the permission `ia.user.hud.bypass.api.*`, otherwise `setFloatValue` will have no effect.
 {% endhint %}
+
+## Get a Font Image / Glyph character
+
+```java
+String character = new FontImageWrapper("twitteremojis:confirm").getString();
+```
 
 ## FAQ
 
 {% content-ref url="../../faq/i-cant-see-emoji-guis-huds-etc..md" %}
 [i-cant-see-emoji-guis-huds-etc..md](../../faq/i-cant-see-emoji-guis-huds-etc..md)
 {% endcontent-ref %}
-
-## Get Emoji or GUI character
-
-```java
-new FontImageWrapper("twitteremojis:confirm").getString();
-```
