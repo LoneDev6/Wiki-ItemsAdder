@@ -2,7 +2,7 @@
 icon: cube
 ---
 
-# Custom Components (ItemsAdderAdditions)
+# Components (ItemsAdderAdditions)
 
 Minecraft data components on custom items are available through [ItemsAdderAdditions](https://itemsadderadditions.com/en/docs/components).
 

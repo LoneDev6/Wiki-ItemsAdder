@@ -185,7 +185,7 @@
     * [Light Emission](adding-content/items/item-properties/light-emission.md)
     * [Item Tooltip](adding-content/items/item-properties/item-tooltip.md)
     * [Custom item NBT](adding-content/items/item-properties/custom-item-nbt.md)
-    * [Custom Components](adding-content/items/item-properties/custom-components.md)
+    * [Components](adding-content/items/item-properties/components.md)
   * [1.21.4+ - Modern Items Creation](adding-content/items/modern-items-creation.md)
   * [Item Model Definitions](adding-content/items/item-model-definitions.md)
   * [Consumable](adding-content/items/consumable.md)
