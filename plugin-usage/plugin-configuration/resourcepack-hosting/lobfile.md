@@ -5,7 +5,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-#### Warning
+**Warning**
 
 File size limit is 100MB for this hosting method. Higher limits are available with a LobFile subscription.
 {% endhint %}

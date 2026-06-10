@@ -31,7 +31,7 @@ ItemsAdder uses Mushroom Blocks and Chorus Plants to create them.
 
 This happens because the game generates them during gameplay to create some structures (example: big mushrooms in the over-world and chorus plants in the end), so they might spawn with some specific block data, which interfere with ItemsAdder blocks.
 
-![](<../.gitbook/assets/image%20(50).png>)
+![](<../.gitbook/assets/image (50).png>)
 
 Generally you should avoid using `REAL` custom blocks type (mushroom) and use the better `REAL_NOTE` custom blocks type, it uses **Noteblocks** to create custom blocks, so you won't have this issue because they don't naturally generate around the vanilla world.
 
@@ -56,7 +56,7 @@ block-updates:
 {% endcode %}
 
 {% hint style="warning" %}
-#### Note
+**Note**
 
 Setting `disable-tripwire-updates: true` will completely stop tripwire from updating.\
 So it can potentially cause tripwires traps to not work anymore.\\
@@ -101,3 +101,9 @@ I know this bug and I can't fix it without making your server an oven.\
 As you already know some Minecraft features are not customizable out of the box for both you and the plugins developers, so some features require a lot of hacks to be implemented and sometimes are not totally stable. One of these features are custom blocks.
 
 To fix this water bug I'd have to listen to the water flowing event and check if every block around the water is a custom block. This event is called thousand of times in mid-sized server and I don't want to make the plugin heavy, which would cause lag.
+
+## `TILE`
+
+Tile blocks are legacy as they have issues since 1.21.6 (approximately).\
+Install ItemsAdder 4.0.18 or greater to fix that issue.
+

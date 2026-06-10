@@ -56,7 +56,7 @@ Save the file: `contents/test/models/block/test_light_emission_item.json`
 {% step %}
 Create the configuration.
 
-#### Old method
+**Old method**
 
 ```yaml
 info:
@@ -70,7 +70,7 @@ items:
       model_path: item/test_light_emission_item
 ```
 
-#### New modern method (1.21.4+)
+**New modern method (1.21.4+)**
 
 ```yaml
 info:
@@ -144,7 +144,7 @@ Save the file: `contents/test/models/block/test_light_emission.json`
 {% step %}
 Create the configuration.
 
-#### Old method
+**Old method**
 
 ```yaml
 info:
@@ -164,7 +164,7 @@ items:
 
 ```
 
-#### New modern method (1.21.4+)
+**New modern method (1.21.4+)**
 
 ```yaml
 info:

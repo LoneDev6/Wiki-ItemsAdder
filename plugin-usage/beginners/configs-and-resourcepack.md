@@ -107,7 +107,7 @@ plugins
 ```
 
 {% hint style="warning" %}
-#### Expert users
+**Expert users**
 
 If you plan to use multiple namespaces in the content folder, for example `minecraft` and `myitems`, do not use this structure as you won't be able to specify the other namespaces. Use one other other structures as they do not auto-detect the namespace for texture/models folders.
 {% endhint %}

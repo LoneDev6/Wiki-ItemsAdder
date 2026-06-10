@@ -9,13 +9,13 @@ icon: seedling
 {% hint style="warning" %}
 This feature requires ItemsAdder 4.0.15+ and Minecraft 1.21.4+ (both client and server).
 
-#### Performance
+**Performance**
 
 Minecraft 1.21.10 clients introduced a fix that makes custom entities have better performance, so it's adviced to use that version, but the feature works fine on 1.21.4+
 {% endhint %}
 
 {% hint style="warning" %}
-#### This page is under construction...
+**This page is under construction...**
 {% endhint %}
 
 ### Seed

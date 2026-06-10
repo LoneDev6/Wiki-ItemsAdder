@@ -6,7 +6,7 @@ icon: burger-cheese
 
 {% tabs %}
 {% tab title="Modern (Recommended)" %}
-#### Food
+**Food**
 
 ```yaml
 info:
@@ -21,7 +21,7 @@ items:
       saturation: 4
 ```
 
-#### Drink
+**Drink**
 
 ```yaml
 info:
@@ -38,7 +38,7 @@ items:
 {% endtab %}
 
 {% tab title="Old (1.21.3 and lower)" %}
-#### Food
+**Food**
 
 ```yaml
 info:
@@ -59,7 +59,7 @@ items:
           saturation: 4
 ```
 
-#### Drink
+**Drink**
 
 ```yaml
 info:
