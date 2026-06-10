@@ -5,7 +5,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-#### **Your hosting service must let you get additional ports for your server.**
+**Your hosting service must let you get additional ports for your server.**
 
 If your hosting service doesn't provide you additional ports you have to use one of the [alternative hosting methods](./).
 {% endhint %}

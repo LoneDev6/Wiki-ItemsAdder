@@ -19,7 +19,7 @@ Remember to set "Channels" to `Mono` or you will experience [audio problems](htt
 ### New Method
 
 {% hint style="warning" %}
-#### This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.
+**This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.**
 {% endhint %}
 
 #### Simple sound

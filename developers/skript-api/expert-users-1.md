@@ -10,7 +10,7 @@ To get more info about **skript-reflect** please read its [wiki](https://tpgames
 {% endhint %}
 
 {% hint style="danger" %}
-#### Please **do not ask** for **support** for **skript** related issues or questions.
+**Please do not ask for support for skript related issues or questions.**
 
 I'm not a skript expert and I'm not the developer of **skript** nor **skript-reflect**.\
 **Every question about skript will be ignored**, I hope you understand.

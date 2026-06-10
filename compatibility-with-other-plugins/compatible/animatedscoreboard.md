@@ -41,7 +41,7 @@ With ItemsAdder you can hide the scoreboard background, just use this trick.
 You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark> of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
 
 {% hint style="danger" %}
-#### Warning!
+**Warning!**
 
 Not compatible with special attributes of **AnimatedScoreboard** like these and similar!
 

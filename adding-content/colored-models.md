@@ -5,7 +5,7 @@ icon: fill-drip
 # Colored Models
 
 {% hint style="info" %}
-#### Why?
+**Why?**
 
 To make a colored element or a colored vehicle you don't have to make a separate model for each item with a different color.
 
