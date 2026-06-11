@@ -460,6 +460,9 @@ Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/m
 ### `open_inventory`
 Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/open-inventory).
 
+### `open_trade_machine`
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/open-trade-machine).
+
 ### `play_animation`
 Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/play-animation).
 
@@ -468,6 +471,9 @@ Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/p
 
 ### `replace_biome`
 Check the documentation [here](https://itemsadderadditions.com/docs/actions/replace-biome).
+
+### `replace_item`
+Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/replace-item).
 
 ### `shoot_fireball`
 Check the documentation [here](https://itemsadderadditions.com/en/docs/actions/shoot-fireball).

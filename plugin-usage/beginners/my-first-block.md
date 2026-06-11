@@ -7,7 +7,7 @@ icon: cube
 
 <details>
 
-<summary>Tutorial for ItemsAdder 4.1.17 and older</summary>
+<summary>Tutorial for ItemsAdder 4.0.17 and older</summary>
 
 {% hint style="danger" %}
 **Resourcepack hosting**

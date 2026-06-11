@@ -4,7 +4,7 @@ icon: hammer
 
 # Crafting
 
-If you need tags support or other features you can use [ItemsAdderAdditions](https://itemsadderadditions.com/docs/recipes/crafting).
+If you need tags support or other features you can use [ItemsAdderAdditions](https://itemsadderadditions.com/en/docs/recipes/crafting).
 
 To create a recipe you have to create a special section in one of your `.yml` files.\
 This section can be added in all and any of your `.yml` files for better organization of recipes.
