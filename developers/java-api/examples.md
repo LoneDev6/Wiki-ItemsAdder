@@ -10,7 +10,7 @@
 Listen to the `ItemsAdderLoadDataEvent` event in order to wait the plugin to load and detect `/iareload` or `/iazip` which can cause items and content to be changed (removed/added).
 {% endhint %}
 
-## Custom items - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)
+## Custom items - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/javadoc/dev/lone/itemsadder/api/CustomStack.html)
 
 #### Getting a custom item of any type (block, item, hat, food etc.) by id or namespace:id
 
@@ -48,7 +48,7 @@ else // It's not a custom item!
 }
 ```
 
-## Custom Blocks - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomBlock.java)
+## Custom Blocks - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/javadoc/dev/lone/itemsadder/api/CustomBlock.html)
 
 #### Check if a custom block exists
 
@@ -84,7 +84,7 @@ else
 }
 ```
 
-## Custom entity - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomEntity.java)
+## Custom entity - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/javadoc/dev/lone/itemsadder/api/CustomEntity.html)
 
 #### Spawn a custom mob by id or namespace:id
 
@@ -159,7 +159,7 @@ hud.setVisible(true);
 
 ## Old stuff:
 
-### Custom mobs <mark style="color:orange;">(old)</mark> - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)
+### Custom mobs <mark style="color:orange;">(old)</mark> - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/javadoc/dev/lone/itemsadder/api/CustomMob.html)
 
 #### Spawn a custom mob by id or namespace:id
 
