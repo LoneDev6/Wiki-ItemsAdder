@@ -1,6 +1,6 @@
 ---
-description: This website helps you configure and create custom items for my plugin.
-icon: house-blank
+description: This website helps you xxxxxxx and create custom items for my plugin.
+icon: 100
 ---
 
 # Welcome
