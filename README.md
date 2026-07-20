@@ -7,6 +7,8 @@ icon: 100
 
 Some pages in this website may contain affiliate links, meaning I get a commission if you decide to make a purchase (at no cost to you).
 
+test
+
 ### 💠Quick Links
 
 {% content-ref url="help/tos.md" %}
