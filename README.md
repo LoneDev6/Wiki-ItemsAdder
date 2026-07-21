@@ -1,11 +1,15 @@
 ---
-description: This website helps you configure and create custom items for my plugin.
-icon: house-blank
+description: This website helps you xxxxxxx and create custom items for my plugin.
+icon: 100
 ---
 
 # Welcome
 
 Some pages in this website may contain affiliate links, meaning I get a commission if you decide to make a purchase (at no cost to you).
+
+jh
+
+jhb
 
 ### 💠Quick Links
 
