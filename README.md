@@ -1,5 +1,5 @@
 ---
-description: This website helps you xxxxxxx and create custom items for my plugin.
+description: This website helps you xxxxxxx and create custom items for my plugin.asdfs
 icon: 100
 ---
 
