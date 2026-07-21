@@ -1,0 +1,17 @@
+{
+  "headerLinks": [
+    {
+      "label": "Addons",
+      "url": "https://addon.devs.beer/"
+    },
+    {
+      "label": "More Plugins",
+      "url": "https://plugins.devs.beer/"
+    },
+    {
+      "label": "Donate",
+      "url": "https://donate.devs.beer/"
+    }
+  ],
+  "icon": ".gitbook/assets/project-icon_002.png"
+}
