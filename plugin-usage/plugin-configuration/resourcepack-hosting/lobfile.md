@@ -4,12 +4,6 @@
 **Recommended.**
 {% endhint %}
 
-{% hint style="warning" %}
-**Warning**
-
-File size limit is 100MB for this hosting method. Higher limits are available with a LobFile subscription.
-{% endhint %}
-
 Automatically upload your resourcepack on a **free online service** with servers all over the world.\
 Thanks a lot to [LobFile](https://lobfile.com/), which provides us their platform to host files for free!
 
@@ -42,6 +36,8 @@ Create an account on [LobFile here](https://lobfile.com/sign-up).
 
 Open your [account settings](https://lobfile.com/dashboard/general) and enable _**"Continuous Uploading"**_
 
+Every `/iazip` uploads a new copy of the pack. This option makes LobFile delete your oldest files when the account is full, so new uploads keep working.
+
 <figure><img src="../../../.gitbook/assets/lobfile_003.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 3
@@ -56,8 +52,10 @@ Enable `lobfile` in `config.yml` and disable all the other hosting methods.
 
 {% code title="ItemsAdder/config.yml" %}
 ```yaml
-lobfile:
-  enabled: true
+resource-pack:
+  hosting:
+    lobfile:
+      enabled: true
 ```
 {% endcode %}
 
@@ -84,7 +82,7 @@ Nothing else to do, enjoy your **free automated resourcepack hosting**.
 
 ## Will my resourcepack be available online to random people?
 
-2023-12-21:\
+2024-10-03:\
 Your resourcepack won't be indexed on Google and won't be published in a list of resourcepacks.\
 Only people who know the link can download the pack.
 
