@@ -36,7 +36,7 @@ Create an account on [LobFile here](https://lobfile.com/sign-up).
 
 Open your [account settings](https://lobfile.com/dashboard/general) and enable _**"Continuous Uploading"**_
 
-Every `/iazip` uploads a new copy of the pack. This option makes LobFile delete your oldest files when the account is full, so new uploads keep working. Deleted files can't be recovered, so don't keep other files you need on the same account.
+Every `/iazip` uploads a new copy of the pack. This option makes LobFile delete your oldest files when the account is full, so new uploads keep working.
 
 <figure><img src="../../../.gitbook/assets/lobfile_003.png" alt=""><figcaption></figcaption></figure>
 
