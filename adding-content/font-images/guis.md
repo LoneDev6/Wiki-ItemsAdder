@@ -18,6 +18,10 @@ This tells ItemsAdder to replace the GUI name with a `-16` offset special charac
 
 ![](<../../.gitbook/assets/guis_004.png>)
 
+{% hint style="info" %}
+If you use **DeluxeMenus**, the free [GUI Maker](https://bestmcserverlist.net/tools/gui) lets you lay out a chest menu in the browser and exports the background PNG, the `font_images` config for ItemsAdder and the DeluxeMenus menu file (title with the offsets already worked out) in one ZIP.
+{% endhint %}
+
 ## Example addon
 
 Here you can get an addon example\

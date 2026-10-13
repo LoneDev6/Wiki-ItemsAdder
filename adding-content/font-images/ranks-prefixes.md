@@ -38,6 +38,10 @@ It would make the ranks look pixelated.
 
 <figure><img src="../../.gitbook/assets/ranks-prefixes_017.png" alt=""><figcaption><p><a href="https://itemsadder.github.io/minecraft-rank-generator/">https://itemsadder.github.io/minecraft-rank-generator/</a></p></figcaption></figure>
 
+{% hint style="info" %}
+Another option is the free [Rank Designer](https://bestmcserverlist.net/tools/ranks): it draws the badges in the browser (icons, gradients, chat and tab preview) and exports the PNGs, the `font_images` config and the LuckPerms prefix commands in one ZIP.
+{% endhint %}
+
 Put the image into `contents/myranks/textures/font/admin.png`.
 
 #### Create a group (for example `admin`)
